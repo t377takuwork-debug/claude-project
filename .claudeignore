@@ -1,0 +1,16 @@
+# 作業中ドラフト・出力物（不要なスキャン防止）
+brands/s4lv/ai/drafts/
+brands/s4lv/ai/output/
+brands/s4lv/pro/output/
+blogs/cf_room/drafts/
+blogs/darepedia/drafts/
+blogs/shira_note/drafts/
+blogs/vtuber_log/drafts/
+
+# 有料記事タイトル設計時のみ必要（通常タスクでは不要）
+brands/s4lv/ai/reference_titles.md
+
+# ブログ側CLAUDE.md（未使用・空ファイル）
+blogs/cf_room/CLAUDE.md
+blogs/darepedia/CLAUDE.md
+blogs/vtuber_log/CLAUDE.md

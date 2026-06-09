@@ -1,0 +1,686 @@
+タイトル：【CDTV】2026年6月の出演者や曲目・セトリ一覧まとめ（放送アーカイブ）
+
+メタディスクリプション（104字）：
+2026年6月放送「CDTVライブ！ライブ！」のタイムテーブル、出演者、歌唱曲などを過去のアーカイブとして掲載。SixTONESのマンスリーライブや3時間SP・青春ソングフェス企画も振り返りでまとめています。
+
+<!-- wp:paragraph -->
+<p>この記事では、2026年6月に放送された『CDTVライブ！ライブ！』の出演アーティストや歌唱曲、そしてタイムテーブル（出演順）をアーカイブとしてまとめています。[nopc][title][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="CDTV放送情報" style="display:block;font-family:'Inter','Helvetica Neue',Arial,sans-serif;background:#000;color:#fff;border:1px solid #333;border-radius:4px;overflow:hidden;position:relative;max-width:100%;margin:16px 0;box-shadow:0 15px 35px rgba(0,0,0,0.6);">
+
+<div style="position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1px);background-size:12px 12px;opacity:0.4;pointer-events:none;z-index:1;"></div>
+
+<div style="position:relative;background:#ff008d;padding:6px 12px;display:flex;justify-content:space-between;align-items:center;clip-path:polygon(0 0,100% 0,96% 100%,0% 100%);z-index:2;">
+<div style="font-size:11px;font-weight:900;font-style:italic;letter-spacing:0.1em;">CDTV LIVE! LIVE!</div>
+<div style="display:flex;align-items:center;gap:6px;font-size:9px;font-weight:800;background:rgba(0,0,0,0.4);padding:2px 8px;border-radius:2px;">
+<span style="width:5px;height:5px;background:#f9ff00;border-radius:50%;box-shadow:0 0 6px #f9ff00;"></span>ARCHIVE
+</div>
+</div>
+
+<div style="position:relative;padding:12px;display:grid;gap:10px;z-index:2;">
+
+<div style="display:flex;gap:10px;">
+<div style="flex-shrink:0;font-size:8px;font-weight:900;background:#fff;color:#000;padding:2px 5px;transform:skewX(-15deg);min-width:56px;text-align:center;">BROADCAST</div>
+<div style="flex:1;">
+<span style="font-size:15px;font-weight:900;color:#f9ff00;display:block;line-height:1.2;">2026年6月度</span>
+<span style="font-size:10px;color:#aaa;font-weight:600;">TBS系列 2〜3時間生放送アーカイブ</span>
+</div>
+</div>
+
+<div style="display:flex;gap:10px;">
+<div style="flex-shrink:0;font-size:8px;font-weight:900;background:#ff008d;color:#fff;padding:2px 5px;transform:skewX(-15deg);min-width:56px;text-align:center;">STATUS</div>
+<div style="font-size:12px;font-weight:800;color:#ff008d;">6/1 放送回セットリスト確定 ／ 6/8（3時間SP）放送前・更新中</div>
+</div>
+
+<a href="https://shira-treat.com/cdtv-timetable/" style="display:block;background:rgba(255,0,141,0.1);border:1px solid rgba(255,0,141,0.3);padding:10px;text-decoration:none;color:#fff;border-radius:2px;" onmouseover="this.style.background='rgba(255,0,141,0.2)'" onmouseout="this.style.background='rgba(255,0,141,0.1)'">
+<div style="font-size:9px;font-weight:900;color:#ff008d;letter-spacing:0.1em;margin-bottom:4px;display:flex;align-items:center;gap:6px;">最新回速報 <span style="font-size:8px;font-weight:900;color:#000;background:#f9ff00;padding:1px 4px;border-radius:1px;letter-spacing:0;">NEXT</span></div>
+<div style="display:flex;align-items:center;gap:8px;">
+<div style="font-size:12px;font-weight:800;color:#fff;flex:1;">次回・最新放送回のタイムテーブル速報はこちら！</div>
+<span style="color:#ff008d;font-weight:900;font-size:12px;flex-shrink:0;">▶</span>
+</div>
+</a>
+
+<div style="display:flex;gap:10px;">
+<div style="flex-shrink:0;font-size:8px;font-weight:900;background:#fff;color:#000;padding:2px 5px;transform:skewX(-15deg);min-width:56px;text-align:center;">6/8 LINEUP</div>
+<div style="font-size:11.5px;line-height:1.6;">
+<b style="color:#ff008d;">&amp;TEAM</b>／<b style="color:#ff008d;">Kvi Baba</b>／<b style="color:#ff008d;">Kep1er</b>／<b style="color:#ff008d;">コブクロ</b>／<b style="color:#ff008d;">櫻坂46</b><br>
+<b style="color:#ff008d;">なにわ男子</b>／<b style="color:#ff008d;">FRUITS ZIPPER</b>／<b style="color:#ff008d;">Little Glee Monster</b><br>
+<b style="color:#ff008d;">SixTONES</b>（マンスリー第2週）／<b style="color:#ff008d;">LDH選抜</b>（踊ってみた）／青春ソングフェス各出演者
+</div>
+</div>
+
+<div style="display:flex;gap:10px;">
+<div style="flex-shrink:0;font-size:8px;font-weight:900;background:#fff;color:#000;padding:2px 5px;transform:skewX(-15deg);min-width:56px;text-align:center;">6/1 LINEUP</div>
+<div style="font-size:11.5px;line-height:1.6;">
+<b style="color:#ff008d;">NiziU</b>（西野カナコラボ）／<b style="color:#ff008d;">SixTONES</b>（マンスリー第1週）／<b style="color:#ff008d;">Girls²</b><br>ほか複数アーティスト
+</div>
+</div>
+
+<div style="background:rgba(255,242,0,0.12);border-left:3px solid #f9ff00;padding:6px 10px;font-size:10px;color:#f9ff00;font-weight:800;">
+公式タイムテーブル非公表のため、SNSのリアルタイム投稿・熱量を基準に実況順を再現しています
+</div>
+
+</div>
+
+<div style="background:#0a0a0a;padding:10px 14px;border-top:1px solid #222;text-align:center;">
+<a href="#st-toc-h-2" style="background:#fff;color:#000;text-decoration:none;font-size:10px;font-weight:900;padding:8px 16px;display:inline-block;">
+6月放送のタイムテーブル・セトリ一覧を見る ▶
+</a>
+</div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][mokujimae][/nopc]当サイト独自の視点として、SNS上の反響を交えた見どころ解説も掲載しているので、放送を振り返る際の参考にぜひ活用してください！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>2026年6月のCDTVライブ！ライブ！放送スケジュール</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"align":"center"} -->
+<figure class="wp-block-image aligncenter size-full is-resized"><img src="https://shira-treat.com/wp-content/uploads/2025/05/image-8-2-e1759217423282.webp" alt="CDTV タイムテーブル＆出演者一覧｜次回放送予定・セットリストも" class="wp-image-2192" style="width:839px;height:auto"/><figcaption class="wp-element-caption"><a href="https://www.tbs.co.jp/cdtv_livelive/">公式サイト</a>｜<a href="https://x.com/TBSCDTV">X(@TBSCDTV)</a></figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>2026年6月の『CDTVライブ！ライブ！』放送スケジュールは以下の通りです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div role="region" aria-label="2026年6月 CDTV放送スケジュール" style="font-family:'Inter','Hiragino Sans','Yu Gothic',sans-serif;margin:20px 0;border:1px solid #333;background:#000;color:#fff;border-radius:4px;overflow:hidden;box-shadow:0 15px 35px rgba(0,0,0,0.4);">
+
+<div style="background:#111;padding:12px 16px;border-bottom:1px solid #222;display:flex;align-items:center;gap:8px;">
+  <span style="display:inline-block;width:4px;height:16px;background:#ff008d;border-radius:2px;"></span>
+  <span style="font-size:12px;font-weight:800;color:#fff;letter-spacing:0.05em;">2026年6月 放送スケジュール一覧</span>
+</div>
+
+<div style="padding:8px 16px;">
+  <!-- 6月1日 -->
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:12px 0;border-bottom:1px solid #222;">
+    <div style="display:flex;align-items:center;gap:12px;">
+      <div style="text-align:center;width:50px;flex-shrink:0;">
+        <div style="font-size:10px;font-weight:800;color:#aaa;line-height:1;">JUN</div>
+        <div style="font-size:18px;font-weight:900;color:#fff;line-height:1.2;margin-top:2px;">1</div>
+      </div>
+      <div>
+        <div style="font-size:13px;font-weight:800;color:#fff;">6月1日（月）21:00〜23:00</div>
+        <div style="font-size:11px;font-weight:500;color:#aaa;margin-top:2px;">NiziU×西野カナコラボ・SixTONESマンスリー第1週（6周年記念）など</div>
+      </div>
+    </div>
+    <span style="font-size:10px;font-weight:800;color:#aaa;background:#222;padding:3px 8px;border-radius:2px;flex-shrink:0;">放送済</span>
+  </div>
+
+  <!-- 6月8日（リンク付き） -->
+  <a href="https://shira-treat.com/cdtv-timetable/" style="display:flex;align-items:center;justify-content:space-between;padding:12px 0;text-decoration:none;color:inherit;" onmouseover="this.style.background='rgba(255,0,141,0.08)'" onmouseout="this.style.background='transparent'">
+    <div style="display:flex;align-items:center;gap:12px;">
+      <div style="text-align:center;width:50px;flex-shrink:0;">
+        <div style="font-size:10px;font-weight:800;color:#ff008d;line-height:1;">JUN</div>
+        <div style="font-size:18px;font-weight:900;color:#ff008d;line-height:1.2;margin-top:2px;">8</div>
+      </div>
+      <div>
+        <div style="font-size:13px;font-weight:800;color:#fff;">6月8日（月）19:00〜22:00</div>
+        <div style="font-size:11px;font-weight:700;color:#ff008d;margin-top:2px;display:flex;align-items:center;gap:4px;">SixTONESマンスリー第2週・なにわ男子5周年メドレー・青春ソングフェス（3時間SP）<span style="font-size:12px;">›</span></div>
+      </div>
+    </div>
+    <span style="font-size:10px;font-weight:800;color:#000;background:#f9ff00;padding:3px 8px;border-radius:2px;flex-shrink:0;box-shadow:0 0 6px rgba(249,255,0,0.4);">最新速報</span>
+  </a>
+</div>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>6月は2時間通常放送（6/1）と3時間スペシャル（6/8）の放送。(更新予定)</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>NiziUと西野カナの豪華コラボや、SixTONESの6周年記念マンスリーライブ2週分、さらになにわ男子の5周年5曲メドレーや青春ソングフェス企画など、SNS上でも反響があるラインナップです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>6月8日（月）のタイムテーブル・セットリスト【3時間SP】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>22026年6月8日（月）19:00〜22:00に放送予定の『CDTVライブ！ライブ！』3時間スペシャルの事前発表情報です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>放送後にタイムライン（出演順）を追記・更新します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div aria-label="6月8日 出演アーティスト一覧（事前発表）" style="display:grid;grid-template-columns:repeat(2,1fr);gap:6px;margin:12px 0;background:#000;padding:10px;border-radius:6px;font-family:'Inter','Helvetica Neue',Arial,sans-serif;">
+
+<div style="position:relative;background:#111;border:1px solid #222;padding:10px 8px;">
+<div style="position:absolute;top:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
+<div style="color:#fff;font-size:13px;font-weight:900;font-style:italic;">&amp;TEAM</div>
+<div style="color:#f9ff00;font-size:10px;">「Bewitched」（3rd EP「We on Fire」収録曲）</div>
+</div>
+
+<div style="position:relative;background:#111;border:1px solid #222;padding:10px 8px;">
+<div style="position:absolute;top:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
+<div style="color:#fff;font-size:13px;font-weight:900;font-style:italic;">Kep1er</div>
+<div style="color:#f9ff00;font-size:10px;">「KILLA (Face the other me)」（新体制パフォーマンス）</div>
+</div>
+
+<div style="position:relative;background:#111;border:1px solid #222;padding:10px 8px;">
+<div style="position:absolute;top:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
+<div style="color:#fff;font-size:13px;font-weight:900;font-style:italic;">Kvi Baba</div>
+<div style="color:#f9ff00;font-size:10px;">「BPM feat. KREVA」（KREVAをゲストに迎えた最新曲）</div>
+</div>
+
+<div style="position:relative;background:#111;border:1px solid #222;padding:10px 8px;">
+<div style="position:absolute;top:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
+<div style="color:#fff;font-size:13px;font-weight:900;font-style:italic;">コブクロ</div>
+<div style="color:#f9ff00;font-size:10px;">「Starry Smile Story」（メジャーデビュー25周年記念日リリース曲）</div>
+</div>
+
+<div style="position:relative;background:#111;border:1px solid #222;padding:10px 8px;">
+<div style="position:absolute;top:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
+<div style="color:#fff;font-size:13px;font-weight:900;font-style:italic;">櫻坂46</div>
+<div style="color:#f9ff00;font-size:10px;">「What's "KAZOKU"?」（TVアニメ「夜桜さんちの大作戦」第2期OPテーマ）</div>
+</div>
+
+<div style="position:relative;background:#111;border:1px solid #222;padding:10px 8px;">
+<div style="position:absolute;top:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
+<div style="color:#fff;font-size:13px;font-weight:900;font-style:italic;">FRUITS ZIPPER</div>
+<div style="color:#f9ff00;font-size:10px;">「ぱわーオブらぶ」</div>
+</div>
+
+<div style="position:relative;background:#111;border:1px solid #222;padding:10px 8px;">
+<div style="position:absolute;top:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
+<div style="color:#fff;font-size:13px;font-weight:900;font-style:italic;">Little Glee Monster</div>
+<div style="color:#f9ff00;font-size:10px;">「一輪」（日曜劇場「GIFT」挿入歌）</div>
+</div>
+
+<div style="position:relative;background:#111;border:1px solid #222;padding:10px 8px;">
+<div style="position:absolute;top:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
+<div style="color:#fff;font-size:13px;font-weight:900;font-style:italic;">LDH選抜（9名）</div>
+<div style="color:#f9ff00;font-size:10px;">「HOT LIMIT」（T.M.Revolution）踊ってみた企画</div>
+</div>
+
+</div>
+
+<div style="margin:12px 0;background:#000;padding:10px;border-radius:6px;font-family:'Inter','Helvetica Neue',Arial,sans-serif;">
+
+<div style="position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;padding:12px;margin-bottom:8px;">
+<div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+<div style="color:#fff;font-size:14px;font-weight:900;font-style:italic;">なにわ男子</div>
+<span style="background:#ff00ea;color:#fff;font-size:9px;font-weight:900;padding:2px 6px;transform:skewX(-15deg);">5TH ANNIVERSARY MEDLEY</span>
+</div>
+<div style="color:#f9ff00;font-size:11px;font-weight:700;margin-bottom:6px;">「初心LOVE」「I Wish」「Circus Night」「The Answer」「Celebrate」（全5曲スペシャルメドレー）</div>
+<p style="margin:0;color:#aaa;font-size:10px;line-height:1.5;">CDデビュー5周年！「Circus Night」テレビ初披露＆ニューアルバム「ND⁵」リード曲「Celebrate」も含む豪華5曲メドレーを披露。</p>
+</div>
+
+<div style="position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;padding:12px;margin-bottom:8px;">
+<div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+<div style="color:#fff;font-size:14px;font-weight:900;font-style:italic;">SixTONES</div>
+<span style="background:#ff008d;color:#fff;font-size:9px;font-weight:900;padding:2px 6px;transform:skewX(-15deg);">MONTHLY LIVE 2nd WEEK</span>
+</div>
+<div style="color:#f9ff00;font-size:11px;font-weight:700;margin-bottom:6px;">「Strawberry Breakfast」（民放TV初披露）／「バリア」／「Flower cloud」（民放TV初披露）／「マスカラ」</div>
+<p style="margin:0;color:#aaa;font-size:10px;line-height:1.5;">6月度マンスリーライブ第2週はラブソングテーマ。民放テレビ初披露2曲を含む4曲フルサイズで3時間SPのフィナーレを飾ります。</p>
+</div>
+
+<div style="position:relative;background:#111;border:1px solid #222;border-radius:4px;padding:12px;">
+<div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#f9ff00,#ffb300);"></div>
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
+<div style="color:#fff;font-size:14px;font-weight:900;font-style:italic;">青春ソングフェス</div>
+<span style="background:#f9ff00;color:#000;font-size:9px;font-weight:900;padding:2px 6px;transform:skewX(-15deg);">SPECIAL SESSION</span>
+</div>
+<div style="color:#f9ff00;font-size:11px;font-weight:700;margin-bottom:6px;">
+アンダーグラフ「ツバサ」／K &amp; JO（&amp;TEAM）「Love so sweet」（嵐カバー）／コブクロ「君という名の翼」<br>BAAD「君が好きだと叫びたい」／hitomi「LOVE 2000」／前田有嬉（ex.Whiteberry）「夏祭り」
+</div>
+<p style="margin:0;color:#aaa;font-size:10px;line-height:1.5;">青春時代の名曲をオリジナルアーティストや特別コラボで披露。&amp;TEAMのK&amp;JOによる嵐「Love so sweet」カバーも話題必至。</p>
+</div>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>※タイムラインは2026年6月8日（月）の放送後に更新予定。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>6月8日の3時間スペシャルは、SixTONESが「ラブソング」テーマで4曲フルサイズを披露するマンスリーライブ第2週と、なにわ男子のデビュー5周年記念5曲メドレーが最大の注目ポイントです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>そのほかにも「青春ソングフェス」企画や、LDH9名がT.M.Revolutionの「HOT LIMIT」を披露する「踊ってみた！」企画など、3時間フルに楽しめる内容となっています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>6月1日（月）のタイムテーブル・セットリスト</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>2026年6月1日（月）に放送された『CDTVライブ！ライブ！』の放送内容に基づくセットリストとタイムテーブルです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div role="region" aria-label="6月1日 CDTV 出演者・歌唱曲一覧" style="font-family:'Helvetica Neue',Arial,'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif;margin:24px 0;border:1px solid #222;background:#000;color:#fff;border-radius:6px;overflow:hidden;box-shadow:0 12px 30px rgba(0,0,0,0.6);">
+  <div style="background:#111;padding:14px 18px;border-bottom:2px solid #222;display:flex;align-items:center;gap:10px;">
+    <span style="display:inline-block;width:4px;height:18px;background:#ff008d;border-radius:2px;"></span>
+    <span style="font-size:13px;font-weight:900;color:#fff;letter-spacing:0.08em;text-transform:uppercase;">6月1日 出演アーティスト・歌唱曲一覧</span>
+  </div>
+  <div style="overflow-x:auto;">
+    <table style="width:100%;border-collapse:collapse;text-align:left;font-size:13.5px;min-width:500px;">
+      <thead>
+        <tr style="background:#0a0a0a;border-bottom:1px solid #222;">
+          <th style="padding:14px 18px;font-weight:800;color:#888;width:35%;letter-spacing:0.05em;">ARTIST</th>
+          <th style="padding:14px 18px;font-weight:800;color:#888;width:65%;letter-spacing:0.05em;">SONG</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:1px solid #161616;background:#000;">
+          <td style="padding:14px 18px;font-weight:700;color:#fff;">NiziU（西野カナ feat.）</td>
+          <td style="padding:14px 18px;color:#e5e5e5;font-weight:500;">LOVE BEAT <span style="font-size:10px;color:#fff;font-weight:900;background:#ff008d;padding:2px 5px;border-radius:2px;margin-left:6px;">西野カナコラボ・オープニング</span></td>
+        </tr>
+        <tr style="border-bottom:1px solid #161616;background:#050505;">
+          <td style="padding:14px 18px;font-weight:700;color:#fff;">SixTONES</td>
+          <td style="padding:14px 18px;color:#e5e5e5;font-weight:500;line-height:1.5;">Imitation Rain ／ Good Luck ／ ABARERO ほか複数曲 <span style="font-size:10px;color:#000;font-weight:900;background:#f9ff00;padding:2px 5px;border-radius:2px;margin-left:6px;">マンスリー第1週・6周年記念・全曲フル</span></td>
+        </tr>
+        <tr style="background:#000;">
+          <td style="padding:14px 18px;font-weight:700;color:#fff;">Girls²</td>
+          <td style="padding:14px 18px;color:#e5e5e5;font-weight:500;">TIP TOP <span style="font-size:10px;color:#fff;font-weight:900;background:#ff008d;padding:2px 5px;border-radius:2px;margin-left:6px;">番組大トリ</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>6/1は公式の事前発表タイムテーブルはありません。実際の放送の流れを基に、タイムテーブル（出演順）を掲載しています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div role="region" aria-label="6月1日 CDTV 実際の出演順アーカイブ" style="font-family:'Helvetica Neue',Arial,'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif;margin:24px 0;border:1px solid #222;background:#000;color:#fff;border-radius:6px;overflow:hidden;box-shadow:0 12px 30px rgba(0,0,0,0.6);">
+
+  <div style="padding:16px 18px 14px;border-bottom:1px solid #222;position:relative;background:#111;">
+    <div style="position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,#ff008d,#f9ff00);"></div>
+    <div style="font-size:12px;font-weight:900;color:#fff;letter-spacing:0.06em;display:flex;align-items:center;gap:8px;">
+      <span style="display:inline-block;width:8px;height:8px;background:#ff008d;border-radius:50%;box-shadow:0 0 8px #ff008d;"></span>
+      6月1日 SETLIST TIMELINE
+    </div>
+  </div>
+
+  <div style="padding:8px 18px 18px;">
+    <dl style="margin:0;display:grid;gap:0;">
+
+      <div style="display:grid;grid-template-columns:80px 1fr;gap:16px;align-items:center;padding:14px 0;border-bottom:1px solid #161616;">
+        <dt style="font-size:11px;font-weight:900;color:#000;background:#fff;border-radius:3px;text-align:center;padding:3px 0;letter-spacing:0.02em;">21:01頃〜</dt>
+        <dd style="margin:0;font-size:14px;font-weight:800;color:#fff;">NiziU（西野カナ feat.）<span style="font-size:12px;font-weight:500;color:#aaa;display:block;margin-top:3px;">「LOVE BEAT」（コラボ・オープニングアクト）</span></dd>
+      </div>
+
+      <div style="display:grid;grid-template-columns:80px 1fr;gap:16px;align-items:center;padding:14px 0;border-bottom:1px solid #161616;">
+        <dt style="font-size:11px;font-weight:900;color:#000;background:#fff;border-radius:3px;text-align:center;padding:3px 0;letter-spacing:0.02em;">21:10頃〜</dt>
+        <dd style="margin:0;font-size:14px;font-weight:800;color:#fff;">5月月間ランキング発表<span style="font-size:12px;font-weight:500;color:#f9ff00;display:block;margin-top:3px;">1位：Snow Man「BANG!!」 / BE:FIRSTスタジアム映像特集など</span></dd>
+      </div>
+
+      <div style="display:grid;grid-template-columns:80px 1fr;gap:16px;align-items:center;padding:16px 0;border-bottom:1px solid #161616;">
+        <dt style="font-size:11px;font-weight:900;color:#fff;background:#ff008d;border-radius:3px;text-align:center;padding:3px 0;letter-spacing:0.02em;box-shadow:0 0 6px rgba(255,0,141,0.4);">21:25頃〜</dt>
+        <dd style="margin:0;font-size:14px;font-weight:800;color:#ff008d;">SixTONES<span style="font-size:12px;font-weight:700;color:#fff;display:block;margin-top:4px;line-height:1.4;">マンスリーライブ第1週・6周年記念企画<br><span style="color:#aaa;font-weight:500;">（Imitation Rain ／ Good Luck ／ ABARERO ほか複数曲フルサイズ）</span></span></dd>
+      </div>
+
+      <div style="display:grid;grid-template-columns:80px 1fr;gap:16px;align-items:center;padding:14px 0;border-bottom:1px solid #161616;">
+        <dt style="font-size:11px;font-weight:900;color:#000;background:#fff;border-radius:3px;text-align:center;padding:3px 0;letter-spacing:0.02em;">21:40頃〜</dt>
+        <dd style="margin:0;font-size:14px;font-weight:800;color:#fff;">LDH関連特集・VTR<span style="font-size:12px;font-weight:500;color:#aaa;display:block;margin-top:3px;">BE:FIRSTスタジアム映像・アーティスト特集</span></dd>
+      </div>
+
+      <div style="display:grid;grid-template-columns:80px 1fr;gap:16px;align-items:center;padding:14px 0;border-bottom:1px solid #161616;">
+        <dt style="font-size:11px;font-weight:900;color:#000;background:#f9ff00;border-radius:3px;text-align:center;padding:3px 0;letter-spacing:0.02em;">21:55頃〜</dt>
+        <dd style="margin:0;font-size:14px;font-weight:800;color:#fff;">Girls²<span style="font-size:12px;font-weight:500;color:#aaa;display:block;margin-top:3px;">「TIP TOP」</span></dd>
+      </div>
+
+      <div style="display:grid;grid-template-columns:80px 1fr;gap:16px;align-items:center;padding:14px 0;border-bottom:1px solid #161616;">
+        <dt style="font-size:11px;font-weight:900;color:#000;background:#f9ff00;border-radius:3px;text-align:center;padding:3px 0;letter-spacing:0.02em;">22:10頃〜</dt>
+        <dd style="margin:0;font-size:14px;font-weight:800;color:#fff;">月間ランキング発表（後半）・追加特集<span style="font-size:12px;font-weight:500;color:#aaa;display:block;margin-top:3px;">上位アーティスト発表・VTR挿入</span></dd>
+      </div>
+
+      <div style="display:grid;grid-template-columns:80px 1fr;gap:16px;align-items:center;padding:14px 0;border-bottom:1px solid #161616;">
+        <dt style="font-size:11px;font-weight:900;color:#000;background:#f9ff00;border-radius:3px;text-align:center;padding:3px 0;letter-spacing:0.02em;">22:25頃〜</dt>
+        <dd style="margin:0;font-size:14px;font-weight:800;color:#fff;">追加アーティストライブ（複数）<span style="font-size:12px;font-weight:500;color:#aaa;display:block;margin-top:3px;">複数アーティストによるフルサイズ中心のライブ（詳細更新予定）</span></dd>
+      </div>
+
+      <div style="display:grid;grid-template-columns:80px 1fr;gap:16px;align-items:center;padding:14px 0;">
+        <dt style="font-size:11px;font-weight:900;color:#000;background:#f9ff00;border-radius:3px;text-align:center;padding:3px 0;letter-spacing:0.02em;">22:45頃〜</dt>
+        <dd style="margin:0;font-size:14px;font-weight:800;color:#fff;">エンディング・次回予告<span style="font-size:12px;font-weight:500;color:#f9ff00;display:block;margin-top:3px;">「次回6/8（月）CDTVライブ！ライブ！3時間スペシャル」告知</span></dd>
+      </div>
+
+    </dl>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>6月1日は、オープニングを西野カナとNiziUのコラボ「LOVE BEAT」が飾り、SNS上でも大きな反響がありました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>SixTONESのマンスリーライブ第1週は、デビュー6周年を迎えた記念すべき企画が特に大きな話題に。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>番組の最後には、Girls²が「TIP TOP」を披露。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>CDTVライブ！ライブ！の出演順・タイムテーブルの傾向</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>『CDTVライブ！ライブ！』は、通常放送（2時間枠）の場合は公式から事前に詳細なタイムテーブルが発表されないのが基本です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div role="region" aria-label="CDTVライブ！ライブ！出演順 4つの傾向" style="font-family:'Helvetica Neue',Arial,'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif;margin:30px 0;background:#000;color:#fff;border-radius:8px;overflow:hidden;box-shadow:0 15px 35px rgba(0,0,0,0.5);border:1px solid #222;">
+
+  <div style="background:#111;padding:18px 20px;border-bottom:2px solid #ff008d;position:relative;">
+    <div style="margin:0;font-size:16px;font-weight:900;color:#fff;letter-spacing:0.05em;display:flex;align-items:center;gap:8px;">
+      <span style="display:inline-block;width:5px;height:18px;background:#f9ff00;border-radius:2px;"></span>
+      知っておきたい！CDTVライブ！ライブ！出演順・タイムテーブル4つの傾向
+    </div>
+  </div>
+
+  <div style="padding:20px;display:grid;gap:20px;">
+
+    <div style="background:#0a0a0a;border:1px solid #ff008d;border-radius:6px;padding:18px;position:relative;box-shadow:0 0 10px rgba(255,0,141,0.15);">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+        <span style="font-size:11px;font-weight:900;background:#ff008d;color:#fff;padding:2px 6px;border-radius:3px;letter-spacing:0.05em;">傾向 01</span>
+        <div style="margin:0;font-size:14.5px;font-weight:800;color:#ff008d;">長時間スペシャルは前日や当日に「時間帯別タイムテーブル」が事前発表される</div>
+      </div>
+      <p style="margin:0;font-size:13px;color:#aaa;line-height:1.6;font-weight:500;">3時間〜4時間以上の大型特番（長時間SP）の日に限り、<strong style="color:#ff008d;">放送の前日夜、または当日の朝〜お昼頃</strong>にかけて、公式X（旧Twitter）や公式サイトにて<strong style="color:#fff;">「19時台」「20時台」といった時間帯ごとの出演アーティスト</strong>が事前に発表される傾向があります。ただし、その時間帯の中での細かい出演順（何分に歌うか）までは発表されないため、該当の時間帯の開始からは待機が必要です。</p>
+    </div>
+
+    <div style="background:#0a0a0a;border:1px solid #222;border-radius:6px;padding:18px;position:relative;">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+        <span style="font-size:11px;font-weight:900;background:#ff008d;color:#fff;padding:2px 6px;border-radius:3px;letter-spacing:0.05em;">傾向 02</span>
+        <div style="margin:0;font-size:14.5px;font-weight:800;color:#fff;">オープニングからアクセル全開！大物・注目株の「フルサイズ激アツ開幕」</div>
+      </div>
+      <p style="margin:0;font-size:13px;color:#aaa;line-height:1.6;font-weight:500;">番組開始直後（通常枠の20:00、SP時の19:00など）のトップバッターに、その日の目玉アーティストや超人気グループがいきなり登場することが多いのが特徴です。出し惜しみなく最初から<strong style="color:#ff008d;">「フルサイズ歌唱」</strong>で視聴者の心を一気に掴みにかかります。</p>
+    </div>
+
+    <div style="background:#0a0a0a;border:1px solid #222;border-radius:6px;padding:18px;position:relative;">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+        <span style="font-size:11px;font-weight:900;background:#ff008d;color:#fff;padding:2px 6px;border-radius:3px;letter-spacing:0.05em;">傾向 03</span>
+        <div style="margin:0;font-size:14.5px;font-weight:800;color:#fff;">複数曲披露は「中盤の特設ブロック」か「前半・大トリ」に集中</div>
+      </div>
+      <p style="margin:0;font-size:13px;color:#aaa;line-height:1.6;font-weight:500;">マンスリーアーティストや2曲以上披露するアクトがいる場合、中盤に<strong style="color:#f9ff00;">「◯◯特設ライブフェス」</strong>として数曲ノンストップで連続で歌い上げる独立ブロックが組まれる傾向にあります。それ以外の場合は、オープニング直後と番組のラスト（大トリ）に綺麗に分散配置されます。</p>
+    </div>
+
+    <div style="background:#0a0a0a;border:1px solid #222;border-radius:6px;padding:18px;position:relative;">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;">
+        <span style="font-size:11px;font-weight:900;background:#f9ff00;color:#000;padding:2px 6px;border-radius:3px;letter-spacing:0.05em;">傾向 04</span>
+        <div style="margin:0;font-size:14.5px;font-weight:800;color:#fff;">名物ランキングVTR企画の裏は「ステージの大規模セット転換」</div>
+      </div>
+      <p style="margin:0;font-size:13px;color:#aaa;line-height:1.6;font-weight:500;">番組中盤の「CDTVオリジナルランキング」などのVTR企画が流れている時間は、生放送スタジオのセットを丸ごと入れ替える大転換が行われています。この<strong style="color:#fff;border-bottom:1px dashed #fff;">VTR企画が明けたタイミング</strong>から、番組終了に向けてこだわりの演出を詰め込んだ怒濤の後半戦ライブが再開するため、絶対に見逃せない重要ポイントです。</p>
+    </div>
+
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>4時間以上などの「長時間スペシャル」の日に限り、前日や当日に、公式X（旧Twitter）や公式サイトで時間帯ごと（19時台・20時台など）のタイムテーブルが事前に発表される傾向があります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>CDTVライブ！ライブ！の見逃し配信・再放送について</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>『CDTVライブ！ライブ！』は、通常放送（月曜）を中心に民放無料配信サービス「TVer（ティーバー）」で見逃し配信が行われています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div role="region" aria-label="CDTV見逃し情報" style="margin:30px 0;background:#000;border:1px solid #222;border-radius:6px;overflow:hidden;box-shadow:0 15px 35px rgba(0,0,0,0.6);font-family:'Helvetica Neue',Arial,'Hiragino Kaku Gothic ProN',sans-serif;position:relative;">
+
+  <div style="position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,0.06) 1px,transparent 1px);background-size:12px 12px;opacity:.5;pointer-events:none;"></div>
+
+  <div style="position:relative;background:#ff008d;padding:10px 14px;display:flex;justify-content:space-between;align-items:center;clip-path:polygon(0 0,100% 0,96% 100%,0% 100%);">
+    <div style="font-size:12px;font-weight:900;font-style:italic;letter-spacing:.1em;color:#fff;">CDTV LIVE! LIVE! STREAMING</div>
+    <div style="font-size:9px;font-weight:900;background:rgba(0,0,0,0.4);padding:2px 8px;border-radius:2px;color:#f9ff00;letter-spacing:0.05em;">ATTENTION</div>
+  </div>
+
+  <div style="position:relative;padding:16px 18px;">
+    <div style="font-size:14px;font-weight:900;color:#f9ff00;margin-bottom:12px;display:flex;align-items:center;gap:6px;">
+      <span style="display:inline-block;width:4px;height:14px;background:#f9ff00;"></span>
+      見逃し配信・再放送の最新傾向
+    </div>
+    <div style="display:flex;border-bottom:1px solid #1a1a1a;">
+      <div style="width:100px;font-size:11px;font-weight:900;color:#888;padding:12px;background:#0a0a0a;display:flex;align-items:center;">再放送</div>
+      <div style="flex:1;padding:12px;font-size:12px;font-weight:900;color:#ff4d4d;display:flex;align-items:center;">なし（地上波での再放送はありません）</div>
+    </div>
+    <div style="display:flex;border-bottom:1px solid #1a1a1a;">
+      <div style="width:100px;font-size:11px;font-weight:900;color:#888;padding:12px;background:#0a0a0a;display:flex;align-items:center;">TVer配信</div>
+      <div style="flex:1;padding:12px;font-size:12px;font-weight:900;color:#00ffcc;line-height:1.4;">あり（通常放送のみ・約1週間）<br><span style="font-size:10px;color:#aaa;font-weight:500;">※3時間以上の大型特番・長時間SPは配信されないケースが多発します</span></div>
+    </div>
+    <div style="display:flex;">
+      <div style="width:100px;font-size:11px;font-weight:900;color:#888;padding:12px;background:#0a0a0a;display:flex;align-items:center;">確実な視聴法</div>
+      <div style="flex:1;padding:12px;font-size:12px;font-weight:800;color:#eee;line-height:1.4;">通常回はTVerを活用。特番や絶対に見たい推しグループがいる日は<strong style="color:#ff008d;">「地上波リアルタイム視聴」か「録画」</strong>が鉄則！</div>
+    </div>
+    <div style="margin-top:16px;">
+      <a href="https://tver.jp/series/sr2cbxi72h" target="_blank" rel="nofollow noopener noreferrer" style="display:flex;align-items:center;justify-content:center;height:42px;background:#00d4ff;color:#000;text-decoration:none;font-size:12px;font-weight:900;border-radius:4px;box-shadow:0 4px 12px rgba(0,212,255,0.3);letter-spacing:.05em;">TVerで「CDTVライブ！ライブ！」をチェックする ▶</a>
+    </div>
+    <div style="margin-top:14px;background:rgba(255,0,141,0.06);border-left:3px solid #ff008d;padding:10px 12px;font-size:10px;font-weight:700;color:#ff85c2;line-height:1.6;">
+      ※配信が開始されるのは放送終了後からとなります。また、権利関係（ジャニーズ系、海外アーティスト、一部コラボ企画など）により、特定の楽曲や出演パートがカットされて配信される場合があります。
+    </div>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>配信は放送終了後からスタートし、次回放送までの約1週間限定で無料視聴が可能です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>2026年6月放送の『CDTVライブ！ライブ！』に関する最新のタイムテーブルや出演者情報をまとめました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>この記事では、CDTVならではの「こだわりのフルサイズ歌唱」の興奮をいつでも振り返れるよう、過去のセットリストをアーカイブとしてお届けしています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>また、最新回が放送される際も、リアルタイムでタイムテーブルや歌唱曲の情報を最速で追い続けています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>さらに、CDTV以外の大型音楽特番やフェス、注目音楽番組のタイムテーブル・セトリ情報も以下の関連記事にて徹底的にまとめています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>音楽ライフをより楽しむための参考にしていただけたら幸いです！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="margin:18px 0 14px;background:#ffffff;border:1px solid #e5e7eb;border-radius:8px;padding:12px 10px;font-family:'Inter','Helvetica Neue',Arial,sans-serif;box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+
+  <div style="display:flex;align-items:center;background:#f8fafc;padding:5px 10px;border-radius:5px;margin-bottom:8px;">
+    <span style="width:3px;height:11px;background:#ff008d;margin-right:8px;border-radius:1px;"></span>
+    <p style="margin:0;font-size:10px;font-weight:800;color:#334155;letter-spacing:0.02em;">他の音楽特番もチェック</p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px;">
+    <a href="https://shira-treat.com/star-timetable/" style="display:flex;align-items:center;justify-content:center;height:34px;background:#ffffff;border:1px solid #dbe3ec;border-radius:5px;text-decoration:none;box-sizing:border-box;">
+      <span style="font-size:10px;font-weight:900;color:#1f2937;letter-spacing:0.03em;display:flex;align-items:center;">STAR <span style="font-size:14px;margin-left:6px;color:#ff008d;">›</span></span>
+    </a>
+    <a href="https://shira-treat.com/music-station-timetable/" style="display:flex;align-items:center;justify-content:center;height:34px;background:#ffffff;border:1px solid #dbe3ec;border-radius:5px;text-decoration:none;box-sizing:border-box;">
+      <span style="font-size:10px;font-weight:900;color:#1f2937;letter-spacing:0.03em;display:flex;align-items:center;">Mステ <span style="font-size:14px;margin-left:6px;color:#ff008d;">›</span></span>
+    </a>
+    <a href="https://shira-treat.com/fnskayousai-timetable/" style="display:flex;align-items:center;justify-content:center;height:34px;background:#ffffff;border:1px solid #dbe3ec;border-radius:5px;text-decoration:none;box-sizing:border-box;">
+      <span style="font-size:10px;font-weight:900;color:#1f2937;letter-spacing:0.03em;display:flex;align-items:center;">FNS歌謡祭 <span style="font-size:14px;margin-left:6px;color:#ff008d;">›</span></span>
+    </a>
+    <a href="https://shira-treat.com/ongakunohi-timetable/" style="display:flex;align-items:center;justify-content:center;height:34px;background:#ffffff;border:1px solid #dbe3ec;border-radius:5px;text-decoration:none;box-sizing:border-box;">
+      <span style="font-size:10px;font-weight:900;color:#1f2937;letter-spacing:0.03em;display:flex;align-items:center;">音楽の日 <span style="font-size:14px;margin-left:6px;color:#ff008d;">›</span></span>
+    </a>
+    <a href="https://shira-treat.com/the-musicday-timetable/" style="display:flex;align-items:center;justify-content:center;height:34px;background:#ffffff;border:1px solid #dbe3ec;border-radius:5px;text-decoration:none;box-sizing:border-box;">
+      <span style="font-size:10px;font-weight:900;color:#1f2937;letter-spacing:0.03em;display:flex;align-items:center;">THE MUSIC DAY <span style="font-size:14px;margin-left:6px;color:#ff008d;">›</span></span>
+    </a>
+  </div>
+
+  <div style="display:flex;align-items:center;background:#f8fafc;padding:5px 10px;border-radius:5px;margin-bottom:8px;">
+    <span style="width:3px;height:11px;background:#64748b;margin-right:8px;border-radius:1px;"></span>
+    <p style="margin:0;font-size:10px;font-weight:800;color:#334155;letter-spacing:0.02em;">出演者の作品を探す</p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px;">
+    <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display:flex;align-items:center;justify-content:center;height:34px;background:#232f3e;border-radius:5px;text-decoration:none;box-sizing:border-box;border-bottom:2px solid #161d26;">
+      <span style="font-size:10px;font-weight:900;color:#ffffff;letter-spacing:0.05em;display:flex;align-items:center;">Amazon <span style="font-size:14px;margin-left:6px;color:#ff9900;">›</span></span>
+    </a>
+    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fhourly%2F002%2F%3Fl-id%3Dheader-subnavi-cd-ranking" target="_blank" rel="nofollow sponsored noopener noreferrer" referrerpolicy="no-referrer-when-downgrade" style="display:flex;align-items:center;justify-content:center;height:34px;background:#bf0000;border-radius:5px;text-decoration:none;box-sizing:border-box;border-bottom:2px solid #8a0000;">
+      <span style="font-size:10px;font-weight:900;color:#ffffff;letter-spacing:0.05em;display:flex;align-items:center;">楽天ブックス <span style="font-size:14px;margin-left:6px;color:#ffffff;opacity:0.8;">›</span></span>
+    </a>
+  </div>
+
+  <img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+
+  <a href="https://amzn.to/3NjAmbl" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display:flex;align-items:center;justify-content:flex-start;height:40px;background:linear-gradient(90deg,#001a4d,#003399);border-radius:5px;text-decoration:none;box-sizing:border-box;border:1px solid #00d4ff;box-shadow:0 2px 4px rgba(0,0,0,0.08);padding:0 15px;">
+    <span style="font-size:9px;font-weight:900;color:#00d4ff;border:1px solid #00d4ff;padding:1px 4px;border-radius:2px;margin-right:12px;margin-left:3px;">Music</span>
+    <span style="font-size:11px;font-weight:800;color:#ffffff;letter-spacing:0.05em;">Amazon Musicで楽曲を探す</span>
+    <span style="font-size:18px;color:#00d4ff;margin-left:auto;">›</span>
+  </a>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<!-- MANUAL_JSONLD_ARCHIVE -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://shira-treat.com/cdtv-2026June/#article",
+      "url": "https://shira-treat.com/cdtv-2026June/",
+      "headline": "【CDTV】2026年6月の出演者や曲目・セトリ一覧まとめ（放送アーカイブ）",
+      "description": "2026年6月放送「CDTVライブ！ライブ！」のタイムテーブル、出演者、歌唱曲などを過去のアーカイブとして掲載。SixTONESのマンスリーライブや3時間SP・青春ソングフェス企画も振り返りでまとめています。",
+      "articleSection": "アーカイブ",
+      "keywords": [
+        "CDTV", "CDTVライブ！ライブ！", "カウントダウンTV",
+        "2026年6月", "出演者", "セットリスト", "タイムテーブル", "アーカイブ",
+        "NiziU", "西野カナ", "SixTONES", "Girls²",
+        "&TEAM", "Kvi Baba", "KREVA", "Kep1er", "コブクロ", "櫻坂46",
+        "なにわ男子", "FRUITS ZIPPER", "Little Glee Monster", "LDH選抜",
+        "アンダーグラフ", "BAAD", "hitomi", "前田有嬉"
+      ],
+      "datePublished": "2026-06-02T10:00:00+09:00",
+      "dateCreated": "2026-06-02T10:00:00+09:00",
+      "dateModified": "2026-06-02T10:00:00+09:00",
+      "inLanguage": "ja",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://shira-treat.com/cdtv-2026June/#image",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/06/image-3.webp",
+        "width": 839,
+        "height": 630,
+        "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/06/image-3.webp"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/operator-information/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/",
+        "sameAs": ["https://x.com/ShiraNotes_"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "CDTVライブ！ライブ！",
+        "sameAs": ["https://www.tbs.co.jp/cdtv_livelive/"]
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://shira-treat.com/cdtv-2026June/#broadcastlist",
+      "name": "2026年6月 CDTVライブ！ライブ！放送一覧",
+      "description": "2026年6月に放送されたCDTVライブ！ライブ！の全放送回セットリスト・タイムテーブルアーカイブ",
+      "itemListOrder": "https://schema.org/ItemListOrderDescending",
+      "numberOfItems": 2,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "BroadcastEvent",
+            "name": "CDTVライブ！ライブ！（2026年6月8日放送・3時間スペシャル）",
+            "startDate": "2026-06-08T19:00:00+09:00",
+            "endDate": "2026-06-08T22:00:00+09:00",
+            "eventStatus": "https://schema.org/EventScheduled",
+            "isLiveBroadcast": true,
+            "location": { "@type": "VirtualLocation", "url": "https://www.tbs.co.jp/cdtv_livelive/" },
+            "organizer": { "@type": "Organization", "name": "TBS", "url": "https://www.tbs.co.jp/" },
+            "performer": [
+              { "@type": "MusicGroup", "name": "SixTONES" },
+              { "@type": "MusicGroup", "name": "なにわ男子" },
+              { "@type": "MusicGroup", "name": "櫻坂46" },
+              { "@type": "MusicGroup", "name": "&TEAM" },
+              { "@type": "MusicGroup", "name": "Kep1er" },
+              { "@type": "Person",     "name": "Kvi Baba" },
+              { "@type": "Person",     "name": "KREVA" },
+              { "@type": "MusicGroup", "name": "コブクロ" },
+              { "@type": "MusicGroup", "name": "FRUITS ZIPPER" },
+              { "@type": "MusicGroup", "name": "Little Glee Monster" },
+              { "@type": "MusicGroup", "name": "LDH選抜" },
+              { "@type": "MusicGroup", "name": "アンダーグラフ" },
+              { "@type": "MusicGroup", "name": "BAAD" },
+              { "@type": "Person",     "name": "hitomi" },
+              { "@type": "Person",     "name": "前田有嬉" }
+            ]
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "BroadcastEvent",
+            "name": "CDTVライブ！ライブ！（2026年6月1日放送）",
+            "startDate": "2026-06-01T21:00:00+09:00",
+            "endDate": "2026-06-01T23:00:00+09:00",
+            "eventStatus": "https://schema.org/EventScheduled",
+            "isLiveBroadcast": true,
+            "location": { "@type": "VirtualLocation", "url": "https://www.tbs.co.jp/cdtv_livelive/" },
+            "organizer": { "@type": "Organization", "name": "TBS", "url": "https://www.tbs.co.jp/" },
+            "performer": [
+              { "@type": "MusicGroup", "name": "NiziU" },
+              { "@type": "Person",     "name": "西野カナ" },
+              { "@type": "MusicGroup", "name": "SixTONES" },
+              { "@type": "MusicGroup", "name": "Girls²" }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://shira-treat.com/cdtv-2026June/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "ホーム",              "item": "https://shira-treat.com/" },
+        { "@type": "ListItem", "position": 2, "name": "CDTVライブ！ライブ！", "item": "https://shira-treat.com/category/musictv/countdown-tv/" },
+        { "@type": "ListItem", "position": 3, "name": "2026年6月アーカイブ", "item": "https://shira-treat.com/cdtv-2026June/" }
+      ]
+    }
+  ]
+}
+</script>
+<!-- /wp:html -->

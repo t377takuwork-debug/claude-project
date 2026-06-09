@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:note.com)",
+      "WebSearch",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\PC_User\\\\claude project\" -Directory)",
+      "Bash(Select-Object Name)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\PC_User\\\\claude project\" -Force | Select-Object Name, @{Name='Type'; Expression={if\\($_.PSIsContainer\\){'Dir'}else{'File'}}})",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\PC_User\\\\claude project\\\\brands\\\\mbticode\\\\articles\" -Recurse -Force | Select-Object FullName | ForEach-Object {$_.FullName -replace [regex]::Escape\\(\"C:\\\\Users\\\\PC_User\\\\claude project\\\\brands\\\\mbticode\\\\articles\"\\), \"\"}  | Sort-Object)",
+      "PowerShell(Move-Item *)"
+    ]
+  }
+}

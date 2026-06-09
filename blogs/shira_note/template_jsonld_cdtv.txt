@@ -1,0 +1,156 @@
+# CDTV JSON-LD テンプレート
+# ALL_CAPS の箇所を毎回差し替える。それ以外は固定。
+# FAQPage の Q&A は記事本文と一字一句一致させること（3問）。
+
+## プレースホルダー一覧
+
+| プレースホルダー | 内容 | 例 |
+|---|---|---|
+| HEADLINE | タイトル（WPタイトル欄と同一） | 【CDTV】タイムテーブル 6月8日速報！... |
+| META_DESCRIPTION | メタディスクリプション（同一文字列） | CDTVライブ！ライブ！6月8日... |
+| DATE_MODIFIED | 更新日時ISO形式 | 2026-06-08T10:00:00+09:00 |
+| EYECATCH_URL | アイキャッチ画像URL | https://shira-treat.com/wp-content/... |
+| DATE_ISO_TAG | keywords用日付 | 2026-06-08 |
+| ARTIST_KEYWORDS | keywordsに追加する出演者名（カンマ区切り） | "SixTONES", "なにわ男子", ... |
+| BROADCAST_DATE_JA | 放送日（日本語） | 2026年6月8日 |
+| BROADCAST_DESC | BroadcastEvent説明文 | 2026年6月8日（月）19:00〜... |
+| START_ISO | 放送開始ISO | 2026-06-08T19:00:00+09:00 |
+| END_ISO | 放送終了ISO | 2026-06-08T20:55:00+09:00 ※3時間SPは22:00 |
+| N_ARTISTS | 出演者総数（整数） | 8 |
+| FAQ_Q1 / FAQ_A1 | Q1の質問文・回答文（本文と完全一致） | |
+| FAQ_Q2 / FAQ_A2 | Q2の質問文・回答文（本文と完全一致） | |
+| FAQ_Q4 / FAQ_A4 | Q4の質問文・回答文（本文と完全一致） | |
+
+---
+
+<!-- wp:html -->
+<!-- MANUAL_JSONLD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://shira-treat.com/cdtv-timetable/#article",
+      "url": "https://shira-treat.com/cdtv-timetable/",
+      "headline": "HEADLINE",
+      "description": "META_DESCRIPTION",
+      "articleSection": "タイムテーブル",
+      "keywords": [
+        "CDTV", "CDTV タイムテーブル", "カウントダウンTV", "CDTVライブ！ライブ！",
+        "出演者", "出演順", "歌唱曲", "DATE_ISO_TAG",
+        ARTIST_KEYWORDS
+      ],
+      "datePublished": "2026-01-28T17:30:00+09:00",
+      "dateCreated": "2026-01-28T17:30:00+09:00",
+      "dateModified": "DATE_MODIFIED",
+      "inLanguage": "ja",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://shira-treat.com/cdtv-timetable/#image",
+        "url": "EYECATCH_URL",
+        "width": 1200,
+        "height": 675,
+        "thumbnailUrl": "EYECATCH_URL"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/operator-information/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/",
+        "sameAs": ["https://x.com/ShiraNotes_"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "CDTVライブ！ライブ！",
+        "sameAs": ["https://www.tbs.co.jp/cdtv_livelive/"]
+      },
+      "mentions": [
+        // MusicGroup（グループ・バンド）: { "@type": "MusicGroup", "name": "アーティスト名" }
+        // Person（ソロ個人名）         : { "@type": "Person",     "name": "アーティスト名" }
+        // ↓ 出演者に合わせて差し替え
+        { "@type": "MusicGroup", "name": "ARTIST_1" },
+        { "@type": "MusicGroup", "name": "ARTIST_2" },
+        { "@type": "Person",     "name": "ARTIST_3" }
+      ]
+    },
+    {
+      "@type": "BroadcastEvent",
+      "@id": "https://shira-treat.com/cdtv-timetable/#broadcast",
+      "name": "CDTVライブ！ライブ！（BROADCAST_DATE_JA放送）",
+      "description": "BROADCAST_DESC",
+      "startDate": "START_ISO",
+      "endDate": "END_ISO",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "isLiveBroadcast": true,
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://www.tbs.co.jp/cdtv_livelive/"
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "TBS",
+        "url": "https://www.tbs.co.jp/"
+      },
+      "potentialAction": {
+        "@type": "WatchAction",
+        "target": "https://tver.jp/"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://shira-treat.com/cdtv-timetable/#lineup",
+      "name": "BROADCAST_DATE_JA CDTV出演者と歌唱曲一覧",
+      "itemListOrder": "https://schema.org/ItemListOrderAscending",
+      "numberOfItems": N_ARTISTS,
+      "itemListElement": [
+        // 出演者を position 順に列挙。型は mentions と同様に判定。
+        { "@type": "ListItem", "position": 1, "item": { "@type": "MusicGroup", "name": "ARTIST_1", "description": "ARTIST_1_DESC" }},
+        { "@type": "ListItem", "position": 2, "item": { "@type": "MusicGroup", "name": "ARTIST_2", "description": "ARTIST_2_DESC" }}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://shira-treat.com/cdtv-timetable/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "FAQ_Q1",
+          "acceptedAnswer": { "@type": "Answer", "text": "FAQ_A1" }
+        },
+        {
+          "@type": "Question",
+          "name": "FAQ_Q2",
+          "acceptedAnswer": { "@type": "Answer", "text": "FAQ_A2" }
+        },
+        {
+          "@type": "Question",
+          "name": "FAQ_Q4",
+          "acceptedAnswer": { "@type": "Answer", "text": "FAQ_A4" }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://shira-treat.com/cdtv-timetable/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://shira-treat.com/" },
+        { "@type": "ListItem", "position": 2, "name": "CDTVライブ！ライブ！", "item": "https://shira-treat.com/cdtv/" },
+        { "@type": "ListItem", "position": 3, "name": "タイムテーブル", "item": "https://shira-treat.com/cdtv-timetable/" }
+      ]
+    }
+  ]
+}
+</script>
+<!-- /wp:html -->

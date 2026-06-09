@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(Get-ChildItem -Recurse -Force)",
+      "Bash(Select-Object FullName, Length, LastWriteTime)",
+      "Bash(Sort-Object FullName)",
+      "Bash(Get-ChildItem *)",
+      "Bash(cmd *)"
+    ]
+  }
+}

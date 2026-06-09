@@ -1,0 +1,176 @@
+# CDTV 静的ブロック テンプレート
+# このファイルの内容は変更不要。毎回そのまま使用する。
+# コマンドから参照し、該当セクションをドラフトにコピーする。
+
+## ========== BLOCK: 実際の出演順テーブル（骨格） ==========
+## Step 8 で使用。YYYY年MM月DD日・時間帯ラベル・各行を差し替えて使う。
+## タイトルは「YYYY年MM月DD日 放送出演順」のみ（番組名は不要）。
+## 時間帯ラベルの前に <br> は不要。内テーブルに style="margin-top: 8px;" を付ける。
+
+<!-- wp:html -->
+<section>
+    <table border="1" bgcolor="#000000" width="100%" cellpadding="10" cellspacing="0">
+        <tbody><tr>
+            <td>
+                <font color="#ffffff" size="3"><b>YYYY年MM月DD日 放送出演順</b></font>
+
+                <hr color="#ff008d" align="left" width="50"
+                     style="margin-top: 15px; margin-bottom: 8px;">
+
+                <font color="#ff008d" size="2"><b>19:00〜20:00（前半）</b></font>
+
+                <table border="0" width="100%" cellpadding="5" cellspacing="4" style="margin-top: 8px;">
+                    <tbody>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>HH:MM頃：アーティスト名</b></font><br>
+                        <font color="#ff008d" size="2">楽曲名・備考</font>
+                    </td></tr>
+                    </tbody>
+                </table>
+
+                <br>
+
+                <font color="#ff008d" size="2"><b>20:00〜20:55（後半）</b></font>
+
+                <table border="0" width="100%" cellpadding="5" cellspacing="4" style="margin-top: 8px;">
+                    <tbody>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>HH:MM頃：アーティスト名</b></font><br>
+                        <font color="#ff008d" size="2">楽曲名・備考</font>
+                    </td></tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr></tbody>
+    </table>
+</section>
+
+<p><font color="#777777" size="1">※X（旧Twitter）上のファン実況・感想の盛り上がりタイムラインに基づく推定実績タイムテーブル</font></p>
+<!-- /wp:html -->
+
+## ========== BLOCK: 見逃し配信セクション ==========
+## H2見出しから <!-- /wp:html --> まで丸ごとコピー
+
+<!-- wp:heading -->
+<h2>CDTVライブ！ライブ！の見逃し配信・再放送はある？</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>CDTVライブ！ライブ！はTVerで見逃し配信が行われています。配信は放送終了後からスタートし、次回放送までの約1週間限定で無料視聴が可能です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div role="region" aria-label="CDTV見逃し情報" style="margin:20px 0;background:#000;border:1px solid #222;border-radius:4px;overflow:hidden;box-shadow:0 15px 35px rgba(0,0,0,0.6);font-family:'Inter','Helvetica Neue',Arial,sans-serif;position:relative;">
+
+<div style="position:relative;background:#ff008d;padding:8px 12px;display:flex;justify-content:space-between;align-items:center;clip-path:polygon(0 0,100% 0,96% 100%,0% 100%);">
+  <div style="font-size:11px;font-weight:900;font-style:italic;letter-spacing:.1em;color:#fff;">CDTV LIVE! LIVE!</div>
+  <div style="font-size:9px;font-weight:800;background:rgba(0,0,0,0.4);padding:2px 8px;border-radius:2px;color:#fff;">CHECK</div>
+</div>
+
+<div style="position:relative;padding:14px;">
+  <div style="font-size:14px;font-weight:900;color:#f9ff00;margin-bottom:10px;">見逃し配信・再放送の有無</div>
+
+  <div style="display:flex;border-bottom:1px solid #222;">
+    <div style="width:90px;font-size:10px;font-weight:900;color:#999;padding:10px;background:#111;">再放送</div>
+    <div style="flex:1;padding:10px;font-size:12px;font-weight:900;color:#ff4d4d;">なし</div>
+  </div>
+  <div style="display:flex;border-bottom:1px solid #222;">
+    <div style="width:90px;font-size:10px;font-weight:900;color:#999;padding:10px;background:#111;">TVer配信</div>
+    <div style="flex:1;padding:10px;font-size:12px;font-weight:900;color:#00ffcc;">あり（約1週間）</div>
+  </div>
+  <div style="display:flex;">
+    <div style="width:90px;font-size:10px;font-weight:900;color:#999;padding:10px;background:#111;">対処法</div>
+    <div style="flex:1;padding:10px;font-size:12px;font-weight:800;color:#ddd;">見逃した場合はTVerで視聴＋当ページで出演順を確認</div>
+  </div>
+
+  <div style="margin-top:12px;">
+    <a href="https://tver.jp/series/sr2cbxi72h" target="_blank" rel="nofollow noopener noreferrer" style="display:flex;align-items:center;justify-content:center;height:40px;background:#00d4ff;color:#000;text-decoration:none;font-size:12px;font-weight:900;border-radius:2px;box-shadow:0 0 10px rgba(0,212,255,0.6);letter-spacing:.05em;">
+      TVerで見逃し配信を見る ▶
+    </a>
+  </div>
+
+  <div style="margin-top:12px;background:rgba(249,255,0,0.08);border-left:3px solid #f9ff00;padding:8px 10px;font-size:10px;font-weight:800;color:#f9ff00;line-height:1.6;">
+    放送終了後に配信スタート（次回放送までの期間限定）。一部楽曲はカットされる場合があります。
+  </div>
+</div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>ただし、アーティストの権利関係により一部楽曲がカットされる場合や、配信タイミングが多少前後することがあります。そのため、フルで楽しみたい場合はリアルタイム視聴がおすすめです。</p>
+<!-- /wp:paragraph -->
+
+## ========== BLOCK: ナビゲーション／アフィリエイトブロック ==========
+## まとめH2直後のwp:htmlブロック。JSON-LDの直前に配置する。
+
+<!-- wp:html -->
+<div style="margin: 18px 0 14px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px 10px; font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #ff008d; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">他の音楽特番もチェック</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px;">
+
+    <a href="https://shira-treat.com/category/musictv/star/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        STAR <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/category/musictv/music-station-2/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        Mステ <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/category/musictv/fns/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        FNS歌謡祭 <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/category/musictv/ongakunohi/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        音楽の日 <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/category/musictv/music-day/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        THE MUSIC DAY <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+  </div>
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #64748b; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">出演者の作品を探す</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
+    <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #232f3e; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #161d26;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        Amazon <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
+      </span>
+    </a>
+
+    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fhourly%2F002%2F%3Fl-id%3Dheader-subnavi-cd-ranking" target="_blank" rel="nofollow sponsored noopener noreferrer" referrerpolicy="no-referrer-when-downgrade" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        楽天ブックス <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
+      </span>
+    </a>
+  </div>
+
+  <img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+
+  <a href="https://amzn.to/3NjAmbl" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #001a4d, #003399); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid #00d4ff; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
+    <span style="font-size: 9px; font-weight: 900; color: #00d4ff; border: 1px solid #00d4ff; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 3px;">Music</span>
+    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を探す</span>
+    <span style="font-size: 18px; color: #00d4ff; margin-left: auto;">›</span>
+  </a>
+
+</div>
+<!-- /wp:html -->

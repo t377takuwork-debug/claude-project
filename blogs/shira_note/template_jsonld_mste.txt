@@ -1,0 +1,263 @@
+# Mステ 構造化データテンプレート（JSON-LD）
+
+## 更新が必要な箇所（リライトごとに差し替え）
+
+| プレースホルダー | 内容 | 例 |
+|---|---|---|
+| {M月DD日} | 放送日（表記） | 5月29日 |
+| {YYYY-MM-DD} | 放送日（ISO） | 2026-05-29 |
+| {dateModified} | 記事更新日時（ISO） | 2026-05-29T10:00:00+09:00 |
+| {記事headline} | タイトル | Mステ タイムテーブル【5月29日】... |
+| {記事description} | 記事説明文（出演者含む） | - |
+| {イベントdescription} | 放送回の説明文 | - |
+| {mentions} | 出演者JSON配列 | 下記参照 |
+| {performer} | 同上（Event/BroadcastEvent用） | 下記参照 |
+| {itemList} | 出演者順番リスト | 下記参照 |
+| {FAQ_Q1〜Q4} | FAQのQ&A（記事本文と一致させる） | - |
+| {画像URL} | アイキャッチ画像URL | https://shira-treat.com/wp-content/uploads/... |
+
+## 固定箇所（変更不要）
+
+- `datePublished` / `dateCreated`：2025-11-17T18:00:00+09:00
+- `author` / `publisher`
+- `keywords` / `articleSection` / `inLanguage`
+- `about`（番組自体の情報）
+- `hasPart`（セクション一覧）
+- `BreadcrumbList`
+- `location` / `organizer`（テレビ朝日）
+
+## アーティストの型（mentions / performer）
+
+| 区分 | 型 |
+|---|---|
+| グループ・バンド | `{ "@type": "MusicGroup", "name": "アーティスト名" }` |
+| ソロ（個人名） | `{ "@type": "Person", "name": "アーティスト名" }` |
+
+---
+
+<!-- MANUAL_JSONLD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "BlogPosting",
+      "@id": "https://shira-treat.com/music-station-timetable/#post",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://shira-treat.com/music-station-timetable/"
+      },
+      "headline": "{記事headline}",
+      "description": "{記事description}",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://shira-treat.com/music-station-timetable/#primaryimage",
+        "url": "{画像URL}",
+        "width": 1200,
+        "height": 675
+      },
+      "thumbnailUrl": "{画像URL}",
+      "datePublished": "2025-11-17T18:00:00+09:00",
+      "dateCreated": "2025-11-17T18:00:00+09:00",
+      "dateModified": "{dateModified}",
+      "author": {
+        "@type": "Person",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/operator-information/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/",
+        "sameAs": ["https://x.com/ShiraNotes_"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "articleSection": "音楽番組",
+      "keywords": [
+        "Mステ タイムテーブル",
+        "ミュージックステーション 出演時間",
+        "Mステ 出演順",
+        "Mステ 曲順",
+        "Mステ 2026"
+      ],
+      "inLanguage": "ja",
+      "about": [
+        "https://www.wikidata.org/wiki/Q1143521",
+        {
+          "@type": "Thing",
+          "name": "ミュージックステーション",
+          "sameAs": "https://www.tv-asahi.co.jp/music/"
+        },
+        {
+          "@type": "Thing",
+          "name": "Mステ タイムテーブル"
+        }
+      ],
+      "mentions": [
+        {mentions}
+      ],
+      "hasPart": [
+        {
+          "@type": "WebPageElement",
+          "@id": "https://shira-treat.com/music-station-timetable/#timetable",
+          "name": "ミュージックステーション（Mステ）最新タイムテーブル"
+        },
+        {
+          "@type": "WebPageElement",
+          "@id": "https://shira-treat.com/music-station-timetable/#lineup",
+          "name": "Mステの出演者・歌唱曲一覧"
+        },
+        {
+          "@type": "WebPageElement",
+          "@id": "https://shira-treat.com/music-station-timetable/#faq",
+          "name": "よくある質問（FAQ）"
+        },
+        {
+          "@type": "WebPageElement",
+          "@id": "https://shira-treat.com/music-station-timetable/#summary",
+          "name": "まとめ"
+        }
+      ]
+    },
+
+    {
+      "@type": "Event",
+      "@id": "https://shira-treat.com/music-station-timetable/#event-main",
+      "name": "ミュージックステーション",
+      "startDate": "{YYYY-MM-DD}T21:00:00+09:00",
+      "endDate": "{YYYY-MM-DD}T21:54:00+09:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+      "location": {
+        "@type": "Place",
+        "name": "テレビ朝日",
+        "sameAs": "https://www.tv-asahi.co.jp/",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "JP"
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "テレビ朝日",
+        "sameAs": "https://www.tv-asahi.co.jp/",
+        "url": "https://www.tv-asahi.co.jp/"
+      },
+      "image": "{画像URL}",
+      "description": "{イベントdescription}",
+      "performer": [
+        {performer}
+      ]
+    },
+
+    {
+      "@type": "BroadcastEvent",
+      "@id": "https://shira-treat.com/music-station-timetable/#event",
+      "name": "ミュージックステーション {YYYY年MM月DD日}放送回",
+      "startDate": "{YYYY-MM-DD}T21:00:00+09:00",
+      "endDate": "{YYYY-MM-DD}T21:54:00+09:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+      "isLiveBroadcast": true,
+      "description": "{イベントdescription}",
+      "image": "{画像URL}",
+      "location": {
+        "@type": "Place",
+        "name": "テレビ朝日",
+        "sameAs": "https://www.tv-asahi.co.jp/"
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "テレビ朝日",
+        "sameAs": "https://www.tv-asahi.co.jp/"
+      },
+      "performer": [
+        {performer}
+      ],
+      "superEvent": {
+        "@id": "https://shira-treat.com/music-station-timetable/#event-main"
+      }
+    },
+
+    {
+      "@type": "ItemList",
+      "@id": "https://shira-treat.com/music-station-timetable/#lineup",
+      "name": "Mステ出演者一覧（{YYYY年MM月DD日}）",
+      "itemListElement": [
+        {itemList}
+      ]
+    },
+
+    {
+      "@type": "FAQPage",
+      "@id": "https://shira-treat.com/music-station-timetable/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "{FAQ_Q1_name}",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{FAQ_Q1_answer}"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "{FAQ_Q2_name}",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{FAQ_Q2_answer}"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "{FAQ_Q3_name}",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{FAQ_Q3_answer}"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "{FAQ_Q4_name}",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "{FAQ_Q4_answer}"
+          }
+        }
+      ]
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://shira-treat.com/music-station-timetable/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://shira-treat.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "音楽番組",
+          "item": "https://shira-treat.com/category/music/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Mステ タイムテーブル",
+          "item": "https://shira-treat.com/music-station-timetable/"
+        }
+      ]
+    }
+
+  ]
+}
+</script>

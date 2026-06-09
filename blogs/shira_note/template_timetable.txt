@@ -1,0 +1,66 @@
+※タイトルはWordPressのタイトル欄へ：{番組名} タイムテーブル【{月日}】出演順・出演時間をリアルタイム更新
+
+推しの出番を逃さないために、出演順・歌唱曲・目安時間を放送にあわせてリアルタイムで更新します。[nopc][title][/nopc]
+<aside role="region" aria-label="{番組名}最新情報" style="display: block; font-family: 'Helvetica Neue', 'Arial', 'Hiragino Sans', 'Meiryo', sans-serif; background: #ffffff; border: 1px solid #e2e8f0; position: relative; overflow: hidden; max-width: 100%; margin: 12px 0; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);">
+
+  <div style="height: 4px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff); width: 100%;"></div>
+
+  <div style="padding: 16px; position: relative;">
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+      <div style="font-size: 13px; font-weight: 900; color: #003366; letter-spacing: 0.05em; border-left: 3px solid #003366; padding-left: 8px; line-height: 1;">{番組正式名称}</div>
+      <div style="font-size: 10px; font-weight: 800; color: #ff0084; display: flex; align-items: center; gap: 4px;">
+        <span style="display: inline-block; width: 6px; height: 6px; background: #ff0084; border-radius: 50%;"></span>
+        REAL-TIME UPDATES
+      </div>
+    </div>
+
+    <div style="font-size: 16px; font-weight: 900; color: #1a202c; line-height: 1.4; margin-bottom: 6px;">
+      {番組名} タイムテーブル・出演者最新情報
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #4a5568;">
+      <span style="background: #ff0000; color: #fff; font-size: 9px; padding: 2px 4px; border-radius: 2px; font-weight: 900;">LIVE</span>
+      {放送日時}
+    </div>
+
+    <div style="margin-top: 14px; border: 1px solid #edf2f7; border-bottom: none;">
+
+      <div style="display: flex; border-bottom: 1px solid #edf2f7;">
+        <div style="width: 80px; font-size: 9px; font-weight: 900; color: #a0aec0; padding: 10px 8px; background: #f8fafc; flex-shrink: 0; display: flex; align-items: center;">STATUS</div>
+        <div style="flex: 1; padding: 10px; font-size: 11px; font-weight: 700; color: #2d3748; line-height: 1.5;">
+          <strong style="font-weight: 800; color: #ff0084;">{ステータス}</strong>（{補足}）
+        </div>
+      </div>
+
+      <div style="display: flex; border-bottom: 1px solid #edf2f7;">
+        <div style="width: 80px; font-size: 9px; font-weight: 900; color: #a0aec0; padding: 10px 8px; background: #f8fafc; flex-shrink: 0; display: flex; align-items: center;">ARTISTS</div>
+        <div style="flex: 1; padding: 10px; font-size: 12px; font-weight: 700; color: #2d3748; line-height: 1.6;">
+          {アーティスト名 / アーティスト名 / アーティスト名}
+        </div>
+      </div>
+
+      <div style="display: flex; border-bottom: 1px solid #edf2f7;">
+        <div style="width: 80px; font-size: 9px; font-weight: 900; color: #a0aec0; padding: 10px 8px; background: #f8fafc; flex-shrink: 0; display: flex; align-items: center;">TIMETABLE</div>
+        <div style="flex: 1; padding: 10px; font-size: 11px; font-weight: 700; color: #718096; line-height: 1.6; font-style: italic;">
+          {今回の見どころ・注目ポイント}
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top: 12px; background: #f7fafc; border-left: 3px solid #1a202c; color: #2d3748; padding: 10px; font-size: 11px; font-weight: 700; display: flex; align-items: flex-start; gap: 8px; line-height: 1.5;">
+      <span style="color: #ff0084;">💡</span>
+      <span>{編集者コメント}</span>
+    </div>
+
+    <div style="margin-top: 12px; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 8px;">
+      <a href="#st-toc-h-2" style="text-decoration: none; background: #003366; color: #fff; font-size: 10px; font-weight: 900; padding: 8px 16px; border-radius: 2px; text-align: center; letter-spacing: 0.05em;">
+        最新情報を確認する ▶
+      </a>
+      <div style="font-size: 9px; color: #a0aec0; text-align: right; line-height: 1.4;">
+        最終更新: {YYYY.MM.DD}<br>
+        (放送当日、生放送にあわせて更新)
+      </div>
+    </div>
+  </div>
+</aside>
+[nopc][mokujimae][/nopc]{締め文}
