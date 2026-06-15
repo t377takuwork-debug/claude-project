@@ -1,7 +1,7 @@
-タイトル：【最新】STAR タイムテーブル 6月11日は何時から？出演順や出演時間更新！
+タイトル：【最新】STAR タイムテーブル 6月18日は何時から？出演順や出演時間更新！
 
-メタディスクリプション（101字）：
-6/11放送のフジテレビ音楽番組『STAR』出演アーティスト・歌唱曲・タイムテーブルを速報。Aぇ! group小島健が初ナビゲーター就任、ORANGE RANGEがW杯アンセム初披露など最新情報を随時更新！
+メタディスクリプション（110字）：
+6/18放送のフジテレビ音楽番組『STAR』出演アーティスト・歌唱曲・タイムテーブルを速報。名作ドラマ主題歌ランキングやDEAN FUJIOKA・NiziU・コブクロ・WATWINGのパフォーマンスなど最新情報を随時更新！
 
 <!-- wp:paragraph -->
 <p>STAR（フジテレビ新音楽番組）のタイムテーブル・出演順・見どころをお届け！</p>
@@ -62,7 +62,7 @@
       <div style="display: flex; justify-content: space-between; align-items: center;">
         <span style="font-size: 11px; color: #F26522; font-weight: 700;">放送日時</span>
         <span style="font-size: 13px; font-weight: 800; color: #1a1a1a;">
-          6.11 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
+          6.18 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
         </span>
       </div>
     </div>
@@ -72,14 +72,14 @@
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333; line-height: 1.5;">
           <strong style="color: #000;">出演：</strong>
-          ＝LOVE / Aぇ! group / ORANGE RANGE / 櫻坂46 / Little Glee Monster and more...
+          DEAN FUJIOKA / NiziU / コブクロ / 櫻坂46 / きゃりーぱみゅぱみゅ and more...
         </p>
       </div>
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333; line-height: 1.5;">
           <strong style="color: #000;">注目：</strong>
-          Aぇ! group・小島健が『STAR』ナビゲーターに初就任！／ORANGE RANGEがW杯オフィシャルアンセム「1000％」＆「チャンピオーネ」を2曲連続披露
+          名作ドラマ主題歌ランキング開催！／DEAN FUJIOKAがドラマ『LOVED ONE』主題歌「Loved One」を披露／WATWINGがドラマ主題歌「Present」も披露
         </p>
       </div>
     </div>
@@ -94,7 +94,7 @@
       line-height: 1.4;
     ">
       <span style="font-weight: 700; color: #444;">※ハイライト：</span><br>
-      W杯2026直前放送でORDのW杯テーマ曲2曲を熱唱！小島健（Aぇ! group）初ナビゲーター就任で盛り上がり必至の1時間。
+      90年代〜2000年代の名作ドラマ主題歌特集にDEAN FUJIOKA・WATWING・コブクロ・NiziUら豪華6組が集結する感動の1時間。
     </div>
 
     <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -111,7 +111,7 @@
         詳細・パフォーマンス内容 ❯
       </a>
       <div style="font-size: 9px; color: #999; text-align: right;">
-        UPDATED: 2026.06.05
+        UPDATED: 2026.06.15
       </div>
     </div>
   </div>
@@ -123,15 +123,19 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>「推しの出演順は？」「何時に歌う？」と気になる方は、当日のリアルタイム更新と合わせてチェックしてください。ORANGE RANGEのW杯テーマ曲2曲連続披露と、Aぇ! group小島健の初ナビゲーター就任にも要注目です。</p>
+<p>「推しの出演順は？」「何時に歌う？」と気になる方は、当日のリアルタイム更新と合わせてチェックしてください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>DEAN FUJIOKAやWATWINGのドラマ主題歌ライブに加え、名作ドラマ主題歌ランキングでどんな名曲が登場するかも見どころです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>STAR 最新タイムテーブル【6/11】</h2>
+<h2>STAR 最新タイムテーブル【6/18】</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年6月11日（木）19:00から放送の『STAR』出演アーティストと歌唱曲です。<br>※現在は公式発表前の構成予測です。</p>
+<p>2026年6月18日（木）19:00から放送の『STAR』出演アーティストと歌唱曲です。<br>※現在は公式発表前の構成予測です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -181,7 +185,7 @@
       <div style="display: flex; justify-content: space-between; align-items: center;">
         <span style="font-size: 11px; color: #F26522; font-weight: 700;">放送日時</span>
         <span style="font-size: 13px; font-weight: 800; color: #1a1a1a;">
-          6.11 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
+          6.18 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
         </span>
       </div>
     </div>
@@ -191,49 +195,56 @@
       <div style="display: flex; gap: 6px; align-items: flex-start;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:00</strong> OP（MC上垣皓太朗 ／ ナビゲーター：小島健（Aぇ! group））
+          <strong>19:00</strong> OP（MC上垣皓太朗 ／ ゲスト：木南晴夏・高杉真宙）
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:05頃</strong> Aぇ! group「でこぼこライフ」（初ナビゲーター就任パフォーマンス）
+          <strong>19:05頃</strong> 名作ドラマ主題歌ランキング企画
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:15頃</strong> エンタメ特集・企画VTR
+          <strong>19:12頃</strong> コブクロ「Starry Smile Story」
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:22頃</strong> ＝LOVE「お姫様の作り方」→「モラトリアム」スペシャルメドレー
+          <strong>19:20頃</strong> きゃりーぱみゅぱみゅ「キミに100パーセント」
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:33頃</strong> Little Glee Monster「Pages」
+          <strong>19:28頃</strong> NiziU「SWEET NONFICTION」
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:41頃</strong> ORANGE RANGE「1000％」→「チャンピオーネ」★W杯テーマ曲2曲連続
+          <strong>19:36頃</strong> WATWING「Present」★ドラマ『今夜、秘密のキッチンで』主題歌
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:51頃</strong> 櫻坂46「Lonesome rabbit」（クライマックス）
+          <strong>19:44頃</strong> DEAN FUJIOKA「Loved One」★ドラマ『LOVED ONE』主題歌
+        </p>
+      </div>
+
+      <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
+        <span style="color: #00B7B5; font-size: 12px;">✦</span>
+        <p style="margin: 0; font-size: 11.5px; color: #333;">
+          <strong>19:52頃</strong> 櫻坂46「What's "KAZOKU"？」（クライマックス）
         </p>
       </div>
 
@@ -256,7 +267,7 @@
       line-height: 1.4;
     ">
       <strong>※最新の状況：</strong><br>
-      現在、6月11日放送の<strong>番組構成予測</strong>を表示中です。注目はW杯2026開幕直前にORDのW杯テーマ曲2曲連続披露と、Aぇ! group小島健の初ナビゲーター就任です。
+      現在、6月18日放送の<strong>番組構成予測</strong>を表示中です。名作ドラマ主題歌ランキングを中心に、DEAN FUJIOKA・WATWINGのドラマ主題歌やコブクロ・NiziU・きゃりーぱみゅぱみゅ・櫻坂46が集結する豪華な1時間です。
     </div>
 
     <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -273,7 +284,7 @@
       </a>
 
       <div style="font-size: 9px; color: #999;">
-        UPDATED: 2026.06.05
+        UPDATED: 2026.06.15
       </div>
     </div>
 
@@ -290,7 +301,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>STAR（6/11）出演アーティスト・歌唱内容一覧</h2>
+<h2>STAR（6/18）出演アーティスト・歌唱内容一覧</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center","sizeSlug":"full"} -->
@@ -319,33 +330,39 @@ box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 <div style="background: #fff; border-radius: 0 0 11px 11px; overflow: hidden;">
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">＝LOVE</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「お姫様の作り方」／「モラトリアム」（スペシャルメドレー）</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">2曲を続けてメドレー形式で披露</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">コブクロ</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「Starry Smile Story」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">最新楽曲を披露</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">Aぇ! group</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「でこぼこライフ」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">グループ初主演映画『おそ松さん 人類クズ化計画!!!!!?』主題歌。小島健が今回のSTARナビゲーターも担当</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">きゃりーぱみゅぱみゅ</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「キミに100パーセント」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">最新楽曲を披露</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">ORANGE RANGE</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「1000％」／「チャンピオーネ」（W杯テーマ曲2曲）</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">「1000％」はDAZN FIFAワールドカップ2026オフィシャルアンセム。「チャンピオーネ」はNHKサッカードイツ大会放送テーマ</div>
-</div>
-
-<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
   <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">櫻坂46</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「Lonesome rabbit」</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「What's "KAZOKU"？」</div>
   <div style="font-size: 11px; color: #666; margin-top: 2px;">15thシングル『Lonesome rabbit / What's "KAZOKU"?』収録曲</div>
 </div>
 
-<div style="display: flex; flex-direction: column; padding: 10px 14px;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">Little Glee Monster</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「Pages」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">テレビアニメ『本好きの下剋上 領主の養女』オープニングテーマ</div>
+<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">DEAN FUJIOKA</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「Loved One」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">ドラマ『LOVED ONE』主題歌</div>
+</div>
+
+<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">NiziU</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「SWEET NONFICTION」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">最新楽曲を披露</div>
+</div>
+
+<div style="display: flex; flex-direction: column; padding: 10px 14px; background: #fdf2ed;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">WATWING</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「Present」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">ドラマ『今夜、秘密のキッチンで』主題歌</div>
 </div>
 
 </div>
@@ -357,7 +374,7 @@ box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>6月11日の『STAR』は、W杯2026開幕直前というタイミングでORDのW杯テーマ曲2曲連続披露や、Aぇ! groupの小島健が初ナビゲーターとして就任するなど話題が多い回です。</p>
+<p>6月18日の『STAR』は、名作ドラマ主題歌ランキング企画を軸に、DEAN FUJIOKAとWATWINGが最新ドラマ主題歌を披露するほか、コブクロ・NiziU・きゃりーぱみゅぱみゅ・櫻坂46と多彩なラインナップが揃った回です。スタジオには木南晴夏・高杉真宙もゲストとして登場します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -405,7 +422,7 @@ padding: 14px;
     <span style="color:#F26522; font-size:12px;">✦</span>
     <div style="font-size:12px; color:#333;">
       <strong>19:00〜（オープニング・熱狂枠）</strong><br>
-      ナビゲーターを務めるAぇ! groupの小島健は序盤に登場し「でこぼこライフ」を披露すると予想。6/4放送でもナビゲーター兼任のかれんが番組前半に登場したことから、今回も序盤が有力。
+      オープニングはゲストの木南晴夏・高杉真宙を交えた挨拶と名作ドラマ主題歌ランキング企画のスタートが予想される。6/11放送でも番組冒頭にナビゲーター登場＋企画VTRという流れが確認されており、今回も同様のパターンが有力。
     </div>
   </div>
 
@@ -413,7 +430,7 @@ padding: 14px;
     <span style="color:#00B7B5; font-size:12px;">✦</span>
     <div style="font-size:12px; color:#333;">
       <strong>19:15〜19:45（中盤・パフォーマンス枠）</strong><br>
-      ＝LOVEのスペシャルメドレーとLittle Glee Monsterが中盤を担う予想。エンタメ企画VTRを挟みながらテンポよく進行する構成が過去回のパターン。
+      コブクロ・きゃりーぱみゅぱみゅ・NiziUが中盤を担う予想。6組の出演者を1時間に収めるためテンポよくパフォーマンスが続く構成が過去回のパターン。ランキング企画VTRを挟みながら進行すると見られる。
     </div>
   </div>
 
@@ -421,7 +438,7 @@ padding: 14px;
     <span style="color:#F26522; font-size:12px;">✦</span>
     <div style="font-size:12px; color:#333;">
       <strong>19:45〜20:00（終盤・クライマックス枠）</strong><br>
-      ORANGE RANGEのW杯テーマ曲2曲連続と、櫻坂46「Lonesome rabbit」が番組後半に登場すると予想。W杯直前ということから、ORANGE RANGEは後半に配置される可能性が高い。
+      WATWING・DEAN FUJIOKAのドラマ主題歌ライブと、櫻坂46「What's "KAZOKU"？」が後半を飾ると予想。ドラマ主題歌特集の締めくくりとしてDEAN FUJIOKAがクライマックス前後に配置される可能性が高い。
     </div>
   </div>
 
@@ -438,7 +455,7 @@ border-radius:8px;
 line-height:1.5;
 ">
 💡 <strong>今回のポイント</strong><br>
-6/4放送回ではなにわ男子が最初に登場し、すとぷりが中盤前半（19:20頃）、なにわ男子が終盤（19:50頃）という構成でした。今回も「序盤：Aぇ! group（ナビゲーター枠）→中盤：＝LOVE＋Little Glee Monster→後半：ORANGE RANGE W杯テーマ曲→終盤：櫻坂46」の流れが最有力です。
+6/11放送回では＝LOVEのスペシャルメドレー（「モラトリアム」地上波初披露）が19:30〜19:45頃のハイライト枠に配置されました。今回も「序盤：企画VTR＋コブクロ→中盤：きゃりーぱみゅぱみゅ＋NiziU→後半：WATWINGドラマ主題歌＋DEAN FUJIOKAドラマ主題歌→終盤：櫻坂46」の流れが最有力です。
 </div>
 
 </div>
@@ -458,7 +475,7 @@ line-height:1.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>6月4日の放送は以下のような流れでした。</p>
+<p>6月11日の放送は以下のような流れでした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -499,7 +516,7 @@ line-height:1.5;
           『STAR』SETLIST &amp; REPORT
         </div>
       </div>
-      <div style="font-size: 12px; font-weight: 700; color: #666;">2026.06.04 <span style="font-weight: 400;">THU</span></div>
+      <div style="font-size: 12px; font-weight: 700; color: #666;">2026.06.11 <span style="font-weight: 400;">THU</span></div>
     </div>
 
     <div style="
@@ -510,7 +527,7 @@ line-height:1.5;
       border-left: 4px solid #F26522;
     ">
       <div style="font-size: 11px; color: #F26522; font-weight: 800; margin-bottom: 2px;">STAR NAVIGATORS</div>
-      <div style="font-size: 14px; font-weight: 700; color: #333;">上垣 皓太朗（フジテレビアナウンサー）／ かれん（Little Glee Monster）</div>
+      <div style="font-size: 14px; font-weight: 700; color: #333;">上垣 皓太朗（フジテレビアナウンサー）／ 小島健（Aぇ! group）</div>
     </div>
 
     <div style="display: grid; gap: 0; margin-bottom: 16px; border-left: 2px solid #eee; margin-left: 6px; padding-left: 14px;">
@@ -519,35 +536,44 @@ line-height:1.5;
         <div style="position: absolute; left: -21px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #F26522; border: 2px solid #fff;"></div>
         <div style="font-size: 11px; color: #F26522; font-weight: 800;">19:00頃 / OPENING ACT</div>
         <div style="font-size: 13px; color: #1a1a1a; line-height: 1.5;">
-          <span style="font-weight: 800;">なにわ男子</span>「ダイヤモンドスマイル」<br>
-          <span style="font-size: 11px; color: #666;">オフホワイト衣装で「始まった」「キラキラ衣装最高」の声が即密集。5周年の原点曲でSNS盛り上がり。</span>
+          <span style="font-weight: 800;">Aぇ! group</span>「でこぼこライフ」（初ナビゲーター就任パフォーマンス）<br>
+          <span style="font-size: 11px; color: #666;">「かわいかった」「小島健ナビかっこいい」と好評。衣装やダンスの細部への言及も多数。</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #999; font-weight: 700;">19:20頃</div>
+        <div style="font-size: 11px; color: #999; font-weight: 700;">19:10頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">すとぷり</span> 10周年スペシャルメドレー（「大好きになればいいんじゃない？」「アモーレ・ミオ」「スキスキ星人」）★歌番組初・実写（顔スタンプ）出演<br>
-          <span style="font-size: 11px; color: #666;">番組中最大の盛り上がり。「実写出演感動」「るぅとくんノリノリ可愛い」と投稿爆発。</span>
+          <span style="font-weight: 800;">櫻坂46</span>「Lonesome rabbit」<br>
+          <span style="font-size: 11px; color: #666;">ダンスパフォーマンス高評価。「圧巻」「新曲披露最高」と投稿集中。振付やフォーメーションの感想目立つ。</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #ccc; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #999; font-weight: 700;">19:30頃</div>
+        <div style="font-size: 11px; color: #999; font-weight: 700;">19:20頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">浜野謙太 ＆ 後藤真希</span>「おーへい」<br>
-          <span style="font-size: 11px; color: #666;">「ゴマキ永遠にかっこいい」「コラボ迫力すごい」と熱いリアクション。</span>
+          <span style="font-weight: 800;">Little Glee Monster</span>「Pages」<br>
+          <span style="font-size: 11px; color: #666;">美声・歌唱力称賛。「アニメOPにぴったり」「感動」と安定した盛り上がり。</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 14px;">
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
+        <div style="font-size: 11px; color: #999; font-weight: 700;">19:30〜19:45頃 / HIGHLIGHT</div>
+        <div style="font-size: 13px; color: #1a1a1a;">
+          <span style="font-weight: 800;">＝LOVE</span> スペシャルメドレー「お姫様の作り方」→「モラトリアム」★地上波初披露（諸橋沙夏センター）<br>
+          <span style="font-size: 11px; color: #666;">最大級の投稿爆発。「可愛すぎる」「モラトリアム泣いた」「地上波初おめでとう」と熱狂。</span>
         </div>
       </div>
 
       <div style="position: relative;">
         <div style="position: absolute; left: -21px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #1a1a1a; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #1a1a1a; font-weight: 800;">19:50頃 / LAST PERFORMER</div>
+        <div style="font-size: 11px; color: #1a1a1a; font-weight: 800;">19:45〜19:55頃 / LAST PERFORMER</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">なにわ男子</span>「Celebrate」★最新アルバム『ND5』リード曲<br>
-          <span style="font-size: 11px; color: #666;">「ダイスマにセレブレ最高」「なにわで締め完璧」と満足の声。「なにわで始まりなにわで終わる」スタイルが大好評。</span>
+          <span style="font-weight: 800;">ORANGE RANGE</span>「チャンピオーネ」→「1000％」★W杯テーマ曲2曲連続<br>
+          <span style="font-size: 11px; color: #666;">「元気出る」「サッカーW杯テーマ最高」と投稿。熱唱・ロック調で後半を盛り上げた。</span>
         </div>
       </div>
 
@@ -564,7 +590,7 @@ line-height:1.5;
       line-height: 1.6;
     ">
       <span style="display: inline-block; background: #eee; padding: 0 4px; border-radius: 2px; margin-right: 4px; font-weight: 800;">REPORT</span><br>
-      「なにわで始まりなにわで終わる」構成で「すとぷりの日」（結成10周年記念日）を祝う特別な1時間。すとぷりの歌番組初・実写（顔スタンプ）出演が最大の山場となり、SNSでは「記念日にぴったり」「キラキラ感満載」の声が相次いだ放送回でした。
+      ＝LOVEのスペシャルメドレー（「モラトリアム」地上波初披露）が最大の盛り上がりとなった放送回。Aぇ! group小島健の初ナビゲーター就任も好評で、「可愛すぎる」「泣いた」とXが沸き立った1時間。ORANGE RANGEのW杯テーマ曲2曲連続も熱狂的な反応を呼んだ。
     </div>
 
     <div style="display: flex; flex-direction: column; gap: 12px;">
@@ -585,7 +611,7 @@ line-height:1.5;
 
       <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 4px; border-top: 1px solid #eee;">
         <div style="font-size: 9px; color: #999; font-weight: 700; letter-spacing: 0.5px;">RECORDED FROM X REALTIME TREND</div>
-        <div style="font-size: 9px; color: #999;">FINAL UPDATED: 2026.06.04</div>
+        <div style="font-size: 9px; color: #999;">FINAL UPDATED: 2026.06.11</div>
       </div>
     </div>
 
@@ -598,7 +624,7 @@ line-height:1.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>※6/11は放送前のため未確定。放送開始後（19:00〜）にリアルタイムで出演順を更新していきます。</p>
+<p>※6/18は放送前のため未確定。放送開始後（19:00〜）にリアルタイムで出演順を更新していきます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -699,9 +725,47 @@ color:#fff;
 <div style="padding:14px 16px;">
 
 <!-- ======================= -->
-<!-- 2026.06.04 (NEW) -->
+<!-- 2026.06.11 (NEW) -->
 <!-- ======================= -->
 <h3 style="margin:16px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
+2026年6月11日放送回
+</h3>
+
+<div style="
+border-radius:12px;
+overflow:hidden;
+border:1px solid #eee;
+background:#fff;
+box-shadow:0 6px 18px rgba(0,0,0,0.06);
+">
+
+<div style="height:4px;background:linear-gradient(90deg,#F26522,#00B7B5);"></div>
+
+<div style="padding:12px 14px;background:#fdfdfd;border-bottom:1px solid #eee;">
+  <div style="font-size:11px;font-weight:900;color:#F26522;">PAST LOG / STAR ARCHIVE</div>
+  <div style="font-size:14px;font-weight:900;color:#1a1a1a;">2026.06.11</div>
+</div>
+
+<div style="padding:14px;font-size:12px;line-height:1.8;color:#333;">
+
+<strong>Aぇ! group</strong>：「でこぼこライフ」（オープニング）。小島健が初ナビゲーター就任。「かわいかった」「小島健ナビかっこいい」と好評<br>
+<strong>櫻坂46</strong>：「Lonesome rabbit」。ダンスパフォーマンスが圧巻と評価<br>
+<strong>Little Glee Monster</strong>：「Pages」（アニメ『本好きの下剋上 領主の養女』OP）<br>
+<strong>＝LOVE</strong>：スペシャルメドレー「お姫様の作り方」→「モラトリアム」★地上波初披露（諸橋沙夏センター）。最大級のXトレンド入り<br>
+<strong>ORANGE RANGE</strong>：「チャンピオーネ」→「1000％」★W杯テーマ曲2曲連続で後半を締める
+
+</div>
+
+<div style="padding:10px 14px;background:#f7fafc;font-size:11px;color:#666;">
+💡 ＝LOVEの「モラトリアム」地上波初披露が最大のハイライト。Aぇ! group小島健の初ナビゲーター就任とORDのW杯テーマ曲2曲連続も話題を集めた1時間
+</div>
+
+</div>
+
+<!-- ======================= -->
+<!-- 2026.06.04 -->
+<!-- ======================= -->
+<h3 style="margin:24px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
 2026年6月4日放送回
 </h3>
 
@@ -817,48 +881,6 @@ box-shadow:0 6px 18px rgba(0,0,0,0.06);
 
 </div>
 
-<!-- ======================= -->
-<!-- 2026.05.07 -->
-<!-- ======================= -->
-<h3 style="margin:24px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
-2026年5月7日放送回
-</h3>
-
-<div style="
-border-radius:12px;
-overflow:hidden;
-border:1px solid #eee;
-background:#fff;
-box-shadow:0 6px 18px rgba(0,0,0,0.06);
-">
-
-<div style="height:4px;background:linear-gradient(90deg,#F26522,#00B7B5);"></div>
-
-<div style="padding:12px 14px;background:#fdfdfd;border-bottom:1px solid #eee;display:flex;justify-content:space-between;align-items:center;">
-  <div>
-    <div style="font-size:11px;font-weight:900;color:#F26522;">PAST LOG / STAR ARCHIVE</div>
-    <div style="font-size:14px;font-weight:900;color:#1a1a1a;">2026.05.07</div>
-  </div>
-  <a href="https://tver.jp/series/sr1ksvsv1n" target="_blank" style="font-size:10px;font-weight:700;color:#00B7B5;text-decoration:none;border:1px solid #00B7B5;padding:2px 8px;border-radius:4px;">WATCH ON TVer ❯</a>
-</div>
-
-<div style="padding:14px;font-size:12px;line-height:1.8;color:#333;">
-
-<strong>Snow Man</strong>：トップバッターで『オドロウゼ!』披露！9人の完璧な絡みがXで即トレンド入り<br>
-<strong>ROIROM</strong>：メジャーデビュー曲『CLASSIC WAVE』初披露！"コウモリポーズ"が話題に<br>
-<strong>Ryosuke Yamada</strong>：山田涼介（Hey! Say! JUMP）による圧倒的ビジュアルのソロパフォーマンス<br>
-<strong>THE RAMPAGE</strong>：陣が番組ナビゲーターも務めつつ、グループで迫力のステージを展開<br>
-<strong>こっちのけんと</strong>：唯一無二のキャッチーな世界観で視聴者を魅了<br>
-<strong>マルシィ</strong>：心に響くエモーショナルな歌唱が好評
-
-</div>
-
-<div style="padding:10px 14px;background:#f7fafc;font-size:11px;color:#666;">
-💡 Snow Manのトップバッター起用とROIROMの記念すべきデビューが重なり、多幸感溢れる放送回に
-</div>
-
-</div>
-
 </div>
 </details>
 <!-- /wp:html -->
@@ -888,25 +910,25 @@ overflow:hidden;
 
 <!-- Q1 -->
 <div style="padding:12px;border-radius:10px;background:#fdf2ed;margin-bottom:10px;">
-  <div style="font-size:12px;font-weight:900;color:#F26522;">Q1｜ORANGE RANGEの出演時間は何時頃ですか？</div>
+  <div style="font-size:12px;font-weight:900;color:#F26522;">Q1｜DEAN FUJIOKAの出演時間は何時頃ですか？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    W杯直前という特別なタイミングでのW杯テーマ曲2曲連続披露のため、番組後半の盛り上がり枠への配置が有力です。6/4放送回でも最注目枠（すとぷり10周年）が中盤〜後半（19:20〜19:30頃）に配置された実績から、今回のORDも19:40〜19:55頃になると予想されます。
+    ドラマ主題歌特集のクライマックスに配置される可能性が高く、19:44〜19:55頃が有力です。6/11放送回でもORDのW杯テーマ曲2曲連続が後半（19:45〜19:55頃）に配置された実績から、今回も番組の見どころ枠として後半への登場が予想されます。
   </div>
 </div>
 
 <!-- Q2 -->
 <div style="padding:12px;border-radius:10px;background:#fff;border:1px solid #eee;margin-bottom:10px;">
-  <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q2｜小島健（Aぇ! group）はSTARでどんな役割を担いますか？</div>
+  <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q2｜今回の「名作ドラマ主題歌ランキング」ではどんな楽曲が登場しますか？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    6月11日放送から『STAR』の新ナビゲーターに就任します。Aぇ! groupとして「でこぼこライフ」のパフォーマンスも披露する予定。ナビゲーターは司会の上垣皓太朗アナとともに番組進行を担う役割で、これまでもadieu（上白石萌歌）やかれん（Little Glee Monster）が担当してきたポジションです。
+    「ロングバケーション」「ビーチボーイズ」「踊る大捜査線」など90年代〜2000年代の名作ドラマ主題歌が紹介される予定です。ゲストの木南晴夏・高杉真宙がスタジオからパフォーマンスを応援します。
   </div>
 </div>
 
 <!-- Q3 -->
 <div style="padding:12px;border-radius:10px;background:#fdf2ed;margin-bottom:10px;">
-  <div style="font-size:12px;font-weight:900;color:#F26522;">Q3｜ORANGE RANGEが披露する「1000％」はどんな楽曲ですか？</div>
+  <div style="font-size:12px;font-weight:900;color:#F26522;">Q3｜WATWINGが披露する「Present」とはどんな楽曲ですか？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    DAZNのFIFAワールドカップ2026オフィシャルアンセムに選ばれた楽曲です。W杯開幕直前の6/11にSTARで披露される予定で、過去のNHKサッカードイツ大会放送テーマ「チャンピオーネ」とともにW杯テーマ曲2曲を連続で披露という特別な構成になっています。
+    フジテレビ系ドラマ『今夜、秘密のキッチンで』の主題歌です。DEAN FUJIOKAの「Loved One」（ドラマ『LOVED ONE』主題歌）とともに、今回はドラマ主題歌2曲が一夜に集結する特別な構成になっています。
   </div>
 </div>
 
@@ -914,7 +936,7 @@ overflow:hidden;
 <div style="padding:12px;border-radius:10px;background:#fff;border:1px solid #eee;">
   <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q4｜タイムテーブルのリアルタイム更新はありますか？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    公式から詳細な時間は公開されませんが、当ページでは6月11日の19:00放送開始とともに、実際のパフォーマンス順をリアルタイムで速報更新します。
+    公式から詳細な時間は公開されませんが、当ページでは6月18日の19:00放送開始とともに、実際のパフォーマンス順をリアルタイムで速報更新します。
   </div>
 </div>
 
@@ -927,15 +949,15 @@ overflow:hidden;
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年6月11日（木）19:00放送のフジテレビ系『STAR』。</p>
+<p>2026年6月18日（木）19:00放送のフジテレビ系『STAR』。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>今回はAぇ! groupの小島健が新ナビゲーターとして初就任し、W杯2026開幕直前という特別なタイミングでORDのW杯テーマ曲「1000％」と「チャンピオーネ」が2曲連続で披露されます。</p>
+<p>今回は名作ドラマ主題歌ランキング企画を中心に、DEAN FUJIOKAがドラマ『LOVED ONE』主題歌「Loved One」を、WATWINGがドラマ『今夜、秘密のキッチンで』主題歌「Present」をそれぞれ披露します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>そのほかも＝LOVEのスペシャルメドレー、櫻坂46の最新シングル、Little Glee Monsterのアニメ主題歌と、多彩なラインナップが揃っています。</p>
+<p>そのほかもコブクロ・きゃりーぱみゅぱみゅ・NiziU・櫻坂46と多彩なラインナップが揃い、ゲストの木南晴夏・高杉真宙もスタジオから応援します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -1034,33 +1056,33 @@ overflow:hidden;
       "@type": "BlogPosting",
       "@id": "https://shira-treat.com/star-timetable/#post",
       "url": "https://shira-treat.com/star-timetable/",
-      "headline": "【最新】STAR タイムテーブル 6月11日は何時から？出演順や出演時間更新！",
-      "description": "6/11放送のフジテレビ音楽番組『STAR』出演アーティスト・歌唱曲・タイムテーブルを速報。Aぇ! group小島健が初ナビゲーター就任、ORANGE RANGEがW杯アンセム初披露など最新情報を随時更新！",
+      "headline": "【最新】STAR タイムテーブル 6月18日は何時から？出演順や出演時間更新！",
+      "description": "6/18放送のフジテレビ音楽番組『STAR』出演アーティスト・歌唱曲・タイムテーブルを速報。名作ドラマ主題歌ランキングやDEAN FUJIOKA・NiziU・コブクロ・WATWINGのパフォーマンスなど最新情報を随時更新！",
       "keywords": [
         "STAR",
         "タイムテーブル",
         "出演者",
-        "＝LOVE",
-        "Aぇ! group",
-        "ORANGE RANGE",
+        "DEAN FUJIOKA",
+        "NiziU",
+        "コブクロ",
+        "きゃりーぱみゅぱみゅ",
         "櫻坂46",
-        "Little Glee Monster",
-        "小島健",
-        "6月11日",
+        "WATWING",
+        "6月18日",
         "フジテレビ"
       ],
       "datePublished": "2026-04-09T20:00:00+09:00",
       "dateCreated": "2026-04-09T20:00:00+09:00",
-      "dateModified": "2026-06-05T10:00:00+09:00",
+      "dateModified": "2026-06-15T10:00:00+09:00",
       "inLanguage": "ja",
       "image": {
         "@type": "ImageObject",
         "@id": "https://shira-treat.com/star-timetable/#heroimage",
-        "url": "https://shira-treat.com/wp-content/uploads/2026/06/image-13.webp",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/06/image-6.webp",
         "width": 1200,
         "height": 675
       },
-      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/06/image-13.webp",
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/06/image-6.webp",
       "author": {
         "@type": "Person",
         "name": "Shira",
@@ -1095,20 +1117,22 @@ overflow:hidden;
     {
       "@type": "BroadcastEvent",
       "@id": "https://shira-treat.com/star-timetable/#broadcast",
-      "name": "STAR（2026年6月11日放送回）",
-      "startDate": "2026-06-11T19:00:00+09:00",
-      "endDate": "2026-06-11T20:00:00+09:00",
+      "name": "STAR（2026年6月18日放送回）",
+      "startDate": "2026-06-18T19:00:00+09:00",
+      "endDate": "2026-06-18T20:00:00+09:00",
       "eventStatus": "https://schema.org/EventScheduled",
       "isLiveBroadcast": true,
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "performer": [
         { "@type": "Person", "name": "上垣皓太朗" },
-        { "@type": "Person", "name": "小島健" },
-        { "@type": "MusicGroup", "name": "＝LOVE" },
-        { "@type": "MusicGroup", "name": "Aぇ! group" },
-        { "@type": "MusicGroup", "name": "ORANGE RANGE" },
+        { "@type": "MusicGroup", "name": "コブクロ" },
+        { "@type": "Person", "name": "きゃりーぱみゅぱみゅ" },
         { "@type": "MusicGroup", "name": "櫻坂46" },
-        { "@type": "MusicGroup", "name": "Little Glee Monster" }
+        { "@type": "Person", "name": "木南晴夏" },
+        { "@type": "Person", "name": "高杉真宙" },
+        { "@type": "Person", "name": "DEAN FUJIOKA" },
+        { "@type": "MusicGroup", "name": "NiziU" },
+        { "@type": "MusicGroup", "name": "WATWING" }
       ],
       "broadcaster": {
         "@type": "Organization",
@@ -1119,13 +1143,15 @@ overflow:hidden;
     {
       "@type": "ItemList",
       "@id": "https://shira-treat.com/star-timetable/#lineup",
-      "name": "STAR（6/11）出演アーティスト・パフォーマンス一覧",
+      "name": "STAR（6/18）出演アーティスト・パフォーマンス一覧",
+      "numberOfItems": 6,
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "＝LOVE" },
-        { "@type": "ListItem", "position": 2, "name": "Aぇ! group" },
-        { "@type": "ListItem", "position": 3, "name": "ORANGE RANGE" },
-        { "@type": "ListItem", "position": 4, "name": "櫻坂46" },
-        { "@type": "ListItem", "position": 5, "name": "Little Glee Monster" }
+        { "@type": "ListItem", "position": 1, "name": "コブクロ" },
+        { "@type": "ListItem", "position": 2, "name": "きゃりーぱみゅぱみゅ" },
+        { "@type": "ListItem", "position": 3, "name": "NiziU" },
+        { "@type": "ListItem", "position": 4, "name": "WATWING" },
+        { "@type": "ListItem", "position": 5, "name": "DEAN FUJIOKA" },
+        { "@type": "ListItem", "position": 6, "name": "櫻坂46" }
       ]
     },
     {
@@ -1134,18 +1160,18 @@ overflow:hidden;
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "ORANGE RANGEの出演時間は何時頃ですか？",
+          "name": "DEAN FUJIOKAの出演時間は何時頃ですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "W杯直前という特別なタイミングでのW杯テーマ曲2曲連続披露のため、番組後半の盛り上がり枠への配置が有力です。6/4放送回でも最注目枠（すとぷり10周年）が中盤〜後半（19:20〜19:30頃）に配置された実績から、今回のORDも19:40〜19:55頃になると予想されます。"
+            "text": "ドラマ主題歌特集のクライマックスに配置される可能性が高く、19:44〜19:55頃が有力です。6/11放送回でもORDのW杯テーマ曲2曲連続が後半（19:45〜19:55頃）に配置された実績から、今回も番組の見どころ枠として後半への登場が予想されます。"
           }
         },
         {
           "@type": "Question",
-          "name": "ORANGE RANGEが披露する「1000％」はどんな楽曲ですか？",
+          "name": "今回の「名作ドラマ主題歌ランキング」ではどんな楽曲が登場しますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "DAZNのFIFAワールドカップ2026オフィシャルアンセムに選ばれた楽曲です。W杯開幕直前の6/11にSTARで披露される予定で、過去のNHKサッカードイツ大会放送テーマ「チャンピオーネ」とともにW杯テーマ曲2曲を連続で披露という特別な構成になっています。"
+            "text": "「ロングバケーション」「ビーチボーイズ」「踊る大捜査線」など90年代〜2000年代の名作ドラマ主題歌が紹介される予定です。ゲストの木南晴夏・高杉真宙がスタジオからパフォーマンスを応援します。"
           }
         },
         {
@@ -1153,7 +1179,7 @@ overflow:hidden;
           "name": "タイムテーブルのリアルタイム更新はありますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "公式から詳細な時間は公開されませんが、当ページでは6月11日の19:00放送開始とともに、実際のパフォーマンス順をリアルタイムで速報更新します。"
+            "text": "公式から詳細な時間は公開されませんが、当ページでは6月18日の19:00放送開始とともに、実際のパフォーマンス順をリアルタイムで速報更新します。"
           }
         }
       ]
@@ -1177,7 +1203,7 @@ overflow:hidden;
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "6月11日 STAR タイムテーブル",
+          "name": "6月18日 STAR タイムテーブル",
           "item": "https://shira-treat.com/star-timetable/"
         }
       ]
