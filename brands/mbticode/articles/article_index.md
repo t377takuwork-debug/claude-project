@@ -11,3 +11,4 @@ URLの形式：https://note.com/mbticode/n/[key]
 | ③ | 好きなのに、なぜか壊れる。｜MBTI別「恋愛地雷ワード」完全版 | https://note.com/mbticode/n/nc0c199a26841 | 980円 | 2026-02-20 |
 | ⑤ | 気持ちはあるのに届かない。繰り返す恋愛パターンを変える3つの設計図 | https://note.com/mbticode/n/n88133079ba00 | 980円 | 2025-07-26 |
 | ⑥ | 誠実にやるほど当たり前にされる。その仕組みを知ってから、変わった | https://note.com/mbticode/n/nd5345b3b273a | 無料 | 2026-06-08 |
+| ⑦ | 恋愛で合わせすぎるほど、自分がわからなくなっていく理由 | https://note.com/mbticode/n/n2fbf7291aed7 | 無料 | 2026-06-14 |

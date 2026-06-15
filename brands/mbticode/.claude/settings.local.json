@@ -8,7 +8,9 @@
       "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\PC_User\\\\claude project\" -Force | Select-Object Name, @{Name='Type'; Expression={if\\($_.PSIsContainer\\){'Dir'}else{'File'}}})",
       "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\PC_User\\\\claude project\\\\brands\\\\mbticode\\\\articles\" -Recurse -Force | Select-Object FullName | ForEach-Object {$_.FullName -replace [regex]::Escape\\(\"C:\\\\Users\\\\PC_User\\\\claude project\\\\brands\\\\mbticode\\\\articles\"\\), \"\"}  | Sort-Object)",
       "PowerShell(Move-Item *)",
-      "Bash(cmd /c del \"C:\\\\Users\\\\PC_User\\\\claude project\\\\brands\\\\mbticode\\\\reference\\\\x_algorithm_2026.md\")"
+      "Bash(cmd /c del \"C:\\\\Users\\\\PC_User\\\\claude project\\\\brands\\\\mbticode\\\\reference\\\\x_algorithm_2026.md\")",
+      "Bash(git -C \"C:\\\\Users\\\\PC_User\\\\claude project\\\\brands\\\\mbticode\" status)",
+      "Bash(git -C \"C:\\\\Users\\\\PC_User\\\\claude project\\\\brands\\\\mbticode\" diff HEAD --stat)"
     ]
   }
 }
