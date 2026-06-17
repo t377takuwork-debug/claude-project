@@ -36,6 +36,7 @@
 
 - `persona_timetable.txt`：ペルソナ（佐藤 真由）
 - `C:\Users\PC_User\claude project\blogs\seo\SEO_guide.txt`：SEO設計
+- `template_star_static.txt`：見逃し配信・ナビゲーションブロックのバックアップ（復元・確認時のみ読む）
 
 ---
 
