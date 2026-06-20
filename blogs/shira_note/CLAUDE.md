@@ -10,30 +10,33 @@
 ### 実行方法
 
 ```
-python tools/collect_news.py
+python tools/collect_news.py              # 今日の番組・リリース情報を収集
+python tools/collect_news.py --date YYYYMMDD  # 指定日の番組を収集（例: --date 20260627）
 ```
 
 チャットでは「ネタ収集して」「今日のネタを集めて」と依頼するだけでよい。
+日付を指定したい場合は「6月27日のネタを収集して」のように伝えればよい。
 
 ### 出力ファイル
 
 | ファイル | 内容 |
 |---|---|
 | `tools/output/programs.md` | 番組ネタ候補（音楽番組 / 長時間特番） |
-| `tools/output/releases.md` | リリース情報ネタ候補（過去2時間以内のみ） |
+| `tools/output/releases.md` | リリース情報ネタ候補（過去2時間以内のみ。深夜〜早朝は0件になりやすい） |
 
 ### 収集先
 
 | 対象 | URL | 備考 |
 |---|---|---|
-| 番組情報 | `https://bangumi.org/epg/td?broad_cast_date=YYYYMMDD&ggm_group_id=42` | 日付は実行日に自動設定。東京エリア（42固定） |
-| リリース情報 | mdpr.jp / realsound.jp / oricon.co.jp | natalie.mu は 403 のためスキップ |
+| 番組情報 | `https://bangumi.org/epg/td?broad_cast_date=YYYYMMDD&ggm_group_id=42` | 省略時は実行日、`--date` で指定可。東京エリア（42固定） |
+| リリース情報 | mdpr.jp / realsound.jp / oricon.co.jp | `--date` 指定時はスキップ。natalie.mu は 403 のためスキップ |
 
 ### 効率的な依頼パターン
 
 | やりたいこと | 依頼例 |
 |---|---|
 | 番組・リリース両方収集 | 「ネタ収集して」「今日のネタを集めて」 |
+| 日付を指定して収集 | 「6月27日のネタを収集して」 |
 | 番組情報だけ見たい | 「番組情報だけ収集して」 |
 | リリース情報だけ見たい | 「リリース情報だけ収集して」 |
 | 結果を見たい（再実行不要） | 「前回のネタ結果を見せて」 |
@@ -208,9 +211,3 @@ NewJeans [G]
 - Key_Insight: ラスト出演発表でXのトレンド入り。アーカイブ閲覧が前回比2倍
 ```
 
----
-
-## ネタ収集ツール注意事項
-
-- リリース情報は**公開から2時間以内**の記事のみ取得。深夜〜早朝は0件になりやすい。
-- bangumi.org の `ggm_group_id=42` は東京エリア。地域を変えたい場合はパラメータを変更。

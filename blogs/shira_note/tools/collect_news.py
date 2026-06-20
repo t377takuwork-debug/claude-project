@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Shira Notes ネタ収集ツール
-Usage: python collect_news.py
+Usage: python collect_news.py [--date YYYYMMDD]
 
 収集先:
   番組情報: bangumi.org/genres/music
@@ -9,6 +9,7 @@ Usage: python collect_news.py
   ※ natalie.mu は 403 のためスキップ
 """
 
+import argparse
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timedelta, timezone
@@ -29,7 +30,7 @@ HEADERS = {
 MUSIC_KEYWORDS = [
     "Mステ", "ミュージックステーション", "CDTV", "音楽の日",
     "MUSIC AWARDS", "FNS歌謡祭", "with MUSIC",
-    "うたコン", "SONGS", "THE MUSIC DAY", "ベストアーティスト",
+    "うたコン", "THE MUSIC DAY", "ベストアーティスト",
     "レコード大賞", "レコ大", "ミュージックフェア", "MUSIC BLOOD",
     "MUSIC STATION", "歌番組", "音楽番組", "ポップジャム",
     "MUSIC FAIR", "僕らの音楽", "Musicる",
@@ -38,7 +39,7 @@ MUSIC_KEYWORDS = [
 # 単語境界が必要なキーワード（部分一致で誤マッチするもの）
 MUSIC_KEYWORDS_EXACT = [
     r"(?<![A-Za-z])STAR(?![A-Za-z0-9])",   # STAR番組（STARDOM等を除外）
-    r"(?<![A-Za-z])SONGS(?![A-Za-z0-9])",  # SONGS（NHK）
+    r"(?<![A-Za-z])SONGS(?![A-Za-z0-9])",  # SONGS（NHK。SONGSplus等を除外）
 ]
 
 # bangumi.org で一致したら「長時間特番」として扱うキーワード
@@ -158,19 +159,21 @@ def _parse_bangumi_soup(soup: BeautifulSoup, seen_urls: set, broadcast_date: str
     return programs
 
 
-def scrape_bangumi() -> list[dict]:
-    """bangumi.org の番組表（当日分・東京エリア）から音楽番組・長時間特番を取得"""
-    today = datetime.now(JST).strftime("%Y%m%d")
-    today_label = datetime.now(JST).strftime("%-m月%-d日") if os.name != "nt" else datetime.now(JST).strftime("%#m月%#d日")
-    url = f"https://bangumi.org/epg/td?broad_cast_date={today}&ggm_group_id=42"
-    print(f"    対象日: {today_label}（東京エリア）")
+def scrape_bangumi(target_dt: datetime | None = None) -> list[dict]:
+    """bangumi.org の番組表（東京エリア）から音楽番組・長時間特番を取得"""
+    if target_dt is None:
+        target_dt = datetime.now(JST)
+    date_str = target_dt.strftime("%Y%m%d")
+    date_label = target_dt.strftime("%-m月%-d日") if os.name != "nt" else target_dt.strftime("%#m月%#d日")
+    url = f"https://bangumi.org/epg/td?broad_cast_date={date_str}&ggm_group_id=42"
+    print(f"    対象日: {date_label}（東京エリア）")
 
     soup = fetch(url)
     if not soup:
         return []
 
     seen_urls: set = set()
-    programs = _parse_bangumi_soup(soup, seen_urls, broadcast_date=today_label)
+    programs = _parse_bangumi_soup(soup, seen_urls, broadcast_date=date_label)
     print(f"    取得件数: {len(programs)}件")
     return programs
 
@@ -178,6 +181,13 @@ def scrape_bangumi() -> list[dict]:
 # ---------------------------------------------------------------------------
 # リリース情報: 各ニュースサイト
 # ---------------------------------------------------------------------------
+
+RELEASE_SOURCES = [
+    ("https://mdpr.jp/",                r"/news/\d+",          "https://mdpr.jp",          "モデルプレス"),
+    ("https://realsound.jp/music",      r"/\d{4}/\d{2}/post-", "https://realsound.jp",     "リアルサウンド"),
+    ("https://www.oricon.co.jp/music/", r"/news/\d+",          "https://www.oricon.co.jp", "ORICON NEWS"),
+]
+
 
 def _extract_articles(
     soup: BeautifulSoup,
@@ -227,29 +237,13 @@ def _extract_articles(
     return articles
 
 
-def scrape_mdpr() -> list[dict]:
-    soup = fetch("https://mdpr.jp/")
-    if not soup:
-        return []
-    return _extract_articles(soup, r"/news/\d+", "https://mdpr.jp", "モデルプレス")
-
-
-def scrape_realsound() -> list[dict]:
-    soup = fetch("https://realsound.jp/music")
-    if not soup:
-        return []
-    return _extract_articles(
-        soup, r"/\d{4}/\d{2}/post-", "https://realsound.jp", "リアルサウンド"
-    )
-
-
-def scrape_oricon() -> list[dict]:
-    soup = fetch("https://www.oricon.co.jp/music/")
-    if not soup:
-        return []
-    return _extract_articles(
-        soup, r"/news/\d+", "https://www.oricon.co.jp", "ORICON NEWS"
-    )
+def scrape_releases() -> list[dict]:
+    articles = []
+    for url, pattern, base, source in RELEASE_SOURCES:
+        soup = fetch(url)
+        if soup:
+            articles += _extract_articles(soup, pattern, base, source)
+    return articles
 
 
 # ---------------------------------------------------------------------------
@@ -329,6 +323,18 @@ def write_releases_md(articles: list[dict], output_dir: str) -> None:
 # ---------------------------------------------------------------------------
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Shira Notes ネタ収集")
+    parser.add_argument("--date", metavar="YYYYMMDD", help="収集対象日（例: 20260628）。省略時は今日")
+    args = parser.parse_args()
+
+    target_dt = None
+    if args.date:
+        try:
+            target_dt = datetime.strptime(args.date, "%Y%m%d").replace(tzinfo=JST)
+        except ValueError:
+            print(f"[ERROR] 日付形式が正しくありません: {args.date}（YYYYMMDD形式で指定してください）")
+            return
+
     output_dir = os.path.join(os.path.dirname(__file__), "output")
     os.makedirs(output_dir, exist_ok=True)
 
@@ -337,18 +343,21 @@ def main() -> None:
     print(f"実行日時: {now_str} JST\n")
 
     print("[番組情報] bangumi.org を取得中...")
-    programs = scrape_bangumi()
+    programs = scrape_bangumi(target_dt)
     write_programs_md(programs, output_dir)
 
-    print("\n[リリース情報] 各サイトを取得中...")
-    releases: list[dict] = []
-    for fn in [scrape_mdpr, scrape_realsound, scrape_oricon]:
-        releases += fn()
+    if target_dt is None:
+        print("\n[リリース情報] 各サイトを取得中...")
+        releases = scrape_releases()
+    else:
+        print("\n[リリース情報] 日付指定時はスキップ（過去2時間以内フィルタのため）")
+        releases = []
     write_releases_md(releases, output_dir)
 
     print(f"\n=== 完了 ===")
     print(f"番組ネタ  : {len(programs)}件")
-    print(f"リリースネタ: {len(releases)}件（過去2時間以内）")
+    if target_dt is None:
+        print(f"リリースネタ: {len(releases)}件（過去2時間以内）")
 
 
 if __name__ == "__main__":
