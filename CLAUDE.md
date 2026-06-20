@@ -11,13 +11,15 @@ claude project/
 ├── blogs/          ← ブログ記事制作・リライト環境
 │   ├── shira_note/ ← 音楽番組タイムテーブル速報ブログ（メイン稼働）
 │   └── seo/        ← SEO_guide.txt（全ブログ共通マスターガイド）
-└── brands/         ← アカウント運用・ライティング原則（→ brands/CLAUDE.md を参照）
-    ├── writing/        ← ライティング原則4ファイル
-    ├── s4lv/
-    │   ├── ai/         ← s4lv_aiアカウント固有データ・プロフィール
-    │   ├── pro/        ← s4lv_proプロフィール
-    │   └── shared/     ← s4lv共通プロフィール・実績データ
-    └── mbticode/       ← MBTI×ラブタイプ診断コンテンツ運用
+├── brands/         ← アカウント運用・ライティング原則（→ brands/CLAUDE.md を参照）
+│   ├── writing/        ← ライティング原則4ファイル
+│   ├── s4lv/
+│   │   ├── ai/         ← s4lv_aiアカウント固有データ・プロフィール
+│   │   ├── pro/        ← s4lv_proプロフィール
+│   │   └── shared/     ← s4lv共通プロフィール・実績データ
+│   └── mbticode/       ← MBTI×ラブタイプ診断コンテンツ運用
+└── Junk314/        ← クライアント管理アカウント（→ Junk314/junk_juice/CLAUDE.md を参照）
+    └── junk_juice/ ← 60代推し活エッセイアカウント
 ```
 
 ---
@@ -37,5 +39,7 @@ claude project/
 | shira_note リライト | `blogs/shira_note/CLAUDE.md` |
 | Note記事生成（s4lv/MBTICODE） | `brands/CLAUDE.md` |
 | X・Threads投稿生成 | `brands/CLAUDE.md` |
+| junk_juice Note記事（テーマ・タイトル） | `/junk-theme` スキルを起動 |
+| junk_juice Note記事（構成・本文・保存） | `/junk-article` スキルを起動 |
 | ASP記事設計 | `/asp-kaigi` スキルを起動 |
 | 戦略・方針判断 | `/notekaigi` スキルを起動 |
