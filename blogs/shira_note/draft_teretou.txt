@@ -1,0 +1,813 @@
+タイトル：【2026夏】テレ東音楽祭タイムテーブル｜出演者の順番や出演時間まとめ(随時更新)
+
+メタディスクリプション（88字）：
+「テレ東音楽祭2026夏」出演者・タイムテーブルをどこよりも早く随時更新！第1弾22組解禁。6/28（日）18:30放送。推しの歌唱曲や出演順を見逃さないよう最新情報をチェック！
+
+<!-- wp:paragraph -->
+<p>今年で16回目を迎える「テレ東音楽祭2026夏」の放送が6月28日（日）夜6:30から放送決定！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>今回は初の試みとして日曜放送（約4時間半）でお届けされます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][title][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="テレ東音楽祭 2026夏 プレビュー" style="display: block; font-family: 'Inter', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif; background: #0c0f1d; color: #ffffff; border: 1px solid #1e293b; border-radius: 8px; overflow: hidden; position: relative; max-width: 100%; margin: 10px 0; box-shadow: 0 4px 20px rgba(0, 242, 254, 0.15);">
+
+  <div style="position: absolute; inset: 0; background: linear-gradient(135deg, #0d1b2a 0%, #1b263b 40%, #43123a 100%); z-index: 1;"></div>
+  <div style="position: absolute; inset: 0; opacity: 0.05; background-image: url('data:image/svg+xml,&lt;svg width=&quot;40&quot; height=&quot;40&quot; viewBox=&quot;0 0 40 40&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;path d=&quot;M0 0h20v20H0z&quot; fill=&quot;none&quot; stroke=&quot;%2300f2fe&quot; stroke-width=&quot;1&quot;/&gt;&lt;/svg&gt;'); background-size: 20px 20px; z-index: 1;"></div>
+
+  <div style="position: relative; padding: 12px 14px; display: flex; align-items: center; justify-content: space-between; z-index: 2; border-bottom: 2px solid; border-image: linear-gradient(to right, #00f2fe, #ff007f, #00f2fe) 1; background: rgba(13, 27, 42, 0.6); backdrop-filter: blur(4px);">
+    <div style="border: 1px solid #00f2fe; padding: 1px; box-shadow: 0 0 8px rgba(0, 242, 254, 0.5);">
+      <div style="border: 1px solid #ff007f; padding: 3px 12px; background: rgba(12, 15, 29, 0.85);">
+        <div style="font-size: 15px; font-weight: 800; color: #ffffff; letter-spacing: 0.08em; text-shadow: 0 0 5px rgba(0,242,254,0.6);">
+          TV TOKYO <span style="color: #ff007f; font-style: italic;">MUSIC FESTIVAL</span> <span style="font-size: 11px; font-weight: 400; color: #00f2fe; vertical-align: middle; margin-left: 4px;">2026 SUMMER</span>
+        </div>
+      </div>
+    </div>
+    <div style="font-size: 9px; font-weight: 700; color: #00f2fe; letter-spacing: 0.12em; text-align: right; line-height: 1.3; text-shadow: 0 0 4px rgba(0,242,254,0.4);">
+      PROGRAM<br>INFO
+    </div>
+  </div>
+
+  <div style="position: relative; padding: 14px; display: grid; gap: 10px; z-index: 2; background: rgba(255,255,255,0.02);">
+
+    <div style="display: flex; align-items: flex-start; gap: 10px;">
+      <div style="flex-shrink: 0; font-size: 9px; font-weight: 900; background: linear-gradient(135deg, #ff007f 0%, #ff5e62 100%); color: #fff; padding: 2px 5px; border-radius: 3px; margin-top: 2px; box-shadow: 0 2px 6px rgba(255,0,127,0.4);">ON AIR</div>
+      <div style="flex: 1;">
+        <div style="font-size: 14px; font-weight: 700; color: #00f2fe; text-shadow: 0 0 3px rgba(0,242,254,0.2);">2026年6月28日（日）夜6:30～ 生放送</div>
+        <div style="font-size: 11px; color: #cbd5e1; margin-top: 3px; font-weight: 500;">MC：深澤辰哉・松本若菜 / 進行：田中瞳</div>
+      </div>
+    </div>
+
+    <div style="background: rgba(0, 242, 254, 0.05); border-left: 2px solid #00f2fe; padding: 8px 12px; border-radius: 0 4px 4px 0;">
+      <div style="font-size: 11px; font-weight: 600; color: #e2e8f0; line-height: 1.5;">
+        <span style="color: #ff007f; margin-right: 4px;">●</span>長渕剛、吉田栄作×仙道敦子、ドラマ主題歌企画（武田鉄矢、酒井法子他）など豪華出演！<br>
+        <span style="color: #ff007f; margin-right: 4px;">●</span>SUPER EIGHT、aespa、乃木坂46、Kis-My-Ft2等多数出演決定。
+      </div>
+    </div>
+
+    <div style="margin-top: 4px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 10px;">
+      <div style="font-size: 10px; color: #94a3b8; text-align: center; margin-bottom: 8px; font-style: italic;">
+        ※現在タイムテーブルは未発表です。順次更新予定。
+      </div>
+      <a href="#st-toc-h-2" style="display: flex; align-items: center; justify-content: center; background: linear-gradient(90deg, #ff007f 0%, #ff5e62 100%); color: #ffffff; text-decoration: none; font-size: 11px; font-weight: 700; padding: 9px; border-radius: 4px; letter-spacing: 0.08em; transition: all 0.3s ease; box-shadow: 0 3px 10px rgba(255, 0, 127, 0.3); border: 1px solid rgba(255,255,255,0.1);">
+        タイムテーブル・出演者詳細はこちら ▶
+      </a>
+    </div>
+
+  </div>
+
+  <div style="height: 4px; background: linear-gradient(90deg, #00f2fe, #ff007f, #2563eb, #ff007f, #00f2fe); position: relative; z-index: 2;"></div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][mokujimae][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>ZARDの復活ステージや特別生中継、伝説のドラマソングSPなど見どころ満載！<br>タイムテーブルや出演者の順番は、公式発表後すぐに追記します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>【随時更新】テレ東音楽祭2026夏のタイムテーブル（出演時間・順番）</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>「テレ東音楽祭2026夏」のタイムテーブルを公式情報を基にまとめます。<br>※現在過去の傾向から予想として掲載中。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="テレ東音楽祭 タイムテーブル予測" style="display: block; font-family: 'Inter', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif; background: #0c0f1d; color: #ffffff; border: 1px solid #1e293b; border-radius: 8px; overflow: hidden; position: relative; max-width: 100%; margin: 10px 0; box-shadow: 0 4px 20px rgba(0, 242, 254, 0.15);">
+
+  <div style="position: absolute; inset: 0; background: linear-gradient(185deg, #0d1b2a 0%, #1b263b 50%, #3a0ca3 100%); z-index: 1;"></div>
+
+  <div style="position: relative; padding: 12px; display: flex; align-items: center; justify-content: space-between; z-index: 2; border-bottom: 2px solid; border-image: linear-gradient(to right, #00f2fe, #ff007f) 1; background: rgba(13, 27, 42, 0.7); backdrop-filter: blur(4px);">
+    <div style="font-size: 13px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">
+      TV TOKYO <span style="color: #ff007f; font-style: italic;">MUSIC FES 2026</span>
+      <span style="font-size: 9px; font-weight: 900; color: #00f2fe; margin-left: 8px; border-left: 1px solid #ff007f; padding-left: 8px;">PREDICTION</span>
+    </div>
+    <div style="font-size: 8px; font-weight: 900; color: #ff007f; background: rgba(255,0,127,0.15); border: 1px solid rgba(255,0,127,0.3); padding: 2px 6px; border-radius: 3px;">UPDATING</div>
+  </div>
+
+  <div style="position: relative; z-index: 2; background: rgba(12, 15, 29, 0.4);">
+    <div style="border-bottom: 1px solid rgba(255,255,255,0.06); padding: 10px 14px;">
+      <div style="font-size: 11px; font-weight: 800; color: #00f2fe; margin-bottom: 4px;">18:30〜 オープニング・特別企画</div>
+      <div style="font-size: 11px; color: #e2e8f0; line-height: 1.5;">
+        ・伝説のドラマソングSPメドレー（吉田栄作＆仙道敦子ほか）<br>
+        ・本田美奈子.特別企画
+      </div>
+    </div>
+    <div style="border-bottom: 1px solid rgba(255,255,255,0.06); padding: 10px 14px;">
+      <div style="font-size: 11px; font-weight: 800; color: #a855f7; margin-bottom: 4px;">19:30〜 小室哲哉（TK）サウンド特集</div>
+      <div style="font-size: 11px; color: #e2e8f0;">YU-KI(TRF)×マーク・パンサーによるglobeメドレーほか</div>
+    </div>
+    <div style="border-bottom: 1px solid rgba(255,255,255,0.06); padding: 10px 14px; background: rgba(251,191,36,0.03);">
+      <div style="font-size: 11px; font-weight: 800; color: #fbbf24; margin-bottom: 4px;">20:30〜 豪華出演アーティスト</div>
+      <div style="font-size: 11px; color: #e2e8f0;">Kis-My-Ft2、中島健人、TRF、aespa、観月ありさ ほか</div>
+    </div>
+    <div style="border-bottom: 1px solid rgba(255,255,255,0.06); padding: 10px 14px;">
+      <div style="font-size: 11px; font-weight: 800; color: #34d399; margin-bottom: 4px;">21:30〜 長渕剛 テレ東初出演ステージ</div>
+      <div style="font-size: 11px; color: #e2e8f0;">「とんぼ」「RUN」「乾杯」ほか熱唱</div>
+    </div>
+  </div>
+
+  <div style="position: relative; z-index: 2; padding: 10px 14px; background: rgba(15, 23, 42, 0.8);">
+    <p style="margin: 0; font-size: 9px; color: #94a3b8;">※このタイムテーブルは今回の日曜放送枠および番組企画に基づく予測です。出演順は公式発表後、随時更新します。</p>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>推しのアーティストの出番（出演時間・登場順番）を逃さずチェックできるよう、情報が判明次第、最新情報を最速で追記・更新していきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>【2026年夏】テレ東音楽祭の出演アーティスト＆歌唱曲一覧</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>「テレ東音楽祭2026夏」の出演アーティストが第2弾まで公開されました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>長渕剛のテレ東初出演やTKサウンド特集、豪華俳優陣による伝説のドラマソングSPなど、今回限りの特別企画が目白押し！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="font-family: 'Inter', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif; background: #0c0f1d; color: #ffffff; border: 1px solid #1e293b; border-radius: 8px; overflow: hidden; max-width: 100%; box-shadow: 0 4px 20px rgba(0, 242, 254, 0.15); position: relative;">
+
+  <div style="position: absolute; inset: 0; background: linear-gradient(180deg, #0d1b2a 0%, #111a2e 100%); z-index: 1;"></div>
+
+  <!-- ヘッダー -->
+  <div style="position: relative; padding: 12px 14px; border-bottom: 2px solid; border-image: linear-gradient(to right, #00f2fe, #ff007f) 1; display: flex; align-items: center; gap: 10px; z-index: 2; background: rgba(13, 27, 42, 0.7); backdrop-filter: blur(4px);">
+    <div style="border: 1px solid #00f2fe; padding: 2px 8px; background: rgba(12, 15, 29, 0.9);">
+      <div style="font-size: 11px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em;">TV TOKYO <span style="color: #ff007f; font-style: italic; font-size: 10px;">MUSIC FES</span></div>
+    </div>
+    <div style="font-size: 13px; font-weight: 800; color: #00f2fe; letter-spacing: 0.08em; text-shadow: 0 0 4px rgba(0, 242, 254, 0.4);">ARTISTS &amp; SONGS</div>
+  </div>
+
+  <!-- 出演アーティスト領域：2列グリッド -->
+  <div style="position: relative; padding: 14px; z-index: 2;">
+    <div style="font-size: 11px; font-weight: 800; color: #00f2fe; margin-bottom: 10px; border-left: 3px solid #00f2fe; padding-left: 8px;">出演アーティスト・歌唱曲リスト（全45組）</div>
+
+    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-bottom: 16px;">
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>赤井英和</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>アグネス・チャン</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>麻倉未稀</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>石井明美</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>いしだ壱成</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>伊東歌詞太郎</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>aespa</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>大久保伸隆</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>小野正利</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>辛島美登里</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>河口恭吾</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>Kis-My-Ft2</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>KEY TO LIT</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>楠瀬誠志郎</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>久宝留理子</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>けんいち</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>酒井法子</strong><br><span style="color: #00f2fe;">碧いうさぎ</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>SATSUKI</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>THE 虎舞竜</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>澤田知可子</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>JI BLUE</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>ZIGGY</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>SHAZNA</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>鈴木亜美</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>千堂あきほ</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>仙道敦子</strong><br><span style="color: #00f2fe;">今を抱きしめて</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>高嶋政伸</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>武田鉄矢</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>Tama</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>TRF</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>中島健人</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>永井真理子</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>長渕剛</strong><br><span style="color: #00f2fe;">とんぼ / RUN / 乾杯</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>西田ひかる</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>PERSONZ</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>バブルガム・ブラザーズ</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>早見優</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>hitomi</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>B.B.クィーンズ</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>FIELD OF VIEW</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>マーク・パンサー</strong><br><span style="color: #00f2fe;">globeメドレー</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>松本伊代</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>観月ありさ</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>森若香織</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>吉田栄作</strong><br><span style="color: #00f2fe;">今を抱きしめて</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>LINDBERG</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>ZARD</strong><br><span style="color: #00f2fe;">マイ フレンド 他</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>島袋寛子</strong><br><span style="color: #00f2fe;">Body &amp; Soul 他</span></div>
+    </div>
+  </div>
+
+  <!-- フッター -->
+  <div style="position: relative; z-index: 2; padding: 10px 14px; background: rgba(15, 23, 42, 0.8); border-top: 1px solid rgba(255,255,255,0.06);">
+    <p style="margin: 0; font-size: 9px; color: #94a3b8; text-align: center;">※全45組のアーティストを掲載しています。未判明の楽曲は今後更新いたします。</p>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>長渕剛の初出演やTKサウンド特集など、今回限りの特別企画が目白押し。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>35周年のZARDや30周年の島袋寛子ら、レジェンドから旬の顔ぶれまで豪華アーティストが勢揃いします。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>出演者やタイムテーブルの発表はいつ？テレ東音楽祭の公式発表傾向</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>「いつ推しの出演や登場時間がわかるの？」とやきもきするファンの方も多いと思います。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>そこで、これまでの「テレ東音楽祭」の傾向から、2026年夏の発表タイミングを予測・整理しました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="発表スケジュール" style="display: block; font-family: 'Inter', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif; background: #0c0f1d; color: #ffffff; border: 1px solid #1e293b; border-radius: 8px; overflow: hidden; max-width: 100%; margin: 10px 0; box-shadow: 0 4px 20px rgba(0, 242, 254, 0.15); position: relative;">
+
+  <div style="position: absolute; inset: 0; background: linear-gradient(180deg, #0d1b2a 0%, #111a2e 100%); z-index: 1;"></div>
+
+  <div style="position: relative; padding: 12px 14px; border-bottom: 2px solid; border-image: linear-gradient(to right, #00f2fe, #ff007f) 1; display: flex; align-items: center; gap: 10px; z-index: 2; background: rgba(13, 27, 42, 0.7); backdrop-filter: blur(4px);">
+    <div style="border: 1px solid #00f2fe; padding: 2px 8px; background: rgba(12, 15, 29, 0.9); box-shadow: 0 0 6px rgba(0, 242, 254, 0.4);">
+      <div style="font-size: 11px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em;">
+        TV TOKYO <span style="color: #ff007f; font-style: italic; font-size: 10px;">MUSIC FES</span>
+      </div>
+    </div>
+    <div style="font-size: 13px; font-weight: 800; color: #00f2fe; letter-spacing: 0.08em; text-shadow: 0 0 4px rgba(0, 242, 254, 0.4);">SCHEDULE</div>
+  </div>
+
+  <div style="position: relative; padding: 14px 12px; z-index: 2;">
+
+    <div style="font-size: 12px; line-height: 1.6; color: #e2e8f0; margin-bottom: 12px; font-weight: 400;">
+      出演アーティストやタイムテーブルは、例年以下のようなスケジュールで段階的に発表されます。
+    </div>
+
+    <div style="width: 100%; border-collapse: collapse; display: table; font-size: 11px; margin-bottom: 12px; border: 1px solid rgba(255,255,255,0.08);">
+      <div style="display: table-row; background: #13233c; font-weight: 700; color: #00f2fe;">
+        <div style="display: table-cell; padding: 10px 8px; border: 1px solid rgba(255,255,255,0.08); width: 35%;">発表内容</div>
+        <div style="display: table-cell; padding: 10px 8px; border: 1px solid rgba(255,255,255,0.08);">解禁タイミング（過去の傾向）</div>
+      </div>
+      <div style="display: table-row; background: rgba(255,255,255,0.01);">
+        <div style="display: table-cell; padding: 10px 8px; border: 1px solid rgba(255,255,255,0.08); font-weight: 700; color: #ffffff; vertical-align: middle;">第1弾 出演者</div>
+        <div style="display: table-cell; padding: 10px 8px; border: 1px solid rgba(255,255,255,0.08); color: #cbd5e1; line-height: 1.4;">
+          <b style="color: #00f2fe; font-size: 12px;">6月中旬（放送の10日前〜2週間前）</b><br>
+          <span style="font-size: 10px; color: #ff5e62; opacity: 0.9;">過去データ：2025年は6/30頃、2023年は6/17頃に解禁</span>
+        </div>
+      </div>
+      <div style="display: table-row; background: rgba(255,255,255,0.03);">
+        <div style="display: table-cell; padding: 10px 8px; border: 1px solid rgba(255,255,255,0.08); font-weight: 700; color: #ffffff; vertical-align: middle;">追加 出演者</div>
+        <div style="display: table-cell; padding: 10px 8px; border: 1px solid rgba(255,255,255,0.08); color: #cbd5e1; line-height: 1.4;">
+          <b style="color: #ffffff; font-size: 12px;">6月中旬〜直前（数日前まで）</b><br>
+          <span style="font-size: 10px; color: #94a3b8;">注目のSTARTO社勢や限定コラボ、サプライズ中継などが順次解禁</span>
+        </div>
+      </div>
+      <div style="display: table-row; background: rgba(255,0,127,0.04);">
+        <div style="display: table-cell; padding: 10px 8px; border: 1px solid rgba(255,0,127,0.2); font-weight: 700; color: #ff007f; vertical-align: middle; text-shadow: 0 0 2px rgba(255,0,127,0.2);">タイムテーブル</div>
+        <div style="display: table-cell; padding: 10px 8px; border: 1px solid rgba(255,0,127,0.2); color: #cbd5e1; line-height: 1.4;">
+          <b style="color: #ff007f; font-size: 12px; text-shadow: 0 0 2px rgba(255,0,127,0.2);">放送日の前日〜当日朝</b><br>
+          <span style="font-size: 10px; color: #ff5e62; font-weight: 600;">生放送の直前調整があるため、例年ギリギリの発表です！</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="background: rgba(255,0,127,0.03); padding: 10px 12px; border-radius: 4px; border: 1px dashed rgba(255,0,127,0.4); box-shadow: inset 0 0 8px rgba(255,0,127,0.05);">
+      <div style="font-size: 10px; font-weight: 900; color: #ff007f; margin-bottom: 4px; letter-spacing: 0.05em; text-shadow: 0 0 2px rgba(255,0,127,0.2);">CHECK!</div>
+      <div style="font-size: 10px; color: #94a3b8; line-height: 1.5; font-weight: 400;">
+        最新情報の解禁は、テレビ東京の公式サイトやプレスリリース、<b style="color: #00f2fe;">公式X（@teretoongakusai）</b>が最速です。6月中旬以降はアナウンスが急増するため、こまめにチェックしておきましょう。
+      </div>
+    </div>
+
+  </div>
+
+  <div style="height: 3px; background: linear-gradient(90deg, #00f2fe, #ff007f, #3a0ca3, #ff007f, #00f2fe); position: relative; z-index: 2;"></div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>注目の出演アーティストの発表は、一挙解禁または「第1弾」「第2弾」と数回に分けて行われる傾向があります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>また、タイムテーブル（出演順番・時間帯）に関しては、放送直前（前日や当日）に公式SNS等で発表されることが多いため、こちらのページでも確認次第、リアルタイムでタイムスケジュールを更新していきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>テレ東音楽祭2026夏の放送日はいつ？番組の概要と見どころ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"id":6261,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://shira-treat.com/wp-content/uploads/2026/06/image-7.webp" alt="" class="wp-image-6261"/><figcaption class="wp-element-caption"><a href="https://www.tv-tokyo.co.jp/ongakusai_2026/">公式サイト</a>  | <a href="https://x.com/teretoongakusai">X(@teretoongakusai)</a></figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>「テレ東音楽祭」は、2014年の放送開始から数えて今回で16回目を迎える、テレビ東京が誇る12年もの歴史がある最大規模の大型音楽特番です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="番組概要と見どころ" style="display: block; font-family: 'Inter', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif; background: #0c0f1d; color: #ffffff; border: 1px solid #1e293b; border-radius: 8px; overflow: hidden; max-width: 100%; margin: 10px 0; box-shadow: 0 4px 20px rgba(0, 242, 254, 0.15); position: relative;">
+
+  <div style="position: absolute; inset: 0; background: linear-gradient(180deg, #0d1b2a 0%, #111a2e 100%); z-index: 1;"></div>
+
+  <div style="position: relative; padding: 12px 14px; border-bottom: 2px solid; border-image: linear-gradient(to right, #00f2fe, #ff007f) 1; display: flex; align-items: center; gap: 10px; z-index: 2; background: rgba(13, 27, 42, 0.7); backdrop-filter: blur(4px);">
+    <div style="border: 1px solid #00f2fe; padding: 2px 8px; background: rgba(12, 15, 29, 0.9);">
+      <div style="font-size: 11px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em;">TV TOKYO <span style="color: #ff007f; font-style: italic; font-size: 10px;">MUSIC FES</span></div>
+    </div>
+    <div style="font-size: 13px; font-weight: 800; color: #00f2fe; letter-spacing: 0.08em; text-shadow: 0 0 4px rgba(0, 242, 254, 0.4);">OVERVIEW</div>
+  </div>
+
+  <div style="position: relative; padding: 14px 12px; z-index: 2;">
+
+    <div style="display: grid; gap: 8px; margin-bottom: 16px;">
+      <div style="background: rgba(255,255,255,0.03); padding: 10px; border-left: 3px solid #00f2fe; border-radius: 4px;">
+        <div style="font-size: 11px; font-weight: 800; color: #00f2fe; margin-bottom: 2px;">放送スケジュール</div>
+        <div style="font-size: 11px; color: #cbd5e1;">2026年6月28日（日）18:30〜22:54</div>
+      </div>
+      <div style="background: rgba(255,255,255,0.03); padding: 10px; border-left: 3px solid #a855f7; border-radius: 4px;">
+        <div style="font-size: 11px; font-weight: 800; color: #a855f7; margin-bottom: 2px;">番組MC</div>
+        <div style="font-size: 11px; color: #cbd5e1;">深澤辰哉（Snow Man）＆ 松本若菜</div>
+      </div>
+    </div>
+
+    <div style="background: rgba(0,242,254,0.05); padding: 10px 12px; border-radius: 4px; border: 1px solid rgba(0,242,254,0.2);">
+      <div style="font-size: 10px; font-weight: 900; color: #00f2fe; margin-bottom: 6px; letter-spacing: 0.05em;">HIGHLIGHTS &amp; SPECIALS</div>
+      <ul style="margin: 0; padding-left: 16px; font-size: 10px; color: #cbd5e1; line-height: 1.6;">
+        <li style="margin-bottom: 4px;"><strong>長渕剛：</strong>テレ東音楽祭に初出演。「とんぼ」「RUN」等を披露。</li>
+        <li style="margin-bottom: 4px;"><strong>ZARD：</strong>デビュー35周年記念SPステージ。「マイ フレンド」他。</li>
+        <li style="margin-bottom: 4px;"><strong>島袋寛子：</strong>デビュー30周年メドレー。「Body &amp; Soul」等。</li>
+        <li style="margin-bottom: 4px;"><strong>TKサウンド特集：</strong>YU-KI、マーク・パンサーらによるglobe名曲メドレー。</li>
+        <li style="margin-bottom: 4px;"><strong>ドラマソングSP：</strong>吉田栄作・仙道敦子が32年振りに再結成。</li>
+        <li><strong>地域連動：</strong>TVQ九州放送開局35周年記念の生中継企画も実施。</li>
+      </ul>
+    </div>
+  </div>
+
+  <div style="height: 3px; background: linear-gradient(90deg, #00f2fe, #ff007f, #3a0ca3, #ff007f, #00f2fe); position: relative; z-index: 2;"></div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>今回のテレ東音楽祭は、日曜夜のゴールデンタイムに4時間半の生放送でお届け！豪華MC陣と出演アーティストや企画などの見どころをまとめました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>テレ東音楽祭の出演時間や順番の傾向について</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>毎年約4時間半にわたる生放送となる「テレ東音楽祭」。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>具体的なタイムテーブルは放送直前（前日〜当日）に発表されますが、これまでの過去の傾向から「どのアーティストがどの時間帯に登場するか」には一定の法則があります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>推しの出演時間を先読みするための見どころと傾向を時間帯別に分析しました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="タイムテーブル傾向" style="display: block; font-family: 'Inter', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif; background: #0c0f1d; color: #ffffff; border: 1px solid #1e293b; border-radius: 8px; overflow: hidden; max-width: 100%; margin: 10px 0; box-shadow: 0 4px 20px rgba(0, 242, 254, 0.15); position: relative;">
+  
+  <!-- テレ東音楽祭仕様：サイバーブルー×サンセットマゼンタのハイブリッド背景グラデーション -->
+  <div style="position: absolute; inset: 0; background: linear-gradient(180deg, #0d1b2a 0%, #111a2e 100%); z-index: 1;"></div>
+
+  <!-- ヘッダー領域 -->
+  <div style="position: relative; padding: 12px 14px; border-bottom: 2px solid; border-image: linear-gradient(to right, #00f2fe, #ff007f) 1; display: flex; align-items: center; gap: 10px; z-index: 2; background: rgba(13, 27, 42, 0.7); backdrop-filter: blur(4px);">
+    <div style="border: 1px solid #00f2fe; padding: 2px 8px; background: rgba(12, 15, 29, 0.9); box-shadow: 0 0 6px rgba(0, 242, 254, 0.4);">
+      <div style="font-size: 11px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em;">
+        TV TOKYO <span style="color: #ff007f; font-style: italic; font-size: 10px;">MUSIC FES</span>
+      </div>
+    </div>
+    <div style="font-size: 12px; font-weight: 800; color: #00f2fe; letter-spacing: 0.08em; text-shadow: 0 0 4px rgba(0, 242, 254, 0.4);">TIME ANALYSIS</div>
+  </div>
+
+  <!-- メインコンテンツ領域 -->
+  <div style="position: relative; padding: 14px 12px; z-index: 2;">
+    
+    <div style="font-size: 12px; line-height: 1.6; color: #e2e8f0; margin-bottom: 12px; font-weight: 400;">
+      出演アーティストやタイムテーブルは、例年以下のようなスケジュールで段階的に発表されます。
+    </div>
+
+    <div style="display: grid; gap: 10px;">
+
+      <!-- 18:30〜19時台（サイバーシアン） -->
+      <div style="display: flex; gap: 10px; padding: 10px; background: rgba(0, 242, 254, 0.04); border: 1px solid rgba(0, 242, 254, 0.15); border-radius: 6px;">
+        <div style="flex-shrink: 0; width: 50px; text-align: center;">
+          <div style="font-size: 12px; font-weight: 800; color: #00f2fe; text-shadow: 0 0 3px rgba(0,242,254,0.4);">18:30</div>
+          <div style="font-size: 8px; font-weight: 600; color: #00f2fe; opacity: 0.8; margin-top: 1px;">～19時台</div>
+        </div>
+        <div style="flex: 1; border-left: 1px solid rgba(0, 242, 254, 0.2); padding-left: 12px;">
+          <div style="font-size: 11px; font-weight: 700; color: #ffffff;">オープニング＆注目の若手・実力派グループ</div>
+          <div style="font-size: 10px; color: #94a3b8; line-height: 1.5; margin-top: 2px;">番組の幕開けにふさわしいアップテンポな楽曲や、SNSで人気の高いボーイズ・ガールズグループが序盤から続々登場。</div>
+        </div>
+      </div>
+
+      <!-- 20:00〜21時台（サンセットマゼンタ） -->
+      <div style="display: flex; gap: 10px; padding: 10px; background: rgba(255, 0, 127, 0.04); border: 1px solid rgba(255, 0, 127, 0.2); border-radius: 6px;">
+        <div style="flex-shrink: 0; width: 50px; text-align: center;">
+          <div style="font-size: 12px; font-weight: 800; color: #ff007f; text-shadow: 0 0 3px rgba(255,0,127,0.4);">20:00</div>
+          <div style="font-size: 8px; font-weight: 600; color: #ff007f; opacity: 0.8; margin-top: 1px;">～21時台</div>
+        </div>
+        <div style="flex: 1; border-left: 1px solid rgba(255, 0, 127, 0.25); padding-left: 12px;">
+          <div style="font-size: 11px; font-weight: 700; color: #ffffff;">限定コラボ＆中継パフォーマンス</div>
+          <div style="font-size: 10px; color: #94a3b8; line-height: 1.5; margin-top: 2px;">テレ東ならではの「特別企画」や、スタジオを飛び出した「意外な場所からの中継」など、中盤の目玉枠。</div>
+        </div>
+      </div>
+
+      <!-- 22:00〜22:54（デジタルパープル） -->
+      <div style="display: flex; gap: 10px; padding: 10px; background: rgba(168, 85, 247, 0.04); border: 1px solid rgba(168, 85, 247, 0.15); border-radius: 6px;">
+        <div style="flex-shrink: 0; width: 50px; text-align: center;">
+          <div style="font-size: 12px; font-weight: 800; color: #a855f7; text-shadow: 0 0 3px rgba(168,85,247,0.4);">22:00</div>
+          <div style="font-size: 8px; font-weight: 600; color: #a855f7; opacity: 0.8; margin-top: 1px;">～22:54</div>
+        </div>
+        <div style="flex: 1; border-left: 1px solid rgba(168, 85, 247, 0.2); padding-left: 12px;">
+          <div style="font-size: 11px; font-weight: 700; color: #ffffff;">ベテラン・実力派アーティスト＆番組終盤</div>
+          <div style="font-size: 10px; color: #94a3b8; line-height: 1.5; margin-top: 2px;">音楽界を牽引するアーティスト陣の歌唱や、ヒット曲が連発する重要なゾーン。新MC陣によるラストの締めくくりにも注目。</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 攻略ガイド枠（ネオンピンク点線） -->
+    <div style="margin-top: 12px; padding: 10px 12px; background: rgba(255, 0, 127, 0.02); border-radius: 6px; border: 1px dashed rgba(255, 0, 127, 0.35); box-shadow: inset 0 0 8px rgba(255, 0, 127, 0.03);">
+      <div style="font-size: 9px; font-weight: 900; color: #ff007f; margin-bottom: 6px; letter-spacing: 0.08em; text-shadow: 0 0 2px rgba(255,0,127,0.2);">STRATEGY GUIDE</div>
+      <ul style="margin: 0; padding: 0; font-size: 10.5px; color: #cbd5e1; line-height: 1.6; list-style: none;">
+        <li style="position: relative; padding-left: 14px; margin-bottom: 4px;">
+          <span style="position: absolute; left: 3px; top: 6px; width: 4px; height: 4px; background: #00f2fe; border-radius: 50%; box-shadow: 0 0 4px #00f2fe;"></span>
+          <b style="color: #ffffff;">限定コラボ企画</b>は20時・21時台に集中する傾向があります。
+        </li>
+        <li style="position: relative; padding-left: 14px; margin-bottom: 4px;">
+          <span style="position: absolute; left: 3px; top: 6px; width: 4px; height: 4px; background: #00f2fe; border-radius: 50%; box-shadow: 0 0 4px #00f2fe;"></span>
+          <b style="color: #ff007f; text-shadow: 0 0 1px rgba(255,0,127,0.2);">MC・深澤辰哉さんの所属するSnow Man</b>などの人気グループは、中盤から終盤のゴールデンタイムに配置される予測です。
+        </li>
+        <li style="position: relative; padding-left: 14px;">
+          <span style="position: absolute; left: 3px; top: 6px; width: 4px; height: 4px; background: #00f2fe; border-radius: 50%; box-shadow: 0 0 4px #00f2fe;"></span>
+          <b style="color: #ffffff;">実力派・ベテラン勢</b>は22時以降の番組ラストに向けて登場する可能性が高めです。
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- 最下部デコレーションライン -->
+  <div style="height: 3px; background: linear-gradient(90deg, #00f2fe, #ff007f, #3a0ca3, #ff007f, #00f2fe); position: relative; z-index: 2;"></div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>よくある質問（FAQ）</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>「テレ東音楽祭2026夏」の視聴に関して、よくある疑問をQ&amp;A形式で分かりやすくまとめました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="よくある質問" style="display: block; font-family: 'Inter', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif; background: #0c0f1d; color: #ffffff; border: 1px solid #1e293b; border-radius: 8px; overflow: hidden; max-width: 100%; margin: 10px 0; box-shadow: 0 4px 20px rgba(0, 242, 254, 0.15); position: relative;">
+
+  <div style="position: absolute; inset: 0; background: linear-gradient(180deg, #0d1b2a 0%, #111a2e 100%); z-index: 1;"></div>
+
+  <div style="position: relative; padding: 12px 14px; border-bottom: 2px solid; border-image: linear-gradient(to right, #00f2fe, #ff007f) 1; display: flex; align-items: center; gap: 10px; z-index: 2; background: rgba(13, 27, 42, 0.7); backdrop-filter: blur(4px);">
+    <div style="border: 1px solid #00f2fe; padding: 2px 8px; background: rgba(12, 15, 29, 0.9); box-shadow: 0 0 6px rgba(0, 242, 254, 0.4);">
+      <div style="font-size: 11px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em;">
+        TV TOKYO <span style="color: #ff007f; font-style: italic; font-size: 10px;">MUSIC FES</span>
+      </div>
+    </div>
+    <div style="font-size: 12px; font-weight: 800; color: #00f2fe; letter-spacing: 0.08em; text-shadow: 0 0 4px rgba(0, 242, 254, 0.4);">Q&amp;A</div>
+  </div>
+
+  <div style="position: relative; padding: 16px 14px; z-index: 2;">
+
+    <div style="margin-bottom: 20px;">
+      <h3 style="margin: 0 0 10px 0; font-size: 13px; font-weight: 700; color: #ffffff; display: flex; gap: 10px; align-items: flex-start; line-height: 1.4;">
+        <span style="flex-shrink: 0; width: 18px; height: 18px; background: #00f2fe; color: #0c0f1d; border-radius: 4px; font-size: 12px; font-weight: 900; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 6px rgba(0, 242, 254, 0.6);">Q</span>
+        歌唱順やタイムテーブルは公開されますか？
+      </h3>
+      <div style="display: flex; gap: 10px; align-items: flex-start; padding-left: 2px;">
+        <span style="flex-shrink: 0; font-size: 13px; font-weight: 900; color: #ff007f; text-shadow: 0 0 4px rgba(255, 0, 127, 0.5);">A</span>
+        <div style="font-size: 11px; color: #cbd5e1; line-height: 1.6;">
+          具体的な歌唱順は事前には全公開されません。出演者第2弾以降の発表に合わせ、番組公式SNSやHPにて、放送当日あるいは前日に時間帯別の「タイムテーブル」が解禁される予定です。最新情報は公式情報を随時ご確認ください。
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-bottom: 20px; border-top: 1px solid rgba(255, 255, 255, 0.08); padding-top: 16px;">
+      <h3 style="margin: 0 0 10px 0; font-size: 13px; font-weight: 700; color: #ffffff; display: flex; gap: 10px; align-items: flex-start; line-height: 1.4;">
+        <span style="flex-shrink: 0; width: 18px; height: 18px; background: #00f2fe; color: #0c0f1d; border-radius: 4px; font-size: 12px; font-weight: 900; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 6px rgba(0, 242, 254, 0.6);">Q</span>
+        放送日時を教えてください。
+      </h3>
+      <div style="display: flex; gap: 10px; align-items: flex-start; padding-left: 2px;">
+        <span style="flex-shrink: 0; font-size: 13px; font-weight: 900; color: #ff007f; text-shadow: 0 0 4px rgba(255, 0, 127, 0.5);">A</span>
+        <div style="font-size: 11px; color: #cbd5e1; line-height: 1.6;">
+          <b style="color: #ffffff;">2026年6月28日（日）18:30〜22:54</b>の4時間半生放送です。これまでと異なり「日曜の夜」放送となりますので、お間違えのないようご注意ください。
+        </div>
+      </div>
+    </div>
+
+    <div style="border-top: 1px solid rgba(255, 255, 255, 0.08); padding-top: 16px;">
+      <h3 style="margin: 0 0 10px 0; font-size: 13px; font-weight: 700; color: #ffffff; display: flex; gap: 10px; align-items: flex-start; line-height: 1.4;">
+        <span style="flex-shrink: 0; width: 18px; height: 18px; background: #00f2fe; color: #0c0f1d; border-radius: 4px; font-size: 12px; font-weight: 900; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 6px rgba(0, 242, 254, 0.6);">Q</span>
+        配信で視聴することはできますか？
+      </h3>
+      <div style="display: flex; gap: 10px; align-items: flex-start; padding-left: 2px;">
+        <span style="flex-shrink: 0; font-size: 13px; font-weight: 900; color: #ff007f; text-shadow: 0 0 4px rgba(255, 0, 127, 0.5);">A</span>
+        <div style="font-size: 11px; color: #cbd5e1; line-height: 1.6;">
+          TVerでのリアルタイム配信および期間限定の見逃し配信を予定しています。ただし、権利上の理由で一部の楽曲やアーティストが配信対象外となる場合があるため、確実な視聴・保存にはテレビ放送の録画をおすすめします。<br>
+          <a href="https://tver.jp/" style="color: #00f2fe; text-decoration: underline; font-weight: 600; margin-top: 6px; display: inline-block;">TVer公式サイトはこちら</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div style="height: 3px; background: linear-gradient(90deg, #00f2fe, #ff007f, #3a0ca3, #ff007f, #00f2fe); position: relative; z-index: 2;"></div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>2026年6月28日（日）18:30放送の「テレ東音楽祭2026夏」は、史上最大規模でお届け。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>新MCに深澤辰哉さん（Snow Man）と松本若菜さんを迎え、長渕剛さんの初出演やZARD・島袋寛子さんの記念ステージなど見どころある豪華企画が満載です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>今後も第2弾アーティストやタイムテーブル、歌唱曲など最新情報を随時更新します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>推しの登場を見逃さないよう、ぜひブックマークして当日のチェックにご活用ください！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="margin: 18px 0 14px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px 10px; font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #ff008d; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">他の音楽番組もチェック</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px;">
+    
+    <a href="https://shira-treat.com/category/musictv/countdown-tv/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        CDTV <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/category/musictv/star/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        STAR <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/category/musictv/music-station-2/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        Mステ <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/category/musictv/fns/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        FNS歌謡祭 <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/category/musictv/music-day/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        THE MUSIC DAY <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/category/musictv/ongakunohi/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        音楽の日 <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+  </div>
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #64748b; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">出演者の作品を探す</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
+    <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #232f3e; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #161d26;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        Amazon <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
+      </span>
+    </a>
+
+    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fhourly%2F002%2F%3Fl-id%3Dheader-subnavi-cd-ranking" target="_blank" rel="nofollow sponsored noopener noreferrer" referrerpolicy="no-referrer-when-downgrade" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        楽天ブックス <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
+      </span>
+    </a>
+  </div>
+
+  <img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+
+  <a href="https://amzn.to/3NjAmbl" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #001a4d, #003399); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid #00d4ff; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
+    <span style="font-size: 9px; font-weight: 900; color: #00d4ff; border: 1px solid #00d4ff; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 3px;">Music</span>
+    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を探す</span>
+    <span style="font-size: 18px; color: #00d4ff; margin-left: auto;">›</span>
+  </a>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<!-- MANUAL_JSONLD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://shira-treat.com/teretoongakusai-timetable/#post",
+      "headline": "【2026夏】テレ東音楽祭タイムテーブル｜出演者の順番・出演時間・見どころまとめ(随時更新)",
+      "description": "「テレ東音楽祭2026夏」出演者・タイムテーブルをどこよりも早く随時更新！長渕剛初出演、ZARD35周年、TK特集など豪華企画が満載。6/28（日）18:30放送。最新の出演順を見逃さないようチェック！",
+      "url": "https://shira-treat.com/teretoongakusai-timetable/",
+      "mainEntityOfPage": {
+        "@id": "https://shira-treat.com/teretoongakusai-timetable/"
+      },
+      "inLanguage": "ja",
+      "articleSection": "音楽特番",
+      "keywords": ["テレ東音楽祭", "テレ東音楽祭2026夏", "タイムテーブル", "出演者一覧", "テレビ東京", "長渕剛"],
+      "datePublished": "2026-06-03T00:00:00+09:00",
+      "dateCreated": "2026-06-03T00:00:00+09:00",
+      "dateModified": "2026-06-22T08:40:00+09:00",
+      "image": {
+        "@id": "https://shira-treat.com/teretoongakusai-timetable/#heroimage"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/operator-information/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp",
+          "width": 512,
+          "height": 512
+        },
+        "sameAs": [
+          "https://x.com/ShiraNotes_"
+        ]
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "テレ東音楽祭2026夏",
+          "sameAs": "https://www.tv-tokyo.co.jp/ongakusai/"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "Organization",
+          "name": "テレビ東京",
+          "sameAs": "https://www.tv-tokyo.co.jp/"
+        },
+        {
+          "@type": "WebSite",
+          "name": "TVer",
+          "sameAs": "https://tver.jp/"
+        }
+      ],
+      "hasPart": [
+        { "@id": "https://shira-treat.com/teretoongakusai-timetable/#summary" },
+        { "@id": "https://shira-treat.com/teretoongakusai-timetable/#timetable" },
+        { "@id": "https://shira-treat.com/teretoongakusai-timetable/#analysis" },
+        { "@id": "https://shira-treat.com/teretoongakusai-timetable/#faq" },
+        { "@id": "https://shira-treat.com/teretoongakusai-timetable/#breadcrumb" }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://shira-treat.com/teretoongakusai-timetable/#heroimage",
+      "url": "https://shira-treat.com/wp-content/uploads/2026/06/image-6-1.webp",
+      "width": 1200,
+      "height": 675
+    },
+    {
+      "@type": "BroadcastEvent",
+      "@id": "https://shira-treat.com/teretoongakusai-timetable/#broadcast",
+      "name": "テレ東音楽祭2026夏",
+      "alternateName": "テレ東音楽祭",
+      "description": "2026年6月28日（日）開催。初の「日曜ゴールデン帯」で送る4時間半の生放送。MCに深澤辰哉（Snow Man）と松本若菜を迎え、長渕剛初出演、ZARD・島袋寛子の記念ステージなど豪華企画が満載。",
+      "startDate": "2026-06-28T18:30:00+09:00",
+      "endDate": "2026-06-28T22:54:00+09:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "isLiveBroadcast": true,
+      "location": {
+        "@type": "Place",
+        "name": "テレビ東京スタジオ",
+        "sameAs": "https://www.tv-tokyo.co.jp/"
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "テレビ東京",
+        "url": "https://www.tv-tokyo.co.jp/"
+      },
+      "image": {
+        "@id": "https://shira-treat.com/teretoongakusai-timetable/#heroimage"
+      },
+      "potentialAction": {
+        "@type": "WatchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://tver.jp/"
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://shira-treat.com/teretoongakusai-timetable/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "歌唱順やタイムテーブルは公開されますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "具体的な歌唱順は事前には全公開されません。出演者第2弾以降の発表に合わせ、番組公式SNSやHPにて、放送当日あるいは前日に時間帯別の「タイムテーブル」が解禁される予定です。最新情報は公式情報を随時ご確認ください。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "放送日時を教えてください。",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2026年6月28日（日）18:30〜22:54の4時間半生放送です。これまでと異なり「日曜の夜」放送となりますので、お間違えのないようご注意ください。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "配信で視聴することはできますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TVerでのリアルタイム配信および期間限定の見逃し配信を予定しています。ただし、権利上の理由で一部の楽曲やアーティストが配信対象外となる場合があるため、確実な視聴・保存にはテレビ放送の録画をおすすめします。"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://shira-treat.com/teretoongakusai-timetable/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://shira-treat.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "テレ東音楽祭2026夏 タイムテーブル",
+          "item": "https://shira-treat.com/teretoongakusai-timetable/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<!-- /wp:html -->
