@@ -1,0 +1,859 @@
+タイトル：【2026】音楽の日タイムテーブル｜出演者の順番や出演時間まとめ(随時更新)
+
+メタディスクリプション（96字）：
+「音楽の日2026」7月18日生放送！出演者、タイムテーブル、歌唱曲を最速更新。INI、櫻坂46ら豪華アーティストの登場時間もひと目でチェック。推しの出番を逃さないよう最新情報をお届けします。
+
+<!-- wp:paragraph -->
+<p>TBS系の夏の大型音楽特番「音楽の日2026」の放送が決定！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>2011年に始まり、2026年で16回目の放送を迎えます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][title][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="音楽の日 2026 プレビュー" style="display: block; font-family: 'Yu Mincho', 'MS Mincho', 'Inter', sans-serif; background: #ffffff; color: #333; border: 1px solid #e0e0e0; border-radius: 6px; overflow: hidden; position: relative; max-width: 100%; margin: 10px 0; box-shadow: 0 4px 15px rgba(0,60,120,0.1);">
+
+  <div style="position: absolute; inset: 0; background: linear-gradient(135deg, #f0faff 0%, #ffffff 100%); z-index: 1;"></div>
+  <div style="position: absolute; inset: 0; opacity: 0.1; background-image: url('data:image/svg+xml,&lt;svg width=&quot;60&quot; height=&quot;60&quot; viewBox=&quot;0 0 100 100&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;path d=&quot;M0 0l50 50L100 0z&quot; fill=&quot;%2300bcd4&quot;/&gt;&lt;/svg&gt;'); background-size: 40px 40px; z-index: 1;"></div>
+
+  <div style="position: relative; padding: 10px 12px; display: flex; align-items: center; justify-content: space-between; z-index: 2; border-bottom: 2px solid; border-image: linear-gradient(to right, #00b4db, #ff4081, #00b4db) 1;">
+    <div style="border: 1px solid #333; padding: 1px;">
+      <div style="border: 1px solid #333; padding: 2px 10px; background: rgba(255,255,255,0.8);">
+        <div style="font-size: 15px; font-weight: 700; color: #000; letter-spacing: 0.05em;">
+          <span style="position: relative; display: inline-block;">
+            音<span style="position: absolute; top: 0px; left: 3px; width: 4.5px; height: 4.5px; background: #ff0000; border-radius: 50%;"></span>
+          </span>楽の日 <span style="font-family: sans-serif; font-size: 12px; font-weight: 300;">2026</span>
+        </div>
+      </div>
+    </div>
+    <div style="font-family: sans-serif; font-size: 8px; font-weight: 600; color: #00b4db; letter-spacing: 0.1em; text-align: right; line-height: 1.2;">
+      LATEST<br>INFO
+    </div>
+  </div>
+
+  <div style="position: relative; padding: 12px; display: grid; gap: 8px; z-index: 2; background: rgba(255,255,255,0.3);">
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 800; background: #00b4db; color: #fff; padding: 1px 4px; border-radius: 2px; margin-top: 2px;">放送日時</div>
+      <div style="flex: 1;">
+        <div style="font-size: 13px; font-weight: 700; color: #333;">2026年7月18日（土）14:00～21:56 生放送</div>
+        <div style="font-size: 10px; color: #666; margin-top: 1px;">総合司会：安住紳一郎・江藤愛（TBSアナウンサー）</div>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 800; background: #ff4081; color: #fff; padding: 1px 4px; border-radius: 2px; margin-top: 2px;">出演者</div>
+      <div style="font-size: 11px; color: #333; line-height: 1.4;">
+        INI、＝LOVE、EBiDAN、&amp;TEAM、CUTIE STREET、櫻坂46、TWS、HANA、FRUITS ZIPPER、Little Glee Monster、<b>and more...</b>
+      </div>
+    </div>
+
+    <div style="background: rgba(255,64,129,0.04); border-left: 2px solid #ff4081; padding: 6px 10px;">
+      <div style="font-size: 11px; font-weight: 600; color: #ff4081; display: flex; align-items: flex-start; gap: 5px; line-height: 1.3;">
+        <span style="margin-top: 4px; width: 4px; height: 4px; background: #ff4081; border-radius: 50%; flex-shrink: 0;"></span>
+        出演アーティスト第1弾発表！今後も追加出演者やスペシャル企画を順次発表予定です。最新情報は『CDTVライブ！ライブ！』等をご確認ください。
+      </div>
+    </div>
+
+    <div style="margin-top: 2px;">
+      <a href="#st-toc-h-2" style="display: flex; align-items: center; justify-content: center; background: #333; color: #fff; text-decoration: none; font-size: 10px; font-weight: 600; padding: 8px; border-radius: 2px; letter-spacing: 0.05em;">
+        最新の出演者・タイムテーブル情報をチェックする ▶
+      </a>
+    </div>
+
+  </div>
+
+  <div style="height: 3px; background: linear-gradient(90deg, #00b4db, #e3f2fd, #ff4081, #e3f2fd, #00b4db); position: relative; z-index: 2;"></div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][mokujimae][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>出演者第一弾が発表されました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>出演者・歌唱曲・順番等追加情報は改めて更新予定！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">【随時更新】TBS系 音楽の日2026のタイムテーブル（出演時間・順番）</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>「音楽の日2026」のタイムテーブルは、例年放送前日に発表される傾向にあります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>発表された情報を時間帯ごとにまとめし、推しのアーティストの出番を逃さずチェックできるよう整理予定です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="音楽の日 タイムテーブル" style="display: block; font-family: 'Yu Mincho', 'MS Mincho', 'Inter', sans-serif; background: #ffffff; color: #333; border: 1px solid #e0e0e0; border-radius: 6px; overflow: hidden; position: relative; max-width: 100%; margin: 10px 0; box-shadow: 0 4px 15px rgba(0,60,120,0.1);">
+
+  <div style="position: absolute; inset: 0; background: linear-gradient(180deg, #f0faff 0%, #ffffff 100%); z-index: 1;"></div>
+
+  <div style="position: relative; padding: 12px; display: flex; align-items: center; justify-content: space-between; z-index: 2; border-bottom: 2px solid #00b4db; background: rgba(255,255,255,0.9);">
+    <div style="font-size: 14px; font-weight: 700; color: #000;">
+       <span style="position: relative; display: inline-block;">
+        音<span style="position: absolute; top: 0px; left: 3px; width: 4.5px; height: 4.5px; background: #ff0000; border-radius: 50%;"></span>
+      </span>楽の日 <span style="font-family: sans-serif; font-size: 11px; font-weight: 300;">2026</span>
+      <span style="font-size: 10px; color: #00b4db; margin-left: 8px;">TIME TABLE</span>
+    </div>
+    <div style="font-size: 9px; font-weight: 800; color: #ff4081; background: rgba(255,64,129,0.1); padding: 2px 6px; border-radius: 2px;">
+      COMING SOON
+    </div>
+  </div>
+
+  <div style="position: relative; z-index: 2;">
+
+    <div style="border-bottom: 1px solid #eee; display: flex; align-items: stretch;">
+      <div style="width: 60px; background: rgba(0,180,219,0.05); display: flex; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #eee; flex-shrink: 0; padding: 8px 0;">
+        <div style="font-size: 12px; font-weight: 800; color: #00b4db; font-family: sans-serif;">14:00</div>
+        <div style="font-size: 7px; color: #888;">START</div>
+      </div>
+      <div style="padding: 10px 12px; flex: 1;">
+        <div style="font-size: 11px; color: #444; font-weight: 600; margin-bottom: 4px;">
+          <span style="border-left: 2px solid #ff4081; padding-left: 5px;">14:00台〜 メインステージ生放送開始</span>
+        </div>
+        <div style="font-size: 12px; color: #888; font-style: italic;">出演アーティスト・歌唱曲の発表をお待ちください</div>
+      </div>
+    </div>
+
+    <div style="border-bottom: 1px solid #eee; display: flex; align-items: stretch; background: rgba(255,255,255,0.4);">
+      <div style="width: 60px; background: rgba(0,180,219,0.02); display: flex; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #eee; flex-shrink: 0;">
+        <div style="font-size: 12px; font-weight: 800; color: #00b4db; font-family: sans-serif;">15:00〜</div>
+      </div>
+      <div style="padding: 10px 12px; flex: 1; display: flex; align-items: center;">
+        <div style="font-size: 12px; color: #888;">各時間帯の順番・タイムテーブル順次公開...</div>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: stretch; background: rgba(255,64,129,0.02);">
+      <div style="width: 60px; background: rgba(255,64,129,0.05); display: flex; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #eee; flex-shrink: 0; padding: 8px 0;">
+        <div style="font-size: 12px; font-weight: 800; color: #ff4081; font-family: sans-serif;">21:00台</div>
+        <div style="font-size: 7px; color: #ff4081;">〜21:56</div>
+      </div>
+      <div style="padding: 10px 12px; flex: 1;">
+        <div style="font-size: 11px; color: #ff4081; font-weight: 700; margin-bottom: 4px;">番組フィナーレ（21:56生放送終了）</div>
+        <div style="font-size: 12px; color: #888;">出演アーティスト・スペシャル企画 順次公開</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div style="position: relative; z-index: 2; padding: 8px 12px; background: #f9f9f9; border-top: 1px solid #eee;">
+    <p style="margin: 0; font-size: 9px; color: #666; line-height: 1.4;">
+      ※生放送につき、放送内容や出演時間・順番などは変更になる場合があります。続報は「CDTVライブ！ライブ！」等およびTBS公式サイトをご確認ください。
+    </p>
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>現時点では2026年の詳細なタイムテーブルは公開されていませんが、判明次第、以下の各時間帯セクションへ最新情報を追記します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">2026年の出演アーティスト＆歌唱曲一覧</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>「音楽の日2026」の出演アーティストと歌唱曲を掲載！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>STARTO ENTERTAINMENT勢や坂道グループ、K-POP勢から実力派アーティストまで豪華な顔ぶれが登場予定。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="font-family: 'Yu Mincho', 'MS Mincho', 'Inter', sans-serif; background: #ffffff; border: 1px solid #e0e0e0; border-radius: 4px; overflow: hidden; max-width: 100%; box-shadow: 0 2px 10px rgba(0,60,120,0.05);">
+
+  <div style="background: #fff; padding: 10px 12px; border-bottom: 2px solid #00b4db; display: flex; align-items: center; gap: 8px;">
+    <div style="border: 1px solid #333; padding: 1px 5px;">
+      <div style="font-size: 10px; font-weight: 700; color: #000; position: relative;">
+        音<span style="position: absolute; top: -1px; left: 3px; width: 4px; height: 4px; background: #ff0000; border-radius: 50%;"></span>楽の日
+      </div>
+    </div>
+    <div style="font-size: 13px; font-weight: 700; color: #00b4db; letter-spacing: 0.05em;">ARTISTS (第1弾発表)</div>
+  </div>
+
+  <div style="padding: 10px; background: #fcfdfe;">
+    <div style="font-size: 11px; color: #555; margin-bottom: 8px;">現在発表されている出演アーティスト（計10組）:</div>
+    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px; font-size: 12px; color: #333;">
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">INI</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">＝LOVE</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">EBiDAN</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">&amp;TEAM</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">CUTIE STREET</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">櫻坂46</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">TWS</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">HANA</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">FRUITS ZIPPER</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Little Glee Monster</div>
+    </div>
+    <div style="font-size: 10px; color: #888; margin-top: 10px; border-top: 1px solid #eee; padding-top: 6px;">
+      ※今後「CDTVライブ！ライブ！」等での続報発表に合わせ、出演者および歌唱曲リストを順次更新していきます。
+    </div>
+  </div>
+
+  <div style="padding: 12px; background: #fff; border-top: 1px solid #eee;">
+    <div style="font-size: 9px; font-weight: 800; color: #ff4081; margin-bottom: 8px; letter-spacing: 0.05em;">PROJECTS</div>
+
+    <div style="display: flex; gap: 10px; overflow-x: auto; padding-bottom: 5px; -webkit-overflow-scrolling: touch;">
+
+      <div style="flex: 0 0 160px; background: rgba(255,64,129,0.03); border: 1px solid rgba(255,64,129,0.15); border-radius: 3px; padding: 8px;">
+        <div style="font-size: 11px; font-weight: 700; color: #ff4081;">境界をこえる企画</div>
+        <div style="font-size: 9px; color: #666; margin-top: 4px; line-height: 1.4;">あらゆる壁を飛び越え、明日への背中を押す最高の歌声</div>
+      </div>
+
+      <div style="flex: 0 0 160px; background: rgba(0,180,219,0.03); border: 1px solid rgba(0,180,219,0.15); border-radius: 3px; padding: 8px;">
+        <div style="font-size: 11px; font-weight: 700; color: #00b4db;">心に寄り添う歌声</div>
+        <div style="font-size: 9px; color: #666; margin-top: 4px; line-height: 1.4;">震災から15年。困難を共に越えてきた歩みに寄り添う</div>
+      </div>
+
+      <div style="flex: 0 0 160px; background: #f9f9f9; border: 1px solid #ddd; border-radius: 3px; padding: 8px;">
+        <div style="font-size: 11px; font-weight: 700; color: #444;">アスリートへの敬意</div>
+        <div style="font-size: 9px; color: #666; margin-top: 4px; line-height: 1.4;">2026年、世界の限界に挑み記録を超える姿を音楽で応援</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div style="height: 2px; background: linear-gradient(90deg, #00b4db, #fff, #ff4081, #fff, #00b4db);"></div>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>公式からの追加出演者情報があり次第、こちらにリスト形式で追記します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">出演者やタイムテーブルの発表はいつ？公式の発表傾向</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>「いつ推しの出演がわかるの？」とやきもきするファンの方も多いとおもいますので、これまでの「音楽の日」の傾向から、2026年の発表タイミングを予測・整理しました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="発表スケジュール" style="display: block; font-family: 'Yu Mincho', 'MS Mincho', 'Inter', sans-serif; background: #ffffff; border: 1px solid #e0e0e0; border-radius: 4px; overflow: hidden; max-width: 100%; box-shadow: 0 2px 10px rgba(0,60,120,0.05);">
+
+  <div style="background: #fff; padding: 10px 12px; border-bottom: 2px solid #00b4db; display: flex; align-items: center; gap: 8px;">
+    <div style="border: 1px solid #333; padding: 1px 5px;">
+      <div style="font-size: 10px; font-weight: 700; color: #000; position: relative;">
+        音<span style="position: absolute; top: -1px; left: 3px; width: 4px; height: 4px; background: #ff0000; border-radius: 50%;"></span>楽の日
+      </div>
+    </div>
+    <div style="font-size: 13px; font-weight: 700; color: #00b4db; letter-spacing: 0.05em;">SCHEDULE</div>
+  </div>
+
+  <div style="padding: 12px; background: #fff;">
+
+    <div style="font-size: 11px; line-height: 1.6; color: #444; margin-bottom: 12px;">
+      出演者やタイムテーブルの情報は、例年段階的に発表されます。
+    </div>
+
+    <div style="width: 100%; border-collapse: collapse; display: table; font-size: 11px; margin-bottom: 12px;">
+      <div style="display: table-row; background: #f0faff; font-weight: 700; color: #00b4db;">
+        <div style="display: table-cell; padding: 8px; border: 1px solid #e0e0e0; width: 40%;">発表内容</div>
+        <div style="display: table-cell; padding: 8px; border: 1px solid #e0e0e0;">予想・実績</div>
+      </div>
+      <div style="display: table-row;">
+        <div style="display: table-cell; padding: 8px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">第1弾 出演者</div>
+        <div style="display: table-cell; padding: 8px; border: 1px solid #e0e0e0; color: #666;">
+          <b>5月中旬〜6月上旬</b><br>
+          <span style="font-size: 9px;">(2025年は6/2発表)</span>
+        </div>
+      </div>
+      <div style="display: table-row;">
+        <div style="display: table-cell; padding: 8px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">第2弾 出演者</div>
+        <div style="display: table-cell; padding: 8px; border: 1px solid #e0e0e0; color: #666;">
+          <b>6月下旬〜7月初旬</b><br>
+          <span style="font-size: 9px;">(2025年は6/23発表)</span>
+        </div>
+      </div>
+      <div style="display: table-row;">
+        <div style="display: table-cell; padding: 8px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle; background: rgba(255,64,129,0.02);">タイムテーブル</div>
+        <div style="display: table-cell; padding: 8px; border: 1px solid #e0e0e0; color: #666; background: rgba(255,64,129,0.02);">
+          <b>放送日の3日〜1週間前</b><br>
+          <span style="font-size: 9px; color: #ff4081; font-weight: 600;">2025年は前日に発表されています！</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="background: #f9f9f9; padding: 8px 10px; border-radius: 2px; border: 1px dashed #ccc;">
+      <div style="font-size: 10px; font-weight: 800; color: #ff4081; margin-bottom: 3px;">CHECK!</div>
+      <div style="font-size: 10px; color: #555; line-height: 1.5;">
+        最新の発表は<b>「CDTVライブ!ライブ!」</b>の放送時にも注目！公式サイトやSNSもこまめにチェックしましょう。
+      </div>
+    </div>
+
+  </div>
+
+  <div style="height: 2px; background: linear-gradient(90deg, #00b4db, #fff, #ff4081, #fff, #00b4db);"></div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>出演アーティストの発表は、一度に全員ではなく「第1弾」「第2弾」と数回に分けて行われます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">音楽の日2026の放送日はいつ？番組の概要と見どころ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<figure class="wp-block-image aligncenter"><img src="https://shira-treat.com/wp-content/uploads/2026/04/image-2-2.webp" alt="【2026最新】音楽の日 タイムテーブル・出演者一覧！出演時間と順番を随時更新" class="wp-image-6048"/><figcaption class="wp-element-caption"><a href="https://www.tbs.co.jp/ongakunohi/" target="_blank" rel="noreferrer noopener">公式サイト</a>｜<a href="https://x.com/tbs_ongakunohi" target="_blank" rel="noreferrer noopener">公式X(@TBS_ONGAKUNOHI)</a></figcaption></figure>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>「音楽の日」は、2011年の東日本大震災をきっかけに「音楽の力で日本を元気に」という願いを込めて始まった、TBSが誇る夏の大型音楽特番です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>16回目を迎える2026年の見どころなどを整理しました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="放送日と概要" style="display: block; font-family: 'Yu Mincho', 'MS Mincho', 'Inter', sans-serif; background: #ffffff; border: 1px solid #e0e0e0; border-radius: 4px; overflow: hidden; max-width: 100%; box-shadow: 0 2px 10px rgba(0,60,120,0.05);">
+
+  <div style="background: #fff; padding: 10px 12px; border-bottom: 2px solid #00b4db; display: flex; align-items: center; gap: 8px;">
+    <div style="border: 1px solid #333; padding: 1px 5px;">
+      <div style="font-size: 10px; font-weight: 700; color: #000; position: relative;">
+        音<span style="position: absolute; top: -1px; left: 3px; width: 4px; height: 4px; background: #ff0000; border-radius: 50%;"></span>楽の日
+      </div>
+    </div>
+    <div style="font-size: 12px; font-weight: 700; color: #00b4db; letter-spacing: 0.05em;">ABOUT 2026</div>
+  </div>
+
+  <div style="padding: 12px; background: #fff;">
+
+    <div style="margin-bottom: 18px;">
+      <div style="font-size: 14px; font-weight: 700; color: #333; border-bottom: 1px solid #f0f0f0; padding-bottom: 5px; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">
+        <span style="color: #00b4db;">●</span> 放送日時が決定！
+      </div>
+
+      <div style="background: rgba(0,180,219,0.05); padding: 10px; border-radius: 4px; text-align: center; border: 1px solid rgba(0,180,219,0.1);">
+        <div style="font-size: 10px; color: #00b4db; font-weight: 800; margin-bottom: 2px;">放送日時</div>
+        <div style="font-size: 18px; font-weight: 800; color: #333; font-family: sans-serif;">2026年7月18日 <span style="font-size: 13px;">(土)</span></div>
+        <div style="font-size: 11px; color: #444; font-weight: 700; margin-top: 2px;">14:00 ～ 21:56（約8時間の生放送）</div>
+        <div style="font-size: 9px; color: #666; margin-top: 4px; line-height: 1.4;">
+          総合司会は16回連続となる安住紳一郎＆江藤愛（TBSアナウンサー）が担当。<br>
+          「音楽のチカラで日本を元気に！」という番組の熱い想いはそのままに、最高の生放送を届けます。
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div style="font-size: 14px; font-weight: 700; color: #333; border-bottom: 1px solid #f0f0f0; padding-bottom: 5px; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">
+        <span style="color: #ff4081;">●</span> 番組テーマ：「こえる。きこえる。」
+      </div>
+
+      <div style="background: rgba(255,64,129,0.02); border-left: 3px solid #ff4081; padding: 10px 12px; border-radius: 0 4px 4px 0;">
+        <div style="font-size: 13px; font-weight: 700; color: #ff4081; margin-bottom: 6px;">
+          "音楽のチカラ"で日本中の想いをひとつに
+        </div>
+        <p style="margin: 0; font-size: 11px; color: #444; line-height: 1.6;">
+          2026年という節目の年に、限界に挑み記録を<strong>「超える」</strong>アスリートへの敬意、震災から15年を経て困難を共に<strong>「越えて」</strong>きた人々への想いに寄り添います。<br>
+          壁にぶつかったとき、いつもそばで勇気をくれた歌声（＝<strong>きこえる</strong>）を届け、あらゆる境界を飛び越えて明日へと背中を押してくれる、感動のステージが大きな見どころです。
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <div style="height: 2px; background: linear-gradient(90deg, #00b4db, #fff, #ff4081, #fff, #00b4db);"></div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">音楽の日の出演時間や順番の傾向について</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>毎年約8時間にわたる長時間生放送となる「音楽の日」。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>具体的なタイムテーブルは放送直前に発表されますが、過去の傾向から「どのアーティストがどの時間帯に登場するか」には一定の法則があります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="タイムテーブル傾向" style="display: block; font-family: 'Yu Mincho', 'MS Mincho', 'Inter', sans-serif; background: #ffffff; border: 1px solid #e0e0e0; border-radius: 4px; overflow: hidden; max-width: 100%; box-shadow: 0 2px 10px rgba(0,60,120,0.05);">
+
+  <div style="background: #fff; padding: 10px 12px; border-bottom: 2px solid #00b4db; display: flex; align-items: center; gap: 8px;">
+    <div style="border: 1px solid #333; padding: 1px 5px;">
+      <div style="font-size: 10px; font-weight: 700; color: #000; position: relative;">
+        音<span style="position: absolute; top: -1px; left: 3px; width: 4px; height: 4px; background: #ff0000; border-radius: 50%;"></span>楽の日
+      </div>
+    </div>
+    <div style="font-size: 12px; font-weight: 700; color: #00b4db; letter-spacing: 0.05em;">TIME ANALYSIS</div>
+  </div>
+
+  <div style="padding: 12px; background: #fff;">
+
+    <div style="display: grid; gap: 8px;">
+
+      <div style="display: flex; gap: 10px; padding: 8px; background: #f0faff; border-radius: 4px;">
+        <div style="flex-shrink: 0; width: 45px; text-align: center;">
+          <div style="font-size: 11px; font-weight: 800; color: #00b4db;">14:00</div>
+          <div style="font-size: 8px; color: #00b4db;">〜16時台</div>
+        </div>
+        <div style="flex: 1; border-left: 1px solid #daeef3; padding-left: 10px;">
+          <div style="font-size: 11px; font-weight: 700; color: #333;">新世代グループ＆中継</div>
+          <div style="font-size: 9px; color: #444; line-height: 1.4;">ボーイズ・ガールズグループが序盤から集結。地方からの中継企画もこの枠。</div>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 10px; padding: 8px; background: #fff9fb; border-radius: 4px; border: 1px solid #fff0f5;">
+        <div style="flex-shrink: 0; width: 45px; text-align: center;">
+          <div style="font-size: 11px; font-weight: 800; color: #ff4081;">17:00</div>
+          <div style="font-size: 8px; color: #ff4081;">〜19時台</div>
+        </div>
+        <div style="flex: 1; border-left: 1px solid #ffeef3; padding-left: 10px;">
+          <div style="font-size: 11px; font-weight: 700; color: #333;">人気爆発ヒットメドレー</div>
+          <div style="font-size: 9px; color: #444; line-height: 1.4;">SNS人気の高いアーティストが集中。特別企画などもこの時間帯。</div>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 10px; padding: 8px; background: rgba(51,51,51,0.03); border-radius: 4px;">
+        <div style="flex-shrink: 0; width: 45px; text-align: center;">
+          <div style="font-size: 11px; font-weight: 800; color: #333;">20:00</div>
+          <div style="font-size: 8px; color: #333;">〜21:56</div>
+        </div>
+        <div style="flex: 1; border-left: 1px solid #ddd; padding-left: 10px;">
+          <div style="font-size: 11px; font-weight: 700; color: #333;">大型企画＆番組フィナレー</div>
+          <div style="font-size: 9px; color: #444; line-height: 1.4;">テーマに深く寄り添う合唱や特別なステージ、トリの歌唱。最大の目玉企画が連続する最重要枠。</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="margin-top: 12px; padding: 10px; background: #fdfdfd; border-radius: 4px; border: 1px dashed #ccc;">
+      <div style="font-size: 9px; font-weight: 800; color: #666; margin-bottom: 5px;">STRATEGY GUIDE</div>
+      <ul style="margin: 0; padding: 0 0 0 15px; font-size: 10px; color: #444; line-height: 1.6;">
+        <li><b>大型特別企画</b>は20時以降に注目！</li>
+        <li><b>STARTO社・坂道系</b>は17時以降に厚い配置</li>
+        <li><b>寄り添う大合唱企画</b>は生放送終了直前（21時台）が恒例</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div style="height: 2px; background: linear-gradient(90deg, #00b4db, #fff, #ff4081, #fff, #00b4db);"></div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>分析の結果、SNSで話題のグループや若手アーティストは14時〜17時台に集中し、King &amp; PrinceやSnow Manといった人気アイドルグループ、そして番組の目玉である「ダンスバトル」や「合唱」などの大型企画は20時以降に配置される傾向が高いです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">よくある質問（FAQ）</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>「音楽の日2026」の視聴に関して、よくある疑問をQ&amp;A形式でまとめました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="よくある質問" style="display: block; font-family: 'Yu Mincho', 'MS Mincho', 'Inter', sans-serif; background: #ffffff; border: 1px solid #e0e0e0; border-radius: 4px; overflow: hidden; max-width: 100%; box-shadow: 0 2px 10px rgba(0,60,120,0.05);">
+
+  <div style="background: #fff; padding: 10px 12px; border-bottom: 2px solid #00b4db; display: flex; align-items: center; gap: 8px;">
+    <div style="border: 1px solid #333; padding: 1px 5px;">
+      <div style="font-size: 10px; font-weight: 700; color: #000; position: relative;">
+        音<span style="position: absolute; top: -1px; left: 3px; width: 4px; height: 4px; background: #ff0000; border-radius: 50%;"></span>楽の日
+      </div>
+    </div>
+    <div style="font-size: 12px; font-weight: 700; color: #00b4db; letter-spacing: 0.05em;">Q&amp;A</div>
+  </div>
+
+  <div style="padding: 12px; background: #fff;">
+
+    <div style="margin-bottom: 20px;">
+      <h3 style="margin: 0 0 8px 0; font-size: 13px; font-weight: 700; color: #333; display: flex; gap: 8px; align-items: flex-start; line-height: 1.4;">
+        <span style="flex-shrink: 0; width: 18px; height: 18px; background: #00b4db; color: #fff; border-radius: 2px; font-size: 11px; font-weight: 900; display: flex; align-items: center; justify-content: center; font-family: sans-serif;">Q</span>
+        歌唱順（順番）は事前に発表されますか？
+      </h3>
+      <div style="display: flex; gap: 8px; align-items: flex-start; padding-left: 2px;">
+        <span style="flex-shrink: 0; font-size: 11px; font-weight: 900; color: #ff4081; font-family: sans-serif;">A</span>
+        <div style="font-size: 11px; color: #444; line-height: 1.6;">
+          具体的な歌唱順番や出演アーティストの詳細は事前に一斉解禁されません。例年通り、放送が近づくにつれて順次解禁され、最終的に時間帯別の<b>「タイムテーブル」</b>が公式発表される予定です。
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-bottom: 20px; border-top: 1px solid #f5f5f5; padding-top: 15px;">
+      <h3 style="margin: 0 0 8px 0; font-size: 13px; font-weight: 700; color: #333; display: flex; gap: 8px; align-items: flex-start; line-height: 1.4;">
+        <span style="flex-shrink: 0; width: 18px; height: 18px; background: #00b4db; color: #fff; border-radius: 2px; font-size: 11px; font-weight: 900; display: flex; align-items: center; justify-content: center; font-family: sans-serif;">Q</span>
+        放送時間は何時から何時までですか？
+      </h3>
+      <div style="display: flex; gap: 8px; align-items: flex-start; padding-left: 2px;">
+        <span style="flex-shrink: 0; font-size: 11px; font-weight: 900; color: #ff4081; font-family: sans-serif;">A</span>
+        <div style="font-size: 11px; color: #444; line-height: 1.6;">
+          2026年7月18日（土）の<b>14:00から21:56まで</b>、約8時間の生放送が決定しています。大容量の特番となりますので、録画の際はレコーダーの空き容量を事前にしっかり確保しておくことをおすすめします。
+        </div>
+      </div>
+    </div>
+
+    <div style="border-top: 1px solid #f5f5f5; padding-top: 15px;">
+      <h3 style="margin: 0 0 8px 0; font-size: 13px; font-weight: 700; color: #333; display: flex; gap: 8px; align-items: flex-start; line-height: 1.4;">
+        <span style="flex-shrink: 0; width: 18px; height: 18px; background: #00b4db; color: #fff; border-radius: 2px; font-size: 11px; font-weight: 900; display: flex; align-items: center; justify-content: center; font-family: sans-serif;">Q</span>
+        見逃し配信や再放送の予定はありますか？
+      </h3>
+      <div style="display: flex; gap: 8px; align-items: flex-start; padding-left: 2px;">
+        <span style="flex-shrink: 0; font-size: 11px; font-weight: 900; color: #ff4081; font-family: sans-serif;">A</span>
+        <div style="font-size: 11px; color: #444; line-height: 1.6;">
+          例年、<b>TVer（ティーバー）</b>でのリアルタイム配信および見逃し配信が実施されています。今後の正確な対応状況については、公式番組の続報と合わせて確認してみてください。<br>
+          <a href="https://tver.jp/series/sr87xsb26t" style="color: #00b4db; text-decoration: underline; font-weight: 600; margin-top: 4px; display: inline-block;">音楽の日 TVerページをチェック</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div style="height: 2px; background: linear-gradient(90deg, #00b4db, #fff, #ff4081, #fff, #00b4db);"></div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":2} -->
+<h2 class="wp-block-heading">まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>2026年も日本中に元気と感動を届けてくれる「音楽の日2026」。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>現在は放送日時や総合司会、番組テーマに加え、豪華な第1弾出演アーティスト10組が発表されました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>タイムテーブル（歌唱曲・登場順番）の詳細や追加アーティストは、これからの解禁となります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>公式からの続報が届き次第、当サイトでも順次情報を最新へ更新していきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>推しのアーティストが最高のステージを披露する瞬間を見逃さないよう、ぜひこの記事をブックマークして当日のタイムテーブルチェックに活用してくださいね。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>音楽のチカラで心躍る1日を一緒に楽しみましょう！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="margin: 18px 0 14px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px 10px; font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #ff008d; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">他の音楽番組もチェック</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px;">
+
+    <a href="https://shira-treat.com/cdtv-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        CDTV <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/star-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        STAR <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/music-station-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        Mステ <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/fnskayousai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        FNS歌謡祭 <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/the-musicday-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        THE MUSIC DAY <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/teretoongakusai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        テレ東音楽祭 <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+  </div>
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #64748b; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">出演者の作品を探す</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
+    <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #232f3e; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #161d26;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        Amazon <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
+      </span>
+    </a>
+
+    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fhourly%2F002%2F%3Fl-id%3Dheader-subnavi-cd-ranking" target="_blank" rel="nofollow sponsored noopener noreferrer" referrerpolicy="no-referrer-when-downgrade" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        楽天ブックス <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
+      </span>
+    </a>
+  </div>
+
+  <img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+
+  <a href="https://amzn.to/3NjAmbl" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #001a4d, #003399); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid #00d4ff; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
+    <span style="font-size: 9px; font-weight: 900; color: #00d4ff; border: 1px solid #00d4ff; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 3px;">Music</span>
+    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を探す</span>
+    <span style="font-size: 18px; color: #00d4ff; margin-left: auto;">›</span>
+  </a>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<!-- MANUAL_JSONLD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "BlogPosting",
+      "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#post",
+      "headline": "【2026最新】音楽の日タイムテーブル｜出演者の順番・出演時間まとめ(随時更新)",
+      "description": "「音楽の日2026」7月18日生放送！出演者、タイムテーブル、歌唱曲を最速更新。INI、櫻坂46ら豪華アーティストの登場時間もひと目でチェック。推しの出番を逃さないよう最新情報をお届けします。",
+      "url": "https://shira-treat.com/ongakunohi-2026-timetable/",
+      "mainEntityOfPage": {
+        "@id": "https://shira-treat.com/ongakunohi-2026-timetable/"
+      },
+      "inLanguage": "ja",
+      "articleSection": "音楽特番",
+      "keywords": ["音楽の日", "音楽の日2026", "タイムテーブル", "出演者一覧", "TBS 音楽番組"],
+      "datePublished": "2026-04-27T00:00:00+09:00",
+      "dateCreated": "2026-04-27T00:00:00+09:00",
+      "dateModified": "2026-06-10T00:00:00+09:00",
+
+      "image": {
+        "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#heroimage"
+      },
+
+      "author": {
+        "@type": "Person",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/operator-information/"
+      },
+
+      "publisher": {
+        "@type": "Organization",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp",
+          "width": 512,
+          "height": 512
+        },
+        "sameAs": [
+          "https://x.com/ShiraNotes_"
+        ]
+      },
+
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "音楽の日2026",
+          "sameAs": "https://www.tbs.co.jp/ongakunohi/"
+        }
+      ],
+
+      "mentions": [
+        {
+          "@type": "Organization",
+          "name": "TBSテレビ",
+          "sameAs": "https://www.tbs.co.jp/"
+        },
+        {
+          "@type": "TVSeries",
+          "name": "CDTVライブ!ライブ!",
+          "sameAs": "https://www.tbs.co.jp/cdtv_livelive/"
+        },
+        {
+          "@type": "WebSite",
+          "name": "TVer",
+          "sameAs": "https://tver.jp/"
+        }
+      ],
+
+      "hasPart": [
+        { "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#summary" },
+        { "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#timetable" },
+        { "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#lineup" },
+        { "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#analysis" },
+        { "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#faq" },
+        { "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#breadcrumb" }
+      ]
+    },
+
+    {
+      "@type": "ImageObject",
+      "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#heroimage",
+      "url": "https://shira-treat.com/wp-content/uploads/2026/04/image-9.webp",
+      "width": 1200,
+      "height": 675
+    },
+
+    {
+      "@type": "BroadcastEvent",
+      "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#broadcast",
+      "name": "音楽の日2026",
+      "alternateName": "TBS 音楽の日",
+      "description": "2026年7月18日（土）14:00～21:56に8時間生放送。第1弾出演者10組が発表済み。テーマ「こえる。きこえる。」のもと、最高の音楽を届けます。",
+      "startDate": "2026-07-18T14:00:00+09:00",
+      "endDate": "2026-07-18T21:56:00+09:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "isLiveBroadcast": true,
+
+      "location": {
+        "@type": "Place",
+        "name": "TBSスタジオ",
+        "sameAs": "https://www.tbs.co.jp/"
+      },
+
+      "organizer": {
+        "@type": "Organization",
+        "name": "TBSテレビ",
+        "url": "https://www.tbs.co.jp/"
+      },
+
+      "image": {
+        "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#heroimage"
+      },
+
+      "potentialAction": {
+        "@type": "WatchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://tver.jp/"
+        }
+      }
+    },
+
+    {
+      "@type": "ItemList",
+      "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#timetable",
+      "name": "音楽の日2026 タイムテーブル（速報）",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "14:00 オープニング・全国中継企画"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "出演アーティスト第1弾：INI、＝LOVE、EBiDAN、&TEAM、CUTIE STREET、櫻坂46、TWS、HANA、FRUITS ZIPPER、Little Glee Monster"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "21:00 フィナーレ・大合唱企画"
+        }
+      ]
+    },
+
+    {
+      "@type": "FAQPage",
+      "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "歌唱順（順番）は事前に発表されますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "具体的な歌唱順番や出演アーティストの詳細は事前に一斉解禁されません。例年通り、放送が近づくにつれて順次解禁され、最終的に時間帯別の「タイムテーブル」が公式発表される予定です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "放送時間は何時から何時までですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2026年7月18日（土）の14:00から21:56まで、約8時間の生放送が決定しています。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "見逃し配信や再放送の予定はありますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "例年、TVer（ティーバー）でのリアルタイム配信および見逃し配信が実施されています。公式番組の続報と合わせて確認してみてください。"
+          }
+        }
+      ]
+    },
+
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://shira-treat.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "記事",
+          "item": "https://shira-treat.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "音楽の日2026 タイムテーブル",
+          "item": "https://shira-treat.com/ongakunohi-2026-timetable/"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+<!-- /wp:html -->

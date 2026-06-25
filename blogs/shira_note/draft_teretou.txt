@@ -1,14 +1,20 @@
+<!-- wp:paragraph -->
 タイトル：【2026夏】テレ東音楽祭タイムテーブル｜出演者の順番や出演時間まとめ(随時更新)
+<!-- /wp:paragraph -->
 
-メタディスクリプション（88字）：
-「テレ東音楽祭2026夏」出演者・タイムテーブルをどこよりも早く随時更新！第1弾22組解禁。6/28（日）18:30放送。推しの歌唱曲や出演順を見逃さないよう最新情報をチェック！
+
+<!-- wp:paragraph -->
+メタディスクリプション（93字）：
+「テレ東音楽祭2026夏」出演者・タイムテーブルをどこよりも早く随時更新！第3弾でLUNA SEA・DOZAN11も出演決定。80組以上。6/28（日）18:30放送。推しの歌唱曲や出演順をチェック！
+<!-- /wp:paragraph -->
+
 
 <!-- wp:paragraph -->
 <p>今年で16回目を迎える「テレ東音楽祭2026夏」の放送が6月28日（日）夜6:30から放送決定！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>今回は初の試みとして日曜放送（約4時間半）でお届けされます。</p>
+<p>今回は番組史上初の日曜ゴールデン枠に移動し、約4時間半の生放送（一部事前収録あり）でお届け。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -46,8 +52,8 @@
 
     <div style="background: rgba(0, 242, 254, 0.05); border-left: 2px solid #00f2fe; padding: 8px 12px; border-radius: 0 4px 4px 0;">
       <div style="font-size: 11px; font-weight: 600; color: #e2e8f0; line-height: 1.5;">
-        <span style="color: #ff007f; margin-right: 4px;">●</span>長渕剛、吉田栄作×仙道敦子、ドラマ主題歌企画（武田鉄矢、酒井法子他）など豪華出演！<br>
-        <span style="color: #ff007f; margin-right: 4px;">●</span>SUPER EIGHT、aespa、乃木坂46、Kis-My-Ft2等多数出演決定。
+        <span style="color: #ff007f; margin-right: 4px;">●</span>LUNA SEA：真矢さん逝去後初のテレビ出演。「STORM」「I for You」メドレー＋新曲「FOREVER」テレビ初フルサイズ！<br>
+        <span style="color: #ff007f; margin-right: 4px;">●</span>伝説のドラマソングSP（武田鉄矢・酒井法子・吉田栄作×仙道敦子ほか）／DOZAN11・SUPER EIGHT・aespa・乃木坂46等80組以上出演！
       </div>
     </div>
 
@@ -72,7 +78,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>ZARDの復活ステージや特別生中継、伝説のドラマソングSPなど見どころ満載！<br>タイムテーブルや出演者の順番は、公式発表後すぐに追記します。</p>
+<p>LUNA SEAの特別ステージ、ドラマソングSP、DOZAN11 aka 三木道三のチャレンジ企画裏生配信など見どころ満載！<br>タイムテーブルや出演者の順番は、公式発表後すぐに追記します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -98,23 +104,23 @@
 
   <div style="position: relative; z-index: 2; background: rgba(12, 15, 29, 0.4);">
     <div style="border-bottom: 1px solid rgba(255,255,255,0.06); padding: 10px 14px;">
-      <div style="font-size: 11px; font-weight: 800; color: #00f2fe; margin-bottom: 4px;">18:30〜 オープニング・特別企画</div>
+      <div style="font-size: 11px; font-weight: 800; color: #00f2fe; margin-bottom: 4px;">18:30〜 オープニング・ドラマソングSP</div>
       <div style="font-size: 11px; color: #e2e8f0; line-height: 1.5;">
-        ・伝説のドラマソングSPメドレー（吉田栄作＆仙道敦子ほか）<br>
-        ・本田美奈子.特別企画
+        ・伝説のドラマソングSP（吉田栄作＆仙道敦子、武田鉄矢、酒井法子ほか）<br>
+        ・aespa・AKB48・乃木坂46等旬のグループが序盤から登場
       </div>
     </div>
     <div style="border-bottom: 1px solid rgba(255,255,255,0.06); padding: 10px 14px;">
-      <div style="font-size: 11px; font-weight: 800; color: #a855f7; margin-bottom: 4px;">19:30〜 小室哲哉（TK）サウンド特集</div>
-      <div style="font-size: 11px; color: #e2e8f0;">YU-KI(TRF)×マーク・パンサーによるglobeメドレーほか</div>
+      <div style="font-size: 11px; font-weight: 800; color: #a855f7; margin-bottom: 4px;">19:30〜 DOZAN11チャレンジ企画＆TKサウンド特集</div>
+      <div style="font-size: 11px; color: #e2e8f0;">TRF・マーク・パンサーによるglobeメドレー、河合郁人の福岡中継など</div>
     </div>
     <div style="border-bottom: 1px solid rgba(255,255,255,0.06); padding: 10px 14px; background: rgba(251,191,36,0.03);">
-      <div style="font-size: 11px; font-weight: 800; color: #fbbf24; margin-bottom: 4px;">20:30〜 豪華出演アーティスト</div>
-      <div style="font-size: 11px; color: #e2e8f0;">Kis-My-Ft2、中島健人、TRF、aespa、観月ありさ ほか</div>
+      <div style="font-size: 11px; font-weight: 800; color: #fbbf24; margin-bottom: 4px;">20:30〜 豪華アーティスト出演</div>
+      <div style="font-size: 11px; color: #e2e8f0;">Kis-My-Ft2、中島健人、SUPER EIGHT、aespa、乃木坂46、AKB48等が続々登場</div>
     </div>
     <div style="border-bottom: 1px solid rgba(255,255,255,0.06); padding: 10px 14px;">
-      <div style="font-size: 11px; font-weight: 800; color: #34d399; margin-bottom: 4px;">21:30〜 長渕剛 テレ東初出演ステージ</div>
-      <div style="font-size: 11px; color: #e2e8f0;">「とんぼ」「RUN」「乾杯」ほか熱唱</div>
+      <div style="font-size: 11px; font-weight: 800; color: #34d399; margin-bottom: 4px;">21:30〜 LUNA SEA特別ステージ＆番組終盤</div>
+      <div style="font-size: 11px; color: #e2e8f0;">真矢さん逝去後初TV出演。「STORM」「I for You」＋新曲「FOREVER」テレビ初フルサイズ。長渕剛ほかベテランも</div>
     </div>
   </div>
 
@@ -137,11 +143,11 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>「テレ東音楽祭2026夏」の出演アーティストが第2弾まで公開されました。</p>
+<p>「テレ東音楽祭2026夏」の出演アーティストが第3弾まで公開。80組以上の出演が確定しています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>長渕剛のテレ東初出演やTKサウンド特集、豪華俳優陣による伝説のドラマソングSPなど、今回限りの特別企画が目白押し！</p>
+<p>LUNA SEA特別ステージ（真矢さん逝去後初テレビ出演）、伝説のドラマソングSP、DOZAN11 aka 三木道三のチャレンジ企画など、今年ならではの特別企画が目白押し！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -159,73 +165,92 @@
 
   <!-- 出演アーティスト領域：2列グリッド -->
   <div style="position: relative; padding: 14px; z-index: 2;">
-    <div style="font-size: 11px; font-weight: 800; color: #00f2fe; margin-bottom: 10px; border-left: 3px solid #00f2fe; padding-left: 8px;">出演アーティスト・歌唱曲リスト（全45組）</div>
+    <div style="font-size: 11px; font-weight: 800; color: #00f2fe; margin-bottom: 10px; border-left: 3px solid #00f2fe; padding-left: 8px;">出演アーティスト・歌唱曲リスト（全70組）</div>
 
     <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; margin-bottom: 16px;">
-      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>赤井英和</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>相川七瀬</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>アグネス・チャン</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>赤井英和</strong><br><span style="color: #00f2fe;">ぼくたちの失敗</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>麻倉未稀</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>ano</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>石井明美</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
-      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>いしだ壱成</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>いしだ壱成</strong><br><span style="color: #00f2fe;">サボテンの花</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>伊東歌詞太郎</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>IMP.</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>Aぇ! group</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>AKB48</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>aespa</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>OWV</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>大久保伸隆</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>小野正利</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>辛島美登里</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>河口恭吾</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
-      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>Kis-My-Ft2</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>KEY TO LIT</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>Kis-My-Ft2</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>国生さゆり</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>工藤静香</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>楠瀬誠志郎</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>久宝留理子</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>けんいち</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>酒井法子</strong><br><span style="color: #00f2fe;">碧いうさぎ</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>SATSUKI</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
-      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>THE 虎舞竜</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>澤田知可子</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>JI BLUE</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
-      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>ZIGGY</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>Juice=Juice</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>SHAZNA</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>島袋寛子</strong><br><span style="color: #00f2fe;">Body &amp; Soul 他</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>SUPER EIGHT</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>鈴木亜美</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
-      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>千堂あきほ</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>千堂あきほ</strong><br><span style="color: #00f2fe;">ラブ・ストーリーは突然に</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>仙道敦子</strong><br><span style="color: #00f2fe;">今を抱きしめて</span></div>
-      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>高嶋政伸</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
-      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>武田鉄矢</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
-      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>Tama</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>知念里奈</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>超ときめき◆宣伝部</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>ZARD</strong><br><span style="color: #00f2fe;">マイ フレンド 他</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>THE 虎舞竜</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>ZIGGY</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>DA PUMP</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>DOZAN11 aka 三木道三</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>Tama（Hysteric Blue）</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>高嶋政伸</strong><br><span style="color: #00f2fe;">LET THE RIVER RUN</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>武田鉄矢</strong><br><span style="color: #00f2fe;">贈る言葉</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>TRF</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>中島健人</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>中西保志</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>永井真理子</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>長渕剛</strong><br><span style="color: #00f2fe;">とんぼ / RUN / 乾杯</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>南野陽子</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>西田ひかる</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>乃木坂46</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>hitomi</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>早見優</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>PERSONZ</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>バブルガム・ブラザーズ</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
-      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>早見優</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
-      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>hitomi</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>B.B.クィーンズ</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>FIELD OF VIEW</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>FRUITS ZIPPER</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>マーク・パンサー</strong><br><span style="color: #00f2fe;">globeメドレー</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>MAX</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>松本伊代</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>宮沢和史</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>観月ありさ</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>モナキ</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>森若香織</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>吉田栄作</strong><br><span style="color: #00f2fe;">今を抱きしめて</span></div>
       <div style="font-size: 9px; background: rgba(255,255,255,0.05); padding: 6px 8px; border-radius: 2px;"><strong>LINDBERG</strong><br><span style="color: #94a3b8;">楽曲準備中</span></div>
-      <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>ZARD</strong><br><span style="color: #00f2fe;">マイ フレンド 他</span></div>
-      <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>島袋寛子</strong><br><span style="color: #00f2fe;">Body &amp; Soul 他</span></div>
+      <div style="font-size: 9px; background: rgba(255,255,255,0.1); padding: 6px 8px; border-radius: 2px; border: 1px solid #00f2fe;"><strong>LUNA SEA</strong><br><span style="color: #00f2fe;">STORM / I for You / FOREVER</span></div>
     </div>
   </div>
 
   <!-- フッター -->
   <div style="position: relative; z-index: 2; padding: 10px 14px; background: rgba(15, 23, 42, 0.8); border-top: 1px solid rgba(255,255,255,0.06);">
-    <p style="margin: 0; font-size: 9px; color: #94a3b8; text-align: center;">※全45組のアーティストを掲載しています。未判明の楽曲は今後更新いたします。</p>
+    <p style="margin: 0; font-size: 9px; color: #94a3b8; text-align: center;">※全70組のアーティストを掲載しています。未判明の楽曲は今後更新いたします。</p>
   </div>
 </div>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>長渕剛の初出演やTKサウンド特集など、今回限りの特別企画が目白押し。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>35周年のZARDや30周年の島袋寛子ら、レジェンドから旬の顔ぶれまで豪華アーティストが勢揃いします。</p>
+<p>80組以上の豪華アーティストが出演。
+今年ならではの豪華企画が多数予定されていますね。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -307,7 +332,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>注目の出演アーティストの発表は、一挙解禁または「第1弾」「第2弾」と数回に分けて行われる傾向があります。</p>
+<p>注目の出演アーティストの発表は、一挙解禁または「第1弾」「第2弾」のように数回に分けて行われる傾向があります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -319,7 +344,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6261,"sizeSlug":"full","linkDestination":"none","align":"center"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://shira-treat.com/wp-content/uploads/2026/06/image-7.webp" alt="" class="wp-image-6261"/><figcaption class="wp-element-caption"><a href="https://www.tv-tokyo.co.jp/ongakusai_2026/">公式サイト</a>  | <a href="https://x.com/teretoongakusai">X(@teretoongakusai)</a></figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://shira-treat.com/wp-content/uploads/2026/06/image-9.webp" alt="【2026夏】テレ東音楽祭タイムテーブル｜出演者の順番・出演時間・まとめ(随時更新)" class="wp-image-6263"/><figcaption class="wp-element-caption"><a href="https://www.tv-tokyo.co.jp/ongakusai_2026/">公式サイト</a>  | <a href="https://x.com/teretoongakusai">X(@teretoongakusai)</a></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -354,12 +379,12 @@
     <div style="background: rgba(0,242,254,0.05); padding: 10px 12px; border-radius: 4px; border: 1px solid rgba(0,242,254,0.2);">
       <div style="font-size: 10px; font-weight: 900; color: #00f2fe; margin-bottom: 6px; letter-spacing: 0.05em;">HIGHLIGHTS &amp; SPECIALS</div>
       <ul style="margin: 0; padding-left: 16px; font-size: 10px; color: #cbd5e1; line-height: 1.6;">
-        <li style="margin-bottom: 4px;"><strong>長渕剛：</strong>テレ東音楽祭に初出演。「とんぼ」「RUN」等を披露。</li>
+        <li style="margin-bottom: 4px;"><strong>LUNA SEA：</strong>真矢さん逝去後初のテレビ出演。「STORM」「I for You」メドレー＋新曲「FOREVER」テレビ初フルサイズ披露。</li>
+        <li style="margin-bottom: 4px;"><strong>ドラマソングSP：</strong>吉田栄作・仙道敦子が32年振り再結成、武田鉄矢「贈る言葉」、酒井法子「碧いうさぎ」ほか。</li>
+        <li style="margin-bottom: 4px;"><strong>DOZAN11 aka 三木道三：</strong>チャレンジ企画の裏生配信＆河合郁人の福岡中継。</li>
+        <li style="margin-bottom: 4px;"><strong>長渕剛：</strong>テレ東音楽祭に初出演。「とんぼ」「RUN」「乾杯」を披露。</li>
         <li style="margin-bottom: 4px;"><strong>ZARD：</strong>デビュー35周年記念SPステージ。「マイ フレンド」他。</li>
-        <li style="margin-bottom: 4px;"><strong>島袋寛子：</strong>デビュー30周年メドレー。「Body &amp; Soul」等。</li>
-        <li style="margin-bottom: 4px;"><strong>TKサウンド特集：</strong>YU-KI、マーク・パンサーらによるglobe名曲メドレー。</li>
-        <li style="margin-bottom: 4px;"><strong>ドラマソングSP：</strong>吉田栄作・仙道敦子が32年振りに再結成。</li>
-        <li><strong>地域連動：</strong>TVQ九州放送開局35周年記念の生中継企画も実施。</li>
+        <li><strong>島袋寛子：</strong>デビュー30周年メドレー。「Body &amp; Soul」等。</li>
       </ul>
     </div>
   </div>
@@ -369,7 +394,11 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>今回のテレ東音楽祭は、日曜夜のゴールデンタイムに4時間半の生放送でお届け！豪華MC陣と出演アーティストや企画などの見どころをまとめました。</p>
+<p>今回のテレ東音楽祭は日曜ゴールデンに移動し4時間半の生放送でお届け。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>LUNA SEAのステージなど特別企画や見どころをまとめました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -382,10 +411,6 @@
 
 <!-- wp:paragraph -->
 <p>毎年約4時間半にわたる生放送となる「テレ東音楽祭」。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>具体的なタイムテーブルは放送直前（前日〜当日）に発表されますが、これまでの過去の傾向から「どのアーティストがどの時間帯に登場するか」には一定の法則があります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -424,8 +449,8 @@
           <div style="font-size: 8px; font-weight: 600; color: #00f2fe; opacity: 0.8; margin-top: 1px;">～19時台</div>
         </div>
         <div style="flex: 1; border-left: 1px solid rgba(0, 242, 254, 0.2); padding-left: 12px;">
-          <div style="font-size: 11px; font-weight: 700; color: #ffffff;">オープニング＆注目の若手・実力派グループ</div>
-          <div style="font-size: 10px; color: #94a3b8; line-height: 1.5; margin-top: 2px;">番組の幕開けにふさわしいアップテンポな楽曲や、SNSで人気の高いボーイズ・ガールズグループが序盤から続々登場。</div>
+          <div style="font-size: 11px; font-weight: 700; color: #ffffff;">ドラマソングSP＆若手・アイドル系グループ</div>
+          <div style="font-size: 10px; color: #94a3b8; line-height: 1.5; margin-top: 2px;">伝説のドラマソングSP（吉田栄作×仙道敦子、武田鉄矢ほか）で幕開け。aespa・AKB48・乃木坂46など旬のグループも序盤から登場。</div>
         </div>
       </div>
 
@@ -436,8 +461,8 @@
           <div style="font-size: 8px; font-weight: 600; color: #ff007f; opacity: 0.8; margin-top: 1px;">～21時台</div>
         </div>
         <div style="flex: 1; border-left: 1px solid rgba(255, 0, 127, 0.25); padding-left: 12px;">
-          <div style="font-size: 11px; font-weight: 700; color: #ffffff;">限定コラボ＆中継パフォーマンス</div>
-          <div style="font-size: 10px; color: #94a3b8; line-height: 1.5; margin-top: 2px;">テレ東ならではの「特別企画」や、スタジオを飛び出した「意外な場所からの中継」など、中盤の目玉枠。</div>
+          <div style="font-size: 11px; font-weight: 700; color: #ffffff;">DOZAN11チャレンジ企画＆中継パフォーマンス</div>
+          <div style="font-size: 10px; color: #94a3b8; line-height: 1.5; margin-top: 2px;">DOZAN11 aka 三木道三の裏生配信チャレンジや、河合郁人による福岡中継などテレ東ならではの目玉が集中する中盤枠。</div>
         </div>
       </div>
 
@@ -448,8 +473,8 @@
           <div style="font-size: 8px; font-weight: 600; color: #a855f7; opacity: 0.8; margin-top: 1px;">～22:54</div>
         </div>
         <div style="flex: 1; border-left: 1px solid rgba(168, 85, 247, 0.2); padding-left: 12px;">
-          <div style="font-size: 11px; font-weight: 700; color: #ffffff;">ベテラン・実力派アーティスト＆番組終盤</div>
-          <div style="font-size: 10px; color: #94a3b8; line-height: 1.5; margin-top: 2px;">音楽界を牽引するアーティスト陣の歌唱や、ヒット曲が連発する重要なゾーン。新MC陣によるラストの締めくくりにも注目。</div>
+          <div style="font-size: 11px; font-weight: 700; color: #ffffff;">LUNA SEA特別ステージ＆ベテラン重鎮</div>
+          <div style="font-size: 10px; color: #94a3b8; line-height: 1.5; margin-top: 2px;">LUNA SEAの感動的な特別ステージ（「STORM」「I for You」＋「FOREVER」）が番組終盤のクライマックス候補。長渕剛ほかベテラン勢も登場。</div>
         </div>
       </div>
 
@@ -469,7 +494,7 @@
         </li>
         <li style="position: relative; padding-left: 14px;">
           <span style="position: absolute; left: 3px; top: 6px; width: 4px; height: 4px; background: #00f2fe; border-radius: 50%; box-shadow: 0 0 4px #00f2fe;"></span>
-          <b style="color: #ffffff;">実力派・ベテラン勢</b>は22時以降の番組ラストに向けて登場する可能性が高めです。
+          <b style="color: #ffffff;">実力派・ベテラン勢</b>は22時以降の番組ラストに向けて集結。LUNA SEAの特別ステージが最大の見せ場になる可能性が高めです。
         </li>
       </ul>
     </div>
@@ -481,6 +506,10 @@
 
 </aside>
 <!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>具体的なタイムテーブルは放送直前（前日〜当日）に発表されますが、これまでの過去の傾向から「どのアーティストがどの時間帯に登場するか」には一定の法則があります。</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:heading -->
 <h2>よくある質問（FAQ）</h2>
@@ -514,7 +543,7 @@
       <div style="display: flex; gap: 10px; align-items: flex-start; padding-left: 2px;">
         <span style="flex-shrink: 0; font-size: 13px; font-weight: 900; color: #ff007f; text-shadow: 0 0 4px rgba(255, 0, 127, 0.5);">A</span>
         <div style="font-size: 11px; color: #cbd5e1; line-height: 1.6;">
-          具体的な歌唱順は事前には全公開されません。出演者第2弾以降の発表に合わせ、番組公式SNSやHPにて、放送当日あるいは前日に時間帯別の「タイムテーブル」が解禁される予定です。最新情報は公式情報を随時ご確認ください。
+          具体的な歌唱順は事前には全公開されません。出演者第3弾の発表まで終わり、番組公式SNSやHPにて、放送当日あるいは前日に時間帯別の「タイムテーブル」が解禁される予定です。最新情報は公式情報を随時ご確認ください。
         </div>
       </div>
     </div>
@@ -558,15 +587,15 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年6月28日（日）18:30放送の「テレ東音楽祭2026夏」は、史上最大規模でお届け。</p>
+<p>2026年6月28日（日）18:30〜22:54放送の「テレ東音楽祭2026夏」は、第3弾発表でLUNA SEAとDOZAN11 aka 三木道三の出演も決定し、80組以上の豪華ラインナップがそろいました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>新MCに深澤辰哉さん（Snow Man）と松本若菜さんを迎え、長渕剛さんの初出演やZARD・島袋寛子さんの記念ステージなど見どころある豪華企画が満載です。</p>
+<p>MCに深澤辰哉さん（Snow Man）と松本若菜さんを迎え、LUNA SEAの感動的な特別ステージ（真矢さん逝去後初テレビ出演）、伝説のドラマソングSP、長渕剛初出演、ZARD・島袋寛子の記念ステージと、今年ならではの豪華企画が目白押しです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>今後も第2弾アーティストやタイムテーブル、歌唱曲など最新情報を随時更新します。</p>
+<p>タイムテーブルや歌唱曲など最新情報を随時更新します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -583,37 +612,37 @@
 
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px;">
     
-    <a href="https://shira-treat.com/category/musictv/countdown-tv/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+    <a href="https://shira-treat.com/cdtv-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
       <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
         CDTV <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
 
-    <a href="https://shira-treat.com/category/musictv/star/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+    <a href="https://shira-treat.com/star-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
       <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
         STAR <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
 
-    <a href="https://shira-treat.com/category/musictv/music-station-2/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+    <a href="https://shira-treat.com/music-station-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
       <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
         Mステ <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
 
-    <a href="https://shira-treat.com/category/musictv/fns/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+    <a href="https://shira-treat.com/fnskayousai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
       <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
         FNS歌謡祭 <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
 
-    <a href="https://shira-treat.com/category/musictv/music-day/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+    <a href="https://shira-treat.com/the-musicday-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
       <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
         THE MUSIC DAY <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
 
-    <a href="https://shira-treat.com/category/musictv/ongakunohi/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+    <a href="https://shira-treat.com/ongakunohi-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
       <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
         音楽の日 <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
       </span>
@@ -660,17 +689,17 @@
       "@type": "BlogPosting",
       "@id": "https://shira-treat.com/teretoongakusai-timetable/#post",
       "headline": "【2026夏】テレ東音楽祭タイムテーブル｜出演者の順番・出演時間・見どころまとめ(随時更新)",
-      "description": "「テレ東音楽祭2026夏」出演者・タイムテーブルをどこよりも早く随時更新！長渕剛初出演、ZARD35周年、TK特集など豪華企画が満載。6/28（日）18:30放送。最新の出演順を見逃さないようチェック！",
+      "description": "「テレ東音楽祭2026夏」出演者・タイムテーブルをどこよりも早く随時更新！第3弾でLUNA SEA・DOZAN11も出演決定。80組以上。6/28（日）18:30放送。推しの歌唱曲や出演順をチェック！",
       "url": "https://shira-treat.com/teretoongakusai-timetable/",
       "mainEntityOfPage": {
         "@id": "https://shira-treat.com/teretoongakusai-timetable/"
       },
       "inLanguage": "ja",
       "articleSection": "音楽特番",
-      "keywords": ["テレ東音楽祭", "テレ東音楽祭2026夏", "タイムテーブル", "出演者一覧", "テレビ東京", "長渕剛"],
+      "keywords": ["テレ東音楽祭", "テレ東音楽祭2026夏", "タイムテーブル", "出演者一覧", "テレビ東京", "長渕剛", "LUNA SEA", "三木道三", "DOZAN11", "ドラマソングSP"],
       "datePublished": "2026-06-03T00:00:00+09:00",
       "dateCreated": "2026-06-03T00:00:00+09:00",
-      "dateModified": "2026-06-22T08:40:00+09:00",
+      "dateModified": "2026-06-25T10:00:00+09:00",
       "image": {
         "@id": "https://shira-treat.com/teretoongakusai-timetable/#heroimage"
       },
@@ -723,7 +752,7 @@
     {
       "@type": "ImageObject",
       "@id": "https://shira-treat.com/teretoongakusai-timetable/#heroimage",
-      "url": "https://shira-treat.com/wp-content/uploads/2026/06/image-6-1.webp",
+      "url": "https://shira-treat.com/wp-content/uploads/2026/06/image-17.webp",
       "width": 1200,
       "height": 675
     },
@@ -732,7 +761,7 @@
       "@id": "https://shira-treat.com/teretoongakusai-timetable/#broadcast",
       "name": "テレ東音楽祭2026夏",
       "alternateName": "テレ東音楽祭",
-      "description": "2026年6月28日（日）開催。初の「日曜ゴールデン帯」で送る4時間半の生放送。MCに深澤辰哉（Snow Man）と松本若菜を迎え、長渕剛初出演、ZARD・島袋寛子の記念ステージなど豪華企画が満載。",
+      "description": "2026年6月28日（日）開催。初の「日曜ゴールデン帯」で送る4時間半の生放送。MCに深澤辰哉（Snow Man）と松本若菜を迎え、LUNA SEA特別ステージ（真矢さん逝去後初テレビ出演）、伝説のドラマソングSP、長渕剛初出演など80組以上の豪華ラインナップが集結。",
       "startDate": "2026-06-28T18:30:00+09:00",
       "endDate": "2026-06-28T22:54:00+09:00",
       "eventStatus": "https://schema.org/EventScheduled",
@@ -768,7 +797,7 @@
           "name": "歌唱順やタイムテーブルは公開されますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "具体的な歌唱順は事前には全公開されません。出演者第2弾以降の発表に合わせ、番組公式SNSやHPにて、放送当日あるいは前日に時間帯別の「タイムテーブル」が解禁される予定です。最新情報は公式情報を随時ご確認ください。"
+            "text": "具体的な歌唱順は事前には全公開されません。出演者第3弾の発表まで終わり、番組公式SNSやHPにて、放送当日あるいは前日に時間帯別の「タイムテーブル」が解禁される予定です。最新情報は公式情報を随時ご確認ください。"
           }
         },
         {
