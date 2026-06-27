@@ -383,11 +383,11 @@ Mステ（6月26日）タイムテーブルを速報更新！桑田佳祐が古�
     </style>
 
     <div class="my-rakuten-btn">
-<a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fhourly%2F002%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc="">楽天ブックスランキング</a><img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+<a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fdaily%2F002%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc>楽天ブックスランキング</a><img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
     </div>
   </div>
 
-  <a href="https://amzn.to/3NjAmbl" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #001a4d, #003399); border-radius: 4px; text-decoration: none; box-sizing: border-box; border: 1px solid #00d4ff; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 0 15px;">
+  <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #001a4d, #003399); border-radius: 4px; text-decoration: none; box-sizing: border-box; border: 1px solid #00d4ff; box-shadow: 0 2px 4px rgba(0,0,0,0.1); padding: 0 15px;">
     <span style="font-size: 9px; font-weight: 900; color: #00d4ff; border: 1px solid #00d4ff; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 5px;">Music</span>
     <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで今夜の披露曲を予習・復習する</span>
     <span style="font-size: 18px; color: #00d4ff; margin-left: auto;">›</span>
@@ -654,7 +654,7 @@ Mステ（6月26日）タイムテーブルを速報更新！桑田佳祐が古�
 
 <div style="padding:10px 14px;border-top:1px solid #edf2f7;">
   <div style="font-size:10px;font-weight:800;color:#a0aec0;margin-bottom:8px;">放送を見逃しても、楽曲はいつでも聴ける</div>
-  <a href="https://amzn.to/3NjAmbl" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display:flex;align-items:center;justify-content:flex-start;height:40px;background:linear-gradient(90deg,#003366,#0066cc);border-radius:4px;text-decoration:none;box-sizing:border-box;border:1px solid #00d4ff;padding:0 15px;">
+  <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display:flex;align-items:center;justify-content:flex-start;height:40px;background:linear-gradient(90deg,#003366,#0066cc);border-radius:4px;text-decoration:none;box-sizing:border-box;border:1px solid #00d4ff;padding:0 15px;">
     <span style="font-size:9px;font-weight:900;color:#00d4ff;border:1px solid #00d4ff;padding:1px 4px;border-radius:2px;margin-right:12px;">Music</span>
     <span style="font-size:11px;font-weight:800;color:#ffffff;letter-spacing:0.05em;">Amazon Musicで今夜のアーティストを聴く（30日間無料）</span>
     <span style="font-size:18px;color:#00d4ff;margin-left:auto;">›</span>
@@ -1061,22 +1061,22 @@ PUFFY（30周年SPメドレー：「これが私の生きる道」「愛のし�
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
     <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #232f3e; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #161d26;">
       <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
-        Amazon <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
+        CDをAmazonで探す <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
       </span>
     </a>
 
-    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fhourly%2F002%2F%3Fl-id%3Dheader-subnavi-cd-ranking" target="_blank" rel="nofollow sponsored noopener noreferrer" referrerpolicy="no-referrer-when-downgrade" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
+    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fdaily%2F002%2F" target="_blank" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
       <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
-        楽天ブックス <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
+        楽天ブックスでCDを探す <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
       </span>
     </a>
   </div>
 
   <img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
 
-  <a href="https://amzn.to/3NjAmbl" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #001a4d, #003399); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid #00d4ff; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
+  <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #001a4d, #003399); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid #00d4ff; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
     <span style="font-size: 9px; font-weight: 900; color: #00d4ff; border: 1px solid #00d4ff; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 3px;">Music</span>
-    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を探す</span>
+    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を聴く（30日間無料）</span>
     <span style="font-size: 18px; color: #00d4ff; margin-left: auto;">›</span>
   </a>
 

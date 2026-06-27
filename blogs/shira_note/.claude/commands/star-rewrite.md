@@ -104,7 +104,7 @@
 
 **メタディスクリプション（100〜115字・120字以内）**
 ```
-M/DD放送のフジテレビ音楽番組『STAR』出演アーティスト・歌唱曲・タイムテーブルを速報。{今回固有の注目ポイント}など最新情報を随時更新！
+M/DD放送のフジテレビ音楽番組『STAR』出演アーティスト・歌唱曲・タイムテーブル速報。{今回固有の注目ポイント}など随時更新！
 ```
 - アーティスト名＋「初コラボ」「初披露」などの希少性ワードを含める
 - 前回と同じ表現を使わない
@@ -205,6 +205,8 @@ M/DD放送のフジテレビ音楽番組『STAR』出演アーティスト・歌
 **Read**: `aria-label="STAR放送アーカイブ"` をGrepで特定 → 前後160行を読む
 
 **Edit対象**: アーカイブパネル（`<aside class="star-archive-panel"` 〜 `</aside>` の全体を一括Edit）
+
+> ⚠️ このステップはHTML全体置換のためスマートクォート（`"`等）混入リスクが最も高い。Edit後、手順16の検証コマンドを必ず実行する。
 
 | 要素 | 更新内容 |
 |---|---|
@@ -318,6 +320,21 @@ BreadcrumbListはposition 1・2は固定。position 3の `name`（例：「6月1
 
 ---
 
+### 16. スマートクォート確認・修正（必須）
+
+全Editが完了したら以下のPowerShellを実行する。スマートクォート（U+201C/D・U+2018/9）はHTMLの属性値（`class="..."` `style="..."`等）を壊しデザインが表示されなくなる。Edit tool の new_string 経由で混入するため毎回除去する。
+
+```powershell
+$path = "C:\Users\PC_User\claude project\blogs\shira_note\draft_star.txt"
+$content = [System.IO.File]::ReadAllText($path, [System.Text.Encoding]::UTF8)
+$content = $content.Replace([char]0x201C, '"').Replace([char]0x201D, '"')
+$content = $content.Replace([char]0x2018, "'").Replace([char]0x2019, "'")
+[System.IO.File]::WriteAllText($path, $content, [System.Text.Encoding]::UTF8)
+Write-Output "スマートクォート置換完了"
+```
+
+---
+
 ## 保存・SEOチェックリスト
 
 保存先：`C:\Users\PC_User\claude project\blogs\shira_note\draft_star.txt`（Edit差分更新）
@@ -336,3 +353,4 @@ BreadcrumbListはposition 1・2は固定。position 3の `name`（例：「6月1
 | JSON-LD | `dateModified`・BroadcastEvent・ItemList・FAQ更新済み |
 | **JSON-LD FAQ整合性** | **記事本文と一字一句一致（ユーザー修正後も再確認必須）** |
 | ナビゲーションブロック | JSON-LD直前に配置（変更なしのため確認のみ） |
+| **スマートクォート** | **手順16のPowerShell実行済み・「置換完了」を確認** |

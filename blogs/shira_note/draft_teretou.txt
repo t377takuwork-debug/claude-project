@@ -378,14 +378,14 @@
 
     <div style="background: rgba(0,242,254,0.05); padding: 10px 12px; border-radius: 4px; border: 1px solid rgba(0,242,254,0.2);">
       <div style="font-size: 10px; font-weight: 900; color: #00f2fe; margin-bottom: 6px; letter-spacing: 0.05em;">HIGHLIGHTS &amp; SPECIALS</div>
-      <ul style="margin: 0; padding-left: 16px; font-size: 10px; color: #cbd5e1; line-height: 1.6;">
-        <li style="margin-bottom: 4px;"><strong>LUNA SEA：</strong>真矢さん逝去後初のテレビ出演。「STORM」「I for You」メドレー＋新曲「FOREVER」テレビ初フルサイズ披露。</li>
-        <li style="margin-bottom: 4px;"><strong>ドラマソングSP：</strong>吉田栄作・仙道敦子が32年振り再結成、武田鉄矢「贈る言葉」、酒井法子「碧いうさぎ」ほか。</li>
-        <li style="margin-bottom: 4px;"><strong>DOZAN11 aka 三木道三：</strong>チャレンジ企画の裏生配信＆河合郁人の福岡中継。</li>
-        <li style="margin-bottom: 4px;"><strong>長渕剛：</strong>テレ東音楽祭に初出演。「とんぼ」「RUN」「乾杯」を披露。</li>
-        <li style="margin-bottom: 4px;"><strong>ZARD：</strong>デビュー35周年記念SPステージ。「マイ フレンド」他。</li>
-        <li><strong>島袋寛子：</strong>デビュー30周年メドレー。「Body &amp; Soul」等。</li>
-      </ul>
+      <div style="margin: 0; padding-left: 16px; font-size: 10px; color: #cbd5e1; line-height: 1.6;">
+        <div style="margin-bottom: 4px;">・<strong>LUNA SEA：</strong>真矢さん逝去後初のテレビ出演。「STORM」「I for You」メドレー＋新曲「FOREVER」テレビ初フルサイズ披露。</div>
+        <div style="margin-bottom: 4px;">・<strong>ドラマソングSP：</strong>吉田栄作・仙道敦子が32年振り再結成、武田鉄矢「贈る言葉」、酒井法子「碧いうさぎ」ほか。</div>
+        <div style="margin-bottom: 4px;">・<strong>DOZAN11 aka 三木道三：</strong>チャレンジ企画の裏生配信＆河合郁人の福岡中継。</div>
+        <div style="margin-bottom: 4px;">・<strong>長渕剛：</strong>テレ東音楽祭に初出演。「とんぼ」「RUN」「乾杯」を披露。</div>
+        <div style="margin-bottom: 4px;">・<strong>ZARD：</strong>デビュー35周年記念SPステージ。「マイ フレンド」他。</div>
+        <div>・<strong>島袋寛子：</strong>デビュー30周年メドレー。「Body &amp; Soul」等。</div>
+      </div>
     </div>
   </div>
 
@@ -483,20 +483,20 @@
     <!-- 攻略ガイド枠（ネオンピンク点線） -->
     <div style="margin-top: 12px; padding: 10px 12px; background: rgba(255, 0, 127, 0.02); border-radius: 6px; border: 1px dashed rgba(255, 0, 127, 0.35); box-shadow: inset 0 0 8px rgba(255, 0, 127, 0.03);">
       <div style="font-size: 9px; font-weight: 900; color: #ff007f; margin-bottom: 6px; letter-spacing: 0.08em; text-shadow: 0 0 2px rgba(255,0,127,0.2);">STRATEGY GUIDE</div>
-      <ul style="margin: 0; padding: 0; font-size: 10.5px; color: #cbd5e1; line-height: 1.6; list-style: none;">
-        <li style="position: relative; padding-left: 14px; margin-bottom: 4px;">
+      <div style="margin: 0; padding: 0; font-size: 10.5px; color: #cbd5e1; line-height: 1.6;">
+        <div style="position: relative; padding-left: 14px; margin-bottom: 4px;">
           <span style="position: absolute; left: 3px; top: 6px; width: 4px; height: 4px; background: #00f2fe; border-radius: 50%; box-shadow: 0 0 4px #00f2fe;"></span>
           <b style="color: #ffffff;">限定コラボ企画</b>は20時・21時台に集中する傾向があります。
-        </li>
-        <li style="position: relative; padding-left: 14px; margin-bottom: 4px;">
+        </div>
+        <div style="position: relative; padding-left: 14px; margin-bottom: 4px;">
           <span style="position: absolute; left: 3px; top: 6px; width: 4px; height: 4px; background: #00f2fe; border-radius: 50%; box-shadow: 0 0 4px #00f2fe;"></span>
           <b style="color: #ff007f; text-shadow: 0 0 1px rgba(255,0,127,0.2);">MC・深澤辰哉さんの所属するSnow Man</b>などの人気グループは、中盤から終盤のゴールデンタイムに配置される予測です。
-        </li>
-        <li style="position: relative; padding-left: 14px;">
+        </div>
+        <div style="position: relative; padding-left: 14px;">
           <span style="position: absolute; left: 3px; top: 6px; width: 4px; height: 4px; background: #00f2fe; border-radius: 50%; box-shadow: 0 0 4px #00f2fe;"></span>
           <b style="color: #ffffff;">実力派・ベテラン勢</b>は22時以降の番組ラストに向けて集結。LUNA SEAの特別ステージが最大の見せ場になる可能性が高めです。
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
 
   </div>
@@ -657,22 +657,22 @@
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
     <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #232f3e; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #161d26;">
       <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
-        Amazon <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
+        CDをAmazonで探す <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
       </span>
     </a>
 
-    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fhourly%2F002%2F%3Fl-id%3Dheader-subnavi-cd-ranking" target="_blank" rel="nofollow sponsored noopener noreferrer" referrerpolicy="no-referrer-when-downgrade" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
+    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fdaily%2F002%2F" target="_blank" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
       <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
-        楽天ブックス <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
+        楽天ブックスでCDを探す <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
       </span>
     </a>
   </div>
 
   <img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
 
-  <a href="https://amzn.to/3NjAmbl" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #001a4d, #003399); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid #00d4ff; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
+  <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #001a4d, #003399); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid #00d4ff; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
     <span style="font-size: 9px; font-weight: 900; color: #00d4ff; border: 1px solid #00d4ff; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 3px;">Music</span>
-    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を探す</span>
+    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を聴く（30日間無料）</span>
     <span style="font-size: 18px; color: #00d4ff; margin-left: auto;">›</span>
   </a>
 

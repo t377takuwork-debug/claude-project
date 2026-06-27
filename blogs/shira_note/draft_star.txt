@@ -1,8 +1,8 @@
-<!-- wp:paragraph -->
-タイトル：【最新】STAR タイムテーブル 6月25日は何時から？出演順や出演時間更新！
+﻿<!-- wp:paragraph -->
+タイトル：【最新】STAR タイムテーブル 7月2日は何時から？出演順や出演時間更新！
 
-メタディスクリプション（105字）：
-6/25放送のフジテレビ音楽番組『STAR』出演アーティスト・歌唱曲・タイムテーブルを速報。JI BLUEのW杯公式テーマ「景色」やFANTASTICS佐藤大樹の初ナビゲーター就任、SUPER BEAVERの中継など最新情報を随時更新！
+メタディスクリプション（112字）：
+7/2放送のフジテレビ音楽番組『STAR』出演アーティスト・歌唱曲・タイムテーブル速報。BUDDiiSのテレビ初披露「キミは都市伝説」や、ゴスペラーズ・NEXZ・DOMOTOの最新曲など随時更新！
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -64,7 +64,7 @@
       <div style="display: flex; justify-content: space-between; align-items: center;">
         <span style="font-size: 11px; color: #F26522; font-weight: 700;">放送日時</span>
         <span style="font-size: 13px; font-weight: 800; color: #1a1a1a;">
-          6.25 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
+          7.2 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
         </span>
       </div>
     </div>
@@ -74,14 +74,14 @@
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333; line-height: 1.5;">
           <strong style="color: #000;">出演：</strong>
-          CUTIE STREET / JI BLUE / SUPER BEAVER / 超ときめき♡宣伝部 / FANTASTICS and more...
+          ゴスペラーズ / DOMOTO / NEXZ / ≠ME / BUDDiiS and more...
         </p>
       </div>
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333; line-height: 1.5;">
           <strong style="color: #000;">注目：</strong>
-          JI BLUEがW杯公式テーマ「景色」をスペシャルステージから生中継／SUPER BEAVERが「クライマックス」もスペシャルステージから生中継／FANTASTICSリーダー・佐藤大樹が初ナビゲーター就任
+          BUDDiiS「キミは都市伝説」テレビ初披露（7/8発売前）／ゴスペラーズ「UNItVERSE」振付はSnow Man岩本照／板垣李光人がナビゲーター就任
         </p>
       </div>
     </div>
@@ -96,7 +96,7 @@
       line-height: 1.4;
     ">
       <span style="font-weight: 700; color: #444;">※ハイライト：</span><br>
-      W杯公式テーマ曲2組が都内スペシャルステージから生中継し、FANTASTICSリーダー・佐藤大樹の初ナビゲーター就任も重なった、サッカー×音楽の特別な1時間。
+      BUDDiiSのテレビ初披露、ゴスペラーズ×岩本照振付、NEXZアリーナツアー直後の初地上波が重なった、世代を超えた音楽の1時間。
     </div>
 
     <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -113,7 +113,7 @@
         詳細・パフォーマンス内容 ❯
       </a>
       <div style="font-size: 9px; color: #999; text-align: right;">
-        UPDATED: 2026.06.25
+        UPDATED: 2026.07.02
       </div>
     </div>
   </div>
@@ -129,15 +129,15 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>JI BLUEとSUPER BEAVERは都内某所スペシャルステージから生中継のため、スタジオとは違う特別な演出が期待できます。</p>
+<p>BUDDiiSのテレビ初披露「キミは都市伝説」は7月8日発売前の貴重なパフォーマンスで、ゴスペラーズの振付にSnow Man岩本照が携わっているなど、見どころが多い1時間です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>STAR 最新タイムテーブル【6/25】</h2>
+<h2>STAR 最新タイムテーブル【7/2】</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年6月25日（木）19:00から放送の『STAR』出演アーティストと歌唱曲です。</p>
+<p>2026年7月2日（木）19:00から放送の『STAR』出演アーティストと歌唱曲です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -187,7 +187,7 @@
       <div style="display: flex; justify-content: space-between; align-items: center;">
         <span style="font-size: 11px; color: #F26522; font-weight: 700;">放送日時</span>
         <span style="font-size: 13px; font-weight: 800; color: #1a1a1a;">
-          6.25 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
+          7.2 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
         </span>
       </div>
     </div>
@@ -197,42 +197,42 @@
       <div style="display: flex; gap: 6px; align-items: flex-start;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:00</strong> OP（MC上垣皓太朗 ／ STARナビゲーター：佐藤大樹（FANTASTICS））
+          <strong>19:00</strong> OP（MC上垣皓太朗 ／ STARナビゲーター：板垣李光人）
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:10頃</strong> CUTIE STREET「キュートなキューたい」★ポケモンエンディングテーマ
+          <strong>19:10頃</strong> ゴスペラーズ「UNItVERSE」★Snow Man岩本照による振付
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:20頃</strong> 超ときめき♡宣伝部「どりーむじゃんぼ！」★新体制初のシングル曲
+          <strong>19:20頃</strong> DOMOTO「またね」★ギネス記録・連続首位48作達成シングル
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:30頃</strong> FANTASTICS「SUNFLOWER」★アリーナツアーテーマ曲
+          <strong>19:30頃</strong> NEXZ「Hellmate」★アリーナツアー完走後・地上波初パフォーマンス
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:40頃</strong> JI BLUE「景色」★W杯公式テーマソング（都内某所スペシャルステージ・生中継）
+          <strong>19:40頃</strong> ≠ME「愛くださいませ」★史上最高難度のダンスで魅せる最新曲
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:50頃</strong> SUPER BEAVER「クライマックス」★サッカーテーマソング（都内某所スペシャルステージ・生中継）
+          <strong>19:50頃</strong> BUDDiiS「キミは都市伝説」★メジャー1stシングルリード曲・テレビ初披露
         </p>
       </div>
 
@@ -255,7 +255,7 @@
       line-height: 1.4;
     ">
       <strong>※最新の状況：</strong><br>
-      現在、6月25日放送の<strong>番組構成予測</strong>を表示中です。JI BLUEとSUPER BEAVERが都内某所スペシャルステージから生中継でW杯テーマ曲を披露するほか、FANTASTICSリーダー・佐藤大樹が初ナビゲーターを務める注目の1時間です。
+      現在、7月2日放送の<strong>番組構成予測</strong>を表示中です。BUDDiiSのメジャー1stシングルリード曲「キミは都市伝説」がテレビ初披露となるほか、板垣李光人がナビゲーターを務める注目の1時間です。
     </div>
 
     <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -272,7 +272,7 @@
       </a>
 
       <div style="font-size: 9px; color: #999;">
-        UPDATED: 2026.06.25
+        UPDATED: 2026.07.02
       </div>
     </div>
 
@@ -289,7 +289,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>STAR（6/25）出演アーティスト・歌唱内容一覧</h2>
+<h2>STAR（7/2）出演アーティスト・歌唱内容一覧</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center","sizeSlug":"full"} -->
@@ -318,33 +318,33 @@ box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 <div style="background: #fff; border-radius: 0 0 11px 11px; overflow: hidden;">
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">CUTIE STREET</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「キュートなキューたい」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">テレビアニメ『ポケットモンスター』エンディングテーマ</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">ゴスペラーズ</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「UNItVERSE」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">EP『UNIVER5OUL』収録。Snow Man・岩本照による振付</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">JI BLUE</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「景色」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">FIFAワールドカップ2026公式テーマソング ★都内某所スペシャルステージ・生中継</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">DOMOTO</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「またね」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">連続首位獲得記録48作（ギネス世界記録）達成シングル</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">SUPER BEAVER</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「クライマックス」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">フジテレビ系2026サッカーテーマソング ★都内某所スペシャルステージ・生中継</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">NEXZ</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「Hellmate」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">Japan 3rd EP収録曲。アリーナツアー完走後、地上波初パフォーマンス</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">超ときめき♡宣伝部</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「どりーむじゃんぼ！」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">新体制初のシングル曲</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">≠ME</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「愛くださいませ」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">史上最高難度のダンスで魅せる最新曲</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; background: #fff;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">FANTASTICS</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「SUNFLOWER」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">アリーナツアー【FANTASTICS LIVE TOUR 2026 "SUNFLOWER"】テーマ曲</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">BUDDiiS</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「キミは都市伝説」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">メジャー1stシングル（7月8日発売）リード曲。テレビ初披露</div>
 </div>
 
 </div>
@@ -356,11 +356,11 @@ box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>6月25日の『STAR』は、JI BLUEとSUPER BEAVERが都内某所スペシャルステージから生中継でW杯テーマ曲を披露するほか、FANTASTICSリーダー・佐藤大樹の初ナビゲーター就任も注目の回。</p>
+<p>7月2日の『STAR』は、BUDDiiSのメジャー1stシングルリード曲「キミは都市伝説」のテレビ初披露をはじめ、ゴスペラーズ・DOMOTO・NEXZなど実力派アーティストが新曲・最新曲を届ける回。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>CUTIE STREETのポケモンエンディング曲や超ときめき♡宣伝部の新体制初シングルも楽しみです。</p>
+<p>板垣李光人がナビゲーターとして登場し、映画『口に関するアンケート』（7月3日公開）の話題も交えたトークにも注目です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -408,7 +408,7 @@ padding: 14px;
     <span style="color:#F26522; font-size:12px;">✦</span>
     <div style="font-size:12px; color:#333;">
       <strong>19:00〜（オープニング・熱狂枠）</strong><br>
-      FANTASTICSリーダー・佐藤大樹の初ナビゲーター就任を番組冒頭でアピールする流れが有力。6/11放送でも小島健（Aぇ! group）が初ナビゲーターとして19:00のOPパフォーマンスを披露した実績があり、今回も同パターンでCUTIE STREETの登場がスタートと予想される。
+      板垣李光人のナビゲーター就任を番組冒頭でアピールする流れが有力。6/25放送でも佐藤大樹（FANTASTICS）が初ナビゲーターとして序盤から登場した実績があり、今回もゴスペラーズかDOMOTOが序盤を担いながら板垣李光人とのトークが展開されると予想される。
     </div>
   </div>
 
@@ -416,7 +416,7 @@ padding: 14px;
     <span style="color:#00B7B5; font-size:12px;">✦</span>
     <div style="font-size:12px; color:#333;">
       <strong>19:15〜19:45（中盤・パフォーマンス枠）</strong><br>
-      超ときめき♡宣伝部・FANTASTICSが中盤を担う予想。ナビゲーターのFANTASTICS佐藤大樹が出演するため、特別な演出や共演シーンが期待できる。5組を1時間に収めるためテンポよくパフォーマンスが続く構成が過去回のパターン。
+      NEXZ・≠MEが中盤を担う予想。NEXZはアリーナツアー完走直後の勢いあるステージ、≠MEは高難度ダンス「愛くださいませ」と、パフォーマンス系アーティストが続く展開が有力。5組を1時間に収めるためテンポよく進行する構成が過去回のパターン。
     </div>
   </div>
 
@@ -424,7 +424,7 @@ padding: 14px;
     <span style="color:#F26522; font-size:12px;">✦</span>
     <div style="font-size:12px; color:#333;">
       <strong>19:45〜20:00（終盤・クライマックス枠）</strong><br>
-      JI BLUEとSUPER BEAVERが都内某所スペシャルステージから生中継でW杯テーマ曲を披露するクライマックスが有力。6/11放送でもORDのW杯テーマ曲2曲連続が後半（19:45〜19:55頃）に配置された実績から、今回も同様の配置が予想される。
+      BUDDiiSのテレビ初披露「キミは都市伝説」がクライマックスを飾る可能性が最も高い。6/25放送でもSUPER BEAVERとJI BLUEの注目パフォーマンスが後半に配置された実績から、今回もテレビ初披露という最大の見どころが終盤に当てられると予想される。
     </div>
   </div>
 
@@ -441,7 +441,7 @@ border-radius:8px;
 line-height:1.5;
 ">
 💡 <strong>今回のポイント</strong><br>
-6/11放送回ではORDのW杯テーマ曲2曲連続が19:45〜19:55頃の後半枠に配置された実績から、今回も「序盤：CUTIE STREET→中盤：超ときめき♡宣伝部＋FANTASTICS→後半：JI BLUE＋SUPER BEAVERの生中継」の流れが最有力です。
+6/25放送回では注目度の高いアーティストが後半枠に集中した実績から、今回も「序盤：ゴスペラーズ＋DOMOTO→中盤：NEXZ＋≠ME→後半：BUDDiiSのテレビ初披露」という流れが最有力です。
 </div>
 
 </div>
@@ -461,7 +461,7 @@ line-height:1.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>6月18日の放送は以下のような流れでした。</p>
+<p>6月25日の放送は以下のような流れでした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -500,9 +500,9 @@ line-height:1.5;
           『STAR』SETLIST &amp; REPORT
         </div>
       </div>
-      <div style="font-size: 12px; font-weight: 700; color: #666;">2026.06.18 <span style="font-weight: 400;">THU</span></div>
+      <div style="font-size: 12px; font-weight: 700; color: #666;">2026.06.25 <span style="font-weight: 400;">THU</span></div>
     </div>
-    
+
     <div style="
       background: #fdf2ed;
       border-radius: 8px;
@@ -512,7 +512,7 @@ line-height:1.5;
     ">
       <div style="font-size: 11px; color: #F26522; font-weight: 800; margin-bottom: 2px;">STAR NAVIGATORS</div>
       <div style="font-size: 14px; font-weight: 700; color: #333;">上垣 皓太朗（フジテレビアナウンサー）</div>
-      <div style="font-size: 13px; font-weight: 700; color: #333; margin-top: 4px;">NiziU（MAKO &amp; MAYA）</div>
+      <div style="font-size: 13px; font-weight: 700; color: #333; margin-top: 4px;">佐藤大樹（FANTASTICS）</div>
     </div>
 
     <div style="display: grid; gap: 0; margin-bottom: 16px; border-left: 2px solid #eee; margin-left: 6px; padding-left: 14px;">
@@ -520,58 +520,51 @@ line-height:1.5;
         <div style="position: absolute; left: -21px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #F26522; border: 2px solid #fff;"></div>
         <div style="font-size: 11px; color: #F26522; font-weight: 800;">19:00頃 / OPENING</div>
         <div style="font-size: 13px; color: #1a1a1a; line-height: 1.5;">
-          MC上垣皓太朗進行＋ナビゲーターNiziU（MAKO &amp; MAYA）登場<br>
+          MC上垣皓太朗進行＋ナビゲーター佐藤大樹（FANTASTICS）登場<br>
           <span style="font-size: 11px; color: #666;">番組概要＆ラインナップ紹介</span>
         </div>
       </div>
-      
+
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
         <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:05～19:15頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">きゃりーぱみゅぱみゅ</span>「キミに100パーセント」
+          <span style="font-weight: 800;">FANTASTICS</span>「SUNFLOWER」<br>
+          <span style="font-size: 11px; color: #666;">（ナビゲーター・佐藤大樹出演）</span>
         </div>
       </div>
-      
+
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
         <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:15～19:25頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">コブクロ</span>「Starry Smile Story」
+          <span style="font-weight: 800;">CUTIE STREET</span>「キュートなキューたい」
         </div>
       </div>
-      
+
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
         <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:25～19:35頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">NiziU</span>「SWEET NONFICTION」<br>
-          <span style="font-size: 11px; color: #666;">（ナビゲーター連動パフォーマンス）</span>
+          <span style="font-weight: 800;">超ときめき♡宣伝部</span>「どりーむじゃんぼ！」
         </div>
       </div>
-      
+
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
         <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:35～19:45頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">櫻坂46</span>「What’s “KAZOKU”？」
+          <span style="font-weight: 800;">SUPER BEAVER</span>「クライマックス」<br>
+          <span style="font-size: 11px; color: #666;">（都内某所スペシャルステージ・生中継）</span>
         </div>
       </div>
-      
-      <div style="position: relative; padding-bottom: 14px;">
-        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:45～19:55頃</div>
-        <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">WATWING</span>「Present」 ★ドラマ『今夜、秘密のキッチンで』主題歌
-        </div>
-      </div>
-      
+
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #F26522; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:55～20:00頃 / LAST</div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:45～19:58頃 / LAST</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">DEAN FUJIOKA</span>「Loved One」 ★ドラマ『LOVED ONE』主題歌<br>
-          <span style="font-size: 11px; color: #666;">＋エンタメニュース／名作ドラマ主題歌ランキング</span>
+          <span style="font-weight: 800;">JI BLUE</span>「景色」 ★FIFAワールドカップ2026公式テーマソング<br>
+          <span style="font-size: 11px; color: #666;">（都内某所スペシャルステージ・生中継）</span>
         </div>
       </div>
     </div>
@@ -587,7 +580,7 @@ line-height:1.5;
       line-height: 1.6;
     ">
       <span style="display: inline-block; background: #eee; padding: 0 4px; border-radius: 2px; margin-right: 4px; font-weight: 800;">REPORT</span><br>
-      きゃりーぱみゅぱみゅのオープニングからNiziUのナビゲーター進行＋パフォーマンスで前半を盛り上げ、WATWINGの「Present」が後半最大のハイライトに。DEAN FUJIOKAのドラマ主題歌でフィナーレ、ゲストの木南晴夏・高杉真宙も登場したドラマ主題歌企画の1時間。
+      FANTASTICSリーダー・佐藤大樹の初ナビゲーター就任で番組がスタートし、SUPER BEAVERとJI BLUEの都内某所スペシャルステージ生中継が後半最大のハイライトに。CUTIE STREETと超ときめき♡宣伝部の初出演も好評だった、サッカー×音楽の1時間。
     </div>
 
     <div style="display: flex; flex-direction: column; gap: 12px;">
@@ -607,7 +600,7 @@ line-height:1.5;
       </a>
       <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 4px; border-top: 1px solid #eee;">
         <div style="font-size: 9px; color: #999; font-weight: 700; letter-spacing: 0.5px;">RECORDED FROM X REALTIME TREND</div>
-        <div style="font-size: 9px; color: #999;">FINAL UPDATED: 2026.06.25</div>
+        <div style="font-size: 9px; color: #999;">FINAL UPDATED: 2026.06.26</div>
       </div>
     </div>
   </div>
@@ -619,7 +612,7 @@ line-height:1.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>※6/25は放送前のため未確定。放送開始後（19:00〜）にリアルタイムで出演順を更新していきます。</p>
+<p>※7/2は放送前のため未確定。放送開始後（19:00〜）にリアルタイムで出演順を更新していきます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -689,7 +682,7 @@ overflow: hidden;
 
 <div style="margin-top:10px;border-top:1px solid #eee;padding-top:10px;">
   <div style="font-size:10px;font-weight:800;color:#a0aec0;margin-bottom:8px;">気に入った楽曲をもう一度聴くなら</div>
-  <a href="https://amzn.to/3NjAmbl" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display:flex;align-items:center;justify-content:flex-start;height:40px;background:linear-gradient(90deg,#001a4d,#003399);border-radius:6px;text-decoration:none;box-sizing:border-box;border:1px solid #00d4ff;padding:0 15px;">
+  <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display:flex;align-items:center;justify-content:flex-start;height:40px;background:linear-gradient(90deg,#001a4d,#003399);border-radius:6px;text-decoration:none;box-sizing:border-box;border:1px solid #00d4ff;padding:0 15px;">
     <span style="font-size:9px;font-weight:900;color:#00d4ff;border:1px solid #00d4ff;padding:1px 4px;border-radius:2px;margin-right:12px;">Music</span>
     <span style="font-size:11px;font-weight:800;color:#ffffff;letter-spacing:0.05em;">Amazon Musicで楽曲を聴く（30日間無料）</span>
     <span style="font-size:18px;color:#00d4ff;margin-left:auto;">›</span>
@@ -727,6 +720,44 @@ color:#fff;
 </summary>
 
 <div style="padding:14px 16px;">
+
+<!-- ======================= -->
+<!-- 2026.06.25 (NEW) -->
+<!-- ======================= -->
+<h3 style="margin:16px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
+2026年6月25日放送回
+</h3>
+
+<div style="
+border-radius:12px;
+overflow:hidden;
+border:1px solid #eee;
+background:#fff;
+box-shadow:0 6px 18px rgba(0,0,0,0.06);
+">
+
+<div style="height:4px;background:linear-gradient(90deg,#F26522,#00B7B5);"></div>
+
+<div style="padding:12px 14px;background:#fdfdfd;border-bottom:1px solid #eee;">
+  <div style="font-size:11px;font-weight:900;color:#F26522;">PAST LOG / STAR ARCHIVE</div>
+  <div style="font-size:14px;font-weight:900;color:#1a1a1a;">2026.06.25</div>
+</div>
+
+<div style="padding:14px;font-size:12px;line-height:1.8;color:#333;">
+
+<strong>FANTASTICS</strong>：「SUNFLOWER」（OP・ナビゲーター佐藤大樹出演）<br>
+<strong>CUTIE STREET</strong>：「キュートなキューたい」（テレビアニメ『ポケットモンスター』エンディングテーマ）<br>
+<strong>超ときめき♡宣伝部</strong>：「どりーむじゃんぼ！」（新体制初シングル）<br>
+<strong>SUPER BEAVER</strong>：「クライマックス」（都内某所スペシャルステージ・生中継）<br>
+<strong>JI BLUE</strong>：「景色」（FIFAワールドカップ2026公式テーマソング・都内某所スペシャルステージ・生中継）
+
+</div>
+
+<div style="padding:10px 14px;background:#f7fafc;font-size:11px;color:#666;">
+💡 FANTASTICSリーダー・佐藤大樹の初ナビゲーター就任とSUPER BEAVER・JI BLUEのW杯テーマ曲スペシャルステージが重なったサッカー×音楽の1時間。CUTIE STREET・超ときめき♡宣伝部も初出演で好評。
+</div>
+
+</div>
 
 <!-- ======================= -->
 <!-- 2026.06.18 (NEW) -->
@@ -842,46 +873,6 @@ box-shadow:0 6px 18px rgba(0,0,0,0.06);
 
 </div>
 
-<!-- ======================= -->
-<!-- 2026.05.28 -->
-<!-- ======================= -->
-<h3 style="margin:24px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
-2026年5月28日放送回
-</h3>
-
-<div style="
-border-radius:12px;
-overflow:hidden;
-border:1px solid #eee;
-background:#fff;
-box-shadow:0 6px 18px rgba(0,0,0,0.06);
-">
-
-<div style="height:4px;background:linear-gradient(90deg,#F26522,#00B7B5);"></div>
-
-<div style="padding:12px 14px;background:#fdfdfd;border-bottom:1px solid #eee;display:flex;justify-content:space-between;align-items:center;">
-  <div>
-    <div style="font-size:11px;font-weight:900;color:#F26522;">PAST LOG / STAR ARCHIVE</div>
-    <div style="font-size:14px;font-weight:900;color:#1a1a1a;">2026.05.28</div>
-  </div>
-  <a href="https://tver.jp/series/sr1ksvsv1n" target="_blank" style="font-size:10px;font-weight:700;color:#00B7B5;text-decoration:none;border:1px solid #00B7B5;padding:2px 8px;border-radius:4px;">WATCH ON TVer ❯</a>
-</div>
-
-<div style="padding:14px;font-size:12px;line-height:1.8;color:#333;">
-
-<strong>MAZZEL × ガチャピン・ムック</strong>：スペシャルコラボパフォーマンスで異色の組み合わせが話題沸騰<br>
-<strong>綾瀬はるか（ゲスト）</strong>：「思い出の青春ソング」コーナーで音楽的ルーツを語るトーク企画<br>
-<strong>森山直太朗</strong>：深みある歌唱パフォーマンスで中盤を彩る<br>
-<strong>西野カナ feat. NiziU</strong>：初コラボ曲「LOVE BEAT」をTV初パフォーマンス！クライマックスで視聴者を沸かせる
-
-</div>
-
-<div style="padding:10px 14px;background:#f7fafc;font-size:11px;color:#666;">
-💡 西野カナ×NiziUの「LOVE BEAT」TV初披露とMAZZEL×ガチャピン・ムックの異色コラボが話題を集めた1時間
-</div>
-
-</div>
-
 
 </div>
 </details>
@@ -912,25 +903,25 @@ overflow:hidden;
 
 <!-- Q1 -->
 <div style="padding:12px;border-radius:10px;background:#fdf2ed;margin-bottom:10px;">
-  <div style="font-size:12px;font-weight:900;color:#F26522;">Q1｜FANTASTICSの出演時間は何時頃ですか？</div>
+  <div style="font-size:12px;font-weight:900;color:#F26522;">Q1｜テレビ初披露となるBUDDiiSの出演時間はいつ頃ですか？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    ナビゲーターを務める佐藤大樹（FANTASTICS）の存在から、番組中盤・19:28〜19:40頃が有力です。6/11放送でも初ナビゲーターのAぇ! group小島健がOPパフォーマンスを行った実績があり、今回も番組前半〜中盤にFANTASTICSの出番が配置される可能性があります。
+    6/25放送でSUPER BEAVERとJI BLUEの注目パフォーマンスが後半枠に配置された実績から、今回もBUDDiiSのテレビ初披露「キミは都市伝説」が番組後半・19:45〜19:58頃のクライマックス枠に配置される可能性が高いと予想されます。
   </div>
 </div>
 
 <!-- Q2 -->
 <div style="padding:12px;border-radius:10px;background:#fff;border:1px solid #eee;margin-bottom:10px;">
-  <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q2｜JI BLUEとSUPER BEAVERのスペシャルステージ生中継とはどんな演出ですか？</div>
+  <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q2｜ゲストナビゲーターの板垣李光人はどんな役割ですか？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    都内某所からの生中継ステージです。JI BLUEはFIFAワールドカップ2026公式テーマソング「景色」を、SUPER BEAVERはフジテレビ系2026サッカーテーマソング「クライマックス」をそれぞれ披露します。スタジオとは異なる特別な空間からのパフォーマンスが期待されます。
+    今回のゲストナビゲーターとして番組全体の進行を担当します。7月3日公開映画『口に関するアンケート』の主演として注目が集まる中での出演で、番組内では出演アーティストとのトークも予定されています。
   </div>
 </div>
 
 <!-- Q3 -->
 <div style="padding:12px;border-radius:10px;background:#fdf2ed;margin-bottom:10px;">
-  <div style="font-size:12px;font-weight:900;color:#F26522;">Q3｜CUTIE STREETが披露する「キュートなキューたい」はどんな楽曲ですか？</div>
+  <div style="font-size:12px;font-weight:900;color:#F26522;">Q3｜ゴスペラーズが披露する「UNItVERSE」の見どころは？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    テレビアニメ『ポケットモンスター』のエンディングテーマです。ポケモンファンにも注目の選曲で、CUTIE STREETとしてSTARのステージに立つ今回は、アニメと音楽番組ファン双方に嬉しいパフォーマンスになりそうです。
+    EP『UNIVER5OUL』収録の「UNItVERSE」はSnow Man・岩本照による振付が施された楽曲です。ゴスペラーズのハーモニーと岩本照が手がけた振付が融合したステージで、どんなパフォーマンスになるか注目です。
   </div>
 </div>
 
@@ -938,7 +929,7 @@ overflow:hidden;
 <div style="padding:12px;border-radius:10px;background:#fff;border:1px solid #eee;">
   <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q4｜タイムテーブルのリアルタイム更新はありますか？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    公式から詳細な時間は公開されませんが、当ページでは6月25日の19:00放送開始とともに、実際のパフォーマンス順をリアルタイムで速報更新します。
+    公式から詳細な時間は公開されませんが、当ページでは7月2日の19:00放送開始とともに、実際のパフォーマンス順をリアルタイムで速報更新します。
   </div>
 </div>
 
@@ -951,15 +942,15 @@ overflow:hidden;
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年6月25日（木）19:00放送のフジテレビ系『STAR』。</p>
+<p>2026年7月2日（木）19:00放送のフジテレビ系『STAR』。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>FANTASTICSリーダー・佐藤大樹が初ナビゲーターを務め、JI BLUEとSUPER BEAVERが都内某所スペシャルステージから生中継でW杯テーマ曲を披露します。</p>
+<p>板垣李光人がゲストナビゲーターを務め、BUDDiiSのメジャー1stシングルリード曲「キミは都市伝説」テレビ初披露やゴスペラーズ「UNItVERSE」（Snow Man岩本照振付）など注目パフォーマンスが揃った回です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>CUTIE STREETのポケモンエンディングテーマ「キュートなキューたい」や超ときめき♡宣伝部の新体制初シングル「どりーむじゃんぼ！」など、各アーティストが最新パフォーマンスを届ける1時間です。</p>
+<p>NEXZアリーナツアー完走後の初地上波パフォーマンスや、DOMOTOのギネス記録達成シングル「またね」、≠MEの最高難度ダンス「愛くださいませ」も見逃せません。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -1026,22 +1017,22 @@ overflow:hidden;
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
     <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #232f3e; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #161d26;">
       <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
-        Amazon <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
+        CDをAmazonで探す <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
       </span>
     </a>
 
-    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fhourly%2F002%2F%3Fl-id%3Dheader-subnavi-cd-ranking" target="_blank" rel="nofollow sponsored noopener noreferrer" referrerpolicy="no-referrer-when-downgrade" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
+    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fdaily%2F002%2F" target="_blank" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
       <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
-        楽天ブックス <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
+        楽天ブックスでCDを探す <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
       </span>
     </a>
   </div>
 
   <img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
 
-  <a href="https://amzn.to/3NjAmbl" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #001a4d, #003399); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid #00d4ff; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
+  <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #001a4d, #003399); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid #00d4ff; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
     <span style="font-size: 9px; font-weight: 900; color: #00d4ff; border: 1px solid #00d4ff; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 3px;">Music</span>
-    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を探す</span>
+    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を聴く（30日間無料）</span>
     <span style="font-size: 18px; color: #00d4ff; margin-left: auto;">›</span>
   </a>
 
@@ -1058,33 +1049,33 @@ overflow:hidden;
       "@type": "BlogPosting",
       "@id": "https://shira-treat.com/star-timetable/#post",
       "url": "https://shira-treat.com/star-timetable/",
-      "headline": "【最新】STAR タイムテーブル 6月25日は何時から？出演順や出演時間更新！",
-      "description": "6/25放送のフジテレビ音楽番組『STAR』出演アーティスト・歌唱曲・タイムテーブルを速報。JI BLUEのW杯公式テーマ「景色」やFANTASTICS佐藤大樹の初ナビゲーター就任、SUPER BEAVERの中継など最新情報を随時更新！",
+      "headline": "【最新】STAR タイムテーブル 7月2日は何時から？出演順や出演時間更新！",
+      "description": "7/2放送のフジテレビ音楽番組『STAR』出演アーティスト・歌唱曲・タイムテーブル速報。BUDDiiSのテレビ初披露「キミは都市伝説」や、ゴスペラーズ・NEXZ・DOMOTOの最新曲など随時更新！",
       "keywords": [
         "STAR",
         "タイムテーブル",
         "出演者",
-        "CUTIE STREET",
-        "JI BLUE",
-        "SUPER BEAVER",
-        "超ときめき♡宣伝部",
-        "FANTASTICS",
-        "佐藤大樹",
-        "6月25日",
+        "ゴスペラーズ",
+        "DOMOTO",
+        "NEXZ",
+        "≠ME",
+        "BUDDiiS",
+        "板垣李光人",
+        "7月2日",
         "フジテレビ"
       ],
       "datePublished": "2026-04-09T20:00:00+09:00",
       "dateCreated": "2026-04-09T20:00:00+09:00",
-      "dateModified": "2026-06-25T10:00:00+09:00",
+      "dateModified": "2026-07-02T10:00:00+09:00",
       "inLanguage": "ja",
       "image": {
         "@type": "ImageObject",
         "@id": "https://shira-treat.com/star-timetable/#heroimage",
-        "url": "https://shira-treat.com/wp-content/uploads/2026/06/image-19.webp",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/06/image-21.webp",
         "width": 1200,
         "height": 675
       },
-      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/06/image-19.webp",
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/06/image-21.webp",
       "author": {
         "@type": "Person",
         "name": "Shira",
@@ -1119,20 +1110,20 @@ overflow:hidden;
     {
       "@type": "BroadcastEvent",
       "@id": "https://shira-treat.com/star-timetable/#broadcast",
-      "name": "STAR（2026年6月25日放送回）",
-      "startDate": "2026-06-25T19:00:00+09:00",
-      "endDate": "2026-06-25T20:00:00+09:00",
+      "name": "STAR（2026年7月2日放送回）",
+      "startDate": "2026-07-02T19:00:00+09:00",
+      "endDate": "2026-07-02T20:00:00+09:00",
       "eventStatus": "https://schema.org/EventScheduled",
       "isLiveBroadcast": true,
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "performer": [
         { "@type": "Person", "name": "上垣皓太朗" },
-        { "@type": "Person", "name": "佐藤大樹" },
-        { "@type": "MusicGroup", "name": "CUTIE STREET" },
-        { "@type": "MusicGroup", "name": "JI BLUE" },
-        { "@type": "MusicGroup", "name": "SUPER BEAVER" },
-        { "@type": "MusicGroup", "name": "超ときめき♡宣伝部" },
-        { "@type": "MusicGroup", "name": "FANTASTICS" }
+        { "@type": "Person", "name": "板垣李光人" },
+        { "@type": "MusicGroup", "name": "ゴスペラーズ" },
+        { "@type": "MusicGroup", "name": "DOMOTO" },
+        { "@type": "MusicGroup", "name": "NEXZ" },
+        { "@type": "MusicGroup", "name": "≠ME" },
+        { "@type": "MusicGroup", "name": "BUDDiiS" }
       ],
       "broadcaster": {
         "@type": "Organization",
@@ -1143,14 +1134,14 @@ overflow:hidden;
     {
       "@type": "ItemList",
       "@id": "https://shira-treat.com/star-timetable/#lineup",
-      "name": "STAR（6/25）出演アーティスト・パフォーマンス一覧",
+      "name": "STAR（7/2）出演アーティスト・パフォーマンス一覧",
       "numberOfItems": 5,
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "CUTIE STREET" },
-        { "@type": "ListItem", "position": 2, "name": "超ときめき♡宣伝部" },
-        { "@type": "ListItem", "position": 3, "name": "FANTASTICS" },
-        { "@type": "ListItem", "position": 4, "name": "JI BLUE" },
-        { "@type": "ListItem", "position": 5, "name": "SUPER BEAVER" }
+        { "@type": "ListItem", "position": 1, "name": "ゴスペラーズ" },
+        { "@type": "ListItem", "position": 2, "name": "DOMOTO" },
+        { "@type": "ListItem", "position": 3, "name": "NEXZ" },
+        { "@type": "ListItem", "position": 4, "name": "≠ME" },
+        { "@type": "ListItem", "position": 5, "name": "BUDDiiS" }
       ]
     },
     {
@@ -1159,18 +1150,18 @@ overflow:hidden;
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "FANTASTICSの出演時間は何時頃ですか？",
+          "name": "テレビ初披露となるBUDDiiSの出演時間はいつ頃ですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "ナビゲーターを務める佐藤大樹（FANTASTICS）の存在から、番組中盤・19:28〜19:40頃が有力です。6/11放送でも初ナビゲーターのAぇ! group小島健がOPパフォーマンスを行った実績があり、今回も番組前半〜中盤にFANTASTICSの出番が配置される可能性があります。"
+            "text": "6/25放送でSUPER BEAVERとJI BLUEの注目パフォーマンスが後半枠に配置された実績から、今回もBUDDiiSのテレビ初披露「キミは都市伝説」が番組後半・19:45〜19:58頃のクライマックス枠に配置される可能性が高いと予想されます。"
           }
         },
         {
           "@type": "Question",
-          "name": "JI BLUEとSUPER BEAVERのスペシャルステージ生中継とはどんな演出ですか？",
+          "name": "ゲストナビゲーターの板垣李光人はどんな役割ですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "都内某所からの生中継ステージです。JI BLUEはFIFAワールドカップ2026公式テーマソング「景色」を、SUPER BEAVERはフジテレビ系2026サッカーテーマソング「クライマックス」をそれぞれ披露します。スタジオとは異なる特別な空間からのパフォーマンスが期待されます。"
+            "text": "今回のゲストナビゲーターとして番組全体の進行を担当します。7月3日公開映画『口に関するアンケート』の主演として注目が集まる中での出演で、番組内では出演アーティストとのトークも予定されています。"
           }
         },
         {
@@ -1178,7 +1169,7 @@ overflow:hidden;
           "name": "タイムテーブルのリアルタイム更新はありますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "公式から詳細な時間は公開されませんが、当ページでは6月25日の19:00放送開始とともに、実際のパフォーマンス順をリアルタイムで速報更新します。"
+            "text": "公式から詳細な時間は公開されませんが、当ページでは7月2日の19:00放送開始とともに、実際のパフォーマンス順をリアルタイムで速報更新します。"
           }
         }
       ]
@@ -1202,7 +1193,7 @@ overflow:hidden;
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "6月25日 STAR タイムテーブル",
+          "name": "7月2日 STAR タイムテーブル",
           "item": "https://shira-treat.com/star-timetable/"
         }
       ]
