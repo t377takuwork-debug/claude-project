@@ -6,7 +6,9 @@
       "Bash(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\PC_User\\\\claude project\\\\blogs\\\\shira_note\\\\tools\\\\output\")",
       "Bash(Out-Null)",
       "Bash(Write-Host \"OK\")",
-      "WebSearch"
+      "WebSearch",
+      "WebFetch(domain:www.thefirsttimes.jp)",
+      "WebFetch(domain:natalie.mu)"
     ]
   }
 }
