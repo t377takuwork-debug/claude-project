@@ -8,7 +8,8 @@
       "Bash(Write-Host \"OK\")",
       "WebSearch",
       "WebFetch(domain:www.thefirsttimes.jp)",
-      "WebFetch(domain:natalie.mu)"
+      "WebFetch(domain:natalie.mu)",
+      "Bash(python tools/collect_news.py --date 20260629)"
     ]
   }
 }
