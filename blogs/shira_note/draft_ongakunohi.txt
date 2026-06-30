@@ -1,7 +1,9 @@
+<!-- wp:paragraph -->
 タイトル：【2026】音楽の日タイムテーブル｜出演者の順番や出演時間まとめ(随時更新)
 
-メタディスクリプション（96字）：
-「音楽の日2026」7月18日生放送！出演者、タイムテーブル、歌唱曲を最速更新。INI、櫻坂46ら豪華アーティストの登場時間もひと目でチェック。推しの出番を逃さないよう最新情報をお届けします。
+メタディスクリプション（88字）：
+「音楽の日2026」7月18日生放送！あいみょん・BE:FIRST・King & Princeら第2弾計32組が発表。タイムテーブルや出演者の順番を最速でお届けします。
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>TBS系の夏の大型音楽特番「音楽の日2026」の放送が決定！</p>
@@ -49,14 +51,14 @@
     <div style="display: flex; align-items: flex-start; gap: 8px;">
       <div style="flex-shrink: 0; font-size: 8px; font-weight: 800; background: #ff4081; color: #fff; padding: 1px 4px; border-radius: 2px; margin-top: 2px;">出演者</div>
       <div style="font-size: 11px; color: #333; line-height: 1.4;">
-        INI、＝LOVE、EBiDAN、&amp;TEAM、CUTIE STREET、櫻坂46、TWS、HANA、FRUITS ZIPPER、Little Glee Monster、<b>and more...</b>
+        INI、あいみょん、King &amp; Prince、BE:FIRST、櫻坂46、乃木坂46、日向坂46、AKB48、&amp;TEAM、FRUITS ZIPPER、<b>and more（計32組）...</b>
       </div>
     </div>
 
     <div style="background: rgba(255,64,129,0.04); border-left: 2px solid #ff4081; padding: 6px 10px;">
       <div style="font-size: 11px; font-weight: 600; color: #ff4081; display: flex; align-items: flex-start; gap: 5px; line-height: 1.3;">
         <span style="margin-top: 4px; width: 4px; height: 4px; background: #ff4081; border-radius: 50%; flex-shrink: 0;"></span>
-        出演アーティスト第1弾発表！今後も追加出演者やスペシャル企画を順次発表予定です。最新情報は『CDTVライブ！ライブ！』等をご確認ください。
+        出演アーティスト第2弾まで発表済み（計32組）！タイムテーブルや歌唱曲は今後の解禁をお待ちください。
       </div>
     </div>
 
@@ -78,7 +80,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演者第一弾が発表されました。</p>
+<p>出演者第2弾が発表されました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -165,7 +167,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>現時点では2026年の詳細なタイムテーブルは公開されていませんが、判明次第、以下の各時間帯セクションへ最新情報を追記します。</p>
+<p>現時点では2026年の詳細なタイムテーブルは公開されていませんが、判明次第の各時間帯へ最新情報を追記します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
@@ -189,11 +191,11 @@
         音<span style="position: absolute; top: -1px; left: 3px; width: 4px; height: 4px; background: #ff0000; border-radius: 50%;"></span>楽の日
       </div>
     </div>
-    <div style="font-size: 13px; font-weight: 700; color: #00b4db; letter-spacing: 0.05em;">ARTISTS (第1弾発表)</div>
+    <div style="font-size: 13px; font-weight: 700; color: #00b4db; letter-spacing: 0.05em;">ARTISTS (第2弾発表)</div>
   </div>
 
   <div style="padding: 10px; background: #fcfdfe;">
-    <div style="font-size: 11px; color: #555; margin-bottom: 8px;">現在発表されている出演アーティスト（計10組）:</div>
+    <div style="font-size: 11px; color: #555; margin-bottom: 8px;">現在発表されている出演アーティスト（計32組）:</div>
     <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px; font-size: 12px; color: #333;">
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">INI</div>
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">＝LOVE</div>
@@ -205,9 +207,31 @@
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">HANA</div>
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">FRUITS ZIPPER</div>
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Little Glee Monster</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">IMP.</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">あいみょん</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">WEST.</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">AKB48</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">岡本真夜</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Kis-My-Ft2</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">King &amp; Prince</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">郷ひろみ</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">島津亜矢</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">島袋寛子</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">DA PUMP</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">超特急</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">TRF</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">DOMOTO</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Travis Japan</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">新浜レオン</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">乃木坂46</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">BE:FIRST</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">ピコ太郎</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">日向坂46</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">FUNKY MONKEY BΛBY'S</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">M!LK</div>
     </div>
     <div style="font-size: 10px; color: #888; margin-top: 10px; border-top: 1px solid #eee; padding-top: 6px;">
-      ※今後「CDTVライブ！ライブ！」等での続報発表に合わせ、出演者および歌唱曲リストを順次更新していきます。
+      ※出演者は今後も追加発表予定。歌唱曲やタイムテーブルは放送直前に順次解禁されます。
     </div>
   </div>
 
@@ -217,18 +241,23 @@
     <div style="display: flex; gap: 10px; overflow-x: auto; padding-bottom: 5px; -webkit-overflow-scrolling: touch;">
 
       <div style="flex: 0 0 160px; background: rgba(255,64,129,0.03); border: 1px solid rgba(255,64,129,0.15); border-radius: 3px; padding: 8px;">
-        <div style="font-size: 11px; font-weight: 700; color: #ff4081;">境界をこえる企画</div>
-        <div style="font-size: 9px; color: #666; margin-top: 4px; line-height: 1.4;">あらゆる壁を飛び越え、明日への背中を押す最高の歌声</div>
+        <div style="font-size: 11px; font-weight: 700; color: #ff4081;">赤坂超ライブ</div>
+        <div style="font-size: 9px; color: #666; margin-top: 4px; line-height: 1.4;">WEST.・FRUITS ZIPPER・M!LK参加。1アーティスト10分の長尺パフォーマンス</div>
       </div>
 
       <div style="flex: 0 0 160px; background: rgba(0,180,219,0.03); border: 1px solid rgba(0,180,219,0.15); border-radius: 3px; padding: 8px;">
-        <div style="font-size: 11px; font-weight: 700; color: #00b4db;">心に寄り添う歌声</div>
-        <div style="font-size: 9px; color: #666; margin-top: 4px; line-height: 1.4;">震災から15年。困難を共に越えてきた歩みに寄り添う</div>
+        <div style="font-size: 11px; font-weight: 700; color: #00b4db;">DREAM ダンス</div>
+        <div style="font-size: 9px; color: #666; margin-top: 4px; line-height: 1.4;">st kingzプロデュース。LDH・坂道・STARTO等「超DREAM TEAM」結成</div>
       </div>
 
       <div style="flex: 0 0 160px; background: #f9f9f9; border: 1px solid #ddd; border-radius: 3px; padding: 8px;">
-        <div style="font-size: 11px; font-weight: 700; color: #444;">アスリートへの敬意</div>
-        <div style="font-size: 9px; color: #666; margin-top: 4px; line-height: 1.4;">2026年、世界の限界に挑み記録を超える姿を音楽で応援</div>
+        <div style="font-size: 11px; font-weight: 700; color: #444;">ミリオン超えメドレー</div>
+        <div style="font-size: 9px; color: #666; margin-top: 4px; line-height: 1.4;">AKB48・TRF・乃木坂46らミリオンセラー大ヒット曲を披露</div>
+      </div>
+
+      <div style="flex: 0 0 160px; background: rgba(255,64,129,0.03); border: 1px solid rgba(255,64,129,0.15); border-radius: 3px; padding: 8px;">
+        <div style="font-size: 11px; font-weight: 700; color: #ff4081;">大合唱企画</div>
+        <div style="font-size: 9px; color: #666; margin-top: 4px; line-height: 1.4;">HIPPY「君に捧げる応援歌」を全国で大合唱。背中を押す感動のフィナーレ</div>
       </div>
 
     </div>
@@ -240,7 +269,7 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>公式からの追加出演者情報があり次第、こちらにリスト形式で追記します。</p>
+<p>出演者は今後も追加予定。歌唱曲・タイムテーブルは判明次第こちらに追記します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
@@ -468,7 +497,7 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>分析の結果、SNSで話題のグループや若手アーティストは14時〜17時台に集中し、King &amp; PrinceやSnow Manといった人気アイドルグループ、そして番組の目玉である「ダンスバトル」や「合唱」などの大型企画は20時以降に配置される傾向が高いです。</p>
+<p>分析の結果、SNSで話題のグループや若手アーティストは14時〜17時台に集中し、King &amp; PrinceやKis-My-Ft2といった人気アイドルグループ、そして番組の目玉である「DREAM ダンス」や「大合唱企画」などの大型企画は20時以降に配置される傾向が高いです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
@@ -549,7 +578,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>現在は放送日時や総合司会、番組テーマに加え、豪華な第1弾出演アーティスト10組が発表されました。</p>
+<p>現在は放送日時や総合司会、番組テーマに加え、第2弾まで計32組の豪華アーティストが発表されました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -656,17 +685,17 @@
       "@type": "BlogPosting",
       "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#post",
       "headline": "【2026最新】音楽の日タイムテーブル｜出演者の順番・出演時間まとめ(随時更新)",
-      "description": "「音楽の日2026」7月18日生放送！出演者、タイムテーブル、歌唱曲を最速更新。INI、櫻坂46ら豪華アーティストの登場時間もひと目でチェック。推しの出番を逃さないよう最新情報をお届けします。",
+      "description": "「音楽の日2026」7月18日生放送！あいみょん・BE:FIRST・King & Princeら第2弾計32組が発表。タイムテーブルや出演者の順番を最速でお届けします。",
       "url": "https://shira-treat.com/ongakunohi-2026-timetable/",
       "mainEntityOfPage": {
         "@id": "https://shira-treat.com/ongakunohi-2026-timetable/"
       },
       "inLanguage": "ja",
       "articleSection": "音楽特番",
-      "keywords": ["音楽の日", "音楽の日2026", "タイムテーブル", "出演者一覧", "TBS 音楽番組"],
+      "keywords": ["音楽の日", "音楽の日2026", "タイムテーブル", "出演者一覧", "TBS 音楽番組", "こえる。きこえる。", "あいみょん", "BE:FIRST", "King & Prince", "櫻坂46", "乃木坂46", "日向坂46"],
       "datePublished": "2026-04-27T00:00:00+09:00",
       "dateCreated": "2026-04-27T00:00:00+09:00",
-      "dateModified": "2026-06-10T00:00:00+09:00",
+      "dateModified": "2026-06-30T00:00:00+09:00",
 
       "image": {
         "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#heroimage"
@@ -716,7 +745,39 @@
           "@type": "WebSite",
           "name": "TVer",
           "sameAs": "https://tver.jp/"
-        }
+        },
+        { "@type": "MusicGroup", "name": "INI" },
+        { "@type": "MusicGroup", "name": "＝LOVE" },
+        { "@type": "MusicGroup", "name": "EBiDAN" },
+        { "@type": "MusicGroup", "name": "&TEAM" },
+        { "@type": "MusicGroup", "name": "CUTIE STREET" },
+        { "@type": "MusicGroup", "name": "櫻坂46" },
+        { "@type": "MusicGroup", "name": "TWS" },
+        { "@type": "MusicGroup", "name": "HANA" },
+        { "@type": "MusicGroup", "name": "FRUITS ZIPPER" },
+        { "@type": "MusicGroup", "name": "Little Glee Monster" },
+        { "@type": "MusicGroup", "name": "IMP." },
+        { "@type": "Person", "name": "あいみょん" },
+        { "@type": "MusicGroup", "name": "WEST." },
+        { "@type": "MusicGroup", "name": "AKB48" },
+        { "@type": "Person", "name": "岡本真夜" },
+        { "@type": "MusicGroup", "name": "Kis-My-Ft2" },
+        { "@type": "MusicGroup", "name": "King & Prince" },
+        { "@type": "Person", "name": "郷ひろみ" },
+        { "@type": "Person", "name": "島津亜矢" },
+        { "@type": "Person", "name": "島袋寛子" },
+        { "@type": "MusicGroup", "name": "DA PUMP" },
+        { "@type": "MusicGroup", "name": "超特急" },
+        { "@type": "MusicGroup", "name": "TRF" },
+        { "@type": "MusicGroup", "name": "DOMOTO" },
+        { "@type": "MusicGroup", "name": "Travis Japan" },
+        { "@type": "Person", "name": "新浜レオン" },
+        { "@type": "MusicGroup", "name": "乃木坂46" },
+        { "@type": "MusicGroup", "name": "BE:FIRST" },
+        { "@type": "Person", "name": "ピコ太郎" },
+        { "@type": "MusicGroup", "name": "日向坂46" },
+        { "@type": "MusicGroup", "name": "FUNKY MONKEY BΛBY'S" },
+        { "@type": "MusicGroup", "name": "M!LK" }
       ],
 
       "hasPart": [
@@ -732,7 +793,7 @@
     {
       "@type": "ImageObject",
       "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#heroimage",
-      "url": "https://shira-treat.com/wp-content/uploads/2026/04/image-9.webp",
+      "url": "https://shira-treat.com/wp-content/uploads/2026/06/image-28.webp",
       "width": 1200,
       "height": 675
     },
@@ -742,7 +803,7 @@
       "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#broadcast",
       "name": "音楽の日2026",
       "alternateName": "TBS 音楽の日",
-      "description": "2026年7月18日（土）14:00～21:56に8時間生放送。第1弾出演者10組が発表済み。テーマ「こえる。きこえる。」のもと、最高の音楽を届けます。",
+      "description": "2026年7月18日（土）14:00～21:56に8時間生放送。第2弾まで計32組が発表済み。テーマ「こえる。きこえる。」のもと、赤坂超ライブ・DREAMダンス・大合唱企画など感動のステージを届けます。",
       "startDate": "2026-07-18T14:00:00+09:00",
       "endDate": "2026-07-18T21:56:00+09:00",
       "eventStatus": "https://schema.org/EventScheduled",
@@ -782,17 +843,17 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "14:00 オープニング・全国中継企画"
+          "name": "14:00 オープニング・赤坂超ライブ（WEST.・FRUITS ZIPPER・M!LK参加）"
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "出演アーティスト第1弾：INI、＝LOVE、EBiDAN、&TEAM、CUTIE STREET、櫻坂46、TWS、HANA、FRUITS ZIPPER、Little Glee Monster"
+          "name": "出演アーティスト第2弾（計32組）：INI、＝LOVE、EBiDAN、&TEAM、CUTIE STREET、櫻坂46、TWS、HANA、FRUITS ZIPPER、Little Glee Monster、IMP.、あいみょん、WEST.、AKB48、岡本真夜、Kis-My-Ft2、King & Prince、郷ひろみ、島津亜矢、島袋寛子、DA PUMP、超特急、TRF、DOMOTO、Travis Japan、新浜レオン、乃木坂46、BE:FIRST、ピコ太郎、日向坂46、FUNKY MONKEY BΛBY'S、M!LK"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "21:00 フィナーレ・大合唱企画"
+          "name": "21:00 フィナーレ・DREAMダンス・大合唱（HIPPY「君に捧げる応援歌」）"
         }
       ]
     },
@@ -814,7 +875,7 @@
           "name": "放送時間は何時から何時までですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "2026年7月18日（土）の14:00から21:56まで、約8時間の生放送が決定しています。"
+            "text": "2026年7月18日（土）の14:00から21:56まで、約8時間の生放送が決定しています。大容量の特番となりますので、録画の際はレコーダーの空き容量を事前にしっかり確保しておくことをおすすめします。"
           }
         },
         {
@@ -822,7 +883,7 @@
           "name": "見逃し配信や再放送の予定はありますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "例年、TVer（ティーバー）でのリアルタイム配信および見逃し配信が実施されています。公式番組の続報と合わせて確認してみてください。"
+            "text": "例年、TVer（ティーバー）でのリアルタイム配信および見逃し配信が実施されています。今後の正確な対応状況については、公式番組の続報と合わせて確認してみてください。"
           }
         }
       ]
