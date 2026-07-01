@@ -1,14 +1,15 @@
+<!-- wp:paragraph -->
 タイトル：FNS歌謡祭 タイムテーブル＆出演順番は？2026年夏の最新情報
-
-メタディスクリプション（95字）：
-2026年7月1日生放送「FNS歌謡祭 夏」の出演者・タイムテーブルを随時更新！のん初出演・あいみょん参戦など総勢36組出演決定。宝塚×M!LK、SPEEDメドレーほか見どころ満載。出演順番はこちらでチェック！
+メタディスクリプション（92字）：
+本日18:30生放送『FNS歌謡祭 夏』のタイムテーブルが解禁！最強夏うたサビメドレーやSPEEDデビュー30周年コラボ、宝塚花組×M!LKの初コラボなど出演順を時間帯別に紹介します。
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>2026年7月1日（水）18:30から放送されるフジテレビ系の夏の大型音楽特番『2026 FNS歌謡祭 夏』。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>のん・ふみののFNS初登場や宝塚花組×M!LK、SPEEDデビュー30周年メドレーなど注目企画の詳細をまとめています！</p>
+<p>解禁されたタイムテーブルでは、最強夏うたサビメドレーに始まり、宝塚花組×M!LKの初コラボや島袋寛子×NiziU・礼真琴・ME:IによるSPEEDデビュー30周年コラボなど、出演順を時間帯別にまとめています！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -24,8 +25,8 @@
   <div style="position: relative; padding: 10px 14px; height: 54px; box-sizing: border-box; display: flex; align-items: center; justify-content: space-between; z-index: 2;">
     <div style="display: flex; align-items: center; gap: 8px;">
       <div style="width: 12px; height: 12px; background: linear-gradient(135deg, #22c55e, #06b6d4, #ec4899); border: 1.5px solid #ffffff; border-radius: 4px;"></div>
-      <div style="font-size: 15px; font-weight: 900; color: #ffffff; letter-spacing: 0.03em;">
-        FNS歌謡祭 夏 <span style="color: #ffffff; font-weight: 900; background: rgba(0,0,0,0.15); padding: 1px 4px; border-radius: 3px; margin-left: 1px; font-size: 13px;">2026</span>
+      <div class="fns-card-title" style="font-size: 15px; font-weight: 900; color: #ffffff; letter-spacing: 0.03em;">
+        FNS歌謡祭 夏 <span class="fns-year-badge" style="color: #ffffff; font-weight: 900; background: rgba(0,0,0,0.15); padding: 1px 4px; border-radius: 3px; margin-left: 1px; font-size: 13px;">2026</span>
       </div>
     </div>
     <div style="font-size: 8px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; background: linear-gradient(180deg, #ec4899, #be185d); padding: 2px 6px; border: 1px solid #ffffff; border-radius: 10px;">
@@ -42,34 +43,34 @@
 
   <div style="position: relative; padding: 12px 14px; display: grid; gap: 10px; z-index: 2; background: #ffffff;">
 
-    <div style="display: flex; gap: 8px; font-size: 11px;">
+    <div class="fns-preview-status" style="display: flex; gap: 8px; font-size: 11px;">
       <div style="flex: 1; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 6px 8px;">
-        <div style="color: #64748b; font-size: 9.5px; font-weight: 700; margin-bottom: 2px;">出演アーティスト</div>
+        <div class="fns-status-label" style="color: #64748b; font-size: 9.5px; font-weight: 700; margin-bottom: 2px;">出演アーティスト</div>
         <div style="color: #0f172a; font-weight: 800; display: flex; align-items: center; gap: 4px;">
           <span style="display: inline-block; width: 6px; height: 6px; background: #22c55e; border-radius: 50%;"></span>
           第3弾まで発表済
         </div>
       </div>
       <div style="flex: 1; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 6px 8px;">
-        <div style="color: #64748b; font-size: 9.5px; font-weight: 700; margin-bottom: 2px;">タイムテーブル</div>
-        <div style="color: #ef4444; font-weight: 800; display: flex; align-items: center; gap: 4px;">
-          <span style="display: inline-block; width: 6px; height: 6px; background: #ef4444; border-radius: 50%;"></span>
-          順次公開予定
+        <div class="fns-status-label" style="color: #64748b; font-size: 9.5px; font-weight: 700; margin-bottom: 2px;">タイムテーブル</div>
+        <div style="color: #22c55e; font-weight: 800; display: flex; align-items: center; gap: 4px;">
+          <span style="display: inline-block; width: 6px; height: 6px; background: #22c55e; border-radius: 50%;"></span>
+          解禁済み
         </div>
       </div>
     </div>
 
     <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 8px 10px;">
-      <div style="font-size: 10px; font-weight: 800; color: #a855f7; margin-bottom: 4px; letter-spacing: 0.03em;">PICK UP COLLAB</div>
-      <div style="font-size: 11.5px; color: #334155; font-weight: 700; line-height: 1.5;">
+      <div class="fns-pickup-label" style="font-size: 10px; font-weight: 800; color: #a855f7; margin-bottom: 4px; letter-spacing: 0.03em;">PICK UP COLLAB</div>
+      <div class="fns-collab-text" style="font-size: 11.5px; color: #334155; font-weight: 700; line-height: 1.5;">
         宝塚花組×M!LK ／ 島袋寛子×NiziU×礼真琴×ME:I ／ 郷ひろみ×Juice=Juice ／ ILLIT×CUTIE STREET ほか
       </div>
     </div>
 
     <div style="background: #f0fdfa; border-left: 3px solid #06b6d4; padding: 6px 10px; border-radius: 0 6px 6px 0;">
-      <div style="font-size: 11px; font-weight: 700; color: #0891b2; display: flex; align-items: center; gap: 6px;">
+      <div class="fns-preview-lead" style="font-size: 11px; font-weight: 700; color: #0891b2; display: flex; align-items: center; gap: 6px;">
         <span style="width: 4px; height: 4px; background: #06b6d4; border-radius: 50%;"></span>
-        のん・ふみの初登場に豪華コラボも目白押し！夏を彩る3時間半の祭典
+        タイムテーブル解禁！最強夏うたサビメドレーから始まり、SPEED30周年コラボ・宝塚花組×M!LKの初コラボへと続く3時間半。
       </div>
     </div>
 
@@ -79,7 +80,7 @@
       </a>
     </div>
 
-    <div style="font-size: 9.5px; color: #94a3b8; line-height: 1.3; font-weight: 500; text-align: center;">
+    <div class="fns-disclaimer" style="font-size: 9.5px; color: #94a3b8; line-height: 1.3; font-weight: 500; text-align: center;">
       ※生放送のため、内容や出演順は当日変更となる可能性があります
     </div>
 
@@ -95,11 +96,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>現時点ではタイムテーブルは未発表です。</p>
+<p>タイムテーブルが解禁され、最強夏うたサビメドレーやSPEEDデビュー30周年コラボなど見どころ満載の出演順が確定しました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>放送当日はリアルタイムで詳細な出演順番やタイムテーブルを更新していきますので、ぜひこちらのページをブックマークしてチェックしてみてください！</p>
+<p>お目当てのアーティストが何時頃に出演するか確認できるよう、ぜひこのページをブックマークしてお待ちください！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -107,71 +108,54 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>3時間半の生放送なので、出演順（タイムテーブル）が気になる方も多いかと思います。</p>
+<p>本日18:30から3時間半の生放送です。詳細な出演順（タイムテーブル）が解禁されたので、時間帯別にまとめました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>アーティストの出演時間を事前に把握できるよう、公式発表があり次第ここに掲載予定です。<br>※現在は予測を掲載中。</p>
+<p>最強夏うたサビメドレーから始まり、SPEEDデビュー30周年コラボや宝塚花組×M!LKの初コラボへと続く構成です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div style="font-family: 'Inter', 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif; max-width: 100%; margin: 8px 0; color: #1a1a1a; background: #ffffff; padding: 0; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(126, 34, 206, 0.08);">
-
-  <div style="border-bottom: 1px dashed #e2e8f0;">
-    <div style="padding: 10px 14px; background: linear-gradient(90deg, #7e22ce 0%, #ec4899 100%); display: flex; align-items: center;">
-      <div style="margin: 0; font-weight: 900; font-size: 14px; color: #ffffff; letter-spacing: 0.04em;">
-        18時台の出演順タイムテーブル（18:30〜）
-      </div>
+<div style="font-family: 'Inter', system-ui, sans-serif; max-width: 100%; margin: 20px 0; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 15px -3px rgba(126, 34, 206, 0.1);">
+  <!-- 18:30 -->
+  <div>
+    <div style="padding: 14px 16px; background: linear-gradient(90deg, #7e22ce 0%, #ec4899 100%);">
+      <h3 style="margin: 0; color: #ffffff; font-size: 15px; font-weight: 800;">18:30〜 最強夏うたサビメドレー</h3>
     </div>
-
-    <div style="padding: 12px 14px; background: #ffffff;">
-      <p style="font-size: 11px; line-height: 1.4; margin: 0 0 10px 0; color: #64748b; font-weight: 500;">
-        郷ひろみ×Juice=Juiceのコラボオープニングに続き、JI BLUE・モナキ・カキンツハルカのFNS初登場組が夏の祭典の幕を開けます。
-      </p>
-
-      <div style="border-left: 3px solid #ec4899; margin-left: 2px; padding-left: 10px; display: grid; gap: 6px;">
-        <div style="font-size: 12px; display: flex; align-items: center;">
-          <span style="font-weight: 900; color: #ec4899; display: inline-block; width: 68px; flex-shrink: 0;">18:30頃〜</span>
-          <span style="color: #334155; font-size: 11.5px; font-weight: 700;">郷ひろみ × Juice=Juice「GOLDFINGER '99」ほか</span>
-        </div>
-        <div style="font-size: 12px; display: flex; align-items: center;">
-          <span style="font-weight: 900; color: #ec4899; display: inline-block; width: 68px; flex-shrink: 0;">18:45頃〜</span>
-          <span style="color: #334155; font-size: 11.5px; font-weight: 700;">JI BLUE、モナキ、カキンツハルカ</span>
-        </div>
-      </div>
+    <div style="padding: 16px; display: grid; gap: 8px;">
+      <div style="border-left: 3px solid #ec4899; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">NEWS × モナキ</div><div style="font-size: 12px; color: #64748b;">♪「夏色」／ゆず</div></div>
+      <div style="border-left: 3px solid #ec4899; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">アイナ・ジ・エンド × ELAIZA</div><div style="font-size: 12px; color: #64748b;">♪「花火」／aiko</div></div>
+      <div style="border-left: 3px solid #ec4899; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">Number_i</div><div style="font-size: 12px; color: #64748b;">♪「夏の思い出」／ケツメイシ</div></div>
+      <div style="border-left: 3px solid #ec4899; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">ME:I</div><div style="font-size: 12px; color: #64748b;">♪「GO GO サマー!」／KARA</div></div>
+      <div style="border-left: 3px solid #ec4899; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">BE:FIRST</div><div style="font-size: 12px; color: #64748b;">♪「波乗りジョニー」／桑田佳祐</div></div>
+      <div style="border-left: 3px solid #ec4899; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">FRUITS ZIPPER</div><div style="font-size: 12px; color: #64748b;">♪「secret base 〜君がくれたもの〜」／ZONE</div></div>
+      <div style="border-left: 3px solid #ec4899; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">JI BLUE × TREASURE</div><div style="font-size: 12px; color: #64748b;">♪「イケナイ太陽」／ORANGE RANGE</div></div>
+      <div style="border-left: 3px solid #ec4899; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">映画ちいかわ × 杉並児童合唱団</div><div style="font-size: 12px; color: #64748b;">♪「くつずれ」</div></div>
+      <div style="border-left: 3px solid #ec4899; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">DISH//</div><div style="font-size: 12px; color: #64748b;">♪「アイコトバ」</div></div>
+      <div style="border-left: 3px solid #ec4899; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">TWS</div><div style="font-size: 12px; color: #64748b;">♪「OVERDRIVE」</div></div>
+      <div style="border-left: 3px solid #ec4899; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">日向坂46</div><div style="font-size: 12px; color: #64748b;">♪「クリフハンガー」</div></div>
+      <div style="border-left: 3px solid #ec4899; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">ふみの</div><div style="font-size: 12px; color: #64748b;">♪「東京」</div></div>
     </div>
   </div>
-
-  <div>
-    <div style="padding: 10px 14px; background: linear-gradient(90deg, #ec4899 0%, #06b6d4 100%); display: flex; align-items: center;">
-      <div style="margin: 0; font-weight: 900; font-size: 14px; color: #ffffff; letter-spacing: 0.04em;">
-        19時台の出演順タイムテーブル
-      </div>
+  <!-- 19:00 -->
+  <div style="border-top: 2px solid #f1f5f9;">
+    <div style="padding: 14px 16px; background: linear-gradient(90deg, #ec4899 0%, #06b6d4 100%);">
+      <h3 style="margin: 0; color: #ffffff; font-size: 15px; font-weight: 800;">19:00〜</h3>
     </div>
-
-    <div style="padding: 12px 14px; background: #ffffff;">
-      <p style="font-size: 11px; line-height: 1.4; margin: 0 0 10px 0; color: #64748b; font-weight: 500;">
-        映画ちいかわ×杉並児童合唱団の初披露コラボや、ふみののFNS初登場ステージなど、注目企画が集中する時間帯です。
-      </p>
-
-      <div style="border-left: 3px solid #06b6d4; margin-left: 2px; padding-left: 10px; display: grid; gap: 6px;">
-        <div style="font-size: 12px; display: flex; align-items: center;">
-          <span style="font-weight: 900; color: #06b6d4; display: inline-block; width: 68px; flex-shrink: 0;">19:00頃〜</span>
-          <span style="color: #334155; font-size: 11.5px; font-weight: 700;">ILLIT × CUTIE STREET</span>
-        </div>
-        <div style="font-size: 12px; display: flex; align-items: center;">
-          <span style="font-weight: 900; color: #06b6d4; display: inline-block; width: 68px; flex-shrink: 0;">19:15頃〜</span>
-          <span style="color: #334155; font-size: 11.5px; font-weight: 700;">映画ちいかわ × 杉並児童合唱団</span>
-        </div>
-        <div style="font-size: 12px; display: flex; align-items: center;">
-          <span style="font-weight: 900; color: #06b6d4; display: inline-block; width: 68px; flex-shrink: 0;">19:30頃〜</span>
-          <span style="color: #334155; font-size: 11.5px; font-weight: 700;">ふみの「東京」テレビ初披露、ダイヤモンド☆ユカイ</span>
-        </div>
-        <div style="font-size: 12px; display: flex; align-items: center;">
-          <span style="font-weight: 900; color: #06b6d4; display: inline-block; width: 68px; flex-shrink: 0;">19:45頃〜</span>
-          <span style="color: #334155; font-size: 11.5px; font-weight: 700;">TREASURE、TWS、NEWS</span>
-        </div>
-      </div>
+    <div style="padding: 16px; display: grid; gap: 8px;">
+      <div style="border-left: 3px solid #06b6d4; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">アイナ・ジ・エンド</div><div style="font-size: 12px; color: #64748b;">♪「Blue Shining Star」 / ♪「ルミナス - Luminous」</div></div>
+      <div style="border-left: 3px solid #06b6d4; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">あいみょん</div><div style="font-size: 12px; color: #64748b;">♪「マリーゴールド」</div></div>
+      <div style="border-left: 3px solid #06b6d4; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">ILLIT × CUTIE STREET</div><div style="font-size: 12px; color: #64748b;">♪「Almond Chocolate」 / ♪「かわいいだけじゃだめですか?」</div></div>
+      <div style="border-left: 3px solid #06b6d4; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">Kis-My-Ft2</div><div style="font-size: 12px; color: #64748b;">♪「My Affection」</div></div>
+      <div style="border-left: 3px solid #06b6d4; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">郷ひろみ × Juice=Juice</div><div style="font-size: 12px; color: #64748b;">♪「GOLDFINGER'99」 / ♪「盛れ！ミ・アモーレ」</div></div>
+      <div style="border-left: 3px solid #06b6d4; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">島袋寛子 × MAYA・RIKU・NINA（NiziU）</div><div style="font-size: 12px; color: #64748b;">♪「STEADY」</div></div>
+      <div style="border-left: 3px solid #06b6d4; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">島袋寛子 × 礼真琴</div><div style="font-size: 12px; color: #64748b;">♪「ALIVE」</div></div>
+      <div style="border-left: 3px solid #06b6d4; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">島袋寛子 × ME:I</div><div style="font-size: 12px; color: #64748b;">♪「Body ＆ Soul」</div></div>
+      <div style="border-left: 3px solid #06b6d4; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">ダイアモンド☆ユカイ × 佐野勇斗</div><div style="font-size: 12px; color: #64748b;">♪「君はともだち」</div></div>
+      <div style="border-left: 3px solid #06b6d4; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">HANA</div><div style="font-size: 12px; color: #64748b;">♪「Bad Girl」</div></div>
+      <div style="border-left: 3px solid #06b6d4; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">ふぉ〜ゆ〜</div><div style="font-size: 12px; color: #64748b;">♪「夏の王様」 / ♪「ジェットコースター・ロマンス」</div></div>
+      <div style="border-left: 3px solid #06b6d4; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">M!LK</div><div style="font-size: 12px; color: #64748b;">♪「爆裂愛してる」</div></div>
+      <div style="border-left: 3px solid #06b6d4; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">モナキ</div><div style="font-size: 12px; color: #64748b;">♪「ほんまやで☆なんでやねん☆しらんけど」</div></div>
     </div>
   </div>
 </div>
@@ -182,78 +166,48 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div style="font-family: 'Inter', 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif; max-width: 100%; margin: 8px 0; color: #1a1a1a; background: #ffffff; padding: 0; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(6, 182, 212, 0.08);">
-
-  <div style="border-bottom: 1px dashed #e2e8f0;">
-    <div style="padding: 10px 14px; background: linear-gradient(90deg, #06b6d4 0%, #3b82f6 100%); display: flex; align-items: center;">
-      <div style="margin: 0; font-weight: 900; font-size: 14px; color: #ffffff; letter-spacing: 0.04em;">
-        20時台の出演順タイムテーブル
-      </div>
+<div style="font-family: 'Inter', system-ui, sans-serif; max-width: 100%; margin: 20px 0; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 15px -3px rgba(6, 182, 212, 0.1);">
+  <!-- 20:00 -->
+  <div>
+    <div style="padding: 14px 16px; background: linear-gradient(90deg, #06b6d4 0%, #3b82f6 100%);">
+      <h3 style="margin: 0; color: #ffffff; font-size: 15px; font-weight: 800;">20:00〜</h3>
     </div>
-
-    <div style="padding: 12px 14px; background: #ffffff;">
-      <p style="font-size: 11px; line-height: 1.4; margin: 0 0 10px 0; color: #64748b; font-weight: 500;">
-        宝塚花組×M!LKの初コラボを筆頭に、あいみょん・Aぇ! group・BE:FIRSTなど人気アーティストが集中する中盤の見せ場です。
-      </p>
-
-      <div style="border-left: 3px solid #3b82f6; margin-left: 2px; padding-left: 10px; display: grid; gap: 6px;">
-        <div style="font-size: 12px; display: flex; align-items: center;">
-          <span style="font-weight: 900; color: #3b82f6; display: inline-block; width: 68px; flex-shrink: 0;">20:00頃〜</span>
-          <span style="color: #334155; font-size: 11.5px; font-weight: 700;">宝塚歌劇団 花組 × M!LK「好きすぎて滅！」（初コラボ）</span>
-        </div>
-        <div style="font-size: 12px; display: flex; align-items: center;">
-          <span style="font-weight: 900; color: #3b82f6; display: inline-block; width: 68px; flex-shrink: 0;">20:15頃〜</span>
-          <span style="color: #334155; font-size: 11.5px; font-weight: 700;">あいみょん、SUPER BEAVER、DISH//</span>
-        </div>
-        <div style="font-size: 12px; display: flex; align-items: center;">
-          <span style="font-weight: 900; color: #3b82f6; display: inline-block; width: 68px; flex-shrink: 0;">20:30頃〜</span>
-          <span style="color: #334155; font-size: 11.5px; font-weight: 700;">Aぇ! group、SUPER EIGHT、BE:FIRST</span>
-        </div>
-        <div style="font-size: 12px; display: flex; align-items: center;">
-          <span style="font-weight: 900; color: #3b82f6; display: inline-block; width: 68px; flex-shrink: 0;">20:45頃〜</span>
-          <span style="color: #334155; font-size: 11.5px; font-weight: 700;">Kis-My-Ft2、HANA、FRUITS ZIPPER</span>
-        </div>
-      </div>
+    <div style="padding: 16px; display: grid; gap: 8px;">
+      <div style="border-left: 3px solid #3b82f6; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">ILLIT</div><div style="font-size: 12px; color: #64748b;">♪「It's Me」</div></div>
+      <div style="border-left: 3px solid #3b82f6; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">カキンツハルカ</div><div style="font-size: 12px; color: #64748b;">♪「サウダージ」 / ♪「Part of Your World」</div></div>
+      <div style="border-left: 3px solid #3b82f6; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">CUTIE STREET</div><div style="font-size: 12px; color: #64748b;">♪「ぷりきゅきゅ」</div></div>
+      <div style="border-left: 3px solid #3b82f6; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">JI BLUE</div><div style="font-size: 12px; color: #64748b;">♪「景色」</div></div>
+      <div style="border-left: 3px solid #3b82f6; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">渋谷龍太 × アイナ・ジ・エンド</div><div style="font-size: 12px; color: #64748b;">♪「Swallowtail Butterfly 〜あいのうた〜」</div></div>
+      <div style="border-left: 3px solid #3b82f6; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">SUPER BEAVER</div><div style="font-size: 12px; color: #64748b;">♪「クライマックス」</div></div>
+      <div style="border-left: 3px solid #3b82f6; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">Number_i</div><div style="font-size: 12px; color: #64748b;">♪「i-mode」</div></div>
+      <div style="border-left: 3px solid #3b82f6; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">NiziU</div><div style="font-size: 12px; color: #64748b;">♪「Make you happy」</div></div>
+      <div style="border-left: 3px solid #3b82f6; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">BE:FIRST</div><div style="font-size: 12px; color: #64748b;">♪「Missing」</div></div>
+      <div style="border-left: 3px solid #3b82f6; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">FRUITS ZIPPER</div><div style="font-size: 12px; color: #64748b;">♪「ぱわーオブらぶ」</div></div>
+      <div style="border-left: 3px solid #3b82f6; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">増田貴久 × ELAIZA × 佐野晶哉</div><div style="font-size: 12px; color: #64748b;">♪「WINDING ROAD」</div></div>
+      <div style="border-left: 3px solid #3b82f6; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">M!LK × 宝塚歌劇団 花組</div><div style="font-size: 12px; color: #64748b;">♪「好きすぎて滅！」</div></div>
     </div>
   </div>
-
-  <div>
-    <div style="padding: 10px 14px; background: linear-gradient(90deg, #3b82f6 0%, #4f46e5 100%); display: flex; align-items: center;">
-      <div style="margin: 0; font-weight: 900; font-size: 14px; color: #ffffff; letter-spacing: 0.04em;">
-        21時台の出演順タイムテーブル（〜21:54）
-      </div>
+  <!-- 21:00 -->
+  <div style="border-top: 2px solid #f1f5f9;">
+    <div style="padding: 14px 16px; background: linear-gradient(90deg, #3b82f6 0%, #4f46e5 100%);">
+      <h3 style="margin: 0; color: #ffffff; font-size: 15px; font-weight: 800;">21:00〜</h3>
     </div>
-
-    <div style="padding: 12px 14px; background: #ffffff;">
-      <p style="font-size: 11px; line-height: 1.4; margin: 0 0 10px 0; color: #64748b; font-weight: 500;">
-        Number_iやのんのFNS初出演など大物が揃い、NiziU×礼真琴×ME:I×島袋寛子のSPEED30周年メドレーでフィナーレを飾ります。
-      </p>
-
-      <div style="border-left: 3px solid #4f46e5; margin-left: 2px; padding-left: 10px; display: grid; gap: 6px;">
-        <div style="font-size: 12px; display: flex; align-items: center;">
-          <span style="font-weight: 900; color: #4f46e5; display: inline-block; width: 68px; flex-shrink: 0;">21:00頃〜</span>
-          <span style="color: #334155; font-size: 11.5px; font-weight: 700;">Number_i、アイナ・ジ・エンド、THE RAMPAGE</span>
-        </div>
-        <div style="font-size: 12px; display: flex; align-items: center;">
-          <span style="font-weight: 900; color: #4f46e5; display: inline-block; width: 68px; flex-shrink: 0;">21:15頃〜</span>
-          <span style="color: #334155; font-size: 11.5px; font-weight: 700;">のん「荒野に立つ」（FNS初出演）、ふぉ〜ゆ〜、日向坂46</span>
-        </div>
-        <div style="font-size: 12px; display: flex; align-items: center;">
-          <span style="font-weight: 900; color: #4f46e5; display: inline-block; width: 68px; flex-shrink: 0;">21:30頃〜</span>
-          <span style="color: #334155; font-size: 11.5px; font-weight: 700;">島袋寛子 × NiziU × 礼真琴 × ME:I（SPEEDデビュー30周年メドレー）</span>
-        </div>
-        <div style="font-size: 12px; display: flex; align-items: center;">
-          <span style="font-weight: 900; color: #4f46e5; display: inline-block; width: 68px; flex-shrink: 0;">21:45頃〜</span>
-          <span style="color: #334155; font-size: 11.5px; font-weight: 700;">ELAIZA、緑黄色社会</span>
-        </div>
-      </div>
+    <div style="padding: 16px; display: grid; gap: 8px;">
+      <div style="border-left: 3px solid #4f46e5; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">あいみょん</div><div style="font-size: 12px; color: #64748b;">♪「会いに行くのに」</div></div>
+      <div style="border-left: 3px solid #4f46e5; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">Aぇ! group</div><div style="font-size: 12px; color: #64748b;">♪「でこぼこライフ」</div></div>
+      <div style="border-left: 3px solid #4f46e5; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">THE RAMPAGE</div><div style="font-size: 12px; color: #64748b;">♪「BREAK IT DOWN」</div></div>
+      <div style="border-left: 3px solid #4f46e5; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">SUPER EIGHT</div><div style="font-size: 12px; color: #64748b;">♪「再咲」</div></div>
+      <div style="border-left: 3px solid #4f46e5; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">TREASURE</div><div style="font-size: 12px; color: #64748b;">♪「EVERYTHING -JP Ver.-」</div></div>
+      <div style="border-left: 3px solid #4f46e5; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">NEWS</div><div style="font-size: 12px; color: #64748b;">♪「SUMMER TIME」</div></div>
+      <div style="border-left: 3px solid #4f46e5; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">のん</div><div style="font-size: 12px; color: #64748b;">♪「荒野に立つ」</div></div>
+      <div style="border-left: 3px solid #4f46e5; padding-left: 10px;"><div style="font-weight: 800; font-size: 13px; color: #0f172a;">緑黄色社会</div><div style="font-size: 12px; color: #64748b;">♪「章」</div></div>
     </div>
   </div>
 </div>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>昨年のタイムテーブルや順番については、過去の参考アーカイブ情報を確認の上解禁をお待ちください。</p>
+<p>昨年の番組構成については、過去の参考アーカイブ情報をご確認ください。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -320,95 +274,84 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<aside role="complementary" aria-label="FNS歌謡祭 夏 出演アーティスト一覧" style="font-family: 'Inter', 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif; background: #ffffff; border: 1px solid #bae6fd; border-radius: 14px; overflow: hidden; max-width: 100%; box-shadow: 0 10px 30px rgba(2, 132, 199, 0.05);">
+<aside role="complementary" aria-label="FNS歌謡祭 夏 全出演アーティスト・楽曲一覧" style="font-family: 'Inter', system-ui, sans-serif; background: #ffffff; border: 1px solid #bae6fd; border-radius: 14px; overflow: hidden; max-width: 100%; box-shadow: 0 10px 30px rgba(2, 132, 199, 0.05);">
 
   <style>
-    @media (min-width: 600px) {
-      .artist-name { font-size: 13px !important; }
-      .song-title { font-size: 10px !important; }
-      .project-title { font-size: 12px !important; }
-      .project-desc { font-size: 10px !important; }
+    /* PC表示用調整 */
+    @media (min-width: 768px) {
+      .group-title { font-size: 14px !important; margin-top: 24px !important; }
+      .artist-col { font-size: 13px !important; width: 180px !important; }
+      .song-col { font-size: 12px !important; }
     }
+    .group-title { font-size: 11px; font-weight: 900; color: #0077b6; margin: 16px 0 6px 0; border-bottom: 1px solid #bae6fd; }
+    .entry { display: flex; gap: 12px; padding: 6px 0; border-bottom: 1px solid #f1f5f9; align-items: center; }
+    .artist-col { font-size: 10px; font-weight: 800; width: 140px; color: #0f172a; flex-shrink: 0; }
+    .song-col { font-size: 9px; color: #475569; line-height: 1.4; }
   </style>
 
   <div style="background: linear-gradient(135deg, #00b4d8 0%, #0077b6 100%); padding: 12px 14px; border-bottom: 3px solid #ffcc00; display: flex; align-items: center; justify-content: space-between;">
     <div style="display: flex; align-items: center; gap: 8px;">
-      <div style="background: #ffffff; padding: 3px 6px; border-radius: 4px; display: flex; align-items: center; gap: 3px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-        <div style="width: 3px; height: 3px; background: #ff007f; border-radius: 50%;"></div>
-        <div style="width: 3px; height: 3px; background: #ffcc00; border-radius: 50%;"></div>
-        <div style="width: 3px; height: 3px; background: #00ccff; border-radius: 50%;"></div>
-        <span style="font-size: 9px; font-weight: 900; color: #0077b6; letter-spacing: 0.05em;">FNS</span>
+      <div style="background: #ffffff; padding: 3px 6px; border-radius: 4px; display: flex; align-items: center; gap: 3px;">
+        <span style="font-size: 9px; font-weight: 900; color: #0077b6;">FNS</span>
       </div>
-      <div style="font-size: 12px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em;">ARTISTS</div>
+      <div style="font-size: 12px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em;">ALL ARTISTS &amp; SONGS</div>
     </div>
     <div style="font-size: 9px; font-weight: 800; color: #0077b6; background: #ffcc00; padding: 2px 6px; border-radius: 20px;">2026 SUMMER</div>
   </div>
 
-  <div style="padding: 12px 8px; background: linear-gradient(180deg, #ffffff 0%, #f0f9ff 100%);">
-    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; row-gap: 10px;">
-      <style>
-        .artist-card { padding: 1px 2px 1px 6px; border-left: 3px solid #00b4d8; word-break: break-all; }
-        .artist-name { font-size: 10px; font-weight: 800; color: #0f172a; line-height: 1.1; }
-        .song-title { font-size: 8px; color: #64748b; line-height: 1.1; margin-top: 2px; }
-        .pink-border { border-left: 3px solid #ff007f; background: rgba(255, 0, 127, 0.03); }
-      </style>
+  <div style="padding: 16px; background: #f8fafc;">
+    
+    <div class="group-title">最強夏うたサビメドレー</div>
+    <div class="entry"><div class="artist-col">NEWS × モナキ</div><div class="song-col">夏色</div></div>
+    <div class="entry"><div class="artist-col">アイナ・ジ・エンド × ELAIZA</div><div class="song-col">花火</div></div>
+    <div class="entry"><div class="artist-col">Number_i</div><div class="song-col">夏の思い出</div></div>
+    <div class="entry"><div class="artist-col">ME:I</div><div class="song-col">GO GO サマー!</div></div>
+    <div class="entry"><div class="artist-col">BE:FIRST</div><div class="song-col">波乗りジョニー</div></div>
+    <div class="entry"><div class="artist-col">FRUITS ZIPPER</div><div class="song-col">secret base 〜君がくれたもの〜</div></div>
+    <div class="entry"><div class="artist-col">JI BLUE × TREASURE</div><div class="song-col">イケナイ太陽</div></div>
+    <div class="entry"><div class="artist-col">映画ちいかわ × 杉並児童合唱団</div><div class="song-col">くつずれ</div></div>
+    <div class="entry"><div class="artist-col">DISH//</div><div class="song-col">アイコトバ</div></div>
+    <div class="entry"><div class="artist-col">TWS</div><div class="song-col">OVERDRIVE</div></div>
+    <div class="entry"><div class="artist-col">日向坂46</div><div class="song-col">クリフハンガー</div></div>
+    <div class="entry"><div class="artist-col">ふみの</div><div class="song-col">東京</div></div>
 
-      <div class="artist-card"><div class="artist-name">アイナ・ジ・エンド</div><div class="song-title">ルミナス</div></div>
-      <div class="artist-card"><div class="artist-name">あいみょん</div><div class="song-title">順次発表</div></div>
-      <div class="artist-card"><div class="artist-name">ILLIT</div><div class="song-title">コラボ</div></div>
-      <div class="artist-card"><div class="artist-name">映画ちいかわ</div><div class="song-title">くつずれ</div></div>
-      <div class="artist-card"><div class="artist-name">Aぇ! group</div><div class="song-title">順次発表</div></div>
-      <div class="artist-card"><div class="artist-name">ELAIZA</div><div class="song-title">WINDING ROAD</div></div>
-      <div class="artist-card"><div class="artist-name">カキンツハルカ</div><div class="song-title">順次発表</div></div>
-      <div class="artist-card"><div class="artist-name">Kis-My-Ft2</div><div class="song-title">順次発表</div></div>
-      <div class="artist-card"><div class="artist-name">CUTIE STREET</div><div class="song-title">コラボ</div></div>
-      <div class="artist-card"><div class="artist-name">郷ひろみ</div><div class="song-title">GOLDFINGER'99</div></div>
-      <div class="artist-card"><div class="artist-name">THE RAMPAGE</div><div class="song-title">順次発表</div></div>
-      <div class="artist-card pink-border"><div class="artist-name" style="color: #ff007f;">JI BLUE</div><div class="song-title">景色</div></div>
-      <div class="artist-card"><div class="artist-name">島袋寛子</div><div class="song-title">SPEEDメドレー</div></div>
-      <div class="artist-card pink-border"><div class="artist-name" style="color: #ff007f;">Juice=Juice</div><div class="song-title">盛れ！ミ・アモーレ</div></div>
-      <div class="artist-card"><div class="artist-name">SUPER EIGHT</div><div class="song-title">順次発表</div></div>
-      <div class="artist-card"><div class="artist-name">SUPER BEAVER</div><div class="song-title">Swallowtail B.</div></div>
-      <div class="artist-card"><div class="artist-name">ダイヤモンド☆ユカイ</div><div class="song-title">君はともだち</div></div>
-      <div class="artist-card pink-border"><div class="artist-name" style="color: #ff007f;">宝塚花組</div><div class="song-title">好きすぎて滅！</div></div>
-      <div class="artist-card"><div class="artist-name">DISH//</div><div class="song-title">順次発表</div></div>
-      <div class="artist-card"><div class="artist-name">TWS</div><div class="song-title">順次発表</div></div>
-      <div class="artist-card"><div class="artist-name">TREASURE</div><div class="song-title">順次発表</div></div>
-      <div class="artist-card"><div class="artist-name">Number_i</div><div class="song-title">順次発表</div></div>
-      <div class="artist-card"><div class="artist-name">NiziU</div><div class="song-title">SPEEDメドレー</div></div>
-      <div class="artist-card"><div class="artist-name">NEWS</div><div class="song-title">WINDING ROAD</div></div>
-      <div class="artist-card pink-border"><div class="artist-name" style="color: #ff007f;">のん</div><div class="song-title">荒野に立つ</div></div>
-      <div class="artist-card"><div class="artist-name">HANA</div><div class="song-title">順次発表</div></div>
-      <div class="artist-card"><div class="artist-name">BE:FIRST</div><div class="song-title">順次発表</div></div>
-      <div class="artist-card"><div class="artist-name">日向坂46</div><div class="song-title">順次発表</div></div>
-      <div class="artist-card pink-border"><div class="artist-name" style="color: #ff007f;">ふぉ〜ゆ〜</div><div class="song-title">順次発表</div></div>
-      <div class="artist-card pink-border"><div class="artist-name" style="color: #ff007f;">ふみの</div><div class="song-title">東京</div></div>
-      <div class="artist-card"><div class="artist-name">FRUITS ZIPPER</div><div class="song-title">順次発表</div></div>
-      <div class="artist-card"><div class="artist-name">ME:I</div><div class="song-title">SPEEDメドレー</div></div>
-      <div class="artist-card"><div class="artist-name">M!LK</div><div class="song-title">好きすぎて滅！</div></div>
-      <div class="artist-card pink-border"><div class="artist-name" style="color: #ff007f;">モナキ</div><div class="song-title">ほんまやで☆</div></div>
-      <div class="artist-card"><div class="artist-name">緑黄色社会</div><div class="song-title">順次発表</div></div>
-      <div class="artist-card"><div class="artist-name">礼真琴</div><div class="song-title">SPEEDメドレー</div></div>
-    </div>
+    <div class="group-title">出演アーティスト（ソロ・グループ）</div>
+    <div class="entry"><div class="artist-col">アイナ・ジ・エンド</div><div class="song-col">Blue Shining Star / ルミナス - Luminous</div></div>
+    <div class="entry"><div class="artist-col">あいみょん</div><div class="song-col">マリーゴールド / 会いに行くのに</div></div>
+    <div class="entry"><div class="artist-col">Aぇ! group</div><div class="song-col">でこぼこライフ</div></div>
+    <div class="entry"><div class="artist-col">ILLIT</div><div class="song-col">It's Me</div></div>
+    <div class="entry"><div class="artist-col">カキンツハルカ</div><div class="song-col">サウダージ / Part of Your World</div></div>
+    <div class="entry"><div class="artist-col">Kis-My-Ft2</div><div class="song-col">My Affection</div></div>
+    <div class="entry"><div class="artist-col">CUTIE STREET</div><div class="song-col">ぷりきゅきゅ</div></div>
+    <div class="entry"><div class="artist-col">JI BLUE</div><div class="song-col">景色</div></div>
+    <div class="entry"><div class="artist-col">SUPER BEAVER</div><div class="song-col">クライマックス</div></div>
+    <div class="entry"><div class="artist-col">SUPER EIGHT</div><div class="song-col">再咲</div></div>
+    <div class="entry"><div class="artist-col">THE RAMPAGE</div><div class="song-col">BREAK IT DOWN</div></div>
+    <div class="entry"><div class="artist-col">TREASURE</div><div class="song-col">EVERYTHING -JP Ver.-</div></div>
+    <div class="entry"><div class="artist-col">Number_i</div><div class="song-col">i-mode</div></div>
+    <div class="entry"><div class="artist-col">NiziU</div><div class="song-col">Make you happy</div></div>
+    <div class="entry"><div class="artist-col">NEWS</div><div class="song-col">SUMMER TIME</div></div>
+    <div class="entry"><div class="artist-col">のん</div><div class="song-col">荒野に立つ</div></div>
+    <div class="entry"><div class="artist-col">BE:FIRST</div><div class="song-col">Missing</div></div>
+    <div class="entry"><div class="artist-col">FRUITS ZIPPER</div><div class="song-col">ぱわーオブらぶ</div></div>
+    <div class="entry"><div class="artist-col">HANA</div><div class="song-col">Bad Girl</div></div>
+    <div class="entry"><div class="artist-col">M!LK</div><div class="song-col">爆裂愛してる</div></div>
+    <div class="entry"><div class="artist-col">モナキ</div><div class="song-col">ほんまやで☆なんでやねん☆しらんけど</div></div>
+    <div class="entry"><div class="artist-col">緑黄色社会</div><div class="song-col">章</div></div>
+
+    <div class="group-title" style="color: #7e22ce;">SPECIAL COLLABORATIONS</div>
+    <div class="entry"><div class="artist-col">ILLIT × CUTIE STREET</div><div class="song-col">Almond Chocolate / かわいいだけじゃだめですか?</div></div>
+    <div class="entry"><div class="artist-col">郷ひろみ × Juice=Juice</div><div class="song-col">GOLDFINGER'99 / 盛れ！ミ・アモーレ</div></div>
+    <div class="entry"><div class="artist-col">島袋寛子 × MAYA・RIKU・NINA</div><div class="song-col">STEADY</div></div>
+    <div class="entry"><div class="artist-col">島袋寛子 × 礼真琴</div><div class="song-col">ALIVE</div></div>
+    <div class="entry"><div class="artist-col">島袋寛子 × ME:I</div><div class="song-col">Body ＆ Soul</div></div>
+    <div class="entry"><div class="artist-col">ダイアモンド☆ユカイ×佐野勇斗</div><div class="song-col">君はともだち</div></div>
+    <div class="entry"><div class="artist-col">ふぉ〜ゆ〜</div><div class="song-col">夏の王様 / ジェットコースター・ロマンス</div></div>
+    <div class="entry"><div class="artist-col">渋谷龍太 × アイナ・ジ・エンド</div><div class="song-col">Swallowtail Butterfly 〜あいのうた〜</div></div>
+    <div class="entry"><div class="artist-col">増田貴久×ELAIZA×佐野晶哉</div><div class="song-col">WINDING ROAD</div></div>
+    <div class="entry"><div class="artist-col">M!LK × 宝塚歌劇団 花組</div><div class="song-col">好きすぎて滅！</div></div>
   </div>
 
-  <div style="padding: 12px; background: #f0fdf4; border-top: 1px solid #bbf7d0;">
-    <div class="project-title" style="font-size: 10px; font-weight: 900; color: #16a34a; margin-bottom: 8px;">PROJECTS / 特別企画</div>
-    <div style="display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px;">
-      <div style="flex: 0 0 130px; background: #ffffff; border: 1px solid #ffe4f0; border-radius: 6px; padding: 6px;">
-        <div class="project-title" style="font-size: 10px; font-weight: 800; color: #ff007f;">豪華コラボ</div>
-        <div class="project-desc" style="font-size: 8px; color: #475569; margin-top: 2px;">宝塚×M!LK、SPEEDメドレー等</div>
-      </div>
-      <div style="flex: 0 0 130px; background: #ffffff; border: 1px solid #e0f2fe; border-radius: 6px; padding: 6px;">
-        <div class="project-title" style="font-size: 10px; font-weight: 800; color: #0077b6;">注目初登場</div>
-        <div class="project-desc" style="font-size: 8px; color: #475569; margin-top: 2px;">JI BLUE、モナキ、のん、ふみのほか</div>
-      </div>
-      <div style="flex: 0 0 130px; background: #ffffff; border: 1px solid #d1fae5; border-radius: 6px; padding: 6px;">
-        <div class="project-title" style="font-size: 10px; font-weight: 800; color: #16a34a;">映画・周年</div>
-        <div class="project-desc" style="font-size: 8px; color: #475569; margin-top: 2px;">ちいかわ映画、SPEED30周年</div>
-      </div>
-    </div>
-  </div>
   <div style="height: 4px; background: linear-gradient(90deg, #ff007f 0%, #ffcc00 50%, #00ccff 100%);"></div>
 </aside>
 <!-- /wp:html -->
@@ -446,6 +389,12 @@
 
   <div class="fns-card-container" style="display: flex; gap: 10px; overflow-x: auto; padding-bottom: 8px;">
 
+    <div style="flex: 0 0 170px; background: #ffffff; border: 1px solid rgba(126, 34, 206, 0.2); border-radius: 10px; padding: 12px; position: relative;">
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: #7e22ce;"></div>
+      <strong style="display: block; font-size: 11px; font-weight: 900; color: #7e22ce; margin-bottom: 4px;">OP 最強夏うたサビメドレー</strong>
+      <p style="margin: 0; font-size: 10px; color: #334155; line-height: 1.4;">NEWS×モナキ、アイナ×ELAIZA、Number_iら12組が夏の名曲カバーでオープニングを担当。</p>
+    </div>
+
     <div style="flex: 0 0 170px; background: #ffffff; border: 1px solid rgba(255, 0, 127, 0.2); border-radius: 10px; padding: 12px; position: relative;">
       <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: #ff007f;"></div>
       <strong style="display: block; font-size: 11px; font-weight: 900; color: #ff007f; margin-bottom: 4px;">宝塚花組 × M!LK</strong>
@@ -455,7 +404,7 @@
     <div style="flex: 0 0 170px; background: #ffffff; border: 1px solid rgba(0, 180, 216, 0.25); border-radius: 10px; padding: 12px; position: relative;">
       <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: #00b4d8;"></div>
       <strong style="display: block; font-size: 11px; font-weight: 900; color: #0077b6; margin-bottom: 4px;">SPEEDデビュー30周年</strong>
-      <p style="margin: 0; font-size: 10px; color: #334155; line-height: 1.4;">島袋寛子がNiziU、礼真琴、ME:Iと共に名曲メドレーを熱唱。</p>
+      <p style="margin: 0; font-size: 10px; color: #334155; line-height: 1.4;">島袋寛子がNiziU・礼真琴・ME:Iとそれぞれ「STEADY」「ALIVE」「Body & Soul」をデュエットで熱唱。</p>
     </div>
 
     <div style="flex: 0 0 170px; background: #ffffff; border: 1px solid rgba(245, 158, 11, 0.2); border-radius: 10px; padding: 12px; position: relative;">
@@ -467,14 +416,14 @@
     <div style="flex: 0 0 170px; background: #ffffff; border: 1px solid rgba(13, 148, 136, 0.2); border-radius: 10px; padding: 12px; position: relative;">
       <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: #0d9488;"></div>
       <strong style="display: block; font-size: 11px; font-weight: 900; color: #0d9488; margin-bottom: 4px;">注目の初登場</strong>
-      <p style="margin: 0; font-size: 10px; color: #334155; line-height: 1.4;">JI BLUE、モナキに加えのん・ふみのもFNS初登場。実力派が次々と夏の祭典デビューを飾る。</p>
+      <p style="margin: 0; font-size: 10px; color: #334155; line-height: 1.4;">JI BLUE、モナキに加えのん・ふみのもFNS初登場。実力派が次々と夏の祭典に初出演。</p>
     </div>
   </div>
 </aside>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>各コーナーの追加企画の詳細については、公式からの発表があり次第情報をまとめますので今しばらくお待ちください。</p>
+<p>本日18:30の生放送まで随時更新予定です。各コーナーの最新情報は公式X（@fns_kayousai）でもチェックできます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -489,7 +438,7 @@
 <aside role="region" aria-label="発表スケジュール予測" style="display: block; font-family: 'Inter', 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif; background: #ffffff; border: 1px solid #bae6fd; border-radius: 16px; overflow: hidden; max-width: 100%; box-shadow: 0 12px 30px rgba(2, 132, 199, 0.06);">
 
   <div style="background: linear-gradient(135deg, #00b4d8 0%, #0077b6 100%); padding: 12px 14px; border-bottom: 3px solid #ffcc00; display: flex; align-items: center; justify-content: space-between;">
-    <div style="font-size: 13px; font-weight: 900; color: #ffffff; letter-spacing: 0.04em; display: flex; align-items: center; gap: 8px; text-shadow: 0 1px 2px rgba(0,0,0,0.1);">
+    <div class="fns-schedule-title" style="font-size: 13px; font-weight: 900; color: #ffffff; letter-spacing: 0.04em; display: flex; align-items: center; gap: 8px; text-shadow: 0 1px 2px rgba(0,0,0,0.1);">
       <div style="background: #ffffff; padding: 3px 6px; border-radius: 4px; display: flex; align-items: center; gap: 3.5px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
         <div style="width: 3px; height: 3px; background: #ff007f; border-radius: 50%;"></div>
         <div style="width: 3px; height: 3px; background: #ffcc00; border-radius: 50%;"></div>
@@ -503,7 +452,7 @@
 
   <div style="padding: 16px 14px; background: linear-gradient(180deg, #ffffff 0%, #f0f9ff 100%);">
 
-    <div style="font-size: 11.5px; line-height: 1.6; color: #475569; margin-bottom: 14px; font-weight: 500;">
+    <div class="fns-sch-intro" style="font-size: 11.5px; line-height: 1.6; color: #475569; margin-bottom: 14px; font-weight: 500;">
       出演アーティストや詳細なタイムテーブルの情報は、例年放送の約1ヶ月前から段階的に発表されます。近年の傾向に基づく予測は以下の通りです。
     </div>
 
@@ -518,7 +467,7 @@
         <div style="display: table-cell; padding: 12px 10px; border-bottom: 1px solid #f0f9ff; font-weight: 900; vertical-align: middle; color: #0f172a; border-left: 4px solid #00b4d8;">第1弾 出演者発表</div>
         <div style="display: table-cell; padding: 12px 10px; border-bottom: 1px solid #f0f9ff; color: #334155; line-height: 1.5;">
           <b style="color: #0077b6; font-size: 13px; font-weight: 900;">6月上旬（発表済み）</b><br>
-          <span style="font-size: 9.5px; color: #64748b; display: inline-block; margin-top: 4px; font-weight: 500; line-height: 1.4;">
+          <span class="fns-sch-detail" style="font-size: 9.5px; color: #64748b; display: inline-block; margin-top: 4px; font-weight: 500; line-height: 1.4;">
             ・2026年実績：6月3日（相葉雅紀・井上清華MC／Number_i等16組発表）<br>
             ・2025年実績：6月3日頃（第1弾18組発表） ／ 2024年：6月12日頃
           </span>
@@ -529,7 +478,7 @@
         <div style="display: table-cell; padding: 12px 10px; border-bottom: 1px solid #f0f9ff; font-weight: 900; vertical-align: middle; color: #0f172a; border-left: 4px solid #00b4d8;">追加出演者・企画発表</div>
         <div style="display: table-cell; padding: 12px 10px; border-bottom: 1px solid #f0f9ff; color: #334155; line-height: 1.5;">
           <b style="color: #0077b6; font-size: 13px; font-weight: 900;">6月中旬 〜 6月下旬</b><br>
-          <span style="font-size: 9.5px; color: #64748b; display: inline-block; margin-top: 4px; font-weight: 500; line-height: 1.4;">
+          <span class="fns-sch-detail" style="font-size: 9.5px; color: #64748b; display: inline-block; margin-top: 4px; font-weight: 500; line-height: 1.4;">
             ・2025年実績：6月21日頃（第3弾追加発表など）<br>
             ・過去傾向：放送3週間前〜直前にかけてニュースメディア等で段階的に解禁
           </span>
@@ -540,7 +489,7 @@
         <div style="display: table-cell; padding: 12px 10px; font-weight: 900; vertical-align: middle; color: #ff007f; border-left: 4px solid #ff007f;">タイムテーブル</div>
         <div style="display: table-cell; padding: 12px 10px; color: #334155; line-height: 1.5;">
           <b style="color: #ff007f; font-size: 13px; font-weight: 900;">放送当日の「朝」頃</b><br>
-          <span style="font-size: 9.5px; color: #e11d48; font-weight: 600; display: inline-block; margin-top: 4px; line-height: 1.4; background: rgba(255, 0, 127, 0.04); padding: 4px 6px; border-radius: 4px; border: 1px dashed rgba(255, 0, 127, 0.15);">
+          <span class="fns-sch-tt-detail" style="font-size: 9.5px; color: #e11d48; font-weight: 600; display: inline-block; margin-top: 4px; line-height: 1.4; background: rgba(255, 0, 127, 0.04); padding: 4px 6px; border-radius: 4px; border: 1px dashed rgba(255, 0, 127, 0.15);">
             ・2025年実績：7月2日（水曜・放送当日朝〜公開）<br>
             ・2024年実績：7月3日（水曜・放送当日公開）<br>
             ・2023年実績：7月11日〜12日（放送前日夕方〜当日公開）
@@ -554,7 +503,7 @@
         <span style="display: inline-block; width: 4px; height: 10px; background: #16a34a; border-radius: 2px;"></span>
         🔍 CHECK!
       </div>
-      <div style="font-size: 10.5px; color: #334155; line-height: 1.6; font-weight: 500;">
+      <div class="fns-check-body" style="font-size: 10.5px; color: #334155; line-height: 1.6; font-weight: 500;">
         詳細な時間帯ごとのタイムテーブルは、過去3年の傾向から見ても<b style="color: #16a34a; font-weight: 900;">「放送当日（または前日夕方）」</b>に公式ホームページや公式X（@fns_kayousai）で一挙に解禁される可能性が非常に高いです。生放送につき直前調整が入るため、当日の朝はこまめに情報をチェックしておきましょう。
       </div>
     </div>
@@ -603,7 +552,7 @@
     <div style="background: #ffffff; padding: 16px; border-top: 1px solid #e0f2fe; display: flex; gap: 12px; align-items: flex-start;">
       <span style="font-family: sans-serif; font-size: 20px; font-weight: 900; color: #ff007f; line-height: 1;">A</span>
       <p style="font-size: 12.5px; line-height: 1.6; margin: 0; color: #334155; font-weight: 500;">
-        何時に誰が出るかという細かいスケジュールは、毎年<b style="color: #0077b6; font-weight: 800;">放送当日の「朝」</b>に、公式ホームページや公式X（旧Twitter）で一挙に発表されることがほとんどです。事前に出るアーティストが分かっていても、具体的な時間は当日まで明かされないことが多いです。
+        2026年は<b style="color: #0077b6; font-weight: 800;">放送当日の7月1日</b>にタイムテーブルが解禁されました。最強夏うたサビメドレーから始まり、SPEEDデビュー30周年コラボや宝塚花組×M!LKの初コラボへと続く時間帯別の出演順を、このページの上部にまとめています。
       </p>
     </div>
   </div>
@@ -616,8 +565,8 @@
     <div style="background: #ffffff; padding: 16px; border-top: 1px solid #e0f2fe; display: flex; gap: 12px; align-items: flex-start;">
       <span style="font-family: sans-serif; font-size: 20px; font-weight: 900; color: #ff007f; line-height: 1;">A</span>
       <p style="font-size: 12.5px; line-height: 1.6; margin: 0; color: #334155; font-weight: 500;">
-        2026年の見逃し配信についてはまだ発表されていません。ただ、音楽番組は曲やアーティストの権利の関係がとても厳しいため、ネットでの見逃し配信は行われないケースがとても多いです。<br>
-        お目当てのグループを絶対に見逃したくない場合は、<span style="background: rgba(255, 204, 0, 0.2); font-weight: 800; color: #b45309; padding: 1px 4px; border-radius: 4px;">おうちのテレビで事前にしっかり「録画予約」をしておくのが一番安心</span>です。
+        2026年は<b style="color: #ff007f; font-weight: 900;">TVerで同時配信が予定されています</b>（公式発表）。放送中はスマートフォンやパソコンからでもリアルタイムで視聴できます。<br>
+        ただし放送後の見逃し配信（アーカイブ）は、音楽番組の権利の関係から提供されないケースが多いです。お目当てのシーンを確実に残したいなら、<span style="background: rgba(255, 204, 0, 0.2); font-weight: 800; color: #b45309; padding: 1px 4px; border-radius: 4px;">テレビで事前に「録画予約」をしておくのが一番安心</span>です。
       </p>
     </div>
   </div>
@@ -634,7 +583,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>デビュー30周年の島袋寛子さんの記念ステージや、宝塚花組とM!LKの初コラボなど、一夜限りの特別企画が話題となっています。</p>
+<p>デビュー30周年の島袋寛子さんがNiziU・礼真琴・ME:Iと名曲を熱唱するSPEEDメドレー、宝塚花組×M!LKの初コラボなど、今夜一夜限りの特別企画が見どころです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -643,35 +592,31 @@
 
 <!-- wp:html -->
 <aside style="font-family: 'Inter', sans-serif; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 16px; max-width: 100%; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
-  <div style="margin-bottom: 12px; border-bottom: 2px solid #f1f5f9; padding-bottom: 8px;">
-    <h3 style="margin: 0; font-size: 14px; font-weight: 900; color: #0f172a;">出演者や順番に関する最新情報</h3>
-  </div>
-
   <div style="display: grid; gap: 8px;">
     <div style="padding: 10px; background: #f0fdf4; border-left: 4px solid #16a34a; border-radius: 4px;">
-      <div style="font-size: 11px; font-weight: 900; color: #16a34a; margin-bottom: 2px;">注目の出演アーティスト</div>
-      <div style="font-size: 10px; color: #334155;">総勢36組の出演が決定。のんのFNS初出演・あいみょん参戦など豪華ラインナップが今夏の祭典を彩ります。</div>
+      <div class="fns-item-title" style="font-size: 11px; font-weight: 900; color: #16a34a; margin-bottom: 2px;">注目の出演アーティスト</div>
+      <div class="fns-item-body" style="font-size: 10px; color: #334155;">総勢36組の出演が決定。のんのFNS初出演・あいみょん参戦など豪華ラインナップが今夜に集結。</div>
     </div>
 
     <div style="padding: 10px; background: #eff6ff; border-left: 4px solid #2563eb; border-radius: 4px;">
-      <div style="font-size: 11px; font-weight: 900; color: #2563eb; margin-bottom: 2px;">タイムテーブル・順番の公開時期</div>
-      <div style="font-size: 10px; color: #334155;">出演順（タイムテーブル）は生放送直前または当日に解禁される見込みです。お目当てのアーティストの順番を見逃さないよう注意が必要です。</div>
+      <div class="fns-item-title" style="font-size: 11px; font-weight: 900; color: #2563eb; margin-bottom: 2px;">タイムテーブル・順番の公開時期</div>
+      <div class="fns-item-body" style="font-size: 10px; color: #334155;">出演順（タイムテーブル）は本日解禁されました。上記の時間帯別タイムテーブルでお目当てのアーティストの登場時間を確認できます。</div>
     </div>
 
     <div style="padding: 10px; background: #fffbeb; border-left: 4px solid #d97706; border-radius: 4px;">
-      <div style="font-size: 11px; font-weight: 900; color: #d97706; margin-bottom: 2px;">最新情報をチェック</div>
-      <div style="font-size: 10px; color: #334155;">今後発表されるタイムテーブルやセットリストの更新情報は、当サイトにて随時反映します。ぜひブックマークして続報をお待ちください。</div>
+      <div class="fns-item-title" style="font-size: 11px; font-weight: 900; color: #d97706; margin-bottom: 2px;">最新情報をチェック</div>
+      <div class="fns-item-body" style="font-size: 10px; color: #334155;">今後発表されるタイムテーブルやセットリストの更新情報は、当サイトにて随時反映します。ぜひブックマークして続報をお待ちください。</div>
     </div>
   </div>
 </aside>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>番組は7月1日（水）18:30から3時間半の生放送です。</p>
+<p>番組は本日7月1日（水）18:30から3時間半の生放送です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>タイムテーブルや出演の順番が発表され次第こちらの記事を更新していきます。お目当てのアーティストが何時ごろ登場するのか、当日の最新情報を確認できるよう、ぜひ今のうちにブックマークをお願いします！</p>
+<p>タイムテーブルが解禁されました。お目当てのアーティストが何時ごろ登場するか確認できるよう、ぜひこのページをブックマークしてお待ちください！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -679,43 +624,43 @@
 
   <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
     <span style="width: 3px; height: 11px; background: #ff008d; margin-right: 8px; border-radius: 1px;"></span>
-    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">他の音楽番組もチェック</p>
+    <p class="fns-nav-label" style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">他の音楽番組もチェック</p>
   </div>
 
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px;">
 
     <a href="https://shira-treat.com/cdtv-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
-      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+      <span class="fns-nav-link" style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
         CDTV <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
 
     <a href="https://shira-treat.com/star-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
-      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+      <span class="fns-nav-link" style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
         STAR <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
 
     <a href="https://shira-treat.com/fnskayousai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
-      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+      <span class="fns-nav-link" style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
         FNS歌謡祭 <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
 
     <a href="https://shira-treat.com/the-musicday-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
-      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+      <span class="fns-nav-link" style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
         THE MUSIC DAY <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
 
     <a href="https://shira-treat.com/teretoongakusai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
-      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+      <span class="fns-nav-link" style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
         テレ東音楽祭 <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
 
     <a href="https://shira-treat.com/ongakunohi-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
-      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+      <span class="fns-nav-link" style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
         音楽の日 <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
@@ -724,18 +669,18 @@
 
   <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
     <span style="width: 3px; height: 11px; background: #64748b; margin-right: 8px; border-radius: 1px;"></span>
-    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">出演者の作品を探す</p>
+    <p class="fns-nav-label" style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">出演者の作品を探す</p>
   </div>
 
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
     <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #232f3e; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #161d26;">
-      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+      <span class="fns-shop-btn" style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
         CDをAmazonで探す <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
       </span>
     </a>
 
     <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fdaily%2F002%2F" target="_blank" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
-      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+      <span class="fns-shop-btn" style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
         楽天ブックスでCDを探す <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
       </span>
     </a>
@@ -745,7 +690,7 @@
 
   <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #001a4d, #003399); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid #00d4ff; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
     <span style="font-size: 9px; font-weight: 900; color: #00d4ff; border: 1px solid #00d4ff; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 3px;">Music</span>
-    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を聴く（30日間無料）</span>
+    <span class="fns-music-btn" style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を聴く（30日間無料）</span>
     <span style="font-size: 18px; color: #00d4ff; margin-left: auto;">›</span>
   </a>
 
@@ -762,17 +707,17 @@
       "@type": "BlogPosting",
       "@id": "https://shira-treat.com/fnskayousai-timetable/#post",
       "headline": "FNS歌謡祭 タイムテーブル＆出演順番は？2026年夏の最新情報",
-      "description": "2026年7月1日生放送「FNS歌謡祭 夏」の出演者・タイムテーブルを随時更新！のん初出演・あいみょん参戦など総勢36組出演決定。宝塚×M!LK、SPEEDメドレーほか見どころ満載。出演順番はこちらでチェック！",
+      "description": "本日18:30生放送『FNS歌謡祭 夏』のタイムテーブルが解禁！最強夏うたサビメドレーやSPEEDデビュー30周年コラボ、宝塚花組×M!LKの初コラボなど出演順を時間帯別に紹介します。",
       "url": "https://shira-treat.com/fnskayousai-timetable/",
       "mainEntityOfPage": {
         "@id": "https://shira-treat.com/fnskayousai-timetable/"
       },
       "inLanguage": "ja",
       "articleSection": "音楽特番",
-      "keywords": ["FNS歌謡祭", "FNS歌謡祭 2026", "タイムテーブル", "出演順番", "フジテレビ 音楽番組", "セットリスト", "のん", "あいみょん", "ふみの"],
+      "keywords": ["FNS歌謡祭", "FNS歌謡祭 2026", "タイムテーブル", "出演順番", "フジテレビ 音楽番組", "セットリスト", "のん", "あいみょん", "Number_i", "宝塚花組", "SPEEDデビュー30周年", "TVer同時配信"],
       "datePublished": "2026-06-03T00:00:00+09:00",
       "dateCreated": "2026-06-03T00:00:00+09:00",
-      "dateModified": "2026-06-24T00:00:00+09:00",
+      "dateModified": "2026-07-01T12:00:00+09:00",
       "image": {
         "@id": "https://shira-treat.com/fnskayousai-timetable/#heroimage"
       },
@@ -858,17 +803,17 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "18:30 生放送スタート"
+          "name": "18:30 最強夏うたサビメドレーでオープニング"
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "出演順（タイムテーブル）は生放送直前に発表予定"
+          "name": "19:00頃 SPEEDデビュー30周年コラボメドレー"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "21:54 フィナーレ"
+          "name": "21:54 緑黄色社会「章」でラスト"
         }
       ]
     },
@@ -889,7 +834,7 @@
           "name": "詳しいタイムテーブル（出演する順番）はいつ分かりますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "詳細なタイムテーブルは、放送当日または直前に公式ホームページや公式SNSにて発表される見込みです。"
+            "text": "2026年は放送当日の7月1日にタイムテーブルが解禁されました。最強夏うたサビメドレーから始まり、SPEEDデビュー30周年コラボや宝塚花組×M!LKの初コラボへと続く時間帯別の出演順を、このページの上部にまとめています。"
           }
         },
         {
@@ -897,7 +842,7 @@
           "name": "もし見逃してしまったら、あとからスマホなどで見られますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "音楽番組は権利の関係から見逃し配信が行われないケースが多いです。お目当てのアーティストを見逃したくない場合は、事前にテレビで録画予約をしておくのが確実です。"
+            "text": "2026年はTVerで同時配信が予定されています。ただし放送後の見逃し配信は、音楽番組の権利の関係から提供されないケースが多いです。お目当てのシーンを残したい場合は、テレビで録画予約をしておくのが確実です。"
           }
         }
       ]
