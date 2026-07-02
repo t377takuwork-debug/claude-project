@@ -59,8 +59,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>7月4日（土）の生放送当日はリアルタイムで最新情報を更新。 
-タイムテーブル解禁後は出演順も速報でお届けしますので、ぜひブックマークして放送当日に備えてください。</p>
+<p>7月4日（土）の生放送当日はリアルタイムで最新情報を更新。 </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>タイムテーブル解禁後は出演順も速報でお届けしますので、ぜひブックマークして放送当日に備えてください。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -90,7 +93,7 @@
       <h3 style="margin: 0; padding: 0; font-weight: 800; font-size: 13.5px; color: #0f172a; line-height: 1.2;">15時台の出演順タイムテーブル</h3>
     </div>
     <div style="padding: 12px 14px; background: #ffffff;">
-      <p style="font-size: 11.5px; line-height: 1.5; margin: 0 0 10px 0; color: #64748b;">番組の前半戦がスタートする 15 時台は、INI・AiScReam・M!LK・NCT WISH・KiiiKiii・CANDY TUNEなど勢いある若手グループ勢の登場が予想されます。タイムテーブル解禁後に最速でアップデートします。</p>
+      <p style="font-size: 11.5px; line-height: 1.5; margin: 0 0 10px 0; color: #64748b;">番組の前半戦がスタートする 15 時台は、INI「HERO」・M!LK「好きすぎて滅」「爆裂愛してる」「アイドルパワー」メドレー・中島健人「最初はキュン！」・マルシィ「未来図」・＝LOVE「とくべチュ、して」「ラブソングに襲われる」メドレーなど歌唱曲発表済みの若手勢に加え、AiScReam・NCT WISH・KiiiKiii・CANDY TUNEの登場も予想されます。タイムテーブル解禁後に最速でアップデートします。</p>
       <div style="border-left: 2px solid #00ccff; margin-left: 2px; padding-left: 10px;">
         <div style="margin-bottom: 6px; font-size: 12px;">
           <span style="font-weight: 800; color: #00ccff; display: inline-block; width: 65px;">15:00頃〜</span>
@@ -123,7 +126,7 @@
       <h3 style="margin: 0; padding: 0; font-weight: 800; font-size: 13.5px; color: #0f172a; line-height: 1.2;">16時台の出演順タイムテーブル</h3>
     </div>
     <div style="padding: 12px 14px; background: #ffffff;">
-      <p style="font-size: 11.5px; line-height: 1.5; margin: 0 0 10px 0; color: #64748b;">日向坂46・BE:FIRST・NiziU・FANTASTICS・AND2BLE・ROIROM・MAZZELなど各ジャンルの人気グループが続く 16 時台を予想。タイムテーブル確定後に出演順を整理します。</p>
+      <p style="font-size: 11.5px; line-height: 1.5; margin: 0 0 10px 0; color: #64748b;">日向坂46「キュン」（宮崎県とのSPコラボ）、BE:FIRST「Bye-Good-Bye」「Missing」、NiziU「Make You Happy」、FANTASTICS「Over Drive -2026 Version」など歌唱曲発表済みの人気グループが続く 16 時台を予想。TWS「OVERDRIVE」・AND2BLE・ROIROM・MAZZELの登場もこの時間帯が有力です。</p>
       <div style="border-left: 2px solid #ff007f; margin-left: 2px; padding-left: 10px;">
         <div style="margin-bottom: 6px; font-size: 12px;">
           <span style="font-weight: 800; color: #ff007f; display: inline-block; width: 65px;">16:00頃〜</span>
@@ -156,7 +159,7 @@
       <h3 style="margin: 0; padding: 0; font-weight: 800; font-size: 13.5px; color: #0f172a; line-height: 1.2;">17時台の出演順タイムテーブル</h3>
     </div>
     <div style="padding: 12px 14px; background: #ffffff;">
-      <p style="font-size: 11.5px; line-height: 1.5; margin: 0 0 10px 0; color: #64748b;">あいみょん・緑黄色社会・かりゆし58・キタニタツヤ・家入レオなどバンド・ソロ勢が並ぶと予想される 17 時台。酒井法子・BONNIE PINK・島谷ひとみ・平原綾香・福原遥らによる「音楽物語ヒットパレード」SPライブや、坂本花織・高嶋ちさ子・三浦璃来＆木原龍一のスペシャルステージも想定される時間帯です。</p>
+      <p style="font-size: 11.5px; line-height: 1.5; margin: 0 0 10px 0; color: #64748b;">緑黄色社会「章」、かりゆし58「オワリはじまり」の歌唱曲発表を受け、あいみょん・キタニタツヤ・家入レオ・アイナ・ジ・エンド「ルミナス - Luminous」などバンド・ソロ勢が並ぶと予想される 17 時台。酒井法子・BONNIE PINK・島谷ひとみ・平原綾香・福原遥らによる「音楽物語ヒットパレード」SPライブや、坂本花織・高嶋ちさ子・三浦璃来＆木原龍一のスペシャルステージも想定される時間帯です。</p>
       <div style="border-left: 2px solid #00ccff; margin-left: 2px; padding-left: 10px;">
         <div style="margin-bottom: 6px; font-size: 12px;">
           <span style="font-weight: 800; color: #00ccff; display: inline-block; width: 65px;">17:00頃〜</span>
@@ -189,7 +192,7 @@
       <h3 style="margin: 0; padding: 0; font-weight: 800; font-size: 13.5px; color: #0f172a; line-height: 1.2;">18時台の出演順タイムテーブル</h3>
     </div>
     <div style="padding: 12px 14px; background: #ffffff;">
-      <p style="font-size: 11.5px; line-height: 1.5; margin: 0 0 10px 0; color: #64748b;">番組が中盤に差し掛かる 18 時台。SixTONES・Travis Japan・SUPER BEAVERなどSTARTO・バンド勢の登場と、松本伊代×CUTIE STREETの一夜限りのコラボ、シャッフルメドレー第1弾の開幕も予想される熱い時間帯です。</p>
+      <p style="font-size: 11.5px; line-height: 1.5; margin: 0 0 10px 0; color: #64748b;">番組が中盤に差し掛かる 18 時台。SixTONES「一秒」「Rebellion」、Travis Japan「LEVEL UP」、SUPER BEAVER「生きがい」、超特急「ジュブナイラー」×世界的BMXライダー内野洋平選手コラボの歌唱曲・企画発表があったSTARTO・バンド勢の登場と、松本伊代×CUTIE STREETの一夜限りのコラボ、シャッフルメドレー第1弾の開幕も予想される熱い時間帯です。</p>
       <div style="border-left: 2px solid #ff007f; margin-left: 2px; padding-left: 10px;">
         <div style="margin-bottom: 6px; font-size: 12px;">
           <span style="font-weight: 800; color: #ff007f; display: inline-block; width: 65px;">18:00頃〜</span>
@@ -232,7 +235,7 @@
       <h3 style="margin: 0; padding: 0; font-weight: 800; font-size: 13.5px; color: #0f172a; line-height: 1.2;">19時台の出演順タイムテーブル</h3>
     </div>
     <div style="padding: 12px 14px; background: #ffffff;">
-      <p style="font-size: 11.5px; line-height: 1.5; margin: 0 0 10px 0; color: #64748b;">番組最高潮に向かう 19 時台はKing &amp; Prince・Number_i・Snow Man・なにわ男子・TREASUREなど大型グループが連続する最有力の時間帯。シャッフルメドレーのメインブロックも想定されます。</p>
+      <p style="font-size: 11.5px; line-height: 1.5; margin: 0 0 10px 0; color: #64748b;">番組最高潮に向かう 19 時台はKing &amp; Prince「HEART」「Theater」、Number_i「3XL」、なにわ男子「初心LOVE（うぶらぶ）」「Celebrate」メドレーなど歌唱曲確定組に、Snow Man・timelesz「4分だけ時間をください」・TREASUREなど大型グループが連続する最有力の時間帯。シャッフルメドレーのメインブロックも想定されます。</p>
       <div style="border-left: 2px solid #00ccff; margin-left: 2px; padding-left: 10px;">
         <div style="margin-bottom: 6px; font-size: 12px;">
           <span style="font-weight: 800; color: #00ccff; display: inline-block; width: 65px;">19:00頃〜</span>
@@ -265,7 +268,7 @@
       <h3 style="margin: 0; padding: 0; font-weight: 800; font-size: 13.5px; color: #0f172a; line-height: 1.2;">20時台の出演順タイムテーブル</h3>
     </div>
     <div style="padding: 12px 14px; background: #ffffff;">
-      <p style="font-size: 11.5px; line-height: 1.5; margin: 0 0 10px 0; color: #64748b;">IVE・&amp;TEAM・BEOMGYU/TAEHYUN/HUENINGKAI（TXT）・山下智久・亀梨和也・大泉洋など多彩な顔ぶれが集まると予想される 20 時台。シャッフルメドレー後半や「音楽物語ヒットパレード」のTXT楽曲企画も繰り出されるコアタイムです。</p>
+      <p style="font-size: 11.5px; line-height: 1.5; margin: 0 0 10px 0; color: #64748b;">IVE「BANG BANG」、&amp;TEAM「HOTLINE」（『ポケパーク カントー』コラボ企画）の歌唱曲発表に加え、BEOMGYU/TAEHYUN/HUENINGKAI（TXT）・山下智久・亀梨和也・大泉洋など多彩な顔ぶれが集まると予想される 20 時台。シャッフルメドレー後半や「音楽物語ヒットパレード」のTXT楽曲企画も繰り出されるコアタイムです。</p>
       <div style="border-left: 2px solid #ff007f; margin-left: 2px; padding-left: 10px;">
         <div style="margin-bottom: 6px; font-size: 12px;">
           <span style="font-weight: 800; color: #ff007f; display: inline-block; width: 65px;">20:00頃〜</span>
@@ -462,72 +465,78 @@
   </div>
 
   <div style="padding: 8px; background: #f8fafc; display: flex; flex-direction: column; gap: 8px;">
-
     <div style="font-size: 10px; font-weight: 800; color: #64748b; padding: 4px 4px 0px;">ARTISTS</div>
+    
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px;">
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">IVE</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">INI</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">AiScReam</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">アイナ・ジ・エンド</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">あいみょん</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">AND2BLE</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">家入レオ</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">＝LOVE</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">NCT WISH</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">&amp;TEAM</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">大泉洋</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">大塚 愛</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">海援隊</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">亀梨和也</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">かりゆし58</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">KiiiKiii</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">キタニタツヤ</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">キマグレン</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">CANDY TUNE</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">CUTIE STREET</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">King &amp; Prince</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">kurayamisaka</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">けんじ（19ジューク、3B LAB.☆S）</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">酒井法子</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">THE RAMPAGE</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">島谷ひとみ</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">島袋寛子</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">SUPER BEAVER</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">SixTONES</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">Snow Man</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">timelesz</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">超特急</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">TWS</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">BEOMGYU/TAEHYUN/HUENINGKAI（TXT）</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">Travis Japan</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">TREASURE</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">Do As Infinity</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">中島健人</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">なにわ男子</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">Number_i</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">NiziU</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">NEWS</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">HANA</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">バブルガム・ブラザーズ</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">B.B.クィーンズ</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">BE:FIRST</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">日向坂46</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">平原綾香</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">FUNKY MONKEY BΛBY'S</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">FANTASTICS</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">福原遥</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">福山雅治</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">BONNIE PINK</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">MAZZEL</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">松本伊代</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">マルシィ</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">M!LK</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">山崎育三郎</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">山下智久</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">緑黄色社会</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">LINDBERG</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">Le Couple 藤田恵美</div>
-      <div style="background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; font-weight: 600; color: #334155;">ROIROM</div>
+      <style>
+        .artist-card { background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; line-height: 1.3; }
+        .artist-name { font-weight: 700; color: #0f172a; display: block; }
+        .song-name { color: #0284c7; font-size: 10px; }
+      </style>
+
+      <div class="artist-card"><span class="artist-name">IVE</span><span class="song-name">BANG BANG</span></div>
+      <div class="artist-card"><span class="artist-name">INI</span><span class="song-name">HERO</span></div>
+      <div class="artist-card"><span class="artist-name">AiScReam</span><span class="song-name">NEXT CARD</span></div>
+      <div class="artist-card"><span class="artist-name">アイナ・ジ・エンド</span><span class="song-name">ルミナス - Luminous</span></div>
+      <div class="artist-card"><span class="artist-name">あいみょん</span></div>
+      <div class="artist-card"><span class="artist-name">AND2BLE</span></div>
+      <div class="artist-card"><span class="artist-name">家入レオ</span></div>
+      <div class="artist-card"><span class="artist-name">＝LOVE</span><span class="song-name">とくべチュ、して 他</span></div>
+      <div class="artist-card"><span class="artist-name">NCT WISH</span></div>
+      <div class="artist-card"><span class="artist-name">&amp;TEAM</span><span class="song-name">HOTLINE</span></div>
+      <div class="artist-card"><span class="artist-name">大泉洋</span></div>
+      <div class="artist-card"><span class="artist-name">大塚 愛</span><span class="song-name">黒毛和牛上塩タン焼680円</span></div>
+      <div class="artist-card"><span class="artist-name">海援隊</span></div>
+      <div class="artist-card"><span class="artist-name">亀梨和也</span><span class="song-name">'O sole mio</span></div>
+      <div class="artist-card"><span class="artist-name">かりゆし58</span><span class="song-name">オワリはじまり</span></div>
+      <div class="artist-card"><span class="artist-name">KiiiKiii</span><span class="song-name">404 (New Era)</span></div>
+      <div class="artist-card"><span class="artist-name">キタニタツヤ</span><span class="song-name">遺書</span></div>
+      <div class="artist-card"><span class="artist-name">キマグレン</span></div>
+      <div class="artist-card"><span class="artist-name">CANDY TUNE</span></div>
+      <div class="artist-card"><span class="artist-name">CUTIE STREET</span></div>
+      <div class="artist-card"><span class="artist-name">King &amp; Prince</span><span class="song-name">HEART / Theater</span></div>
+      <div class="artist-card"><span class="artist-name">kurayamisaka</span></div>
+      <div class="artist-card"><span class="artist-name">けんじ(19)・八木勇征</span><span class="song-name">あの紙ヒコーキ...</span></div>
+      <div class="artist-card"><span class="artist-name">酒井法子</span><span class="song-name">碧いうさぎ</span></div>
+      <div class="artist-card"><span class="artist-name">THE RAMPAGE</span><span class="song-name">16BOOSTERZ</span></div>
+      <div class="artist-card"><span class="artist-name">島谷ひとみ</span></div>
+      <div class="artist-card"><span class="artist-name">島袋寛子</span><span class="song-name">STEADY</span></div>
+      <div class="artist-card"><span class="artist-name">SUPER BEAVER</span><span class="song-name">生きがい</span></div>
+      <div class="artist-card"><span class="artist-name">SixTONES</span><span class="song-name">一秒 / Rebellion</span></div>
+      <div class="artist-card"><span class="artist-name">Snow Man</span></div>
+      <div class="artist-card"><span class="artist-name">timelesz</span><span class="song-name">4分だけ時間をください</span></div>
+      <div class="artist-card"><span class="artist-name">超特急</span><span class="song-name">ジュブナイラー 他</span></div>
+      <div class="artist-card"><span class="artist-name">TWS</span><span class="song-name">OVERDRIVE</span></div>
+      <div class="artist-card"><span class="artist-name">BEOMGYU/TAEHYUN/HUENINGKAI（TXT）</span><span class="song-name">Lemon</span></div>
+      <div class="artist-card"><span class="artist-name">Travis Japan</span><span class="song-name">LEVEL UP</span></div>
+      <div class="artist-card"><span class="artist-name">TREASURE</span><span class="song-name">メドレー</span></div>
+      <div class="artist-card"><span class="artist-name">Do As Infinity</span><span class="song-name">陽のあたる坂道</span></div>
+      <div class="artist-card"><span class="artist-name">中島健人</span><span class="song-name">最初はキュン！</span></div>
+      <div class="artist-card"><span class="artist-name">なにわ男子</span><span class="song-name">初心LOVE 他</span></div>
+      <div class="artist-card"><span class="artist-name">Number_i</span><span class="song-name">3XL</span></div>
+      <div class="artist-card"><span class="artist-name">NiziU</span><span class="song-name">Make You Happy</span></div>
+      <div class="artist-card"><span class="artist-name">NEWS</span><span class="song-name">チャンカパーナ</span></div>
+      <div class="artist-card"><span class="artist-name">HANA</span></div>
+      <div class="artist-card"><span class="artist-name">バブルガム・ブラザーズ</span></div>
+      <div class="artist-card"><span class="artist-name">B.B.クィーンズ</span></div>
+      <div class="artist-card"><span class="artist-name">BE:FIRST</span><span class="song-name">Bye-Good-Bye 他</span></div>
+      <div class="artist-card"><span class="artist-name">日向坂46</span><span class="song-name">キュン</span></div>
+      <div class="artist-card"><span class="artist-name">平原綾香</span></div>
+      <div class="artist-card"><span class="artist-name">FUNKY MONKEY BΛBY'S</span></div>
+      <div class="artist-card"><span class="artist-name">FANTASTICS</span><span class="song-name">Over Drive</span></div>
+      <div class="artist-card"><span class="artist-name">福原遥</span><span class="song-name">secret base〜君がくれたもの〜</span></div>
+      <div class="artist-card"><span class="artist-name">福山雅治</span></div>
+      <div class="artist-card"><span class="artist-name">BONNIE PINK</span><span class="song-name">A Perfect Sky</span></div>
+      <div class="artist-card"><span class="artist-name">MAZZEL</span></div>
+      <div class="artist-card"><span class="artist-name">松本伊代</span></div>
+      <div class="artist-card"><span class="artist-name">マルシィ</span><span class="song-name">未来図</span></div>
+      <div class="artist-card"><span class="artist-name">M!LK</span><span class="song-name">好きすぎて滅 他</span></div>
+      <div class="artist-card"><span class="artist-name">山崎育三郎</span></div>
+      <div class="artist-card"><span class="artist-name">山下智久</span></div>
+      <div class="artist-card"><span class="artist-name">緑黄色社会</span><span class="song-name">章</span></div>
+      <div class="artist-card"><span class="artist-name">LINDBERG</span></div>
+      <div class="artist-card"><span class="artist-name">Le Couple 藤田恵美</span></div>
+      <div class="artist-card"><span class="artist-name">ROIROM</span></div>
       <div style="background: #fff0f5; padding: 6px; border-radius: 4px; border: 2px solid #ff007f; font-size: 12px; font-weight: 800; color: #ff007f;">ブルーノ・マーズ ★初</div>
     </div>
 
@@ -536,23 +545,20 @@
       <div style="background: #fff0f5; padding: 8px; border-radius: 4px; border: 2px solid #ff007f; font-size: 11px;">
         <span style="font-weight: 800; color: #ff007f;">🎤 ブルーノ・マーズ：</span>日本テレビ初歌唱！2027年ドームツアー前の最注目ステージ
       </div>
-      <a href="https://shira-treat.com/musicday-shuffle-medley/" target="_blank" style="background: #ffffff; padding: 8px; border-radius: 4px; border: 2px solid #00ccff; font-size: 11px; text-decoration: none; color: #334155; display: block; transition: background 0.2s;">
+      <a href="https://shira-treat.com/musicday-shuffle-medley/" target="_blank" style="background: #ffffff; padding: 8px; border-radius: 4px; border: 2px solid #00ccff; font-size: 11px; text-decoration: none; color: #334155; display: block;">
         <span style="font-weight: 800; color: #db2777;">シャッフルメドレー：</span>出演メンバー・詳細は詳細ページへ ▶
       </a>
       <div style="background: #ffffff; padding: 8px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 11px;">
-        <span style="font-weight: 800; color: #b45309;">音楽物語ヒットパレード：</span>昭和〜令和の4500曲大分析 × SPライブ（酒井法子・BONNIE PINK・福原遥 他）
+        <span style="font-weight: 800; color: #b45309;">音楽物語ヒットパレード：</span>昭和〜令和の4500曲大分析 × SPライブ
       </div>
       <div style="background: #ffffff; padding: 8px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 11px;">
         <span style="font-weight: 800; color: #0284c7;">コラボレーション：</span>松本伊代 × CUTIE STREET 世代を越えたトップアイドルSP
-      </div>
-      <div style="background: #ffffff; padding: 8px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 11px;">
-        <span style="font-weight: 800; color: #0284c7;">スペシャルステージ：</span>坂本花織・高嶋ちさ子・三浦璃来＆木原龍一
       </div>
     </div>
   </div>
 
   <div style="padding: 8px; text-align: center; font-size: 9px; color: #94a3b8; border-top: 1px solid #e2e8f0;">
-    ※第4弾発表：6月27日（土）解禁済み / タイムテーブルは放送2日前（7月2日）頃に発表予定
+    ※第4弾発表：6月27日（土）解禁済み ／ 詳細なタイムテーブルは放送直前に発表予定
   </div>
   <div style="height: 3px; background: linear-gradient(90deg, #ff007f 0%, #ffcc00 50%, #00ccff 100%);"></div>
 </div>
@@ -575,7 +581,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>第4弾まで発表が完了し、総勢60組超の出演者が出揃いました！タイムテーブルや詳細なセットリストも公式発表があり次第随時更新します。</p>
+<p>第4弾まで発表が完了し、総勢60組超の出演者が出揃いました！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>多数のアーティストの歌唱曲も発表されています。詳細なタイムテーブルは公式発表があり次第随時更新します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -587,7 +597,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>総勢60組以上のアーティストの出演に加え、ヒット曲4500曲を大分析した「音楽物語ヒットパレード」、恒例のシャッフルメドレー、ブルーノ・マーズ日本テレビ初歌唱など、今年も見どころ満載です。</p>
+<p>総勢60組以上のアーティストの出演に加え、ヒット曲4500曲を大分析した「音楽物語ヒットパレード」、恒例のシャッフルメドレー、ブルーノ・マーズ日本テレビ初歌唱、&amp;TEAM・＝LOVEによるポケモンコラボステージなど、今年も見どころ満載です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -621,7 +631,7 @@
       <div style="background: #ffffff; padding: 10px; border-radius: 4px; border: 1px solid #e2e8f0;">
         <div style="font-size: 11px; font-weight: 800; color: #db2777; margin-bottom: 3px;">▼ 恒例！シャッフルメドレー</div>
         <div style="font-size: 10.5px; color: #475569; padding-left: 5px; line-height: 1.4;">
-          SixTONES・Snow Man・King &amp; Prince・NEWS・なにわ男子・Travis Japan・timelesz 総勢42名がグループの枠を超えて参加！歌唱楽曲は7月3日（金）21時に解禁予定。<br>
+          SixTONES・Snow Man・King &amp; Prince・NEWS・なにわ男子・Travis Japan・timelesz・中島健人 総勢42名・12組がグループの枠を超えて参加！歌唱楽曲は7月3日（金）21時頃に解禁予定。<br>
           <a href="https://shira-treat.com/musicday-shuffle-medley/" target="_blank" style="color: #db2777; text-decoration: underline; font-weight: 700;">≫ 出演時間や組み合わせの詳細はこちら</a>
         </div>
       </div>
@@ -638,6 +648,12 @@
         <div style="font-size: 11px; font-weight: 800; color: #db2777; margin-bottom: 3px;">▼ HANA × 渡辺直美 NYコラボ</div>
         <div style="font-size: 10.5px; color: #475569; padding-left: 5px; line-height: 1.4;">
           ニューヨーク・タイムズスクエアでHANAが歌唱。「スターが生まれる理由」をHANAと渡辺直美がNYで紡ぐ特別企画。
+        </div>
+      </div>
+      <div style="background: #ffffff; padding: 10px; border-radius: 4px; border: 1px solid #e2e8f0;">
+        <div style="font-size: 11px; font-weight: 800; color: #db2777; margin-bottom: 3px;">▼ ポケモンコラボステージ</div>
+        <div style="font-size: 10.5px; color: #475569; padding-left: 5px; line-height: 1.4;">
+          &amp;TEAM「HOTLINE」／＝LOVE「とくべチュ、して」「ラブソングに襲われる」メドレー。『ポケパーク カントー』とのコラボパフォーマンスを披露。
         </div>
       </div>
       <div style="background: #ffffff; padding: 10px; border-radius: 4px; border: 1px solid #e2e8f0;">
@@ -839,7 +855,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>恒例の「シャッフルメドレー」（STARTO42名）・ヒット曲4500曲分析企画・HANA×渡辺直美NYコラボなど、FUNKY MONKEY BΛBY'SやB.B.クィーンズら平成ヒットメーカーの参加も加わり見どころ満載の9時間半です。</p>
+<p>恒例の「シャッフルメドレー」（STARTO42名・12組）・ヒット曲4500曲分析企画・HANA×渡辺直美NYコラボ・&amp;TEAM×＝LOVEのポケモンコラボステージなど、FUNKY MONKEY BΛBY'SやB.B.クィーンズら平成ヒットメーカーの参加も加わり見どころ満載の9時間半です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -948,7 +964,7 @@
       "keywords": ["THE MUSIC DAY", "THE MUSIC DAY 2026", "タイムテーブル", "出演順番", "日本テレビ 音楽番組", "シャッフルメドレー", "ブルーノ・マーズ", "家入レオ", "島谷ひとみ", "NCT WISH", "FUNKY MONKEY BΛBY'S", "バブルガム・ブラザーズ", "＝LOVE", "&TEAM", "櫻井翔"],
       "datePublished": "2026-04-27T00:00:00+09:00",
       "dateCreated": "2026-04-27T00:00:00+09:00",
-      "dateModified": "2026-06-29T00:00:00+09:00",
+      "dateModified": "2026-07-02T18:00:00+09:00",
       "image": {
         "@id": "https://shira-treat.com/the-musicday-timetable/#heroimage"
       },
@@ -1008,6 +1024,11 @@
         { "@type": "MusicGroup", "name": "HANA" },
         { "@type": "MusicGroup", "name": "SUPER BEAVER" },
         { "@type": "MusicGroup", "name": "緑黄色社会" },
+        { "@type": "MusicGroup", "name": "M!LK" },
+        { "@type": "MusicGroup", "name": "かりゆし58" },
+        { "@type": "Person", "name": "中島健人" },
+        { "@type": "MusicGroup", "name": "マルシィ" },
+        { "@type": "Person", "name": "アイナ・ジ・エンド" },
         { "@type": "MusicGroup", "name": "FANTASTICS" },
         { "@type": "MusicGroup", "name": "THE RAMPAGE" },
         { "@type": "MusicGroup", "name": "TREASURE" },

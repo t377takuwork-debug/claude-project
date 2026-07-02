@@ -6,7 +6,9 @@
       "Bash(Select-Object FullName, Length, LastWriteTime)",
       "Bash(Sort-Object FullName)",
       "Bash(Get-ChildItem *)",
-      "Bash(cmd *)"
+      "Bash(cmd *)",
+      "Bash(python tools/qa_draft.py --all)",
+      "PowerShell(cd \"C:\\\\Users\\\\PC_User\\\\claude project\\\\blogs\\\\shira_note\"; python tools\\\\qa_draft.py --all 2>&1 | Select-String -Pattern '検品対象|ERROR|WARN|INFO|---|検品完了' | ForEach-Object { $_.Line })"
     ]
   }
 }

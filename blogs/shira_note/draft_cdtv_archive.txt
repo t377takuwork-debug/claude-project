@@ -4,7 +4,11 @@
 2026年6月放送「CDTVライブ！ライブ！」のタイムテーブル、出演者、歌唱曲などを過去のアーカイブとして掲載。SixTONESのマンスリーライブや3時間SP・青春ソングフェス企画も振り返りでまとめています。
 
 <!-- wp:paragraph -->
-<p>この記事では、2026年6月に放送された『CDTVライブ！ライブ！』の出演アーティストや歌唱曲、そしてタイムテーブル（出演順）をアーカイブとしてまとめています。[nopc][title][/nopc]</p>
+<p>この記事では、2026年6月に放送された『CDTVライブ！ライブ！』の出演アーティストや歌唱曲、そしてタイムテーブル（出演順）をアーカイブとしてまとめています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][title][/nopc]</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -74,7 +78,11 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>[nopc][mokujimae][/nopc]当サイト独自の視点として、SNS上の反響を交えた見どころ解説も掲載しているので、放送を振り返る際の参考にぜひ活用してください！</p>
+<p>[nopc][mokujimae][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>当サイト独自の視点として、SNS上の反響を交えた見どころ解説も掲載しているので、放送を振り返る際の参考にぜひ活用してください！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -224,7 +232,7 @@
 <span style="background:#ff008d;color:#fff;font-size:9px;font-weight:900;padding:2px 6px;transform:skewX(-15deg);">MONTHLY LIVE 2nd WEEK</span>
 </div>
 <div style="color:#f9ff00;font-size:11px;font-weight:700;margin-bottom:6px;">「Strawberry Breakfast」（民放TV初披露）／「バリア」／「Flower cloud」（民放TV初披露）／「マスカラ」</div>
-<p style="margin:0;color:#aaa;font-size:10px;line-height:1.5;">6月度マンスリーライブ第2週はラブソングテーマ。民放テレビ初披露2曲を含む4曲フルサイズで3時間SPのフィナーレを飾ります。</p>
+<p style="margin:0;color:#aaa;font-size:10px;line-height:1.5;">6月度マンスリーライブ第2週はラブソングテーマ。民放テレビ初披露2曲を含む4曲フルサイズで3時間SPのラストに登場しました。</p>
 </div>
 
 <div style="position:relative;background:#111;border:1px solid #222;border-radius:4px;padding:12px;">

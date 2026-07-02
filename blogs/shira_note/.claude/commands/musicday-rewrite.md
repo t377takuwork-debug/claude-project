@@ -208,9 +208,27 @@ H2テキストの年号を更新する。
 
 **ARTISTSグリッド（2カラム）**を最新の出演者に更新する。
 
+**カード構造（2026-07-02〜）**：グリッドdiv内に `<style>` ブロックを1つだけ置き、`.artist-card` / `.artist-name` / `.song-name` クラスで統一する（旧来のdiv毎インラインstyle直書きは廃止）。
+
+```html
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4px;">
+  <style>
+    .artist-card { background: #ffffff; padding: 6px; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 12px; line-height: 1.3; }
+    .artist-name { font-weight: 700; color: #0f172a; display: block; }
+    .song-name { color: #0284c7; font-size: 10px; }
+  </style>
+
+  <div class="artist-card"><span class="artist-name">アーティスト名</span></div>
+  <div class="artist-card"><span class="artist-name">歌唱曲確定アーティスト</span><span class="song-name">曲名</span></div>
+</div>
+```
+
 | 操作 | 内容 |
 |---|---|
-| 各divのアーティスト名 | 最新の出演者に差し替え（発表順・アイウエオ順どちらでも可） |
+| 各カードのアーティスト名 | 最新の出演者に差し替え（発表順・アイウエオ順どちらでも可） |
+| 歌唱曲が判明した場合 | `<span class="song-name">曲名</span>` を追加。2曲以上は「曲名 他」または「曲名 / 曲名」で簡潔に収める |
+| メンバー名・所属など補足情報 | 省略せず残す（例：「けんじ（19ジューク、3B LAB.☆S）」「BEOMGYU/TAEHYUN/HUENINGKAI（TXT）」）。ユニット表記に丸めない |
+| `<style>`ブロック | グリッド内に1つのみ。Edit時に重複追加しない |
 | 未発表組 | 「出演者は順次追加予定」などの注記divを末尾に追加してもよい |
 
 **SPECIAL PROJECTS**の各エントリを今年の企画に更新する。
