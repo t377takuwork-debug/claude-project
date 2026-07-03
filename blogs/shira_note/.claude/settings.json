@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(cd*)",
+      "PowerShell(Get-ChildItem*)",
+      "WebFetch(domain:news.ceek.jp)",
+      "mcp__claude-in-chrome__get_page_text",
+      "PowerShell(git status*)",
+      "PowerShell(git diff*)",
+      "mcp__claude-in-chrome__tabs_context_mcp",
+      "mcp__claude-in-chrome__navigate",
+      "mcp__claude-in-chrome__read_page",
+      "Bash(python tools/qa_draft.py --all)",
+      "Bash(python tools/qa_draft.py draft_mste.txt)",
+      "Bash(python tools/qa_draft.py draft_cdtv.txt)",
+      "Bash(python tools/qa_draft.py draft_star.txt)",
+      "Bash(python tools/qa_draft.py draft_cdtv_archive.txt)",
+      "Bash(python tools/qa_draft.py draft_musicday.txt)",
+      "Bash(python tools/qa_draft.py draft_teretou.txt)",
+      "Bash(python tools/qa_draft.py draft_fns.txt)",
+      "Bash(python tools/qa_draft.py draft_ongakunohi.txt)",
+      "Bash(python tools/qa_draft.py draft_utadeaetara.txt)",
+      "Bash(python tools/qa_draft.py draft_dancebattle.txt)"
+    ]
+  }
+}

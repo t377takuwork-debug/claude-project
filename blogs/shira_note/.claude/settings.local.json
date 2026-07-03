@@ -9,7 +9,9 @@
       "WebSearch",
       "WebFetch(domain:www.thefirsttimes.jp)",
       "WebFetch(domain:natalie.mu)",
-      "Bash(python tools/collect_news.py --date 20260629)"
+      "Bash(python tools/collect_news.py --date 20260629)",
+      "WebFetch(domain:www.youtube.com)",
+      "WebFetch(domain:yutura.net)"
     ]
   }
 }

@@ -1,0 +1,670 @@
+<!-- wp:paragraph -->
+タイトル：音楽の日2026 ダンスバトル(DREAMダンス)は何時から？出演者・事務所まとめ
+
+メタディスクリプション（97字）：
+音楽の日2026「ダンスバトル(DREAMダンス)」は何時から見られる？放送日時と出演22組・事務所別チーム編成を、現時点で発表されている範囲でまとめました。見逃し配信の確認方法もあわせて紹介！
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>毎年恒例となっている「音楽の日」のダンス企画「DREAM ダンス」が2026年も決定しました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][title][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside class="music-day-panel" role="region" aria-label="音楽の日2026 DREAMダンス基本情報" style="
+  position: relative;
+  margin: 24px 0;
+  padding: 1px;
+  border-radius: 12px;
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+">
+
+  <!-- ヘッダー -->
+  <div style="position: relative; background: #2c3e50; padding: 8px 16px; display: flex; justify-content: space-between; align-items: center; clip-path: polygon(0 0, 100% 0, 98% 100%, 0% 100%); z-index: 2;">
+    <div style="font-size: 11px; font-weight: 900; letter-spacing: 0.05em; color: #fff;">音楽の日 2026</div>
+    <div style="display: flex; align-items: center; gap: 5px; font-size: 9px; font-weight: 800; background: rgba(255,255,255,0.15); padding: 2px 8px; border-radius: 2px; color: #fff;">
+      <span style="width: 5px; height: 5px; background: #3498db; border-radius: 50%; box-shadow: 0 0 6px #3498db;"></span> DREAMダンス
+    </div>
+  </div>
+
+  <!-- コンテンツ -->
+  <div style="position: relative; padding: 16px; display: grid; gap: 14px; z-index: 2;">
+
+    <!-- 放送情報 -->
+    <div style="display: flex; align-items: flex-start; gap: 10px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 900; background: #2c3e50; color: #fff; padding: 2px 6px; transform: skewX(-15deg); text-align: center; min-width: 60px; margin-top: 2px;">放送予定</div>
+      <div style="flex: 1;">
+        <span style="font-size: 15px; font-weight: 900; color: #2c3e50; display: block; margin-bottom: 2px; line-height: 1.2;">2026.07.18 (土) 14:00〜</span>
+        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 2px;">
+          <span style="color: #666; font-size: 10px; font-weight: 600;">TBS系列全国生放送</span>
+          <span style="display: inline-flex; align-items: center; gap: 5px; padding: 1px 7px; border-radius: 999px; background: #eee; border: 1px solid #ddd; color: #555; font-size: 9px; font-weight: 800;">
+            2026.07.03 更新
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 現状ステータス -->
+    <div style="display: flex; align-items: flex-start; gap: 10px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 900; background: #2c3e50; color: #fff; padding: 2px 6px; transform: skewX(-15deg); min-width: 60px;">状況</div>
+      <div style="flex: 1; font-size: 12px; font-weight: 700; color: #3498db;">
+        出演22組・事務所別編成を発表済
+      </div>
+    </div>
+
+    <!-- ラインナップ -->
+    <div style="display: flex; align-items: flex-start; gap: 10px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 900; background: #2c3e50; color: #fff; padding: 2px 6px; transform: skewX(-15deg); min-width: 60px;">参加組</div>
+      <div style="flex: 1; font-size: 11.5px; line-height: 1.6; color: #444;">
+        LDH、坂道、スターダスト、STARTO、BMSG、ライジング、レジェンドチーム等。<br>
+        <span style="color:#d35400; font-weight: 700;">※詳細は記事後半で解説</span>
+      </div>
+    </div>
+
+    <!-- ハイライト：ここをタイムテーブルへのリンクに -->
+    <div style="background: rgba(52, 152, 219, 0.08); border-left:3px solid #3498db; padding:8px 12px; font-size:10.5px; color:#2c3e50; font-weight:700;">
+      番組全体のタイムテーブル詳細は <a href="https://shira-treat.com/ongakunohi-timetable/" style="color:#2c3e50; text-decoration:underline;">こちらから確認できます</a>
+    </div>
+
+  </div>
+
+  <!-- フッター -->
+  <div style="background:#fff; padding:10px 14px; display:flex; justify-content:space-between; border-top:1px solid #eee;">
+    <a href="#st-toc-h-3" style="background:#2c3e50; color:#fff; text-decoration:none; font-size:11px; font-weight:900; padding:8px 16px; border-radius:4px; display:block; width:100%; text-align:center;">
+      出演メンバー編成詳細を見る ▶
+    </a>
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][mokujimae][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>この記事では、発表されている出演メンバーやチーム編成など気になる情報を以下にまとめています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>放送開始までにぜひチェックしてください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>音楽の日2026 ダンスバトル(DREAMダンス)は何時から？</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside class="music-day-panel" role="region" aria-label="DREAMダンス放送時間について" style="
+  position: relative;
+  margin: 24px 0;
+  padding: 1px;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 2px solid #2c3e50;
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+">
+
+  <!-- ヘッダー：カラーを反転させ、視認性を向上 -->
+  <div style="background: #2c3e50; padding: 12px 16px; color: #fff;">
+    <div style="font-size: 10px; font-weight: 800; letter-spacing: 0.15em; opacity: 0.8; margin-bottom: 2px;">DREAM DANCE</div>
+    <div style="font-size: 16px; font-weight: 900;">放送時間について</div>
+  </div>
+
+  <!-- コンテンツ -->
+  <div style="padding: 20px;">
+
+    <div style="display: grid; gap: 16px;">
+      <!-- 放送予定 -->
+      <div>
+        <div style="font-size: 9px; font-weight: 900; color: #7f8c8d; margin-bottom: 4px;">放送予定日時</div>
+        <div style="font-size: 15px; font-weight: 800; color: #2c3e50;">2026年7月18日(土) 14:00〜</div>
+      </div>
+
+      <!-- 現状報告 -->
+      <div style="background: #fdf2f2; border-left: 4px solid #e74c3c; padding: 12px;">
+        <div style="font-size: 9px; font-weight: 900; color: #c0392b; margin-bottom: 4px;">現在のステータス</div>
+        <div style="font-size: 13px; font-weight: 700; color: #333; line-height: 1.5;">
+          ダンスバトルの披露時間は<br>
+          <span style="color: #e74c3c;">現時点で公式発表されていません。</span>
+        </div>
+      </div>
+
+      <!-- 更新のお知らせ -->
+      <div style="font-size: 12px; color: #666; line-height: 1.6; border-top: 1px solid #eee; padding-top: 12px;">
+        例年、放送前日ごろに公式タイムテーブルが発表される傾向があります。情報が公開され次第、当記事でも更新予定。
+      </div>
+    </div>
+
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>「音楽の日2026」は7月18日(土)14:00より8時間の生放送となりますが、注目のダンス企画「DREAMダンス」の具体的な放送時間については、現在公式発表を待っている状況です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>出演者・事務所別チーム編成一覧</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<figure class="wp-block-image aligncenter"><img src="https://shira-treat.com/wp-content/uploads/2026/04/image-2-2.webp" alt="【2026最新】音楽の日 タイムテーブル・出演者一覧！出演時間と順番を随時更新" class="wp-image-6048"/><figcaption class="wp-element-caption"><a href="https://www.tbs.co.jp/ongakunohi/" target="_blank" rel="noreferrer noopener">公式サイト</a>｜<a href="https://x.com/tbs_ongakunohi" target="_blank" rel="noreferrer noopener">公式X(@TBS_ONGAKUNOHI)</a></figcaption></figure>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>DREAM ダンスに参加する選抜メンバーは以下の通り発表されています（2026年7月上旬時点）。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="team-list-container" style="margin: 24px 0;">
+  <style>
+    .team-table { width: 100%; border-collapse: collapse; font-size: 13px; line-height: 1.6; }
+    .team-table th, .team-table td { border: 1px solid #ddd; padding: 12px; }
+    .team-table thead { background: #2c3e50; color: #fff; }
+
+    /* スマホ表示対応 */
+    @media (max-width: 600px) {
+      .team-table thead { display: none; } /* ヘッダーを隠す */
+      .team-table, .team-table tbody, .team-table tr, .team-table td { display: block; width: 100%; }
+      .team-table tr { margin-bottom: 15px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+      .team-table td { border: none; border-bottom: 1px solid #eee; }
+      .team-table td:first-child { background: #f2f6fa; font-weight: 900; color: #2c3e50; padding-bottom: 4px; }
+    }
+  </style>
+
+  <table class="team-table" role="region" aria-label="DREAMダンス事務所別選抜メンバー一覧">
+    <thead>
+      <tr>
+        <th style="white-space: nowrap;">選抜チーム</th>
+        <th>メンバー</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>LDH選抜</td><td>小森隼・中務裕太(GENERATIONS)、陣・岩谷翔吾・浦川翔平(THE RAMPAGE)、松井利樹・砂田将宏(BALLISTIK BOYZ)、JIMMY・小波津志(PSYCHIC FEVER)、SHOW・TAKUMI・HINATA・TAKI(THE JET BOY BANGERZ)</td></tr>
+      <tr><td>坂道選抜</td><td>岩本蓮加・一ノ瀬美空・瀬戸口心月(乃木坂46)、小島凪紗・谷口愛季・山下瞳月(櫻坂46)、金村美玖・小西夏菜実・渡辺莉奈(日向坂46)</td></tr>
+      <tr><td>スターダスト選抜</td><td>ユーキ・マサヒロ(超特急)、EIKU・HAYATO(ONE N' ONLY)、FUMINORI・FUMIYA(BUDDiiS)</td></tr>
+      <tr><td>STARTO選抜</td><td>千賀健永(Kis-My-Ft2)、宮近海斗・中村海人・七五三掛龍也・松倉海斗(Travis Japan)</td></tr>
+      <tr><td>BMSG選抜</td><td>SOTA・SHUNTO・RYUHEI(BE:FIRST)、RAN・SEITO・RYUKI・TAKUTO(MAZZEL)、TAIKI(STARGLOW)、Aile The Shota</td></tr>
+      <tr><td>ライジング選抜</td><td>YORI・TOMO・KIMI・U-YEAH(DA PUMP)、NANA・LINA(MAX)、谷内伸也(Lead)、小池成(プラチナボーイズ)、輝叶</td></tr>
+      <tr><td>レジェンドチーム</td><td>SAM・ETSU・CHIHARU(TRF)、EXILE 松本利夫・ÜSA・MAKIDAI</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size: 11px; color: #666; margin-top: 8px;">※2026年7月上旬時点。追加メンバー発表の可能性あり。</p>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>上記の選抜メンバーはあくまで「DREAM ダンス」枠の出演者です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>「音楽の日2026」番組全体としては、先日第2弾アーティストとして計22組の出演が発表されています。<br>
+⇒<a href="https://shira-treat.com/ongakunohi-timetable/">音楽の日タイムテーブル｜出演者の順番や出演時間まとめ</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>ダンスバトル(DREAMダンス)とは？今年の企画テーマ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>「音楽の日」恒例のダンス企画である「DREAM ダンス」は、事務所やグループの垣根をこえた一夜限りの特別チームを結成する夢のプロジェクトです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside class="dream-dance-summary" role="region" aria-label="DREAMダンス2026 企画テーマ・構成" style="
+  margin: 24px 0;
+  padding: 20px;
+  border-radius: 12px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+">
+  <!-- タイトル -->
+  <div style="border-bottom: 2px solid #2c3e50; padding-bottom: 8px; margin-bottom: 16px;">
+    <div style="font-size: 10px; font-weight: 800; color: #7f8c8d; letter-spacing: 0.1em;">DREAM DANCE 2026</div>
+    <div style="font-size: 18px; font-weight: 900; color: #2c3e50;">今年の企画テーマ・構成</div>
+  </div>
+
+  <!-- グリッドコンテンツ -->
+  <div style="display: grid; gap: 16px;">
+    <!-- コンセプト -->
+    <div>
+      <div style="font-size: 10px; font-weight: 900; color: #2c3e50; margin-bottom: 4px;">テーマ：「こえる。きこえる。」</div>
+      <p style="font-size: 13px; color: #444; line-height: 1.6; margin: 0;">
+        「限界をこえる」を掲げ、s**t kingzプロデュースのもと各事務所の精鋭たちが"超DREAM TEAM"を結成。過去を塗り替える圧巻のステージに挑みます。
+      </p>
+    </div>
+
+    <!-- 構成リスト -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+      <div style="background: #f8f9fa; padding: 10px; border-radius: 6px;">
+        <div style="font-size: 9px; font-weight: 900; color: #3498db; margin-bottom: 2px;">オープニング</div>
+        <div style="font-size: 12px; font-weight: 800; color: #2c3e50;">時代を越えるダンス</div>
+      </div>
+      <div style="background: #f8f9fa; padding: 10px; border-radius: 6px;">
+        <div style="font-size: 9px; font-weight: 900; color: #3498db; margin-bottom: 2px;">ハーフタイム</div>
+        <div style="font-size: 12px; font-weight: 800; color: #2c3e50;">レジェンドが共演</div>
+      </div>
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>今年の参加事務所は、LDH、坂道グループ、スターダスト、STARTO ENTERTAINMENT、BMSG、ライジングプロダクションに加え、ダンス界を牽引するレジェンドチームの豪華ラインナップ。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>st kingzによるプロデュースでどのようなパフォーマンスが生まれるのか、各事務所の精鋭たちがどう融合するのかなど要注目ですね。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>音楽の日2026の見逃し配信やリアルタイム配信について</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>「音楽の日2026」の放送を見逃してしまった場合や、外出先などでリアルタイム視聴が難しい場合の配信対応については以下の通りです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="delivery-info-box" role="region" aria-label="音楽の日2026 見逃し配信について" style="
+  margin: 24px 0; 
+  padding: 20px; 
+  border-radius: 12px; 
+  background: #f0f7ff; 
+  border: 1px solid #cce5ff; 
+  box-sizing: border-box; 
+  width: 100%;
+">
+  <div style="font-size: 14px; font-weight: 900; color: #004085; margin-bottom: 12px; display: flex; align-items: center;">
+    <span style="margin-right: 8px;">📺</span> 見逃し配信について
+  </div>
+
+  <p style="font-size: 13px; color: #004085; line-height: 1.6; margin: 0; word-break: break-all;">
+    「音楽の日2026」の見逃し配信は、民放公式テレビ配信サービス<span style="font-weight: bold;">「TVer」</span>にて実施される予定です。<br>
+    放送終了後から配信が開始されますので、リアルタイムで見られない方はぜひこちらをご利用ください。
+  </p>
+
+  <div style="margin-top: 16px;">
+    <a href="https://tver.jp/series/sr87xsb26t" style="
+      display: block; 
+      width: 100%; 
+      background: #2c3e50; 
+      color: #ffffff; 
+      text-align: center; 
+      padding: 12px 0; 
+      border-radius: 6px; 
+      text-decoration: none; 
+      font-size: 13px; 
+      font-weight: 800;
+      box-sizing: border-box;
+    ">
+      TVerで「音楽の日」をチェックする ▶
+    </a>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>番組はTBS系列にて全国生放送されます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>テレビがない環境などの場合は、TVerのリアルタイム配信機能にも対応している可能性があるため、番組開始前にTVer公式サイトにて配信対象となっているかあわせて確認しておきましょう。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>よくある質問（FAQ）</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div class="faq-container" role="region" aria-label="よくある質問" style="margin: 24px 0; border: 1px solid #e0e0e0; border-radius: 8px; background: #ffffff; padding: 20px;">
+
+  <!-- Q1 -->
+  <div style="margin-bottom: 24px;">
+    <h3 style="font-size: 16px; color: #2c3e50; margin: 0 0 8px 0; padding: 0 0 0 10px; border-left: 4px solid #3498db;">Q. ダンスバトルとDREAMダンスは同じ企画？</h3>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin: 4px 0 0 14px;">はい、同じ企画です。通称として「ダンスバトル」と呼ばれますが、番組内では「DREAMダンス」の名称が正式に使われています。</p>
+  </div>
+
+  <!-- Q2 -->
+  <div style="margin-bottom: 24px;">
+    <h3 style="font-size: 16px; color: #2c3e50; margin: 0 0 8px 0; padding: 0 0 0 10px; border-left: 4px solid #3498db;">Q. 詳しいタイムテーブルはいつわかる？</h3>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin: 4px 0 0 14px;">例年、放送前日ごろに公式発表される傾向があります。番組全体の最新タイムテーブルについては<a href="https://shira-treat.com/ongakunohi-timetable/" style="color:#3498db; text-decoration:underline; font-weight:bold;">こちらの記事</a>にて随時公開していますので、ぜひチェックしてください。</p>
+  </div>
+
+  <!-- Q3 -->
+  <div style="margin-bottom: 24px;">
+    <h3 style="font-size: 16px; color: #2c3e50; margin: 0 0 8px 0; padding: 0 0 0 10px; border-left: 4px solid #3498db;">Q. 見逃し配信やTVerでの視聴はできる？</h3>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin: 4px 0 0 14px;">はい、TVerでの配信が予定されています。詳細な視聴方法やリンクについては、<a href="https://tver.jp/series/sr87xsb26t" style="color:#3498db; text-decoration:underline; font-weight:bold;">こちら</a>をご確認ください。</p>
+  </div>
+
+  <!-- Q4 -->
+  <div style="margin: 0;">
+    <h3 style="font-size: 16px; color: #2c3e50; margin: 0 0 8px 0; padding: 0 0 0 10px; border-left: 4px solid #3498db;">Q. 音楽の日2026の放送時間は？</h3>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin: 4px 0 0 14px;">2026年7月18日(土) 14:00〜21:56にTBS系列で全国生放送される予定です。</p>
+  </div>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>「音楽の日2026 ダンスバトル(DREAMダンス)」は7月18日(土)14:00〜21:56の生放送内で披露される予定です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>LDH・坂道グループ・スターダスト・STARTO ENTERTAINMENT・BMSG・ライジングプロダクション・レジェンドチームの選抜メンバーがすでに発表されていますが、詳しいタイムテーブルやパフォーマンスの詳細などは続報待ちの状況です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>続報が入り次第、この記事を更新します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="margin: 18px 0 14px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px 10px; font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #ff008d; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">他の音楽番組もチェック</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px;">
+
+    <a href="https://shira-treat.com/cdtv-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        CDTV <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/star-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        STAR <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/music-station-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        Mステ <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/fnskayousai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        FNS歌謡祭 <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/the-musicday-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        THE MUSIC DAY <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/teretoongakusai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        テレ東音楽祭 <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+  </div>
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #64748b; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">出演者の作品を探す</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
+    <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #232f3e; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #161d26;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        CDをAmazonで探す <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
+      </span>
+    </a>
+
+    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fdaily%2F002%2F" target="_blank" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        楽天ブックスでCDを探す <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
+      </span>
+    </a>
+  </div>
+
+  <img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+
+  <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #001a4d, #003399); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid #00d4ff; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
+    <span style="font-size: 9px; font-weight: 900; color: #00d4ff; border: 1px solid #00d4ff; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 3px;">Music</span>
+    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を聴く（30日間無料）</span>
+    <span style="font-size: 18px; color: #00d4ff; margin-left: auto;">›</span>
+  </a>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<!-- MANUAL_JSONLD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://shira-treat.com/dancebattle-2026/#post",
+      "url": "https://shira-treat.com/dancebattle-2026/",
+      "headline": "音楽の日2026 ダンスバトル(DREAMダンス)は何時から？出演者・事務所まとめ",
+      "description": "音楽の日2026「ダンスバトル(DREAMダンス)」は何時から見られる？放送日時と出演22組・事務所別チーム編成を、現時点で発表されている範囲でまとめました。見逃し配信の確認方法もあわせて紹介！",
+      "keywords": [
+        "音楽の日2026",
+        "ダンスバトル",
+        "DREAMダンス",
+        "出演者",
+        "事務所別",
+        "何時から",
+        "タイムテーブル",
+        "見逃し配信",
+        "TVer"
+      ],
+      "datePublished": "2026-07-03T12:00:00+09:00",
+      "dateCreated": "2026-07-03T12:00:00+09:00",
+      "dateModified": "2026-07-03T12:00:00+09:00",
+      "inLanguage": "ja",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://shira-treat.com/dancebattle-2026/#heroimage",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/07/image-8.webp",
+        "width": 1200,
+        "height": 675
+      },
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/07/image-8.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/operator-information/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/",
+        "sameAs": [
+          "https://x.com/ShiraNotes_"
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "articleSection": "音楽の日",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "音楽の日2026 DREAMダンス",
+          "sameAs": [
+            "https://www.tbs.co.jp/ongakunohi/",
+            "https://x.com/tbs_ongakunohi"
+          ]
+        }
+      ],
+      "mentions": [
+        { "@type": "Organization", "name": "LDH" },
+        { "@type": "Organization", "name": "坂道グループ" },
+        { "@type": "Organization", "name": "スターダストプロモーション" },
+        { "@type": "Organization", "name": "STARTO ENTERTAINMENT" },
+        { "@type": "Organization", "name": "BMSG" },
+        { "@type": "Organization", "name": "ライジングプロダクション" }
+      ],
+      "hasPart": [
+        { "@id": "https://shira-treat.com/dancebattle-2026/#broadcast" },
+        { "@id": "https://shira-treat.com/dancebattle-2026/#lineup" },
+        { "@id": "https://shira-treat.com/dancebattle-2026/#faq" },
+        { "@id": "https://shira-treat.com/dancebattle-2026/#breadcrumb" }
+      ]
+    },
+    {
+      "@type": "BroadcastEvent",
+      "@id": "https://shira-treat.com/dancebattle-2026/#broadcast",
+      "name": "音楽の日2026 ダンスバトル(DREAMダンス)",
+      "startDate": "2026-07-18T14:00:00+09:00",
+      "endDate": "2026-07-18T21:56:00+09:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "isLiveBroadcast": true,
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://www.tbs.co.jp/ongakunohi/"
+      },
+      "performer": [
+        { "@type": "MusicGroup", "name": "GENERATIONS" },
+        { "@type": "MusicGroup", "name": "THE RAMPAGE" },
+        { "@type": "MusicGroup", "name": "BALLISTIK BOYZ" },
+        { "@type": "MusicGroup", "name": "PSYCHIC FEVER" },
+        { "@type": "MusicGroup", "name": "THE JET BOY BANGERZ" },
+        { "@type": "MusicGroup", "name": "乃木坂46" },
+        { "@type": "MusicGroup", "name": "櫻坂46" },
+        { "@type": "MusicGroup", "name": "日向坂46" },
+        { "@type": "MusicGroup", "name": "超特急" },
+        { "@type": "MusicGroup", "name": "ONE N' ONLY" },
+        { "@type": "MusicGroup", "name": "BUDDiiS" },
+        { "@type": "MusicGroup", "name": "Kis-My-Ft2" },
+        { "@type": "MusicGroup", "name": "Travis Japan" },
+        { "@type": "MusicGroup", "name": "BE:FIRST" },
+        { "@type": "MusicGroup", "name": "MAZZEL" },
+        { "@type": "MusicGroup", "name": "STARGLOW" },
+        { "@type": "Person", "name": "Aile The Shota" },
+        { "@type": "MusicGroup", "name": "DA PUMP" },
+        { "@type": "MusicGroup", "name": "MAX" },
+        { "@type": "MusicGroup", "name": "Lead" },
+        { "@type": "MusicGroup", "name": "プラチナボーイズ" },
+        { "@type": "Person", "name": "輝叶" },
+        { "@type": "MusicGroup", "name": "TRF" },
+        { "@type": "Person", "name": "EXILE 松本利夫" },
+        { "@type": "Person", "name": "EXILE ÜSA" },
+        { "@type": "Person", "name": "EXILE MAKIDAI" }
+      ],
+      "broadcaster": {
+        "@type": "Organization",
+        "name": "TBSテレビ",
+        "sameAs": "https://www.tbs.co.jp/"
+      },
+      "potentialAction": {
+        "@type": "WatchAction",
+        "target": "https://tver.jp/series/sr87xsb26t"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://shira-treat.com/dancebattle-2026/#lineup",
+      "name": "DREAMダンス 事務所別選抜チーム編成",
+      "numberOfItems": 7,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "LDH選抜" },
+        { "@type": "ListItem", "position": 2, "name": "坂道選抜" },
+        { "@type": "ListItem", "position": 3, "name": "スターダスト選抜" },
+        { "@type": "ListItem", "position": 4, "name": "STARTO選抜" },
+        { "@type": "ListItem", "position": 5, "name": "BMSG選抜" },
+        { "@type": "ListItem", "position": 6, "name": "ライジング選抜" },
+        { "@type": "ListItem", "position": 7, "name": "レジェンドチーム" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://shira-treat.com/dancebattle-2026/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "ダンスバトルとDREAMダンスは同じ企画？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい、同じ企画です。通称として「ダンスバトル」と呼ばれますが、番組内では「DREAMダンス」の名称が正式に使われています。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "詳しいタイムテーブルはいつわかる？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "例年、放送前日ごろに公式発表される傾向があります。番組全体の最新タイムテーブルについては当サイトの音楽の日タイムテーブル記事にて随時公開しています。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "見逃し配信やTVerでの視聴はできる？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい、TVerでの配信が予定されています。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "音楽の日2026の放送時間は？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2026年7月18日(土) 14:00〜21:56にTBS系列で全国生放送される予定です。"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://shira-treat.com/dancebattle-2026/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://shira-treat.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "記事",
+          "item": "https://shira-treat.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "音楽の日2026 ダンスバトル(DREAMダンス)まとめ",
+          "item": "https://shira-treat.com/dancebattle-2026/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<!-- /wp:html -->

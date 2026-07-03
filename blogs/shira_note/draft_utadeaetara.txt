@@ -1,8 +1,8 @@
 ﻿<!-- wp:paragraph -->
-タイトル：NHK夏の音楽祭 うたであえたら タイムテーブル｜出演者や順番を随時更新【2026】
+タイトル：NHK夏の音楽祭 うたであえたら2026 タイムテーブル｜出演者や順番を随時更新
 
-メタディスクリプション（109字）：
-8/15放送「NHK夏の音楽祭 うたであえたら 2026」の出演順・タイムテーブルをどこよりも早く更新！大森元貴（Mrs. GREEN APPLE）初司会の注目特番。見逃し配信や観覧情報も網羅した最新情報まとめ。
+メタディスクリプション（102字）：
+8/15放送「NHK夏の音楽祭 うたであえたら 2026」出演アーティスト31組・司会3名（大森元貴・北川景子・二宮和也）が発表！順番など最新タイムテーブルや観覧募集・リクエスト応募情報も随時更新中です。
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -54,11 +54,11 @@
     <div style="margin-bottom: 16px; color: #333; font-size: 12px; line-height: 1.6;">
       <div style="display: flex; margin-bottom: 6px;">
         <span style="font-weight: 700; min-width: 45px;">司会：</span>
-        <span>大森元貴（他2名は7月発表予定）</span>
+        <span>大森元貴・北川景子・二宮和也の3名</span>
       </div>
       <div style="display: flex; margin-bottom: 6px;">
         <span style="font-weight: 700; min-width: 45px;">出演者：</span>
-        <span style="color: #007bff; font-weight: 600;">未発表（順次追記）</span>
+        <span style="color: #007bff; font-weight: 600;">31組発表（ほか追加予定）</span>
       </div>
       <div style="display: flex;">
         <span style="font-weight: 700; min-width: 45px;">進行：</span>
@@ -89,8 +89,13 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演アーティストや詳しい出演順は現時点で未発表のため、公式発表があり次第このページで随時更新していきます。</p>
+<p>出演アーティスト31組が発表されました！</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>詳しい出演順（タイムテーブル）は現時点で未発表のため、公式発表があり次第このページで随時更新していきます。</p>
+<!-- /wp:paragraph -->
+
 
 <!-- wp:heading -->
 <h2>NHK夏の音楽祭 うたであえたら 最新タイムテーブル【8/15】</h2>
@@ -159,7 +164,7 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>出演順・タイムテーブルは現時点で未発表です。</p>
+<p>出演順・タイムテーブルは現時点で未発表。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -171,7 +176,8 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>出演アーティストや歌唱曲は2026年7月1日時点で未発表です。</p>
+<p>出演アーティスト31組が発表されましたが、歌唱曲は2026年7月3日時点で未発表です。
+※出演者・ゲストは今後も追加発表予定です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -192,65 +198,125 @@
     </div>
 
     <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px;">
-      <!-- リスト項目（未発表状態） -->
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;">
-        <strong>出演者順次発表</strong><br>
-        <span style="color: #64748b;">楽曲準備中</span>
-      </div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;">
-        <strong>出演者順次発表</strong><br>
-        <span style="color: #64748b;">楽曲準備中</span>
-      </div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;">
-        <strong>出演者順次発表</strong><br>
-        <span style="color: #64748b;">楽曲準備中</span>
-      </div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;">
-        <strong>出演者順次発表</strong><br>
-        <span style="color: #64748b;">楽曲準備中</span>
-      </div>
+      <!-- 出演アーティスト（50音順・31組） -->
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>あいみょん</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>新しい学校のリーダーズ</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>生田絵梨花</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>＝LOVE</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>一之森大湖</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>Aぇ! group</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>大泉洋</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>大森元貴</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>ORANGE RANGE</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>串田アキラ</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>郷ひろみ</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>さだまさし</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>純烈</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>德永英明</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>新浜レオン</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>ハンバート ハンバート</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>氷川きよし</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>福山雅治</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>FRUITS ZIPPER</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>増田惠子（ピンク・レディー）</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>Mrs. GREEN APPLE</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>南こうせつ</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>南野陽子</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>宮本浩次</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>M!LK</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>モナキ</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>森山良子</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>山崎育三郎</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>山本リンダ</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>LUNA SEA</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>渡辺美里</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
     </div>
   </div>
 
   <!-- フッター -->
   <div style="padding: 12px 16px; background: #f8fbff; border-top: 1px solid #e2e8f0;">
     <p style="margin: 0; font-size: 11px; color: #64748b; text-align: center;">
-      ※出演者および歌唱曲は現在調整中です。決定次第、随時更新いたします。
+      ※上記は2026年7月3日時点の発表分（50音順）。歌唱曲は未発表・出演者は今後も追加発表予定です。さだまさし・Mrs. GREEN APPLEの2組は8月9日の公開収録には出演しません。
     </p>
   </div>
 </div>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>「豪華アーティストが出演予定」とのみ公式から案内されており、詳細は後日発表されます。</p>
+<p>あいみょんや福山雅治、LUNA SEA、Aぇ! groupなど世代を超えた豪華31組が発表！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>出演者・ゲストは今後も追加発表される予定です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>司会は大森元貴（Mrs. GREEN APPLE）｜音楽番組初司会</h2>
+<h2>司会は大森元貴・北川景子・二宮和也の3名</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>今回、記念すべき音楽番組の司会に抜擢されたのは、Mrs. GREEN APPLEの大森元貴さんです。</p>
+<p>今回の司会に抜擢されたのは、大森元貴さん（Mrs. GREEN APPLE）・北川景子さん・二宮和也さんの3名です！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="司会者" style="
+  margin: 24px 0;
+  padding: 2px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #007bff 0%, #00d2ff 100%);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  overflow: hidden;
+">
+  <div style="background: #ffffff; padding: 20px;">
+    <!-- ヘッダー -->
+    <div style="margin-bottom: 16px;">
+      <div style="font-size: 10px; font-weight: 900; color: #007bff; letter-spacing: 0.15em; margin-bottom: 4px;">MC</div>
+      <div style="font-size: 16px; font-weight: 800; color: #1a1a1a;">司会者について</div>
+    </div>
+
+    <!-- プロフィールリスト -->
+    <div style="display: grid; gap: 10px;">
+
+      <div style="padding: 12px; background: #f8fbff; border-radius: 8px; border: 1px solid #eef4fb;">
+        <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 4px; flex-wrap: wrap;">
+          <span style="font-size: 13px; font-weight: 800; color: #1a1a1a;">大森元貴</span>
+          <span style="font-size: 9px; font-weight: 800; color: #007bff; background: #eef4fb; padding: 2px 6px; border-radius: 4px;">音楽番組初司会</span>
+        </div>
+        <div style="font-size: 11px; color: #64748b; margin-bottom: 4px;">Mrs. GREEN APPLE</div>
+        <div style="font-size: 12px; color: #444; line-height: 1.6;">「家族みんなでテレビを囲んだ、あの温かい空気感を大切にしたい」</div>
+      </div>
+
+      <div style="padding: 12px; background: #f8fbff; border-radius: 8px; border: 1px solid #eef4fb;">
+        <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 4px; flex-wrap: wrap;">
+          <span style="font-size: 13px; font-weight: 800; color: #1a1a1a;">北川景子</span>
+          <span style="font-size: 9px; font-weight: 800; color: #007bff; background: #eef4fb; padding: 2px 6px; border-radius: 4px;">音楽番組司会は初挑戦</span>
+        </div>
+        <div style="font-size: 12px; color: #444; line-height: 1.6; margin-top: 4px;">「音楽は日頃から親しんでいる」</div>
+      </div>
+
+      <div style="padding: 12px; background: #f8fbff; border-radius: 8px; border: 1px solid #eef4fb;">
+        <div style="display: flex; align-items: center; gap: 6px; margin-bottom: 4px; flex-wrap: wrap;">
+          <span style="font-size: 13px; font-weight: 800; color: #1a1a1a;">二宮和也</span>
+          <span style="font-size: 9px; font-weight: 800; color: #007bff; background: #eef4fb; padding: 2px 6px; border-radius: 4px;">昨年「MUSIC GIFT」に続き夏の音楽特番司会</span>
+        </div>
+        <div style="font-size: 12px; color: #444; line-height: 1.6; margin-top: 4px;">「非常に新鮮」</div>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>大森さんは「家族でテレビを囲んだ温かい空気を大切にしたい」と話しており、アーティストとはまた違う司会者として顔も楽しみです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>初の挑戦に「大変光栄です」と喜びつつも、ちょっぴり緊張もされている様子でした。</p>
+<p>北川さんは、作り手の思いを橋渡ししながら、家族で絆を深められるような番組作りを目指しているとのことです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>大森さんはお盆という季節に合わせて、「家族みんなでテレビを囲んだ、あの温かい空気感を大切にしたい」と語られていました。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>アーティストとしてだけでなく、司会者としてどんな表情を見せてくれるのかも楽しみになりますね。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>残る2名の司会者は7月1日（水）・7月2日（木）にそれぞれ発表予定です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>発表され次第このページに追記します。</p>
+<p>二宮さんは、この新しい組み合わせを「非常に新鮮」と語り、世代を超えて歌の会話がはずむお盆の夜を届けようと意気込んでいました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -303,8 +369,8 @@
       <div style="display: flex; gap: 12px; align-items: flex-start;">
         <div style="flex-shrink: 0; width: 24px; height: 24px; background: #eef4fb; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #007bff; font-weight: bold;">03</div>
         <div>
-          <div style="font-size: 13px; font-weight: 800; color: #1a1a1a; margin-bottom: 2px;">大森元貴 初の司会挑戦</div>
-          <div style="font-size: 12px; color: #555; line-height: 1.6;">アーティストの枠を超えた、新たな一面と温かい空気感にご期待ください。</div>
+          <div style="font-size: 13px; font-weight: 800; color: #1a1a1a; margin-bottom: 2px;">大森元貴・北川景子・二宮和也の初トリオ司会</div>
+          <div style="font-size: 12px; color: #555; line-height: 1.6;">大森さんは音楽番組初司会、北川さんも司会初挑戦。3人が織りなす温かい空気感にご期待ください。</div>
         </div>
       </div>
 
@@ -356,7 +422,7 @@
       </div>
       <div style="display: flex;">
         <span style="width: 120px; font-size: 12px; color: #64748b; font-weight: 700;">応募方法</span>
-        <span style="flex: 1; font-size: 13px; font-weight: 600; color: #1a1a1a;">NHK公式サイトにて詳細発表</span>
+        <span style="flex: 1; font-size: 13px; font-weight: 600; color: #1a1a1a;">NHK公式サイトにて受付開始（詳細は公式サイト参照）</span>
       </div>
     </div>
     
@@ -376,7 +442,7 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>観覧・リクエストの詳しい応募方法は、7月3日の募集開始にあわせて公式ホームページで案内される予定です。</p>
+<p>観覧・リクエストの募集は2026年7月3日（金）13時より開始されます。詳しい応募方法は公式ホームページで案内されています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -480,7 +546,7 @@
       <div style="padding: 14px; border-radius: 10px; background: #f8fbff; border: 1px solid #eef4fb;">
         <div style="font-size: 12px; font-weight: 900; color: #007bff;">Q1｜タイムテーブルはいつ公開されますか？</div>
         <div style="margin-top: 8px; font-size: 12.5px; color: #444; line-height: 1.6;">
-          出演者・進行順の発表にあわせて、このページで随時更新いたします。放送当日はリアルタイム更新も予定しております。
+          2026年7月3日時点で出演アーティスト31組は発表されましたが、出演順・タイムテーブルは未発表です。発表され次第このページで随時更新いたします。放送当日はリアルタイム更新も予定しております。
         </div>
       </div>
 
@@ -488,7 +554,7 @@
       <div style="padding: 14px; border-radius: 10px; background: #ffffff; border: 1px solid #e2e8f0;">
         <div style="font-size: 12px; font-weight: 900; color: #1a1a1a;">Q2｜出演アーティストはいつ発表されますか？</div>
         <div style="margin-top: 8px; font-size: 12.5px; color: #444; line-height: 1.6;">
-          順次発表される見込みです。最新情報が判明次第、速報としてこのページに追記いたします。
+          2026年7月3日時点で31組が発表済みです。出演者・ゲストは今後も追加発表される予定で、最新情報が判明次第、速報としてこのページに追記いたします。
         </div>
       </div>
 
@@ -496,7 +562,7 @@
       <div style="padding: 14px; border-radius: 10px; background: #f8fbff; border: 1px solid #eef4fb;">
         <div style="font-size: 12px; font-weight: 900; color: #007bff;">Q3｜司会は大森元貴さんだけですか？</div>
         <div style="margin-top: 8px; font-size: 12.5px; color: #444; line-height: 1.6;">
-          大森元貴さん（Mrs. GREEN APPLE）を含め、計3名の司会体制となります。残る2名は7月1日・2日に発表予定です。
+          いいえ、大森元貴さん（Mrs. GREEN APPLE）・北川景子さん・二宮和也さんの3名体制です。大森さん・北川さんはともに音楽番組の司会は初挑戦となります。
         </div>
       </div>
 
@@ -504,7 +570,7 @@
       <div style="padding: 14px; border-radius: 10px; background: #ffffff; border: 1px solid #e2e8f0;">
         <div style="font-size: 12px; font-weight: 900; color: #1a1a1a;">Q4｜観覧やリクエストの応募方法は？</div>
         <div style="margin-top: 8px; font-size: 12.5px; color: #444; line-height: 1.6;">
-          7月3日（金）午後1時より募集開始です。詳細はNHK公式サイトにて発表されますので、続報をお待ちください。
+          2026年7月3日（金）午後1時より募集が開始されました。公開収録は8月9日にNHKホールで実施されます。詳しい応募方法はNHK公式サイトをご確認ください。
         </div>
       </div>
 
@@ -522,15 +588,15 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>司会は大森元貴（Mrs. GREEN APPLE）が音楽番組初起用され、残る2名も7月1日・7月2日に発表予定です。</p>
+<p>司会は大森元貴（Mrs. GREEN APPLE）・北川景子・二宮和也の3名。大森さん・北川さんはともに音楽番組の司会は初挑戦です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演アーティストは現時点で未発表ですが、豪華な顔ぶれが予定されています。</p>
+<p>出演アーティストはあいみょんや福山雅治、LUNA SEAなど31組（50音順）が発表され、豪華な顔ぶれとなりました。観覧・リクエスト募集は7月3日13時より開始されています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演者・タイムテーブルの詳細が発表され次第、このページで随時更新します。</p>
+<p>出演順・タイムテーブルの詳細が発表され次第、このページで随時更新します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -631,8 +697,8 @@
       "@type": "BlogPosting",
       "@id": "https://shira-treat.com/utadeaetara-timetable/#post",
       "url": "https://shira-treat.com/utadeaetara-timetable/",
-      "headline": "NHK夏の音楽祭 うたであえたら タイムテーブル｜出演者や順番を随時更新【2026】",
-      "description": "8/15放送「NHK夏の音楽祭 うたであえたら 2026」の出演順・タイムテーブルをどこよりも早く更新！大森元貴（Mrs. GREEN APPLE）初司会の注目特番。見逃し配信や観覧情報も網羅した最新情報まとめ。",
+      "headline": "NHK夏の音楽祭 うたであえたら2026 タイムテーブル｜出演者や順番を随時更新",
+      "description": "8/15放送「NHK夏の音楽祭 うたであえたら 2026」出演アーティスト31組・司会3名（大森元貴・北川景子・二宮和也）が発表！順番など最新タイムテーブルや観覧募集・リクエスト応募情報も随時更新中です。",
       "keywords": [
         "NHK夏の音楽祭",
         "うたであえたら",
@@ -640,22 +706,24 @@
         "出演者",
         "順番",
         "大森元貴",
+        "北川景子",
+        "二宮和也",
         "Mrs. GREEN APPLE",
         "2026",
         "NHKホール"
       ],
       "datePublished": "2026-07-01T20:00:00+09:00",
       "dateCreated": "2026-07-01T20:00:00+09:00",
-      "dateModified": "2026-07-01T20:00:00+09:00",
+      "dateModified": "2026-07-03T13:00:00+09:00",
       "inLanguage": "ja",
       "image": {
         "@type": "ImageObject",
         "@id": "https://shira-treat.com/utadeaetara-timetable/#heroimage",
-        "url": "https://shira-treat.com/wp-content/uploads/2026/07/image-6.webp",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/07/image-11.webp",
         "width": 1200,
         "height": 675
       },
-      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/07/image-6.webp",
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/07/image-11.webp",
       "author": {
         "@type": "Person",
         "name": "Shira",
@@ -701,7 +769,39 @@
         "sameAs": "https://www.nhk.jp/"
       },
       "performer": [
-        { "@type": "Person", "name": "大森元貴" }
+        { "@type": "Person", "name": "大森元貴" },
+        { "@type": "Person", "name": "北川景子" },
+        { "@type": "Person", "name": "二宮和也" },
+        { "@type": "Person", "name": "あいみょん" },
+        { "@type": "MusicGroup", "name": "新しい学校のリーダーズ" },
+        { "@type": "Person", "name": "生田絵梨花" },
+        { "@type": "MusicGroup", "name": "＝LOVE" },
+        { "@type": "Person", "name": "一之森大湖" },
+        { "@type": "MusicGroup", "name": "Aぇ! group" },
+        { "@type": "Person", "name": "大泉洋" },
+        { "@type": "MusicGroup", "name": "ORANGE RANGE" },
+        { "@type": "Person", "name": "串田アキラ" },
+        { "@type": "Person", "name": "郷ひろみ" },
+        { "@type": "Person", "name": "さだまさし" },
+        { "@type": "MusicGroup", "name": "純烈" },
+        { "@type": "Person", "name": "德永英明" },
+        { "@type": "Person", "name": "新浜レオン" },
+        { "@type": "MusicGroup", "name": "ハンバート ハンバート" },
+        { "@type": "Person", "name": "氷川きよし" },
+        { "@type": "Person", "name": "福山雅治" },
+        { "@type": "MusicGroup", "name": "FRUITS ZIPPER" },
+        { "@type": "Person", "name": "増田惠子" },
+        { "@type": "MusicGroup", "name": "Mrs. GREEN APPLE" },
+        { "@type": "Person", "name": "南こうせつ" },
+        { "@type": "Person", "name": "南野陽子" },
+        { "@type": "Person", "name": "宮本浩次" },
+        { "@type": "MusicGroup", "name": "M!LK" },
+        { "@type": "Person", "name": "モナキ" },
+        { "@type": "Person", "name": "森山良子" },
+        { "@type": "Person", "name": "山崎育三郎" },
+        { "@type": "Person", "name": "山本リンダ" },
+        { "@type": "MusicGroup", "name": "LUNA SEA" },
+        { "@type": "Person", "name": "渡辺美里" }
       ],
       "broadcaster": {
         "@type": "Organization",
@@ -718,7 +818,7 @@
           "name": "タイムテーブルはいつ公開されますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "出演者・進行順の発表にあわせて、このページで随時更新いたします。放送当日はリアルタイム更新も予定しております。"
+            "text": "2026年7月3日時点で出演アーティスト31組は発表されましたが、出演順・タイムテーブルは未発表です。発表され次第このページで随時更新いたします。放送当日はリアルタイム更新も予定しております。"
           }
         },
         {
@@ -726,7 +826,7 @@
           "name": "出演アーティストはいつ発表されますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "順次発表される見込みです。最新情報が判明次第、速報としてこのページに追記いたします。"
+            "text": "2026年7月3日時点で31組が発表済みです。出演者・ゲストは今後も追加発表される予定で、最新情報が判明次第、速報としてこのページに追記いたします。"
           }
         },
         {
@@ -734,7 +834,7 @@
           "name": "司会は大森元貴さんだけですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "大森元貴さん（Mrs. GREEN APPLE）を含め、計3名の司会体制となります。残る2名は7月1日・2日に発表予定です。"
+            "text": "いいえ、大森元貴さん（Mrs. GREEN APPLE）・北川景子さん・二宮和也さんの3名体制です。大森さん・北川さんはともに音楽番組の司会は初挑戦となります。"
           }
         },
         {
@@ -742,7 +842,7 @@
           "name": "観覧やリクエストの応募方法は？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "7月3日（金）午後1時より募集開始です。詳細はNHK公式サイトにて発表されますので、続報をお待ちください。"
+            "text": "2026年7月3日（金）午後1時より募集が開始されました。公開収録は8月9日にNHKホールで実施されます。詳しい応募方法はNHK公式サイトをご確認ください。"
           }
         }
       ]
