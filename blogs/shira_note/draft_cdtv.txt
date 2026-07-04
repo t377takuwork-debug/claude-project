@@ -122,7 +122,7 @@ CDTVライブ！ライブ！7月6日タイムテーブルを速報更新！YOASO
     <div style="display:flex; gap:10px; border-left:3px solid #f9ff00; padding-left:12px;">
       <div style="font-size:14px; font-weight:900; color:#f9ff00; min-width:65px; padding-top:2px;">19:00〜</div>
       <div style="flex:1;">
-        <div style="font-size:11px; font-weight:900; color:#aaa; margin-bottom:6px; letter-spacing:0.05em;">19時台：テレビ初披露・初パフォーマンス組が前半を彩る</div>
+        <div style="font-size:11px; font-weight:900; color:#aaa; margin-bottom:6px; letter-spacing:0.05em;">19時台：テレビ初披露・初パフォーマンス組が前半に集結</div>
         <div style="display:flex; flex-wrap:wrap; gap:5px;">
           <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:11px;">AND2BLE</span>
           <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:11px;">Kis-My-Ft2</span>
@@ -314,7 +314,7 @@ CDTVライブ！ライブ！7月6日タイムテーブルを速報更新！YOASO
   <div style="position:relative;background:#0a0a0a;border:1px solid #222;border-radius:4px;padding:12px;overflow:hidden">
     <div style="position:absolute;top:0;left:0;font-size:8px;font-weight:900;background:#ff008d;color:#fff;padding:2px 6px;transform:skewX(-15deg)">FLOW</div>
     <div style="margin-top:10px;font-size:11px;font-weight:900;color:#f9ff00;margin-bottom:6px;letter-spacing:.05em">放送構成の傾向</div>
-    <p style="margin:0;font-size:11px;font-weight:700;color:#ccc;line-height:1.6">2時間の生放送では、前半（19時台）に話題曲・テレビ初披露が集中し、後半（20時台）に特別企画が配置される傾向があります。今回はテレビ初披露組が前半を彩り、YOASOBIのプラチナライブが20時台の大ブロックを形成しそうです。</p>
+    <p style="margin:0;font-size:11px;font-weight:700;color:#ccc;line-height:1.6">2時間の生放送では、前半（19時台）に話題曲・テレビ初披露が集中し、後半（20時台）に特別企画が配置される傾向があります。今回はテレビ初披露組が前半に登場し、YOASOBIのプラチナライブが20時台の大ブロックを形成しそうです。</p>
   </div>
 
   <div style="position:relative;background:#0a0a0a;border:1px solid #222;border-radius:4px;padding:12px;overflow:hidden">
@@ -326,7 +326,7 @@ CDTVライブ！ライブ！7月6日タイムテーブルを速報更新！YOASO
   <div style="position:relative;background:#0a0a0a;border:1px solid #222;border-radius:4px;padding:12px;overflow:hidden">
     <div style="position:absolute;top:0;left:0;font-size:8px;font-weight:900;background:#ff008d;color:#fff;padding:2px 6px;transform:skewX(-15deg)">FINAL</div>
     <div style="margin-top:10px;font-size:11px;font-weight:900;color:#f9ff00;margin-bottom:6px;letter-spacing:.05em">番組終盤の傾向</div>
-    <p style="margin:0;font-size:11px;font-weight:700;color:#ccc;line-height:1.6">YOASOBIプラチナライブが大トリ最有力。「アドレナ」テレビ初披露含む全6曲で番組後半を締めくくります。前週6/29と同じプラチナライブ形式での2週連続登場で、今回も20時台の盛り上がりの中心になることが濃厚です。</p>
+    <p style="margin:0;font-size:11px;font-weight:700;color:#ccc;line-height:1.6">YOASOBIプラチナライブが大トリ最有力。「アドレナ」テレビ初披露含む全6曲でラストに登場します。前週6/29と同じプラチナライブ形式での2週連続登場で、今回も20時台の盛り上がりの中心になることが濃厚です。</p>
   </div>
 
   <div style="position:relative;background:#0a0a0a;border:1px solid #222;border-radius:4px;padding:12px;overflow:hidden">
