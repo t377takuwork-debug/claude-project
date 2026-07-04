@@ -7,6 +7,7 @@ Usage:
   python tools/qa_draft.py draft_musicday.txt          # 1ファイル検品
   python tools/qa_draft.py --all                       # 全draft検品
   python tools/qa_draft.py draft_musicday.txt --fix    # スマートクォートを自動修正してから検品
+  python tools/qa_draft.py --all --update-baseline     # 現在のWARNを「既知」として記録（要ユーザー承認）
 
 チェック項目:
   [ERROR] スマートクォート混入（U+201C/U+201D/U+2018/U+2019）→ --fix で自動修正可
@@ -20,10 +21,15 @@ Usage:
   [WARN]  メタディスクリプション120字超
   [WARN]  <ul style= の使用（WPテーマCSSに上書きされるためdiv推奨）
   [WARN]  ナビブロックにカテゴリURL残存（/category/musictv/ ※JSON-LD内は除外）
-  [WARN]  締め文（mokujimae直後）の主観形容詞（感動的・豪華な・圧倒的）
+  [WARN]  締め文（mokujimae直後）の主観形容詞（感動的・豪華・圧倒的 ※「な」なしの形も検出）
   [INFO]  本文中の日付分布（更新漏れ発見用）
 
-終了コード: ERROR が1件以上あれば 1、なければ 0
+WARNベースライン:
+  tools/output/qa_baseline.json に「既知WARN」の指紋と件数を記録し、
+  それを超えるWARNを【新規】として扱う（リライト完了条件は ERROR 0件 かつ 新規WARN 0件）。
+  既知WARNを意図的に受け入れる場合のみ --update-baseline で更新する。
+
+終了コード: ERROR または 新規WARN が1件以上あれば 1、なければ 0
 """
 
 import argparse
@@ -53,8 +59,13 @@ BANNED_PATTERNS = [
     (r"を飾る|を飾り(?:ます)?[、。]|を飾った", "「出演する」「初登場する」等に"),
 ]
 
-# 締め文の主観形容詞（feedback_teretou_rewrite_style 準拠）
-SUBJECTIVE_ADJ = r"感動的な|豪華な|圧倒的な"
+# 締め文の主観形容詞（rewrite_common_rules.md 準拠・語幹マッチで「な」なしの形も検出）
+SUBJECTIVE_ADJ = r"感動的|豪華|圧倒的"
+
+# 既知WARNベースライン（これを超えるWARNは【新規】扱い → 終了コード1）
+BASELINE_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "output", "qa_baseline.json"
+)
 
 WP_BLOCK_TYPES = ["paragraph", "html", "heading", "list", "table", "image", "shortcode"]
 
@@ -75,6 +86,8 @@ class Report:
         self.errors: list[str] = []
         self.warns: list[str] = []
         self.infos: list[str] = []
+        self.known_warns: list[str] = []
+        self.new_warns: list[str] = []
 
     def error(self, msg: str):
         self.errors.append(msg)
@@ -85,6 +98,19 @@ class Report:
     def info(self, msg: str):
         self.infos.append(msg)
 
+    def classify_warns(self, baseline_counts: dict):
+        """ベースライン（指紋→件数）と照合し、既知/新規に振り分ける"""
+        remaining = dict(baseline_counts)
+        self.known_warns = []
+        self.new_warns = []
+        for w in self.warns:
+            fp = warn_fingerprint(w)
+            if remaining.get(fp, 0) > 0:
+                remaining[fp] -= 1
+                self.known_warns.append(w)
+            else:
+                self.new_warns.append(w)
+
     def print(self):
         print(f"\n{'='*70}")
         print(f"検品対象: {self.filename}")
@@ -93,16 +119,44 @@ class Report:
             print("  [OK] ERROR/WARN なし")
         for e in self.errors:
             print(f"  [ERROR] {e}")
-        for w in self.warns:
-            print(f"  [WARN]  {w}")
+        for w in self.new_warns:
+            print(f"  [WARN][新規] {w}")
+        for w in self.known_warns:
+            print(f"  [WARN][既知] {w}")
+        if not self.known_warns and not self.new_warns:
+            for w in self.warns:
+                print(f"  [WARN]  {w}")
         for i in self.infos:
             print(f"  [INFO]  {i}")
-        print(f"  --- ERROR: {len(self.errors)}件 / WARN: {len(self.warns)}件 ---")
+        print(
+            f"  --- ERROR: {len(self.errors)}件 / "
+            f"WARN: {len(self.warns)}件（新規 {len(self.new_warns)}・既知 {len(self.known_warns)}） ---"
+        )
 
 
 def ctx(line: str, maxlen: int = 60) -> str:
     line = line.strip()
     return line[:maxlen] + ("…" if len(line) > maxlen else "")
+
+
+def warn_fingerprint(msg: str) -> str:
+    """WARNメッセージから行番号とコンテキスト部を除いた指紋を作る（行ズレ・前後編集に強い）"""
+    fp = re.sub(r"^L\d+:\s*", "", msg)
+    fp = fp.split(" → ")[0].strip()
+    return fp
+
+
+def load_baseline() -> dict:
+    if os.path.exists(BASELINE_PATH):
+        with open(BASELINE_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def save_baseline(baseline: dict):
+    os.makedirs(os.path.dirname(BASELINE_PATH), exist_ok=True)
+    with open(BASELINE_PATH, "w", encoding="utf-8") as f:
+        json.dump(baseline, f, ensure_ascii=False, indent=2)
 
 
 def strip_jsonld_regions(text: str) -> tuple[str, list[tuple[int, int]]]:
@@ -341,6 +395,10 @@ def main():
     parser.add_argument("file", nargs="?", help="検品対象（例: draft_musicday.txt）")
     parser.add_argument("--all", action="store_true", help="全draftを検品")
     parser.add_argument("--fix", action="store_true", help="スマートクォートを自動修正してから検品")
+    parser.add_argument(
+        "--update-baseline", action="store_true",
+        help="現在のWARNを既知としてqa_baseline.jsonに記録（意図的な受け入れ時のみ使用）"
+    )
     args = parser.parse_args()
 
     if args.all:
@@ -359,20 +417,34 @@ def main():
         parser.print_help()
         sys.exit(2)
 
+    baseline = load_baseline()
     total_errors = 0
+    total_new_warns = 0
     for path in targets:
         if args.fix:
             n = fix_smart_quotes(path)
             if n:
                 print(f"[FIX] {os.path.basename(path)}: スマートクォート {n}箇所を自動修正")
         rep = run_qa(path)
+        key = os.path.basename(path)
+        if args.update_baseline:
+            counts = Counter(warn_fingerprint(w) for w in rep.warns)
+            baseline[key] = dict(counts)
+            rep.classify_warns(baseline.get(key, {}))
+        else:
+            rep.classify_warns(baseline.get(key, {}))
         rep.print()
         total_errors += len(rep.errors)
+        total_new_warns += len(rep.new_warns)
+
+    if args.update_baseline:
+        save_baseline(baseline)
+        print(f"\n[BASELINE] {len(targets)}ファイルの既知WARNを更新: {BASELINE_PATH}")
 
     print(f"\n{'#'*70}")
-    print(f"# 検品完了: {len(targets)}ファイル / ERROR合計 {total_errors}件")
+    print(f"# 検品完了: {len(targets)}ファイル / ERROR合計 {total_errors}件 / 新規WARN合計 {total_new_warns}件")
     print(f"{'#'*70}")
-    sys.exit(1 if total_errors else 0)
+    sys.exit(1 if (total_errors or total_new_warns) else 0)
 
 
 if __name__ == "__main__":

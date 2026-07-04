@@ -36,7 +36,7 @@ claude project/
 
 ### 完了を機械的に判定する
 着手前に「完了」を1行で定義する。
-例：shira_noteリライトなら「/shira-qa ERROR 0件」。Note記事なら「drafts/へ保存済み」。X投稿なら「/post-reviewチェック済み」。
+例：shira_noteリライトなら「/shira-qa ERROR 0件・新規WARN 0件」。Note記事なら「drafts/へ保存済み」。X投稿なら「/post-reviewチェック済み」。
 書けない場合は、何が決まれば書けるかを質問してから進む。
 
 ### 複数解釈を勝手に選ばない
