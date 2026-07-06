@@ -66,8 +66,10 @@ claude project/
 自信のない箇所には確信度（高・中・低）を付け、中・低なら確認してから進むべきかを聞く。
 長い作業では、区切りごとに「完了したこと」「次にやること」「気になっていること」の3点だけ報告する。
 
-### モデル切替時のeffort目安
-Sonnet系＝`high`／Opus系＝コーディング・高自律タスクでは`xhigh`を明示設定。
+### モデル切替時のeffort目安（タスク種類で切り替える）
+- **定型作業＝`medium`**（機械QAの安全網があるもの）：shira_noteリライト（qa_gateフックが自動検品）／X・Threads投稿提案（qa_post＋/post-review）／Note記事本文生成（qa_article）
+- **判断・環境系＝`high`**（Opus系は`xhigh`）：戦略会議（/notekaigi・/asp-kaigi等）／新規記事立ち上げ・タイトル/構成設計／/consolidate-memory／フック・タスクスケジューラ・settings.json等の環境変更
+- mediumで見落とし（日付更新漏れ・JSON-LD同期等のQAチェック外項目）が続いた工程は、その工程だけhighへ上げる
 
 ---
 
