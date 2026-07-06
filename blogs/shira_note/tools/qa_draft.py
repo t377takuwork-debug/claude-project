@@ -16,6 +16,7 @@ Usage:
   [ERROR] ショートコードとテキストの同一<p>混在（[nopc][title]等は独立ブロック必須）
   [ERROR] JSON-LDのパースエラー
   [ERROR] メタディスクリプションとJSON-LD descriptionの不一致
+  [ERROR] 本文FAQ（Q/Aカード）とJSON-LD FAQPage.mainEntityの件数・文言不一致
   [ERROR] 楽天もしもAFリンクの属性仕様違反（rel/attributionsrc/referrerpolicy/daily-002/インプレッションピクセル）
   [WARN]  禁止ワード（彩る・飾る・幕を開ける・見せ場・筆頭に・フィナーレを飾る・締めくくる）
   [WARN]  メタディスクリプション120字超
@@ -275,6 +276,78 @@ def check_meta_description(text: str, descriptions: list[str], rep: Report):
         )
 
 
+def extract_body_faq(text: str) -> list[tuple[str, str]]:
+    """本文のFAQセクション（Q/Aカード）から質問・回答テキストを抽出する"""
+    m = re.search(
+        r"<h2>よくある質問[^<]*</h2>(.*?)(?:<!--\s*wp:heading\s*-->\s*\n<h2>|\Z)",
+        text, re.DOTALL,
+    )
+    if not m:
+        return []
+    block = m.group(1)
+    matches = re.finditer(r'<span[^>]*>(Q\d+|A)</span>.*?<p[^>]*>(.*?)</p>', block, re.DOTALL)
+    pairs: list[tuple[str, str]] = []
+    pending_q = None
+    for m2 in matches:
+        lbl, raw = m2.group(1), m2.group(2)
+        txt = re.sub(r"<[^>]+>", "", raw)
+        txt = re.sub(r"\s+", " ", txt).strip()
+        if lbl.startswith("Q"):
+            pending_q = txt
+        elif lbl == "A" and pending_q is not None:
+            pairs.append((pending_q, txt))
+            pending_q = None
+    return pairs
+
+
+def extract_jsonld_faq(text: str) -> list[tuple[str, str]]:
+    """JSON-LD FAQPage.mainEntityから質問・回答テキストを抽出する"""
+    pairs: list[tuple[str, str]] = []
+
+    def walk(node):
+        if isinstance(node, dict):
+            if node.get("@type") == "FAQPage":
+                for q in node.get("mainEntity", []):
+                    name = (q.get("name") or "").strip()
+                    ans = ((q.get("acceptedAnswer") or {}).get("text") or "").strip()
+                    pairs.append((name, ans))
+            for v in node.values():
+                walk(v)
+        elif isinstance(node, list):
+            for item in node:
+                walk(item)
+
+    for m in re.finditer(
+        r'<script type="application/ld\+json">\s*(.*?)\s*</script>', text, re.DOTALL
+    ):
+        try:
+            data = json.loads(m.group(1))
+        except json.JSONDecodeError:
+            continue
+        walk(data)
+    return pairs
+
+
+def check_faq_sync(text: str, rep: Report):
+    body_faq = extract_body_faq(text)
+    jsonld_faq = extract_jsonld_faq(text)
+    if not body_faq:
+        # 本文側のFAQマークアップがQ1/A形式のspan構造と異なるテンプレート
+        # （例: STAR系の <div>Q1｜質問文</div> 形式）は抽出非対応のため判定をスキップする。
+        return
+    if len(body_faq) != len(jsonld_faq):
+        rep.error(
+            f"FAQ件数不一致: 本文{len(body_faq)}問 / JSON-LD FAQPage.mainEntity {len(jsonld_faq)}問"
+            "（本文Q&AとJSON-LDを一字一句一致させること）"
+        )
+        return
+    for idx, ((bq, ba), (jq, ja)) in enumerate(zip(body_faq, jsonld_faq), start=1):
+        if bq != jq:
+            rep.error(f"FAQ Q{idx} 質問文が本文とJSON-LDで不一致 → 本文:「{ctx(bq, 40)}」/ JSON-LD:「{ctx(jq, 40)}」")
+        if ba != ja:
+            rep.error(f"FAQ Q{idx} 回答文が本文とJSON-LDで不一致 → 本文:「{ctx(ba, 40)}」/ JSON-LD:「{ctx(ja, 40)}」")
+
+
 def check_af_links(lines: list[str], text: str, rep: Report):
     has_moshimo_link = False
     for i, line in enumerate(lines):
@@ -381,6 +454,7 @@ def run_qa(path: str) -> Report:
     check_shortcode_isolation(lines, rep)
     descriptions = check_jsonld(text, rep)
     check_meta_description(text, descriptions, rep)
+    check_faq_sync(text, rep)
     check_af_links(lines, text, rep)
     check_ul_style(lines, rep)
     check_nav_category_urls(lines, regions, rep)
