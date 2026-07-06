@@ -11,9 +11,23 @@ Claude が Bash / PowerShell ツールで破壊的コマンドを実行しよう
 
 終了コード: 0 = 許可 / 2 = ブロック（stderr がエージェントへ返る）
 """
+import datetime
 import json
+import os
 import re
 import sys
+
+LOG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "guardrail.log")
+
+
+def log(message):
+    """発火確認用ログ（失敗しても本処理には影響させない）"""
+    try:
+        with open(LOG_PATH, "a", encoding="utf-8") as f:
+            f.write("{} {}\n".format(
+                datetime.datetime.now().isoformat(timespec="seconds"), message))
+    except Exception:
+        pass
 
 # 再帰削除フラグ: -r, -rf, -fr, -R, -Recurse, --recursive, /s
 # （-Force / -f 単独は含まない — 単一ファイル削除まで塞がないため）
@@ -66,6 +80,7 @@ def main():
     try:
         data = json.load(sys.stdin)
     except Exception:
+        log("PARSE-ERROR -> allow")
         return 0  # 入力が読めない場合はブロックしない（フェイルオープン）
 
     if data.get("tool_name") not in ("Bash", "PowerShell"):
@@ -88,7 +103,9 @@ def main():
     if label is None:
         label = check_special(cmd)
     if label is None:
+        log("ALLOW  {}: {}".format(data.get("tool_name"), raw[:120]))
         return 0
+    log("BLOCK  {}: {} [{}]".format(data.get("tool_name"), raw[:120], label))
 
     sys.stderr.write(
         "[Git Guardrail] ブロックしました: {}\n"
