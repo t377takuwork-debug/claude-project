@@ -9,7 +9,8 @@
 ## 手順（MBTICODE）
 
 1. `/note-article mbticode [テーマ]` を起動する（ペルソナ→SEO確認→タイトル→構成→本文→drafts保存まで一貫）
-2. タイトルには感情系検索語句を組み込む（`brands/mbticode/rules/project_mbticode_note_title_seo.md`。Step 2.5のキーワード確認は必須）
+2. タイトルには感情系検索語句を組み込み、`docs/rubrics/title_scoring.md` の配点表で採点してから提示する（`brands/mbticode/rules/project_mbticode_note_title_seo.md`。Step 2.5のキーワード確認は必須）
+2b. 保存後に機械検品: `python brands/tools/qa_article.py "<draftパス>"`（有料記事は `--paid`）→ **ERROR 0件必須**
 3. テーマの優先順位は `brands/mbticode/rules/project_mbticode_article_themes.md` に従う
 4. 保存先: `brands/mbticode/articles/drafts/`
 5. `/quality-guardrail` でAIっぽさを添削する

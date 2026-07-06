@@ -9,11 +9,13 @@
 
 ## 手順
 
+0. 見本バンク `Junk314/junk_juice/examples_essay.md`（バズ記事②の解剖）を読む
 1. アカウント理解: `Junk314/junk_juice/CLAUDE.md` と `profile.md` を読む
 2. テーマ・タイトル設計: `/junk-theme` を起動する
 3. 構成・本文・保存: `/junk-article` を起動する
 4. H2見出しには不安キーワードを組み込む。Step 3確認結果は次工程へ必ず引き継ぐ（`Junk314/junk_juice/rules/feedback_junk_article_seo_heading.md`）
 5. Noteスマホ縦読みチェック4項目を通す（同上ファイル）
+6. 機械検品: `python brands/tools/qa_article.py "<draftパス>"`（有料は `--paid`）→ **ERROR 0件必須**
 
 ## 有料記事（200円）の追加基準
 

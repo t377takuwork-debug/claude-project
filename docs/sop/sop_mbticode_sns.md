@@ -9,10 +9,12 @@
 
 ## 手順（投稿バッチ）
 
-1. `/mbticode-post` を起動する（`.claude/commands/mbticode-post.md`。参照ファイルの読み込み順序はコマンド側が保証する）
-2. `brands/mbticode/mbticode_tasks.md` で現在のタスク状況を確認する
-3. 生成後、`/post-review` で壁打ちしてから確定する（生成→即確定は禁止）
-4. `/quality-guardrail` の同日重複チェックを通す
+1. 見本バンク `brands/mbticode/examples_sns.md`（Good/Bad対比）を読む
+2. `/mbticode-post` を起動する（`.claude/commands/mbticode-post.md`。参照ファイルの読み込み順序はコマンド側が保証する）
+3. `brands/mbticode/mbticode_tasks.md` で現在のタスク状況を確認する
+4. 機械検品: `python brands/tools/qa_post.py brands/mbticode/posts/posts_x.txt`（threads側も同様）→ **ERROR 0件必須**
+5. `/post-review` で壁打ちしてから確定する（生成→即確定は禁止）
+6. `/quality-guardrail` の同日重複チェックを通す
 
 ## 手順（リプライ・引用RT）
 

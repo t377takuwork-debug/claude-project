@@ -10,7 +10,7 @@
 
 | # | 業務 | エントリポイント | 完了条件 | QA・検品 |
 |---|---|---|---|---|
-| D1 | MBTICODE X・Threads投稿バッチ生成 | `/mbticode-post`（`.claude/commands/mbticode-post.md`） | `brands/mbticode/posts/posts_x.txt`・`posts_threads.txt` に上書き保存済み | `/post-review` で壁打ち後に確定 |
+| D1 | MBTICODE X・Threads投稿バッチ生成 | `/mbticode-post`（`.claude/commands/mbticode-post.md`） | `brands/mbticode/posts/posts_x.txt`・`posts_threads.txt` に上書き保存済み＋`qa_post.py` ERROR 0件 | `brands/tools/qa_post.py`（機械）→`/post-review`（LLM） |
 | D2 | MBTICODE リプライ・引用RT生成 | `/reply`（`.claude/commands/reply.md`） | 投稿分析→反映メモ→本文の3ブロック出力 | 文体ルール: `brands/mbticode/rules/feedback_mbticode_reply_style.md` |
 | D3 | shira_note ネタ収集 | 「ネタ収集して」→ `python tools/collect_news.py` | `tools/output/programs.md`・`releases.md` 更新 | －（収集のみ） |
 | D4 | shira_note 番組差分監視 | 「番組監視して」→ `python tools/watch_programs.py` | `tools/output/watch_report.md` 更新 | －（監視のみ） |
@@ -25,13 +25,13 @@
 
 | # | 業務 | エントリポイント | 完了条件 | QA・検品 |
 |---|---|---|---|---|
-| W1 | MBTICODE KPI記録 | `brands/mbticode/kpi_weekly_template.md` | テンプレ埋め完了 | － |
+| W1 | MBTICODE KPI記録 | `/kpi-weekly`（数値はユーザーがテンプレ形式等で渡す） | `brands/mbticode/kpi_log.md` へ追記＋前週比3点コメント | 数値の捏造・補間禁止 |
 
 ### 不定期（依頼・判断ドリブン）
 
 | # | 業務 | エントリポイント | 完了条件 | QA・検品 |
 |---|---|---|---|---|
-| I1 | MBTICODE Note記事生成 | `/note-article mbticode [テーマ]` | `brands/mbticode/articles/drafts/` へ保存済み | `/quality-guardrail`（AIっぽさ添削） |
+| I1 | MBTICODE Note記事生成 | `/note-article mbticode [テーマ]` | `brands/mbticode/articles/drafts/` へ保存済み＋`qa_article.py` ERROR 0件 | `brands/tools/qa_article.py`（機械）→`/quality-guardrail`（LLM） |
 | I2 | junk_juice テーマ・タイトル設計 | `/junk-theme` | テーマ・タイトル確定 | － |
 | I3 | junk_juice 記事生成（クライアント） | `/junk-article` | `Junk314/junk_juice/articles/drafts/` へ保存済み | 有料記事は `Junk314/junk_juice/rules/feedback_junk_paid_article.md` のチェックリスト最低15項目 |
 | I4 | s4lv Note記事・X/Threads投稿 | `brands/s4lv/rules/`（文体・プロセス一式） | X投稿は `/post-review` チェック済み | 反響設計図（`rules/feedback_s4lv_pro_x_post.md`） |
@@ -40,7 +40,7 @@
 | I7 | 戦略・方針判断 | `/notekaigi`（構造的判断は必ずここを経由） | 4ステップ出力フォーマット完了 | － |
 | I8 | ASP記事設計 | `/asp-kaigi` → `/asp-theme` → `/asp-outline` の順に連結 | 各スキルの出力フォーマット完了 | － |
 | I9 | ブログ戦略・記事CV改善 | `/blog-kaigi`（戦略）／`/monetize-kaigi`（CV改善） | 5名合議の出力完了 | － |
-| I10 | バズ投稿分析 | ユーザーが手動収集→Claudeが分析（自動取得はX/Threadsで機能せず見送り済み） | 分析レポート提示 | － |
+| I10 | バズ投稿分析 | `/buzz-analysis`（収集はユーザー手動・自動取得はX/Threadsで機能せず見送り済み） | 4部構成の分析出力（投稿別分析表〜資産反映提案） | 固定フレームワーク6観点 |
 
 ### 休眠・準備中
 
