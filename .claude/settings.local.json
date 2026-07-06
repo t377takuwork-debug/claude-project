@@ -10,7 +10,14 @@
       "Bash(python tools/qa_draft.py --all)",
       "PowerShell(cd \"C:\\\\Users\\\\PC_User\\\\claude project\\\\blogs\\\\shira_note\"; python tools\\\\qa_draft.py --all 2>&1 | Select-String -Pattern '検品対象|ERROR|WARN|INFO|---|検品完了' | ForEach-Object { $_.Line })",
       "Bash(ls \"/c/Users/PC_User\" 2>/dev/null | grep -i 引き継ぎ; ls \"/c/Users/PC_User/Desktop\" 2>/dev/null | grep -i 引き継ぎ; ls \"/c/Users/PC_User/Documents\" 2>/dev/null | grep -i 引き継ぎ; ls \"/c/Users/PC_User/Downloads\" 2>/dev/null | grep -i 引き継ぎ)",
-      "PowerShell(git add *)"
+      "PowerShell(git add *)",
+      "PowerShell(Get-ChildItem -Recurse -Directory | ForEach-Object { $_.FullName.Replace\\(\"C:\\\\Users\\\\PC_User\\\\claude project\\\\\", \"\"\\) } | Sort-Object)",
+      "PowerShell(Get-ChildItem .claude -Recurse -Force | ForEach-Object { $_.FullName.Replace\\(\"C:\\\\Users\\\\PC_User\\\\claude project\\\\\", \"\"\\) })",
+      "PowerShell(Get-ChildItem \"blogs\\\\shira_note\\\\tools\", \"brands\\\\tools\" -File | Select-Object Name, Length; Write-Output \"---sub .claude---\"; Get-ChildItem \"blogs\\\\shira_note\\\\.claude\", \"brands\\\\mbticode\\\\.claude\", \"brands\\\\s4lv\\\\.claude\", \"blogs\\\\cf_room\\\\.claude\" -Recurse -Force -File | ForEach-Object { $_.FullName.Replace\\(\"C:\\\\Users\\\\PC_User\\\\claude project\\\\\", \"\"\\) })",
+      "PowerShell(Get-ChildItem docs -Recurse -File | ForEach-Object { $_.FullName.Replace\\(\"C:\\\\Users\\\\PC_User\\\\claude project\\\\\", \"\"\\) })",
+      "PowerShell(Get-ChildItem \"blogs\\\\cf_room\", \"blogs\\\\darepedia\", \"blogs\\\\vtuber_log\" -Recurse -Force -File | ForEach-Object { $_.FullName.Replace\\(\"C:\\\\Users\\\\PC_User\\\\claude project\\\\\", \"\"\\) }; Write-Output \"---mbticode/s4lv settings---\"; Get-Content \"brands\\\\mbticode\\\\.claude\\\\settings.local.json\" -TotalCount 20)",
+      "PowerShell(python \"C:\\\\Users\\\\PC_User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-PC-User-claude-project\\\\149148bc-7316-41b9-915f-02a49b8d2e9f\\\\scratchpad\\\\test_guardrail.py\")",
+      "PowerShell(python -c \"import json; json.load\\(open\\(r'C:\\\\Users\\\\PC_User\\\\claude project\\\\.claude\\\\settings.json', encoding='utf-8'\\)\\); print\\('settings.json: JSON OK'\\)\")"
     ]
   }
 }
