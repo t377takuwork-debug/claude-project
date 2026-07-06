@@ -200,6 +200,33 @@ python tools/watch_programs.py --days 14  # 14日先まで
 チャットでは「番組監視して」「新しい特番出てないか見て」と依頼するだけでよい。
 1日1回実行すると、新規に番組表へ載った音楽番組・特番、時間変更、消失（放送中止の可能性）を `tools/output/watch_report.md` に出力する。初回はベースライン保存のみ。
 
+## 定期実行（Windowsタスクスケジューラ・2026-07-07登録）
+
+上記2ツールは毎朝自動実行される。**朝の運用は「前回のネタ結果を見せて」と依頼して `tools/output/` の3ファイル（programs.md / releases.md / watch_report.md）をReadするだけ。再実行は不要。**
+
+| タスク名 | 実行時刻 | 実体 |
+|---|---|---|
+| `ShiraNotes_WatchPrograms` | 毎日 07:00 | `tools/run_watch_programs.cmd` → watch_programs.py |
+| `ShiraNotes_CollectNews` | 毎日 07:10 | `tools/run_collect_news.cmd` → collect_news.py |
+
+- 07時にPCがスリープ・電源オフでも、次回起動時に遅延実行される（StartWhenAvailable設定済み）
+- 発火ログ: `tools/output/scheduler_watch.log` / `scheduler_collect.log`（UTF-8。PowerShell 5.1では `Get-Content -Encoding UTF8` で読む。gitignore対象）
+
+### 運用コマンド（PowerShell）
+
+```powershell
+# 動作確認（LastTaskResult が 0 なら正常）
+Get-ScheduledTaskInfo -TaskName "ShiraNotes_WatchPrograms"
+
+# 手動で今すぐ実行
+Start-ScheduledTask -TaskName "ShiraNotes_CollectNews"
+
+# 実行時刻の変更（例: 08:00へ）
+Set-ScheduledTask -TaskName "ShiraNotes_WatchPrograms" -Trigger (New-ScheduledTaskTrigger -Daily -At 08:00)
+```
+
+タスクが消えた場合の再登録手順は、このリポジトリのコミット `418bf93` の内容（`Register-ScheduledTask` でラッパーcmdを毎日実行・StartWhenAvailable付き）を再現する。pythonの呼び出しは必ず絶対パス `C:\Users\PC_User\AppData\Local\Python\bin\python.exe` を使うこと（PATH上の `python` はStoreスタブを掴んで無言失敗する）。
+
 ## JSON-LD 出演者データ生成ツール
 
 ### 実行方法

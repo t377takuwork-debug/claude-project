@@ -11,7 +11,7 @@ Note/X/Threads運用のコンテンツ制作・SEO施策・ブランド構築を
 ```
 claude project/
 ├── README.md       ← 全体索引（どのAIでも最初に読む）
-├── .claude/commands/ ← 汎用スキル15本（唯一の正。~/.claude/commands は旧マスター・編集禁止）
+├── .claude/commands/ ← 汎用スキル一式（唯一の正。~/.claude/commands は旧マスター・編集禁止）
 ├── docs/           ← 業務棚卸し表・SOP・会議システム定義・横断ルール
 ├── blogs/          ← ブログ記事制作・リライト環境
 │   ├── shira_note/ ← 音楽番組タイムテーブル速報ブログ（メイン稼働・rules/に番組別チェックリスト）
