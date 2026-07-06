@@ -1,2 +1,5 @@
 .claude/hooks/guardrail.log
 .claude/hooks/qa_gate.log
+blogs/shira_note/tools/output/scheduler_watch.log
+blogs/shira_note/tools/output/scheduler_collect.log
+blogs/shira_note/tools/output/snapshots/
