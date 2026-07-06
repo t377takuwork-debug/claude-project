@@ -67,7 +67,7 @@ claude project/
 
 ## 運用原則（全AI共通）
 
-1. **唯一の正**: 同じ情報が複数箇所にある場合、`rules/`・`rewrite_common_rules.md`・各コマンドファイルの記載を正とする。2026-07-06以降、ルールの編集は**repo内のファイルのみ**に行う（`C:\Users\PC_User\.claude\commands\` と Claude Codeメモリは旧マスター。修正しても他AIから見えないため編集禁止）
+1. **唯一の正**: 同じ情報が複数箇所にある場合、`rules/`・`rewrite_common_rules.md`・各コマンドファイルの記載を正とする。2026-07-06以降、ルールの編集は**repo内のファイルのみ**に行う（旧マスターの `~\.claude\commands\` は `~\.claude\commands_backup_20260706\` へ退避済み。Claude Codeメモリも旧マスターであり編集禁止。**万一スラッシュコマンドが動かない場合はバックアップから復元**: `Copy-Item "$env:USERPROFILE\.claude\commands_backup_20260706\*.md" "$env:USERPROFILE\.claude\commands\"`）
 2. **捏造禁止**: 実体験・実績・診断データは `personal_data.md`／`reference/` にあるものだけを使う
 3. **完了条件ファースト**: 着手前に各SOP冒頭の完了条件を確認し、満たすまで完了報告しない
 4. **QAを飛ばさない**: shira_noteは `python tools/qa_draft.py`、SNS投稿は `/post-review`、Note記事は `/quality-guardrail` を通してから確定する
