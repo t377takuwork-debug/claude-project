@@ -2,24 +2,30 @@
 
 Note/X/Threads運用のコンテンツ制作・SEO施策・ブランド構築を行うプロジェクト。
 
+**全体索引は `README.md`、業務一覧と完了条件は `docs/business_inventory.md`、業務別手順書は `docs/sop/` を参照**（2026-07-06に全暗黙知をrepo内へ統合済み）。
+
 ---
 
 ## ディレクトリ構成と役割
 
 ```
 claude project/
+├── README.md       ← 全体索引（どのAIでも最初に読む）
+├── .claude/commands/ ← 汎用スキル15本（唯一の正。~/.claude/commands は旧マスター・編集禁止）
+├── docs/           ← 業務棚卸し表・SOP・会議システム定義・横断ルール
 ├── blogs/          ← ブログ記事制作・リライト環境
-│   ├── shira_note/ ← 音楽番組タイムテーブル速報ブログ（メイン稼働）
+│   ├── shira_note/ ← 音楽番組タイムテーブル速報ブログ（メイン稼働・rules/に番組別チェックリスト）
 │   └── seo/        ← SEO_guide.txt（全ブログ共通マスターガイド）
 ├── brands/         ← アカウント運用・ライティング原則（→ brands/CLAUDE.md を参照）
 │   ├── writing/        ← ライティング原則4ファイル
 │   ├── s4lv/
 │   │   ├── ai/         ← s4lv_aiアカウント固有データ・プロフィール
 │   │   ├── pro/        ← s4lv_proプロフィール
+│   │   ├── rules/      ← 文体定義・Note記事プロセス等9本（旧Claude Codeメモリから統合）
 │   │   └── shared/     ← s4lv共通プロフィール・実績データ
-│   └── mbticode/       ← MBTI×ラブタイプ診断コンテンツ運用
+│   └── mbticode/       ← MBTI×ラブタイプ診断コンテンツ運用（rules/に文体・戦略12本）
 └── Junk314/        ← クライアント管理アカウント（→ Junk314/junk_juice/CLAUDE.md を参照）
-    └── junk_juice/ ← 60代推し活エッセイアカウント
+    └── junk_juice/ ← 60代推し活エッセイアカウント（rules/に品質基準3本）
 ```
 
 ---
