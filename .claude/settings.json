@@ -23,7 +23,9 @@
         "hooks": [
           {
             "type": "command",
-            "command": "\"C:/Users/PC_User/AppData/Local/Python/bin/python.exe\" \"C:/Users/PC_User/claude project/.claude/hooks/git_guardrail.py\""
+            "command": "C:/Users/PC_User/AppData/Local/Python/bin/python.exe",
+            "args": ["C:/Users/PC_User/claude project/.claude/hooks/git_guardrail.py"],
+            "timeout": 30
           }
         ]
       }

@@ -16,6 +16,9 @@ import json
 import os
 import re
 import sys
+import threading
+
+STDIN_TIMEOUT_SEC = 10
 
 LOG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "guardrail.log")
 
@@ -77,8 +80,26 @@ def main():
     except Exception:
         pass
 
+    # stdinが配信されない環境（Windows対話セッションで観測）でjson.loadが
+    # 無期限ブロックしないよう、別スレッドで読み取り10秒で諦める
+    box = {}
+
+    def _read():
+        try:
+            box["data"] = sys.stdin.read()
+        except Exception:
+            pass
+
+    reader = threading.Thread(target=_read, daemon=True)
+    reader.start()
+    reader.join(STDIN_TIMEOUT_SEC)
+    if reader.is_alive():
+        log("STDIN-TIMEOUT -> allow")
+        # 読み取りスレッドが生きたままだと終了処理が引っかかる可能性があるため即時終了
+        os._exit(0)  # フェイルオープン（第2層のdenyリストは有効）
+
     try:
-        data = json.load(sys.stdin)
+        data = json.loads(box.get("data") or "")
     except Exception:
         log("PARSE-ERROR -> allow")
         return 0  # 入力が読めない場合はブロックしない（フェイルオープン）

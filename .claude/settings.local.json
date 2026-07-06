@@ -17,7 +17,12 @@
       "PowerShell(Get-ChildItem docs -Recurse -File | ForEach-Object { $_.FullName.Replace\\(\"C:\\\\Users\\\\PC_User\\\\claude project\\\\\", \"\"\\) })",
       "PowerShell(Get-ChildItem \"blogs\\\\cf_room\", \"blogs\\\\darepedia\", \"blogs\\\\vtuber_log\" -Recurse -Force -File | ForEach-Object { $_.FullName.Replace\\(\"C:\\\\Users\\\\PC_User\\\\claude project\\\\\", \"\"\\) }; Write-Output \"---mbticode/s4lv settings---\"; Get-Content \"brands\\\\mbticode\\\\.claude\\\\settings.local.json\" -TotalCount 20)",
       "PowerShell(python \"C:\\\\Users\\\\PC_User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-PC-User-claude-project\\\\149148bc-7316-41b9-915f-02a49b8d2e9f\\\\scratchpad\\\\test_guardrail.py\")",
-      "PowerShell(python -c \"import json; json.load\\(open\\(r'C:\\\\Users\\\\PC_User\\\\claude project\\\\.claude\\\\settings.json', encoding='utf-8'\\)\\); print\\('settings.json: JSON OK'\\)\")"
+      "PowerShell(python -c \"import json; json.load\\(open\\(r'C:\\\\Users\\\\PC_User\\\\claude project\\\\.claude\\\\settings.json', encoding='utf-8'\\)\\); print\\('settings.json: JSON OK'\\)\")",
+      "PowerShell(python -c \"import sys; print\\(sys.executable\\)\")",
+      "PowerShell(cmd /c where python)",
+      "PowerShell('{\"tool_name\":\"Bash\",\"tool_input\":{\"command\":\"git diff --stat MANUAL-CMD-TEST\"}}' | cmd /c '\"C:/Users/PC_User/AppData/Local/Python/bin/python.exe\" \"C:/Users/PC_User/claude project/.claude/hooks/git_guardrail.py\"'; \"exit=$LASTEXITCODE\"; Get-Content \".claude\\\\hooks\\\\guardrail.log\" -Tail 2)",
+      "PowerShell(cmd /c '\"C:/Users/PC_User/AppData/Local/Python/bin/python.exe\" \"C:/Users/PC_User/claude project/.claude/hooks/git_guardrail.py\" < \"C:\\\\Users\\\\PC_User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-PC-User-claude-project\\\\f7141fd0-3b56-4676-a6ff-9bc7f0a08237\\\\scratchpad\\\\hook_in.json\"'; \"exit=$LASTEXITCODE\"; Get-Content \".claude\\\\hooks\\\\guardrail.log\" -Tail 2)",
+      "PowerShell(git branch *)"
     ]
   }
 }
