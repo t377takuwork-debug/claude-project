@@ -99,7 +99,7 @@ def main():
         os._exit(0)  # フェイルオープン（第2層のdenyリストは有効）
 
     try:
-        data = json.loads(box.get("data") or "")
+        data = json.loads((box.get("data") or "").lstrip("\ufeff"))
     except Exception:
         log("PARSE-ERROR -> allow")
         return 0  # 入力が読めない場合はブロックしない（フェイルオープン）
