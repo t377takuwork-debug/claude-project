@@ -40,12 +40,14 @@
                     </td></tr>
                     </tbody>
                 </table>
+
+                <div style="margin-top: -12px; text-align: right;">
+                    <span class="note-text" style="color: #aaaaaa; font-size: 12px;">※当日の放送やXの情報を基にしたタイムテーブル</span>
+                </div>
             </td>
         </tr></tbody>
     </table>
 </section>
-
-<p><font color="#777777" size="1">※X（旧Twitter）上のファン実況・感想の盛り上がりタイムラインに基づく推定実績タイムテーブル</font></p>
 <!-- /wp:html -->
 
 ## ========== BLOCK: 見逃し配信セクション ==========

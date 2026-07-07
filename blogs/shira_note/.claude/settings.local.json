@@ -11,7 +11,8 @@
       "WebFetch(domain:natalie.mu)",
       "Bash(python tools/collect_news.py --date 20260629)",
       "WebFetch(domain:www.youtube.com)",
-      "WebFetch(domain:yutura.net)"
+      "WebFetch(domain:yutura.net)",
+      "PowerShell(& \"C:\\\\Users\\\\PC_User\\\\AppData\\\\Local\\\\Python\\\\bin\\\\python.exe\" \"C:\\\\Users\\\\PC_User\\\\claude project\\\\blogs\\\\shira_note\\\\tools\\\\qa_draft.py\" \"C:\\\\Users\\\\PC_User\\\\claude project\\\\blogs\\\\shira_note\\\\draft_cdtv.txt\")"
     ]
   }
 }
