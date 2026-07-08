@@ -2,7 +2,7 @@
 タイトル：NHK夏の音楽祭 うたであえたら2026 タイムテーブル｜出演者や順番を随時更新
 
 メタディスクリプション（102字）：
-8/15放送「NHK夏の音楽祭 うたであえたら 2026」出演アーティスト31組・司会3名（大森元貴・北川景子・二宮和也）が発表！順番など最新タイムテーブルや観覧募集・リクエスト応募情報も随時更新中です。
+8/15放送「NHK夏の音楽祭 うたであえたら 2026」出演アーティスト32組・司会3名（大森元貴・北川景子・二宮和也）が発表！順番など最新タイムテーブルや観覧募集・リクエスト応募情報も随時更新中です。
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -31,43 +31,39 @@
     border-radius: 10px;
     padding: 16px;
   ">
-    <!-- タイトル -->
     <div style="margin-bottom: 16px; border-bottom: 2px solid #f0f7ff; padding-bottom: 12px;">
       <div style="font-size: 15px; font-weight: 800; color: #1a1a1a; line-height: 1.4;">
         NHK夏の音楽祭 うたであえたら 2026
       </div>
       <div style="font-size: 11px; font-weight: 600; color: #555; margin-top: 4px;">
-        出演者・進行順 最新状況まとめ
+        出演者・放送スケジュール 最新状況まとめ
       </div>
     </div>
 
-    <!-- 放送情報 -->
     <div style="background: #f8fbff; border-radius: 6px; padding: 10px; margin-bottom: 16px; border: 1px solid #eef4fb;">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
         <span style="font-size: 9px; color: #007bff; font-weight: 800; letter-spacing: 0.1em;">放送日時</span>
         <span style="font-size: 10px; font-weight: 700; color: #d9534f; background: #fff; padding: 2px 6px; border-radius: 4px; border: 1px solid #d9534f;">更新中</span>
       </div>
-      <div style="font-size: 14px; font-weight: 700; color: #1a1a1a;">8.15(土) 18:05 - 22:00</div>
+      <div style="font-size: 14px; font-weight: 700; color: #1a1a1a;">8.15(土) 18:05 - 22:00（中断あり）</div>
     </div>
 
-    <!-- ステータス表示 -->
     <div style="margin-bottom: 16px; color: #333; font-size: 12px; line-height: 1.6;">
       <div style="display: flex; margin-bottom: 6px;">
-        <span style="font-weight: 700; min-width: 45px;">司会：</span>
-        <span>大森元貴・北川景子・二宮和也の3名</span>
+        <span style="font-weight: 700; min-width: 85px;">司会：</span>
+        <span>大森元貴・北川景子・二宮和也</span>
       </div>
       <div style="display: flex; margin-bottom: 6px;">
-        <span style="font-weight: 700; min-width: 45px;">出演者：</span>
-        <span style="color: #007bff; font-weight: 600;">31組発表（ほか追加予定）</span>
+        <span style="font-weight: 700; min-width: 85px;">主な出演：</span>
+        <span style="color: #444;">あいみょん、くるり、福山雅治、LUNA SEA他、全32組</span>
       </div>
       <div style="display: flex;">
-        <span style="font-weight: 700; min-width: 45px;">進行：</span>
-        <span style="color: #007bff; font-weight: 600;">未発表（随時更新）</span>
+        <span style="font-weight: 700; min-width: 85px;">タイムテーブル：</span>
+        <span style="color: #d9534f; font-weight: 600;">現在未発表（順次公開予定）</span>
       </div>
     </div>
 
-    <!-- リンクボタン -->
-    <a href="#st-toc-h-2" target="_blank" rel="noopener" style="
+    <a href="#st-toc-h-1" style="
       display: block;
       text-align: center;
       text-decoration: none;
@@ -78,7 +74,7 @@
       padding: 12px;
       border-radius: 8px;
     ">
-      タイムテーブル状況を確認する
+      タイムテーブルの状況を見る
     </a>
   </div>
 </aside>
@@ -89,7 +85,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演アーティスト31組が発表されました！</p>
+<p>出演アーティスト32組が発表されました！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -176,8 +172,8 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>出演アーティスト31組が発表されましたが、歌唱曲は2026年7月3日時点で未発表です。
-※出演者・ゲストは今後も追加発表予定です。</p>
+<p>出演アーティスト32組が発表されましたが、歌唱曲は2026年7月8日時点で未発表です。
+※出演者・ゲストは今後も追加発表予定。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -198,7 +194,7 @@
     </div>
 
     <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px;">
-      <!-- 出演アーティスト（50音順・31組） -->
+      <!-- 出演アーティスト（50音順・32組） -->
       <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>あいみょん</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
       <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>新しい学校のリーダーズ</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
       <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>生田絵梨花</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
@@ -209,6 +205,7 @@
       <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>大森元貴</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
       <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>ORANGE RANGE</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
       <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>串田アキラ</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>くるり</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
       <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>郷ひろみ</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
       <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>さだまさし</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
       <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>純烈</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
@@ -236,14 +233,13 @@
   <!-- フッター -->
   <div style="padding: 12px 16px; background: #f8fbff; border-top: 1px solid #e2e8f0;">
     <p style="margin: 0; font-size: 11px; color: #64748b; text-align: center;">
-      ※上記は2026年7月3日時点の発表分（50音順）。歌唱曲は未発表・出演者は今後も追加発表予定です。さだまさし・Mrs. GREEN APPLEの2組は8月9日の公開収録には出演しません。
-    </p>
+      ※上記は2026年7月8日時点の発表分（50音順・32組）。歌唱曲は未発表・出演者は今後も追加発表予定です。</p>
   </div>
 </div>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>あいみょんや福山雅治、LUNA SEA、Aぇ! groupなど世代を超えた豪華31組が発表！</p>
+<p>あいみょんや福山雅治、LUNA SEA、Aぇ! groupなど世代を超えた豪華32組が発表！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -374,13 +370,25 @@
         </div>
       </div>
 
+      <div style="display: flex; gap: 12px; align-items: flex-start;">
+        <div style="flex-shrink: 0; width: 24px; height: 24px; background: #eef4fb; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #007bff; font-weight: bold;">04</div>
+        <div>
+          <div style="font-size: 13px; font-weight: 800; color: #1a1a1a; margin-bottom: 2px;">The Wakey Show プレゼンツ Eテレソングパーティー！</div>
+          <div style="font-size: 12px; color: #555; line-height: 1.6;">『みんなのうた』『いないいないばあっ！』『忍たま乱太郎』などEテレの名曲をWakeysと豪華出演者が披露。速水けんたろう・茂森あゆみ・佐藤弘道・松野ちかの4名が揃うのは1999年の卒業以来、約27年ぶりです。</div>
+        </div>
+      </div>
+
     </div>
   </div>
 </aside>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>あなたの思い出の曲が紹介されるかもしれませんね。</p>
+<p>特別企画「The Wakey Show プレゼンツ Eテレソングパーティー！」も実施。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>現在Eテレで放送中の『The Wakey Show』メンバーに加え、佐藤弘道さん・茂森あゆみさん・速水けんたろうさん・松野ちかさん・ワンワンが出演し、昭和・平成・令和のEテレ名曲を披露予定。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -546,7 +554,7 @@
       <div style="padding: 14px; border-radius: 10px; background: #f8fbff; border: 1px solid #eef4fb;">
         <div style="font-size: 12px; font-weight: 900; color: #007bff;">Q1｜タイムテーブルはいつ公開されますか？</div>
         <div style="margin-top: 8px; font-size: 12.5px; color: #444; line-height: 1.6;">
-          2026年7月3日時点で出演アーティスト31組は発表されましたが、出演順・タイムテーブルは未発表です。発表され次第このページで随時更新いたします。放送当日はリアルタイム更新も予定しております。
+          2026年7月8日時点で出演アーティスト32組は発表されましたが、出演順・タイムテーブルは未発表です。発表され次第このページで随時更新いたします。放送当日はリアルタイム更新も予定しております。
         </div>
       </div>
 
@@ -554,7 +562,7 @@
       <div style="padding: 14px; border-radius: 10px; background: #ffffff; border: 1px solid #e2e8f0;">
         <div style="font-size: 12px; font-weight: 900; color: #1a1a1a;">Q2｜出演アーティストはいつ発表されますか？</div>
         <div style="margin-top: 8px; font-size: 12.5px; color: #444; line-height: 1.6;">
-          2026年7月3日時点で31組が発表済みです。出演者・ゲストは今後も追加発表される予定で、最新情報が判明次第、速報としてこのページに追記いたします。
+          2026年7月8日時点で32組が発表済みです。出演者・ゲストは今後も追加発表される予定で、最新情報が判明次第、速報としてこのページに追記いたします。
         </div>
       </div>
 
@@ -592,7 +600,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演アーティストはあいみょんや福山雅治、LUNA SEAなど31組（50音順）が発表され、豪華な顔ぶれとなりました。観覧・リクエスト募集は7月3日13時より開始されています。</p>
+<p>出演アーティストはあいみょんや福山雅治、LUNA SEAなど32組（50音順）が発表され、豪華な顔ぶれとなりました。観覧・リクエスト募集は7月3日13時より開始されています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -698,7 +706,7 @@
       "@id": "https://shira-treat.com/utadeaetara-timetable/#post",
       "url": "https://shira-treat.com/utadeaetara-timetable/",
       "headline": "NHK夏の音楽祭 うたであえたら2026 タイムテーブル｜出演者や順番を随時更新",
-      "description": "8/15放送「NHK夏の音楽祭 うたであえたら 2026」出演アーティスト31組・司会3名（大森元貴・北川景子・二宮和也）が発表！順番など最新タイムテーブルや観覧募集・リクエスト応募情報も随時更新中です。",
+      "description": "8/15放送「NHK夏の音楽祭 うたであえたら 2026」出演アーティスト32組・司会3名（大森元貴・北川景子・二宮和也）が発表！順番など最新タイムテーブルや観覧募集・リクエスト応募情報も随時更新中です。",
       "keywords": [
         "NHK夏の音楽祭",
         "うたであえたら",
@@ -714,16 +722,16 @@
       ],
       "datePublished": "2026-07-01T20:00:00+09:00",
       "dateCreated": "2026-07-01T20:00:00+09:00",
-      "dateModified": "2026-07-03T13:00:00+09:00",
+      "dateModified": "2026-07-08T10:00:00+09:00",
       "inLanguage": "ja",
       "image": {
         "@type": "ImageObject",
         "@id": "https://shira-treat.com/utadeaetara-timetable/#heroimage",
-        "url": "https://shira-treat.com/wp-content/uploads/2026/07/image-11.webp",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/07/image.webp",
         "width": 1200,
         "height": 675
       },
-      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/07/image-11.webp",
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/07/image.webp",
       "author": {
         "@type": "Person",
         "name": "Shira",
@@ -781,6 +789,7 @@
         { "@type": "Person", "name": "大泉洋" },
         { "@type": "MusicGroup", "name": "ORANGE RANGE" },
         { "@type": "Person", "name": "串田アキラ" },
+        { "@type": "MusicGroup", "name": "くるり" },
         { "@type": "Person", "name": "郷ひろみ" },
         { "@type": "Person", "name": "さだまさし" },
         { "@type": "MusicGroup", "name": "純烈" },
@@ -801,7 +810,12 @@
         { "@type": "Person", "name": "山崎育三郎" },
         { "@type": "Person", "name": "山本リンダ" },
         { "@type": "MusicGroup", "name": "LUNA SEA" },
-        { "@type": "Person", "name": "渡辺美里" }
+        { "@type": "Person", "name": "渡辺美里" },
+        { "@type": "MusicGroup", "name": "Wakeys" },
+        { "@type": "Person", "name": "佐藤弘道" },
+        { "@type": "Person", "name": "茂森あゆみ" },
+        { "@type": "Person", "name": "速水けんたろう" },
+        { "@type": "Person", "name": "松野ちか" }
       ],
       "broadcaster": {
         "@type": "Organization",
@@ -818,7 +832,7 @@
           "name": "タイムテーブルはいつ公開されますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "2026年7月3日時点で出演アーティスト31組は発表されましたが、出演順・タイムテーブルは未発表です。発表され次第このページで随時更新いたします。放送当日はリアルタイム更新も予定しております。"
+            "text": "2026年7月8日時点で出演アーティスト32組は発表されましたが、出演順・タイムテーブルは未発表です。発表され次第このページで随時更新いたします。放送当日はリアルタイム更新も予定しております。"
           }
         },
         {
@@ -826,7 +840,7 @@
           "name": "出演アーティストはいつ発表されますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "2026年7月3日時点で31組が発表済みです。出演者・ゲストは今後も追加発表される予定で、最新情報が判明次第、速報としてこのページに追記いたします。"
+            "text": "2026年7月8日時点で32組が発表済みです。出演者・ゲストは今後も追加発表される予定で、最新情報が判明次第、速報としてこのページに追記いたします。"
           }
         },
         {
