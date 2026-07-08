@@ -3,3 +3,4 @@
 blogs/shira_note/tools/output/scheduler_watch.log
 blogs/shira_note/tools/output/scheduler_collect.log
 blogs/shira_note/tools/output/snapshots/
+__pycache__/
