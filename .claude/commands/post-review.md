@@ -5,7 +5,7 @@
 
 ## 引数
 
-`/post-review {アカウント} {媒体}` 例: `/post-review s4lv_pro X` / `/post-review mbticode reply`
+`/post-review {アカウント} {媒体}` 例: `/post-review s4lv X` / `/post-review mbticode reply`
 引数がなければ、直前に生成した投稿群を対象とし、アカウント・媒体を文脈から判定する。
 
 ## レビューの原則
@@ -100,8 +100,8 @@
 
 | ルール | 場所 |
 |---|---|
-| s4lv X文体全定義 | memory: feedback_s4lv_pro_writing_style |
-| s4lv Threads文体全定義 | memory: feedback_s4lv_threads_writing_style |
-| s4lv_pro 素材使用可否・反響設計図 | memory: feedback_s4lv_pro_x_post |
-| MBTICODEリプライ文体 | memory: feedback_mbticode_reply_style |
-| 実体験データ | brands/s4lv/ai/personal_data.md / brands/mbticode/personal_data.md |
+| s4lv X文体全定義 | `brands/s4lv/rules/feedback_s4lv_x_writing_style.md` |
+| s4lv Threads文体全定義 | `brands/s4lv/rules/feedback_s4lv_threads_writing_style.md` |
+| s4lv 素材使用可否・反響設計図 | `brands/s4lv/rules/feedback_s4lv_x_post.md` |
+| MBTICODEリプライ文体 | `brands/mbticode/rules/feedback_mbticode_reply_style.md` |
+| 実体験データ | `brands/s4lv/shared/personal_data.md` / `brands/mbticode/personal_data.md` |

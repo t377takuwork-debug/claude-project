@@ -34,7 +34,7 @@
 | I1 | MBTICODE Note記事生成 | `/note-article mbticode [テーマ]` | `brands/mbticode/articles/drafts/` へ保存済み＋`qa_article.py` ERROR 0件 | `brands/tools/qa_article.py`（機械）→`/quality-guardrail`（LLM） |
 | I2 | junk_juice テーマ・タイトル設計 | `/junk-theme` | テーマ・タイトル確定 | － |
 | I3 | junk_juice 記事生成（クライアント） | `/junk-article` | `Junk314/junk_juice/articles/drafts/` へ保存済み | 有料記事は `Junk314/junk_juice/rules/feedback_junk_paid_article.md` のチェックリスト最低15項目 |
-| I4 | s4lv Note記事・X/Threads投稿 | `brands/s4lv/rules/`（文体・プロセス一式） | X投稿は `/post-review` チェック済み | 反響設計図（`rules/feedback_s4lv_pro_x_post.md`） |
+| I4 | s4lv Note記事・X/Threads投稿 | `brands/s4lv/rules/`（文体・プロセス一式） | X投稿は `/post-review` チェック済み | 反響設計図（`rules/feedback_s4lv_x_post.md`） |
 | I5 | shira_note キーワード起点記事 | `/shira-keyword-article` | `/shira-qa` ERROR 0件 | qa_draft.py |
 | I6 | shira_note 新規番組記事立ち上げ | `/shira-new-article` | 専用コマンド新設＋CLAUDE.md登録まで1セッション完結 | qa_draft.py |
 | I7 | 戦略・方針判断 | `/notekaigi`（構造的判断は必ずここを経由） | 4ステップ出力フォーマット完了 | － |
@@ -49,7 +49,6 @@
 | S1 | `blogs/cf_room` | CLAUDE.mdは空ファイル（.claudeignoreで除外中）・skills空。稼働時は shira_note 構造（共通ルール1本＋コマンド＋機械QA）を横展開する |
 | S2 | `blogs/darepedia` | 同上 |
 | S3 | `blogs/vtuber_log` | 同上 |
-| S4 | `brands/s4lv_pro/`（フォルダ） | 空フォルダ。実体は `brands/s4lv/pro/` にあり。混同注意 |
 
 ---
 
@@ -59,7 +58,7 @@
 
 | 暗黙知 | 明文化ファイル（repo内） |
 |---|---|
-| s4lv X投稿の文体（フック3種・締め・口調・禁止事項） | `brands/s4lv/rules/feedback_s4lv_pro_writing_style.md` |
+| s4lv X投稿の文体（フック3種・締め・口調・禁止事項） | `brands/s4lv/rules/feedback_s4lv_x_writing_style.md` |
 | s4lv Threads投稿の文体（X投稿とは別OS） | `brands/s4lv/rules/feedback_s4lv_threads_writing_style.md` |
 | s4lv Note記事生成プロセス（無料7ステップ・有料3フェーズ） | `brands/s4lv/rules/project_s4lv_note_article_process.md` |
 | MBTICODEリプライの句読点・語尾・「わかります」使用条件 | `brands/mbticode/rules/feedback_mbticode_reply_style.md` |

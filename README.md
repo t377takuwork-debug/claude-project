@@ -58,8 +58,8 @@ claude project/
 │   ├── s4lv/
 │   │   ├── rules/         ← 文体定義・Note記事プロセス・アカウント方針 9本
 │   │   ├── examples_x_posts.md ← X投稿見本バンク（Good/Bad対比・生成前に読む）
-│   │   ├── shared/ ai/ pro/ ← プロフィール・実績データ
-│   │   └── （brands/s4lv_pro/ は空フォルダ。実体は s4lv/pro/）
+│   │   ├── profile.md     ← 統一プロフィール（2026-07-08確定・セットA）
+│   │   └── shared/        ← 実績データ・開示ルール（personal_data.md）
 │   └── mbticode/
 │       ├── rules/         ← 文体・戦略・KPI・販売分析 12本
 │       ├── examples_sns.md ← SNS投稿見本バンク（Good/Bad対比・生成前に読む）

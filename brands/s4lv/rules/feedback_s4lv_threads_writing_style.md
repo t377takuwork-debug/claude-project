@@ -1,10 +1,10 @@
 ---
-name: s4lv 両アカウント共通・Threads投稿文体の全定義
-description: s4lv_ai・s4lv_pro共通のThreads投稿文体基準。X投稿OSと別物。余韻・独白・語りかけを重視（2026-05-06確定）
+name: s4lv Threads投稿文体の全定義
+description: s4lvのThreads投稿文体基準。X投稿OSと別物。余韻・独白・語りかけを重視（2026-05-06確定）
 type: feedback
 originSessionId: ef4b2de7-ea62-4aed-af4d-960b1060397a
 ---
-**適用範囲：s4lv_ai・s4lv_pro 両アカウントのThreads投稿に共通して適用する。X投稿・Note記事には適用しない。**
+**適用範囲：s4lv統一アカウントのThreads投稿に適用する。X投稿・Note記事には適用しない。**
 
 ---
 

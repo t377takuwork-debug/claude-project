@@ -1,7 +1,7 @@
 # X アルゴリズム資料（2026年6月9日時点）
 
 > 更新方法：ユーザーが最新情報を調査・確認後、このファイルを手動で更新する
-> 対象：brands配下の全アカウント（MBTICODE / s4lv_ai / s4lv_pro）共通
+> 対象：brands配下の全アカウント（MBTICODE / s4lv）共通
 > 資料元：X公式GitHub（xai-org/x-algorithm）、OpenTweet・Teract AI・adlibrary等の分析記事
 
 ---
@@ -60,8 +60,7 @@
 - 急なトピック変更・無関係な投稿は専門性スコアを下げる
 - 各アカウントのコアトピック：
   - MBTICODE：「MBTI×恋愛パターン」
-  - s4lv_ai：「AI×ブログ設計」
-  - s4lv_pro：「ブログ設計の思想・戦略」
+  - s4lv：「ブログ設計の型×AI実働記録」（型・思想／AI実働の2本柱）
 
 ---
 

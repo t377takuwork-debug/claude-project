@@ -1,6 +1,6 @@
 # SNSリプライ・引用ポスト生成
 
-Brands全アカウント（MBTICODE / s4lv_ai / s4lv_pro）対応。
+Brands全アカウント（MBTICODE / s4lv）対応。
 投稿分析・生成アプローチは共通。アカウント別にファイルとトーンを切り替える。
 
 ---
@@ -8,7 +8,7 @@ Brands全アカウント（MBTICODE / s4lv_ai / s4lv_pro）対応。
 ## 入力フォーマット
 
 ```
-アカウント：[MBTICODE / s4lv_ai / s4lv_pro]（省略可：デフォルトMBTICODE）
+アカウント：[MBTICODE / s4lv]（省略可：デフォルトMBTICODE）
 媒体：[X / Threads]（省略可：デフォルトThreads）
 種別：[リプライ / 引用RT]（省略可：デフォルトリプライ）
 関係性：[フォロワー / 知人 / 発信者同士 / 不明]（省略可：デフォルト不明）
@@ -27,8 +27,7 @@ Brands全アカウント（MBTICODE / s4lv_ai / s4lv_pro）対応。
 | アカウント | 読み込むファイル |
 |---|---|
 | MBTICODE | `brands/mbticode/personal_data.md` |
-| s4lv_ai | `brands/s4lv/ai/personal_data.md` + `brands/s4lv/shared/personal_data.md` |
-| s4lv_pro | `brands/s4lv/shared/personal_data.md` |
+| s4lv | `brands/s4lv/shared/personal_data.md` + `brands/s4lv/rules/project_s4lv_accounts.md`（統一アカウント定義・2026-07-08統一） |
 
 ---
 

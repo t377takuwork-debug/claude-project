@@ -15,7 +15,7 @@
   - brands/mbticode/sns_post_cheatsheet.md          … 文体・記号・字数・型ルール
   - .claude/commands/quality-guardrail.md           … AIっぽさ禁止表現
   - brands/mbticode/rules/feedback_mbticode_reply_style.md … リプライ・引用RT文体
-  - brands/s4lv/rules/feedback_s4lv_pro_writing_style.md   … s4lv X投稿文体
+  - brands/s4lv/rules/feedback_s4lv_x_writing_style.md     … s4lv X投稿文体
 """
 import argparse
 import re

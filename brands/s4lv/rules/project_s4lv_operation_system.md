@@ -7,7 +7,7 @@ type: project
 
 **Why:** 2026-07-08の/notekaigiで1アカウント統一を決定。旧2アカウント前提の運用設計を1アカウント版へ確定した。ユーザーの実働を「判断と検品」の3点に絞り、生成・QA・分析はClaude側が担う。
 
-**How to apply:** s4lvの日次・週次運用はこのファイルを起点にする。文体は既存OS（X=`feedback_s4lv_pro_writing_style.md`／Threads=`feedback_s4lv_threads_writing_style.md`／Note=`project_s4lv_note_article_process.md`）を必ず適用。
+**How to apply:** s4lvの日次・週次運用はこのファイルを起点にする。文体は既存OS（X=`feedback_s4lv_x_writing_style.md`／Threads=`feedback_s4lv_threads_writing_style.md`／Note=`project_s4lv_note_article_process.md`）を必ず適用。
 
 ---
 

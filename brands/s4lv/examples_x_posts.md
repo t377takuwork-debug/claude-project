@@ -1,7 +1,7 @@
 # s4lv X投稿 見本バンク（Good/Bad対比・注釈付き）
 
-> 用途: s4lv_ai・s4lv_pro のX投稿生成前に読み、Goodの文体を真似る。
-> フレーズ見本は文体定義（`rules/feedback_s4lv_pro_writing_style.md`）に記録された実運用フレーズ。段落見本は構造を示すための合成例（実投稿の複製ではない）。実績数値は `shared/personal_data.md` にあるもの以外使用禁止。
+> 用途: s4lv のX投稿生成前に読み、Goodの文体を真似る。
+> フレーズ見本は文体定義（`rules/feedback_s4lv_x_writing_style.md`）に記録された実運用フレーズ。段落見本は構造を示すための合成例（実投稿の複製ではない）。実績数値は `shared/personal_data.md` にあるもの以外使用禁止。
 > 作成: 2026-07-06（Fable 5による文体注釈）
 
 ---

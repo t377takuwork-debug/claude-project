@@ -1,6 +1,6 @@
 ---
-name: s4lv_pro アカウントアイデンティティ・投稿基準
-description: s4lv_proの核心アイデンティティ・三極構造・黄金ルール・禁止事項・プロフィール最終案・思考OS統合（2026-05-05更新）
+name: s4lv アカウントアイデンティティ・投稿基準
+description: s4lvの核心アイデンティティ・三極構造・黄金ルール・禁止事項・プロフィール最終案・思考OS統合（2026-05-05更新。統一後の最新アイデンティティは project_s4lv_accounts.md が正）
 type: project
 originSessionId: ef4b2de7-ea62-4aed-af4d-960b1060397a
 ---

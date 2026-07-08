@@ -19,8 +19,7 @@ claude project/
 ├── brands/         ← アカウント運用・ライティング原則（→ brands/CLAUDE.md を参照）
 │   ├── writing/        ← ライティング原則4ファイル
 │   ├── s4lv/
-│   │   ├── ai/         ← s4lv_aiアカウント固有データ・プロフィール
-│   │   ├── pro/        ← s4lv_proプロフィール
+│   │   ├── profile.md  ← s4lv統一プロフィール（2026-07-08統一）
 │   │   ├── rules/      ← 文体定義・Note記事プロセス等9本（旧Claude Codeメモリから統合）
 │   │   └── shared/     ← s4lv共通プロフィール・実績データ
 │   └── mbticode/       ← MBTI×ラブタイプ診断コンテンツ運用（rules/に文体・戦略12本）

@@ -1,6 +1,6 @@
 ---
-name: s4lv_pro X投稿生成の精度ルールと調整パターン
-description: s4lv_proのX投稿生成時に守るべき事実確認ルール・反響設計図・ユーザーの文体調整傾向（2026-05-05更新）
+name: s4lv X投稿生成の精度ルールと調整パターン
+description: s4lvのX投稿生成時に守るべき事実確認ルール・反響設計図・ユーザーの文体調整傾向（2026-05-05更新）
 type: feedback
 originSessionId: ef4b2de7-ea62-4aed-af4d-960b1060397a
 ---
