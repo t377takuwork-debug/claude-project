@@ -209,10 +209,11 @@ python tools/watch_programs.py --days 14  # 14日先まで
 
 | タスク名 | 実行時刻 | 実体 |
 |---|---|---|
-| `ShiraNotes_WatchPrograms` | 毎日 07:00 | `tools/run_watch_programs.cmd` → watch_programs.py |
-| `ShiraNotes_CollectNews` | 毎日 07:10 | `tools/run_collect_news.cmd` → collect_news.py |
+| `ShiraNotes_WatchPrograms` | 毎日 07:00 | wscript.exe → `tools/run_hidden.vbs` → `tools/run_watch_programs.cmd` → watch_programs.py |
+| `ShiraNotes_CollectNews` | 毎日 07:10 | wscript.exe → `tools/run_hidden.vbs` → `tools/run_collect_news.cmd` → collect_news.py |
 
 - 07時にPCがスリープ・電源オフでも、次回起動時に遅延実行される（StartWhenAvailable設定済み）
+- **コンソール窓は表示されない**（2026-07-09変更: `run_hidden.vbs` 経由の非表示起動。窓が出ないため発火確認は必ずログで行う）
 - 発火ログ: `tools/output/scheduler_watch.log` / `scheduler_collect.log`（UTF-8。PowerShell 5.1では `Get-Content -Encoding UTF8` で読む。gitignore対象）
 
 ### 運用コマンド（PowerShell）
@@ -228,7 +229,19 @@ Start-ScheduledTask -TaskName "ShiraNotes_CollectNews"
 Set-ScheduledTask -TaskName "ShiraNotes_WatchPrograms" -Trigger (New-ScheduledTaskTrigger -Daily -At 08:00)
 ```
 
-タスクが消えた場合の再登録手順は、このリポジトリのコミット `418bf93` の内容（`Register-ScheduledTask` でラッパーcmdを毎日実行・StartWhenAvailable付き）を再現する。pythonの呼び出しは必ず絶対パス `C:\Users\PC_User\AppData\Local\Python\bin\python.exe` を使うこと（PATH上の `python` はStoreスタブを掴んで無言失敗する）。
+タスクが消えた場合の再登録手順は、このリポジトリのコミット `418bf93` の内容（`Register-ScheduledTask` で毎日実行・StartWhenAvailable付き）を基に、アクションだけ以下の形式（2026-07-09変更後）で登録する。
+
+```powershell
+# アクションは wscript 経由（非表示起動）。パスにスペースがあるため引用符必須
+New-ScheduledTaskAction -Execute 'C:\Windows\System32\wscript.exe' `
+  -Argument '//B //Nologo "C:\Users\PC_User\claude project\blogs\shira_note\tools\run_hidden.vbs" "C:\Users\PC_User\claude project\blogs\shira_note\tools\run_watch_programs.cmd"'
+```
+
+再登録時の注意（2026-07-09の修正で確定した制約）：
+- pythonの呼び出しは必ず絶対パス `C:\Users\PC_User\AppData\Local\Python\bin\python.exe` を使う（PATH上の `python` はStoreスタブを掴んで無言失敗する）
+- アクションのパスは必ず引用符で囲む（`claude project` のスペースで「'C:\Users\PC_User\claude' は、内部コマンドまたは外部コマンドとして認識されていません」が出る）
+- 窓の非表示化にS4U（`-LogonType S4U`）は使わない（管理者昇格が必要でAccess denied。wscript＋`run_hidden.vbs` で代替済み）
+- `run_hidden.vbs` はASCIIのみで書く（WSHはANSIとして読むため、UTF-8日本語コメントが化けて構文を壊す）
 
 ## JSON-LD 出演者データ生成ツール
 
