@@ -44,6 +44,13 @@ WARN_PATTERNS = [
     ("ai-ikagadeshou", r"いかがでしょうか", "問いかけの定型の疑い"),
 ]
 
+# 層3: Note貼り付け時に崩れる記法（WARN・2026-07-09 s4lvトレンドブログ記事の実修正から追加）
+NOTE_PASTE_WARN_PATTERNS = [
+    ("note-list-dash", r"^- ", "Markdownリスト「- 」はNote貼り付けで崩れる可能性。テキストの「・」表記を推奨"),
+    ("note-blank-quote", r"^>[ \t]*$", "引用ブロック内の空行「>」のみだとNote貼り付けで段落が潰れる可能性。全角スペースを挟んだ「>　」を推奨"),
+    ("note-md-link", r"\[.+?\]\(https?://note\.com[^)]*\)", "note.comへのMarkdownリンク[text](url)はリンクカード化されない。裸URLを単独行に置くとカード化される"),
+]
+
 
 def sentences(text):
     return [s.strip() for s in re.split(r"[。！？!?]", text) if s.strip()]
@@ -69,6 +76,10 @@ def main():
         for m in re.finditer(pat, text):
             line_no = text[:m.start()].count("\n") + 1
             warns.append(f"[WARN] L{line_no} {code}: {msg}（「{m.group(0)}」）")
+    for code, pat, msg in NOTE_PASTE_WARN_PATTERNS:
+        for m in re.finditer(pat, text, flags=re.M):
+            line_no = text[:m.start()].count("\n") + 1
+            warns.append(f"[WARN] L{line_no} {code}: {msg}")
 
     # 同一語尾の連続（4文連続で同じ末尾2字 → AI感の兆候）
     sents = sentences(re.sub(r"^#.*$", "", text, flags=re.M))
@@ -94,6 +105,9 @@ def main():
         warns.append("[WARN] no-question-intro: 記事冒頭に問いかけがない（PASONA導入Step.1「〇〇でお困りではないですか？」型の確認）")
     if not re.search(r"note\.com|http", text) and args.paid:
         warns.append("[WARN] no-cta-link: 有料記事にURL・CTAリンクが見当たらない（中間CTA最低2箇所・s4lvマネタイズ設計）")
+    cta_like = len(re.findall(r"note\.com|有料記事", text))
+    if char_count > 3000 and cta_like < 2:
+        warns.append(f"[WARN] cta-count: CTA/有料記事への言及が{cta_like}箇所のみ（中間CTA最低2箇所・s4lvマネタイズ設計原則を下回っている可能性）")
 
     # 保存先チェック
     norm = args.file.replace("\\", "/")
