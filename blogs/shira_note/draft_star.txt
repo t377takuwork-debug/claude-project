@@ -1,8 +1,8 @@
 ﻿<!-- wp:paragraph -->
-タイトル：【最新】STAR タイムテーブル 7月2日は何時から？出演順や出演時間更新！
+タイトル：【最新】STAR タイムテーブル 7月16日は何時から？出演順や出演時間更新！
 
-メタディスクリプション（112字）：
-7/2放送のフジテレビ音楽番組『STAR』出演アーティスト・歌唱曲・タイムテーブル速報。BUDDiiSのテレビ初披露「キミは都市伝説」や、ゴスペラーズ・NEXZ・DOMOTOの最新曲など随時更新！
+メタディスクリプション（101字）：
+7/16放送のフジテレビ音楽番組『STAR』出演アーティスト・出演順・歌唱曲を随時更新。心に響いたディズニーソングランキング発表、京本大我×昆夏美・生田絵梨花×Mattの夢のコラボ映像など見どころ満載！
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -64,7 +64,7 @@
       <div style="display: flex; justify-content: space-between; align-items: center;">
         <span style="font-size: 11px; color: #F26522; font-weight: 700;">放送日時</span>
         <span style="font-size: 13px; font-weight: 800; color: #1a1a1a;">
-          7.2 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
+          7.16 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
         </span>
       </div>
     </div>
@@ -74,14 +74,21 @@
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333; line-height: 1.5;">
           <strong style="color: #000;">出演：</strong>
-          ゴスペラーズ / DOMOTO / NEXZ / ≠ME / BUDDiiS and more...
+          郷ひろみ / 櫻坂46 / NiziU / Hey! Say! JUMP / M!LK / きゃりーぱみゅぱみゅ and more...
         </p>
       </div>
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333; line-height: 1.5;">
           <strong style="color: #000;">注目：</strong>
-          BUDDiiS「キミは都市伝説」テレビ初披露（7/8発売前）／ゴスペラーズ「UNItVERSE」振付はSnow Man岩本照／板垣李光人がナビゲーター就任
+          国民3000人が選ぶ心に響いたディズニーソングBEST20発表／京本大我（SixTONES）×昆夏美・生田絵梨花×Mattのコラボ映像／M!LK佐野勇斗が『トイ・ストーリー5』声優合格の経緯を語る
+        </p>
+      </div>
+      <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
+        <span style="color: #00B7B5; font-size: 12px;">✦</span>
+        <p style="margin: 0; font-size: 11.5px; color: #333; line-height: 1.5;">
+          <strong style="color: #000;">タイムテーブル：</strong>
+          現在は番組構成予測を掲載中。放送開始後（19:00〜）に実際の進行へ随時更新します。
         </p>
       </div>
     </div>
@@ -96,11 +103,11 @@
       line-height: 1.4;
     ">
       <span style="font-weight: 700; color: #444;">※ハイライト：</span><br>
-      BUDDiiSのテレビ初披露、ゴスペラーズ×岩本照振付、NEXZアリーナツアー直後の初地上波が重なった、世代を超えた音楽の1時間。
+      国民3000人と豪華アーティストが選んだディズニーソングBEST20を、劇団四季・宝塚歌劇団のステージ映像や夢のコラボとともに一気に振り返る特別編。
     </div>
 
     <div style="display: flex; justify-content: space-between; align-items: center;">
-      <a href="https://www.fujitv.co.jp/star/" target="_blank" rel="noopener" style="
+      <a href="#st-toc-h-1" style="
         text-decoration: none;
         background: #1a1a1a;
         color: #fff;
@@ -110,10 +117,10 @@
         border-radius: 6px;
         line-height: 1;
       ">
-        詳細・パフォーマンス内容 ❯
+        最新タイムテーブルを見る ❯
       </a>
       <div style="font-size: 9px; color: #999; text-align: right;">
-        UPDATED: 2026.07.02
+        UPDATED: 2026.07.11
       </div>
     </div>
   </div>
@@ -129,15 +136,15 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>BUDDiiSのテレビ初披露「キミは都市伝説」は7月8日発売前の貴重なパフォーマンスで、ゴスペラーズの振付にSnow Man岩本照が携わっているなど、見どころが多い1時間です。</p>
+<p>今回はディズニーソングランキングBEST20の特別編。京本大我（SixTONES）×昆夏美のコラボ映像や、M!LK佐野勇斗が語る『トイ・ストーリー5』声優エピソードなど見どころ満載！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>STAR 最新タイムテーブル【7/2】</h2>
+<h2>STAR 最新タイムテーブル【7/16】</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年7月2日（木）19:00から放送の『STAR』出演アーティストと歌唱曲です。</p>
+<p>2026年7月16日（木）19:00から放送の『STAR』出演アーティストと歌唱曲です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -187,7 +194,7 @@
       <div style="display: flex; justify-content: space-between; align-items: center;">
         <span style="font-size: 11px; color: #F26522; font-weight: 700;">放送日時</span>
         <span style="font-size: 13px; font-weight: 800; color: #1a1a1a;">
-          7.2 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
+          7.16 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
         </span>
       </div>
     </div>
@@ -197,42 +204,42 @@
       <div style="display: flex; gap: 6px; align-items: flex-start;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:00</strong> OP（MC上垣皓太朗 ／ STARナビゲーター：板垣李光人）
+          <strong>19:00</strong> OP（MC上垣皓太朗）
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:10頃</strong> ゴスペラーズ「UNItVERSE」★Snow Man岩本照による振付
+          <strong>19:05頃</strong> ディズニーソングランキング BEST20〜11発表★乃木坂46「ジャンボリミッキー！」映像ほか
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:20頃</strong> DOMOTO「またね」★ギネス記録・連続首位48作達成シングル
+          <strong>19:20頃</strong> BEST10〜4発表★劇団四季「サークル・オブ・ライフ」スペシャルバージョン／宝塚歌劇団 雪組『美女と野獣』
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:30頃</strong> NEXZ「Hellmate」★アリーナツアー完走後・地上波初パフォーマンス
+          <strong>19:35頃</strong> M!LK佐野勇斗『トイ・ストーリー5』声優合格エピソード＋「君はともだち」紹介
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:40頃</strong> ≠ME「愛くださいませ」★史上最高難度のダンスで魅せる最新曲
+          <strong>19:45頃</strong> TOP3発表★京本大我（SixTONES）×昆夏美／生田絵梨花×Mattのコラボ映像
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:50頃</strong> BUDDiiS「キミは都市伝説」★メジャー1stシングルリード曲・テレビ初披露
+          <strong>19:52頃</strong> 第1位発表＋東京ディズニーリゾート最新情報
         </p>
       </div>
 
@@ -255,7 +262,7 @@
       line-height: 1.4;
     ">
       <strong>※最新の状況：</strong><br>
-      現在、7月2日放送の<strong>番組構成予測</strong>を表示中です。BUDDiiSのメジャー1stシングルリード曲「キミは都市伝説」がテレビ初披露となるほか、板垣李光人がナビゲーターを務める注目の1時間です。
+      現在、7月16日放送の<strong>番組構成予測</strong>を表示中です。国民3000人と豪華アーティストが選ぶディズニーソングBEST20の発表順は放送で確定するため、ランキング枠の時間帯は放送後に順次更新します。
     </div>
 
     <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -272,7 +279,7 @@
       </a>
 
       <div style="font-size: 9px; color: #999;">
-        UPDATED: 2026.07.02
+        UPDATED: 2026.07.11
       </div>
     </div>
 
@@ -289,7 +296,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>STAR（7/2）出演アーティスト・歌唱内容一覧</h2>
+<h2>STAR（7/16）出演アーティスト・歌唱内容一覧</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center","sizeSlug":"full"} -->
@@ -318,33 +325,63 @@ box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 <div style="background: #fff; border-radius: 0 0 11px 11px; overflow: hidden;">
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">ゴスペラーズ</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「UNItVERSE」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">EP『UNIVER5OUL』収録。Snow Man・岩本照による振付</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">京本大我（SixTONES）× 昆 夏美</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">コラボパフォーマンス映像</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">ミュージカル経験者同士による夢のコラボ映像を公開</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">DOMOTO</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「またね」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">連続首位獲得記録48作（ギネス世界記録）達成シングル</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">生田絵梨花 × Matt</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">コラボパフォーマンス映像</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">異色の組み合わせによるコラボ映像を公開</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">NEXZ</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「Hellmate」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">Japan 3rd EP収録曲。アリーナツアー完走後、地上波初パフォーマンス</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">劇団四季</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「サークル・オブ・ライフ」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">『ライオン・キング』よりスペシャルバージョンで披露</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">≠ME</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「愛くださいませ」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">史上最高難度のダンスで魅せる最新曲</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">宝塚歌劇団 雪組</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">『美女と野獣』</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">2019年収録のステージ映像を公開</div>
 </div>
 
-<div style="display: flex; flex-direction: column; padding: 10px 14px; background: #fff;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">BUDDiiS</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「キミは都市伝説」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">メジャー1stシングル（7月8日発売）リード曲。テレビ初披露</div>
+<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">乃木坂46</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「ジャンボリミッキー！」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">パフォーマンス映像で登場</div>
+</div>
+
+<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">清水美依紗</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「Starting Now～新しい私へ」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">ディズニー・プラス『Starting Now』日本版テーマソング歌唱</div>
+</div>
+
+<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">M!LK（佐野勇斗）</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「君はともだち」紹介</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">『トイ・ストーリー5』日本版声優オーディション合格の経緯を語る</div>
+</div>
+
+<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">Hey! Say! JUMP</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「平和を願うSTARソング」紹介</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">メンバーが選んだディズニーソングをトークで紹介</div>
+</div>
+
+<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">インタビュー出演（五十音順）</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">心に響いたディズニーソングを紹介</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">アイナ・ジ・エンド／＝LOVE／Aぇ! group／ORANGE RANGE／きゃりーぱみゅぱみゅ／郷ひろみ／櫻坂46／JI BLUE／NiziU／NEWS／FANTASTICS／モナキ／Little Glee Monster</div>
+</div>
+
+<div style="display: flex; flex-direction: column; padding: 10px 14px; background: #fdf2ed;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">パフォーマンス・VTR出演（五十音順）</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">歌唱・ステージ映像で登場</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">石橋陽彩／劇団4ドル50セント／城田優／ダイアモンド☆ユカイ／Beverly／平原綾香／ブラスト！／三浦大知 ほか</div>
 </div>
 
 </div>
@@ -356,11 +393,11 @@ box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>7月2日の『STAR』は、BUDDiiSのメジャー1stシングルリード曲「キミは都市伝説」のテレビ初披露をはじめ、ゴスペラーズ・DOMOTO・NEXZなど実力派アーティストが新曲・最新曲を届ける回。</p>
+<p>7月16日の『STAR』は、国民3000人と豪華アーティストが選ぶ「心に響いたディズニーソングランキングBEST20」を発表する特別編。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>板垣李光人がナビゲーターとして登場し、映画『口に関するアンケート』（7月3日公開）の話題も交えたトークにも注目です。</p>
+<p>インタビュー出演のアーティストが思い入れのあるディズニーソングをエピソードとともに紹介し、ランキングに合わせて劇団四季や宝塚歌劇団 雪組のステージ映像、夢のコラボ映像が公開されます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -408,7 +445,7 @@ padding: 14px;
     <span style="color:#F26522; font-size:12px;">✦</span>
     <div style="font-size:12px; color:#333;">
       <strong>19:00〜（オープニング・熱狂枠）</strong><br>
-      板垣李光人のナビゲーター就任を番組冒頭でアピールする流れが有力。6/25放送でも佐藤大樹（FANTASTICS）が初ナビゲーターとして序盤から登場した実績があり、今回もゴスペラーズかDOMOTOが序盤を担いながら板垣李光人とのトークが展開されると予想される。
+      オープニングトーク後、すぐにランキングBEST20〜11の発表へ進む流れが有力。7/2放送では19:05頃から最初のパフォーマンスが始まるテンポ重視の進行だった実績があり、今回も乃木坂46「ジャンボリミッキー！」など耳なじみのある人気曲の映像が序盤に集まると予想される。
     </div>
   </div>
 
@@ -416,7 +453,7 @@ padding: 14px;
     <span style="color:#00B7B5; font-size:12px;">✦</span>
     <div style="font-size:12px; color:#333;">
       <strong>19:15〜19:45（中盤・パフォーマンス枠）</strong><br>
-      NEXZ・≠MEが中盤を担う予想。NEXZはアリーナツアー完走直後の勢いあるステージ、≠MEは高難度ダンス「愛くださいませ」と、パフォーマンス系アーティストが続く展開が有力。5組を1時間に収めるためテンポよく進行する構成が過去回のパターン。
+      BEST10〜4の発表に合わせ、劇団四季「サークル・オブ・ライフ」スペシャルバージョンや宝塚歌劇団 雪組『美女と野獣』などステージ映像が中盤に集中する予想。7/2放送でも19:25頃に企画連動パート（ゴスペラーズ×ダンス企画）が挿入されており、M!LK佐野勇斗の『トイ・ストーリー5』エピソードトークもこの枠に入る可能性が高い。
     </div>
   </div>
 
@@ -424,7 +461,7 @@ padding: 14px;
     <span style="color:#F26522; font-size:12px;">✦</span>
     <div style="font-size:12px; color:#333;">
       <strong>19:45〜20:00（終盤・クライマックス枠）</strong><br>
-      BUDDiiSのテレビ初披露「キミは都市伝説」がクライマックスを飾る可能性が最も高い。6/25放送でもSUPER BEAVERとJI BLUEの注目パフォーマンスが後半に配置された実績から、今回もテレビ初披露という最大の見どころが終盤に当てられると予想される。
+      TOP3〜第1位の発表と、京本大我（SixTONES）×昆夏美・生田絵梨花×Mattのコラボ映像が終盤に集中する可能性が最も高い。7/2放送でもDOMOTOのトリ披露（19:45頃）に最大の反響が集まった実績から、今回も最注目のコラボと第1位発表が終盤に当てられると予想される。
     </div>
   </div>
 
@@ -441,7 +478,7 @@ border-radius:8px;
 line-height:1.5;
 ">
 💡 <strong>今回のポイント</strong><br>
-6/25放送回では注目度の高いアーティストが後半枠に集中した実績から、今回も「序盤：ゴスペラーズ＋DOMOTO→中盤：NEXZ＋≠ME→後半：BUDDiiSのテレビ初披露」という流れが最有力です。
+7/2放送回は「序盤から1組ずつテンポよく→トリに最大の見どころ」という進行だった実績から、今回も「序盤：BEST20〜11→中盤：BEST10〜4＋エピソードトーク→終盤：TOP3と第1位発表」の流れが最有力です。
 </div>
 
 </div>
@@ -461,7 +498,7 @@ line-height:1.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>6月25日の放送は以下のような流れでした。</p>
+<p>7月2日の放送は以下のような流れでした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -500,7 +537,7 @@ line-height:1.5;
           『STAR』SETLIST &amp; REPORT
         </div>
       </div>
-      <div style="font-size: 12px; font-weight: 700; color: #666;">2026.06.25 <span style="font-weight: 400;">THU</span></div>
+      <div style="font-size: 12px; font-weight: 700; color: #666;">2026.07.02 <span style="font-weight: 400;">THU</span></div>
     </div>
 
     <div style="
@@ -512,7 +549,7 @@ line-height:1.5;
     ">
       <div style="font-size: 11px; color: #F26522; font-weight: 800; margin-bottom: 2px;">STAR NAVIGATORS</div>
       <div style="font-size: 14px; font-weight: 700; color: #333;">上垣 皓太朗（フジテレビアナウンサー）</div>
-      <div style="font-size: 13px; font-weight: 700; color: #333; margin-top: 4px;">佐藤大樹（FANTASTICS）</div>
+      <div style="font-size: 13px; font-weight: 700; color: #333; margin-top: 4px;">板垣李光人</div>
     </div>
 
     <div style="display: grid; gap: 0; margin-bottom: 16px; border-left: 2px solid #eee; margin-left: 6px; padding-left: 14px;">
@@ -520,7 +557,7 @@ line-height:1.5;
         <div style="position: absolute; left: -21px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #F26522; border: 2px solid #fff;"></div>
         <div style="font-size: 11px; color: #F26522; font-weight: 800;">19:00頃 / OPENING</div>
         <div style="font-size: 13px; color: #1a1a1a; line-height: 1.5;">
-          MC上垣皓太朗進行＋ナビゲーター佐藤大樹（FANTASTICS）登場<br>
+          MC上垣皓太朗進行＋ナビゲーター板垣李光人登場<br>
           <span style="font-size: 11px; color: #666;">番組概要＆ラインナップ紹介</span>
         </div>
       </div>
@@ -529,8 +566,8 @@ line-height:1.5;
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
         <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:05～19:15頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">FANTASTICS</span>「SUNFLOWER」<br>
-          <span style="font-size: 11px; color: #666;">（ナビゲーター・佐藤大樹出演）</span>
+          <span style="font-weight: 800;">BUDDiiS</span>「キミは都市伝説」<br>
+          <span style="font-size: 11px; color: #666;">（メジャー1stシングル リード曲・テレビ初披露）</span>
         </div>
       </div>
 
@@ -538,7 +575,8 @@ line-height:1.5;
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
         <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:15～19:25頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">CUTIE STREET</span>「キュートなキューたい」
+          <span style="font-weight: 800;">≠ME</span>「愛くださいませ」<br>
+          <span style="font-size: 11px; color: #666;">（史上最高難度のダンスパフォーマンス）</span>
         </div>
       </div>
 
@@ -546,7 +584,8 @@ line-height:1.5;
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
         <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:25～19:35頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">超ときめき♡宣伝部</span>「どりーむじゃんぼ！」
+          <span style="font-weight: 800;">ゴスペラーズ</span>「UNItVERSE」<br>
+          <span style="font-size: 11px; color: #666;">（Snow Man岩本照振付・ダンス企画と連動）</span>
         </div>
       </div>
 
@@ -554,8 +593,8 @@ line-height:1.5;
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
         <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:35～19:45頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">SUPER BEAVER</span>「クライマックス」<br>
-          <span style="font-size: 11px; color: #666;">（都内某所スペシャルステージ・生中継）</span>
+          <span style="font-weight: 800;">NEXZ</span>「Hellmate」<br>
+          <span style="font-size: 11px; color: #666;">（地上波初披露）</span>
         </div>
       </div>
 
@@ -563,8 +602,8 @@ line-height:1.5;
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #F26522; border: 2px solid #fff;"></div>
         <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:45～19:58頃 / LAST</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">JI BLUE</span>「景色」 ★FIFAワールドカップ2026公式テーマソング<br>
-          <span style="font-size: 11px; color: #666;">（都内某所スペシャルステージ・生中継）</span>
+          <span style="font-weight: 800;">DOMOTO</span>「またね」<br>
+          <span style="font-size: 11px; color: #666;">（大トリ・売上No.1ソング特集〈90年代デビュー編〉と連動）</span>
         </div>
       </div>
     </div>
@@ -580,7 +619,7 @@ line-height:1.5;
       line-height: 1.6;
     ">
       <span style="display: inline-block; background: #eee; padding: 0 4px; border-radius: 2px; margin-right: 4px; font-weight: 800;">REPORT</span><br>
-      FANTASTICSリーダー・佐藤大樹の初ナビゲーター就任で番組がスタートし、SUPER BEAVERとJI BLUEの都内某所スペシャルステージ生中継が後半最大のハイライトに。CUTIE STREETと超ときめき♡宣伝部の初出演も好評だった、サッカー×音楽の1時間。
+      板垣李光人のナビゲーター回。BUDDiiSのテレビ初披露から大トリDOMOTO「またね」まで、最新曲パフォーマンスがテンポよく続く1時間に。Snow Man岩本照振付のダンスに挑んだゴスペラーズが好評で、DOMOTOの大トリパフォーマンスとトークが最大のハイライトに。
     </div>
 
     <div style="display: flex; flex-direction: column; gap: 12px;">
@@ -600,7 +639,7 @@ line-height:1.5;
       </a>
       <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 4px; border-top: 1px solid #eee;">
         <div style="font-size: 9px; color: #999; font-weight: 700; letter-spacing: 0.5px;">RECORDED FROM X REALTIME TREND</div>
-        <div style="font-size: 9px; color: #999;">FINAL UPDATED: 2026.06.26</div>
+        <div style="font-size: 9px; color: #999;">FINAL UPDATED: 2026.07.02</div>
       </div>
     </div>
   </div>
@@ -612,7 +651,7 @@ line-height:1.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>※7/2は放送前のため未確定。放送開始後（19:00〜）にリアルタイムで出演順を更新していきます。</p>
+<p>※7/16は放送前のため未確定。放送開始後（19:00〜）にリアルタイムで出演順を更新していきます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -722,7 +761,45 @@ color:#fff;
 <div style="padding:14px 16px;">
 
 <!-- ======================= -->
-<!-- 2026.06.25 (NEW) -->
+<!-- 2026.07.02 (NEW) -->
+<!-- ======================= -->
+<h3 style="margin:16px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
+2026年7月2日放送回
+</h3>
+
+<div style="
+border-radius:12px;
+overflow:hidden;
+border:1px solid #eee;
+background:#fff;
+box-shadow:0 6px 18px rgba(0,0,0,0.06);
+">
+
+<div style="height:4px;background:linear-gradient(90deg,#F26522,#00B7B5);"></div>
+
+<div style="padding:12px 14px;background:#fdfdfd;border-bottom:1px solid #eee;">
+  <div style="font-size:11px;font-weight:900;color:#F26522;">PAST LOG / STAR ARCHIVE</div>
+  <div style="font-size:14px;font-weight:900;color:#1a1a1a;">2026.07.02</div>
+</div>
+
+<div style="padding:14px;font-size:12px;line-height:1.8;color:#333;">
+
+<strong>BUDDiiS</strong>：「キミは都市伝説」（序盤・メジャー1stシングル リード曲のテレビ初披露）<br>
+<strong>≠ME</strong>：「愛くださいませ」（史上最高難度のダンスパフォーマンス）<br>
+<strong>ゴスペラーズ</strong>：「UNItVERSE」（Snow Man岩本照振付・ダンス企画と連動）<br>
+<strong>NEXZ</strong>：「Hellmate」（地上波初披露）<br>
+<strong>DOMOTO</strong>：「またね」（大トリ・売上No.1ソング特集〈90年代デビュー編〉と連動）
+
+</div>
+
+<div style="padding:10px 14px;background:#f7fafc;font-size:11px;color:#666;">
+💡 板垣李光人のナビゲーター回。BUDDiiSのテレビ初披露から大トリDOMOTO「またね」まで最新曲パフォーマンスが続き、岩本照振付のダンスに挑んだゴスペラーズとDOMOTOのトークが話題を集めた1時間。
+</div>
+
+</div>
+
+<!-- ======================= -->
+<!-- 2026.06.25 -->
 <!-- ======================= -->
 <h3 style="margin:16px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
 2026年6月25日放送回
@@ -836,43 +913,6 @@ box-shadow:0 6px 18px rgba(0,0,0,0.06);
 
 </div>
 
-<!-- ======================= -->
-<!-- 2026.06.04 -->
-<!-- ======================= -->
-<h3 style="margin:24px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
-2026年6月4日放送回
-</h3>
-
-<div style="
-border-radius:12px;
-overflow:hidden;
-border:1px solid #eee;
-background:#fff;
-box-shadow:0 6px 18px rgba(0,0,0,0.06);
-">
-
-<div style="height:4px;background:linear-gradient(90deg,#F26522,#00B7B5);"></div>
-
-<div style="padding:12px 14px;background:#fdfdfd;border-bottom:1px solid #eee;">
-  <div style="font-size:11px;font-weight:900;color:#F26522;">PAST LOG / STAR ARCHIVE</div>
-  <div style="font-size:14px;font-weight:900;color:#1a1a1a;">2026.06.04</div>
-</div>
-
-<div style="padding:14px;font-size:12px;line-height:1.8;color:#333;">
-
-<strong>なにわ男子</strong>：「ダイヤモンドスマイル」（OP）→「Celebrate」（クライマックス）の2曲。「なにわで始まりなにわで終わる」スタイルで視聴者から大絶賛<br>
-<strong>すとぷり（莉犬 / るぅと / ころん / さとみ / ジェル）</strong>：10周年スペシャルメドレー（「大好きになればいいんじゃない？」「アモーレ・ミオ」「スキスキ星人」）★歌番組初・実写（顔スタンプ）出演<br>
-<strong>浜野謙太 ＆ 後藤真希</strong>：「おーへい」（フジテレビ系ドラマ『銀河の一票』主題歌）コラボ初披露<br>
-<strong>特集企画</strong>：実はカップリング曲だった大逆転ヒットソング特集（KinKi Kids「愛のかたまり」等）で共感・驚きの声多数
-
-</div>
-
-<div style="padding:10px 14px;background:#f7fafc;font-size:11px;color:#666;">
-💡「すとぷりの日」（結成10周年）当日放送でなにわ男子2曲＋すとぷり初実写出演が重なった、記念日らしいキラキラの1時間
-</div>
-
-</div>
-
 
 </div>
 </details>
@@ -903,25 +943,25 @@ overflow:hidden;
 
 <!-- Q1 -->
 <div style="padding:12px;border-radius:10px;background:#fdf2ed;margin-bottom:10px;">
-  <div style="font-size:12px;font-weight:900;color:#F26522;">Q1｜テレビ初披露となるBUDDiiSの出演時間はいつ頃ですか？</div>
+  <div style="font-size:12px;font-weight:900;color:#F26522;">Q1｜京本大我×昆夏美のコラボ映像は何時頃見られますか？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    6/25放送でSUPER BEAVERとJI BLUEの注目パフォーマンスが後半枠に配置された実績から、今回もBUDDiiSのテレビ初披露「キミは都市伝説」が番組後半・19:45〜19:58頃のクライマックス枠に配置される可能性が高いと予想されます。
+    TOP3〜第1位の発表と合わせて、番組終盤・19:45〜19:58頃に公開される可能性が高いと予想されます。7/2放送でも最注目のDOMOTOが19:45頃からの終盤枠に配置された実績があり、最大の見どころを後半に置くのが番組のパターンです。
   </div>
 </div>
 
 <!-- Q2 -->
 <div style="padding:12px;border-radius:10px;background:#fff;border:1px solid #eee;margin-bottom:10px;">
-  <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q2｜ゲストナビゲーターの板垣李光人はどんな役割ですか？</div>
+  <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q2｜今回はどんな企画の放送回ですか？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    今回のゲストナビゲーターとして番組全体の進行を担当します。7月3日公開映画『口に関するアンケート』の主演として注目が集まる中での出演で、番組内では出演アーティストとのトークも予定されています。
+    国民3000人と豪華アーティストが選ぶ「心に響いたディズニーソングランキングBEST20」を発表する特別編です。MC上垣皓太朗（フジテレビアナウンサー）の進行で、アーティストの楽曲エピソードトークやステージ映像、東京ディズニーリゾートの最新情報も放送されます。
   </div>
 </div>
 
 <!-- Q3 -->
 <div style="padding:12px;border-radius:10px;background:#fdf2ed;margin-bottom:10px;">
-  <div style="font-size:12px;font-weight:900;color:#F26522;">Q3｜ゴスペラーズが披露する「UNItVERSE」の見どころは？</div>
+  <div style="font-size:12px;font-weight:900;color:#F26522;">Q3｜M!LK佐野勇斗の出演の見どころは？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    EP『UNIVER5OUL』収録の「UNItVERSE」はSnow Man・岩本照による振付が施された楽曲です。ゴスペラーズのハーモニーと岩本照が手がけた振付が融合したステージで、どんなパフォーマンスになるか注目です。
+    公開中のディズニー・ピクサー最新作『トイ・ストーリー5』の日本版声優オーディションに合格した経緯や、テーマソングへの思いを語る予定です。紹介するのは『トイ・ストーリー』シリーズの名曲「君はともだち」です。
   </div>
 </div>
 
@@ -929,7 +969,7 @@ overflow:hidden;
 <div style="padding:12px;border-radius:10px;background:#fff;border:1px solid #eee;">
   <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q4｜タイムテーブルのリアルタイム更新はありますか？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    公式から詳細な時間は公開されませんが、当ページでは7月2日の19:00放送開始とともに、実際のパフォーマンス順をリアルタイムで速報更新します。
+    公式から詳細な時間は公開されませんが、当ページでは7月16日の19:00放送開始とともに、実際の進行・ランキング発表順をリアルタイムで速報更新します。
   </div>
 </div>
 
@@ -942,19 +982,19 @@ overflow:hidden;
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年7月2日（木）19:00放送のフジテレビ系『STAR』。</p>
+<p>2026年7月16日（木）19:00放送のフジテレビ系『STAR』。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>板垣李光人がゲストナビゲーターを務め、BUDDiiSのメジャー1stシングルリード曲「キミは都市伝説」テレビ初披露やゴスペラーズ「UNItVERSE」（Snow Man岩本照振付）など注目パフォーマンスが揃った回です。</p>
+<p>今回は国民3000人と豪華アーティストが選ぶ「心に響いたディズニーソングランキングBEST20」を発表する特別編で、京本大我（SixTONES）×昆夏美や生田絵梨花×Mattのコラボ映像が公開されます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>NEXZアリーナツアー完走後の初地上波パフォーマンスや、DOMOTOのギネス記録達成シングル「またね」、≠MEの最高難度ダンス「愛くださいませ」も見逃せません。</p>
+<p>劇団四季「サークル・オブ・ライフ」スペシャルバージョンや宝塚歌劇団 雪組『美女と野獣』のステージ映像、M!LK佐野勇斗が語る『トイ・ストーリー5』声優合格エピソードも見逃せません。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>分刻みの歌唱順は当日19:00より、当ページにてリアルタイムで速報更新します。</p>
+<p>ランキングの発表順と進行は当日19:00より、当ページにてリアルタイムで速報更新します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -1049,33 +1089,39 @@ overflow:hidden;
       "@type": "BlogPosting",
       "@id": "https://shira-treat.com/star-timetable/#post",
       "url": "https://shira-treat.com/star-timetable/",
-      "headline": "【最新】STAR タイムテーブル 7月2日は何時から？出演順や出演時間更新！",
-      "description": "7/2放送のフジテレビ音楽番組『STAR』出演アーティスト・歌唱曲・タイムテーブル速報。BUDDiiSのテレビ初披露「キミは都市伝説」や、ゴスペラーズ・NEXZ・DOMOTOの最新曲など随時更新！",
+      "headline": "【最新】STAR タイムテーブル 7月16日は何時から？出演順や出演時間更新！",
+      "description": "7/16放送のフジテレビ音楽番組『STAR』出演アーティスト・出演順・歌唱曲を随時更新。心に響いたディズニーソングランキング発表、京本大我×昆夏美・生田絵梨花×Mattの夢のコラボ映像など見どころ満載！",
       "keywords": [
         "STAR",
         "タイムテーブル",
         "出演者",
-        "ゴスペラーズ",
-        "DOMOTO",
-        "NEXZ",
-        "≠ME",
-        "BUDDiiS",
-        "板垣李光人",
-        "7月2日",
+        "ディズニーソング",
+        "京本大我",
+        "昆夏美",
+        "生田絵梨花",
+        "Matt",
+        "劇団四季",
+        "宝塚歌劇団",
+        "M!LK",
+        "郷ひろみ",
+        "櫻坂46",
+        "NiziU",
+        "Hey! Say! JUMP",
+        "7月16日",
         "フジテレビ"
       ],
       "datePublished": "2026-04-09T20:00:00+09:00",
       "dateCreated": "2026-04-09T20:00:00+09:00",
-      "dateModified": "2026-07-02T10:00:00+09:00",
+      "dateModified": "2026-07-11T10:00:00+09:00",
       "inLanguage": "ja",
       "image": {
         "@type": "ImageObject",
         "@id": "https://shira-treat.com/star-timetable/#heroimage",
-        "url": "https://shira-treat.com/wp-content/uploads/2026/06/image-21.webp",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/06/image-12.webp",
         "width": 1200,
         "height": 675
       },
-      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/06/image-21.webp",
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/06/image-12.webp",
       "author": {
         "@type": "Person",
         "name": "Shira",
@@ -1110,20 +1156,45 @@ overflow:hidden;
     {
       "@type": "BroadcastEvent",
       "@id": "https://shira-treat.com/star-timetable/#broadcast",
-      "name": "STAR（2026年7月2日放送回）",
-      "startDate": "2026-07-02T19:00:00+09:00",
-      "endDate": "2026-07-02T20:00:00+09:00",
+      "name": "STAR（2026年7月16日放送回）",
+      "startDate": "2026-07-16T19:00:00+09:00",
+      "endDate": "2026-07-16T20:00:00+09:00",
       "eventStatus": "https://schema.org/EventScheduled",
       "isLiveBroadcast": true,
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "performer": [
         { "@type": "Person", "name": "上垣皓太朗" },
-        { "@type": "Person", "name": "板垣李光人" },
-        { "@type": "MusicGroup", "name": "ゴスペラーズ" },
-        { "@type": "MusicGroup", "name": "DOMOTO" },
-        { "@type": "MusicGroup", "name": "NEXZ" },
-        { "@type": "MusicGroup", "name": "≠ME" },
-        { "@type": "MusicGroup", "name": "BUDDiiS" }
+        { "@type": "Person", "name": "アイナ・ジ・エンド" },
+        { "@type": "MusicGroup", "name": "＝LOVE" },
+        { "@type": "MusicGroup", "name": "Aぇ! group" },
+        { "@type": "MusicGroup", "name": "ORANGE RANGE" },
+        { "@type": "Person", "name": "きゃりーぱみゅぱみゅ" },
+        { "@type": "Person", "name": "郷ひろみ" },
+        { "@type": "MusicGroup", "name": "櫻坂46" },
+        { "@type": "MusicGroup", "name": "JI BLUE" },
+        { "@type": "MusicGroup", "name": "NiziU" },
+        { "@type": "MusicGroup", "name": "NEWS" },
+        { "@type": "MusicGroup", "name": "FANTASTICS" },
+        { "@type": "MusicGroup", "name": "Hey! Say! JUMP" },
+        { "@type": "MusicGroup", "name": "M!LK" },
+        { "@type": "Person", "name": "モナキ" },
+        { "@type": "MusicGroup", "name": "Little Glee Monster" },
+        { "@type": "Person", "name": "生田絵梨花" },
+        { "@type": "Person", "name": "Matt" },
+        { "@type": "Person", "name": "石橋陽彩" },
+        { "@type": "Person", "name": "京本大我" },
+        { "@type": "Person", "name": "昆夏美" },
+        { "@type": "PerformingGroup", "name": "劇団四季" },
+        { "@type": "PerformingGroup", "name": "劇団4ドル50セント" },
+        { "@type": "Person", "name": "清水美依紗" },
+        { "@type": "Person", "name": "城田優" },
+        { "@type": "Person", "name": "ダイアモンド☆ユカイ" },
+        { "@type": "PerformingGroup", "name": "宝塚歌劇団 雪組" },
+        { "@type": "MusicGroup", "name": "乃木坂46" },
+        { "@type": "Person", "name": "Beverly" },
+        { "@type": "Person", "name": "平原綾香" },
+        { "@type": "PerformingGroup", "name": "ブラスト！" },
+        { "@type": "Person", "name": "三浦大知" }
       ],
       "broadcaster": {
         "@type": "Organization",
@@ -1134,14 +1205,40 @@ overflow:hidden;
     {
       "@type": "ItemList",
       "@id": "https://shira-treat.com/star-timetable/#lineup",
-      "name": "STAR（7/2）出演アーティスト・パフォーマンス一覧",
-      "numberOfItems": 5,
+      "name": "STAR（7/16）出演アーティスト・パフォーマンス一覧",
+      "numberOfItems": 31,
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "ゴスペラーズ" },
-        { "@type": "ListItem", "position": 2, "name": "DOMOTO" },
-        { "@type": "ListItem", "position": 3, "name": "NEXZ" },
-        { "@type": "ListItem", "position": 4, "name": "≠ME" },
-        { "@type": "ListItem", "position": 5, "name": "BUDDiiS" }
+        { "@type": "ListItem", "position": 1, "name": "アイナ・ジ・エンド" },
+        { "@type": "ListItem", "position": 2, "name": "＝LOVE" },
+        { "@type": "ListItem", "position": 3, "name": "Aぇ! group" },
+        { "@type": "ListItem", "position": 4, "name": "ORANGE RANGE" },
+        { "@type": "ListItem", "position": 5, "name": "きゃりーぱみゅぱみゅ" },
+        { "@type": "ListItem", "position": 6, "name": "郷ひろみ" },
+        { "@type": "ListItem", "position": 7, "name": "櫻坂46" },
+        { "@type": "ListItem", "position": 8, "name": "JI BLUE" },
+        { "@type": "ListItem", "position": 9, "name": "NiziU" },
+        { "@type": "ListItem", "position": 10, "name": "NEWS" },
+        { "@type": "ListItem", "position": 11, "name": "FANTASTICS" },
+        { "@type": "ListItem", "position": 12, "name": "Hey! Say! JUMP" },
+        { "@type": "ListItem", "position": 13, "name": "M!LK" },
+        { "@type": "ListItem", "position": 14, "name": "モナキ" },
+        { "@type": "ListItem", "position": 15, "name": "Little Glee Monster" },
+        { "@type": "ListItem", "position": 16, "name": "生田絵梨花" },
+        { "@type": "ListItem", "position": 17, "name": "Matt" },
+        { "@type": "ListItem", "position": 18, "name": "石橋陽彩" },
+        { "@type": "ListItem", "position": 19, "name": "京本大我（SixTONES）" },
+        { "@type": "ListItem", "position": 20, "name": "昆夏美" },
+        { "@type": "ListItem", "position": 21, "name": "劇団四季" },
+        { "@type": "ListItem", "position": 22, "name": "劇団4ドル50セント" },
+        { "@type": "ListItem", "position": 23, "name": "清水美依紗" },
+        { "@type": "ListItem", "position": 24, "name": "城田優" },
+        { "@type": "ListItem", "position": 25, "name": "ダイアモンド☆ユカイ" },
+        { "@type": "ListItem", "position": 26, "name": "宝塚歌劇団 雪組" },
+        { "@type": "ListItem", "position": 27, "name": "乃木坂46" },
+        { "@type": "ListItem", "position": 28, "name": "Beverly" },
+        { "@type": "ListItem", "position": 29, "name": "平原綾香" },
+        { "@type": "ListItem", "position": 30, "name": "ブラスト！" },
+        { "@type": "ListItem", "position": 31, "name": "三浦大知" }
       ]
     },
     {
@@ -1150,18 +1247,18 @@ overflow:hidden;
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "テレビ初披露となるBUDDiiSの出演時間はいつ頃ですか？",
+          "name": "京本大我×昆夏美のコラボ映像は何時頃見られますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "6/25放送でSUPER BEAVERとJI BLUEの注目パフォーマンスが後半枠に配置された実績から、今回もBUDDiiSのテレビ初披露「キミは都市伝説」が番組後半・19:45〜19:58頃のクライマックス枠に配置される可能性が高いと予想されます。"
+            "text": "TOP3〜第1位の発表と合わせて、番組終盤・19:45〜19:58頃に公開される可能性が高いと予想されます。7/2放送でも最注目のDOMOTOが19:45頃からの終盤枠に配置された実績があり、最大の見どころを後半に置くのが番組のパターンです。"
           }
         },
         {
           "@type": "Question",
-          "name": "ゲストナビゲーターの板垣李光人はどんな役割ですか？",
+          "name": "今回はどんな企画の放送回ですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "今回のゲストナビゲーターとして番組全体の進行を担当します。7月3日公開映画『口に関するアンケート』の主演として注目が集まる中での出演で、番組内では出演アーティストとのトークも予定されています。"
+            "text": "国民3000人と豪華アーティストが選ぶ「心に響いたディズニーソングランキングBEST20」を発表する特別編です。MC上垣皓太朗（フジテレビアナウンサー）の進行で、アーティストの楽曲エピソードトークやステージ映像、東京ディズニーリゾートの最新情報も放送されます。"
           }
         },
         {
@@ -1169,7 +1266,7 @@ overflow:hidden;
           "name": "タイムテーブルのリアルタイム更新はありますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "公式から詳細な時間は公開されませんが、当ページでは7月2日の19:00放送開始とともに、実際のパフォーマンス順をリアルタイムで速報更新します。"
+            "text": "公式から詳細な時間は公開されませんが、当ページでは7月16日の19:00放送開始とともに、実際の進行・ランキング発表順をリアルタイムで速報更新します。"
           }
         }
       ]
@@ -1193,7 +1290,7 @@ overflow:hidden;
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "7月2日 STAR タイムテーブル",
+          "name": "7月16日 STAR タイムテーブル",
           "item": "https://shira-treat.com/star-timetable/"
         }
       ]
