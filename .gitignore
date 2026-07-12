@@ -4,3 +4,7 @@ blogs/shira_note/tools/output/scheduler_watch.log
 blogs/shira_note/tools/output/scheduler_collect.log
 blogs/shira_note/tools/output/snapshots/
 __pycache__/
+blogs/cf_room/tools/wp_auth.local.json
+blogs/cf_room/tools/connect_test_state.json
+blogs/cf_room/assets/*
+!blogs/cf_room/assets/README.md

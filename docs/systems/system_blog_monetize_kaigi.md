@@ -31,7 +31,8 @@ metadata:
 
 ## 思考モデルの参照元
 
-repo内 `docs/reference/SNS.txt`（2026-07-06にOneDriveデスクトップ `ブログ\SNS.txt` からコピー。以後repo側が正）
+repo内 `docs/reference/blog_monetize_personas.md`（2026-07-12にOneDriveデスクトップ `会議プロンプト\ブログマネタイズ会議ト.txt` から統合。以後repo側が正）
+※旧記載の `docs/reference/SNS.txt` は実際には別内容（音楽番組記事）であり参照先として誤りだったため修正済み。
 
 **Why:** ブログ運営の戦略判断（抽象）と記事の収益改善（具体）は入力・出力が根本的に異なるため分離。
 **How to apply:** ブログ全体の方向性・参入判断は `/blog-kaigi`、特定記事の商材・導線改善は `/monetize-kaigi` に振り分ける。
