@@ -41,14 +41,16 @@
 | I8 | ASP記事設計 | `/asp-kaigi` → `/asp-theme` → `/asp-outline` の順に連結 | 各スキルの出力フォーマット完了 | － |
 | I9 | ブログ戦略・記事CV改善 | `/blog-kaigi`（戦略）／`/monetize-kaigi`（CV改善） | 5名合議の出力完了 | － |
 | I10 | バズ投稿分析 | `/buzz-analysis`（収集はユーザー手動・自動取得はX/Threadsで機能せず見送り済み） | 4部構成の分析出力（投稿別分析表〜資産反映提案） | 固定フレームワーク6観点 |
+| I11 | cf_room 記事新規作成・リライト | 新規は `/cf-article`／リライトは `blogs/cf_room/CLAUDE.md`（工程地図: `rules/article_pipeline.md`） | drafts/保存＋`qa_draft.ps1` ERROR 0件＋rewrite_log追記 | `blogs/cf_room/tools/qa_draft.ps1`（機械） |
+| I12 | vtuber_log 記事新規作成・リライト | 新規は `/vtuber-article`／リライトは `blogs/vtuber_log/CLAUDE.md`（工程地図: `rules/article_pipeline.md`） | drafts/保存＋`qa_draft.ps1` ERROR 0件＋rewrite_log追記 | `blogs/vtuber_log/tools/qa_draft.ps1`（機械） |
 
 ### 休眠・準備中
 
 | # | 対象 | 状態 |
 |---|---|---|
-| S1 | `blogs/cf_room` | CLAUDE.mdは空ファイル（.claudeignoreで除外中）・skills空。稼働時は shira_note 構造（共通ルール1本＋コマンド＋機械QA）を横展開する |
-| S2 | `blogs/darepedia` | 同上 |
-| S3 | `blogs/vtuber_log` | 同上 |
+| S1 | `blogs/darepedia` | CLAUDE.mdは空ファイル（.claudeignoreで除外中）・skills空。稼働時は cf_room 構造（rules/＋tools/＋専用スキル＋機械QA）を横展開する |
+
+※cf_room は2026-07-12に稼働開始（→I11）、vtuber_log は2026-07-12にcf_room構造を横展開して稼働開始（→I12）。
 
 ---
 

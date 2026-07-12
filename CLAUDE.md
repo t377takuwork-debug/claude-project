@@ -79,6 +79,8 @@ claude project/
 | shira_note リライト | `blogs/shira_note/CLAUDE.md` |
 | cf_room 記事新規作成（画像自動配置） | `/cf-article` スキルを起動 |
 | cf_room リライト | `blogs/cf_room/CLAUDE.md` |
+| vtuber_log 記事新規作成（画像自動配置） | `/vtuber-article` スキルを起動 |
+| vtuber_log リライト | `blogs/vtuber_log/CLAUDE.md` |
 | Note記事生成（s4lv/MBTICODE） | `brands/CLAUDE.md` |
 | X・Threads投稿生成 | `brands/CLAUDE.md` |
 | junk_juice Note記事（テーマ・タイトル） | `/junk-theme` スキルを起動 |

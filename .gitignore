@@ -8,3 +8,7 @@ blogs/cf_room/tools/wp_auth.local.json
 blogs/cf_room/tools/connect_test_state.json
 blogs/cf_room/assets/*
 !blogs/cf_room/assets/README.md
+blogs/vtuber_log/tools/wp_auth.local.json
+blogs/vtuber_log/tools/connect_test_state.json
+blogs/vtuber_log/assets/*
+!blogs/vtuber_log/assets/README.md

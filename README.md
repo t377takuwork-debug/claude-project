@@ -50,7 +50,9 @@ claude project/
 │   │   ├── .claude/commands/  ← リライト・QA・リサーチ系コマンド 13本
 │   │   └── tools/             ← qa_draft.py（機械検品）・collect_news.py・watch_programs.py
 │   ├── seo/SEO_guide.txt  ← 全ブログ共通SEOマスターガイド
-│   └── cf_room / darepedia / vtuber_log ← 準備中（CLAUDE.mdは空ファイル。稼働時はshira_note構造＝共通ルール1本＋コマンド＋機械QAを横展開）
+│   ├── cf_room/           ← ガジェットレビューブログ（稼働中。rules/9本＋tools/WP自動化＋/cf-articleスキル）
+│   ├── vtuber_log/        ← VTuber情報ブログ VTuber Log（稼働中。cf_room構造を横展開＋/vtuber-articleスキル）
+│   └── darepedia          ← 準備中（CLAUDE.mdは空ファイル。稼働時はcf_room構造を横展開）
 ├── brands/
 │   ├── CLAUDE.md          ← s4lv・MBTICODE共通ナビ
 │   ├── tools/             ← qa_post.py（SNS投稿の機械検品）・qa_article.py（Note記事の機械検品）
