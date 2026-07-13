@@ -1,8 +1,8 @@
 <!-- wp:paragraph -->
 タイトル：【2026】音楽の日タイムテーブル｜出演者の順番や出演時間まとめ(随時更新)
 
-メタディスクリプション（97字）：
-「音楽の日2026」7月18日生放送！あいみょん・BE:FIRST・Snow Manら第3弾計55組が発表。DREAMコーラス等特別企画も判明。タイムテーブルや出演者の順番を最速でお届けします。
+メタディスクリプション（101字）：
+「音楽の日2026」7月18日生放送！あいみょん・BE:FIRST・Snow Manら最新情報で計58組が発表。EXILE南三陸ライブ等特別企画も判明。タイムテーブルや出演者の順番を最速でお届けします。
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -51,19 +51,19 @@
     <div style="display: flex; align-items: flex-start; gap: 8px;">
       <div style="flex-shrink: 0; font-size: 8px; font-weight: 800; background: #ff4081; color: #fff; padding: 1px 4px; border-radius: 2px; margin-top: 2px;">出演者</div>
       <div style="font-size: 11px; color: #333; line-height: 1.4;">
-        INI、あいみょん、King &amp; Prince、BE:FIRST、Snow Man、Number_i、Mrs. GREEN APPLE、乃木坂46、日向坂46、AKB48、<b>and more（計55組）...</b>
+        INI、あいみょん、King &amp; Prince、BE:FIRST、Snow Man、Number_i、Mrs. GREEN APPLE、乃木坂46、日向坂46、AKB48、<b>and more（計58組）...</b>
       </div>
     </div>
 
     <div style="background: rgba(255,64,129,0.04); border-left: 2px solid #ff4081; padding: 6px 10px;">
       <div style="font-size: 11px; font-weight: 600; color: #ff4081; display: flex; align-items: flex-start; gap: 5px; line-height: 1.3;">
         <span style="margin-top: 4px; width: 4px; height: 4px; background: #ff4081; border-radius: 50%; flex-shrink: 0;"></span>
-        出演アーティスト第3弾まで発表済み（計55組）！「DREAMコーラス」「赤坂超ライブ」など特別企画の詳細も判明。タイムテーブルや歌唱曲は今後の解禁をお待ちください。
+        出演アーティストの最新情報を発表（計58組）！「EXILE南三陸ライブ」「DREAMダンス企画」など特別企画の詳細も判明。タイムテーブルや歌唱曲は今後の解禁をお待ちください。
       </div>
     </div>
 
     <div style="margin-top: 2px;">
-      <a href="#st-toc-h-2" style="display: flex; align-items: center; justify-content: center; background: #333; color: #fff; text-decoration: none; font-size: 10px; font-weight: 600; padding: 8px; border-radius: 2px; letter-spacing: 0.05em;">
+      <a href="#st-toc-h-1" style="display: flex; align-items: center; justify-content: center; background: #333; color: #fff; text-decoration: none; font-size: 10px; font-weight: 600; padding: 8px; border-radius: 2px; letter-spacing: 0.05em;">
         最新の出演者・タイムテーブル情報をチェックする ▶
       </a>
     </div>
@@ -80,7 +80,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演者第3弾が発表され、「DREAMコーラス」「赤坂超ライブ」など特別企画の詳細も判明しました。</p>
+<p>出演者の最新情報が発表され、「EXILE南三陸ライブ」「DREAMダンス企画」など特別企画の詳細も判明しました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -127,7 +127,7 @@
         <div style="font-size: 11px; color: #444; font-weight: 600; margin-bottom: 4px;">
           <span style="border-left: 2px solid #ff4081; padding-left: 5px;">14:00台〜 メインステージ生放送開始</span>
         </div>
-        <div style="font-size: 12px; color: #888; font-style: italic;">出演アーティスト・歌唱曲の発表をお待ちください</div>
+        <div style="font-size: 12px; color: #888; font-style: italic;">出演アーティストは発表済み！詳細な出演順・時間帯は近日発表予定</div>
       </div>
     </div>
 
@@ -136,7 +136,7 @@
         <div style="font-size: 12px; font-weight: 800; color: #00b4db; font-family: sans-serif;">15:00〜</div>
       </div>
       <div style="padding: 10px 12px; flex: 1; display: flex; align-items: center;">
-        <div style="font-size: 12px; color: #888;">各時間帯の順番・タイムテーブル順次公開...</div>
+        <div style="font-size: 12px; color: #888;">出演者・特別企画は判明。時間帯別タイムテーブルは順次公開...</div>
       </div>
     </div>
 
@@ -147,7 +147,7 @@
       </div>
       <div style="padding: 10px 12px; flex: 1;">
         <div style="font-size: 11px; color: #ff4081; font-weight: 700; margin-bottom: 4px;">番組フィナーレ（21:56生放送終了）</div>
-        <div style="font-size: 12px; color: #888;">出演アーティスト・スペシャル企画 順次公開</div>
+        <div style="font-size: 12px; color: #888;">DREAMダンス企画・ハーフタイムショーなどフィナーレの見どころが判明</div>
       </div>
     </div>
 
@@ -167,7 +167,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>現時点では2026年の詳細なタイムテーブルは公開されていませんが、判明次第の各時間帯へ最新情報を追記します。</p>
+<p>出演アーティストや特別企画の詳細は判明していますが、2026年の時間帯別タイムテーブルはまだ公開されていません。判明次第、各時間帯へ最新情報を追記します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
@@ -191,22 +191,24 @@
         音<span style="position: absolute; top: -1px; left: 3px; width: 4px; height: 4px; background: #ff0000; border-radius: 50%;"></span>楽の日
       </div>
     </div>
-    <div style="font-size: 13px; font-weight: 700; color: #00b4db; letter-spacing: 0.05em;">ARTISTS (第3弾発表)</div>
+    <div style="font-size: 13px; font-weight: 700; color: #00b4db; letter-spacing: 0.05em;">ARTISTS (最新情報)</div>
   </div>
 
   <div style="padding: 10px; background: #fcfdfe;">
-    <div style="font-size: 11px; color: #555; margin-bottom: 8px;">現在発表されている出演アーティスト（計55組）:</div>
+    <div style="font-size: 11px; color: #555; margin-bottom: 8px;">現在発表されている出演アーティスト（計58組）:</div>
     <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px; font-size: 12px; color: #333;">
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">INI</div>
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">IMP.</div>
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">アイナ・ジ・エンド</div>
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">あいみょん</div>
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">＝LOVE</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">ウェイウェイ・ウー＆平原綾香<div style="font-size: 9px; color: #999; margin-top: 1px;">「祈りにみちて」</div></div>
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">WEST.</div>
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Aぇ! group</div>
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">AKB48</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">EXILE</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">EXILE<div style="font-size: 9px; color: #999; margin-top: 1px;">「道」「Rising Sun」</div></div>
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">EBiDAN</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">m.c.A・T</div>
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">&amp;TEAM</div>
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">岡本真夜</div>
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Kis-My-Ft2</div>
@@ -230,6 +232,7 @@
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">超特急</div>
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">TSUZUMI（ME:I）</div>
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">TRF</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">T-BOLAN<div style="font-size: 9px; color: #999; margin-top: 1px;">「離したくはない」「じれったい愛」</div></div>
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">TWS</div>
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">DOMOTO</div>
       <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Travis Japan</div>
@@ -261,38 +264,36 @@
   <div style="padding: 12px; background: #fff; border-top: 1px solid #eee;">
     <div style="font-size: 9px; font-weight: 800; color: #ff4081; margin-bottom: 8px; letter-spacing: 0.05em;">PROJECTS</div>
 
-    <div style="display: flex; gap: 10px; overflow-x: auto; padding-bottom: 5px; -webkit-overflow-scrolling: touch;">
+    <div style="display: flex; gap: 8px; overflow-x: auto; padding-bottom: 5px; -webkit-overflow-scrolling: touch;">
 
-      <div style="flex: 0 0 160px; background: rgba(255,64,129,0.03); border: 1px solid rgba(255,64,129,0.15); border-radius: 3px; padding: 8px;">
-        <div style="font-size: 11px; font-weight: 700; color: #ff4081;">赤坂超ライブ</div>
-        <div style="font-size: 9px; color: #666; margin-top: 4px; line-height: 1.4;">Snow Man・SUPER BEAVER・Number_i・HANA・WEST.・FRUITS ZIPPER・M!LK参加。1アーティスト10分の長尺パフォーマンス</div>
+      <div style="flex: 0 0 auto; background: rgba(255,64,129,0.03); border: 1px solid rgba(255,64,129,0.15); border-radius: 3px; padding: 8px 12px;">
+        <div style="font-size: 11px; font-weight: 700; color: #ff4081; white-space: nowrap;">EXILE 南三陸ライブ</div>
       </div>
 
-      <div style="flex: 0 0 160px; background: rgba(0,180,219,0.03); border: 1px solid rgba(0,180,219,0.15); border-radius: 3px; padding: 8px;">
-        <div style="font-size: 11px; font-weight: 700; color: #00b4db;">DREAMコーラス</div>
-        <div style="font-size: 9px; color: #666; margin-top: 4px; line-height: 1.4;">事務所の枠を超えた合唱企画。ワタナベ・ASOBISYSTEM・スターダスト・BMSG・STARTO・ライジング6事務所からメンバーが集結</div>
+      <div style="flex: 0 0 auto; background: rgba(0,180,219,0.03); border: 1px solid rgba(0,180,219,0.15); border-radius: 3px; padding: 8px 12px;">
+        <div style="font-size: 11px; font-weight: 700; color: #00b4db; white-space: nowrap;">DREAMダンス企画</div>
       </div>
 
-      <div style="flex: 0 0 160px; background: #f9f9f9; border: 1px solid #ddd; border-radius: 3px; padding: 8px;">
-        <div style="font-size: 11px; font-weight: 700; color: #444;">ディズニーこえる名曲メドレー</div>
-        <div style="font-size: 9px; color: #666; margin-top: 4px; line-height: 1.4;">TSUZUMI（ME:I）・Dream Ami・May J.がディズニーの名曲を披露</div>
+      <div style="flex: 0 0 auto; background: #f9f9f9; border: 1px solid #ddd; border-radius: 3px; padding: 8px 12px;">
+        <div style="font-size: 11px; font-weight: 700; color: #444; white-space: nowrap;">ハーフタイムショー</div>
       </div>
 
-      <div style="flex: 0 0 160px; background: rgba(255,64,129,0.03); border: 1px solid rgba(255,64,129,0.15); border-radius: 3px; padding: 8px;">
-        <div style="font-size: 11px; font-weight: 700; color: #ff4081;">億超えメドレー</div>
-        <div style="font-size: 9px; color: #666; margin-top: 4px; line-height: 1.4;">アイナ・ジ・エンド・あいみょん・King &amp; Prince・BE:FIRSTら再生数億回超えのヒット曲を披露</div>
+      <div style="flex: 0 0 auto; background: rgba(255,64,129,0.03); border: 1px solid rgba(255,64,129,0.15); border-radius: 3px; padding: 8px 12px;">
+        <div style="font-size: 11px; font-weight: 700; color: #ff4081; white-space: nowrap;">能登からの祈り</div>
       </div>
 
-      <div style="flex: 0 0 160px; background: #f9f9f9; border: 1px solid #ddd; border-radius: 3px; padding: 8px;">
-        <div style="font-size: 11px; font-weight: 700; color: #444;">ミリオン超えメドレー</div>
-        <div style="font-size: 9px; color: #666; margin-top: 4px; line-height: 1.4;">AKB48・&amp;TEAM・岡本真夜・TRF・乃木坂46らミリオンセラー大ヒット曲を披露</div>
+      <div style="flex: 0 0 auto; background: #f9f9f9; border: 1px solid #ddd; border-radius: 3px; padding: 8px 12px;">
+        <div style="font-size: 11px; font-weight: 700; color: #444; white-space: nowrap;">T-BOLAN ラストテレビ出演</div>
       </div>
 
-      <div style="flex: 0 0 160px; background: rgba(255,64,129,0.03); border: 1px solid rgba(255,64,129,0.15); border-radius: 3px; padding: 8px;">
-        <div style="font-size: 11px; font-weight: 700; color: #ff4081;">大合唱企画</div>
-        <div style="font-size: 9px; color: #666; margin-top: 4px; line-height: 1.4;">HIPPY「君に捧げる応援歌」を全国で大合唱。背中を押す感動のフィナーレ</div>
+      <div style="flex: 0 0 auto; background: rgba(255,64,129,0.03); border: 1px solid rgba(255,64,129,0.15); border-radius: 3px; padding: 8px 12px;">
+        <div style="font-size: 11px; font-weight: 700; color: #ff4081; white-space: nowrap;">ウタウタイ</div>
       </div>
 
+    </div>
+
+    <div style="margin-top: 8px;">
+      <a href="#st-toc-h-4" style="font-size: 10px; color: #00b4db; text-decoration: none; font-weight: 600;">各企画の参加アーティスト・楽曲の詳細を見る ▶</a>
     </div>
   </div>
 
@@ -302,7 +303,7 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>出演者は今後も追加予定。歌唱曲・タイムテーブルは判明次第こちらに追記します。</p>
+<p>出演者・特別企画は最新情報を反映済み。歌唱曲・タイムテーブルは判明次第こちらに追記します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
@@ -378,7 +379,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演アーティストの発表は、一度に全員ではなく「第1弾」「第2弾」と数回に分けて行われます。</p>
+<p>出演アーティストの発表は、一度に全員ではなく「第1弾」「第2弾」のように数回に分けて行われます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
@@ -441,6 +442,108 @@
           壁にぶつかったとき、いつもそばで勇気をくれた歌声（＝<strong>きこえる</strong>）を届け、あらゆる境界を飛び越えて明日へと背中を押してくれる、感動のステージが大きな見どころです。
         </p>
       </div>
+    </div>
+
+    <div style="margin-top: 18px;">
+      <div style="font-size: 14px; font-weight: 700; color: #333; border-bottom: 1px solid #f0f0f0; padding-bottom: 5px; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">
+        <span style="color: #00b4db;">●</span> 特別企画・見どころ一覧
+      </div>
+
+      <div style="width: 100%; border-collapse: collapse; display: table; font-size: 10px; margin-bottom: 10px;">
+        <div style="display: table-row; background: #f0faff; font-weight: 700; color: #00b4db;">
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0;">企画名</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0;">参加アーティスト</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0;">楽曲</div>
+        </div>
+        <div style="display: table-row;">
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">EXILE 南三陸ライブ</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">EXILE</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">「道」「Rising Sun」</div>
+        </div>
+        <div style="display: table-row; background: rgba(0,180,219,0.02);">
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">DREAMダンス企画</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">STARTO・LDH・坂道グループ・スターダスト・BMSG・ライジングら7事務所選抜メンバー</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">サカナクション「夜の踊り子」ほか（詳細は下記）</div>
+        </div>
+        <div style="display: table-row;">
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">ハーフタイムショー</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">TRF（SAM・ETSU・CHIHARU）・EXILE（松本利夫・ÜSA・MAKIDAI）</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">ビヨンセ「Run The World (Girls)」／Heavy D &amp; The Boyz「Now That We Found Love」／マイケル・ジャクソン「Black Or White」</div>
+        </div>
+        <div style="display: table-row; background: rgba(255,64,129,0.02);">
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">能登からの祈り</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">ウェイウェイ・ウー＆平原綾香</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">「祈りにみちて」</div>
+        </div>
+        <div style="display: table-row;">
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">T-BOLAN ラストテレビ出演</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">T-BOLAN</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">「離したくはない」「じれったい愛」</div>
+        </div>
+        <div style="display: table-row; background: rgba(0,180,219,0.02);">
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">ウタウタイ</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">M!LK・超特急・DA PUMP・知念里奈ほか多数</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">楽曲未発表</div>
+        </div>
+      </div>
+
+      <div style="font-size: 11px; font-weight: 700; color: #00b4db; margin: 10px 0 6px;">DREAMダンス企画 事務所別ラインナップ</div>
+      <div style="width: 100%; border-collapse: collapse; display: table; font-size: 10px;">
+        <div style="display: table-row; background: #f0faff; font-weight: 700; color: #00b4db;">
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0;">事務所</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0;">楽曲</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0;">参加メンバー</div>
+        </div>
+        <div style="display: table-row;">
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">OPENING</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">サカナクション「夜の踊り子」</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">各事務所代表</div>
+        </div>
+        <div style="display: table-row; background: rgba(0,180,219,0.02);">
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">STARTO ENTERTAINMENT</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">RIP SLYME「楽園ベイベー」</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">千賀健永(Kis-My-Ft2)、宮近海斗/中村海人/七五三掛龍也/松倉海斗(Travis Japan)</div>
+        </div>
+        <div style="display: table-row;">
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">ライジングプロダクション</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">ルパン三世のテーマ</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">YORI/TOMO/KIMI/U-YEAH(DA PUMP)、NANA/LINA(MAX)、谷内伸也(Lead)、小池成(プラチナボーイズ)、輝叶</div>
+        </div>
+        <div style="display: table-row; background: rgba(0,180,219,0.02);">
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">LDH</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">Creepy Nuts「オトノケ」</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">中務裕太/小森隼(GENERATIONS)、陣/岩谷翔吾/浦川翔平(THE RAMPAGE)、松井利樹/砂田将宏(BALLISTIK BOYZ)、JIMMY/小波津志(PSYCHIC FEVER)、SHOW/TAKUMI/HINATA/TAKI(THE JET BOY BANGERZ)</div>
+        </div>
+        <div style="display: table-row;">
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">坂道グループ</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">Mrs. GREEN APPLE「ライラック」</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">岩本蓮加/一ノ瀬美空/瀬戸口心月(乃木坂46)、小島凪紗/谷口愛季/山下瞳月(櫻坂46)、金村美玖/小西夏菜実/渡辺莉奈(日向坂46)</div>
+        </div>
+        <div style="display: table-row; background: rgba(0,180,219,0.02);">
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">スターダスト</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">TUBE「あー夏休み」</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">ユーキ/マサヒロ(超特急)、EIKU/HAYATO(ONE N' ONLY)、FUMINORI/FUMIYA(BUDDiiS)</div>
+        </div>
+        <div style="display: table-row;">
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">BMSG</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">Awich「Frontiers」</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">SOTA/SHUNTO/RYUHEI(BE:FIRST)、RAN/SEITO/RYUKI/TAKUTO(MAZZEL)、TAIKI(STARGLOW)、Aile The Shota</div>
+        </div>
+        <div style="display: table-row; background: rgba(0,180,219,0.02);">
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">s**t kingz選抜</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">「slow burn」</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">板倉可奈(CUTIE STREET)、SUZU(ME:I)、TAKI(THE JET BOY BANGERZ)、TAKUTO(MAZZEL)、中村海人(Travis Japan)、RIKU(NCT WISH)</div>
+        </div>
+        <div style="display: table-row;">
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">FINALE</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">ORANGE RANGE「イケナイ太陽」</div>
+          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">全員</div>
+        </div>
+      </div>
+
+      <p style="margin: 10px 0 0; font-size: 10px; color: #888; line-height: 1.5;">
+        ※「ウタウタイ」コーナーにはM!LK・超特急・SUPER★DRAGON・Sakurashimeji・ONE N' ONLY・原因は自分にある。・BUDDiiS・ICEx・Lienel・中尾ミエ・松本明子・Little Glee Monster・INSPi・FRUITS ZIPPER・CANDY TUNE・SWEET STEADY・CUTIE STREET・MORE STAR・DA PUMP・MAX・知念里奈・Lead・STARGLOWが参加予定です。
+      </p>
     </div>
 
   </div>
@@ -611,7 +714,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>現在は放送日時や総合司会、番組テーマに加え、第3弾まで計55組の豪華アーティストと「DREAMコーラス」「赤坂超ライブ」など特別企画の詳細が発表されました。</p>
+<p>現在は放送日時や総合司会、番組テーマに加え、計58組の豪華アーティストと「EXILE南三陸ライブ」「DREAMダンス企画」など特別企画の詳細が発表されました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -718,17 +821,17 @@
       "@type": "BlogPosting",
       "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#post",
       "headline": "【2026最新】音楽の日タイムテーブル｜出演者の順番・出演時間まとめ(随時更新)",
-      "description": "「音楽の日2026」7月18日生放送！あいみょん・BE:FIRST・Snow Manら第3弾計55組が発表。DREAMコーラス等特別企画も判明。タイムテーブルや出演者の順番を最速でお届けします。",
+      "description": "「音楽の日2026」7月18日生放送！あいみょん・BE:FIRST・Snow Manら最新情報で計58組が発表。EXILE南三陸ライブ等特別企画も判明。タイムテーブルや出演者の順番を最速でお届けします。",
       "url": "https://shira-treat.com/ongakunohi-2026-timetable/",
       "mainEntityOfPage": {
         "@id": "https://shira-treat.com/ongakunohi-2026-timetable/"
       },
       "inLanguage": "ja",
       "articleSection": "音楽特番",
-      "keywords": ["音楽の日", "音楽の日2026", "タイムテーブル", "出演者一覧", "TBS 音楽番組", "こえる。きこえる。", "あいみょん", "BE:FIRST", "King & Prince", "Snow Man", "Number_i", "DREAMコーラス", "赤坂超ライブ"],
+      "keywords": ["音楽の日", "音楽の日2026", "タイムテーブル", "出演者一覧", "TBS 音楽番組", "こえる。きこえる。", "あいみょん", "BE:FIRST", "King & Prince", "Snow Man", "Number_i", "EXILE南三陸ライブ", "DREAMダンス企画"],
       "datePublished": "2026-04-27T00:00:00+09:00",
       "dateCreated": "2026-04-27T00:00:00+09:00",
-      "dateModified": "2026-07-07T10:00:00+09:00",
+      "dateModified": "2026-07-13T12:00:00+09:00",
 
       "image": {
         "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#heroimage"
@@ -784,11 +887,14 @@
         { "@type": "Person", "name": "アイナ・ジ・エンド" },
         { "@type": "Person", "name": "あいみょん" },
         { "@type": "MusicGroup", "name": "＝LOVE" },
+        { "@type": "Person", "name": "ウェイウェイ・ウー" },
+        { "@type": "Person", "name": "平原綾香" },
         { "@type": "MusicGroup", "name": "WEST." },
         { "@type": "MusicGroup", "name": "Aぇ! group" },
         { "@type": "MusicGroup", "name": "AKB48" },
         { "@type": "MusicGroup", "name": "EXILE" },
         { "@type": "MusicGroup", "name": "EBiDAN" },
+        { "@type": "Person", "name": "m.c.A・T" },
         { "@type": "MusicGroup", "name": "&TEAM" },
         { "@type": "Person", "name": "岡本真夜" },
         { "@type": "MusicGroup", "name": "Kis-My-Ft2" },
@@ -812,6 +918,7 @@
         { "@type": "MusicGroup", "name": "超特急" },
         { "@type": "MusicGroup", "name": "TSUZUMI（ME:I）" },
         { "@type": "MusicGroup", "name": "TRF" },
+        { "@type": "MusicGroup", "name": "T-BOLAN" },
         { "@type": "MusicGroup", "name": "TWS" },
         { "@type": "MusicGroup", "name": "DOMOTO" },
         { "@type": "MusicGroup", "name": "Travis Japan" },
@@ -859,7 +966,7 @@
       "@id": "https://shira-treat.com/ongakunohi-2026-timetable/#broadcast",
       "name": "音楽の日2026",
       "alternateName": "TBS 音楽の日",
-      "description": "2026年7月18日（土）14:00～21:56に8時間生放送。第3弾まで計55組が発表済み。テーマ「こえる。きこえる。」のもと、赤坂超ライブ・DREAMコーラス・大合唱企画など感動のステージを届けます。",
+      "description": "2026年7月18日（土）14:00～21:56に8時間生放送。最新情報で計58組が発表済み。テーマ「こえる。きこえる。」のもと、EXILE南三陸ライブ・DREAMダンス企画・ウタウタイなど感動のステージを届けます。",
       "startDate": "2026-07-18T14:00:00+09:00",
       "endDate": "2026-07-18T21:56:00+09:00",
       "eventStatus": "https://schema.org/EventScheduled",
@@ -899,17 +1006,17 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "14:00 オープニング・赤坂超ライブ（Snow Man・SUPER BEAVER・Number_i・HANA・WEST.・FRUITS ZIPPER・M!LK参加）"
+          "name": "14:00 オープニング・EXILE南三陸ライブ（宮城県南三陸町から中継）"
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "出演アーティスト第3弾（計55組）：INI、IMP.、アイナ・ジ・エンド、あいみょん、＝LOVE、WEST.、Aぇ! group、AKB48、EXILE、EBiDAN、&TEAM、岡本真夜、Kis-My-Ft2、CANDY TUNE、CUTIE STREET、King & Prince、郷ひろみ、櫻坂46、THE RAMPAGE、GENERATIONS、島津亜矢、島袋寛子、SUPER EIGHT、SUPER BEAVER、STARGLOW、Snow Man、SPYAIR、DA PUMP、知念里奈、超ときめき♡宣伝部、超特急、TSUZUMI（ME:I）、TRF、TWS、DOMOTO、Travis Japan、Dream Ami、Number_i、新浜レオン、NEWS、乃木坂46、HANA、BE:FIRST、氷川きよし、ピコ太郎、HIPPY、日向坂46、FUNKY MONKEY BΛBY'S、FRUITS ZIPPER、MAZZEL、MAX、Mrs. GREEN APPLE、M!LK、May J.、Little Glee Monster"
+          "name": "出演アーティスト最新情報（計58組）：INI、IMP.、アイナ・ジ・エンド、あいみょん、＝LOVE、ウェイウェイ・ウー＆平原綾香、WEST.、Aぇ! group、AKB48、EXILE、EBiDAN、m.c.A・T、&TEAM、岡本真夜、Kis-My-Ft2、CANDY TUNE、CUTIE STREET、King & Prince、郷ひろみ、櫻坂46、THE RAMPAGE、GENERATIONS、島津亜矢、島袋寛子、SUPER EIGHT、SUPER BEAVER、STARGLOW、Snow Man、SPYAIR、DA PUMP、知念里奈、超ときめき♡宣伝部、超特急、TSUZUMI（ME:I）、TRF、T-BOLAN、TWS、DOMOTO、Travis Japan、Dream Ami、Number_i、新浜レオン、NEWS、乃木坂46、HANA、BE:FIRST、氷川きよし、ピコ太郎、HIPPY、日向坂46、FUNKY MONKEY BΛBY'S、FRUITS ZIPPER、MAZZEL、MAX、Mrs. GREEN APPLE、M!LK、May J.、Little Glee Monster"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "21:00 フィナーレ・DREAMコーラス・大合唱（HIPPY「君に捧げる応援歌」）"
+          "name": "21:00 フィナーレ・DREAMダンス企画・ハーフタイムショー・大合唱"
         }
       ]
     },
