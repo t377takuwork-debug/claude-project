@@ -106,9 +106,16 @@
 | 音楽の日 | `https://shira-treat.com/ongakunohi-timetable/` |
 | テレ東音楽祭 | `https://shira-treat.com/teretoongakusai-timetable/` |
 | うたであえたら | `https://shira-treat.com/utadeaetara-timetable/` |
+| レコード大賞 | `https://shira-treat.com/record-award-timetable/` |
+| 紅白歌合戦 | `https://shira-treat.com/nhk-kouhaku-timetable/` |
 
 - **BreadcrumbList（JSON-LD）内のカテゴリURLは変更不要**（WP分類構造用でナビブロックとは別物）
 - その記事自身へのリンクは入れない
+
+## 9. 効率化ルール（Read/Edit・往復削減）
+
+- **ユーザー手動編集の確認はgit diffを優先する**：ドラフト修正後にユーザーが直接編集した内容を確認する際、system-reminderに具体的な差分が含まれていない場合は、まず `git diff {ファイル名}`（PowerShell）で変更行のみ取得する。全文Read（複数チャンクにまたがる場合）での目視比較は、トークン消費が大きく見落としリスクも高いため避ける。gitで追跡されていない・差分取得に失敗した場合のみ全文Readにフォールバックする。
+- **文字数を伴う複数候補は提示前に一括実測する**：タイトル・見出し・メタディスクリプション等、文字数の優劣で判断が必要な提案をユーザーに出す前に、必ずPowerShellで全候補の`.Length`を実測してから提示する。目算・概算での字数記載は誤りの原因になり、訂正の往復が発生する（2026-07-17 Mステ1500回記念H2で目算「35字前後」が実測42字と判明し手戻りが発生）。
 
 ---
 

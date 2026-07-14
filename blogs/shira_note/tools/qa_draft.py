@@ -21,7 +21,9 @@ Usage:
   [WARN]  禁止ワード（彩る・飾る・幕を開ける・見せ場・筆頭に・フィナーレを飾る・締めくくる）
   [WARN]  メタディスクリプション120字超
   [WARN]  <ul style= の使用（WPテーマCSSに上書きされるためdiv推奨）
+  [WARN]  wp:imageブロックのalign指定とfigureのclassの不一致（手動修正時のズレ検知）
   [WARN]  ナビブロックにカテゴリURL残存（/category/musictv/ ※JSON-LD内は除外）
+  [WARN]  ナビブロックの番組網羅漏れ・自己参照リンク（rewrite_common_rules.md 8章のURL一覧と照合）
   [WARN]  締め文（mokujimae直後）の主観形容詞（感動的・豪華・圧倒的 ※「な」なしの形も検出）
   [INFO]  本文中の日付分布（更新漏れ発見用）
 
@@ -78,7 +80,31 @@ NAV_FIXED_URLS = {
     "THE MUSIC DAY": "https://shira-treat.com/the-musicday-timetable/",
     "音楽の日": "https://shira-treat.com/ongakunohi-timetable/",
     "テレ東音楽祭": "https://shira-treat.com/teretoongakusai-timetable/",
+    "うたであえたら": "https://shira-treat.com/utadeaetara-timetable/",
+    "レコード大賞": "https://shira-treat.com/record-award-timetable/",
+    "紅白歌合戦": "https://shira-treat.com/nhk-kouhaku-timetable/",
 }
+
+# ナビブロックの「自番組」判定用（この番組へのリンクはナビに出てはいけない＝自己参照バグ）
+# アーカイブ系は本編と同じ番組として扱う。マッピングのないファイル（新番組・派生記事等）は
+# 自己参照チェックをスキップし、欠落チェックのみ行う。
+NAV_SELF_URL_BY_FILENAME = {
+    "draft_cdtv.txt": NAV_FIXED_URLS["CDTV"],
+    "draft_cdtv_archive.txt": NAV_FIXED_URLS["CDTV"],
+    "draft_mste.txt": NAV_FIXED_URLS["Mステ"],
+    "draft_mste_archive.txt": NAV_FIXED_URLS["Mステ"],
+    "draft_star.txt": NAV_FIXED_URLS["STAR"],
+    "draft_fns.txt": NAV_FIXED_URLS["FNS歌謡祭"],
+    "draft_musicday.txt": NAV_FIXED_URLS["THE MUSIC DAY"],
+    "draft_ongakunohi.txt": NAV_FIXED_URLS["音楽の日"],
+    "draft_teretou.txt": NAV_FIXED_URLS["テレ東音楽祭"],
+    "draft_utadeaetara.txt": NAV_FIXED_URLS["うたであえたら"],
+}
+
+# ナビブロックの開始・終了マーカー（この区間内のhrefだけを対象にする。
+# 本文中の文脈リンク（例: 「音楽の日のタイムテーブルはこちら」）を誤検知しないため）
+NAV_BLOCK_START_RE = re.compile(r"他の音楽(?:番組|特番)もチェック")
+NAV_BLOCK_END_MARKERS = ("出演者の作品を探す", "レコードを探す")
 
 
 class Report:
@@ -380,6 +406,63 @@ def check_ul_style(lines: list[str], rep: Report):
             rep.warn(f"L{i+1}: <ul style= はWPテーマCSSに上書きされる → <div>に変換推奨")
 
 
+def check_image_align(text: str, rep: Report):
+    """wp:imageブロックのalign属性とfigureタグのclassが一致しているか確認する"""
+    for m in re.finditer(
+        r'<!--\s*wp:image\s*(\{.*?\})?\s*-->(.*?)<!--\s*/wp:image\s*-->', text, re.DOTALL
+    ):
+        attrs_raw = m.group(1) or "{}"
+        block_body = m.group(2)
+        lineno = text[:m.start()].count("\n") + 1
+        align_match = re.search(r'"align"\s*:\s*"(\w+)"', attrs_raw)
+        comment_align = align_match.group(1) if align_match else None
+        fig_match = re.search(r'<figure[^>]*class="([^"]*)"', block_body)
+        fig_classes = fig_match.group(1).split() if fig_match else []
+        align_class = next((c for c in fig_classes if c.startswith("align")), None)
+        if comment_align and f"align{comment_align}" not in fig_classes:
+            rep.warn(
+                f"L{lineno}: wp:imageのalign指定（{comment_align}）とfigureのclassが不一致"
+                f"（align{comment_align}が付与されていない） → 画像修正後の見落とし注意"
+            )
+        elif not comment_align and align_class:
+            rep.warn(
+                f"L{lineno}: figureに{align_class}クラスがあるが、wp:imageブロックコメントにalign指定がない"
+            )
+
+
+def check_nav_completeness(lines: list[str], filename: str, rep: Report):
+    """ナビブロック（他の音楽番組もチェック）が全番組を網羅し、自己参照リンクがないか確認する"""
+    start = None
+    for i, line in enumerate(lines):
+        if NAV_BLOCK_START_RE.search(line):
+            start = i
+            break
+    if start is None:
+        return  # ナビブロックがないファイル（アーカイブ月次記事の一部等）は対象外
+
+    end = min(start + 80, len(lines))
+    for i in range(start + 1, end):
+        if any(marker in lines[i] for marker in NAV_BLOCK_END_MARKERS):
+            end = i
+            break
+
+    block = "\n".join(lines[start:end])
+    found_urls = set(re.findall(r'href="(https://shira-treat\.com/[a-z0-9-]+-timetable/)"', block))
+
+    self_url = NAV_SELF_URL_BY_FILENAME.get(filename)
+    if self_url and self_url in found_urls:
+        name = next(n for n, u in NAV_FIXED_URLS.items() if u == self_url)
+        rep.warn(f"L{start+1}: ナビブロックに自番組（{name}）への自己参照リンクが混入 → 他番組のリンクに置き換え")
+
+    expected = set(NAV_FIXED_URLS.values())
+    if self_url:
+        expected = expected - {self_url}
+    missing = expected - found_urls
+    if missing:
+        missing_names = sorted(n for n, u in NAV_FIXED_URLS.items() if u in missing)
+        rep.warn(f"L{start+1}: ナビブロックに未掲載の番組 → {'・'.join(missing_names)}（rewrite_common_rules.md 8章と照合）")
+
+
 def check_nav_category_urls(lines: list[str], regions, rep: Report):
     for i, line in enumerate(lines):
         if in_regions(i, regions):
@@ -457,7 +540,9 @@ def run_qa(path: str) -> Report:
     check_faq_sync(text, rep)
     check_af_links(lines, text, rep)
     check_ul_style(lines, rep)
+    check_image_align(text, rep)
     check_nav_category_urls(lines, regions, rep)
+    check_nav_completeness(lines, os.path.basename(path), rep)
     check_closing_adjectives(lines, rep)
     check_banned_words(lines, regions, rep)
     report_dates(lines, regions, rep)

@@ -1,0 +1,210 @@
+# Mステアーカイブ記事 静的ブロック
+# 以下の3ブロックはH2・導入文・WPブロックコメントをすべて含む。
+# 毎月変更不要。そのままドラフトにコピーして使用する。
+# 配色はdraft_mste.txt（速報記事）と同じ白背景・ネイビー(#003366)+ピンク(#ff0084)+イエロー(#ffdc00)+ブルー(#00d4ff)基調。
+
+---
+
+## BLOCK: 出演順・タイムテーブルの傾向（H2含む・完全コピー用）
+
+<!-- wp:heading -->
+<h2>ミュージックステーションの出演順・タイムテーブルの傾向</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>『ミュージックステーション』は、分刻みの詳細なタイムテーブルが事前に公式発表されないのが基本です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div role="list" aria-label="Mステ 出演順・タイムテーブルの傾向と注目点" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px; margin: 14px 0; font-family: 'Inter', 'Hiragino Sans', 'Yu Gothic', sans-serif;">
+
+  <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 2px; box-shadow: 0 3px 10px rgba(0, 34, 68, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff);"></div>
+    <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #003366; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">🕒 通常放送の構成</div>
+    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">通常回は20:00開始の1時間枠。2時間スペシャルの回は出演者数が増え、企画コーナーやトークを挟みつつ、終盤にメイン曲や注目パフォーマンスが集中的に配置される構成になりやすい傾向があります。</p>
+  </div>
+
+  <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 2px; box-shadow: 0 3px 10px rgba(0, 34, 68, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff);"></div>
+    <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #003366; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">🎸 注目パフォーマンスの傾向</div>
+    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">その週の目玉となる新曲披露・初披露・周年企画は、序盤の「早めの安定枠」か終盤の「大トリ枠」のどちらかに配置される傾向があります。中盤には企画コーナーやトークが挟まれることが多いです。</p>
+  </div>
+
+  <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 2px; box-shadow: 0 3px 10px rgba(0, 34, 68, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff);"></div>
+    <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #003366; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">🌟 トリの傾向</div>
+    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">大御所アーティストの復帰・記念パフォーマンス、話題の新曲を持つアーティストが大トリに配置される傾向が強いです。番組の感動的な締めとして終盤に据えられます。</p>
+  </div>
+
+  <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 2px; box-shadow: 0 3px 10px rgba(0, 34, 68, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff);"></div>
+    <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #003366; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">🔍 企画コーナーのタイミング</div>
+    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">クイズ・トークなどの企画コーナーは中盤に挟まれる傾向。2時間スペシャルの回は通常回より企画コーナーが増える可能性があります。</p>
+  </div>
+
+  <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 2px; box-shadow: 0 3px 10px rgba(0, 34, 68, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff);"></div>
+    <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #003366; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">📱 公式SNSの連動</div>
+    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">公式X（旧Twitter）では放送直前や生放送中に「次は〇〇が登場！」といったリアルタイム告知が行われる傾向があります。本ページでもその情報をキャッチし次第、最速で反映しています。</p>
+  </div>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>事前に分かるのは「誰が出るか」までである場合が多く、出演順や時間帯は放送を見ながら判明するのが基本です。</p>
+<!-- /wp:paragraph -->
+
+---
+
+## BLOCK: 見逃し配信・再放送（H2含む・完全コピー用）
+## ※ Mステは見逃し配信が一切ない点がCDTVとの最大の違い（配信「あり」に書き換えない）
+
+<!-- wp:heading -->
+<h2>ミュージックステーションの見逃し配信・再放送について</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>『ミュージックステーション』はTVerなどでの見逃し配信やテレビでの再放送は基本的に行われていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div role="region" aria-label="Mステ見逃し情報" style="margin:20px 0;background:#fff;border:1px solid #e2e8f0;border-radius:4px;overflow:hidden;box-shadow:0 8px 20px rgba(0,40,80,0.06);font-family:'Inter','Hiragino Sans','Yu Gothic',sans-serif;">
+
+<div style="height:4px;background:linear-gradient(90deg,#ff0084,#ffdc00,#00d4ff,#0099ff);"></div>
+
+<div style="padding:14px 16px;background:#fcfdfe;border-bottom:1px solid #edf2f7;">
+<div style="font-size:11px;font-weight:900;color:#003366;">CHECK</div>
+<div style="font-size:15px;font-weight:900;color:#1a202c;">見逃し配信・再放送の有無</div>
+</div>
+
+<div style="padding:12px 16px;">
+
+<div style="display:flex;border-bottom:1px solid #edf2f7;">
+<div style="width:90px;font-size:10px;font-weight:900;color:#a0aec0;padding:10px;background:#f8fafc;">再放送</div>
+<div style="flex:1;padding:10px;font-size:12px;font-weight:800;color:#e53e3e;">なし</div>
+</div>
+
+<div style="display:flex;border-bottom:1px solid #edf2f7;">
+<div style="width:90px;font-size:10px;font-weight:900;color:#a0aec0;padding:10px;background:#f8fafc;">TVer配信</div>
+<div style="flex:1;padding:10px;font-size:12px;font-weight:800;color:#e53e3e;">なし</div>
+</div>
+
+<div style="display:flex;">
+<div style="width:90px;font-size:10px;font-weight:900;color:#a0aec0;padding:10px;background:#f8fafc;">対処法</div>
+<div style="flex:1;padding:10px;font-size:12px;font-weight:800;color:#2d3748;">本ページのアーカイブで出演順・タイムテーブルを振り返り可能</div>
+</div>
+
+</div>
+
+<div style="padding:12px 14px;background:#f7fafc;border-top:1px solid #edf2f7;font-size:11px;font-weight:700;color:#2d3748;line-height:1.6;">
+💡 見逃し配信がない分、次回放送は事前に日時をチェックしてリアルタイム視聴・録画をしておくのがおすすめです。
+</div>
+
+<div style="padding:10px 14px;border-top:1px solid #edf2f7;">
+  <div style="font-size:10px;font-weight:800;color:#a0aec0;margin-bottom:8px;">放送を見逃しても、楽曲はいつでも聴ける</div>
+  <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display:flex;align-items:center;justify-content:flex-start;height:40px;background:linear-gradient(90deg,#003366,#0066cc);border-radius:4px;text-decoration:none;box-sizing:border-box;border:1px solid #00d4ff;padding:0 15px;">
+    <span style="font-size:9px;font-weight:900;color:#00d4ff;border:1px solid #00d4ff;padding:1px 4px;border-radius:2px;margin-right:12px;">Music</span>
+    <span style="font-size:11px;font-weight:800;color:#ffffff;letter-spacing:0.05em;">Amazon Musicで出演アーティストを聴く（30日間無料）</span>
+    <span style="font-size:18px;color:#00d4ff;margin-left:auto;">›</span>
+  </a>
+</div>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>番組公式SNSやYouTubeなどで一部のパフォーマンス映像やダイジェストが公開されることはあるため、気になる方はそちらもチェックしてみてください。</p>
+<!-- /wp:paragraph -->
+
+---
+
+## BLOCK: まとめ導入文＋関連番組リンク・アフィリエイトブロック（H2含む・完全コピー用）
+## ※ まとめ1文目の「YYYY年M月」のみ毎月差し替える
+
+<!-- wp:heading -->
+<h2>まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>YYYY年M月放送の『ミュージックステーション』に関する最新のタイムテーブルや出演者情報をまとめました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>この記事では、Mステならではの豪華ラインナップと注目パフォーマンスの興奮をいつでも振り返れるよう、過去のセットリストをアーカイブとしてお届けしています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>また、最新回が放送される際も、リアルタイムでタイムテーブルや歌唱曲の情報を最速で追い続けています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>さらに、Mステ以外の大型音楽特番やフェス、注目音楽番組のタイムテーブル・セトリ情報も以下の関連記事にて徹底的にまとめています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>音楽ライフをより楽しむための参考にしていただけたら幸いです！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="margin:18px 0 14px;background:#ffffff;border:1px solid #e5e7eb;border-radius:8px;padding:12px 10px;font-family:'Inter','Helvetica Neue',Arial,sans-serif;box-shadow:0 2px 8px rgba(0,0,0,0.04);">
+
+  <div style="display:flex;align-items:center;background:#f8fafc;padding:5px 10px;border-radius:5px;margin-bottom:8px;">
+    <span style="width:3px;height:11px;background:#ff008d;margin-right:8px;border-radius:1px;"></span>
+    <p style="margin:0;font-size:10px;font-weight:800;color:#334155;letter-spacing:0.02em;">他の音楽特番もチェック</p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px;">
+    <a href="https://shira-treat.com/cdtv-timetable/" style="display:flex;align-items:center;justify-content:center;height:34px;background:#ffffff;border:1px solid #dbe3ec;border-radius:5px;text-decoration:none;box-sizing:border-box;">
+      <span style="font-size:10px;font-weight:900;color:#1f2937;letter-spacing:0.03em;display:flex;align-items:center;">CDTV <span style="font-size:14px;margin-left:6px;color:#ff008d;">›</span></span>
+    </a>
+    <a href="https://shira-treat.com/star-timetable/" style="display:flex;align-items:center;justify-content:center;height:34px;background:#ffffff;border:1px solid #dbe3ec;border-radius:5px;text-decoration:none;box-sizing:border-box;">
+      <span style="font-size:10px;font-weight:900;color:#1f2937;letter-spacing:0.03em;display:flex;align-items:center;">STAR <span style="font-size:14px;margin-left:6px;color:#ff008d;">›</span></span>
+    </a>
+    <a href="https://shira-treat.com/fnskayousai-timetable/" style="display:flex;align-items:center;justify-content:center;height:34px;background:#ffffff;border:1px solid #dbe3ec;border-radius:5px;text-decoration:none;box-sizing:border-box;">
+      <span style="font-size:10px;font-weight:900;color:#1f2937;letter-spacing:0.03em;display:flex;align-items:center;">FNS歌謡祭 <span style="font-size:14px;margin-left:6px;color:#ff008d;">›</span></span>
+    </a>
+    <a href="https://shira-treat.com/ongakunohi-timetable/" style="display:flex;align-items:center;justify-content:center;height:34px;background:#ffffff;border:1px solid #dbe3ec;border-radius:5px;text-decoration:none;box-sizing:border-box;">
+      <span style="font-size:10px;font-weight:900;color:#1f2937;letter-spacing:0.03em;display:flex;align-items:center;">音楽の日 <span style="font-size:14px;margin-left:6px;color:#ff008d;">›</span></span>
+    </a>
+    <a href="https://shira-treat.com/the-musicday-timetable/" style="display:flex;align-items:center;justify-content:center;height:34px;background:#ffffff;border:1px solid #dbe3ec;border-radius:5px;text-decoration:none;box-sizing:border-box;">
+      <span style="font-size:10px;font-weight:900;color:#1f2937;letter-spacing:0.03em;display:flex;align-items:center;">THE MUSIC DAY <span style="font-size:14px;margin-left:6px;color:#ff008d;">›</span></span>
+    </a>
+    <a href="https://shira-treat.com/teretoongakusai-timetable/" style="display:flex;align-items:center;justify-content:center;height:34px;background:#ffffff;border:1px solid #dbe3ec;border-radius:5px;text-decoration:none;box-sizing:border-box;">
+      <span style="font-size:10px;font-weight:900;color:#1f2937;letter-spacing:0.03em;display:flex;align-items:center;">テレ東音楽祭 <span style="font-size:14px;margin-left:6px;color:#ff008d;">›</span></span>
+    </a>
+    <a href="https://shira-treat.com/utadeaetara-timetable/" style="display:flex;align-items:center;justify-content:center;height:34px;background:#ffffff;border:1px solid #dbe3ec;border-radius:5px;text-decoration:none;box-sizing:border-box;">
+      <span style="font-size:10px;font-weight:900;color:#1f2937;letter-spacing:0.03em;display:flex;align-items:center;">うたであえたら <span style="font-size:14px;margin-left:6px;color:#ff008d;">›</span></span>
+    </a>
+    <a href="https://shira-treat.com/record-award-timetable/" style="display:flex;align-items:center;justify-content:center;height:34px;background:#ffffff;border:1px solid #dbe3ec;border-radius:5px;text-decoration:none;box-sizing:border-box;">
+      <span style="font-size:10px;font-weight:900;color:#1f2937;letter-spacing:0.03em;display:flex;align-items:center;">レコード大賞 <span style="font-size:14px;margin-left:6px;color:#ff008d;">›</span></span>
+    </a>
+    <a href="https://shira-treat.com/nhk-kouhaku-timetable/" style="display:flex;align-items:center;justify-content:center;height:34px;background:#ffffff;border:1px solid #dbe3ec;border-radius:5px;text-decoration:none;box-sizing:border-box;">
+      <span style="font-size:10px;font-weight:900;color:#1f2937;letter-spacing:0.03em;display:flex;align-items:center;">紅白歌合戦 <span style="font-size:14px;margin-left:6px;color:#ff008d;">›</span></span>
+    </a>
+  </div>
+
+  <div style="display:flex;align-items:center;background:#f8fafc;padding:5px 10px;border-radius:5px;margin-bottom:8px;">
+    <span style="width:3px;height:11px;background:#64748b;margin-right:8px;border-radius:1px;"></span>
+    <p style="margin:0;font-size:10px;font-weight:800;color:#334155;letter-spacing:0.02em;">出演者の作品を探す</p>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px;">
+    <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display:flex;align-items:center;justify-content:center;height:34px;background:#232f3e;border-radius:5px;text-decoration:none;box-sizing:border-box;border-bottom:2px solid #161d26;">
+      <span style="font-size:10px;font-weight:900;color:#ffffff;letter-spacing:0.05em;display:flex;align-items:center;">CDをAmazonで探す <span style="font-size:14px;margin-left:6px;color:#ff9900;">›</span></span>
+    </a>
+    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fdaily%2F002%2F" target="_blank" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display:flex;align-items:center;justify-content:center;height:34px;background:#bf0000;border-radius:5px;text-decoration:none;box-sizing:border-box;border-bottom:2px solid #8a0000;">
+      <span style="font-size:10px;font-weight:900;color:#ffffff;letter-spacing:0.05em;display:flex;align-items:center;">楽天ブックスでCDを探す <span style="font-size:14px;margin-left:6px;color:#ffffff;opacity:0.8;">›</span></span>
+    </a>
+  </div>
+
+  <img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+
+  <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display:flex;align-items:center;justify-content:flex-start;height:40px;background:linear-gradient(90deg,#001a4d,#003399);border-radius:5px;text-decoration:none;box-sizing:border-box;border:1px solid #00d4ff;box-shadow:0 2px 4px rgba(0,0,0,0.08);padding:0 15px;">
+    <span style="font-size:9px;font-weight:900;color:#00d4ff;border:1px solid #00d4ff;padding:1px 4px;border-radius:2px;margin-right:12px;margin-left:3px;">Music</span>
+    <span style="font-size:11px;font-weight:800;color:#ffffff;letter-spacing:0.05em;">Amazon Musicで楽曲を聴く（30日間無料）</span>
+    <span style="font-size:18px;color:#00d4ff;margin-left:auto;">›</span>
+  </a>
+
+</div>
+<!-- /wp:html -->
