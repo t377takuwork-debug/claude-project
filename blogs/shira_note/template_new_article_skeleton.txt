@@ -1,0 +1,228 @@
+# 新規記事用 軽量スケルトンテンプレート（2026-07-15作成）
+
+`/shira-new-article`実行時、既存の完成済みdraft（1000行超）を全文Readする代わりにこのファイルを参照する。
+繰り返しパターン（アーティストカード・FAQ・過去アーカイブ等）は1例のみ残し、複製方法を注記で示す。
+実例が必要な場合のみ、該当セクションを既存draftからGrepで部分抽出する（全文Readはしない）。
+
+配色は`{c1}`〜`{c4}`のプレースホルダーで表記。指定がなければ`#0a4d68`（メイン）/`#e8a33d`（アクセント）/`#c94277`（サブ）/`#0a4d68`（グラデーション終端）を使う。
+
+---
+
+## 1. タイトル・メタ（wp:paragraphで囲む。参照メモ扱いで除去しない）
+
+```html
+<!-- wp:paragraph -->
+タイトル：{番組名} タイムテーブル【{月}月{日}日】出演者・出演順をリアルタイム更新
+メタディスクリプション（{n}字）：
+{番組名}（{月}月{日}日・{放送局}）タイムテーブルを速報更新！{注目アーティスト1}・{注目アーティスト2}ら{人数}組出演。出演順・登場時間の目安を随時追記。
+<!-- /wp:paragraph -->
+```
+
+## 2. リード文（1文×2段落。更新告知は入れない）
+
+```html
+<!-- wp:paragraph -->
+<p>{月}月{日}日の{番組名}は「{テーマ名（あれば）}」。{注目アーティスト羅列}の{人数}組が出演します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>放送に合わせて出演順やタイムテーブルをリアルタイムで更新していきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][title][/nopc]</p>
+<!-- /wp:paragraph -->
+```
+
+## 3. aside「最新情報」（1枚のみ・固定パターン）
+
+```html
+<!-- wp:html -->
+<aside role="region" aria-label="{番組名}最新情報" style="display: block; font-family: 'Helvetica Neue', 'Arial', 'Hiragino Sans', 'Meiryo', sans-serif; background: #ffffff; border: 1px solid #e2e8f0; position: relative; overflow: hidden; max-width: 100%; margin: 12px 0; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);">
+  <div style="height: 4px; background: linear-gradient(90deg, {c1}, {c2}, {c3}, {c1}); width: 100%;"></div>
+  <div style="padding: 16px; position: relative;">
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+      <div style="font-size: 13px; font-weight: 900; color: {c1}; letter-spacing: 0.05em; border-left: 3px solid {c1}; padding-left: 8px; line-height: 1;">{番組名ローマ字}</div>
+      <div style="font-size: 10px; font-weight: 800; color: {c3}; display: flex; align-items: center; gap: 4px;">
+        <span style="display: inline-block; width: 6px; height: 6px; background: {c3}; border-radius: 50%;"></span>
+        REAL-TIME UPDATES
+      </div>
+    </div>
+    <div style="font-size: 16px; font-weight: 900; color: #1a202c; line-height: 1.4; margin-bottom: 6px;">{番組名} タイムテーブル・出演者最新情報</div>
+    <div style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #4a5568;">
+      <span style="background: #ff0000; color: #fff; font-size: 9px; padding: 2px 4px; border-radius: 2px; font-weight: 900;">LIVE</span>
+      {放送日時}（{放送局}）
+    </div>
+    <div style="margin-top: 14px; border: 1px solid #edf2f7; border-bottom: none;">
+      <div style="display: flex; border-bottom: 1px solid #edf2f7;">
+        <div style="width: 80px; font-size: 9px; font-weight: 900; color: #a0aec0; padding: 10px 8px; background: #f8fafc; flex-shrink: 0; display: flex; align-items: center;">STATUS</div>
+        <div style="flex: 1; padding: 10px; font-size: 11px; font-weight: 700; color: #2d3748; line-height: 1.5;">
+          <strong style="font-weight: 800; color: {c3};">出演アーティスト解禁</strong>（{発表状況：例「歌唱曲・出演順は基本的に事前発表なし。放送に合わせて判明次第更新」})
+        </div>
+      </div>
+      <div style="display: flex; border-bottom: 1px solid #edf2f7;">
+        <div style="width: 80px; font-size: 9px; font-weight: 900; color: #a0aec0; padding: 10px 8px; background: #f8fafc; flex-shrink: 0; display: flex; align-items: center;">ARTISTS</div>
+        <div style="flex: 1; padding: 10px; font-size: 12px; font-weight: 700; color: #2d3748; line-height: 1.6;">{出演者を / 区切りで列挙}</div>
+      </div>
+      <div style="display: flex; border-bottom: 1px solid #edf2f7;">
+        <div style="width: 80px; font-size: 9px; font-weight: 900; color: #a0aec0; padding: 10px 8px; background: #f8fafc; flex-shrink: 0; display: flex; align-items: center;">TIMETABLE</div>
+        <div style="flex: 1; padding: 10px; font-size: 11px; font-weight: 700; color: #718096; line-height: 1.6; font-style: italic;">{放送時間・進行イメージ1〜2文}</div>
+      </div>
+    </div>
+    <div style="margin-top: 12px; background: #f7fafc; border-left: 3px solid #1a202c; color: #2d3748; padding: 10px; font-size: 11px; font-weight: 700; display: flex; align-items: flex-start; gap: 8px; line-height: 1.5;">
+      <span style="color: {c3};">💡</span>
+      <span>{今回の見どころ1文}</span>
+    </div>
+    <div style="margin-top: 12px; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 8px;">
+      <a href="#st-toc-h-1" style="text-decoration: none; background: {c1}; color: #fff; font-size: 10px; font-weight: 900; padding: 8px 16px; border-radius: 2px; text-align: center; letter-spacing: 0.05em;">最新情報を確認する ▶</a>
+      <div style="font-size: 9px; color: #a0aec0; text-align: right; line-height: 1.4;">最終更新: {YYYY.MM.DD}<br>(放送当日、生放送にあわせて更新)</div>
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][mokujimae][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>{今回の見どころ・締め1文（主観形容詞NG）}</p>
+<!-- /wp:paragraph -->
+```
+
+## 4. H2：{番組名}最新タイムテーブル【{月}/{日}】
+
+- 歌唱曲・出演順が**確定済み**の場合：Mステ型の時間帯カード（`aria-label="{番組名} タイムテーブル（{日付}）"`のdiv内に、1件あたり時刻＋アーティスト名＋曲名バッジのブロックを出演者数分繰り返す）
+- **未発表**の場合：時間帯カードは作らず、「未発表」バッジ＋通知文のみのブロック1つにする（`rewrite_common_rules.md`の「事前発表は特番/通常回で決まる」ルールを確認してから判断する）
+
+## 5. H2：{番組名}の出演者一覧【{月}/{日}】
+
+```html
+<!-- wp:image {"align":"center","className":"size-full"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="{アイキャッチ画像URL}" alt="{番組名} タイムテーブル出演者・出演順をリアルタイム更新" class="wp-image-XXXX"/><figcaption class="wp-element-caption"><a href="{公式サイトURL}">公式サイト</a>｜<a href="{公式XURL}">公式X(@xxx)</a></figcaption></figure>
+<!-- /wp:image -->
+```
+
+アーティストカード（1例。人数分`.artist-item`を繰り返す）：
+
+```html
+<div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">{アーティスト名}</p><p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">{歌唱曲名を披露。または「歌唱曲は現時点で未発表。」}</p></div></div>
+```
+
+末尾のAmazon/楽天リンクは`rewrite_common_rules.md` 7章のAFリンク仕様をそのまま使う（既存draftから読む必要なし）。
+
+## 6. H2：{番組名}の出演時間は何時頃？【目安】
+
+序盤・中盤・終盤の3ブロック固定（過去の傾向データが1回分しかない場合は断定調を避け「前回は〜でした」の事実ベースに留める。3回分以上蓄積したら「〜が有力」の断定調に切り替える）。
+
+```html
+<div style="font-size: 11px; font-weight: 800; color: {c3}; background: #fdf1f5; padding: 2px 6px; border-radius: 4px; text-align: center; align-self: start;">{時間帯}</div>
+<div style="font-size: 12px; color: #2d3748; line-height: 1.5;">
+  <strong>{序盤/中盤/終盤枠}</strong><br>
+  <span style="font-size: 11px; color: #718096;">{傾向の説明1文}</span>
+</div>
+```
+
+## 7. H2：{番組名}の順番の傾向
+
+4枚のカード（🕒通常放送の構成／テーマ企画や注目パフォーマンスの存在／コラボ企画／📱公式SNSの連動、が定番の切り口。番組の実情に応じて内容を差し替える）。カード1枚のHTML構造：
+
+```html
+<div role="listitem" class="{番組略称}-card">
+  <div class="card-top-line"></div>
+  <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: {c1}; margin-bottom: 8px; font-size: 12px;">{絵文字} {見出し}</div>
+  <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">{説明文}</p>
+</div>
+```
+
+## 8. H2：{番組名}の実際の出演順【放送後更新】
+
+直前回（資料②）のデータをアーカイブaside（`aria-label="{番組名}放送アーカイブ"`）に掲載。タイムライン項目1件のHTML：
+
+```html
+<div style="position: relative; padding-bottom: 16px;">
+  <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: {c2}; border: 2px solid #fff;"></div>
+  <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">{時間帯} / {区分ラベル}</div>
+  <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
+    <strong style="color: {c1};">{アーティスト「曲名」}</strong><br>
+    <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">{反応・特記事項}</span>
+  </div>
+</div>
+```
+
+投稿ピーク帯は色を`{c3}`・ドットを大きめ（12px）にして強調する（Mステ・うたコン共通パターン）。
+
+**Xポストのタイムスタンプ再構成データを使う場合、放送尺を超える時間帯が含まれていないか必ず確認する**。超過時は「頃」表記のまま最終ブロックを「放送終了頃」に丸めるなど、ユーザー承認の上で処理する。
+
+## 9. H2：{番組名}の見逃し配信・再放送はある？
+
+配信有無は番組ごとに異なるため、**推測で「なし」「あり」を書かない**。ユーザーに確認済みの事実（配信サービス名・配信期間）を断定調で書く。不明な場合は「配信可否は公式サイトでご確認ください」と保留する（「〜の可能性がある」という中途半端な断定は避ける）。
+
+## 10. H2：{番組名}過去のタイムテーブル一覧
+
+H3カード1件のHTML構造は手順8のアーカイブasideとほぼ同型（テーブル形式に展開したもの）。ローテーションルール：
+
+| 操作 | 内容 |
+|---|---|
+| 追加 | 直前回をフルカードでH3先頭に追加 |
+| 維持 | 2回前はフルカードのまま維持 |
+| 移動 | 3回前を`<details>`内のコンパクト形式へ |
+| 削除 | `<details>`内の最古回を削除 |
+
+## 11. H2：よくある質問（FAQ）
+
+Q&Aカード1件のHTML構造：
+
+```html
+<div class="qa-card">
+  <div class="qa-top-line"></div>
+  <div style="display: flex; gap: 12px; align-items: flex-start; margin-bottom: 12px;">
+    <span class="qa-q-badge"><span style="display: inline-block; transform: skewX(0deg);">Q{n}</span></span>
+    <p style="margin: 0; font-size: 12px; font-weight: 900; color: {c1}; line-height: 1.5;">{質問文}</p>
+  </div>
+  <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #e2d7c5;">
+    <span style="flex: 0 0 auto; color: {c3}; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
+    <p style="margin: 0; font-size: 11.5px; color: #4a5568; line-height: 1.7; font-weight: 600;">{回答文}</p>
+  </div>
+</div>
+```
+
+計5問が標準（Q1:今回の事前発表有無／Q2:番組概要（固定）／Q3:見逃し配信（固定）／Q4:前回放送内容／Q5:放送時間（固定）。固定Qは次回リライト時に書き換えない）。
+
+## 12. H2：【まとめ】{番組名}出演者・タイムテーブルと放送時間
+
+放送日・出演者・見どころを3段落程度で要約。
+
+## 13. ナビゲーション・アフィリエイトブロック
+
+**`rewrite_common_rules.md` 8章の「ナビブロックHTML雛形」をそのままコピー**（このスケルトンには重複掲載しない）。自番組の行だけ除外する。
+
+## 14. JSON-LD（`@graph`構成）
+
+```json
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "BlogPosting", "@id": "{URL}#post", "mainEntityOfPage": {"@type":"WebPage","@id":"{URL}"}, "headline": "{タイトルと一字一句一致}", "description": "{メタと一字一句一致}", "image": {"@type":"ImageObject","@id":"{URL}#primaryimage","url":"{アイキャッチ画像URL}","width":1200,"height":675}, "thumbnailUrl": "{アイキャッチ画像URL}", "datePublished": "{ISO日時}", "dateModified": "{ISO日時}", "author": {"@type":"Person","name":"Shira Notes","url":"https://shira-treat.com/operator-information/"}, "publisher": {"@type":"Organization","name":"Shira Notes","url":"https://shira-treat.com/","sameAs":["https://x.com/ShiraNotes_"],"logo":{"@type":"ImageObject","url":"https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp","width":512,"height":512}}, "articleSection": "音楽番組", "keywords": ["{番組名} タイムテーブル","{番組名} 出演者","{番組名} 順番","{番組名} 今日","{番組名} {年}","{番組名} {月日}"], "inLanguage": "ja", "about": [{"@type":"Thing","name":"{番組名}"},{"@type":"Thing","name":"{番組名} タイムテーブル"}], "mentions": [ /* 出演者を{"@type":"MusicGroup"|"Person","name":"..."}で人数分列挙 */ ] },
+    { "@type": "BroadcastEvent", "@id": "{URL}#event", "name": "{番組名}（{放送日}放送・{テーマ名}）", "startDate": "{ISO日時}", "endDate": "{ISO日時}", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode", "isLiveBroadcast": true, "description": "{放送説明文}", "image": "{アイキャッチ画像URL}", "location": {"@type":"Organization","name":"{放送局}"}, "organizer": {"@type":"Organization","name":"{放送局}"}, "performer": [ /* mentionsと同じ配列 */ ] },
+    { "@type": "ItemList", "@id": "{URL}#lineup", "name": "{放送日} {番組名}出演者一覧", "numberOfItems": {人数}, "itemListElement": [ /* {"@type":"ListItem","position":n,"item":{...}} を人数分 */ ] },
+    { "@type": "FAQPage", "@id": "{URL}#faq", "mainEntity": [ /* 本文と一字一句一致するQ&A 5問 */ ] },
+    { "@type": "BreadcrumbList", "@id": "{URL}#breadcrumb", "itemListElement": [
+      {"@type":"ListItem","position":1,"name":"ホーム","item":"https://shira-treat.com/"},
+      {"@type":"ListItem","position":2,"name":"{番組名}","item":"{WPカテゴリURL（未確定ならプレースホルダー）}"},
+      {"@type":"ListItem","position":3,"name":"{番組名} タイムテーブル","item":"{URL}"}
+    ]}
+  ]
+}
+```
+
+アーティストの型判定（MusicGroup/Person）は`generate_jsonld.py`のルールに準拠。迷う場合はそのツールを使う。
+
+---
+
+## 使い方
+
+1. `/shira-new-article`手順①で番組名・放送日・出演者・配色イメージ・事前発表有無を確認
+2. 本ファイルの1〜14を上から順にプレースホルダー置換しながら`draft_{番組略称}.txt`を作成（Write一括）
+3. 個々のセクションで「実例をそのまま見たい」箇所だけ、既存draft（`draft_mste.txt`等）からGrepでピンポイント抽出する（全文Readは避ける）
+4. `python tools/qa_draft.py draft_{番組略称}.txt --fix`でERROR 0件・新規WARN 0件を確認

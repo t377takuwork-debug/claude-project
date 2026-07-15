@@ -1,22 +1,39 @@
 {
-  "draft_cdtv.txt": {},
-  "draft_cdtv_archive.txt": {},
-  "draft_dancebattle.txt": {},
-  "draft_fns.txt": {},
-  "draft_mste.txt": {},
-  "draft_musicday.txt": {},
+  "draft_cdtv.txt": {
+    "ナビブロックに未掲載の番組": 1
+  },
+  "draft_cdtv_archive.txt": {
+    "ナビブロックに未掲載の番組": 1
+  },
+  "draft_dancebattle.txt": {
+    "ナビブロックに未掲載の番組": 1
+  },
+  "draft_fns.txt": {
+    "ナビブロックに未掲載の番組": 1
+  },
+  "draft_mste.txt": {
+    "ナビブロックに未掲載の番組": 1
+  },
+  "draft_musicday.txt": {
+    "ナビブロックに未掲載の番組": 1
+  },
   "draft_ongakunohi.txt": {
-    "メタの申告字数（88字）と実字数（84字）が不一致": 1
+    "ナビブロックに未掲載の番組": 1
   },
   "draft_star.txt": {
-    "メタの申告字数（112字）と実字数（98字）が不一致": 1,
-    "禁止ワード「を飾る」（代替: 「出演する」「初登場する」等に）": 1
+    "ナビブロックに未掲載の番組": 1
   },
   "draft_teretou.txt": {
     "メタの申告字数（88字）と実字数（91字）が不一致": 1,
-    "<ul style= はWPテーマCSSに上書きされる": 5
+    "<ul style= はWPテーマCSSに上書きされる": 5,
+    "ナビブロックに未掲載の番組": 1
   },
   "draft_utadeaetara.txt": {
+    "ナビブロックに未掲載の番組": 1,
     "リード文の日付「8月15日」が最頻日付「7月3日」と不一致": 1
-  }
+  },
+  "draft_mste_archive.txt": {
+    "ナビブロックに未掲載の番組": 1
+  },
+  "draft_utacon.txt": {}
 }

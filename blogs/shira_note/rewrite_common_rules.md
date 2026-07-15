@@ -108,9 +108,67 @@
 | うたであえたら | `https://shira-treat.com/utadeaetara-timetable/` |
 | レコード大賞 | `https://shira-treat.com/record-award-timetable/` |
 | 紅白歌合戦 | `https://shira-treat.com/nhk-kouhaku-timetable/` |
+| うたコン | `https://shira-treat.com/utacon-timetable/` |
 
 - **BreadcrumbList（JSON-LD）内のカテゴリURLは変更不要**（WP分類構造用でナビブロックとは別物）
 - その記事自身へのリンクは入れない
+- **新番組追加時はこの表に加えて`tools/qa_draft.py`の`NAV_FIXED_URLS`・`NAV_SELF_URL_BY_FILENAME`も必ず更新する**（2026-07-15 うたコン追加時、この表のみ更新してqa_draft.py側を漏らす実際の見落としが発生。両方セットで初めて他番組ドラフトの網羅性チェックが機能する）
+
+### ナビブロックHTML雛形（コピペ用・2026-07-15追加）
+
+新規記事作成時、既存draftを読まずにこのHTMLをコピーしてリンク行を組み替えるだけで済む。**自分の番組の行だけ削除する**（例：うたコン記事なら「うたコン」の`<a>`行を除く）。
+
+```html
+<!-- wp:html -->
+<div style="margin: 18px 0 14px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px 10px; font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #c94277; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">他の音楽番組もチェック</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px;">
+    <!-- 以下、上表の番組名×URLで<a>を1行ずつ生成。自番組の行は除く -->
+    <a href="{URL}" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        {番組名} <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+    <!-- ↑を全番組分繰り返す -->
+  </div>
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #64748b; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">今夜の放送で気になったアーティストの楽曲・CDを探す</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
+    <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #232f3e; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #161d26;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        CDをAmazonで探す <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
+      </span>
+    </a>
+
+    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fdaily%2F002%2F" target="_blank" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        楽天ブックスでCDを探す <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
+      </span>
+    </a>
+  </div>
+
+  <img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+
+  <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, {番組カラー1}, {番組カラー2}); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid {アクセントカラー}; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
+    <span style="font-size: 9px; font-weight: 900; color: {アクセントカラー}; border: 1px solid {アクセントカラー}; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 3px;">Music</span>
+    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を聴く（30日間無料）</span>
+    <span style="font-size: 18px; color: {アクセントカラー}; margin-left: auto;">›</span>
+  </a>
+
+</div>
+<!-- /wp:html -->
+```
+
+`{番組カラー1}`/`{番組カラー2}`/`{アクセントカラー}`は記事の配色イメージに合わせる（無指定なら`#0a4d68`/`#0d6a8f`/`#e8a33d`を使用）。
 
 ## 9. 効率化ルール（Read/Edit・往復削減）
 

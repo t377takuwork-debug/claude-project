@@ -83,6 +83,7 @@ NAV_FIXED_URLS = {
     "うたであえたら": "https://shira-treat.com/utadeaetara-timetable/",
     "レコード大賞": "https://shira-treat.com/record-award-timetable/",
     "紅白歌合戦": "https://shira-treat.com/nhk-kouhaku-timetable/",
+    "うたコン": "https://shira-treat.com/utacon-timetable/",
 }
 
 # ナビブロックの「自番組」判定用（この番組へのリンクはナビに出てはいけない＝自己参照バグ）
@@ -99,6 +100,7 @@ NAV_SELF_URL_BY_FILENAME = {
     "draft_ongakunohi.txt": NAV_FIXED_URLS["音楽の日"],
     "draft_teretou.txt": NAV_FIXED_URLS["テレ東音楽祭"],
     "draft_utadeaetara.txt": NAV_FIXED_URLS["うたであえたら"],
+    "draft_utacon.txt": NAV_FIXED_URLS["うたコン"],
 }
 
 # ナビブロックの開始・終了マーカー（この区間内のhrefだけを対象にする。
