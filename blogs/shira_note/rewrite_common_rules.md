@@ -112,7 +112,8 @@
 
 - **BreadcrumbList（JSON-LD）内のカテゴリURLは変更不要**（WP分類構造用でナビブロックとは別物）
 - その記事自身へのリンクは入れない
-- **新番組追加時はこの表に加えて`tools/qa_draft.py`の`NAV_FIXED_URLS`・`NAV_SELF_URL_BY_FILENAME`も必ず更新する**（2026-07-15 うたコン追加時、この表のみ更新してqa_draft.py側を漏らす実際の見落としが発生。両方セットで初めて他番組ドラフトの網羅性チェックが機能する）
+- **新番組追加時はこの表に加えて`tools/qa_draft.py`の`NAV_FIXED_URLS`・`NAV_SELF_URL_BY_FILENAME`・`CANONICAL_URL_BY_FILENAME`も必ず更新する**（2026-07-15 うたコン追加時、この表のみ更新してqa_draft.py側を漏らす実際の見落としが発生。両方セットで初めて他番組ドラフトの網羅性チェックが機能する）
+- **JSON-LDの`@id`/`url`は`CANONICAL_URL_BY_FILENAME`と照合され、この表と食い違うスラッグがあればqa_draft.pyがERROR検知する**（2026-07-16追加。ただしアーカイブ記事は本編と別URLを持つためマッピング対象外＝要目視確認）
 
 ### ナビブロックHTML雛形（コピペ用・2026-07-15追加）
 

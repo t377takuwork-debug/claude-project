@@ -15,6 +15,7 @@ Usage:
   [ERROR] WPブロックコメントの開閉不一致（wp:paragraph / wp:html / wp:heading 等）
   [ERROR] ショートコードとテキストの同一<p>混在（[nopc][title]等は独立ブロック必須）
   [ERROR] JSON-LDのパースエラー
+  [ERROR] JSON-LDの@id/urlが固定記事URL（NAV_FIXED_URLS）と不一致（スラッグ誤記検知）
   [ERROR] メタディスクリプションとJSON-LD descriptionの不一致
   [ERROR] 本文FAQ（Q/Aカード）とJSON-LD FAQPage.mainEntityの件数・文言不一致
   [ERROR] 楽天もしもAFリンクの属性仕様違反（rel/attributionsrc/referrerpolicy/daily-002/インプレッションピクセル）
@@ -89,6 +90,9 @@ NAV_FIXED_URLS = {
 # ナビブロックの「自番組」判定用（この番組へのリンクはナビに出てはいけない＝自己参照バグ）
 # アーカイブ系は本編と同じ番組として扱う。マッピングのないファイル（新番組・派生記事等）は
 # 自己参照チェックをスキップし、欠落チェックのみ行う。
+# 注意: アーカイブ記事（cdtv_archive/mste_archive）は本編と別の記事URL（例: cdtv-2026july）を
+# 持つため、この「自番組」URLは記事自身の正規URLとイコールではない。JSON-LDの@id/url検証には
+# 使わず、CANONICAL_URL_BY_FILENAME（下記）を使うこと。
 NAV_SELF_URL_BY_FILENAME = {
     "draft_cdtv.txt": NAV_FIXED_URLS["CDTV"],
     "draft_cdtv_archive.txt": NAV_FIXED_URLS["CDTV"],
@@ -101,6 +105,26 @@ NAV_SELF_URL_BY_FILENAME = {
     "draft_teretou.txt": NAV_FIXED_URLS["テレ東音楽祭"],
     "draft_utadeaetara.txt": NAV_FIXED_URLS["うたであえたら"],
     "draft_utacon.txt": NAV_FIXED_URLS["うたコン"],
+}
+
+# JSON-LDの@id/urlが指すべき、この記事自身の正規URL。
+# アーカイブ記事（本編と別URLを持つ）はマッピングを持たせず、チェック対象外とする。
+CANONICAL_URL_BY_FILENAME = {
+    "draft_cdtv.txt": NAV_FIXED_URLS["CDTV"],
+    "draft_mste.txt": NAV_FIXED_URLS["Mステ"],
+    "draft_star.txt": NAV_FIXED_URLS["STAR"],
+    "draft_fns.txt": NAV_FIXED_URLS["FNS歌謡祭"],
+    "draft_musicday.txt": NAV_FIXED_URLS["THE MUSIC DAY"],
+    "draft_ongakunohi.txt": NAV_FIXED_URLS["音楽の日"],
+    "draft_teretou.txt": NAV_FIXED_URLS["テレ東音楽祭"],
+    "draft_utadeaetara.txt": NAV_FIXED_URLS["うたであえたら"],
+    "draft_utacon.txt": NAV_FIXED_URLS["うたコン"],
+}
+
+# JSON-LDの@id/urlチェックから除外する、記事URLとは別に正当に存在する固定URL
+# （著者プロフィールページ等）
+JSONLD_URL_EXCLUDE_BASES = {
+    "https://shira-treat.com/operator-information",
 }
 
 # ナビブロックの開始・終了マーカー（この区間内のhrefだけを対象にする。
@@ -281,6 +305,53 @@ def check_jsonld(text: str, rep: Report) -> list[str]:
 
         collect_desc(data)
     return descriptions
+
+
+def check_jsonld_canonical_url(text: str, filename: str, rep: Report):
+    """JSON-LD内の@id/urlが、この記事の固定URL（CANONICAL_URL_BY_FILENAME）と一致するか確認する
+    （記事URLのスラッグ誤記・過去の一時URLの残存を検知。ホームURL・著者プロフィールURL・
+    wp-content画像URL・アーカイブ記事（別URL体系のため対象外）は除外する）"""
+    self_url = CANONICAL_URL_BY_FILENAME.get(filename)
+    if not self_url:
+        return  # マッピングのないファイル（アーカイブ記事・新番組・派生記事等）は対象外
+    self_base = self_url.rstrip("/")
+
+    for m in re.finditer(
+        r'<script type="application/ld\+json">\s*(.*?)\s*</script>', text, re.DOTALL
+    ):
+        lineno = text[:m.start()].count("\n") + 1
+        try:
+            data = json.loads(m.group(1))
+        except json.JSONDecodeError:
+            continue
+
+        mismatches = set()
+
+        def walk(node):
+            if isinstance(node, dict):
+                for k, v in node.items():
+                    if k in ("@id", "url") and isinstance(v, str):
+                        if v.startswith("https://shira-treat.com/") and "/wp-content/" not in v:
+                            base = v.split("#")[0].rstrip("/")
+                            if (
+                                base
+                                and base != "https://shira-treat.com"
+                                and base != self_base
+                                and base not in JSONLD_URL_EXCLUDE_BASES
+                            ):
+                                mismatches.add(base)
+                    else:
+                        walk(v)
+            elif isinstance(node, list):
+                for item in node:
+                    walk(item)
+
+        walk(data)
+        if mismatches:
+            rep.error(
+                f"L{lineno}: JSON-LDの@id/urlが固定記事URL（{self_base}/）と不一致 → "
+                f"{', '.join(sorted(mismatches))}"
+            )
 
 
 def check_meta_description(text: str, descriptions: list[str], rep: Report):
@@ -538,6 +609,7 @@ def run_qa(path: str) -> Report:
     check_wp_blocks(text, rep)
     check_shortcode_isolation(lines, rep)
     descriptions = check_jsonld(text, rep)
+    check_jsonld_canonical_url(text, os.path.basename(path), rep)
     check_meta_description(text, descriptions, rep)
     check_faq_sync(text, rep)
     check_af_links(lines, text, rep)
