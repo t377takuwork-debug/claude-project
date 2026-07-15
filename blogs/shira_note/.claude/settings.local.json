@@ -15,7 +15,8 @@
       "PowerShell(& \"C:\\\\Users\\\\PC_User\\\\AppData\\\\Local\\\\Python\\\\bin\\\\python.exe\" \"C:\\\\Users\\\\PC_User\\\\claude project\\\\blogs\\\\shira_note\\\\tools\\\\qa_draft.py\" \"C:\\\\Users\\\\PC_User\\\\claude project\\\\blogs\\\\shira_note\\\\draft_cdtv.txt\")",
       "Bash(C:/Users/PC_User/AppData/Local/Python/bin/python.exe *)",
       "PowerShell(cd \"C:\\\\Users\\\\PC_User\\\\claude project\\\\blogs\\\\shira_note\"; & \"C:\\\\Users\\\\PC_User\\\\AppData\\\\Local\\\\Python\\\\bin\\\\python.exe\" tools/qa_draft.py draft_cdtv.txt; Write-Output \"EXITCODE:$LASTEXITCODE\")",
-      "Bash(\"/c/Users/PC_User/AppData/Local/Python/bin/python.exe\" tools/qa_draft.py draft_mste_archive.txt)"
+      "Bash(\"/c/Users/PC_User/AppData/Local/Python/bin/python.exe\" tools/qa_draft.py draft_mste_archive.txt)",
+      "PowerShell(& \"C:\\\\Users\\\\PC_User\\\\AppData\\\\Local\\\\Python\\\\bin\\\\python.exe\" -c \"import requests, bs4; print\\('ok'\\)\")"
     ]
   }
 }
