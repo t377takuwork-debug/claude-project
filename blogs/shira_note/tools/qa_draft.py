@@ -19,13 +19,15 @@ Usage:
   [ERROR] メタディスクリプションとJSON-LD descriptionの不一致
   [ERROR] 本文FAQ（Q/Aカード）とJSON-LD FAQPage.mainEntityの件数・文言不一致
   [ERROR] 楽天もしもAFリンクの属性仕様違反（rel/attributionsrc/referrerpolicy/daily-002/インプレッションピクセル）
-  [WARN]  禁止ワード（彩る・飾る・幕を開ける・見せ場・筆頭に・フィナーレを飾る・締めくくる）
+  [WARN]  禁止ワード（彩る・飾る・幕を開ける・見せ場・筆頭に・フィナーレを飾る・締めくくる・編集部）
   [WARN]  メタディスクリプション120字超
   [WARN]  <ul style= の使用（WPテーマCSSに上書きされるためdiv推奨）
   [WARN]  wp:imageブロックのalign指定とfigureのclassの不一致（手動修正時のズレ検知）
   [WARN]  ナビブロックにカテゴリURL残存（/category/musictv/ ※JSON-LD内は除外）
   [WARN]  ナビブロックの番組網羅漏れ・自己参照リンク（rewrite_common_rules.md 8章のURL一覧と照合）
-  [WARN]  締め文（mokujimae直後）の主観形容詞（感動的・豪華・圧倒的 ※「な」なしの形も検出）
+  [WARN]  締め文（mokujimae直後）の主観形容詞（感動的・豪華・圧倒的 ※「な」なしの形も検出。
+          class="shicho-memo" の視聴メモブロック内は対象外 — rewrite_common_rules.md 10章）
+  [WARN]  同一文の記事内3回以上リピート（数字のみ違う文は同一視。表現ローテーション用 — 10章）
   [INFO]  本文中の日付分布（更新漏れ発見用）
 
 WARNベースライン:
@@ -63,6 +65,7 @@ BANNED_PATTERNS = [
     (r"締めくくり|締めくくる|締めくくります", "「ラストに登場します」等の動作ベースに（「担います」は使わない）"),
     (r"彩り(?:ます)?[、。]|彩る|彩った|彩ります", "「担当する」「出演する」「登場する」等に"),
     (r"を飾る|を飾り(?:ます)?[、。]|を飾った", "「出演する」「初登場する」等に"),
+    (r"編集部", "「筆者」「当サイト」に（一人運営のため組織を装わない・2026-07-16追加）"),
 ]
 
 # 締め文の主観形容詞（rewrite_common_rules.md 準拠・語幹マッチで「な」なしの形も検出）
@@ -546,16 +549,65 @@ def check_nav_category_urls(lines: list[str], regions, rep: Report):
             rep.warn(f"L{i+1}: ナビ/本文にカテゴリURL残存 → 固定URL（例: /cdtv-timetable/）に更新 → {ctx(line)}")
 
 
+def shicho_memo_line_indices(lines: list[str]) -> set:
+    """class="shicho-memo"（視聴メモブロック）内の行番号集合。
+    視聴メモは主観表現OKのため締め文チェックから除外する（rewrite_common_rules.md 10章）。
+    仕様上ブロック内に子divは置かないため、最初の </div> でブロック終了とみなす。"""
+    idx = set()
+    inside = False
+    for i, line in enumerate(lines):
+        if "shicho-memo" in line:
+            inside = True
+        if inside:
+            idx.add(i)
+            if "</div>" in line:
+                inside = False
+    return idx
+
+
 def check_closing_adjectives(lines: list[str], rep: Report):
-    """mokujimae直後の締め文パラグラフに主観形容詞がないか"""
+    """mokujimae直後の締め文パラグラフに主観形容詞がないか（視聴メモブロック内は対象外）"""
+    memo_idx = shicho_memo_line_indices(lines)
     for i, line in enumerate(lines):
         if "[mokujimae]" not in line:
             continue
         window = lines[i+1:min(i+12, len(lines))]
         for j, wline in enumerate(window):
+            if (i + 1 + j) in memo_idx:
+                continue
             m = re.search(SUBJECTIVE_ADJ, wline)
             if m and "<p>" in wline:
                 rep.warn(f"L{i+2+j}: 締め文に主観形容詞「{m.group(0)}」→ 企画名の列挙のみでよい → {ctx(wline)}")
+
+
+def check_repeated_sentences(text: str, rep: Report):
+    """同一文の記事内3回以上リピートを検知（量産型シグナル対策・2026-07-16追加）。
+    <p>本文のみ対象。数字・空白だけ違う文は同一とみなす。ナビ/AFリンク行は除外。"""
+    body = re.sub(r"<script[^>]*>.*?</script>", " ", text, flags=re.S)
+    counts = Counter()
+    samples = {}
+    for p in re.findall(r"<p[^>]*>(.*?)</p>", body, re.S):
+        txt = re.sub(r"<[^>]+>", "", p)
+        txt = re.sub(r"&[a-z]+;", " ", txt)
+        txt = re.sub(r"\s+", " ", txt).strip()
+        if "›" in txt or "Amazon" in txt or "楽天" in txt:
+            continue
+        for s in txt.split("。"):
+            s = s.strip()
+            if len(s) < 20:
+                continue
+            if s.startswith("[") or "[nopc]" in s:  # ショートコードは意図的な繰り返し
+                continue
+            key = re.sub(r"[0-9０-９\s]", "", s)
+            counts[key] += 1
+            samples.setdefault(key, s)
+    for key, c in counts.items():
+        if c >= 3:
+            rep.warn(
+                f"同一文が記事内に{c}回リピート"
+                f" → 2箇所目以降は言い換えるか「前述のとおり」で参照（10章）"
+                f" → {samples[key][:60]}…"
+            )
 
 
 def report_dates(lines: list[str], regions, rep: Report):
@@ -620,6 +672,7 @@ def run_qa(path: str) -> Report:
     check_nav_category_urls(lines, regions, rep)
     check_nav_completeness(lines, os.path.basename(path), rep)
     check_closing_adjectives(lines, rep)
+    check_repeated_sentences(text, rep)
     check_banned_words(lines, regions, rep)
     report_dates(lines, regions, rep)
     return rep

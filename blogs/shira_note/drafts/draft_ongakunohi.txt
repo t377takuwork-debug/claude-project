@@ -100,14 +100,14 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>※以下は現時点で判明している出演企画や過去の傾向をもとにした編集部予測の時間帯別タイムテーブルです。公式のタイムテーブルではないため、実際の出演順・時間帯とは異なる場合があります。</p>
+<p>※以下は現時点で判明している出演企画や過去の傾向をもとにした筆者予想の時間帯別タイムテーブルです。公式のタイムテーブルではないため、実際の出演順・時間帯とは異なる場合があります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
 <!-- 全体の中見出し -->
 <h3 style="font-family: 'Yu Mincho', 'MS Mincho', 'Inter', sans-serif; display: flex; align-items: center; margin: 20px 0 10px 0; font-size: 16px; font-weight: 700; color: #111; letter-spacing: 0.5px;">
   <span style="width: 4px; height: 18px; background: #00b4db; border-radius: 2px; margin-right: 8px; display: inline-block;"></span>
-  14:00 〜 16:00台 タイムテーブル（編集部予測）
+  14:00 〜 16:00台 タイムテーブル（筆者予想）
 </h3>
 
 <!-- タイムテーブル本体 -->
@@ -241,7 +241,7 @@
   <!-- フッター注釈 -->
   <div style="position: relative; z-index: 2; padding: 8px 12px; background: #f9f9f9; border-top: 1px solid #eee; box-sizing: border-box;">
     <p style="margin: 0; font-size: 9px; color: #666; line-height: 1.4;">
-      ※本タイムテーブルは公式未発表段階の編集部予測です。実際の出演時間帯・歌唱順・企画内容は、公式発表や当日の放送により変更となる場合があります。最新情報はTBS公式サイト等をご確認ください。
+      ※このタイムテーブルは公式発表前に筆者が過去の放送傾向から予想したものです。実際の出演時間帯・歌唱順・企画内容は、公式発表や当日の放送により変わる可能性があります。最新情報はTBS公式サイト等をご確認ください。
     </p>
   </div>
 </aside>
@@ -255,7 +255,7 @@
 <!-- 全体の中見出し -->
 <h3 style="font-family: 'Yu Mincho', 'MS Mincho', 'Inter', sans-serif; display: flex; align-items: center; margin: 25px 0 10px 0; font-size: 16px; font-weight: 700; color: #111; letter-spacing: 0.5px;">
   <span style="width: 4px; height: 18px; background: #ffaa00; border-radius: 2px; margin-right: 8px; display: inline-block;"></span>
-  17:00 〜 19:00台 タイムテーブル（編集部予測）
+  17:00 〜 19:00台 タイムテーブル（筆者予想）
 </h3>
 
 <!-- タイムテーブル本体 -->
@@ -376,7 +376,7 @@
   <!-- フッター注釈 -->
   <div style="position: relative; z-index: 2; padding: 8px 12px; background: #f9f9f9; border-top: 1px solid #eee; box-sizing: border-box;">
     <p style="margin: 0; font-size: 9px; color: #666; line-height: 1.4;">
-      ※本タイムテーブルは公式未発表段階の編集部予測です。実際の出演時間帯・歌唱順・企画内容は、公式発表や当日の放送により変更となる場合があります。最新情報はTBS公式サイト等をご確認ください。
+      ※この時間帯の並びも筆者の予想ベースです。確定情報ではないため、歌唱順や企画の詳細は公式発表・当日の放送を優先してください。
     </p>
   </div>
 </aside>
@@ -390,7 +390,7 @@
 <!-- 全体の中見出し -->
 <h3 style="font-family: 'Yu Mincho', 'MS Mincho', 'Inter', sans-serif; display: flex; align-items: center; margin: 25px 0 10px 0; font-size: 16px; font-weight: 700; color: #111; letter-spacing: 0.5px;">
   <span style="width: 4px; height: 18px; background: #673ab7; border-radius: 2px; margin-right: 8px; display: inline-block;"></span>
-  20:00 〜 21:00台 タイムテーブル（編集部予測）
+  20:00 〜 21:00台 タイムテーブル（筆者予想）
 </h3>
 
 <!-- タイムテーブル本体 -->
@@ -511,7 +511,7 @@
   <!-- フッター注釈 -->
   <div style="position: relative; z-index: 2; padding: 8px 12px; background: #f9f9f9; border-top: 1px solid #eee; box-sizing: border-box;">
     <p style="margin: 0; font-size: 9px; color: #666; line-height: 1.4;">
-      ※本タイムテーブルは公式未発表段階の編集部予測です。実際の出演時間帯・歌唱順・企画内容は、公式発表や当日の放送により変更となる場合があります。最新情報はTBS公式サイト等をご確認ください。
+      ※終盤の構成もあくまで筆者の予想です。放送当日は実際の進行に合わせて、このページを確定の出演順へ更新していきます。
     </p>
   </div>
 </aside>
@@ -522,7 +522,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>上記は現時点で判明している情報をもとにした編集部予測の時間帯別タイムテーブルです。2026年の公式タイムテーブルはまだ公開されていないため、判明次第正式な出演時間・順番へ更新します。</p>
+<p>上記は現時点で判明している情報をもとにした筆者予想の時間帯別タイムテーブルです。2026年の公式タイムテーブルはまだ公開されていないため、判明次第正式な出演時間・順番へ更新します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
@@ -1430,7 +1430,7 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "14:00台〜16:00台：オープニング（郷ひろみ・FRUITS ZIPPERほか）、能登復興祈願中継、DREAMコーラス パート1、T-BOLANラストテレビ出演 ※編集部予測"
+          "name": "14:00台〜16:00台：オープニング（郷ひろみ・FRUITS ZIPPERほか）、能登復興祈願中継、DREAMコーラス パート1、T-BOLANラストテレビ出演 ※筆者予想"
         },
         {
           "@type": "ListItem",
@@ -1440,7 +1440,7 @@
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "17:00台〜21:56：DREAMコーラス パート2・3、EXILE南三陸ライブ（18:00台中継）、DREAMダンス企画、ハーフタイムショー、大合唱によるフィナーレ ※編集部予測"
+          "name": "17:00台〜21:56：DREAMコーラス パート2・3、EXILE南三陸ライブ（18:00台中継）、DREAMダンス企画、ハーフタイムショー、大合唱によるフィナーレ ※筆者予想"
         }
       ]
     },
