@@ -45,7 +45,9 @@ from collections import Counter
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-DRAFT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DRAFT_DIR = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "drafts"
+)
 
 SMART_QUOTES = {
     "“": '"', "”": '"',

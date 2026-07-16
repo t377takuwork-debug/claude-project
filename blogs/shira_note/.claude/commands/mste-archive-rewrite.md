@@ -86,7 +86,7 @@ Mステの月次アーカイブ記事を指定月の内容にリライトし、`
 - **`draft_mste_archive.txt` が存在しない場合（初回作成時）**：`template_jsonld_mste_archive.txt`・`template_mste_archive_static.txt` をReadし、本手順書の各セクションに従ってWriteで新規作成する。
 
 **② 手順2〜7の内容を確定させたら、`draft_mste_archive.txt` に対してEditツールで差分を1箇所ずつ適用する**
-`C:\Users\PC_User\claude project\blogs\shira_note\draft_mste_archive.txt`
+`C:\Users\PC_User\claude project\blogs\shira_note\drafts\draft_mste_archive.txt`
 - タイトル・メタ・aside・スケジュール表・まとめ1文・JSON-LD可変欄：該当テキストのみEdit置換
 - 日付別セクション（手順5）：旧セクションの開始H2〜終了段落までを新セクション全体でEdit置換（`replace_all: false`、旧テキストが一意になるよう十分な範囲を指定）
 - 傾向・見逃し配信ブロックはEditしない（前月のまま残る）
@@ -272,7 +272,7 @@ H2タイトルの年・月を更新する。
 
 ## 保存・確認
 
-- 保存先：`C:\Users\PC_User\claude project\blogs\shira_note\draft_mste_archive.txt`（上書き）
+- 保存先：`C:\Users\PC_User\claude project\blogs\shira_note\drafts\draft_mste_archive.txt`（上書き）
 - 構造化データは末尾に追記（WordPressのカスタムHTML欄に貼り付けて使用）
 
 ### SEOチェックリスト（保存後に実施）

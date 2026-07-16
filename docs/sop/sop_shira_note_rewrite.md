@@ -32,7 +32,7 @@
 
 ## 出力見本
 
-- 完成形のdraft: `blogs/shira_note/draft_cdtv.txt`（最新の合格済みドラフト。構造・文体・WPブロックの実例として参照する）
+- 完成形のdraft: `blogs/shira_note/drafts/draft_cdtv.txt`（最新の合格済みドラフト。構造・文体・WPブロックの実例として参照する）
 - JSON-LD: `blogs/shira_note/template_jsonld_cdtv.txt` 等の番組別テンプレート
 
 ## 新規番組の場合

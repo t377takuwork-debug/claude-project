@@ -56,7 +56,7 @@
 | 音楽の日 ダンスバトル（DREAMダンス） | `draft_dancebattle.txt` |
 | うたコン | `draft_utacon.txt` |
 
-保存先：このフォルダ直下（`C:\Users\PC_User\claude project\blogs\shira_note\`）
+保存先：`drafts/` フォルダ（`C:\Users\PC_User\claude project\blogs\shira_note\drafts\`）
 
 ---
 

@@ -222,7 +222,7 @@ Grepで`MANUAL_JSONLD`を特定し、後続150行を読む。
 全Editが完了したら以下のPowerShellを実行する。
 
 ```powershell
-$path = "C:\Users\PC_User\claude project\blogs\shira_note\draft_utadeaetara.txt"
+$path = "C:\Users\PC_User\claude project\blogs\shira_note\drafts\draft_utadeaetara.txt"
 $content = [System.IO.File]::ReadAllText($path, [System.Text.Encoding]::UTF8)
 $content = $content.Replace([char]0x201C, '"').Replace([char]0x201D, '"')
 $content = $content.Replace([char]0x2018, "'").Replace([char]0x2019, "'")
@@ -234,7 +234,7 @@ Write-Output "スマートクォート置換完了"
 
 ## 保存・SEOチェックリスト
 
-保存先：`C:\Users\PC_User\claude project\blogs\shira_note\draft_utadeaetara.txt`（Edit差分更新）
+保存先：`C:\Users\PC_User\claude project\blogs\shira_note\drafts\draft_utadeaetara.txt`（Edit差分更新）
 
 | 確認ポイント | 基準 |
 |---|---|

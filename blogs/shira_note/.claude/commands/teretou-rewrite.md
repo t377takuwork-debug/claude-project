@@ -309,7 +309,7 @@ JSON-LDはファイル末尾の `<!-- MANUAL_JSONLD -->` で始まる `<!-- wp:h
 
 ## 保存・SEOチェックリスト
 
-保存先：`C:\Users\PC_User\claude project\blogs\shira_note\draft_teretou.txt`（Edit差分更新）
+保存先：`C:\Users\PC_User\claude project\blogs\shira_note\drafts\draft_teretou.txt`（Edit差分更新）
 
 | 確認ポイント | 基準 |
 |---|---|
