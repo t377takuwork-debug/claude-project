@@ -1,8 +1,8 @@
 <!-- wp:paragraph -->
 タイトル：【2026】音楽の日タイムテーブル｜出演者の順番や出演時間まとめ(随時更新)
 
-メタディスクリプション（101字）：
-「音楽の日2026」7月18日生放送！あいみょん・BE:FIRST・Snow Manら最新情報で計58組が発表。EXILE南三陸ライブ等特別企画も判明。タイムテーブルや出演者の順番を最速でお届けします。
+メタディスクリプション（97字）：
+「音楽の日2026」7月18日生放送！タイムテーブルが前日解禁され、あいみょん・EXILE・Snow Manら全77組の出演時間が確定。DREAMダンスなど特別企画の歌唱曲も一挙掲載しています。
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -26,14 +26,14 @@
   <div style="position: relative; padding: 10px 12px; display: flex; align-items: center; justify-content: space-between; z-index: 2; border-bottom: 2px solid; border-image: linear-gradient(to right, #00b4db, #ff4081, #00b4db) 1;">
     <div style="border: 1px solid #333; padding: 1px;">
       <div style="border: 1px solid #333; padding: 2px 10px; background: rgba(255,255,255,0.8);">
-        <div style="font-size: 15px; font-weight: 700; color: #000; letter-spacing: 0.05em;">
+        <div style="font-size: clamp(15px, calc(15px + (100vw - 480px) / 240), 18px); font-weight: 700; color: #000; letter-spacing: 0.05em;">
           <span style="position: relative; display: inline-block;">
             音<span style="position: absolute; top: 0px; left: 3px; width: 4.5px; height: 4.5px; background: #ff0000; border-radius: 50%;"></span>
-          </span>楽の日 <span style="font-family: sans-serif; font-size: 12px; font-weight: 300;">2026</span>
+          </span>楽の日 <span style="font-family: sans-serif; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 300;">2026</span>
         </div>
       </div>
     </div>
-    <div style="font-family: sans-serif; font-size: 8px; font-weight: 600; color: #00b4db; letter-spacing: 0.1em; text-align: right; line-height: 1.2;">
+    <div style="font-family: sans-serif; font-size: clamp(8px, calc(8px + (100vw - 480px) / 360), 10px); font-weight: 600; color: #00b4db; letter-spacing: 0.1em; text-align: right; line-height: 1.2;">
       LATEST<br>INFO
     </div>
   </div>
@@ -41,29 +41,29 @@
   <div style="position: relative; padding: 12px; display: grid; gap: 8px; z-index: 2; background: rgba(255,255,255,0.3);">
 
     <div style="display: flex; align-items: flex-start; gap: 8px;">
-      <div style="flex-shrink: 0; font-size: 8px; font-weight: 800; background: #00b4db; color: #fff; padding: 1px 4px; border-radius: 2px; margin-top: 2px;">放送日時</div>
+      <div style="flex-shrink: 0; font-size: clamp(8px, calc(8px + (100vw - 480px) / 360), 10px); font-weight: 800; background: #00b4db; color: #fff; padding: 1px 4px; border-radius: 2px; margin-top: 2px;">放送日時</div>
       <div style="flex: 1;">
-        <div style="font-size: 13px; font-weight: 700; color: #333;">2026年7月18日（土）14:00～21:56 生放送</div>
-        <div style="font-size: 10px; color: #666; margin-top: 1px;">総合司会：安住紳一郎・江藤愛（TBSアナウンサー）</div>
+        <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 240), 16px); font-weight: 700; color: #333;">2026年7月18日（土）14:00～21:56 生放送</div>
+        <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #666; margin-top: 1px;">総合司会：安住紳一郎・江藤愛（TBSアナウンサー）</div>
       </div>
     </div>
 
     <div style="display: flex; align-items: flex-start; gap: 8px;">
-      <div style="flex-shrink: 0; font-size: 8px; font-weight: 800; background: #ff4081; color: #fff; padding: 1px 4px; border-radius: 2px; margin-top: 2px;">出演者</div>
-      <div style="font-size: 11px; color: #333; line-height: 1.4;">
-        INI、あいみょん、King &amp; Prince、BE:FIRST、Snow Man、Number_i、Mrs. GREEN APPLE、乃木坂46、日向坂46、AKB48、<b>and more（計58組）...</b>
+      <div style="flex-shrink: 0; font-size: clamp(8px, calc(8px + (100vw - 480px) / 360), 10px); font-weight: 800; background: #ff4081; color: #fff; padding: 1px 4px; border-radius: 2px; margin-top: 2px;">出演者</div>
+      <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #333; line-height: 1.4;">
+        INI、あいみょん、EXILE、Snow Man、Mrs. GREEN APPLE、Number_i、King &amp; Prince、BE:FIRST、乃木坂46、日向坂46、<b>and more（計77組）...</b>
       </div>
     </div>
 
     <div style="background: rgba(255,64,129,0.04); border-left: 2px solid #ff4081; padding: 6px 10px;">
-      <div style="font-size: 11px; font-weight: 600; color: #ff4081; display: flex; align-items: flex-start; gap: 5px; line-height: 1.3;">
+      <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 600; color: #ff4081; display: flex; align-items: flex-start; gap: 5px; line-height: 1.3;">
         <span style="margin-top: 4px; width: 4px; height: 4px; background: #ff4081; border-radius: 50%; flex-shrink: 0;"></span>
-        出演アーティストの最新情報を発表（計58組）！「EXILE南三陸ライブ」「DREAMダンス企画」など特別企画の詳細も判明。タイムテーブルや歌唱曲は今後の解禁をお待ちください。
+        タイムテーブルが前日解禁！全77組の出演時間・歌唱曲が確定し、「EXILEの南三陸ライブ」「DREAMダンス」など特別企画の内容も出そろいました。
       </div>
     </div>
 
     <div style="margin-top: 2px;">
-      <a href="#st-toc-h-1" style="display: flex; align-items: center; justify-content: center; background: #333; color: #fff; text-decoration: none; font-size: 10px; font-weight: 600; padding: 8px; border-radius: 2px; letter-spacing: 0.05em;">
+      <a href="#st-toc-h-1" style="display: flex; align-items: center; justify-content: center; background: #333; color: #fff; text-decoration: none; font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 600; padding: 8px; border-radius: 2px; letter-spacing: 0.05em;">
         最新の出演者・タイムテーブル情報をチェックする ▶
       </a>
     </div>
@@ -80,11 +80,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演者の最新情報が発表され、「EXILE南三陸ライブ」「DREAMダンス企画」など特別企画の詳細も判明しました。</p>
+<p>放送前日にタイムテーブルが解禁され、全出演者の出演時間・歌唱曲が判明しました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演者・歌唱曲・順番等追加情報は改めて更新予定！</p>
+<p>当日の進行変更に備え、最新情報が入り次第このページも更新します！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
@@ -92,22 +92,18 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>「音楽の日2026」のタイムテーブルは、例年放送前日に発表される傾向にあります。</p>
+<p>予告通り、「音楽の日2026」のタイムテーブルが放送前日に解禁されました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>発表された情報を時間帯ごとにまとめし、推しのアーティストの出番を逃さずチェックできるよう整理予定です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>※以下は現時点で判明している出演企画や過去の傾向をもとにした筆者予想の時間帯別タイムテーブルです。公式のタイムテーブルではないため、実際の出演順・時間帯とは異なる場合があります。</p>
+<p>公式発表された内容を時間帯ごとに整理しました。推しのアーティストの出番を逃さずチェックしてください。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
 <!-- 全体の中見出し -->
-<h3 style="font-family: 'Yu Mincho', 'MS Mincho', 'Inter', sans-serif; display: flex; align-items: center; margin: 20px 0 10px 0; font-size: 16px; font-weight: 700; color: #111; letter-spacing: 0.5px;">
+<h3 style="font-family: 'Yu Mincho', 'MS Mincho', 'Inter', sans-serif; display: flex; align-items: center; margin: 20px 0 10px 0; font-size: clamp(16px, calc(16px + (100vw - 480px) / 240), 19px); font-weight: 700; color: #111; letter-spacing: 0.5px;">
   <span style="width: 4px; height: 18px; background: #00b4db; border-radius: 2px; margin-right: 8px; display: inline-block;"></span>
-  14:00 〜 16:00台 タイムテーブル（筆者予想）
+  14:00 〜 16:00台 タイムテーブル
 </h3>
 
 <!-- タイムテーブル本体 -->
@@ -118,13 +114,13 @@
 
   <!-- ヘッダー -->
   <div style="position: relative; padding: 12px; display: flex; align-items: center; justify-content: space-between; z-index: 2; border-bottom: 2px solid #00b4db; background: rgba(255,255,255,0.95);">
-    <div style="font-size: 14px; font-weight: 700; color: #000;">
+    <div style="font-size: clamp(14px, calc(14px + (100vw - 480px) / 240), 17px); font-weight: 700; color: #000;">
       <span style="position: relative; display: inline-block;">
         音<span style="position: absolute; top: 0px; left: 3px; width: 4.5px; height: 4.5px; background: #ff0000; border-radius: 50%;"></span>
-      </span>楽の日 <span style="font-family: sans-serif; font-size: 11px; font-weight: 300;">2026</span>
+      </span>楽の日 <span style="font-family: sans-serif; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 300;">2026</span>
     </div>
-    <div style="font-size: 9px; font-weight: 800; color: #ff4081; background: rgba(255,64,129,0.1); padding: 2px 6px; border-radius: 2px; font-family: sans-serif;">
-      第一部：開幕・震災復興と平成レジェンド
+    <div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); font-weight: 800; color: #ff4081; background: rgba(255,64,129,0.1); padding: 2px 6px; border-radius: 2px; font-family: sans-serif;">
+      豪華メンバーによるオープニング
     </div>
   </div>
 
@@ -133,38 +129,75 @@
 
     <!-- 14:00台 -->
     <div style="border-bottom: 1px solid #eee; display: flex; align-items: stretch; background: rgba(255,255,255,0.2); box-sizing: border-box;">
-      <div style="width: 55px; background: rgba(0,180,219,0.05); display: flex; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #eee; flex-shrink: 0; padding: 12px 0; box-sizing: border-box;">
-        <div style="font-size: 12px; font-weight: 800; color: #00b4db; font-family: sans-serif;">14:00台</div>
-        <div style="font-size: 7px; color: #888; letter-spacing: 0.5px; margin-top: 2px;">START</div>
+      <div style="width: clamp(55px, calc(55px + (100vw - 480px) / 42), 72px); background: rgba(0,180,219,0.05); display: flex; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #eee; flex-shrink: 0; padding: 12px 0; box-sizing: border-box;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 800; color: #00b4db; font-family: sans-serif; white-space: nowrap;">14:00台</div>
+        <div style="font-size: clamp(7px, calc(7px + (100vw - 480px) / 360), 9px); color: #888; letter-spacing: 0.5px; margin-top: 2px;">START</div>
       </div>
       <div style="padding: 12px 10px; flex: 1; min-width: 0; box-sizing: border-box;">
-        <div style="font-size: 11px; color: #444; font-weight: 700; margin-bottom: 10px; border-left: 2px solid #ff4081; padding-left: 6px; line-height: 1.4;">
-          オープニング＆華やかな新鋭・実力派スタート
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; font-weight: 700; margin-bottom: 10px; border-left: 2px solid #ff4081; padding-left: 6px; line-height: 1.4;">
+          オープニング～新旧世代の豪華ラインナップ
         </div>
-        
+
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(135px, 1fr)); gap: 6px; box-sizing: border-box;">
           <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">郷ひろみ</span>
-            <span style="font-size: 9px; color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">オープニングSPメドレー</span>
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">INI</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">BOMBARDA</span>
           </div>
           <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">FRUITS ZIPPER</span>
-            <span style="font-size: 9px; color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">NEW KAWAII</span>
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">IMP.</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">INVADER</span>
           </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">CANDY TUNE</span>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">&amp;TEAM</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Go in Blind（月狼）</span>
           </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">＝LOVE</span>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Kis-My-Ft2</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">A.D.D.I.C.T.</span>
           </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">AKB48</span>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">郷ひろみ</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">言えないよ</span>
           </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="Little Glee Monster">Little Glee Monster</span>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">島津亜矢</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">川の流れのように</span>
           </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">M!LK</span>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">超特急</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">ガチ夢中！</span>
+          </div>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">TRF</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="CRAZY GONNA CRAZY／survival dAnce／BOY MEET GIRL with NCT WISH">CRAZY GONNA CRAZY 他</span>
+          </div>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Travis Japan</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">On My Road</span>
+          </div>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">新浜レオン</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">全てあげよう</span>
+          </div>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">乃木坂46</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">シンクロニシティ</span>
+          </div>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">氷川きよし</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">限界突破×サバイバー</span>
+          </div>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="FUNKY MONKEY BΛBY'S">FUNKY MONKEY BΛBY'S</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">悲しみなんて笑い飛ばせ</span>
+          </div>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">MAX</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">TORA TORA TORA 他</span>
+          </div>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">M!LK</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">アイドルパワー</span>
           </div>
         </div>
       </div>
@@ -172,33 +205,53 @@
 
     <!-- 15:00台 -->
     <div style="border-bottom: 1px solid #eee; display: flex; align-items: stretch; background: rgba(255,255,255,0.4); box-sizing: border-box;">
-      <div style="width: 55px; background: rgba(0,180,219,0.02); display: flex; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #eee; flex-shrink: 0; padding: 12px 0; box-sizing: border-box;">
-        <div style="font-size: 12px; font-weight: 800; color: #00b4db; font-family: sans-serif;">15:00台</div>
+      <div style="width: clamp(55px, calc(55px + (100vw - 480px) / 42), 72px); background: rgba(0,180,219,0.02); display: flex; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #eee; flex-shrink: 0; padding: 12px 0; box-sizing: border-box;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 800; color: #00b4db; font-family: sans-serif; white-space: nowrap;">15:00台</div>
       </div>
       <div style="padding: 12px 10px; flex: 1; min-width: 0; box-sizing: border-box;">
-        <div style="font-size: 11px; color: #444; font-weight: 700; margin-bottom: 10px; border-left: 2px solid #00b4db; padding-left: 6px; line-height: 1.4;">
-          能登中継 ＆ 事務所を超えた歌の力
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; font-weight: 700; margin-bottom: 10px; border-left: 2px solid #00b4db; padding-left: 6px; line-height: 1.4;">
+          能登からの祈り ＆ こえる きこえる億超えソングメドレー
         </div>
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(135px, 1fr)); gap: 6px; box-sizing: border-box;">
           <div style="background: #eef9ff; border: 1px solid #bce5f7; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #0082a3;">【能登復興祈願中継】ウェイウェイ・ウー＆平原綾香</span>
-            <span style="font-size: 10px; color: #444; margin-top: 2px;">祈りにみちて</span>
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #0082a3;">【能登からの祈り】ウェイウェイ・ウー＆平原綾香</span>
+            <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #444; margin-top: 2px;">祈りにみちて</span>
           </div>
-          <div style="background: #e6fcf5; border: 1px solid #c3fae8; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #0ca678;">【新企画】DREAMコーラス パート1</span>
-            <span style="font-size: 10px; color: #444; margin-top: 2px;">「ダンスホール」「涙そうそう」（CANDY TUNE ほか）</span>
+          <div style="background: #f8f0fc; border: 1px solid #f3d9fa; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #ae3ec9;">【こえる きこえる億超えソングメドレー】</span>
+            <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #444; margin-top: 2px;">アイナ・ジ・エンド「革命道中」／＝LOVE「とくべチュ、して」他／CANDY TUNE「倍倍FIGHT!」／超ときめき♡宣伝部「超最強」</span>
           </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">HANA</span>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">m.c.A・T</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Bomb A Head!</span>
           </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">島袋寛子</span>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">THE RAMPAGE</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">No Limit</span>
           </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">岡本真夜</span>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">STARGLOW</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Moonchaser</span>
           </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="FUNKY MONKEY BΛBY'S">FUNKY MONKEY BΛBY'S</span>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">DA PUMP</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="超超超！SUPER HAPPY feat. m.c.A・T">超超超！SUPER HAPPY</span>
+          </div>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">知念里奈</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Wing</span>
+          </div>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">日向坂46</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">ドレミソラシド</span>
+          </div>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">MAZZEL</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Seaside Story</span>
+          </div>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="Little Glee Monster">Little Glee Monster</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">一輪</span>
           </div>
         </div>
       </div>
@@ -206,32 +259,45 @@
 
     <!-- 16:00台 -->
     <div style="border-bottom: 1px solid #eee; display: flex; align-items: stretch; background: rgba(255,64,129,0.01); box-sizing: border-box;">
-      <div style="width: 55px; background: rgba(255,64,129,0.03); display: flex; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #eee; flex-shrink: 0; padding: 12px 0; box-sizing: border-box;">
-        <div style="font-size: 12px; font-weight: 800; color: #ff4081; font-family: sans-serif;">16:00台</div>
+      <div style="width: clamp(55px, calc(55px + (100vw - 480px) / 42), 72px); background: rgba(255,64,129,0.03); display: flex; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #eee; flex-shrink: 0; padding: 12px 0; box-sizing: border-box;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 800; color: #ff4081; font-family: sans-serif; white-space: nowrap;">16:00台</div>
       </div>
       <div style="padding: 12px 10px; flex: 1; min-width: 0; box-sizing: border-box;">
-        <div style="font-size: 11px; color: #444; font-weight: 700; margin-bottom: 10px; border-left: 2px solid #ff4081; padding-left: 6px; line-height: 1.4;">
-          伝説のテレビラスト歌唱＆平成ヒットの系譜
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; font-weight: 700; margin-bottom: 10px; border-left: 2px solid #ff4081; padding-left: 6px; line-height: 1.4;">
+          億超えソングメドレー続く ＆ T-BOLANラストテレビ出演
         </div>
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(135px, 1fr)); gap: 6px; box-sizing: border-box;">
+          <div style="background: #f8f0fc; border: 1px solid #f3d9fa; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #ae3ec9;">【こえる きこえる億超えソングメドレー】</span>
+            <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #444; margin-top: 2px;">King &amp; Prince「Theater」／SPYAIR「オレンジ」／TWS「plot twist」／HANA「BAD LOVE」／BE:FIRST「Boom Boom Back」／ピコ太郎「PPAP」</span>
+          </div>
           <div style="background: #fff0f6; border: 1px solid #ffdeeb; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #d6336c;">【テレビラスト歌唱】T-BOLAN</span>
-            <span style="font-size: 10px; color: #444; margin-top: 2px;">「離したくはない」「じれったい愛」 SPメドレー</span>
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #d6336c;">【テレビラスト歌唱】T-BOLAN</span>
+            <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #444; margin-top: 2px;">「じれったい愛」「離したくはない」 SPメドレー</span>
           </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">m.c.A・T</span>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Aぇ! group</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">でこぼこライフ</span>
           </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">TRF</span>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">EBiDAN</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Yes! 東京</span>
           </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">島津亜矢</span>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">櫻坂46</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">The growing up train</span>
           </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">SPYAIR</span>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="GENERATIONS">GENERATIONS</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">チカラノカギリ</span>
           </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">EBiDAN</span>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">SUPER EIGHT</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="LIFE ～目の前の向こうへ～">LIFE ～目の前の向こうへ～</span>
+          </div>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">NEWS</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">希望～Yell～</span>
           </div>
         </div>
       </div>
@@ -240,8 +306,8 @@
 
   <!-- フッター注釈 -->
   <div style="position: relative; z-index: 2; padding: 8px 12px; background: #f9f9f9; border-top: 1px solid #eee; box-sizing: border-box;">
-    <p style="margin: 0; font-size: 9px; color: #666; line-height: 1.4;">
-      ※このタイムテーブルは公式発表前に筆者が過去の放送傾向から予想したものです。実際の出演時間帯・歌唱順・企画内容は、公式発表や当日の放送により変わる可能性があります。最新情報はTBS公式サイト等をご確認ください。
+    <p style="margin: 0; font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #666; line-height: 1.4;">
+      ※このタイムテーブルは公式発表された内容をもとにまとめています。当日の進行により、実際の出演時間帯・歌唱順・企画内容が変わる可能性があります。最新情報はTBS公式サイト等をご確認ください。
     </p>
   </div>
 </aside>
@@ -253,9 +319,9 @@
 
 <!-- wp:html -->
 <!-- 全体の中見出し -->
-<h3 style="font-family: 'Yu Mincho', 'MS Mincho', 'Inter', sans-serif; display: flex; align-items: center; margin: 25px 0 10px 0; font-size: 16px; font-weight: 700; color: #111; letter-spacing: 0.5px;">
+<h3 style="font-family: 'Yu Mincho', 'MS Mincho', 'Inter', sans-serif; display: flex; align-items: center; margin: 25px 0 10px 0; font-size: clamp(16px, calc(16px + (100vw - 480px) / 240), 19px); font-weight: 700; color: #111; letter-spacing: 0.5px;">
   <span style="width: 4px; height: 18px; background: #ffaa00; border-radius: 2px; margin-right: 8px; display: inline-block;"></span>
-  17:00 〜 19:00台 タイムテーブル（筆者予想）
+  17:00 〜 19:00台 タイムテーブル
 </h3>
 
 <!-- タイムテーブル本体 -->
@@ -266,13 +332,13 @@
 
   <!-- ヘッダー -->
   <div style="position: relative; padding: 12px; display: flex; align-items: center; justify-content: space-between; z-index: 2; border-bottom: 2px solid #ffaa00; background: rgba(255,255,255,0.95);">
-    <div style="font-size: 14px; font-weight: 700; color: #000;">
+    <div style="font-size: clamp(14px, calc(14px + (100vw - 480px) / 240), 17px); font-weight: 700; color: #000;">
       <span style="position: relative; display: inline-block;">
         音<span style="position: absolute; top: 0px; left: 3px; width: 4.5px; height: 4.5px; background: #ff0000; border-radius: 50%;"></span>
-      </span>楽の日 <span style="font-family: sans-serif; font-size: 11px; font-weight: 300;">2026</span>
+      </span>楽の日 <span style="font-family: sans-serif; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 300;">2026</span>
     </div>
-    <div style="font-size: 9px; font-weight: 800; color: #ffaa00; background: rgba(255,170,0,0.1); padding: 2px 6px; border-radius: 2px; font-family: sans-serif;">
-      第二部：震災15年特別中継とゴールデンの幕開け
+    <div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); font-weight: 800; color: #ffaa00; background: rgba(255,170,0,0.1); padding: 2px 6px; border-radius: 2px; font-family: sans-serif;">
+      ディズニーメドレー＆赤坂超ライブ
     </div>
   </div>
 
@@ -281,31 +347,38 @@
 
     <!-- 17:00台 -->
     <div style="border-bottom: 1px solid #eee; display: flex; align-items: stretch; background: rgba(255,255,255,0.2); box-sizing: border-box;">
-      <div style="width: 55px; background: rgba(255,170,0,0.05); display: flex; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #eee; flex-shrink: 0; padding: 12px 0; box-sizing: border-box;">
-        <div style="font-size: 12px; font-weight: 800; color: #ffaa00; font-family: sans-serif;">17:00台</div>
+      <div style="width: clamp(55px, calc(55px + (100vw - 480px) / 42), 72px); background: rgba(255,170,0,0.05); display: flex; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #eee; flex-shrink: 0; padding: 12px 0; box-sizing: border-box;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 800; color: #ffaa00; font-family: sans-serif; white-space: nowrap;">17:00台</div>
       </div>
       <div style="padding: 12px 10px; flex: 1; min-width: 0; box-sizing: border-box;">
-        <div style="font-size: 11px; color: #444; font-weight: 700; margin-bottom: 10px; border-left: 2px solid #ff4081; padding-left: 6px; line-height: 1.4;">
-          夕方の注目パフォーマンス ＆ DREAMコーラス パート2
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; font-weight: 700; margin-bottom: 10px; border-left: 2px solid #ff4081; padding-left: 6px; line-height: 1.4;">
+          ディズニーメドレー ＆ 赤坂超ライブ
         </div>
-        
+
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(135px, 1fr)); gap: 6px; box-sizing: border-box;">
           <div style="background: #e6fcf5; border: 1px solid #c3fae8; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #0ca678;">【新企画】DREAMコーラス パート2</span>
-            <span style="font-size: 10px; color: #444; margin-top: 2px;">「Story」「見上げてごらん夜の星を」（NEWS、Aぇ! group ほか）</span>
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #0ca678;">【乗りこえる力をくれるディズニーメドレー】</span>
+            <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #444; margin-top: 2px;">TSUZUMI（ME:I）「どこまでも」／Dream Ami「Zoo」／May J.「レット・イット・ゴー」</span>
+          </div>
+          <div style="background: #fff3bf; border: 1px solid #ffe066; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #e67700;">【赤坂超ライブ】WEST.</span>
+            <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #444; margin-top: 2px;">超きっと大丈夫／ムーンライト</span>
           </div>
           <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Aぇ! group</span>
-            <span style="font-size: 9px; color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">《A》BEGINNING</span>
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">AKB48</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Everyday、カチューシャ 他</span>
           </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="超ときめき♡宣伝部">超ときめき♡宣伝部</span>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">CUTIE STREET</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">キュートなキューたい</span>
           </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">日向坂46</span>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">DOMOTO</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">硝子の少年／フラワー</span>
           </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">DA PUMP</span>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">HIPPY</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">君に捧げる応援歌</span>
           </div>
         </div>
       </div>
@@ -313,29 +386,25 @@
 
     <!-- 18:00台 -->
     <div style="border-bottom: 1px solid #eee; display: flex; align-items: stretch; background: rgba(255,255,255,0.4); box-sizing: border-box;">
-      <div style="width: 55px; background: rgba(255,170,0,0.02); display: flex; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #eee; flex-shrink: 0; padding: 12px 0; box-sizing: border-box;">
-        <div style="font-size: 12px; font-weight: 800; color: #ffaa00; font-family: sans-serif;">18:00台</div>
+      <div style="width: clamp(55px, calc(55px + (100vw - 480px) / 42), 72px); background: rgba(255,170,0,0.02); display: flex; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #eee; flex-shrink: 0; padding: 12px 0; box-sizing: border-box;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 800; color: #ffaa00; font-family: sans-serif; white-space: nowrap;">18:00台</div>
       </div>
       <div style="padding: 12px 10px; flex: 1; min-width: 0; box-sizing: border-box;">
-        <div style="font-size: 11px; color: #444; font-weight: 700; margin-bottom: 10px; border-left: 2px solid #ff922b; padding-left: 6px; line-height: 1.4;">
-          【震災15年特別枠】復興への祈りと力強いメッセージ
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; font-weight: 700; margin-bottom: 10px; border-left: 2px solid #ff922b; padding-left: 6px; line-height: 1.4;">
+          赤坂超ライブ本格化
         </div>
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(135px, 1fr)); gap: 6px; box-sizing: border-box;">
-          <div style="background: #fff5f5; border: 1px solid #ffe3e3; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #e03131;">【宮城県南三陸中継】EXILE</span>
-            <span style="font-size: 10px; color: #444; margin-top: 2px;">被災地・南三陸町から想いを届けるSPパフォーマンス</span>
+          <div style="background: #fff3bf; border: 1px solid #ffe066; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #e67700;">【赤坂超ライブ】</span>
+            <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #444; margin-top: 2px;">SUPER BEAVER「突破口」「生きがい」／Number_i「GOAT」「BUGS LIFE」／HANA「ALL IN」「Blue Jeans」／FRUITS ZIPPER「はちゃめちゃわちゃライフ！」他／M!LK「好きすぎて滅！」他</span>
           </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">SUPER BEAVER</span>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">岡本真夜</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">TOMORROW</span>
           </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">WEST.</span>
-          </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">櫻坂46</span>
-          </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="GENERATIONS">GENERATIONS</span>
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">島袋寛子</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">ALL MY TRUE LOVE 他</span>
           </div>
         </div>
       </div>
@@ -343,30 +412,21 @@
 
     <!-- 19:00台 -->
     <div style="border-bottom: 1px solid #eee; display: flex; align-items: stretch; background: rgba(255,170,0,0.01); box-sizing: border-box;">
-      <div style="width: 55px; background: rgba(255,170,0,0.03); display: flex; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #eee; flex-shrink: 0; padding: 12px 0; box-sizing: border-box;">
-        <div style="font-size: 12px; font-weight: 800; color: #ffaa00; font-family: sans-serif;">19:00台</div>
+      <div style="width: clamp(55px, calc(55px + (100vw - 480px) / 42), 72px); background: rgba(255,170,0,0.03); display: flex; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #eee; flex-shrink: 0; padding: 12px 0; box-sizing: border-box;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 800; color: #ffaa00; font-family: sans-serif; white-space: nowrap;">19:00台</div>
       </div>
       <div style="padding: 12px 10px; flex: 1; min-width: 0; box-sizing: border-box;">
-        <div style="font-size: 11px; color: #444; font-weight: 700; margin-bottom: 10px; border-left: 2px solid #ffaa00; padding-left: 6px; line-height: 1.4;">
-          全国大合唱 ＆ 億超え・ミリオンメドレー
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; font-weight: 700; margin-bottom: 10px; border-left: 2px solid #ffaa00; padding-left: 6px; line-height: 1.4;">
+          あいみょん登場 ＆ 新企画「DREAMコーラス」
         </div>
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(135px, 1fr)); gap: 6px; box-sizing: border-box;">
-          <div style="background: #fff9db; border: 1px solid #ffe3e3; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #f08c00;">【番組テーマ大合唱】全国同時大合唱</span>
-            <span style="font-size: 10px; color: #444; margin-top: 2px;">HIPPY「君に捧げる応援歌」（視聴者参加型）</span>
+          <div style="background: #fff9db; border: 1px solid #ffe066; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #f08c00;">あいみょん</span>
+            <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #444; margin-top: 2px;">マリーゴールド／裸の心</span>
           </div>
-          <div style="background: #f8f0fc; border: 1px solid #f3d9fa; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #ae3ec9;">【特別メドレー】億超え＆ミリオン超えメドレー Part 1</span>
-            <span style="font-size: 10px; color: #444; margin-top: 2px;">J-POPの名曲を、豪華アーティストが歌い継ぐ</span>
-          </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">あいみょん</span>
-          </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="アイナ・ジ・エンド">アイナ・ジ・エンド</span>
-          </div>
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">THE RAMPAGE</span>
+          <div style="background: #e6fcf5; border: 1px solid #c3fae8; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #0ca678;">【新企画】DREAMコーラス</span>
+            <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #444; margin-top: 2px;">ワタナベエンターテインメント・ASOBISYSTEM・スターダスト・BMSG・STARTO ENTERTAINMENT・ライジングプロダクション各事務所選抜チームによる合唱</span>
           </div>
         </div>
       </div>
@@ -375,8 +435,8 @@
 
   <!-- フッター注釈 -->
   <div style="position: relative; z-index: 2; padding: 8px 12px; background: #f9f9f9; border-top: 1px solid #eee; box-sizing: border-box;">
-    <p style="margin: 0; font-size: 9px; color: #666; line-height: 1.4;">
-      ※この時間帯の並びも筆者の予想ベースです。確定情報ではないため、歌唱順や企画の詳細は公式発表・当日の放送を優先してください。
+    <p style="margin: 0; font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #666; line-height: 1.4;">
+      ※この時間帯の並びは公式発表されたタイムテーブルをもとにしています。当日の進行により、歌唱順や企画の詳細が変更となる場合があります。
     </p>
   </div>
 </aside>
@@ -388,9 +448,9 @@
 
 <!-- wp:html -->
 <!-- 全体の中見出し -->
-<h3 style="font-family: 'Yu Mincho', 'MS Mincho', 'Inter', sans-serif; display: flex; align-items: center; margin: 25px 0 10px 0; font-size: 16px; font-weight: 700; color: #111; letter-spacing: 0.5px;">
+<h3 style="font-family: 'Yu Mincho', 'MS Mincho', 'Inter', sans-serif; display: flex; align-items: center; margin: 25px 0 10px 0; font-size: clamp(16px, calc(16px + (100vw - 480px) / 240), 19px); font-weight: 700; color: #111; letter-spacing: 0.5px;">
   <span style="width: 4px; height: 18px; background: #673ab7; border-radius: 2px; margin-right: 8px; display: inline-block;"></span>
-  20:00 〜 21:00台 タイムテーブル（筆者予想）
+  20:00 〜 21:00台 タイムテーブル
 </h3>
 
 <!-- タイムテーブル本体 -->
@@ -401,13 +461,13 @@
 
   <!-- ヘッダー -->
   <div style="position: relative; padding: 12px; display: flex; align-items: center; justify-content: space-between; z-index: 2; border-bottom: 2px solid #673ab7; background: rgba(255,255,255,0.95);">
-    <div style="font-size: 14px; font-weight: 700; color: #000;">
+    <div style="font-size: clamp(14px, calc(14px + (100vw - 480px) / 240), 17px); font-weight: 700; color: #000;">
       <span style="position: relative; display: inline-block;">
         音<span style="position: absolute; top: 0px; left: 3px; width: 4.5px; height: 4.5px; background: #ff0000; border-radius: 50%;"></span>
-      </span>楽の日 <span style="font-family: sans-serif; font-size: 11px; font-weight: 300;">2026</span>
+      </span>楽の日 <span style="font-family: sans-serif; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 300;">2026</span>
     </div>
-    <div style="font-size: 9px; font-weight: 800; color: #ffffff; background: #673ab7; padding: 2px 6px; border-radius: 2px; font-family: sans-serif;">
-      第三部：超大型企画の連続と感動のフィナーレ
+    <div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); font-weight: 800; color: #ffffff; background: #673ab7; padding: 2px 6px; border-radius: 2px; font-family: sans-serif;">
+      南三陸ライブ＆DREAMダンス、放送のフィナーレへ
     </div>
   </div>
 
@@ -416,36 +476,24 @@
 
     <!-- 20:00台 -->
     <div style="border-bottom: 1px solid #eee; display: flex; align-items: stretch; background: rgba(255,255,255,0.2); box-sizing: border-box;">
-      <div style="width: 55px; background: rgba(103,58,183,0.05); display: flex; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #eee; flex-shrink: 0; padding: 12px 0; box-sizing: border-box;">
-        <div style="font-size: 12px; font-weight: 800; color: #673ab7; font-family: sans-serif;">20:00台</div>
+      <div style="width: clamp(55px, calc(55px + (100vw - 480px) / 42), 72px); background: rgba(103,58,183,0.05); display: flex; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #eee; flex-shrink: 0; padding: 12px 0; box-sizing: border-box;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 800; color: #673ab7; font-family: sans-serif; white-space: nowrap;">20:00台</div>
       </div>
       <div style="padding: 12px 10px; flex: 1; min-width: 0; box-sizing: border-box;">
-        <div style="font-size: 11px; color: #444; font-weight: 700; margin-bottom: 10px; border-left: 2px solid #ff4081; padding-left: 6px; line-height: 1.4;">
-          赤坂超ライブ本格化 ＆ 新企画「DREAMコーラス」フィナーレ
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; font-weight: 700; margin-bottom: 10px; border-left: 2px solid #ff4081; padding-left: 6px; line-height: 1.4;">
+          南三陸ライブ ＆ 番組最大の目玉「DREAMダンス」
         </div>
-        
+
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(135px, 1fr)); gap: 6px; box-sizing: border-box;">
-          
-          <div style="background: #fff3bf; border: 1px solid #ffe066; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #e67700;">【赤坂超ライブ】Number_i / King &amp; Prince</span>
-            <span style="font-size: 10px; color: #444; margin-top: 2px;">観客を目の前に、それぞれ10分間の超長尺怒涛ライブパフォーマンス</span>
+
+          <div style="background: #fff5f5; border: 1px solid #ffe3e3; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #e03131;">【南三陸より生中継】EXILE</span>
+            <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #444; margin-top: 2px;">Rising Sun／道</span>
           </div>
 
-          <div style="background: #e6fcf5; border: 1px solid #c3fae8; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #0ca678;">【新企画】DREAMコーラス パート3</span>
-            <span style="font-size: 10px; color: #444; margin-top: 2px;">「Beat It」ほか（Snow Man、SUPER EIGHT、NEWS、Aぇ! groupなど男性グループ選抜）</span>
-          </div>
-
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Kis-My-Ft2</span>
-          </div>
-
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">NEWS</span>
-          </div>
-
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">乃木坂46</span>
+          <div style="background: #f3f0ff; border: 1px solid #d0bfff; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #7048e8;">【番組最大の目玉】DREAMダンス企画</span>
+            <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #444; margin-top: 2px;">サカナクション「夜の踊り子」ほか／各事務所選抜チームによるダンス</span>
           </div>
         </div>
       </div>
@@ -453,54 +501,30 @@
 
     <!-- 21:00台 -->
     <div style="border-bottom: 1px solid #eee; display: flex; align-items: stretch; background: rgba(255,255,255,0.4); box-sizing: border-box;">
-      <div style="width: 55px; background: rgba(103,58,183,0.02); display: flex; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #eee; flex-shrink: 0; padding: 12px 0; box-sizing: border-box;">
-        <div style="font-size: 12px; font-weight: 800; color: #673ab7; font-family: sans-serif;">21:00台</div>
-        <div style="font-size: 7px; color: #888; letter-spacing: 0.5px; margin-top: 2px;">FINAL</div>
+      <div style="width: clamp(55px, calc(55px + (100vw - 480px) / 42), 72px); background: rgba(103,58,183,0.02); display: flex; flex-direction: column; justify-content: center; align-items: center; border-right: 1px solid #eee; flex-shrink: 0; padding: 12px 0; box-sizing: border-box;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 800; color: #673ab7; font-family: sans-serif; white-space: nowrap;">21:00台</div>
+        <div style="font-size: clamp(7px, calc(7px + (100vw - 480px) / 360), 9px); color: #888; letter-spacing: 0.5px; margin-top: 2px;">FINAL</div>
       </div>
       <div style="padding: 12px 10px; flex: 1; min-width: 0; box-sizing: border-box;">
-        <div style="font-size: 11px; color: #444; font-weight: 700; margin-bottom: 10px; border-left: 2px solid #673ab7; padding-left: 6px; line-height: 1.4;">
-          世紀の「DREAMダンス」＆ハーフタイムショー ＆ 圧巻のミリオン超えメドレー
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; font-weight: 700; margin-bottom: 10px; border-left: 2px solid #673ab7; padding-left: 6px; line-height: 1.4;">
+          Mrs. GREEN APPLE ＆ 赤坂超ライブ ＆ 名曲「ウタウタイ」フィナーレ
         </div>
 
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(135px, 1fr)); gap: 6px; box-sizing: border-box;">
-          
-          <div style="background: #f3f0ff; border: 1px solid #d0bfff; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #7048e8;">【番組最大の目玉】DREAMダンス企画</span>
-            <span style="font-size: 10px; color: #444; margin-top: 2px; line-height: 1.4;">
-              「オトノケ」「ライラック」ほか（Snow Man、Travis Japan、BE:FIRST、INI、&amp;TEAM、EBiDAN、LDH選抜、坂道選抜 ほか）
-            </span>
+
+          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #111;">Mrs. GREEN APPLE</span>
+            <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #673ab7; margin-top: 2px;">ライラック／Brand New</span>
           </div>
 
-          <div style="background: #fff9db; border: 1px solid #ffe066; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #e67700;">【ハーフタイムショー】TRF × EXILE</span>
-            <span style="font-size: 10px; color: #444; margin-top: 2px;">TRF（SAM・ETSU・CHIHARU）・EXILE（松本利夫・ÜSA・MAKIDAI）による豪華洋楽ダンスカバーメドレー</span>
-          </div>
-
-          <div style="background: #f8f0fc; border: 1px solid #f3d9fa; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #ae3ec9;">【特別メドレー】億超え＆ミリオン超えメドレー Part 2</span>
-            <span style="font-size: 10px; color: #444; margin-top: 2px;">誰もが知る名曲を豪華出演陣が全力で歌い継ぐ</span>
-          </div>
-
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Snow Man</span>
-            <span style="font-size: 9px; color: #673ab7; margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">スペシャルパフォーマンス</span>
-          </div>
-
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">BE:FIRST</span>
-          </div>
-
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">INI</span>
-          </div>
-
-          <div style="background: rgba(255,255,255,0.8); border: 1px solid #e9ecef; border-radius: 4px; padding: 6px 10px; display: flex; align-items: center; min-width: 0; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #111; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" title="Travis Japan">Travis Japan</span>
+          <div style="background: #fff3bf; border: 1px solid #ffe066; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #e67700;">【赤坂超ライブ】Snow Man</span>
+            <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #444; margin-top: 2px;">EMPIRE／カリスマックス／君は僕のもの</span>
           </div>
 
           <div style="background: #fff5f5; border: 1px solid #ffe3e3; border-radius: 4px; padding: 6px 10px; display: flex; flex-direction: column; justify-content: center; grid-column: 1 / -1; box-sizing: border-box;">
-            <span style="font-size: 11px; font-weight: 700; color: #e03131;">【番組フィナーレ】出演アーティスト全員合唱</span>
-            <span style="font-size: 10px; color: #444; margin-top: 2px;">テーマ「こえる。きこえる。」に想いをのせた感動のエンディング</span>
+            <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #e03131;">名曲「ウタウタイ」</span>
+            <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #444; margin-top: 2px;">特別編成による合同歌唱</span>
           </div>
 
         </div>
@@ -510,8 +534,8 @@
 
   <!-- フッター注釈 -->
   <div style="position: relative; z-index: 2; padding: 8px 12px; background: #f9f9f9; border-top: 1px solid #eee; box-sizing: border-box;">
-    <p style="margin: 0; font-size: 9px; color: #666; line-height: 1.4;">
-      ※終盤の構成もあくまで筆者の予想です。放送当日は実際の進行に合わせて、このページを確定の出演順へ更新していきます。
+    <p style="margin: 0; font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #666; line-height: 1.4;">
+      ※終盤の構成も公式発表されたタイムテーブルをもとにしています。放送当日は実際の進行に合わせて、このページを更新していきます。
     </p>
   </div>
 </aside>
@@ -522,7 +546,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>上記は現時点で判明している情報をもとにした筆者予想の時間帯別タイムテーブルです。2026年の公式タイムテーブルはまだ公開されていないため、判明次第正式な出演時間・順番へ更新します。</p>
+<p>上記は放送前日に公式発表された時間帯別タイムテーブルです。
+当日の進行により、実際の出演時間・順番が変更となる場合があります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
@@ -542,125 +567,144 @@
 
   <div style="background: #fff; padding: 10px 12px; border-bottom: 2px solid #00b4db; display: flex; align-items: center; gap: 8px;">
     <div style="border: 1px solid #333; padding: 1px 5px;">
-      <div style="font-size: 10px; font-weight: 700; color: #000; position: relative;">
+      <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 700; color: #000; position: relative;">
         音<span style="position: absolute; top: -1px; left: 3px; width: 4px; height: 4px; background: #ff0000; border-radius: 50%;"></span>楽の日
       </div>
     </div>
-    <div style="font-size: 13px; font-weight: 700; color: #00b4db; letter-spacing: 0.05em;">ARTISTS (第4弾発表)</div>
+    <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 240), 16px); font-weight: 700; color: #00b4db; letter-spacing: 0.05em;">ARTISTS (最新情報)</div>
   </div>
 
   <div style="padding: 10px; background: #fcfdfe;">
-    <div style="font-size: 11px; color: #555; margin-bottom: 8px;">現在発表されている出演アーティスト（計58組）:</div>
-    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px; font-size: 12px; color: #333;">
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">INI</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">IMP.</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">アイナ・ジ・エンド</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">あいみょん</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">＝LOVE</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">ウェイウェイ・ウー＆平原綾香<div style="font-size: 9px; color: #999; margin-top: 1px;">「祈りにみちて」</div></div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">WEST.</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Aぇ! group</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">AKB48</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">EXILE<div style="font-size: 9px; color: #999; margin-top: 1px;">「道」「Rising Sun」</div></div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">EBiDAN</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">m.c.A・T</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">&amp;TEAM</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">岡本真夜</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Kis-My-Ft2</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">CANDY TUNE</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">CUTIE STREET</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">King &amp; Prince</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">郷ひろみ</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">櫻坂46</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">THE RAMPAGE</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">GENERATIONS</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">島津亜矢</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">島袋寛子</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">SUPER EIGHT</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">SUPER BEAVER</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">STARGLOW</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Snow Man</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">SPYAIR</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">DA PUMP</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">知念里奈</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">超ときめき♡宣伝部</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">超特急</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">TSUZUMI（ME:I）</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">TRF</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">T-BOLAN<div style="font-size: 9px; color: #999; margin-top: 1px;">「離したくはない」「じれったい愛」</div></div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">TWS</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">DOMOTO</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Travis Japan</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Dream Ami</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Number_i</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">新浜レオン</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">NEWS</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">乃木坂46</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">HANA</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">BE:FIRST</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">氷川きよし</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">ピコ太郎</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">HIPPY</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">日向坂46</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">FUNKY MONKEY BΛBY'S</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">FRUITS ZIPPER</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">MAZZEL</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">MAX</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Mrs. GREEN APPLE</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">M!LK</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">May J.</div>
-      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Little Glee Monster<div style="font-size: 9px; color: #999; margin-top: 1px;">MAYU・結海が本放送より活動再開</div></div>
+    <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #555; margin-bottom: 8px;">現在発表されている出演アーティスト（計77組）:</div>
+    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #333;">
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">INI<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「BOMBARDA」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">IMP.<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「INVADER」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">アイナ・ジ・エンド<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「革命道中」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">あいみょん<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「マリーゴールド」「裸の心」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">＝LOVE<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「とくべチュ、して」他</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">ウェイウェイ・ウー＆平原綾香<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「祈りにみちて」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">WEST.<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「超きっと大丈夫」「ムーンライト」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Aぇ! group<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「でこぼこライフ」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">AKB48<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「Everyday、カチューシャ」「フライングゲット」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">EXILE<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「Rising Sun」「道」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">EBiDAN<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「Yes! 東京」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">m.c.A・T<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「Bomb A Head!」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">&amp;TEAM<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「Go in Blind（月狼）」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">岡本真夜<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「TOMORROW」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Kis-My-Ft2<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「A.D.D.I.C.T.」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">CANDY TUNE<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「倍倍FIGHT!」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">CUTIE STREET<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「キュートなキューたい」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">King &amp; Prince<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「Theater」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">郷ひろみ<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「言えないよ」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">櫻坂46<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「The growing up train」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">THE RAMPAGE<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「No Limit」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">GENERATIONS<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「チカラノカギリ」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">島津亜矢<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「川の流れのように」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">島袋寛子<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「ALL MY TRUE LOVE」「Body &amp; Soul」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">SUPER EIGHT<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「LIFE ～目の前の向こうへ～」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">SUPER BEAVER<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「突破口」「生きがい」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">STARGLOW<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「Moonchaser」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Snow Man<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「EMPIRE」「カリスマックス」「君は僕のもの」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">SPYAIR<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「オレンジ」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">DA PUMP<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「超超超！SUPER HAPPY feat. m.c.A・T」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">知念里奈<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「Wing」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">超ときめき♡宣伝部<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「超最強」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">超特急<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「ガチ夢中！」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">TSUZUMI（ME:I）<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「どこまでも」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">TRF<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「CRAZY GONNA CRAZY」「survival dAnce」他</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">T-BOLAN<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「じれったい愛」「離したくはない」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">TWS<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「plot twist」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">DOMOTO<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「硝子の少年」「フラワー」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Travis Japan<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「On My Road」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Dream Ami<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「Zoo」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Number_i<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「GOAT」「BUGS LIFE」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">新浜レオン<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「全てあげよう」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">NEWS<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「希望～Yell～」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">乃木坂46<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「シンクロニシティ」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">HANA<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「BAD LOVE」／「ALL IN」「Blue Jeans」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">BE:FIRST<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「Boom Boom Back」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">氷川きよし<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「限界突破×サバイバー」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">ピコ太郎<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「PPAP」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">HIPPY<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「君に捧げる応援歌」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">日向坂46<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「ドレミソラシド」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">FUNKY MONKEY BΛBY'S<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「悲しみなんて笑い飛ばせ」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">FRUITS ZIPPER<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「はちゃめちゃわちゃライフ！」他</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">MAZZEL<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「Seaside Story」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">MAX<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「TORA TORA TORA」「Give me a Shake」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Mrs. GREEN APPLE<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「ライラック」「Brand New」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">M!LK<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「アイドルパワー」／「好きすぎて滅！」他</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">May J.<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「レット・イット・ゴー」</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Little Glee Monster<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">「一輪」／MAYU・結海が本放送より活動再開</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">SUPER★DRAGON<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">池田彪馬が出演</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Sakurashimeji<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">田中雅功が出演</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">ONE N' ONLY<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">TETTA・EIKU・HAYATOが出演</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">原因は自分にある。<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">武藤潤が出演</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">BUDDiiS<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">KEVIN・FUMINORI・FUMIYAが出演</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">ICEx<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">八神遼介が出演</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Lienel<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">武田創世が出演</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">中尾ミエ</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">松本明子</div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">INSPi<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">吉田圭介・北剛彦が出演</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">SWEET STEADY<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">塩川莉世が出演</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">MORE STAR<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">萩田そらが出演</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">DA PUMP<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">ISSAが出演</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">Lead<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">谷内伸也が出演</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">プラチナボーイズ<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">小池成が出演</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">BALLISTIK BOYZ<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">松井利樹・砂田将宏が出演</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">PSYCHIC FEVER<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">JIMMY・小波津志が出演</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">THE JET BOY BANGERZ<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">SHOW・TAKUMI・HINATA・TAKIが出演</div></div>
+      <div style="padding: 3px 6px; background: rgba(0,180,219,0.05); border-radius: 2px;">NCT WISH<div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #999; margin-top: 1px;">TRFとコラボ出演（14:00台）</div></div>
     </div>
-    <div style="font-size: 10px; color: #888; margin-top: 10px; border-top: 1px solid #eee; padding-top: 6px;">
-      ※出演者は今後も追加発表予定（70組超の見込み）。歌唱曲やタイムテーブルは放送直前に順次解禁されます。
+    <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #888; margin-top: 10px; border-top: 1px solid #eee; padding-top: 6px;">
+      ※タイムテーブルが前日解禁され、全出演者の歌唱曲・出演時間が確定しました。
     </div>
   </div>
 
   <div style="padding: 12px; background: #fff; border-top: 1px solid #eee;">
-    <div style="font-size: 9px; font-weight: 800; color: #ff4081; margin-bottom: 8px; letter-spacing: 0.05em;">PROJECTS</div>
+    <div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); font-weight: 800; color: #ff4081; margin-bottom: 8px; letter-spacing: 0.05em;">PROJECTS</div>
 
     <div style="display: flex; gap: 8px; overflow-x: auto; padding-bottom: 5px; -webkit-overflow-scrolling: touch;">
 
       <div style="flex: 0 0 auto; background: rgba(255,64,129,0.03); border: 1px solid rgba(255,64,129,0.15); border-radius: 3px; padding: 8px 12px;">
-        <div style="font-size: 11px; font-weight: 700; color: #ff4081; white-space: nowrap;">EXILE 南三陸ライブ</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #ff4081; white-space: nowrap;">EXILE 南三陸ライブ</div>
       </div>
 
       <div style="flex: 0 0 auto; background: rgba(0,180,219,0.03); border: 1px solid rgba(0,180,219,0.15); border-radius: 3px; padding: 8px 12px;">
-        <div style="font-size: 11px; font-weight: 700; color: #00b4db; white-space: nowrap;">DREAMダンス企画</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #00b4db; white-space: nowrap;">DREAMダンス企画</div>
       </div>
 
       <div style="flex: 0 0 auto; background: #f9f9f9; border: 1px solid #ddd; border-radius: 3px; padding: 8px 12px;">
-        <div style="font-size: 11px; font-weight: 700; color: #444; white-space: nowrap;">赤坂超ライブ</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #444; white-space: nowrap;">赤坂超ライブ</div>
       </div>
 
       <div style="flex: 0 0 auto; background: #f9f9f9; border: 1px solid #ddd; border-radius: 3px; padding: 8px 12px;">
-        <div style="font-size: 11px; font-weight: 700; color: #444; white-space: nowrap;">ハーフタイムショー</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #444; white-space: nowrap;">ハーフタイムショー</div>
       </div>
 
       <div style="flex: 0 0 auto; background: rgba(255,64,129,0.03); border: 1px solid rgba(255,64,129,0.15); border-radius: 3px; padding: 8px 12px;">
-        <div style="font-size: 11px; font-weight: 700; color: #ff4081; white-space: nowrap;">能登からの祈り</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #ff4081; white-space: nowrap;">能登からの祈り</div>
       </div>
 
       <div style="flex: 0 0 auto; background: #f9f9f9; border: 1px solid #ddd; border-radius: 3px; padding: 8px 12px;">
-        <div style="font-size: 11px; font-weight: 700; color: #444; white-space: nowrap;">T-BOLAN ラストテレビ出演</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #444; white-space: nowrap;">T-BOLAN ラストテレビ出演</div>
       </div>
 
       <div style="flex: 0 0 auto; background: rgba(255,64,129,0.03); border: 1px solid rgba(255,64,129,0.15); border-radius: 3px; padding: 8px 12px;">
-        <div style="font-size: 11px; font-weight: 700; color: #ff4081; white-space: nowrap;">ウタウタイ</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #ff4081; white-space: nowrap;">ウタウタイ</div>
       </div>
 
       <div style="flex: 0 0 auto; background: rgba(0,180,219,0.03); border: 1px solid rgba(0,180,219,0.15); border-radius: 3px; padding: 8px 12px;">
-        <div style="font-size: 11px; font-weight: 700; color: #00b4db; white-space: nowrap;">DREAMコーラス（全3パート）</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #00b4db; white-space: nowrap;">DREAMコーラス</div>
       </div>
 
       <div style="flex: 0 0 auto; background: rgba(255,64,129,0.03); border: 1px solid rgba(255,64,129,0.15); border-radius: 3px; padding: 8px 12px;">
-        <div style="font-size: 11px; font-weight: 700; color: #ff4081; white-space: nowrap;">全国同時大合唱</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #ff4081; white-space: nowrap;">全国同時大合唱</div>
       </div>
 
     </div>
 
     <div style="margin-top: 8px;">
-      <a href="#st-toc-h-4" style="font-size: 10px; color: #00b4db; text-decoration: none; font-weight: 600;">各企画の参加アーティスト・楽曲の詳細を見る ▶</a>
+      <a href="#st-toc-h-7" style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #00b4db; text-decoration: none; font-weight: 600;">各企画の参加アーティスト・楽曲の詳細を見る ▶</a>
     </div>
   </div>
 
@@ -670,7 +714,8 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>出演者・特別企画は最新情報を反映済み。歌唱曲・タイムテーブルは判明次第こちらに追記します。</p>
+<p>出演者・特別企画・タイムテーブルはすべて最新情報を反映済みです。
+当日の進行変更があり次第こちらに追記します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
@@ -686,20 +731,20 @@
 
   <div style="background: #fff; padding: 10px 12px; border-bottom: 2px solid #00b4db; display: flex; align-items: center; gap: 8px;">
     <div style="border: 1px solid #333; padding: 1px 5px;">
-      <div style="font-size: 10px; font-weight: 700; color: #000; position: relative;">
+      <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 700; color: #000; position: relative;">
         音<span style="position: absolute; top: -1px; left: 3px; width: 4px; height: 4px; background: #ff0000; border-radius: 50%;"></span>楽の日
       </div>
     </div>
-    <div style="font-size: 13px; font-weight: 700; color: #00b4db; letter-spacing: 0.05em;">SCHEDULE</div>
+    <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 240), 16px); font-weight: 700; color: #00b4db; letter-spacing: 0.05em;">SCHEDULE</div>
   </div>
 
   <div style="padding: 12px; background: #fff;">
 
-    <div style="font-size: 11px; line-height: 1.6; color: #444; margin-bottom: 12px;">
+    <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); line-height: 1.6; color: #444; margin-bottom: 12px;">
       出演者やタイムテーブルの情報は、例年段階的に発表されます。
     </div>
 
-    <div style="width: 100%; border-collapse: collapse; display: table; font-size: 11px; margin-bottom: 12px;">
+    <div style="width: 100%; border-collapse: collapse; display: table; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); margin-bottom: 12px;">
       <div style="display: table-row; background: #f0faff; font-weight: 700; color: #00b4db;">
         <div style="display: table-cell; padding: 8px; border: 1px solid #e0e0e0; width: 40%;">発表内容</div>
         <div style="display: table-cell; padding: 8px; border: 1px solid #e0e0e0;">予想・実績</div>
@@ -708,28 +753,28 @@
         <div style="display: table-cell; padding: 8px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">第1弾 出演者</div>
         <div style="display: table-cell; padding: 8px; border: 1px solid #e0e0e0; color: #666;">
           <b>5月中旬〜6月上旬</b><br>
-          <span style="font-size: 9px;">(2025年は6/2発表)</span>
+          <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);">(2025年は6/2発表)</span>
         </div>
       </div>
       <div style="display: table-row;">
         <div style="display: table-cell; padding: 8px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">第2弾 出演者</div>
         <div style="display: table-cell; padding: 8px; border: 1px solid #e0e0e0; color: #666;">
           <b>6月下旬〜7月初旬</b><br>
-          <span style="font-size: 9px;">(2025年は6/23発表)</span>
+          <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);">(2025年は6/23発表)</span>
         </div>
       </div>
       <div style="display: table-row;">
         <div style="display: table-cell; padding: 8px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle; background: rgba(255,64,129,0.02);">タイムテーブル</div>
         <div style="display: table-cell; padding: 8px; border: 1px solid #e0e0e0; color: #666; background: rgba(255,64,129,0.02);">
           <b>放送日の3日〜1週間前</b><br>
-          <span style="font-size: 9px; color: #ff4081; font-weight: 600;">2025年は前日に発表されています！</span>
+          <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #ff4081; font-weight: 600;">2025年・2026年ともに前日に発表されています！</span>
         </div>
       </div>
     </div>
 
     <div style="background: #f9f9f9; padding: 8px 10px; border-radius: 2px; border: 1px dashed #ccc;">
-      <div style="font-size: 10px; font-weight: 800; color: #ff4081; margin-bottom: 3px;">CHECK!</div>
-      <div style="font-size: 10px; color: #555; line-height: 1.5;">
+      <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 800; color: #ff4081; margin-bottom: 3px;">CHECK!</div>
+      <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #555; line-height: 1.5;">
         最新の発表は<b>「CDTVライブ!ライブ!」</b>の放送時にも注目！公式サイトやSNSもこまめにチェックしましょう。
       </div>
     </div>
@@ -750,7 +795,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":2} -->
-<h2 class="wp-block-heading">音楽の日2026の放送日はいつ？番組の概要と見どころ</h2>
+<h2 class="wp-block-heading">音楽の日2026の番組概要と見どころ</h2>
 <!-- /wp:heading -->
 
 <!-- wp:html -->
@@ -770,25 +815,25 @@
 
   <div style="background: #fff; padding: 10px 12px; border-bottom: 2px solid #00b4db; display: flex; align-items: center; gap: 8px;">
     <div style="border: 1px solid #333; padding: 1px 5px;">
-      <div style="font-size: 10px; font-weight: 700; color: #000; position: relative;">
+      <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 700; color: #000; position: relative;">
         音<span style="position: absolute; top: -1px; left: 3px; width: 4px; height: 4px; background: #ff0000; border-radius: 50%;"></span>楽の日
       </div>
     </div>
-    <div style="font-size: 12px; font-weight: 700; color: #00b4db; letter-spacing: 0.05em;">ABOUT 2026</div>
+    <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 700; color: #00b4db; letter-spacing: 0.05em;">ABOUT 2026</div>
   </div>
 
   <div style="padding: 12px; background: #fff;">
 
     <div style="margin-bottom: 18px;">
-      <div style="font-size: 14px; font-weight: 700; color: #333; border-bottom: 1px solid #f0f0f0; padding-bottom: 5px; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">
+      <div style="font-size: clamp(14px, calc(14px + (100vw - 480px) / 240), 17px); font-weight: 700; color: #333; border-bottom: 1px solid #f0f0f0; padding-bottom: 5px; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">
         <span style="color: #00b4db;">●</span> 放送日時が決定！
       </div>
 
       <div style="background: rgba(0,180,219,0.05); padding: 10px; border-radius: 4px; text-align: center; border: 1px solid rgba(0,180,219,0.1);">
-        <div style="font-size: 10px; color: #00b4db; font-weight: 800; margin-bottom: 2px;">放送日時</div>
-        <div style="font-size: 18px; font-weight: 800; color: #333; font-family: sans-serif;">2026年7月18日 <span style="font-size: 13px;">(土)</span></div>
-        <div style="font-size: 11px; color: #444; font-weight: 700; margin-top: 2px;">14:00 ～ 21:56（約8時間の生放送）</div>
-        <div style="font-size: 9px; color: #666; margin-top: 4px; line-height: 1.4;">
+        <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #00b4db; font-weight: 800; margin-bottom: 2px;">放送日時</div>
+        <div style="font-size: clamp(18px, calc(18px + (100vw - 480px) / 240), 21px); font-weight: 800; color: #333; font-family: sans-serif;">2026年7月18日 <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 240), 16px);">(土)</span></div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; font-weight: 700; margin-top: 2px;">14:00 ～ 21:56（約8時間の生放送）</div>
+        <div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #666; margin-top: 4px; line-height: 1.4;">
           総合司会は16回連続となる安住紳一郎＆江藤愛（TBSアナウンサー）が担当。<br>
           「音楽のチカラで日本を元気に！」という番組の熱い想いはそのままに、最高の生放送を届けます。
         </div>
@@ -796,15 +841,15 @@
     </div>
 
     <div>
-      <div style="font-size: 14px; font-weight: 700; color: #333; border-bottom: 1px solid #f0f0f0; padding-bottom: 5px; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">
+      <h3 style="font-family: 'Yu Mincho', 'MS Mincho', 'Inter', sans-serif; font-size: clamp(14px, calc(14px + (100vw - 480px) / 240), 17px); font-weight: 700; color: #333; border-bottom: 1px solid #f0f0f0; padding-bottom: 5px; margin: 0 0 10px; display: flex; align-items: center; gap: 6px;">
         <span style="color: #ff4081;">●</span> 番組テーマ：「こえる。きこえる。」
-      </div>
+      </h3>
 
       <div style="background: rgba(255,64,129,0.02); border-left: 3px solid #ff4081; padding: 10px 12px; border-radius: 0 4px 4px 0;">
-        <div style="font-size: 13px; font-weight: 700; color: #ff4081; margin-bottom: 6px;">
+        <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 240), 16px); font-weight: 700; color: #ff4081; margin-bottom: 6px;">
           "音楽のチカラ"で日本中の想いをひとつに
         </div>
-        <p style="margin: 0; font-size: 11px; color: #444; line-height: 1.6;">
+        <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; line-height: 1.6;">
           2026年という節目の年に、限界に挑み記録を<strong>「超える」</strong>アスリートへの敬意、震災から15年を経て困難を共に<strong>「越えて」</strong>きた人々への想いに寄り添います。<br>
           壁にぶつかったとき、いつもそばで勇気をくれた歌声（＝<strong>きこえる</strong>）を届け、あらゆる境界を飛び越えて明日へと背中を押してくれる、感動のステージが大きな見どころです。
         </p>
@@ -812,143 +857,65 @@
     </div>
 
     <div style="margin-top: 18px;">
-      <div style="font-size: 14px; font-weight: 700; color: #333; border-bottom: 1px solid #f0f0f0; padding-bottom: 5px; margin-bottom: 10px; display: flex; align-items: center; gap: 6px;">
+      <h3 style="font-family: 'Yu Mincho', 'MS Mincho', 'Inter', sans-serif; font-size: clamp(14px, calc(14px + (100vw - 480px) / 240), 17px); font-weight: 700; color: #333; border-bottom: 1px solid #f0f0f0; padding-bottom: 5px; margin: 0 0 10px; display: flex; align-items: center; gap: 6px;">
         <span style="color: #00b4db;">●</span> 特別企画・見どころ一覧
+      </h3>
+
+      <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 240), 16px); font-weight: 700; color: #333; margin: 16px 0 6px 0; border-left: 3px solid #e03131; padding-left: 8px;">EXILE 南三陸ライブ</div>
+      <div style="background: #fff; border: 1px solid #e0e0e0; border-radius: 4px; padding: 8px 10px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; margin-bottom: 4px;">
+        EXILE<br><span style="color: #999; font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);">「Rising Sun」「道」</span>
       </div>
 
-      <div style="width: 100%; border-collapse: collapse; display: table; font-size: 10px; margin-bottom: 10px;">
-        <div style="display: table-row; background: #f0faff; font-weight: 700; color: #00b4db;">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0;">企画名</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0;">参加アーティスト</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0;">楽曲</div>
-        </div>
-        <div style="display: table-row;">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">EXILE 南三陸ライブ</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">EXILE</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">「道」「Rising Sun」</div>
-        </div>
-        <div style="display: table-row; background: rgba(0,180,219,0.02);">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">DREAMダンス企画</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">STARTO・LDH・坂道グループ・スターダスト・BMSG・ライジングら7事務所選抜メンバー</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">サカナクション「夜の踊り子」ほか（詳細は下記）</div>
-        </div>
-        <div style="display: table-row;">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">赤坂超ライブ</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">Number_i／King &amp; Prince</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">観客を目の前に、それぞれ10分間の超長尺ライブパフォーマンス</div>
-        </div>
-        <div style="display: table-row;">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">DREAMコーラス（全3パート）</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">CANDY TUNE、NEWS、Aぇ! group、Snow Man、SUPER EIGHT、Number_i、超ときめき♡宣伝部ほか多数</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">「ダンスホール」「涙そうそう」「Story」「見上げてごらん夜の星を」「Beat It」ほか（詳細は下記）</div>
-        </div>
-        <div style="display: table-row; background: rgba(255,64,129,0.02);">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">全国同時大合唱</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">HIPPY（視聴者参加型）</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">「君に捧げる応援歌」</div>
-        </div>
-        <div style="display: table-row;">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">ハーフタイムショー</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">TRF（SAM・ETSU・CHIHARU）・EXILE（松本利夫・ÜSA・MAKIDAI）</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">ビヨンセ「Run The World (Girls)」／Heavy D &amp; The Boyz「Now That We Found Love」／マイケル・ジャクソン「Black Or White」</div>
-        </div>
-        <div style="display: table-row; background: rgba(255,64,129,0.02);">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">能登からの祈り</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">ウェイウェイ・ウー＆平原綾香</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">「祈りにみちて」</div>
-        </div>
-        <div style="display: table-row;">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">T-BOLAN ラストテレビ出演</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">T-BOLAN</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">「離したくはない」「じれったい愛」</div>
-        </div>
-        <div style="display: table-row; background: rgba(0,180,219,0.02);">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">ウタウタイ</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">M!LK・超特急・DA PUMP・知念里奈ほか多数</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">楽曲未発表</div>
-        </div>
+      <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 240), 16px); font-weight: 700; color: #333; margin: 16px 0 6px 0; border-left: 3px solid #7048e8; padding-left: 8px;">DREAMダンス企画</div>
+      <p style="margin: 0 0 6px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; line-height: 1.6;">サカナクション「夜の踊り子」をはじめとする楽曲に合わせ、STARTO・LDH・坂道グループなど7事務所の選抜メンバーが事務所の垣根を越えてダンスパフォーマンスを披露する、番組最大の目玉企画です。</p>
+      <div style="background: #fff; border: 1px solid #e0e0e0; border-radius: 4px; padding: 8px 10px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; margin-bottom: 4px;">
+        STARTO・LDH・坂道グループ・スターダスト・BMSG・ライジングら7事務所選抜メンバー<br><span style="color: #999; font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);">サカナクション「夜の踊り子」ほか</span>
+      </div>
+      <div style="margin-bottom: 4px;">
+        <a href="https://shira-treat.com/dream-dance/" style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #00b4db; text-decoration: none; font-weight: 600;">事務所別の参加メンバー・楽曲の詳細はこちら ▶</a>
       </div>
 
-      <div style="font-size: 11px; font-weight: 700; color: #00b4db; margin: 10px 0 6px;">DREAMダンス企画 事務所別ラインナップ</div>
-      <div style="width: 100%; border-collapse: collapse; display: table; font-size: 10px;">
-        <div style="display: table-row; background: #f0faff; font-weight: 700; color: #00b4db;">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0;">事務所</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0;">楽曲</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0;">参加メンバー</div>
-        </div>
-        <div style="display: table-row;">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">OPENING</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">サカナクション「夜の踊り子」</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">各事務所代表</div>
-        </div>
-        <div style="display: table-row; background: rgba(0,180,219,0.02);">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">STARTO ENTERTAINMENT</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">RIP SLYME「楽園ベイベー」</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">千賀健永(Kis-My-Ft2)、宮近海斗/中村海人/七五三掛龍也/松倉海斗(Travis Japan)</div>
-        </div>
-        <div style="display: table-row;">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">ライジングプロダクション</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">ルパン三世のテーマ</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">YORI/TOMO/KIMI/U-YEAH(DA PUMP)、NANA/LINA(MAX)、谷内伸也(Lead)、小池成(プラチナボーイズ)、輝叶</div>
-        </div>
-        <div style="display: table-row; background: rgba(0,180,219,0.02);">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">LDH</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">Creepy Nuts「オトノケ」</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">中務裕太/小森隼(GENERATIONS)、陣/岩谷翔吾/浦川翔平(THE RAMPAGE)、松井利樹/砂田将宏(BALLISTIK BOYZ)、JIMMY/小波津志(PSYCHIC FEVER)、SHOW/TAKUMI/HINATA/TAKI(THE JET BOY BANGERZ)</div>
-        </div>
-        <div style="display: table-row;">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">坂道グループ</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">Mrs. GREEN APPLE「ライラック」</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">岩本蓮加/一ノ瀬美空/瀬戸口心月(乃木坂46)、小島凪紗/谷口愛季/山下瞳月(櫻坂46)、金村美玖/小西夏菜実/渡辺莉奈(日向坂46)</div>
-        </div>
-        <div style="display: table-row; background: rgba(0,180,219,0.02);">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">スターダスト</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">TUBE「あー夏休み」</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">ユーキ/マサヒロ(超特急)、EIKU/HAYATO(ONE N' ONLY)、FUMINORI/FUMIYA(BUDDiiS)</div>
-        </div>
-        <div style="display: table-row;">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">BMSG</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">Awich「Frontiers」</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">SOTA/SHUNTO/RYUHEI(BE:FIRST)、RAN/SEITO/RYUKI/TAKUTO(MAZZEL)、TAIKI(STARGLOW)、Aile The Shota</div>
-        </div>
-        <div style="display: table-row; background: rgba(0,180,219,0.02);">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">s**t kingz選抜</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">「slow burn」</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">板倉可奈(CUTIE STREET)、SUZU(ME:I)、TAKI(THE JET BOY BANGERZ)、TAKUTO(MAZZEL)、中村海人(Travis Japan)、RIKU(NCT WISH)</div>
-        </div>
-        <div style="display: table-row;">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">FINALE</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">ORANGE RANGE「イケナイ太陽」</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">全員</div>
-        </div>
+      <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 240), 16px); font-weight: 700; color: #333; margin: 16px 0 6px 0; border-left: 3px solid #e67700; padding-left: 8px;">赤坂超ライブ</div>
+      <p style="margin: 0 0 6px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; line-height: 1.6;">TBS赤坂サカスの特設ステージから、出演アーティストが観客を目の前にした熱量の高いライブパフォーマンスを届けるコーナーで、放送内で複数回にわたって展開されます。</p>
+      <div style="background: #fff; border: 1px solid #e0e0e0; border-radius: 4px; padding: 8px 10px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; margin-bottom: 4px;">
+        WEST.「超きっと大丈夫」「ムーンライト」（17:00台）<br>SUPER BEAVER・Number_i・HANA・FRUITS ZIPPER・M!LK（18:00台）<br>Snow Man「EMPIRE」「カリスマックス」「君は僕のもの」（21:00台）
       </div>
 
-      <div style="font-size: 11px; font-weight: 700; color: #00b4db; margin: 10px 0 6px;">DREAMコーラス パート別ラインナップ</div>
-      <div style="width: 100%; border-collapse: collapse; display: table; font-size: 10px;">
-        <div style="display: table-row; background: #f0faff; font-weight: 700; color: #00b4db;">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0;">パート</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0;">楽曲</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0;">参加アーティスト（予測時間帯）</div>
-        </div>
-        <div style="display: table-row;">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">パート1</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">「ダンスホール」「涙そうそう」</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">CANDY TUNE ほか（15:00台）</div>
-        </div>
-        <div style="display: table-row; background: rgba(0,180,219,0.02);">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">パート2</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">「Story」「見上げてごらん夜の星を」</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">NEWS、Aぇ! group ほか（17:00台）</div>
-        </div>
-        <div style="display: table-row;">
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; font-weight: 700; vertical-align: middle;">パート3</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">「Beat It」ほか</div>
-          <div style="display: table-cell; padding: 6px; border: 1px solid #e0e0e0; color: #666;">Snow Man、SUPER EIGHT、NEWS、Aぇ! groupなど男性グループ選抜（20:00台）</div>
-        </div>
+      <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 240), 16px); font-weight: 700; color: #333; margin: 16px 0 6px 0; border-left: 3px solid #0ca678; padding-left: 8px;">DREAMコーラス</div>
+      <div style="background: #fff; border: 1px solid #e0e0e0; border-radius: 4px; padding: 8px 10px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; margin-bottom: 4px;">
+        ワタナベエンターテインメント・ASOBISYSTEM・スターダスト・BMSG・STARTO ENTERTAINMENT・ライジングプロダクション各事務所選抜チームによる合唱（19:00台）<br><span style="color: #999; font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);">楽曲・参加アーティストの詳細は放送に合わせて更新予定</span>
+      </div>
+      <p style="margin: 0 0 4px; font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #888; line-height: 1.5;">
+        ※参加アーティスト・歌唱曲・歌唱順の詳細は、放送に合わせて更新予定です。
+      </p>
+
+      <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 240), 16px); font-weight: 700; color: #333; margin: 16px 0 6px 0; border-left: 3px solid #f08c00; padding-left: 8px;">全国同時大合唱</div>
+      <div style="background: #fff; border: 1px solid #e0e0e0; border-radius: 4px; padding: 8px 10px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; margin-bottom: 4px;">
+        HIPPY（視聴者参加型）<br><span style="color: #999; font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);">「君に捧げる応援歌」</span>
       </div>
 
-      <p style="margin: 10px 0 0; font-size: 10px; color: #888; line-height: 1.5;">
-        ※「ウタウタイ」コーナーにはM!LK・超特急・SUPER★DRAGON・Sakurashimeji・ONE N' ONLY・原因は自分にある。・BUDDiiS・ICEx・Lienel・中尾ミエ・松本明子・Little Glee Monster・INSPi・FRUITS ZIPPER・CANDY TUNE・SWEET STEADY・CUTIE STREET・MORE STAR・DA PUMP・MAX・知念里奈・Lead・STARGLOWが参加予定です。
+      <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 240), 16px); font-weight: 700; color: #333; margin: 16px 0 6px 0; border-left: 3px solid #e67700; padding-left: 8px;">ハーフタイムショー</div>
+      <div style="background: #fff; border: 1px solid #e0e0e0; border-radius: 4px; padding: 8px 10px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; margin-bottom: 4px;">
+        TRF（SAM・ETSU・CHIHARU）・EXILE（松本利夫・ÜSA・MAKIDAI）<br><span style="color: #999; font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);">ビヨンセ「Run The World (Girls)」／Heavy D &amp; The Boyz「Now That We Found Love」／マイケル・ジャクソン「Black Or White」</span>
+      </div>
+
+      <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 240), 16px); font-weight: 700; color: #333; margin: 16px 0 6px 0; border-left: 3px solid #0082a3; padding-left: 8px;">能登からの祈り</div>
+      <div style="background: #fff; border: 1px solid #e0e0e0; border-radius: 4px; padding: 8px 10px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; margin-bottom: 4px;">
+        ウェイウェイ・ウー＆平原綾香<br><span style="color: #999; font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);">「祈りにみちて」</span>
+      </div>
+
+      <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 240), 16px); font-weight: 700; color: #333; margin: 16px 0 6px 0; border-left: 3px solid #d6336c; padding-left: 8px;">T-BOLAN ラストテレビ出演</div>
+      <div style="background: #fff; border: 1px solid #e0e0e0; border-radius: 4px; padding: 8px 10px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; margin-bottom: 4px;">
+        T-BOLAN<br><span style="color: #999; font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);">「じれったい愛」「離したくはない」</span>
+      </div>
+
+      <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 240), 16px); font-weight: 700; color: #333; margin: 16px 0 6px 0; border-left: 3px solid #e03131; padding-left: 8px;">ウタウタイ</div>
+      <p style="margin: 0 0 6px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; line-height: 1.6;">様々な事務所・世代のアーティストが一堂に会し、特別編成で合同歌唱を披露する、音楽の日ならではの名物企画です。</p>
+      <div style="background: #fff; border: 1px solid #e0e0e0; border-radius: 4px; padding: 8px 10px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; margin-bottom: 4px;">
+        M!LK・超特急・SUPER★DRAGONほか23組（詳細は下記）<br><span style="color: #999; font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);">楽曲未発表</span>
+      </div>
+      <p style="margin: 0 0 4px; font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #888; line-height: 1.5;">
+        ※M!LK（佐野勇斗・塩﨑太智・曽野舜太・山中柔太朗・吉田仁人）・超特急（タカシ・シューヤ）・SUPER★DRAGON（池田彪馬）・Sakurashimeji（田中雅功）・ONE N' ONLY（TETTA）・原因は自分にある。（武藤潤）・BUDDiiS（KEVIN）・ICEx（八神遼介）・Lienel（武田創世）・FRUITS ZIPPER（月足天音・鎮西寿々歌・櫻井優衣・仲川瑠夏・真中まな・松本かれん・早瀬ノエル）・Little Glee Monster（かれん・miyou）・CANDY TUNE（宮野静）・SWEET STEADY（塩川莉世）・CUTIE STREET（真鍋凪咲）・MORE STAR（萩田そら）・INSPi（吉田圭介・北剛彦）・中尾ミエ・松本明子・知念里奈・ISSA（DA PUMP）・MAX（MINA・REINA）・Lead（谷内伸也）・STARGLOW（RUI・KANON）が参加予定です。
       </p>
     </div>
 
@@ -976,11 +943,11 @@
 
   <div style="background: #fff; padding: 10px 12px; border-bottom: 2px solid #00b4db; display: flex; align-items: center; gap: 8px;">
     <div style="border: 1px solid #333; padding: 1px 5px;">
-      <div style="font-size: 10px; font-weight: 700; color: #000; position: relative;">
+      <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 700; color: #000; position: relative;">
         音<span style="position: absolute; top: -1px; left: 3px; width: 4px; height: 4px; background: #ff0000; border-radius: 50%;"></span>楽の日
       </div>
     </div>
-    <div style="font-size: 12px; font-weight: 700; color: #00b4db; letter-spacing: 0.05em;">TIME ANALYSIS</div>
+    <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 700; color: #00b4db; letter-spacing: 0.05em;">TIME ANALYSIS</div>
   </div>
 
   <div style="padding: 12px; background: #fff;">
@@ -989,42 +956,42 @@
 
       <div style="display: flex; gap: 10px; padding: 8px; background: #f0faff; border-radius: 4px;">
         <div style="flex-shrink: 0; width: 45px; text-align: center;">
-          <div style="font-size: 11px; font-weight: 800; color: #00b4db;">14:00</div>
-          <div style="font-size: 8px; color: #00b4db;">〜16時台</div>
+          <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 800; color: #00b4db;">14:00</div>
+          <div style="font-size: clamp(8px, calc(8px + (100vw - 480px) / 360), 10px); color: #00b4db;">〜16時台</div>
         </div>
         <div style="flex: 1; border-left: 1px solid #daeef3; padding-left: 10px;">
-          <div style="font-size: 11px; font-weight: 700; color: #333;">新世代グループ＆中継</div>
-          <div style="font-size: 9px; color: #444; line-height: 1.4;">ボーイズ・ガールズグループが序盤から集結。地方からの中継企画もこの枠。</div>
+          <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #333;">新世代グループ＆中継</div>
+          <div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #444; line-height: 1.4;">ボーイズ・ガールズグループが序盤から多数登場。地方からの中継企画もこの枠。</div>
         </div>
       </div>
 
       <div style="display: flex; gap: 10px; padding: 8px; background: #fff9fb; border-radius: 4px; border: 1px solid #fff0f5;">
         <div style="flex-shrink: 0; width: 45px; text-align: center;">
-          <div style="font-size: 11px; font-weight: 800; color: #ff4081;">17:00</div>
-          <div style="font-size: 8px; color: #ff4081;">〜19時台</div>
+          <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 800; color: #ff4081;">17:00</div>
+          <div style="font-size: clamp(8px, calc(8px + (100vw - 480px) / 360), 10px); color: #ff4081;">〜19時台</div>
         </div>
         <div style="flex: 1; border-left: 1px solid #ffeef3; padding-left: 10px;">
-          <div style="font-size: 11px; font-weight: 700; color: #333;">人気爆発ヒットメドレー</div>
-          <div style="font-size: 9px; color: #444; line-height: 1.4;">SNS人気の高いアーティストが集中。特別企画などもこの時間帯。</div>
+          <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #333;">人気爆発ヒットメドレー</div>
+          <div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #444; line-height: 1.4;">SNS人気の高いアーティストが集中。特別企画などもこの時間帯。</div>
         </div>
       </div>
 
       <div style="display: flex; gap: 10px; padding: 8px; background: rgba(51,51,51,0.03); border-radius: 4px;">
         <div style="flex-shrink: 0; width: 45px; text-align: center;">
-          <div style="font-size: 11px; font-weight: 800; color: #333;">20:00</div>
-          <div style="font-size: 8px; color: #333;">〜21:56</div>
+          <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 800; color: #333;">20:00</div>
+          <div style="font-size: clamp(8px, calc(8px + (100vw - 480px) / 360), 10px); color: #333;">〜21:56</div>
         </div>
         <div style="flex: 1; border-left: 1px solid #ddd; padding-left: 10px;">
-          <div style="font-size: 11px; font-weight: 700; color: #333;">大型企画＆番組フィナレー</div>
-          <div style="font-size: 9px; color: #444; line-height: 1.4;">テーマに深く寄り添う合唱や特別なステージ、トリの歌唱。最大の目玉企画が連続する最重要枠。</div>
+          <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #333;">大型企画＆番組フィナレー</div>
+          <div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #444; line-height: 1.4;">テーマに深く寄り添う合唱や特別なステージ、トリの歌唱。最大の目玉企画が連続する最重要枠。</div>
         </div>
       </div>
 
     </div>
 
     <div style="margin-top: 12px; padding: 10px; background: #fdfdfd; border-radius: 4px; border: 1px dashed #ccc;">
-      <div style="font-size: 9px; font-weight: 800; color: #666; margin-bottom: 5px;">STRATEGY GUIDE</div>
-      <div style="margin: 0; padding: 0 0 0 15px; font-size: 10px; color: #444; line-height: 1.6;">
+      <div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); font-weight: 800; color: #666; margin-bottom: 5px;">STRATEGY GUIDE</div>
+      <div style="margin: 0; padding: 0 0 0 15px; font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); color: #444; line-height: 1.6;">
         <div>・<b>大型特別企画</b>は20時以降に注目！</div>
         <div>・<b>STARTO社・坂道系</b>は17時以降に厚い配置</div>
         <div>・<b>寄り添う大合唱企画</b>は生放送終了直前（21時台）が恒例</div>
@@ -1055,49 +1022,49 @@
 
   <div style="background: #fff; padding: 10px 12px; border-bottom: 2px solid #00b4db; display: flex; align-items: center; gap: 8px;">
     <div style="border: 1px solid #333; padding: 1px 5px;">
-      <div style="font-size: 10px; font-weight: 700; color: #000; position: relative;">
+      <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 700; color: #000; position: relative;">
         音<span style="position: absolute; top: -1px; left: 3px; width: 4px; height: 4px; background: #ff0000; border-radius: 50%;"></span>楽の日
       </div>
     </div>
-    <div style="font-size: 12px; font-weight: 700; color: #00b4db; letter-spacing: 0.05em;">Q&amp;A</div>
+    <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 700; color: #00b4db; letter-spacing: 0.05em;">Q&amp;A</div>
   </div>
 
   <div style="padding: 12px; background: #fff;">
 
     <div style="margin-bottom: 20px;">
-      <h3 style="margin: 0 0 8px 0; font-size: 13px; font-weight: 700; color: #333; display: flex; gap: 8px; align-items: flex-start; line-height: 1.4;">
-        <span style="flex-shrink: 0; width: 18px; height: 18px; background: #00b4db; color: #fff; border-radius: 2px; font-size: 11px; font-weight: 900; display: flex; align-items: center; justify-content: center; font-family: sans-serif;">Q</span>
+      <h3 style="margin: 0 0 8px 0; font-size: clamp(13px, calc(13px + (100vw - 480px) / 240), 16px); font-weight: 700; color: #333; display: flex; gap: 8px; align-items: flex-start; line-height: 1.4;">
+        <span style="flex-shrink: 0; width: 18px; height: 18px; background: #00b4db; color: #fff; border-radius: 2px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 900; display: flex; align-items: center; justify-content: center; font-family: sans-serif;">Q</span>
         歌唱順（順番）は事前に発表されますか？
       </h3>
       <div style="display: flex; gap: 8px; align-items: flex-start; padding-left: 2px;">
-        <span style="flex-shrink: 0; font-size: 11px; font-weight: 900; color: #ff4081; font-family: sans-serif;">A</span>
-        <div style="font-size: 11px; color: #444; line-height: 1.6;">
-          具体的な歌唱順番や出演アーティストの詳細は事前に一斉解禁されません。例年通り、放送が近づくにつれて順次解禁され、最終的に時間帯別の<b>「タイムテーブル」</b>が公式発表される予定です。
+        <span style="flex-shrink: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 900; color: #ff4081; font-family: sans-serif;">A</span>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; line-height: 1.6;">
+          「音楽の日2026」では放送前日にタイムテーブルが公式発表され、時間帯ごとの出演順・歌唱曲が判明しました。詳細は本記事の<b>「タイムテーブル」</b>セクションでご確認いただけます。
         </div>
       </div>
     </div>
 
     <div style="margin-bottom: 20px; border-top: 1px solid #f5f5f5; padding-top: 15px;">
-      <h3 style="margin: 0 0 8px 0; font-size: 13px; font-weight: 700; color: #333; display: flex; gap: 8px; align-items: flex-start; line-height: 1.4;">
-        <span style="flex-shrink: 0; width: 18px; height: 18px; background: #00b4db; color: #fff; border-radius: 2px; font-size: 11px; font-weight: 900; display: flex; align-items: center; justify-content: center; font-family: sans-serif;">Q</span>
+      <h3 style="margin: 0 0 8px 0; font-size: clamp(13px, calc(13px + (100vw - 480px) / 240), 16px); font-weight: 700; color: #333; display: flex; gap: 8px; align-items: flex-start; line-height: 1.4;">
+        <span style="flex-shrink: 0; width: 18px; height: 18px; background: #00b4db; color: #fff; border-radius: 2px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 900; display: flex; align-items: center; justify-content: center; font-family: sans-serif;">Q</span>
         放送時間は何時から何時までですか？
       </h3>
       <div style="display: flex; gap: 8px; align-items: flex-start; padding-left: 2px;">
-        <span style="flex-shrink: 0; font-size: 11px; font-weight: 900; color: #ff4081; font-family: sans-serif;">A</span>
-        <div style="font-size: 11px; color: #444; line-height: 1.6;">
+        <span style="flex-shrink: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 900; color: #ff4081; font-family: sans-serif;">A</span>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; line-height: 1.6;">
           2026年7月18日（土）の<b>14:00から21:56まで</b>、約8時間の生放送が決定しています。大容量の特番となりますので、録画の際はレコーダーの空き容量を事前にしっかり確保しておくことをおすすめします。
         </div>
       </div>
     </div>
 
     <div style="border-top: 1px solid #f5f5f5; padding-top: 15px;">
-      <h3 style="margin: 0 0 8px 0; font-size: 13px; font-weight: 700; color: #333; display: flex; gap: 8px; align-items: flex-start; line-height: 1.4;">
-        <span style="flex-shrink: 0; width: 18px; height: 18px; background: #00b4db; color: #fff; border-radius: 2px; font-size: 11px; font-weight: 900; display: flex; align-items: center; justify-content: center; font-family: sans-serif;">Q</span>
+      <h3 style="margin: 0 0 8px 0; font-size: clamp(13px, calc(13px + (100vw - 480px) / 240), 16px); font-weight: 700; color: #333; display: flex; gap: 8px; align-items: flex-start; line-height: 1.4;">
+        <span style="flex-shrink: 0; width: 18px; height: 18px; background: #00b4db; color: #fff; border-radius: 2px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 900; display: flex; align-items: center; justify-content: center; font-family: sans-serif;">Q</span>
         見逃し配信や再放送の予定はありますか？
       </h3>
       <div style="display: flex; gap: 8px; align-items: flex-start; padding-left: 2px;">
-        <span style="flex-shrink: 0; font-size: 11px; font-weight: 900; color: #ff4081; font-family: sans-serif;">A</span>
-        <div style="font-size: 11px; color: #444; line-height: 1.6;">
+        <span style="flex-shrink: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 900; color: #ff4081; font-family: sans-serif;">A</span>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #444; line-height: 1.6;">
           例年、<b>TVer（ティーバー）</b>でのリアルタイム配信および見逃し配信が実施されています。今後の正確な対応状況については、公式番組の続報と合わせて確認してみてください。<br>
           <a href="https://tver.jp/series/sr87xsb26t" style="color: #00b4db; text-decoration: underline; font-weight: 600; margin-top: 4px; display: inline-block;">音楽の日 TVerページをチェック</a>
         </div>
@@ -1120,11 +1087,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>現在は放送日時や総合司会、番組テーマに加え、計58組の豪華アーティストと「EXILE南三陸ライブ」「DREAMダンス企画」など特別企画の詳細が発表されました。</p>
+<p>放送前日にタイムテーブルが解禁され、計77組の豪華アーティストの出演時間・歌唱曲と、「EXILE南三陸ライブ」「DREAMダンス」など特別企画の内容が出そろいました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>タイムテーブル（歌唱曲・登場順番）の詳細や追加アーティストは、これからの解禁となります。</p>
+<p>当日の進行によって時間や順番が変更となる可能性がありますので、随時最新情報に更新していきます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -1135,90 +1102,86 @@
 <p>推しのアーティストが最高のステージを披露する瞬間を見逃さないよう、ぜひこの記事をブックマークして当日のタイムテーブルチェックに活用してくださいね。</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>音楽のチカラで心躍る1日を一緒に楽しみましょう！</p>
-<!-- /wp:paragraph -->
-
 <!-- wp:html -->
 <div style="margin: 18px 0 14px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px 10px; font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
 
   <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
     <span style="width: 3px; height: 11px; background: #ff008d; margin-right: 8px; border-radius: 1px;"></span>
-    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">他の音楽番組もチェック</p>
+    <p style="margin: 0; font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 800; color: #334155; letter-spacing: 0.02em;">他の音楽番組もチェック</p>
   </div>
 
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px;">
 
     <a href="https://shira-treat.com/cdtv-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
-      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
-        CDTV <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        CDTV <span style="font-size: clamp(14px, calc(14px + (100vw - 480px) / 240), 17px); margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
 
     <a href="https://shira-treat.com/star-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
-      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
-        STAR <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        STAR <span style="font-size: clamp(14px, calc(14px + (100vw - 480px) / 240), 17px); margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
 
     <a href="https://shira-treat.com/music-station-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
-      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
-        Mステ <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        Mステ <span style="font-size: clamp(14px, calc(14px + (100vw - 480px) / 240), 17px); margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
 
     <a href="https://shira-treat.com/fnskayousai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
-      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
-        FNS歌謡祭 <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        FNS歌謡祭 <span style="font-size: clamp(14px, calc(14px + (100vw - 480px) / 240), 17px); margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
 
     <a href="https://shira-treat.com/the-musicday-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
-      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
-        THE MUSIC DAY <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        THE MUSIC DAY <span style="font-size: clamp(14px, calc(14px + (100vw - 480px) / 240), 17px); margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
 
     <a href="https://shira-treat.com/teretoongakusai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
-      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
-        テレ東音楽祭 <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        テレ東音楽祭 <span style="font-size: clamp(14px, calc(14px + (100vw - 480px) / 240), 17px); margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
 
     <a href="https://shira-treat.com/utadeaetara-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
-      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
-        うたであえたら <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        うたであえたら <span style="font-size: clamp(14px, calc(14px + (100vw - 480px) / 240), 17px); margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
 
     <a href="https://shira-treat.com/record-award-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
-      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
-        レコード大賞 <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        レコード大賞 <span style="font-size: clamp(14px, calc(14px + (100vw - 480px) / 240), 17px); margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
 
     <a href="https://shira-treat.com/nhk-kouhaku-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
-      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
-        紅白歌合戦 <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        紅白歌合戦 <span style="font-size: clamp(14px, calc(14px + (100vw - 480px) / 240), 17px); margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
   </div>
 
   <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
     <span style="width: 3px; height: 11px; background: #64748b; margin-right: 8px; border-radius: 1px;"></span>
-    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">出演者の作品を探す</p>
+    <p style="margin: 0; font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 800; color: #334155; letter-spacing: 0.02em;">出演者の作品を探す</p>
   </div>
 
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
     <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #232f3e; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #161d26;">
-      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
-        CDをAmazonで探す <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
+      <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        CDをAmazonで探す <span style="font-size: clamp(14px, calc(14px + (100vw - 480px) / 240), 17px); margin-left: 6px; color: #ff9900;">›</span>
       </span>
     </a>
 
     <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fdaily%2F002%2F" target="_blank" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
-      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
-        楽天ブックスでCDを探す <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
+      <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 13px); font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        楽天ブックスでCDを探す <span style="font-size: clamp(14px, calc(14px + (100vw - 480px) / 240), 17px); margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
       </span>
     </a>
   </div>
@@ -1226,9 +1189,9 @@
   <img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
 
   <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #001a4d, #003399); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid #00d4ff; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
-    <span style="font-size: 9px; font-weight: 900; color: #00d4ff; border: 1px solid #00d4ff; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 3px;">Music</span>
-    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を聴く（30日間無料）</span>
-    <span style="font-size: 18px; color: #00d4ff; margin-left: auto;">›</span>
+    <span style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); font-weight: 900; color: #00d4ff; border: 1px solid #00d4ff; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 3px;">Music</span>
+    <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を聴く（30日間無料）</span>
+    <span style="font-size: clamp(18px, calc(18px + (100vw - 480px) / 240), 21px); color: #00d4ff; margin-left: auto;">›</span>
   </a>
 
 </div>
@@ -1245,17 +1208,17 @@
       "@type": "BlogPosting",
       "@id": "https://shira-treat.com/ongakunohi-timetable/#post",
       "headline": "【2026最新】音楽の日タイムテーブル｜出演者の順番・出演時間まとめ(随時更新)",
-      "description": "「音楽の日2026」7月18日生放送！あいみょん・BE:FIRST・Snow Manら最新情報で計58組が発表。EXILE南三陸ライブ等特別企画も判明。タイムテーブルや出演者の順番を最速でお届けします。",
+      "description": "「音楽の日2026」7月18日生放送！タイムテーブルが前日解禁され、あいみょん・EXILE・Snow Manら全77組の出演時間が確定。DREAMダンスなど特別企画の歌唱曲も一挙掲載しています。",
       "url": "https://shira-treat.com/ongakunohi-timetable/",
       "mainEntityOfPage": {
         "@id": "https://shira-treat.com/ongakunohi-timetable/"
       },
       "inLanguage": "ja",
       "articleSection": "音楽特番",
-      "keywords": ["音楽の日", "音楽の日2026", "タイムテーブル", "出演者一覧", "TBS 音楽番組", "こえる。きこえる。", "あいみょん", "BE:FIRST", "King & Prince", "Snow Man", "Number_i", "EXILE南三陸ライブ", "DREAMダンス企画", "DREAMコーラス", "赤坂超ライブ"],
+      "keywords": ["音楽の日", "音楽の日2026", "タイムテーブル", "出演者一覧", "出演時間", "TBS 音楽番組", "こえる。きこえる。", "あいみょん", "EXILE", "King & Prince", "Snow Man", "Number_i", "EXILE南三陸ライブ", "DREAMダンス企画", "DREAMコーラス", "赤坂超ライブ", "ウタウタイ"],
       "datePublished": "2026-04-27T00:00:00+09:00",
       "dateCreated": "2026-04-27T00:00:00+09:00",
-      "dateModified": "2026-07-16T16:00:00+09:00",
+      "dateModified": "2026-07-17T12:00:00+09:00",
 
       "image": {
         "@id": "https://shira-treat.com/ongakunohi-timetable/#heroimage"
@@ -1364,7 +1327,26 @@
         { "@type": "MusicGroup", "name": "Mrs. GREEN APPLE" },
         { "@type": "MusicGroup", "name": "M!LK" },
         { "@type": "Person", "name": "May J." },
-        { "@type": "MusicGroup", "name": "Little Glee Monster" }
+        { "@type": "MusicGroup", "name": "Little Glee Monster" },
+        { "@type": "Person", "name": "池田彪馬" },
+        { "@type": "Person", "name": "田中雅功" },
+        { "@type": "Person", "name": "TETTA" },
+        { "@type": "Person", "name": "武藤潤" },
+        { "@type": "Person", "name": "KEVIN" },
+        { "@type": "Person", "name": "八神遼介" },
+        { "@type": "Person", "name": "武田創世" },
+        { "@type": "Person", "name": "中尾ミエ" },
+        { "@type": "Person", "name": "松本明子" },
+        { "@type": "Person", "name": "吉田圭介" },
+        { "@type": "Person", "name": "塩川莉世" },
+        { "@type": "Person", "name": "萩田そら" },
+        { "@type": "Person", "name": "ISSA" },
+        { "@type": "Person", "name": "谷内伸也" },
+        { "@type": "Person", "name": "小池成" },
+        { "@type": "Person", "name": "松井利樹" },
+        { "@type": "Person", "name": "JIMMY" },
+        { "@type": "Person", "name": "SHOW" },
+        { "@type": "MusicGroup", "name": "NCT WISH" }
       ],
 
       "hasPart": [
@@ -1380,7 +1362,7 @@
     {
       "@type": "ImageObject",
       "@id": "https://shira-treat.com/ongakunohi-timetable/#heroimage",
-      "url": "https://shira-treat.com/wp-content/uploads/2026/07/image-4-2.webp",
+      "url": "https://shira-treat.com/wp-content/uploads/2026/07/image-14.webp",
       "width": 1200,
       "height": 675
     },
@@ -1390,7 +1372,7 @@
       "@id": "https://shira-treat.com/ongakunohi-timetable/#broadcast",
       "name": "音楽の日2026",
       "alternateName": "TBS 音楽の日",
-      "description": "2026年7月18日（土）14:00～21:56に8時間生放送。最新情報で計58組が発表済み。テーマ「こえる。きこえる。」のもと、EXILE南三陸ライブ・DREAMダンス企画・ウタウタイなど感動のステージを届けます。",
+      "description": "2026年7月18日（土）14:00～21:56に8時間生放送。放送前日にタイムテーブルが解禁され、計77組の出演時間・歌唱曲が確定。テーマ「こえる。きこえる。」のもと、EXILE南三陸ライブ・DREAMダンス企画・ウタウタイなど特別企画のステージを届けます。",
       "startDate": "2026-07-18T14:00:00+09:00",
       "endDate": "2026-07-18T21:56:00+09:00",
       "eventStatus": "https://schema.org/EventScheduled",
@@ -1430,17 +1412,17 @@
         {
           "@type": "ListItem",
           "position": 1,
-          "name": "14:00台〜16:00台：オープニング（郷ひろみ・FRUITS ZIPPERほか）、能登復興祈願中継、DREAMコーラス パート1、T-BOLANラストテレビ出演 ※筆者予想"
+          "name": "14:00台〜16:00台：オープニング（INI・IMP.・&TEAM・郷ひろみほか）、能登からの祈り（ウェイウェイ・ウー＆平原綾香）、こえる きこえる億超えソングメドレー、T-BOLANラストテレビ出演"
         },
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "出演アーティスト最新情報（計58組）：INI、IMP.、アイナ・ジ・エンド、あいみょん、＝LOVE、ウェイウェイ・ウー＆平原綾香、WEST.、Aぇ! group、AKB48、EXILE、EBiDAN、m.c.A・T、&TEAM、岡本真夜、Kis-My-Ft2、CANDY TUNE、CUTIE STREET、King & Prince、郷ひろみ、櫻坂46、THE RAMPAGE、GENERATIONS、島津亜矢、島袋寛子、SUPER EIGHT、SUPER BEAVER、STARGLOW、Snow Man、SPYAIR、DA PUMP、知念里奈、超ときめき♡宣伝部、超特急、TSUZUMI（ME:I）、TRF、T-BOLAN、TWS、DOMOTO、Travis Japan、Dream Ami、Number_i、新浜レオン、NEWS、乃木坂46、HANA、BE:FIRST、氷川きよし、ピコ太郎、HIPPY、日向坂46、FUNKY MONKEY BΛBY'S、FRUITS ZIPPER、MAZZEL、MAX、Mrs. GREEN APPLE、M!LK、May J.、Little Glee Monster"
+          "name": "出演アーティスト（計77組）：INI、IMP.、アイナ・ジ・エンド、あいみょん、＝LOVE、ウェイウェイ・ウー＆平原綾香、WEST.、Aぇ! group、AKB48、EXILE、EBiDAN、m.c.A・T、&TEAM、岡本真夜、Kis-My-Ft2、CANDY TUNE、CUTIE STREET、King & Prince、郷ひろみ、櫻坂46、THE RAMPAGE、GENERATIONS、島津亜矢、島袋寛子、SUPER EIGHT、SUPER BEAVER、STARGLOW、Snow Man、SPYAIR、DA PUMP、知念里奈、超ときめき♡宣伝部、超特急、TSUZUMI（ME:I）、TRF、T-BOLAN、TWS、DOMOTO、Travis Japan、Dream Ami、Number_i、新浜レオン、NEWS、乃木坂46、HANA、BE:FIRST、氷川きよし、ピコ太郎、HIPPY、日向坂46、FUNKY MONKEY BΛBY'S、FRUITS ZIPPER、MAZZEL、MAX、Mrs. GREEN APPLE、M!LK、May J.、Little Glee Monster、SUPER★DRAGON、Sakurashimeji、ONE N' ONLY、原因は自分にある。、BUDDiiS、ICEx、Lienel、中尾ミエ、松本明子、INSPi、SWEET STEADY、MORE STAR、ISSA、Lead、プラチナボーイズ、BALLISTIK BOYZ、PSYCHIC FEVER、THE JET BOY BANGERZ、NCT WISH"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "17:00台〜21:56：DREAMコーラス パート2・3、EXILE南三陸ライブ（18:00台中継）、DREAMダンス企画、ハーフタイムショー、大合唱によるフィナーレ ※筆者予想"
+          "name": "17:00台〜21:56：ディズニーメドレー、赤坂超ライブ（WEST./SUPER BEAVER・Number_i他/Snow Man）、あいみょん、DREAMコーラス、EXILE南三陸ライブ、DREAMダンス企画、Mrs. GREEN APPLE、名曲「ウタウタイ」によるフィナーレ"
         }
       ]
     },
@@ -1454,7 +1436,7 @@
           "name": "歌唱順（順番）は事前に発表されますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "具体的な歌唱順番や出演アーティストの詳細は事前に一斉解禁されません。例年通り、放送が近づくにつれて順次解禁され、最終的に時間帯別の「タイムテーブル」が公式発表される予定です。"
+            "text": "「音楽の日2026」では放送前日にタイムテーブルが公式発表され、時間帯ごとの出演順・歌唱曲が判明しました。詳細は本記事の「タイムテーブル」セクションでご確認いただけます。"
           }
         },
         {
