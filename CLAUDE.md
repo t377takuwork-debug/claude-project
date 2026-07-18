@@ -11,7 +11,7 @@ Note/X/Threads運用のコンテンツ制作・SEO施策・ブランド構築を
 ```
 claude project/
 ├── README.md       ← 全体索引（どのAIでも最初に読む）
-├── .claude/commands/ ← 汎用スキル一式（唯一の正。~/.claude/commands は旧マスター・編集禁止）
+├── .claude/commands/ ← 汎用スキル22本（唯一の正。過去版はgit履歴から復元）
 ├── docs/           ← 業務棚卸し表・SOP・会議システム定義・横断ルール
 ├── blogs/          ← ブログ記事制作・リライト環境
 │   ├── shira_note/ ← 音楽番組タイムテーブル速報ブログ（メイン稼働・rules/に番組別チェックリスト）
@@ -20,7 +20,7 @@ claude project/
 │   ├── writing/        ← ライティング原則4ファイル
 │   ├── s4lv/
 │   │   ├── profile.md  ← s4lv統一プロフィール（2026-07-08統一）
-│   │   ├── rules/      ← 文体定義・Note記事プロセス等9本（旧Claude Codeメモリから統合）
+│   │   ├── rules/      ← 文体定義・Note記事プロセス等10本（旧Claude Codeメモリから統合）
 │   │   └── shared/     ← s4lv共通プロフィール・実績データ
 │   └── mbticode/       ← MBTI×ラブタイプ診断コンテンツ運用（rules/に文体・戦略12本）
 └── Junk314/        ← クライアント管理アカウント（→ Junk314/junk_juice/CLAUDE.md を参照）

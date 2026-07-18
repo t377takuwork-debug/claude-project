@@ -48,7 +48,7 @@
 
 | # | 対象 | 状態 |
 |---|---|---|
-| S1 | `blogs/darepedia` | CLAUDE.mdは空ファイル（.claudeignoreで除外中）・skills空。稼働時は cf_room 構造（rules/＋tools/＋専用スキル＋機械QA）を横展開する |
+| S1 | `blogs/darepedia` | CLAUDE.mdはSEO参照表のみ（.claudeignoreで除外中）。稼働時は cf_room 構造（rules/＋tools/＋専用スキル＋機械QA）を横展開する |
 
 ※cf_room は2026-07-12に稼働開始（→I11）、vtuber_log は2026-07-12にcf_room構造を横展開して稼働開始（→I12）。
 

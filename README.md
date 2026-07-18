@@ -34,7 +34,7 @@
 claude project/
 ├── README.md              ← 本ファイル（全体索引）
 ├── CLAUDE.md              ← 行動規範・ナビゲーター
-├── .claude/commands/      ← 汎用スキル18本（投稿生成・記事生成・会議・バズ分析・KPI・ブログ立ち上げ）★唯一の正
+├── .claude/commands/      ← 汎用スキル22本（投稿生成・記事生成・会議・バズ分析・KPI・ブログ立ち上げ）★唯一の正
 ├── docs/
 │   ├── business_inventory.md  ← 業務棚卸し表
 │   ├── sop/               ← 業務別SOP 4本
@@ -47,18 +47,18 @@ claude project/
 │   │   ├── CLAUDE.md          ← 番組別コマンド一覧・ツール使用法
 │   │   ├── rewrite_common_rules.md ← リライト共通ルール（唯一の正）
 │   │   ├── rules/             ← 番組別の落とし穴チェックリスト 9本
-│   │   ├── .claude/commands/  ← リライト・QA・リサーチ系コマンド 13本
+│   │   ├── .claude/commands/  ← リライト・QA・リサーチ系コマンド 15本
 │   │   └── tools/             ← qa_draft.py（機械検品）・collect_news.py・watch_programs.py
 │   ├── seo/SEO_guide.txt  ← 全ブログ共通SEOマスターガイド
-│   ├── cf_room/           ← ガジェットレビューブログ（稼働中。rules/9本＋tools/WP自動化＋/cf-articleスキル）
+│   ├── cf_room/           ← ガジェットレビューブログ（稼働中。rules/10本＋tools/WP自動化＋/cf-articleスキル）
 │   ├── vtuber_log/        ← VTuber情報ブログ VTuber Log（稼働中。cf_room構造を横展開＋/vtuber-articleスキル）
-│   └── darepedia          ← 準備中（CLAUDE.mdは空ファイル。稼働時はcf_room構造を横展開）
+│   └── darepedia          ← 準備中（CLAUDE.mdはSEO参照表のみ・.claudeignoreで除外中。稼働時はcf_room構造を横展開）
 ├── brands/
 │   ├── CLAUDE.md          ← s4lv・MBTICODE共通ナビ
 │   ├── tools/             ← qa_post.py（SNS投稿の機械検品）・qa_article.py（Note記事の機械検品）
 │   ├── writing/           ← ライティング原則4ファイル（起点: writing_core.md）
 │   ├── s4lv/
-│   │   ├── rules/         ← 文体定義・Note記事プロセス・アカウント方針 9本
+│   │   ├── rules/         ← 文体定義・Note記事プロセス・アカウント方針 10本
 │   │   ├── examples_x_posts.md ← X投稿見本バンク（Good/Bad対比・生成前に読む）
 │   │   ├── profile.md     ← 統一プロフィール（2026-07-08確定・セットA）
 │   │   └── shared/        ← 実績データ・開示ルール（personal_data.md）
@@ -77,7 +77,7 @@ claude project/
 
 ## 運用原則（全AI共通）
 
-1. **唯一の正**: 同じ情報が複数箇所にある場合、`rules/`・`rewrite_common_rules.md`・各コマンドファイルの記載を正とする。2026-07-06以降、ルールの編集は**repo内のファイルのみ**に行う（旧マスターの `~\.claude\commands\` は `~\.claude\commands_backup_20260706\` へ退避済み。Claude Codeメモリも旧マスターであり編集禁止。**万一スラッシュコマンドが動かない場合はバックアップから復元**: `Copy-Item "$env:USERPROFILE\.claude\commands_backup_20260706\*.md" "$env:USERPROFILE\.claude\commands\"`）
+1. **唯一の正**: 同じ情報が複数箇所にある場合、`rules/`・`rewrite_common_rules.md`・各コマンドファイルの記載を正とする。2026-07-06以降、ルールの編集は**repo内のファイルのみ**に行う（旧マスターの `~\.claude\commands\` は空化済み・退避フォルダ `commands_backup_20260706` も2026-07-18に削除済み〔全15本のgit履歴一致をハッシュ照合済み〕。Claude Codeメモリも旧マスターであり編集禁止。過去版が必要な場合はgit履歴から復元する: `git log -- .claude/commands/<ファイル名>` → `git show <コミットID>:.claude/commands/<ファイル名>`）
 2. **捏造禁止**: 実体験・実績・診断データは `personal_data.md`／`reference/` にあるものだけを使う
 3. **完了条件ファースト**: 着手前に各SOP冒頭の完了条件を確認し、満たすまで完了報告しない
 4. **QAを飛ばさない**: 機械検品（ERROR 0件必須）→LLMチェックの2段構え。shira_noteは `tools/qa_draft.py`、SNS投稿は `brands/tools/qa_post.py`＋`/post-review`、Note記事は `brands/tools/qa_article.py`＋`/quality-guardrail` を通してから確定する

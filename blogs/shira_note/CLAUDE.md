@@ -28,6 +28,7 @@
 | `/utacon-rewrite` | うたコン（NHK総合・定期番組） | `.claude/commands/utacon-rewrite.md` |
 | `/shira-qa` | 全番組共通・ドラフト検品（リライト後必須） | `.claude/commands/shira-qa.md` |
 | `/shira-keyword-article` | キーワード起点の新規テーマ記事（番組タイムテーブル速報とは別枠） | `.claude/commands/shira-keyword-article.md` |
+| `/shira-research` | 記事ネタ収集（news.ceek.jp 3URL・直近5時間の番組/発売情報） | `.claude/commands/shira-research.md` |
 
 ### リライト時に必要な事前情報（共通）
 
