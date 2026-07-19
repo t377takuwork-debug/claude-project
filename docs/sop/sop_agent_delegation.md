@@ -45,13 +45,32 @@
 
 **実装済み（2026-07-19）**：`.claude/agents/post-writer.md`。実装時の実測で確定した仕様——①qa_post.pyはexit 0/1/2対応（ERROR 0件=0）②両コマンドの「ユーザーOK」工程は2段階運用（設計テーブル提示で停止→司令塔経由の承認→本文生成）に写像 ③CTAライブラリ追記のみEdit許可（`cta_templates.md`）。パイロット（次の投稿バッチ依頼1回）が未実施。
 
+## 委譲プロンプト定型
+
+**shira-rewriter（番組リライト）**
+
+> shira-rewriterに委譲：{番組名} {M/DD}回のリライト（/{番組}-rewrite）。
+> 資料①：{放送日・出演者・披露曲・見どころ・通常回/特番}
+> 資料②：`## 資料② INPUT: {番組名} / {前回日付}` ＋テンプレ形式のセットリスト表（**司令塔が整形・尺チェック・承認取得済みであること**）
+> 資料③：{あれば}／アイキャッチ：{URL または「既存URL維持」}
+> {前回が特別回なら}前回は「{特別回名}」のため残存文言のGrep除去まで含む。
+> 受入判定は司令塔が git diff＋qa_draft.py（ERROR 0・新規WARN 0・exit=0）で行う。報告はagent定義の形式で。
+
+**post-writer（SNS投稿バッチ）**
+
+> post-writerに委譲：{mbticode|s4lv} {対象日}分のX・Threads投稿バッチ（{本数}）を生成して。
+> Phase Aの設計テーブルが上がったら私に見せること。承認後にPhase B（本文生成→qa_post.py→posts_*.txt保存）まで。
+> 受入は司令塔が qa_post.py再実行＋git diff＋/quality-guardrail・/post-review で行う。
+
+**エージェントタイプ未認識時の共通フォールバック**：general-purpose＋`model: sonnet` に `.claude/agents/{名前}.md` の定義全文を貼り込み、「コマンド実行はPowerShellを使え」を添える。
+
 ## ロードマップ・優先順位
 
 | 期限 | タスク | 完了条件 |
 |---|---|---|
 | 今日中 | `/consolidate-memory` 第2回（前回7/7・目安超過中） | 削除/統合/保留の報告＋MEMORY.md整合 |
 | 今日中 | 新セッション冒頭でネイティブshira-rewriter認識を確認 | エージェント一覧に表示される（表示されなければフォールバック継続） |
-| 今週中 | Phase 4実装：post-writer作成→次の投稿バッチ依頼でパイロット | qa_post ERROR 0件で受入合格1回 |
+| 今週中 | ~~Phase 4実装~~（7/19完了）→ 次の投稿バッチ依頼でpost-writerパイロット | qa_post ERROR 0件で受入合格1回 |
 | 今週中 | 次のリライト依頼番組をエンジン移行（パラメータ化） | 固有トークン照合で知識欠落0件＋1コミット |
 | 今月中 | 残り10番組のエンジン移行完了 | 全番組ENGINE準拠宣言・共通変更のメンテ対象1ファイル化 |
 | 今月中 | article-writer展開（qa_article.py受入・Note記事本文生成） | パイロット1本受入合格 |
