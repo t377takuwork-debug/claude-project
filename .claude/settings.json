@@ -1,5 +1,32 @@
 {
   "permissions": {
+    "allow": [
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git show*)",
+      "Bash(git branch*)",
+      "Bash(git remote*)",
+      "Bash(ls*)",
+      "Bash(cat*)",
+      "Bash(find*)",
+      "Bash(grep*)",
+      "Bash(wc*)",
+      "Bash(pwd)",
+      "PowerShell(git status*)",
+      "PowerShell(git diff*)",
+      "PowerShell(git log*)",
+      "PowerShell(git show*)",
+      "PowerShell(git branch*)",
+      "PowerShell(git remote*)",
+      "PowerShell(Get-Content*)",
+      "PowerShell(Get-ChildItem*)",
+      "PowerShell(Test-Path*)",
+      "PowerShell(Select-String*)",
+      "PowerShell(Get-Item*)",
+      "PowerShell(Get-Location)",
+      "PowerShell(cd *)"
+    ],
     "deny": [
       "Bash(git reset --hard)",
       "Bash(git reset --hard:*)",
