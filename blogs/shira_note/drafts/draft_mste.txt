@@ -654,9 +654,9 @@ Mステ（7月24日）タイムテーブルを速報更新！ZAZEN BOYS・ヤン
 <p>番組公式SNSやYouTubeなどで一部のパフォーマンス映像やダイジェストが公開されることはあるため、気になる方はそちらもチェックしてみてください。</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:embed {"url":"https://www.youtube.com/watch?v=NU4gXKDJ2HU","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+<!-- wp:embed {"url":"https://www.youtube.com/watch?v=NSYgn7TF3dA","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-https://www.youtube.com/watch?v=NU4gXKDJ2HU
+https://www.youtube.com/watch?v=NSYgn7TF3dA
 </div><figcaption class="wp-element-caption">YouTube👉<a href="https://www.youtube.com/@musicstation5890/videos">MUSIC STATION</a></figcaption></figure>
 <!-- /wp:embed -->
 
