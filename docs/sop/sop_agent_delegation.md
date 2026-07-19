@@ -43,7 +43,7 @@
 | 禁止事項 | shira-rewriterと同型（捏造禁止=personal_data.md/reference/外の実体験を書かない・git禁止・rules編集禁止・2回失敗で停止・初回不合格ログ報告） |
 | パイロット | 次のMBTICODE投稿バッチ依頼1回。受入合格でs4lv-postにも適用 |
 
-実装は設計承認後（agent定義1ファイル＋qa_post.pyのexit code確認のみ。想定30分以内）。
+**実装済み（2026-07-19）**：`.claude/agents/post-writer.md`。実装時の実測で確定した仕様——①qa_post.pyはexit 0/1/2対応（ERROR 0件=0）②両コマンドの「ユーザーOK」工程は2段階運用（設計テーブル提示で停止→司令塔経由の承認→本文生成）に写像 ③CTAライブラリ追記のみEdit許可（`cta_templates.md`）。パイロット（次の投稿バッチ依頼1回）が未実施。
 
 ## ロードマップ・優先順位
 
