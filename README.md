@@ -37,7 +37,7 @@ claude project/
 ├── .claude/commands/      ← 汎用スキル22本（投稿生成・記事生成・会議・バズ分析・KPI・ブログ立ち上げ）★唯一の正
 ├── docs/
 │   ├── business_inventory.md  ← 業務棚卸し表
-│   ├── sop/               ← 業務別SOP 4本
+│   ├── sop/               ← 業務別SOP 5本（エージェント委譲体制は sop_agent_delegation.md）
 │   ├── rubrics/           ← タイトル採点ルーブリック（点数の捏造防止）
 │   ├── systems/           ← 会議システム定義 5本
 │   ├── rules/             ← 横断的な作業ルール（タスク確認方法・notekaigi起動タイミング）
