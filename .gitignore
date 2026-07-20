@@ -3,6 +3,8 @@
 blogs/shira_note/tools/output/scheduler_watch.log
 blogs/shira_note/tools/output/scheduler_collect.log
 blogs/shira_note/tools/output/snapshots/
+blogs/shira_note/tools/psi_auth.local.json
+blogs/shira_note/tools/output/psi/**/*.json
 __pycache__/
 blogs/cf_room/tools/wp_auth.local.json
 blogs/cf_room/tools/connect_test_state.json
