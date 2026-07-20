@@ -5,15 +5,15 @@ CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテー
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
+<p>[nopc][title][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
 <p>『CDTVライブ！ライブ！』の出演順や歌唱曲を、当日の放送と連動しながらどこよりも早くお届け。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>公式タイムテーブル発表までは、過去の傾向による「予想」を掲載。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>[nopc][title][/nopc]</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -300,7 +300,7 @@ CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテー
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>[nopc][originalsc][/nopc]</p>
+<p>[kanrenad]</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->

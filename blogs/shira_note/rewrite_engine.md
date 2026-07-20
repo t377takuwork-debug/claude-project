@@ -32,7 +32,7 @@
 | **WriteしないでEditする** | 変更箇所のみEditで差分更新。Write（全体上書き）は使用しない |
 | **静的セクションはスキップ** | ナビゲーション/アフィリエイト等、番組パラメータで「固定」指定のセクションはRead・Edit不要 |
 | **ドラフト全体を読まない** | Grepマーカー（番組パラメータの表）で行番号を特定し、必要範囲のみRead。全文Readは最終手段 |
-| **ショートコードは独立ブロック** | `[nopc][title]`・`[nopc][mokujimae]`・`[nopc][originalsc]` は各々独立した `<!-- wp:paragraph -->` ブロックに分割し、前後テキストと混在させない |
+| **ショートコードは独立ブロック** | `[nopc][title]`・`[nopc][mokujimae]`・`[kanrenad]`（旧`[nopc][originalsc][/nopc]`）は各々独立した `<!-- wp:paragraph -->` ブロックに分割し、前後テキストと混在させない |
 | **大きなHTMLブロックのEdit** | 数十行の `old_string` は直前のRead結果からそのまま使う（記憶・手打ち再現はタイポで一致失敗する）。Edit失敗時は該当箇所を再Readして再試行 |
 | **独立セクションは並行Edit** | old_stringが重複しないEditは1メッセージに束ねる。**JSON-LD（手順14）だけはFAQ確定後の最終バッチ**（一字一句一致のため） |
 | **ユーザー修正後の確認** | system-reminderの差分 → 無ければ `git diff drafts/draft_{番組}.txt` を優先参照（詳細は `rewrite_common_rules.md` 9章） |
