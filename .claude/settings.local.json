@@ -4,7 +4,11 @@
       "WebSearch",
       "PowerShell(Get-ChildItem *)",
       "PowerShell(git add *)",
-      "PowerShell(git branch *)"
+      "PowerShell(git branch *)",
+      "PowerShell(git *)",
+      "WebFetch(domain:natalie.mu)",
+      "WebFetch(domain:mdpr.jp)",
+      "WebFetch(domain:www.oricon.co.jp)"
     ]
   }
 }
