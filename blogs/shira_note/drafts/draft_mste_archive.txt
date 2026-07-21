@@ -64,11 +64,21 @@ overflow: hidden;
 
   <!-- 最新回リンク（速報ページへの導線） -->
   <a href="https://shira-treat.com/music-station-timetable/" style="display: block; padding: 14px 16px; background: #e0f2fe; border-bottom: 1px dashed #6fb1fc; text-decoration: none; transition: background 0.2s;" onmouseover="this.style.background='#d0e9ff'" onmouseout="this.style.background='#e0f2fe'">
-    <div style="font-size: 10px; font-weight: 900; color: #0052d4; letter-spacing: 0.1em; margin-bottom: 4px;">7/17(金) 放送回</div>
+    <div style="font-size: 10px; font-weight: 900; color: #0052d4; letter-spacing: 0.1em; margin-bottom: 4px;">7/24(金) 放送回</div>
     <div style="display: flex; align-items: center; justify-content: space-between;">
       <span style="font-size: 13px; font-weight: 800; color: #003366;">最新の出演順・タイムテーブルをリアルタイム更新中 ›</span>
     </div>
   </a>
+
+  <!-- 7/24 LINEUP -->
+  <div style="padding: 14px 16px; background: #f8fafc; border-bottom: 1px dashed #e2e8f0;">
+    <div style="font-size: 10px; font-weight: 900; color: #64748b; letter-spacing: 0.12em; margin-bottom: 6px; display: flex; align-items: center; gap: 8px;">
+      7/24(金) LINEUP <span style="flex-grow: 1; height: 1px; background: #f0f4f8;"></span>
+    </div>
+    <p style="margin: 0; font-size: 12px; line-height: 1.6; color: #475569; font-weight: 700; letter-spacing: 0.05em; word-break: break-all;">
+      アイナ・ジ・エンド / ILLIT / ZAZEN BOYS / SWEET STEADY / timelesz / 乃木坂46 / ヤングスキニー
+    </p>
+  </div>
 
   <!-- 7/17 LINEUP -->
   <div style="padding: 14px 16px; background: #fff; border-bottom: 1px dashed #e2e8f0;">
@@ -97,7 +107,7 @@ overflow: hidden;
   </a>
 </div>
 <div style="text-align: right; padding: 4px 8px; font-size: 9px; color: rgba(255,255,255,0.6); font-weight: 600;">
-最終更新: 2026.07.14
+最終更新: 2026.07.21
 </div>
 </aside>
 <!-- /wp:html -->
@@ -162,7 +172,22 @@ overflow: hidden;
         <div style="font-size: 11px; font-weight: 500; color: #64748b; margin-top: 2px;">中森明菜が30年ぶり出演、SixTONES、Snow Man、BE:FIRSTなど豪華11組が出演</div>
       </div>
     </div>
-    <span style="font-size: 10px; font-weight: 800; color: #fff; background: #0052d4; padding: 3px 8px; border-radius: 2px; flex-shrink: 0;">放送予定</span>
+    <span style="font-size: 10px; font-weight: 800; color: #64748b; background: #f1f5f9; padding: 3px 8px; border-radius: 2px; flex-shrink: 0;">放送済</span>
+  </div>
+
+  <!-- 7月24日 -->
+  <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px 0;">
+    <div style="display: flex; align-items: center; gap: 12px;">
+      <div style="text-align: center; width: 50px; flex-shrink: 0;">
+        <div style="font-size: 10px; font-weight: 800; color: #64748b; line-height: 1;">JUL</div>
+        <div style="font-size: 18px; font-weight: 900; color: #334155; line-height: 1.2; margin-top: 2px;">24</div>
+      </div>
+      <div>
+        <div style="font-size: 13px; font-weight: 800; color: #1e293b;">7月24日（金）21:00〜21:54</div>
+        <div style="font-size: 11px; font-weight: 500; color: #64748b; margin-top: 2px;">ZAZEN BOYS・SWEET STEADYが初出演、乃木坂46・timeleszなど計7組が出演</div>
+      </div>
+    </div>
+    <a href="https://shira-treat.com/music-station-timetable/" style="font-size: 10px; font-weight: 800; color: #1a202c; background: #ffdc00; padding: 3px 8px; border-radius: 2px; flex-shrink: 0; text-decoration: none;">最新速報</a>
   </div>
 </div>
 
@@ -174,11 +199,106 @@ overflow: hidden;
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
+<h2>7月24日（金）のタイムテーブル・セットリスト</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>2026年7月24日（金）に放送される『ミュージックステーション』の出演者・楽曲一覧です。出演順は放送後に確定します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="mst-container" style="background: #ffffff; padding: 10px; border: 1px solid #eef2f6; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); font-family: sans-serif; margin-bottom: 15px;">
+
+<div style="border-left: 3px solid #ff007a; margin-bottom: 8px; padding-left: 8px;">
+<span style="color: #1a1a1a; font-size: 13px; font-weight: 900; letter-spacing: 0.05em;">ARTIST LINEUP (2026.07.24)</span>
+</div>
+
+<div class="mst-artist-section">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px;">
+
+  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #dce4ed; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
+    <div style="padding: 14px 12px;">
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">アイナ・ジ・エンド</p>
+      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「Blue Shining Star」を披露。</p>
+    </div>
+  </div>
+
+  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #dce4ed; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
+    <div style="padding: 14px 12px;">
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">ILLIT</p>
+      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「I Got Your Back」「It's Me」の2曲を披露。</p>
+    </div>
+  </div>
+
+  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #fff8f8 0%, #fff0f6 100%); border: 1px solid #ffcce0; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00);"></div>
+    <div style="padding: 14px 12px;">
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">ZAZEN BOYS <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">Mステ初出演</span></p>
+      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「ポテトサラダ」を披露。ロックファン・インディーズ層から期待の集まる初出演です。</p>
+    </div>
+  </div>
+
+  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #dce4ed; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
+    <div style="padding: 14px 12px;">
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">SWEET STEADY</p>
+      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「SWEET STEP」を披露。音井結衣ら出演発表を受けてSNSの反響が活発。</p>
+    </div>
+  </div>
+
+  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #dce4ed; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
+    <div style="padding: 14px 12px;">
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">timelesz</p>
+      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「消えない花火」を披露。</p>
+    </div>
+  </div>
+
+  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #dce4ed; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
+    <div style="padding: 14px 12px;">
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">乃木坂46</p>
+      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「是非に及ばず」を披露。</p>
+    </div>
+  </div>
+
+  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #fff8f8 0%, #fff0f6 100%); border: 1px solid #ffcce0; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00);"></div>
+    <div style="padding: 14px 12px;">
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">ヤングスキニー <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">Mステ初出演</span></p>
+      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「雪月花」を披露。ロックファン・インディーズ層の間で注目を集めている初出演です。</p>
+    </div>
+  </div>
+
+</div>
+</div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>7月24日放送回は、ZAZEN BOYSとSWEET STEADYのMステ初出演が大きな注目を集めています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>アイナ・ジ・エンド、ILLIT、timelesz、乃木坂46、ヤングスキニーを含む計7組が出演予定です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>実際の出演順は放送後に確定次第、このページで更新します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
 <h2>7月17日（金）のタイムテーブル・セットリスト</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年7月17日（金）に放送される『ミュージックステーション』2時間スペシャルの出演者・楽曲一覧です。出演順は放送後に確定します。</p>
+<p>2026年7月17日（金）に放送された『ミュージックステーション』2時間スペシャルの出演者・楽曲一覧と、実際の放送内容に基づくセットリストです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -203,7 +323,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">塩﨑太智（M!LK）</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「しおざきわんだーらんど」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「しおざきわんだーらんど」を披露。M!LKとして「You!Joy!Parade!」も披露した。</p>
     </div>
   </div>
 
@@ -289,20 +409,107 @@ overflow: hidden;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>7月17日放送回の最大の注目は、約30年ぶりの出演となる中森明菜でしょう。</p>
+<p>7月17日放送回の最大の注目は、約30年ぶりの出演となった中森明菜でした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>約10年ぶりとなるニューシングル「ごめんと、すきと、」と、「難破船（TV Edit）」の披露が予定されています。</p>
+<p>約10年ぶりとなるニューシングル「ごめんと、すきと、」と「難破船」の披露に「表現力すごい」「難破船涙」と歴史的瞬間として反応が殺到しました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>また、SixTONES、Snow Man、BE:FIRSTら豪華11組が集結する2時間スペシャルとなっており、見どころが満載のラインナップです。</p>
+<p>また、SixTONES、Snow Man、BE:FIRSTら豪華11組が集結する2時間スペシャルとなり、番組全体を通して高い熱量を集めた放送回となりました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>実際の出演順は放送後に確定次第、このページで更新します。</p>
+<p>公式発表のタイムテーブルはありませんが、実際の放送から判明した放送時間の流れは以下の通りです。</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside class="mst-archive-panel" role="region" aria-label="Mステ放送アーカイブ" style="position: relative; margin: 16px 0; padding: 1px; border-radius: 12px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff); font-family: 'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', sans-serif; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+  <div style="position: absolute; inset: 1px; background: #ffffff; border-radius: 11px; z-index: 0;"></div>
+
+  <div style="position: relative; z-index: 1; padding: 16px;">
+
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <div style="background: #003366; color: #fff; font-size: 10px; font-weight: 900; padding: 3px 8px; border-radius: 2px; letter-spacing: 1px;">ARCHIVE</div>
+        <div style="margin: 0; font-size: 15px; font-weight: 900; color: #1a202c; letter-spacing: -0.5px;">7月17日回 熱量・セットリストレポート</div>
+      </div>
+      <div style="font-size: 11px; font-weight: 800; color: #a0aec0;">2026.07.17 <span style="font-weight: 400;">FRI</span></div>
+    </div>
+
+    <div style="background: #f8fafc; border-radius: 4px; padding: 10px 12px; margin-bottom: 16px; border-left: 4px solid #003366;">
+      <div style="font-size: 10px; color: #003366; font-weight: 800; margin-bottom: 2px; letter-spacing: 0.05em;">MAIN CAST</div>
+      <div style="font-size: 13px; font-weight: 700; color: #2d3748;">MC：タモリ、鈴木新彩 ／ 出演：IVE、塩﨑太智（M!LK）、SixTONES、Snow Man、Mrs. GREEN APPLE、中森明菜、SEKAI NO OWARI、Toshl、BE:FIRST、MON7A、優里</div>
+    </div>
+
+    <div style="display: grid; gap: 0; margin-bottom: 16px; border-left: 2px solid #edf2f7; margin-left: 6px; padding-left: 14px;">
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00d4ff; border: 2px solid #fff;"></div>
+        <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">20:00〜15頃 / OPENING</div>
+        <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
+          <strong style="color: #001a4d;">IVE「LUCID DREAM」</strong><br>
+          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">華やかな並び・衣装に視覚的な反応が多数。K-Popファン層の投稿が活発だった。</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00d4ff; border: 2px solid #fff;"></div>
+        <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">20:15〜30頃 / EARLY</div>
+        <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
+          <strong style="color: #001a4d;">塩﨑太智（M!LK）「しおざきわんだーらんど」／M!LK「You!Joy!Parade!」</strong><br>
+          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">ソロ初披露に「一生懸命」「涙出る」と高評価。他アーティストの応援反応も話題に。</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #0099ff; border: 2px solid #fff;"></div>
+        <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">20:30〜45頃 / MID BLOCK</div>
+        <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
+          <strong style="color: #001a4d;">SixTONES「マイオンリー」「Dance Forever」 → Snow Man「グッタイム」</strong><br>
+          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">「衣装良い」「演出ワチャワチャ楽しかった」と投稿密度高め。ジュニアバックダンサー参加も好評。</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #0099ff; border: 2px solid #fff;"></div>
+        <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:05〜20頃 / TALK</div>
+        <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
+          <strong style="color: #001a4d;">Mrs. GREEN APPLE「Brand New」</strong><br>
+          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">初披露熱演に称賛の声。M!LKとの同世代トーク（お辞儀ループ）が名場面化した。</span>
+        </div>
+      </div>
+
+      <div style="position: relative;">
+        <div style="position: absolute; left: -21px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #ff0084; border: 2px solid #fff;"></div>
+        <div style="font-size: 11px; color: #ff0084; font-weight: 900;">21:20〜40頃 / ★投稿爆発の最大ピーク</div>
+        <div style="font-size: 13px; color: #1a202c; line-height: 1.5;">
+          <span style="font-weight: 900; color: #001a4d;">中森明菜「ごめんと、すきと、」「難破船」</span><br>
+          <span style="font-size: 11px; color: #718096; font-weight: 600;">30年ぶり復帰のスペシャルに「表現力すごい」「難破船涙」と歴史的瞬間として反応が殺到した。</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="font-size: 11px; color: #4a5568; background: #f1f5f9; border-radius: 4px; padding: 10px; margin-bottom: 16px; line-height: 1.6; font-weight: 600;">
+      <span style="display: inline-block; background: #003366; color: #fff; padding: 0 6px; border-radius: 2px; margin-right: 4px; font-weight: 900; font-size: 9px;">REPORT</span>
+      中森明菜の30年ぶり復帰・「難破船」披露が番組全体で最大の投稿ピーク。SixTONES・Snow Manのライブ披露も密度高く、Mrs. GREEN APPLEとM!LKのお辞儀トークも反応の核になった回。
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="background: #1a202c; color: #fff; padding: 12px; border-radius: 4px; text-align: center;">
+        <span style="font-size: 12px; font-weight: 800;">※Mステは基本的にTVer等での見逃し配信がありません（録画推奨）</span>
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 8px; border-top: 1px solid #edf2f7;">
+        <div style="font-size: 8px; color: #a0aec0; font-weight: 800; letter-spacing: 0.5px;">ESTIMATED FROM SNS REALTIME TREND</div>
+        <div style="font-size: 8px; color: #a0aec0;">UPDATED: 2026.07.18</div>
+      </div>
+    </div>
+
+  </div>
+</aside>
+<!-- /wp:html -->
 
 <!-- wp:heading -->
 <h2>7月10日（金）のタイムテーブル・セットリスト</h2>
@@ -704,7 +911,7 @@ overflow: hidden;
       },
       "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/07/image-12-1.webp",
       "datePublished": "2026-07-14T09:00:00+09:00",
-      "dateModified": "2026-07-14T09:00:00+09:00",
+      "dateModified": "2026-07-21T09:00:00+09:00",
       "author": {
         "@type": "Person",
         "name": "Shira Notes",
@@ -747,6 +954,27 @@ overflow: hidden;
         { "@type": "MusicGroup", "name": "Snow Man" },
         { "@type": "MusicGroup", "name": "BE:FIRST" },
         { "@type": "MusicGroup", "name": "Mrs. GREEN APPLE" }
+      ]
+    },
+    {
+      "@type": "Event",
+      "@id": "https://shira-treat.com/musicstation-2026july/#event-0724",
+      "name": "ミュージックステーション 2026年7月24日放送回",
+      "startDate": "2026-07-24T21:00:00+09:00",
+      "endDate": "2026-07-24T21:54:00+09:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+      "location": { "@type": "Place", "name": "テレビ朝日" },
+      "image": "https://shira-treat.com/wp-content/uploads/2026/07/image-12-1.webp",
+      "description": "2026年7月24日放送のMステ。ZAZEN BOYS・SWEET STEADYが初出演。アイナ・ジ・エンド、ILLIT、timelesz、乃木坂46、ヤングスキニーも出演予定。",
+      "performer": [
+        { "@type": "Person", "name": "アイナ・ジ・エンド" },
+        { "@type": "MusicGroup", "name": "ILLIT" },
+        { "@type": "MusicGroup", "name": "ZAZEN BOYS" },
+        { "@type": "MusicGroup", "name": "SWEET STEADY" },
+        { "@type": "MusicGroup", "name": "timelesz" },
+        { "@type": "MusicGroup", "name": "乃木坂46" },
+        { "@type": "MusicGroup", "name": "ヤングスキニー" }
       ]
     },
     {

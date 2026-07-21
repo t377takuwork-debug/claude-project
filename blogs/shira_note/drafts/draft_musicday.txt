@@ -1,20 +1,20 @@
 <!-- wp:paragraph -->
-タイトル：THE MUSIC DAY 2026 タイムテーブル＆出演順番は？最新情報まとめ
+タイトル：THE MUSIC DAY 2026 タイムテーブル＆出演順番｜放送アーカイブまとめ
 
-メタディスクリプション（96字）：
-「THE MUSIC DAY 2026」7月4日放送の最新情報！ブルーノ・マーズ日本テレビ初歌唱、シャッフルメドレー全曲解禁など豪華出演者のタイムテーブル・出演順を放送直前まで速報更新します。
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>「THE MUSIC DAY 2026」最新情報をお届けします！</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>今年は「音楽の物語」をテーマに、千葉・幕張メッセから総勢60組以上のアーティストが出演。</p>
+メタディスクリプション（91字）：
+「THE MUSIC DAY 2026」7月4日放送の全出演順・タイムテーブルを振り返り。ブルーノ・マーズ初歌唱やシャッフルメドレーなど、確定した見どころを時間帯ごとにまとめました。
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>[nopc][title][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>2026年7月4日（土）に放送された「THE MUSIC DAY 2026」のタイムテーブルを掲載しています！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>今年は「音楽の物語」をテーマに、千葉・幕張メッセから総勢60組以上のアーティストが出演しました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -41,8 +41,8 @@
 
     <!-- タイムテーブル判明告知 -->
     <div style="background: linear-gradient(90deg, rgba(255, 204, 0, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%); border-left: 4px solid #ffcc00; padding: 10px; border-radius: 2px;">
-      <div style="color: #ffcc00; font-size: 13px; font-weight: 800; margin-bottom: 2px;">★タイムテーブル判明！</div>
-      <div style="color: #ffffff; font-size: 11px;">出演順（タイムテーブル）を公開中。最新情報を随時更新しています。</div>
+      <div style="color: #ffcc00; font-size: 13px; font-weight: 800; margin-bottom: 2px;">★放送終了！全出演順が確定</div>
+      <div style="color: #ffffff; font-size: 11px;">「THE MUSIC DAY 2026」の全時間帯の出演順・歌唱曲を掲載しています。</div>
     </div>
 
     <div style="background: rgba(255, 255, 255, 0.05); padding: 10px; border-radius: 4px; font-size: 11px; line-height: 1.5;">
@@ -68,11 +68,8 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>7月4日（土）の生放送当日はリアルタイムで最新情報を更新。 </p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>タイムテーブル解禁後は出演順も速報でお届けしますので、ぜひブックマークして放送当日に備えてください。</p>
+<p>「あの瞬間、何時頃だったかな」と気になる場面もあるのではないでしょうか。
+全出演順まとめてるので、この記事とアーカイブでぜひ振り返ってみてください。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -80,11 +77,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>アーティストの順番や登場時間を把握できるよう、以下に時間帯ごとのスケジュールとして掲載。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>出演者の順番はリアルタイムで速報予定です。</p>
+<p>アーティストの登場時間や出演順がひと目でわかるよう、分刻みのタイムテーブルとして時間帯ごとにまとめました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -121,22 +114,22 @@
       <div class="artist-group" style="border-left-color:#00ccff;">
 
         <div>
-          <div class="artist-box" style="color:#00ccff;">M!LK</div>
-          <div class="song-box">好きすぎて滅！ / 爆裂愛してる / アイドルパワー</div>
-        </div>
-
-        <div>
-          <div class="artist-box" style="color:#00ccff;">ROIROM</div>
-          <div class="song-box">CLASSIC WAVE</div>
+          <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">13:33</span>M!LK</div>
+          <div class="song-box">好きすぎて滅！ / アイドルパワー / 爆裂愛してる</div>
         </div>
 
         <div class="project-box">
-          <div class="project-title">【企画】昭和平成令和歌おう踊ろうメドレー PART1</div>
+          <div class="project-title">【企画】昭和平成令和 歌おう踊ろうメドレー PART1</div>
           <div class="project-members">
-            キマグレン「LIFE」<br>
-            CANDY TUNE「倍倍FIGHT!」<br>
-            バブルガム・ブラザーズ「WON'T BE LONG」
+            13:38　キマグレン「LIFE」<br>
+            13:41　CANDY TUNE「倍倍FIGHT!」<br>
+            13:44　バブルガム・ブラザーズ「WON'T BE LONG」
           </div>
+        </div>
+
+        <div>
+          <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">13:50</span>ROIROM</div>
+          <div class="song-box">CLASSIC WAVE</div>
         </div>
 
       </div>
@@ -159,53 +152,43 @@
       <div class="artist-group" style="border-left-color:#ff007f;">
 
         <div>
-          <div class="artist-box" style="color:#ff007f;">INI</div>
-          <div class="song-box">HERO</div>
-        </div>
-
-        <div>
-          <div class="artist-box" style="color:#ff007f;">AND2BLE</div>
-          <div class="song-box">Curious</div>
-        </div>
-
-        <div>
-          <div class="artist-box" style="color:#ff007f;">かりゆし58</div>
-          <div class="song-box">オワリはじまり</div>
-        </div>
-
-        <div>
-          <div class="artist-box" style="color:#ff007f;">KiiiKiii</div>
-          <div class="song-box">404 (New Era)</div>
-        </div>
-
-        <div>
-          <div class="artist-box" style="color:#ff007f;">kurayamisaka</div>
-          <div class="song-box">farewell</div>
-        </div>
-
-        <div>
-          <div class="artist-box" style="color:#ff007f;">THE RAMPAGE</div>
-          <div class="song-box">16BOOSTERZ</div>
-        </div>
-
-        <div>
-          <div class="artist-box" style="color:#ff007f;">島谷ひとみ</div>
+          <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">14:06</span>島谷ひとみ</div>
           <div class="song-box">亜麻色の髪の乙女</div>
         </div>
 
         <div>
-          <div class="artist-box" style="color:#ff007f;">日向坂46</div>
+          <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">14:12</span>INI</div>
+          <div class="song-box">HERO</div>
+        </div>
+
+        <div>
+          <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">14:17</span>KiiiKiii</div>
+          <div class="song-box">404（New Era）</div>
+        </div>
+
+        <div>
+          <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">14:25</span>日向坂46</div>
           <div class="song-box">キュン</div>
         </div>
 
         <div>
-          <div class="artist-box" style="color:#ff007f;">FANTASTICS</div>
-          <div class="song-box">OVER DRIVE（2026 ver.）</div>
+          <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">14:28</span>MAZZEL</div>
+          <div class="song-box">J.O.K.E.R.</div>
         </div>
 
         <div>
-          <div class="artist-box" style="color:#ff007f;">MAZZEL</div>
-          <div class="song-box">J.O.K.E.R.</div>
+          <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">14:35</span>kurayamisaka</div>
+          <div class="song-box">farewell</div>
+        </div>
+
+        <div>
+          <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">14:46</span>かりゆし58</div>
+          <div class="song-box">オワリはじまり</div>
+        </div>
+
+        <div>
+          <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">14:55</span>AND2BLE</div>
+          <div class="song-box">Curious</div>
         </div>
 
       </div>
@@ -227,34 +210,49 @@
     <div class="content-area">
       <div class="artist-group" style="border-left-color:#00ccff;">
 
-        <div>
-          <div class="artist-box" style="color:#00ccff;">アイナ・ジ・エンド</div>
-          <div class="song-box">ルミナス - Luminous</div>
+        <div class="project-box">
+          <div class="project-title">【企画】VTR「全国の名所と名曲集 PART1」</div>
+          <div class="project-members">15:01　放送</div>
         </div>
 
         <div>
-          <div class="artist-box" style="color:#00ccff;">家入レオ</div>
-          <div class="song-box">出演曲未発表</div>
+          <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">15:09</span>THE RAMPAGE</div>
+          <div class="song-box">16BOOSTERZ</div>
         </div>
 
         <div>
-          <div class="artist-box" style="color:#00ccff;">キタニタツヤ</div>
+          <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">15:15</span>FANTASTICS</div>
+          <div class="song-box">OVER DRIVE -2026 Version-</div>
+        </div>
+
+        <div>
+          <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">15:24</span>キタニタツヤ</div>
           <div class="song-box">遺書</div>
         </div>
 
         <div>
-          <div class="artist-box" style="color:#00ccff;">FUNKY MONKEY BΛBY'S</div>
-          <div class="song-box">出演曲未発表</div>
+          <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">15:30</span>FUNKY MONKEY BΛBY'S</div>
+          <div class="song-box">あとひとつ</div>
         </div>
 
         <div>
-          <div class="artist-box" style="color:#00ccff;">マルシィ</div>
+          <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">15:33</span>マルシィ</div>
           <div class="song-box">未来図</div>
         </div>
 
+        <div>
+          <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">15:43</span>家入レオ</div>
+          <div class="song-box">君がくれた夏</div>
+        </div>
+
+        <div>
+          <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">15:50</span>アイナ・ジ・エンド</div>
+          <div class="song-box">ルミナス – Luminous</div>
+        </div>
+
         <div class="project-box">
-          <div class="project-title">【企画】教えてちさ子先生！「音楽人生相談」</div>
-          <div class="project-members">高嶋ちさ子</div>
+          <div class="project-title">【企画】VTR「教えてちさ子先生！音楽人生相談 PART1」</div>
+          <div class="project-members">15:55　放送</div>
         </div>
 
       </div>
@@ -277,28 +275,28 @@
       <div class="artist-group" style="border-left-color:#ff007f;">
 
         <div>
-          <div class="artist-box" style="color:#ff007f;">&amp;TEAM</div>
+          <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">16:18</span>&amp;TEAM</div>
           <div class="song-box">ホットライン</div>
         </div>
 
         <div>
-          <div class="artist-box" style="color:#ff007f;">SUPER BEAVER</div>
-          <div class="song-box">生きがい</div>
+          <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">16:25</span>LINDBERG</div>
+          <div class="song-box">今すぐ Kiss Me</div>
         </div>
 
         <div>
-          <div class="artist-box" style="color:#ff007f;">TREASURE</div>
-          <div class="song-box">BIGBANG〜IF I スペシャルメドレー</div>
+          <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">16:30</span>TREASURE</div>
+          <div class="song-box">FANTASTIC BABY / KING KONG -JP Ver.- / IF I</div>
         </div>
 
         <div>
-          <div class="artist-box" style="color:#ff007f;">なにわ男子</div>
+          <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">16:52</span>なにわ男子</div>
           <div class="song-box">初心LOVE / Celebrate</div>
         </div>
 
         <div>
-          <div class="artist-box" style="color:#ff007f;">LINDBERG</div>
-          <div class="song-box">出演曲未発表</div>
+          <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">16:59</span>SUPER BEAVER</div>
+          <div class="song-box">生きがい</div>
         </div>
 
       </div>
@@ -321,43 +319,43 @@
       <div class="artist-group" style="border-left-color:#00ccff;">
 
         <div>
-          <div class="artist-box" style="color:#00ccff;">＝LOVE</div>
-          <div class="song-box">とくべチュ、して / ラブソングに襲われる</div>
-        </div>
-
-        <div>
-          <div class="artist-box" style="color:#00ccff;">小室哲哉×NCT WISH</div>
-          <div class="song-box">BOY MEETS GIRL</div>
-        </div>
-
-        <div>
-          <div class="artist-box" style="color:#00ccff;">超特急</div>
-          <div class="song-box">ジュブナイラー（BMXコラボ）</div>
-        </div>
-
-        <div>
-          <div class="artist-box" style="color:#00ccff;">TWS</div>
-          <div class="song-box">OVERDRIVE</div>
-        </div>
-
-        <div>
-          <div class="artist-box" style="color:#00ccff;">中島健人</div>
+          <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">17:05</span>中島健人</div>
           <div class="song-box">最初はキュン！</div>
         </div>
 
         <div>
-          <div class="artist-box" style="color:#00ccff;">Number_i</div>
+          <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">17:12</span>超特急</div>
+          <div class="song-box">ジュブナイラー</div>
+        </div>
+
+        <div>
+          <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">17:19</span>＝LOVE</div>
+          <div class="song-box">とくべチュ、して / ラブソングに襲われる</div>
+        </div>
+
+        <div>
+          <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">17:25</span>松本伊代×CUTIE STREET</div>
+          <div class="song-box">かわいいだけじゃだめですか？</div>
+        </div>
+
+        <div>
+          <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">17:32</span>TWS</div>
+          <div class="song-box">OVERDRIVE</div>
+        </div>
+
+        <div>
+          <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">17:38</span>Number_i</div>
           <div class="song-box">3XL</div>
         </div>
 
         <div>
-          <div class="artist-box" style="color:#00ccff;">松本伊代×CUTIE STREET</div>
-          <div class="song-box">かわいいだけじゃだめですか？</div>
+          <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">17:50</span>小室哲哉×NCT WISH</div>
+          <div class="song-box">BOY MEETS GIRL</div>
         </div>
 
         <div class="project-box">
-          <div class="project-title">【企画】教えてちさ子先生！「音楽人生相談」</div>
-          <div class="project-members">高嶋ちさ子</div>
+          <div class="project-title">【企画】VTR「教えてちさ子先生！音楽人生相談 PART2」</div>
+          <div class="project-members">17:50　放送</div>
         </div>
 
       </div>
@@ -380,36 +378,36 @@
       <div class="artist-group" style="border-left-color:#ff007f;">
 
         <div>
-          <div class="artist-box" style="color:#ff007f;">IVE</div>
-          <div class="song-box">BANG BANG</div>
+          <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">18:12</span>Le Couple（藤田恵美）</div>
+          <div class="song-box">ひだまりの詩</div>
         </div>
 
         <div>
-          <div class="artist-box" style="color:#ff007f;">Do As Infinity</div>
+          <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">18:18</span>Do As Infinity</div>
           <div class="song-box">陽のあたる坂道</div>
         </div>
 
         <div>
-          <div class="artist-box" style="color:#ff007f;">NEWS</div>
-          <div class="song-box">出演曲未発表</div>
+          <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">18:24</span>IVE</div>
+          <div class="song-box">BANG BANG</div>
         </div>
 
         <div>
-          <div class="artist-box" style="color:#ff007f;">平原綾香</div>
+          <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">18:41</span>平原綾香</div>
           <div class="song-box">田園</div>
         </div>
 
         <div>
-          <div class="artist-box" style="color:#ff007f;">Le Couple 藤田恵美</div>
-          <div class="song-box">出演曲未発表</div>
+          <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">18:50</span>NEWS</div>
+          <div class="song-box">チャンカパーナ</div>
         </div>
 
         <div class="project-box">
-          <div class="project-title">【企画】昭和平成令和歌おう踊ろうメドレー PART2</div>
+          <div class="project-title">【企画】昭和平成令和 歌おう踊ろうメドレー PART2</div>
           <div class="project-members">
-            B.B.クィーンズ<br>
-            AiScReam「愛♡スクリ～ム！」<br>
-            THE RAMPAGE×FANTASTICS
+            18:51　B.B.クィーンズ「おどるポンポコリン」<br>
+            18:54　AiScReam「愛♡スクリ～ム」<br>
+            18:58　THE RAMPAGE×FANTASTICS「Choo Choo TRAIN」
           </div>
         </div>
 
@@ -451,53 +449,54 @@
   <div class="content-area">
     <div class="artist-group" style="border-left-color:#00ccff;">
 
-      <div>
-        <div class="artist-box" style="color:#00ccff;">あいみょん</div>
-        <div class="song-box">今夜このまま / マリーゴールド</div>
+      <div class="project-box">
+        <div class="project-title">【企画】シャッフルメドレー PART1</div>
+        <div class="project-members">
+          19:03　ジェットコースター・ロマンス：髙橋海人（King &amp; Prince）×森本慎太郎（SixTONES）<br>
+          19:05　BANG! BANG! バカンス！：小山慶一郎（NEWS）・深澤辰哉（Snow Man）・西畑大吾（なにわ男子）・原嘉孝（timelesz）<br>
+          19:07　SHE! HER! HER!：渡辺翔太（Snow Man）・大西流星（なにわ男子）・宮近海斗（Travis Japan）・寺西拓人（timelesz）<br>
+          19:08　stripe blue：京本大我（SixTONES）・佐久間大介（Snow Man）・大橋和也（なにわ男子）<br>
+          19:10　Ho! サマー：増田貴久（NEWS）・中島健人<br>
+          19:12　カンパイ！！：田中樹（SixTONES）・宮舘涼太（Snow Man）・長尾謙杜（なにわ男子）・中村海人（Travis Japan）・橋本将生（timelesz）
+        </div>
       </div>
 
       <div>
-        <div class="artist-box" style="color:#00ccff;">大泉洋</div>
-        <div class="song-box">ひざこぞう</div>
-      </div>
-
-      <div>
-        <div class="artist-box" style="color:#00ccff;">King &amp; Prince</div>
-        <div class="song-box">HEART / Theater</div>
-      </div>
-
-      <div>
-        <div class="artist-box" style="color:#00ccff;">島袋寛子</div>
+        <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">19:16</span>島袋寛子</div>
         <div class="song-box">STEADY</div>
       </div>
 
       <div>
-        <div class="artist-box" style="color:#00ccff;">SixTONES</div>
-        <div class="song-box">一秒 / Rebellion</div>
-      </div>
-
-      <div>
-        <div class="artist-box" style="color:#00ccff;">NiziU</div>
+        <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">19:21</span>NiziU</div>
         <div class="song-box">Make you happy</div>
       </div>
 
-      <div class="project-box">
-        <div class="project-title">【企画】シャッフルメドレー PART1</div>
-        <div class="project-members">
-          ジェットコースター・ロマンス（KinKi Kids）<br>
-          BANG! BANG! バカンス!（SMAP）<br>
-          SHE! HER! HER!（Kis-My-Ft2）<br>
-          stripe blue（少年隊）<br>
-          Ho! サマー（タッキー＆翼）<br>
-          カンパイ！！（TOKIO）
-        </div>
+      <div>
+        <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">19:27</span>SixTONES</div>
+        <div class="song-box">Rebellion / 一秒</div>
+      </div>
+
+      <div>
+        <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">19:35</span>King &amp; Prince</div>
+        <div class="song-box">Theater / HEART</div>
       </div>
 
       <div class="project-box">
         <div class="project-title">【企画】りくりゅうペア×櫻井翔対談</div>
         <div class="project-members">
-          三浦璃来 / 木原龍一 / 櫻井翔
+          19:40　三浦璃来／木原龍一／櫻井翔によるトーク<br>
+          サプライズ出演：緑黄色社会「Shout Baby」
         </div>
+      </div>
+
+      <div>
+        <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">19:42</span>あいみょん</div>
+        <div class="song-box">今夜このまま</div>
+      </div>
+
+      <div>
+        <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">19:52</span>大泉洋</div>
+        <div class="song-box">ひざこぞう</div>
       </div>
 
     </div>
@@ -516,59 +515,55 @@
     <div class="artist-group" style="border-left-color:#ff007f;">
 
       <div>
-        <div class="artist-box" style="color:#ff007f;">あいみょん</div>
-        <div class="song-box">今夜このまま / マリーゴールド</div>
-      </div>
-
-      <div>
-        <div class="artist-box" style="color:#ff007f;">海援隊</div>
-        <div class="song-box">出演曲未発表</div>
-      </div>
-
-      <div>
-        <div class="artist-box" style="color:#ff007f;">亀梨和也</div>
+        <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">20:00</span>亀梨和也</div>
         <div class="song-box">'O sole mio</div>
       </div>
 
       <div>
-        <div class="artist-box" style="color:#ff007f;">timelesz</div>
-        <div class="song-box">4分間だけ時間をください</div>
+        <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">20:08</span>海援隊</div>
+        <div class="song-box">贈る言葉</div>
       </div>
 
       <div>
-        <div class="artist-box" style="color:#ff007f;">Travis Japan</div>
-        <div class="song-box">LEVEL UP</div>
-      </div>
-
-      <div>
-        <div class="artist-box" style="color:#ff007f;">BE:FIRST</div>
+        <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">20:12</span>BE:FIRST</div>
         <div class="song-box">Bye-Good-Bye / Missing</div>
       </div>
 
       <div>
-        <div class="artist-box" style="color:#ff007f;">ブルーノ・マーズ</div>
-        <div class="song-box">出演曲未発表</div>
+        <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">20:20</span>timelesz</div>
+        <div class="song-box">4分間だけ時間をください</div>
       </div>
 
       <div class="project-box">
-        <div class="project-title">【企画】ディズニー・オン・アイス SP企画</div>
+        <div class="project-title">【企画】ディズニー・オン・アイス SP</div>
         <div class="project-members">
-          宮舘涼太 × 山崎育三郎<br>
-          長屋晴子（緑黄色社会）<br>
-          RIKU × MIIHI（NiziU）<br>
-          氷上ナビゲーター：坂本花織
+          20:26　宮舘涼太（Snow Man）×山崎育三郎「アンダー・ザ・シー」<br>
+          20:30　長屋晴子（緑黄色社会）「どこまでも～How Far I'll Go～」<br>
+          20:34　RIKU×MIIHI（NiziU）「イントゥ・ジ・アンノウン～心のままに」<br>
+          20:38　オールラインナップ「リビング・イン・カラー」（氷上ナビゲーター：坂本花織）
         </div>
+      </div>
+
+      <div>
+        <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">20:44</span>Travis Japan</div>
+        <div class="song-box">LEVEL UP</div>
+      </div>
+
+      <div>
+        <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">20:50</span>ブルーノ・マーズ</div>
+        <div class="song-box">I Just Might / Locked Out Of Heaven</div>
+      </div>
+
+      <div>
+        <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">20:50</span>あいみょん</div>
+        <div class="song-box">マリーゴールド</div>
       </div>
 
       <div class="project-box">
         <div class="project-title">【企画】シャッフルメドレー PART2</div>
         <div class="project-members">
-          夏のかけら（Coming Century）<br>
-          太陽がいっぱい（光GENJI）<br>
-          ウィークエンダー（Hey! Say! JUMP）<br>
-          哀愁でいと（NEW YORK CITY NIGHTS）<br>
-          罪と夏（SUPER EIGHT）<br>
-          ハダシの未来（嵐）
+          20:58　夏のかけら：松島聡（timelesz）・松田元太（Travis Japan）・松倉海斗（Travis Japan）<br>
+          20:59　太陽がいっぱい：阿部亮平（Snow Man）・藤原丈一郎（なにわ男子）・川島如恵留（Travis Japan）・篠塚大輝（timelesz）
         </div>
       </div>
 
@@ -587,42 +582,49 @@
   <div class="content-area">
     <div class="artist-group" style="border-left-color:#00ccff;">
 
-      <div>
-        <div class="artist-box" style="color:#00ccff;">大塚愛</div>
-        <div class="song-box">黒毛和牛上塩タン焼680円</div>
-      </div>
-
-      <div>
-        <div class="artist-box" style="color:#00ccff;">SixTONES</div>
-        <div class="song-box">一秒 / Rebellion</div>
-      </div>
-
-      <div>
-        <div class="artist-box" style="color:#00ccff;">Snow Man</div>
-        <div class="song-box">カリスマックス / 新曲</div>
-      </div>
-
-      <div>
-        <div class="artist-box" style="color:#00ccff;">緑黄色社会</div>
-        <div class="song-box">章</div>
+      <div class="project-box">
+        <div class="project-title">【企画】シャッフルメドレー PART2（つづき）</div>
+        <div class="project-members">
+          21:01　ウィークエンダー：佐藤勝利（timelesz）・永瀬廉（King &amp; Prince）・ラウール（Snow Man）・道枝駿佑（なにわ男子）<br>
+          21:02　哀愁でいと（NEW YORK CITY NIGHTS）：松村北斗（SixTONES）・七五三掛龍也（Travis Japan）<br>
+          21:04　罪と夏：髙地優吾（SixTONES）・向井康二（Snow Man）・高橋恭平（なにわ男子）・吉澤閑也（Travis Japan）・猪俣周杜（timelesz）<br>
+          21:05　ハダシの未来：加藤シゲアキ（NEWS）・菊池風磨（timelesz）・ジェシー（SixTONES）・岩本照（Snow Man）
+        </div>
       </div>
 
       <div class="project-box">
         <div class="project-title">【企画】渡辺直美×HANA in NY</div>
-        <div class="project-members">
-          HANA「NON STOP」
-        </div>
+        <div class="project-members">21:09　HANA「NON STOP」</div>
+      </div>
+
+      <div>
+        <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">21:29</span>SixTONES</div>
+        <div class="song-box">マイオンリー</div>
+      </div>
+
+      <div>
+        <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">21:37</span>緑黄色社会</div>
+        <div class="song-box">章</div>
+      </div>
+
+      <div>
+        <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">21:42</span>Snow Man</div>
+        <div class="song-box">グッタイム</div>
+      </div>
+
+      <div>
+        <div class="artist-box" style="color:#00ccff;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">21:50</span>大塚愛</div>
+        <div class="song-box">黒毛和牛上塩タン焼680円</div>
+      </div>
+
+      <div class="project-box">
+        <div class="project-title">【企画】サプライズコラボ</div>
+        <div class="project-members">21:50　亀梨和也×山下智久「青春アミーゴ」</div>
       </div>
 
       <div class="project-box">
         <div class="project-title">【企画】歌おう！平成リバイバルソング</div>
-        <div class="project-members">
-          BONNIE PINK「A Perfect Sky」<br>
-          けんじ×八木勇征「あの紙ヒコーキ くもり空わって」<br>
-          福原遥「secret base ～君がくれたもの～」<br>
-          酒井法子「碧いうさぎ」<br>
-          BEOMGYU / TAEHYUN / HUENINGKAI「Lemon」
-        </div>
+        <div class="project-members">21:56　コーナースタート（コーナーゲスト：高橋成美、長谷川忍〈シソンヌ〉）</div>
       </div>
 
     </div>
@@ -640,19 +642,30 @@
   <div class="content-area">
     <div class="artist-group" style="border-left-color:#ff007f;">
 
-      <div>
-        <div class="artist-box" style="color:#ff007f;">Snow Man</div>
-        <div class="song-box">カリスマックス / 新曲</div>
+      <div class="project-box">
+        <div class="project-title">【企画】歌おう！平成リバイバルソング</div>
+        <div class="project-members">
+          22:07　BONNIE PINK「A Perfect Sky」<br>
+          22:13　けんじ（19ジューク、3B LAB.☆S）×八木勇征（FANTASTICS）「あの紙ヒコーキ くもり空わって」<br>
+          22:21　福原遥「secret base～君がくれたもの～」<br>
+          22:29　酒井法子「碧いうさぎ」<br>
+          22:37　TOMORROW X TOGETHER（BEOMGYU/TAEHYUN/HUENINGKAI）「Lemon」
+        </div>
       </div>
 
       <div>
-        <div class="artist-box" style="color:#ff007f;">福山雅治</div>
-        <div class="song-box">HELLO</div>
+        <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">22:44</span>山下智久</div>
+        <div class="song-box">The Artist / SUMMER NUDE '13</div>
       </div>
 
       <div>
-        <div class="artist-box" style="color:#ff007f;">山下智久</div>
-        <div class="song-box">出演曲未発表</div>
+        <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">22:49</span>Snow Man</div>
+        <div class="song-box">カリスマックス</div>
+      </div>
+
+      <div>
+        <div class="artist-box" style="color:#ff007f;"><span style="font-size:11px;color:#94a3b8;font-weight:700;margin-right:6px;">22:54</span>福山雅治</div>
+        <div class="song-box">邂逅 / HELLO</div>
       </div>
 
     </div>
@@ -661,7 +674,7 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>[nopc][originalsc][/nopc]</p>
+<p>[kanrenad]</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -677,59 +690,70 @@
       <div style="width: 2px; height: 8px; background: #ffcc00;"></div>
       <div style="width: 2px; height: 8px; background: #00ccff;"></div>
     </div>
-    THE MUSIC DAY 2025 タイムテーブル（アーカイブ）
+    THE MUSIC DAY 2026 タイムテーブル（アーカイブ）
   </summary>
 
   <div style="padding: 16px; background: #ffffff;">
-    <div style="margin: 0 0 12px 0; font-size: 13px; font-weight: 800; color: #0f172a;">2025年7月5日 放送出演順</div>
+    <div style="margin: 0 0 12px 0; font-size: 13px; font-weight: 800; color: #0f172a;">2026年7月4日 放送出演順</div>
 
     <div style="border-left: 2px solid #e2e8f0; padding-left: 14px; font-size: 12px; line-height: 1.8; color: #475569;">
 
       <div style="margin-bottom: 12px;">
+        <span style="font-weight: 800; color: #00ccff; display: inline-block; width: 50px;">13:00</span>
+        M!LK／ROIROM<br>
+        <span style="color: #ff007f; font-weight: 700; font-size: 11px;">[企画]</span> 昭和平成令和 歌おう踊ろうメドレーPART1（キマグレン・CANDY TUNE・バブルガム・ブラザーズ）
+      </div>
+
+      <div style="margin-bottom: 12px;">
+        <span style="font-weight: 800; color: #00ccff; display: inline-block; width: 50px;">14:00</span>
+        島谷ひとみ／INI／KiiiKiii／日向坂46／MAZZEL／kurayamisaka／かりゆし58／AND2BLE
+      </div>
+
+      <div style="margin-bottom: 12px;">
         <span style="font-weight: 800; color: #00ccff; display: inline-block; width: 50px;">15:00</span>
-        INI／岸谷香／超特急／美麗-Bi-ray-／FUNKY MONKEY BΛBY'S／M!LK／muque<br>
-        <span style="color: #ff007f; font-weight: 700; font-size: 11px;">[企画]</span> みんなで一緒に踊りたくなるメドレーPART1
+        THE RAMPAGE／FANTASTICS／キタニタツヤ／FUNKY MONKEY BΛBY'S／マルシィ／家入レオ／アイナ・ジ・エンド<br>
+        <span style="color: #ff007f; font-weight: 700; font-size: 11px;">[企画]</span> 教えてちさ子先生！音楽人生相談 PART1
       </div>
 
       <div style="margin-bottom: 12px;">
         <span style="font-weight: 800; color: #00ccff; display: inline-block; width: 50px;">16:00</span>
-        新しい学校のリーダーズ／XG／s**t kingz／TWS／なにわ男子／BEGIN
+        &amp;TEAM／LINDBERG／TREASURE／なにわ男子／SUPER BEAVER
       </div>
 
       <div style="margin-bottom: 12px;">
         <span style="font-weight: 800; color: #00ccff; display: inline-block; width: 50px;">17:00</span>
-        HY／ENHYPEN／NiziU／花＊花／ヒルナンデス！バンド／BOYNEXTDOOR／RIP SLYME<br>
-        <span style="color: #ff007f; font-weight: 700; font-size: 11px;">[企画]</span> パリから届ける「わたしの歌」（杏）
+        中島健人／超特急／＝LOVE／松本伊代×CUTIE STREET／TWS／Number_i／小室哲哉×NCT WISH<br>
+        <span style="color: #ff007f; font-weight: 700; font-size: 11px;">[企画]</span> 教えてちさ子先生！音楽人生相談 PART2
       </div>
 
       <div style="margin-bottom: 12px;">
         <span style="font-weight: 800; color: #00ccff; display: inline-block; width: 50px;">18:00</span>
-        THE ALFEE／BEGIN×MONGOL800<br>
-        <span style="color: #ff007f; font-weight: 700; font-size: 11px;">[企画]</span> 大杉漣へ届ける約束のギター／みんなで一緒に踊りたくなるメドレーPART2
+        Le Couple（藤田恵美）／Do As Infinity／IVE／平原綾香／NEWS<br>
+        <span style="color: #ff007f; font-weight: 700; font-size: 11px;">[企画]</span> 昭和平成令和 歌おう踊ろうメドレーPART2（B.B.クィーンズ・AiScReam・THE RAMPAGE×FANTASTICS）
       </div>
 
       <div style="margin-bottom: 12px;">
         <span style="font-weight: 800; color: #00ccff; display: inline-block; width: 50px;">19:00</span>
-        ILLIT／WEST.／Aぇ! group／Omoinotake／近藤真彦×TWS／SixTONES／一青 窈／BoA／ME:I<br>
-        <span style="color: #ff007f; font-weight: 700; font-size: 11px;">[企画]</span> シャッフルメドレーPART1／85年組メドレー
+        島袋寛子／NiziU／SixTONES／King &amp; Prince／あいみょん／大泉洋<br>
+        <span style="color: #ff007f; font-weight: 700; font-size: 11px;">[企画]</span> シャッフルメドレーPART1／りくりゅうペア×櫻井翔対談（サプライズ：緑黄色社会）
       </div>
 
       <div style="margin-bottom: 12px;">
         <span style="font-weight: 800; color: #00ccff; display: inline-block; width: 50px;">20:00</span>
-        King &amp; Prince／三代目 J SOUL BROTHERS／TOMORROW X TOGETHER／Travis Japan／HANA／Mrs. GREEN APPLE<br>
-        <span style="color: #ff007f; font-weight: 700; font-size: 11px;">[企画]</span> ディズニー・オン・アイス企画
+        亀梨和也／海援隊／BE:FIRST／timelesz／Travis Japan／ブルーノ・マーズ／あいみょん<br>
+        <span style="color: #ff007f; font-weight: 700; font-size: 11px;">[企画]</span> ディズニー・オン・アイスSP／シャッフルメドレーPART2
       </div>
 
       <div style="margin-bottom: 12px;">
         <span style="font-weight: 800; color: #00ccff; display: inline-block; width: 50px;">21:00</span>
-        J-HOPE（BTS）／Snow Man／timelesz<br>
-        <span style="color: #ff007f; font-weight: 700; font-size: 11px;">[企画]</span> シャッフルメドレーPART2／ラップメドレー／歌おう！私の青春バンドソング
+        SixTONES／緑黄色社会／Snow Man／大塚愛／亀梨和也×山下智久<br>
+        <span style="color: #ff007f; font-weight: 700; font-size: 11px;">[企画]</span> シャッフルメドレーPART2（つづき）／渡辺直美×HANA in NY／歌おう！平成リバイバルソング
       </div>
 
       <div style="margin-bottom: 0;">
         <span style="font-weight: 800; color: #00ccff; display: inline-block; width: 50px;">22:00</span>
-        Snow Man／Perfume／Mrs. GREEN APPLE<br>
-        <span style="color: #ff007f; font-weight: 700; font-size: 11px;">[企画]</span> 歌おう！私の青春バンドソング
+        BONNIE PINK／けんじ×八木勇征／福原遥／酒井法子／TOMORROW X TOGETHER／山下智久／Snow Man／福山雅治<br>
+        <span style="color: #ff007f; font-weight: 700; font-size: 11px;">[企画]</span> 歌おう！平成リバイバルソング
       </div>
 
     </div>
@@ -749,7 +773,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>「THE MUSIC DAY 2026」の出演アーティストが続々と決定！</p>
+<p>「THE MUSIC DAY 2026」に出演したアーティストと歌唱曲を一覧にまとめました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -796,7 +820,7 @@
 
     <div class="artist-grid">
 
-      <div class="artist-card"><span class="artist-name">AiScReam</span><span class="song-name">愛♡スクリ～ム！</span></div>
+      <div class="artist-card"><span class="artist-name">AiScReam</span><span class="song-name">愛♡スクリ～ム</span></div>
 
       <div class="artist-card"><span class="artist-name">AND2BLE</span><span class="song-name">Curious</span></div>
 
@@ -808,7 +832,7 @@
 
       <div class="artist-card"><span class="artist-name">あいみょん</span><span class="song-name">今夜このまま / マリーゴールド</span></div>
 
-      <div class="artist-card"><span class="artist-name">家入レオ</span><span class="song-name">楽曲未発表</span></div>
+      <div class="artist-card"><span class="artist-name">家入レオ</span><span class="song-name">君がくれた夏</span></div>
 
       <div class="artist-card"><span class="artist-name">＝LOVE</span><span class="song-name">とくべチュ、して / ラブソングに襲われる</span></div>
 
@@ -820,9 +844,9 @@
 
       <div class="artist-card"><span class="artist-name">大塚愛</span><span class="song-name">黒毛和牛上塩タン焼680円</span></div>
 
-      <div class="artist-card"><span class="artist-name">海援隊</span><span class="song-name">楽曲未発表</span></div>
+      <div class="artist-card"><span class="artist-name">海援隊</span><span class="song-name">贈る言葉</span></div>
 
-      <div class="artist-card"><span class="artist-name">亀梨和也</span><span class="song-name">'O sole mio</span></div>
+      <div class="artist-card"><span class="artist-name">亀梨和也</span><span class="song-name">'O sole mio / 青春アミーゴ</span></div>
 
       <div class="artist-card"><span class="artist-name">かりゆし58</span><span class="song-name">オワリはじまり</span></div>
 
@@ -834,9 +858,7 @@
 
       <div class="artist-card"><span class="artist-name">CANDY TUNE</span><span class="song-name">倍倍FIGHT!</span></div>
 
-      <div class="artist-card"><span class="artist-name">CUTIE STREET</span><span class="song-name">かわいいだけじゃだめですか？</span></div>
-
-      <div class="artist-card"><span class="artist-name">King &amp; Prince</span><span class="song-name">HEART / Theater</span></div>
+      <div class="artist-card"><span class="artist-name">King &amp; Prince</span><span class="song-name">Theater / HEART</span></div>
 
       <div class="artist-card"><span class="artist-name">kurayamisaka</span><span class="song-name">farewell</span></div>
 
@@ -862,11 +884,11 @@
 
       <div class="artist-card"><span class="artist-name">TWS</span><span class="song-name">OVERDRIVE</span></div>
 
-      <div class="artist-card"><span class="artist-name">TXT（BEOMGYU・TAEHYUN・HUENINGKAI）</span><span class="song-name">Lemon</span></div>
+      <div class="artist-card"><span class="artist-name">TOMORROW X TOGETHER（BEOMGYU/TAEHYUN/HUENINGKAI）</span><span class="song-name">Lemon</span></div>
 
       <div class="artist-card"><span class="artist-name">Travis Japan</span><span class="song-name">LEVEL UP</span></div>
 
-      <div class="artist-card"><span class="artist-name">TREASURE</span><span class="song-name">SPメドレー</span></div>
+      <div class="artist-card"><span class="artist-name">TREASURE</span><span class="song-name">FANTASTIC BABY / KING KONG -JP Ver.- / IF I</span></div>
 
       <div class="artist-card"><span class="artist-name">Do As Infinity</span><span class="song-name">陽のあたる坂道</span></div>
 
@@ -878,13 +900,13 @@
 
       <div class="artist-card"><span class="artist-name">NiziU</span><span class="song-name">Make you happy</span></div>
 
-      <div class="artist-card"><span class="artist-name">NEWS</span><span class="song-name">シャッフルメドレー参加</span></div>
+      <div class="artist-card"><span class="artist-name">NEWS</span><span class="song-name">チャンカパーナ</span></div>
 
       <div class="artist-card"><span class="artist-name">HANA</span><span class="song-name">NON STOP</span></div>
 
       <div class="artist-card"><span class="artist-name">バブルガム・ブラザーズ</span><span class="song-name">WON'T BE LONG</span></div>
 
-      <div class="artist-card"><span class="artist-name">B.B.クィーンズ</span><span class="song-name">楽曲未発表</span></div>
+      <div class="artist-card"><span class="artist-name">B.B.クィーンズ</span><span class="song-name">おどるポンポコリン</span></div>
 
       <div class="artist-card"><span class="artist-name">BE:FIRST</span><span class="song-name">Bye-Good-Bye / Missing</span></div>
 
@@ -892,9 +914,9 @@
 
       <div class="artist-card"><span class="artist-name">平原綾香</span><span class="song-name">田園</span></div>
 
-      <div class="artist-card"><span class="artist-name">FUNKY MONKEY BΛBY'S</span><span class="song-name">楽曲未発表</span></div>
+      <div class="artist-card"><span class="artist-name">FUNKY MONKEY BΛBY'S</span><span class="song-name">あとひとつ</span></div>
 
-      <div class="artist-card"><span class="artist-name">FANTASTICS</span><span class="song-name">OVER DRIVE（2026 ver.）</span></div>
+      <div class="artist-card"><span class="artist-name">FANTASTICS</span><span class="song-name">OVER DRIVE -2026 Version-</span></div>
 
       <div class="artist-card"><span class="artist-name">福原遥</span><span class="song-name">secret base～君がくれたもの～</span></div>
 
@@ -904,24 +926,24 @@
 
       <div class="artist-card"><span class="artist-name">MAZZEL</span><span class="song-name">J.O.K.E.R.</span></div>
 
-      <div class="artist-card"><span class="artist-name">松本伊代 × CUTIE STREET</span><span class="song-name">SPコラボ</span></div>
+      <div class="artist-card"><span class="artist-name">松本伊代 × CUTIE STREET</span><span class="song-name">かわいいだけじゃだめですか？</span></div>
 
       <div class="artist-card"><span class="artist-name">マルシィ</span><span class="song-name">未来図</span></div>
 
       <div class="artist-card"><span class="artist-name">M!LK</span><span class="song-name">好きすぎてごめん。/ 爆裂愛してる / アイドルパワー</span></div>
 
-      <div class="artist-card"><span class="artist-name">緑黄色社会</span><span class="song-name">章</span></div>
+      <div class="artist-card"><span class="artist-name">緑黄色社会</span><span class="song-name">章 / Shout Baby</span></div>
 
-      <div class="artist-card"><span class="artist-name">LINDBERG</span><span class="song-name">楽曲未発表</span></div>
+      <div class="artist-card"><span class="artist-name">LINDBERG</span><span class="song-name">今すぐ Kiss Me</span></div>
 
-      <div class="artist-card"><span class="artist-name">Le Couple 藤田恵美</span><span class="song-name">楽曲未発表</span></div>
+      <div class="artist-card"><span class="artist-name">Le Couple 藤田恵美</span><span class="song-name">ひだまりの詩</span></div>
 
       <div class="artist-card"><span class="artist-name">ROIROM</span><span class="song-name">CLASSIC WAVE</span></div>
 
-      <div class="artist-card"><span class="artist-name">山下智久</span><span class="song-name">楽曲未発表</span></div>
+      <div class="artist-card"><span class="artist-name">山下智久</span><span class="song-name">The Artist / SUMMER NUDE '13 / 青春アミーゴ</span></div>
 
       <div style="background:#fff0f5;padding:6px;border-radius:4px;border:2px solid #ff007f;font-size:12px;font-weight:800;color:#ff007f;">
-        ブルーノ・マーズ ★SP出演
+        ブルーノ・マーズ ★SP出演<br><span style="font-weight:600;font-size:10px;">I Just Might / Locked Out Of Heaven</span>
       </div>
 
     </div>
@@ -957,8 +979,8 @@
   </div>
 
   <div style="padding:8px;text-align:center;font-size:9px;color:#94a3b8;border-top:1px solid #e2e8f0;">
-    ※2026年7月4日発表のタイムテーブル・歌唱曲情報を反映<br>
-    ※一部楽曲は未発表です。出演内容は生放送のため変更となる場合があります。
+    ※2026年7月4日放送で確定した出演順・歌唱曲情報を反映<br>
+    ※放送内容を基に掲載しています。
   </div>
 
   <div style="height:3px;background:linear-gradient(90deg,#ff007f 0%,#ffcc00 50%,#00ccff 100%);"></div>
@@ -968,8 +990,8 @@
 
 <!-- wp:html -->
 <div style="margin: 14px 0; background: linear-gradient(90deg, #001a4d, #003399); border-radius: 6px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; border: 1px solid #00d4ff; font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
-  <div style="font-size: 11px; font-weight: 800; color: #00d4ff; letter-spacing: 0.05em;">▶ 出演者60組超の楽曲を放送前に予習しよう</div>
-  <div style="font-size: 12px; color: #e2e8f0; line-height: 1.5;">ブルーノ・マーズ、Snow Man、King &amp; Prince、あいみょんなど、今夜の出演者の代表曲を<strong style="color: #ffffff;">Amazon Musicで今すぐ聴ける</strong>。30日間無料体験実施中。</div>
+  <div style="font-size: 11px; font-weight: 800; color: #00d4ff; letter-spacing: 0.05em;">▶ 出演者60組超の楽曲をまとめて聴こう</div>
+  <div style="font-size: 12px; color: #e2e8f0; line-height: 1.5;">ブルーノ・マーズ、Snow Man、King &amp; Prince、あいみょんなど、出演者の代表曲を<strong style="color: #ffffff;">Amazon Musicで今すぐ聴ける</strong>。30日間無料体験実施中。</div>
   <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: space-between; background: rgba(0,212,255,0.15); border: 1px solid #00d4ff; border-radius: 4px; text-decoration: none; padding: 10px 14px;">
     <span style="font-size: 12px; font-weight: 900; color: #ffffff; letter-spacing: 0.03em;">Amazon Musicで今すぐ聴く</span>
     <span style="font-size: 16px; color: #00d4ff;">›</span>
@@ -983,11 +1005,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>第4弾まで発表が完了し、総勢60組超の出演者が出揃いました！</p>
+<p>全出演者の歌唱曲が確定し、総勢60組超のラインナップが出揃いました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>アーティストの歌唱曲、詳細なタイムテーブルも発表済みです。</p>
+<p>各アーティストの歌唱曲は、上記の一覧と上部のタイムテーブルで確認できます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -999,7 +1021,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>総勢60組以上のアーティストの出演に加え、ヒット曲4500曲を大分析した「音楽物語ヒットパレード」、恒例のシャッフルメドレー、ブルーノ・マーズ日本テレビ初歌唱、&amp;TEAM・＝LOVEによるポケモンコラボステージなど、今年も見どころ満載です。</p>
+<p>総勢60組以上のアーティストの出演に加え、ヒット曲4500曲を大分析した「音楽物語ヒットパレード」、恒例のシャッフルメドレー、ブルーノ・マーズ日本テレビ初歌唱、&amp;TEAM・＝LOVEによるポケモンコラボステージなど、今年も見どころ満載だったんですよね。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -1025,8 +1047,8 @@
       <div style="background: #fff0f5; padding: 10px; border-radius: 4px; border: 2px solid #ff007f;">
         <div style="font-size: 11px; font-weight: 800; color: #ff007f; margin-bottom: 3px;">🎤 ブルーノ・マーズ 日本テレビ初歌唱！</div>
         <div style="font-size: 10.5px; color: #475569; padding-left: 5px; line-height: 1.4;">
-          16度のグラミー賞受賞・東京ドーム7連続公演を誇る世界的スターが待望の歌唱！<br>
-          2027年1月〜全国ドームツアー前の最注目ステージ
+          16度のグラミー賞受賞・東京ドーム7連続公演を誇る世界的スターが20:50頃に登場し「I Just Might」「Locked Out Of Heaven」を披露！<br>
+          2027年1月〜全国ドームツアー前の最注目ステージとなりました
         </div>
       </div>
 
@@ -1042,7 +1064,7 @@
         <div style="font-size: 11px; font-weight: 800; color: #b45309; margin-bottom: 3px;">▼ 音楽物語ヒットパレード</div>
         <div style="font-size: 10.5px; color: #475569; padding-left: 5px; line-height: 1.4;">
           昭和・平成・令和のヒット曲4500曲を歌詞分析し時代の言葉の変遷を解き明かすSP企画。<br>
-          酒井法子「碧いうさぎ」／BONNIE PINK「A Perfect Sky」（日テレ14年ぶり）／福原遥「secret base」（テレビ初披露）など一夜限りのSPライブを実施
+          酒井法子「碧いうさぎ」／BONNIE PINK「A Perfect Sky」（日テレ14年ぶり）／福原遥「secret base」（テレビ初披露）など一夜限りのSPライブが披露されました
         </div>
       </div>
 
@@ -1076,7 +1098,7 @@
     </div>
 
     <div style="margin-top: 10px; padding: 6px; background: rgba(255, 204, 0, 0.05); border-radius: 4px; font-size: 9.5px; color: #854d0e; text-align: center;">
-      7月4日(土)13:30〜22:54の長時間生放送中、順次披露されます。
+      7月4日(土)13:30〜22:54の生放送で、これらの企画が順次披露されました。
     </div>
   </div>
   <div style="height: 3px; background: linear-gradient(90deg, #ff007f 0%, #ffcc00 50%, #00ccff 100%);"></div>
@@ -1084,7 +1106,7 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>ヒット曲4500曲大分析「音楽物語ヒットパレード」や松本伊代×CUTIE STREETのコラボなど、今年も企画が盛りだくさんです！</p>
+<p>ヒット曲4500曲大分析「音楽物語ヒットパレード」や松本伊代×CUTIE STREETのコラボなど、今年も企画が盛りだくさんでした！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -1183,7 +1205,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>「THE MUSIC DAY 2026」の放送にあたってよくある疑問とその回答をまとめました。</p>
+<p>「THE MUSIC DAY 2026」の放送内容についてよくある疑問とその回答をまとめました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -1197,7 +1219,7 @@
     <div style="background: #ffffff; padding: 16px; border-top: 1px solid #edf2f7; display: flex; gap: 10px; align-items: flex-start;">
       <span style="font-family: sans-serif; font-size: 18px; font-weight: 900; color: #d4af37; line-height: 1;">A</span>
       <p style="font-size: 13px; line-height: 1.6; margin: 0; color: #4a5568;">
-        <strong>本日2026年7月4日（土）13:30～22:54</strong>の9時間半にわたり幕張メッセから生放送されます。総合司会は櫻井翔が務め、多数の豪華アーティストが「音楽の物語」をテーマにパフォーマンスを披露します。
+        <strong>2026年7月4日（土）13:30～22:54</strong>の9時間半にわたり幕張メッセから生放送されました。総合司会は櫻井翔が務め、多数の豪華アーティストが「音楽の物語」をテーマにパフォーマンスを披露しました。
       </p>
     </div>
   </div>
@@ -1205,12 +1227,12 @@
   <div style="margin-bottom: 20px; border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
     <div style="background: #f7f9fc; padding: 14px 16px; border-left: 4px solid #1a365d; display: flex; gap: 10px; align-items: flex-start;">
       <span style="font-family: sans-serif; font-size: 18px; font-weight: 900; color: #1a365d; line-height: 1;">Q</span>
-      <h3 style="font-size: 14px; font-weight: 700; color: #1a365d; margin: 0; line-height: 1.4; border: none; padding: 0;">ブルーノ・マーズはどんな出演内容ですか？</h3>
+      <h3 style="font-size: 14px; font-weight: 700; color: #1a365d; margin: 0; line-height: 1.4; border: none; padding: 0;">ブルーノ・マーズはどんな出演内容でしたか？</h3>
     </div>
     <div style="background: #ffffff; padding: 16px; border-top: 1px solid #edf2f7; display: flex; gap: 10px; align-items: flex-start;">
       <span style="font-family: sans-serif; font-size: 18px; font-weight: 900; color: #d4af37; line-height: 1;">A</span>
       <p style="font-size: 13px; line-height: 1.6; margin: 0; color: #4a5568;">
-        16度のグラミー賞受賞を誇る世界的スター、ブルーノ・マーズが登場します。番組内でのパフォーマンスや対談企画など、特別なステージが予定されていますのでぜひご注目ください。
+        16度のグラミー賞受賞を誇る世界的スター、ブルーノ・マーズが20:50頃に登場し「I Just Might」「Locked Out Of Heaven」の2曲を披露しました。日本テレビ初歌唱となる注目のステージでした。
       </p>
     </div>
   </div>
@@ -1218,12 +1240,12 @@
   <div style="margin-bottom: 20px; border: 1px solid #e2e8f0; border-radius: 6px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
     <div style="background: #f7f9fc; padding: 14px 16px; border-left: 4px solid #1a365d; display: flex; gap: 10px; align-items: flex-start;">
       <span style="font-family: sans-serif; font-size: 18px; font-weight: 900; color: #1a365d; line-height: 1;">Q</span>
-      <h3 style="font-size: 14px; font-weight: 700; color: #1a365d; margin: 0; line-height: 1.4; border: none; padding: 0;">タイムテーブルは公開されていますか？</h3>
+      <h3 style="font-size: 14px; font-weight: 700; color: #1a365d; margin: 0; line-height: 1.4; border: none; padding: 0;">見逃した出演者の登場時間は確認できますか？</h3>
     </div>
     <div style="background: #ffffff; padding: 16px; border-top: 1px solid #edf2f7; display: flex; gap: 10px; align-items: flex-start;">
       <span style="font-family: sans-serif; font-size: 18px; font-weight: 900; color: #d4af37; line-height: 1;">A</span>
       <p style="font-size: 13px; line-height: 1.6; margin: 0; color: #4a5568;">
-        はい、全時間帯の出演者情報とタイムテーブルはすでに発表済みです。公式サイトや各種メディアで確認可能です。放送開始までの間に、ぜひお手元でチェックしながら準備を整えてお待ちください。
+        はい。この記事内の「タイムテーブルと出演順番」で、13時台から22時台まで確定した全出演順・歌唱曲を時間帯ごとにまとめています。
       </p>
     </div>
   </div>
@@ -1236,7 +1258,7 @@
     <div style="background: #ffffff; padding: 16px; border-top: 1px solid #edf2f7; display: flex; gap: 10px; align-items: flex-start;">
       <span style="font-family: sans-serif; font-size: 18px; font-weight: 900; color: #d4af37; line-height: 1;">A</span>
       <p style="font-size: 13px; line-height: 1.6; margin: 0; color: #4a5568;">
-        番組終了後、<a href="https://tver.jp/series/srzvz0lo89" target="_blank" style="color: #0284c7; text-decoration: underline;">TVer（公式サイト）</a>にて見逃し配信が予定されています。ただし、権利関係により一部楽曲やアーティストのパフォーマンスは配信されない可能性があるため、大切なシーンは<span style="background: linear-gradient(transparent 60%, #fff3cd 60%); font-weight: 600; color: #b7791f;">放送当日のリアルタイム視聴または録画</span>を強くおすすめします！
+        番組終了後、<a href="https://tver.jp/series/srzvz0lo89" target="_blank" style="color: #0284c7; text-decoration: underline;">TVer（公式サイト）</a>にて見逃し配信が実施されています。ただし、権利関係により一部楽曲やアーティストのパフォーマンスは配信されない場合があるため、配信対象外のシーンはこの記事のタイムテーブルで内容をご確認ください。
       </p>
     </div>
   </div>
@@ -1249,27 +1271,27 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>『THE MUSIC DAY 2026』は、7月4日（土）13時30分から9時間半の生放送で開催！</p>
+<p>「THE MUSIC DAY 2026」は、7月4日（土）13時30分から9時間半にわたり生放送されました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>今年のテーマは「音楽の物語」。ブルーノ・マーズの日本テレビ初歌唱をはじめ、総勢60組超のアーティストが出演します。</p>
+<p>今年のテーマは「音楽の物語」。ブルーノ・マーズの日本テレビ初歌唱をはじめ、総勢60組超のアーティストが出演しました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演順（タイムテーブル）はすでに公開済みです。上記の速報スケジュールにて最新の出演時間帯をご確認ください。</p>
+<p>出演順（タイムテーブル）は上記に確定版としてまとめています。見逃した場面のチェックに役立ててください。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>恒例の「シャッフルメドレー」（STARTO42名・12組）・ヒット曲4500曲分析企画・HANA×渡辺直美NYコラボ・&amp;TEAM×＝LOVEのポケモンコラボステージなど、FUNKY MONKEY BΛBY'SやB.B.クィーンズら平成ヒットメーカーの参加も加わり見どころ満載の9時間半です。</p>
+<p>恒例の「シャッフルメドレー」（STARTO42名・12組）・ヒット曲4500曲分析企画・HANA×渡辺直美NYコラボ・&amp;TEAM×＝LOVEのポケモンコラボステージなど、FUNKY MONKEY BΛBY'SやB.B.クィーンズら平成ヒットメーカーの参加も加わり見どころ満載の9時間半となりました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>最新情報を随時更新しますので、ぜひブックマークして当日をお待ちください！</p>
+<p>来年の「THE MUSIC DAY」開催が決まり次第、この記事を更新してお届けします。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>放送前に出演者60組超の楽曲を予習したい方は、<a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer">Amazon Music（30日間無料体験）</a>がおすすめです。</p>
+<p>気になったアーティストの楽曲をおさらいしたい方は、<a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer">Amazon Music（30日間無料体験）</a>がおすすめです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -1377,8 +1399,8 @@
     {
       "@type": "BlogPosting",
       "@id": "https://shira-treat.com/the-musicday-timetable/#post",
-      "headline": "THE MUSIC DAY 2026 タイムテーブル＆出演順番は？最新情報まとめ",
-      "description": "「THE MUSIC DAY 2026」7月4日放送の最新情報！ブルーノ・マーズ日本テレビ初歌唱、シャッフルメドレー全曲解禁など豪華出演者のタイムテーブル・出演順を放送直前まで速報更新します。",
+      "headline": "THE MUSIC DAY 2026 タイムテーブル＆出演順番｜放送アーカイブまとめ",
+      "description": "「THE MUSIC DAY 2026」7月4日放送の全出演順・タイムテーブルを振り返り。ブルーノ・マーズ初歌唱やシャッフルメドレーなど、確定した見どころを時間帯ごとにまとめました。",
       "url": "https://shira-treat.com/the-musicday-timetable/",
       "mainEntityOfPage": {
         "@id": "https://shira-treat.com/the-musicday-timetable/"
@@ -1388,7 +1410,7 @@
       "keywords": ["THE MUSIC DAY", "THE MUSIC DAY 2026", "タイムテーブル", "出演順番", "日本テレビ 音楽番組", "シャッフルメドレー", "ブルーノ・マーズ", "家入レオ", "島谷ひとみ", "NCT WISH", "FUNKY MONKEY BΛBY'S", "バブルガム・ブラザーズ", "＝LOVE", "&TEAM", "櫻井翔"],
       "datePublished": "2026-04-27T00:00:00+09:00",
       "dateCreated": "2026-04-27T00:00:00+09:00",
-      "dateModified": "2026-07-04T13:00:00+09:00",
+      "dateModified": "2026-07-21T15:00:00+09:00",
       "image": {
         "@id": "https://shira-treat.com/the-musicday-timetable/#heroimage"
       },
@@ -1515,7 +1537,7 @@
       "@type": "BroadcastEvent",
       "@id": "https://shira-treat.com/the-musicday-timetable/#broadcast",
       "name": "THE MUSIC DAY 2026",
-      "description": "日本テレビ系「THE MUSIC DAY 2026」。テーマは「音楽の物語」。ブルーノ・マーズ日本テレビ初歌唱・シャッフルメドレー・音楽物語ヒットパレード実施。出演順（タイムテーブル）確定。総合司会・櫻井翔による9時間半の生放送。",
+      "description": "日本テレビ系「THE MUSIC DAY 2026」。テーマは「音楽の物語」。ブルーノ・マーズ日本テレビ初歌唱・シャッフルメドレー・音楽物語ヒットパレードを実施し、9時間半の生放送を終了。全出演順（タイムテーブル）が確定。総合司会は櫻井翔。",
       "startDate": "2026-07-04T13:30:00+09:00",
       "endDate": "2026-07-04T22:54:00+09:00",
       "isLiveBroadcast": true,
@@ -1531,23 +1553,23 @@
           "name": "2026年の放送日時と出演規模は？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "本日2026年7月4日（土）13:30～22:54の9時間半にわたり幕張メッセから生放送されます。総合司会は櫻井翔が務め、多数の豪華アーティストが「音楽の物語」をテーマにパフォーマンスを披露します。"
+            "text": "2026年7月4日（土）13:30～22:54の9時間半にわたり幕張メッセから生放送されました。総合司会は櫻井翔が務め、多数の豪華アーティストが「音楽の物語」をテーマにパフォーマンスを披露しました。"
           }
         },
         {
           "@type": "Question",
-          "name": "ブルーノ・マーズはどんな出演内容ですか？",
+          "name": "ブルーノ・マーズはどんな出演内容でしたか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "16度のグラミー賞受賞を誇る世界的スター、ブルーノ・マーズが登場します。番組内でのパフォーマンスや対談企画など、特別なステージが予定されていますのでぜひご注目ください。"
+            "text": "16度のグラミー賞受賞を誇る世界的スター、ブルーノ・マーズが20:50頃に登場し「I Just Might」「Locked Out Of Heaven」の2曲を披露しました。日本テレビ初歌唱となる注目のステージでした。"
           }
         },
         {
           "@type": "Question",
-          "name": "タイムテーブルは公開されていますか？",
+          "name": "見逃した出演者の登場時間は確認できますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "はい、全時間帯の出演者情報とタイムテーブルはすでに発表済みです。公式サイトや各種メディアで確認可能です。放送開始までの間に、ぜひお手元でチェックしながら準備を整えてお待ちください。"
+            "text": "はい。この記事内の「タイムテーブルと出演順番」で、13時台から22時台まで確定した全出演順・歌唱曲を時間帯ごとにまとめています。"
           }
         },
         {
@@ -1555,7 +1577,7 @@
           "name": "見逃し配信はありますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "番組終了後、TVerにて見逃し配信が予定されています。ただし、権利関係により一部楽曲やアーティストのパフォーマンスは配信されない可能性があるため、大切なシーンは放送当日のリアルタイム視聴または録画を強くおすすめします！"
+            "text": "番組終了後、TVerにて見逃し配信が実施されています。ただし、権利関係により一部楽曲やアーティストのパフォーマンスは配信されない場合があるため、配信対象外のシーンはこの記事のタイムテーブルで内容をご確認ください。"
           }
         }
       ]
