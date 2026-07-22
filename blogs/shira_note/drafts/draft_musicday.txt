@@ -671,6 +671,8 @@
     </div>
   </div>
 </div>
+
+</div>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
@@ -765,7 +767,7 @@
 <!-- /wp:html -->
 
 <!-- wp:heading -->
-<h2>2026年の出演者や歌唱曲セットリスト</h2>
+<h2>THE MUSIC DAY 2026の出演者や歌唱曲セットリスト</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":6192,"sizeSlug":"full","linkDestination":"none"} -->
@@ -1013,7 +1015,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>今年はどんな内容？注目の特別企画や見どころ</h2>
+<h2>THE MUSIC DAY 2026はどんな内容？注目の特別企画や見どころ</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -1201,7 +1203,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>よくある質問（FAQ）</h2>
+<h2>THE MUSIC DAYに関するよくある質問（FAQ）</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -1267,7 +1269,7 @@
 <!-- /wp:html -->
 
 <!-- wp:heading -->
-<h2>まとめ</h2>
+<h2>THE MUSIC DAY 2026 まとめ</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
