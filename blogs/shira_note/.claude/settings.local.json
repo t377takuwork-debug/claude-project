@@ -16,7 +16,8 @@
       "Bash(C:/Users/PC_User/AppData/Local/Python/bin/python.exe *)",
       "PowerShell(cd \"C:\\\\Users\\\\PC_User\\\\claude project\\\\blogs\\\\shira_note\"; & \"C:\\\\Users\\\\PC_User\\\\AppData\\\\Local\\\\Python\\\\bin\\\\python.exe\" tools/qa_draft.py draft_cdtv.txt; Write-Output \"EXITCODE:$LASTEXITCODE\")",
       "Bash(\"/c/Users/PC_User/AppData/Local/Python/bin/python.exe\" tools/qa_draft.py draft_mste_archive.txt)",
-      "PowerShell(& \"C:\\\\Users\\\\PC_User\\\\AppData\\\\Local\\\\Python\\\\bin\\\\python.exe\" -c \"import requests, bs4; print\\('ok'\\)\")"
+      "PowerShell(& \"C:\\\\Users\\\\PC_User\\\\AppData\\\\Local\\\\Python\\\\bin\\\\python.exe\" -c \"import requests, bs4; print\\('ok'\\)\")",
+      "PowerShell($t1=\"【最新】STAR タイムテーブル 7月30日は何時から？出演順や出演時間更新！\"; $m1=\"7/30放送のフジテレビ音楽番組『STAR』出演アーティスト・歌唱曲・タイムテーブル速報。NCT WISH初のJ-POPリメイク、Number_i神宮寺勇太プロデュース曲、モアナ関連スペシャルステージなど随時更新！\"; \"title=$\\($t1.Length\\)\"; \"meta=$\\($m1.Length\\)\")"
     ]
   }
 }
