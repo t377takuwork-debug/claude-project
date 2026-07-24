@@ -14,6 +14,7 @@ Usage:
   [ERROR] 文字化け（U+FFFD）混入
   [ERROR] WPブロックコメントの開閉不一致（wp:paragraph / wp:html / wp:heading 等）
   [ERROR] ショートコードとテキストの同一<p>混在（[nopc][title]等は独立ブロック必須）
+  [ERROR] [nopc][originalsc][/nopc]と[kanrenad]の連続配置（間に本文段落が必要 — rewrite_common_rules.md 4章）
   [ERROR] JSON-LDのパースエラー
   [ERROR] JSON-LDの@id/urlが固定記事URL（NAV_FIXED_URLS）と不一致（スラッグ誤記検知）
   [ERROR] メタディスクリプションとJSON-LD descriptionの不一致
@@ -282,6 +283,31 @@ def check_shortcode_isolation(lines: list[str], rep: Report):
             stripped = re.sub(r"\[/?nopc\]|\[/?[a-z]+\]", "", inner).strip()
             if stripped:
                 rep.error(f"L{i+1}: ショートコードとテキストが同一<p>に混在 → {ctx(line)}")
+
+
+SHORTCODE_ADJACENCY_MARKERS = [
+    re.compile(r"<p>\[nopc\]\[originalsc\]\[/nopc\]</p>"),
+    re.compile(r"<p>\[kanrenad\]</p>"),
+]
+
+
+def check_shortcode_adjacency(lines: list[str], rep: Report):
+    """[nopc][originalsc][/nopc]と[kanrenad]を連続配置していないか（間に本文段落が必要）"""
+    marker_idxs = [
+        i
+        for i, line in enumerate(lines)
+        if any(p.search(line) for p in SHORTCODE_ADJACENCY_MARKERS)
+    ]
+    for prev, cur in zip(marker_idxs, marker_idxs[1:]):
+        between = lines[prev + 1 : cur]
+        has_content = any(
+            l.strip() and not re.match(r"<!--\s*/?wp:paragraph\s*-->$", l.strip())
+            for l in between
+        )
+        if not has_content:
+            rep.error(
+                f"L{prev+1}/L{cur+1}: [originalsc]と[kanrenad]が連続配置（間に本文段落が必要 — rewrite_common_rules.md 4章）"
+            )
 
 
 def check_jsonld(text: str, rep: Report) -> list[str]:
@@ -663,6 +689,7 @@ def run_qa(path: str) -> Report:
     check_mojibake(lines, rep)
     check_wp_blocks(text, rep)
     check_shortcode_isolation(lines, rep)
+    check_shortcode_adjacency(lines, rep)
     descriptions = check_jsonld(text, rep)
     check_jsonld_canonical_url(text, os.path.basename(path), rep)
     check_meta_description(text, descriptions, rep)
