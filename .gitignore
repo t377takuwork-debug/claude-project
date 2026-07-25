@@ -15,3 +15,4 @@ blogs/vtuber_log/tools/connect_test_state.json
 blogs/vtuber_log/assets/*
 !blogs/vtuber_log/assets/README.md
 brands/mbticode/tools/threads_auth.local.json
+brands/mbticode/tools/sheets_service_account.local.json
