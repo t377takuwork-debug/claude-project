@@ -5,12 +5,15 @@
 //   1. Add a tab named exactly SETUP_SHEET_NAME with:
 //        A1: access_token       B1: <paste the token>
 //        A2: threads_user_id    B2: <paste the numeric id>
+//        A3: github_token       B3: <paste a GitHub PAT with Contents read/write on this repo>
 //   2. setup() - reads B1/B2, stores them in Script Properties, then clears
 //      B1/B2 so the token doesn't sit visibly in the sheet. No dialogs involved,
 //      so it works regardless of which tab/window is focused when you click Run.
+//   2b. setupGithubToken() - same idea for B3 (see GitHub relay section below).
 //   3. installTriggers() - creates the 08:00 / 12:00 / 22:00 posting triggers,
-//      the daily 23:30 insight-collection trigger, and the weekly (Mon 07:00)
-//      token refresh trigger.
+//      the daily 23:30 insight-collection / 23:35 observation-log / 23:40
+//      GitHub-sync triggers, the weekly (Mon 07:00) token refresh trigger, and
+//      the weekly (Sun 21:00) GitHub batch-pull trigger.
 //
 // Sheet: a tab named exactly SHEET_NAME, row 1 = header, columns in this order:
 //   投稿日時 | 本文 | リプライ本文 | 型 | FW | ステータス | 投稿ID | リプライ投稿ID
@@ -46,6 +49,25 @@ const OCOL = {
   ENGAGEMENT_RATE: 8, REPLY_RATE: 9, LIKE_RATE: 10, REPOST_RATE: 11, RECORDED_AT: 12
 };
 const BASE = "https://graph.threads.net/v1.0";
+
+// GitHub relay (2026-07-26notekaigi Phase3 redesign): the cloud routine's
+// sandbox cannot reach script.google.com (egress policy blocks it, confirmed
+// by testing), so instead of the cloud agent calling this Web App directly,
+// data flows one-way through the GitHub repo, which the cloud agent CAN
+// reach (it clones the repo already):
+//   syncDataToGitHub()   : Apps Script -> GitHub. Daily. Writes the same
+//                          payload as doGet(?action=data) to GITHUB_SYNC_PATH.
+//   pullBatchFromGitHub(): GitHub -> Apps Script. Weekly. Reads rows the
+//                          cloud agent committed to GITHUB_BATCH_PATH,
+//                          appends them to the queue, then deletes the file
+//                          (consumed-once semantics, so a stale batch never
+//                          gets re-applied the following week).
+const GITHUB_OWNER = "t377takuwork-debug";
+const GITHUB_REPO = "claude-project";
+const GITHUB_BRANCH = "main";
+const GITHUB_SYNC_PATH = "brands/mbticode/tools/_synced_observation_data.json";
+const GITHUB_BATCH_PATH = "brands/mbticode/tools/_pending_batch.json";
+const GITHUB_API_BASE = "https://api.github.com";
 
 // Debug helper: lists every sheet/tab name this script actually sees, with
 // its exact length (to catch stray spaces/invisible characters).
@@ -83,6 +105,189 @@ function setupWebhookSecret() {
   Logger.log("Webhook secret generated (copy this now, it will not be shown again by this function): " + secret);
 }
 
+// One-time: paste a GitHub Personal Access Token (Contents: read/write scope
+// on this repo) into 設定 tab B3, then run this once. Needed for
+// syncDataToGitHub()/pullBatchFromGitHub() to call the GitHub Contents API.
+function setupGithubToken() {
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SETUP_SHEET_NAME);
+  if (!sheet) { Logger.log('ERROR: sheet "' + SETUP_SHEET_NAME + '" not found. Create it first.'); return; }
+  const token = String(sheet.getRange("B3").getValue()).trim();
+  if (!token) { Logger.log("setupGithubToken aborted: B3 (github_token) is empty"); return; }
+  PropertiesService.getScriptProperties().setProperty("GITHUB_TOKEN", token);
+  sheet.getRange("B3").clearContent();
+  Logger.log("setupGithubToken OK: saved to Script Properties, and cleared B3 from the sheet");
+}
+
+function githubHeaders() {
+  const token = PropertiesService.getScriptProperties().getProperty("GITHUB_TOKEN");
+  return { "Authorization": "token " + token, "Accept": "application/vnd.github+json" };
+}
+
+// Returns { content(base64), sha } or null if the file doesn't exist (404).
+function githubGetFile(path) {
+  const url = GITHUB_API_BASE + "/repos/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/contents/" + path + "?ref=" + GITHUB_BRANCH;
+  const resp = UrlFetchApp.fetch(url, { headers: githubHeaders(), muteHttpExceptions: true });
+  if (resp.getResponseCode() === 404) return null;
+  if (resp.getResponseCode() >= 300) throw new Error("GitHub GET failed: HTTP " + resp.getResponseCode() + " " + resp.getContentText());
+  return JSON.parse(resp.getContentText());
+}
+
+function githubPutFile(path, contentObj, message) {
+  const existing = githubGetFile(path);
+  const body = {
+    message: message,
+    content: Utilities.base64Encode(JSON.stringify(contentObj, null, 2), Utilities.Charset.UTF_8),
+    branch: GITHUB_BRANCH
+  };
+  if (existing) body.sha = existing.sha;
+  const url = GITHUB_API_BASE + "/repos/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/contents/" + path;
+  const resp = UrlFetchApp.fetch(url, {
+    method: "put", headers: githubHeaders(), contentType: "application/json",
+    payload: JSON.stringify(body), muteHttpExceptions: true
+  });
+  if (resp.getResponseCode() >= 300) throw new Error("GitHub PUT failed: HTTP " + resp.getResponseCode() + " " + resp.getContentText());
+  return JSON.parse(resp.getContentText());
+}
+
+function githubDeleteFile(path, sha, message) {
+  const url = GITHUB_API_BASE + "/repos/" + GITHUB_OWNER + "/" + GITHUB_REPO + "/contents/" + path;
+  const resp = UrlFetchApp.fetch(url, {
+    method: "delete", headers: githubHeaders(), contentType: "application/json",
+    payload: JSON.stringify({ message: message, sha: sha, branch: GITHUB_BRANCH }), muteHttpExceptions: true
+  });
+  if (resp.getResponseCode() >= 300) throw new Error("GitHub DELETE failed: HTTP " + resp.getResponseCode() + " " + resp.getContentText());
+}
+
+// Shared by doGet(?action=data) and syncDataToGitHub() so both expose the
+// exact same payload shape.
+function buildObservationPayload() {
+  const obsSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(OBS_SHEET_NAME);
+  const observations = [];
+  if (obsSheet) {
+    const rows = obsSheet.getDataRange().getValues();
+    for (let r = 1; r < rows.length; r++) {
+      const row = rows[r];
+      if (!row[OCOL.DATE - 1]) continue;
+      observations.push({
+        date: row[OCOL.DATE - 1] instanceof Date
+          ? Utilities.formatDate(row[OCOL.DATE - 1], Session.getScriptTimeZone(), "yyyy-MM-dd")
+          : String(row[OCOL.DATE - 1]),
+        post_count: row[OCOL.POST_COUNT - 1], views: row[OCOL.VIEWS - 1], likes: row[OCOL.LIKES - 1],
+        replies: row[OCOL.REPLIES - 1], reposts: row[OCOL.REPOSTS - 1], quotes: row[OCOL.QUOTES - 1],
+        engagement_rate: row[OCOL.ENGAGEMENT_RATE - 1], reply_rate: row[OCOL.REPLY_RATE - 1],
+        like_rate: row[OCOL.LIKE_RATE - 1], repost_rate: row[OCOL.REPOST_RATE - 1]
+      });
+    }
+  }
+
+  const queueSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME);
+  const insightSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(INSIGHTS_SHEET_NAME);
+  const insightByPostId = {};
+  if (insightSheet) {
+    const irows = insightSheet.getDataRange().getValues();
+    for (let r = 1; r < irows.length; r++) {
+      const row = irows[r];
+      if (!row[ICOL.POST_ID - 1]) continue;
+      insightByPostId[row[ICOL.POST_ID - 1]] = {
+        views: row[ICOL.VIEWS - 1], likes: row[ICOL.LIKES - 1], replies: row[ICOL.REPLIES - 1],
+        reposts: row[ICOL.REPOSTS - 1], quotes: row[ICOL.QUOTES - 1]
+      };
+    }
+  }
+  const posts = [];
+  if (queueSheet) {
+    const qrows = queueSheet.getDataRange().getValues();
+    for (let r = 1; r < qrows.length; r++) {
+      const row = qrows[r];
+      const postId = row[COL.POST_ID - 1];
+      if (row[COL.STATUS - 1] !== "投稿済み" || !postId) continue;
+      const m = insightByPostId[postId] || {};
+      posts.push({
+        post_id: postId,
+        datetime: row[COL.DATETIME - 1] instanceof Date
+          ? Utilities.formatDate(row[COL.DATETIME - 1], Session.getScriptTimeZone(), "yyyy-MM-dd HH:mm")
+          : String(row[COL.DATETIME - 1]),
+        body: row[COL.TEXT - 1], type: row[COL.TYPE - 1], fw: row[COL.FW - 1],
+        views: m.views || 0, likes: m.likes || 0, replies: m.replies || 0,
+        reposts: m.reposts || 0, quotes: m.quotes || 0
+      });
+    }
+  }
+
+  return { generated_at: new Date().toISOString(), observations: observations, posts: posts };
+}
+
+// Daily (after dailyObservationLog, e.g. 23:40): mirrors the observation
+// payload into the GitHub repo so the cloud routine (which cannot reach
+// script.google.com) can read fresh data via its own repo checkout.
+function syncDataToGitHub() {
+  const token = PropertiesService.getScriptProperties().getProperty("GITHUB_TOKEN");
+  if (!token) { Logger.log("ERROR: GITHUB_TOKEN not set. Run setupGithubToken() first."); return; }
+  try {
+    githubPutFile(GITHUB_SYNC_PATH, buildObservationPayload(),
+      "Auto-sync Threads observation data (" + Utilities.formatDate(new Date(), Session.getScriptTimeZone(), "yyyy-MM-dd") + ")");
+    Logger.log("syncDataToGitHub: OK");
+  } catch (e) {
+    Logger.log("syncDataToGitHub: ERROR " + e.message);
+  }
+}
+
+// Weekly (e.g. Sunday 21:00 JST, after the cloud routine's 18:00 JST run):
+// reads GITHUB_BATCH_PATH (rows the cloud agent committed after passing the
+// qa_post.py gate), appends them to the queue with the same safety guards as
+// doPost, then deletes the file so it's never re-applied.
+function pullBatchFromGitHub() {
+  const token = PropertiesService.getScriptProperties().getProperty("GITHUB_TOKEN");
+  if (!token) { Logger.log("ERROR: GITHUB_TOKEN not set. Run setupGithubToken() first."); return; }
+
+  let file;
+  try {
+    file = githubGetFile(GITHUB_BATCH_PATH);
+  } catch (e) {
+    Logger.log("pullBatchFromGitHub: ERROR fetching file: " + e.message);
+    return;
+  }
+  if (!file) { Logger.log("pullBatchFromGitHub: no pending batch file found, nothing to do"); return; }
+
+  let payload;
+  try {
+    const jsonStr = Utilities.newBlob(Utilities.base64Decode(file.content.replace(/\n/g, ""))).getDataAsString("UTF-8");
+    payload = JSON.parse(jsonStr);
+  } catch (e) {
+    Logger.log("pullBatchFromGitHub: ERROR parsing batch JSON: " + e.message);
+    return;
+  }
+
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME);
+  if (!sheet) { Logger.log('ERROR: sheet "' + SHEET_NAME + '" not found'); return; }
+  const existing = sheet.getDataRange().getValues();
+  const existingSerials = {};
+  for (let r = 1; r < existing.length; r++) {
+    const v = existing[r][COL.DATETIME - 1];
+    if (v instanceof Date) existingSerials[Math.round((v - new Date(1899, 11, 30)) / 86400000 * 1e6) / 1e6] = true;
+  }
+
+  const now = new Date();
+  let added = 0, skippedPast = 0, skippedDupe = 0;
+  (payload.rows || []).forEach(function (row) {
+    const dt = new Date(String(row.datetime).replace(" ", "T") + ":00");
+    if (isNaN(dt.getTime()) || dt < now) { skippedPast++; return; }
+    const serial = Math.round((dt - new Date(1899, 11, 30)) / 86400000 * 1e6) / 1e6;
+    if (existingSerials[serial]) { skippedDupe++; return; }
+    sheet.appendRow([dt, row.body || "", row.reply || "", row.type || "", row.fw || "", "", "", ""]);
+    existingSerials[serial] = true;
+    added++;
+  });
+
+  try {
+    githubDeleteFile(GITHUB_BATCH_PATH, file.sha,
+      "Consume pending Threads batch (" + Utilities.formatDate(new Date(), Session.getScriptTimeZone(), "yyyy-MM-dd") + ")");
+  } catch (e) {
+    Logger.log("pullBatchFromGitHub: WARNING failed to delete consumed file: " + e.message);
+  }
+  Logger.log("pullBatchFromGitHub: added=" + added + " skippedPast=" + skippedPast + " skippedDupe=" + skippedDupe);
+}
+
 function checkSecret(param) {
   const expected = PropertiesService.getScriptProperties().getProperty("WEBHOOK_SECRET");
   return expected && param === expected;
@@ -102,60 +307,7 @@ function doGet(e) {
   if (!checkSecret(params.secret)) return jsonResponse({ error: "invalid secret" });
 
   if (params.action === "data") {
-    const obsSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(OBS_SHEET_NAME);
-    const observations = [];
-    if (obsSheet) {
-      const rows = obsSheet.getDataRange().getValues();
-      for (let r = 1; r < rows.length; r++) {
-        const row = rows[r];
-        if (!row[OCOL.DATE - 1]) continue;
-        observations.push({
-          date: row[OCOL.DATE - 1] instanceof Date
-            ? Utilities.formatDate(row[OCOL.DATE - 1], Session.getScriptTimeZone(), "yyyy-MM-dd")
-            : String(row[OCOL.DATE - 1]),
-          post_count: row[OCOL.POST_COUNT - 1], views: row[OCOL.VIEWS - 1], likes: row[OCOL.LIKES - 1],
-          replies: row[OCOL.REPLIES - 1], reposts: row[OCOL.REPOSTS - 1], quotes: row[OCOL.QUOTES - 1],
-          engagement_rate: row[OCOL.ENGAGEMENT_RATE - 1], reply_rate: row[OCOL.REPLY_RATE - 1],
-          like_rate: row[OCOL.LIKE_RATE - 1], repost_rate: row[OCOL.REPOST_RATE - 1]
-        });
-      }
-    }
-
-    const queueSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME);
-    const insightSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(INSIGHTS_SHEET_NAME);
-    const insightByPostId = {};
-    if (insightSheet) {
-      const irows = insightSheet.getDataRange().getValues();
-      for (let r = 1; r < irows.length; r++) {
-        const row = irows[r];
-        if (!row[ICOL.POST_ID - 1]) continue;
-        insightByPostId[row[ICOL.POST_ID - 1]] = {
-          views: row[ICOL.VIEWS - 1], likes: row[ICOL.LIKES - 1], replies: row[ICOL.REPLIES - 1],
-          reposts: row[ICOL.REPOSTS - 1], quotes: row[ICOL.QUOTES - 1]
-        };
-      }
-    }
-    const posts = [];
-    if (queueSheet) {
-      const qrows = queueSheet.getDataRange().getValues();
-      for (let r = 1; r < qrows.length; r++) {
-        const row = qrows[r];
-        const postId = row[COL.POST_ID - 1];
-        if (row[COL.STATUS - 1] !== "投稿済み" || !postId) continue;
-        const m = insightByPostId[postId] || {};
-        posts.push({
-          post_id: postId,
-          datetime: row[COL.DATETIME - 1] instanceof Date
-            ? Utilities.formatDate(row[COL.DATETIME - 1], Session.getScriptTimeZone(), "yyyy-MM-dd HH:mm")
-            : String(row[COL.DATETIME - 1]),
-          body: row[COL.TEXT - 1], type: row[COL.TYPE - 1], fw: row[COL.FW - 1],
-          views: m.views || 0, likes: m.likes || 0, replies: m.replies || 0,
-          reposts: m.reposts || 0, quotes: m.quotes || 0
-        });
-      }
-    }
-
-    return jsonResponse({ generated_at: new Date().toISOString(), observations: observations, posts: posts });
+    return jsonResponse(buildObservationPayload());
   }
 
   return jsonResponse({ error: "unknown action" });
@@ -212,9 +364,11 @@ function installTriggers() {
   });
   ScriptApp.newTrigger("collectInsights").timeBased().everyDays(1).atHour(23).nearMinute(30).create();
   ScriptApp.newTrigger("dailyObservationLog").timeBased().everyDays(1).atHour(23).nearMinute(35).create();
+  ScriptApp.newTrigger("syncDataToGitHub").timeBased().everyDays(1).atHour(23).nearMinute(40).create();
   ScriptApp.newTrigger("checkHealth").timeBased().everyDays(1).atHour(23).nearMinute(45).create();
   ScriptApp.newTrigger("refreshToken").timeBased().onWeekDay(ScriptApp.WeekDay.MONDAY).atHour(7).create();
-  Logger.log("triggers installed: postScheduled 08:00/12:00/22:00 daily, collectInsights 23:30 daily, dailyObservationLog 23:35 daily, checkHealth 23:45 daily, refreshToken Mon 07:00");
+  ScriptApp.newTrigger("pullBatchFromGitHub").timeBased().onWeekDay(ScriptApp.WeekDay.SUNDAY).atHour(21).create();
+  Logger.log("triggers installed: postScheduled 08:00/12:00/22:00 daily, collectInsights 23:30 daily, dailyObservationLog 23:35 daily, syncDataToGitHub 23:40 daily, checkHealth 23:45 daily, refreshToken Mon 07:00, pullBatchFromGitHub Sun 21:00");
 }
 
 // Daily (Phase2, 2026-07-26notekaigi): re-aggregates INSIGHTS_SHEET_NAME into
@@ -285,8 +439,11 @@ function checkHealth() {
   if (!props.getProperty("THREADS_ACCESS_TOKEN") || !props.getProperty("THREADS_USER_ID")) {
     problems.push("トークンまたはユーザーIDがScript Propertiesに存在しません（setup()を再実行してください）");
   }
+  if (!props.getProperty("GITHUB_TOKEN")) {
+    problems.push("GITHUB_TOKENがScript Propertiesに存在しません（setupGithubToken()を再実行してください）");
+  }
 
-  const expectedTriggers = ["postScheduled", "collectInsights", "dailyObservationLog", "checkHealth", "refreshToken"];
+  const expectedTriggers = ["postScheduled", "collectInsights", "dailyObservationLog", "syncDataToGitHub", "checkHealth", "refreshToken", "pullBatchFromGitHub"];
   const installed = ScriptApp.getProjectTriggers().map(function (t) { return t.getHandlerFunction(); });
   expectedTriggers.forEach(function (fn) {
     if (installed.indexOf(fn) === -1) problems.push("トリガー未設定: " + fn + "（installTriggers()を再実行してください）");
