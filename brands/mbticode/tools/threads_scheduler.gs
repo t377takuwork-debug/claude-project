@@ -580,6 +580,12 @@ function collectInsights() {
       continue;
     }
 
+    // Threads' replies metric counts every reply attached to the post,
+    // including our own seeding self-reply (row[COL.REPLY_POST_ID]) —
+    // subtract it so reply_rate/engagement_rate reflect real audience reactions only.
+    let replies = metrics.replies || 0;
+    if (row[COL.REPLY_POST_ID - 1]) replies = Math.max(0, replies - 1);
+
     const targetRow = existingRow[postId] || (insightSheet.getLastRow() + 1);
     insightSheet.getRange(targetRow, ICOL.POST_ID).setValue(postId);
     insightSheet.getRange(targetRow, ICOL.DATETIME).setValue(row[COL.DATETIME - 1]);
@@ -587,7 +593,7 @@ function collectInsights() {
     insightSheet.getRange(targetRow, ICOL.FW).setValue(row[COL.FW - 1]);
     insightSheet.getRange(targetRow, ICOL.VIEWS).setValue(metrics.views || 0);
     insightSheet.getRange(targetRow, ICOL.LIKES).setValue(metrics.likes || 0);
-    insightSheet.getRange(targetRow, ICOL.REPLIES).setValue(metrics.replies || 0);
+    insightSheet.getRange(targetRow, ICOL.REPLIES).setValue(replies);
     insightSheet.getRange(targetRow, ICOL.REPOSTS).setValue(metrics.reposts || 0);
     insightSheet.getRange(targetRow, ICOL.QUOTES).setValue(metrics.quotes || 0);
     insightSheet.getRange(targetRow, ICOL.FETCHED_AT).setValue(new Date());
