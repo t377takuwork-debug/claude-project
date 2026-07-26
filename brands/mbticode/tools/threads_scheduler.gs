@@ -23,12 +23,28 @@
 //   投稿ID | 投稿日時 | 型 | FW | Views | Likes | Replies | Reposts | Quotes | 取得日時
 // One row per post, overwritten in place each day collectInsights() runs
 // (a snapshot of "latest known numbers", not a full history timeline).
+//
+// Daily observation log (2026-07-26notekaigi Phase2): a tab named exactly
+// OBS_SHEET_NAME, row 1 = header:
+//   日付 | 集計対象投稿数 | 合計Views | 合計Likes | 合計Replies | 合計Reposts |
+//   合計Quotes | エンゲージ率(%) | 返信率(%) | いいね率(%) | リポスト率(%) | 記録日時
+// dailyObservationLog() re-aggregates the whole INSIGHTS_SHEET_NAME every run
+// and upserts one row per calendar date (keyed by 日付), so this is a rolling
+// "cumulative snapshot as of that day" series, not a per-day delta. This is
+// collection only — no judgment/adjustment happens here (that stays weekly,
+// Phase3, with a human-agreed variable list and the qa_post.py content-policy
+// gate in front of anything auto-posted).
 
 const SHEET_NAME = "Threads投稿キュー";
 const SETUP_SHEET_NAME = "設定";
 const INSIGHTS_SHEET_NAME = "インサイト";
+const OBS_SHEET_NAME = "日次観測ログ";
 const COL = { DATETIME: 1, TEXT: 2, REPLY: 3, TYPE: 4, FW: 5, STATUS: 6, POST_ID: 7, REPLY_POST_ID: 8 };
 const ICOL = { POST_ID: 1, DATETIME: 2, TYPE: 3, FW: 4, VIEWS: 5, LIKES: 6, REPLIES: 7, REPOSTS: 8, QUOTES: 9, FETCHED_AT: 10 };
+const OCOL = {
+  DATE: 1, POST_COUNT: 2, VIEWS: 3, LIKES: 4, REPLIES: 5, REPOSTS: 6, QUOTES: 7,
+  ENGAGEMENT_RATE: 8, REPLY_RATE: 9, LIKE_RATE: 10, REPOST_RATE: 11, RECORDED_AT: 12
+};
 const BASE = "https://graph.threads.net/v1.0";
 
 // Debug helper: lists every sheet/tab name this script actually sees, with
@@ -55,15 +71,204 @@ function setup() {
   Logger.log("setup OK: saved to Script Properties, and cleared B1:B2 from the sheet");
 }
 
+// One-time (2026-07-26notekaigi Phase3): generates a random secret used to
+// authenticate the Web App endpoints below (doGet/doPost). Deploying as a Web
+// App requires "Anyone" access at the Google layer, so this secret is the
+// ONLY thing actually protecting these endpoints — never skip checking it.
+// Run once, copy the secret from the execution log, and give it to whatever
+// external caller (e.g. a scheduled cloud agent) needs to hit this Web App.
+function setupWebhookSecret() {
+  const secret = Utilities.getUuid();
+  PropertiesService.getScriptProperties().setProperty("WEBHOOK_SECRET", secret);
+  Logger.log("Webhook secret generated (copy this now, it will not be shown again by this function): " + secret);
+}
+
+function checkSecret(param) {
+  const expected = PropertiesService.getScriptProperties().getProperty("WEBHOOK_SECRET");
+  return expected && param === expected;
+}
+
+function jsonResponse(obj) {
+  return ContentService.createTextOutput(JSON.stringify(obj)).setMimeType(ContentService.MimeType.JSON);
+}
+
+// Web App GET endpoint (2026-07-26notekaigi Phase3, read side).
+// ?secret=...&action=data
+// Returns daily observation log rows + queue posts joined with their insight
+// metrics, so an external caller can do the weekly bounded-variable analysis
+// without needing direct Sheets API / service-account credentials.
+function doGet(e) {
+  const params = e && e.parameter ? e.parameter : {};
+  if (!checkSecret(params.secret)) return jsonResponse({ error: "invalid secret" });
+
+  if (params.action === "data") {
+    const obsSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(OBS_SHEET_NAME);
+    const observations = [];
+    if (obsSheet) {
+      const rows = obsSheet.getDataRange().getValues();
+      for (let r = 1; r < rows.length; r++) {
+        const row = rows[r];
+        if (!row[OCOL.DATE - 1]) continue;
+        observations.push({
+          date: row[OCOL.DATE - 1] instanceof Date
+            ? Utilities.formatDate(row[OCOL.DATE - 1], Session.getScriptTimeZone(), "yyyy-MM-dd")
+            : String(row[OCOL.DATE - 1]),
+          post_count: row[OCOL.POST_COUNT - 1], views: row[OCOL.VIEWS - 1], likes: row[OCOL.LIKES - 1],
+          replies: row[OCOL.REPLIES - 1], reposts: row[OCOL.REPOSTS - 1], quotes: row[OCOL.QUOTES - 1],
+          engagement_rate: row[OCOL.ENGAGEMENT_RATE - 1], reply_rate: row[OCOL.REPLY_RATE - 1],
+          like_rate: row[OCOL.LIKE_RATE - 1], repost_rate: row[OCOL.REPOST_RATE - 1]
+        });
+      }
+    }
+
+    const queueSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME);
+    const insightSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(INSIGHTS_SHEET_NAME);
+    const insightByPostId = {};
+    if (insightSheet) {
+      const irows = insightSheet.getDataRange().getValues();
+      for (let r = 1; r < irows.length; r++) {
+        const row = irows[r];
+        if (!row[ICOL.POST_ID - 1]) continue;
+        insightByPostId[row[ICOL.POST_ID - 1]] = {
+          views: row[ICOL.VIEWS - 1], likes: row[ICOL.LIKES - 1], replies: row[ICOL.REPLIES - 1],
+          reposts: row[ICOL.REPOSTS - 1], quotes: row[ICOL.QUOTES - 1]
+        };
+      }
+    }
+    const posts = [];
+    if (queueSheet) {
+      const qrows = queueSheet.getDataRange().getValues();
+      for (let r = 1; r < qrows.length; r++) {
+        const row = qrows[r];
+        const postId = row[COL.POST_ID - 1];
+        if (row[COL.STATUS - 1] !== "投稿済み" || !postId) continue;
+        const m = insightByPostId[postId] || {};
+        posts.push({
+          post_id: postId,
+          datetime: row[COL.DATETIME - 1] instanceof Date
+            ? Utilities.formatDate(row[COL.DATETIME - 1], Session.getScriptTimeZone(), "yyyy-MM-dd HH:mm")
+            : String(row[COL.DATETIME - 1]),
+          body: row[COL.TEXT - 1], type: row[COL.TYPE - 1], fw: row[COL.FW - 1],
+          views: m.views || 0, likes: m.likes || 0, replies: m.replies || 0,
+          reposts: m.reposts || 0, quotes: m.quotes || 0
+        });
+      }
+    }
+
+    return jsonResponse({ generated_at: new Date().toISOString(), observations: observations, posts: posts });
+  }
+
+  return jsonResponse({ error: "unknown action" });
+}
+
+// Web App POST endpoint (2026-07-26notekaigi Phase3, write side).
+// Body (JSON): { "secret": "...", "rows": [{datetime, body, reply, type, fw}, ...], "allow_past": false }
+// datetime must be "YYYY-MM-DD HH:MM". Mirrors push_threads_queue.py's safety
+// behavior: rows in the past are skipped unless allow_past is true, and rows
+// whose datetime already exists in the queue are skipped (duplicate guard).
+// This does NOT run qa_post.py itself — the caller must have already done
+// that content-policy/style gate before calling this endpoint.
+function doPost(e) {
+  let payload;
+  try {
+    payload = JSON.parse(e.postData.contents);
+  } catch (err) {
+    return jsonResponse({ error: "invalid JSON body" });
+  }
+  if (!checkSecret(payload.secret)) return jsonResponse({ error: "invalid secret" });
+
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME);
+  if (!sheet) return jsonResponse({ error: 'sheet "' + SHEET_NAME + '" not found' });
+
+  const existing = sheet.getDataRange().getValues();
+  const existingSerials = {};
+  for (let r = 1; r < existing.length; r++) {
+    const v = existing[r][COL.DATETIME - 1];
+    if (v instanceof Date) existingSerials[Math.round((v - new Date(1899, 11, 30)) / 86400000 * 1e6) / 1e6] = true;
+  }
+
+  const now = new Date();
+  const added = [], skippedPast = [], skippedDupe = [];
+  (payload.rows || []).forEach(function (row) {
+    const dt = new Date(row.datetime.replace(" ", "T") + ":00");
+    if (isNaN(dt.getTime())) { skippedPast.push(row); return; }
+    if (dt < now && !payload.allow_past) { skippedPast.push(row); return; }
+    const serial = Math.round((dt - new Date(1899, 11, 30)) / 86400000 * 1e6) / 1e6;
+    if (existingSerials[serial]) { skippedDupe.push(row); return; }
+    sheet.appendRow([dt, row.body || "", row.reply || "", row.type || "", row.fw || "", "", "", ""]);
+    existingSerials[serial] = true;
+    added.push(row);
+  });
+
+  return jsonResponse({
+    added_count: added.length, skipped_past_count: skippedPast.length, skipped_dupe_count: skippedDupe.length
+  });
+}
+
 function installTriggers() {
   ScriptApp.getProjectTriggers().forEach(function (t) { ScriptApp.deleteTrigger(t); });
   [8, 12, 22].forEach(function (hour) {
     ScriptApp.newTrigger("postScheduled").timeBased().everyDays(1).atHour(hour).nearMinute(0).create();
   });
   ScriptApp.newTrigger("collectInsights").timeBased().everyDays(1).atHour(23).nearMinute(30).create();
+  ScriptApp.newTrigger("dailyObservationLog").timeBased().everyDays(1).atHour(23).nearMinute(35).create();
   ScriptApp.newTrigger("checkHealth").timeBased().everyDays(1).atHour(23).nearMinute(45).create();
   ScriptApp.newTrigger("refreshToken").timeBased().onWeekDay(ScriptApp.WeekDay.MONDAY).atHour(7).create();
-  Logger.log("triggers installed: postScheduled 08:00/12:00/22:00 daily, collectInsights 23:30 daily, checkHealth 23:45 daily, refreshToken Mon 07:00");
+  Logger.log("triggers installed: postScheduled 08:00/12:00/22:00 daily, collectInsights 23:30 daily, dailyObservationLog 23:35 daily, checkHealth 23:45 daily, refreshToken Mon 07:00");
+}
+
+// Daily (Phase2, 2026-07-26notekaigi): re-aggregates INSIGHTS_SHEET_NAME into
+// one summary row per calendar date in OBS_SHEET_NAME. Collection only — does
+// not change posting content or schedule. Run after collectInsights so the
+// day's numbers are current when this runs.
+function dailyObservationLog() {
+  const insightSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(INSIGHTS_SHEET_NAME);
+  const obsSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(OBS_SHEET_NAME);
+  if (!insightSheet) { Logger.log('ERROR: sheet "' + INSIGHTS_SHEET_NAME + '" not found.'); return; }
+  if (!obsSheet) { Logger.log('ERROR: sheet "' + OBS_SHEET_NAME + '" not found. Create it first.'); return; }
+
+  const data = insightSheet.getDataRange().getValues();
+  let views = 0, likes = 0, replies = 0, reposts = 0, quotes = 0, count = 0;
+  for (let r = 1; r < data.length; r++) {
+    const row = data[r];
+    if (!row[ICOL.POST_ID - 1]) continue;
+    views += Number(row[ICOL.VIEWS - 1]) || 0;
+    likes += Number(row[ICOL.LIKES - 1]) || 0;
+    replies += Number(row[ICOL.REPLIES - 1]) || 0;
+    reposts += Number(row[ICOL.REPOSTS - 1]) || 0;
+    quotes += Number(row[ICOL.QUOTES - 1]) || 0;
+    count++;
+  }
+
+  const engRate = views > 0 ? (likes + replies + reposts + quotes) / views * 100 : 0;
+  const replyRate = views > 0 ? replies / views * 100 : 0;
+  const likeRate = views > 0 ? likes / views * 100 : 0;
+  const repostRate = views > 0 ? reposts / views * 100 : 0;
+
+  const today = Utilities.formatDate(new Date(), Session.getScriptTimeZone(), "yyyy-MM-dd");
+  const obsData = obsSheet.getDataRange().getValues();
+  let targetRow = null;
+  for (let r = 1; r < obsData.length; r++) {
+    const cell = obsData[r][OCOL.DATE - 1];
+    const cellDate = cell instanceof Date ? Utilities.formatDate(cell, Session.getScriptTimeZone(), "yyyy-MM-dd") : String(cell);
+    if (cellDate === today) { targetRow = r + 1; break; }
+  }
+  if (!targetRow) targetRow = obsSheet.getLastRow() + 1;
+
+  obsSheet.getRange(targetRow, OCOL.DATE).setValue(today);
+  obsSheet.getRange(targetRow, OCOL.POST_COUNT).setValue(count);
+  obsSheet.getRange(targetRow, OCOL.VIEWS).setValue(views);
+  obsSheet.getRange(targetRow, OCOL.LIKES).setValue(likes);
+  obsSheet.getRange(targetRow, OCOL.REPLIES).setValue(replies);
+  obsSheet.getRange(targetRow, OCOL.REPOSTS).setValue(reposts);
+  obsSheet.getRange(targetRow, OCOL.QUOTES).setValue(quotes);
+  obsSheet.getRange(targetRow, OCOL.ENGAGEMENT_RATE).setValue(Math.round(engRate * 1000) / 1000);
+  obsSheet.getRange(targetRow, OCOL.REPLY_RATE).setValue(Math.round(replyRate * 1000) / 1000);
+  obsSheet.getRange(targetRow, OCOL.LIKE_RATE).setValue(Math.round(likeRate * 1000) / 1000);
+  obsSheet.getRange(targetRow, OCOL.REPOST_RATE).setValue(Math.round(repostRate * 1000) / 1000);
+  obsSheet.getRange(targetRow, OCOL.RECORDED_AT).setValue(new Date());
+
+  Logger.log("dailyObservationLog: " + count + " posts, engRate=" + engRate.toFixed(3) + "%");
 }
 
 // Daily: verifies the whole pipeline is actually working, and emails the
@@ -81,11 +286,15 @@ function checkHealth() {
     problems.push("トークンまたはユーザーIDがScript Propertiesに存在しません（setup()を再実行してください）");
   }
 
-  const expectedTriggers = ["postScheduled", "collectInsights", "checkHealth", "refreshToken"];
+  const expectedTriggers = ["postScheduled", "collectInsights", "dailyObservationLog", "checkHealth", "refreshToken"];
   const installed = ScriptApp.getProjectTriggers().map(function (t) { return t.getHandlerFunction(); });
   expectedTriggers.forEach(function (fn) {
     if (installed.indexOf(fn) === -1) problems.push("トリガー未設定: " + fn + "（installTriggers()を再実行してください）");
   });
+
+  if (!SpreadsheetApp.getActiveSpreadsheet().getSheetByName(OBS_SHEET_NAME)) {
+    problems.push('シート "' + OBS_SHEET_NAME + '" が見つかりません（dailyObservationLog用・作成してください）');
+  }
 
   const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME);
   if (!sheet) {

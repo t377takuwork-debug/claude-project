@@ -1,5 +1,6 @@
 {
   "spreadsheet_id": "1i6Jf3_KKVqWfesZJjAeKXuHRtpDAauSlGrYc4CjpQsc",
   "queue_sheet_name": "Threads投稿キュー",
-  "insights_sheet_name": "インサイト"
+  "insights_sheet_name": "インサイト",
+  "obs_sheet_name": "日次観測ログ"
 }

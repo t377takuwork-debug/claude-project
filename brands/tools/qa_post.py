@@ -16,6 +16,9 @@
   - .claude/commands/quality-guardrail.md           … AIっぽさ禁止表現
   - brands/mbticode/rules/feedback_mbticode_reply_style.md … リプライ・引用RT文体
   - brands/s4lv/rules/feedback_s4lv_x_writing_style.md     … s4lv X投稿文体
+  - brands/CLAUDE.md 絶対遵守ルール3           … 断定的統計・性的描写・特定個人を傷つける表現の禁止
+    （2026-07-26notekaigi Phase1で追加。正規表現の一次防御であり漏れは残る前提。
+    完全な意味判定はPhase2のLLM二次判定で補う）
 """
 import argparse
 import re
@@ -37,6 +40,16 @@ LOVE_LEXICON = re.compile(
     r"好き|恋|付き合|彼氏|彼女|連絡|既読|別れ|尽く|甘え|冷め|重い|未練|デート"
     r"|LINE|返信|距離|片思い|相手|束縛|合わせ|素の自分|寂し|優しさ"
 )
+
+# brands/CLAUDE.md 絶対遵守ルール3（断定的統計・性的描写）の一次防御。
+# 正規表現なので漏れは残る前提（2026-07-26notekaigi Phase1・LLM二次判定はPhase2で別途追加）。
+CONTENT_POLICY_ERRORS = [
+    ("teitei-toukei", r"\d+(\.\d+)?[割%％].{0,10}(見える|わかる|分かる|決まる|バレる)",
+     "断定的統計の疑い（数字＋割合＋断定語尾・brands/CLAUDE.md絶対遵守ルール3）"),
+    ("sexual-desc", r"セックス|性行為|エッチな|射精|オーガズム",
+     "性的描写の疑い（brands/CLAUDE.md絶対遵守ルール3）"),
+]
+INDIVIDUAL_MENTION_RE = re.compile(r"@[A-Za-z0-9_]+")
 
 
 class Finding:
@@ -136,6 +149,11 @@ def check_mbticode_post(post, platform):
     if post["is_reply"]:
         for code, pat, msg in REPLY_ERRORS:
             check_regex(f, post, "ERROR", code, pat, msg)
+        for code, pat, msg in CONTENT_POLICY_ERRORS:
+            check_regex(f, post, "ERROR", code, pat, msg)
+        if INDIVIDUAL_MENTION_RE.search(body):
+            f.append(Finding("WARN", post["label"], "individual-mention",
+                             "@メンションあり・特定個人を傷つける表現になっていないか要確認（brands/CLAUDE.md絶対遵守ルール3）"))
         for line in nonempty_lines(body):
             if re.search(r"て。$", line.strip()):
                 f.append(Finding("ERROR", post["label"], "te-owari",
@@ -149,6 +167,11 @@ def check_mbticode_post(post, platform):
     # 本文投稿
     for code, pat, msg in MBTICODE_MAIN_ERRORS:
         check_regex(f, post, "ERROR", code, pat, msg)
+    for code, pat, msg in CONTENT_POLICY_ERRORS:
+        check_regex(f, post, "ERROR", code, pat, msg)
+    if INDIVIDUAL_MENTION_RE.search(body):
+        f.append(Finding("WARN", post["label"], "individual-mention",
+                         "@メンションあり・特定個人を傷つける表現になっていないか要確認（brands/CLAUDE.md絶対遵守ルール3）"))
 
     n_ndesu = len(re.findall(r"んです", body))
     if n_ndesu >= 2:
