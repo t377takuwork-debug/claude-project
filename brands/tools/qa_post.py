@@ -113,6 +113,19 @@ def check_regex(findings, post, severity, code, pattern, message):
         findings.append(Finding(severity, post["label"], code, message))
 
 
+# 型D（DSKB）の締め定型（cheatsheet「4種の型」参照）はキャラクターの決め台詞として
+# 意図的に採用された固定フレーズで、AIっぽい説教口調のヘッジとは別物のため
+# ai-mashou（quality-guardrail「〜しましょう」禁止）の対象から個別に除外する
+# （2026-07-26発見・矛盾を解消。cheatsheet側は変更しない）。
+DSKB_CLOSING_PHRASE = "どれかひとつでも当てはまる人は、設計の話をしましょう。"
+
+
+def check_ai_mashou(findings, post):
+    body = post["body"].replace(DSKB_CLOSING_PHRASE, "")
+    if re.search(r"しましょう|していきましょう", body):
+        findings.append(Finding("ERROR", post["label"], "ai-mashou", "セミナー講師口調禁止（quality-guardrail）"))
+
+
 # ---------------------------------------------------------------- mbticode
 
 MBTICODE_MAIN_ERRORS = [
@@ -125,7 +138,6 @@ MBTICODE_MAIN_ERRORS = [
     ("ai-omoimasu", r"と思います|と感じます", "「と思います/と感じます」禁止・観察として言い切る（quality-guardrail）"),
     ("ai-deshou", r"ではないでしょうか|でしょう。", "「でしょう」系の遠回し禁止（quality-guardrail）"),
     ("ai-kanji", r"という感じ", "「という感じ」の抽象化逃げ禁止（quality-guardrail）"),
-    ("ai-mashou", r"しましょう|していきましょう", "セミナー講師口調禁止（quality-guardrail）"),
     ("ai-taisetsu", r"ことが大切|が重要です|お勧めします|おすすめします",
      "「大切です/重要です/お勧め」禁止（quality-guardrail）"),
     ("ai-matome", r"以上のように|このように、|まとめると", "要約フレーズ禁止（quality-guardrail）"),
@@ -167,6 +179,7 @@ def check_mbticode_post(post, platform):
     # 本文投稿
     for code, pat, msg in MBTICODE_MAIN_ERRORS:
         check_regex(f, post, "ERROR", code, pat, msg)
+    check_ai_mashou(f, post)
     for code, pat, msg in CONTENT_POLICY_ERRORS:
         check_regex(f, post, "ERROR", code, pat, msg)
     if INDIVIDUAL_MENTION_RE.search(body):
