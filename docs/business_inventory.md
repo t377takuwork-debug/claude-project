@@ -10,7 +10,7 @@
 
 | # | 業務 | エントリポイント | 完了条件 | QA・検品 |
 |---|---|---|---|---|
-| D1 | MBTICODE X・Threads投稿バッチ生成 | `/mbticode-post`（`.claude/commands/mbticode-post.md`） | `brands/mbticode/posts/posts_x.txt`・`posts_threads.txt` に上書き保存済み＋`qa_post.py` ERROR 0件 | `brands/tools/qa_post.py`（機械）→`/post-review`（LLM） |
+| D1 | MBTICODE X・Threads投稿バッチ生成 | `/mbticode-post`（`.claude/commands/mbticode-post.md`） | `brands/mbticode/posts/posts_x.txt`・`posts_threads.txt` に追記保存済み＋`qa_post.py` ERROR 0件＋Threadsキュー投入済み（手順の唯一の正: `sns_post_cheatsheet.md` 生成ワークフロー） | `brands/tools/qa_post.py`（機械）→`/post-review`（LLM） |
 | D2 | MBTICODE リプライ・引用RT生成 | `/reply`（`.claude/commands/reply.md`） | 投稿分析→反映メモ→本文の3ブロック出力 | 文体ルール: `brands/mbticode/rules/feedback_mbticode_reply_style.md` |
 | D3 | shira_note ネタ収集 | 「ネタ収集して」→ `python tools/collect_news.py` | `tools/output/programs.md`・`releases.md` 更新 | －（収集のみ） |
 | D4 | shira_note 番組差分監視 | 「番組監視して」→ `python tools/watch_programs.py` | `tools/output/watch_report.md` 更新 | －（監視のみ） |

@@ -52,8 +52,8 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 | `mbticode/reference/mbti_quick_ref.md` | MBTI タイプ クイックリファレンス（通常投稿はこちらで対応） |
 | `mbticode/reference/lovetype_sns_ref.txt` | ラブタイプ SNS発信リファレンス簡易版（SNS投稿用・9タイプ・対比フック付き） |
 | `mbticode/reference/` | MBTI・DSKB・ラブタイプ・Nighttypeの診断データ一式（詳細が必要な場合のみ） |
-| `mbticode/posts/posts_x.txt` | MBTICODE X投稿ファイル（毎回上書き・コピペ即使用） |
-| `mbticode/posts/posts_threads.txt` | MBTICODE Threads投稿ファイル・自己リプライ含む（毎回上書き・コピペ即使用） |
+| `mbticode/posts/posts_x.txt` | MBTICODE X投稿ファイル（末尾追記・直近7日＋未来分のみ保持。古い分は`posts/archive/`へローテーション） |
+| `mbticode/posts/posts_threads.txt` | MBTICODE Threads投稿ファイル・自己リプライ含む（末尾追記・直近7日＋未来分のみ保持。古い分は`posts/archive/`へローテーション） |
 
 ---
 

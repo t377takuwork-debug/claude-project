@@ -4,17 +4,14 @@
 
 ## 完了条件
 
-- 投稿バッチ: `brands/mbticode/posts/posts_x.txt`・`posts_threads.txt` へ上書き保存済み＋`/post-review` チェック済み
+- 投稿バッチ: `qa_post.py` ERROR 0件で `brands/mbticode/posts/posts_x.txt`・`posts_threads.txt` へ**追記**保存済み（7日より古い分は`posts/archive/`へローテーション）＋Threadsは投稿キューへCSV投入済み
 - リプライ: 投稿分析→反映メモ→本文の3ブロック出力済み
 
 ## 手順（投稿バッチ）
 
-1. 見本バンク `brands/mbticode/examples_sns.md`（Good/Bad対比）を読む
-2. `/mbticode-post` を起動する（`.claude/commands/mbticode-post.md`。参照ファイルの読み込み順序はコマンド側が保証する）
-3. `brands/mbticode/mbticode_tasks.md` で現在のタスク状況を確認する
-4. 機械検品: `python brands/tools/qa_post.py brands/mbticode/posts/posts_x.txt`（threads側も同様）→ **ERROR 0件必須**
-5. `/post-review` で壁打ちしてから確定する（生成→即確定は禁止）
-6. `/quality-guardrail` の同日重複チェックを通す
+1. `/mbticode-post` を起動する（`.claude/commands/mbticode-post.md`。参照ファイルの読み込み順序はコマンド側が保証する）
+2. 以降の全工程（検品・保存・キュー転送・報告）は `brands/mbticode/sns_post_cheatsheet.md` の「生成ワークフロー」Step 1〜6 が唯一の正。ここに手順を重複記載しない
+3. 必要に応じて `brands/mbticode/mbticode_tasks.md` で現在のタスク状況を確認する
 
 ## 手順（リプライ・引用RT）
 
@@ -24,8 +21,8 @@
 ## 必ず守るルール
 
 - MBTI・DSKB・ラブタイプの内容は `brands/mbticode/reference/` のデータのみ使用（架空のタイプ論・自作の相性データは捏造にあたる）
-- Threads投稿はX投稿の転用ではない。文体・構成は `/mbticode-post` コマンド内の指示と `brands/mbticode/rules/project_mbticode_threads_strategy_0614.md`（X投稿と角度を変える・週1リスト型・自己リプライ即コンテンツ化）に従う
-- 投稿本数の現行値: X・Threadsとも本文1日3本（各週21本）。**最新値は `brands/mbticode/sns_post_cheatsheet.md` の基本設定が唯一の正**（決定経緯: `rules/project_mbticode_x_strategy_0609.md`、再判断日2026-07-19。ユーザー確認済み 2026-07-06）
+- Threads投稿はX投稿の転用ではない。文体・構成は `brands/mbticode/sns_post_cheatsheet.md`（Threads専用ルール・別角度カタログ）と `brands/mbticode/rules/project_mbticode_threads_strategy_0614.md`（X投稿と角度を変える・週1リスト型・自己リプライ即コンテンツ化）に従う
+- 投稿本数の現行値: X・Threadsとも本文1日3本（各週21本・2026-07-28再判断で維持確定）。**最新値は `brands/mbticode/sns_post_cheatsheet.md` の基本設定が唯一の正**（決定経緯: `rules/project_mbticode_x_strategy_0609.md`）
 
 ## 出力見本
 

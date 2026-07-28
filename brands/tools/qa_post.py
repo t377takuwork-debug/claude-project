@@ -201,6 +201,11 @@ def check_mbticode_post(post, platform):
         f.append(Finding("WARN", post["label"], "da-tayou", "「〜だ。」多用の疑い（3回以上）"))
     if len(re.findall(r"かもしれません", body)) >= 2:
         f.append(Finding("WARN", post["label"], "kamo-tayou", "「かもしれません」多用（予防線・guardrail）"))
+    # 抽象名詞「〜性」の連発（guardrail Step1）。「相性」はアカウントの中核語のため除外
+    n_sei = len(re.findall(r"[一-龥]性", body)) - len(re.findall(r"相性", body))
+    if n_sei >= 3:
+        f.append(Finding("WARN", post["label"], "sei-renpatsu",
+                         f"抽象名詞「〜性」が{n_sei}回（連発は内容が薄く見える・guardrail）"))
 
     lines = nonempty_lines(body)
     if lines and not LOVE_LEXICON.search(lines[0]):

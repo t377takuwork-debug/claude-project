@@ -37,7 +37,8 @@ C:\Users\PC_User\AppData\Local\Python\bin\python.exe brands/tools/qa_post.py <po
 
 | 許可 | 対象 |
 |---|---|
-| Write（毎回上書き運用） | `brands/mbticode/posts/posts_x.txt`・`brands/mbticode/posts/posts_threads.txt`・`brands/s4lv/posts/posts_x.txt`・`brands/s4lv/posts/posts_threads.txt` |
+| Edit（末尾追記のみ・既存投稿ブロックの書き換え禁止） | `brands/mbticode/posts/posts_x.txt`・`brands/mbticode/posts/posts_threads.txt`（アーカイブローテーションは司令塔の領分・実施しない） |
+| Write（毎回上書き運用） | `brands/s4lv/posts/posts_x.txt`・`brands/s4lv/posts/posts_threads.txt` |
 | Edit（追記のみ） | `brands/mbticode/posts/cta_templates.md`（CTA未作成記事の3パターン新規追記。既存セクションの書き換えは禁止） |
 
 ## 禁止事項
