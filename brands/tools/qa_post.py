@@ -283,6 +283,35 @@ def check_mbticode_file(posts, findings):
     print("[INFO] FW内訳（本文投稿のみ・唯一の正はcheatsheet基本設定）: "
           + " / ".join(f"{k} {v}本" for k, v in fw.items()))
 
+    # 書き出し恋愛文脈ワードの偏り検知（2026-07-29追加・「好きな人」固定化の再発防止）
+    opener_words = {}
+    for p in posts:
+        if p["is_reply"] or not p["date"]:
+            continue
+        lines = nonempty_lines(p["body"])
+        if not lines:
+            continue
+        m = LOVE_LEXICON.search(lines[0])
+        if m:
+            opener_words[m.group(0)] = opener_words.get(m.group(0), 0) + 1
+    if opener_words:
+        total = sum(opener_words.values())
+        top_word, top_cnt = max(opener_words.items(), key=lambda kv: kv[1])
+        if total >= 5 and top_cnt / total >= 0.5:
+            findings.append(Finding("WARN", "バッチ全体", "opener-tayou",
+                                    f"書き出し恋愛文脈ワード「{top_word}」が{top_cnt}/{total}本に偏り"
+                                    "（50%以上・書き出し多様化ルール）"))
+
+    # タイプ名の締め方バリエーション偏り検知（2026-07-29追加）
+    closing_pattern = re.compile(r"に近いタイプに出やすい(パターン|動き方)")
+    type_posts = [p for p in posts if not p["is_reply"] and re.search(r"MBTI|ラブタイプ|DSKB", p["header"])]
+    if len(type_posts) >= 5:
+        hits = sum(1 for p in type_posts if closing_pattern.search(p["body"]))
+        if hits / len(type_posts) >= 0.5:
+            findings.append(Finding("WARN", "バッチ全体", "type-closing-tayou",
+                                    f"タイプ名締め「〜に近いタイプに出やすい[パターン/動き方]」が"
+                                    f"{hits}/{len(type_posts)}本に偏り（50%以上・締め方バリエーション表参照）"))
+
 
 # ---------------------------------------------------------------- s4lv
 
