@@ -133,7 +133,7 @@ python tools/qa_draft.py draft_XXXX.txt --fix  # スマートクォート自動�
 ```
 
 チャットでは `/shira-qa {ファイル名}` で起動する（結果の解釈・修正ルールは `.claude/commands/shira-qa.md`）。
-チェック内容: スマートクォート / 禁止ワード / WPブロック開閉 / ショートコード混在 / ショートコード連続配置（originalsc/kanrenad間に本文が必要） / JSON-LDパース / メタ⇔JSON-LD同期 / 本文FAQ⇔JSON-LD FAQPage同期（Q1/A形式のspanマークアップ限定。STAR系のdiv形式は未対応で判定スキップ） / AFリンク仕様 / ul style / wp:imageのalign⇔figureのclass不一致（手動修正時のズレ検知） / カテゴリURL残存 / ナビブロックの番組網羅漏れ・自己参照リンク（`rewrite_common_rules.md` 8章のURL一覧と照合。新番組追加時はこの一覧を先に更新） / リード文日付 / 締め文の主観形容詞（`shicho-memo`ブロック内は対象外） / 同一文の記事内3回以上リピート（数字違いは同一視・表現ローテーション用）。
+チェック内容: スマートクォート / 禁止ワード / WPブロック開閉 / ショートコード混在 / ショートコード連続配置（originalsc/kanrenad間に本文が必要） / JSON-LDパース / メタ⇔JSON-LD同期 / 本文FAQ⇔JSON-LD FAQPage同期（Q1/A形式のspanマークアップ限定。STAR系のdiv形式は未対応で判定スキップ） / AFリンク仕様 / ul style / wp:imageのalign⇔figureのclass不一致（手動修正時のズレ検知） / カテゴリURL残存 / ナビブロックの番組網羅漏れ・自己参照リンク（`rewrite_common_rules.md` 8章のURL一覧と照合。新番組追加時はこの一覧を先に更新） / リード文日付 / 締め文の主観形容詞（`shicho-memo`ブロック内は対象外） / 同一文の記事内3回以上リピート（数字違いは同一視・表現ローテーション用） / 他番組告知パラグラフの放送日が自記事より過去（放送済み番組への導線残存を検知）。
 WARNは `tools/output/qa_baseline.json` と照合して[新規]/[既知]に分類される。
 **全リライトコマンドの最終ステップとして「ERROR 0件・新規WARN 0件」（終了コード0）を確認してから完了報告すること。** `--update-baseline` はユーザー承認時のみ。
 

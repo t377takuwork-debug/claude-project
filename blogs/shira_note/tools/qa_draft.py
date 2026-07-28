@@ -29,6 +29,8 @@ Usage:
   [WARN]  締め文（mokujimae直後）の主観形容詞（感動的・豪華・圧倒的 ※「な」なしの形も検出。
           class="shicho-memo" の視聴メモブロック内は対象外 — rewrite_common_rules.md 10章）
   [WARN]  同一文の記事内3回以上リピート（数字のみ違う文は同一視。表現ローテーション用 — 10章）
+  [WARN]  他番組告知パラグラフ（「M月D日に放送される〜のタイムテーブル速報」）の放送日が
+          自記事の放送日より過去（放送済み番組への導線が残存。年またぎは対象外）
   [INFO]  本文中の日付分布（更新漏れ発見用）
 
 WARNベースライン:
@@ -637,6 +639,29 @@ def check_repeated_sentences(text: str, rep: Report):
             )
 
 
+def check_cross_promo_freshness(text: str, lines: list[str], rep: Report):
+    """本文中の他番組告知パラグラフ（例:「7月18日に放送される『音楽の日』のタイムテーブル速報も
+    当ブログで取り扱っています」）が、自記事の放送日より過去の日付を指していないか検知する
+    （2026-07-28追加。CDTVリライトで7/18放送済みの「音楽の日」告知が8/3リライト時点まで
+    削除されずに残っていたのを受けて追加。年またぎの告知は誤検知しやすいため対象外）"""
+    m = re.search(r'"startDate":\s*"(\d{4})-(\d{2})-(\d{2})T', text)
+    if not m:
+        return
+    own_date = (int(m.group(1)), int(m.group(2)), int(m.group(3)))
+
+    for i, line in enumerate(lines):
+        pm = re.search(r"(\d{1,2})月(\d{1,2})日に放送される.*?のタイムテーブル速報", line)
+        if not pm:
+            continue
+        p_month, p_day = int(pm.group(1)), int(pm.group(2))
+        promo_date = (own_date[0], p_month, p_day)
+        if promo_date < own_date:
+            rep.warn(
+                f"L{i+1}: 他番組告知パラグラフの放送日「{pm.group(1)}月{pm.group(2)}日」が"
+                f"自記事の放送日より過去 → 削除または対象番組の差し替えを検討 → {ctx(line)}"
+            )
+
+
 def report_dates(lines: list[str], regions, rep: Report):
     """本文中の日付（M月D日）の分布を出す。少数派の日付は更新漏れの可能性"""
     date_hits: dict[str, list[int]] = {}
@@ -701,6 +726,7 @@ def run_qa(path: str) -> Report:
     check_nav_completeness(lines, os.path.basename(path), rep)
     check_closing_adjectives(lines, rep)
     check_repeated_sentences(text, rep)
+    check_cross_promo_freshness(text, lines, rep)
     check_banned_words(lines, regions, rep)
     report_dates(lines, regions, rep)
     return rep
