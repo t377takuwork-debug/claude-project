@@ -581,10 +581,18 @@ function collectInsights() {
     }
 
     // Threads' replies metric counts every reply attached to the post,
-    // including our own seeding self-reply (row[COL.REPLY_POST_ID]) —
-    // subtract it so reply_rate/engagement_rate reflect real audience reactions only.
-    let replies = metrics.replies || 0;
-    if (row[COL.REPLY_POST_ID - 1]) replies = Math.max(0, replies - 1);
+    // including any reply from our own account (the automated self-reply
+    // used to seed engagement, or a manual follow-up reply). A flat "-1"
+    // undercounted these in practice, so pull the actual reply list and
+    // exclude every entry Threads itself flags as our own via
+    // is_reply_owned_by_me, instead of guessing an offset.
+    let replies;
+    try {
+      replies = fetchExternalReplyCount(postId, token);
+    } catch (e) {
+      Logger.log("reply list fetch failed for " + postId + ": " + e.message + " -- falling back to raw metric");
+      replies = metrics.replies || 0;
+    }
 
     const targetRow = existingRow[postId] || (insightSheet.getLastRow() + 1);
     insightSheet.getRange(targetRow, ICOL.POST_ID).setValue(postId);
@@ -601,6 +609,20 @@ function collectInsights() {
     processed++;
   }
   Logger.log("collectInsights done: " + processed + " post(s) updated");
+}
+
+// Returns the number of replies to mediaId that were NOT posted by our own
+// account, using Threads' own is_reply_owned_by_me flag on each reply so we
+// never rely on a guessed offset (see collectInsights above).
+function fetchExternalReplyCount(mediaId, token) {
+  const uri = BASE + "/" + mediaId + "/replies?fields=is_reply_owned_by_me&access_token=" + encodeURIComponent(token);
+  const resp = UrlFetchApp.fetch(uri, { muteHttpExceptions: true });
+  const body = JSON.parse(resp.getContentText());
+  if (resp.getResponseCode() >= 300) {
+    throw new Error("Threads API error: " + (body.error ? body.error.message : resp.getContentText()));
+  }
+  const list = body.data || [];
+  return list.filter(function (r) { return !r.is_reply_owned_by_me; }).length;
 }
 
 function fetchInsights(mediaId, token) {
