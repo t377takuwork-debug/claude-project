@@ -100,6 +100,20 @@ def main():
                  f"（s4lv無料記事基準は4,000字以上／980円帯は3,000〜5,000字）")
     if char_count > 2000 and not re.search(r"^#{2,3} ", text, flags=re.M):
         warns.append("[WARN] no-heading: 2,000字超で見出し（##）なし（スマホ縦読みでの離脱要因）")
+
+    # H2直下のH3本数チェック（ルール：H3はH2内容が複数の独立サブトピックに分かれる場合のみ・2〜3本セットで使う。単独1本は禁止）
+    headings = [(m.start(), len(m.group(1)), m.group(2)) for m in re.finditer(r"^(#{2,3}) (.+)$", text, flags=re.M)]
+    cur_h2, h3_count = None, {}
+    for pos, level, title in headings:
+        line_no = text[:pos].count("\n") + 1
+        if level == 2:
+            cur_h2 = (line_no, title)
+            h3_count[cur_h2] = 0
+        elif level == 3 and cur_h2:
+            h3_count[cur_h2] += 1
+    for (line_no, title), count in h3_count.items():
+        if count == 1:
+            warns.append(f"[WARN] L{line_no} lone-h3: H2「{title}」直下のH3が1本のみ（ルールではH3は複数の独立サブトピックがある場合のみ・2〜3本セットで使う。単独H3は禁止）")
     first45 = "\n".join(text.splitlines()[:45])  # 冒頭メタ情報（タイトル・タグ・構成）を考慮した窓
     if "？" not in first45 and "?" not in first45:
         warns.append("[WARN] no-question-intro: 記事冒頭に問いかけがない（PASONA導入Step.1「〇〇でお困りではないですか？」型の確認）")

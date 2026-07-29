@@ -19,6 +19,7 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 2. **開示ルール**：各 `personal_data.md` の開示ルールテーブルを必ず確認する
 3. **Note規約遵守**：性的描写・断定的統計・特定個人を傷つける表現は禁止
 4. **一次情報の参照**：MBTICODEのコンテンツ生成時は `mbticode/reference/` フォルダを参照する（架空データ使用禁止）
+5. **`articles/drafts/` 配下のファイルを削除する前に必ず `articles/published/` と `article_index.md` を確認する**：「公開済みだから削除していい」という指示は「published/への移設・登録も不要」という意味ではない。対応するpublished/コピーがなければ、削除ではなく先に移設（本文保存＋article_index.md登録、手順は `.claude/commands/note-article.md` Step 6）を提案してから実行する。特にGit未追跡ファイルは削除すると復元不能（2026-07-29に実例あり）
 
 ---
 
