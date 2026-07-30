@@ -34,6 +34,9 @@ SEP_RE = re.compile(r"^-{10,}\s*$")
 DATE_RE = re.compile(r"(\d{1,2}/\d{1,2})")
 MBTI_RE = re.compile(r"(?<![A-Za-z])([IE][NS][TF][JP])(?![A-Za-z])")
 URL_RE = re.compile(r"https?://")
+# 本文の閉じ`----`の後・次の見出しの前に置かれる「自己リプライ（〜）：」注記行の接頭辞。
+# 投稿本体には含めない（実際にThreadsへ投稿するのはこの接頭辞を除いた本文のみ）。
+REPLY_LABEL_RE = re.compile(r"^自己リプライ[^：]*：\s*")
 
 # 1行目の恋愛文脈ワード（チェックリスト「1行目に恋愛文脈ワード」の近似判定・WARN専用）
 LOVE_LEXICON = re.compile(
@@ -64,7 +67,11 @@ class Finding:
 
 
 def parse_posts(text):
-    """【ヘッダー】＋ ---- 区切りブロックを投稿リストに分解する。"""
+    """【ヘッダー】＋ ---- 区切りブロックを投稿リストに分解する。
+
+    本文の閉じ`----`の後・次の見出しの前に「自己リプライ（〜）：」形式の行がある場合
+    （posts_threads.txt の実ファイル形式）、その行を post["reply"] として別途保持する。
+    """
     posts = []
     lines = text.splitlines()
     i = 0
@@ -86,15 +93,27 @@ def parse_posts(text):
                     body_lines.append(lines[k])
                     k += 1
                 body = "\n".join(body_lines).strip()
+                # 閉じ`----`が見つかった場合のみ、その後〜次の見出し直前までを自己リプライ候補として拾う
+                reply = ""
+                end = k
+                if k < len(lines) and SEP_RE.match(lines[k]):
+                    m2 = k + 1
+                    reply_lines = []
+                    while m2 < len(lines) and not HEADER_RE.match(lines[m2]):
+                        reply_lines.append(lines[m2])
+                        m2 += 1
+                    reply = "\n".join(reply_lines).strip()
+                    end = m2
                 date_m = DATE_RE.search(header)
                 posts.append({
                     "header": header,
                     "label": header[:26],
                     "date": date_m.group(1) if date_m else "",
                     "body": body,
+                    "reply": reply,
                     "is_reply": ("引用" in header) or ("リプライ" in header),
                 })
-                i = k + 1
+                i = end
                 continue
         i += 1
     return posts
@@ -225,21 +244,26 @@ def check_mbticode_post(post, platform):
             f.append(Finding("WARN", post["label"], "x-type-head",
                              "冒頭2行にMBTIタイプ名（タイプ名は核心フレーズの後に置く・X書き出しルール）"))
     elif platform == "threads":
-        segments = re.split(r"^===+\s*$", body, flags=re.M)
-        main = segments[0].strip()
-        length = len(main.replace("\n", ""))
+        length = len(body.replace("\n", ""))
         if not (200 <= length <= 350):
             f.append(Finding("WARN", post["label"], "th-length",
                              f"Threads本文{length}字（目安200〜350字）"))
-        for seg in segments[1:]:
-            seg = seg.strip()
-            if URL_RE.search(seg):
-                continue  # URL誘導リプライは1〜2行＋URLで完結（字数チェック対象外）
-            slen = len(seg.replace("\n", ""))
-            if seg and not (80 <= slen <= 150):
-                f.append(Finding("WARN", post["label"], "th-reply-length",
-                                 f"自己リプライ{slen}字（コンテンツ系は80〜150字）"))
-        head_lines = nonempty_lines(main)
+        reply = post.get("reply", "")
+        if reply:
+            reply_body = REPLY_LABEL_RE.sub("", reply, count=1).strip()
+            for code, pat, msg in MBTICODE_MAIN_ERRORS:
+                if re.search(pat, reply_body):
+                    f.append(Finding("ERROR", post["label"], code, f"{msg}（自己リプライ）"))
+            for code, pat, msg in CONTENT_POLICY_ERRORS:
+                if re.search(pat, reply_body):
+                    f.append(Finding("ERROR", post["label"], code, f"{msg}（自己リプライ）"))
+            if not URL_RE.search(reply_body):
+                # URL誘導リプライは1〜2行＋URLで完結（字数チェック対象外）
+                rlen = len(reply_body.replace("\n", ""))
+                if not (80 <= rlen <= 150):
+                    f.append(Finding("WARN", post["label"], "th-reply-length",
+                                     f"自己リプライ{rlen}字（コンテンツ系は80〜150字）"))
+        head_lines = nonempty_lines(body)
         if head_lines and MBTI_RE.search(head_lines[0]):
             f.append(Finding("WARN", post["label"], "th-type-head",
                              "書き出しにMBTIタイプ名（タイプ名は中盤以降・Threadsルール）"))
@@ -311,6 +335,34 @@ def check_mbticode_file(posts, findings):
             findings.append(Finding("WARN", "バッチ全体", "type-closing-tayou",
                                     f"タイプ名締め「〜に近いタイプに出やすい[パターン/動き方]」が"
                                     f"{hits}/{len(type_posts)}本に偏り（50%以上・締め方バリエーション表参照）"))
+
+    # 結び文の文末パターン偏り検知（2026-07-30追加・「ことがある/だった/じゃなかった」量産の再発防止）
+    CLOSING_SUFFIX_PATTERNS = [
+        ("ことがある型", re.compile(r"ことが(あ|あっ)る[。！]?$")),
+        ("だった/じゃなかった型", re.compile(r"(だった|じゃなかった)[。！]?$")),
+        ("気がする型", re.compile(r"気がする[。！]?$")),
+        ("かもしれない型", re.compile(r"かもしれない[。！]?$")),
+        ("らしい型", re.compile(r"らしい[。！]?$")),
+    ]
+    closing_suffixes = {}
+    for p in posts:
+        if p["is_reply"] or not p["date"]:
+            continue
+        lines = nonempty_lines(p["body"])
+        if not lines:
+            continue
+        last = lines[-1].strip()
+        for label, pat in CLOSING_SUFFIX_PATTERNS:
+            if pat.search(last):
+                closing_suffixes[label] = closing_suffixes.get(label, 0) + 1
+                break
+    if closing_suffixes:
+        total = sum(closing_suffixes.values())
+        top_label, top_cnt = max(closing_suffixes.items(), key=lambda kv: kv[1])
+        if total >= 5 and top_cnt / total >= 0.4:
+            findings.append(Finding("WARN", "バッチ全体", "closing-suffix-tayou",
+                                    f"結び文の文末「{top_label}」が{top_cnt}/{total}本に偏り"
+                                    "（40%以上・結び文多様化ルール。2026-07-30notekaigi参照）"))
 
 
 # ---------------------------------------------------------------- s4lv

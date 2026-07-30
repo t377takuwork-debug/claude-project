@@ -17,6 +17,7 @@ MBTICODE（@MBTICODE）のX・Threads投稿を生成する。
 条件付き参照（該当する場合のみ）：
 - `brands/mbticode/posts/cta_templates.md` — URL事後型・新規記事公開日のCTA割り当てがある場合。使い方・未作成時の新規作成ルールはファイル内冒頭を参照
 - `brands/mbticode_strategy.md` — 戦略背景・フェーズ・フラッグシップ情報が必要な判断時のみ（通常バッチ生成では読まない）
+- `brands/mbticode/reference/threads_engagement_rubric.md` — ユーザーから「評価して」「85点以上にして」等の反響力チェックを明示的に求められた時のみ、この基準で自己採点する（通常バッチ生成では読まない）
 
 ---
 
