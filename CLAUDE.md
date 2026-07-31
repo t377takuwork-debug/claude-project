@@ -11,7 +11,7 @@ Note/X/Threads運用のコンテンツ制作・SEO施策・ブランド構築を
 ```
 claude project/
 ├── README.md       ← 全体索引（どのAIでも最初に読む）
-├── .claude/commands/ ← 汎用スキル22本（唯一の正。過去版はgit履歴から復元）
+├── .claude/commands/ ← 汎用スキル25本（唯一の正。過去版はgit履歴から復元）
 ├── docs/           ← 業務棚卸し表・SOP・会議システム定義・横断ルール
 ├── blogs/          ← ブログ記事制作・リライト環境
 │   ├── shira_note/ ← 音楽番組タイムテーブル速報ブログ（メイン稼働・rules/に番組別チェックリスト）
@@ -23,8 +23,9 @@ claude project/
 │   │   ├── rules/      ← 文体定義・Note記事プロセス等10本（旧Claude Codeメモリから統合）
 │   │   └── shared/     ← s4lv共通プロフィール・実績データ
 │   └── mbticode/       ← MBTI×ラブタイプ診断コンテンツ運用（rules/に文体・戦略12本）
-└── Junk314/        ← クライアント管理アカウント（→ Junk314/junk_juice/CLAUDE.md を参照）
-    └── junk_juice/ ← 60代推し活エッセイアカウント（rules/に品質基準3本）
+├── Junk314/        ← クライアント管理アカウント（→ Junk314/junk_juice/CLAUDE.md を参照）
+│   └── junk_juice/ ← 60代推し活エッセイアカウント（rules/に品質基準3本）
+└── vivant/         ← 新規Noteアカウント（ジャンル未定・情報ベース記事。→ vivant/CLAUDE.md を参照）
 ```
 
 ---
@@ -32,7 +33,7 @@ claude project/
 ## 作業開始ルール（全タスク共通）
 
 1. **参照先の優先順位**：ルートの本ファイル → 各ディレクトリの `CLAUDE.md` → 個別ファイル
-2. **捏造禁止**：コンテンツ生成時は必ず該当アカウントの `personal_data.md` を参照し、実体験に基づく内容のみ使用する
+2. **捏造禁止**：コンテンツ生成時は必ず該当アカウントの `personal_data.md` を参照し、実体験に基づく内容のみ使用する（**vivant例外**：実体験ベースではなく情報ベースで記事を作成する方針。`vivant/rules/project_vivant_content_policy.md` 準拠）
 3. **参照先は1ファイル**：SEO判断は `blogs/seo/SEO_guide.txt` 、ライティング原則は `brands/writing/writing_core.md` を起点とする
 
 ---
@@ -85,5 +86,7 @@ claude project/
 | X・Threads投稿生成 | `brands/CLAUDE.md` |
 | junk_juice Note記事（テーマ・タイトル） | `/junk-theme` スキルを起動 |
 | junk_juice Note記事（構成・本文・保存） | `/junk-article` スキルを起動 |
+| vivant Note記事（テーマ・タイトル） | `/vivant-theme` スキルを起動 |
+| vivant Note記事（構成・本文・保存） | `/vivant-article` スキルを起動 |
 | ASP記事設計 | `/asp-kaigi` スキルを起動 |
 | 戦略・方針判断 | `/notekaigi` スキルを起動 |

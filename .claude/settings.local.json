@@ -8,7 +8,9 @@
       "PowerShell(git *)",
       "WebFetch(domain:natalie.mu)",
       "WebFetch(domain:mdpr.jp)",
-      "WebFetch(domain:www.oricon.co.jp)"
+      "WebFetch(domain:www.oricon.co.jp)",
+      "Bash(\"C:/Users/PC_User/AppData/Local/Python/bin/python.exe\" brands/tools/qa_article.py \"vivant/articles/drafts/黒須はどうなったのか_わざと捕まった説.md\")",
+      "WebFetch(domain:note.com)"
     ]
   }
 }
