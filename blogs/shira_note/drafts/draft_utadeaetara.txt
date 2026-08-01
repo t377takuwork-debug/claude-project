@@ -234,6 +234,8 @@
   <div style="padding: 12px 16px; background: #f8fbff; border-top: 1px solid #e2e8f0;">
     <p style="margin: 0; font-size: 11px; color: #64748b; text-align: center;">
       ※上記は2026年7月8日時点の発表分（50音順・32組）。歌唱曲は未発表・出演者は今後も追加発表予定です。</p>
+    <p style="margin: 6px 0 0; font-size: 11px; color: #64748b; text-align: center;">
+      ※さだまさし・Mrs. GREEN APPLE・ゆずの3組は、8月9日のNHKホール公開収録には出演しません。</p>
   </div>
 </div>
 <!-- /wp:html -->
@@ -320,7 +322,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>「NHK夏の音楽祭 うたであえたら」は、昭和・平成・令和の名曲たちがNHKホールに集結する大型音楽特番です。</p>
+<p>「NHK夏の音楽祭 うたであえたら」は、昭和・平成・令和の名曲たちがNHKホールに勢ぞろいする大型音楽特番です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -350,7 +352,7 @@
         <div style="flex-shrink: 0; width: 24px; height: 24px; background: #eef4fb; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #007bff; font-weight: bold;">01</div>
         <div>
           <div style="font-size: 13px; font-weight: 800; color: #1a1a1a; margin-bottom: 2px;">時代を超えた名曲の共演</div>
-          <div style="font-size: 12px; color: #555; line-height: 1.6;">昭和・平成・令和のヒット曲がNHKホールに集結。世代を繋ぐ音楽体験を。</div>
+          <div style="font-size: 12px; color: #555; line-height: 1.6;">昭和・平成・令和のヒット曲がNHKホールに勢ぞろい。世代を繋ぐ音楽体験を。</div>
         </div>
       </div>
 
@@ -374,7 +376,15 @@
         <div style="flex-shrink: 0; width: 24px; height: 24px; background: #eef4fb; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #007bff; font-weight: bold;">04</div>
         <div>
           <div style="font-size: 13px; font-weight: 800; color: #1a1a1a; margin-bottom: 2px;">The Wakey Show プレゼンツ Eテレソングパーティー！</div>
-          <div style="font-size: 12px; color: #555; line-height: 1.6;">『みんなのうた』『いないいないばあっ！』『忍たま乱太郎』などEテレの名曲をWakeysと豪華出演者が披露。速水けんたろう・茂森あゆみ・佐藤弘道・松野ちかの4名が揃うのは1999年の卒業以来、約27年ぶりです。</div>
+          <div style="font-size: 12px; color: #555; line-height: 1.6;">『みんなのうた』『いないいないばあっ！』『忍たま乱太郎』などEテレの名曲をWakeysと豪華出演者が披露。「おかあさんといっしょ」90年代組の速水けんたろう・茂森あゆみ・佐藤弘道・松野ちかの4名が揃うのは、同番組卒業以来約27年ぶりとのことです。</div>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 12px; align-items: flex-start;">
+        <div style="flex-shrink: 0; width: 24px; height: 24px; background: #eef4fb; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #007bff; font-weight: bold;">05</div>
+        <div>
+          <div style="font-size: 13px; font-weight: 800; color: #1a1a1a; margin-bottom: 2px;">ゆず×羽生結弦 スペシャルコラボ</div>
+          <div style="font-size: 12px; color: #555; line-height: 1.6;">仙台市のリンクから、ゆずと羽生結弦さんによる一夜限りのコラボレーションを中継。披露曲は「幾重」で、東日本大震災から15年の節目にゆず・北川悠仁さんが込めた歌詞に羽生さんが深く共感し、500回以上聴き込んで考案した振り付けで表現します。</div>
         </div>
       </div>
 
@@ -384,15 +394,11 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>特別企画「The Wakey Show プレゼンツ Eテレソングパーティー！」も実施。</p>
+<p>「Eテレソングパーティー！」も「ゆず×羽生結弦」も、詳しくは上のカードをチェックしてみてくださいね。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>現在Eテレで放送中の『The Wakey Show』メンバーに加え、佐藤弘道さん・茂森あゆみさん・速水けんたろうさん・松野ちかさん・ワンワンが出演し、昭和・平成・令和のEテレ名曲を披露予定。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>ぜひ、家族団らんのひとときに番組を楽しみください！</p>
+<p>[kanrenad]</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -729,21 +735,23 @@
         "北川景子",
         "二宮和也",
         "Mrs. GREEN APPLE",
+        "ゆず",
+        "羽生結弦",
         "2026",
         "NHKホール"
       ],
       "datePublished": "2026-07-01T20:00:00+09:00",
       "dateCreated": "2026-07-01T20:00:00+09:00",
-      "dateModified": "2026-07-08T10:00:00+09:00",
+      "dateModified": "2026-08-02T12:00:00+09:00",
       "inLanguage": "ja",
       "image": {
         "@type": "ImageObject",
         "@id": "https://shira-treat.com/utadeaetara-timetable/#heroimage",
-        "url": "https://shira-treat.com/wp-content/uploads/2026/07/image.webp",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/07/image-10-1.webp",
         "width": 1200,
         "height": 675
       },
-      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/07/image.webp",
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/07/image-10-1.webp",
       "author": {
         "@type": "Person",
         "name": "Shira",
@@ -827,7 +835,9 @@
         { "@type": "Person", "name": "佐藤弘道" },
         { "@type": "Person", "name": "茂森あゆみ" },
         { "@type": "Person", "name": "速水けんたろう" },
-        { "@type": "Person", "name": "松野ちか" }
+        { "@type": "Person", "name": "松野ちか" },
+        { "@type": "MusicGroup", "name": "ゆず" },
+        { "@type": "Person", "name": "羽生結弦" }
       ],
       "broadcaster": {
         "@type": "Organization",

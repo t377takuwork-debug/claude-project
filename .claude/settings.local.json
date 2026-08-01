@@ -1,6 +1,7 @@
 {
   "permissions": {
     "allow": [
+      "Edit(blogs/shira_note/drafts/*)",
       "WebSearch",
       "PowerShell(Get-ChildItem *)",
       "PowerShell(git add *)",

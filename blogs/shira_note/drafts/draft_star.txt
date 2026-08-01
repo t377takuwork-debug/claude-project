@@ -1,8 +1,8 @@
 ﻿<!-- wp:paragraph -->
-タイトル：【最新】STAR タイムテーブル 7月30日は何時から？出演順や出演時間更新！
+タイトル：【最新】STAR タイムテーブル 8月6日は何時から？出演順や出演時間更新！
 
-メタディスクリプション（108字）：
-7/30放送のフジテレビ音楽番組『STAR』出演アーティスト・出演順・歌唱曲を随時更新。NCT WISH初のJ-POPリメイク、Number_i神宮寺勇太プロデュース曲、モアナ関連スペシャルステージなど見どころ満載！
+メタディスクリプション（111字）：
+8/6放送のフジテレビ音楽番組『STAR』出演アーティスト・出演順・歌唱曲を随時更新。水谷千重子が初のSTARナビゲーターに就任、Da-iCE最新曲「アンリミテッド」、Travis Japan新バージョンなど見どころ満載！
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -64,7 +64,7 @@
       <div style="display: flex; justify-content: space-between; align-items: center;">
         <span style="font-size: 11px; color: #F26522; font-weight: 700;">放送日時</span>
         <span style="font-size: 13px; font-weight: 800; color: #1a1a1a;">
-          7.30 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
+          8.6 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
         </span>
       </div>
     </div>
@@ -74,21 +74,21 @@
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333; line-height: 1.5;">
           <strong style="color: #000;">出演：</strong>
-          20th Century / timelesz / NCT WISH / Number_i / TSUZUMI（ME:I）・尾上松也・屋比久知奈
+          ＝LOVE / TWS / Travis Japan / Da-iCE / 水谷千重子
         </p>
       </div>
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333; line-height: 1.5;">
           <strong style="color: #000;">注目：</strong>
-          NCT WISH「BOY MEETS GIRL」がTRFのリメイクカバーで初のJ-POPソング／Number_i「BUGS LIFE」は神宮寺勇太プロデュース楽曲／『モアナと伝説の海』関連曲をTSUZUMI・尾上松也・屋比久知奈が特別ステージで披露
+          水谷千重子が今回からSTARナビゲーターに就任／Da-iCE「アンリミテッド」はメンバー工藤大輝・花村想太が書き下ろした最新シングル／Travis Japan「On My Road -Stadium ver.-」は新バージョンで披露
         </p>
       </div>
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333; line-height: 1.5;">
           <strong style="color: #000;">タイムテーブル：</strong>
-          現在は番組構成予測を掲載中。放送開始後（19:00〜）に実際の進行へ随時更新します。
+          放送前のため構成予測を掲載中です。19:00の放送開始と同時に、実際の進行へ切り替えて更新していきます。
         </p>
       </div>
     </div>
@@ -103,7 +103,7 @@
       line-height: 1.4;
     ">
       <span style="font-weight: 700; color: #444;">※ハイライト：</span><br>
-      NCT WISH初のJ-POPリメイクカバーとNumber_i神宮寺勇太プロデュース曲、モアナ関連スペシャルステージが揃う1時間。
+      STARナビゲーターに水谷千重子が初登場、Da-iCE最新曲とTravis Japan新バージョンパフォーマンスが揃う1時間。
     </div>
 
     <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -120,7 +120,7 @@
         最新タイムテーブルを見る ❯
       </a>
       <div style="font-size: 9px; color: #999; text-align: right;">
-        UPDATED: 2026.07.24
+        UPDATED: 2026.08.02
       </div>
     </div>
   </div>
@@ -136,15 +136,15 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>今回はNCT WISH初のJ-POPリメイクカバーとNumber_i神宮寺勇太プロデュース曲、モアナ関連スペシャルステージなど見どころ満載！</p>
+<p>今回は水谷千重子のSTARナビゲーター就任とDa-iCE最新曲「アンリミテッド」、Travis Japan新バージョンパフォーマンスなど見どころ満載！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>STAR 最新タイムテーブル【7/30】</h2>
+<h2>STAR 最新タイムテーブル【8/6】</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年7月30日（木）19:00から放送の『STAR』出演アーティストと歌唱曲の予想です。</p>
+<p>2026年8月6日（木）19:00から放送の『STAR』出演アーティストと歌唱曲の予想です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -194,7 +194,7 @@
       <div style="display: flex; justify-content: space-between; align-items: center;">
         <span style="font-size: 11px; color: #F26522; font-weight: 700;">放送日時</span>
         <span style="font-size: 13px; font-weight: 800; color: #1a1a1a;">
-          7.30 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
+          8.6 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
         </span>
       </div>
     </div>
@@ -204,42 +204,42 @@
       <div style="display: flex; gap: 6px; align-items: flex-start;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:00</strong> OP（MC上垣皓太朗・STARナビゲーター 井上和〈乃木坂46〉登場）
+          <strong>19:00</strong> OP（MC上垣皓太朗・STARナビゲーター 水谷千重子 初登場）
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:05頃</strong> 20th Century「僕らが上書きする世界」★テレビアニメ『MAO』オープニングテーマ
+          <strong>19:06頃</strong> ＝LOVE 最新曲 ★来年1月の東京ドーム公演2days控え、勢いそのままのパフォーマンス
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:17頃</strong> timelesz「消えない花火」★映画『君と花火と約束と』主題歌
+          <strong>19:16頃</strong> TWS「SODA SODA」★日本2ndシングル、真夏の海辺を舞台にした胸キュンソング
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:28頃</strong> NCT WISH「BOY MEETS GIRL」★TRFのリメイクカバー、NCT WISH初のJ-POPソングリメイク
+          <strong>19:27頃</strong> Travis Japan「On My Road -Stadium ver.-」★新バージョン、ダンスと歌唱力で見せるステージ
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:38頃</strong> Number_i「BUGS LIFE」★神宮寺勇太プロデュース楽曲
+          <strong>19:38頃</strong> Da-iCE「アンリミテッド」★工藤大輝・花村想太が書き下ろした最新シングル
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:48頃</strong> スペシャルステージ『モアナと伝説の海』関連楽曲：TSUZUMI（ME:I）「どこまでも 〜How Far I'll Go〜」・尾上松也「俺のおかげさ」・屋比久知奈「旅立とう 〜Along The Way〜」
+          <strong>19:48頃</strong> 水谷千重子「桃色吐息」★高橋真梨子の代表曲。今回からSTARナビゲーターに就任
         </p>
       </div>
 
@@ -262,7 +262,7 @@
       line-height: 1.4;
     ">
       <strong>※最新の状況：</strong><br>
-      ただいま表示している出演時間は7月30日放送分の<strong>構成予測</strong>です。NCT WISH・Number_iの披露順は当日の進行次第で変わるため、各パフォーマンス枠の時間は放送開始後にリアルタイムで書き換えていきます。
+      ただいま表示している出演時間は8月6日放送分の<strong>構成予測</strong>です。＝LOVE・Travis Japanの披露順は当日の進行次第で変わるため、各パフォーマンス枠の時間は放送開始後にリアルタイムで書き換えていきます。
     </div>
 
     <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -279,7 +279,7 @@
       </a>
 
       <div style="font-size: 9px; color: #999;">
-        UPDATED: 2026.07.24
+        UPDATED: 2026.08.02
       </div>
     </div>
 
@@ -296,7 +296,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>STAR（7/30）出演アーティスト・歌唱内容一覧</h2>
+<h2>STAR（8/6）出演アーティスト・歌唱内容一覧</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center","sizeSlug":"full"} -->
@@ -325,45 +325,33 @@ box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 <div style="background: #fff; border-radius: 0 0 11px 11px; overflow: hidden;">
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">20th Century</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「僕らが上書きする世界」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">テレビアニメ『MAO』オープニングテーマ</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">＝LOVE</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">最新曲</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">来年1月の東京ドーム公演2daysを控え、勢いそのままのパフォーマンス</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">timelesz</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「消えない花火」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">映画『君と花火と約束と』主題歌</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">TWS</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「SODA SODA」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">日本2ndシングル。真夏の海辺を舞台にした胸キュンソング</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">NCT WISH</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「BOY MEETS GIRL」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">TRFのリメイクカバー。NCT WISH初のJ-POPソングリメイク</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">Travis Japan</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「On My Road -Stadium ver.-」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">新バージョン。圧倒的なダンススキルと歌唱力によるステージ</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">Number_i</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「BUGS LIFE」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">神宮寺勇太プロデュース楽曲</div>
-</div>
-
-<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">TSUZUMI（ME:I）</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「どこまでも 〜How Far I'll Go〜」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">『モアナと伝説の海』関連楽曲によるスペシャルステージ</div>
-</div>
-
-<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">尾上松也</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「俺のおかげさ」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">『モアナと伝説の海』関連楽曲によるスペシャルステージ</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">Da-iCE</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「アンリミテッド」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">最新シングル。メンバー工藤大輝・花村想太が書き下ろしたエネルギッシュなステージ</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; background: #fff;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">屋比久知奈</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「旅立とう 〜Along The Way〜」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">『モアナと伝説の海』関連楽曲によるスペシャルステージ</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">水谷千重子</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「桃色吐息」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">高橋真梨子の代表曲を熱唱。今回からSTARナビゲーターに就任</div>
 </div>
 
 </div>
@@ -375,7 +363,7 @@ box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>7月30日の『STAR』は、NCT WISH初のJ-POPリメイクカバーやNumber_i神宮寺勇太プロデュース楽曲に加え、TSUZUMI・尾上松也・屋比久知奈による『モアナと伝説の海』関連楽曲のスペシャルステージも見どころです。</p>
+<p>8月6日の『STAR』は、水谷千重子がSTARナビゲーターに初就任し「桃色吐息」を熱唱するほか、Da-iCE「アンリミテッド」やTravis Japan「On My Road -Stadium ver.-」新バージョンも見どころです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -423,7 +411,7 @@ padding: 14px;
     <span style="color:#F26522; font-size:12px;">✦</span>
     <div style="font-size:12px; color:#333;">
       <strong>19:00〜（オープニング・熱狂枠）</strong><br>
-      オープニングトーク後、序盤に新曲パフォーマンスへ進む流れが有力。前回（7/23）放送ではEBiDAN選抜「Yes! 東京」の投稿が早い時間帯から集中した実績があり、今回も注目度の高いパフォーマンスが序盤に置かれる構成が予想される。
+      オープニングトーク後、序盤に新曲パフォーマンスへ進む流れが有力。前回（7/30）放送でも20th Century「僕らが上書きする世界」への反応が早い時間帯から集まった実績があり、今回も＝LOVE・TWSなど注目度の高いパフォーマンスが序盤に置かれる構成が予想される。
     </div>
   </div>
 
@@ -431,7 +419,7 @@ padding: 14px;
     <span style="color:#00B7B5; font-size:12px;">✦</span>
     <div style="font-size:12px; color:#333;">
       <strong>19:15〜19:45（中盤・パフォーマンス枠）</strong><br>
-      20th Century・timelesz・NCT WISHのパフォーマンスが中盤に集中する予想。前回（7/23）放送でもsyudou×八木勇征・純烈のパフォーマンスが中盤に配置された。
+      Travis Japanのパフォーマンスが中盤に集中する予想。前回（7/30）放送でもtimeleszやモアナ関連メドレー・NCT WISHのパフォーマンスが中盤に配置された。
     </div>
   </div>
 
@@ -439,7 +427,7 @@ padding: 14px;
     <span style="color:#F26522; font-size:12px;">✦</span>
     <div style="font-size:12px; color:#333;">
       <strong>19:45〜20:00（終盤・クライマックス枠）</strong><br>
-      Number_iと、モアナ関連スペシャルステージが終盤に配置される可能性がある。前回（7/23）放送はTREASURE「IF I」のフルサイズ初披露が最後に登場し、乃木坂46が終盤に登場する構成だった実績があり、今回も終盤に見どころが集まると予想される。
+      Da-iCEと、STARナビゲーター就任回となる水谷千重子の「桃色吐息」が終盤に配置される可能性がある。前回（7/30）放送はNumber_i「BUGS LIFE」が後半に登場しこの回最大の反響を集めた実績があり、今回も終盤に見どころが集まると予想される。
     </div>
   </div>
 
@@ -456,7 +444,7 @@ border-radius:8px;
 line-height:1.5;
 ">
 💡 <strong>今回のポイント</strong><br>
-前回（7/23）放送は「序盤にEBiDAN選抜→中盤にsyudou×八木勇征・純烈→終盤にTREASURE・乃木坂46」という進行だった実績（出演順はSNS投稿の集中タイミングに基づく推定）から、今回も「序盤：新曲パフォーマンス→中盤：20th Century・timelesz・NCT WISH→終盤：Number_i・モアナ関連スペシャルステージ」の流れが有力です。
+前回（7/30）放送は「序盤に20th Century→中盤にtimelesz・モアナ関連メドレー・NCT WISH→終盤にNumber_i」という進行で、Number_iへの反響が最大だった実績（出演順は反響が集中したタイミングに基づく推定）から、今回も「序盤：＝LOVE・TWS→中盤：Travis Japan→終盤：Da-iCE・水谷千重子」の流れが有力です。
 </div>
 
 </div>
@@ -476,7 +464,7 @@ line-height:1.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>7月23日の放送は以下のような流れでした。</p>
+<p>7月30日の放送は以下のような流れでした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -515,7 +503,7 @@ line-height:1.5;
           『STAR』SETLIST &amp; REPORT
         </div>
       </div>
-      <div style="font-size: 12px; font-weight: 700; color: #666;">2026.07.23 <span style="font-weight: 400;">THU</span></div>
+      <div style="font-size: 12px; font-weight: 700; color: #666;">2026.07.30 <span style="font-weight: 400;">THU</span></div>
     </div>
 
     <div style="
@@ -526,25 +514,25 @@ line-height:1.5;
       border-left: 4px solid #F26522;
     ">
       <div style="font-size: 11px; color: #F26522; font-weight: 800; margin-bottom: 2px;">STAR NAVIGATORS</div>
-      <div style="font-size: 14px; font-weight: 700; color: #333;">上垣 皓太朗（フジテレビアナウンサー）／ちいかわ・島二郎</div>
+      <div style="font-size: 14px; font-weight: 700; color: #333;">上垣 皓太朗（フジテレビアナウンサー）／井上和（乃木坂46）</div>
     </div>
 
     <div style="display: grid; gap: 0; margin-bottom: 16px; border-left: 2px solid #eee; margin-left: 6px; padding-left: 14px;">
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -21px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #F26522; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 800;">19:00～19:10頃 / OPENING</div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 800;">19:00～19:08頃 / OPENING</div>
         <div style="font-size: 13px; color: #1a1a1a; line-height: 1.5;">
           MC上垣皓太朗進行で番組スタート<br>
-          <span style="font-size: 11px; color: #666;">ナビゲーター「ちいかわ」「島二郎」が初登場</span>
+          <span style="font-size: 11px; color: #666;">ナビゲーター井上和（乃木坂46）が登場</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:10頃</div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:08頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">EBiDAN選抜</span> 「Yes! 東京」<br>
-          <span style="font-size: 11px; color: #666;">今夜限定の選抜メンバーによる披露。新鮮な歌割り・ダンスへの反響が最も早く集まった</span>
+          <span style="font-weight: 800;">20th Century</span> 「僕らが上書きする世界」<br>
+          <span style="font-size: 11px; color: #666;">爽やかな衣装とキレのあるダンスで安定した高評価</span>
         </div>
       </div>
 
@@ -552,44 +540,35 @@ line-height:1.5;
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
         <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:20頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">syudou × 八木勇征（FANTASTICS）</span> 「ラテマジック」<br>
-          <span style="font-size: 11px; color: #666;">テレビ初披露の応援ソング</span>
+          <span style="font-weight: 800;">timelesz</span> 「消えない花火」<br>
+          <span style="font-size: 11px; color: #666;">儚げで美しいと評判に。メンバーの表情への反応が集まった</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:30頃</div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:32頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">純烈</span> 楽曲は未特定<br>
-          <span style="font-size: 11px; color: #666;">中盤に登場したと見られる</span>
+          <span style="font-weight: 800;">『モアナと伝説の海』SPメドレー</span> TSUZUMI（ME:I）「どこまでも」・尾上松也「俺のおかげさ」・屋比久知奈「旅立とう」<br>
+          <span style="font-size: 11px; color: #666;">中盤の登場。反響は控えめで、順番の特定は難しい</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:40頃</div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:42頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">aespa</span> 「KISS N TELL」など<br>
-          <span style="font-size: 11px; color: #666;">他組と比べて反響はやや控えめ</span>
-        </div>
-      </div>
-
-      <div style="position: relative; padding-bottom: 14px;">
-        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:50頃</div>
-        <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">TREASURE</span> 「IF I」<br>
-          <span style="font-size: 11px; color: #666;">フルサイズでのテレビ初披露。番組最後に登場</span>
+          <span style="font-weight: 800;">NCT WISH</span> 「BOY MEETS GIRL」<br>
+          <span style="font-size: 11px; color: #666;">中盤〜後半に登場。他組と比べて反響はやや控えめ</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #F26522; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">20:00頃 / LAST</div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:52頃 / LAST</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">乃木坂46</span> 「是非に及ばず」など<br>
-          <span style="font-size: 11px; color: #666;">終盤に登場</span>
+          <span style="font-weight: 800;">Number_i</span> 「BUGS LIFE」<br>
+          <span style="font-size: 11px; color: #666;">制作エピソードやメンバーの親への感謝トークからダンスパフォーマンスへ。この回最大の反響を集めた</span>
         </div>
       </div>
     </div>
@@ -600,7 +579,7 @@ line-height:1.5;
       margin-bottom: 12px;
       line-height: 1.5;
     ">
-      ※出演順はSNS上の反響が集中したタイミングをもとにした推定で、公式発表順とは異なる場合があります（特に純烈・aespaの順番には幅があります）。
+      ※出演順は各アーティストへの反響が集中したタイミングをもとにした推定で、公式発表順とは異なる場合があります（特に『モアナと伝説の海』SPメドレー・NCT WISHの順番には幅があります）。
     </div>
 
     <div style="
@@ -614,7 +593,7 @@ line-height:1.5;
       line-height: 1.6;
     ">
       <span style="display: inline-block; background: #eee; padding: 0 4px; border-radius: 2px; margin-right: 4px; font-weight: 800;">REPORT</span><br>
-      MC上垣皓太朗の進行に、ナビゲーター「ちいかわ」「島二郎」が初登場。EBiDAN選抜「Yes! 東京」は新鮮な歌割り・ダンスが好評を集め、TREASURE「IF I」のフルサイズ初披露も衣装や生放送への感謝コメントとともに盛り上がりを見せた1時間に。
+      MC上垣皓太朗とナビゲーター井上和（乃木坂46）のテンポの良い進行が好評。20th Century・timeleszの安定したパフォーマンスに続き、Number_i「BUGS LIFE」は制作エピソードのトークからダンスへの展開が最大の反響を集め、放送後も話題が続く1時間に。
     </div>
 
     <div style="display: flex; flex-direction: column; gap: 12px;">
@@ -634,7 +613,7 @@ line-height:1.5;
       </a>
       <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 4px; border-top: 1px solid #eee;">
         <div style="font-size: 9px; color: #999; font-weight: 700; letter-spacing: 0.5px;">STAR ARCHIVE REPORT</div>
-        <div style="font-size: 9px; color: #999;">FINAL UPDATED: 2026.07.23</div>
+        <div style="font-size: 9px; color: #999;">FINAL UPDATED: 2026.07.30</div>
       </div>
     </div>
   </div>
@@ -646,7 +625,7 @@ line-height:1.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>※7/30は放送前のため未確定。放送開始後（19:00〜）にリアルタイムで出演順を更新していきます。</p>
+<p>※8/6放送分は放送前のため未確定です。19:00の放送開始とともにリアルタイムで出演順を反映します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -756,7 +735,47 @@ color:#fff;
 <div style="padding:14px 16px;">
 
 <!-- ======================= -->
-<!-- 2026.07.16 (NEW) -->
+<!-- 2026.07.23 (NEW) -->
+<!-- ======================= -->
+<h3 style="margin:16px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
+2026年7月23日放送回
+</h3>
+
+<div style="
+border-radius:12px;
+overflow:hidden;
+border:1px solid #eee;
+background:#fff;
+box-shadow:0 6px 18px rgba(0,0,0,0.06);
+">
+
+<div style="height:4px;background:linear-gradient(90deg,#F26522,#00B7B5);"></div>
+
+<div style="padding:12px 14px;background:#fdfdfd;border-bottom:1px solid #eee;">
+  <div style="font-size:11px;font-weight:900;color:#F26522;">PAST LOG / STAR ARCHIVE</div>
+  <div style="font-size:14px;font-weight:900;color:#1a1a1a;">2026.07.23</div>
+</div>
+
+<div style="padding:14px;font-size:12px;line-height:1.8;color:#333;">
+
+<strong>19:00～19:10頃 OPENING</strong>：MC上垣皓太朗進行で番組スタート、ナビゲーター「ちいかわ」「島二郎」が初登場<br>
+<strong>19:10頃 EBiDAN選抜</strong>：「Yes! 東京」（今夜限定の選抜メンバーによる披露）<br>
+<strong>19:20頃 syudou × 八木勇征（FANTASTICS）</strong>：「ラテマジック」（テレビ初披露の応援ソング）<br>
+<strong>19:30頃 純烈</strong>：楽曲は未特定（中盤に登場したと見られる）<br>
+<strong>19:40頃 aespa</strong>：「KISS N TELL」など<br>
+<strong>19:50頃 TREASURE</strong>：「IF I」（フルサイズでのテレビ初披露）<br>
+<strong>20:00頃 LAST 乃木坂46</strong>：「是非に及ばず」など
+
+</div>
+
+<div style="padding:10px 14px;background:#f7fafc;font-size:11px;color:#666;">
+💡 MC上垣皓太朗の進行に、ナビゲーター「ちいかわ」「島二郎」が初登場。EBiDAN選抜「Yes! 東京」は新鮮な歌割り・ダンスが好評を集め、TREASURE「IF I」のフルサイズ初披露も盛り上がりを見せた1時間に。※出演順は反響が集中したタイミングに基づく推定
+</div>
+
+</div>
+
+<!-- ======================= -->
+<!-- 2026.07.16 -->
 <!-- ======================= -->
 <h3 style="margin:16px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
 2026年7月16日放送回
@@ -869,45 +888,6 @@ box-shadow:0 6px 18px rgba(0,0,0,0.06);
 
 </div>
 
-<!-- ======================= -->
-<!-- 2026.06.18 (NEW) -->
-<!-- ======================= -->
-<h3 style="margin:16px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
-2026年6月18日放送回
-</h3>
-
-<div style="
-border-radius:12px;
-overflow:hidden;
-border:1px solid #eee;
-background:#fff;
-box-shadow:0 6px 18px rgba(0,0,0,0.06);
-">
-
-<div style="height:4px;background:linear-gradient(90deg,#F26522,#00B7B5);"></div>
-
-<div style="padding:12px 14px;background:#fdfdfd;border-bottom:1px solid #eee;">
-  <div style="font-size:11px;font-weight:900;color:#F26522;">PAST LOG / STAR ARCHIVE</div>
-  <div style="font-size:14px;font-weight:900;color:#1a1a1a;">2026.06.18</div>
-</div>
-
-<div style="padding:14px;font-size:12px;line-height:1.8;color:#333;">
-
-<strong>コブクロ</strong>：「Starry Smile Story」（名作ドラマ主題歌ランキング企画）<br>
-<strong>きゃりーぱみゅぱみゅ</strong>：「キミに100パーセント」<br>
-<strong>NiziU</strong>：「SWEET NONFICTION」<br>
-<strong>WATWING</strong>：「Present」（ドラマ『今夜、秘密のキッチンで』主題歌）<br>
-<strong>DEAN FUJIOKA</strong>：「Loved One」（ドラマ『LOVED ONE』主題歌）<br>
-<strong>櫻坂46</strong>：「What's "KAZOKU"？」（クライマックス）★15thシングル収録曲
-
-</div>
-
-<div style="padding:10px 14px;background:#f7fafc;font-size:11px;color:#666;">
-💡 名作ドラマ主題歌ランキング企画を中心に、DEAN FUJIOKAとWATWINGのドラマ主題歌が一夜に集結。ゲスト木南晴夏・高杉真宙も登場した、ドラマ×音楽の1時間。※出演順は予測情報ベース
-</div>
-
-</div>
-
 </div>
 </details>
 <!-- /wp:html -->
@@ -937,9 +917,9 @@ overflow:hidden;
 
 <!-- Q1 -->
 <div style="padding:12px;border-radius:10px;background:#fdf2ed;margin-bottom:10px;">
-  <div style="font-size:12px;font-weight:900;color:#F26522;">Q1｜NCT WISH「BOY MEETS GIRL」は何時頃披露されますか？</div>
+  <div style="font-size:12px;font-weight:900;color:#F26522;">Q1｜Da-iCE「アンリミテッド」は何時頃披露されますか？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    番組中盤の19:28頃に披露される可能性が高いと予想されます。前回（7/23）放送ではテレビ初披露の楽曲が中盤に配置された実績があり、TRFのリメイクカバーというNCT WISH初のJ-POPソングも同様の枠に置かれると見ています。実際の出演順は放送後に本ページで更新します。
+    番組終盤の19:38頃に披露される可能性が高いと予想されます。前回（7/30）放送ではNumber_iが後半の見どころ枠でこの回最大の反響を集めた実績があり、今回もメンバー書き下ろしの最新シングルが終盤枠に置かれると見ています。実際の出演順は放送後に本ページで更新します。
   </div>
 </div>
 
@@ -947,15 +927,15 @@ overflow:hidden;
 <div style="padding:12px;border-radius:10px;background:#fff;border:1px solid #eee;margin-bottom:10px;">
   <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q2｜今回はどんな企画の放送回ですか？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    NCT WISHが「BOY MEETS GIRL」でTRFのリメイクカバーを披露する初のJ-POPソングリメイク回です。Number_iは神宮寺勇太プロデュース楽曲「BUGS LIFE」を披露し、『モアナと伝説の海』関連楽曲によるスペシャルステージにTSUZUMI（ME:I）・尾上松也・屋比久知奈が出演します。ナビゲーターは井上和（乃木坂46）です。
+    水谷千重子が今回からSTARナビゲーターに就任し、高橋真梨子の代表曲「桃色吐息」を熱唱する回です。Da-iCEは最新シングル「アンリミテッド」を、Travis Japanは新バージョンの「On My Road -Stadium ver.-」を披露し、＝LOVE・TWSも出演します。MCは引き続き上垣皓太朗です。
   </div>
 </div>
 
 <!-- Q3 -->
 <div style="padding:12px;border-radius:10px;background:#fdf2ed;margin-bottom:10px;">
-  <div style="font-size:12px;font-weight:900;color:#F26522;">Q3｜Number_i「BUGS LIFE」は何時頃披露されますか？</div>
+  <div style="font-size:12px;font-weight:900;color:#F26522;">Q3｜Travis Japan「On My Road -Stadium ver.-」は何時頃披露されますか？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    番組終盤の19:38頃の披露が有力です。神宮寺勇太プロデュース楽曲という注目度の高さから、後半の見どころ枠に置かれると予想されます。実際の出演順は放送後に本ページで更新します。
+    番組中盤の19:27頃の披露が有力です。新バージョンでの披露という注目度の高さから、中盤のパフォーマンス枠に置かれると予想されます。実際の出演順は放送後に本ページで更新します。
   </div>
 </div>
 
@@ -963,7 +943,7 @@ overflow:hidden;
 <div style="padding:12px;border-radius:10px;background:#fff;border:1px solid #eee;">
   <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q4｜タイムテーブルのリアルタイム更新はありますか？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    公式から詳細な時間は公開されませんが、当ページでは7月30日の19:00放送開始とともに、実際の進行・出演順をリアルタイムで速報更新します。
+    公式から詳細な時間は公開されませんが、当ページでは8月6日の19:00放送開始とともに、実際の進行・出演順をリアルタイムで速報更新します。
   </div>
 </div>
 
@@ -976,15 +956,15 @@ overflow:hidden;
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年7月30日（木）19:00放送のフジテレビ系『STAR』。</p>
+<p>2026年8月6日（木）19:00放送のフジテレビ系『STAR』。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>今回はNCT WISHが「BOY MEETS GIRL」でTRFのリメイクカバーを披露する、NCT WISH初のJ-POPソングリメイクが目玉です。</p>
+<p>今回は水谷千重子が「桃色吐息」を熱唱し、今回からSTARナビゲーターに就任することが最大の目玉です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>20th Century「僕らが上書きする世界」、timelesz「消えない花火」、Number_i神宮寺勇太プロデュース楽曲「BUGS LIFE」に加え、『モアナと伝説の海』関連楽曲によるTSUZUMI・尾上松也・屋比久知奈のスペシャルステージ、ナビゲーター井上和（乃木坂46）も見どころです。</p>
+<p>＝LOVE最新曲、TWS「SODA SODA」、Travis Japan「On My Road -Stadium ver.-」新バージョン、Da-iCE最新シングル「アンリミテッド」も見どころです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -1101,36 +1081,36 @@ overflow:hidden;
       "@type": "BlogPosting",
       "@id": "https://shira-treat.com/star-timetable/#post",
       "url": "https://shira-treat.com/star-timetable/",
-      "headline": "【最新】STAR タイムテーブル 7月30日は何時から？出演順や出演時間更新！",
-      "description": "7/30放送のフジテレビ音楽番組『STAR』出演アーティスト・出演順・歌唱曲を随時更新。NCT WISH初のJ-POPリメイク、Number_i神宮寺勇太プロデュース曲、モアナ関連スペシャルステージなど見どころ満載！",
+      "headline": "【最新】STAR タイムテーブル 8月6日は何時から？出演順や出演時間更新！",
+      "description": "8/6放送のフジテレビ音楽番組『STAR』出演アーティスト・出演順・歌唱曲を随時更新。水谷千重子が初のSTARナビゲーターに就任、Da-iCE最新曲「アンリミテッド」、Travis Japan新バージョンなど見どころ満載！",
       "keywords": [
         "STAR",
         "タイムテーブル",
         "出演者",
-        "20th Century",
-        "timelesz",
-        "NCT WISH",
-        "BOY MEETS GIRL",
-        "Number_i",
-        "BUGS LIFE",
-        "神宮寺勇太",
-        "モアナと伝説の海",
-        "井上和",
-        "7月30日",
+        "＝LOVE",
+        "TWS",
+        "SODA SODA",
+        "Travis Japan",
+        "On My Road",
+        "Da-iCE",
+        "アンリミテッド",
+        "水谷千重子",
+        "STARナビゲーター",
+        "8月6日",
         "フジテレビ"
       ],
       "datePublished": "2026-04-09T20:00:00+09:00",
       "dateCreated": "2026-04-09T20:00:00+09:00",
-      "dateModified": "2026-07-24T10:00:00+09:00",
+      "dateModified": "2026-08-02T10:00:00+09:00",
       "inLanguage": "ja",
       "image": {
         "@type": "ImageObject",
         "@id": "https://shira-treat.com/star-timetable/#heroimage",
-        "url": "https://shira-treat.com/wp-content/uploads/2026/07/image-4-3.webp",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/07/image-12-2.webp",
         "width": 1200,
         "height": 675
       },
-      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/07/image-4-3.webp",
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/07/image-12-2.webp",
       "author": {
         "@type": "Person",
         "name": "Shira",
@@ -1165,22 +1145,19 @@ overflow:hidden;
     {
       "@type": "BroadcastEvent",
       "@id": "https://shira-treat.com/star-timetable/#broadcast",
-      "name": "STAR（2026年7月30日放送回）",
-      "startDate": "2026-07-30T19:00:00+09:00",
-      "endDate": "2026-07-30T20:00:00+09:00",
+      "name": "STAR（2026年8月6日放送回）",
+      "startDate": "2026-08-06T19:00:00+09:00",
+      "endDate": "2026-08-06T20:00:00+09:00",
       "eventStatus": "https://schema.org/EventScheduled",
       "isLiveBroadcast": true,
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "performer": [
         { "@type": "Person", "name": "上垣皓太朗" },
-        { "@type": "Person", "name": "井上和" },
-        { "@type": "MusicGroup", "name": "20th Century" },
-        { "@type": "MusicGroup", "name": "timelesz" },
-        { "@type": "MusicGroup", "name": "NCT WISH" },
-        { "@type": "MusicGroup", "name": "Number_i" },
-        { "@type": "Person", "name": "TSUZUMI" },
-        { "@type": "Person", "name": "尾上松也" },
-        { "@type": "Person", "name": "屋比久知奈" }
+        { "@type": "Person", "name": "水谷千重子" },
+        { "@type": "MusicGroup", "name": "＝LOVE" },
+        { "@type": "MusicGroup", "name": "TWS" },
+        { "@type": "MusicGroup", "name": "Travis Japan" },
+        { "@type": "MusicGroup", "name": "Da-iCE" }
       ],
       "broadcaster": {
         "@type": "Organization",
@@ -1191,16 +1168,14 @@ overflow:hidden;
     {
       "@type": "ItemList",
       "@id": "https://shira-treat.com/star-timetable/#lineup",
-      "name": "STAR（7/30）出演アーティスト・パフォーマンス一覧",
-      "numberOfItems": 7,
+      "name": "STAR（8/6）出演アーティスト・パフォーマンス一覧",
+      "numberOfItems": 5,
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "20th Century" },
-        { "@type": "ListItem", "position": 2, "name": "timelesz" },
-        { "@type": "ListItem", "position": 3, "name": "NCT WISH" },
-        { "@type": "ListItem", "position": 4, "name": "Number_i" },
-        { "@type": "ListItem", "position": 5, "name": "TSUZUMI" },
-        { "@type": "ListItem", "position": 6, "name": "尾上松也" },
-        { "@type": "ListItem", "position": 7, "name": "屋比久知奈" }
+        { "@type": "ListItem", "position": 1, "name": "＝LOVE" },
+        { "@type": "ListItem", "position": 2, "name": "TWS" },
+        { "@type": "ListItem", "position": 3, "name": "Travis Japan" },
+        { "@type": "ListItem", "position": 4, "name": "Da-iCE" },
+        { "@type": "ListItem", "position": 5, "name": "水谷千重子" }
       ]
     },
     {
@@ -1209,10 +1184,10 @@ overflow:hidden;
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "NCT WISH「BOY MEETS GIRL」は何時頃披露されますか？",
+          "name": "Da-iCE「アンリミテッド」は何時頃披露されますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "番組中盤の19:28頃に披露される可能性が高いと予想されます。前回（7/23）放送ではテレビ初披露の楽曲が中盤に配置された実績があり、TRFのリメイクカバーというNCT WISH初のJ-POPソングも同様の枠に置かれると見ています。実際の出演順は放送後に本ページで更新します。"
+            "text": "番組終盤の19:38頃に披露される可能性が高いと予想されます。前回（7/30）放送ではNumber_iが後半の見どころ枠でこの回最大の反響を集めた実績があり、今回もメンバー書き下ろしの最新シングルが終盤枠に置かれると見ています。実際の出演順は放送後に本ページで更新します。"
           }
         },
         {
@@ -1220,15 +1195,15 @@ overflow:hidden;
           "name": "今回はどんな企画の放送回ですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "NCT WISHが「BOY MEETS GIRL」でTRFのリメイクカバーを披露する初のJ-POPソングリメイク回です。Number_iは神宮寺勇太プロデュース楽曲「BUGS LIFE」を披露し、『モアナと伝説の海』関連楽曲によるスペシャルステージにTSUZUMI（ME:I）・尾上松也・屋比久知奈が出演します。ナビゲーターは井上和（乃木坂46）です。"
+            "text": "水谷千重子が今回からSTARナビゲーターに就任し、高橋真梨子の代表曲「桃色吐息」を熱唱する回です。Da-iCEは最新シングル「アンリミテッド」を、Travis Japanは新バージョンの「On My Road -Stadium ver.-」を披露し、＝LOVE・TWSも出演します。MCは引き続き上垣皓太朗です。"
           }
         },
         {
           "@type": "Question",
-          "name": "Number_i「BUGS LIFE」は何時頃披露されますか？",
+          "name": "Travis Japan「On My Road -Stadium ver.-」は何時頃披露されますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "番組終盤の19:38頃の披露が有力です。神宮寺勇太プロデュース楽曲という注目度の高さから、後半の見どころ枠に置かれると予想されます。実際の出演順は放送後に本ページで更新します。"
+            "text": "番組中盤の19:27頃の披露が有力です。新バージョンでの披露という注目度の高さから、中盤のパフォーマンス枠に置かれると予想されます。実際の出演順は放送後に本ページで更新します。"
           }
         },
         {
@@ -1236,7 +1211,7 @@ overflow:hidden;
           "name": "タイムテーブルのリアルタイム更新はありますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "公式から詳細な時間は公開されませんが、当ページでは7月30日の19:00放送開始とともに、実際の進行・出演順をリアルタイムで速報更新します。"
+            "text": "公式から詳細な時間は公開されませんが、当ページでは8月6日の19:00放送開始とともに、実際の進行・出演順をリアルタイムで速報更新します。"
           }
         }
       ]
@@ -1260,7 +1235,7 @@ overflow:hidden;
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "7月30日 STAR タイムテーブル",
+          "name": "8月6日 STAR タイムテーブル",
           "item": "https://shira-treat.com/star-timetable/"
         }
       ]
