@@ -31,6 +31,10 @@ vivant/
 ├── rules/
 │   ├── project_vivant_content_policy.md
 │   └── project_vivant_copyright_and_monetization.md
+├── tools/
+│   └── qa_vivant_database.py ← 考察データベースの機械QA（`/vivant-episode-update` Step 3で使用）
+├── vivant_database_ep[N].md  ← 話数ごとの考察データベース（旧版は削除せず並存させる。末尾の「5. データベース運用マニュアル」が更新時の絶対ルール）
+├── raw_data_ep[N].md         ← 話数ごとのWeb調査生データ（`/vivant-episode-update` Step 1で生成・削除しない）
 └── articles/
     ├── drafts/         ← 執筆中・下書き
     ├── published/      ← 公開済み記事アーカイブ
@@ -41,8 +45,15 @@ vivant/
 
 | スキル | 用途 |
 |---|---|
+| `/vivant-episode-update [話数]` | 新話放送後、Webリサーチ→考察データベース差分更新→機械QAまでをワンストップで実行（記事制作の前段。**最初に実行**） |
 | `/vivant-theme` | テーマ評価・ペルソナ設定・タイトル決定（記事作成の最初に使う） |
 | `/vivant-article` | 構成設計・本文生成・品質チェック・保存（`/vivant-theme` の出力を引き継ぐ） |
+
+## 考察データベースの運用
+
+- 新話放送後は必ず `/vivant-episode-update [話数]` を使う（Web調査からデータベース更新までを1コマンドで完結。手動でraw_dataを作ってからデータベースを編集する運用はしない）
+- 更新ルールの正は `vivant_database_ep[N].md` 末尾の「5. データベース運用マニュアル」（事実／推測の分離・ステータス管理・履歴保持・用語統一を規定）。本ファイルとマニュアルが矛盾する場合はマニュアル側を優先する
+- データベースファイル（`vivant_database_ep[N].md`）・生データファイル（`raw_data_ep[N].md`）はいずれも旧版を削除せず、話数ごとに並存させる（履歴保持ルール）
 
 ## 記事生成ルール
 
@@ -59,4 +70,4 @@ vivant/
 
 ## このシステムについて
 
-このディレクトリと関連スキル（`/vivant-theme`・`/vivant-article`）は他の業務（brands/・Junk314/等）から独立した構成。撤去する場合はこのディレクトリと `.claude/commands/vivant-theme.md`・`.claude/commands/vivant-article.md` を削除すれば他システムに影響しない。
+このディレクトリと関連スキル（`/vivant-episode-update`・`/vivant-theme`・`/vivant-article`）は他の業務（brands/・Junk314/等）から独立した構成。撤去する場合はこのディレクトリと `.claude/commands/vivant-episode-update.md`・`.claude/commands/vivant-theme.md`・`.claude/commands/vivant-article.md` を削除すれば他システムに影響しない。

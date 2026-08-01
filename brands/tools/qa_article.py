@@ -42,6 +42,7 @@ WARN_PATTERNS = [
     ("ai-susume", r"をお勧めします|をおすすめします", "コンサル口調の疑い（guardrail系）"),
     ("ai-konoyouni", r"このように、", "説明の要約フレーズの疑い"),
     ("ai-ikagadeshou", r"いかがでしょうか", "問いかけの定型の疑い"),
+    ("number-setsu", r"\d+(\.\d+)?[%％]説", "「数字＋説」表現の疑い（2026-08-01、vivant新庄考察記事でユーザー指摘。論点を名付けた表現に置き換え推奨）"),
 ]
 
 # 層3: Note貼り付け時に崩れる記法（WARN・2026-07-09 s4lvトレンドブログ記事の実修正から追加）
@@ -49,6 +50,9 @@ NOTE_PASTE_WARN_PATTERNS = [
     ("note-list-dash", r"^- ", "Markdownリスト「- 」はNote貼り付けで崩れる可能性。テキストの「・」表記を推奨"),
     ("note-blank-quote", r"^>[ \t]*$", "引用ブロック内の空行「>」のみだとNote貼り付けで段落が潰れる可能性。全角スペースを挟んだ「>　」を推奨"),
     ("note-md-link", r"\[.+?\]\(https?://note\.com[^)]*\)", "note.comへのMarkdownリンク[text](url)はリンクカード化されない。裸URLを単独行に置くとカード化される"),
+    ("note-bold-bracket-open", r"\*\*[「『【]", "太字マーカー直後に開き括弧はNote貼り付けで太字が反映されない可能性（2026-08-01確認）。括弧を太字の外に出す"),
+    ("note-bold-bracket-close", r"[」』】）]\*\*", "閉じ括弧の直後に太字マーカーはNote貼り付けで太字が反映されない可能性（2026-08-01確認）。括弧を太字の外に出す"),
+    ("note-bold-percent", r"%\*\*", "「%」の直後に太字マーカーはNote貼り付けで太字が反映されない可能性（2026-08-01、新庄考察記事で確認）。`**95**%`のように%を太字の外に出す"),
 ]
 
 
@@ -94,7 +98,11 @@ def main():
             run, prev = 1, tail
 
     # 構造チェック
-    body = re.sub(r"^---.*?---\s*", "", text, flags=re.S)  # frontmatter除去
+    # ヘッダーは「作成日：〜Noteタグ：」の後に単独の「---」区切り行が1本のみ（前後ペア形式ではない）。
+    # 旧・正規表現(^---.*?---)は先頭が"---"で始まる前提で壊れており、ヘッダーが本文に混入していた（2026-08-01修正）。
+    fm_match = re.match(r"^.*?\n---[ \t]*\n", text, flags=re.S)
+    body_start = fm_match.end() if fm_match else 0
+    body = text[body_start:]
     char_count = len(re.sub(r"\s", "", body))
     infos.append(f"[INFO] 本文文字数（空白除く）: {char_count}字"
                  f"（s4lv無料記事基準は4,000字以上／980円帯は3,000〜5,000字）")
@@ -127,6 +135,18 @@ def main():
     norm = args.file.replace("\\", "/")
     if "/articles/" not in norm:
         warns.append("[WARN] save-location: 保存先が articles/ 配下ではない（drafts保存ルール）")
+
+    # vivant専用：冒頭注意書きのblockquote化チェック（2026-08-01追加。vivant-article.md「冒頭の注意書き」ルール準拠）
+    if "/vivant/" in norm or norm.startswith("vivant/"):
+        body_line_no = text[:body_start].count("\n") + 1
+        first_line = ""
+        for line in body.splitlines():
+            if line.strip():
+                first_line = line.strip()
+                break
+            body_line_no += 1
+        if not (first_line.startswith(">") and "本記事は" in first_line):
+            errors.append(f"[ERROR] L{body_line_no} vivant-intro-quote: 冒頭の注意書きが`>` blockquoteになっていない、または『本記事は』を含まない（vivant-article.md「冒頭の注意書き」ルール）")
 
     print(f"=== qa_article: {args.file}{'（有料）' if args.paid else ''} ===")
     for x in errors + warns + infos:

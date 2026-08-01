@@ -86,6 +86,7 @@ claude project/
 | X・Threads投稿生成 | `brands/CLAUDE.md` |
 | junk_juice Note記事（テーマ・タイトル） | `/junk-theme` スキルを起動 |
 | junk_juice Note記事（構成・本文・保存） | `/junk-article` スキルを起動 |
+| vivant 新話の考察DB更新（新話放送後） | `/vivant-episode-update [話数]` スキルを起動 |
 | vivant Note記事（テーマ・タイトル） | `/vivant-theme` スキルを起動 |
 | vivant Note記事（構成・本文・保存） | `/vivant-article` スキルを起動 |
 | ASP記事設計 | `/asp-kaigi` スキルを起動 |
