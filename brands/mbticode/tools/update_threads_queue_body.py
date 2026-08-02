@@ -19,6 +19,11 @@ Only posts matching a given prefix are updated. Rows with a non-empty ステー�
 （column C）へ書き込む。リプライ行が存在しない投稿はcolumn Cを触らない
 （2026-07-30追加。以前はcolumn Bのみ対応で、リプライ文言だけ変更した際にシート側が
 古いまま取り残される問題があった）。
+
+型（column D）・FW（column E）も本文と同時に上書きする（2026-08-02追加。以前はcolumn B/Cのみ
+更新しD/Eが更新前のまま残り、本文の内容とシート上のFWラベルが食い違う不具合があった）。
+型はリプライの有無・URL含有で推定（リプライなし=完結型／URLありのリプライ=URL事後型／
+それ以外=続き型）、FWは見出し内の「／」以降のラベルをそのまま使う。
 """
 import datetime
 import json
@@ -76,7 +81,16 @@ def parse_posts(text):
                     reply_raw = "\n".join(reply_lines).strip()
                     reply = REPLY_LABEL_RE.sub("", reply_raw, count=1).strip()
                     end = m2
-                posts.append({"header": header, "body": main_body, "reply": reply})
+                label = m.group(2)
+                if reply:
+                    qtype = "URL事後型" if ("http" in reply or "→" in reply) else "続き型"
+                else:
+                    qtype = "完結型"
+                fw = label.rsplit("／", 1)[-1].strip() if "／" in label else "タイプなし"
+                posts.append({
+                    "header": header, "body": main_body, "reply": reply,
+                    "qtype": qtype, "fw": fw,
+                })
                 i = end
                 continue
         i += 1
@@ -109,7 +123,10 @@ def main():
         month, day, hh, mm = (int(x) for x in m.groups())
         year = infer_year(month, day, now)
         key = f"{year:04d}-{month:02d}-{day:02d} {hh}:{mm:02d}"
-        targets[key] = {"body": p["body"], "reply": p["reply"]}
+        targets[key] = {
+            "body": p["body"], "reply": p["reply"],
+            "qtype": p["qtype"], "fw": p["fw"],
+        }
 
     if not targets:
         print("[ERROR] 指定prefixに一致する投稿がposts_threads.txt内に見つかりません。")
@@ -153,6 +170,10 @@ def main():
         data.append({
             "range": f"{sheet_name}!B{idx}",
             "values": [[targets[key]["body"]]],
+        })
+        data.append({
+            "range": f"{sheet_name}!D{idx}:E{idx}",
+            "values": [[targets[key]["qtype"], targets[key]["fw"]]],
         })
         updated.append(key)
         if targets[key]["reply"]:

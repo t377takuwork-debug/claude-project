@@ -10,7 +10,14 @@
       "PowerShell(Move-Item *)",
       "Bash(cmd /c del \"C:\\\\Users\\\\PC_User\\\\claude project\\\\brands\\\\mbticode\\\\reference\\\\x_algorithm_2026.md\")",
       "Bash(git -C \"C:\\\\Users\\\\PC_User\\\\claude project\\\\brands\\\\mbticode\" status)",
-      "Bash(git -C \"C:\\\\Users\\\\PC_User\\\\claude project\\\\brands\\\\mbticode\" diff HEAD --stat)"
+      "Bash(git -C \"C:\\\\Users\\\\PC_User\\\\claude project\\\\brands\\\\mbticode\" diff HEAD --stat)",
+      "Read(//c/Users/PC_User/claude project/**)",
+      "Bash(python brands/mbticode/tools/check_analysis_due.py)",
+      "Bash(python brands/mbticode/tools/check_queue_coverage.py)",
+      "Bash(cd \"C:/Users/PC_User/claude project/brands/mbticode\" && ls -la *.json 2>&1; find . -iname \"*pending_batch*\" 2>&1; echo \"---downloads---\"; ls -la /c/Users/PC_User/Downloads/*pending* 2>&1)",
+      "Bash(python -c ' *)",
+      "Bash(iconv -f UTF-8 -t UTF-8)",
+      "Bash(python tools/check_queue_coverage.py)"
     ]
   }
 }
