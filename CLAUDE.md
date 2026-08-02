@@ -89,5 +89,6 @@ claude project/
 | vivant 新話の考察DB更新（新話放送後） | `/vivant-episode-update [話数]` スキルを起動 |
 | vivant Note記事（テーマ・タイトル） | `/vivant-theme` スキルを起動 |
 | vivant Note記事（構成・本文・保存） | `/vivant-article` スキルを起動 |
+| vivant Threads投稿生成 | `/vivant-post` スキルを起動 |
 | ASP記事設計 | `/asp-kaigi` スキルを起動 |
 | 戦略・方針判断 | `/notekaigi` スキルを起動 |

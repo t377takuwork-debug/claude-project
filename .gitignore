@@ -16,3 +16,5 @@ blogs/vtuber_log/assets/*
 !blogs/vtuber_log/assets/README.md
 brands/mbticode/tools/threads_auth.local.json
 brands/mbticode/tools/sheets_service_account.local.json
+vivant/tools/threads_auth.local.json
+vivant/tools/sheets_service_account.local.json
