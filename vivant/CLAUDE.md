@@ -39,7 +39,7 @@ vivant/
 │   ├── qa_vivant_database.py ← 考察データベースの機械QA（`/vivant-episode-update` Step 3で使用）
 │   ├── threads_setup_guide.md ← Threads API接続・スプレッドシート初期セットアップ手順
 │   ├── threads_scheduler.gs ← Apps Script（定時投稿・インサイト収集・日次観測ログ。MBTICODE方式のPhase1-4部分のみ移植）
-│   ├── threads_connect_test.ps1 / push_threads_queue.py / fetch_insights.py / fetch_past_posts.py / check_analysis_due.py / check_queue_coverage.py / update_threads_queue_body.py ← MBTICODE同形式のThreads運用ツール一式
+│   ├── threads_connect_test.ps1 / push_threads_queue.py / fetch_insights.py / fetch_past_posts.py / check_analysis_due.py / check_queue_coverage.py / update_threads_queue_body.py / withdraw_posted_row.py ← MBTICODE同形式のThreads運用ツール一式（push/update系は2026-08-04に自動並び替え・型同期・投稿済み行の安全な取り下げ機能を追加）
 │   ├── sheets_config.json ← スプレッドシートID・タブ名設定
 │   ├── threads_auth.local.json / sheets_service_account.local.json ← 認証情報（gitignore対象）
 ├── vivant_database_ep[N].md  ← 話数ごとの考察データベース（旧版は削除せず並存させる。末尾の「5. データベース運用マニュアル」が更新時の絶対ルール）

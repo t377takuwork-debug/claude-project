@@ -11,6 +11,10 @@ CSV columns (header row optional, auto-detected by date-parse failure):
 Safety behavior:
   - rows whose date is before now are skipped unless --allow-past is passed
   - rows whose 投稿日時 already exists in the sheet are skipped (duplicate guard)
+  - after appending, all data rows (A2:H) are re-sorted by 投稿日時 ascending, so
+    the sheet stays in chronological order regardless of insertion order
+    (2026-08-04: appending a slot out of order once left the queue visibly
+    out of sequence until manually re-sorted; sorting is now automatic)
 """
 import csv
 import datetime
@@ -38,6 +42,26 @@ def to_serial(dt):
 def get_service():
     creds = service_account.Credentials.from_service_account_file(str(CREDS_FILE), scopes=SCOPES)
     return build("sheets", "v4", credentials=creds)
+
+
+def sort_queue_by_date(sheets, spreadsheet_id, sheet_name):
+    """Re-sort all data rows (A2:H) by 投稿日時 ascending, in place."""
+    resp = sheets.values().get(
+        spreadsheetId=spreadsheet_id,
+        range=f"{sheet_name}!A2:H",
+        valueRenderOption="UNFORMATTED_VALUE",
+    ).execute()
+    rows = resp.get("values", [])
+    if not rows:
+        return
+    padded = [r + [""] * (8 - len(r)) for r in rows]
+    padded.sort(key=lambda r: r[0] if isinstance(r[0], (int, float)) else float("inf"))
+    sheets.values().update(
+        spreadsheetId=spreadsheet_id,
+        range=f"{sheet_name}!A2:H{len(padded) + 1}",
+        valueInputOption="USER_ENTERED",
+        body={"values": padded},
+    ).execute()
 
 
 def read_csv_rows(path):
@@ -124,8 +148,9 @@ def main():
         insertDataOption="INSERT_ROWS",
         body={"values": values},
     ).execute()
+    sort_queue_by_date(sheets, spreadsheet_id, sheet_name)
 
-    print(f"[OK] {len(to_append)} 件をスプレッドシートへ追加しました:")
+    print(f"[OK] {len(to_append)} 件をスプレッドシートへ追加し、日時順に並べ直しました:")
     for row in to_append:
         print(f"  - {row['dt']} ({row['type']}/{row['fw']})")
 
