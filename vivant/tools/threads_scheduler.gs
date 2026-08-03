@@ -19,10 +19,14 @@
 //   2. setup() - reads B1/B2, stores them in Script Properties, then clears
 //      B1/B2 so the token doesn't sit visibly in the sheet.
 //   2b. setupGithubToken() - same idea for B3 (see GitHub sync section below).
-//   3. installTriggers() - creates the 08:00 / 12:00 / 22:00 posting triggers,
-//      the daily 23:30 insight-collection / 23:35 observation-log / 23:40
-//      GitHub-sync / 23:45 health-check triggers, and the weekly (Mon 07:00)
-//      token refresh trigger.
+//   3. installTriggers() - creates the 08:00 / 12:00 / 18:00 / 20:30 / 22:00
+//      posting triggers (20:30 is a pre-broadcast slot added 2026-08-02 so
+//      posts queued ahead of the Sunday 21:00 broadcast don't sit until
+//      22:00; 18:00 is a standing extra slot added 2026-08-04 per user
+//      request — see the comment above the [8, 12, 18, 20.5, 22] list in
+//      installTriggers()), the daily 23:30 insight-collection / 23:35
+//      observation-log / 23:40 GitHub-sync / 23:45 health-check triggers,
+//      and the weekly (Mon 07:00) token refresh trigger.
 //
 // Sheet: a tab named exactly SHEET_NAME, row 1 = header, columns in this order:
 //   投稿日時 | 本文 | リプライ本文 | 型 | FW | ステータス | 投稿ID | リプライ投稿ID
@@ -207,15 +211,21 @@ function syncDataToGitHub() {
 
 function installTriggers() {
   ScriptApp.getProjectTriggers().forEach(function (t) { ScriptApp.deleteTrigger(t); });
-  [8, 12, 22].forEach(function (hour) {
-    ScriptApp.newTrigger("postScheduled").timeBased().everyDays(1).atHour(hour).nearMinute(0).create();
+  // 20:30 = 放送直前枠（日曜21時放送のVIVANTに対する事前投稿専用）。
+  // 2026-08-02: 20:00に投入した放送直前ポストが次の22:00トリガーまで
+  // 拾われず、放送開始後の22時台に投稿されてしまった実例を受けて追加。
+  // 18:00 = 2026-08-04: 恒常的な追加枠としてユーザー指定で新設。
+  [8, 12, 18, 20.5, 22].forEach(function (hour) {
+    const h = Math.floor(hour);
+    const m = Math.round((hour - h) * 60);
+    ScriptApp.newTrigger("postScheduled").timeBased().everyDays(1).atHour(h).nearMinute(m).create();
   });
   ScriptApp.newTrigger("collectInsights").timeBased().everyDays(1).atHour(23).nearMinute(30).create();
   ScriptApp.newTrigger("dailyObservationLog").timeBased().everyDays(1).atHour(23).nearMinute(35).create();
   ScriptApp.newTrigger("syncDataToGitHub").timeBased().everyDays(1).atHour(23).nearMinute(40).create();
   ScriptApp.newTrigger("checkHealth").timeBased().everyDays(1).atHour(23).nearMinute(45).create();
   ScriptApp.newTrigger("refreshToken").timeBased().onWeekDay(ScriptApp.WeekDay.MONDAY).atHour(7).create();
-  Logger.log("triggers installed: postScheduled 08:00/12:00/22:00 daily, collectInsights 23:30 daily, dailyObservationLog 23:35 daily, syncDataToGitHub 23:40 daily, checkHealth 23:45 daily, refreshToken Mon 07:00");
+  Logger.log("triggers installed: postScheduled 08:00/12:00/18:00/20:30/22:00 daily, collectInsights 23:30 daily, dailyObservationLog 23:35 daily, syncDataToGitHub 23:40 daily, checkHealth 23:45 daily, refreshToken Mon 07:00");
 }
 
 // Daily (Phase2 equivalent): re-aggregates INSIGHTS_SHEET_NAME into

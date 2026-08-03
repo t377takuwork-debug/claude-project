@@ -17,7 +17,9 @@
       "Bash(cd \"C:/Users/PC_User/claude project/brands/mbticode\" && ls -la *.json 2>&1; find . -iname \"*pending_batch*\" 2>&1; echo \"---downloads---\"; ls -la /c/Users/PC_User/Downloads/*pending* 2>&1)",
       "Bash(python -c ' *)",
       "Bash(iconv -f UTF-8 -t UTF-8)",
-      "Bash(python tools/check_queue_coverage.py)"
+      "Bash(python tools/check_queue_coverage.py)",
+      "Bash(python -m py_compile tools/update_threads_queue_body.py)",
+      "Bash(python tools/fetch_insights.py)"
     ]
   }
 }
