@@ -31,6 +31,8 @@ Usage:
   [WARN]  同一文の記事内3回以上リピート（数字のみ違う文は同一視。表現ローテーション用 — 10章）
   [WARN]  他番組告知パラグラフ（「M月D日に放送される〜のタイムテーブル速報」）の放送日が
           自記事の放送日より過去（放送済み番組への導線が残存。年またぎは対象外）
+  [WARN]  過去のタイムテーブル一覧のH3見出しに同一放送日が重複
+          （アーカイブローテーション未実施・手順1②'退避データと資料②の取り違えを検知）
   [INFO]  本文中の日付分布（更新漏れ発見用）
 
 WARNベースライン:
@@ -662,6 +664,30 @@ def check_cross_promo_freshness(text: str, lines: list[str], rep: Report):
             )
 
 
+def check_archive_date_duplicates(text: str, rep: Report):
+    """過去のタイムテーブル一覧のH3見出しに同一放送日（YYYY年M月D日）が重複していないか確認する。
+    手順1②'で退避した「上書き前の実際の出演順」データを過去一覧へ追加する際、資料②と
+    取り違えたり、複数セッションにわたってローテーション自体が実施されなかったりすると、
+    同じ放送日のH3が過去一覧内に重複登録される（2026-08-04 CDTVリライトで発覚。今回は
+    実害なしと判断してローテーションを見送ったが、次回以降同種の見落としを機械検知する）。"""
+    dates: dict[tuple, list[int]] = {}
+    for m in re.finditer(r"<h3[^>]*>(.*?)</h3>", text, re.DOTALL):
+        lineno = text[: m.start()].count("\n") + 1
+        dm = re.search(r"(\d{4})年(\d{1,2})月(\d{1,2})日", m.group(1))
+        if not dm:
+            continue
+        key = (int(dm.group(1)), int(dm.group(2)), int(dm.group(3)))
+        dates.setdefault(key, []).append(lineno)
+    for (y, mo, d), linenos in dates.items():
+        if len(linenos) >= 2:
+            loc = "・".join(f"L{n}" for n in linenos)
+            rep.warn(
+                f"過去のタイムテーブル一覧: {y}年{mo}月{d}日のH3見出しが{len(linenos)}箇所に重複"
+                f"（{loc}）→ アーカイブローテーション未実施、または手順1②'退避データと"
+                f"資料②の取り違えの可能性"
+            )
+
+
 def report_dates(lines: list[str], regions, rep: Report):
     """本文中の日付（M月D日）の分布を出す。少数派の日付は更新漏れの可能性"""
     date_hits: dict[str, list[int]] = {}
@@ -727,6 +753,7 @@ def run_qa(path: str) -> Report:
     check_closing_adjectives(lines, rep)
     check_repeated_sentences(text, rep)
     check_cross_promo_freshness(text, lines, rep)
+    check_archive_date_duplicates(text, rep)
     check_banned_words(lines, regions, rep)
     report_dates(lines, regions, rep)
     return rep

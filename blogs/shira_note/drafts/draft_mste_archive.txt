@@ -64,9 +64,9 @@ overflow: hidden;
 
   <!-- 最新回リンク（速報ページへの導線） -->
   <a href="https://shira-treat.com/music-station-timetable/" style="display: block; padding: 14px 16px; background: #e0f2fe; border-bottom: 1px dashed #6fb1fc; text-decoration: none; transition: background 0.2s;" onmouseover="this.style.background='#d0e9ff'" onmouseout="this.style.background='#e0f2fe'">
-    <div style="font-size: 10px; font-weight: 900; color: #0052d4; letter-spacing: 0.1em; margin-bottom: 4px;">7/24(金) 放送回</div>
+    <div style="font-size: 10px; font-weight: 900; color: #0052d4; letter-spacing: 0.1em; margin-bottom: 4px;">最新回速報</div>
     <div style="display: flex; align-items: center; justify-content: space-between;">
-      <span style="font-size: 13px; font-weight: 800; color: #003366;">最新の出演順・タイムテーブルをリアルタイム更新中 ›</span>
+      <span style="font-size: 13px; font-weight: 800; color: #003366;">次回・最新放送回のタイムテーブル速報はこちら ›</span>
     </div>
   </a>
 
@@ -107,7 +107,7 @@ overflow: hidden;
   </a>
 </div>
 <div style="text-align: right; padding: 4px 8px; font-size: 9px; color: rgba(255,255,255,0.6); font-weight: 600;">
-最終更新: 2026.07.21
+最終更新: 2026.08.04
 </div>
 </aside>
 <!-- /wp:html -->
@@ -187,7 +187,7 @@ overflow: hidden;
         <div style="font-size: 11px; font-weight: 500; color: #64748b; margin-top: 2px;">ZAZEN BOYS・SWEET STEADYが初出演、乃木坂46・timeleszなど計7組が出演</div>
       </div>
     </div>
-    <a href="https://shira-treat.com/music-station-timetable/" style="font-size: 10px; font-weight: 800; color: #1a202c; background: #ffdc00; padding: 3px 8px; border-radius: 2px; flex-shrink: 0; text-decoration: none;">最新速報</a>
+    <span style="font-size: 10px; font-weight: 800; color: #64748b; background: #f1f5f9; padding: 3px 8px; border-radius: 2px; flex-shrink: 0;">放送済</span>
   </div>
 </div>
 
@@ -203,7 +203,7 @@ overflow: hidden;
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年7月24日（金）に放送される『ミュージックステーション』の出演者・楽曲一覧です。出演順は放送後に確定します。</p>
+<p>2026年7月24日（金）に放送された『ミュージックステーション』の出演者・楽曲一覧と、実際の放送内容に基づくセットリストです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -235,16 +235,16 @@ overflow: hidden;
   <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #fff8f8 0%, #fff0f6 100%); border: 1px solid #ffcce0; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00);"></div>
     <div style="padding: 14px 12px;">
-      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">ZAZEN BOYS <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">Mステ初出演</span></p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「ポテトサラダ」を披露。ロックファン・インディーズ層から期待の集まる初出演です。</p>
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">ZAZEN BOYS <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">Mステ初出演・トリ</span></p>
+      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「ポテトサラダ」をトリで初出演披露。異質な世界観に「異常空間」「格が違う」と反応が番組内で最大に爆発しました。</p>
     </div>
   </div>
 
-  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #dce4ed; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
+  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #fff8f8 0%, #fff0f6 100%); border: 1px solid #ffcce0; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00);"></div>
     <div style="padding: 14px 12px;">
-      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">SWEET STEADY</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「SWEET STEP」を披露。音井結衣ら出演発表を受けてSNSの反響が活発。</p>
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">SWEET STEADY <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">単独初出演</span></p>
+      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「SWEET STEP」を単独初出演で披露。ウインクや個別の反応に「念願」「泣ける」の声が相次ぎました。</p>
     </div>
   </div>
 
@@ -268,7 +268,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">ヤングスキニー <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">Mステ初出演</span></p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「雪月花」を披露。ロックファン・インディーズ層の間で注目を集めている初出演です。</p>
+      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「雪月花」を初登場披露。バラード曲に「泣いた」「声好き」の声が広がりました。</p>
     </div>
   </div>
 
@@ -282,16 +282,107 @@ overflow: hidden;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>7月24日放送回は、ZAZEN BOYSとSWEET STEADYのMステ初出演が大きな注目を集めています。</p>
+<p>7月24日放送回の最大の注目は、トリを務めたZAZEN BOYSの「ポテトサラダ」初出演でした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>アイナ・ジ・エンド、ILLIT、timelesz、乃木坂46、ヤングスキニーを含む計7組が出演予定です。</p>
+<p>アイドル系の華やかなステージとのコントラストから「異常空間」「格が違う」「意味わからんけど最高」と反応が殺到し、番組全体で最大の投稿ピークを記録しています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>実際の出演順は放送後に確定次第、このページで更新します。</p>
+<p>また、オープニングトークでZAZEN BOYSとの橋渡し役も担ったアイナ・ジ・エンドのライブパフォーマンスや、SWEET STEADYの単独初出演も高い熱量を集めました。</p>
 <!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>公式発表のタイムテーブルはありませんが、実際の放送から判明した放送時間の流れは以下の通りです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside class="mst-archive-panel" role="region" aria-label="Mステ放送アーカイブ" style="position: relative; margin: 16px 0; padding: 1px; border-radius: 12px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff); font-family: 'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', sans-serif; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+  <div style="position: absolute; inset: 1px; background: #ffffff; border-radius: 11px; z-index: 0;"></div>
+
+  <div style="position: relative; z-index: 1; padding: 16px;">
+
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <div style="background: #003366; color: #fff; font-size: 10px; font-weight: 900; padding: 3px 8px; border-radius: 2px; letter-spacing: 1px;">ARCHIVE</div>
+        <div style="margin: 0; font-size: 15px; font-weight: 900; color: #1a202c; letter-spacing: -0.5px;">7月24日回 熱量・セットリストレポート</div>
+      </div>
+      <div style="font-size: 11px; font-weight: 800; color: #a0aec0;">2026.07.24 <span style="font-weight: 400;">FRI</span></div>
+    </div>
+
+    <div style="background: #f8fafc; border-radius: 4px; padding: 10px 12px; margin-bottom: 16px; border-left: 4px solid #003366;">
+      <div style="font-size: 10px; color: #003366; font-weight: 800; margin-bottom: 2px; letter-spacing: 0.05em;">MAIN CAST</div>
+      <div style="font-size: 13px; font-weight: 700; color: #2d3748;">MC：タモリ、鈴木新彩 ／ 出演：timelesz、アイナ・ジ・エンド、ILLIT、ヤングスキニー、SWEET STEADY、乃木坂46、ZAZEN BOYS</div>
+    </div>
+
+    <div style="display: grid; gap: 0; margin-bottom: 16px; border-left: 2px solid #edf2f7; margin-left: 6px; padding-left: 14px;">
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00d4ff; border: 2px solid #fff;"></div>
+        <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:00〜15頃 / OPENING</div>
+        <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
+          <strong style="color: #001a4d;">timelesz「消えない花火」</strong><br>
+          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">オープニングトークではタモリ・向井秀徳（ZAZEN BOYS）とのやりとりにアイナ・ジ・エンドが参加し、「橋渡し役」と話題になった。</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00d4ff; border: 2px solid #fff;"></div>
+        <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:15〜30頃 / EARLY</div>
+        <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
+          <strong style="color: #001a4d;">アイナ・ジ・エンド「Blue Shining Star」</strong><br>
+          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">青い照明とスタンドマイクでの繊細な歌唱・仕草に「圧巻」「幻想的でスタイリッシュ」の声が集中した。</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #0099ff; border: 2px solid #fff;"></div>
+        <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:30〜40頃 / MID BLOCK</div>
+        <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
+          <strong style="color: #001a4d;">ILLIT「I Got Your Back」「It's Me」 → ヤングスキニー「雪月花」（初登場）</strong><br>
+          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">ILLITは安定した好意反応、ヤングスキニーは初登場のバラードに「泣いた」「声好き」の声が広がった。</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #0099ff; border: 2px solid #fff;"></div>
+        <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:40〜50頃 / TALK</div>
+        <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
+          <strong style="color: #001a4d;">SWEET STEADY「SWEET STEP」（単独初出演） → 乃木坂46「是非に及ばず」</strong><br>
+          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">SWEET STEADYのウインクに「念願」「泣ける」の声、乃木坂46は「ポニテ美しい」と安定した好反応を集めた。</span>
+        </div>
+      </div>
+
+      <div style="position: relative;">
+        <div style="position: absolute; left: -21px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #ff0084; border: 2px solid #fff;"></div>
+        <div style="font-size: 11px; color: #ff0084; font-weight: 900;">21:50〜54頃 / ★投稿爆発の最大ピーク</div>
+        <div style="font-size: 13px; color: #1a202c; line-height: 1.5;">
+          <span style="font-weight: 900; color: #001a4d;">ZAZEN BOYS「ポテトサラダ」（トリ・Mステ初出演）</span><br>
+          <span style="font-size: 11px; color: #718096; font-weight: 600;">異質な世界観に「異常空間」「格が違う」「鳥肌」「浮いてて最高」と反応が殺到し、番組全体で最大の投稿ピークとなった。</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="font-size: 11px; color: #4a5568; background: #f1f5f9; border-radius: 4px; padding: 10px; margin-bottom: 16px; line-height: 1.6; font-weight: 600;">
+      <span style="display: inline-block; background: #003366; color: #fff; padding: 0 6px; border-radius: 2px; margin-right: 4px; font-weight: 900; font-size: 9px;">REPORT</span>
+      ZAZEN BOYSの「ポテトサラダ」トリ披露が「異常空間」「格が違う」と話題を呼び、番組全体で最大の投稿ピークに。アイナ・ジ・エンドのライブ・トーク両面での活躍、SWEET STEADYの単独初出演も高い熱量を集めた回でした。
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="background: #1a202c; color: #fff; padding: 12px; border-radius: 4px; text-align: center;">
+        <span style="font-size: 12px; font-weight: 800;">※Mステは基本的にTVer等での見逃し配信がありません（録画推奨）</span>
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 8px; border-top: 1px solid #edf2f7;">
+        <div style="font-size: 8px; color: #a0aec0; font-weight: 800; letter-spacing: 0.5px;">ESTIMATED FROM SNS REALTIME TREND</div>
+        <div style="font-size: 8px; color: #a0aec0;">UPDATED: 2026.08.04</div>
+      </div>
+    </div>
+
+  </div>
+</aside>
+<!-- /wp:html -->
 
 <!-- wp:heading -->
 <h2>7月17日（金）のタイムテーブル・セットリスト</h2>
@@ -421,7 +512,7 @@ overflow: hidden;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>公式発表のタイムテーブルはありませんが、実際の放送から判明した放送時間の流れは以下の通りです。</p>
+<p>公式のタイムテーブルは非公表ですが、放送を追った実況投稿から判明した時間の流れは以下の通りです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -599,7 +690,7 @@ overflow: hidden;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>公式発表のタイムテーブルはありませんが、実際の放送から判明した放送時間の流れは以下の通りです。</p>
+<p>前述のとおり公式タイムテーブルはありませんが、この回の放送時間の流れは以下の通りです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -911,7 +1002,7 @@ overflow: hidden;
       },
       "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/07/image-12-1.webp",
       "datePublished": "2026-07-14T09:00:00+09:00",
-      "dateModified": "2026-07-21T09:00:00+09:00",
+      "dateModified": "2026-08-04T09:00:00+09:00",
       "author": {
         "@type": "Person",
         "name": "Shira Notes",
@@ -966,7 +1057,7 @@ overflow: hidden;
       "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
       "location": { "@type": "Place", "name": "テレビ朝日" },
       "image": "https://shira-treat.com/wp-content/uploads/2026/07/image-12-1.webp",
-      "description": "2026年7月24日放送のMステ。ZAZEN BOYS・SWEET STEADYが初出演。アイナ・ジ・エンド、ILLIT、timelesz、乃木坂46、ヤングスキニーも出演予定。",
+      "description": "2026年7月24日放送のMステ。ZAZEN BOYSがトリで初出演し「ポテトサラダ」を披露、番組内で最大の反響を集めた。SWEET STEADYも単独初出演。アイナ・ジ・エンド、ILLIT、timelesz、乃木坂46、ヤングスキニーも出演。",
       "performer": [
         { "@type": "Person", "name": "アイナ・ジ・エンド" },
         { "@type": "MusicGroup", "name": "ILLIT" },

@@ -1,7 +1,7 @@
 <!-- wp:paragraph -->
-タイトル：【CDTV】タイムテーブル 8月3日速報！出演順・出演時間をリアルタイム更新
-メタディスクリプション（101字）：
-CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテーブルを速報更新！AKB48・SUPER EIGHT・Da-iCEなどフルサイズ初披露多数。出演順・登場時間の目安をリアルタイムで随時追記。
+タイトル：【CDTV】タイムテーブル 8月10日速報！出演順・出演時間をリアルタイム更新
+メタディスクリプション（109字）：
+CDTVライブ！ライブ！（カウントダウンTV）8月10日タイムテーブルを速報更新！ATEEZが8人全員そろって初出演、特集は「CDTV33年間の1位の曲だけスペシャル」。出演順・登場時間の目安をリアルタイムで随時追記。
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -40,12 +40,12 @@ CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテー
     <div style="display: flex; align-items: flex-start; gap: 10px;">
       <div style="flex-shrink: 0; font-size: 8px; font-weight: 900; background: #fff; color: #000; padding: 2px 5px; transform: skewX(-15deg); text-align: center; min-width: 48px; margin-top: 2px;">BROADCAST</div>
       <div style="flex: 1;">
-        <span style="font-size: 15.5px; font-weight: 900; color: #f9ff00; display: block; margin-bottom: 2px; letter-spacing: -0.01em; line-height: 1.2;">2026.08.03 (MON) 19:00</span>
+        <span style="font-size: 15.5px; font-weight: 900; color: #f9ff00; display: block; margin-bottom: 2px; letter-spacing: -0.01em; line-height: 1.2;">2026.08.10 (MON) 19:00</span>
         <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 2px;">
           <span style="color: #aaa; font-size: 10px; font-weight: 500;">TBS系列 2時間生放送</span>
           <span style="display: inline-flex; align-items: center; gap: 5px; padding: 1px 7px; border-radius: 999px; background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12); color: #d5d9e2; font-size: 10px; font-weight: 800;">
             <span style="width: 5px; height: 5px; border-radius: 50%; background: #00ffcc;"></span>
-            更新 <b>2026.07.28</b>
+            更新 <b>2026.08.04</b>
           </span>
         </div>
       </div>
@@ -54,19 +54,19 @@ CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテー
     <div style="display: flex; align-items: flex-start; gap: 10px;">
       <div style="flex-shrink: 0; font-size: 8px; font-weight: 900; background: #fff; color: #000; padding: 2px 5px; transform: skewX(-15deg); min-width: 48px;">STATUS</div>
       <div style="flex: 1; font-size: 12px; font-weight: 700; color: #ff008d;">
-        出演アーティスト発表済み／歌唱曲・タイムテーブルは随時更新中
+        ATEEZの出演が発表済み／他の出演アーティスト・タイムテーブルは今後発表
       </div>
     </div>
 
     <div style="display: flex; align-items: flex-start; gap: 10px;">
       <div style="flex-shrink: 0; font-size: 8px; font-weight: 900; background: #fff; color: #000; padding: 2px 5px; transform: skewX(-15deg); min-width: 48px;">LINEUP</div>
       <div style="flex: 1; font-size: 11.5px; line-height: 1.6; color: #ccc;">
-        ILLIT／＝LOVE／AKB48／EBiDAN（恵比寿学園男子部）／SUPER EIGHT／STARGLOW／Da-iCE／ME:I／優里の9組が出演します。
+        現時点ではATEEZの出演が発表されています。他の出演アーティストは判明次第追記します。
       </div>
     </div>
 
     <div style="background: rgba(255,242,0,0.12); border-left:3px solid #f9ff00; padding:6px 10px; font-size:10px; color:#f9ff00; font-weight:800;">
-      SUPER EIGHT「ダンダーラ」・Da-iCE「アンリミテッド」・AKB48「好きish」・STARGLOWとフルサイズテレビ初披露が続々！「真夏のメガヒットメドレー」にも注目です
+      特集は「CDTV33年間の1位の曲だけスペシャル」。ATEEZはメンバー8人全員そろっての同番組出演が今回初で、「BAD (Japanese Ver.)」をフルサイズで披露します
     </div>
 
   </div>
@@ -85,23 +85,23 @@ CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテー
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>8月3日のCDTVはSUPER EIGHT「ダンダーラ」・Da-iCE「アンリミテッド」・AKB48「好きish」などフルサイズテレビ初披露が目白押し！</p>
+<p>8月10日のCDTVは「CDTV33年間の1位の曲だけスペシャル」と題した2時間生放送。ATEEZがメンバー8人全員そろっての初出演で「BAD (Japanese Ver.)」を披露します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>オンエアに合わせて、出演順や歌唱曲をリアルタイムで追いかけながら更新していきます。</p>
+<p>他の出演アーティストの発表が出次第、このページに反映していきます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>カウントダウンTV 最新タイムテーブル【8/3】</h2>
+<h2>カウントダウンTV 最新タイムテーブル【8/10】</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年8月3日（月）19:00から放送の『CDTVライブ！ライブ！』には、ILLIT・AKB48・SUPER EIGHT・Da-iCEなど9組が出演します。</p>
+<p>2026年8月10日（月）19:00から放送の『CDTVライブ！ライブ！』2時間スペシャルには、ATEEZの出演が発表されています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div role="region" aria-label="CDTV タイムテーブル（2026年8月3日）" style="font-family:'Inter','Hiragino Sans','Yu Gothic',sans-serif; margin:20px 0; background:#000; color:#fff; border:1px solid #333; border-radius:4px; overflow:hidden; box-shadow:0 15px 35px rgba(0,0,0,0.6); position:relative;">
+<div role="region" aria-label="CDTV タイムテーブル（2026年8月10日）" style="font-family:'Inter','Hiragino Sans','Yu Gothic',sans-serif; margin:20px 0; background:#000; color:#fff; border:1px solid #333; border-radius:4px; overflow:hidden; box-shadow:0 15px 35px rgba(0,0,0,0.6); position:relative;">
 
   <div style="position:relative; background:#ff008d; padding:10px 14px; display:flex; justify-content:space-between; align-items:center; clip-path:polygon(0 0,100% 0,96% 100%,0% 100%);">
     <div style="font-size:13px; font-weight:900; letter-spacing:0.1em;">CDTV LIVE! LIVE!</div>
@@ -113,27 +113,23 @@ CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテー
     <div style="display:flex; gap:12px; align-items:flex-start;">
       <div style="font-size:9px; font-weight:900; background:#fff; color:#000; padding:2px 6px; transform:skewX(-15deg); margin-top:4px;">ON AIR</div>
       <div>
-        <div style="font-size:18px; font-weight:900; color:#f9ff00; line-height:1.2;">2026.08.03 (MON) 19:00 START</div>
-        <div style="font-size:11px; color:#aaa; margin-top:4px;">TBS系列 2時間生放送 / フルサイズテレビ初披露が多数</div>
+        <div style="font-size:18px; font-weight:900; color:#f9ff00; line-height:1.2;">2026.08.10 (MON) 19:00 START</div>
+        <div style="font-size:11px; color:#aaa; margin-top:4px;">TBS系列 2時間生放送 / CDTV33年間の1位の曲だけスペシャル</div>
       </div>
     </div>
 
     <div style="display:flex; gap:10px; border-left:3px solid #f9ff00; padding-left:12px;">
       <div style="font-size:14px; font-weight:900; color:#f9ff00; min-width:65px; padding-top:2px;">19:00〜</div>
       <div style="flex:1;">
-        <div style="font-size:11px; font-weight:900; color:#aaa; margin-bottom:6px; letter-spacing:0.05em;">19時台：新曲組が中心（予想）</div>
+        <div style="font-size:11px; font-weight:900; color:#aaa; margin-bottom:6px; letter-spacing:0.05em;">19時台：出演アーティストは今後発表</div>
         <div style="display:flex; flex-wrap:wrap; gap:5px;">
-          <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:11px;">ILLIT</span>
-          <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:11px;">＝LOVE</span>
-          <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:11px;">ME:I</span>
-          <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:11px;">優里</span>
-          <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:11px;">EBiDAN</span>
+          <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:11px;">発表待ち</span>
         </div>
         <div style="margin-top:10px; border-top:1px solid #222; padding-top:8px;">
           <div style="font-size:10px; color:#f9ff00; font-weight:800; margin-bottom:2px;">【19時台の傾向】</div>
           <div style="font-size:10px; color:#ddd; line-height:1.4;">
-            <strong>過去の放送では前半に新曲・話題曲が集まる傾向。</strong><br>
-            あくまで筆者の予想ですが、ILLIT「I Got Your Back」やME:I「花咲く道」など新曲組が前半に配置される可能性があります。
+            <strong>過去の放送では前半に新曲・話題曲を携えたアーティストが集まる傾向。</strong><br>
+            ATEEZ以外の出演アーティストは現時点で未発表です。判明次第このセクションを更新します。
           </div>
         </div>
       </div>
@@ -142,18 +138,15 @@ CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテー
     <div style="display:flex; gap:10px; border-left:3px solid #ff00ea; padding-left:12px;">
       <div style="font-size:14px; font-weight:900; color:#ff00ea; min-width:65px; padding-top:2px;">20:00〜</div>
       <div style="flex:1;">
-        <div style="font-size:11px; font-weight:900; color:#aaa; margin-bottom:6px; letter-spacing:0.05em;">20時台：フルサイズ初披露組が中心（予想）</div>
+        <div style="font-size:11px; font-weight:900; color:#aaa; margin-bottom:6px; letter-spacing:0.05em;">20時台：ATEEZが有力（予想）</div>
         <div style="display:flex; flex-wrap:wrap; gap:5px;">
-          <span style="border:1px solid #ff00ea; background:rgba(255,0,234,0.1); padding:4px 8px; font-size:11px; font-weight:700;">AKB48</span>
-          <span style="border:1px solid #ff00ea; background:rgba(255,0,234,0.1); padding:4px 8px; font-size:11px; font-weight:700;">SUPER EIGHT</span>
-          <span style="border:1px solid #ff00ea; background:rgba(255,0,234,0.1); padding:4px 8px; font-size:11px; font-weight:700;">STARGLOW</span>
-          <span style="border:1px solid #ff00ea; background:rgba(255,0,234,0.1); padding:4px 8px; font-size:11px; font-weight:700;">Da-iCE</span>
+          <span style="border:1px solid #ff00ea; background:rgba(255,0,234,0.1); padding:4px 8px; font-size:11px; font-weight:700;">ATEEZ</span>
         </div>
         <div style="margin-top:10px; border-top:1px solid #222; padding-top:8px;">
           <div style="font-size:10px; color:#f9ff00; font-weight:800; margin-bottom:2px;">【20時台の傾向】</div>
           <div style="font-size:10px; color:#ddd; line-height:1.4;">
-            <strong>過去の放送では後半に大型アーティストが配置される傾向。</strong><br>
-            SUPER EIGHT「ダンダーラ」やAKB48「好きish」などフルサイズテレビ初披露組、「真夏のメガヒットメドレー」が後半に集まる可能性があります。
+            <strong>過去の放送では後半に注目度の高いアーティストが配置される傾向。</strong><br>
+            あくまで筆者の予想ですが、メンバー8人全員そろっての初出演となるATEEZが後半に登場する可能性があります。
           </div>
         </div>
       </div>
@@ -172,11 +165,11 @@ CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテー
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>※8月3日の公式タイムテーブル（出演順・時間帯）はまだ発表されていません。放送開始後、確定次第このページで更新します。</p>
+<p>※8月10日の公式タイムテーブル（出演順・時間帯）はまだ発表されていません。放送開始後、確定次第このページで更新します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>CDTVライブ！ライブ！の出演者・歌唱曲一覧【8/3】</h2>
+<h2>CDTVライブ！ライブ！の出演者・歌唱曲一覧【8/10】</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center"} -->
@@ -184,7 +177,7 @@ CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテー
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>最新回となる8月3日放送分は、出演アーティスト9組・披露曲が発表されています。歌唱曲の詳細を一覧にまとめました。</p>
+<p>最新回となる8月10日放送分は、現時点でATEEZ1組の出演・披露曲が発表されています。歌唱曲の詳細を一覧にまとめました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -192,87 +185,23 @@ CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテー
 
 <div style="display:flex;flex-wrap:wrap;gap:8px;">
 
-  <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #222;border-radius:4px;overflow:hidden;box-sizing:border-box;">
-    <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
-    <div style="padding:12px;">
-      <p style="margin:0;font-size:12px;font-weight:900;color:#fff;">ILLIT</p>
-      <p style="margin:6px 0 0;font-size:10.5px;color:#ccc;line-height:1.6;font-weight:700;">「I Got Your Back」（最新曲）「It's Me」（MV再生1億回突破）の2曲をフルサイズ披露。</p>
-    </div>
-  </div>
-
-  <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #222;border-radius:4px;overflow:hidden;box-sizing:border-box;">
-    <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
-    <div style="padding:12px;">
-      <p style="margin:0;font-size:12px;font-weight:900;color:#fff;">＝LOVE</p>
-      <p style="margin:6px 0 0;font-size:10.5px;color:#ccc;line-height:1.6;font-weight:700;">最新曲（タイトル未解禁）をフルサイズ披露。「ナツマトペ」は「真夏のメガヒットメドレー」でも歌唱。</p>
-    </div>
-  </div>
-
   <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
     <div style="padding:12px;">
-      <p style="margin:0;font-size:12px;font-weight:900;color:#fff;">AKB48 <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">フルサイズTV初披露</span></p>
-      <p style="margin:6px 0 0;font-size:10.5px;color:#ccc;line-height:1.6;font-weight:700;">「好きish」をフルサイズテレビ初披露。19期生・伊藤百花が2作連続で単独センターを務めます。「ポニーテールとシュシュ」はメドレーでも披露。</p>
-    </div>
-  </div>
-
-  <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #222;border-radius:4px;overflow:hidden;box-sizing:border-box;">
-    <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
-    <div style="padding:12px;">
-      <p style="margin:0;font-size:12px;font-weight:900;color:#fff;">EBiDAN（恵比寿学園男子部）</p>
-      <p style="margin:6px 0 0;font-size:10.5px;color:#ccc;line-height:1.6;font-weight:700;">15周年記念曲「Yes! 東京」を選抜メンバーで披露。</p>
-    </div>
-  </div>
-
-  <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
-    <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
-    <div style="padding:12px;">
-      <p style="margin:0;font-size:12px;font-weight:900;color:#fff;">SUPER EIGHT <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">フルサイズTV初披露</span></p>
-      <p style="margin:6px 0 0;font-size:10.5px;color:#ccc;line-height:1.6;font-weight:700;">8月8日"超八"に向けた楽曲「ダンダーラ」をフルサイズテレビ初披露。</p>
-    </div>
-  </div>
-
-  <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
-    <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
-    <div style="padding:12px;">
-      <p style="margin:0;font-size:12px;font-weight:900;color:#fff;">STARGLOW <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">フルサイズTV初パフォーマンス</span></p>
-      <p style="margin:6px 0 0;font-size:10.5px;color:#ccc;line-height:1.6;font-weight:700;">5人組ダンス&amp;ボーカルグループ。「Drivin' My Life」をフルサイズテレビ初パフォーマンス。</p>
-    </div>
-  </div>
-
-  <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
-    <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
-    <div style="padding:12px;">
-      <p style="margin:0;font-size:12px;font-weight:900;color:#fff;">Da-iCE <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">フルサイズTV初パフォーマンス</span></p>
-      <p style="margin:6px 0 0;font-size:10.5px;color:#ccc;line-height:1.6;font-weight:700;">「アンリミテッド」をフルサイズテレビ初パフォーマンス。「スターマイン」は「真夏のメガヒットメドレー」でも披露。</p>
-    </div>
-  </div>
-
-  <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #222;border-radius:4px;overflow:hidden;box-sizing:border-box;">
-    <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
-    <div style="padding:12px;">
-      <p style="margin:0;font-size:12px;font-weight:900;color:#fff;">ME:I</p>
-      <p style="margin:6px 0 0;font-size:10.5px;color:#ccc;line-height:1.6;font-weight:700;">「花咲く道」をフルサイズパフォーマンス。</p>
-    </div>
-  </div>
-
-  <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #222;border-radius:4px;overflow:hidden;box-sizing:border-box;">
-    <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
-    <div style="padding:12px;">
-      <p style="margin:0;font-size:12px;font-weight:900;color:#fff;">優里</p>
-      <p style="margin:6px 0 0;font-size:10.5px;color:#ccc;line-height:1.6;font-weight:700;">アニメOP書き下ろしの新曲「サンダーボルト」を披露。</p>
+      <p style="margin:0;font-size:12px;font-weight:900;color:#fff;">ATEEZ <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">8人全員での出演は初</span></p>
+      <p style="margin:6px 0 0;font-size:10.5px;color:#ccc;line-height:1.6;font-weight:700;">「BAD (Japanese Ver.)」をフルサイズで披露。Billboard 200で1位を記録した14thミニアルバム『GOLDEN HOUR:Part.5』のタイトル曲を日本語詞で表現した楽曲です。</p>
     </div>
   </div>
 
 </div>
 
-<p style="font-size:9px;color:#99aabb;margin:10px 0 0;">※Da-iCE「スターマイン」・＝LOVE「ナツマトペ」・AKB48「ポニーテールとシュシュ」は「真夏のメガヒットメドレー」としてまとめて披露予定です。</p>
+<p style="font-size:9px;color:#99aabb;margin:10px 0 0;">※ATEEZ以外の出演アーティスト・歌唱曲は現時点で未発表です。判明次第この一覧に追記します。</p>
 
 </div>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>マンスリーライブは今回情報がないため、フルサイズテレビ初披露が続く回になりそうです。</p>
+<p>マンスリーライブ・その他出演アーティストの情報は現時点でありません。発表が出次第、この一覧に追記します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -295,19 +224,19 @@ CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテー
   <div style="background:#111;border:1px solid #222;border-radius:6px;padding:12px;margin-bottom:8px;position:relative;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
     <div style="font-size:11px;font-weight:900;color:#f9ff00;margin-bottom:4px;">出演時間の目安</div>
-    <div style="font-size:11px;color:#ccc;line-height:1.6;font-weight:700;">今回は通常どおり2時間生放送のため、19時台・20時台の2段構成になる見込みです。過去の傾向を踏まえると、ILLITや優里など新曲組が前半、SUPER EIGHTやAKB48などフルサイズ初披露組が後半に配置される可能性があります。</div>
+    <div style="font-size:11px;color:#ccc;line-height:1.6;font-weight:700;">今回は通常どおり2時間生放送のため、19時台・20時台の2段構成になる見込みです。あくまで筆者の予想ですが、過去の傾向を踏まえるとATEEZは後半（20時台）に配置される可能性があります。</div>
   </div>
 
   <div style="background:#111;border:1px solid #222;border-radius:6px;padding:12px;margin-bottom:8px;position:relative;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
     <div style="font-size:11px;font-weight:900;color:#f9ff00;margin-bottom:4px;">オープニング傾向</div>
-    <div style="font-size:11px;color:#ccc;line-height:1.6;font-weight:700;">過去の放送では、19時台の番組前半に新曲・話題曲を携えたアーティストが登場する傾向があります。今回はILLIT「I Got Your Back」やME:I「花咲く道」など新曲組が前半に登場する可能性があります。</div>
+    <div style="font-size:11px;color:#ccc;line-height:1.6;font-weight:700;">過去の放送では、19時台の番組前半に新曲・話題曲を携えたアーティストが登場する傾向があります。今回は前半の出演アーティストが未発表のため、判明次第この項目を更新します。</div>
   </div>
 
   <div style="background:#111;border:1px solid #222;border-radius:6px;padding:12px;position:relative;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
-    <div style="font-size:11px;font-weight:900;color:#f9ff00;margin-bottom:4px;">特別企画の影響</div>
-    <div style="font-size:11px;color:#ccc;line-height:1.6;font-weight:700;">今回のマンスリーライブ情報はありませんが、Da-iCE・＝LOVE・AKB48による「真夏のメガヒットメドレー」が特別企画として組まれています。過去の傾向では、こうした複数アーティスト共演企画は番組後半に配置されることが多いです。</div>
+    <div style="font-size:11px;font-weight:900;color:#f9ff00;margin-bottom:4px;">特集テーマの影響</div>
+    <div style="font-size:11px;color:#ccc;line-height:1.6;font-weight:700;">今回は「CDTV33年間の1位の曲だけスペシャル」という特集回のため、番組33年の歴史で1位を獲得した楽曲のみで構成される特別編成です。通常回とは選曲・進行が異なる可能性があります。</div>
   </div>
 
 </div>
@@ -318,7 +247,7 @@ CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテー
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>今回は出演アーティスト発表前のため、判明次第このセクションで具体的な出演時間の予想を更新します。</p>
+<p>今回はATEEZ以外の出演アーティストが発表前のため、判明次第このセクションで具体的な出演時間の予想を更新します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -335,31 +264,31 @@ CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテー
   <div style="position:relative;background:#0a0a0a;border:1px solid #222;border-radius:4px;padding:12px;overflow:hidden">
     <div style="position:absolute;top:0;left:0;font-size:8px;font-weight:900;background:#ff008d;color:#fff;padding:2px 6px;transform:skewX(-15deg)">FLOW</div>
     <div style="margin-top:10px;font-size:11px;font-weight:900;color:#f9ff00;margin-bottom:6px;letter-spacing:.05em">放送構成の傾向</div>
-    <p style="margin:0;font-size:11px;font-weight:700;color:#ccc;line-height:1.6">2時間の生放送では、前半（19時台）に話題曲・テレビ初披露が集中し、後半（20時台）に大型アーティストが配置される傾向があります。今回はSUPER EIGHT・Da-iCE・AKB48・STARGLOWのフルサイズテレビ初披露が重なり、番組全体を通して初披露ラッシュとなりそうです。</p>
+    <p style="margin:0;font-size:11px;font-weight:700;color:#ccc;line-height:1.6">2時間の生放送では、前半（19時台）に話題曲、後半（20時台）に大型アーティストが配置される傾向があります。今回は「CDTV33年間の1位の曲だけスペシャル」として、番組33年の歴史で1位を獲得した楽曲のみで構成される特別編成です。</p>
   </div>
 
   <div style="position:relative;background:#0a0a0a;border:1px solid #222;border-radius:4px;padding:12px;overflow:hidden">
     <div style="position:absolute;top:0;left:0;font-size:8px;font-weight:900;background:#fff;color:#000;padding:2px 6px;transform:skewX(-15deg)">PICKUP</div>
     <div style="margin-top:10px;font-size:11px;font-weight:900;color:#f9ff00;margin-bottom:6px;letter-spacing:.05em">注目アーティスト</div>
-    <p style="margin:0;font-size:11px;font-weight:700;color:#ccc;line-height:1.6">今回最大の注目はSUPER EIGHT。8月8日"超八"に向けた新曲「ダンダーラ」をフルサイズテレビ初披露します。AKB48は19期生・伊藤百花が「好きish」で2作連続の単独センターを務め、こちらもフルサイズテレビ初披露です。</p>
+    <p style="margin:0;font-size:11px;font-weight:700;color:#ccc;line-height:1.6">今回最大の注目はATEEZ。メンバー8人全員そろっての同番組出演は今回が初めてで、「BAD (Japanese Ver.)」をフルサイズで披露します。</p>
   </div>
 
   <div style="position:relative;background:#0a0a0a;border:1px solid #222;border-radius:4px;padding:12px;overflow:hidden">
     <div style="position:absolute;top:0;left:0;font-size:8px;font-weight:900;background:#ff008d;color:#fff;padding:2px 6px;transform:skewX(-15deg)">FINAL</div>
     <div style="margin-top:10px;font-size:11px;font-weight:900;color:#f9ff00;margin-bottom:6px;letter-spacing:.05em">番組終盤の傾向</div>
-    <p style="margin:0;font-size:11px;font-weight:700;color:#ccc;line-height:1.6">番組終盤には、話題性の高いアーティストが配置される傾向があります。今回はフルサイズテレビ初披露が続くSUPER EIGHTやDa-iCEが終盤に登場する可能性が高いです。</p>
+    <p style="margin:0;font-size:11px;font-weight:700;color:#ccc;line-height:1.6">番組終盤には、話題性の高いアーティストが配置される傾向があります。あくまで筆者の予想ですが、8人全員そろっての初出演となるATEEZが終盤に登場する可能性があります。</p>
   </div>
 
   <div style="position:relative;background:#0a0a0a;border:1px solid #222;border-radius:4px;padding:12px;overflow:hidden">
     <div style="position:absolute;top:0;left:0;font-size:8px;font-weight:900;background:#fff;color:#000;padding:2px 6px;transform:skewX(-15deg)">VTR</div>
     <div style="margin-top:10px;font-size:11px;font-weight:900;color:#f9ff00;margin-bottom:6px;letter-spacing:.05em">初披露・初登場のタイミング</div>
-    <p style="margin:0;font-size:11px;font-weight:700;color:#ccc;line-height:1.6">今回はSUPER EIGHT「ダンダーラ」・Da-iCE「アンリミテッド」・STARGLOW「Drivin' My Life」・AKB48「好きish」がフルサイズテレビ初披露／初パフォーマンス。初出演のSTARGLOWにも注目です。</p>
+    <p style="margin:0;font-size:11px;font-weight:700;color:#ccc;line-height:1.6">今回はATEEZのメンバー8人全員そろっての同番組出演が初。「BAD (Japanese Ver.)」のフルサイズ披露に注目です。</p>
   </div>
 
   <div style="position:relative;background:#0a0a0a;border:1px solid #222;border-radius:4px;padding:12px;overflow:hidden">
     <div style="position:absolute;top:0;left:0;font-size:8px;font-weight:900;background:#ff008d;color:#fff;padding:2px 6px;transform:skewX(-15deg)">LIVE</div>
     <div style="margin-top:10px;font-size:11px;font-weight:900;color:#f9ff00;margin-bottom:6px;letter-spacing:.05em">リアルタイム更新</div>
-    <p style="margin:0;font-size:11px;font-weight:700;color:#ccc;line-height:1.6">CDTVは事前の詳細なタイムテーブル発表がないため、出演順は当日の生放送で確定します。当ページでも8月3日のオンエアに合わせてリアルタイムでどんどん反映していきますね！</p>
+    <p style="margin:0;font-size:11px;font-weight:700;color:#ccc;line-height:1.6">CDTVは事前の詳細なタイムテーブル発表がないため、出演順は当日の生放送で確定します。当ページでも8月10日のオンエアに合わせてリアルタイムでどんどん反映していきますね！</p>
     <div style="margin-top:8px;font-size:9px;font-weight:900;color:#f9ff00;background:rgba(249,255,0,0.1);padding:2px 8px;border-radius:2px;display:inline-block">生放送中に随時更新</div>
   </div>
 
@@ -383,7 +312,7 @@ CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテー
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>※前回（7月13日）の放送出演順を掲載中です。</p>
+<p>※前回（8月3日）の放送出演順を掲載中です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -399,7 +328,7 @@ CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテー
     <table border="1" bgcolor="#000000" width="100%" cellpadding="10" cellspacing="0">
         <tbody><tr>
             <td>
-                <font color="#ffffff" size="3"><b>2026年7月13日 放送出演順</b></font>
+                <font color="#ffffff" size="3"><b>2026年8月3日 放送出演順</b></font>
 
                 <hr color="#ff008d" align="left" width="50" style="margin-top: 15px; margin-bottom: 8px;">
 
@@ -408,20 +337,41 @@ CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテー
                 <table border="0" width="100%" cellpadding="5" cellspacing="4" style="margin-top: 8px;">
                     <tbody>
                     <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>19:00頃：KiiiKiii</b></font><br>
-                        <font color="#ff008d" size="2">「404 (New Era)」/ 番組開始直後から投稿増加、フルサイズ披露に好評</font>
+                        <font color="#ffffff" size="2"><b>19:00頃：AKB48</b></font><br>
+                        <font color="#ff008d" size="2">「ポニーテールとシュシュ」</font>
                     </td></tr>
                     <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>19:15頃：King & Prince（トップバッター）</b></font><br>
-                        <font color="#ff008d" size="2">「So Honey」/ キレッキレダンス・可愛さで投稿爆発、ファン大盛り上がり</font>
+                        <font color="#ffffff" size="2"><b>19:02頃：＝LOVE</b></font><br>
+                        <font color="#ff008d" size="2">「ナツマトペ」告知</font>
                     </td></tr>
                     <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>19:35頃：timelesz</b></font><br>
-                        <font color="#ff008d" size="2">「消えない花火」（テレビ初披露）/ 映画タイアップ連動で感動の声多数</font>
+                        <font color="#ffffff" size="2"><b>19:04頃：Da-iCE</b></font><br>
+                        <font color="#ff008d" size="2">「スターマイン」告知</font>
                     </td></tr>
                     <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>19:55頃：20th Century</b></font><br>
-                        <font color="#ff008d" size="2">「僕らが上書きする世界」（テレビ初披露推定）/ 安定したダンス・歌唱で好評価</font>
+                        <font color="#ffffff" size="2"><b>19:07〜19:16：真夏の胸キュン PART①</b></font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>19:17頃：ILLIT</b></font><br>
+                        <font color="#ff008d" size="2">「I Got Your Back」</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>19:23〜19:32：月間ランキング TOP25（25-11）</b></font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>19:33頃：EBiDAN</b></font><br>
+                        <font color="#ff008d" size="2">「Yes! 東京」</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>19:38頃：SUPER EIGHT</b></font><br>
+                        <font color="#ff008d" size="2">「ダンダーラ」</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>19:45頃：AKB48</b></font><br>
+                        <font color="#ff008d" size="2">「好きish」</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>19:53〜20:05：真夏の胸キュン PART②</b></font>
                     </td></tr>
                     </tbody>
                 </table>
@@ -433,20 +383,38 @@ CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテー
                 <table border="0" width="100%" cellpadding="5" cellspacing="4" style="margin-top: 8px;">
                     <tbody>
                     <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>20:10頃：Number_i</b></font><br>
-                        <font color="#ff008d" size="2">「BUGS LIFE」/ 圧巻ダンス・歌唱で投稿爆発的な盛り上がり</font>
+                        <font color="#ffffff" size="2"><b>20:06頃：＝LOVE</b></font><br>
+                        <font color="#ff008d" size="2">「恋、はじめました。」</font>
                     </td></tr>
                     <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>20:30頃：乃木坂46</b></font><br>
-                        <font color="#ff008d" size="2">「是非に及ばず」/ ロック調フルサイズで投稿増加、新規ファン言及も</font>
+                        <font color="#ffffff" size="2"><b>20:10頃：Da-iCE</b></font><br>
+                        <font color="#ff008d" size="2">「アンリミテッド」</font>
                     </td></tr>
                     <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>20:45頃：≠ME</b></font><br>
-                        <font color="#ff008d" size="2">「愛くださいませ」/ フルサイズ披露、安定歌唱で好反応</font>
+                        <font color="#ffffff" size="2"><b>20:15〜20:23：月間ランキング（10-1）</b></font>
                     </td></tr>
                     <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>番組中盤〜後半：YOASOBI（プラチナライブ）</b></font><br>
-                        <font color="#ff008d" size="2">長尺企画で全体好評。投稿分散のためサブ曲順の詳細は投稿確認に基づく推定</font>
+                        <font color="#ffffff" size="2"><b>20:24頃：ILLIT</b></font><br>
+                        <font color="#ff008d" size="2">「It's Me」</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>20:27頃：優里</b></font><br>
+                        <font color="#ff008d" size="2">「サンダーボルト」</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>20:31頃：ME:I</b></font><br>
+                        <font color="#ff008d" size="2">「花咲く道」</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>20:36頃：STARGLOW</b></font><br>
+                        <font color="#ff008d" size="2">「Drivin' My Life」</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>20:42頃：music power AKB48</b></font><br>
+                        <font color="#ff008d" size="2">「365日の紙飛行機」</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>20:47〜20:55：週間ランキング TOP5</b></font>
                     </td></tr>
                     </tbody>
                 </table>
@@ -465,7 +433,7 @@ CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテー
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>※8/3のCDTVは放送前のため未確定。<br>※放送開始後（19:00〜）にリアルタイムで出演順を更新していきます。</p>
+<p>※8/10のCDTVは放送前のため未確定。<br>※放送開始後（19:00〜）にリアルタイムで出演順を更新していきます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -671,7 +639,7 @@ DJ OZMA「アゲ♂アゲ♂EVERY☆騎士」ほか / FRUITS ZIPPER「ぱわー�
 </div>
 <div style="display:flex;gap:10px;border-top:1px solid #222;padding-top:10px;">
 <span style="color:#ff008d;font-size:12px;font-weight:900;">A</span>
-<p style="margin:0;font-size:11px;color:#ccc;line-height:1.7;font-weight:700;">8月3日は19:00〜20:55、TBS系列でILLIT・AKB48・SUPER EIGHT・Da-iCEなど9組の出演が発表されています。過去の放送では前半（19時台）に新曲組、後半（20時台）に大型アーティストが配置される傾向があり、今回もその傾向に沿った出演順になる可能性があります。実際の出演順は放送後に本ページで更新します。</p>
+<p style="margin:0;font-size:11px;color:#ccc;line-height:1.7;font-weight:700;">8月10日は19:00〜20:55、TBS系列「CDTV33年間の1位の曲だけスペシャル」として放送されます。現時点で出演が発表されているのはATEEZのみです。過去の放送では後半（20時台）に注目度の高いアーティストが配置される傾向があり、実際の出演順は放送後に本ページで更新します。</p>
 </div>
 </div>
 
@@ -679,11 +647,11 @@ DJ OZMA「アゲ♂アゲ♂EVERY☆騎士」ほか / FRUITS ZIPPER「ぱわー�
 <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
 <div style="display:flex;gap:10px;margin-bottom:10px;">
 <span style="background:#fff;color:#000;font-size:10px;font-weight:900;padding:2px 6px;transform:skewX(-15deg);">Q2</span>
-<p style="margin:0;font-size:12px;font-weight:900;color:#fff;">一番盛り上がるタイミングはどこ？</p>
+<p style="margin:0;font-size:12px;font-weight:900;color:#fff;">ATEEZの出番は何時頃ですか？</p>
 </div>
 <div style="display:flex;gap:10px;border-top:1px solid #222;padding-top:10px;">
 <span style="color:#ff008d;font-size:12px;font-weight:900;">A</span>
-<p style="margin:0;font-size:11px;color:#ccc;line-height:1.7;font-weight:700;">最大の見どころはSUPER EIGHTの「ダンダーラ」フルサイズテレビ初披露です。8月8日"超八"に向けた新曲で、過去の傾向では話題の新曲は番組後半に配置されることが多く、20時台での登場が濃厚です。</p>
+<p style="margin:0;font-size:11px;color:#ccc;line-height:1.7;font-weight:700;">正式な出演時間は発表されていません。ATEEZはメンバー8人全員そろっての同番組出演が今回初で「BAD (Japanese Ver.)」をフルサイズ披露予定。過去の傾向では注目度の高いアーティストは番組後半に配置されることが多く、20時台での登場が有力です。</p>
 </div>
 </div>
 
@@ -691,11 +659,11 @@ DJ OZMA「アゲ♂アゲ♂EVERY☆騎士」ほか / FRUITS ZIPPER「ぱわー�
 <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
 <div style="display:flex;gap:10px;margin-bottom:10px;">
 <span style="background:#fff;color:#000;font-size:10px;font-weight:900;padding:2px 6px;transform:skewX(-15deg);">Q3</span>
-<p style="margin:0;font-size:12px;font-weight:900;color:#fff;">AKB48の出番はいつ頃ですか？</p>
+<p style="margin:0;font-size:12px;font-weight:900;color:#fff;">ATEEZ以外の出演アーティストはいつ発表されますか？</p>
 </div>
 <div style="display:flex;gap:10px;border-top:1px solid #222;padding-top:10px;">
 <span style="color:#ff008d;font-size:12px;font-weight:900;">A</span>
-<p style="margin:0;font-size:11px;color:#ccc;line-height:1.7;font-weight:700;">AKB48は「好きish」をフルサイズテレビ初披露。19期生・伊藤百花が2作連続で単独センターを務めます。動員力の大きいAKB48は過去の傾向から番組後半（20時台）に登場する可能性が高く、「ポニーテールとシュシュ」は「真夏のメガヒットメドレー」でも披露されます。</p>
+<p style="margin:0;font-size:11px;color:#ccc;line-height:1.7;font-weight:700;">現時点で正式な発表はありません。CDTVの出演アーティストは例年、放送の直前まで順次追加発表されることが多いため、判明次第このページに反映していきます。</p>
 </div>
 </div>
 
@@ -735,7 +703,7 @@ DJ OZMA「アゲ♂アゲ♂EVERY☆騎士」ほか / FRUITS ZIPPER「ぱわー�
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年8月3日（月）放送の『CDTVライブ！ライブ！』は、TBS系でよる7時から2時間生放送！</p>
+<p>2026年8月10日（月）放送の『CDTVライブ！ライブ！』は、TBS系でよる7時から2時間生放送！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -743,7 +711,7 @@ DJ OZMA「アゲ♂アゲ♂EVERY☆騎士」ほか / FRUITS ZIPPER「ぱわー�
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演アーティストはILLIT・AKB48・SUPER EIGHT・Da-iCEなど9組。フルサイズテレビ初披露が多数予定されています。</p>
+<p>特集は「CDTV33年間の1位の曲だけスペシャル」。現時点で発表されている出演アーティストはATEEZで、メンバー8人全員そろっての同番組出演は今回が初めてです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -856,17 +824,17 @@ DJ OZMA「アゲ♂アゲ♂EVERY☆騎士」ほか / FRUITS ZIPPER「ぱわー�
       "@type": "BlogPosting",
       "@id": "https://shira-treat.com/cdtv-timetable/#article",
       "url": "https://shira-treat.com/cdtv-timetable/",
-      "headline": "【CDTV】タイムテーブル 8月3日速報！出演順・出演時間をリアルタイム更新",
-      "description": "CDTVライブ！ライブ！（カウントダウンTV）8月3日タイムテーブルを速報更新！AKB48・SUPER EIGHT・Da-iCEなどフルサイズ初披露多数。出演順・登場時間の目安をリアルタイムで随時追記。",
+      "headline": "【CDTV】タイムテーブル 8月10日速報！出演順・出演時間をリアルタイム更新",
+      "description": "CDTVライブ！ライブ！（カウントダウンTV）8月10日タイムテーブルを速報更新！ATEEZが8人全員そろって初出演、特集は「CDTV33年間の1位の曲だけスペシャル」。出演順・登場時間の目安をリアルタイムで随時追記。",
       "articleSection": "タイムテーブル",
       "keywords": [
         "CDTV", "CDTV タイムテーブル", "カウントダウンTV", "CDTVライブ！ライブ！",
-        "出演者", "出演順", "歌唱曲", "2026-08-03",
-        "ILLIT", "＝LOVE", "AKB48", "EBiDAN", "SUPER EIGHT", "STARGLOW", "Da-iCE", "ME:I", "優里"
+        "出演者", "出演順", "歌唱曲", "2026-08-10",
+        "ATEEZ", "CDTV33年間の1位の曲だけスペシャル"
       ],
       "datePublished": "2026-01-28T17:30:00+09:00",
       "dateCreated": "2026-01-28T17:30:00+09:00",
-      "dateModified": "2026-07-28T10:00:00+09:00",
+      "dateModified": "2026-08-04T10:00:00+09:00",
       "inLanguage": "ja",
       "image": {
         "@type": "ImageObject",
@@ -899,24 +867,16 @@ DJ OZMA「アゲ♂アゲ♂EVERY☆騎士」ほか / FRUITS ZIPPER「ぱわー�
         "sameAs": ["https://www.tbs.co.jp/cdtv_livelive/"]
       },
       "mentions": [
-        { "@type": "MusicGroup", "name": "ILLIT" },
-        { "@type": "MusicGroup", "name": "＝LOVE" },
-        { "@type": "MusicGroup", "name": "AKB48" },
-        { "@type": "MusicGroup", "name": "EBiDAN" },
-        { "@type": "MusicGroup", "name": "SUPER EIGHT" },
-        { "@type": "MusicGroup", "name": "STARGLOW" },
-        { "@type": "MusicGroup", "name": "Da-iCE" },
-        { "@type": "MusicGroup", "name": "ME:I" },
-        { "@type": "Person", "name": "優里" }
+        { "@type": "MusicGroup", "name": "ATEEZ" }
       ]
     },
     {
       "@type": "BroadcastEvent",
       "@id": "https://shira-treat.com/cdtv-timetable/#broadcast",
-      "name": "CDTVライブ！ライブ！（2026年8月3日放送）",
-      "description": "2026年8月3日（月）19:00〜20:55、TBS系列2時間生放送。ILLIT・AKB48・SUPER EIGHT・Da-iCEなど9組が出演し、フルサイズテレビ初披露が多数予定されています。",
-      "startDate": "2026-08-03T19:00:00+09:00",
-      "endDate": "2026-08-03T20:55:00+09:00",
+      "name": "CDTVライブ！ライブ！（2026年8月10日放送）",
+      "description": "2026年8月10日（月）19:00〜20:55、TBS系列2時間生放送。「CDTV33年間の1位の曲だけスペシャル」と題し、ATEEZがメンバー8人全員そろっての初出演で「BAD (Japanese Ver.)」をフルサイズで披露します。",
+      "startDate": "2026-08-10T19:00:00+09:00",
+      "endDate": "2026-08-10T20:55:00+09:00",
       "eventStatus": "https://schema.org/EventScheduled",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "isLiveBroadcast": true,
@@ -937,19 +897,11 @@ DJ OZMA「アゲ♂アゲ♂EVERY☆騎士」ほか / FRUITS ZIPPER「ぱわー�
     {
       "@type": "ItemList",
       "@id": "https://shira-treat.com/cdtv-timetable/#lineup",
-      "name": "2026年8月3日 CDTV出演者と歌唱曲一覧",
+      "name": "2026年8月10日 CDTV出演者と歌唱曲一覧",
       "itemListOrder": "https://schema.org/ItemListOrderAscending",
-      "numberOfItems": 9,
+      "numberOfItems": 1,
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "ILLIT" },
-        { "@type": "ListItem", "position": 2, "name": "＝LOVE" },
-        { "@type": "ListItem", "position": 3, "name": "AKB48" },
-        { "@type": "ListItem", "position": 4, "name": "EBiDAN" },
-        { "@type": "ListItem", "position": 5, "name": "SUPER EIGHT" },
-        { "@type": "ListItem", "position": 6, "name": "STARGLOW" },
-        { "@type": "ListItem", "position": 7, "name": "Da-iCE" },
-        { "@type": "ListItem", "position": 8, "name": "ME:I" },
-        { "@type": "ListItem", "position": 9, "name": "優里" }
+        { "@type": "ListItem", "position": 1, "name": "ATEEZ" }
       ]
     },
     {
@@ -961,23 +913,23 @@ DJ OZMA「アゲ♂アゲ♂EVERY☆騎士」ほか / FRUITS ZIPPER「ぱわー�
           "name": "出演順やタイムテーブルはどうなりそうですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "8月3日は19:00〜20:55、TBS系列でILLIT・AKB48・SUPER EIGHT・Da-iCEなど9組の出演が発表されています。過去の放送では前半（19時台）に新曲組、後半（20時台）に大型アーティストが配置される傾向があり、今回もその傾向に沿った出演順になる可能性があります。実際の出演順は放送後に本ページで更新します。"
+            "text": "8月10日は19:00〜20:55、TBS系列「CDTV33年間の1位の曲だけスペシャル」として放送されます。現時点で出演が発表されているのはATEEZのみです。過去の放送では後半（20時台）に注目度の高いアーティストが配置される傾向があり、実際の出演順は放送後に本ページで更新します。"
           }
         },
         {
           "@type": "Question",
-          "name": "一番盛り上がるタイミングはどこ？",
+          "name": "ATEEZの出番は何時頃ですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "最大の見どころはSUPER EIGHTの「ダンダーラ」フルサイズテレビ初披露です。8月8日\"超八\"に向けた新曲で、過去の傾向では話題の新曲は番組後半に配置されることが多く、20時台での登場が濃厚です。"
+            "text": "正式な出演時間は発表されていません。ATEEZはメンバー8人全員そろっての同番組出演が今回初で「BAD (Japanese Ver.)」をフルサイズ披露予定。過去の傾向では注目度の高いアーティストは番組後半に配置されることが多く、20時台での登場が有力です。"
           }
         },
         {
           "@type": "Question",
-          "name": "AKB48の出番はいつ頃ですか？",
+          "name": "ATEEZ以外の出演アーティストはいつ発表されますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "AKB48は「好きish」をフルサイズテレビ初披露。19期生・伊藤百花が2作連続で単独センターを務めます。動員力の大きいAKB48は過去の傾向から番組後半（20時台）に登場する可能性が高く、「ポニーテールとシュシュ」は「真夏のメガヒットメドレー」でも披露されます。"
+            "text": "現時点で正式な発表はありません。CDTVの出演アーティストは例年、放送の直前まで順次追加発表されることが多いため、判明次第このページに反映していきます。"
           }
         },
         {

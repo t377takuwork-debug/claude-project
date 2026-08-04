@@ -8,6 +8,7 @@
       "PowerShell(git status*)",
       "PowerShell(git diff*)",
       "PowerShell(git log*)",
+      "Edit(drafts/*.txt)",
       "mcp__claude-in-chrome__tabs_context_mcp",
       "mcp__claude-in-chrome__navigate",
       "mcp__claude-in-chrome__read_page",
