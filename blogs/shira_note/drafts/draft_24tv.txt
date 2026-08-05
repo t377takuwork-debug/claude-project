@@ -1,0 +1,737 @@
+<!-- wp:paragraph -->
+タイトル：24時間テレビ2026 出演者・タイムテーブル｜放送スケジュールを随時更新
+
+メタディスクリプション（80字）：
+24時間テレビ2026の出演者・タイムテーブルを速報更新！総合司会やチャリティーパートナーなど判明済みの情報と、放送スケジュール・出演順を随時追記していきます。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][title][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>8月29日(土)・30日(日)開催の「24時間テレビ2026」は、テーマ「わたしの家族の話〜あなたは誰を想う?〜」のもと両国国技館から放送されます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>放送に合わせて出演者やタイムテーブルをリアルタイムで更新していきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="24時間テレビ2026最新情報" style="display: block; font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif; background: #ffffff; border: 2px solid #111111; position: relative; overflow: hidden; max-width: 100%; margin: 12px 0; box-shadow: 0 10px 25px rgba(0,0,0,0.08); box-sizing: border-box; width: 100%;">
+  <div style="height: 4px; background: linear-gradient(90deg, #FFD400, #E4002B, #1B8A3E, #FFD400); width: 100%;"></div>
+  <div style="padding: 16px; position: relative;">
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+      <div style="font-size: 13px; font-weight: 900; color: #111111; letter-spacing: 0.05em; border-left: 3px solid #E4002B; padding-left: 8px; line-height: 1;">24-HOUR TELEVISION 2026</div>
+      <div style="font-size: 10px; font-weight: 800; color: #E4002B; display: flex; align-items: center; gap: 4px;">
+        <span style="display: inline-block; width: 6px; height: 6px; background: #E4002B; border-radius: 50%;"></span>
+        REAL-TIME UPDATES
+      </div>
+    </div>
+    <div style="font-size: 16px; font-weight: 900; color: #111111; line-height: 1.4; margin-bottom: 6px;">24時間テレビ2026 タイムテーブル・出演者最新情報</div>
+    <div style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #444; flex-wrap: wrap;">
+      <span style="background: #E4002B; color: #fff; font-size: 9px; padding: 2px 4px; border-radius: 2px; font-weight: 900;">LIVE</span>
+      8月29日(土)18:30〜30日(日)20:54（日本テレビ系・両国国技館）
+    </div>
+    <div style="margin-top: 14px; border: 1px solid #edf2f7; border-bottom: none;">
+      <div style="display: flex; border-bottom: 1px solid #edf2f7;">
+        <div style="width: 80px; font-size: 9px; font-weight: 900; color: #a0aec0; padding: 10px 8px; background: #FFF6D6; flex-shrink: 0; display: flex; align-items: center;">STATUS</div>
+        <div style="flex: 1; padding: 10px; font-size: 11px; font-weight: 700; color: #2d3748; line-height: 1.5;">
+          <strong style="font-weight: 800; color: #E4002B;">総合司会・出演者は発表済み</strong>（タイムテーブル本体は現時点で未発表。判明次第このページで更新）
+        </div>
+      </div>
+      <div style="display: flex; border-bottom: 1px solid #edf2f7;">
+        <div style="width: 80px; font-size: 9px; font-weight: 900; color: #a0aec0; padding: 10px 8px; background: #FFF6D6; flex-shrink: 0; display: flex; align-items: center;">ARTISTS</div>
+        <div style="flex: 1; padding: 10px; font-size: 12px; font-weight: 700; color: #2d3748; line-height: 1.6; word-break: break-word;">内村光良 / 羽鳥慎一 / 水卜麻美 / SixTONES / 山崎育三郎 / ちゃんみな 他</div>
+      </div>
+      <div style="display: flex; border-bottom: 1px solid #edf2f7;">
+        <div style="width: 80px; font-size: 9px; font-weight: 900; color: #a0aec0; padding: 10px 8px; background: #FFF6D6; flex-shrink: 0; display: flex; align-items: center;">TIMETABLE</div>
+        <div style="flex: 1; padding: 10px; font-size: 11px; font-weight: 700; color: #718096; line-height: 1.6; font-style: italic;">過去実績では放送前日夜〜当日朝に発表される傾向。今年も同時期の発表が有力。</div>
+      </div>
+    </div>
+    <div style="margin-top: 12px; background: #FFF6D6; border-left: 3px solid #111111; color: #2d3748; padding: 10px; font-size: 11px; font-weight: 700; display: flex; align-items: flex-start; gap: 8px; line-height: 1.5;">
+      <span style="color: #E4002B;">💡</span>
+      <span>つんく♂一家の実話を描くスペシャルドラマ（北川景子主演）や、星野真里さんのチャリティーチャレンジ企画などが見どころです。</span>
+    </div>
+    <div style="margin-top: 12px; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 8px;">
+      <a href="#st-toc-h-1" style="text-decoration: none; background: #111111; color: #FFD400; font-size: 10px; font-weight: 900; padding: 8px 16px; border-radius: 2px; text-align: center; letter-spacing: 0.05em;">最新情報を確認する ▶</a>
+      <div style="font-size: 9px; color: #a0aec0; text-align: right; line-height: 1.4;">最終更新: 2026.08.05<br>(放送当日、生放送にあわせて更新)</div>
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][mokujimae][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>総合司会やチャリティーパートナーなど分かっている情報をまとめつつ、タイムテーブルは発表され次第このページに反映します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>24時間テレビ2026最新タイムテーブル【8/29-30】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div role="region" aria-label="24時間テレビ2026 タイムテーブル状況" style="background: #FFF6D6; border: 2px solid #111111; border-radius: 10px; padding: 20px; margin: 20px 0; box-sizing: border-box; width: 100%;">
+  <div style="display: inline-block; background: #E4002B; color: #fff; font-size: 11px; font-weight: 900; padding: 4px 10px; border-radius: 4px; margin-bottom: 10px;">未発表</div>
+  <p style="margin: 0; font-size: 13px; color: #111111; line-height: 1.7; word-break: break-word;">
+    分刻みの詳細なタイムテーブルは、本記事執筆時点（2026年8月5日）でまだ発表されていません。過去5回の実績では放送前日夜〜当日朝に発表される傾向があります（<a href="https://shira-treat.com/24jikanttv-time/" style="color:#E4002B; text-decoration:underline;">発表時期の詳しい傾向はこちら</a>）。発表され次第、このセクションに出演順・時間帯を追記します。
+  </p>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>24時間テレビ2026の出演者一覧</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"align":"center","className":"size-full"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://shira-treat.com/wp-content/uploads/2026/08/image-2.webp" alt="24時間テレビ2026 タイムテーブル出演者・出演順をリアルタイム更新" class="wp-image-6100"/><figcaption class="wp-element-caption"><a href="https://www.ntv.co.jp/24h/" target="_blank" rel="noreferrer noopener">公式サイト</a>｜<a href="https://x.com/24hourTV" target="_blank" rel="noreferrer noopener">公式X(@24hourTV)</a></figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>2026年8月5日時点で発表されている出演者は以下の通りです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="tv24-cast-container" style="margin: 16px 0;">
+  <style>
+    .tv24-cast-table { width: 100%; border-collapse: collapse; font-size: 13px; line-height: 1.6; }
+    .tv24-cast-table th, .tv24-cast-table td { border: 1px solid #ddd; padding: 12px; }
+    .tv24-cast-table thead { background: #FFD400; color: #111111; }
+    .tv24-cast-table td:first-child { white-space: nowrap; width: 1%; }
+
+    @media (max-width: 600px) {
+      .tv24-cast-table thead { display: none; }
+      .tv24-cast-table, .tv24-cast-table tbody, .tv24-cast-table tr, .tv24-cast-table td { display: block; width: 100%; }
+      .tv24-cast-table tr { margin-bottom: 15px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+      .tv24-cast-table td { border: none; border-bottom: 1px solid #eee; }
+      .tv24-cast-table td:first-child { background: #FFF6D6; font-weight: 900; color: #111111; padding-bottom: 4px; white-space: normal; width: 100%; }
+    }
+  </style>
+
+  <table class="tv24-cast-table" role="region" aria-label="24時間テレビ2026 出演者一覧">
+    <thead>
+      <tr>
+        <th style="white-space: nowrap;">区分</th>
+        <th>出演者</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>総合司会</td><td>内村光良、羽鳥慎一（日本テレビアナウンサー）、水卜麻美（日本テレビアナウンサー）</td></tr>
+      <tr><td>チャリティーパートナー</td><td>SixTONES、山崎育三郎</td></tr>
+      <tr><td>スペシャルサポーター</td><td>ちゃんみな</td></tr>
+      <tr><td>チャリティーランナー</td><td>星野真里</td></tr>
+      <tr><td>スペシャルドラマ主演</td><td>北川景子（つんく♂の妻・加奈子役）</td></tr>
+      <tr><td>スペシャルドラマ脚本</td><td>岡田惠和</td></tr>
+      <tr><td>関西ローカル（ytv）</td><td>関西ジュニア（嶋﨑斗亜・大西風雅・真弓孟之・永岡蓮王・渡邉大我）、ミルクボーイ（内海崇・駒場孝）、黒木千晶・西尾桃（ytvアナウンサー）</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size: 11px; color: #666; margin-top: 8px;">※2026年8月5日時点の公式発表情報をもとに作成。</p>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>上記のほか、以下の企画・コラボへの出演も発表されています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="tv24-project-container" style="margin: 16px 0;">
+  <style>
+    .tv24-project-table { width: 100%; border-collapse: collapse; font-size: 13px; line-height: 1.6; }
+    .tv24-project-table th, .tv24-project-table td { border: 1px solid #ddd; padding: 12px; }
+    .tv24-project-table thead { background: #FFD400; color: #111111; }
+
+    @media (max-width: 600px) {
+      .tv24-project-table thead { display: none; }
+      .tv24-project-table, .tv24-project-table tbody, .tv24-project-table tr, .tv24-project-table td { display: block; width: 100%; }
+      .tv24-project-table tr { margin-bottom: 15px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+      .tv24-project-table td { border: none; border-bottom: 1px solid #eee; }
+      .tv24-project-table td:first-child { background: #FFF6D6; font-weight: 900; color: #111111; padding-bottom: 4px; }
+    }
+  </style>
+
+  <table class="tv24-project-table" role="region" aria-label="24時間テレビ2026 企画・コラボ出演">
+    <thead>
+      <tr>
+        <th>企画</th>
+        <th>出演</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>ろう学校の生徒とドラムライン</td><td>京本大我（SixTONES）、山崎育三郎（ピアノ演奏）</td></tr>
+      <tr><td>「子ども食堂」リフォーム</td><td>ヒロミ、やす子</td></tr>
+      <tr><td>突撃！隣の家族ごはん</td><td>アンタッチャブル山崎弘也、宮川大輔</td></tr>
+      <tr><td>会いたいけど会えていない大切な人がいる人</td><td>SixTONES</td></tr>
+      <tr><td>チャリTシャツデザイナー特別インタビュー</td><td>青山剛昌、ちゃんみな、京本大我（SixTONES）</td></tr>
+      <tr><td>アートパフォーマンス企画</td><td>芳根京子</td></tr>
+      <tr><td>青学陸上部"家族のカタチ"企画（仮）</td><td>大泉洋</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size: 11px; color: #666; margin-top: 8px;">※各企画の登場時間は現時点で未発表です。</p>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>出演者・企画の詳細な登場時間については、タイムテーブル発表後にあらためて判明します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>24時間テレビ2026の出演時間は何時頃？【目安】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>今年のタイムテーブルはまだ発表されていないため、前回（2025年・第48回）の進行を参考に、大まかな時間帯の目安を紹介します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="display: grid; gap: 10px; margin: 16px 0;">
+  <div style="display: grid; grid-template-columns: 90px 1fr; gap: 10px; align-items: start;">
+    <div style="font-size: 11px; font-weight: 800; color: #E4002B; background: #FFF6D6; padding: 4px 6px; border-radius: 4px; text-align: center; align-self: start;">18:30頃〜</div>
+    <div style="font-size: 12px; color: #2d3748; line-height: 1.6;">
+      <strong>序盤</strong><br>
+      <span style="font-size: 11px; color: #718096;">前回はオープニング直後から著名アーティストの歌唱や人気企画が続きました。</span>
+    </div>
+  </div>
+  <div style="display: grid; grid-template-columns: 90px 1fr; gap: 10px; align-items: start;">
+    <div style="font-size: 11px; font-weight: 800; color: #E4002B; background: #FFF6D6; padding: 4px 6px; border-radius: 4px; text-align: center; align-self: start;">深夜〜早朝</div>
+    <div style="font-size: 12px; color: #2d3748; line-height: 1.6;">
+      <strong>中盤</strong><br>
+      <span style="font-size: 11px; color: #718096;">前回は深夜帯にトーク・ドキュメンタリー企画、明け方にかけて地域密着企画が続きました。</span>
+    </div>
+  </div>
+  <div style="display: grid; grid-template-columns: 90px 1fr; gap: 10px; align-items: start;">
+    <div style="font-size: 11px; font-weight: 800; color: #E4002B; background: #FFF6D6; padding: 4px 6px; border-radius: 4px; text-align: center; align-self: start;">夕方〜20:54頃</div>
+    <div style="font-size: 12px; color: #2d3748; line-height: 1.6;">
+      <strong>終盤</strong><br>
+      <span style="font-size: 11px; color: #718096;">前回はチャリティーランナーが20:45頃にゴールし、その後のフィナーレで20:54頃に放送終了しました。</span>
+    </div>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>今年のチャリティーチャレンジ企画（星野真里さんが特設コースを1000人の応援ランナーと共に走る内容）は、前回の105kmマラソンとは形式が異なる可能性があるため、開始・ゴール時刻は現時点で未発表です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[kanrenad]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>24時間テレビ2026の順番の傾向</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 16px 0;">
+  <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; box-sizing: border-box;">
+    <div style="border-top: 3px solid #E4002B; margin: -14px -14px 10px; border-radius: 8px 8px 0 0;"></div>
+    <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #111111; margin-bottom: 8px; font-size: 12px;">🕒 序盤は名物企画から</div>
+    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">オープニング直後から著名アーティストの歌唱や人気企画が続く傾向があります。</p>
+  </div>
+  <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; box-sizing: border-box;">
+    <div style="border-top: 3px solid #E4002B; margin: -14px -14px 10px; border-radius: 8px 8px 0 0;"></div>
+    <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #111111; margin-bottom: 8px; font-size: 12px;">👨‍👩‍👧 深夜はドキュメンタリー中心</div>
+    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">深夜〜早朝はトークや地域密着ドキュメンタリー企画が中心になる傾向があります。</p>
+  </div>
+  <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; box-sizing: border-box;">
+    <div style="border-top: 3px solid #E4002B; margin: -14px -14px 10px; border-radius: 8px 8px 0 0;"></div>
+    <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #111111; margin-bottom: 8px; font-size: 12px;">🏃 チャリティーチャレンジが終盤の軸</div>
+    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">今年は星野真里さんのチャレンジ企画が、番組終盤の大きな軸になると見られます。</p>
+  </div>
+  <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; box-sizing: border-box;">
+    <div style="border-top: 3px solid #E4002B; margin: -14px -14px 10px; border-radius: 8px 8px 0 0;"></div>
+    <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #111111; margin-bottom: 8px; font-size: 12px;">📱 SNS連動とフィナーレ</div>
+    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">SNSでの反響が大きい企画のあと、合唱・歌唱によるフィナーレで締めくくられる傾向があります。</p>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>24時間テレビ2026の実際の出演順【放送後更新】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>ここでは前回（2025年・第48回）の実際の進行を掲載しています。今回の放送後、実際の出演順に更新します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="tv24-archive-container" style="margin: 16px 0;">
+  <style>
+    .tv24-archive-table { width: 100%; border-collapse: collapse; font-size: 12.5px; line-height: 1.6; }
+    .tv24-archive-table th, .tv24-archive-table td { border: 1px solid #ddd; padding: 10px; }
+    .tv24-archive-table thead { background: #111111; color: #fff; }
+    .tv24-archive-table td:first-child { white-space: nowrap; width: 1%; }
+
+    @media (max-width: 600px) {
+      .tv24-archive-table thead { display: none; }
+      .tv24-archive-table, .tv24-archive-table tbody, .tv24-archive-table tr, .tv24-archive-table td { display: block; width: 100%; }
+      .tv24-archive-table tr { margin-bottom: 12px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+      .tv24-archive-table td { border: none; border-bottom: 1px solid #eee; }
+      .tv24-archive-table td:first-child { background: #FFF6D6; font-weight: 900; color: #111111; padding-bottom: 4px; white-space: normal; width: 100%; }
+    }
+  </style>
+
+  <p style="font-size: 12px; font-weight: 800; color: #111111; margin: 12px 0 6px;">8月30日(土)</p>
+  <table class="tv24-archive-table" role="region" aria-label="24時間テレビ48 8月30日の進行">
+    <thead><tr><th>時間</th><th>内容</th><th>備考</th></tr></thead>
+    <tbody>
+      <tr><td>18:30</td><td>オープニング／スタート</td><td>定刻スタート。氷川きよし「サライ」独唱など。</td></tr>
+      <tr><td>19:10頃</td><td>King &amp; Prince 永瀬廉「感じる花火大会」プロジェクト</td><td>視聴覚障がいの子どもたちと実施。</td></tr>
+      <tr><td>19:35頃</td><td>あのちゃん 離島フリースクール／上田と女が吠える夜「あなたのことを教えて」</td><td>事前発表通り。</td></tr>
+      <tr><td>20:11頃</td><td>横山裕 子ども支援マラソンスタート（105km）</td><td>事前発表は「20時頃」。スターターは相葉雅紀。</td></tr>
+      <tr><td>20:15頃</td><td>相葉雅紀 保護犬トリミング特別編</td><td>飼育放棄の犬をレスキュー。</td></tr>
+      <tr><td>20:40頃</td><td>パラアスリートスゴ技チャレンジ</td><td>-</td></tr>
+      <tr><td>20:55頃</td><td>岩田剛典 LIVEアート＆オークション</td><td>-</td></tr>
+      <tr><td>21:00頃</td><td>日本列島ダーツの旅的インタビュー〜氷川きよし編〜</td><td>-</td></tr>
+      <tr><td>21:10頃</td><td>仲間由紀恵サポート 能登の高校生「わたしたちのこと」書道パフォーマンス</td><td>-</td></tr>
+      <tr><td>21:40頃</td><td>ドキュメンタリー「黒柳徹子はなぜテレビ女優第1号になれたのか」</td><td>-</td></tr>
+      <tr><td>21:55頃</td><td>ドラマスペシャル「トットの欠落青春記」</td><td>黒柳徹子役・芦田愛菜。</td></tr>
+      <tr><td>23:45頃</td><td>24時間テレビ生しゃべくり007 国際スターSP</td><td>ジャッキー・チェン出演等で話題に。</td></tr>
+    </tbody>
+  </table>
+
+  <p style="font-size: 12px; font-weight: 800; color: #111111; margin: 20px 0 6px;">8月31日(日)</p>
+  <table class="tv24-archive-table" role="region" aria-label="24時間テレビ48 8月31日の進行">
+    <thead><tr><th>時間</th><th>内容</th><th>備考</th></tr></thead>
+    <tbody>
+      <tr><td>2:00頃</td><td>上田と女が吠える夜インターナショナル</td><td>King &amp; Princeも登場。</td></tr>
+      <tr><td>4:00頃</td><td>オモウマい店「能登のずっと明るい寿司親子」</td><td>-</td></tr>
+      <tr><td>5:00頃</td><td>シューイチ「あなたのふるさとを教えて」</td><td>-</td></tr>
+      <tr><td>6:15頃</td><td>シューイチ「絶品朝食を教えて」全国中継</td><td>-</td></tr>
+      <tr><td>6:55頃</td><td>イモトアヤコ 北アルプス・チャリティー登山</td><td>-</td></tr>
+      <tr><td>8:25頃</td><td>長嶋一茂 チャリティーホームラン中継</td><td>-</td></tr>
+      <tr><td>8:45頃</td><td>ドキュメンタリードラマ「西田敏行 役者バカの原点」</td><td>-</td></tr>
+      <tr><td>9:50頃</td><td>羽鳥慎一アナ取材 夢の鳥人間コンテスト</td><td>-</td></tr>
+      <tr><td>10:25頃</td><td>星野真里の娘 ふうかちゃんのだいぼうけん</td><td>-</td></tr>
+      <tr><td>11:00頃</td><td>日産チャリティーイベント</td><td>-</td></tr>
+      <tr><td>11:35頃</td><td>ヒロミ 八王子リフォーム「きょうだい児」保育室づくり</td><td>-</td></tr>
+      <tr><td>12:35頃</td><td>城島茂 福島・帰還困難区域の今</td><td>-</td></tr>
+      <tr><td>13:10頃</td><td>Song for Children！チャリティーライブ</td><td>-</td></tr>
+      <tr><td>13:20頃</td><td>いとうあさこ CODA女性取材／上田と女が吠える夜</td><td>-</td></tr>
+      <tr><td>13:50頃</td><td>欽ちゃん生登場「仮装大賞」国技館スペシャル</td><td>-</td></tr>
+      <tr><td>14:25頃</td><td>有働由美子「ともだち近居」リポート</td><td>-</td></tr>
+      <tr><td>14:40頃</td><td>乃木坂46 久保史緒里 ピアノ連弾企画</td><td>-</td></tr>
+      <tr><td>14:50頃</td><td>ダーツの旅的インタビュー〜志尊淳＆永瀬廉編〜</td><td>-</td></tr>
+      <tr><td>15:05頃</td><td>ヒルナンデス！バンド 横山裕への応援歌</td><td>-</td></tr>
+      <tr><td>15:55頃</td><td>水卜麻美アナ取材 97歳の現役保育士企画</td><td>-</td></tr>
+      <tr><td>16:55頃</td><td>氷川きよしと歌おう 生合唱プロジェクト</td><td>-</td></tr>
+      <tr><td>17:25頃</td><td>浜辺美波も登場 チャリティー笑点</td><td>-</td></tr>
+      <tr><td>18:10頃</td><td>ダーツの旅的インタビュー〜市川ぼたん＆市川新之助編〜</td><td>-</td></tr>
+      <tr><td>18:30頃</td><td>志尊淳 27歳新米パパ企画</td><td>-</td></tr>
+      <tr><td>18:50頃</td><td>浜辺美波 能登復興「キリコ祭り」</td><td>-</td></tr>
+      <tr><td>19:30頃</td><td>ボーダーレスLIVE「We are the No Borders!!」</td><td>市川團十郎・氷川きよし等総勢96人参加。</td></tr>
+      <tr><td>20:45</td><td>横山裕 チャリティーマラソンゴール（105km完走）</td><td>公式・複数報道で一致する最も確実な時間。</td></tr>
+      <tr><td>20:54頃</td><td>大フィナーレ（「サライ」歌唱など）／放送終了</td><td>-</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size: 11px; color: #666; margin-top: 8px;">※事前発表とX投稿・事後報道をもとにした「頃」表記の目安です。生放送のため実際の時間と数分程度のズレが生じる場合があります。</p>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>24時間テレビ2026の見逃し配信・再放送はある？</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>24時間テレビ2026の見逃し配信・再放送については、本記事執筆時点で確認できる情報がありません。配信の有無や配信先は<a href="https://www.ntv.co.jp/24h/" target="_blank" rel="noreferrer noopener">日本テレビ公式サイト</a>でご確認ください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>24時間テレビ2026過去のタイムテーブル一覧</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>前回（2025年・第48回）の詳細は「実際の出演順」で紹介した通りです。それ以前の放送開始日は以下の通りです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="tv24-oldarchive-container" style="margin: 16px 0;">
+  <style>
+    .tv24-oldarchive-table { width: 100%; border-collapse: collapse; font-size: 13px; line-height: 1.6; }
+    .tv24-oldarchive-table th, .tv24-oldarchive-table td { border: 1px solid #ddd; padding: 12px; }
+    .tv24-oldarchive-table thead { background: #FFD400; color: #111111; }
+
+    @media (max-width: 600px) {
+      .tv24-oldarchive-table thead { display: none; }
+      .tv24-oldarchive-table, .tv24-oldarchive-table tbody, .tv24-oldarchive-table tr, .tv24-oldarchive-table td { display: block; width: 100%; }
+      .tv24-oldarchive-table tr { margin-bottom: 15px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+      .tv24-oldarchive-table td { border: none; border-bottom: 1px solid #eee; }
+      .tv24-oldarchive-table td:first-child { background: #FFF6D6; font-weight: 900; color: #111111; padding-bottom: 4px; }
+    }
+  </style>
+
+  <table class="tv24-oldarchive-table" role="region" aria-label="24時間テレビ 過去の放送開始日">
+    <thead><tr><th>回（放送年）</th><th>放送開始日</th></tr></thead>
+    <tbody>
+      <tr><td>第47回（2024年）</td><td>2024年8月31日(土)〜</td></tr>
+      <tr><td>第46回（2023年）</td><td>2023年8月26日(土)〜</td></tr>
+      <tr><td>第45回（2022年）</td><td>2022年8月27日(土)頃〜</td></tr>
+      <tr><td>第44回（2021年）</td><td>2021年8月21日(土)〜</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size: 11px; color: #666; margin-top: 8px;">※各回のテーマ・出演者等の詳細は、日本テレビ公式サイトの特集ページをご参照ください。</p>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>よくある質問（FAQ）</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div class="faq-container" role="region" aria-label="よくある質問" style="margin: 24px 0; border: 1px solid #e0e0e0; border-radius: 8px; background: #ffffff; padding: 20px; box-sizing: border-box;">
+
+  <div style="margin-bottom: 24px;">
+    <h3 style="font-size: 16px; color: #111111; margin: 0 0 8px 0; padding: 0 0 0 10px; border-left: 4px solid #E4002B;">Q. 24時間テレビ2026のタイムテーブルは事前発表される？</h3>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin: 4px 0 0 14px;">過去5回の実績では放送前日夜〜当日朝の発表が多く、唯一2025年のみ3日前の発表でした。今年も放送直前の発表になる可能性が高いと考えられます。詳しい発表実績は<a href="https://shira-treat.com/24jikanttv-time/" style="color:#E4002B; text-decoration:underline; font-weight:bold;">こちらの記事</a>でも解説しています。</p>
+  </div>
+
+  <div style="margin-bottom: 24px;">
+    <h3 style="font-size: 16px; color: #111111; margin: 0 0 8px 0; padding: 0 0 0 10px; border-left: 4px solid #E4002B;">Q. 24時間テレビとは？</h3>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin: 4px 0 0 14px;">日本テレビ系列で1978年から毎年8月に放送されているチャリティー特番です。マラソンやチャリティーチャレンジ企画、スペシャルドラマなどで構成されます。</p>
+  </div>
+
+  <div style="margin-bottom: 24px;">
+    <h3 style="font-size: 16px; color: #111111; margin: 0 0 8px 0; padding: 0 0 0 10px; border-left: 4px solid #E4002B;">Q. 24時間テレビ2026の見逃し配信はある？</h3>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin: 4px 0 0 14px;">本記事執筆時点で確認できる情報はありません。配信の有無は日本テレビ公式サイトでご確認ください。</p>
+  </div>
+
+  <div style="margin-bottom: 24px;">
+    <h3 style="font-size: 16px; color: #111111; margin: 0 0 8px 0; padding: 0 0 0 10px; border-left: 4px solid #E4002B;">Q. 前回（2025年・第48回）はどんな内容だった？</h3>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin: 4px 0 0 14px;">テーマ「あなたのことを教えて」のもと、横山裕さんが105kmの子ども支援マラソンに挑戦。20:45頃のゴールが番組終盤の大きな軸になりました。</p>
+  </div>
+
+  <div style="margin: 0;">
+    <h3 style="font-size: 16px; color: #111111; margin: 0 0 8px 0; padding: 0 0 0 10px; border-left: 4px solid #E4002B;">Q. 24時間テレビ2026の放送時間は？</h3>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin: 4px 0 0 14px;">2026年8月29日(土)18:30〜30日(日)20:54に、両国国技館から日本テレビ系列で生放送される予定です。</p>
+  </div>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>【まとめ】24時間テレビ2026出演者・タイムテーブルと放送時間</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>24時間テレビ2026は、2026年8月29日(土)18:30〜30日(日)20:54に両国国技館から生放送される予定です。タイムテーブル本体は本記事執筆時点でまだ発表されていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>総合司会（内村光良・羽鳥慎一・水卜麻美）やチャリティーパートナー（SixTONES・山崎育三郎）、チャリティーランナー（星野真里）などはすでに発表されており、つんく♂一家を描くスペシャルドラマ（北川景子主演）をはじめとした企画も明らかになっています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>タイムテーブルが発表され次第このページを更新するので、放送前にもう一度チェックしに来てください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="margin: 18px 0 14px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px 10px; font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.04); box-sizing: border-box;">
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #E4002B; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">他の音楽番組もチェック</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px;">
+
+    <a href="https://shira-treat.com/cdtv-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        CDTV <span style="font-size: 14px; margin-left: 6px; color: #E4002B;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/star-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        STAR <span style="font-size: 14px; margin-left: 6px; color: #E4002B;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/music-station-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        Mステ <span style="font-size: 14px; margin-left: 6px; color: #E4002B;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/fnskayousai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        FNS歌謡祭 <span style="font-size: 14px; margin-left: 6px; color: #E4002B;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/the-musicday-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        THE MUSIC DAY <span style="font-size: 14px; margin-left: 6px; color: #E4002B;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/teretoongakusai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        テレ東音楽祭 <span style="font-size: 14px; margin-left: 6px; color: #E4002B;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/ongakunohi-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        音楽の日 <span style="font-size: 14px; margin-left: 6px; color: #E4002B;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/utadeaetara-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        うたであえたら <span style="font-size: 14px; margin-left: 6px; color: #E4002B;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/record-award-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        レコード大賞 <span style="font-size: 14px; margin-left: 6px; color: #E4002B;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/nhk-kouhaku-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        紅白歌合戦 <span style="font-size: 14px; margin-left: 6px; color: #E4002B;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/utacon-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        うたコン <span style="font-size: 14px; margin-left: 6px; color: #E4002B;">›</span>
+      </span>
+    </a>
+  </div>
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #64748b; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">出演者の作品を探す</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
+    <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #232f3e; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #161d26;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        CDをAmazonで探す <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
+      </span>
+    </a>
+
+    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fdaily%2F002%2F" target="_blank" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        楽天ブックスでCDを探す <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
+      </span>
+    </a>
+  </div>
+
+  <img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+
+  <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #001a4d, #003399); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid #00d4ff; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
+    <span style="font-size: 9px; font-weight: 900; color: #00d4ff; border: 1px solid #00d4ff; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 3px;">Music</span>
+    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を聴く（30日間無料）</span>
+    <span style="font-size: 18px; color: #00d4ff; margin-left: auto;">›</span>
+  </a>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<!-- MANUAL_JSONLD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://shira-treat.com/24tv-timetable/#post",
+      "mainEntityOfPage": {"@type": "WebPage", "@id": "https://shira-treat.com/24tv-timetable/"},
+      "url": "https://shira-treat.com/24tv-timetable/",
+      "headline": "24時間テレビ2026 出演者・タイムテーブル｜放送スケジュールを随時更新",
+      "description": "24時間テレビ2026の出演者・タイムテーブルを速報更新！総合司会やチャリティーパートナーなど判明済みの情報と、放送スケジュール・出演順を随時追記していきます。",
+      "keywords": [
+        "24時間テレビ2026",
+        "24時間テレビ49",
+        "タイムテーブル",
+        "出演者",
+        "順番",
+        "放送スケジュール",
+        "SixTONES"
+      ],
+      "datePublished": "2025-08-28T10:00:00+09:00",
+      "dateCreated": "2025-08-28T10:00:00+09:00",
+      "dateModified": "2026-08-05T12:00:00+09:00",
+      "inLanguage": "ja",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://shira-treat.com/24tv-timetable/#primaryimage",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/08/image-2.webp",
+        "width": 1200,
+        "height": 675
+      },
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/08/image-2.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/operator-information/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/",
+        "sameAs": [
+          "https://x.com/ShiraNotes_"
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "articleSection": "24時間テレビ",
+      "about": [
+        { "@type": "Thing", "name": "24時間テレビ2026" },
+        { "@type": "Thing", "name": "24時間テレビ2026 タイムテーブル" }
+      ],
+      "mentions": [
+        { "@type": "Person", "name": "内村光良" },
+        { "@type": "Person", "name": "羽鳥慎一" },
+        { "@type": "Person", "name": "水卜麻美" },
+        { "@type": "MusicGroup", "name": "SixTONES" },
+        { "@type": "Person", "name": "山崎育三郎" },
+        { "@type": "Person", "name": "ちゃんみな" },
+        { "@type": "Person", "name": "星野真里" },
+        { "@type": "Person", "name": "北川景子" },
+        { "@type": "Person", "name": "宮川大輔" },
+        { "@type": "Person", "name": "京本大我" },
+        { "@type": "Person", "name": "ヒロミ" },
+        { "@type": "Person", "name": "やす子" },
+        { "@type": "Person", "name": "青山剛昌" },
+        { "@type": "Person", "name": "芳根京子" },
+        { "@type": "Person", "name": "大泉洋" },
+        { "@type": "Person", "name": "山崎弘也" },
+        { "@type": "PerformingGroup", "name": "ミルクボーイ" },
+        { "@type": "PerformingGroup", "name": "関西ジュニア" },
+        { "@type": "Person", "name": "黒木千晶" },
+        { "@type": "Person", "name": "西尾桃" }
+      ]
+    },
+    {
+      "@type": "BroadcastEvent",
+      "@id": "https://shira-treat.com/24tv-timetable/#event",
+      "name": "24時間テレビ2026（24時間テレビ49 -愛は地球を救う-）",
+      "startDate": "2026-08-29T18:30:00+09:00",
+      "endDate": "2026-08-30T20:54:00+09:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "isLiveBroadcast": true,
+      "description": "日本テレビ系列のチャリティー特番「24時間テレビ2026」。両国国技館から生放送。",
+      "image": "https://shira-treat.com/wp-content/uploads/2026/08/image-2.webp",
+      "location": {
+        "@type": "Place",
+        "name": "両国国技館"
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "日本テレビ",
+        "sameAs": "https://www.ntv.co.jp/"
+      },
+      "performer": [
+        { "@type": "Person", "name": "内村光良" },
+        { "@type": "Person", "name": "羽鳥慎一" },
+        { "@type": "Person", "name": "水卜麻美" },
+        { "@type": "MusicGroup", "name": "SixTONES" },
+        { "@type": "Person", "name": "山崎育三郎" },
+        { "@type": "Person", "name": "ちゃんみな" },
+        { "@type": "Person", "name": "星野真里" },
+        { "@type": "Person", "name": "北川景子" }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://shira-treat.com/24tv-timetable/#lineup",
+      "name": "24時間テレビ2026 出演者一覧",
+      "numberOfItems": 19,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "item": { "@type": "Person", "name": "内村光良" } },
+        { "@type": "ListItem", "position": 2, "item": { "@type": "Person", "name": "羽鳥慎一" } },
+        { "@type": "ListItem", "position": 3, "item": { "@type": "Person", "name": "水卜麻美" } },
+        { "@type": "ListItem", "position": 4, "item": { "@type": "MusicGroup", "name": "SixTONES" } },
+        { "@type": "ListItem", "position": 5, "item": { "@type": "Person", "name": "山崎育三郎" } },
+        { "@type": "ListItem", "position": 6, "item": { "@type": "Person", "name": "ちゃんみな" } },
+        { "@type": "ListItem", "position": 7, "item": { "@type": "Person", "name": "星野真里" } },
+        { "@type": "ListItem", "position": 8, "item": { "@type": "Person", "name": "北川景子" } },
+        { "@type": "ListItem", "position": 9, "item": { "@type": "Person", "name": "宮川大輔" } },
+        { "@type": "ListItem", "position": 10, "item": { "@type": "Person", "name": "京本大我" } },
+        { "@type": "ListItem", "position": 11, "item": { "@type": "Person", "name": "ヒロミ" } },
+        { "@type": "ListItem", "position": 12, "item": { "@type": "Person", "name": "やす子" } },
+        { "@type": "ListItem", "position": 13, "item": { "@type": "Person", "name": "青山剛昌" } },
+        { "@type": "ListItem", "position": 14, "item": { "@type": "Person", "name": "芳根京子" } },
+        { "@type": "ListItem", "position": 15, "item": { "@type": "Person", "name": "大泉洋" } },
+        { "@type": "ListItem", "position": 16, "item": { "@type": "Person", "name": "山崎弘也" } },
+        { "@type": "ListItem", "position": 17, "item": { "@type": "PerformingGroup", "name": "ミルクボーイ" } },
+        { "@type": "ListItem", "position": 18, "item": { "@type": "PerformingGroup", "name": "関西ジュニア" } },
+        { "@type": "ListItem", "position": 19, "item": { "@type": "Person", "name": "黒木千晶" } }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://shira-treat.com/24tv-timetable/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "24時間テレビ2026のタイムテーブルは事前発表される？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "過去5回の実績では放送前日夜〜当日朝の発表が多く、唯一2025年のみ3日前の発表でした。今年も放送直前の発表になる可能性が高いと考えられます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "24時間テレビとは？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "日本テレビ系列で1978年から毎年8月に放送されているチャリティー特番です。マラソンやチャリティーチャレンジ企画、スペシャルドラマなどで構成されます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "24時間テレビ2026の見逃し配信はある？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "本記事執筆時点で確認できる情報はありません。配信の有無は日本テレビ公式サイトでご確認ください。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "前回（2025年・第48回）はどんな内容だった？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "テーマ「あなたのことを教えて」のもと、横山裕さんが105kmの子ども支援マラソンに挑戦。20:45頃のゴールが番組終盤の大きな軸になりました。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "24時間テレビ2026の放送時間は？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2026年8月29日(土)18:30〜30日(日)20:54に、両国国技館から日本テレビ系列で生放送される予定です。"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://shira-treat.com/24tv-timetable/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://shira-treat.com/" },
+        { "@type": "ListItem", "position": 2, "name": "24時間テレビ", "item": "https://shira-treat.com/" },
+        { "@type": "ListItem", "position": 3, "name": "24時間テレビ2026 タイムテーブル", "item": "https://shira-treat.com/24tv-timetable/" }
+      ]
+    }
+  ]
+}
+</script>
+<!-- /wp:html -->
