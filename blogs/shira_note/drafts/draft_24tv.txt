@@ -10,7 +10,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>8月29日(土)・30日(日)開催の「24時間テレビ2026」は、テーマ「わたしの家族の話〜あなたは誰を想う?〜」のもと両国国技館から放送されます。</p>
+<p>2026年8月29日(土)・30日(日)開催の「24時間テレビ49」は、テーマ「わたしの家族の話〜あなたは誰を想う?〜」のもと両国国技館から放送されます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -77,9 +77,152 @@
 <div role="region" aria-label="24時間テレビ2026 タイムテーブル状況" style="background: #FFF6D6; border: 2px solid #111111; border-radius: 10px; padding: 20px; margin: 20px 0; box-sizing: border-box; width: 100%;">
   <div style="display: inline-block; background: #E4002B; color: #fff; font-size: 11px; font-weight: 900; padding: 4px 10px; border-radius: 4px; margin-bottom: 10px;">未発表</div>
   <p style="margin: 0; font-size: 13px; color: #111111; line-height: 1.7; word-break: break-word;">
-    分刻みの詳細なタイムテーブルは、本記事執筆時点（2026年8月5日）でまだ発表されていません。過去5回の実績では放送前日夜〜当日朝に発表される傾向があります（<a href="https://shira-treat.com/24jikanttv-time/" style="color:#E4002B; text-decoration:underline;">発表時期の詳しい傾向はこちら</a>）。発表され次第、このセクションに出演順・時間帯を追記します。
+    分刻みの詳細なタイムテーブルは、本記事執筆時点（2026年8月5日）でまだ発表されていません。過去5回の実績では放送前日夜〜当日朝に発表される傾向があります（<a href="https://shira-treat.com/24jikanttv-time/" style="color:#E4002B; text-decoration:underline;">発表時期の詳しい傾向はこちら</a>）。
   </p>
 </div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>以下は前回（2025年・第48回）の実績と、すでに判明している企画情報をもとにした大まかな流れの予想です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>8月29日(土)</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div role="region" aria-label="24時間テレビ2026 8月29日の予想の流れ" style="
+  position: relative;
+  margin: 12px 0;
+  padding: 1px;
+  border-radius: 12px;
+  background: linear-gradient(160deg, #FFD400 0%, #E4002B 100%);
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+">
+  <div style="position: absolute; inset: 1px; background: #fff; border-radius: 11px; z-index: 0;"></div>
+
+  <div style="position: relative; z-index: 1; padding: 12px;">
+
+    <div style="display: flex; align-items: baseline; gap: 8px; margin-bottom: 10px;">
+      <div style="background: #111111; color: #FFD400; font-size: 9px; font-weight: 900; padding: 2px 6px; border-radius: 3px; line-height: 1;">予想</div>
+      <div style="margin: 0; font-size: 14px; font-weight: 900; color: #111111;">8月29日(土)の予想の流れ</div>
+    </div>
+
+    <div style="display: grid; gap: 6px; padding: 0 4px;">
+
+      <div style="display: flex; gap: 6px; align-items: flex-start;">
+        <span style="color: #E4002B; font-size: 12px;">✦</span>
+        <p style="margin: 0; font-size: 11.5px; color: #333; word-break: break-word;">
+          <strong>18:30頃</strong> オープニング・スタート（前回実績ベース。氷川きよしの「サライ」独唱など毎年恒例の流れが予想されます）
+        </p>
+      </div>
+
+      <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
+        <span style="color: #E4002B; font-size: 12px;">✦</span>
+        <p style="margin: 0; font-size: 11.5px; color: #333; word-break: break-word;">
+          <strong>19時台〜20時台</strong> 人気企画が続く見込み。ろう学校の生徒とのドラムライン企画（京本大我・山崎育三郎）などが編成される可能性があります
+        </p>
+      </div>
+
+      <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
+        <span style="color: #E4002B; font-size: 12px;">✦</span>
+        <p style="margin: 0; font-size: 11.5px; color: #333; word-break: break-word;">
+          <strong>20時台〜</strong> 星野真里さんのチャリティーチャレンジがスタートする可能性（前回はランナー企画が20時台にスタート。今年は形式が異なるため開始時刻は未定です）
+        </p>
+      </div>
+
+      <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
+        <span style="color: #E4002B; font-size: 12px;">✦</span>
+        <p style="margin: 0; font-size: 11.5px; color: #333; word-break: break-word;">
+          <strong>21時台〜深夜</strong> スペシャルドラマ「つんく♂一家の実話」（北川景子主演・脚本岡田惠和）が放送される見込みです
+        </p>
+      </div>
+
+      <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
+        <span style="color: #E4002B; font-size: 12px;">✦</span>
+        <p style="margin: 0; font-size: 11.5px; color: #333; word-break: break-word;">
+          <strong>深夜帯</strong> 「会いたいけど会えていない大切な人がいる人」企画（SixTONES）などが編成される可能性があります
+        </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":3} -->
+<h3>8月30日(日)</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div role="region" aria-label="24時間テレビ2026 8月30日の予想の流れ" style="
+  position: relative;
+  margin: 12px 0;
+  padding: 1px;
+  border-radius: 12px;
+  background: linear-gradient(160deg, #FFD400 0%, #E4002B 100%);
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif;
+  overflow: hidden;
+  box-sizing: border-box;
+">
+  <div style="position: absolute; inset: 1px; background: #fff; border-radius: 11px; z-index: 0;"></div>
+
+  <div style="position: relative; z-index: 1; padding: 12px;">
+
+    <div style="display: flex; align-items: baseline; gap: 8px; margin-bottom: 10px;">
+      <div style="background: #111111; color: #FFD400; font-size: 9px; font-weight: 900; padding: 2px 6px; border-radius: 3px; line-height: 1;">予想</div>
+      <div style="margin: 0; font-size: 14px; font-weight: 900; color: #111111;">8月30日(日)の予想の流れ</div>
+    </div>
+
+    <div style="display: grid; gap: 6px; padding: 0 4px;">
+
+      <div style="display: flex; gap: 6px; align-items: flex-start;">
+        <span style="color: #E4002B; font-size: 12px;">✦</span>
+        <p style="margin: 0; font-size: 11.5px; color: #333; word-break: break-word;">
+          <strong>深夜〜早朝</strong> ドキュメンタリー・地域密着企画が中心になる見込みです（前回パターン）
+        </p>
+      </div>
+
+      <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
+        <span style="color: #E4002B; font-size: 12px;">✦</span>
+        <p style="margin: 0; font-size: 11.5px; color: #333; word-break: break-word;">
+          <strong>午前〜昼</strong> 「突撃！隣の家族ごはん」（アンタッチャブル山崎弘也・宮川大輔）、青山剛昌スペシャルインタビュー（ちゃんみな・京本大我）などが編成される可能性があります
+        </p>
+      </div>
+
+      <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
+        <span style="color: #E4002B; font-size: 12px;">✦</span>
+        <p style="margin: 0; font-size: 11.5px; color: #333; word-break: break-word;">
+          <strong>午後</strong> 「子ども食堂」リフォーム（ヒロミ×やす子）、芳根京子さん・大泉洋さんの企画が編成される見込みです
+        </p>
+      </div>
+
+      <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
+        <span style="color: #E4002B; font-size: 12px;">✦</span>
+        <p style="margin: 0; font-size: 11.5px; color: #333; word-break: break-word;">
+          <strong>夕方〜20時台</strong> チャリティーチャレンジのゴールが見込まれます（前回は20:45頃ゴール）
+        </p>
+      </div>
+
+      <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
+        <span style="color: #E4002B; font-size: 12px;">✦</span>
+        <p style="margin: 0; font-size: 11.5px; color: #333; word-break: break-word;">
+          <strong>20:54頃</strong> フィナーレ・放送終了の見込みです（前回実績）
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+  <div style="font-size: 10px; color: #666; background: #FFF6D6; padding: 6px 10px; border-radius: 4px; margin-top: 10px; line-height: 1.5;">
+      <strong>※上記は予想です：</strong>過去実績と判明済み企画情報にもとづく大まかな流れであり、公式のタイムテーブルではありません。実際の企画順・時間帯は、放送開始後に「実際の出演順」セクションで更新します。
+    </div>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
@@ -181,44 +324,6 @@
 <p>出演者・企画の詳細な登場時間については、タイムテーブル発表後にあらためて判明します。</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading -->
-<h2>24時間テレビ2026の出演時間は何時頃？【目安】</h2>
-<!-- /wp:heading -->
-
-<!-- wp:paragraph -->
-<p>今年のタイムテーブルはまだ発表されていないため、前回（2025年・第48回）の進行を参考に、大まかな時間帯の目安を紹介します。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:html -->
-<div style="display: grid; gap: 10px; margin: 16px 0;">
-  <div style="display: grid; grid-template-columns: 90px 1fr; gap: 10px; align-items: start;">
-    <div style="font-size: 11px; font-weight: 800; color: #E4002B; background: #FFF6D6; padding: 4px 6px; border-radius: 4px; text-align: center; align-self: start;">18:30頃〜</div>
-    <div style="font-size: 12px; color: #2d3748; line-height: 1.6;">
-      <strong>序盤</strong><br>
-      <span style="font-size: 11px; color: #718096;">前回はオープニング直後から著名アーティストの歌唱や人気企画が続きました。</span>
-    </div>
-  </div>
-  <div style="display: grid; grid-template-columns: 90px 1fr; gap: 10px; align-items: start;">
-    <div style="font-size: 11px; font-weight: 800; color: #E4002B; background: #FFF6D6; padding: 4px 6px; border-radius: 4px; text-align: center; align-self: start;">深夜〜早朝</div>
-    <div style="font-size: 12px; color: #2d3748; line-height: 1.6;">
-      <strong>中盤</strong><br>
-      <span style="font-size: 11px; color: #718096;">前回は深夜帯にトーク・ドキュメンタリー企画、明け方にかけて地域密着企画が続きました。</span>
-    </div>
-  </div>
-  <div style="display: grid; grid-template-columns: 90px 1fr; gap: 10px; align-items: start;">
-    <div style="font-size: 11px; font-weight: 800; color: #E4002B; background: #FFF6D6; padding: 4px 6px; border-radius: 4px; text-align: center; align-self: start;">夕方〜20:54頃</div>
-    <div style="font-size: 12px; color: #2d3748; line-height: 1.6;">
-      <strong>終盤</strong><br>
-      <span style="font-size: 11px; color: #718096;">前回はチャリティーランナーが20:45頃にゴールし、その後のフィナーレで20:54頃に放送終了しました。</span>
-    </div>
-  </div>
-</div>
-<!-- /wp:html -->
-
-<!-- wp:paragraph -->
-<p>今年のチャリティーチャレンジ企画（星野真里さんが特設コースを1000人の応援ランナーと共に走る内容）は、前回の105kmマラソンとは形式が異なる可能性があるため、開始・ゴール時刻は現時点で未発表です。</p>
-<!-- /wp:paragraph -->
-
 <!-- wp:paragraph -->
 <p>[kanrenad]</p>
 <!-- /wp:paragraph -->
@@ -279,55 +384,55 @@
 
   <p style="font-size: 12px; font-weight: 800; color: #111111; margin: 12px 0 6px;">8月30日(土)</p>
   <table class="tv24-archive-table" role="region" aria-label="24時間テレビ48 8月30日の進行">
-    <thead><tr><th>時間</th><th>内容</th><th>備考</th></tr></thead>
+    <thead><tr><th>時間</th><th>内容</th></tr></thead>
     <tbody>
-      <tr><td>18:30</td><td>オープニング／スタート</td><td>定刻スタート。氷川きよし「サライ」独唱など。</td></tr>
-      <tr><td>19:10頃</td><td>King &amp; Prince 永瀬廉「感じる花火大会」プロジェクト</td><td>視聴覚障がいの子どもたちと実施。</td></tr>
-      <tr><td>19:35頃</td><td>あのちゃん 離島フリースクール／上田と女が吠える夜「あなたのことを教えて」</td><td>事前発表通り。</td></tr>
-      <tr><td>20:11頃</td><td>横山裕 子ども支援マラソンスタート（105km）</td><td>事前発表は「20時頃」。スターターは相葉雅紀。</td></tr>
-      <tr><td>20:15頃</td><td>相葉雅紀 保護犬トリミング特別編</td><td>飼育放棄の犬をレスキュー。</td></tr>
-      <tr><td>20:40頃</td><td>パラアスリートスゴ技チャレンジ</td><td>-</td></tr>
-      <tr><td>20:55頃</td><td>岩田剛典 LIVEアート＆オークション</td><td>-</td></tr>
-      <tr><td>21:00頃</td><td>日本列島ダーツの旅的インタビュー〜氷川きよし編〜</td><td>-</td></tr>
-      <tr><td>21:10頃</td><td>仲間由紀恵サポート 能登の高校生「わたしたちのこと」書道パフォーマンス</td><td>-</td></tr>
-      <tr><td>21:40頃</td><td>ドキュメンタリー「黒柳徹子はなぜテレビ女優第1号になれたのか」</td><td>-</td></tr>
-      <tr><td>21:55頃</td><td>ドラマスペシャル「トットの欠落青春記」</td><td>黒柳徹子役・芦田愛菜。</td></tr>
-      <tr><td>23:45頃</td><td>24時間テレビ生しゃべくり007 国際スターSP</td><td>ジャッキー・チェン出演等で話題に。</td></tr>
+      <tr><td>18:30</td><td>オープニング／スタート（定刻スタート。氷川きよし「サライ」独唱など）</td></tr>
+      <tr><td>19:10頃</td><td>King &amp; Prince 永瀬廉「感じる花火大会」プロジェクト（視聴覚障がいの子どもたちと実施）</td></tr>
+      <tr><td>19:35頃</td><td>あのちゃん 離島フリースクール／上田と女が吠える夜「あなたのことを教えて」</td></tr>
+      <tr><td>20:11頃</td><td>横山裕 子ども支援マラソンスタート（105km。事前発表は「20時頃」。スターターは相葉雅紀）</td></tr>
+      <tr><td>20:15頃</td><td>相葉雅紀 保護犬トリミング特別編（飼育放棄の犬をレスキュー）</td></tr>
+      <tr><td>20:40頃</td><td>パラアスリートスゴ技チャレンジ</td></tr>
+      <tr><td>20:55頃</td><td>岩田剛典 LIVEアート＆オークション</td></tr>
+      <tr><td>21:00頃</td><td>日本列島ダーツの旅的インタビュー〜氷川きよし編〜</td></tr>
+      <tr><td>21:10頃</td><td>仲間由紀恵サポート 能登の高校生「わたしたちのこと」書道パフォーマンス</td></tr>
+      <tr><td>21:40頃</td><td>ドキュメンタリー「黒柳徹子はなぜテレビ女優第1号になれたのか」</td></tr>
+      <tr><td>21:55頃</td><td>ドラマスペシャル「トットの欠落青春記」（黒柳徹子役・芦田愛菜）</td></tr>
+      <tr><td>23:45頃</td><td>24時間テレビ生しゃべくり007 国際スターSP（ジャッキー・チェン出演等で話題に）</td></tr>
     </tbody>
   </table>
 
   <p style="font-size: 12px; font-weight: 800; color: #111111; margin: 20px 0 6px;">8月31日(日)</p>
   <table class="tv24-archive-table" role="region" aria-label="24時間テレビ48 8月31日の進行">
-    <thead><tr><th>時間</th><th>内容</th><th>備考</th></tr></thead>
+    <thead><tr><th>時間</th><th>内容</th></tr></thead>
     <tbody>
-      <tr><td>2:00頃</td><td>上田と女が吠える夜インターナショナル</td><td>King &amp; Princeも登場。</td></tr>
-      <tr><td>4:00頃</td><td>オモウマい店「能登のずっと明るい寿司親子」</td><td>-</td></tr>
-      <tr><td>5:00頃</td><td>シューイチ「あなたのふるさとを教えて」</td><td>-</td></tr>
-      <tr><td>6:15頃</td><td>シューイチ「絶品朝食を教えて」全国中継</td><td>-</td></tr>
-      <tr><td>6:55頃</td><td>イモトアヤコ 北アルプス・チャリティー登山</td><td>-</td></tr>
-      <tr><td>8:25頃</td><td>長嶋一茂 チャリティーホームラン中継</td><td>-</td></tr>
-      <tr><td>8:45頃</td><td>ドキュメンタリードラマ「西田敏行 役者バカの原点」</td><td>-</td></tr>
-      <tr><td>9:50頃</td><td>羽鳥慎一アナ取材 夢の鳥人間コンテスト</td><td>-</td></tr>
-      <tr><td>10:25頃</td><td>星野真里の娘 ふうかちゃんのだいぼうけん</td><td>-</td></tr>
-      <tr><td>11:00頃</td><td>日産チャリティーイベント</td><td>-</td></tr>
-      <tr><td>11:35頃</td><td>ヒロミ 八王子リフォーム「きょうだい児」保育室づくり</td><td>-</td></tr>
-      <tr><td>12:35頃</td><td>城島茂 福島・帰還困難区域の今</td><td>-</td></tr>
-      <tr><td>13:10頃</td><td>Song for Children！チャリティーライブ</td><td>-</td></tr>
-      <tr><td>13:20頃</td><td>いとうあさこ CODA女性取材／上田と女が吠える夜</td><td>-</td></tr>
-      <tr><td>13:50頃</td><td>欽ちゃん生登場「仮装大賞」国技館スペシャル</td><td>-</td></tr>
-      <tr><td>14:25頃</td><td>有働由美子「ともだち近居」リポート</td><td>-</td></tr>
-      <tr><td>14:40頃</td><td>乃木坂46 久保史緒里 ピアノ連弾企画</td><td>-</td></tr>
-      <tr><td>14:50頃</td><td>ダーツの旅的インタビュー〜志尊淳＆永瀬廉編〜</td><td>-</td></tr>
-      <tr><td>15:05頃</td><td>ヒルナンデス！バンド 横山裕への応援歌</td><td>-</td></tr>
-      <tr><td>15:55頃</td><td>水卜麻美アナ取材 97歳の現役保育士企画</td><td>-</td></tr>
-      <tr><td>16:55頃</td><td>氷川きよしと歌おう 生合唱プロジェクト</td><td>-</td></tr>
-      <tr><td>17:25頃</td><td>浜辺美波も登場 チャリティー笑点</td><td>-</td></tr>
-      <tr><td>18:10頃</td><td>ダーツの旅的インタビュー〜市川ぼたん＆市川新之助編〜</td><td>-</td></tr>
-      <tr><td>18:30頃</td><td>志尊淳 27歳新米パパ企画</td><td>-</td></tr>
-      <tr><td>18:50頃</td><td>浜辺美波 能登復興「キリコ祭り」</td><td>-</td></tr>
-      <tr><td>19:30頃</td><td>ボーダーレスLIVE「We are the No Borders!!」</td><td>市川團十郎・氷川きよし等総勢96人参加。</td></tr>
-      <tr><td>20:45</td><td>横山裕 チャリティーマラソンゴール（105km完走）</td><td>公式・複数報道で一致する最も確実な時間。</td></tr>
-      <tr><td>20:54頃</td><td>大フィナーレ（「サライ」歌唱など）／放送終了</td><td>-</td></tr>
+      <tr><td>2:00頃</td><td>上田と女が吠える夜インターナショナル（King &amp; Princeも登場）</td></tr>
+      <tr><td>4:00頃</td><td>オモウマい店「能登のずっと明るい寿司親子」</td></tr>
+      <tr><td>5:00頃</td><td>シューイチ「あなたのふるさとを教えて」</td></tr>
+      <tr><td>6:15頃</td><td>シューイチ「絶品朝食を教えて」全国中継</td></tr>
+      <tr><td>6:55頃</td><td>イモトアヤコ 北アルプス・チャリティー登山</td></tr>
+      <tr><td>8:25頃</td><td>長嶋一茂 チャリティーホームラン中継</td></tr>
+      <tr><td>8:45頃</td><td>ドキュメンタリードラマ「西田敏行 役者バカの原点」</td></tr>
+      <tr><td>9:50頃</td><td>羽鳥慎一アナ取材 夢の鳥人間コンテスト</td></tr>
+      <tr><td>10:25頃</td><td>星野真里の娘 ふうかちゃんのだいぼうけん</td></tr>
+      <tr><td>11:00頃</td><td>日産チャリティーイベント</td></tr>
+      <tr><td>11:35頃</td><td>ヒロミ 八王子リフォーム「きょうだい児」保育室づくり</td></tr>
+      <tr><td>12:35頃</td><td>城島茂 福島・帰還困難区域の今</td></tr>
+      <tr><td>13:10頃</td><td>Song for Children！チャリティーライブ</td></tr>
+      <tr><td>13:20頃</td><td>いとうあさこ CODA女性取材／上田と女が吠える夜</td></tr>
+      <tr><td>13:50頃</td><td>欽ちゃん生登場「仮装大賞」国技館スペシャル</td></tr>
+      <tr><td>14:25頃</td><td>有働由美子「ともだち近居」リポート</td></tr>
+      <tr><td>14:40頃</td><td>乃木坂46 久保史緒里 ピアノ連弾企画</td></tr>
+      <tr><td>14:50頃</td><td>ダーツの旅的インタビュー〜志尊淳＆永瀬廉編〜</td></tr>
+      <tr><td>15:05頃</td><td>ヒルナンデス！バンド 横山裕への応援歌</td></tr>
+      <tr><td>15:55頃</td><td>水卜麻美アナ取材 97歳の現役保育士企画</td></tr>
+      <tr><td>16:55頃</td><td>氷川きよしと歌おう 生合唱プロジェクト</td></tr>
+      <tr><td>17:25頃</td><td>浜辺美波も登場 チャリティー笑点</td></tr>
+      <tr><td>18:10頃</td><td>ダーツの旅的インタビュー〜市川ぼたん＆市川新之助編〜</td></tr>
+      <tr><td>18:30頃</td><td>志尊淳 27歳新米パパ企画</td></tr>
+      <tr><td>18:50頃</td><td>浜辺美波 能登復興「キリコ祭り」</td></tr>
+      <tr><td>19:30頃</td><td>ボーダーレスLIVE「We are the No Borders!!」（市川團十郎・氷川きよし等総勢96人参加）</td></tr>
+      <tr><td>20:45</td><td>横山裕 チャリティーマラソンゴール（105km完走。公式・複数報道で一致する最も確実な時間）</td></tr>
+      <tr><td>20:54頃</td><td>大フィナーレ（「サライ」歌唱など）／放送終了</td></tr>
     </tbody>
   </table>
   <p style="font-size: 11px; color: #666; margin-top: 8px;">※事前発表とX投稿・事後報道をもとにした「頃」表記の目安です。生放送のため実際の時間と数分程度のズレが生じる場合があります。</p>
@@ -339,7 +444,11 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>24時間テレビ2026の見逃し配信・再放送については、本記事執筆時点で確認できる情報がありません。配信の有無や配信先は<a href="https://www.ntv.co.jp/24h/" target="_blank" rel="noreferrer noopener">日本テレビ公式サイト</a>でご確認ください。</p>
+<p>24時間テレビ2026の見逃し配信・再放送については、本記事執筆時点で確認できる情報がありません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>配信の有無や配信先は<a href="https://www.ntv.co.jp/24h/" target="_blank" rel="noreferrer noopener">日本テレビ公式サイト</a>でご確認ください。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
