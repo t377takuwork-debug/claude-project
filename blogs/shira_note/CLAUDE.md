@@ -30,6 +30,7 @@
 | `/24tv-rewrite` | 24時間テレビ（日本テレビ・年1回特番） | `.claude/commands/24tv-rewrite.md` |
 | `/shira-qa` | 全番組共通・ドラフト検品（リライト後必須） | `.claude/commands/shira-qa.md` |
 | `/shira-keyword-article` | キーワード起点の新規テーマ記事（番組タイムテーブル速報とは別枠） | `.claude/commands/shira-keyword-article.md` |
+| `/shira-release-article` | CD/DVD等リリース記事（予約・購入導線特化、1リリース＝1記事） | `.claude/commands/shira-release-article.md` |
 | `/shira-research` | 記事ネタ収集（news.ceek.jp 3URL・直近5時間の番組/発売情報） | `.claude/commands/shira-research.md` |
 
 ### リライト時に必要な事前情報（共通）

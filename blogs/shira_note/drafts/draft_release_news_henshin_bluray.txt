@@ -1,0 +1,575 @@
+<!-- wp:paragraph -->
+タイトル：NEWS「変身」Blu-ray/DVD予約はどこで？特典の違いも解説
+
+メタディスクリプション（70字）：
+NEWS「変身」Blu-ray/DVDは9月15日発売。初回盤・通常盤の特典の違いを比較し、予約・購入はどこがよいか分かりやすく解説します。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>NEWSの結成23周年にあわせてライブBlu-ray&DVD『NEWS LIVE TOUR 2025 変身』が2026年9月15日に発売されます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>初回盤と通常盤とでは、特典や収録内容が違ってきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>この記事では、初回盤と通常盤の違いやどこで予約・購入するのがいいかまでまとめました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside class="release-quick-panel" role="region" aria-label="NEWS変身 Blu-ray DVD 基本情報" style="
+  position: relative;
+  margin: 24px 0;
+  padding: 1px;
+  border-radius: 12px;
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  box-sizing: border-box;
+  width: 100%;
+">
+
+  <div style="position: relative; background: #2c2c2c; padding: 10px 16px; display: flex; justify-content: space-between; align-items: center;">
+    <div style="font-size: 11px; font-weight: 900; letter-spacing: 0.05em; color: #fff;">NEWS「変身」Blu-ray&DVD</div>
+    <div style="font-size: 9px; font-weight: 800; background: rgba(255,255,255,0.15); padding: 2px 8px; border-radius: 2px; color: #fff;">2026.09.15発売</div>
+  </div>
+
+  <div style="position: relative; padding: 16px; display: grid; gap: 12px; box-sizing: border-box;">
+
+    <div style="display: flex; align-items: flex-start; gap: 10px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 900; background: #2c2c2c; color: #fff; padding: 2px 6px; min-width: 60px; text-align: center; margin-top: 2px;">価格</div>
+      <div style="flex: 1; font-size: 12.5px; color: #333; line-height: 1.7;">
+        初回盤（Blu-ray&DVD）8,800円<br>
+        通常盤（Blu-ray／DVD）各7,480円
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; gap: 10px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 900; background: #2c2c2c; color: #fff; padding: 2px 6px; min-width: 60px; text-align: center; margin-top: 2px;">共通特典</div>
+      <div style="flex: 1; font-size: 12.5px; color: #333; line-height: 1.7;">
+        先着購入特典「お城がめじるし変身チャーム」（全仕様共通）
+      </div>
+    </div>
+
+    <div style="margin-top: 4px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+      <a href="//af.moshimo.com/af/c/click?a_id=4824566&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F18762314%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: inline-flex; align-items: center; justify-content: center; gap: 4px; box-sizing: border-box; background: #bf0000; color: #fff; padding: 7px 8px; border-radius: 999px; text-decoration: none; font-size: 11px; font-weight: 800;">
+        楽天ブックス <span style="font-size:12px;">›</span>
+      </a>
+      <a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3773727&pid=892674443&vc_url=https%3A%2F%2F7net.omni7.jp%2Fdetail%2F1400992503" rel="nofollow" style="display: inline-flex; align-items: center; justify-content: center; gap: 4px; box-sizing: border-box; background: #00913a; color: #fff; padding: 7px 8px; border-radius: 999px; text-decoration: none; font-size: 11px; font-weight: 800;"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3773727&pid=892674443" height="1" width="0" border="0">セブンネット <span style="font-size:12px;">›</span></a>
+    </div>
+    <img src="//i.moshimo.com/af/i/impression?a_id=4824566&p_id=54&pc_id=54&pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>NEWS「変身」初回盤・通常盤どっちがいい？</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>初回盤と通常盤は、価格はもちろん特典映像や封入特典の中身も違います。まずは一覧で見比べてみてください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="edition-compare-container" style="margin: 20px 0; box-sizing: border-box;">
+  <style>
+    .edition-table { width: 100%; border-collapse: collapse; font-size: 13px; line-height: 1.6; }
+    .edition-table th, .edition-table td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+    .edition-table thead { background: #2c2c2c; color: #fff; }
+    @media (max-width: 600px) {
+      .edition-table thead { display: none; }
+      .edition-table, .edition-table tbody { display: block; width: 100%; box-sizing: border-box; }
+      .edition-table tr { display: grid; grid-template-columns: 1fr 1fr; width: 100%; box-sizing: border-box; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+      .edition-table td { border: none; box-sizing: border-box; padding: 7px 9px; }
+      .edition-table td:first-child { grid-column: 1 / -1; background: #f2f2f2; font-weight: 900; color: #2c2c2c; border-bottom: 1px solid #eee; padding: 6px 9px; }
+      .edition-table td:nth-child(2) { border-right: 1px solid #eee; }
+      .edition-table td[data-label]::before {
+        content: attr(data-label) "：";
+        display: block;
+        font-size: 9px;
+        font-weight: 900;
+        color: #bf0000;
+        margin-bottom: 2px;
+      }
+    }
+  </style>
+  <table class="edition-table" role="region" aria-label="初回盤と通常盤の比較">
+    <thead>
+      <tr><th>項目</th><th>初回盤</th><th>通常盤</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>価格</td><td data-label="初回盤">8,800円</td><td data-label="通常盤">7,480円</td></tr>
+      <tr><td>特典映像</td><td data-label="初回盤">「変身」金沢ご褒美ツアー</td><td data-label="通常盤">変身 MC SELECTION（70分超）</td></tr>
+      <tr><td>封入特典</td><td data-label="初回盤">特製トレカ21枚</td><td data-label="通常盤">ポストカード4枚</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size: 11.5px; color: #666; margin: 8px 2px 0;">※先着購入特典「お城がめじるし変身チャーム」は初回盤・通常盤共通で付属します。</p>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>特典映像やトレカまでしっかり楽しみたい人には初回盤、ライブ本編とMC集があれば十分という人には通常盤が向いていますね。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="margin: 16px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+  <a href="//af.moshimo.com/af/c/click?a_id=4824566&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F18762314%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: inline-flex; align-items: center; justify-content: center; gap: 5px; background: #ffffff; border: 1.5px solid #bf0000; color: #bf0000; text-decoration: none; font-size: 11.5px; font-weight: 800; padding: 8px 10px; border-radius: 999px; box-shadow: 0 2px 6px rgba(191,0,0,0.12); box-sizing: border-box;">
+    楽天ブックスで見る <span style="font-size:13px;">›</span>
+  </a>
+  <a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3773727&pid=892674443&vc_url=https%3A%2F%2F7net.omni7.jp%2Fdetail%2F1400992503" rel="nofollow" style="display: inline-flex; align-items: center; justify-content: center; gap: 5px; background: #ffffff; border: 1.5px solid #00913a; color: #00913a; text-decoration: none; font-size: 11.5px; font-weight: 800; padding: 8px 10px; border-radius: 999px; box-shadow: 0 2px 6px rgba(0,145,58,0.12); box-sizing: border-box;"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3773727&pid=892674443" height="1" width="0" border="0">セブンネットで見る <span style="font-size:13px;">›</span></a>
+</div>
+<p style="font-size: 11px; color: #888; margin: 6px 2px 0;">※いずれも初回盤+通常盤セットの商品ページです</p>
+<img src="//i.moshimo.com/af/i/impression?a_id=4824566&p_id=54&pc_id=54&pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>NEWS「変身」Blu-ray/DVDの基本情報</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>『NEWS LIVE TOUR 2025 変身』は、2025年に行われた全国アリーナツアーの中から、神奈川・横浜アリーナ公演の模様を完全ノーカットで収めたライブ映像作品です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="basic-info-card" role="region" aria-label="NEWS変身Blu-ray DVD基本情報" style="margin: 16px 0; border: 1px solid #e0e0e0; border-radius: 10px; background: #ffffff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); overflow: hidden; box-sizing: border-box; width: 100%;">
+
+  <div style="background: #2c2c2c; padding: 10px 16px;">
+    <span style="font-size: 12px; font-weight: 900; color: #fff; letter-spacing: 0.03em;">基本情報</span>
+  </div>
+
+  <div style="padding: 16px; display: grid; gap: 12px; box-sizing: border-box;">
+
+    <div style="display: flex; gap: 10px; align-items: flex-start;">
+      <div style="flex-shrink: 0; font-size: 11px; font-weight: 900; color: #bf0000; min-width: 72px;">商品名</div>
+      <div style="font-size: 13px; color: #333; line-height: 1.6;">NEWS LIVE TOUR 2025 変身</div>
+    </div>
+
+    <div style="display: flex; gap: 10px; align-items: flex-start;">
+      <div style="flex-shrink: 0; font-size: 11px; font-weight: 900; color: #bf0000; min-width: 72px;">アーティスト</div>
+      <div style="font-size: 13px; color: #333; line-height: 1.6;">NEWS</div>
+    </div>
+
+    <div style="display: flex; gap: 10px; align-items: flex-start;">
+      <div style="flex-shrink: 0; font-size: 11px; font-weight: 900; color: #bf0000; min-width: 72px;">発売日</div>
+      <div style="font-size: 13px; color: #333; line-height: 1.6;">2026年9月15日（結成23周年）</div>
+    </div>
+
+    <div style="display: flex; gap: 10px; align-items: flex-start;">
+      <div style="flex-shrink: 0; font-size: 11px; font-weight: 900; color: #bf0000; min-width: 72px;">収録公演</div>
+      <div style="font-size: 13px; color: #333; line-height: 1.6;">神奈川・横浜アリーナ公演（完全ノーカット収録）</div>
+    </div>
+
+    <div style="display: flex; gap: 10px; align-items: flex-start;">
+      <div style="flex-shrink: 0; font-size: 11px; font-weight: 900; color: #bf0000; min-width: 72px;">見どころ</div>
+      <div style="font-size: 12.5px; color: #333; line-height: 1.8;">
+        ・何もないステージに城が現れるオープニング演出<br>
+        ・アリーナに全長約13mの"樹"がそびえ立つステージ<br>
+        ・「生きろ」はパート変更、「チャンカパーナ」は英語バージョンをミックス<br>
+        ・「ごめんあそばせ」は花魁姿で披露<br>
+        ・ライブのナレーションは山寺宏一が担当
+      </div>
+    </div>
+
+  </div>
+
+  <div style="background: #f8f8f8; padding: 10px 16px; font-size: 11.5px; color: #555; border-top: 1px solid #eee; line-height: 1.6;">
+    収録内容はBlu-ray版・DVD版とも同じなので、画質にこだわるならBlu-ray版、再生機器に合わせたいならDVD版を選ぶといいですよ。
+  </div>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>初回盤と通常盤、特典・付属映像の違い</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>初回盤・通常盤とも本編は同じ内容ですが、付属するDISC2の特典映像や封入特典には違いがあります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>初回盤の特典内容</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div class="tokuten-card" role="region" aria-label="初回盤の特典内容" style="margin: 12px 0; border: 1px solid #f0d0d0; border-radius: 10px; background: #fff8f8; padding: 16px; box-sizing: border-box; width: 100%;">
+  <div style="font-size: 11px; font-weight: 900; color: #bf0000; margin-bottom: 10px;">初回盤（スペシャル変身ボックス仕様）</div>
+  <div style="display: grid; gap: 10px;">
+    <div>
+      <div style="font-size: 10px; font-weight: 900; color: #888;">封入特典</div>
+      <div style="font-size: 13px; color: #333;">特製トレカ21枚</div>
+    </div>
+    <div>
+      <div style="font-size: 10px; font-weight: 900; color: #888;">特典映像</div>
+      <div style="font-size: 13px; color: #333; line-height: 1.7;">
+        「『変身』金沢ご褒美ツアー」<br>
+        8都市19公演を完走したことを記念して企画された、金沢観光の様子を収めた映像です。メンバー3人が「変」と「身」、それぞれの文字にゆかりのある名所を巡ります。
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<div style="margin: 16px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+  <a href="//af.moshimo.com/af/c/click?a_id=4824566&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F18762314%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: inline-flex; align-items: center; justify-content: center; gap: 5px; background: #ffffff; border: 1.5px solid #bf0000; color: #bf0000; text-decoration: none; font-size: 11.5px; font-weight: 800; padding: 8px 10px; border-radius: 999px; box-shadow: 0 2px 6px rgba(191,0,0,0.12); box-sizing: border-box;">
+    楽天ブックスで見る <span style="font-size:13px;">›</span>
+  </a>
+  <a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3773727&pid=892674443&vc_url=https%3A%2F%2F7net.omni7.jp%2Fdetail%2F1400992503" rel="nofollow" style="display: inline-flex; align-items: center; justify-content: center; gap: 5px; background: #ffffff; border: 1.5px solid #00913a; color: #00913a; text-decoration: none; font-size: 11.5px; font-weight: 800; padding: 8px 10px; border-radius: 999px; box-shadow: 0 2px 6px rgba(0,145,58,0.12); box-sizing: border-box;"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3773727&pid=892674443" height="1" width="0" border="0">セブンネットで見る <span style="font-size:13px;">›</span></a>
+</div>
+<p style="font-size: 11px; color: #888; margin: 6px 2px 0;">※初回盤単体ではなく、初回盤+通常盤セットでの販売です</p>
+<img src="//i.moshimo.com/af/i/impression?a_id=4824566&p_id=54&pc_id=54&pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":3} -->
+<h3>通常盤の特典内容</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div class="tokuten-card" role="region" aria-label="通常盤の特典内容" style="margin: 12px 0; border: 1px solid #e0e0e0; border-radius: 10px; background: #f8f8f8; padding: 16px; box-sizing: border-box; width: 100%;">
+  <div style="font-size: 11px; font-weight: 900; color: #2c2c2c; margin-bottom: 10px;">通常盤</div>
+  <div style="display: grid; gap: 10px;">
+    <div>
+      <div style="font-size: 10px; font-weight: 900; color: #888;">封入特典</div>
+      <div style="font-size: 13px; color: #333;">ポストカード4枚</div>
+    </div>
+    <div>
+      <div style="font-size: 10px; font-weight: 900; color: #888;">特典映像</div>
+      <div style="font-size: 13px; color: #333; line-height: 1.7;">
+        「変身 MC SELECTION」（70分超）<br>
+        宮城・セキスイハイムスーパーアリーナ公演で行われた結成記念日パーティの様子や、福岡・マリンメッセ福岡の千秋楽公演に堂本光一がサプライズ登場した場面などを見ることができます。
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<div style="margin: 16px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+  <a href="//af.moshimo.com/af/c/click?a_id=4824566&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F18762314%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: inline-flex; align-items: center; justify-content: center; gap: 5px; background: #ffffff; border: 1.5px solid #bf0000; color: #bf0000; text-decoration: none; font-size: 11.5px; font-weight: 800; padding: 8px 10px; border-radius: 999px; box-shadow: 0 2px 6px rgba(191,0,0,0.12); box-sizing: border-box;">
+    楽天ブックスで見る <span style="font-size:13px;">›</span>
+  </a>
+  <a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3773727&pid=892674443&vc_url=https%3A%2F%2F7net.omni7.jp%2Fdetail%2F1400992503" rel="nofollow" style="display: inline-flex; align-items: center; justify-content: center; gap: 5px; background: #ffffff; border: 1.5px solid #00913a; color: #00913a; text-decoration: none; font-size: 11.5px; font-weight: 800; padding: 8px 10px; border-radius: 999px; box-shadow: 0 2px 6px rgba(0,145,58,0.12); box-sizing: border-box;"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3773727&pid=892674443" height="1" width="0" border="0">セブンネットで見る <span style="font-size:13px;">›</span></a>
+</div>
+<p style="font-size: 11px; color: #888; margin: 6px 2px 0;">※こちらも初回盤+通常盤セットでの商品ページとなります</p>
+<img src="//i.moshimo.com/af/i/impression?a_id=4824566&p_id=54&pc_id=54&pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>収録内容・セットリスト一覧</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>本編で歌われた楽曲は、以下の通りです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="margin: 16px 0; font-size: 13px; line-height: 1.9; color: #333; box-sizing: border-box;">
+  ・変身 -Prologue-<br>
+  ・変身<br>
+  ・JOYER<br>
+  ・チャンカパーナ/Chankapana (English Version)<br>
+  ・タッチ<br>
+  ・weeeek<br>
+  ・第一講：「変身の前兆」-Interlude-<br>
+  ・Cocoon<br>
+  ・-BAND INTER-<br>
+  ・ドライアイス.zip<br>
+  ・あっちむいてほい<br>
+  ・トップガン<br>
+  ・BE FUNKY!<br>
+  ・恋のABO<br>
+  ・WHAT'S NEW<br>
+  ・MC<br>
+  ・第二講：「選択の岐路」-Interlude-<br>
+  ・「生きろ」<br>
+  ・恋を知らない君へ<br>
+  ・おやすみなさい<br>
+  ・TM<br>
+  ・CHOIYAMA<br>
+  ・希望～Yell～<br>
+  ・ROOOTS<br>
+  ・JUMP AROUND<br>
+  ・BYAKUYA<br>
+  ・INTER<br>
+  ・ごめんあそばせ<br>
+  ・第三講：「変身の行方」-Interlude-<br>
+  ・クローバー<br>
+  ・さくらガール<br>
+  ・Snow Dance<br>
+  ・U R not alone<br>
+  ・ラブとラブ<br>
+  ・MC<br>
+  ・君のままで
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>DISC2には仕様ごとに違う特典映像が付属し、初回盤なら「変身」金沢ご褒美ツアー、通常盤なら変身 MC SELECTIONを楽しめます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>NEWS「変身」Blu-ray/DVDはどこで予約・購入する？</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>SNS上では楽天ブックスでの予約報告が多く見られます（公式の集計ではなく、あくまでSNS上で確認できた傾向です）。販売先ごとに特徴が違うので、以下を参考にしてみてください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="margin: 12px 0; display: grid; gap: 8px; box-sizing: border-box;">
+  <div style="border: 1px solid #f0d0d0; border-radius: 8px; padding: 10px 12px; background: #fff8f8; box-sizing: border-box;">
+    <div style="font-size: 11px; font-weight: 900; color: #bf0000; margin-bottom: 3px;">楽天ブックス</div>
+    <div style="font-size: 12.5px; color: #333; line-height: 1.5;">SNS上で予約報告が最も多く見られる販売先。セット購入で割引キャンペーンが出ることもあります。</div>
+  </div>
+  <div style="border: 1px solid #d0e8d8; border-radius: 8px; padding: 10px 12px; background: #f8fdf9; box-sizing: border-box;">
+    <div style="font-size: 11px; font-weight: 900; color: #00913a; margin-bottom: 3px;">セブンネット</div>
+    <div style="font-size: 12.5px; color: #333; line-height: 1.5;">初回盤+通常盤セットが実勢価格14,784円（メーカー希望小売価格16,280円から9%オフ）で販売中です。</div>
+  </div>
+  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 10px 12px; background: #f8f8f8; box-sizing: border-box;">
+    <div style="font-size: 11px; font-weight: 900; color: #111; margin-bottom: 3px;">タワーレコード</div>
+    <div style="font-size: 12.5px; color: #333; line-height: 1.5;">オンライン限定で全品20%ポイント還元キャンペーンを実施中です。</div>
+  </div>
+  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 10px 12px; background: #f8f8f8; box-sizing: border-box;">
+    <div style="font-size: 11px; font-weight: 900; color: #232f3e; margin-bottom: 3px;">Amazon</div>
+    <div style="font-size: 12.5px; color: #333; line-height: 1.5;">普段利用しているAmazonアカウントでそのまま購入できます。</div>
+  </div>
+  <div style="border: 1px solid #ddd; border-radius: 8px; padding: 10px 12px; background: #f8f8f8; box-sizing: border-box;">
+    <div style="font-size: 11px; font-weight: 900; color: #2c2c2c; margin-bottom: 3px;">公式サイト</div>
+    <div style="font-size: 12.5px; color: #333; line-height: 1.5;">レーベル直販のため、確実に正規品を入手したい方向けです。</div>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<div style="margin: 18px 0 14px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 14px 12px; font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.04); box-sizing: border-box;">
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
+    <a href="//af.moshimo.com/af/c/click?a_id=4824566&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F18762314%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: flex; align-items: center; justify-content: center; height: 36px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 11px; font-weight: 900; color: #ffffff;">楽天ブックスで予約する ›</span>
+    </a>
+    <a href="https://amzn.to/4fXhNnx" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: center; height: 36px; background: #232f3e; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 11px; font-weight: 900; color: #ffffff;">Amazonで探す ›</span>
+    </a>
+  </div>
+
+  <img src="//i.moshimo.com/af/i/impression?a_id=4824566&p_id=54&pc_id=54&pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
+    <a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3773727&pid=892674443&vc_url=https%3A%2F%2F7net.omni7.jp%2Fdetail%2F1400992503" rel="nofollow" style="display: flex; align-items: center; justify-content: center; height: 36px; background: #00913a; border-radius: 5px; text-decoration: none; box-sizing: border-box;"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3773727&pid=892674443" height="1" width="0" border="0"><span style="font-size: 11px; font-weight: 900; color: #ffffff;">セブンネットで探す ›</span></a>
+    <a href="https://tower.jp/article/feature_item/2026/08/07/0704" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; height: 36px; background: #111111; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 11px; font-weight: 900; color: #ffffff;">タワーレコードで探す ›</span>
+    </a>
+  </div>
+
+  <div style="margin-top: 6px;">
+    <a href="https://www.elov-label.jp/s/el/discography/LCXN-0245" target="_blank" rel="noopener" style="display: block; width: 100%; text-align: center; height: 34px; line-height: 34px; background: #f2f2f2; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 11px; font-weight: 800; color: #2c2c2c;">公式サイトで詳細を見る ›</span>
+    </a>
+  </div>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>よくある質問</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div class="faq-container" role="region" aria-label="よくある質問" style="margin: 24px 0; border: 1px solid #e0e0e0; border-radius: 8px; background: #ffffff; padding: 20px; box-sizing: border-box;">
+
+  <div style="margin-bottom: 24px;">
+    <h3 style="font-size: 16px; color: #2c2c2c; margin: 0 0 8px 0; padding: 0 0 0 10px; border-left: 4px solid #bf0000;">Q. 初回盤と通常盤、どちらがおすすめ？</h3>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin: 4px 0 0 14px;">特典映像やトレカまでまとめて楽しみたい方には初回盤、ライブ本編とMC集で十分という方には通常盤がおすすめです。価格差は1,320円です。</p>
+  </div>
+
+  <div style="margin-bottom: 24px;">
+    <h3 style="font-size: 16px; color: #2c2c2c; margin: 0 0 8px 0; padding: 0 0 0 10px; border-left: 4px solid #bf0000;">Q. 先着購入特典は全仕様共通ですか？</h3>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin: 4px 0 0 14px;">はい。「お城がめじるし変身チャーム」が、初回盤・通常盤問わず全仕様共通の先着購入特典として用意されています。</p>
+  </div>
+
+  <div style="margin-bottom: 24px;">
+    <h3 style="font-size: 16px; color: #2c2c2c; margin: 0 0 8px 0; padding: 0 0 0 10px; border-left: 4px solid #bf0000;">Q. 収録内容はライブ本編以外に何がありますか？</h3>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin: 4px 0 0 14px;">DISC2に特典映像が付属します。初回盤は「『変身』金沢ご褒美ツアー」、通常盤は70分を超えるMC集「変身 MC SELECTION」です。</p>
+  </div>
+
+  <div style="margin: 0;">
+    <h3 style="font-size: 16px; color: #2c2c2c; margin: 0 0 8px 0; padding: 0 0 0 10px; border-left: 4px solid #bf0000;">Q. 発売日はいつですか？</h3>
+    <p style="font-size: 13px; color: #555; line-height: 1.6; margin: 4px 0 0 14px;">NEWSの結成23周年にあたる2026年9月15日です。</p>
+  </div>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>『NEWS LIVE TOUR 2025 変身』Blu-ray&DVDは、2026年9月15日に発売です。初回盤（8,800円）と通常盤（7,480円）では、特典映像や封入特典が違ってきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>特典映像までしっかり楽しみたい方には初回盤を、ライブ本編とMC集があれば満足という方には通常盤を選んでみてください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<!-- MANUAL_JSONLD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://shira-treat.com/news-henshin-bluray/#post",
+      "url": "https://shira-treat.com/news-henshin-bluray/",
+      "headline": "NEWS「変身」Blu-ray/DVD予約はどこで？特典の違いも解説",
+      "description": "NEWS「変身」Blu-ray/DVDは9月15日発売。初回盤・通常盤の特典の違いを比較し、予約・購入はどこがよいか分かりやすく解説します。",
+      "keywords": [
+        "NEWS 変身",
+        "Blu-ray",
+        "DVD",
+        "初回盤",
+        "通常盤",
+        "予約",
+        "特典",
+        "楽天ブックス",
+        "どこで買う"
+      ],
+      "datePublished": "2026-08-07T12:00:00+09:00",
+      "dateCreated": "2026-08-07T12:00:00+09:00",
+      "dateModified": "2026-08-07T12:00:00+09:00",
+      "inLanguage": "ja",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://shira-treat.com/news-henshin-bluray/#heroimage",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/08/image-6.webp",
+        "width": 1200,
+        "height": 675
+      },
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/08/image-6.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/operator-information/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/",
+        "sameAs": [
+          "https://x.com/ShiraNotes_"
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "articleSection": "リリース情報",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "NEWS LIVE TOUR 2025 変身",
+          "sameAs": [
+            "https://www.elov-label.jp/s/el/discography/LCXN-0245"
+          ]
+        }
+      ],
+      "hasPart": [
+        { "@id": "https://shira-treat.com/news-henshin-bluray/#product" },
+        { "@id": "https://shira-treat.com/news-henshin-bluray/#faq" },
+        { "@id": "https://shira-treat.com/news-henshin-bluray/#breadcrumb" }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://shira-treat.com/news-henshin-bluray/#product",
+      "name": "NEWS LIVE TOUR 2025 変身 (Blu-ray/DVD)",
+      "brand": {
+        "@type": "MusicGroup",
+        "name": "NEWS"
+      },
+      "image": "https://shira-treat.com/wp-content/uploads/2026/08/image-6.webp",
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "JPY",
+        "lowPrice": "7480",
+        "highPrice": "8800",
+        "offerCount": 3,
+        "availability": "https://schema.org/PreOrder",
+        "url": "https://www.elov-label.jp/s/el/discography/LCXN-0245"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://shira-treat.com/news-henshin-bluray/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "初回盤と通常盤、どちらがおすすめ？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "特典映像やトレカまでまとめて楽しみたい方には初回盤、ライブ本編とMC集で十分という方には通常盤がおすすめです。価格差は1,320円です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "先着購入特典は全仕様共通ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "はい。「お城がめじるし変身チャーム」が、初回盤・通常盤問わず全仕様共通の先着購入特典として用意されています。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "収録内容はライブ本編以外に何がありますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DISC2に特典映像が付属します。初回盤は「『変身』金沢ご褒美ツアー」、通常盤は70分を超えるMC集「変身 MC SELECTION」です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "発売日はいつですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "NEWSの結成23周年にあたる2026年9月15日です。"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://shira-treat.com/news-henshin-bluray/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://shira-treat.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "記事",
+          "item": "https://shira-treat.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "NEWS「変身」Blu-ray/DVD予約はどこで？特典の違いも解説",
+          "item": "https://shira-treat.com/news-henshin-bluray/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<!-- /wp:html -->

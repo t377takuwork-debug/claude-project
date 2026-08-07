@@ -526,7 +526,7 @@ def check_af_links(lines: list[str], text: str, rep: Report):
             rep.error(f"L{i+1}: AFリンクに referrerpolicy がない（no-referrer-when-downgrade 必須）")
         if not re.search(r"attributionsrc(?!=)", tag):
             rep.error(f"L{i+1}: AFリンクに attributionsrc（値なしboolean属性）がない")
-        if "books.rakuten.co.jp" in tag or "books.rakuten" in tag:
+        if ("books.rakuten.co.jp" in tag or "books.rakuten" in tag) and re.search(r"ranking(%2F|/)", tag):
             if not re.search(r"daily(%2F|/)002", tag):
                 rep.error(f"L{i+1}: 楽天ランキングURLが daily/002 でない（hourly/weeklyはNG）")
     if has_moshimo_link and "i.moshimo.com/af/i/impression" not in text:
