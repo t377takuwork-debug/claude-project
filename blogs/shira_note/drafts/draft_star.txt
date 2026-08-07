@@ -1,8 +1,8 @@
 ﻿<!-- wp:paragraph -->
-タイトル：【最新】STAR タイムテーブル 8月6日は何時から？出演順や出演時間更新！
+タイトル：【最新】STAR タイムテーブル 8月13日は何時から？出演順や出演時間更新！
 
-メタディスクリプション（111字）：
-8/6放送のフジテレビ音楽番組『STAR』出演アーティスト・出演順・歌唱曲を随時更新。水谷千重子が初のSTARナビゲーターに就任、Da-iCE最新曲「アンリミテッド」、Travis Japan新バージョンなど見どころ満載！
+メタディスクリプション（115字）：
+8/13放送のフジテレビ音楽番組『STAR』出演アーティスト・出演順・歌唱曲を随時更新。『FNS歌謡祭』×『めざましテレビ』コラボ企画、LE SSERAFIM「BOOMPALA」、めざましWANGANフェス生中継など見どころ満載！
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -64,7 +64,7 @@
       <div style="display: flex; justify-content: space-between; align-items: center;">
         <span style="font-size: 11px; color: #F26522; font-weight: 700;">放送日時</span>
         <span style="font-size: 13px; font-weight: 800; color: #1a1a1a;">
-          8.6 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
+          8.13 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
         </span>
       </div>
     </div>
@@ -74,21 +74,21 @@
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333; line-height: 1.5;">
           <strong style="color: #000;">出演：</strong>
-          ＝LOVE / TWS / Travis Japan / Da-iCE / 水谷千重子
+          INI／.ENDRECHERI.／大林素子／CANDY TUNE／ちいかわ・ハチワレ／MyM／マルシィ／ME:I／RIIZE／緑黄色社会／LE SSERAFIM
         </p>
       </div>
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333; line-height: 1.5;">
           <strong style="color: #000;">注目：</strong>
-          水谷千重子が今回からSTARナビゲーターに就任／Da-iCE「アンリミテッド」はメンバー工藤大輝・花村想太が書き下ろした最新シングル／Travis Japan「On My Road -Stadium ver.-」は新バージョンで披露
+          『FNS歌謡祭』音楽班×『めざましテレビ』エンタメチームのコラボ企画で、STARナビゲーターに大林素子・中継MCに軽部真一が加わる／東京ガーデンシアターから「めざましWANGANフェス STAR」を生中継、INI×RIIZEコラボメドレーなどを実施／LE SSERAFIM「BOOMPALA」は「マカレナ」をサンプリングした新曲
         </p>
       </div>
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333; line-height: 1.5;">
           <strong style="color: #000;">タイムテーブル：</strong>
-          放送前のため構成予測を掲載中です。19:00の放送開始と同時に、実際の進行へ切り替えて更新していきます。
+          放送前のため構成の予測を掲載しています。19:00の放送開始と同時に、実際の進行内容へ切り替えて随時更新します。
         </p>
       </div>
     </div>
@@ -103,7 +103,7 @@
       line-height: 1.4;
     ">
       <span style="font-weight: 700; color: #444;">※ハイライト：</span><br>
-      STARナビゲーターに水谷千重子が初登場、Da-iCE最新曲とTravis Japan新バージョンパフォーマンスが揃う1時間。
+      『FNS歌謡祭』×『めざましテレビ』のコラボ企画で、STARナビゲーター大林素子・中継MC軽部真一が加わりスケールアップした1時間。
     </div>
 
     <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -120,7 +120,7 @@
         最新タイムテーブルを見る ❯
       </a>
       <div style="font-size: 9px; color: #999; text-align: right;">
-        UPDATED: 2026.08.02
+        UPDATED: 2026.08.06
       </div>
     </div>
   </div>
@@ -136,15 +136,15 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>今回は水谷千重子のSTARナビゲーター就任とDa-iCE最新曲「アンリミテッド」、Travis Japan新バージョンパフォーマンスなど見どころ満載！</p>
+<p>今回は『FNS歌謡祭』×『めざましテレビ』のコラボ企画で、STARナビゲーター大林素子・中継MC軽部真一、東京ガーデンシアターからの生中継など見どころ満載！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>STAR 最新タイムテーブル【8/6】</h2>
+<h2>STAR 最新タイムテーブル【8/13】</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年8月6日（木）19:00から放送の『STAR』出演アーティストと歌唱曲の予想です。</p>
+<p>2026年8月13日（木）19:00から放送の『STAR』出演アーティストと歌唱曲の予想です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -194,7 +194,7 @@
       <div style="display: flex; justify-content: space-between; align-items: center;">
         <span style="font-size: 11px; color: #F26522; font-weight: 700;">放送日時</span>
         <span style="font-size: 13px; font-weight: 800; color: #1a1a1a;">
-          8.6 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
+          8.13 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
         </span>
       </div>
     </div>
@@ -204,42 +204,42 @@
       <div style="display: flex; gap: 6px; align-items: flex-start;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:00</strong> OP（MC上垣皓太朗・STARナビゲーター 水谷千重子 初登場）
+          <strong>19:00</strong> OP（MC上垣皓太朗・中継MC軽部真一・STARナビゲーター 大林素子 初登場）
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:06頃</strong> ＝LOVE 最新曲 ★来年1月の東京ドーム公演2days控え、勢いそのままのパフォーマンス
+          <strong>19:10頃</strong> 緑黄色社会「晴々」★『バレーボールアジア選手権2026』中継テーマソング
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:16頃</strong> TWS「SODA SODA」★日本2ndシングル、真夏の海辺を舞台にした胸キュンソング
+          <strong>19:19頃</strong> ME:I「花咲く道」★8/5リリースの4thシングル、バンドサウンドへの新たな挑戦
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:27頃</strong> Travis Japan「On My Road -Stadium ver.-」★新バージョン、ダンスと歌唱力で見せるステージ
+          <strong>19:28頃</strong> LE SSERAFIM「BOOMPALA」★「マカレナ」をサンプリングした力強いメッセージソング
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:38頃</strong> Da-iCE「アンリミテッド」★工藤大輝・花村想太が書き下ろした最新シングル
+          <strong>19:37頃</strong> .ENDRECHERI.「Thinking Time」★8/12リリースアルバム先行配信、ファンク×BREIMEN感覚の一曲
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:48頃</strong> 水谷千重子「桃色吐息」★高橋真梨子の代表曲。今回からSTARナビゲーターに就任
+          <strong>19:46頃</strong> 東京ガーデンシアターより「めざましWANGANフェス STAR」生中継 ★INI×RIIZEコラボメドレー・CANDY TUNE「倍倍FIGHT!」全員コラボ（歌唱曲は後日発表）
         </p>
       </div>
 
@@ -262,7 +262,7 @@
       line-height: 1.4;
     ">
       <strong>※最新の状況：</strong><br>
-      ただいま表示している出演時間は8月6日放送分の<strong>構成予測</strong>です。＝LOVE・Travis Japanの披露順は当日の進行次第で変わるため、各パフォーマンス枠の時間は放送開始後にリアルタイムで書き換えていきます。
+      ただいま表示している出演時間は8月13日放送分の<strong>構成予測</strong>です。生中継パートを含む進行順は当日の流れ次第で変わるため、各パフォーマンス枠の時間は放送開始後にリアルタイムで書き換えていきます。
     </div>
 
     <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -279,7 +279,7 @@
       </a>
 
       <div style="font-size: 9px; color: #999;">
-        UPDATED: 2026.08.02
+        UPDATED: 2026.08.06
       </div>
     </div>
 
@@ -296,7 +296,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>STAR（8/6）出演アーティスト・歌唱内容一覧</h2>
+<h2>STAR（8/13）出演アーティスト・歌唱内容一覧</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center","sizeSlug":"full"} -->
@@ -325,33 +325,39 @@ box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 <div style="background: #fff; border-radius: 0 0 11px 11px; overflow: hidden;">
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">＝LOVE</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">最新曲</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">来年1月の東京ドーム公演2daysを控え、勢いそのままのパフォーマンス</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">緑黄色社会</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「晴々」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">『バレーボールアジア選手権2026』中継テーマソング</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">TWS</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「SODA SODA」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">日本2ndシングル。真夏の海辺を舞台にした胸キュンソング</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">ME:I</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「花咲く道」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">8/5リリースの4thシングル。デビュー3年目、バンドサウンドへの新たな挑戦</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">Travis Japan</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「On My Road -Stadium ver.-」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">新バージョン。圧倒的なダンススキルと歌唱力によるステージ</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">LE SSERAFIM</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「BOOMPALA」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">アルバム『&quot;PUREFLOW&quot; pt.1』タイトル曲。「マカレナ」をサンプリングした力強いメッセージソング</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">Da-iCE</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「アンリミテッド」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">最新シングル。メンバー工藤大輝・花村想太が書き下ろしたエネルギッシュなステージ</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">.ENDRECHERI.</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「Thinking Time」</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">8/12リリースアルバム『new chapter purple』より先行配信。ファンク×BREIMEN感覚のポジティブな一曲</div>
 </div>
 
-<div style="display: flex; flex-direction: column; padding: 10px 14px; background: #fff;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">水谷千重子</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「桃色吐息」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">高橋真梨子の代表曲を熱唱。今回からSTARナビゲーターに就任</div>
+<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">大林素子</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">STARナビゲーター</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">元バレーボール日本代表。司会進行役として出演（歌唱の有無は不明）</div>
+</div>
+
+<div style="display: flex; flex-direction: column; padding: 10px 14px; background: #fdf2ed;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">めざましWANGANフェス STAR／めざましライブ（生中継）</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">歌唱曲は後日発表</div>
+  <div style="font-size: 11px; color: #666; margin-top: 2px;">東京ガーデンシアターより中継。INI・CANDY TUNE・MyM・マルシィ・RIIZE・ちいかわ・ハチワレが出演。INI×RIIZEスペシャルコラボメドレー、出演者全員参加のCANDY TUNE「倍倍FIGHT!」コラボ歌唱も予定</div>
 </div>
 
 </div>
@@ -363,7 +369,7 @@ box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>8月6日の『STAR』は、水谷千重子がSTARナビゲーターに初就任し「桃色吐息」を熱唱するほか、Da-iCE「アンリミテッド」やTravis Japan「On My Road -Stadium ver.-」新バージョンも見どころです。</p>
+<p>8月13日の『STAR』は、東京ガーデンシアターから生中継する「めざましWANGANフェス STAR」でINI×RIIZEのコラボメドレーが披露されるほか、LE SSERAFIM「BOOMPALA」や.ENDRECHERI.「Thinking Time」など最新曲パフォーマンスも見どころです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -411,7 +417,7 @@ padding: 14px;
     <span style="color:#F26522; font-size:12px;">✦</span>
     <div style="font-size:12px; color:#333;">
       <strong>19:00〜（オープニング・熱狂枠）</strong><br>
-      オープニングトーク後、序盤に新曲パフォーマンスへ進む流れが有力。前回（7/30）放送でも20th Century「僕らが上書きする世界」への反応が早い時間帯から集まった実績があり、今回も＝LOVE・TWSなど注目度の高いパフォーマンスが序盤に置かれる構成が予想される。
+      オープニングトーク後、序盤にスタジオ収録の新曲パフォーマンスへ進む流れが有力。前回（8/6）放送でも＝LOVEへの反応が早い時間帯から集まった実績があり、今回も緑黄色社会「晴々」・ME:I「花咲く道」が序盤に置かれる構成が予想される。
     </div>
   </div>
 
@@ -419,7 +425,7 @@ padding: 14px;
     <span style="color:#00B7B5; font-size:12px;">✦</span>
     <div style="font-size:12px; color:#333;">
       <strong>19:15〜19:45（中盤・パフォーマンス枠）</strong><br>
-      Travis Japanのパフォーマンスが中盤に集中する予想。前回（7/30）放送でもtimeleszやモアナ関連メドレー・NCT WISHのパフォーマンスが中盤に配置された。
+      LE SSERAFIM・.ENDRECHERI.のパフォーマンスが中盤に集中する予想。前回（8/6）放送でもTravis Japanの新バージョンパフォーマンスが中盤の見どころ枠に配置された。
     </div>
   </div>
 
@@ -427,7 +433,7 @@ padding: 14px;
     <span style="color:#F26522; font-size:12px;">✦</span>
     <div style="font-size:12px; color:#333;">
       <strong>19:45〜20:00（終盤・クライマックス枠）</strong><br>
-      Da-iCEと、STARナビゲーター就任回となる水谷千重子の「桃色吐息」が終盤に配置される可能性がある。前回（7/30）放送はNumber_i「BUGS LIFE」が後半に登場しこの回最大の反響を集めた実績があり、今回も終盤に見どころが集まると予想される。
+      東京ガーデンシアターからの「めざましWANGANフェス STAR」生中継、INI×RIIZEコラボメドレーが終盤の目玉になる可能性がある。前回（8/6）放送はDa-iCE・水谷千重子の絡みが終盤に配置され最大の反響を集めた実績があり、今回も終盤に見どころが集まると予想される。
     </div>
   </div>
 
@@ -444,7 +450,7 @@ border-radius:8px;
 line-height:1.5;
 ">
 💡 <strong>今回のポイント</strong><br>
-前回（7/30）放送は「序盤に20th Century→中盤にtimelesz・モアナ関連メドレー・NCT WISH→終盤にNumber_i」という進行で、Number_iへの反響が最大だった実績（出演順は反響が集中したタイミングに基づく推定）から、今回も「序盤：＝LOVE・TWS→中盤：Travis Japan→終盤：Da-iCE・水谷千重子」の流れが有力です。
+前回（8/6）放送は「序盤に＝LOVE→中盤にTravis Japan→終盤にDa-iCE・水谷千重子」という進行だった実績を踏まえると、今回も「序盤：緑黄色社会・ME:I→中盤：LE SSERAFIM・.ENDRECHERI.→終盤：めざましWANGANフェス生中継」の流れが有力と見ています（あくまで筆者の予想）。ただし今回はコラボ企画で通常回より出演枠が多いため、構成が大きく変わる可能性もあります。
 </div>
 
 </div>
@@ -464,7 +470,7 @@ line-height:1.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>7月30日の放送は以下のような流れでした。</p>
+<p>8月6日の放送は以下のような流れでした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -503,7 +509,7 @@ line-height:1.5;
           『STAR』SETLIST &amp; REPORT
         </div>
       </div>
-      <div style="font-size: 12px; font-weight: 700; color: #666;">2026.07.30 <span style="font-weight: 400;">THU</span></div>
+      <div style="font-size: 12px; font-weight: 700; color: #666;">2026.08.06 <span style="font-weight: 400;">THU</span></div>
     </div>
 
     <div style="
@@ -514,25 +520,25 @@ line-height:1.5;
       border-left: 4px solid #F26522;
     ">
       <div style="font-size: 11px; color: #F26522; font-weight: 800; margin-bottom: 2px;">STAR NAVIGATORS</div>
-      <div style="font-size: 14px; font-weight: 700; color: #333;">上垣 皓太朗（フジテレビアナウンサー）／井上和（乃木坂46）</div>
+      <div style="font-size: 14px; font-weight: 700; color: #333;">上垣 皓太朗（フジテレビアナウンサー）／水谷千重子（友近）</div>
     </div>
 
     <div style="display: grid; gap: 0; margin-bottom: 16px; border-left: 2px solid #eee; margin-left: 6px; padding-left: 14px;">
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -21px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #F26522; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 800;">19:00～19:08頃 / OPENING</div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 800;">19:00～19:10頃 / OPENING</div>
         <div style="font-size: 13px; color: #1a1a1a; line-height: 1.5;">
           MC上垣皓太朗進行で番組スタート<br>
-          <span style="font-size: 11px; color: #666;">ナビゲーター井上和（乃木坂46）が登場</span>
+          <span style="font-size: 11px; color: #666;">STARナビゲーター水谷千重子（友近）が「桃色吐息」を披露</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:08頃</div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:10頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">20th Century</span> 「僕らが上書きする世界」<br>
-          <span style="font-size: 11px; color: #666;">爽やかな衣装とキレのあるダンスで安定した高評価</span>
+          <span style="font-weight: 800;">＝LOVE</span> 「恋、はじめました。」<br>
+          <span style="font-size: 11px; color: #666;">水谷千重子との絡みも交え、衣装やメンバーの表情への反応が集まった</span>
         </div>
       </div>
 
@@ -540,8 +546,8 @@ line-height:1.5;
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
         <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:20頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">timelesz</span> 「消えない花火」<br>
-          <span style="font-size: 11px; color: #666;">儚げで美しいと評判に。メンバーの表情への反応が集まった</span>
+          <span style="font-weight: 800;">TWS</span> 「SODA SODA」<br>
+          <span style="font-size: 11px; color: #666;">爽やかな夏らしいパフォーマンスが好評</span>
         </div>
       </div>
 
@@ -549,26 +555,17 @@ line-height:1.5;
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
         <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:32頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">『モアナと伝説の海』SPメドレー</span> TSUZUMI（ME:I）「どこまでも」・尾上松也「俺のおかげさ」・屋比久知奈「旅立とう」<br>
-          <span style="font-size: 11px; color: #666;">中盤の登場。反響は控えめで、順番の特定は難しい</span>
-        </div>
-      </div>
-
-      <div style="position: relative; padding-bottom: 14px;">
-        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:42頃</div>
-        <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">NCT WISH</span> 「BOY MEETS GIRL」<br>
-          <span style="font-size: 11px; color: #666;">中盤〜後半に登場。他組と比べて反響はやや控えめ</span>
+          <span style="font-weight: 800;">Travis Japan</span> 「On My Road -Stadium ver.-」<br>
+          <span style="font-size: 11px; color: #666;">スタンドマイクでの熱唱が最大級の反響を集め、中村海人のコメントも話題に</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #F26522; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:52頃 / LAST</div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:45頃 / LAST</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">Number_i</span> 「BUGS LIFE」<br>
-          <span style="font-size: 11px; color: #666;">制作エピソードやメンバーの親への感謝トークからダンスパフォーマンスへ。この回最大の反響を集めた</span>
+          <span style="font-weight: 800;">Da-iCE</span> 「アンリミテッド」<br>
+          <span style="font-size: 11px; color: #666;">水谷千重子との絡みトークが多め。大野雄大の前髪ネタも話題になり、終盤のランキングVTR・名曲特集へ</span>
         </div>
       </div>
     </div>
@@ -579,7 +576,7 @@ line-height:1.5;
       margin-bottom: 12px;
       line-height: 1.5;
     ">
-      ※出演順は各アーティストへの反響が集中したタイミングをもとにした推定で、公式発表順とは異なる場合があります（特に『モアナと伝説の海』SPメドレー・NCT WISHの順番には幅があります）。
+      ※出演順は各アーティストへの反響が集中したタイミングをもとにした推定で、公式発表順とは異なる場合があります。
     </div>
 
     <div style="
@@ -593,7 +590,7 @@ line-height:1.5;
       line-height: 1.6;
     ">
       <span style="display: inline-block; background: #eee; padding: 0 4px; border-radius: 2px; margin-right: 4px; font-weight: 800;">REPORT</span><br>
-      MC上垣皓太朗とナビゲーター井上和（乃木坂46）のテンポの良い進行が好評。20th Century・timeleszの安定したパフォーマンスに続き、Number_i「BUGS LIFE」は制作エピソードのトークからダンスへの展開が最大の反響を集め、放送後も話題が続く1時間に。
+      MC上垣皓太朗とSTARナビゲーター水谷千重子（友近）のテンポの良い進行が好評。生歌クオリティの高さに加え、Travis Japanの熱唱、Da-iCEとの絡みトークが特に話題を集め、「神番組」との声も上がる1時間に。
     </div>
 
     <div style="display: flex; flex-direction: column; gap: 12px;">
@@ -613,7 +610,7 @@ line-height:1.5;
       </a>
       <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 4px; border-top: 1px solid #eee;">
         <div style="font-size: 9px; color: #999; font-weight: 700; letter-spacing: 0.5px;">STAR ARCHIVE REPORT</div>
-        <div style="font-size: 9px; color: #999;">FINAL UPDATED: 2026.07.30</div>
+        <div style="font-size: 9px; color: #999;">FINAL UPDATED: 2026.08.06</div>
       </div>
     </div>
   </div>
@@ -625,7 +622,7 @@ line-height:1.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>※8/6放送分は放送前のため未確定です。19:00の放送開始とともにリアルタイムで出演順を反映します。</p>
+<p>※8/13放送分は放送前のため未確定です。19:00の放送開始とともにリアルタイムで出演順を反映します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -735,7 +732,46 @@ color:#fff;
 <div style="padding:14px 16px;">
 
 <!-- ======================= -->
-<!-- 2026.07.23 (NEW) -->
+<!-- 2026.07.30 (NEW) -->
+<!-- ======================= -->
+<h3 style="margin:16px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
+2026年7月30日放送回
+</h3>
+
+<div style="
+border-radius:12px;
+overflow:hidden;
+border:1px solid #eee;
+background:#fff;
+box-shadow:0 6px 18px rgba(0,0,0,0.06);
+">
+
+<div style="height:4px;background:linear-gradient(90deg,#F26522,#00B7B5);"></div>
+
+<div style="padding:12px 14px;background:#fdfdfd;border-bottom:1px solid #eee;">
+  <div style="font-size:11px;font-weight:900;color:#F26522;">PAST LOG / STAR ARCHIVE</div>
+  <div style="font-size:14px;font-weight:900;color:#1a1a1a;">2026.07.30</div>
+</div>
+
+<div style="padding:14px;font-size:12px;line-height:1.8;color:#333;">
+
+<strong>19:00～19:08頃 OPENING</strong>：MC上垣皓太朗進行で番組スタート、ナビゲーター井上和（乃木坂46）が登場<br>
+<strong>19:08頃 20th Century</strong>：「僕らが上書きする世界」（爽やかな衣装とキレのあるダンスで安定した高評価）<br>
+<strong>19:20頃 timelesz</strong>：「消えない花火」（儚げで美しいと評判に。メンバーの表情への反応が集まった）<br>
+<strong>19:32頃 『モアナと伝説の海』SPメドレー</strong>：TSUZUMI（ME:I）「どこまでも」・尾上松也「俺のおかげさ」・屋比久知奈「旅立とう」（中盤の登場。反響は控えめで、順番の特定は難しい）<br>
+<strong>19:42頃 NCT WISH</strong>：「BOY MEETS GIRL」（中盤〜後半に登場。他組と比べて反響はやや控えめ）<br>
+<strong>19:52頃 LAST Number_i</strong>：「BUGS LIFE」（制作エピソードやメンバーの親への感謝トークからダンスパフォーマンスへ。この回最大の反響を集めた）
+
+</div>
+
+<div style="padding:10px 14px;background:#f7fafc;font-size:11px;color:#666;">
+💡 MC上垣皓太朗とナビゲーター井上和（乃木坂46）のテンポの良い進行が好評。20th Century・timeleszの安定したパフォーマンスに続き、Number_i「BUGS LIFE」は制作エピソードのトークからダンスへの展開が最大の反響を集め、放送後も話題が続く1時間に。※出演順は反響が集中したタイミングに基づく推定
+</div>
+
+</div>
+
+<!-- ======================= -->
+<!-- 2026.07.23 -->
 <!-- ======================= -->
 <h3 style="margin:16px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
 2026年7月23日放送回
@@ -850,44 +886,6 @@ box-shadow:0 6px 18px rgba(0,0,0,0.06);
 
 </div>
 
-<!-- ======================= -->
-<!-- 2026.06.25 -->
-<!-- ======================= -->
-<h3 style="margin:16px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
-2026年6月25日放送回
-</h3>
-
-<div style="
-border-radius:12px;
-overflow:hidden;
-border:1px solid #eee;
-background:#fff;
-box-shadow:0 6px 18px rgba(0,0,0,0.06);
-">
-
-<div style="height:4px;background:linear-gradient(90deg,#F26522,#00B7B5);"></div>
-
-<div style="padding:12px 14px;background:#fdfdfd;border-bottom:1px solid #eee;">
-  <div style="font-size:11px;font-weight:900;color:#F26522;">PAST LOG / STAR ARCHIVE</div>
-  <div style="font-size:14px;font-weight:900;color:#1a1a1a;">2026.06.25</div>
-</div>
-
-<div style="padding:14px;font-size:12px;line-height:1.8;color:#333;">
-
-<strong>FANTASTICS</strong>：「SUNFLOWER」（OP・ナビゲーター佐藤大樹出演）<br>
-<strong>CUTIE STREET</strong>：「キュートなキューたい」（テレビアニメ『ポケットモンスター』エンディングテーマ）<br>
-<strong>超ときめき♡宣伝部</strong>：「どりーむじゃんぼ！」（新体制初シングル）<br>
-<strong>SUPER BEAVER</strong>：「クライマックス」（都内某所スペシャルステージ・生中継）<br>
-<strong>JI BLUE</strong>：「景色」（FIFAワールドカップ2026公式テーマソング・都内某所スペシャルステージ・生中継）
-
-</div>
-
-<div style="padding:10px 14px;background:#f7fafc;font-size:11px;color:#666;">
-💡 FANTASTICSリーダー・佐藤大樹の初ナビゲーター就任とSUPER BEAVER・JI BLUEのW杯テーマ曲スペシャルステージが重なったサッカー×音楽の1時間。CUTIE STREET・超ときめき♡宣伝部も初出演で好評。
-</div>
-
-</div>
-
 </div>
 </details>
 <!-- /wp:html -->
@@ -917,9 +915,9 @@ overflow:hidden;
 
 <!-- Q1 -->
 <div style="padding:12px;border-radius:10px;background:#fdf2ed;margin-bottom:10px;">
-  <div style="font-size:12px;font-weight:900;color:#F26522;">Q1｜Da-iCE「アンリミテッド」は何時頃披露されますか？</div>
+  <div style="font-size:12px;font-weight:900;color:#F26522;">Q1｜LE SSERAFIM「BOOMPALA」は何時頃披露されますか？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    番組終盤の19:38頃に披露される可能性が高いと予想されます。前回（7/30）放送ではNumber_iが後半の見どころ枠でこの回最大の反響を集めた実績があり、今回もメンバー書き下ろしの最新シングルが終盤枠に置かれると見ています。実際の出演順は放送後に本ページで更新します。
+    番組中盤の19:28頃の披露が有力と予想しています（あくまで筆者の予想）。前回（8/6）放送ではTravis Japanが中盤の見どころ枠に配置された実績があり、今回もグローバルな注目度の高いLE SSERAFIMが中盤枠に置かれると見ています。実際の出演順は放送後に本ページで更新します。
   </div>
 </div>
 
@@ -927,15 +925,15 @@ overflow:hidden;
 <div style="padding:12px;border-radius:10px;background:#fff;border:1px solid #eee;margin-bottom:10px;">
   <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q2｜今回はどんな企画の放送回ですか？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    水谷千重子が今回からSTARナビゲーターに就任し、高橋真梨子の代表曲「桃色吐息」を熱唱する回です。Da-iCEは最新シングル「アンリミテッド」を、Travis Japanは新バージョンの「On My Road -Stadium ver.-」を披露し、＝LOVE・TWSも出演します。MCは引き続き上垣皓太朗です。
+    『FNS歌謡祭』音楽班と『めざましテレビ』エンタメチームがコラボした特別企画回です。STARナビゲーターには元バレーボール日本代表の大林素子が就任し、中継MCは軽部真一が務めます。東京ガーデンシアターからは「めざましWANGANフェス STAR／めざましライブ」を生中継し、INI・CANDY TUNE・MyM・マルシィ・RIIZE・ちいかわ・ハチワレが出演します。
   </div>
 </div>
 
 <!-- Q3 -->
 <div style="padding:12px;border-radius:10px;background:#fdf2ed;margin-bottom:10px;">
-  <div style="font-size:12px;font-weight:900;color:#F26522;">Q3｜Travis Japan「On My Road -Stadium ver.-」は何時頃披露されますか？</div>
+  <div style="font-size:12px;font-weight:900;color:#F26522;">Q3｜特別企画や初披露など今回固有の内容はありますか？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    番組中盤の19:27頃の披露が有力です。新バージョンでの披露という注目度の高さから、中盤のパフォーマンス枠に置かれると予想されます。実際の出演順は放送後に本ページで更新します。
+    生中継パートでは、INI×RIIZEによるスペシャルコラボメドレーと、出演者全員が参加するCANDY TUNE「倍倍FIGHT!」のコラボ歌唱が予定されています。スタジオでは.ENDRECHERI.が8/12リリースの新アルバム収録曲「Thinking Time」を先行披露し、ME:I「花咲く道」はバンドサウンドへの新たな挑戦としても注目です。
   </div>
 </div>
 
@@ -943,7 +941,7 @@ overflow:hidden;
 <div style="padding:12px;border-radius:10px;background:#fff;border:1px solid #eee;">
   <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q4｜タイムテーブルのリアルタイム更新はありますか？</div>
   <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
-    公式から詳細な時間は公開されませんが、当ページでは8月6日の19:00放送開始とともに、実際の進行・出演順をリアルタイムで速報更新します。
+    公式から詳細な時間は公開されませんが、当ページでは8月13日の19:00放送開始とともに、実際の進行・出演順をリアルタイムで速報更新します。
   </div>
 </div>
 
@@ -956,15 +954,15 @@ overflow:hidden;
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年8月6日（木）19:00放送のフジテレビ系『STAR』。</p>
+<p>2026年8月13日（木）19:00放送のフジテレビ系『STAR』。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>今回は水谷千重子が「桃色吐息」を熱唱し、今回からSTARナビゲーターに就任することが最大の目玉です。</p>
+<p>今回は『FNS歌謡祭』音楽班×『めざましテレビ』エンタメチームのコラボ企画で、STARナビゲーターに大林素子、中継MCに軽部真一が加わることが最大の特徴です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>＝LOVE最新曲、TWS「SODA SODA」、Travis Japan「On My Road -Stadium ver.-」新バージョン、Da-iCE最新シングル「アンリミテッド」も見どころです。</p>
+<p>緑黄色社会「晴々」、ME:I「花咲く道」、LE SSERAFIM「BOOMPALA」、.ENDRECHERI.「Thinking Time」に加え、東京ガーデンシアターからの「めざましWANGANフェス STAR／めざましライブ」生中継（INI・CANDY TUNE・MyM・マルシィ・RIIZE・ちいかわ・ハチワレ出演）も見どころです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -1081,36 +1079,37 @@ overflow:hidden;
       "@type": "BlogPosting",
       "@id": "https://shira-treat.com/star-timetable/#post",
       "url": "https://shira-treat.com/star-timetable/",
-      "headline": "【最新】STAR タイムテーブル 8月6日は何時から？出演順や出演時間更新！",
-      "description": "8/6放送のフジテレビ音楽番組『STAR』出演アーティスト・出演順・歌唱曲を随時更新。水谷千重子が初のSTARナビゲーターに就任、Da-iCE最新曲「アンリミテッド」、Travis Japan新バージョンなど見どころ満載！",
+      "headline": "【最新】STAR タイムテーブル 8月13日は何時から？出演順や出演時間更新！",
+      "description": "8/13放送のフジテレビ音楽番組『STAR』出演アーティスト・出演順・歌唱曲を随時更新。『FNS歌謡祭』×『めざましテレビ』コラボ企画、LE SSERAFIM「BOOMPALA」、めざましWANGANフェス生中継など見どころ満載！",
       "keywords": [
         "STAR",
         "タイムテーブル",
         "出演者",
-        "＝LOVE",
-        "TWS",
-        "SODA SODA",
-        "Travis Japan",
-        "On My Road",
-        "Da-iCE",
-        "アンリミテッド",
-        "水谷千重子",
-        "STARナビゲーター",
-        "8月6日",
+        "緑黄色社会",
+        "晴々",
+        "ME:I",
+        "花咲く道",
+        "LE SSERAFIM",
+        "BOOMPALA",
+        ".ENDRECHERI.",
+        "Thinking Time",
+        "大林素子",
+        "めざましWANGANフェス",
+        "8月13日",
         "フジテレビ"
       ],
       "datePublished": "2026-04-09T20:00:00+09:00",
       "dateCreated": "2026-04-09T20:00:00+09:00",
-      "dateModified": "2026-08-02T10:00:00+09:00",
+      "dateModified": "2026-08-06T10:00:00+09:00",
       "inLanguage": "ja",
       "image": {
         "@type": "ImageObject",
         "@id": "https://shira-treat.com/star-timetable/#heroimage",
-        "url": "https://shira-treat.com/wp-content/uploads/2026/07/image-12-2.webp",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/08/image-4.webp",
         "width": 1200,
         "height": 675
       },
-      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/07/image-12-2.webp",
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/08/image-4.webp",
       "author": {
         "@type": "Person",
         "name": "Shira",
@@ -1145,19 +1144,25 @@ overflow:hidden;
     {
       "@type": "BroadcastEvent",
       "@id": "https://shira-treat.com/star-timetable/#broadcast",
-      "name": "STAR（2026年8月6日放送回）",
-      "startDate": "2026-08-06T19:00:00+09:00",
-      "endDate": "2026-08-06T20:00:00+09:00",
+      "name": "STAR（2026年8月13日放送回）",
+      "startDate": "2026-08-13T19:00:00+09:00",
+      "endDate": "2026-08-13T20:00:00+09:00",
       "eventStatus": "https://schema.org/EventScheduled",
       "isLiveBroadcast": true,
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "performer": [
         { "@type": "Person", "name": "上垣皓太朗" },
-        { "@type": "Person", "name": "水谷千重子" },
-        { "@type": "MusicGroup", "name": "＝LOVE" },
-        { "@type": "MusicGroup", "name": "TWS" },
-        { "@type": "MusicGroup", "name": "Travis Japan" },
-        { "@type": "MusicGroup", "name": "Da-iCE" }
+        { "@type": "Person", "name": "軽部真一" },
+        { "@type": "Person", "name": "大林素子" },
+        { "@type": "MusicGroup", "name": "緑黄色社会" },
+        { "@type": "MusicGroup", "name": "ME:I" },
+        { "@type": "MusicGroup", "name": "LE SSERAFIM" },
+        { "@type": "MusicGroup", "name": ".ENDRECHERI." },
+        { "@type": "MusicGroup", "name": "INI" },
+        { "@type": "MusicGroup", "name": "RIIZE" },
+        { "@type": "MusicGroup", "name": "CANDY TUNE" },
+        { "@type": "MusicGroup", "name": "MyM" },
+        { "@type": "MusicGroup", "name": "マルシィ" }
       ],
       "broadcaster": {
         "@type": "Organization",
@@ -1168,14 +1173,20 @@ overflow:hidden;
     {
       "@type": "ItemList",
       "@id": "https://shira-treat.com/star-timetable/#lineup",
-      "name": "STAR（8/6）出演アーティスト・パフォーマンス一覧",
-      "numberOfItems": 5,
+      "name": "STAR（8/13）出演アーティスト・パフォーマンス一覧",
+      "numberOfItems": 11,
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "＝LOVE" },
-        { "@type": "ListItem", "position": 2, "name": "TWS" },
-        { "@type": "ListItem", "position": 3, "name": "Travis Japan" },
-        { "@type": "ListItem", "position": 4, "name": "Da-iCE" },
-        { "@type": "ListItem", "position": 5, "name": "水谷千重子" }
+        { "@type": "ListItem", "position": 1, "name": "INI" },
+        { "@type": "ListItem", "position": 2, "name": ".ENDRECHERI." },
+        { "@type": "ListItem", "position": 3, "name": "大林素子" },
+        { "@type": "ListItem", "position": 4, "name": "CANDY TUNE" },
+        { "@type": "ListItem", "position": 5, "name": "ちいかわ・ハチワレ" },
+        { "@type": "ListItem", "position": 6, "name": "MyM" },
+        { "@type": "ListItem", "position": 7, "name": "マルシィ" },
+        { "@type": "ListItem", "position": 8, "name": "ME:I" },
+        { "@type": "ListItem", "position": 9, "name": "RIIZE" },
+        { "@type": "ListItem", "position": 10, "name": "緑黄色社会" },
+        { "@type": "ListItem", "position": 11, "name": "LE SSERAFIM" }
       ]
     },
     {
@@ -1184,10 +1195,10 @@ overflow:hidden;
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Da-iCE「アンリミテッド」は何時頃披露されますか？",
+          "name": "LE SSERAFIM「BOOMPALA」は何時頃披露されますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "番組終盤の19:38頃に披露される可能性が高いと予想されます。前回（7/30）放送ではNumber_iが後半の見どころ枠でこの回最大の反響を集めた実績があり、今回もメンバー書き下ろしの最新シングルが終盤枠に置かれると見ています。実際の出演順は放送後に本ページで更新します。"
+            "text": "番組中盤の19:28頃の披露が有力と予想しています（あくまで筆者の予想）。前回（8/6）放送ではTravis Japanが中盤の見どころ枠に配置された実績があり、今回もグローバルな注目度の高いLE SSERAFIMが中盤枠に置かれると見ています。実際の出演順は放送後に本ページで更新します。"
           }
         },
         {
@@ -1195,15 +1206,15 @@ overflow:hidden;
           "name": "今回はどんな企画の放送回ですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "水谷千重子が今回からSTARナビゲーターに就任し、高橋真梨子の代表曲「桃色吐息」を熱唱する回です。Da-iCEは最新シングル「アンリミテッド」を、Travis Japanは新バージョンの「On My Road -Stadium ver.-」を披露し、＝LOVE・TWSも出演します。MCは引き続き上垣皓太朗です。"
+            "text": "『FNS歌謡祭』音楽班と『めざましテレビ』エンタメチームがコラボした特別企画回です。STARナビゲーターには元バレーボール日本代表の大林素子が就任し、中継MCは軽部真一が務めます。東京ガーデンシアターからは「めざましWANGANフェス STAR／めざましライブ」を生中継し、INI・CANDY TUNE・MyM・マルシィ・RIIZE・ちいかわ・ハチワレが出演します。"
           }
         },
         {
           "@type": "Question",
-          "name": "Travis Japan「On My Road -Stadium ver.-」は何時頃披露されますか？",
+          "name": "特別企画や初披露など今回固有の内容はありますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "番組中盤の19:27頃の披露が有力です。新バージョンでの披露という注目度の高さから、中盤のパフォーマンス枠に置かれると予想されます。実際の出演順は放送後に本ページで更新します。"
+            "text": "生中継パートでは、INI×RIIZEによるスペシャルコラボメドレーと、出演者全員が参加するCANDY TUNE「倍倍FIGHT!」のコラボ歌唱が予定されています。スタジオでは.ENDRECHERI.が8/12リリースの新アルバム収録曲「Thinking Time」を先行披露し、ME:I「花咲く道」はバンドサウンドへの新たな挑戦としても注目です。"
           }
         },
         {
@@ -1211,7 +1222,7 @@ overflow:hidden;
           "name": "タイムテーブルのリアルタイム更新はありますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "公式から詳細な時間は公開されませんが、当ページでは8月6日の19:00放送開始とともに、実際の進行・出演順をリアルタイムで速報更新します。"
+            "text": "公式から詳細な時間は公開されませんが、当ページでは8月13日の19:00放送開始とともに、実際の進行・出演順をリアルタイムで速報更新します。"
           }
         }
       ]
@@ -1235,7 +1246,7 @@ overflow:hidden;
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "8月6日 STAR タイムテーブル",
+          "name": "8月13日 STAR タイムテーブル",
           "item": "https://shira-treat.com/star-timetable/"
         }
       ]

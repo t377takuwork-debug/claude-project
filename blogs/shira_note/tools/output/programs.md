@@ -1,13 +1,13 @@
 # 番組ネタ候補
 
-収集日時: 2026年08月05日 07:10 (JST)
+収集日時: 2026年08月07日 07:10 (JST)
 合計: 1件（音楽番組 1件 / 長時間特番 0件）
 
 ## 音楽番組（1件）
 
-### Break Out 様々なシーンの最前線で活躍するアーティストたちに愛を捧げ、その素顔や魅力を発掘する音楽番組。
-- 放送日時: 8月5日 
-- URL: https://bangumi.org/tv_events/Al6wQoBRcAM
+### ミュージックステーション 10周年あいみょん、TMR、HY…名曲が続々！初登場ATEEZ🈑 あいみょんが名曲2曲披露▽T.M.Revolutionが夏名曲「HOT LIMIT」▽HYが「AM11:00」▽ATEEZが世界でヒット中「BAD」▽SU...
+- 放送日時: 8月7日 
+- URL: https://bangumi.org/tv_events/Al7AQoBxIAM
 
 ## 長時間特番（0件）
 

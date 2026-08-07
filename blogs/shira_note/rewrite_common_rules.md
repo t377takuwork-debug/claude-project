@@ -71,6 +71,7 @@
 - **インラインスタイル付き`<ul>`は使わず`<div>`で書く**（WPテーマCSSがfont-size等を上書きするため）
   - `<ul style="...">` → `<div style="...">`（list-style等リスト固有CSSは削除）、`<li>` → `<div>`、シンプルな箇条書きは先頭に`・`
 - **スマートクォート禁止**：EditでHTMLブロックを差し替える際、U+201C/U+201D/U+2018/U+2019が混入するとHTML属性が壊れる。リライト完了後に必ず`python tools/qa_draft.py {ファイル名} --fix`で検証・修正
+- **H3以降の見出しは`<!-- wp:heading {"level":N} -->`と明示する**（`<!-- wp:heading -->`のみだとlevel省略＝Gutenberg側はH2として扱う。内部に`<h3>`と書いてもWordPress保存時にH2へ矯正され、記事構成が崩れる。2026-08-07 shira-keyword-articleでの実例を機に`qa_draft.py`の`check_heading_level_mismatch`で機械検知するようにした）
 
 ## 6. 継続性表現の誤読防止
 

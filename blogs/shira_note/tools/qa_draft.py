@@ -13,6 +13,8 @@ Usage:
   [ERROR] スマートクォート混入（U+201C/U+201D/U+2018/U+2019）→ --fix で自動修正可
   [ERROR] 文字化け（U+FFFD）混入
   [ERROR] WPブロックコメントの開閉不一致（wp:paragraph / wp:html / wp:heading 等）
+  [ERROR] wp:headingのlevel属性と<hN>タグの不一致（level省略=H2扱いのため、H3以降は{"level":N}必須。
+          省略するとWordPress保存時にH3がH2へ矯正される）
   [ERROR] ショートコードとテキストの同一<p>混在（[nopc][title]等は独立ブロック必須）
   [ERROR] [nopc][originalsc][/nopc]と[kanrenad]の連続配置（間に本文段落が必要 — rewrite_common_rules.md 4章）
   [ERROR] JSON-LDのパースエラー
@@ -274,6 +276,28 @@ def check_wp_blocks(text: str, rep: Report):
         closes = len(re.findall(rf"<!--\s*/wp:{btype}\s*-->", text))
         if opens != closes:
             rep.error(f"WPブロック開閉不一致: wp:{btype} 開始{opens} / 終了{closes}")
+
+
+def check_heading_level_mismatch(lines: list[str], rep: Report):
+    """wp:headingブロックのlevel属性と内部<hN>タグの見出しレベルが一致しているか確認する。
+    level属性省略時、GutenbergはH2として扱う（<h3>等を書いても再保存時にH2へ矯正される）ため、
+    H3以上を使う場合は必ず <!-- wp:heading {"level":N} --> を明示する必要がある。
+    """
+    for i, line in enumerate(lines):
+        m = re.search(r'<!--\s*wp:heading(?:\s+\{"level":(\d)\})?\s*-->', line)
+        if not m:
+            continue
+        expected = int(m.group(1)) if m.group(1) else 2
+        for j in range(i + 1, min(i + 4, len(lines))):
+            hm = re.search(r"<h([1-6])[ >]", lines[j])
+            if hm:
+                actual = int(hm.group(1))
+                if actual != expected:
+                    rep.error(
+                        f"L{i+1}: wp:headingのlevel属性({expected})と<h{actual}>タグが不一致 "
+                        f"→ H{actual}にするなら <!-- wp:heading {{\"level\":{actual}}} --> に修正 → {ctx(lines[j])}"
+                    )
+                break
 
 
 def check_shortcode_isolation(lines: list[str], rep: Report):
@@ -739,6 +763,7 @@ def run_qa(path: str) -> Report:
     check_smart_quotes(lines, rep)
     check_mojibake(lines, rep)
     check_wp_blocks(text, rep)
+    check_heading_level_mismatch(lines, rep)
     check_shortcode_isolation(lines, rep)
     check_shortcode_adjacency(lines, rep)
     descriptions = check_jsonld(text, rep)
