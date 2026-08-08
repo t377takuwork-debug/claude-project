@@ -59,12 +59,11 @@
 <!-- /wp:paragraph -->
 ```
 
-- **ショートコード（`[nopc][title]`・`[nopc][mokujimae]`・`[nopc][originalsc]`・`[kanrenad]`）は必ず単独のwp:paragraphブロックに配置**。前後テキストとの同一ブロック混在は絶対NG
+- **ショートコード（`[nopc][title]`・`[nopc][mokujimae]`・`[nopc][originalsc]`）は必ず単独のwp:paragraphブロックに配置**。前後テキストとの同一ブロック混在は絶対NG
   - NG例: `<p>テキスト[nopc][title][/nopc]</p>` / `<p>[nopc][mokujimae][/nopc]締め文</p>`
-  - `[nopc][originalsc][/nopc]`と`[kanrenad]`は**別物**（2026-07-24訂正: 「置き換え済み」ではない）。`[nopc][originalsc][/nopc]`は記事前半の既存位置にそのまま維持し、次の広告差し込み位置（例: 放送アーカイブパネル直後・「放送前のため未確定」等の注記パラグラフの手前）は`[kanrenad]`のみを新規配置する。`[kanrenad]`はnopcで囲まない
-  - **既にdraft内に`[nopc][originalsc][/nopc]`が2箇所ある場合、2箇所目（広告差し込み位置）を`[kanrenad]`へ変換してよい**（3箇所目として追加する必要はない。2026-07-24 Mステ8/7回で司令塔が「2箇所目→kanrenad変換」を誤って差し戻し、ユーザーがこれを意図的な仕様と確認済み）
-  - **この2つを連続配置してはいけない**（`[nopc][originalsc][/nopc]`のブロック直後に`[kanrenad]`のブロックを続けて置く等はNG。間に本文パラグラフ等を挟むこと）。**`qa_draft.py`が機械検知する**（`check_shortcode_adjacency`。間に他のwp:html/見出し等の実質コンテンツがあれば合格、blank行とwp:paragraphコメントのみの隙間はERROR）
-  - 音楽の日等、数時間に及ぶ長尺タイムテーブル記事では`[nopc][originalsc][/nopc]`を追加でもう1箇所使ってよい（その場合も他ショートコードと連続配置しない）。配置個数・位置は記事のボリュームに応じて調整する（全番組共通仕様。2026-07-24 STAR回で誤って全置換・連続配置した反省を反映）
+  - **`[kanrenad]`は使用しない**（2026-08-08廃止。2026-07-21〜08-08は広告差し込み位置の2箇所目として試験導入していたが、`[nopc][originalsc][/nopc]`に一本化。既存draftの`[kanrenad]`は全て`[nopc][originalsc][/nopc]`へ置き換え済み）
+  - 音楽の日等、数時間に及ぶ長尺タイムテーブル記事や広告差し込み位置を増やしたい場合は`[nopc][originalsc][/nopc]`を追加でもう1箇所使ってよい。配置個数・位置は記事のボリュームに応じて調整する（全番組共通仕様）
+  - **同じショートコードを連続配置してはいけない**（`[nopc][originalsc][/nopc]`のブロック直後に別の`[nopc][originalsc][/nopc]`ブロックを続けて置く等はNG。間に本文パラグラフ等を挟むこと）。**`qa_draft.py`が機械検知する**（`check_shortcode_adjacency`。間に他のwp:html/見出し等の実質コンテンツがあれば合格、blank行とwp:paragraphコメントのみの隙間はERROR）
 
 ## 5. HTML実装ルール
 

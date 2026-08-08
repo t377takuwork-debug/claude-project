@@ -16,7 +16,7 @@ Usage:
   [ERROR] wp:headingのlevel属性と<hN>タグの不一致（level省略=H2扱いのため、H3以降は{"level":N}必須。
           省略するとWordPress保存時にH3がH2へ矯正される）
   [ERROR] ショートコードとテキストの同一<p>混在（[nopc][title]等は独立ブロック必須）
-  [ERROR] [nopc][originalsc][/nopc]と[kanrenad]の連続配置（間に本文段落が必要 — rewrite_common_rules.md 4章）
+  [ERROR] [nopc][originalsc][/nopc]の連続配置（間に本文段落が必要 — rewrite_common_rules.md 4章）
   [ERROR] JSON-LDのパースエラー
   [ERROR] JSON-LDの@id/urlが固定記事URL（NAV_FIXED_URLS）と不一致（スラッグ誤記検知）
   [ERROR] メタディスクリプションとJSON-LD descriptionの不一致
@@ -315,12 +315,11 @@ def check_shortcode_isolation(lines: list[str], rep: Report):
 
 SHORTCODE_ADJACENCY_MARKERS = [
     re.compile(r"<p>\[nopc\]\[originalsc\]\[/nopc\]</p>"),
-    re.compile(r"<p>\[kanrenad\]</p>"),
 ]
 
 
 def check_shortcode_adjacency(lines: list[str], rep: Report):
-    """[nopc][originalsc][/nopc]と[kanrenad]を連続配置していないか（間に本文段落が必要）"""
+    """[nopc][originalsc][/nopc]を連続配置していないか（間に本文段落が必要）"""
     marker_idxs = [
         i
         for i, line in enumerate(lines)
@@ -334,7 +333,7 @@ def check_shortcode_adjacency(lines: list[str], rep: Report):
         )
         if not has_content:
             rep.error(
-                f"L{prev+1}/L{cur+1}: [originalsc]と[kanrenad]が連続配置（間に本文段落が必要 — rewrite_common_rules.md 4章）"
+                f"L{prev+1}/L{cur+1}: [originalsc]が連続配置（間に本文段落が必要 — rewrite_common_rules.md 4章）"
             )
 
 

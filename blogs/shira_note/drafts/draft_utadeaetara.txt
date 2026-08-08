@@ -398,7 +398,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>[kanrenad]</p>
+<p>[nopc][originalsc][/nopc]</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->

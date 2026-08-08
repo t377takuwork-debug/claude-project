@@ -304,7 +304,7 @@ CDTVライブ！ライブ！（カウントダウンTV）8月10日タイムテ�
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>[kanrenad]</p>
+<p>[nopc][originalsc][/nopc]</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
