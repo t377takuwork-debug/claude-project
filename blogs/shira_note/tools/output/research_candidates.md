@@ -1,54 +1,66 @@
 # Shira Notes ネタリサーチ候補（過去12時間・未ジャンル判定）
 
-調査時刻: 2026-08-07 08:26 JST
-対象: 2026-08-06 20:26 以降
+調査時刻: 2026-08-09 06:39 JST
+対象: 2026-08-08 18:39 以降
 
 ※ 時間フィルタ・重複排除済みの候補リスト。番組・タイムテーブル記事/
   発売・予約記事として実際に使えるかどうかの絞り込みは /shira-research
   コマンド側（Step 4以降）で行う。
 
-## natalie.mu/music（12件）
+## natalie.mu/music（13件）
 
-- 08:00 ｜ Soalaが新曲MV公開、横山裕主演「今夜もシリアルキラーと待ち合わせ」オープニング曲
-  https://natalie.mu/music/news/684169
-- 07:00 ｜ 映画「八つ墓村」主題歌はB'z松本孝弘率いるTMG
-  https://natalie.mu/music/news/684151
-- 07:00 ｜ 羊文学が主題歌＆挿入歌、君島大空が劇伴担当のアニメ映画「ghost／夜の果て」特報公開
-  https://natalie.mu/music/news/684170
-- 06:00 ｜ Snow Manラウールと深澤辰哉が「アナザースカイ」出演　どちらかがパリ、どちらかが武蔵小山を訪れる
-  https://natalie.mu/music/news/684157
-- 05:00 ｜ 岩田剛典とイモトアヤコが「24時間テレビ」で石川県珠洲市を訪問、能登の子どもたちと巨大地上絵プロジェクトに挑戦
-  https://natalie.mu/music/news/684153
-- 04:00 ｜ timelesz菊池風磨と皆川猿時が再共演、理容室を舞台に絶妙なかけ合いを見せる
-  https://natalie.mu/music/news/684162
-- 04:00 ｜ King & Prince髙橋海人、大好きなエトロとのコラボに大興奮「ありえない。ありえてはいけない。ありえてはならない」
-  https://natalie.mu/music/news/683721
-- 00:00 ｜ Lienelニューシングル「愛のダバダ」はアイドル歌謡、作詞作曲は「好きすぎて滅！」手がけた浅野尚志
-  https://natalie.mu/music/news/684161
-- 00:00 ｜ Bimiの3曲連続配信スタート、第1弾は阿波踊りオマージュした「Bubbly」
-  https://natalie.mu/music/news/684147
-- 00:00 ｜ Adoの新曲「モンストロ」MV舞台は近未来都市、映画「ブルーロック」主題歌
-  https://natalie.mu/music/news/684144
-- 08/06 23:21 ｜ 福山雅治の年末恒例ライブ「冬の大感謝祭」今年もKアリーナ横浜で開催
-  https://natalie.mu/music/news/684171
-- 08/06 21:00 ｜ インナージャーニー、メジャー1st EPリリース
-  https://natalie.mu/music/news/684110
+- 04:00 ｜ Howzitの初ツアー開幕、多彩なパフォーマンスで示した事務所の伝統を受け継ぐ覚悟
+  https://natalie.mu/music/news/684343
+- 08/08 23:07 ｜ angela初のカバーアルバム「スタチャまみれ？！」で名作アニソンをカバー
+  https://natalie.mu/music/news/684454
+- 08/08 22:33 ｜ DJ社長が活動終了を報告
+  https://natalie.mu/music/news/684453
+- 08/08 22:19 ｜ 眞名子新、作詞担当の兄・motoki manakoが監督務めた「角」ミュージックビデオ公開
+  https://natalie.mu/music/news/684450
+- 08/08 22:08 ｜ 8月8日は「超特急・8号車の日」、日本記念日協会に正式登録
+  https://natalie.mu/music/news/684451
+- 08/08 22:00 ｜ Travis Japan「On My Road」スタジアムで12時間撮影のMV舞台裏を公開
+  https://natalie.mu/music/news/684449
+- 08/08 21:26 ｜ RE-GEが2ndシングルリリース、畑亜貴と山口朗彦がタッグ組んだ青春ラブソング
+  https://natalie.mu/music/news/684445
+- 08/08 21:00 ｜ SEPT新シリーズ開催決定！木本慎之介、今村美月、ピコ、星名美怜ら出演
+  https://natalie.mu/music/news/684442
+- 08/08 21:00 ｜ 新井ひとみ新プロジェクト「レトロマンチックポップ」始動、TikTok配信企画やFC開設も発表
+  https://natalie.mu/music/news/684441
+- 08/08 21:00 ｜ 04 Limited Sazabys新EP「VIEW」にB-DASH「KIDS」カバー収録
+  https://natalie.mu/music/news/684422
+- 08/08 20:41 ｜ 私立恵比寿中学、東京ガーデンシアターで開催「大学芸会2027 This is GR8」
+  https://natalie.mu/music/news/684443
+- 08/08 20:30 ｜ DEZERT、会場限定でCD発売
+  https://natalie.mu/music/news/684416
+- 08/08 20:00 ｜ ExWHYZ最後のアルバム先行配信
+  https://natalie.mu/music/news/684427
 
-## リリース系サイト（8件）
+## リリース系サイト（13件）
 
-- 08:00 ｜ モデルプレス ｜ Snow Man深澤辰哉、有田哲平とのテンポに手応え “アイドル崩れ”イジりには即ツッコミ「一応ド真ん中を走ってるつもり」【アリフォルニア】
-  https://mdpr.jp/news/4817406
-- 07:00 ｜ ORICON NEWS ｜ B’z松本孝弘率いるTMG、映画『八つ墓村』主題歌を書き下ろし エンディングを彩る
-  https://www.oricon.co.jp/news/2472602/
-- 05:50 ｜ リアルサウンド ｜ Snow Man 宮舘涼太、CM／アンバサダー連続起用の背景　保険、食品、美容……幅広い業界から求められる理由とは
-  https://realsound.jp/2026/08/post-2482153.html
-- 00:00 ｜ リアルサウンド ｜ Girls Archives. プレデビュー曲「Reborn」MVフルバージョン公開　映画『THE RIBBON HERO』主題歌
-  https://realsound.jp/2026/08/post-2484288.html
-- 00:00 ｜ リアルサウンド ｜ Ado、実写映画『ブルーロック』主題歌「モンストロ」MV公開　近未来都市を舞台にカーチェイス描く
-  https://realsound.jp/2026/08/post-2484260.html
-- 08/06 21:00 ｜ ORICON NEWS ｜ 手越祐也、全国ソロツアー『SUPER STAR』ファイナルを生中継 2夜連続で特集
-  https://www.oricon.co.jp/news/2472507/
-- 08/06 20:55 ｜ リアルサウンド ｜ syrup16g、9都市を巡る全国ツアー『Canon Feel』開催　結成30周年の節目を締めくくるツアーに
-  https://realsound.jp/2026/08/post-2483776.html
-- 08/06 20:30 ｜ ORICON NEWS ｜ FANTASTICS八木勇征&中島颯太、ソロデビュー曲&新曲サプライズ歌唱 『山羊と犬』海外単独ライブへの思い語る【ライブレポート】
-  https://www.oricon.co.jp/news/2472502/
+- 05:50 ｜ リアルサウンド ｜ 工藤静香、堀ちえみ、相川七瀬、西野カナ……結婚や出産、変化を経てもなおステージで放つ輝き
+  https://realsound.jp/2026/08/post-2482469.html
+- 04:00 ｜ モデルプレス ｜ ジュニア・Howzit、覚悟と夢を胸に刻んだ新たな幕開け 5人のルーツと強みが交差する念願の初ステージ【ライブレポ／Howzit 1st LIVE 2026 NICE TO ME YOU】
+  https://mdpr.jp/news/4826475
+- 04:00 ｜ ORICON NEWS ｜ Howzit、新グループ始動で夢掲げる「地球上で1番のホットスポットに」 大倉忠義プロデューサーからのメッセージも紹介
+  https://www.oricon.co.jp/news/2472469/
+- 04:00 ｜ ORICON NEWS ｜ 6月結成のHowzit、リーダーは未定 有力候補は檜山光成?黒田光輝が勝手に指名
+  https://www.oricon.co.jp/news/2472915/
+- 04:00 ｜ ORICON NEWS ｜ Howzit初の単独ライブを開催 新たなスタートを約2300人が見届ける【ライブレポート】
+  https://www.oricon.co.jp/news/2472927/
+- 04:00 ｜ ORICON NEWS ｜ ジュニア新グループ・Howzit、初の単独ライブ開幕 西村拓哉が決意の涙【メンバーあいさつ全文】
+  https://www.oricon.co.jp/news/2472922/
+- 08/08 21:03 ｜ ORICON NEWS ｜ DA PUMP、30周年に向けたツアー開幕 怒涛のダンスパフォーマンスで魅了
+  https://www.oricon.co.jp/news/2472932/
+- 08/08 20:55 ｜ ORICON NEWS ｜ MATSURI、2nd コンサートツアー初日公演を開催 史上初めてプロデュースした秋元康氏が作詞していない表題曲を披露 秋元氏「これだと直感的に思ってしまいました」【コメント全文】
+  https://www.oricon.co.jp/news/2472930/
+- 08/08 20:30 ｜ リアルサウンド ｜ SUPER EIGHT、来春のアリーナツアー開催＆ニューアルバム発売を発表　“超八”の日にサプライズ告知
+  https://realsound.jp/2026/08/post-2486275.html
+- 08/08 20:00 ｜ リアルサウンド ｜ RE-GE、2ndシングル『どこにいても絶対君を見つけるよ』リリース　初のユニット楽曲も収録
+  https://realsound.jp/2026/08/post-2486207.html
+- 08/08 19:42 ｜ リアルサウンド ｜ Cocco、沖縄の歌を集めたニューアルバム『ハナウムイ』リリース　「強く儚い者たち」アレンジも
+  https://realsound.jp/2026/08/post-2486333.html
+- 08/08 18:51 ｜ リアルサウンド ｜ yosugala、メジャー2nd EP『ラムネ』詳細発表　ジャケット＆新アーティスト写真も公開
+  https://realsound.jp/2026/08/post-2486321.html
+- 08/08 18:44 ｜ モデルプレス ｜ 中島歩、“明治時代の文豪”の玄孫だった「教科書にも載っている」名前も先祖に由来
+  https://mdpr.jp/news/4826451
