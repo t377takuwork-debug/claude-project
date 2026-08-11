@@ -75,7 +75,7 @@ overflow: hidden;
     <div style="font-size: 10px; font-weight: 900; color: #64748b; letter-spacing: 0.12em; margin-bottom: 6px; display: flex; align-items: center; gap: 8px;">
       7/24(金) LINEUP <span style="flex-grow: 1; height: 1px; background: #f0f4f8;"></span>
     </div>
-    <p style="margin: 0; font-size: 12px; line-height: 1.6; color: #475569; font-weight: 700; letter-spacing: 0.05em; word-break: break-all;">
+    <p style="margin: 0; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); line-height: 1.6; color: #475569; font-weight: 700; letter-spacing: 0.05em; word-break: break-all;">
       アイナ・ジ・エンド / ILLIT / ZAZEN BOYS / SWEET STEADY / timelesz / 乃木坂46 / ヤングスキニー
     </p>
   </div>
@@ -85,7 +85,7 @@ overflow: hidden;
     <div style="font-size: 10px; font-weight: 900; color: #64748b; letter-spacing: 0.12em; margin-bottom: 6px; display: flex; align-items: center; gap: 8px;">
       7/17(金) LINEUP <span style="flex-grow: 1; height: 1px; background: #f0f4f8;"></span>
     </div>
-    <p style="margin: 0; font-size: 12px; line-height: 1.6; color: #475569; font-weight: 700; letter-spacing: 0.05em; word-break: break-all;">
+    <p style="margin: 0; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); line-height: 1.6; color: #475569; font-weight: 700; letter-spacing: 0.05em; word-break: break-all;">
       IVE / 塩﨑太智（M!LK） / MON7A / SixTONES / Snow Man / SEKAI NO OWARI / Toshl / 中森明菜 / BE:FIRST / Mrs. GREEN APPLE / 優里
     </p>
   </div>
@@ -95,7 +95,7 @@ overflow: hidden;
     <div style="font-size: 10px; font-weight: 900; color: #64748b; letter-spacing: 0.12em; margin-bottom: 6px; display: flex; align-items: center; gap: 8px;">
       7/10(金) LINEUP <span style="flex-grow: 1; height: 1px; background: #edf2f7;"></span>
     </div>
-    <p style="margin: 0; font-size: 12px; line-height: 1.6; color: #475569; font-weight: 700; letter-spacing: 0.05em; word-break: break-all;">
+    <p style="margin: 0; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); line-height: 1.6; color: #475569; font-weight: 700; letter-spacing: 0.05em; word-break: break-all;">
       Hearts2Hearts / Juice=Juice / ハンバート ハンバート / M!LK / Kis-My-Ft2 / DOMOTO
     </p>
   </div>
@@ -154,7 +154,7 @@ overflow: hidden;
       </div>
       <div>
         <div style="font-size: 13px; font-weight: 800; color: #1e293b;">7月10日（金）21:00〜21:54</div>
-        <div style="font-size: 11px; font-weight: 500; color: #64748b; margin-top: 2px;">Kis-My-Ft2デビュー15周年、DOMOTO、Juice=Juiceなどが出演</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 500; color: #64748b; margin-top: 2px;">Kis-My-Ft2デビュー15周年、DOMOTO、Juice=Juiceなどが出演</div>
       </div>
     </div>
     <span style="font-size: 10px; font-weight: 800; color: #64748b; background: #f1f5f9; padding: 3px 8px; border-radius: 2px; flex-shrink: 0;">放送済</span>
@@ -169,7 +169,7 @@ overflow: hidden;
       </div>
       <div>
         <div style="font-size: 13px; font-weight: 800; color: #1e293b;">7月17日（金）20:00〜21:48（2時間スペシャル）</div>
-        <div style="font-size: 11px; font-weight: 500; color: #64748b; margin-top: 2px;">中森明菜が30年ぶり出演、SixTONES、Snow Man、BE:FIRSTなど豪華11組が出演</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 500; color: #64748b; margin-top: 2px;">中森明菜が30年ぶり出演、SixTONES、Snow Man、BE:FIRSTなど豪華11組が出演</div>
       </div>
     </div>
     <span style="font-size: 10px; font-weight: 800; color: #64748b; background: #f1f5f9; padding: 3px 8px; border-radius: 2px; flex-shrink: 0;">放送済</span>
@@ -184,7 +184,7 @@ overflow: hidden;
       </div>
       <div>
         <div style="font-size: 13px; font-weight: 800; color: #1e293b;">7月24日（金）21:00〜21:54</div>
-        <div style="font-size: 11px; font-weight: 500; color: #64748b; margin-top: 2px;">ZAZEN BOYS・SWEET STEADYが初出演、乃木坂46・timeleszなど計7組が出演</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 500; color: #64748b; margin-top: 2px;">ZAZEN BOYS・SWEET STEADYが初出演、乃木坂46・timeleszなど計7組が出演</div>
       </div>
     </div>
     <span style="font-size: 10px; font-weight: 800; color: #64748b; background: #f1f5f9; padding: 3px 8px; border-radius: 2px; flex-shrink: 0;">放送済</span>
@@ -220,7 +220,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">アイナ・ジ・エンド</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「Blue Shining Star」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「Blue Shining Star」を披露。</p>
     </div>
   </div>
 
@@ -228,7 +228,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">ILLIT</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「I Got Your Back」「It's Me」の2曲を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「I Got Your Back」「It's Me」の2曲を披露。</p>
     </div>
   </div>
 
@@ -236,7 +236,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">ZAZEN BOYS <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">Mステ初出演・トリ</span></p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「ポテトサラダ」をトリで初出演披露。異質な世界観に「異常空間」「格が違う」と反応が番組内で最大に爆発しました。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「ポテトサラダ」をトリで初出演披露。異質な世界観に「異常空間」「格が違う」と反応が番組内で最大に爆発しました。</p>
     </div>
   </div>
 
@@ -244,7 +244,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">SWEET STEADY <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">単独初出演</span></p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「SWEET STEP」を単独初出演で披露。ウインクや個別の反応に「念願」「泣ける」の声が相次ぎました。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「SWEET STEP」を単独初出演で披露。ウインクや個別の反応に「念願」「泣ける」の声が相次ぎました。</p>
     </div>
   </div>
 
@@ -252,7 +252,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">timelesz</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「消えない花火」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「消えない花火」を披露。</p>
     </div>
   </div>
 
@@ -260,7 +260,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">乃木坂46</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「是非に及ばず」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「是非に及ばず」を披露。</p>
     </div>
   </div>
 
@@ -268,7 +268,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">ヤングスキニー <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">Mステ初出演</span></p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「雪月花」を初登場披露。バラード曲に「泣いた」「声好き」の声が広がりました。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「雪月花」を初登場披露。バラード曲に「泣いた」「声好き」の声が広がりました。</p>
     </div>
   </div>
 
@@ -323,7 +323,7 @@ overflow: hidden;
         <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:00〜15頃 / OPENING</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
           <strong style="color: #001a4d;">timelesz「消えない花火」</strong><br>
-          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">オープニングトークではタモリ・向井秀徳（ZAZEN BOYS）とのやりとりにアイナ・ジ・エンドが参加し、「橋渡し役」と話題になった。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">オープニングトークではタモリ・向井秀徳（ZAZEN BOYS）とのやりとりにアイナ・ジ・エンドが参加し、「橋渡し役」と話題になった。</span>
         </div>
       </div>
 
@@ -332,7 +332,7 @@ overflow: hidden;
         <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:15〜30頃 / EARLY</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
           <strong style="color: #001a4d;">アイナ・ジ・エンド「Blue Shining Star」</strong><br>
-          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">青い照明とスタンドマイクでの繊細な歌唱・仕草に「圧巻」「幻想的でスタイリッシュ」の声が集中した。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">青い照明とスタンドマイクでの繊細な歌唱・仕草に「圧巻」「幻想的でスタイリッシュ」の声が集中した。</span>
         </div>
       </div>
 
@@ -341,7 +341,7 @@ overflow: hidden;
         <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:30〜40頃 / MID BLOCK</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
           <strong style="color: #001a4d;">ILLIT「I Got Your Back」「It's Me」 → ヤングスキニー「雪月花」（初登場）</strong><br>
-          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">ILLITは安定した好意反応、ヤングスキニーは初登場のバラードに「泣いた」「声好き」の声が広がった。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">ILLITは安定した好意反応、ヤングスキニーは初登場のバラードに「泣いた」「声好き」の声が広がった。</span>
         </div>
       </div>
 
@@ -350,7 +350,7 @@ overflow: hidden;
         <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:40〜50頃 / TALK</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
           <strong style="color: #001a4d;">SWEET STEADY「SWEET STEP」（単独初出演） → 乃木坂46「是非に及ばず」</strong><br>
-          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">SWEET STEADYのウインクに「念願」「泣ける」の声、乃木坂46は「ポニテ美しい」と安定した好反応を集めた。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">SWEET STEADYのウインクに「念願」「泣ける」の声、乃木坂46は「ポニテ美しい」と安定した好反応を集めた。</span>
         </div>
       </div>
 
@@ -359,20 +359,20 @@ overflow: hidden;
         <div style="font-size: 11px; color: #ff0084; font-weight: 900;">21:50〜54頃 / ★投稿爆発の最大ピーク</div>
         <div style="font-size: 13px; color: #1a202c; line-height: 1.5;">
           <span style="font-weight: 900; color: #001a4d;">ZAZEN BOYS「ポテトサラダ」（トリ・Mステ初出演）</span><br>
-          <span style="font-size: 11px; color: #718096; font-weight: 600;">異質な世界観に「異常空間」「格が違う」「鳥肌」「浮いてて最高」と反応が殺到し、番組全体で最大の投稿ピークとなった。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; font-weight: 600;">異質な世界観に「異常空間」「格が違う」「鳥肌」「浮いてて最高」と反応が殺到し、番組全体で最大の投稿ピークとなった。</span>
         </div>
       </div>
 
     </div>
 
-    <div style="font-size: 11px; color: #4a5568; background: #f1f5f9; border-radius: 4px; padding: 10px; margin-bottom: 16px; line-height: 1.6; font-weight: 600;">
+    <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #4a5568; background: #f1f5f9; border-radius: 4px; padding: 10px; margin-bottom: 16px; line-height: 1.6; font-weight: 600;">
       <span style="display: inline-block; background: #003366; color: #fff; padding: 0 6px; border-radius: 2px; margin-right: 4px; font-weight: 900; font-size: 9px;">REPORT</span>
       ZAZEN BOYSの「ポテトサラダ」トリ披露が「異常空間」「格が違う」と話題を呼び、番組全体で最大の投稿ピークに。アイナ・ジ・エンドのライブ・トーク両面での活躍、SWEET STEADYの単独初出演も高い熱量を集めた回でした。
     </div>
 
     <div style="display: flex; flex-direction: column; gap: 12px;">
       <div style="background: #1a202c; color: #fff; padding: 12px; border-radius: 4px; text-align: center;">
-        <span style="font-size: 12px; font-weight: 800;">※Mステは基本的にTVer等での見逃し配信がありません（録画推奨）</span>
+        <span style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 800;">※Mステは基本的にTVer等での見逃し配信がありません（録画推奨）</span>
       </div>
       <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 8px; border-top: 1px solid #edf2f7;">
         <div style="font-size: 8px; color: #a0aec0; font-weight: 800; letter-spacing: 0.5px;">ESTIMATED FROM SNS REALTIME TREND</div>
@@ -406,7 +406,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">IVE</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「LUCID DREAM」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「LUCID DREAM」を披露。</p>
     </div>
   </div>
 
@@ -414,7 +414,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">塩﨑太智（M!LK）</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「しおざきわんだーらんど」を披露。M!LKとして「You!Joy!Parade!」も披露した。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「しおざきわんだーらんど」を披露。M!LKとして「You!Joy!Parade!」も披露した。</p>
     </div>
   </div>
 
@@ -422,7 +422,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">MON7A</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「僕のかわい子ちゃん」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「僕のかわい子ちゃん」を披露。</p>
     </div>
   </div>
 
@@ -430,7 +430,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">SixTONES</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「マイオンリー」「Dance Forever」の2曲を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「マイオンリー」「Dance Forever」の2曲を披露。</p>
     </div>
   </div>
 
@@ -438,7 +438,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">Snow Man</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「グッタイム」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「グッタイム」を披露。</p>
     </div>
   </div>
 
@@ -446,7 +446,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">SEKAI NO OWARI</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「眠り姫（Happy Ending Version）」「Stella」の2曲を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「眠り姫（Happy Ending Version）」「Stella」の2曲を披露。</p>
     </div>
   </div>
 
@@ -454,7 +454,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">Toshl</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">企画コーナー「Toshlの3択 アニソン編」に出演。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">企画コーナー「Toshlの3択 アニソン編」に出演。</p>
     </div>
   </div>
 
@@ -462,7 +462,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">中森明菜 <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">30年ぶり出演</span></p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「ごめんと、すきと、」（約10年ぶりのニューシングル）「難破船（TV Edit）」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「ごめんと、すきと、」（約10年ぶりのニューシングル）「難破船（TV Edit）」を披露。</p>
     </div>
   </div>
 
@@ -470,7 +470,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">BE:FIRST</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「Missing」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「Missing」を披露。</p>
     </div>
   </div>
 
@@ -478,7 +478,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">Mrs. GREEN APPLE</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「Brand New」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「Brand New」を披露。</p>
     </div>
   </div>
 
@@ -486,7 +486,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">優里</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「サンダーボルト」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「サンダーボルト」を披露。</p>
     </div>
   </div>
 
@@ -541,7 +541,7 @@ overflow: hidden;
         <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">20:00〜15頃 / OPENING</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
           <strong style="color: #001a4d;">IVE「LUCID DREAM」</strong><br>
-          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">華やかな並び・衣装に視覚的な反応が多数。K-Popファン層の投稿が活発だった。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">華やかな並び・衣装に視覚的な反応が多数。K-Popファン層の投稿が活発だった。</span>
         </div>
       </div>
 
@@ -550,7 +550,7 @@ overflow: hidden;
         <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">20:15〜30頃 / EARLY</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
           <strong style="color: #001a4d;">塩﨑太智（M!LK）「しおざきわんだーらんど」／M!LK「You!Joy!Parade!」</strong><br>
-          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">ソロ初披露に「一生懸命」「涙出る」と高評価。他アーティストの応援反応も話題に。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">ソロ初披露に「一生懸命」「涙出る」と高評価。他アーティストの応援反応も話題に。</span>
         </div>
       </div>
 
@@ -559,7 +559,7 @@ overflow: hidden;
         <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">20:30〜45頃 / MID BLOCK</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
           <strong style="color: #001a4d;">SixTONES「マイオンリー」「Dance Forever」 → Snow Man「グッタイム」</strong><br>
-          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">「衣装良い」「演出ワチャワチャ楽しかった」と投稿密度高め。ジュニアバックダンサー参加も好評。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">「衣装良い」「演出ワチャワチャ楽しかった」と投稿密度高め。ジュニアバックダンサー参加も好評。</span>
         </div>
       </div>
 
@@ -568,7 +568,7 @@ overflow: hidden;
         <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:05〜20頃 / TALK</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
           <strong style="color: #001a4d;">Mrs. GREEN APPLE「Brand New」</strong><br>
-          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">初披露熱演に称賛の声。M!LKとの同世代トーク（お辞儀ループ）が名場面化した。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">初披露熱演に称賛の声。M!LKとの同世代トーク（お辞儀ループ）が名場面化した。</span>
         </div>
       </div>
 
@@ -577,20 +577,20 @@ overflow: hidden;
         <div style="font-size: 11px; color: #ff0084; font-weight: 900;">21:20〜40頃 / ★投稿爆発の最大ピーク</div>
         <div style="font-size: 13px; color: #1a202c; line-height: 1.5;">
           <span style="font-weight: 900; color: #001a4d;">中森明菜「ごめんと、すきと、」「難破船」</span><br>
-          <span style="font-size: 11px; color: #718096; font-weight: 600;">30年ぶり復帰のスペシャルに「表現力すごい」「難破船涙」と歴史的瞬間として反応が殺到した。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; font-weight: 600;">30年ぶり復帰のスペシャルに「表現力すごい」「難破船涙」と歴史的瞬間として反応が殺到した。</span>
         </div>
       </div>
 
     </div>
 
-    <div style="font-size: 11px; color: #4a5568; background: #f1f5f9; border-radius: 4px; padding: 10px; margin-bottom: 16px; line-height: 1.6; font-weight: 600;">
+    <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #4a5568; background: #f1f5f9; border-radius: 4px; padding: 10px; margin-bottom: 16px; line-height: 1.6; font-weight: 600;">
       <span style="display: inline-block; background: #003366; color: #fff; padding: 0 6px; border-radius: 2px; margin-right: 4px; font-weight: 900; font-size: 9px;">REPORT</span>
       中森明菜の30年ぶり復帰・「難破船」披露が番組全体で最大の投稿ピーク。SixTONES・Snow Manのライブ披露も密度高く、Mrs. GREEN APPLEとM!LKのお辞儀トークも反応の核になった回。
     </div>
 
     <div style="display: flex; flex-direction: column; gap: 12px;">
       <div style="background: #1a202c; color: #fff; padding: 12px; border-radius: 4px; text-align: center;">
-        <span style="font-size: 12px; font-weight: 800;">※Mステは基本的にTVer等での見逃し配信がありません（録画推奨）</span>
+        <span style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 800;">※Mステは基本的にTVer等での見逃し配信がありません（録画推奨）</span>
       </div>
       <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 8px; border-top: 1px solid #edf2f7;">
         <div style="font-size: 8px; color: #a0aec0; font-weight: 800; letter-spacing: 0.5px;">ESTIMATED FROM SNS REALTIME TREND</div>
@@ -624,7 +624,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">Hearts2Hearts</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「Lemon Tang」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「Lemon Tang」を披露。</p>
     </div>
   </div>
 
@@ -632,7 +632,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">Juice=Juice</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「盛れ！ミ・アモーレ」「クラクラ☆クライマックス」の2曲を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「盛れ！ミ・アモーレ」「クラクラ☆クライマックス」の2曲を披露。</p>
     </div>
   </div>
 
@@ -640,7 +640,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">ハンバート ハンバート</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「浪漫飛行」（カバー）「笑ったり転んだり」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「浪漫飛行」（カバー）「笑ったり転んだり」を披露。</p>
     </div>
   </div>
 
@@ -648,7 +648,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">M!LK（曽野舜太＆山中柔太朗）</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「真・運命」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「真・運命」を披露。</p>
     </div>
   </div>
 
@@ -656,7 +656,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">Kis-My-Ft2 <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">デビュー15周年</span></p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「Everybody Go」「My Affection」を披露。過去映像を交えた15周年企画も。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「Everybody Go」「My Affection」を披露。過去映像を交えた15周年企画も。</p>
     </div>
   </div>
 
@@ -664,7 +664,7 @@ overflow: hidden;
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">DOMOTO</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「ジェットコースター・ロマンス」「またね」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「ジェットコースター・ロマンス」「またね」を披露。</p>
     </div>
   </div>
 
@@ -719,7 +719,7 @@ overflow: hidden;
         <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:00〜10頃 / OPENING</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
           <strong style="color: #001a4d;">Hearts2Hearts「Lemon Tang」→ Juice=Juice「盛れ！ミ・アモーレ」「クラクラ☆クライマックス」</strong><br>
-          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">ビジュアル・生歌の強さに「女神」「お手本」の声。Juice=Juiceの自信ある表情・パフォーマンスにハロプロファン中心で反応が爆発。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">ビジュアル・生歌の強さに「女神」「お手本」の声。Juice=Juiceの自信ある表情・パフォーマンスにハロプロファン中心で反応が爆発。</span>
         </div>
       </div>
 
@@ -728,7 +728,7 @@ overflow: hidden;
         <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:10〜20頃 / EARLY</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
           <strong style="color: #001a4d;">ハンバート ハンバート「浪漫飛行（カバー）」「笑ったり転んだり」</strong><br>
-          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">カバーへの反応は賛否分かれつつも、生ギター中心のライブ感・ハーモニーに好意的な声も。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">カバーへの反応は賛否分かれつつも、生ギター中心のライブ感・ハーモニーに好意的な声も。</span>
         </div>
       </div>
 
@@ -737,7 +737,7 @@ overflow: hidden;
         <div style="font-size: 11px; color: #ff0084; font-weight: 900;">21:20〜30頃 / ★投稿爆発ピーク</div>
         <div style="font-size: 13px; color: #1a202c; line-height: 1.5;">
           <span style="font-weight: 900; color: #001a4d;">M!LK（曽野舜太＆山中柔太朗）「真・運命」</span><br>
-          <span style="font-size: 11px; color: #718096; font-weight: 600;">「覇権アイドル」「神パフォーマンス」と大興奮。トラブル対応や緊張しつつの好パフォーマンスが称賛された。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; font-weight: 600;">「覇権アイドル」「神パフォーマンス」と大興奮。トラブル対応や緊張しつつの好パフォーマンスが称賛された。</span>
         </div>
       </div>
 
@@ -746,7 +746,7 @@ overflow: hidden;
         <div style="font-size: 11px; color: #1a202c; font-weight: 900;">21:30〜45頃 / MAIN（★最大ピーク）</div>
         <div style="font-size: 13px; color: #1a202c;">
           <span style="font-weight: 900; color: #001a4d;">Kis-My-Ft2「Everybody Go」「My Affection」＋過去映像・トーク</span><br>
-          <span style="font-size: 11px; color: #718096; font-weight: 600;">デビュー15周年で過去VTRを多用。懐かしい振り付けと大人のパフォーマンスに「神回」「圧巻」の声が殺到し、番組全体で投稿量が最大ピークに。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; font-weight: 600;">デビュー15周年で過去VTRを多用。懐かしい振り付けと大人のパフォーマンスに「神回」「圧巻」の声が殺到し、番組全体で投稿量が最大ピークに。</span>
         </div>
       </div>
 
@@ -755,20 +755,20 @@ overflow: hidden;
         <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:45〜54頃 / LATE &amp; END</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
           <strong style="color: #001a4d;">DOMOTO「ジェットコースター・ロマンス」「またね」</strong><br>
-          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">KinKi時代のVTRやエージェント契約終了発表関連の後追い投稿も。生配信視聴者と連動し、番組終盤もファン熱の高いパフォーマンスを届けます。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">KinKi時代のVTRやエージェント契約終了発表関連の後追い投稿も。生配信視聴者と連動し、番組終盤もファン熱の高いパフォーマンスを届けます。</span>
         </div>
       </div>
 
     </div>
 
-    <div style="font-size: 11px; color: #4a5568; background: #f1f5f9; border-radius: 4px; padding: 10px; margin-bottom: 16px; line-height: 1.6; font-weight: 600;">
+    <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #4a5568; background: #f1f5f9; border-radius: 4px; padding: 10px; margin-bottom: 16px; line-height: 1.6; font-weight: 600;">
       <span style="display: inline-block; background: #003366; color: #fff; padding: 0 6px; border-radius: 2px; margin-right: 4px; font-weight: 900; font-size: 9px;">REPORT</span>
       Kis-My-Ft2のデビュー15周年パフォーマンスが番組全体で最大の投稿ピーク。Juice=Juiceのオープニングや、M!LKのユニット曲パフォーマンスも高密度の反応を集めた回。
     </div>
 
     <div style="display: flex; flex-direction: column; gap: 12px;">
       <div style="background: #1a202c; color: #fff; padding: 12px; border-radius: 4px; text-align: center;">
-        <span style="font-size: 12px; font-weight: 800;">※Mステは基本的にTVer等での見逃し配信がありません（録画推奨）</span>
+        <span style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 800;">※Mステは基本的にTVer等での見逃し配信がありません（録画推奨）</span>
       </div>
       <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 8px; border-top: 1px solid #edf2f7;">
         <div style="font-size: 8px; color: #a0aec0; font-weight: 800; letter-spacing: 0.5px;">ESTIMATED FROM SNS REALTIME TREND</div>
@@ -808,7 +808,7 @@ overflow: hidden;
       <span style="font-size: 10px; font-weight: 900; color: #fff; background: #003366; padding: 2px 6px; border-radius: 2px;">傾向 01</span>
       <h4 style="margin: 0; font-size: 13px; font-weight: 800; color: #1e293b;">通常放送（1時間枠）は終盤にメイン曲が集まりやすい</h4>
     </div>
-    <p style="margin: 0; font-size: 12px; line-height: 1.6; color: #556677; padding-left: 48px;">
+    <p style="margin: 0; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); line-height: 1.6; color: #556677; padding-left: 48px;">
       番組の顔となるベテランや、その日の目玉となるSP演出は21:40以降のクライマックスに配置されやすい傾向にあります。
     </p>
   </div>
@@ -819,7 +819,7 @@ overflow: hidden;
       <span style="font-size: 10px; font-weight: 900; color: #fff; background: #0052d4; padding: 2px 6px; border-radius: 2px;">傾向 02</span>
       <h4 style="margin: 0; font-size: 13px; font-weight: 800; color: #1e293b;">2曲披露するアーティストは前半と後半に分散される</h4>
     </div>
-    <p style="margin: 0; font-size: 12px; line-height: 1.6; color: #556677; padding-left: 48px;">
+    <p style="margin: 0; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); line-height: 1.6; color: #556677; padding-left: 48px;">
       複数曲（または異なる企画）を持つアーティストがいる場合、視聴者を飽きさせないようオープニング直後と終盤の2回に分けて登場することが多いです。
     </p>
   </div>
@@ -830,7 +830,7 @@ overflow: hidden;
       <span style="font-size: 10px; font-weight: 900; color: #fff; background: #e0693a; padding: 2px 6px; border-radius: 2px;">傾向 03</span>
       <h4 style="margin: 0; font-size: 13px; font-weight: 800; color: #1e293b;">番組開始25分〜30分頃のVTR企画中が狙い目</h4>
     </div>
-    <p style="margin: 0; font-size: 12px; line-height: 1.6; color: #556677; padding-left: 48px;">
+    <p style="margin: 0; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); line-height: 1.6; color: #556677; padding-left: 48px;">
       番組中盤に挟まれる「MステVTRランキング」などの企画中は、スタジオのセット転換が行われている時間です。このVTRが明けたタイミング（21:30〜21:35頃）から、後半戦の怒涛の歌唱ラッシュがスタートするため、見逃したくない方はここからのチェックが必須です。
     </p>
   </div>
@@ -868,7 +868,7 @@ overflow: hidden;
       <span style="display: inline-block; width: 6px; height: 6px; background: #e0693a; border-radius: 50%;"></span>
       Mステ公式YouTubeチャンネルをチェックする
     </div>
-    <p style="margin: 0 0 4px 0; font-size: 12px; color: #64748b; padding-left: 12px;">
+    <p style="margin: 0 0 4px 0; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #64748b; padding-left: 12px;">
       放送直前・直後に公開されるアーティストコメント（ダイジェスト）などを視聴できます。
     </p>
     <a href="https://www.youtube.com/channel/UCStFsybJM6SjDFvcacVcanw" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; width: fit-content; margin-left: 12px; padding: 6px 16px; font-size: 12px; font-weight: 700; color: #fff; background: #cc0000; text-decoration: none; border-radius: 4px; box-shadow: 0 2px 4px rgba(204,0,0,0.15);" onmouseover="this.style.opacity='0.9'" onmouseout="this.style.opacity='1'">
@@ -882,7 +882,7 @@ overflow: hidden;
       <span style="display: inline-block; width: 6px; height: 6px; background: #e0693a; border-radius: 50%;"></span>
       番組公式X（旧Twitter）を振り返る
     </div>
-    <p style="margin: 0 0 4px 0; font-size: 12px; color: #64748b; padding-left: 12px;">
+    <p style="margin: 0 0 4px 0; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #64748b; padding-left: 12px;">
       当日のステージ写真や、ここでしか見られないオフトークなどの投稿を楽しめます。
     </p>
     <a href="https://x.com/Mst_com" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; justify-content: center; width: fit-content; margin-left: 12px; padding: 6px 16px; font-size: 12px; font-weight: 700; color: #fff; background: #0f1419; text-decoration: none; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.15);" onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">

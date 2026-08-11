@@ -53,7 +53,7 @@
       <div style="flex-shrink: 0; font-size: 8px; font-weight: 900; background: #FFD400; color: #111111; padding: 2px 6px; transform: skewX(-15deg); min-width: 60px;">現状</div>
       <div style="flex: 1; font-size: 12px; font-weight: 700; color: #E4002B; line-height: 1.5;">
         タイムテーブルは現時点で未発表<br>
-        <span style="font-weight: 400; color: #666; font-size: 11px;">例年、放送前日夜〜当日朝に発表される傾向</span>
+        <span style="font-weight: 400; color: #666; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);">例年、放送前日夜〜当日朝に発表される傾向</span>
       </div>
     </div>
 
@@ -107,7 +107,7 @@
 ">
   <div style="font-size: 10px; font-weight: 900; color: #111111; letter-spacing: 0.05em; margin-bottom: 8px;">筆者の予想（過去実績ベース）</div>
   <div style="font-size: 20px; font-weight: 900; color: #E4002B; line-height: 1.3; margin-bottom: 6px; word-break: break-word;">8月28日(金)夜〜29日(土)朝ごろ</div>
-  <div style="font-size: 12px; color: #333; line-height: 1.6;">
+  <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #333; line-height: 1.6;">
     過去5回中4回が放送前日夜〜当日朝の発表だったため、今年もこの時間帯が最有力と考えられます。<br>
     唯一の例外だった2025年のパターン（放送3日前）が繰り返される場合は、<span style="font-weight:700;">8月26日(水)頃</span>の発表もあり得ます。
   </div>
@@ -157,7 +157,7 @@
       <tr><td>第44回（2021年）</td><td>2021年8月21日(土)</td><td>放送当日</td></tr>
     </tbody>
   </table>
-  <p style="font-size: 11px; color: #666; margin-top: 8px;">※各回のニュースメディア報道・公式発表をもとに作成。</p>
+  <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 8px;">※各回のニュースメディア報道・公式発表をもとに作成。</p>
 </div>
 <!-- /wp:html -->
 
@@ -219,7 +219,7 @@
       <tr><td>関西ローカル（ytv）</td><td>関西ジュニア（嶋﨑斗亜・大西風雅・真弓孟之・永岡蓮王・渡邉大我）、ミルクボーイ（内海崇・駒場孝）、黒木千晶・西尾桃（ytvアナウンサー）</td></tr>
     </tbody>
   </table>
-  <p style="font-size: 11px; color: #666; margin-top: 8px;">※2026年8月5日時点の公式発表情報をもとに作成。</p>
+  <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 8px;">※2026年8月5日時点の公式発表情報をもとに作成。</p>
 </div>
 <!-- /wp:html -->
 

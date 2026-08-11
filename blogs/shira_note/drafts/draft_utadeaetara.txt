@@ -35,7 +35,7 @@
       <div style="font-size: 15px; font-weight: 800; color: #1a1a1a; line-height: 1.4;">
         NHK夏の音楽祭 うたであえたら 2026
       </div>
-      <div style="font-size: 11px; font-weight: 600; color: #555; margin-top: 4px;">
+      <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 600; color: #555; margin-top: 4px;">
         出演者・放送スケジュール 最新状況まとめ
       </div>
     </div>
@@ -48,7 +48,7 @@
       <div style="font-size: 14px; font-weight: 700; color: #1a1a1a;">8.15(土) 18:05 - 22:00（中断あり）</div>
     </div>
 
-    <div style="margin-bottom: 16px; color: #333; font-size: 12px; line-height: 1.6;">
+    <div style="margin-bottom: 16px; color: #333; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); line-height: 1.6;">
       <div style="display: flex; margin-bottom: 6px;">
         <span style="font-weight: 700; min-width: 85px;">司会：</span>
         <span>大森元貴・北川景子・二宮和也</span>
@@ -232,9 +232,9 @@
 
   <!-- フッター -->
   <div style="padding: 12px 16px; background: #f8fbff; border-top: 1px solid #e2e8f0;">
-    <p style="margin: 0; font-size: 11px; color: #64748b; text-align: center;">
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #64748b; text-align: center;">
       ※上記は2026年7月8日時点の発表分（50音順・32組）。歌唱曲は未発表・出演者は今後も追加発表予定です。</p>
-    <p style="margin: 6px 0 0; font-size: 11px; color: #64748b; text-align: center;">
+    <p style="margin: 6px 0 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #64748b; text-align: center;">
       ※さだまさし・Mrs. GREEN APPLE・ゆずの3組は、8月9日のNHKホール公開収録には出演しません。</p>
   </div>
 </div>
@@ -281,7 +281,7 @@
           <span style="font-size: 9px; font-weight: 800; color: #007bff; background: #eef4fb; padding: 2px 6px; border-radius: 4px;">音楽番組初司会</span>
         </div>
         <div style="font-size: 11px; color: #64748b; margin-bottom: 4px;">Mrs. GREEN APPLE</div>
-        <div style="font-size: 12px; color: #444; line-height: 1.6;">「家族みんなでテレビを囲んだ、あの温かい空気感を大切にしたい」</div>
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #444; line-height: 1.6;">「家族みんなでテレビを囲んだ、あの温かい空気感を大切にしたい」</div>
       </div>
 
       <div style="padding: 12px; background: #f8fbff; border-radius: 8px; border: 1px solid #eef4fb;">
@@ -289,7 +289,7 @@
           <span style="font-size: 13px; font-weight: 800; color: #1a1a1a;">北川景子</span>
           <span style="font-size: 9px; font-weight: 800; color: #007bff; background: #eef4fb; padding: 2px 6px; border-radius: 4px;">音楽番組司会は初挑戦</span>
         </div>
-        <div style="font-size: 12px; color: #444; line-height: 1.6; margin-top: 4px;">「音楽は日頃から親しんでいる」</div>
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #444; line-height: 1.6; margin-top: 4px;">「音楽は日頃から親しんでいる」</div>
       </div>
 
       <div style="padding: 12px; background: #f8fbff; border-radius: 8px; border: 1px solid #eef4fb;">
@@ -297,7 +297,7 @@
           <span style="font-size: 13px; font-weight: 800; color: #1a1a1a;">二宮和也</span>
           <span style="font-size: 9px; font-weight: 800; color: #007bff; background: #eef4fb; padding: 2px 6px; border-radius: 4px;">昨年「MUSIC GIFT」に続き夏の音楽特番司会</span>
         </div>
-        <div style="font-size: 12px; color: #444; line-height: 1.6; margin-top: 4px;">「非常に新鮮」</div>
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #444; line-height: 1.6; margin-top: 4px;">「非常に新鮮」</div>
       </div>
 
     </div>
@@ -352,7 +352,7 @@
         <div style="flex-shrink: 0; width: 24px; height: 24px; background: #eef4fb; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #007bff; font-weight: bold;">01</div>
         <div>
           <div style="font-size: 13px; font-weight: 800; color: #1a1a1a; margin-bottom: 2px;">時代を超えた名曲の共演</div>
-          <div style="font-size: 12px; color: #555; line-height: 1.6;">昭和・平成・令和のヒット曲がNHKホールに勢ぞろい。世代を繋ぐ音楽体験を。</div>
+          <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #555; line-height: 1.6;">昭和・平成・令和のヒット曲がNHKホールに勢ぞろい。世代を繋ぐ音楽体験を。</div>
         </div>
       </div>
 
@@ -360,7 +360,7 @@
         <div style="flex-shrink: 0; width: 24px; height: 24px; background: #eef4fb; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #007bff; font-weight: bold;">02</div>
         <div>
           <div style="font-size: 13px; font-weight: 800; color: #1a1a1a; margin-bottom: 2px;">視聴者参加型リクエスト</div>
-          <div style="font-size: 12px; color: #555; line-height: 1.6;">寄せられた思い出のエピソードを交え、音楽でつながる特別なひととき。</div>
+          <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #555; line-height: 1.6;">寄せられた思い出のエピソードを交え、音楽でつながる特別なひととき。</div>
         </div>
       </div>
 
@@ -368,7 +368,7 @@
         <div style="flex-shrink: 0; width: 24px; height: 24px; background: #eef4fb; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #007bff; font-weight: bold;">03</div>
         <div>
           <div style="font-size: 13px; font-weight: 800; color: #1a1a1a; margin-bottom: 2px;">大森元貴・北川景子・二宮和也の初トリオ司会</div>
-          <div style="font-size: 12px; color: #555; line-height: 1.6;">大森さんは音楽番組初司会、北川さんも司会初挑戦。3人が織りなす温かい空気感にご期待ください。</div>
+          <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #555; line-height: 1.6;">大森さんは音楽番組初司会、北川さんも司会初挑戦。3人が織りなす温かい空気感にご期待ください。</div>
         </div>
       </div>
 
@@ -376,7 +376,7 @@
         <div style="flex-shrink: 0; width: 24px; height: 24px; background: #eef4fb; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #007bff; font-weight: bold;">04</div>
         <div>
           <div style="font-size: 13px; font-weight: 800; color: #1a1a1a; margin-bottom: 2px;">The Wakey Show プレゼンツ Eテレソングパーティー！</div>
-          <div style="font-size: 12px; color: #555; line-height: 1.6;">『みんなのうた』『いないいないばあっ！』『忍たま乱太郎』などEテレの名曲をWakeysと豪華出演者が披露。「おかあさんといっしょ」90年代組の速水けんたろう・茂森あゆみ・佐藤弘道・松野ちかの4名が揃うのは、同番組卒業以来約27年ぶりとのことです。</div>
+          <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #555; line-height: 1.6;">『みんなのうた』『いないいないばあっ！』『忍たま乱太郎』などEテレの名曲をWakeysと豪華出演者が披露。「おかあさんといっしょ」90年代組の速水けんたろう・茂森あゆみ・佐藤弘道・松野ちかの4名が揃うのは、同番組卒業以来約27年ぶりとのことです。</div>
         </div>
       </div>
 
@@ -384,7 +384,7 @@
         <div style="flex-shrink: 0; width: 24px; height: 24px; background: #eef4fb; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #007bff; font-weight: bold;">05</div>
         <div>
           <div style="font-size: 13px; font-weight: 800; color: #1a1a1a; margin-bottom: 2px;">ゆず×羽生結弦 スペシャルコラボ</div>
-          <div style="font-size: 12px; color: #555; line-height: 1.6;">仙台市のリンクから、ゆずと羽生結弦さんによる一夜限りのコラボレーションを中継。披露曲は「幾重」で、東日本大震災から15年の節目にゆず・北川悠仁さんが込めた歌詞に羽生さんが深く共感し、500回以上聴き込んで考案した振り付けで表現します。</div>
+          <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #555; line-height: 1.6;">仙台市のリンクから、ゆずと羽生結弦さんによる一夜限りのコラボレーションを中継。披露曲は「幾重」で、東日本大震災から15年の節目にゆず・北川悠仁さんが込めた歌詞に羽生さんが深く共感し、500回以上聴き込んで考案した振り付けで表現します。</div>
         </div>
       </div>
 
@@ -559,7 +559,7 @@
       <!-- Q1 -->
       <div style="padding: 14px; border-radius: 10px; background: #f8fbff; border: 1px solid #eef4fb;">
         <div style="font-size: 12px; font-weight: 900; color: #007bff;">Q1｜タイムテーブルはいつ公開されますか？</div>
-        <div style="margin-top: 8px; font-size: 12.5px; color: #444; line-height: 1.6;">
+        <div style="margin-top: 8px; font-size: clamp(12.5px, calc(12.5px + (100vw - 480px) / 206), 16px); color: #444; line-height: 1.6;">
           2026年7月8日時点で出演アーティスト32組は発表されましたが、出演順・タイムテーブルは未発表です。発表され次第このページで随時更新いたします。放送当日はリアルタイム更新も予定しております。
         </div>
       </div>
@@ -567,7 +567,7 @@
       <!-- Q2 -->
       <div style="padding: 14px; border-radius: 10px; background: #ffffff; border: 1px solid #e2e8f0;">
         <div style="font-size: 12px; font-weight: 900; color: #1a1a1a;">Q2｜出演アーティストはいつ発表されますか？</div>
-        <div style="margin-top: 8px; font-size: 12.5px; color: #444; line-height: 1.6;">
+        <div style="margin-top: 8px; font-size: clamp(12.5px, calc(12.5px + (100vw - 480px) / 206), 16px); color: #444; line-height: 1.6;">
           2026年7月8日時点で32組が発表済みです。出演者・ゲストは今後も追加発表される予定で、最新情報が判明次第、速報としてこのページに追記いたします。
         </div>
       </div>
@@ -575,7 +575,7 @@
       <!-- Q3 -->
       <div style="padding: 14px; border-radius: 10px; background: #f8fbff; border: 1px solid #eef4fb;">
         <div style="font-size: 12px; font-weight: 900; color: #007bff;">Q3｜司会は大森元貴さんだけですか？</div>
-        <div style="margin-top: 8px; font-size: 12.5px; color: #444; line-height: 1.6;">
+        <div style="margin-top: 8px; font-size: clamp(12.5px, calc(12.5px + (100vw - 480px) / 206), 16px); color: #444; line-height: 1.6;">
           いいえ、大森元貴さん（Mrs. GREEN APPLE）・北川景子さん・二宮和也さんの3名体制です。大森さん・北川さんはともに音楽番組の司会は初挑戦となります。
         </div>
       </div>
@@ -583,7 +583,7 @@
       <!-- Q4 -->
       <div style="padding: 14px; border-radius: 10px; background: #ffffff; border: 1px solid #e2e8f0;">
         <div style="font-size: 12px; font-weight: 900; color: #1a1a1a;">Q4｜観覧やリクエストの応募方法は？</div>
-        <div style="margin-top: 8px; font-size: 12.5px; color: #444; line-height: 1.6;">
+        <div style="margin-top: 8px; font-size: clamp(12.5px, calc(12.5px + (100vw - 480px) / 206), 16px); color: #444; line-height: 1.6;">
           2026年7月3日（金）午後1時より募集が開始されました。公開収録は8月9日にNHKホールで実施されます。詳しい応募方法はNHK公式サイトをご確認ください。
         </div>
       </div>

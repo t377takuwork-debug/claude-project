@@ -42,10 +42,10 @@
     <!-- タイムテーブル判明告知 -->
     <div style="background: linear-gradient(90deg, rgba(255, 204, 0, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%); border-left: 4px solid #ffcc00; padding: 10px; border-radius: 2px;">
       <div style="color: #ffcc00; font-size: 13px; font-weight: 800; margin-bottom: 2px;">★放送終了！全出演順が確定</div>
-      <div style="color: #ffffff; font-size: 11px;">「THE MUSIC DAY 2026」の全時間帯の出演順・歌唱曲を掲載しています。</div>
+      <div style="color: #ffffff; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);">「THE MUSIC DAY 2026」の全時間帯の出演順・歌唱曲を掲載しています。</div>
     </div>
 
-    <div style="background: rgba(255, 255, 255, 0.05); padding: 10px; border-radius: 4px; font-size: 11px; line-height: 1.5;">
+    <div style="background: rgba(255, 255, 255, 0.05); padding: 10px; border-radius: 4px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); line-height: 1.5;">
       <div style="color: #00ccff; font-weight: 700; margin-bottom: 4px;">総合司会: 櫻井翔 / MC: 羽鳥慎一・バカリズム・水卜麻美</div>
       <div style="color: #cccccc; margin-bottom: 8px;">出演：ブルーノ・マーズ、あいみょん、Snow Man、King & Prince他、総勢60組超</div>
       
@@ -698,7 +698,7 @@
   <div style="padding: 16px; background: #ffffff;">
     <div style="margin: 0 0 12px 0; font-size: 13px; font-weight: 800; color: #0f172a;">2026年7月4日 放送出演順</div>
 
-    <div style="border-left: 2px solid #e2e8f0; padding-left: 14px; font-size: 12px; line-height: 1.8; color: #475569;">
+    <div style="border-left: 2px solid #e2e8f0; padding-left: 14px; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); line-height: 1.8; color: #475569;">
 
       <div style="margin-bottom: 12px;">
         <span style="font-weight: 800; color: #00ccff; display: inline-block; width: 50px;">13:00</span>
@@ -993,7 +993,7 @@
 <!-- wp:html -->
 <div style="margin: 14px 0; background: linear-gradient(90deg, #001a4d, #003399); border-radius: 6px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; border: 1px solid #00d4ff; font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
   <div style="font-size: 11px; font-weight: 800; color: #00d4ff; letter-spacing: 0.05em;">▶ 出演者60組超の楽曲をまとめて聴こう</div>
-  <div style="font-size: 12px; color: #e2e8f0; line-height: 1.5;">ブルーノ・マーズ、Snow Man、King &amp; Prince、あいみょんなど、出演者の代表曲を<strong style="color: #ffffff;">Amazon Musicで今すぐ聴ける</strong>。30日間無料体験実施中。</div>
+  <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #e2e8f0; line-height: 1.5;">ブルーノ・マーズ、Snow Man、King &amp; Prince、あいみょんなど、出演者の代表曲を<strong style="color: #ffffff;">Amazon Musicで今すぐ聴ける</strong>。30日間無料体験実施中。</div>
   <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: space-between; background: rgba(0,212,255,0.15); border: 1px solid #00d4ff; border-radius: 4px; text-decoration: none; padding: 10px 14px;">
     <span style="font-size: 12px; font-weight: 900; color: #ffffff; letter-spacing: 0.03em;">Amazon Musicで今すぐ聴く</span>
     <span style="font-size: 16px; color: #00d4ff;">›</span>
@@ -1137,7 +1137,7 @@
 
   <div style="padding: 12px 14px; background: #ffffff;">
 
-    <div style="font-size: 12px; line-height: 1.5; color: #64748b; margin-bottom: 12px;">
+    <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); line-height: 1.5; color: #64748b; margin-bottom: 12px;">
       出演アーティストや詳細なタイムテーブルの情報は、例年6月から段階的に発表されます。近年の傾向に基づく予測は以下の通りです。
     </div>
 
@@ -1151,7 +1151,7 @@
         <div style="display: table-cell; padding: 10px 8px; border: 1px solid #e2e8f0; font-weight: 700; vertical-align: middle; color: #0f172a; border-left: 3px solid #00ccff;">第1弾 出演者発表</div>
         <div style="display: table-cell; padding: 10px 8px; border: 1px solid #e2e8f0; color: #334155; line-height: 1.4;">
           <b style="color: #00ccff; font-size: 12.5px;">6月上旬 〜 中旬</b><br>
-          <span style="font-size: 9.5px; color: #94a3b8; display: inline-block; margin-top: 3px;">
+          <span style="font-size: clamp(9.5px, calc(9.5px + (100vw - 480px) / 240), 12.5px); color: #94a3b8; display: inline-block; margin-top: 3px;">
             ・2025年実績：6月7日頃（INI、ILLITなど15組）<br>
             ・2024年実績：6月22日 ／ 2023年実績：6月9日
           </span>
@@ -1162,7 +1162,7 @@
         <div style="display: table-cell; padding: 10px 8px; border: 1px solid #e2e8f0; font-weight: 700; vertical-align: middle; color: #0f172a; border-left: 3px solid #00ccff;">第2弾・続報発表</div>
         <div style="display: table-cell; padding: 10px 8px; border: 1px solid #e2e8f0; color: #334155; line-height: 1.4;">
           <b style="color: #00ccff; font-size: 12.5px;">6月中旬 〜 6月下旬</b><br>
-          <span style="font-size: 9.5px; color: #94a3b8; display: inline-block; margin-top: 3px;">
+          <span style="font-size: clamp(9.5px, calc(9.5px + (100vw - 480px) / 240), 12.5px); color: #94a3b8; display: inline-block; margin-top: 3px;">
             ・2025年実績：6月14日（第2弾）、6月28日（第3弾）<br>
             ・2024年実績：6月29日（第2弾：山下智久など33組）
           </span>
@@ -1173,7 +1173,7 @@
         <div style="display: table-cell; padding: 10px 8px; border: 1px solid #e2e8f0; font-weight: 700; vertical-align: middle; color: #ff007f; border-left: 3px solid #ff007f;">タイムテーブル</div>
         <div style="display: table-cell; padding: 10px 8px; border: 1px solid #e2e8f0; color: #334155; line-height: 1.4;">
           <b style="color: #ff007f; font-size: 12.5px;">放送日の「2日前」頃</b><br>
-          <span style="font-size: 9.5px; color: #ff007f; font-weight: 600; display: inline-block; margin-top: 3px;">
+          <span style="font-size: clamp(9.5px, calc(9.5px + (100vw - 480px) / 240), 12.5px); color: #ff007f; font-weight: 600; display: inline-block; margin-top: 3px;">
             ・2025年実績：7月4日（金曜・放送前日）※イレギュラー発表<br>
             ・2024年実績：7月4日（木曜・放送2日前）<br>
             ・2023年実績：6月29日〜30日（木〜金曜・放送2日前）

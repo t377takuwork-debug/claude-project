@@ -185,22 +185,22 @@
     </style>
 
     <!-- 各アーティスト項目 -->
-    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">相川七瀬</p><p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
-    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">A.B.C-Z</p><p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
-    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">織田哲郎</p><p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
-    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">坂本冬美</p><p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
-    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">ザ・ワイルドワンズ</p><p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
-    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">Juice=Juice</p><p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
-    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">新浜レオン</p><p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
-    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">田村芽実</p><p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
-    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">TUBE</p><p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
-    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">マーティ・フリードマン</p><p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
-    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">山内惠介</p><p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
+    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">相川七瀬</p><p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
+    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">A.B.C-Z</p><p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
+    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">織田哲郎</p><p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
+    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">坂本冬美</p><p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
+    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">ザ・ワイルドワンズ</p><p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
+    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">Juice=Juice</p><p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
+    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">新浜レオン</p><p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
+    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">田村芽実</p><p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
+    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">TUBE</p><p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
+    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">マーティ・フリードマン</p><p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
+    <div class="artist-item"><div class="artist-line"></div><div style="padding: 14px 12px;"><p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">山内惠介</p><p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">歌唱曲は現時点で未発表。</p></div></div>
 
   </div>
 </div>
 
-<p style="font-size: 9px; color: #99aabb; margin: 0 0 16px;">※歌唱曲・出演順は基本的に事前発表なし。発表があれば掲載し、放送に合わせてリアルタイムで更新します</p>
+<p style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #99aabb; margin: 0 0 16px;">※歌唱曲・出演順は基本的に事前発表なし。発表があれば掲載し、放送に合わせてリアルタイムで更新します</p>
 
 <div style="display: flex; flex-direction: column; gap: 8px;">
 
@@ -279,7 +279,7 @@
       <div style="font-size: 11px; font-weight: 800; color: #c71585; background: #fff0f5; padding: 3px 6px; border-radius: 4px; text-align: center; align-self: start; border: 1px solid #fbb6ce;">19:57〜20:25頃</div>
       <div style="font-size: 12px; color: #2d3748; line-height: 1.5;">
         <strong style="color: #5c4033;">オープニング・序盤枠</strong><br>
-        <span style="font-size: 11px; color: #718096;">前回（7/14放送）は、テーマ紹介と福田こうへいの伝統曲披露に続き、イクマあきら・市川由紀乃の個別歌唱が並ぶ構成でした。</span>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096;">前回（7/14放送）は、テーマ紹介と福田こうへいの伝統曲披露に続き、イクマあきら・市川由紀乃の個別歌唱が並ぶ構成でした。</span>
       </div>
     </div>
 
@@ -288,7 +288,7 @@
       <div style="font-size: 11px; font-weight: 800; color: #c71585; background: #fff0f5; padding: 3px 6px; border-radius: 4px; text-align: center; align-self: start; border: 1px solid #fbb6ce;">20:25頃〜40頃</div>
       <div style="font-size: 12px; color: #2d3748; line-height: 1.5;">
         <strong style="color: #5c4033;">中盤枠</strong><br>
-        <span style="font-size: 11px; color: #718096;">前回は複数アーティストによる海うたメドレー企画が中盤に配置されました。</span>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096;">前回は複数アーティストによる海うたメドレー企画が中盤に配置されました。</span>
       </div>
     </div>
 
@@ -297,14 +297,14 @@
       <div style="font-size: 11px; font-weight: 800; color: #c71585; background: #fff0f5; padding: 3px 6px; border-radius: 4px; text-align: center; align-self: start; border: 1px solid #fbb6ce;">20:40頃〜放送終了頃</div>
       <div style="font-size: 12px; color: #2d3748; line-height: 1.5;">
         <strong style="color: #5c4033;">終盤枠</strong><br>
-        <span style="font-size: 11px; color: #718096;">前回はAKB48の初披露曲とコラボレーション企画が終盤に配置されました。</span>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096;">前回はAKB48の初披露曲とコラボレーション企画が終盤に配置されました。</span>
       </div>
     </div>
     
   </div>
 
   <!-- フッター -->
-  <div style="background: #f7f6f2; padding: 10px 15px; font-size: 10px; color: #a19c90; border-top: 1px solid #dce4ed; font-weight: 700;">
+  <div style="background: #f7f6f2; padding: 10px 15px; font-size: clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color: #a19c90; border-top: 1px solid #dce4ed; font-weight: 700;">
     ※前回放送1回分の傾向に基づく参考情報です。実際の順番はリアルタイム更新をご確認ください。
   </div>
 </div>
@@ -357,28 +357,28 @@
   <div role="listitem" class="utacon-card">
     <div class="card-top-line"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #5c4033; margin-bottom: 8px; font-size: 12px; letter-spacing: 0.05em;">🕒 通常放送の構成</div>
-    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">19:57開始・20:42終了の45分枠。個別歌唱とメドレー企画・コラボ企画を組み合わせる構成が見られます。</p>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">19:57開始・20:42終了の45分枠。個別歌唱とメドレー企画・コラボ企画を組み合わせる構成が見られます。</p>
   </div>
 
   <!-- 2. テーマ企画の存在 -->
   <div role="listitem" class="utacon-card">
     <div class="card-top-line"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #5c4033; margin-bottom: 8px; font-size: 12px; letter-spacing: 0.05em;">🎤 テーマ企画の存在</div>
-    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">うたコンは毎回テーマに沿ったメドレー企画が組まれるのが通例です。前回（7/14）は「夏！海の歌特集」として海にまつわる楽曲メドレーが組まれ、今回のテーマ「夏うたで楽しまナイト！」でも同様の構成になる見込みです。</p>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">うたコンは毎回テーマに沿ったメドレー企画が組まれるのが通例です。前回（7/14）は「夏！海の歌特集」として海にまつわる楽曲メドレーが組まれ、今回のテーマ「夏うたで楽しまナイト！」でも同様の構成になる見込みです。</p>
   </div>
 
   <!-- 3. コラボ企画 -->
   <div role="listitem" class="utacon-card">
     <div class="card-top-line"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #5c4033; margin-bottom: 8px; font-size: 12px; letter-spacing: 0.05em;">🌟 コラボ企画</div>
-    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">前回は由紀さおり×ゴスペラーズの初コラボが組まれるなど、世代・ジャンルを超えた共演企画が見どころの一つです。</p>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">前回は由紀さおり×ゴスペラーズの初コラボが組まれるなど、世代・ジャンルを超えた共演企画が見どころの一つです。</p>
   </div>
 
   <!-- 4. 公式SNSの連動 -->
   <div role="listitem" class="utacon-card">
     <div class="card-top-line"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #5c4033; margin-bottom: 8px; font-size: 12px; letter-spacing: 0.05em;">📱 公式SNSの連動</div>
-    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">公式X（@nhk_utacon）では放送直前や生放送中に告知が行われる傾向があります。本ページでもその情報をキャッチし次第、反映します。</p>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">公式X（@nhk_utacon）では放送直前や生放送中に告知が行われる傾向があります。本ページでもその情報をキャッチし次第、反映します。</p>
     <div style="margin-top: 10px; align-self: flex-start; font-size: 9px; font-weight: 900; color: #ffffff; background: #c71585; padding: 2px 8px; border-radius: 2px;">7月21日 19:57〜 随時更新予定</div>
   </div>
 
@@ -436,7 +436,7 @@
         <div style="font-size: 10px; color: #a19c90; font-weight: 800;">19:57頃〜20:10頃 / OPENING</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
           <strong style="color: #5c4033;">「夏！海の歌特集」導入／福田こうへい「ソーラン節」</strong><br>
-          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">よさこいダンサーとの共演。放送開始直後から安定した投稿。伝統曲の迫力・参加型演出に好評。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">よさこいダンサーとの共演。放送開始直後から安定した投稿。伝統曲の迫力・参加型演出に好評。</span>
         </div>
       </div>
 
@@ -445,7 +445,7 @@
         <div style="font-size: 10px; color: #a19c90; font-weight: 800;">20:10頃〜20:25頃 / EARLY</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
           <strong style="color: #5c4033;">イクマあきら「ダイナミック琉球」／市川由紀乃「ちりぬるを」「涙の連絡船」</strong><br>
-          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">市川由紀乃の生歌復帰に「迫力あった」「良かった」と感動投稿増加。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">市川由紀乃の生歌復帰に「迫力あった」「良かった」と感動投稿増加。</span>
         </div>
       </div>
 
@@ -454,7 +454,7 @@
         <div style="font-size: 11px; color: #c71585; font-weight: 900;">20:25頃〜20:40頃 / ★投稿急増ゾーン</div>
         <div style="font-size: 13px; color: #2d3748; line-height: 1.5;">
           <span style="font-weight: 900; color: #5c4033;">海うた／昭和・平成ヒットメドレー</span><br>
-          <span style="font-size: 11px; color: #718096; font-weight: 600;">「かもめが翔んだ日」（渡辺真知子中心）「渚にまつわるエトセトラ」（PUFFY）「ポニーテールとシュシュ」（AKB48）ほか。懐かしさと夏らしい盛り上がりに反応。PUFFYには「可愛い」「50代とは思えない」の声も。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; font-weight: 600;">「かもめが翔んだ日」（渡辺真知子中心）「渚にまつわるエトセトラ」（PUFFY）「ポニーテールとシュシュ」（AKB48）ほか。懐かしさと夏らしい盛り上がりに反応。PUFFYには「可愛い」「50代とは思えない」の声も。</span>
         </div>
       </div>
 
@@ -463,13 +463,13 @@
         <div style="font-size: 11px; color: #c71585; font-weight: 900;">20:40頃〜放送終了頃 / ★最大投稿爆発〜END</div>
         <div style="font-size: 13px; color: #2d3748; line-height: 1.5;">
           <span style="font-weight: 900; color: #5c4033;">AKB48「ポニーテールとシュシュ」→「好きish」（初披露）／由紀さおり「今日でお別れ」／由紀さおり×ゴスペラーズ「愛のさざなみ」（初コラボ）／ゴスペラーズ「アカペラ音頭」</span><br>
-          <span style="font-size: 11px; color: #718096; font-weight: 600;">AKB48ブロックで最大の投稿爆発。「かわいい」「神曲」と連投。「今日でお別れ」は菅原洋一への追悼として歌唱。後半は由紀さおり×ゴスペラーズの初コラボに「夢の共演」「絶品」と高評価。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; font-weight: 600;">AKB48ブロックで最大の投稿爆発。「かわいい」「神曲」と連投。「今日でお別れ」は菅原洋一への追悼として歌唱。後半は由紀さおり×ゴスペラーズの初コラボに「夢の共演」「絶品」と高評価。</span>
         </div>
       </div>
     </div>
 
     <!-- レポート枠 -->
-    <div style="font-size: 11px; color: #4a5568; background: #fdfaf5; border: 1px solid #e2d7c5; border-radius: 4px; padding: 10px; margin-bottom: 16px; line-height: 1.6; font-weight: 600;">
+    <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #4a5568; background: #fdfaf5; border: 1px solid #e2d7c5; border-radius: 4px; padding: 10px; margin-bottom: 16px; line-height: 1.6; font-weight: 600;">
       <span style="display: inline-block; background: #c71585; color: #fff; padding: 0 6px; border-radius: 2px; margin-right: 4px; font-weight: 900; font-size: 9px;">REPORT</span>
       AKB48「好きish」初披露のブロックが番組全体で最大の投稿爆発ポイント。由紀さおり×ゴスペラーズの初コラボも感動のピークとして反応の核になった回。
     </div>
@@ -530,7 +530,7 @@
 
   </div>
 
-  <div style="padding: 12px 14px; background: #fdfaf5; border-top: 1px solid #e2e8f0; font-size: 11px; font-weight: 700; color: #5c4033; line-height: 1.6;">
+  <div style="padding: 12px 14px; background: #fdfaf5; border-top: 1px solid #e2e8f0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #5c4033; line-height: 1.6;">
     💡 放送中にタイムテーブルや出演順を随時更新しているため、見逃した場合でも内容を把握することができます。
   </div>
 
@@ -592,7 +592,7 @@
       </div>
       <div style="flex: 1; padding: 14px 16px;">
         <div style="font-size: 12px; font-weight: 900; color: #5c4033;">七夕テーマ紹介／南こうせつ、石丸幹二、大竹しのぶ「空関連曲」</div>
-        <div style="font-size: 10px; color: #718096; margin-top: 4px; line-height: 1.4;">七夕らしいロマンチックな演出でスタート。放送開始直後から安定した投稿を獲得。</div>
+        <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color: #718096; margin-top: 4px; line-height: 1.4;">七夕らしいロマンチックな演出でスタート。放送開始直後から安定した投稿を獲得。</div>
       </div>
     </div>
 
@@ -604,7 +604,7 @@
       </div>
       <div style="flex: 1; padding: 14px 16px;">
         <div style="font-size: 12px; font-weight: 900; color: #5c4033;">工藤静香、錦野旦、氷川きよし</div>
-        <div style="font-size: 10px; color: #718096; margin-top: 4px; line-height: 1.4;">ベテラン勢の安定パフォーマンスに反響。特に錦野旦の熱唱が大きな話題に。</div>
+        <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color: #718096; margin-top: 4px; line-height: 1.4;">ベテラン勢の安定パフォーマンスに反響。特に錦野旦の熱唱が大きな話題に。</div>
       </div>
     </div>
 
@@ -616,7 +616,7 @@
       </div>
       <div style="flex: 1; padding: 14px 16px;">
         <div style="font-size: 12px; font-weight: 900; color: #5c4033;">島袋寛子（SPEED）「SPEEDメドレー」</div>
-        <div style="font-size: 10px; color: #718096; margin-top: 4px; line-height: 1.4;">ファンから「懐かしい」「かわいい」と称賛。ダンサー共演の華やかなステージ。</div>
+        <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color: #718096; margin-top: 4px; line-height: 1.4;">ファンから「懐かしい」「かわいい」と称賛。ダンサー共演の華やかなステージ。</div>
       </div>
     </div>
 
@@ -628,7 +628,7 @@
       </div>
       <div style="flex: 1; padding: 14px 16px;">
         <div style="font-size: 12px; font-weight: 900; color: #5c4033;">BE:FIRST「空」→「Missing」</div>
-        <div style="font-size: 10px; color: #c71585; margin-top: 4px; font-weight: 800;">番組最大級の投稿爆発。力強い歌唱と七夕テーマの親和性にファン熱狂。</div>
+        <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color: #c71585; margin-top: 4px; font-weight: 800;">番組最大級の投稿爆発。力強い歌唱と七夕テーマの親和性にファン熱狂。</div>
       </div>
     </div>
 
@@ -640,15 +640,15 @@
       </div>
       <div style="flex: 1; padding: 14px 16px;">
         <div style="font-size: 12px; font-weight: 900; color: #5c4033;">七夕テーマで最後まで一貫した構成</div>
-        <div style="font-size: 10px; color: #718096; margin-top: 4px; line-height: 1.4;">最後までテーマに沿った感動的な構成で終了。</div>
+        <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color: #718096; margin-top: 4px; line-height: 1.4;">最後までテーマに沿った感動的な構成で終了。</div>
       </div>
     </div>
   </div>
 
   <!-- フッター -->
-  <div style="padding: 12px 14px; background: #fdfaf5; border-top: 1px solid #e2e8f0; font-size: 11px; font-weight: 700; color: #5c4033; line-height: 1.5;">
+  <div style="padding: 12px 14px; background: #fdfaf5; border-top: 1px solid #e2e8f0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #5c4033; line-height: 1.5;">
     💡 <strong>調査結果：</strong> BE:FIRSTの「空」披露ブロックが番組最大の投稿ピーク。SPEEDメドレーやベテランアーティストの熱演が番組全体を支え、七夕らしい統一感のある回となりました。
-    <div style="font-size: 9px; color: #a19c90; margin-top: 6px;">※Xのリアルタイム投稿に基づいた推定タイムラインです。</div>
+    <div style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #a19c90; margin-top: 6px;">※Xのリアルタイム投稿に基づいた推定タイムラインです。</div>
   </div>
 
 </div>
@@ -706,7 +706,7 @@
       </div>
       <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #e2d7c5;">
         <span style="flex: 0 0 auto; color: #c71585; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
-        <p style="margin: 0; font-size: 11.5px; color: #4a5568; line-height: 1.7; font-weight: 600;">
+        <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
           出演アーティストは相川七瀬、A.B.C-Z、織田哲郎、坂本冬美、ザ・ワイルドワンズ、Juice=Juice、新浜レオン、田村芽実、TUBE、マーティ・フリードマン、山内惠介の11組と判明していますが、歌唱曲・出演順は基本的に事前発表がありません。事前に情報が公開された場合や放送開始後は、本ページをリアルタイムで更新します。
         </p>
       </div>
@@ -721,7 +721,7 @@
       </div>
       <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #e2d7c5;">
         <span style="flex: 0 0 auto; color: #c71585; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
-        <p style="margin: 0; font-size: 11.5px; color: #4a5568; line-height: 1.7; font-weight: 600;">
+        <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
           うたコンはNHK総合で放送されている音楽番組です。演歌・歌謡曲からJ-POPまで、幅広い世代のアーティストが生歌唱を披露する、豪華な構成が特徴です。
         </p>
       </div>
@@ -736,7 +736,7 @@
       </div>
       <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #e2d7c5;">
         <span style="flex: 0 0 auto; color: #c71585; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
-        <p style="margin: 0; font-size: 11.5px; color: #4a5568; line-height: 1.7; font-weight: 600;">
+        <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
           あります。うたコンは放送終了後から1週間限定で、NHKの公式配信サービス「NHK ONE」で見逃し配信されます。当ページでも出演順・タイムテーブルをリアルタイム更新しています。
         </p>
       </div>
@@ -751,7 +751,7 @@
       </div>
       <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #e2d7c5;">
         <span style="flex: 0 0 auto; color: #c71585; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
-        <p style="margin: 0; font-size: 11.5px; color: #4a5568; line-height: 1.7; font-weight: 600;">
+        <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
           「夏！海の歌特集」として開催。AKB48「好きish」の初披露や、由紀さおり×ゴスペラーズの初コラボ「愛のさざなみ」など、多くの感動を呼ぶステージが展開されました。
         </p>
       </div>
@@ -766,7 +766,7 @@
       </div>
       <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #e2d7c5;">
         <span style="flex: 0 0 auto; color: #c71585; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
-        <p style="margin: 0; font-size: 11.5px; color: #4a5568; line-height: 1.7; font-weight: 600;">
+        <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
           2026年7月21日（火）19:57〜20:42、NHK総合にて放送されます。
         </p>
       </div>

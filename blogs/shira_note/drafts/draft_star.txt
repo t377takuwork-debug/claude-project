@@ -327,43 +327,43 @@ box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
   <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">緑黄色社会</div>
   <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「晴々」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">『バレーボールアジア選手権2026』中継テーマソング</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">『バレーボールアジア選手権2026』中継テーマソング</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
   <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">ME:I</div>
   <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「花咲く道」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">8/5リリースの4thシングル。デビュー3年目、バンドサウンドへの新たな挑戦</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">8/5リリースの4thシングル。デビュー3年目、バンドサウンドへの新たな挑戦</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
   <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">LE SSERAFIM</div>
   <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「BOOMPALA」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">アルバム『&quot;PUREFLOW&quot; pt.1』タイトル曲。「マカレナ」をサンプリングした力強いメッセージソング</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">アルバム『&quot;PUREFLOW&quot; pt.1』タイトル曲。「マカレナ」をサンプリングした力強いメッセージソング</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
   <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">.ENDRECHERI.</div>
   <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「Thinking Time」</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">8/12リリースアルバム『new chapter purple』より先行配信。ファンク×BREIMEN感覚のポジティブな一曲</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">8/12リリースアルバム『new chapter purple』より先行配信。ファンク×BREIMEN感覚のポジティブな一曲</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
   <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">大林素子</div>
   <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">STARナビゲーター</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">元バレーボール日本代表。司会進行役として出演（歌唱の有無は不明）</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">元バレーボール日本代表。司会進行役として出演（歌唱の有無は不明）</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; background: #fdf2ed;">
   <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">めざましWANGANフェス STAR／めざましライブ（生中継）</div>
   <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">歌唱曲は後日発表</div>
-  <div style="font-size: 11px; color: #666; margin-top: 2px;">東京ガーデンシアターより中継。INI・CANDY TUNE・MyM・マルシィ・RIIZE・ちいかわ・ハチワレが出演。INI×RIIZEスペシャルコラボメドレー、出演者全員参加のCANDY TUNE「倍倍FIGHT!」コラボ歌唱も予定</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">東京ガーデンシアターより中継。INI・CANDY TUNE・MyM・マルシィ・RIIZE・ちいかわ・ハチワレが出演。INI×RIIZEスペシャルコラボメドレー、出演者全員参加のCANDY TUNE「倍倍FIGHT!」コラボ歌唱も予定</div>
 </div>
 
 </div>
 </aside>
 
-<p style="font-size: 11px; color: #666; margin-top: 8px;">
+<p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 8px;">
 ※番組インフォメーションに基づく掲載です。
 </p>
 <!-- /wp:html -->
@@ -405,7 +405,7 @@ padding: 14px;
 </div>
 
 <!-- 導入 -->
-<p style="font-size:12px; color:#333; line-height:1.6; margin:0 0 12px;">
+<p style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color:#333; line-height:1.6; margin:0 0 12px;">
 『STAR』（19:00〜20:00放送）の実績に基づいたブロック構成です。
 生放送のため前後する可能性がありますが、SNSの反響や進行パターンから目安を整理しています。
 </p>
@@ -415,7 +415,7 @@ padding: 14px;
 
   <div style="display:flex; gap:8px; align-items:flex-start; padding:10px; background:#fdf2ed; border-radius:8px;">
     <span style="color:#F26522; font-size:12px;">✦</span>
-    <div style="font-size:12px; color:#333;">
+    <div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color:#333;">
       <strong>19:00〜（オープニング・熱狂枠）</strong><br>
       オープニングトーク後、序盤にスタジオ収録の新曲パフォーマンスへ進む流れが有力。前回（8/6）放送でも＝LOVEへの反応が早い時間帯から集まった実績があり、今回も緑黄色社会「晴々」・ME:I「花咲く道」が序盤に置かれる構成が予想される。
     </div>
@@ -423,7 +423,7 @@ padding: 14px;
 
   <div style="display:flex; gap:8px; align-items:flex-start; padding:10px; background:#fff; border-radius:8px; border:1px solid #f0f0f0;">
     <span style="color:#00B7B5; font-size:12px;">✦</span>
-    <div style="font-size:12px; color:#333;">
+    <div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color:#333;">
       <strong>19:15〜19:45（中盤・パフォーマンス枠）</strong><br>
       LE SSERAFIM・.ENDRECHERI.のパフォーマンスが中盤に集中する予想。前回（8/6）放送でもTravis Japanの新バージョンパフォーマンスが中盤の見どころ枠に配置された。
     </div>
@@ -431,7 +431,7 @@ padding: 14px;
 
   <div style="display:flex; gap:8px; align-items:flex-start; padding:10px; background:#fdf2ed; border-radius:8px;">
     <span style="color:#F26522; font-size:12px;">✦</span>
-    <div style="font-size:12px; color:#333;">
+    <div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color:#333;">
       <strong>19:45〜20:00（終盤・クライマックス枠）</strong><br>
       東京ガーデンシアターからの「めざましWANGANフェス STAR」生中継、INI×RIIZEコラボメドレーが終盤の目玉になる可能性がある。前回（8/6）放送はDa-iCE・水谷千重子の絡みが終盤に配置され最大の反響を集めた実績があり、今回も終盤に見どころが集まると予想される。
     </div>
@@ -529,7 +529,7 @@ line-height:1.5;
         <div style="font-size: 11px; color: #F26522; font-weight: 800;">19:00～19:10頃 / OPENING</div>
         <div style="font-size: 13px; color: #1a1a1a; line-height: 1.5;">
           MC上垣皓太朗進行で番組スタート<br>
-          <span style="font-size: 11px; color: #666;">STARナビゲーター水谷千重子（友近）が「桃色吐息」を披露</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">STARナビゲーター水谷千重子（友近）が「桃色吐息」を披露</span>
         </div>
       </div>
 
@@ -538,7 +538,7 @@ line-height:1.5;
         <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:10頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
           <span style="font-weight: 800;">＝LOVE</span> 「恋、はじめました。」<br>
-          <span style="font-size: 11px; color: #666;">水谷千重子との絡みも交え、衣装やメンバーの表情への反応が集まった</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">水谷千重子との絡みも交え、衣装やメンバーの表情への反応が集まった</span>
         </div>
       </div>
 
@@ -547,7 +547,7 @@ line-height:1.5;
         <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:20頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
           <span style="font-weight: 800;">TWS</span> 「SODA SODA」<br>
-          <span style="font-size: 11px; color: #666;">爽やかな夏らしいパフォーマンスが好評</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">爽やかな夏らしいパフォーマンスが好評</span>
         </div>
       </div>
 
@@ -556,7 +556,7 @@ line-height:1.5;
         <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:32頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
           <span style="font-weight: 800;">Travis Japan</span> 「On My Road -Stadium ver.-」<br>
-          <span style="font-size: 11px; color: #666;">スタンドマイクでの熱唱が最大級の反響を集め、中村海人のコメントも話題に</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">スタンドマイクでの熱唱が最大級の反響を集め、中村海人のコメントも話題に</span>
         </div>
       </div>
 
@@ -565,7 +565,7 @@ line-height:1.5;
         <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:45頃 / LAST</div>
         <div style="font-size: 13px; color: #1a1a1a;">
           <span style="font-weight: 800;">Da-iCE</span> 「アンリミテッド」<br>
-          <span style="font-size: 11px; color: #666;">水谷千重子との絡みトークが多め。大野雄大の前髪ネタも話題になり、終盤のランキングVTR・名曲特集へ</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">水谷千重子との絡みトークが多め。大野雄大の前髪ネタも話題になり、終盤のランキングVTR・名曲特集へ</span>
         </div>
       </div>
     </div>
@@ -753,7 +753,7 @@ box-shadow:0 6px 18px rgba(0,0,0,0.06);
   <div style="font-size:14px;font-weight:900;color:#1a1a1a;">2026.07.30</div>
 </div>
 
-<div style="padding:14px;font-size:12px;line-height:1.8;color:#333;">
+<div style="padding:14px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);line-height:1.8;color:#333;">
 
 <strong>19:00～19:08頃 OPENING</strong>：MC上垣皓太朗進行で番組スタート、ナビゲーター井上和（乃木坂46）が登場<br>
 <strong>19:08頃 20th Century</strong>：「僕らが上書きする世界」（爽やかな衣装とキレのあるダンスで安定した高評価）<br>
@@ -764,7 +764,7 @@ box-shadow:0 6px 18px rgba(0,0,0,0.06);
 
 </div>
 
-<div style="padding:10px 14px;background:#f7fafc;font-size:11px;color:#666;">
+<div style="padding:10px 14px;background:#f7fafc;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#666;">
 💡 MC上垣皓太朗とナビゲーター井上和（乃木坂46）のテンポの良い進行が好評。20th Century・timeleszの安定したパフォーマンスに続き、Number_i「BUGS LIFE」は制作エピソードのトークからダンスへの展開が最大の反響を集め、放送後も話題が続く1時間に。※出演順は反響が集中したタイミングに基づく推定
 </div>
 
@@ -792,7 +792,7 @@ box-shadow:0 6px 18px rgba(0,0,0,0.06);
   <div style="font-size:14px;font-weight:900;color:#1a1a1a;">2026.07.23</div>
 </div>
 
-<div style="padding:14px;font-size:12px;line-height:1.8;color:#333;">
+<div style="padding:14px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);line-height:1.8;color:#333;">
 
 <strong>19:00～19:10頃 OPENING</strong>：MC上垣皓太朗進行で番組スタート、ナビゲーター「ちいかわ」「島二郎」が初登場<br>
 <strong>19:10頃 EBiDAN選抜</strong>：「Yes! 東京」（今夜限定の選抜メンバーによる披露）<br>
@@ -804,7 +804,7 @@ box-shadow:0 6px 18px rgba(0,0,0,0.06);
 
 </div>
 
-<div style="padding:10px 14px;background:#f7fafc;font-size:11px;color:#666;">
+<div style="padding:10px 14px;background:#f7fafc;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#666;">
 💡 MC上垣皓太朗の進行に、ナビゲーター「ちいかわ」「島二郎」が初登場。EBiDAN選抜「Yes! 東京」は新鮮な歌割り・ダンスが好評を集め、TREASURE「IF I」のフルサイズ初披露も盛り上がりを見せた1時間に。※出演順は反響が集中したタイミングに基づく推定
 </div>
 
@@ -832,7 +832,7 @@ box-shadow:0 6px 18px rgba(0,0,0,0.06);
   <div style="font-size:14px;font-weight:900;color:#1a1a1a;">2026.07.16</div>
 </div>
 
-<div style="padding:14px;font-size:12px;line-height:1.8;color:#333;">
+<div style="padding:14px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);line-height:1.8;color:#333;">
 
 <strong>19:00～19:10頃 OPENING</strong>：ディズニー特集告知、M!LK・＝LOVEらのディズニー愛あふれる推しコメントVTR<br>
 <strong>19:10～19:25頃</strong>：「心に響いたディズニーソングBEST20」序盤〜中盤発表（Hey! Say! JUMP・NEWS・Aぇ! group・櫻坂46関連VTR）<br>
@@ -842,7 +842,7 @@ box-shadow:0 6px 18px rgba(0,0,0,0.06);
 
 </div>
 
-<div style="padding:10px 14px;background:#f7fafc;font-size:11px;color:#666;">
+<div style="padding:10px 14px;background:#f7fafc;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#666;">
 💡 MC上垣皓太朗の進行で、国民3000人が選ぶ「心に響いたディズニーソングランキングBEST20」を発表する特別編に。過去のパフォーマンス映像とアーティストのディズニー愛あふれるコメントが連発し、上位発表のタイミングで感想が集中。高品質なVTRとテンポの良い進行が好評を集めた1時間に。
 </div>
 
@@ -870,7 +870,7 @@ box-shadow:0 6px 18px rgba(0,0,0,0.06);
   <div style="font-size:14px;font-weight:900;color:#1a1a1a;">2026.07.02</div>
 </div>
 
-<div style="padding:14px;font-size:12px;line-height:1.8;color:#333;">
+<div style="padding:14px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);line-height:1.8;color:#333;">
 
 <strong>19:05～19:15頃 BUDDiiS</strong>：「キミは都市伝説」（メジャー1stシングル リード曲のテレビ初披露）<br>
 <strong>19:15～19:25頃 ≠ME</strong>：「愛くださいませ」（史上最高難度のダンスパフォーマンス）<br>
@@ -880,7 +880,7 @@ box-shadow:0 6px 18px rgba(0,0,0,0.06);
 
 </div>
 
-<div style="padding:10px 14px;background:#f7fafc;font-size:11px;color:#666;">
+<div style="padding:10px 14px;background:#f7fafc;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#666;">
 💡 板垣李光人のナビゲーター回。BUDDiiSのテレビ初披露から大トリDOMOTO「またね」まで最新曲パフォーマンスが続き、岩本照振付のダンスに挑んだゴスペラーズとDOMOTOのトークが話題を集めた1時間。
 </div>
 
@@ -916,7 +916,7 @@ overflow:hidden;
 <!-- Q1 -->
 <div style="padding:12px;border-radius:10px;background:#fdf2ed;margin-bottom:10px;">
   <div style="font-size:12px;font-weight:900;color:#F26522;">Q1｜LE SSERAFIM「BOOMPALA」は何時頃披露されますか？</div>
-  <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
+  <div style="margin-top:6px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#333;line-height:1.6;">
     番組中盤の19:28頃の披露が有力と予想しています（あくまで筆者の予想）。前回（8/6）放送ではTravis Japanが中盤の見どころ枠に配置された実績があり、今回もグローバルな注目度の高いLE SSERAFIMが中盤枠に置かれると見ています。実際の出演順は放送後に本ページで更新します。
   </div>
 </div>
@@ -924,7 +924,7 @@ overflow:hidden;
 <!-- Q2 -->
 <div style="padding:12px;border-radius:10px;background:#fff;border:1px solid #eee;margin-bottom:10px;">
   <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q2｜今回はどんな企画の放送回ですか？</div>
-  <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
+  <div style="margin-top:6px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#333;line-height:1.6;">
     『FNS歌謡祭』音楽班と『めざましテレビ』エンタメチームがコラボした特別企画回です。STARナビゲーターには元バレーボール日本代表の大林素子が就任し、中継MCは軽部真一が務めます。東京ガーデンシアターからは「めざましWANGANフェス STAR／めざましライブ」を生中継し、INI・CANDY TUNE・MyM・マルシィ・RIIZE・ちいかわ・ハチワレが出演します。
   </div>
 </div>
@@ -932,7 +932,7 @@ overflow:hidden;
 <!-- Q3 -->
 <div style="padding:12px;border-radius:10px;background:#fdf2ed;margin-bottom:10px;">
   <div style="font-size:12px;font-weight:900;color:#F26522;">Q3｜特別企画や初披露など今回固有の内容はありますか？</div>
-  <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
+  <div style="margin-top:6px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#333;line-height:1.6;">
     生中継パートでは、INI×RIIZEによるスペシャルコラボメドレーと、出演者全員が参加するCANDY TUNE「倍倍FIGHT!」のコラボ歌唱が予定されています。スタジオでは.ENDRECHERI.が8/12リリースの新アルバム収録曲「Thinking Time」を先行披露し、ME:I「花咲く道」はバンドサウンドへの新たな挑戦としても注目です。
   </div>
 </div>
@@ -940,7 +940,7 @@ overflow:hidden;
 <!-- Q4 -->
 <div style="padding:12px;border-radius:10px;background:#fff;border:1px solid #eee;">
   <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q4｜タイムテーブルのリアルタイム更新はありますか？</div>
-  <div style="margin-top:6px;font-size:12px;color:#333;line-height:1.6;">
+  <div style="margin-top:6px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#333;line-height:1.6;">
     公式から詳細な時間は公開されませんが、当ページでは8月13日の19:00放送開始とともに、実際の進行・出演順をリアルタイムで速報更新します。
   </div>
 </div>

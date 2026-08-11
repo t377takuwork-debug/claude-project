@@ -123,7 +123,7 @@ NEWS「変身」Blu-ray/DVDは9月15日発売。初回盤・通常盤の特典�
   </a>
   <a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3773727&pid=892674443&vc_url=https%3A%2F%2F7net.omni7.jp%2Fdetail%2F1400992503" rel="nofollow" style="display: inline-flex; align-items: center; justify-content: center; gap: 5px; background: #ffffff; border: 1.5px solid #00913a; color: #00913a; text-decoration: none; font-size: 11.5px; font-weight: 800; padding: 8px 10px; border-radius: 999px; box-shadow: 0 2px 6px rgba(0,145,58,0.12); box-sizing: border-box;"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3773727&pid=892674443" height="1" width="0" border="0">セブンネットで見る <span style="font-size:13px;">›</span></a>
 </div>
-<p style="font-size: 11px; color: #888; margin: 6px 2px 0;">※いずれも初回盤+通常盤セットの商品ページです</p>
+<p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #888; margin: 6px 2px 0;">※いずれも初回盤+通常盤セットの商品ページです</p>
 <img src="//i.moshimo.com/af/i/impression?a_id=4824566&p_id=54&pc_id=54&pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
 <!-- /wp:html -->
 
@@ -222,7 +222,7 @@ NEWS「変身」Blu-ray/DVDは9月15日発売。初回盤・通常盤の特典�
   </a>
   <a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3773727&pid=892674443&vc_url=https%3A%2F%2F7net.omni7.jp%2Fdetail%2F1400992503" rel="nofollow" style="display: inline-flex; align-items: center; justify-content: center; gap: 5px; background: #ffffff; border: 1.5px solid #00913a; color: #00913a; text-decoration: none; font-size: 11.5px; font-weight: 800; padding: 8px 10px; border-radius: 999px; box-shadow: 0 2px 6px rgba(0,145,58,0.12); box-sizing: border-box;"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3773727&pid=892674443" height="1" width="0" border="0">セブンネットで見る <span style="font-size:13px;">›</span></a>
 </div>
-<p style="font-size: 11px; color: #888; margin: 6px 2px 0;">※初回盤単体ではなく、初回盤+通常盤セットでの販売です</p>
+<p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #888; margin: 6px 2px 0;">※初回盤単体ではなく、初回盤+通常盤セットでの販売です</p>
 <img src="//i.moshimo.com/af/i/impression?a_id=4824566&p_id=54&pc_id=54&pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
 <!-- /wp:html -->
 
@@ -256,7 +256,7 @@ NEWS「変身」Blu-ray/DVDは9月15日発売。初回盤・通常盤の特典�
   </a>
   <a href="//ck.jp.ap.valuecommerce.com/servlet/referral?sid=3773727&pid=892674443&vc_url=https%3A%2F%2F7net.omni7.jp%2Fdetail%2F1400992503" rel="nofollow" style="display: inline-flex; align-items: center; justify-content: center; gap: 5px; background: #ffffff; border: 1.5px solid #00913a; color: #00913a; text-decoration: none; font-size: 11.5px; font-weight: 800; padding: 8px 10px; border-radius: 999px; box-shadow: 0 2px 6px rgba(0,145,58,0.12); box-sizing: border-box;"><img src="//ad.jp.ap.valuecommerce.com/servlet/gifbanner?sid=3773727&pid=892674443" height="1" width="0" border="0">セブンネットで見る <span style="font-size:13px;">›</span></a>
 </div>
-<p style="font-size: 11px; color: #888; margin: 6px 2px 0;">※こちらも初回盤+通常盤セットでの商品ページとなります</p>
+<p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #888; margin: 6px 2px 0;">※こちらも初回盤+通常盤セットでの商品ページとなります</p>
 <img src="//i.moshimo.com/af/i/impression?a_id=4824566&p_id=54&pc_id=54&pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
 <!-- /wp:html -->
 

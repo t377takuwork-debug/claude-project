@@ -310,7 +310,7 @@
 
   <div style="position: relative; padding: 14px 12px; z-index: 2;">
 
-    <div style="font-size: 12px; line-height: 1.6; color: #e2e8f0; margin-bottom: 12px; font-weight: 400;">
+    <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); line-height: 1.6; color: #e2e8f0; margin-bottom: 12px; font-weight: 400;">
       出演アーティストやタイムテーブルは、例年以下のようなスケジュールで段階的に発表されます。
     </div>
 
@@ -323,28 +323,28 @@
         <div style="display: table-cell; padding: 10px 8px; border: 1px solid rgba(255,255,255,0.08); font-weight: 700; color: #ffffff; vertical-align: middle;">第1弾 出演者</div>
         <div style="display: table-cell; padding: 10px 8px; border: 1px solid rgba(255,255,255,0.08); color: #cbd5e1; line-height: 1.4;">
           <b style="color: #00f2fe; font-size: 12px;">6月中旬（放送の10日前〜2週間前）</b><br>
-          <span style="font-size: 10px; color: #ff5e62; opacity: 0.9;">過去データ：2025年は6/30頃、2023年は6/17頃に解禁</span>
+          <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color: #ff5e62; opacity: 0.9;">過去データ：2025年は6/30頃、2023年は6/17頃に解禁</span>
         </div>
       </div>
       <div style="display: table-row; background: rgba(255,255,255,0.03);">
         <div style="display: table-cell; padding: 10px 8px; border: 1px solid rgba(255,255,255,0.08); font-weight: 700; color: #ffffff; vertical-align: middle;">追加 出演者</div>
         <div style="display: table-cell; padding: 10px 8px; border: 1px solid rgba(255,255,255,0.08); color: #cbd5e1; line-height: 1.4;">
           <b style="color: #ffffff; font-size: 12px;">6月中旬〜直前（数日前まで）</b><br>
-          <span style="font-size: 10px; color: #94a3b8;">注目のSTARTO社勢や限定コラボ、サプライズ中継などが順次解禁</span>
+          <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color: #94a3b8;">注目のSTARTO社勢や限定コラボ、サプライズ中継などが順次解禁</span>
         </div>
       </div>
       <div style="display: table-row; background: rgba(255,0,127,0.04);">
         <div style="display: table-cell; padding: 10px 8px; border: 1px solid rgba(255,0,127,0.2); font-weight: 700; color: #ff007f; vertical-align: middle; text-shadow: 0 0 2px rgba(255,0,127,0.2);">タイムテーブル</div>
         <div style="display: table-cell; padding: 10px 8px; border: 1px solid rgba(255,0,127,0.2); color: #cbd5e1; line-height: 1.4;">
           <b style="color: #ff007f; font-size: 12px; text-shadow: 0 0 2px rgba(255,0,127,0.2);">放送日の前日〜当日朝</b><br>
-          <span style="font-size: 10px; color: #ff5e62; font-weight: 600;">生放送の直前調整があるため、例年ギリギリの発表です！</span>
+          <span style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color: #ff5e62; font-weight: 600;">生放送の直前調整があるため、例年ギリギリの発表です！</span>
         </div>
       </div>
     </div>
 
     <div style="background: rgba(255,0,127,0.03); padding: 10px 12px; border-radius: 4px; border: 1px dashed rgba(255,0,127,0.4); box-shadow: inset 0 0 8px rgba(255,0,127,0.05);">
       <div style="font-size: 10px; font-weight: 900; color: #ff007f; margin-bottom: 4px; letter-spacing: 0.05em; text-shadow: 0 0 2px rgba(255,0,127,0.2);">CHECK!</div>
-      <div style="font-size: 10px; color: #94a3b8; line-height: 1.5; font-weight: 400;">
+      <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color: #94a3b8; line-height: 1.5; font-weight: 400;">
         最新情報の解禁は、テレビ東京の公式サイトやプレスリリース、<b style="color: #00f2fe;">公式X（@teretoongakusai）</b>が最速です。6月中旬以降はアナウンスが急増するため、こまめにチェックしておきましょう。
       </div>
     </div>
@@ -407,7 +407,7 @@
 
     <div style="background: rgba(0,242,254,0.05); padding: 10px 12px; border-radius: 4px; border: 1px solid rgba(0,242,254,0.2);">
       <div style="font-size: 10px; font-weight: 900; color: #00f2fe; margin-bottom: 6px; letter-spacing: 0.05em;">HIGHLIGHTS &amp; SPECIALS</div>
-      <div style="margin: 0; padding-left: 16px; font-size: 10px; color: #cbd5e1; line-height: 1.6;">
+      <div style="margin: 0; padding-left: 16px; font-size: clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color: #cbd5e1; line-height: 1.6;">
         <div style="margin-bottom: 4px;">・<strong>LUNA SEA：</strong>真矢さん逝去後初のテレビ出演。「STORM」「I for You」メドレー＋新曲「FOREVER」テレビ初フルサイズ披露。</div>
         <div style="margin-bottom: 4px;">・<strong>ドラマソングSP：</strong>吉田栄作・仙道敦子が32年振り再結成、武田鉄矢「贈る言葉」、酒井法子「碧いうさぎ」ほか。</div>
         <div style="margin-bottom: 4px;">・<strong>DOZAN11 aka 三木道三：</strong>チャレンジ企画の裏生配信＆河合郁人の福岡中継。</div>
@@ -465,7 +465,7 @@
   <!-- メインコンテンツ領域 -->
   <div style="position: relative; padding: 14px 12px; z-index: 2;">
     
-    <div style="font-size: 12px; line-height: 1.6; color: #e2e8f0; margin-bottom: 12px; font-weight: 400;">
+    <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); line-height: 1.6; color: #e2e8f0; margin-bottom: 12px; font-weight: 400;">
       過去のテレ東音楽祭の放送パターンから、各時間帯の出演傾向を分析しました。
     </div>
 
@@ -479,7 +479,7 @@
         </div>
         <div style="flex: 1; border-left: 1px solid rgba(0, 242, 254, 0.2); padding-left: 12px;">
           <div style="font-size: 11px; font-weight: 700; color: #ffffff;">オープニング〜序盤：伝説のドラマソングSP＋長渕剛初出演・ZARD 35周年</div>
-          <div style="font-size: 10px; color: #94a3b8; line-height: 1.5; margin-top: 2px;">B.B.クィーンズ・中島健人・工藤静香でオープニング。伝説のドラマソングSPでは武田鉄矢「贈る言葉」・酒井法子「碧いうさぎ」・いしだ壱成「サボテンの花」・髙嶋政伸「LET THE RIVER RUN」・赤井英和「ぼくたちの失敗」・千堂あきほ「ラブ・ストーリーは突然に」が続出。19時台には長渕剛がテレ東初出演で「とんぼ」「RUN」「乾杯」を披露、ZARD 35周年SP「マイ フレンド」ほかも。</div>
+          <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color: #94a3b8; line-height: 1.5; margin-top: 2px;">B.B.クィーンズ・中島健人・工藤静香でオープニング。伝説のドラマソングSPでは武田鉄矢「贈る言葉」・酒井法子「碧いうさぎ」・いしだ壱成「サボテンの花」・髙嶋政伸「LET THE RIVER RUN」・赤井英和「ぼくたちの失敗」・千堂あきほ「ラブ・ストーリーは突然に」が続出。19時台には長渕剛がテレ東初出演で「とんぼ」「RUN」「乾杯」を披露、ZARD 35周年SP「マイ フレンド」ほかも。</div>
         </div>
       </div>
 
@@ -491,7 +491,7 @@
         </div>
         <div style="flex: 1; border-left: 1px solid rgba(255, 0, 127, 0.25); padding-left: 12px;">
           <div style="font-size: 11px; font-weight: 700; color: #ffffff;">中盤のヤマ場：80年代アイドル大集合＋aespa・LUNA SEA特別ステージ</div>
-          <div style="font-size: 10px; color: #94a3b8; line-height: 1.5; margin-top: 2px;">国生さゆり・早見優・松本伊代ら80年代アイドルが大集合し、島袋寛子デビュー30周年メドレー（Body &amp; Soul他）も。SUPER EIGHT・DA PUMP・TRF・Juice=Juiceの現役グループが連続登場。21時台にはaespa・Aぇ! group・乃木坂46と続き、LUNA SEAが「STORM」「I for You」「FOREVER」の感動特別ステージを披露する。</div>
+          <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color: #94a3b8; line-height: 1.5; margin-top: 2px;">国生さゆり・早見優・松本伊代ら80年代アイドルが大集合し、島袋寛子デビュー30周年メドレー（Body &amp; Soul他）も。SUPER EIGHT・DA PUMP・TRF・Juice=Juiceの現役グループが連続登場。21時台にはaespa・Aぇ! group・乃木坂46と続き、LUNA SEAが「STORM」「I for You」「FOREVER」の感動特別ステージを披露する。</div>
         </div>
       </div>
 
@@ -503,7 +503,7 @@
         </div>
         <div style="flex: 1; border-left: 1px solid rgba(168, 85, 247, 0.2); padding-left: 12px;">
           <div style="font-size: 11px; font-weight: 700; color: #ffffff;">終盤〜フィナーレ：AKB48・Kis-My-Ft2・DOZAN11でクライマックス</div>
-          <div style="font-size: 10px; color: #94a3b8; line-height: 1.5; margin-top: 2px;">ano・IMP.・AKB48・OWV・KEY TO LIT・JI BLUEに続き、Kis-My-Ft2・DA PUMPが登場。DOZAN11 aka 三木道三のチャレンジ企画完結でフィナーレへ。LUNA SEAは21〜22時台をまたいで大感動の特別ステージを届ける。</div>
+          <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color: #94a3b8; line-height: 1.5; margin-top: 2px;">ano・IMP.・AKB48・OWV・KEY TO LIT・JI BLUEに続き、Kis-My-Ft2・DA PUMPが登場。DOZAN11 aka 三木道三のチャレンジ企画完結でフィナーレへ。LUNA SEAは21〜22時台をまたいで大感動の特別ステージを届ける。</div>
         </div>
       </div>
 
@@ -571,7 +571,7 @@
       </h3>
       <div style="display: flex; gap: 10px; align-items: flex-start; padding-left: 2px;">
         <span style="flex-shrink: 0; font-size: 13px; font-weight: 900; color: #ff007f; text-shadow: 0 0 4px rgba(255, 0, 127, 0.5);">A</span>
-        <div style="font-size: 11px; color: #cbd5e1; line-height: 1.6;">
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #cbd5e1; line-height: 1.6;">
           公式より時間帯別のタイムテーブルが解禁されました。このページに確定版を掲載中です。生放送の進行により細かな順番が前後する場合がありますが、各アーティストの出演時間帯はこのページでご確認いただけます。
         </div>
       </div>
@@ -584,7 +584,7 @@
       </h3>
       <div style="display: flex; gap: 10px; align-items: flex-start; padding-left: 2px;">
         <span style="flex-shrink: 0; font-size: 13px; font-weight: 900; color: #ff007f; text-shadow: 0 0 4px rgba(255, 0, 127, 0.5);">A</span>
-        <div style="font-size: 11px; color: #cbd5e1; line-height: 1.6;">
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #cbd5e1; line-height: 1.6;">
           <b style="color: #ffffff;">2026年6月28日（日）18:30〜22:54</b>の4時間半生放送です。これまでと異なり「日曜の夜」放送となりますので、お間違えのないようご注意ください。
         </div>
       </div>
@@ -597,7 +597,7 @@
       </h3>
       <div style="display: flex; gap: 10px; align-items: flex-start; padding-left: 2px;">
         <span style="flex-shrink: 0; font-size: 13px; font-weight: 900; color: #ff007f; text-shadow: 0 0 4px rgba(255, 0, 127, 0.5);">A</span>
-        <div style="font-size: 11px; color: #cbd5e1; line-height: 1.6;">
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #cbd5e1; line-height: 1.6;">
           TVerでのリアルタイム配信および期間限定の見逃し配信を予定しています。ただし、権利上の理由で一部の楽曲やアーティストが配信対象外となる場合があるため、確実な視聴・保存にはテレビ放送の録画をおすすめします。<br>
           <a href="https://tver.jp/" style="color: #00f2fe; text-decoration: underline; font-weight: 600; margin-top: 6px; display: inline-block;">TVer公式サイトはこちら</a>
         </div>

@@ -283,7 +283,7 @@ Mステ（8月28日）タイムテーブルを速報更新！TOMORROW X TOGETHER
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">＝LOVE</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">最新のサマーラブソング「恋、はじめました。」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">最新のサマーラブソング「恋、はじめました。」を披露。</p>
     </div>
   </div>
 
@@ -292,7 +292,7 @@ Mステ（8月28日）タイムテーブルを速報更新！TOMORROW X TOGETHER
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">NCT WISH</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「BOY MEETS GIRL」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「BOY MEETS GIRL」を披露。</p>
     </div>
   </div>
 
@@ -301,7 +301,7 @@ Mステ（8月28日）タイムテーブルを速報更新！TOMORROW X TOGETHER
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">King & Prince</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">1st EPの表題曲「So Honey」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">1st EPの表題曲「So Honey」を披露。</p>
     </div>
   </div>
 
@@ -310,7 +310,7 @@ Mステ（8月28日）タイムテーブルを速報更新！TOMORROW X TOGETHER
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">佐野勇斗＆吉田仁人（M!LK） <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">ユニット歌唱</span></p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「罪と罰と雨とキス」を披露。M!LKメンバーによるユニット歌唱です。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「罪と罰と雨とキス」を披露。M!LKメンバーによるユニット歌唱です。</p>
     </div>
   </div>
 
@@ -319,7 +319,7 @@ Mステ（8月28日）タイムテーブルを速報更新！TOMORROW X TOGETHER
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">Da-iCE</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「アンリミテッド」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「アンリミテッド」を披露。</p>
     </div>
   </div>
 
@@ -328,7 +328,7 @@ Mステ（8月28日）タイムテーブルを速報更新！TOMORROW X TOGETHER
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">TOMORROW X TOGETHER</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「セツナハナビ（Setsuna Hanabi）」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「セツナハナビ（Setsuna Hanabi）」を披露。</p>
     </div>
   </div>
 
@@ -337,7 +337,7 @@ Mステ（8月28日）タイムテーブルを速報更新！TOMORROW X TOGETHER
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">M!LK <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">5カ月連続企画</span></p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「アイドルパワー」「You!Joy!Parade!」の2曲を披露。5カ月連続リリース企画の第1弾・第4弾シングルです。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「アイドルパワー」「You!Joy!Parade!」の2曲を披露。5カ月連続リリース企画の第1弾・第4弾シングルです。</p>
     </div>
   </div>
 
@@ -346,13 +346,13 @@ Mステ（8月28日）タイムテーブルを速報更新！TOMORROW X TOGETHER
     <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
     <div style="padding: 14px 12px;">
       <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">レミオロメン</p>
-      <p style="margin: 6px 0 0 !important; font-size: 11px !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「南風」を披露。</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「南風」を披露。</p>
     </div>
   </div>
 
 </div>
 
-<p style="font-size: 9px; color: #99aabb; margin: 0 0 16px;">※放送内容および歌唱順は番組放送中にリアルタイムで更新します</p>
+<p style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #99aabb; margin: 0 0 16px;">※放送内容および歌唱順は番組放送中にリアルタイムで更新します</p>
 
 <div style="display: flex; flex-direction: column; gap: 8px;">
 
@@ -427,7 +427,7 @@ Mステ（8月28日）タイムテーブルを速報更新！TOMORROW X TOGETHER
       <div style="font-size: 11px; font-weight: 800; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 4px; text-align: center; align-self: start;">21:00〜</div>
       <div style="font-size: 12px; color: #2d3748; line-height: 1.5;">
         <strong>オープニング・序盤枠</strong><br>
-        <span style="font-size: 11px; color: #718096;">最新のサマーラブソングを披露する＝LOVEや、NCT WISHが序盤に配置される可能性が高いです。直近の8/7放送でも23年ぶり言及のあったHYが早めの時間帯に組まれており、フレッシュな組み合わせを序盤に置く傾向がうかがえます。</span>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096;">最新のサマーラブソングを披露する＝LOVEや、NCT WISHが序盤に配置される可能性が高いです。直近の8/7放送でも23年ぶり言及のあったHYが早めの時間帯に組まれており、フレッシュな組み合わせを序盤に置く傾向がうかがえます。</span>
       </div>
     </div>
 
@@ -435,7 +435,7 @@ Mステ（8月28日）タイムテーブルを速報更新！TOMORROW X TOGETHER
       <div style="font-size: 11px; font-weight: 800; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 4px; text-align: center; align-self: start;">21:20頃〜</div>
       <div style="font-size: 12px; color: #2d3748; line-height: 1.5;">
         <strong>中盤枠</strong><br>
-        <span style="font-size: 11px; color: #718096;">佐野勇斗＆吉田仁人（M!LK）のユニット歌唱や、Da-iCE、レミオロメンなど幅広い世代に支持されるアーティストが中盤に並ぶ時間帯になりやすい構成です。</span>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096;">佐野勇斗＆吉田仁人（M!LK）のユニット歌唱や、Da-iCE、レミオロメンなど幅広い世代に支持されるアーティストが中盤に並ぶ時間帯になりやすい構成です。</span>
       </div>
     </div>
 
@@ -443,12 +443,12 @@ Mステ（8月28日）タイムテーブルを速報更新！TOMORROW X TOGETHER
       <div style="font-size: 11px; font-weight: 800; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 4px; text-align: center; align-self: start;">21:40頃〜</div>
       <div style="font-size: 12px; color: #2d3748; line-height: 1.5;">
         <strong>終盤・大トリ枠</strong><br>
-        <span style="font-size: 11px; color: #718096;">M!LKやKing & Prince、大きなファンダムを持つTOMORROW X TOGETHERが終盤に配置される可能性が高く、TOMORROW X TOGETHERが大トリ最有力です。直近では8/7にATEEZ、7/24に乃木坂46と、動員力の大きいグループが終盤に配置されており、この傾向を踏まえた予想です。</span>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096;">M!LKやKing & Prince、大きなファンダムを持つTOMORROW X TOGETHERが終盤に配置される可能性が高く、TOMORROW X TOGETHERが大トリ最有力です。直近では8/7にATEEZ、7/24に乃木坂46と、動員力の大きいグループが終盤に配置されており、この傾向を踏まえた予想です。</span>
       </div>
     </div>
   </div>
 
-  <div style="background: #f8fafc; padding: 10px 15px; font-size: 10px; color: #a0aec0; border-top: 1px solid #edf2f7;">
+  <div style="background: #f8fafc; padding: 10px 15px; font-size: clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color: #a0aec0; border-top: 1px solid #edf2f7;">
     ※これまでの放送傾向に基づいた独自予想です。実際の順番はリアルタイム更新をご確認ください。
   </div>
 </div>
@@ -476,25 +476,25 @@ Mステ（8月28日）タイムテーブルを速報更新！TOMORROW X TOGETHER
   <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 2px; box-shadow: 0 3px 10px rgba(0, 34, 68, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
     <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff);"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #003366; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">🕒 通常放送の構成</div>
-    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">今回は21:00開始の通常回。トークを挟みつつ、終盤にメイン曲や注目パフォーマンスが集中的に配置される構成が予想されます。</p>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">今回は21:00開始の通常回。トークを挟みつつ、終盤にメイン曲や注目パフォーマンスが集中的に配置される構成が予想されます。</p>
   </div>
 
   <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 2px; box-shadow: 0 3px 10px rgba(0, 34, 68, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
     <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff);"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #003366; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">🌟 トリの予測</div>
-    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">大きなファンダムを持つTOMORROW X TOGETHERが大トリ最有力です。直近4回のうち8/7・7/24の2回で動員力のあるグループが終盤に配置されており、その傾向が根拠です。</p>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">大きなファンダムを持つTOMORROW X TOGETHERが大トリ最有力です。直近4回のうち8/7・7/24の2回で動員力のあるグループが終盤に配置されており、その傾向が根拠です。</p>
   </div>
 
   <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 2px; box-shadow: 0 3px 10px rgba(0, 34, 68, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
     <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff);"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #003366; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">🔍 企画コーナーのタイミング</div>
-    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">今回はM!LKメンバーの佐野勇斗＆吉田仁人によるユニット歌唱があり、通常の出演枠とは別の企画的な位置づけになる可能性があります。直近4回のうち7/10には Kis-My-Ft2×Juice=Juiceの特別コラボが組まれており、こうした企画的な演出が生まれやすい時間帯は21:20〜21:35頃です。</p>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">今回はM!LKメンバーの佐野勇斗＆吉田仁人によるユニット歌唱があり、通常の出演枠とは別の企画的な位置づけになる可能性があります。直近4回のうち7/10には Kis-My-Ft2×Juice=Juiceの特別コラボが組まれており、こうした企画的な演出が生まれやすい時間帯は21:20〜21:35頃です。</p>
   </div>
 
   <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 2px; box-shadow: 0 3px 10px rgba(0, 34, 68, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
     <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff);"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #003366; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">📱 公式SNSの連動</div>
-    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">公式X（旧Twitter）では放送直前や生放送中に「次は〇〇が登場！」といったリアルタイム告知が行われます。本ページでもその情報をキャッチし次第、最速で反映します。</p>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">公式X（旧Twitter）では放送直前や生放送中に「次は〇〇が登場！」といったリアルタイム告知が行われます。本ページでもその情報をキャッチし次第、最速で反映します。</p>
     <div style="margin-top: 8px; align-self: flex-start; font-size: 9px; font-weight: 900; color: #00b8e6; background: rgba(0, 184, 230, 0.07); padding: 2px 8px; border-radius: 2px;">8月28日 21:00〜 随時更新予定</div>
   </div>
 
@@ -547,7 +547,7 @@ Mステ（8月28日）タイムテーブルを速報更新！TOMORROW X TOGETHER
         <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:00頃 / OPENING</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
           <strong style="color: #001a4d;">T.M.Revolution「HOT LIMIT」</strong><br>
-          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">西川貴教の登場・マッチョダンサー演出に反応が集まった。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">西川貴教の登場・マッチョダンサー演出に反応が集まった。</span>
         </div>
       </div>
 
@@ -556,7 +556,7 @@ Mステ（8月28日）タイムテーブルを速報更新！TOMORROW X TOGETHER
         <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:10頃 / EARLY</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
           <strong style="color: #001a4d;">あいみょん「愛を伝えたいだとか」</strong><br>
-          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">1曲目の披露にファンの投稿が続いた。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">1曲目の披露にファンの投稿が続いた。</span>
         </div>
       </div>
 
@@ -565,7 +565,7 @@ Mステ（8月28日）タイムテーブルを速報更新！TOMORROW X TOGETHER
         <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:20頃 / MID BLOCK</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
           <strong style="color: #001a4d;">TOMOO「大人になったら」</strong><br>
-          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">弾き語りからハンドマイクへ移る構成でほぼフルサイズ披露。他アーティストからの紹介が豪華だと話題になった。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">弾き語りからハンドマイクへ移る構成でほぼフルサイズ披露。他アーティストからの紹介が豪華だと話題になった。</span>
         </div>
       </div>
 
@@ -574,7 +574,7 @@ Mステ（8月28日）タイムテーブルを速報更新！TOMORROW X TOGETHER
         <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:35頃 / TALK</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
           <strong style="color: #001a4d;">あいみょん「スーパーガール」</strong><br>
-          <span style="font-size: 11px; color: #718096; display: block; margin: 2px 0 6px 0;">2曲目の披露で落ち着いた反応が広がった。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">2曲目の披露で落ち着いた反応が広がった。</span>
         </div>
       </div>
 
@@ -583,20 +583,20 @@ Mステ（8月28日）タイムテーブルを速報更新！TOMORROW X TOGETHER
         <div style="font-size: 11px; color: #ff0084; font-weight: 900;">21:40頃〜終盤 / ★投稿爆発の最大ピーク</div>
         <div style="font-size: 13px; color: #1a202c; line-height: 1.5;">
           <span style="font-weight: 900; color: #001a4d;">HY「AM11:00」→ ORANGE RANGE「CURRY食べたい feat.ソイソース」→ SUPER EIGHT「Do it!!!!!」→ マカロニえんぴつ「終宵」→ ATEEZ「BAD（Japanese Ver.）」（番組クローズ付近）</span><br>
-          <span style="font-size: 11px; color: #718096; font-weight: 600;">ATEEZのノックアウトダンス・生歌力に反応が集中し、番組全体で最大の投稿ピークとなった。HY・マカロニえんぴつの正確な出演スロットは推定が難しいため、この時間帯にまとめて掲載しています。</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; font-weight: 600;">ATEEZのノックアウトダンス・生歌力に反応が集中し、番組全体で最大の投稿ピークとなった。HY・マカロニえんぴつの正確な出演スロットは推定が難しいため、この時間帯にまとめて掲載しています。</span>
         </div>
       </div>
 
     </div>
 
-    <div style="font-size: 11px; color: #4a5568; background: #f1f5f9; border-radius: 4px; padding: 10px; margin-bottom: 16px; line-height: 1.6; font-weight: 600;">
+    <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #4a5568; background: #f1f5f9; border-radius: 4px; padding: 10px; margin-bottom: 16px; line-height: 1.6; font-weight: 600;">
       <span style="display: inline-block; background: #003366; color: #fff; padding: 0 6px; border-radius: 2px; margin-right: 4px; font-weight: 900; font-size: 9px;">REPORT</span>
       「T.M.Revolutionから始まりATEEZで終わる」というまとめ投稿が番組終了後に多数見られました。TOMOOのライブ帯やORANGE RANGE・SUPER EIGHT帯でも投稿密度が高く、オープニングのマッチョダンサー演出とATEEZのダンス・生歌力に投稿が集中した回でした。
     </div>
 
     <div style="display: flex; flex-direction: column; gap: 12px;">
       <div style="background: #1a202c; color: #fff; padding: 12px; border-radius: 4px; text-align: center;">
-        <span style="font-size: 12px; font-weight: 800;">※Mステは基本的にTVer等での見逃し配信がありません（録画推奨）</span>
+        <span style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 800;">※Mステは基本的にTVer等での見逃し配信がありません（録画推奨）</span>
       </div>
       <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 8px; border-top: 1px solid #edf2f7;">
         <div style="font-size: 8px; color: #a0aec0; font-weight: 800; letter-spacing: 0.5px;">ESTIMATED FROM SNS REALTIME TREND</div>
@@ -653,7 +653,7 @@ Mステ（8月28日）タイムテーブルを速報更新！TOMORROW X TOGETHER
 
 </div>
 
-<div style="padding:12px 14px;background:#f7fafc;border-top:1px solid #edf2f7;font-size:11px;font-weight:700;color:#2d3748;line-height:1.6;">
+<div style="padding:12px 14px;background:#f7fafc;border-top:1px solid #edf2f7;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#2d3748;line-height:1.6;">
 💡 放送中にタイムテーブルや出演順を随時更新しているため、見逃した場合でも内容を把握することができます。
 </div>
 
@@ -712,7 +712,7 @@ https://www.youtube.com/watch?v=VP6U20mYxrw
 <div style="font-size:11px;font-weight:900;color:#003366;">PAST DATA ARCHIVE</div>
 <div style="font-size:14px;font-weight:900;color:#1a202c;">2026年7月24日 放送回（MC: タモリ / 鈴木新彩）</div>
 </div>
-<div style="padding:14px 16px;font-size:12px;font-weight:700;line-height:1.8;">
+<div style="padding:14px 16px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;line-height:1.8;">
 21:05頃〜<br>
 timelesz「消えない花火」／SWEET STEADY「SWEET STEP」（初単独出演）<br><br>
 21:25頃〜<br>
@@ -720,7 +720,7 @@ timelesz「消えない花火」／SWEET STEADY「SWEET STEP」（初単独出�
 21:35頃〜<br>
 ヤングスキニー「雪月花」（初登場バラード）／21:45〜52頃 ZAZEN BOYS「ポテトサラダ」→ILLIT「It's Me」「I Got Your Back」→乃木坂46「是非に及ばず」（4回目披露・大トリ）
 </div>
-<div style="padding:10px 14px;background:#f7fafc;border-top:1px solid #edf2f7;font-size:11px;font-weight:700;">
+<div style="padding:10px 14px;background:#f7fafc;border-top:1px solid #edf2f7;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;">
 💡 ZAZEN BOYSの披露に「アウェイなのに最高」の声が相次ぎ、番組全体で最大の投稿ピークとなった回。SWEET STEADYの初単独出演も反響が大きかった。
 </div>
 </div>
@@ -733,7 +733,7 @@ timelesz「消えない花火」／SWEET STEADY「SWEET STEP」（初単独出�
 <div style="font-size:11px;font-weight:900;color:#003366;">PAST DATA ARCHIVE</div>
 <div style="font-size:14px;font-weight:900;color:#1a202c;">2026年7月17日 放送回（MC: タモリ / 鈴木新彩）</div>
 </div>
-<div style="padding:14px 16px;font-size:12px;font-weight:700;line-height:1.8;">
+<div style="padding:14px 16px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;line-height:1.8;">
 20:00頃〜<br>
 IVE「LUCID DREAM」／塩﨑太智（M!LK）「しおざきわんだーらんど」<br><br>
 20:30頃〜<br>
@@ -741,7 +741,7 @@ SixTONES「マイオンリー」「Dance Forever」→Snow Man「グッタイム
 21:05頃〜<br>
 Mrs. GREEN APPLE「Brand New」／21:20頃〜 中森明菜「ごめんと、すきと、」「難破船」（30年ぶり復帰）★番組最大ピーク
 </div>
-<div style="padding:10px 14px;background:#f7fafc;border-top:1px solid #edf2f7;font-size:11px;font-weight:700;">
+<div style="padding:10px 14px;background:#f7fafc;border-top:1px solid #edf2f7;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;">
 💡 中森明菜の30年ぶり復帰・「難破船」披露が番組全体で最大の投稿ピーク。SixTONES・Snow Manのライブ披露も密度高く、Mrs. GREEN APPLEとM!LKのお辞儀トークも反応の核になった回。
 </div>
 </div>
@@ -754,7 +754,7 @@ Mrs. GREEN APPLE「Brand New」／21:20頃〜 中森明菜「ごめんと、す�
 <div style="font-size:11px;font-weight:900;color:#003366;">PAST DATA ARCHIVE</div>
 <div style="font-size:14px;font-weight:900;color:#1a202c;">2026年7月10日 放送回（MC: タモリ / 鈴木新彩）</div>
 </div>
-<div style="padding:14px 16px;font-size:12px;font-weight:700;line-height:1.8;">
+<div style="padding:14px 16px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;line-height:1.8;">
 21:00頃〜<br>
 Hearts2Hearts「Lemon Tang」／ハンバート ハンバート「浪漫飛行（カバー）」「笑ったり転んだり」<br><br>
 21:10頃〜<br>
@@ -762,7 +762,7 @@ M!LK（曽野舜太＆山中柔太朗）「真・運命」★投稿爆発ピー�
 21:20頃〜<br>
 DOMOTO「ジェットコースター・ロマンス」「またね」／21:35頃〜 Kis-My-Ft2「Everybody Go」「My Affection」→Juice=Juice「盛れ！ミ・アモーレ」「クラクラ☆クライマックス」★番組最大ピーク
 </div>
-<div style="padding:10px 14px;background:#f7fafc;border-top:1px solid #edf2f7;font-size:11px;font-weight:700;">
+<div style="padding:10px 14px;background:#f7fafc;border-top:1px solid #edf2f7;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;">
 💡 Kis-My-Ft2×Juice=Juiceの後半セクションが番組全体で最大の投稿ピーク。DOMOTO・M!LKのトークパートも「神回」評価で反応の核になった回。
 </div>
 </div>
@@ -775,7 +775,7 @@ DOMOTO「ジェットコースター・ロマンス」「またね」／21:35頃
 <div style="font-size:11px;font-weight:900;color:#003366;">PAST DATA ARCHIVE</div>
 <div style="font-size:14px;font-weight:900;color:#1a202c;">2026年6月26日 放送回（MC: タモリ / 鈴木新彩）</div>
 </div>
-<div style="padding:14px 16px;font-size:12px;font-weight:700;line-height:1.8;">
+<div style="padding:14px 16px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;line-height:1.8;">
 21:05頃〜<br>
 モナキ（トップバッター・Mステ初登場）／KEY TO LIT「Act-Show」（少年隊カバー含む・Mステ初登場）★ピーク<br><br>
 21:25頃〜<br>
@@ -783,7 +783,7 @@ DOMOTO「ジェットコースター・ロマンス」「またね」／21:35頃
 21:45頃〜<br>
 SUPER BEAVER「クライマックス」・竹原ピストルトーク→桑田佳祐「人誑し/ひとたらし」「AKANE On My Mind〜饅頭こわい」（大トリ・約3年半ぶりのMステ復帰）
 </div>
-<div style="padding:10px 14px;background:#f7fafc;border-top:1px solid #edf2f7;font-size:11px;font-weight:700;">
+<div style="padding:10px 14px;background:#f7fafc;border-top:1px solid #edf2f7;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;">
 💡 初出演のKEY TO LITと三浦大知のパフォーマンスで投稿が二度爆発。約3年半ぶり復帰の桑田佳祐が大トリで温かく締めくくった回。
 </div>
 </div>
@@ -811,7 +811,7 @@ SUPER BEAVER「クライマックス」・竹原ピストルトーク→桑田�
       </div>
       <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #f0f4f8;">
         <span style="flex: 0 0 auto; color: #ff0084; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
-        <p style="margin: 0; font-size: 11.5px; color: #4a5568; line-height: 1.7; font-weight: 600;">
+        <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
           公式による分刻みのタイムテーブルは事前発表されていません。全8組の出演順・登場時間の目安は、21:00〜21:54の放送に合わせて本ページでリアルタイム更新していきます。
         </p>
       </div>
@@ -828,7 +828,7 @@ SUPER BEAVER「クライマックス」・竹原ピストルトーク→桑田�
       </div>
       <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #f0f4f8;">
         <span style="flex: 0 0 auto; color: #ff0084; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
-        <p style="margin: 0; font-size: 11.5px; color: #4a5568; line-height: 1.7; font-weight: 600;">
+        <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
           21:50頃、大トリでの登場が有力と予想します。8/7はATEEZ、7/24は乃木坂46が終盤に配置されており、動員力の大きいグループを終盤に置く傾向を踏まえた予想です。実際の出演順は放送開始後に本ページで更新します。
         </p>
       </div>
@@ -845,7 +845,7 @@ SUPER BEAVER「クライマックス」・竹原ピストルトーク→桑田�
       </div>
       <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #f0f4f8;">
         <span style="flex: 0 0 auto; color: #ff0084; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
-        <p style="margin: 0; font-size: 11.5px; color: #4a5568; line-height: 1.7; font-weight: 600;">
+        <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
           21:46頃、終盤での登場が有力と予想します。8/7はATEEZ、7/24は乃木坂46と、動員力の大きいグループが終盤に配置される傾向を踏まえた予想です。実際の出演順は放送開始後に本ページで更新します。
         </p>
       </div>
@@ -862,7 +862,7 @@ SUPER BEAVER「クライマックス」・竹原ピストルトーク→桑田�
       </div>
       <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #f0f4f8;">
         <span style="flex: 0 0 auto; color: #ff0084; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
-        <p style="margin: 0; font-size: 11.5px; color: #4a5568; line-height: 1.7; font-weight: 600;">
+        <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
           Mステは音楽権利の都合上、TVerやABEMAなどの見逃し配信が一切ありません。放送内容は本ページの出演順・歌唱曲まとめで確認できます。
         </p>
       </div>
@@ -879,7 +879,7 @@ SUPER BEAVER「クライマックス」・竹原ピストルトーク→桑田�
       </div>
       <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #f0f4f8;">
         <span style="flex: 0 0 auto; color: #ff0084; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
-        <p style="margin: 0; font-size: 11.5px; color: #4a5568; line-height: 1.7; font-weight: 600;">
+        <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
           Mステは『ミュージックステーション』の略称です。テレビ朝日系列で毎週金曜よる8時から生放送されている音楽番組で、1986年の放送開始から続く長寿番組として知られています。
         </p>
       </div>

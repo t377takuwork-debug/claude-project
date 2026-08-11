@@ -140,7 +140,7 @@
       </div>
 
       <!-- 更新のお知らせ -->
-      <div style="font-size: 12px; color: #666; line-height: 1.6; border-top: 1px solid #eee; padding-top: 12px;">
+      <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #666; line-height: 1.6; border-top: 1px solid #eee; padding-top: 12px;">
         例年、放送前日ごろに公式タイムテーブルが発表される傾向があります。情報が公開され次第、当記事でも更新予定。
       </div>
     </div>
@@ -204,7 +204,7 @@
       <tr><td>レジェンドチーム</td><td>SAM・ETSU・CHIHARU(TRF)、EXILE 松本利夫・ÜSA・MAKIDAI</td></tr>
     </tbody>
   </table>
-  <p style="font-size: 11px; color: #666; margin-top: 8px;">※2026年7月上旬時点。追加メンバー発表の可能性あり。</p>
+  <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 8px;">※2026年7月上旬時点。追加メンバー発表の可能性あり。</p>
 </div>
 <!-- /wp:html -->
 

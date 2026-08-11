@@ -220,7 +220,7 @@
 <!-- /wp:html -->
 
 <!-- wp:html -->
-  <div style="font-size: 10px; color: #666; background: #FFF6D6; padding: 6px 10px; border-radius: 4px; margin-top: 10px; line-height: 1.5;">
+  <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color: #666; background: #FFF6D6; padding: 6px 10px; border-radius: 4px; margin-top: 10px; line-height: 1.5;">
       <strong>※上記は予想です：</strong>過去実績と判明済み企画情報にもとづく大まかな流れであり、公式のタイムテーブルではありません。実際の企画順・時間帯は、放送開始後に「実際の出演順」セクションで更新します。
     </div>
 <!-- /wp:html -->
@@ -275,7 +275,7 @@
       <tr><td>関西ローカル（ytv）</td><td>関西ジュニア（嶋﨑斗亜・大西風雅・真弓孟之・永岡蓮王・渡邉大我）、ミルクボーイ（内海崇・駒場孝）、黒木千晶・西尾桃（ytvアナウンサー）</td></tr>
     </tbody>
   </table>
-  <p style="font-size: 11px; color: #666; margin-top: 8px;">※2026年8月5日時点の公式発表情報をもとに作成。</p>
+  <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 8px;">※2026年8月5日時点の公式発表情報をもとに作成。</p>
 </div>
 <!-- /wp:html -->
 
@@ -316,7 +316,7 @@
       <tr><td>青学陸上部"家族のカタチ"企画（仮）</td><td>大泉洋</td></tr>
     </tbody>
   </table>
-  <p style="font-size: 11px; color: #666; margin-top: 8px;">※各企画の登場時間は現時点で未発表です。</p>
+  <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 8px;">※各企画の登場時間は現時点で未発表です。</p>
 </div>
 <!-- /wp:html -->
 
@@ -337,22 +337,22 @@
   <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; box-sizing: border-box;">
     <div style="border-top: 3px solid #E4002B; margin: -14px -14px 10px; border-radius: 8px 8px 0 0;"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #111111; margin-bottom: 8px; font-size: 12px;">🕒 序盤は名物企画から</div>
-    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">オープニング直後から著名アーティストの歌唱や人気企画が続く傾向があります。</p>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">オープニング直後から著名アーティストの歌唱や人気企画が続く傾向があります。</p>
   </div>
   <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; box-sizing: border-box;">
     <div style="border-top: 3px solid #E4002B; margin: -14px -14px 10px; border-radius: 8px 8px 0 0;"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #111111; margin-bottom: 8px; font-size: 12px;">👨‍👩‍👧 深夜はドキュメンタリー中心</div>
-    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">深夜〜早朝はトークや地域密着ドキュメンタリー企画が中心になる傾向があります。</p>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">深夜〜早朝はトークや地域密着ドキュメンタリー企画が中心になる傾向があります。</p>
   </div>
   <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; box-sizing: border-box;">
     <div style="border-top: 3px solid #E4002B; margin: -14px -14px 10px; border-radius: 8px 8px 0 0;"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #111111; margin-bottom: 8px; font-size: 12px;">🏃 チャリティーチャレンジが終盤の軸</div>
-    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">今年は星野真里さんのチャレンジ企画が、番組終盤の大きな軸になると見られます。</p>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">今年は星野真里さんのチャレンジ企画が、番組終盤の大きな軸になると見られます。</p>
   </div>
   <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; box-sizing: border-box;">
     <div style="border-top: 3px solid #E4002B; margin: -14px -14px 10px; border-radius: 8px 8px 0 0;"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #111111; margin-bottom: 8px; font-size: 12px;">📱 SNS連動とフィナーレ</div>
-    <p style="margin: 0; font-size: 11px; font-weight: 700; color: #4a5568; line-height: 1.6;">SNSでの反響が大きい企画のあと、合唱・歌唱によるフィナーレで締めくくられる傾向があります。</p>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">SNSでの反響が大きい企画のあと、合唱・歌唱によるフィナーレで締めくくられる傾向があります。</p>
   </div>
 </div>
 <!-- /wp:html -->
@@ -435,7 +435,7 @@
       <tr><td>20:54頃</td><td>大フィナーレ（「サライ」歌唱など）／放送終了</td></tr>
     </tbody>
   </table>
-  <p style="font-size: 11px; color: #666; margin-top: 8px;">※事前発表とX投稿・事後報道をもとにした「頃」表記の目安です。生放送のため実際の時間と数分程度のズレが生じる場合があります。</p>
+  <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 8px;">※事前発表とX投稿・事後報道をもとにした「頃」表記の目安です。生放送のため実際の時間と数分程度のズレが生じる場合があります。</p>
 </div>
 <!-- /wp:html -->
 
@@ -484,7 +484,7 @@
       <tr><td>第44回（2021年）</td><td>2021年8月21日(土)〜</td></tr>
     </tbody>
   </table>
-  <p style="font-size: 11px; color: #666; margin-top: 8px;">※各回のテーマ・出演者等の詳細は、日本テレビ公式サイトの特集ページをご参照ください。</p>
+  <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 8px;">※各回のテーマ・出演者等の詳細は、日本テレビ公式サイトの特集ページをご参照ください。</p>
 </div>
 <!-- /wp:html -->
 
