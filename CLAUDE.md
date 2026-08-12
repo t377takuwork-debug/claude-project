@@ -25,7 +25,8 @@ claude project/
 │   └── mbticode/       ← MBTI×ラブタイプ診断コンテンツ運用（rules/に文体・戦略12本）
 ├── Junk314/        ← クライアント管理アカウント（→ Junk314/junk_juice/CLAUDE.md を参照）
 │   └── junk_juice/ ← 60代推し活エッセイアカウント（rules/に品質基準3本）
-└── vivant/         ← 新規Noteアカウント（ジャンル未定・情報ベース記事。→ vivant/CLAUDE.md を参照）
+├── vivant/         ← 新規Noteアカウント（ジャンル未定・情報ベース記事。→ vivant/CLAUDE.md を参照）
+└── journals/       ← 音声ジャーナル資産化パイプライン（→ journals/CLAUDE.md を参照）
 ```
 
 ---
@@ -92,3 +93,4 @@ claude project/
 | vivant Threads投稿生成 | `/vivant-post` スキルを起動 |
 | ASP記事設計 | `/asp-kaigi` スキルを起動 |
 | 戦略・方針判断 | `/notekaigi` スキルを起動 |
+| 音声ジャーナル処理（文字起こし→資産化） | `/journal` スキルを起動 |

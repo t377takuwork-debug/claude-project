@@ -27,6 +27,7 @@
 | 戦略・方針判断 | －（会議システム） | `/notekaigi`（定義: `docs/systems/system_ai_management_meeting.md`） |
 | ASP記事設計 | －（会議システム） | `/asp-kaigi`→`/asp-theme`→`/asp-outline`（定義: `docs/systems/`） |
 | ブログ戦略・CV改善 | －（会議システム） | `/blog-kaigi`・`/monetize-kaigi`（定義: `docs/systems/system_blog_monetize_kaigi.md`） |
+| 音声ジャーナル処理（文字起こし→資産化） | `journals/CLAUDE.md` | `/journal`（クレンジング→分類→分析を自動実行、`journals/`へ蓄積） |
 
 ## ディレクトリ地図
 
@@ -68,11 +69,14 @@ claude project/
 │       ├── reference/     ← MBTI/DSKB/ラブタイプ診断データ（捏造防止の一次情報）
 │       ├── articles/ posts/ ← 成果物（published/ が出力見本）
 │       └── mbticode_tasks.md ← タスク管理（「タスクを確認」はこれをReadする）
-└── Junk314/junk_juice/    ← クライアント案件（60代推し活エッセイ）
-    ├── CLAUDE.md / profile.md
-    ├── rules/             ← SEO見出し・有料記事品質基準 3本
-    ├── examples_essay.md  ← バズ記事②解剖の見本バンク（生成前に読む）
-    └── articles/          ← published/article_02_20260614.md がバズ見本（いいね155）
+├── Junk314/junk_juice/    ← クライアント案件（60代推し活エッセイ）
+│   ├── CLAUDE.md / profile.md
+│   ├── rules/             ← SEO見出し・有料記事品質基準 3本
+│   ├── examples_essay.md  ← バズ記事②解剖の見本バンク（生成前に読む）
+│   └── articles/          ← published/article_02_20260614.md がバズ見本（いいね155）
+└── journals/              ← 音声ジャーナル資産化パイプライン（`/journal`。詳細: `journals/CLAUDE.md`）
+    ├── daily/YYYY-MM-DD.md ← クレンジング済みジャーナル＋抽出結果・分析（raw/に生データ）
+    └── tasks.md / ideas.md / insights.md / content_seeds.md / themes.md ← 分類の横断インデックス
 ```
 
 ## 運用原則（全AI共通）

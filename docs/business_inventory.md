@@ -43,6 +43,7 @@
 | I10 | バズ投稿分析 | `/buzz-analysis`（収集はユーザー手動・自動取得はX/Threadsで機能せず見送り済み） | 4部構成の分析出力（投稿別分析表〜資産反映提案） | 固定フレームワーク6観点 |
 | I11 | cf_room 記事新規作成・リライト | 新規は `/cf-article`／リライトは `blogs/cf_room/CLAUDE.md`（工程地図: `rules/article_pipeline.md`） | drafts/保存＋`qa_draft.ps1` ERROR 0件＋rewrite_log追記 | `blogs/cf_room/tools/qa_draft.ps1`（機械） |
 | I12 | vtuber_log 記事新規作成・リライト | 新規は `/vtuber-article`／リライトは `blogs/vtuber_log/CLAUDE.md`（工程地図: `rules/article_pipeline.md`） | drafts/保存＋`qa_draft.ps1` ERROR 0件＋rewrite_log追記 | `blogs/vtuber_log/tools/qa_draft.ps1`（機械） |
+| I13 | 音声ジャーナル資産化（文字起こし→整形・分類・分析） | `/journal`（詳細: `journals/CLAUDE.md`） | `journals/daily/`にraw＋整形済み保存済み＋該当インデックス（tasks/ideas/insights/content_seeds/themes）へ反映済み＋方針バッティング検知時はユーザー確認済み | － |
 
 ### 休眠・準備中
 
