@@ -1,16 +1,12 @@
 ﻿<!-- wp:paragraph -->
 タイトル：NHK夏の音楽祭 うたであえたら2026 タイムテーブル｜出演者や順番を随時更新
 
-メタディスクリプション（102字）：
-8/15放送「NHK夏の音楽祭 うたであえたら 2026」出演アーティスト32組・司会3名（大森元貴・北川景子・二宮和也）が発表！順番など最新タイムテーブルや観覧募集・リクエスト応募情報も随時更新中です。
+メタディスクリプション（100字）：
+8/15放送「NHK夏の音楽祭 うたであえたら 2026」司会3名（大森元貴・北川景子・二宮和也）に加え、出演アーティスト33組・タイムテーブルの出演順が確定！観覧応募11万通突破の反響も紹介します。
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>NHKホールから届ける新しい大型音楽特番『NHK夏の音楽祭 うたであえたら』のタイムテーブル・出演者・司会情報をお届け！</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>「推しの出演順は？」「タイムテーブルはいつ発表？」と気になる方のために、現時点で判明している情報をお届けします。</p>
+<p>2026年8月15日（土）18:05からNHKで放送の大型音楽特番『NHK夏の音楽祭 うたであえたら』のタイムテーブル・出演者情報をまとめます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -43,7 +39,7 @@
     <div style="background: #f8fbff; border-radius: 6px; padding: 10px; margin-bottom: 16px; border: 1px solid #eef4fb;">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px;">
         <span style="font-size: 9px; color: #007bff; font-weight: 800; letter-spacing: 0.1em;">放送日時</span>
-        <span style="font-size: 10px; font-weight: 700; color: #d9534f; background: #fff; padding: 2px 6px; border-radius: 4px; border: 1px solid #d9534f;">更新中</span>
+        <span style="font-size: 10px; font-weight: 700; color: #1a8f4c; background: #fff; padding: 2px 6px; border-radius: 4px; border: 1px solid #1a8f4c;">確定</span>
       </div>
       <div style="font-size: 14px; font-weight: 700; color: #1a1a1a;">8.15(土) 18:05 - 22:00（中断あり）</div>
     </div>
@@ -55,11 +51,11 @@
       </div>
       <div style="display: flex; margin-bottom: 6px;">
         <span style="font-weight: 700; min-width: 85px;">主な出演：</span>
-        <span style="color: #444;">あいみょん、くるり、福山雅治、LUNA SEA他、全32組</span>
+        <span style="color: #444;">あいみょん、福山雅治、LUNA SEA、宮本浩次他、全33組</span>
       </div>
       <div style="display: flex;">
         <span style="font-weight: 700; min-width: 85px;">タイムテーブル：</span>
-        <span style="color: #d9534f; font-weight: 600;">現在未発表（順次公開予定）</span>
+        <span style="color: #1a8f4c; font-weight: 600;">全編確定（下記で確認できます）</span>
       </div>
     </div>
 
@@ -85,44 +81,63 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演アーティスト32組が発表されました！</p>
+<p>「推しの出演順は？」「タイムテーブルはいつ発表？」と気になる方のために、現時点で判明している情報を掲載中です。</p>
 <!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>詳しい出演順（タイムテーブル）は現時点で未発表のため、公式発表があり次第このページで随時更新していきます。</p>
-<!-- /wp:paragraph -->
-
 
 <!-- wp:heading -->
 <h2>NHK夏の音楽祭 うたであえたら 最新タイムテーブル【8/15】</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年8月15日（土）18:05から放送の『NHK夏の音楽祭 うたであえたら』の出演順・タイムテーブルです。</p>
+<p>『NHK夏の音楽祭 うたであえたら』の出演順・タイムテーブルを以下へ掲載しました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
 <aside role="region" aria-label="タイムテーブル 前半" style="
-  display: block; 
-  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', sans-serif; 
-  background: #f0f7ff; 
-  color: #1a1a1a; 
-  border: 1px solid #dbeafe; 
-  border-radius: 12px; 
-  overflow: hidden; 
+  display: block;
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', sans-serif;
+  background: #f0f7ff;
+  color: #1a1a1a;
+  border: 1px solid #dbeafe;
+  border-radius: 12px;
+  overflow: hidden;
   margin: 20px 0;
 ">
   <div style="padding: 12px 16px; background: #007bff; color: #ffffff; font-size: 11px; font-weight: 800; letter-spacing: 0.1em;">
-    TIMETABLE (18:00 - 19:59)
+    TIMETABLE 第1部・第2部（18:05 - 20:43）
   </div>
   <div style="background: #ffffff;">
     <div style="border-bottom: 1px solid #f0f0f0; padding: 16px;">
-      <h3 style="margin: 0 0 8px 0; font-size: 15px; font-weight: 800; color: #007bff;">18:00台</h3>
-      <p style="margin: 0; font-size: 13px; color: #666; font-style: italic;">現在未発表です。発表され次第、追記いたします。</p>
+      <h3 style="margin: 0 0 8px 0; font-size: 15px; font-weight: 800; color: #007bff;">第1部｜18:05〜18:43</h3>
+      <div style="display: grid; gap: 4px;">
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">1</span><span>「夏の終りのハーモニー」<span style="color: #64748b;">氷川きよし×山崎育三郎</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">2</span><span>「どうにもとまらない」<span style="color: #64748b;">山本リンダ×新しい学校のリーダーズ</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">3</span><span>「上海ハニー」<span style="color: #64748b;">ORANGE RANGE</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">4</span><span>「キン肉マン Go Fight!」<span style="color: #64748b;">串田アキラ</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">5</span><span>「ムーンライト伝説」<span style="color: #64748b;">＝LOVE×FRUITS ZIPPER</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">6</span><span>「星降る街角」<span style="color: #64748b;">純烈×モナキ</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">7</span><span>「東京沙漠」<span style="color: #64748b;">一之森大湖×新浜レオン</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">8</span><span>「PRIDE」<span style="color: #64748b;">Aぇ! group</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">9</span><span>「はちゃめちゃわちゃライフ！」<span style="color: #64748b;">FRUITS ZIPPER</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">10</span><span>「ひざこぞう」<span style="color: #64748b;">大泉洋</span></span></div>
+      </div>
     </div>
     <div style="padding: 16px;">
-      <h3 style="margin: 0 0 8px 0; font-size: 15px; font-weight: 800; color: #007bff;">19:00台</h3>
-      <p style="margin: 0; font-size: 13px; color: #666; font-style: italic;">後日発表となります。</p>
+      <h3 style="margin: 0 0 8px 0; font-size: 15px; font-weight: 800; color: #007bff;">第2部｜19:30〜20:43</h3>
+      <div style="display: grid; gap: 4px;">
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">1</span><span>「やさしさに包まれたなら」<span style="color: #64748b;">出演者有志</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">2</span><span>「妹」<span style="color: #64748b;">南こうせつ</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">3</span><span>「My Revolution」<span style="color: #64748b;">渡辺美里</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">4</span><span>「夢を信じて」<span style="color: #64748b;">德永英明</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">5</span><span>ピンク・レディー デビュー50周年スペシャルメドレー<br><span style="color: #64748b;">増田惠子×南野陽子「ペッパー警部」／×生田絵梨花「渚のシンドバッド」／×櫻井優衣(FRUITS ZIPPER)「UFO」</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">6</span><span>特別企画「The Wakey Showプレゼンツ Eテレソングパーティー！」<br><span style="color: #64748b;">Wakeys、速水けんたろう、茂森あゆみ、佐藤弘道、松野ちか、ワンワン ほか（北風小僧の寒太郎／勇気100%／ピカピカブ～！／夢のチカラ／だんご3兄弟／にじのむこうに／それもいいね）</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">7</span><span>「風と町」「Soranji」<span style="color: #64748b;">Mrs. GREEN APPLE</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">8</span><span>「神田川」<span style="color: #64748b;">南こうせつ</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">9</span><span>「生活の柄」<span style="color: #64748b;">ハンバート ハンバート</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">10</span><span>「さとうきび畑」<span style="color: #64748b;">森山良子</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">11</span><span>特別企画「ゆず×羽生結弦」<br><span style="color: #64748b;">「幾重」</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">12</span><span>「好きすぎて滅！」「爆裂愛してる」<span style="color: #64748b;">M!LK</span></span></div>
+      </div>
     </div>
   </div>
 </aside>
@@ -134,37 +149,45 @@
 
 <!-- wp:html -->
 <aside role="region" aria-label="タイムテーブル 後半" style="
-  display: block; 
-  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', sans-serif; 
-  background: #f0f7ff; 
-  color: #1a1a1a; 
-  border: 1px solid #dbeafe; 
-  border-radius: 12px; 
-  overflow: hidden; 
+  display: block;
+  font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', sans-serif;
+  background: #f0f7ff;
+  color: #1a1a1a;
+  border: 1px solid #dbeafe;
+  border-radius: 12px;
+  overflow: hidden;
   margin: 20px 0;
 ">
   <div style="padding: 12px 16px; background: #007bff; color: #ffffff; font-size: 11px; font-weight: 800; letter-spacing: 0.1em;">
-    TIMETABLE (20:00 - 22:00)
+    TIMETABLE 第3部（21:00 - 21:59）
   </div>
   <div style="background: #ffffff;">
-    <div style="border-bottom: 1px solid #f0f0f0; padding: 16px;">
-      <h3 style="margin: 0 0 8px 0; font-size: 15px; font-weight: 800; color: #007bff;">20:00台</h3>
-      <p style="margin: 0; font-size: 13px; color: #666; font-style: italic;">更新をお待ちください。</p>
-    </div>
     <div style="padding: 16px;">
-      <h3 style="margin: 0 0 8px 0; font-size: 15px; font-weight: 800; color: #007bff;">21:00台</h3>
-      <p style="margin: 0; font-size: 13px; color: #666; font-style: italic;">順次公開予定です。</p>
+      <h3 style="margin: 0 0 8px 0; font-size: 15px; font-weight: 800; color: #007bff;">第3部｜21:00〜21:59</h3>
+      <div style="display: grid; gap: 4px;">
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">1</span><span>「今宵の月のように」<span style="color: #64748b;">宮本浩次×二宮和也</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">2</span><span>「男の子女の子」<span style="color: #64748b;">郷ひろみ</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">3</span><span>「はいからさんが通る」<span style="color: #64748b;">南野陽子</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">4</span><span>「絶対アイドル辞めないで」<span style="color: #64748b;">＝LOVE</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">5</span><span>「メメント・モリ」<span style="color: #64748b;">大森元貴（ソロ初披露）</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">6</span><span>「アオノオト」<span style="color: #64748b;">M!LK</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">7</span><span>「いのちの理由」<span style="color: #64748b;">さだまさし</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">8</span><span>「FOREVER」<span style="color: #64748b;">LUNA SEA</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">9</span><span>「想望」「邂逅」<span style="color: #64748b;">福山雅治</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; border-bottom: 1px solid #f0f7ff; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">10</span><span>「愛の花」<span style="color: #64748b;">あいみょん</span></span></div>
+        <div style="display: flex; gap: 8px; padding: 6px 0; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #1a1a1a;"><span style="min-width: 18px; color: #007bff; font-weight: 800;">11</span><span>「Remember me」<span style="color: #64748b;">くるり</span></span></div>
+      </div>
     </div>
   </div>
 </aside>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>出演順・タイムテーブルは現時点で未発表。</p>
+<p>出演順・タイムテーブルは以上の内容で確定しています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演アーティストの発表状況にあわせて、このページで随時更新していきます。放送当日はリアルタイムでの更新も予定しています。</p>
+<p>「今宵の月のように」での宮本浩次さん×二宮和也さんのスペシャルコラボや、大森元貴さんのソロ初披露曲「メメント・モリ」など見逃せないですね。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -172,8 +195,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>出演アーティスト32組が発表されましたが、歌唱曲は2026年7月8日時点で未発表です。
-※出演者・ゲストは今後も追加発表予定。</p>
+<p>出演アーティスト33組の歌唱曲が全て判明しました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -194,58 +216,68 @@
     </div>
 
     <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px;">
-      <!-- 出演アーティスト（50音順・32組） -->
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>あいみょん</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>新しい学校のリーダーズ</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>生田絵梨花</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>＝LOVE</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>一之森大湖</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>Aぇ! group</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>大泉洋</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>大森元貴</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>ORANGE RANGE</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>串田アキラ</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>くるり</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>郷ひろみ</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>さだまさし</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>純烈</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>德永英明</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>新浜レオン</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>ハンバート ハンバート</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>氷川きよし</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>福山雅治</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>FRUITS ZIPPER</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>増田惠子（ピンク・レディー）</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>Mrs. GREEN APPLE</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>南こうせつ</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>南野陽子</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>宮本浩次</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>M!LK</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>モナキ</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>森山良子</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>山崎育三郎</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>山本リンダ</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>LUNA SEA</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
-      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>渡辺美里</strong><br><span style="color: #64748b;">曲目：未発表</span></div>
+      <!-- 出演アーティスト（50音順・33組） -->
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>あいみょん</strong><br><span style="color: #64748b;">「愛の花」</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>新しい学校のリーダーズ</strong><br><span style="color: #64748b;">「どうにもとまらない」（山本リンダとコラボ）</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>生田絵梨花</strong><br><span style="color: #64748b;">「渚のシンドバッド」（ピンク・レディー50周年メドレー／増田惠子とコラボ）</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>＝LOVE</strong><br><span style="color: #64748b;">「ムーンライト伝説」（FRUITS ZIPPERとコラボ）／「絶対アイドル辞めないで」</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>一之森大湖</strong><br><span style="color: #64748b;">「東京沙漠」（新浜レオンとコラボ）</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>Aぇ! group</strong><br><span style="color: #64748b;">「PRIDE」</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>大泉洋</strong><br><span style="color: #64748b;">「ひざこぞう」</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>大森元貴</strong><br><span style="color: #64748b;">「メメント・モリ」（ソロ初披露）</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>ORANGE RANGE</strong><br><span style="color: #64748b;">「上海ハニー」</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>串田アキラ</strong><br><span style="color: #64748b;">「キン肉マン Go Fight!」</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>くるり</strong><br><span style="color: #64748b;">「Remember me」</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>郷ひろみ</strong><br><span style="color: #64748b;">「男の子女の子」</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>さだまさし</strong><br><span style="color: #64748b;">「いのちの理由」</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>純烈</strong><br><span style="color: #64748b;">「星降る街角」（モナキとコラボ）</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>德永英明</strong><br><span style="color: #64748b;">「夢を信じて」</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>新浜レオン</strong><br><span style="color: #64748b;">「東京沙漠」（一之森大湖とコラボ）</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>二宮和也</strong><br><span style="color: #64748b;">「今宵の月のように」（宮本浩次とコラボ）</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>ハンバート ハンバート</strong><br><span style="color: #64748b;">「生活の柄」</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>氷川きよし</strong><br><span style="color: #64748b;">「夏の終りのハーモニー」（山崎育三郎とコラボ）</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>福山雅治</strong><br><span style="color: #64748b;">「想望」「邂逅」</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>FRUITS ZIPPER</strong><br><span style="color: #64748b;">「ムーンライト伝説」（＝LOVEとコラボ）／「はちゃめちゃわちゃライフ！」</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>増田惠子（ピンク・レディー）</strong><br><span style="color: #64748b;">50周年メドレー「ペッパー警部」「渚のシンドバッド」「UFO」</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>Mrs. GREEN APPLE</strong><br><span style="color: #64748b;">「風と町」「Soranji」</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>南こうせつ</strong><br><span style="color: #64748b;">「妹」「神田川」</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>南野陽子</strong><br><span style="color: #64748b;">「はいからさんが通る」／「ペッパー警部」（増田惠子とコラボ）</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>宮本浩次</strong><br><span style="color: #64748b;">「今宵の月のように」（二宮和也とコラボ）</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>M!LK</strong><br><span style="color: #64748b;">「好きすぎて滅！」「爆裂愛してる」／「アオノオト」</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>モナキ</strong><br><span style="color: #64748b;">「星降る街角」（純烈とコラボ）</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>森山良子</strong><br><span style="color: #64748b;">「さとうきび畑」</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>山崎育三郎</strong><br><span style="color: #64748b;">「夏の終りのハーモニー」（氷川きよしとコラボ）</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>山本リンダ</strong><br><span style="color: #64748b;">「どうにもとまらない」（新しい学校のリーダーズとコラボ）</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>LUNA SEA</strong><br><span style="color: #64748b;">「FOREVER」</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>渡辺美里</strong><br><span style="color: #64748b;">「My Revolution」</span></div>
+    </div>
+
+    <div style="font-size: 12px; font-weight: 700; color: #007bff; margin: 16px 0 12px; border-left: 3px solid #007bff; padding-left: 8px;">
+      特別企画・コーナー出演
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px;">
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>ゆず</strong><br><span style="color: #64748b;">「幾重」（羽生結弦とコラボ／仙台から中継）</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>羽生結弦</strong><br><span style="color: #64748b;">「幾重」（ゆずとコラボ／仙台から中継）</span></div>
+      <div style="font-size: 12px; background: #f8fbff; padding: 8px; border-radius: 4px; border: 1px solid #f0f7ff;"><strong>Wakeys／速水けんたろう／茂森あゆみ／佐藤弘道／松野ちか／ワンワン</strong><br><span style="color: #64748b;">Eテレソングパーティー！出演</span></div>
     </div>
   </div>
 
   <!-- フッター -->
   <div style="padding: 12px 16px; background: #f8fbff; border-top: 1px solid #e2e8f0;">
     <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #64748b; text-align: center;">
-      ※上記は2026年7月8日時点の発表分（50音順・32組）。歌唱曲は未発表・出演者は今後も追加発表予定です。</p>
+      ※上記は50音順・33組。歌唱曲・出演順は全編確定しています。</p>
     <p style="margin: 6px 0 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #64748b; text-align: center;">
-      ※さだまさし・Mrs. GREEN APPLE・ゆずの3組は、8月9日のNHKホール公開収録には出演しません。</p>
+      ※さだまさし・Mrs. GREEN APPLEの2組は、NHKホールでの公開収録には出演していません（本編には出演します）。</p>
   </div>
 </div>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>あいみょんや福山雅治、LUNA SEA、Aぇ! groupなど世代を超えた豪華32組が発表！</p>
+<p>あいみょんや福山雅治、LUNA SEA、Aぇ! groupなど世代を超えた豪華33組が出演予定！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演者・ゲストは今後も追加発表される予定です。</p>
+<p>「ゆず×羽生結弦」や「Eテレソングパーティー！」など特別企画の出演者も加わり、家族みんなで楽しめる内容です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -253,11 +285,11 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>今回の司会に抜擢されたのは、大森元貴さん（Mrs. GREEN APPLE）・北川景子さん・二宮和也さんの3名です！</p>
+<p>今回の司会に抜擢されたのは、大森元貴（Mrs. GREEN APPLE）・北川景子・二宮和也の3名です！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<aside role="region" aria-label="司会者" style="
+<aside role="region" aria-label="司会者プロフィール" style="
   margin: 24px 0;
   padding: 2px;
   border-radius: 12px;
@@ -306,7 +338,7 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>大森さんは「家族でテレビを囲んだ温かい空気を大切にしたい」と話しており、アーティストとはまた違う司会者として顔も楽しみです。</p>
+<p>大森さんは「家族でテレビを囲んだ温かい空気を大切にしたい」と話しており、アーティストとはまた違う司会者として顔も楽しみですね。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -368,7 +400,7 @@
         <div style="flex-shrink: 0; width: 24px; height: 24px; background: #eef4fb; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #007bff; font-weight: bold;">03</div>
         <div>
           <div style="font-size: 13px; font-weight: 800; color: #1a1a1a; margin-bottom: 2px;">大森元貴・北川景子・二宮和也の初トリオ司会</div>
-          <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #555; line-height: 1.6;">大森さんは音楽番組初司会、北川さんも司会初挑戦。3人が織りなす温かい空気感にご期待ください。</div>
+          <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #555; line-height: 1.6;">大森さんは音楽番組初司会、北川さんも司会初挑戦。二宮さんは「いち観客として楽しんでる時間がありました」、北川さんは「次のダンス、映るよ！」と本番中も自然な掛け合いを見せ、大森さんは二宮さんを「芸能界のお兄ちゃん」と表現しています。</div>
         </div>
       </div>
 
@@ -388,13 +420,37 @@
         </div>
       </div>
 
+      <div style="display: flex; gap: 12px; align-items: flex-start;">
+        <div style="flex-shrink: 0; width: 24px; height: 24px; background: #eef4fb; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #007bff; font-weight: bold;">06</div>
+        <div>
+          <div style="font-size: 13px; font-weight: 800; color: #1a1a1a; margin-bottom: 2px;">ピンク・レディー デビュー50周年スペシャルメドレー</div>
+          <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #555; line-height: 1.6;">増田惠子さんが南野陽子さん・生田絵梨花さん・櫻井優衣さん(FRUITS ZIPPER)と3世代コラボ。「ペッパー警部」「渚のシンドバッド」「UFO」を披露します。</div>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 12px; align-items: flex-start;">
+        <div style="flex-shrink: 0; width: 24px; height: 24px; background: #eef4fb; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #007bff; font-weight: bold;">07</div>
+        <div>
+          <div style="font-size: 13px; font-weight: 800; color: #1a1a1a; margin-bottom: 2px;">平和・いのちのステージ</div>
+          <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #555; line-height: 1.6;">福山雅治さん「想望」「邂逅」、森山良子さんが終戦の日にちなみ「さとうきび畑」、さだまさしさんが令和8年熊本地震の被災地に向けて「いのちの理由」を届けます。</div>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 12px; align-items: flex-start;">
+        <div style="flex-shrink: 0; width: 24px; height: 24px; background: #eef4fb; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; color: #007bff; font-weight: bold;">08</div>
+        <div>
+          <div style="font-size: 13px; font-weight: 800; color: #1a1a1a; margin-bottom: 2px;">LUNA SEA「FOREVER」追悼ステージ</div>
+          <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color: #555; line-height: 1.6;">2月に旅立ったドラマー・真矢さんを偲び、LUNA SEAが「FOREVER」を披露します。</div>
+        </div>
+      </div>
+
     </div>
   </div>
 </aside>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>「Eテレソングパーティー！」も「ゆず×羽生結弦」も、詳しくは上のカードをチェックしてみてくださいね。</p>
+<p>ピンク・レディー50周年メドレーやLUNA SEAの追悼ステージなど、詳しくは上のカードをチェックしてみてくださいね。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -406,11 +462,11 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>NHKホールでの公開収録は2026年8月9日（日）に開催予定！</p>
+<p>NHKホールでの公開収録は2026年8月9日（日）に開催されました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>観覧募集・リクエスト/メッセージ募集は2026年7月3日（金）午後1時より同時に開始されます。</p>
+<p>観覧募集は11万通以上、楽曲リクエスト募集は2万通以上の応募が集まったとのことです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -434,9 +490,13 @@
         <span style="width: 120px; font-size: 12px; color: #64748b; font-weight: 700;">応募受付開始</span>
         <span style="flex: 1; font-size: 13px; font-weight: 700; color: #007bff;">2026年7月3日（金）13:00〜</span>
       </div>
-      <div style="display: flex;">
+      <div style="display: flex; border-bottom: 1px solid #f8fafc; padding-bottom: 8px;">
         <span style="width: 120px; font-size: 12px; color: #64748b; font-weight: 700;">応募方法</span>
         <span style="flex: 1; font-size: 13px; font-weight: 600; color: #1a1a1a;">NHK公式サイトにて受付開始（詳細は公式サイト参照）</span>
+      </div>
+      <div style="display: flex;">
+        <span style="width: 120px; font-size: 12px; color: #64748b; font-weight: 700;">応募状況</span>
+        <span style="flex: 1; font-size: 13px; font-weight: 600; color: #1a1a1a;">観覧11万通以上／リクエスト2万通以上</span>
       </div>
     </div>
     
@@ -456,11 +516,11 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>観覧・リクエストの募集は2026年7月3日（金）13時より開始されます。詳しい応募方法は公式ホームページで案内されています。</p>
+<p>観覧・リクエストの募集は2026年7月3日（金）13時より開始され、公開収録日をもって受付が終了しました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>詳細が分かり次第、このページでもご案内します。</p>
+<p>これだけ多くの応募が集まった番組を、放送当日はぜひタイムテーブルを見ながら楽しんでください。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -560,7 +620,7 @@
       <div style="padding: 14px; border-radius: 10px; background: #f8fbff; border: 1px solid #eef4fb;">
         <div style="font-size: 12px; font-weight: 900; color: #007bff;">Q1｜タイムテーブルはいつ公開されますか？</div>
         <div style="margin-top: 8px; font-size: clamp(12.5px, calc(12.5px + (100vw - 480px) / 206), 16px); color: #444; line-height: 1.6;">
-          2026年7月8日時点で出演アーティスト32組は発表されましたが、出演順・タイムテーブルは未発表です。発表され次第このページで随時更新いたします。放送当日はリアルタイム更新も予定しております。
+          2026年8月13日時点で出演順・タイムテーブルは全編確定しています（18:05〜22:00）。詳しい出演順は本文の一覧でご確認いただけます。
         </div>
       </div>
 
@@ -568,7 +628,7 @@
       <div style="padding: 14px; border-radius: 10px; background: #ffffff; border: 1px solid #e2e8f0;">
         <div style="font-size: 12px; font-weight: 900; color: #1a1a1a;">Q2｜出演アーティストはいつ発表されますか？</div>
         <div style="margin-top: 8px; font-size: clamp(12.5px, calc(12.5px + (100vw - 480px) / 206), 16px); color: #444; line-height: 1.6;">
-          2026年7月8日時点で32組が発表済みです。出演者・ゲストは今後も追加発表される予定で、最新情報が判明次第、速報としてこのページに追記いたします。
+          出演アーティスト33組の発表は完了し、歌唱曲もすべて判明しています。特別企画の出演者もあわせて本文の一覧でまとめています。
         </div>
       </div>
 
@@ -584,7 +644,7 @@
       <div style="padding: 14px; border-radius: 10px; background: #ffffff; border: 1px solid #e2e8f0;">
         <div style="font-size: 12px; font-weight: 900; color: #1a1a1a;">Q4｜観覧やリクエストの応募方法は？</div>
         <div style="margin-top: 8px; font-size: clamp(12.5px, calc(12.5px + (100vw - 480px) / 206), 16px); color: #444; line-height: 1.6;">
-          2026年7月3日（金）午後1時より募集が開始されました。公開収録は8月9日にNHKホールで実施されます。詳しい応募方法はNHK公式サイトをご確認ください。
+          2026年7月3日（金）午後1時より募集が開始され、公開収録日をもって受付を終えました。観覧11万通・リクエスト2万通を超える応募が集まったとのことです。
         </div>
       </div>
 
@@ -606,15 +666,15 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演アーティストはあいみょんや福山雅治、LUNA SEAなど32組（50音順）が発表され、豪華な顔ぶれとなりました。観覧・リクエスト募集は7月3日13時より開始されています。</p>
+<p>出演アーティストはあいみょんや福山雅治、LUNA SEAなど33組（50音順）が確定。ピンク・レディーデビュー50周年メドレーや「ゆず×羽生結弦」など特別企画も見どころです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演順・タイムテーブルの詳細が発表され次第、このページで随時更新します。</p>
+<p>観覧・リクエスト募集には11万通・2万通を超える応募が集まり、出演順・タイムテーブルも全編確定しました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>続報をお見逃しなく。</p>
+<p>放送当日は、このページでタイムテーブルを確認しながら楽しんでください。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -724,7 +784,7 @@
       "@id": "https://shira-treat.com/utadeaetara-timetable/#post",
       "url": "https://shira-treat.com/utadeaetara-timetable/",
       "headline": "NHK夏の音楽祭 うたであえたら2026 タイムテーブル｜出演者や順番を随時更新",
-      "description": "8/15放送「NHK夏の音楽祭 うたであえたら 2026」出演アーティスト32組・司会3名（大森元貴・北川景子・二宮和也）が発表！順番など最新タイムテーブルや観覧募集・リクエスト応募情報も随時更新中です。",
+      "description": "8/15放送「NHK夏の音楽祭 うたであえたら 2026」司会3名（大森元貴・北川景子・二宮和也）に加え、出演アーティスト33組・タイムテーブルの出演順が確定！観覧応募11万通突破の反響も紹介します。",
       "keywords": [
         "NHK夏の音楽祭",
         "うたであえたら",
@@ -737,12 +797,15 @@
         "Mrs. GREEN APPLE",
         "ゆず",
         "羽生結弦",
+        "ピンク・レディー",
+        "LUNA SEA",
+        "福山雅治",
         "2026",
         "NHKホール"
       ],
       "datePublished": "2026-07-01T20:00:00+09:00",
       "dateCreated": "2026-07-01T20:00:00+09:00",
-      "dateModified": "2026-08-02T12:00:00+09:00",
+      "dateModified": "2026-08-13T12:00:00+09:00",
       "inLanguage": "ja",
       "image": {
         "@type": "ImageObject",
@@ -836,6 +899,7 @@
         { "@type": "Person", "name": "茂森あゆみ" },
         { "@type": "Person", "name": "速水けんたろう" },
         { "@type": "Person", "name": "松野ちか" },
+        { "@type": "Person", "name": "ワンワン" },
         { "@type": "MusicGroup", "name": "ゆず" },
         { "@type": "Person", "name": "羽生結弦" }
       ],
@@ -854,7 +918,7 @@
           "name": "タイムテーブルはいつ公開されますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "2026年7月8日時点で出演アーティスト32組は発表されましたが、出演順・タイムテーブルは未発表です。発表され次第このページで随時更新いたします。放送当日はリアルタイム更新も予定しております。"
+            "text": "2026年8月13日時点で出演順・タイムテーブルは全編確定しています（18:05〜22:00）。詳しい出演順は本文の一覧でご確認いただけます。"
           }
         },
         {
@@ -862,7 +926,7 @@
           "name": "出演アーティストはいつ発表されますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "2026年7月8日時点で32組が発表済みです。出演者・ゲストは今後も追加発表される予定で、最新情報が判明次第、速報としてこのページに追記いたします。"
+            "text": "出演アーティスト33組の発表は完了し、歌唱曲もすべて判明しています。特別企画の出演者もあわせて本文の一覧でまとめています。"
           }
         },
         {
@@ -878,7 +942,7 @@
           "name": "観覧やリクエストの応募方法は？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "2026年7月3日（金）午後1時より募集が開始されました。公開収録は8月9日にNHKホールで実施されます。詳しい応募方法はNHK公式サイトをご確認ください。"
+            "text": "2026年7月3日（金）午後1時より募集が開始され、公開収録日をもって受付を終えました。観覧11万通・リクエスト2万通を超える応募が集まったとのことです。"
           }
         }
       ]
