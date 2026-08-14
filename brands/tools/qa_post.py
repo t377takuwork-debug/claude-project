@@ -326,6 +326,30 @@ def check_mbticode_file(posts, findings):
                                     f"書き出し恋愛文脈ワード「{top_word}」が{top_cnt}/{total}本に偏り"
                                     "（50%以上・書き出し多様化ルール）"))
 
+    # 書き出しフレーズの完全一致検知（2026-08-14追加）。
+    # opener-tayouは単語単位・ファイル全体比率のみを見るため、7日保持分の古い投稿で薄まると
+    # 新規バッチ内だけで「恋愛で、」等が集中していても閾値未満になり見逃す（実例：新規14本中10本が
+    # 同一フレーズで開始、比率チェックでは無検知だった）。単語の一致有無に関わらず、1行目冒頭の
+    # 同一フレーズ（読点まで、なければ先頭8文字）が絶対数で繰り返されていれば比率に関係なくWARNする。
+    opener_phrases = {}
+    for p in posts:
+        if p["is_reply"] or not p["date"]:
+            continue
+        lines = nonempty_lines(p["body"])
+        if not lines:
+            continue
+        first = lines[0].strip()
+        m = re.match(r"^(.+?[、。])", first)
+        phrase = m.group(1) if m else first[:8]
+        if len(phrase) >= 3:
+            opener_phrases.setdefault(phrase, []).append(p["label"])
+    for phrase, labels in opener_phrases.items():
+        if len(labels) >= 3:
+            findings.append(Finding("WARN", "バッチ全体", "opener-phrase-repeat",
+                                    f"書き出しフレーズ「{phrase}」が{len(labels)}本で完全一致"
+                                    f"（ファイル全体比率とは無関係に絶対数3本以上で検知）: "
+                                    + " / ".join(labels)))
+
     # タイプ名の締め方バリエーション偏り検知（2026-07-29追加）
     closing_pattern = re.compile(r"に近いタイプに出やすい(パターン|動き方)")
     type_posts = [p for p in posts if not p["is_reply"] and re.search(r"MBTI|ラブタイプ|DSKB", p["header"])]
@@ -343,8 +367,12 @@ def check_mbticode_file(posts, findings):
         ("気がする型", re.compile(r"気がする[。！]?$")),
         ("かもしれない型", re.compile(r"かもしれない[。！]?$")),
         ("らしい型", re.compile(r"らしい[。！]?$")),
+        # 2026-08-14追加：「AなのかBなのか／〜のか、まだ答えが出ていない・整理できていない・
+        # わからないままでいる」という自問未解決型の締め。ユーザー指摘で新規14本中4本の重複が発覚。
+        ("まだ〜ない型", re.compile(r"まだ.{0,12}(ない|できていない)[。！]?$")),
     ]
     closing_suffixes = {}
+    closing_labels = {}
     for p in posts:
         if p["is_reply"] or not p["date"]:
             continue
@@ -355,6 +383,7 @@ def check_mbticode_file(posts, findings):
         for label, pat in CLOSING_SUFFIX_PATTERNS:
             if pat.search(last):
                 closing_suffixes[label] = closing_suffixes.get(label, 0) + 1
+                closing_labels.setdefault(label, []).append(p["label"])
                 break
     if closing_suffixes:
         total = sum(closing_suffixes.values())
@@ -363,6 +392,13 @@ def check_mbticode_file(posts, findings):
             findings.append(Finding("WARN", "バッチ全体", "closing-suffix-tayou",
                                     f"結び文の文末「{top_label}」が{top_cnt}/{total}本に偏り"
                                     "（40%以上・結び文多様化ルール。2026-07-30notekaigi参照）"))
+        # ファイル全体比率だと7日保持分の古い投稿で薄まり、新規バッチ内だけの偏りを見逃すため
+        # （opener-phrase-repeatと同じ理由）、比率に関係なく絶対数3本以上でも別途WARNする。
+        for label, cnt in closing_suffixes.items():
+            if cnt >= 3:
+                findings.append(Finding("WARN", "バッチ全体", "closing-suffix-repeat",
+                                        f"結び文の文末「{label}」が絶対数{cnt}本で重複: "
+                                        + " / ".join(closing_labels[label])))
 
 
 # ---------------------------------------------------------------- s4lv
