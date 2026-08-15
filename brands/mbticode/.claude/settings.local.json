@@ -19,7 +19,11 @@
       "Bash(iconv -f UTF-8 -t UTF-8)",
       "Bash(python tools/check_queue_coverage.py)",
       "Bash(python -m py_compile tools/update_threads_queue_body.py)",
-      "Bash(python tools/fetch_insights.py)"
+      "Bash(python tools/fetch_insights.py)",
+      "PowerShell(python \"C:\\\\Users\\\\PC_User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-PC-User-claude-project-brands-mbticode\\\\9be5c231-73fc-48b3-b0aa-dc7374a12674\\\\scratchpad\\\\check_order.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\PC_User\\\\claude project\\\\brands\\\\tools\\\\qa_post.py\" \"C:\\\\Users\\\\PC_User\\\\claude project\\\\brands\\\\mbticode\\\\posts\\\\posts_threads.txt\")",
+      "Bash(python \"brands/tools/qa_post.py\" \"brands/mbticode/posts/posts_threads.txt\")",
+      "Bash(python tools/update_threads_queue_body.py posts/posts_threads.txt \"8/16 16:00\" \"8/18 16:00\" \"8/21 08:00\" \"8/21 19:00\" \"8/23 12:00\")"
     ]
   }
 }

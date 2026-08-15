@@ -14,3 +14,4 @@ URLの形式：https://note.com/s4lv24/n/[key]
 | 07 | VIVANT「タムタム」って誰のこと？第12話の電話相手について | https://note.com/s4lv24/n/ndab501fef2c6 | 無料 | 2026-08-04 |
 | 08 | VIVANT2 東条翔太は裏切り者なのか、これまでの役回りを整理 | https://note.com/s4lv24/n/n56acff59ed25 | 無料 | 2026-08-04 |
 | 09 | VIVANT鈴木祥はなぜ怪しい？イヤホンと十字の祈り、2つの伏線 | https://note.com/s4lv24/n/nf77f6f579cc7 | 無料 | 2026-08-15 |
+| 10 | VIVANT和久井は裏切り者なのか、スマホの伏線から考える | https://note.com/s4lv24/n/ncc4d1251efa3 | 無料 | 2026-08-15 |

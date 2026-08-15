@@ -11,6 +11,10 @@ CSV columns (header row optional, auto-detected by date-parse failure):
 Safety behavior:
   - rows whose date is before now are skipped unless --allow-past is passed
   - rows whose 投稿日時 already exists in the sheet are skipped (duplicate guard)
+  - after appending, the whole sheet (A2:H) is re-sorted by 投稿日時 ascending
+    (values.append() always adds after the last row regardless of date, which
+    left the sheet out of chronological order when adding same-day rows out of
+    sequence; 2026-08-16 fix)
 """
 import csv
 import datetime
@@ -33,6 +37,43 @@ EPOCH = datetime.datetime(1899, 12, 30)
 
 def to_serial(dt):
     return (dt - EPOCH).total_seconds() / 86400.0
+
+
+def sort_queue_by_datetime(sheets, spreadsheet_id, sheet_name):
+    """Re-sorts the whole queue (A2:H) by 投稿日時 ascending in place.
+
+    values.append() always inserts after the last existing row regardless of
+    date, so appending a same-day row out of hour order (e.g. adding 16:00
+    after 22:00 was already queued) leaves the sheet chronologically scrambled.
+    """
+    resp = sheets.values().get(
+        spreadsheetId=spreadsheet_id,
+        range=f"{sheet_name}!A2:H",
+        valueRenderOption="UNFORMATTED_VALUE",
+    ).execute()
+    rows = resp.get("values", [])
+    if not rows:
+        return
+    for r in rows:
+        while len(r) < 8:
+            r.append("")
+
+    def sort_key(r):
+        return r[0] if isinstance(r[0], (int, float)) else float("inf")
+
+    rows_sorted = sorted(rows, key=sort_key)
+    already_sorted = rows_sorted == rows
+    for r in rows_sorted:
+        if isinstance(r[0], (int, float)):
+            r[0] = (EPOCH + datetime.timedelta(days=r[0])).strftime("%Y-%m-%d %H:%M")
+
+    if not already_sorted:
+        sheets.values().update(
+            spreadsheetId=spreadsheet_id,
+            range=f"{sheet_name}!A2:H{1 + len(rows_sorted)}",
+            valueInputOption="USER_ENTERED",
+            body={"values": rows_sorted},
+        ).execute()
 
 
 def get_service():
@@ -124,6 +165,7 @@ def main():
         insertDataOption="INSERT_ROWS",
         body={"values": values},
     ).execute()
+    sort_queue_by_datetime(sheets, spreadsheet_id, sheet_name)
 
     print(f"[OK] {len(to_append)} 件をスプレッドシートへ追加しました:")
     for row in to_append:

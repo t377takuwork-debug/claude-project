@@ -23,6 +23,7 @@
 import argparse
 import re
 import sys
+from pathlib import Path
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -37,6 +38,8 @@ URL_RE = re.compile(r"https?://")
 # 本文の閉じ`----`の後・次の見出しの前に置かれる「自己リプライ（〜）：」注記行の接頭辞。
 # 投稿本体には含めない（実際にThreadsへ投稿するのはこの接頭辞を除いた本文のみ）。
 REPLY_LABEL_RE = re.compile(r"^自己リプライ[^：]*：\s*")
+# Threads API実測の投稿本文上限（超過分は投稿時に必ずエラーになる。目安200〜350字とは別軸のハード制約）。
+THREADS_API_LIMIT = 500
 
 # 1行目の恋愛文脈ワード（チェックリスト「1行目に恋愛文脈ワード」の近似判定・WARN専用）
 LOVE_LEXICON = re.compile(
@@ -162,6 +165,8 @@ MBTICODE_MAIN_ERRORS = [
     ("ai-matome", r"以上のように|このように、|まとめると", "要約フレーズ禁止（quality-guardrail）"),
     ("ai-yobousen", r"個人差があります|一概には言えません", "責任回避の予防線禁止（quality-guardrail）"),
     ("demo-conj", r"(^|。)\s*でも[、ね]", "接続詞「でも」禁止→「けど」を使う（cheatsheet文体）"),
+    ("tsuzuki-meta", r"続きに置いた|続きはリプ欄で|つづきます|自己リプライに続けます",
+     "続き型の予告メタ発言禁止（2026-08-16notekaigi・本文は読点で文法的に途切れさせ、リプライが直接完成させる）"),
 ]
 
 REPLY_ERRORS = [
@@ -245,7 +250,11 @@ def check_mbticode_post(post, platform):
                              "冒頭2行にMBTIタイプ名（タイプ名は核心フレーズの後に置く・X書き出しルール）"))
     elif platform == "threads":
         length = len(body.replace("\n", ""))
-        if not (200 <= length <= 350):
+        if length > THREADS_API_LIMIT:
+            f.append(Finding("ERROR", post["label"], "th-length-api-limit",
+                             f"Threads本文{length}字（API上限{THREADS_API_LIMIT}字を超過・投稿時に必ず失敗する。"
+                             f"型が原因で収まらない場合は圧縮せず続き型として自己リプライへ分割する）"))
+        elif not (200 <= length <= 350):
             f.append(Finding("WARN", post["label"], "th-length",
                              f"Threads本文{length}字（目安200〜350字）"))
         reply = post.get("reply", "")
@@ -257,9 +266,12 @@ def check_mbticode_post(post, platform):
             for code, pat, msg in CONTENT_POLICY_ERRORS:
                 if re.search(pat, reply_body):
                     f.append(Finding("ERROR", post["label"], code, f"{msg}（自己リプライ）"))
-            if not URL_RE.search(reply_body):
+            rlen = len(reply_body.replace("\n", ""))
+            if rlen > THREADS_API_LIMIT:
+                f.append(Finding("ERROR", post["label"], "th-reply-length-api-limit",
+                                 f"自己リプライ{rlen}字（API上限{THREADS_API_LIMIT}字を超過・投稿時に必ず失敗する）"))
+            elif not URL_RE.search(reply_body):
                 # URL誘導リプライは1〜2行＋URLで完結（字数チェック対象外）
-                rlen = len(reply_body.replace("\n", ""))
                 if not (80 <= rlen <= 150):
                     f.append(Finding("WARN", post["label"], "th-reply-length",
                                      f"自己リプライ{rlen}字（コンテンツ系は80〜150字）"))
@@ -267,7 +279,23 @@ def check_mbticode_post(post, platform):
         if head_lines and MBTI_RE.search(head_lines[0]):
             f.append(Finding("WARN", post["label"], "th-type-head",
                              "書き出しにMBTIタイプ名（タイプ名は中盤以降・Threadsルール）"))
+        # 続き型は本文の最後を読点で文法的に未完のまま終える（2026-08-16notekaigi）
+        if "続き型" in post.get("header", "") and reply:
+            tail_lines = nonempty_lines(body)
+            if tail_lines and not tail_lines[-1].strip().endswith("、"):
+                f.append(Finding("WARN", post["label"], "tsuzuki-not-fragment",
+                                 "続き型は本文の最後を読点（、）で文法的に途切れさせ、"
+                                 "自己リプライがそのまま完成させる形にする（2026-08-16notekaigi・続き型の本文の切り方）"))
     return f
+
+
+def load_cta_templates():
+    """cta_templates.md内の```で囲まれたCTA承認済み文言を全て抽出する（2026-08-16notekaigi追加）。"""
+    path = Path(__file__).resolve().parent.parent / "mbticode" / "posts" / "cta_templates.md"
+    if not path.exists():
+        return []
+    text = path.read_text(encoding="utf-8")
+    return [t.strip() for t in re.findall(r"```\n(.+?)\n```", text, flags=re.S)]
 
 
 def check_mbticode_file(posts, findings):
@@ -364,6 +392,12 @@ def check_mbticode_file(posts, findings):
     CLOSING_SUFFIX_PATTERNS = [
         ("ことがある型", re.compile(r"ことが(あ|あっ)る[。！]?$")),
         ("だった/じゃなかった型", re.compile(r"(だった|じゃなかった)[。！]?$")),
+        # 2026-08-16notekaigi追加：締め文の「〜だ。」は言い切り感が強く機械的に見えるとユーザー指摘。
+        # 「んだ。」（んですよね系の柔らかい語尾に連なる契機・許容）は対象外にする。
+        ("だ言い切り型", re.compile(r"(?<!ん)だ[。！]?$")),
+        # 2026-08-16notekaigi追加（同日）：「だ。」と同じく「〜がある。/〜にある。」も言い切り感が
+        # 強く機械的に見えるとユーザー指摘。「ことがある型」は既に別枠で判定済みのためそちらを優先。
+        ("がある/にある型", re.compile(r"(が|に)ある[。！]?$")),
         ("気がする型", re.compile(r"気がする[。！]?$")),
         ("かもしれない型", re.compile(r"かもしれない[。！]?$")),
         ("らしい型", re.compile(r"らしい[。！]?$")),
@@ -399,6 +433,48 @@ def check_mbticode_file(posts, findings):
                 findings.append(Finding("WARN", "バッチ全体", "closing-suffix-repeat",
                                         f"結び文の文末「{label}」が絶対数{cnt}本で重複: "
                                         + " / ".join(closing_labels[label])))
+
+    # 続き型の接続表現（読点直前フレーズ）の重複検知（2026-08-16notekaigi追加）
+    CONNECTOR_TAIL_RE = re.compile(
+        r"(としたら|てみたら|であって|があって|ていて|というと|けれど|けど|のに|ながら|ようで)、$"
+    )
+    connector_seen = {}
+    connector_labels = {}
+    for p in posts:
+        if p["is_reply"] or not p["date"] or not p.get("reply"):
+            continue
+        if "続き型" not in p["header"]:
+            continue
+        lines = nonempty_lines(p["body"])
+        if not lines:
+            continue
+        m = CONNECTOR_TAIL_RE.search(lines[-1].strip())
+        if not m:
+            continue
+        word = m.group(1)
+        connector_seen[word] = connector_seen.get(word, 0) + 1
+        connector_labels.setdefault(word, []).append(p["label"])
+    for word, cnt in connector_seen.items():
+        if cnt >= 2:
+            findings.append(Finding("WARN", "バッチ全体", "tsuzuki-connector-repeat",
+                                    f"続き型の接続表現「〜{word}、」が{cnt}本で重複: "
+                                    + " / ".join(connector_labels[word])))
+
+    # URL事後型リプライがcta_templates.mdの承認済みパターンと一致しているか確認（2026-08-16notekaigi追加）
+    cta_texts = load_cta_templates()
+    if cta_texts:
+        for p in posts:
+            if p["is_reply"] or not p.get("reply"):
+                continue
+            if "URL事後型" not in p["header"]:
+                continue
+            reply_body = REPLY_LABEL_RE.sub("", p["reply"], count=1).strip()
+            reply_lines = [ln for ln in reply_body.split("\n") if not ln.strip().startswith("→")]
+            reply_text = "\n".join(reply_lines).strip()
+            if not any(reply_text in t or t in reply_text for t in cta_texts):
+                findings.append(Finding("WARN", p["label"], "cta-template-mismatch",
+                                        "自己リプライがcta_templates.mdの承認済みパターンと一致しない"
+                                        "（新規パターンならテンプレート集へ正式追加したか確認）"))
 
 
 # ---------------------------------------------------------------- s4lv

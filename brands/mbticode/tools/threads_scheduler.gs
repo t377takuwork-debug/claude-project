@@ -10,7 +10,8 @@
 //      B1/B2 so the token doesn't sit visibly in the sheet. No dialogs involved,
 //      so it works regardless of which tab/window is focused when you click Run.
 //   2b. setupGithubToken() - same idea for B3 (see GitHub relay section below).
-//   3. installTriggers() - creates the 08:00 / 12:00 / 22:00 posting triggers,
+//   3. installTriggers() - creates the 08:00 / 12:00 / 16:00 / 19:00 / 22:00 posting
+//      triggers (2026-08-16notekaigi: increased from 3/day to 5/day),
 //      the daily 23:30 insight-collection / 23:35 observation-log / 23:40
 //      GitHub-sync triggers, the weekly (Mon 07:00) token refresh trigger, and
 //      the weekly (Sun 21:00) GitHub batch-pull trigger.
@@ -359,7 +360,8 @@ function doPost(e) {
 
 function installTriggers() {
   ScriptApp.getProjectTriggers().forEach(function (t) { ScriptApp.deleteTrigger(t); });
-  [8, 12, 22].forEach(function (hour) {
+  // 2026-08-16notekaigi: 1日3本(8/12/22)から1日5本(8/12/16/19/22)へ増量。試験期間8/17〜8/23。
+  [8, 12, 16, 19, 22].forEach(function (hour) {
     ScriptApp.newTrigger("postScheduled").timeBased().everyDays(1).atHour(hour).nearMinute(0).create();
   });
   ScriptApp.newTrigger("collectInsights").timeBased().everyDays(1).atHour(23).nearMinute(30).create();
@@ -368,7 +370,7 @@ function installTriggers() {
   ScriptApp.newTrigger("checkHealth").timeBased().everyDays(1).atHour(23).nearMinute(45).create();
   ScriptApp.newTrigger("refreshToken").timeBased().onWeekDay(ScriptApp.WeekDay.MONDAY).atHour(7).create();
   ScriptApp.newTrigger("pullBatchFromGitHub").timeBased().onWeekDay(ScriptApp.WeekDay.SUNDAY).atHour(21).create();
-  Logger.log("triggers installed: postScheduled 08:00/12:00/22:00 daily, collectInsights 23:30 daily, dailyObservationLog 23:35 daily, syncDataToGitHub 23:40 daily, checkHealth 23:45 daily, refreshToken Mon 07:00, pullBatchFromGitHub Sun 21:00");
+  Logger.log("triggers installed: postScheduled 08:00/12:00/16:00/19:00/22:00 daily, collectInsights 23:30 daily, dailyObservationLog 23:35 daily, syncDataToGitHub 23:40 daily, checkHealth 23:45 daily, refreshToken Mon 07:00, pullBatchFromGitHub Sun 21:00");
 }
 
 // Daily (Phase2, 2026-07-26notekaigi): re-aggregates INSIGHTS_SHEET_NAME into
