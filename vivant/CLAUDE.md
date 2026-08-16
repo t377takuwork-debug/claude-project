@@ -58,6 +58,12 @@ vivant/
 | `/vivant-theme` | テーマ評価・ペルソナ設定・タイトル決定（記事作成の最初に使う） |
 | `/vivant-article` | 構成設計・本文生成・品質チェック・保存（`/vivant-theme` の出力を引き継ぐ） |
 
+## 考察スキル
+
+| スキル | 用途 |
+|---|---|
+| `/vivant-deep-theory [論点]` | 特定の論点（例：「野崎の真意」）を1つ選び、事実整理→複数レンズ分析→複数仮説生成→反証→確信度評価までを行うオンデマンド深掘り考察。新話の定例更新（`/vivant-episode-update`）とは別に、いつでも起動できる（2026-08-17新設） |
+
 ## Threads投稿スキル
 
 | スキル | 用途 |
@@ -85,4 +91,4 @@ vivant/
 
 ## このシステムについて
 
-このディレクトリと関連スキル（`/vivant-episode-update`・`/vivant-theme`・`/vivant-article`）は他の業務（brands/・Junk314/等）から独立した構成。撤去する場合はこのディレクトリと `.claude/commands/vivant-episode-update.md`・`.claude/commands/vivant-theme.md`・`.claude/commands/vivant-article.md` を削除すれば他システムに影響しない。
+このディレクトリと関連スキル（`/vivant-episode-update`・`/vivant-deep-theory`・`/vivant-theme`・`/vivant-article`）は他の業務（brands/・Junk314/等）から独立した構成。撤去する場合はこのディレクトリと `.claude/commands/vivant-episode-update.md`・`.claude/commands/vivant-deep-theory.md`・`.claude/commands/vivant-theme.md`・`.claude/commands/vivant-article.md` を削除すれば他システムに影響しない。
