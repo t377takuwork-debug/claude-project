@@ -12,9 +12,17 @@
 //   2b. setupGithubToken() - same idea for B3 (see GitHub relay section below).
 //   3. installTriggers() - creates the 08:00 / 12:00 / 16:00 / 19:00 / 22:00 posting
 //      triggers (2026-08-16notekaigi: increased from 3/day to 5/day),
+//      the 10:00 / 14:00 / 18:00 / 21:00 / 00:00 early-performance-check triggers
+//      (2h after each posting slot; see checkEarlyPerformance below),
 //      the daily 23:30 insight-collection / 23:35 observation-log / 23:40
-//      GitHub-sync triggers, the weekly (Mon 07:00) token refresh trigger, and
-//      the weekly (Sun 21:00) GitHub batch-pull trigger.
+//      GitHub-sync triggers, the every-10-minutes external-reply-detection /
+//      reply-candidate-sync triggers, the hourly generated-reply-pull trigger
+//      (2026-08-16notekaigi Phase5 timing revision: detection polls every
+//      10min but the cloud drafting routine can only run hourly at minimum --
+//      see checkEarlyPerformance/detectExternalReplies below and
+//      sns_post_cheatsheet.md「外部リプライ自動応答」for the full reasoning),
+//      the weekly (Mon 07:00) token refresh trigger, and the weekly
+//      (Sun 21:00) GitHub batch-pull trigger.
 //
 // Sheet: a tab named exactly SHEET_NAME, row 1 = header, columns in this order:
 //   投稿日時 | 本文 | リプライ本文 | 型 | FW | ステータス | 投稿ID | リプライ投稿ID
@@ -27,6 +35,28 @@
 //   投稿ID | 投稿日時 | 型 | FW | Views | Likes | Replies | Reposts | Quotes | 取得日時
 // One row per post, overwritten in place each day collectInsights() runs
 // (a snapshot of "latest known numbers", not a full history timeline).
+//
+// URL auto-reply log tab (2026-08-16notekaigi Phase4): a tab named exactly
+// LOG_SHEET_NAME, row 1 = header:
+//   投稿ID | 投稿日時 | 判定時刻 | Views(判定時) | 基準値 | 倍率 | 判定結果 |
+//   選定記事 | 選定理由 | リプライ本文 | リプライ投稿ID
+// checkEarlyPerformance() writes one row per post it evaluates as a high
+// performer (whether it ends up posting or erroring), and also uses this
+// sheet's history to decide which paid article to rotate to when no keyword
+// matches (see leastRecentlyUsedArticle). Create this tab manually before
+// running installTriggers().
+//
+// External-reply auto-response tab (2026-08-16notekaigi Phase5): a tab named
+// exactly REPLY_QUEUE_SHEET_NAME, row 1 = header:
+//   リプライID | 元投稿ID | 元投稿本文 | 投稿者 | リプライ本文 | 受信日時 |
+//   ステータス | 生成した返信文 | 返信投稿ID
+// detectExternalReplies() appends rows (ステータス=未処理) for every new
+// external reply found. syncReplyCandidatesToGitHub() mirrors 未処理 rows to
+// GitHub for the scheduled reply-drafting cloud routine to read (fully
+// automatic, no human review step -- see sns_post_cheatsheet.md「外部リプライ
+// 自動応答」). pullGeneratedRepliesFromGitHub() posts the routine's drafted
+// text and flips ステータス to 投稿済み/エラー. Create this tab manually
+// before running installTriggers().
 //
 // Daily observation log (2026-07-26notekaigi Phase2): a tab named exactly
 // OBS_SHEET_NAME, row 1 = header:
@@ -43,13 +73,47 @@ const SHEET_NAME = "Threads投稿キュー";
 const SETUP_SHEET_NAME = "設定";
 const INSIGHTS_SHEET_NAME = "インサイト";
 const OBS_SHEET_NAME = "日次観測ログ";
+const LOG_SHEET_NAME = "URL自動投稿ログ";
 const COL = { DATETIME: 1, TEXT: 2, REPLY: 3, TYPE: 4, FW: 5, STATUS: 6, POST_ID: 7, REPLY_POST_ID: 8 };
 const ICOL = { POST_ID: 1, DATETIME: 2, TYPE: 3, FW: 4, VIEWS: 5, LIKES: 6, REPLIES: 7, REPOSTS: 8, QUOTES: 9, FETCHED_AT: 10 };
 const OCOL = {
   DATE: 1, POST_COUNT: 2, VIEWS: 3, LIKES: 4, REPLIES: 5, REPOSTS: 6, QUOTES: 7,
   ENGAGEMENT_RATE: 8, REPLY_RATE: 9, LIKE_RATE: 10, REPOST_RATE: 11, RECORDED_AT: 12
 };
+const LCOL = {
+  POST_ID: 1, POSTED_AT: 2, CHECKED_AT: 3, VIEWS: 4, BASELINE: 5, RATIO: 6,
+  RESULT: 7, ARTICLE: 8, REASON: 9, REPLY_TEXT: 10, REPLY_ID: 11
+};
+const REPLY_QUEUE_SHEET_NAME = "外部リプライキュー";
+const RCOL = {
+  REPLY_ID: 1, POST_ID: 2, POST_BODY: 3, AUTHOR: 4, REPLY_TEXT: 5,
+  RECEIVED_AT: 6, STATUS: 7, GENERATED_REPLY: 8, REPLY_POST_ID: 9
+};
 const BASE = "https://graph.threads.net/v1.0";
+
+// 反響が伸びた投稿への自動URL自己リプライ（2026-08-16notekaigi Phase4）。
+// 対象は有料記事②③⑤のみ固定（このリプライ機能に限り無料優先ルールの例外とする、
+// ユーザー確認済み）。文言はcta_templates.mdから検品済みのものをそのまま埋め込み、
+// 新規生成はしない（LLM呼び出し・追加課金なしの方針）。
+const BASELINE_WINDOW = 20;   // 直近何件のViewsで基準値を計算するか
+const GROWTH_MULTIPLIER = 3;  // 基準値の何倍で「伸びている」と判定するか
+const PAID_ARTICLES = {
+  "2": {
+    url: "https://note.com/mbticode/n/nbbb64cbef664",
+    keywords: ["既読", "既読スルー", "返信が来ない", "送るべき"],
+    text: "相手のMBTI×自分のラブタイプの組み合わせで「送るべき1通」が決まる方程式。8パターンのテンプレ付きでまとめてる。"
+  },
+  "3": {
+    url: "https://note.com/mbticode/n/nc0c199a26841",
+    keywords: ["地雷", "正論", "喧嘩", "言い方", "傷つけ"],
+    text: "正論のつもりで言った一言が、今この関係を静かに壊しているかもしれない。気づいた今が、直せる最後のタイミング。"
+  },
+  "5": {
+    url: "https://note.com/mbticode/n/n88133079ba00",
+    keywords: ["伝わらない", "冷たい", "支える", "尽くし", "繰り返す"],
+    text: "支える才能があるほど、そこから抜け出しにくくなるんですよね。その理由と抜け出し方も、まとめてみた。"
+  }
+};
 
 // GitHub relay (2026-07-26notekaigi Phase3 redesign): the cloud routine's
 // sandbox cannot reach script.google.com (egress policy blocks it, confirmed
@@ -69,6 +133,17 @@ const GITHUB_BRANCH = "main";
 const GITHUB_SYNC_PATH = "brands/mbticode/tools/_synced_observation_data.json";
 const GITHUB_BATCH_PATH = "brands/mbticode/tools/_pending_batch.json";
 const GITHUB_API_BASE = "https://api.github.com";
+
+// 外部リプライ自動応答（2026-08-16notekaigi Phase5）: 同じGitHub中継パターンを
+// 「他者からの新規リプライ」向けに複製したもの。
+//   detectExternalReplies()      : Threads -> REPLY_QUEUE_SHEET_NAME. Daily.
+//   syncReplyCandidatesToGitHub(): REPLY_QUEUE_SHEET_NAME -> GitHub. Daily,
+//                                  未処理行のみ。スケジュール実行される返信文
+//                                  生成ルーティン（sns_post_cheatsheet.md
+//                                  「外部リプライ自動応答」参照）がこれを読む。
+//   pullGeneratedRepliesFromGitHub(): GitHub -> Threads投稿 + シート更新。Daily。
+const GITHUB_REPLY_CANDIDATES_PATH = "brands/mbticode/tools/_reply_candidates.json";
+const GITHUB_PENDING_REPLIES_PATH = "brands/mbticode/tools/_pending_reply_posts.json";
 
 // Debug helper: lists every sheet/tab name this script actually sees, with
 // its exact length (to catch stray spaces/invisible characters).
@@ -364,13 +439,23 @@ function installTriggers() {
   [8, 12, 16, 19, 22].forEach(function (hour) {
     ScriptApp.newTrigger("postScheduled").timeBased().everyDays(1).atHour(hour).nearMinute(0).create();
   });
+  // 2026-08-16notekaigi Phase4: 各投稿枠の2時間後に伸び率チェックを実行
+  [10, 14, 18, 21, 0].forEach(function (hour) {
+    ScriptApp.newTrigger("checkEarlyPerformance").timeBased().everyDays(1).atHour(hour).nearMinute(0).create();
+  });
   ScriptApp.newTrigger("collectInsights").timeBased().everyDays(1).atHour(23).nearMinute(30).create();
+  // 2026-08-16notekaigi Phase5改訂: 外部リプライは10分間隔で検知・同期し、
+  // 生成ルーティン（クラウド側、cron最小間隔=1時間の制約）と合わせて
+  // 最短ケースで1時間以内の応答を狙う（詳細はsns_post_cheatsheet.md「外部リプライ自動応答」参照）
+  ScriptApp.newTrigger("detectExternalReplies").timeBased().everyMinutes(10).create();
+  ScriptApp.newTrigger("syncReplyCandidatesToGitHub").timeBased().everyMinutes(10).create();
+  ScriptApp.newTrigger("pullGeneratedRepliesFromGitHub").timeBased().everyHours(1).create();
   ScriptApp.newTrigger("dailyObservationLog").timeBased().everyDays(1).atHour(23).nearMinute(35).create();
   ScriptApp.newTrigger("syncDataToGitHub").timeBased().everyDays(1).atHour(23).nearMinute(40).create();
   ScriptApp.newTrigger("checkHealth").timeBased().everyDays(1).atHour(23).nearMinute(45).create();
   ScriptApp.newTrigger("refreshToken").timeBased().onWeekDay(ScriptApp.WeekDay.MONDAY).atHour(7).create();
   ScriptApp.newTrigger("pullBatchFromGitHub").timeBased().onWeekDay(ScriptApp.WeekDay.SUNDAY).atHour(21).create();
-  Logger.log("triggers installed: postScheduled 08:00/12:00/16:00/19:00/22:00 daily, collectInsights 23:30 daily, dailyObservationLog 23:35 daily, syncDataToGitHub 23:40 daily, checkHealth 23:45 daily, refreshToken Mon 07:00, pullBatchFromGitHub Sun 21:00");
+  Logger.log("triggers installed: postScheduled 08:00/12:00/16:00/19:00/22:00 daily, checkEarlyPerformance 10:00/14:00/18:00/21:00/00:00 daily, collectInsights 23:30 daily, detectExternalReplies every10min, syncReplyCandidatesToGitHub every10min, pullGeneratedRepliesFromGitHub hourly, dailyObservationLog 23:35 daily, syncDataToGitHub 23:40 daily, checkHealth 23:45 daily, refreshToken Mon 07:00, pullBatchFromGitHub Sun 21:00");
 }
 
 // Daily (Phase2, 2026-07-26notekaigi): re-aggregates INSIGHTS_SHEET_NAME into
@@ -445,7 +530,7 @@ function checkHealth() {
     problems.push("GITHUB_TOKENがScript Propertiesに存在しません（setupGithubToken()を再実行してください）");
   }
 
-  const expectedTriggers = ["postScheduled", "collectInsights", "dailyObservationLog", "syncDataToGitHub", "checkHealth", "refreshToken", "pullBatchFromGitHub"];
+  const expectedTriggers = ["postScheduled", "checkEarlyPerformance", "collectInsights", "detectExternalReplies", "dailyObservationLog", "syncDataToGitHub", "syncReplyCandidatesToGitHub", "checkHealth", "pullGeneratedRepliesFromGitHub", "refreshToken", "pullBatchFromGitHub"];
   const installed = ScriptApp.getProjectTriggers().map(function (t) { return t.getHandlerFunction(); });
   expectedTriggers.forEach(function (fn) {
     if (installed.indexOf(fn) === -1) problems.push("トリガー未設定: " + fn + "（installTriggers()を再実行してください）");
@@ -453,6 +538,12 @@ function checkHealth() {
 
   if (!SpreadsheetApp.getActiveSpreadsheet().getSheetByName(OBS_SHEET_NAME)) {
     problems.push('シート "' + OBS_SHEET_NAME + '" が見つかりません（dailyObservationLog用・作成してください）');
+  }
+  if (!SpreadsheetApp.getActiveSpreadsheet().getSheetByName(LOG_SHEET_NAME)) {
+    problems.push('シート "' + LOG_SHEET_NAME + '" が見つかりません（checkEarlyPerformance用・作成してください）');
+  }
+  if (!SpreadsheetApp.getActiveSpreadsheet().getSheetByName(REPLY_QUEUE_SHEET_NAME)) {
+    problems.push('シート "' + REPLY_QUEUE_SHEET_NAME + '" が見つかりません（detectExternalReplies用・作成してください）');
   }
 
   const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME);
@@ -641,6 +732,325 @@ function fetchInsights(mediaId, token) {
     else if (m.values && m.values.length) out[m.name] = m.values[m.values.length - 1].value;
   });
   return out;
+}
+
+// Fires 2h after each posting slot (10:00/14:00/18:00/21:00/00:00, see
+// installTriggers). For each post published 1-3h ago that hasn't been
+// evaluated yet (no row in LOG_SHEET_NAME) and doesn't already carry a
+// self-reply, fetches fresh Views and compares against the trailing
+// BASELINE_WINDOW average from INSIGHTS_SHEET_NAME. Posts at or above
+// GROWTH_MULTIPLIER get an automatic URL self-reply pointing at a paid
+// article (see PAID_ARTICLES) — always paid, per 2026-08-16notekaigi
+// (an intentional exception to the "無料記事優先" rule that applies to the
+// weekly manual CTA slot; this feature only fires on posts already proven
+// to be resonating, which is treated as the moment worth spending a paid
+// CTA on). Every evaluated post gets one row in LOG_SHEET_NAME regardless
+// of whether it posted, errored, or (implicitly, by not appearing at all)
+// never crossed the threshold in the first place.
+function checkEarlyPerformance() {
+  const props = PropertiesService.getScriptProperties();
+  const token = props.getProperty("THREADS_ACCESS_TOKEN");
+  const userId = props.getProperty("THREADS_USER_ID");
+  if (!token || !userId) { Logger.log("checkEarlyPerformance: setup() not run"); return; }
+
+  const queueSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME);
+  const insightSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(INSIGHTS_SHEET_NAME);
+  const logSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(LOG_SHEET_NAME);
+  if (!queueSheet) { Logger.log('ERROR: sheet "' + SHEET_NAME + '" not found.'); return; }
+  if (!logSheet) { Logger.log('ERROR: sheet "' + LOG_SHEET_NAME + '" not found. Create it first.'); return; }
+
+  const now = new Date();
+  const windowStart = new Date(now.getTime() - 3 * 60 * 60 * 1000);
+  const windowEnd = new Date(now.getTime() - 1 * 60 * 60 * 1000);
+
+  const alreadyLogged = {};
+  const logData = logSheet.getDataRange().getValues();
+  for (let r = 1; r < logData.length; r++) {
+    const id = logData[r][LCOL.POST_ID - 1];
+    if (id) alreadyLogged[id] = true;
+  }
+
+  const baseline = computeBaselineViews(insightSheet);
+  const queueData = queueSheet.getDataRange().getValues();
+
+  for (let r = 1; r < queueData.length; r++) {
+    const row = queueData[r];
+    if (row[COL.STATUS - 1] !== "投稿済み") continue;
+    const postedAt = row[COL.DATETIME - 1];
+    if (!(postedAt instanceof Date)) continue;
+    if (postedAt < windowStart || postedAt > windowEnd) continue;
+    const postId = row[COL.POST_ID - 1];
+    if (!postId || alreadyLogged[postId]) continue;
+    if (row[COL.REPLY - 1]) continue; // 続き型・URL事後型など既にリプライが設計済みの投稿は対象外
+
+    let metrics;
+    try {
+      metrics = fetchInsights(postId, token);
+    } catch (e) {
+      Logger.log("checkEarlyPerformance: insight fetch failed for " + postId + ": " + e.message);
+      continue;
+    }
+    const views = metrics.views || 0;
+    const ratio = baseline > 0 ? views / baseline : 0;
+    if (baseline <= 0 || ratio < GROWTH_MULTIPLIER) continue; // 伸びていない投稿は記録しない
+
+    const body = String(row[COL.TEXT - 1] || "");
+    const pick = selectPaidArticle(body, logSheet);
+    const article = PAID_ARTICLES[pick.article];
+    const ctaText = article.text + "\n→ " + article.url;
+
+    let replyId = "";
+    let result = "投稿";
+    try {
+      replyId = publishText(token, userId, ctaText, postId);
+    } catch (e) {
+      result = "エラー:" + String(e.message).slice(0, 100);
+      Logger.log("checkEarlyPerformance: reply post failed for " + postId + ": " + e.message);
+    }
+
+    const targetRow = logSheet.getLastRow() + 1;
+    logSheet.getRange(targetRow, LCOL.POST_ID).setValue(postId);
+    logSheet.getRange(targetRow, LCOL.POSTED_AT).setValue(postedAt);
+    logSheet.getRange(targetRow, LCOL.CHECKED_AT).setValue(now);
+    logSheet.getRange(targetRow, LCOL.VIEWS).setValue(views);
+    logSheet.getRange(targetRow, LCOL.BASELINE).setValue(Math.round(baseline * 10) / 10);
+    logSheet.getRange(targetRow, LCOL.RATIO).setValue(Math.round(ratio * 100) / 100);
+    logSheet.getRange(targetRow, LCOL.RESULT).setValue(result);
+    logSheet.getRange(targetRow, LCOL.ARTICLE).setValue("記事" + pick.article);
+    logSheet.getRange(targetRow, LCOL.REASON).setValue(pick.reason);
+    logSheet.getRange(targetRow, LCOL.REPLY_TEXT).setValue(ctaText);
+    logSheet.getRange(targetRow, LCOL.REPLY_ID).setValue(replyId);
+
+    Logger.log("checkEarlyPerformance: " + postId + " views=" + views + " ratio=" + ratio.toFixed(2) + " -> " + result + " (記事" + pick.article + ", " + pick.reason + ")");
+  }
+}
+
+// Average Views of the most recent BASELINE_WINDOW rows already recorded in
+// INSIGHTS_SHEET_NAME (sheet order ~= chronological posting order, since
+// collectInsights upserts by postId). Returns 0 if there's no history yet
+// (checkEarlyPerformance treats 0 as "can't judge, skip").
+function computeBaselineViews(insightSheet) {
+  if (!insightSheet) return 0;
+  const data = insightSheet.getDataRange().getValues();
+  const views = [];
+  for (let r = 1; r < data.length; r++) {
+    if (!data[r][ICOL.POST_ID - 1]) continue;
+    views.push(Number(data[r][ICOL.VIEWS - 1]) || 0);
+  }
+  const recent = views.slice(-BASELINE_WINDOW);
+  if (recent.length === 0) return 0;
+  return recent.reduce(function (a, b) { return a + b; }, 0) / recent.length;
+}
+
+// Picks which paid article (2/3/5) to reply with. Exactly one keyword hit ->
+// use that article (thematic fit). Zero or multiple hits -> fall back to
+// whichever paid article has gone longest without an auto-reply, so exposure
+// never concentrates on one article by keyword-list accident.
+function selectPaidArticle(body, logSheet) {
+  const matched = Object.keys(PAID_ARTICLES).filter(function (key) {
+    return PAID_ARTICLES[key].keywords.some(function (kw) { return body.indexOf(kw) !== -1; });
+  });
+  if (matched.length === 1) return { article: matched[0], reason: "キーワード一致" };
+  return {
+    article: leastRecentlyUsedArticle(logSheet),
+    reason: matched.length > 1 ? "複数記事に一致のためローテーション" : "キーワード一致なしのためローテーション"
+  };
+}
+
+function leastRecentlyUsedArticle(logSheet) {
+  const lastUsed = { "2": null, "3": null, "5": null };
+  const data = logSheet.getDataRange().getValues();
+  for (let r = 1; r < data.length; r++) {
+    const article = String(data[r][LCOL.ARTICLE - 1] || "").replace("記事", "");
+    const checkedAt = data[r][LCOL.CHECKED_AT - 1];
+    if (lastUsed.hasOwnProperty(article) && checkedAt instanceof Date) {
+      if (!lastUsed[article] || checkedAt > lastUsed[article]) lastUsed[article] = checkedAt;
+    }
+  }
+  const keys = Object.keys(lastUsed);
+  keys.sort(function (a, b) {
+    const da = lastUsed[a], db = lastUsed[b];
+    if (!da && !db) return 0;
+    if (!da) return -1;
+    if (!db) return 1;
+    return da - db;
+  });
+  return keys[0];
+}
+
+// Every 10 minutes: scans every 投稿済み post for external replies
+// (is_reply_owned_by_me = false) not already in REPLY_QUEUE_SHEET_NAME, and
+// appends one row per new reply with ステータス=未処理. Detection only -- no
+// reply text is generated here (see syncReplyCandidatesToGitHub /
+// sns_post_cheatsheet.md「外部リプライ自動応答」for where drafting happens).
+// Polls this often so a reply is picked up quickly even though the drafting
+// routine itself can only run hourly (platform cron minimum).
+function detectExternalReplies() {
+  const props = PropertiesService.getScriptProperties();
+  const token = props.getProperty("THREADS_ACCESS_TOKEN");
+  if (!token) { Logger.log("detectExternalReplies: setup() not run"); return; }
+
+  const queueSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME);
+  const replyQueueSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(REPLY_QUEUE_SHEET_NAME);
+  if (!replyQueueSheet) { Logger.log('ERROR: sheet "' + REPLY_QUEUE_SHEET_NAME + '" not found. Create it first.'); return; }
+
+  const existingIds = {};
+  const existingData = replyQueueSheet.getDataRange().getValues();
+  for (let r = 1; r < existingData.length; r++) {
+    const id = existingData[r][RCOL.REPLY_ID - 1];
+    if (id) existingIds[id] = true;
+  }
+
+  const queueData = queueSheet.getDataRange().getValues();
+  let added = 0;
+  for (let r = 1; r < queueData.length; r++) {
+    const row = queueData[r];
+    if (row[COL.STATUS - 1] !== "投稿済み") continue;
+    const postId = row[COL.POST_ID - 1];
+    if (!postId) continue;
+
+    let replies;
+    try {
+      replies = fetchExternalReplies(postId, token);
+    } catch (e) {
+      Logger.log("detectExternalReplies: fetch failed for " + postId + ": " + e.message);
+      continue;
+    }
+
+    replies.forEach(function (rep) {
+      if (existingIds[rep.id]) return;
+      const targetRow = replyQueueSheet.getLastRow() + 1;
+      replyQueueSheet.getRange(targetRow, RCOL.REPLY_ID).setValue(rep.id);
+      replyQueueSheet.getRange(targetRow, RCOL.POST_ID).setValue(postId);
+      replyQueueSheet.getRange(targetRow, RCOL.POST_BODY).setValue(row[COL.TEXT - 1] || "");
+      replyQueueSheet.getRange(targetRow, RCOL.AUTHOR).setValue(rep.username || "");
+      replyQueueSheet.getRange(targetRow, RCOL.REPLY_TEXT).setValue(rep.text || "");
+      replyQueueSheet.getRange(targetRow, RCOL.RECEIVED_AT).setValue(new Date());
+      replyQueueSheet.getRange(targetRow, RCOL.STATUS).setValue("未処理");
+      existingIds[rep.id] = true;
+      added++;
+    });
+  }
+  Logger.log("detectExternalReplies: " + added + " new external repl(y/ies) queued");
+}
+
+// Returns [{id, text, username, timestamp}] for replies NOT posted by our own
+// account. Mirrors fetchExternalReplyCount but keeps the full objects instead
+// of just a count.
+function fetchExternalReplies(mediaId, token) {
+  const uri = BASE + "/" + mediaId + "/replies?fields=id,text,username,timestamp,is_reply_owned_by_me&access_token=" + encodeURIComponent(token);
+  const resp = UrlFetchApp.fetch(uri, { muteHttpExceptions: true });
+  const body = JSON.parse(resp.getContentText());
+  if (resp.getResponseCode() >= 300) {
+    throw new Error("Threads API error: " + (body.error ? body.error.message : resp.getContentText()));
+  }
+  const list = body.data || [];
+  return list.filter(function (r) { return !r.is_reply_owned_by_me; });
+}
+
+// Every 10 minutes (same cadence as detectExternalReplies): mirrors 未処理
+// rows in REPLY_QUEUE_SHEET_NAME to GitHub so the scheduled reply-drafting
+// cloud routine can read them without direct Sheets API access (same
+// reasoning as syncDataToGitHub -- the routine's sandbox cannot reach
+// script.google.com). Syncing this often keeps the file fresh for whenever
+// the hourly routine happens to wake up.
+function syncReplyCandidatesToGitHub() {
+  const token = PropertiesService.getScriptProperties().getProperty("GITHUB_TOKEN");
+  if (!token) { Logger.log("ERROR: GITHUB_TOKEN not set. Run setupGithubToken() first."); return; }
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(REPLY_QUEUE_SHEET_NAME);
+  if (!sheet) { Logger.log('ERROR: sheet "' + REPLY_QUEUE_SHEET_NAME + '" not found.'); return; }
+
+  const data = sheet.getDataRange().getValues();
+  const candidates = [];
+  for (let r = 1; r < data.length; r++) {
+    const row = data[r];
+    if (row[RCOL.STATUS - 1] !== "未処理") continue;
+    candidates.push({
+      reply_id: row[RCOL.REPLY_ID - 1],
+      post_id: row[RCOL.POST_ID - 1],
+      post_body: row[RCOL.POST_BODY - 1],
+      author: row[RCOL.AUTHOR - 1],
+      reply_text: row[RCOL.REPLY_TEXT - 1],
+      received_at: row[RCOL.RECEIVED_AT - 1] instanceof Date
+        ? Utilities.formatDate(row[RCOL.RECEIVED_AT - 1], Session.getScriptTimeZone(), "yyyy-MM-dd HH:mm")
+        : String(row[RCOL.RECEIVED_AT - 1])
+    });
+  }
+
+  try {
+    githubPutFile(GITHUB_REPLY_CANDIDATES_PATH, { generated_at: new Date().toISOString(), candidates: candidates },
+      "Sync reply candidates (" + Utilities.formatDate(new Date(), Session.getScriptTimeZone(), "yyyy-MM-dd") + ")");
+    Logger.log("syncReplyCandidatesToGitHub: OK, " + candidates.length + " candidate(s)");
+  } catch (e) {
+    Logger.log("syncReplyCandidatesToGitHub: ERROR " + e.message);
+  }
+}
+
+// Hourly: reads GITHUB_PENDING_REPLIES_PATH ({"replies":[{reply_id, reply_text}, ...]}),
+// posts each drafted reply (as a reply-to-reply, keeping it in the same
+// thread), updates the matching REPLY_QUEUE_SHEET_NAME row, then deletes the
+// consumed file (consume-once, same as pullBatchFromGitHub).
+function pullGeneratedRepliesFromGitHub() {
+  const props = PropertiesService.getScriptProperties();
+  const token = props.getProperty("THREADS_ACCESS_TOKEN");
+  const userId = props.getProperty("THREADS_USER_ID");
+  const githubToken = props.getProperty("GITHUB_TOKEN");
+  if (!token || !userId) { Logger.log("pullGeneratedRepliesFromGitHub: setup() not run"); return; }
+  if (!githubToken) { Logger.log("ERROR: GITHUB_TOKEN not set."); return; }
+
+  let file;
+  try {
+    file = githubGetFile(GITHUB_PENDING_REPLIES_PATH);
+  } catch (e) {
+    Logger.log("pullGeneratedRepliesFromGitHub: ERROR fetching file: " + e.message);
+    return;
+  }
+  if (!file) { Logger.log("pullGeneratedRepliesFromGitHub: no pending file found, nothing to do"); return; }
+
+  let payload;
+  try {
+    const jsonStr = Utilities.newBlob(Utilities.base64Decode(file.content.replace(/\n/g, ""))).getDataAsString("UTF-8");
+    payload = JSON.parse(jsonStr);
+  } catch (e) {
+    Logger.log("pullGeneratedRepliesFromGitHub: ERROR parsing JSON: " + e.message);
+    return;
+  }
+
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(REPLY_QUEUE_SHEET_NAME);
+  if (!sheet) { Logger.log('ERROR: sheet "' + REPLY_QUEUE_SHEET_NAME + '" not found.'); return; }
+  const data = sheet.getDataRange().getValues();
+  const rowByReplyId = {};
+  for (let r = 1; r < data.length; r++) {
+    const id = data[r][RCOL.REPLY_ID - 1];
+    if (id) rowByReplyId[id] = r + 1;
+  }
+
+  let posted = 0, skipped = 0;
+  (payload.replies || []).forEach(function (item) {
+    const rowNum = rowByReplyId[item.reply_id];
+    if (!rowNum) { skipped++; return; }
+    if (sheet.getRange(rowNum, RCOL.STATUS).getValue() !== "未処理") { skipped++; return; }
+    try {
+      const replyPostId = publishText(token, userId, item.reply_text, item.reply_id);
+      sheet.getRange(rowNum, RCOL.STATUS).setValue("投稿済み");
+      sheet.getRange(rowNum, RCOL.GENERATED_REPLY).setValue(item.reply_text);
+      sheet.getRange(rowNum, RCOL.REPLY_POST_ID).setValue(replyPostId);
+      posted++;
+    } catch (e) {
+      sheet.getRange(rowNum, RCOL.STATUS).setValue("エラー");
+      sheet.getRange(rowNum, RCOL.GENERATED_REPLY).setValue(item.reply_text);
+      sheet.getRange(rowNum, RCOL.REPLY_POST_ID).setValue(String(e.message).slice(0, 200));
+      Logger.log("pullGeneratedRepliesFromGitHub: post failed for " + item.reply_id + ": " + e.message);
+    }
+  });
+
+  try {
+    githubDeleteFile(GITHUB_PENDING_REPLIES_PATH, file.sha,
+      "Consume pending reply posts (" + Utilities.formatDate(new Date(), Session.getScriptTimeZone(), "yyyy-MM-dd") + ")");
+  } catch (e) {
+    Logger.log("pullGeneratedRepliesFromGitHub: WARNING failed to delete consumed file: " + e.message);
+  }
+  Logger.log("pullGeneratedRepliesFromGitHub: posted=" + posted + " skipped=" + skipped);
 }
 
 // Weekly refresh, mirrors tools/threads_connect_test.ps1 -Step refresh.
