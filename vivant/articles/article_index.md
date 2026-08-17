@@ -16,3 +16,4 @@ URLの形式：https://note.com/s4lv24/n/[key]
 | 09 | VIVANT鈴木祥はなぜ怪しい？イヤホンと十字の祈り、2つの伏線 | https://note.com/s4lv24/n/nf77f6f579cc7 | 無料 | 2026-08-15 |
 | 10 | VIVANT和久井は裏切り者なのか、スマホの伏線から考える | https://note.com/s4lv24/n/ncc4d1251efa3 | 無料 | 2026-08-15 |
 | 11 | VIVANTハンが「孤児院」に反応した理由、シンシーの正体とは | https://note.com/s4lv24/n/nfcf9e0881c6f | 無料 | 2026-08-17 |
+| 12 | VIVANT野崎はなぜ裏切ったのか、本物の離反説と偽装説を整理 | https://note.com/s4lv24/n/nd8af7020857c | 無料 | 2026-08-17 |
