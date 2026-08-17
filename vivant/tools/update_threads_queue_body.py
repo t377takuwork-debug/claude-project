@@ -69,18 +69,23 @@ def parse_posts(text):
                     k += 1
                 body = "\n".join(body_lines).strip()
                 main_body = re.split(r"^===+\s*$", body, flags=re.M)[0].strip()
-                # 本文の閉じ`----`の後・次の見出しの前にある自己リプライ行を拾う
+                # 本文の閉じ`----`の直後（間に空行を挟まない）に「自己リプライ」で始まる行が
+                # あるときだけ、そこから空行または次の見出しの手前までを自己リプライとして拾う。
+                # そうでない場合（末尾の「読者リプライへの返信」ログ等）は絶対に巻き込まない。
                 reply = ""
                 end = k
                 if k < len(lines) and SEP_RE.match(lines[k]):
                     m2 = k + 1
-                    reply_lines = []
-                    while m2 < len(lines) and not HEADER_RE.match(lines[m2]):
-                        reply_lines.append(lines[m2])
-                        m2 += 1
-                    reply_raw = "\n".join(reply_lines).strip()
-                    reply = REPLY_LABEL_RE.sub("", reply_raw, count=1).strip()
-                    end = m2
+                    if m2 < len(lines) and lines[m2].strip().startswith("自己リプライ"):
+                        reply_lines = []
+                        while m2 < len(lines) and not HEADER_RE.match(lines[m2]) and lines[m2].strip() != "":
+                            reply_lines.append(lines[m2])
+                            m2 += 1
+                        reply_raw = "\n".join(reply_lines).strip()
+                        reply = REPLY_LABEL_RE.sub("", reply_raw, count=1).strip()
+                        end = m2
+                    else:
+                        end = m2
                 posts.append({"header": header, "body": main_body, "reply": reply, "type": type_label})
                 i = end
                 continue
