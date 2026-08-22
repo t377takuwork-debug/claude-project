@@ -18,3 +18,5 @@ brands/mbticode/tools/threads_auth.local.json
 brands/mbticode/tools/sheets_service_account.local.json
 vivant/tools/threads_auth.local.json
 vivant/tools/sheets_service_account.local.json
+brands/s4lv/tools/threads_auth.local.json
+brands/s4lv/tools/sheets_service_account.local.json

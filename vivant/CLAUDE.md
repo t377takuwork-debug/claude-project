@@ -6,7 +6,7 @@
 - **ジャンル**: ドラマ考察（TBS系日曜劇場『VIVANT（ヴィヴァント）』続編・第2シーズン）
 - **記事タイプ**: 無料記事＋有料記事（マネタイズ）
 - **コンテンツ方針**: 実体験ベースではなく、情報・知識をもとに記事を作成する（`rules/project_vivant_content_policy.md` 参照・2026-07-31確定）
-- **Threads**: MBTICODE方式（Apps Script+スプレッドシート+Threads API）を横展開・接続基盤稼働済み（2026-08-02）。投稿設計は`sns_post_cheatsheet.md`参照
+- **Threads**: https://www.threads.com/@kousatsumemo（2026-08-18ユーザー確認。旧s4lvのThreads @s4lv24からの改名転用とみられる・確信度中）。MBTICODE方式（Apps Script+スプレッドシート+Threads API）を横展開・接続基盤稼働済み（2026-08-02）。投稿設計は`sns_post_cheatsheet.md`参照
 
 ## 作業開始時に必ず読むファイル
 

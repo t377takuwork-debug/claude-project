@@ -4,6 +4,7 @@
 
 - **アカウント名（表示名）**: VIVANTの伏線・考察メモ
 - **Note URL**: https://note.com/s4lv24（旧s4lvアカウント。2026-07-08のs4lv1アカウント統一で運用終了扱いだったものを本アカウント用に再利用。現行のs4lvはnote.com/salvami77で別物・衝突なし）
+- **Threads URL**: https://www.threads.com/@kousatsumemo（2026-08-18ユーザー確認。旧s4lvのThreads @s4lv24からの改名転用とみられる〈ユーザー記憶＋@s4lv24プロフィールが現存しないことからの推定・確信度中〉。現行s4lvのThreadsは新設@cfrms4lvで別物）
 - **ジャンル**: ドラマ考察（TBS系日曜劇場『VIVANT（ヴィヴァント）』続編・第2シーズン）
 - **運営者**: （未定）
 

@@ -16,6 +16,7 @@
   - .claude/commands/quality-guardrail.md           … AIっぽさ禁止表現
   - brands/mbticode/rules/feedback_mbticode_reply_style.md … リプライ・引用RT文体
   - brands/s4lv/rules/feedback_s4lv_x_writing_style.md     … s4lv X投稿文体
+  - brands/s4lv/rules/feedback_s4lv_threads_writing_style.md … s4lv Threads投稿文体（AI感禁止リストの出典）
   - brands/CLAUDE.md 絶対遵守ルール3           … 断定的統計・性的描写・特定個人を傷つける表現の禁止
     （2026-07-26notekaigi Phase1で追加。正規表現の一次防御であり漏れは残る前提。
     完全な意味判定はPhase2のLLM二次判定で補う）
@@ -479,15 +480,34 @@ def check_mbticode_file(posts, findings):
 
 # ---------------------------------------------------------------- s4lv
 
+# AI感の禁止リスト（quality-guardrail.md表を移植・2026-08-23 s4lv Threads文体改訂で採用）
+# 出典：brands/s4lv/rules/feedback_s4lv_threads_writing_style.md「AI感の禁止リスト」
+S4LV_AI_TELL_ERRORS = [
+    ("ai-desune", r"(?<!ん)ですね", "「〜ですね」相槌禁止（AI感・s4lv）"),
+    ("ai-omoimasu", r"と思います|と感じます", "「と思います/と感じます」禁止・観察として言い切る（AI感・s4lv）"),
+    ("ai-deshou", r"ではないでしょうか|でしょう。", "「でしょう」系の遠回し禁止（AI感・s4lv）"),
+    ("ai-kanji", r"という感じ", "「という感じ」の抽象化逃げ禁止（AI感・s4lv）"),
+    ("ai-taisetsu", r"ことが大切|が重要です|お勧めします|おすすめします",
+     "「大切です/重要です/お勧め」禁止（AI感・s4lv）"),
+    ("ai-matome", r"以上のように|このように、|まとめると", "要約フレーズ禁止（AI感・s4lv）"),
+    ("ai-yobousen", r"個人差があります|一概には言えません", "責任回避の予防線禁止（AI感・s4lv）"),
+]
+
+
 def check_s4lv_post(post, platform):
     f = []
     body = post["body"]
-    check_regex(f, post, "ERROR", "meirei", r"しろ。|すべき",
-                "命令口調禁止（〜しろ/〜すべき・s4lv絶対禁止事項）")
+    if platform != "threads":
+        # 2026-08-23: Threadsは文体改訂でこの禁止を機械チェック対象から外した
+        # （feedback_s4lv_threads_writing_style.md参照）。Xは従来通り絶対禁止。
+        check_regex(f, post, "ERROR", "meirei", r"しろ。|すべき",
+                    "命令口調禁止（〜しろ/〜すべき・s4lv絶対禁止事項）")
     check_regex(f, post, "ERROR", "kougo-toi", r"と思う？",
                 "問いかけの口語体禁止→「と思いますか？」（s4lv）")
     if platform == "x" and URL_RE.search(body):
         f.append(Finding("ERROR", post["label"], "x-url", "本文にURL禁止（URLはリプライ欄・s4lv）"))
+    for code, pattern, message in S4LV_AI_TELL_ERRORS:
+        check_regex(f, post, "ERROR", code, pattern, message)
     # 短文羅列のAI感（ヒューリスティック）
     run = 0
     for s in sentences(body):

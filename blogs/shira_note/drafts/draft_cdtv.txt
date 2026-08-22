@@ -1,7 +1,7 @@
 <!-- wp:paragraph -->
-タイトル：【CDTV】タイムテーブル 8月17日速報！出演順・出演時間をリアルタイム更新
-メタディスクリプション（101字）：
-CDTVライブ！ライブ！（カウントダウンTV）8月17日タイムテーブルを速報更新！3時間SPできゃりーぱみゅぱみゅの一夜限りメドレーやテレビ初披露曲多数。出演順・登場時間の目安をリアルタイムで随時追記。
+タイトル：【CDTV】タイムテーブル 8月31日速報！出演順・出演時間をリアルタイム更新
+メタディスクリプション（100字）：
+CDTVライブ！ライブ！（カウントダウンTV）8月31日タイムテーブルを速報更新！BE:FIRST・斉藤和義がテレビ初披露、福山雅治は2週連続出演初週。出演順・登場時間の目安をリアルタイムで随時追記。
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -40,12 +40,12 @@ CDTVライブ！ライブ！（カウントダウンTV）8月17日タイムテ�
     <div style="display: flex; align-items: flex-start; gap: 10px;">
       <div style="flex-shrink: 0; font-size: 8px; font-weight: 900; background: #fff; color: #000; padding: 2px 5px; transform: skewX(-15deg); text-align: center; min-width: 48px; margin-top: 2px;">BROADCAST</div>
       <div style="flex: 1;">
-        <span style="font-size: 15.5px; font-weight: 900; color: #f9ff00; display: block; margin-bottom: 2px; letter-spacing: -0.01em; line-height: 1.2;">2026.08.17 (MON) 19:00</span>
+        <span style="font-size: 15.5px; font-weight: 900; color: #f9ff00; display: block; margin-bottom: 2px; letter-spacing: -0.01em; line-height: 1.2;">2026.08.31 (MON) 19:00</span>
         <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 2px;">
-          <span style="color: #aaa; font-size: 10px; font-weight: 500;">TBS系列 3時間生放送</span>
+          <span style="color: #aaa; font-size: 10px; font-weight: 500;">TBS系列 2時間生放送</span>
           <span style="display: inline-flex; align-items: center; gap: 5px; padding: 1px 7px; border-radius: 999px; background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12); color: #d5d9e2; font-size: 10px; font-weight: 800;">
             <span style="width: 5px; height: 5px; border-radius: 50%; background: #00ffcc;"></span>
-            更新 <b>2026.08.11</b>
+            更新 <b>2026.08.19</b>
           </span>
         </div>
       </div>
@@ -54,21 +54,20 @@ CDTVライブ！ライブ！（カウントダウンTV）8月17日タイムテ�
     <div style="display: flex; align-items: flex-start; gap: 10px;">
       <div style="flex-shrink: 0; font-size: 8px; font-weight: 900; background: #fff; color: #000; padding: 2px 5px; transform: skewX(-15deg); min-width: 48px;">STATUS</div>
       <div style="flex: 1; font-size: 12px; font-weight: 700; color: #ff008d;">
-        全14組の出演アーティストが発表済み／タイムテーブルは随時更新中
+        全8組の出演アーティストが発表済み／タイムテーブルは随時更新中
       </div>
     </div>
 
     <div style="display: flex; align-items: flex-start; gap: 10px;">
       <div style="flex-shrink: 0; font-size: 8px; font-weight: 900; background: #fff; color: #000; padding: 2px 5px; transform: skewX(-15deg); min-width: 48px;">LINEUP</div>
       <div style="flex: 1; font-size: 11.5px; line-height: 1.6; color: #ccc;">
-        岡本真夜／きゃりーぱみゅぱみゅ／King &amp; Prince／GRe4N BOYZ／郷ひろみ／島袋寛子<br>
-        超ときめき♡宣伝部／T.M.Revolution／中島健人／FUNKY MONKEY BΛBY'S<br>
-        Fukase／FRUITS ZIPPER／BOYNEXTDOOR／BONNIE PINK
+        INI／NCT WISH／斉藤和義／Juice=Juice<br>
+        TOMORROW X TOGETHER／BE:FIRST／福山雅治／MAZZEL
       </div>
     </div>
 
     <div style="background: rgba(255,242,0,0.12); border-left:3px solid #f9ff00; padding:6px 10px; font-size:clamp(10px, calc(10px + (100vw - 480px) / 360), 12px); color:#f9ff00; font-weight:800;">
-      3時間SPで「出張ライブ！ライブ！」コーナー（超ときめき♡宣伝部・BOYNEXTDOOR・FUNKY MONKEY BΛBY'S出演）と「踊ってみた」企画（LDH選抜×BUMP OF CHICKEN「天体観測」）も見どころ。「月姫」や「うそだよ すきだよ」など、テレビ初披露曲は7曲披露予定です
+      BE:FIRST「BRUCE WAYNE feat. Flo Milli, ATL Jacob」と斉藤和義「黒猫のタンバリン」がテレビ初披露。福山雅治は2週連続出演の初週として「Squall」を披露します
     </div>
 
   </div>
@@ -87,23 +86,23 @@ CDTVライブ！ライブ！（カウントダウンTV）8月17日タイムテ�
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>8月17日のCDTVは19:00〜22:00の3時間スペシャル。きゃりーぱみゅぱみゅの一夜限りメドレーや、King &amp; Prince「うそだよ すきだよ」など、テレビ初披露曲は7曲披露予定です。</p>
+<p>BE:FIRST「BRUCE WAYNE feat. Flo Milli, ATL Jacob」がテレビ初披露、斉藤和義「黒猫のタンバリン」もテレビ初披露と、初披露曲が目白押しの回です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>オンエアに合わせて、当日の出演順をリアルタイムで更新していきます。</p>
+<p>放送本番が始まったら、出演順をリアルタイムで反映していきます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>カウントダウンTV 最新タイムテーブル【8/17】</h2>
+<h2>カウントダウンTV 最新タイムテーブル【8/31】</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年8月17日（月）19:00から放送の『CDTVライブ！ライブ！』3時間スペシャルには、岡本真夜やきゃりーぱみゅぱみゅ、King &amp; Princeなど全14組の出演が発表されています。</p>
+<p>2026年8月31日（月）19:00から放送の『CDTVライブ！ライブ！』には、INIや斉藤和義、BE:FIRSTなど全8組の出演が発表されています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div role="region" aria-label="CDTV タイムテーブル（2026年8月17日）" style="font-family:'Inter','Hiragino Sans','Yu Gothic',sans-serif; margin:20px 0 0; background:#000; color:#fff; border:1px solid #333; border-radius:4px 4px 0 0; overflow:hidden; box-shadow:0 15px 35px rgba(0,0,0,0.6); position:relative;">
+<div role="region" aria-label="CDTV タイムテーブル（2026年8月31日）" style="font-family:'Inter','Hiragino Sans','Yu Gothic',sans-serif; margin:20px 0 0; background:#000; color:#fff; border:1px solid #333; border-radius:4px 4px 0 0; overflow:hidden; box-shadow:0 15px 35px rgba(0,0,0,0.6); position:relative;">
 
   <div style="position:relative; background:#ff008d; padding:10px 14px; display:flex; justify-content:space-between; align-items:center; clip-path:polygon(0 0,100% 0,96% 100%,0% 100%);">
     <div style="font-size:13px; font-weight:900; letter-spacing:0.1em;">CDTV LIVE! LIVE!</div>
@@ -114,11 +113,11 @@ CDTVライブ！ライブ！（カウントダウンTV）8月17日タイムテ�
     <div style="display:flex; gap:12px; align-items:flex-start;">
       <div style="font-size:9px; font-weight:900; background:#fff; color:#000; padding:2px 6px; transform:skewX(-15deg); margin-top:4px;">ON AIR</div>
       <div>
-        <div style="font-size:18px; font-weight:900; color:#f9ff00; line-height:1.2;">2026.08.17 (MON) 19:00 START</div>
-        <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color:#aaa; margin-top:4px;">TBS系列 3時間スペシャル（19:00〜22:00） / 出張ライブ！ライブ！＆踊ってみた企画</div>
+        <div style="font-size:18px; font-weight:900; color:#f9ff00; line-height:1.2;">2026.08.31 (MON) 19:00 START</div>
+        <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color:#aaa; margin-top:4px;">TBS系列 2時間生放送（19:00〜20:55） / テレビ初披露曲が複数登場</div>
       </div>
     </div>
-    <div style="margin-top:10px; font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color:#888; line-height:1.5;">全14組の出演は発表済みですが、公式の出演順・時間帯はまだ発表されていません。以下は過去の放送傾向をもとにした「予想」の時間割です。</div>
+    <div style="margin-top:10px; font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color:#888; line-height:1.5;">全8組の出演は発表済みですが、公式の出演順・時間帯はまだ発表されていません。以下は過去の放送傾向をもとにした「予想」の時間割です。</div>
   </div>
 </div>
 <!-- /wp:html -->
@@ -130,52 +129,31 @@ CDTVライブ！ライブ！（カウントダウンTV）8月17日タイムテ�
 <!-- wp:html -->
 <div style="font-family:'Inter','Hiragino Sans','Yu Gothic',sans-serif; background:#000; color:#fff; border:1px solid #333; border-top:none; padding:14px 16px;">
   <div style="display:flex; flex-wrap:wrap; gap:5px;">
-    <span style="border:1px solid #ff00ea; background:rgba(255,0,234,0.1); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight:700;">King &amp; Prince</span>
-    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">きゃりーぱみゅぱみゅ</span>
-    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">超ときめき♡宣伝部</span>
-    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">岡本真夜</span>
+    <span style="border:1px solid #ff00ea; background:rgba(255,0,234,0.1); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight:700;">BE:FIRST</span>
+    <span style="border:1px solid #ff00ea; background:rgba(255,0,234,0.1); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight:700;">Juice=Juice</span>
+    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">斉藤和義</span>
+    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">INI</span>
   </div>
   <div style="margin-top:10px; border-top:1px solid #222; padding-top:8px; font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color:#ddd; line-height:1.4;">
-    過去のCDTVを見ると、テレビ初披露の曲は前半に登場しやすい傾向があります。King &amp; Princeは以前「So Honey」でトップバッターを務めた実績があり、今回も同曲を含むメドレーで開幕するかも。きゃりーぱみゅぱみゅの初披露曲「月姫」や「出張ライブ！ライブ！」の超ときめき♡宣伝部も、序盤に登場しそうです。
+    過去のCDTVを見ると、テレビ初披露の曲は前半に登場しやすい傾向があります。資料上はJuice=Juice「盛れ！ミ・アモーレ」とBE:FIRST「Bye-Good-Bye」の双方がオープニング候補として挙がっており、BE:FIRSTのテレビ初披露曲「BRUCE WAYNE feat. Flo Milli, ATL Jacob」や斉藤和義「黒猫のタンバリン」も、序盤に登場しそうです。
   </div>
 </div>
 <!-- /wp:html -->
 
 <!-- wp:heading {"level":3} -->
-<h3>20:00〜21:00（中盤・予想）</h3>
-<!-- /wp:heading -->
-
-<!-- wp:html -->
-<div style="font-family:'Inter','Hiragino Sans','Yu Gothic',sans-serif; background:#000; color:#fff; border:1px solid #333; border-top:none; padding:14px 16px;">
-  <div style="display:flex; flex-wrap:wrap; gap:5px;">
-    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">GRe4N BOYZ</span>
-    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">FRUITS ZIPPER</span>
-    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">郷ひろみ</span>
-    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">中島健人</span>
-    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">T.M.Revolution</span>
-    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">BONNIE PINK</span>
-    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">島袋寛子</span>
-  </div>
-  <div style="margin-top:10px; border-top:1px solid #222; padding-top:8px; font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color:#ddd; line-height:1.4;">
-    中盤は、GRe4N BOYZ「ペリドット」やFRUITS ZIPPER「1,2,3,FOOOOUR」のテレビ初披露組に加え、郷ひろみの新曲メドレーや中島健人の最新曲など、安定した歌唱パフォーマンスが並ぶ時間帯になりそうです。
-  </div>
-</div>
-<!-- /wp:html -->
-
-<!-- wp:heading {"level":3} -->
-<h3>21:00〜22:00（後半・フィナーレ予想）</h3>
+<h3>20:00〜20:55（後半・予想）</h3>
 <!-- /wp:heading -->
 
 <!-- wp:html -->
 <div style="font-family:'Inter','Hiragino Sans','Yu Gothic',sans-serif; background:#000; color:#fff; border:1px solid #333; border-top:none; border-radius:0 0 4px 4px; padding:14px 16px;">
   <div style="display:flex; flex-wrap:wrap; gap:5px;">
-    <span style="border:1px solid #ff00ea; background:rgba(255,0,234,0.1); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight:700;">踊ってみた企画（LDHダンス選抜）</span>
-    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">FUNKY MONKEY BΛBY'S</span>
-    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">BOYNEXTDOOR</span>
-    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">Fukase</span>
+    <span style="border:1px solid #ff00ea; background:rgba(255,0,234,0.1); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight:700;">福山雅治</span>
+    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">TOMORROW X TOGETHER</span>
+    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">NCT WISH</span>
+    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">MAZZEL</span>
   </div>
   <div style="margin-top:10px; border-top:1px solid #222; padding-top:8px; font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color:#ddd; line-height:1.4;">
-    過去のCDTVを見ると、長尺・大型企画は後半に集まりやすい傾向があります。BUMP OF CHICKEN「天体観測」×LDHダンス選抜による「踊ってみた」企画も、同じように終盤に配置されそう。「出張ライブ！ライブ！」で世界初パフォーマンスを見せるBOYNEXTDOORやFUNKY MONKEY BΛBY'S、Fukaseの新曲フルサイズも、この時間帯に登場するかもしれません。
+    過去のCDTVを見ると、ベテラン・大型アーティストは後半に配置されやすい傾向があります。2週連続出演の初週となる福山雅治「Squall」や、新曲「セツナハナビ」をフルサイズで披露するTOMORROW X TOGETHERは、この時間帯に登場するかもしれません。
   </div>
   <div style="background:rgba(255,255,255,0.05); border-radius:4px; padding:10px; margin-top:12px; font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color:#bbb; line-height:1.5; border:1px solid #222;">
     <strong style="color:#f9ff00;">※リアルタイム速報：</strong> 公式タイムテーブル発表前のため、当日のステージ進行に合わせて実際の出演順を随時スピード更新していきます。
@@ -188,11 +166,11 @@ CDTVライブ！ライブ！（カウントダウンTV）8月17日タイムテ�
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>※8月17日の公式タイムテーブル（出演順・時間帯）はまだ発表されていません。放送開始後、確定次第このページで更新します。</p>
+<p>※8月31日の公式タイムテーブル（出演順・時間帯）はまだ発表されていません。放送開始後、確定次第このページで更新します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>CDTVライブ！ライブ！の出演者・歌唱曲一覧【8/17】</h2>
+<h2>CDTVライブ！ライブ！の出演者・歌唱曲一覧【8/31】</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center"} -->
@@ -200,7 +178,7 @@ CDTVライブ！ライブ！（カウントダウンTV）8月17日タイムテ�
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>最新回となる8月17日放送分は、14組の出演・披露曲が発表されています。歌唱曲の詳細を一覧にまとめました。</p>
+<p>最新回となる8月31日放送分は、8組の出演・披露曲が発表されています。歌唱曲の詳細を一覧にまとめました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -211,112 +189,64 @@ CDTVライブ！ライブ！（カウントダウンTV）8月17日タイムテ�
   <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
     <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">岡本真夜</p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">懐かしの名曲「TOMORROW」を披露します。</p>
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">INI</p>
+      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">新シングル「ANTHEM」収録のファンキーで軽快な「You Know What To Do」を披露します。</p>
     </div>
   </div>
 
   <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
     <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">きゃりーぱみゅぱみゅ <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">一夜限りメドレー</span></p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「月姫」「つけまつける」「にんじゃりばんばん」「ファッションモンスター」の4曲メドレー。「月姫」はテレビ初披露のラブソング。</p>
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">NCT WISH <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">TRFカバー</span></p>
+      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">TRFの平成ヒット曲「BOY MEETS GIRL」をリメイクし、フルサイズで披露します。</p>
     </div>
   </div>
 
   <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
     <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">King &amp; Prince <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">テレビ初披露あり</span></p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">スペシャルメドレーで「So Honey」「うそだよ すきだよ」を披露。「うそだよ すきだよ」はテレビ初披露。</p>
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">斉藤和義 <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">テレビ初披露あり</span></p>
+      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">最新アルバム収録の「黒猫のタンバリン」と大ヒット曲「やさしくなりたい」をフルサイズで披露。「黒猫のタンバリン」はテレビ初披露。</p>
     </div>
   </div>
 
   <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
     <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">GRe4N BOYZ <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">テレビ初披露</span></p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「キセキ」「ペリドット」を披露。「ペリドット」はテレビ初披露のポップソング。</p>
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">Juice=Juice <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">オープニング候補</span></p>
+      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">SNS総再生8億回突破の2026年上半期大ヒット曲「盛れ！ミ・アモーレ」を披露します。</p>
     </div>
   </div>
 
   <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
     <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">郷ひろみ <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">新曲メドレー</span></p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">スタジオで「GOLDFINGER'99」「2億4千万の瞳-エキゾチック・ジャパン-」「I'm Neo G」をメドレー披露。新曲「I'm Neo G」を含みます。</p>
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">TOMORROW X TOGETHER <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">新曲フルサイズ</span></p>
+      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">真夏の夜の花火と別れをテーマにした新曲「セツナハナビ」をフルサイズで披露します。</p>
     </div>
   </div>
 
   <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
     <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">島袋寛子</p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「Body &amp; Soul」「Wake Me Up!」の2曲メドレーを披露します。</p>
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">BE:FIRST <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">テレビ初披露あり</span></p>
+      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「BRUCE WAYNE feat. Flo Milli, ATL Jacob」「Missing」「Bye-Good-Bye」の3曲を披露。「BRUCE WAYNE」はテレビ初披露。</p>
     </div>
   </div>
 
   <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
     <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">超ときめき♡宣伝部 <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">出張ライブ！ライブ！テレビ初披露</span></p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「出張ライブ！ライブ！」にて「大盛りハッピー」をテレビ初披露します。</p>
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">福山雅治 <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">2週連続出演・初週</span></p>
+      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">最新アルバム『超新星』収録の「Squall」をフルサイズで披露。次回2週目は「邂逅」を披露予定です。</p>
     </div>
   </div>
 
   <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
     <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">T.M.Revolution</p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">夏の定番ソング「HOT LIMIT」を披露します。</p>
-    </div>
-  </div>
-
-  <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
-    <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
-    <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">中島健人</p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">自身が作詞に携わった最新曲「鬼事」を披露します。</p>
-    </div>
-  </div>
-
-  <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
-    <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
-    <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">FUNKY MONKEY BΛBY'S <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">出張ライブ！ライブ！テレビ初披露</span></p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「出張ライブ！ライブ！」に出演し「夏子」「あとひとつ」を披露。「夏子」はテレビ初披露。</p>
-    </div>
-  </div>
-
-  <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
-    <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
-    <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">Fukase <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">新曲フルサイズ</span></p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">ソロプロジェクトとしての新曲「twilight」をフルサイズで披露します。</p>
-    </div>
-  </div>
-
-  <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
-    <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
-    <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">FRUITS ZIPPER <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">テレビ初披露</span></p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「1,2,3,FOOOOUR」「わたしの一番かわいいところ」を披露。「1,2,3,FOOOOUR」はGRe4N BOYZ書き下ろしのテレビ初披露曲です。</p>
-    </div>
-  </div>
-
-  <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
-    <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
-    <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">BOYNEXTDOOR <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">世界初パフォーマンス</span></p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「出張ライブ！ライブ！」にて「Boom Boom Boom」（オリジナル日本語楽曲）を世界初パフォーマンス。</p>
-    </div>
-  </div>
-
-  <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
-    <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
-    <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">BONNIE PINK</p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">夏の定番ソング「A Perfect Sky」を披露します。</p>
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">MAZZEL</p>
+      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">グルーヴィーな夏の一曲「So Strawberry」をフルサイズで披露します。</p>
     </div>
   </div>
 
@@ -328,7 +258,7 @@ CDTVライブ！ライブ！（カウントダウンTV）8月17日タイムテ�
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>今回はマンスリーライブ枠に代わり、「出張ライブ！ライブ！」コーナーと「踊ってみた」企画（LDH選抜×BUMP OF CHICKEN「天体観測」）が目玉です。</p>
+<p>今回はBE:FIRST「BRUCE WAYNE feat. Flo Milli, ATL Jacob」のテレビ初披露や、福山雅治の2週連続出演初週が目玉です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -351,19 +281,19 @@ CDTVライブ！ライブ！（カウントダウンTV）8月17日タイムテ�
   <div style="background:#111;border:1px solid #222;border-radius:6px;padding:12px;margin-bottom:8px;position:relative;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
     <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);font-weight:900;color:#f9ff00;margin-bottom:4px;">出演時間の目安</div>
-    <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.6;font-weight:700;">今回は19:00〜22:00の3時間スペシャルのため、19時台・20時台・21時台の3段構成になる見込みです。全14組の出演は発表済みですが、具体的な出演時間帯は現時点で未発表です。</div>
+    <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.6;font-weight:700;">今回は19:00〜20:55の通常2時間放送のため、19時台・20時台の2部構成になる見込みです。全8組の出演は発表済みですが、具体的な出演時間帯は現時点で未発表です。</div>
   </div>
 
   <div style="background:#111;border:1px solid #222;border-radius:6px;padding:12px;margin-bottom:8px;position:relative;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
     <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);font-weight:900;color:#f9ff00;margin-bottom:4px;">オープニング傾向</div>
-    <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.6;font-weight:700;">過去の放送では、19時台の番組前半に新曲・話題曲を携えたアーティストが登場する傾向があります。今回は前半の出演時間帯が未発表のため、判明次第この項目を更新します。</div>
+    <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.6;font-weight:700;">過去の放送では、19時台の番組前半に新曲・話題曲を携えたアーティストが登場する傾向があります。今回はJuice=Juice「盛れ！ミ・アモーレ」やBE:FIRST「Bye-Good-Bye」がオープニング候補に挙がっており、判明次第この項目を更新します。</div>
   </div>
 
   <div style="background:#111;border:1px solid #222;border-radius:6px;padding:12px;position:relative;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
     <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);font-weight:900;color:#f9ff00;margin-bottom:4px;">特別企画の影響</div>
-    <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.6;font-weight:700;">今回は「出張ライブ！ライブ！」コーナーと「踊ってみた」企画（LDH選抜×BUMP OF CHICKEN「天体観測」）が加わる3時間スペシャル。通常回とは選曲・進行が異なる可能性があります。</div>
+    <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.6;font-weight:700;">今回は通常の2時間生放送で、特別コーナーの詳細は現時点で未発表です。BE:FIRSTと斉藤和義のテレビ初披露曲を含む、選曲面の見どころが多い回です。</div>
   </div>
 
 </div>
@@ -391,31 +321,31 @@ CDTVライブ！ライブ！（カウントダウンTV）8月17日タイムテ�
   <div style="position:relative;background:#0a0a0a;border:1px solid #222;border-radius:4px;padding:12px;overflow:hidden">
     <div style="position:absolute;top:0;left:0;font-size:8px;font-weight:900;background:#ff008d;color:#fff;padding:2px 6px;transform:skewX(-15deg)">FLOW</div>
     <div style="margin-top:10px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);font-weight:900;color:#f9ff00;margin-bottom:6px;letter-spacing:.05em">放送構成の傾向</div>
-    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">3時間の生放送では、前半に話題曲、後半に大型アーティストが配置される傾向があります。今回は「出張ライブ！ライブ！」コーナーと「踊ってみた」企画（LDH選抜×BUMP OF CHICKEN「天体観測」）が加わる特別編成です。</p>
+    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">2時間の生放送では、前半に話題曲、後半に大型アーティストが配置される傾向があります。今回は特別コーナーの発表がなく、通常編成での放送です。</p>
   </div>
 
   <div style="position:relative;background:#0a0a0a;border:1px solid #222;border-radius:4px;padding:12px;overflow:hidden">
     <div style="position:absolute;top:0;left:0;font-size:8px;font-weight:900;background:#fff;color:#000;padding:2px 6px;transform:skewX(-15deg)">PICKUP</div>
     <div style="margin-top:10px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);font-weight:900;color:#f9ff00;margin-bottom:6px;letter-spacing:.05em">注目アーティスト</div>
-    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">今回最大の注目はきゃりーぱみゅぱみゅ。一夜限りのスペシャルメドレーで「月姫」「つけまつける」「にんじゃりばんばん」「ファッションモンスター」の4曲を披露し、「月姫」はテレビ初披露のラブソングです。</p>
+    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">今回最大の注目はBE:FIRST。「BRUCE WAYNE feat. Flo Milli, ATL Jacob」をテレビ初披露し、「Missing」「Bye-Good-Bye」を含む計3曲を披露します。</p>
   </div>
 
   <div style="position:relative;background:#0a0a0a;border:1px solid #222;border-radius:4px;padding:12px;overflow:hidden">
     <div style="position:absolute;top:0;left:0;font-size:8px;font-weight:900;background:#ff008d;color:#fff;padding:2px 6px;transform:skewX(-15deg)">FINAL</div>
     <div style="margin-top:10px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);font-weight:900;color:#f9ff00;margin-bottom:6px;letter-spacing:.05em">番組終盤の傾向</div>
-    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">過去のCDTVでは、YOASOBIプラチナライブやSixTONESマンスリー最終週など長尺・大型企画が終盤に集中する傾向があります。あくまで筆者の予想ですが、今回はLDHダンス選抜による「踊ってみた」企画（BUMP OF CHICKEN「天体観測」）が終盤に登場する可能性があります。</p>
+    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">過去のCDTVでは、ベテラン・大型アーティストが終盤に配置される傾向があります。あくまで筆者の予想ですが、今回は2週連続出演の初週となる福山雅治が終盤に登場する可能性があります。</p>
   </div>
 
   <div style="position:relative;background:#0a0a0a;border:1px solid #222;border-radius:4px;padding:12px;overflow:hidden">
     <div style="position:absolute;top:0;left:0;font-size:8px;font-weight:900;background:#fff;color:#000;padding:2px 6px;transform:skewX(-15deg)">VTR</div>
     <div style="margin-top:10px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);font-weight:900;color:#f9ff00;margin-bottom:6px;letter-spacing:.05em">初披露・初登場のタイミング</div>
-    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">今回はテレビ初披露曲が7曲。きゃりーぱみゅぱみゅ「月姫」、King &amp; Prince「うそだよ すきだよ」、GRe4N BOYZ「ペリドット」、超ときめき♡宣伝部「大盛りハッピー」、FUNKY MONKEY BΛBY'S「夏子」、FRUITS ZIPPER「1,2,3,FOOOOUR」に注目です。</p>
+    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">今回はBE:FIRST「BRUCE WAYNE feat. Flo Milli, ATL Jacob」、斉藤和義「黒猫のタンバリン」の2曲がテレビ初披露予定です。</p>
   </div>
 
   <div style="position:relative;background:#0a0a0a;border:1px solid #222;border-radius:4px;padding:12px;overflow:hidden">
     <div style="position:absolute;top:0;left:0;font-size:8px;font-weight:900;background:#ff008d;color:#fff;padding:2px 6px;transform:skewX(-15deg)">LIVE</div>
     <div style="margin-top:10px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);font-weight:900;color:#f9ff00;margin-bottom:6px;letter-spacing:.05em">リアルタイム更新</div>
-    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">CDTVは事前の詳細なタイムテーブル発表がないため、出演順は当日の生放送で確定します。この記事でも8月17日のオンエアに合わせてリアルタイムで反映していきます。</p>
+    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">CDTVは事前の詳細なタイムテーブル発表がないため、出演順は当日の生放送で確定します。この記事でも8月31日のオンエアに合わせて随時反映していきます。</p>
     <div style="margin-top:8px;font-size:9px;font-weight:900;color:#f9ff00;background:rgba(249,255,0,0.1);padding:2px 8px;border-radius:2px;display:inline-block">生放送中に随時更新</div>
   </div>
 
@@ -427,7 +357,7 @@ CDTVライブ！ライブ！（カウントダウンTV）8月17日タイムテ�
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>3時間生放送では前半（19時台）→中盤（20時台）→後半（21時台）の3段構成で、後半ほど注目アーティストが配置される傾向です。</p>
+<p>2時間生放送では前半（19時台）→後半（20時台）の2部構成で、後半ほど注目アーティストが配置される傾向です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -439,7 +369,7 @@ CDTVライブ！ライブ！（カウントダウンTV）8月17日タイムテ�
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>※前回（8月10日）の放送出演順を掲載中です。</p>
+<p>※前回（8月17日）の放送出演順を掲載中です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -447,34 +377,98 @@ CDTVライブ！ライブ！（カウントダウンTV）8月17日タイムテ�
     <table border="1" bgcolor="#000000" width="100%" cellpadding="10" cellspacing="0">
         <tbody><tr>
             <td>
-                <font color="#ffffff" size="3"><b>2026年8月10日 放送出演順</b></font>
+                <font color="#ffffff" size="3"><b>2026年8月17日 放送出演順</b></font>
 
                 <hr color="#ff008d" align="left" width="50" style="margin-top: 15px; margin-bottom: 8px;">
 
-                <font color="#ff008d" size="2"><b>19:00〜20:30（VTR企画）</b></font>
+                <font color="#ff008d" size="2"><b>19:00〜20:00（前半）</b></font>
 
                 <table border="0" width="100%" cellpadding="5" cellspacing="4" style="margin-top: 8px;">
                     <tbody>
                     <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>特別編「CDTV33年間の1位の曲だけSP」</b></font><br>
-                        <font color="#ff008d" size="2">月別VTR紹介（1月編〜12月編）。生歌唱なし、個々の曲順は不明</font>
+                        <font color="#ffffff" size="2"><b>19:00頃：FRUITS ZIPPER</b></font><br>
+                        <font color="#ff008d" size="2">「わたしの一番かわいいところ」</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>19:03頃：郷ひろみ</b></font><br>
+                        <font color="#ff008d" size="2">「GOLDFINGER'99」</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>19:15頃：King &amp; Prince</b></font><br>
+                        <font color="#ff008d" size="2">「So Honey」→「うそだよ すきだよ」</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>19:29頃：T.M.Revolution</b></font><br>
+                        <font color="#ff008d" size="2">「HOT LIMIT」</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>19:32頃：岡本真夜</b></font><br>
+                        <font color="#ff008d" size="2">「TOMORROW」（music power.）</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>19:37頃：FRUITS ZIPPER</b></font><br>
+                        <font color="#ff008d" size="2">「1,2,3,FOOOOUR」</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>19:42頃：超ときめき♡宣伝部</b></font><br>
+                        <font color="#ff008d" size="2">「大盛りハッピー」（テレビ初披露）</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>19:53頃：島袋寛子</b></font><br>
+                        <font color="#ff008d" size="2">「Body &amp; Soul」→「Wake Me Up!」</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>19:57頃：BONNIE PINK</b></font><br>
+                        <font color="#ff008d" size="2">「A Perfect Sky」</font>
                     </td></tr>
                     </tbody>
                 </table>
 
                 <br>
 
-                <font color="#ff008d" size="2"><b>20:30〜20:55（後半）</b></font>
+                <font color="#ff008d" size="2"><b>20:00〜22:00（後半）</b></font>
 
                 <table border="0" width="100%" cellpadding="5" cellspacing="4" style="margin-top: 8px;">
                     <tbody>
                     <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>20:30頃：ATEEZ</b></font><br>
-                        <font color="#ff008d" size="2">「BAD（Japanese Ver.）」フルサイズ生パフォーマンス</font>
+                        <font color="#ffffff" size="2"><b>20:00頃：郷ひろみ（再登場）</b></font><br>
+                        <font color="#ff008d" size="2">「2億4千万の瞳-エキゾチック・ジャパン-」「I'm Neo G」（テレビ初披露曲を含む）</font>
                     </td></tr>
                     <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>20:35頃：最新週間ランキング</b></font><br>
-                        <font color="#ff008d" size="2">TOP5カウントダウン</font>
+                        <font color="#ffffff" size="2"><b>20:06頃：LDH世界選抜</b></font><br>
+                        <font color="#ff008d" size="2">「天体観測（2022 Rerecording Version）」</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>20:17頃：FUNKY MONKEY BΛBY'S</b></font><br>
+                        <font color="#ff008d" size="2">「夏子」（テレビ初披露）</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>20:22頃：GRe4N BOYZ</b></font><br>
+                        <font color="#ff008d" size="2">「キセキ」→「ペリドット」</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>20:46頃：Snow Man</b></font><br>
+                        <font color="#ff008d" size="2">「グッタイム」（フルサイズ・浴衣夏祭り演出、投稿が最も伸びた時間帯）</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>21:00頃：中島健人</b></font><br>
+                        <font color="#ff008d" size="2">「鬼事」（自身作詞・和装、投稿が急増した時間帯）</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>21:09頃：BOYNEXTDOOR</b></font><br>
+                        <font color="#ff008d" size="2">「Boom Boom Boom」（世界初パフォーマンス）</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>21:12頃：きゃりーぱみゅぱみゅ</b></font><br>
+                        <font color="#ff008d" size="2">「にんじゃりばんばん」→「ファッションモンスター」→「つけまつける」→「月姫」（一夜限りメドレー）</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>21:20頃：Fukase</b></font><br>
+                        <font color="#ff008d" size="2">「twilight」（ソロ初登場・フルサイズ）</font>
+                    </td></tr>
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>21:28頃：FUNKY MONKEY BΛBY'S</b></font><br>
+                        <font color="#ff008d" size="2">「あとひとつ」（music power.）</font>
                     </td></tr>
                     </tbody>
                 </table>
@@ -493,7 +487,7 @@ CDTVライブ！ライブ！（カウントダウンTV）8月17日タイムテ�
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>※8/17のCDTVは放送前のため未確定。<br>※放送開始後（19:00〜）にリアルタイムで出演順を更新していきます。</p>
+<p>※8/31のCDTVは放送前のため未確定。<br>※放送開始後（19:00〜）にリアルタイムで出演順を更新していきます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -571,6 +565,43 @@ CDTVライブ！ライブ！（カウントダウンTV）8月17日タイムテ�
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
+<h3>CDTV 2026年8月10日のタイムテーブル</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div role="region" aria-label="CDTV 2026年8月10日タイムテーブル" style="font-family:'Inter','Helvetica Neue',Arial,sans-serif;margin:20px 0;background:#0b0b0c;border:1px solid #222;border-radius:6px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.5);">
+<div style="height:3px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
+<div style="padding:12px 14px;background:#111;border-bottom:1px solid #222;">
+<div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 360), 12px);font-weight:900;color:#f9ff00;letter-spacing:.08em;">TIME TABLE</div>
+<div style="font-size:13px;font-weight:900;color:#fff;">出演順・盛り上がり実績（2026年8月10日放送）</div>
+</div>
+<div>
+<div style="display:flex;border-bottom:1px solid #222;">
+<div style="width:95px;background:#0f0f10;padding:14px 10px;text-align:center;border-right:1px solid #222;">
+<div style="font-size:13px;font-weight:900;color:#ff00ea;">19:00〜</div>
+<div style="font-size:9px;font-weight:700;color:#aaa;margin-top:2px;">前半</div>
+</div>
+<div style="flex:1;padding:14px 14px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ddd;line-height:1.7;">
+特別編「CDTV33年間の1位の曲だけSP」（月別VTR紹介、生歌唱なし）
+</div>
+</div>
+<div style="display:flex;">
+<div style="width:95px;background:#0f0f10;padding:14px 10px;text-align:center;border-right:1px solid #222;">
+<div style="font-size:13px;font-weight:900;color:#ff00ea;">20:30〜</div>
+<div style="font-size:9px;font-weight:700;color:#aaa;margin-top:2px;">後半</div>
+</div>
+<div style="flex:1;padding:14px 14px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ddd;line-height:1.7;">
+<span style="color:#f9ff00;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);">ATEEZ「BAD（Japanese Ver.）」フルサイズ生パフォーマンス / 最新週間ランキングTOP5カウントダウン</span>
+</div>
+</div>
+</div>
+<div style="padding:10px 14px;background:#0f0f10;border-top:1px solid #222;font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);font-weight:700;color:#bbb;line-height:1.6;">
+💡 8月10日放送回は、特別編「CDTV33年間の1位の曲だけSP」を月別VTRで振り返る企画がメイン。20:30以降はATEEZ「BAD（Japanese Ver.）」のフルサイズ生パフォーマンスと最新週間ランキングTOP5カウントダウンが行われました。
+</div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":3} -->
 <h3>CDTV 2026年8月3日のタイムテーブル</h3>
 <!-- /wp:heading -->
 
@@ -608,44 +639,6 @@ CDTVライブ！ライブ！（カウントダウンTV）8月17日タイムテ�
 </div>
 <!-- /wp:html -->
 
-<!-- wp:heading {"level":3} -->
-<h3>CDTV 2026年7月13日のタイムテーブル</h3>
-<!-- /wp:heading -->
-
-<!-- wp:html -->
-<div role="region" aria-label="CDTV 2026年7月13日タイムテーブル" style="font-family:'Inter','Helvetica Neue',Arial,sans-serif;margin:20px 0;background:#0b0b0c;border:1px solid #222;border-radius:6px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.5);">
-<div style="height:3px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
-<div style="padding:12px 14px;background:#111;border-bottom:1px solid #222;">
-<div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 360), 12px);font-weight:900;color:#f9ff00;letter-spacing:.08em;">TIME TABLE</div>
-<div style="font-size:13px;font-weight:900;color:#fff;">出演順・盛り上がり実績（2026年7月13日放送）</div>
-</div>
-<div>
-<div style="display:flex;border-bottom:1px solid #222;">
-<div style="width:95px;background:#0f0f10;padding:14px 10px;text-align:center;border-right:1px solid #222;">
-<div style="font-size:13px;font-weight:900;color:#ff00ea;">19:00〜</div>
-<div style="font-size:9px;font-weight:700;color:#aaa;margin-top:2px;">前半</div>
-</div>
-<div style="flex:1;padding:14px 14px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ddd;line-height:1.7;">
-KiiiKiii「404 (New Era)」/ timelesz「消えない花火」（テレビ初披露）/ 20th Century「僕らが上書きする世界」（テレビ初披露推定）<br>
-<span style="color:#f9ff00;">King & Prince「So Honey」（トップバッター）</span>
-</div>
-</div>
-<div style="display:flex;">
-<div style="width:95px;background:#0f0f10;padding:14px 10px;text-align:center;border-right:1px solid #222;">
-<div style="font-size:13px;font-weight:900;color:#ff00ea;">20:00〜</div>
-<div style="font-size:9px;font-weight:700;color:#aaa;margin-top:2px;">後半</div>
-</div>
-<div style="flex:1;padding:14px 14px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ddd;line-height:1.7;">
-<span style="color:#f9ff00;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);">Number_i「BUGS LIFE」/ 乃木坂46「是非に及ばず」/ ≠ME「愛くださいませ」/ YOASOBI プラチナライブ（長尺企画）</span>
-</div>
-</div>
-</div>
-<div style="padding:10px 14px;background:#0f0f10;border-top:1px solid #222;font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);font-weight:700;color:#bbb;line-height:1.6;">
-💡 X（旧Twitter）の投稿熱量に基づいた7月13日放送回の確定版データです。King & Prince「So Honey」（トップバッター）とNumber_i「BUGS LIFE」で投稿が大きく伸び、timelesz「消えない花火」も余韻が長く続きました。
-</div>
-</div>
-<!-- /wp:html -->
-
 <!-- wp:html -->
 <details style="margin:20px 0;border:1px solid #222;border-radius:6px;overflow:hidden;background:#0b0b0c;">
 <summary style="cursor:pointer;padding:14px 16px;font-weight:900;font-size:13px;background:#111;color:#fff;border-bottom:1px solid #222;">
@@ -653,7 +646,18 @@ KiiiKiii「404 (New Era)」/ timelesz「消えない花火」（テレビ初披�
 </summary>
 <div style="padding:10px 14px;">
 
-<h3 style="margin:10px 0 6px;font-size:14px;font-weight:900;color:#fff;">2026年7月6日のタイムテーブル</h3>
+<h3 style="margin:10px 0 6px;font-size:14px;font-weight:900;color:#fff;">2026年7月13日のタイムテーブル</h3>
+<div style="border:1px solid #222;border-radius:6px;overflow:hidden;margin:14px 0;background:#0b0b0c;">
+<div style="height:3px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
+<div style="padding:14px 16px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:700;color:#ddd;line-height:1.8;">
+19:00台〜<br>
+King & Prince「So Honey」（トップバッター）/ KiiiKiii「404 (New Era)」/ timelesz「消えない花火」（テレビ初披露）/ 20th Century「僕らが上書きする世界」（テレビ初披露推定）<br><br>
+20:00台〜<br>
+Number_i「BUGS LIFE」/ 乃木坂46「是非に及ばず」/ ≠ME「愛くださいませ」/ YOASOBI プラチナライブ（長尺企画）
+</div>
+</div>
+
+<h3 style="margin:18px 0 6px;font-size:14px;font-weight:900;color:#fff;">2026年7月6日のタイムテーブル</h3>
 <div style="border:1px solid #222;border-radius:6px;overflow:hidden;margin:14px 0;background:#0b0b0c;">
 <div style="height:3px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
 <div style="padding:14px 16px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:700;color:#ddd;line-height:1.8;">
@@ -664,23 +668,12 @@ BE:FIRST「Missing」（テレビ初披露）＋サプライズ「ALL DAY」/ M!
 </div>
 </div>
 
-<h3 style="margin:18px 0 6px;font-size:14px;font-weight:900;color:#fff;">2026年6月29日のタイムテーブル</h3>
-<div style="border:1px solid #222;border-radius:6px;overflow:hidden;margin:14px 0;background:#0b0b0c;">
-<div style="height:3px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
-<div style="padding:14px 16px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:700;color:#ddd;line-height:1.8;">
-19:00台〜<br>
-IVE「LUCID DREAM」/ ＝LOVE「お姫様の作り方」/ YOASOBI プラチナライブ（「オリオン」「アイドル」など全7曲）/ SixTONES マンスリーライブ開始（「Golden」スタート）<br><br>
-20:00台〜<br>
-SixTONES マンスリーライブ最終週（6周年記念）：「Outrageous」「GONG」「Dance All Night」「Dance Forever」「音色」/ 炎演出・ダンス・ファンサでSNS投稿最大ピーク
-</div>
-</div>
-
 </div>
 </details>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>6月のアーカイブは以下に掲載しています。<br>👉<a href="https://shira-treat.com/cdtv-2026june/">【CDTV】2026年6月の出演者や曲目・セトリ（放送アーカイブ）</a></p>
+<p>6月のアーカイブは以下に掲載しています。<br>👉<a href="https://shira-treat.com/cdtv-2026july/">【CDTV】2026年7月の出演者や曲目・セトリ（放送アーカイブ）</a></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -699,7 +692,7 @@ SixTONES マンスリーライブ最終週（6周年記念）：「Outrageous」
 </div>
 <div style="display:flex;gap:10px;border-top:1px solid #222;padding-top:10px;">
 <span style="color:#ff008d;font-size:12px;font-weight:900;">A</span>
-<p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.7;font-weight:700;">8月17日は19:00〜22:00、TBS系列で3時間スペシャル放送。岡本真夜やきゃりーぱみゅぱみゅ、King & Princeなど全14組の出演が発表されています。過去の放送では後半に注目度の高いアーティストが配置される傾向があり、実際の出演順は放送後にこの記事で更新します。</p>
+<p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.7;font-weight:700;">8月31日は19:00〜20:55、TBS系列で通常の2時間生放送。INIや斉藤和義、BE:FIRSTなど全8組の出演が発表されています。過去の放送では後半に注目度の高いアーティストが配置される傾向があり、実際の出演順は放送後にこの記事で更新します。</p>
 </div>
 </div>
 
@@ -707,11 +700,11 @@ SixTONES マンスリーライブ最終週（6周年記念）：「Outrageous」
 <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
 <div style="display:flex;gap:10px;margin-bottom:10px;">
 <span style="background:#fff;color:#000;font-size:10px;font-weight:900;padding:2px 6px;transform:skewX(-15deg);">Q2</span>
-<p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">きゃりーぱみゅぱみゅの一夜限りメドレーは何時頃ですか？</p>
+<p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">BE:FIRSTの「BRUCE WAYNE」は何時頃披露されますか？</p>
 </div>
 <div style="display:flex;gap:10px;border-top:1px solid #222;padding-top:10px;">
 <span style="color:#ff008d;font-size:12px;font-weight:900;">A</span>
-<p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.7;font-weight:700;">正式な出演時間は発表されていません。一夜限りのスペシャルメドレーとして「月姫」「つけまつける」「にんじゃりばんばん」「ファッションモンスター」の4曲を披露予定で、「月姫」はテレビ初披露のラブソングです。過去のCDTVではテレビ初披露曲が前半に配置される傾向があり、19時台に登場するかもしれません。</p>
+<p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.7;font-weight:700;">正式な出演時間は発表されていません。「BRUCE WAYNE feat. Flo Milli, ATL Jacob」はテレビ初披露曲で、「Missing」「Bye-Good-Bye」を含む計3曲を披露予定です。過去のCDTVではテレビ初披露曲が前半に配置される傾向があり、19時台に登場するかもしれません。</p>
 </div>
 </div>
 
@@ -719,11 +712,11 @@ SixTONES マンスリーライブ最終週（6周年記念）：「Outrageous」
 <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
 <div style="display:flex;gap:10px;margin-bottom:10px;">
 <span style="background:#fff;color:#000;font-size:10px;font-weight:900;padding:2px 6px;transform:skewX(-15deg);">Q3</span>
-<p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">テレビ初披露の楽曲はどれくらいありますか？</p>
+<p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">他に注目のパフォーマンスはありますか？</p>
 </div>
 <div style="display:flex;gap:10px;border-top:1px solid #222;padding-top:10px;">
 <span style="color:#ff008d;font-size:12px;font-weight:900;">A</span>
-<p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.7;font-weight:700;">月姫（きゃりーぱみゅぱみゅ）、うそだよ すきだよ（King & Prince）、ペリドット（GRe4N BOYZ）、大盛りハッピー（超ときめき♡宣伝部）、夏子（FUNKY MONKEY BΛBY'S）、1,2,3,FOOOOUR（FRUITS ZIPPER）など、7曲がテレビ初披露予定です。</p>
+<p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.7;font-weight:700;">斉藤和義「黒猫のタンバリン」もテレビ初披露予定です。福山雅治は2週連続出演の初週として「Squall」を披露し、次回2週目には「邂逅」を披露する予定です。</p>
 </div>
 </div>
 
@@ -735,7 +728,7 @@ SixTONES マンスリーライブ最終週（6周年記念）：「Outrageous」
 </div>
 <div style="display:flex;gap:10px;border-top:1px solid #222;padding-top:10px;">
 <span style="color:#ff008d;font-size:12px;font-weight:900;">A</span>
-<p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.7;font-weight:700;">生放送に間に合わない場合も、TVerにて期間限定の見逃し配信が行われる予定です。放送終了後から次回放送までの約1週間、3時間分のステージを後から楽しめます。</p>
+<p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.7;font-weight:700;">生放送に間に合わない場合も、TVerにて期間限定の見逃し配信が行われる予定です。放送終了後から次回放送までの約1週間、2時間分のステージを後から楽しめます。</p>
 </div>
 <div style="margin-top:10px;">
 <a href="https://tver.jp/series/sr2cbxi72h" target="_blank" rel="nofollow noopener noreferrer" style="display:flex;align-items:center;justify-content:center;height:34px;background:#00d4ff;color:#000;text-decoration:none;font-size:11px;font-weight:900;border-radius:2px;letter-spacing:.05em;">TVerで見逃し配信をチェック ▶</a>
@@ -763,7 +756,7 @@ SixTONES マンスリーライブ最終週（6周年記念）：「Outrageous」
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年8月17日（月）放送の『CDTVライブ！ライブ！』は、TBS系でよる7時から3時間スペシャル生放送！</p>
+<p>2026年8月31日（月）放送の『CDTVライブ！ライブ！』は、TBS系でよる7時から2時間生放送！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -771,7 +764,7 @@ SixTONES マンスリーライブ最終週（6周年記念）：「Outrageous」
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>全14組の出演が発表されており、テレビ初披露曲は7曲披露予定です。きゃりーぱみゅぱみゅの一夜限りメドレーやKing &amp; Prince「うそだよ すきだよ」などに注目です。</p>
+<p>全8組の出演が発表されており、BE:FIRST「BRUCE WAYNE feat. Flo Milli, ATL Jacob」と斉藤和義「黒猫のタンバリン」がテレビ初披露。福山雅治は2週連続出演の初週です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -884,25 +877,25 @@ SixTONES マンスリーライブ最終週（6周年記念）：「Outrageous」
       "@type": "BlogPosting",
       "@id": "https://shira-treat.com/cdtv-timetable/#article",
       "url": "https://shira-treat.com/cdtv-timetable/",
-      "headline": "【CDTV】タイムテーブル 8月17日速報！出演順・出演時間をリアルタイム更新",
-      "description": "CDTVライブ！ライブ！（カウントダウンTV）8月17日タイムテーブルを速報更新！3時間SPできゃりーぱみゅぱみゅの一夜限りメドレーやテレビ初披露曲多数。出演順・登場時間の目安をリアルタイムで随時追記。",
+      "headline": "【CDTV】タイムテーブル 8月31日速報！出演順・出演時間をリアルタイム更新",
+      "description": "CDTVライブ！ライブ！（カウントダウンTV）8月31日タイムテーブルを速報更新！BE:FIRST・斉藤和義がテレビ初披露、福山雅治は2週連続出演初週。出演順・登場時間の目安をリアルタイムで随時追記。",
       "articleSection": "タイムテーブル",
       "keywords": [
         "CDTV", "CDTV タイムテーブル", "カウントダウンTV", "CDTVライブ！ライブ！",
-        "出演者", "出演順", "歌唱曲", "2026-08-17",
-        "きゃりーぱみゅぱみゅ", "King & Prince", "出張ライブ！ライブ！", "テレビ初披露"
+        "出演者", "出演順", "歌唱曲", "2026-08-31",
+        "BE:FIRST", "斉藤和義", "福山雅治", "テレビ初披露"
       ],
       "datePublished": "2026-01-28T17:30:00+09:00",
       "dateCreated": "2026-01-28T17:30:00+09:00",
-      "dateModified": "2026-08-11T10:00:00+09:00",
+      "dateModified": "2026-08-19T10:00:00+09:00",
       "inLanguage": "ja",
       "image": {
         "@type": "ImageObject",
         "@id": "https://shira-treat.com/cdtv-timetable/#image",
-        "url": "https://shira-treat.com/wp-content/uploads/2026/07/image-8-2.webp",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/08/スクリーンショット-2026-08-19-200109.webp",
         "width": 1200,
         "height": 675,
-        "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/07/image-8-2.webp"
+        "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/08/スクリーンショット-2026-08-19-200109.webp"
       },
       "author": {
         "@type": "Person",
@@ -927,29 +920,23 @@ SixTONES マンスリーライブ最終週（6周年記念）：「Outrageous」
         "sameAs": ["https://www.tbs.co.jp/cdtv_livelive/"]
       },
       "mentions": [
-        { "@type": "Person", "name": "岡本真夜" },
-        { "@type": "Person", "name": "きゃりーぱみゅぱみゅ" },
-        { "@type": "MusicGroup", "name": "King & Prince" },
-        { "@type": "MusicGroup", "name": "GRe4N BOYZ" },
-        { "@type": "Person", "name": "郷ひろみ" },
-        { "@type": "Person", "name": "島袋寛子" },
-        { "@type": "MusicGroup", "name": "超ときめき♡宣伝部" },
-        { "@type": "Person", "name": "T.M.Revolution" },
-        { "@type": "Person", "name": "中島健人" },
-        { "@type": "MusicGroup", "name": "FUNKY MONKEY BΛBY'S" },
-        { "@type": "Person", "name": "Fukase" },
-        { "@type": "MusicGroup", "name": "FRUITS ZIPPER" },
-        { "@type": "MusicGroup", "name": "BOYNEXTDOOR" },
-        { "@type": "Person", "name": "BONNIE PINK" }
+        { "@type": "MusicGroup", "name": "INI" },
+        { "@type": "MusicGroup", "name": "NCT WISH" },
+        { "@type": "Person", "name": "斉藤和義" },
+        { "@type": "MusicGroup", "name": "Juice=Juice" },
+        { "@type": "MusicGroup", "name": "TOMORROW X TOGETHER" },
+        { "@type": "MusicGroup", "name": "BE:FIRST" },
+        { "@type": "Person", "name": "福山雅治" },
+        { "@type": "MusicGroup", "name": "MAZZEL" }
       ]
     },
     {
       "@type": "BroadcastEvent",
       "@id": "https://shira-treat.com/cdtv-timetable/#broadcast",
-      "name": "CDTVライブ！ライブ！（2026年8月17日放送）",
-      "description": "2026年8月17日（月）19:00〜22:00、TBS系列3時間スペシャル生放送。きゃりーぱみゅぱみゅの一夜限りメドレーやKing & Prince「うそだよ すきだよ」など、テレビ初披露曲は7曲披露予定です。",
-      "startDate": "2026-08-17T19:00:00+09:00",
-      "endDate": "2026-08-17T22:00:00+09:00",
+      "name": "CDTVライブ！ライブ！（2026年8月31日放送）",
+      "description": "2026年8月31日（月）19:00〜20:55、TBS系列の通常2時間生放送。BE:FIRST「BRUCE WAYNE feat. Flo Milli, ATL Jacob」と斉藤和義「黒猫のタンバリン」がテレビ初披露。福山雅治は2週連続出演の初週です。",
+      "startDate": "2026-08-31T19:00:00+09:00",
+      "endDate": "2026-08-31T20:55:00+09:00",
       "eventStatus": "https://schema.org/EventScheduled",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "isLiveBroadcast": true,
@@ -970,24 +957,18 @@ SixTONES マンスリーライブ最終週（6周年記念）：「Outrageous」
     {
       "@type": "ItemList",
       "@id": "https://shira-treat.com/cdtv-timetable/#lineup",
-      "name": "2026年8月17日 CDTV出演者と歌唱曲一覧",
+      "name": "2026年8月31日 CDTV出演者と歌唱曲一覧",
       "itemListOrder": "https://schema.org/ItemListOrderAscending",
-      "numberOfItems": 14,
+      "numberOfItems": 8,
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "岡本真夜" },
-        { "@type": "ListItem", "position": 2, "name": "きゃりーぱみゅぱみゅ" },
-        { "@type": "ListItem", "position": 3, "name": "King & Prince" },
-        { "@type": "ListItem", "position": 4, "name": "GRe4N BOYZ" },
-        { "@type": "ListItem", "position": 5, "name": "郷ひろみ" },
-        { "@type": "ListItem", "position": 6, "name": "島袋寛子" },
-        { "@type": "ListItem", "position": 7, "name": "超ときめき♡宣伝部" },
-        { "@type": "ListItem", "position": 8, "name": "T.M.Revolution" },
-        { "@type": "ListItem", "position": 9, "name": "中島健人" },
-        { "@type": "ListItem", "position": 10, "name": "FUNKY MONKEY BΛBY'S" },
-        { "@type": "ListItem", "position": 11, "name": "Fukase" },
-        { "@type": "ListItem", "position": 12, "name": "FRUITS ZIPPER" },
-        { "@type": "ListItem", "position": 13, "name": "BOYNEXTDOOR" },
-        { "@type": "ListItem", "position": 14, "name": "BONNIE PINK" }
+        { "@type": "ListItem", "position": 1, "name": "INI" },
+        { "@type": "ListItem", "position": 2, "name": "NCT WISH" },
+        { "@type": "ListItem", "position": 3, "name": "斉藤和義" },
+        { "@type": "ListItem", "position": 4, "name": "Juice=Juice" },
+        { "@type": "ListItem", "position": 5, "name": "TOMORROW X TOGETHER" },
+        { "@type": "ListItem", "position": 6, "name": "BE:FIRST" },
+        { "@type": "ListItem", "position": 7, "name": "福山雅治" },
+        { "@type": "ListItem", "position": 8, "name": "MAZZEL" }
       ]
     },
     {
@@ -999,23 +980,23 @@ SixTONES マンスリーライブ最終週（6周年記念）：「Outrageous」
           "name": "出演順やタイムテーブルはどうなりそうですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "8月17日は19:00〜22:00、TBS系列で3時間スペシャル放送。岡本真夜やきゃりーぱみゅぱみゅ、King & Princeなど全14組の出演が発表されています。過去の放送では後半に注目度の高いアーティストが配置される傾向があり、実際の出演順は放送後にこの記事で更新します。"
+            "text": "8月31日は19:00〜20:55、TBS系列で通常の2時間生放送。INIや斉藤和義、BE:FIRSTなど全8組の出演が発表されています。過去の放送では後半に注目度の高いアーティストが配置される傾向があり、実際の出演順は放送後にこの記事で更新します。"
           }
         },
         {
           "@type": "Question",
-          "name": "きゃりーぱみゅぱみゅの一夜限りメドレーは何時頃ですか？",
+          "name": "BE:FIRSTの「BRUCE WAYNE」は何時頃披露されますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "正式な出演時間は発表されていません。一夜限りのスペシャルメドレーとして「月姫」「つけまつける」「にんじゃりばんばん」「ファッションモンスター」の4曲を披露予定で、「月姫」はテレビ初披露のラブソングです。過去のCDTVではテレビ初披露曲が前半に配置される傾向があり、19時台に登場するかもしれません。"
+            "text": "正式な出演時間は発表されていません。「BRUCE WAYNE feat. Flo Milli, ATL Jacob」はテレビ初披露曲で、「Missing」「Bye-Good-Bye」を含む計3曲を披露予定です。過去のCDTVではテレビ初披露曲が前半に配置される傾向があり、19時台に登場するかもしれません。"
           }
         },
         {
           "@type": "Question",
-          "name": "テレビ初披露の楽曲はどれくらいありますか？",
+          "name": "他に注目のパフォーマンスはありますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "月姫（きゃりーぱみゅぱみゅ）、うそだよ すきだよ（King & Prince）、ペリドット（GRe4N BOYZ）、大盛りハッピー（超ときめき♡宣伝部）、夏子（FUNKY MONKEY BΛBY'S）、1,2,3,FOOOOUR（FRUITS ZIPPER）など、7曲がテレビ初披露予定です。"
+            "text": "斉藤和義「黒猫のタンバリン」もテレビ初披露予定です。福山雅治は2週連続出演の初週として「Squall」を披露し、次回2週目には「邂逅」を披露する予定です。"
           }
         },
         {
@@ -1023,7 +1004,7 @@ SixTONES マンスリーライブ最終週（6周年記念）：「Outrageous」
           "name": "リアルタイムで見られない場合は？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "生放送に間に合わない場合も、TVerにて期間限定の見逃し配信が行われる予定です。放送終了後から次回放送までの約1週間、3時間分のステージを後から楽しめます。"
+            "text": "生放送に間に合わない場合も、TVerにて期間限定の見逃し配信が行われる予定です。放送終了後から次回放送までの約1週間、2時間分のステージを後から楽しめます。"
           }
         },
         {
