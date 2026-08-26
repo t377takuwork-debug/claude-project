@@ -182,7 +182,7 @@ if (Test-Path $linksFile) {
 }
 
 # 14. JSON-LD syntax (optional; darepedia does not require JSON-LD, but validate if present)
-$scriptMatches = [regex]::Matches($content, '<script type="application/ld\+json">([\s\S]*?)</script>')
+$scriptMatches = [regex]::Matches($content, '\[jsonld\]([\s\S]*?)\[/jsonld\]')
 if ($scriptMatches.Count -gt 0) {
     foreach ($m in $scriptMatches) {
         try {

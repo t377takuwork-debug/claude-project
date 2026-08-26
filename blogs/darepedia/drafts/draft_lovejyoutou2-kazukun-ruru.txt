@@ -387,9 +387,9 @@ Netflix『ラブ上等2』で急接近したかずくんとるる。1泊2日の�
 <p>交際の公式発表はまだ確認できていませんが、この先二人からどんな発信があるのか、気になるところです。</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:html -->
+<!-- wp:shortcode -->
 <!-- MANUAL_JSONLD -->
-<script type="application/ld+json">
+[jsonld]
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -475,5 +475,5 @@ Netflix『ラブ上等2』で急接近したかずくんとるる。1泊2日の�
     }
   ]
 }
-</script>
-<!-- /wp:html -->
+[/jsonld]
+<!-- /wp:shortcode -->

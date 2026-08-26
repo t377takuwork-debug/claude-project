@@ -140,10 +140,12 @@ powershell -ExecutionPolicy Bypass -File "C:\Users\PC_User\claude project\blogs\
 
 ユーザーから依頼があった場合のみ追加する（毎回必須ではない）。フォーマットは`blogs/shira_note/drafts/draft_cdtv.txt`末尾の実装を土台とし、darepediaでは記事末尾に次の3種を`@graph`でまとめる（放送番組の実況記事ではないため`BroadcastEvent`/`ItemList`は不要）。
 
+**2026-08-27改訂**：`<script type="application/ld+json">`の直書きは、WordPress 7.0以降のCustom HTMLブロック仕様変更により編集画面での保存時に消失することがshira_note側の検証で判明した（darepedia.comはshira-treat.comと同一テーマ・プラグイン構成のため同じ問題が起こりうる）。そのため`[jsonld]`ショートコード形式で埋め込む。
+
 ```
-<!-- wp:html -->
+<!-- wp:shortcode -->
 <!-- MANUAL_JSONLD -->
-<script type="application/ld+json">
+[jsonld]
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -152,9 +154,21 @@ powershell -ExecutionPolicy Bypass -File "C:\Users\PC_User\claude project\blogs\
     { "@type": "BreadcrumbList", ... }
   ]
 }
-</script>
-<!-- /wp:html -->
+[/jsonld]
+<!-- /wp:shortcode -->
 ```
+
+**darepedia.com側の対応必須事項**：この形式が機能するには、darepedia.comのWordPress（`functions.php`）に以下のショートコードが登録されている必要がある（shira-treat.comで動作検証済みのコードと同一。サイト固有の値は含まれないためそのまま流用可）。未登録の場合は`[jsonld]...[/jsonld]`がただのテキストとして表示され、JSON-LDとして機能しない。
+
+```php
+add_shortcode('jsonld', function ($atts, $content = '') {
+    $content = str_replace(array('<br />', '<br/>', '<br>'), '', $content);
+    $content = str_replace(array('<p>', '</p>'), '', $content);
+    return '<script type="application/ld+json">' . trim($content) . '</script>';
+});
+```
+
+`<!-- MANUAL_JSONLD -->`は単なるGrep目印ではなく、shira-treat.com側ではAFFINGERテーマ自動生成の構造化データを抑止する`strpos()`判定にも使われている（`functions.php`側）。darepedia.comのfunctions.phpに同種の判定コードがあるかは未確認のため、AFFINGER側の自動構造化データと重複していないか、公開後にGoogleリッチリザルトテストで確認すること。
 
 **サイト定数（毎回リサーチし直さず、この値を使う。2026-08-27にサイト本体から確認済み）：**
 
