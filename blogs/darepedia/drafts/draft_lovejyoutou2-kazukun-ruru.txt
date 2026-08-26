@@ -1,0 +1,479 @@
+<!-- wp:paragraph -->
+タイトル：「ラブ上等2」のかずくんとるるは付き合ってる？急接近のきっかけを解説
+メタディスクリプション（70字）：
+Netflix『ラブ上等2』で急接近したかずくんとるる。1泊2日のお泊まりデートで気持ちが変化した経緯と、るる本人が語った本音を整理します。
+スラッグ：lovejyoutou2-kazukun-ruru
+アイキャッチ画像：https://darepedia.com/wp-content/uploads/2026/08/image-2.webp
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][title][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Netflix『ラブ上等2』で、かずくんとるるの関係が急に近づいて話題になっていますよね。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>きっかけは1泊2日のお泊まりデートだったようで、気持ちが変わっていく様子は番組でもるる本人のインタビューでも語られていました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<style>
+  .summary-card{
+    background:linear-gradient(180deg,#eff6ff 0%, #ffffff 60%);
+    color:#0f172a;
+    border:1px solid #dbeafe;
+    border-radius:18px;
+    padding:14px 16px;
+    margin:16px 0;
+    box-shadow:0 10px 26px rgba(2,6,23,.06);
+    width:100%;
+    box-sizing:border-box;
+  }
+  .summary-top{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    padding-bottom:10px;
+    margin-bottom:6px;
+    border-bottom:1px solid #dbeafe;
+  }
+  .summary-title{
+    font-size:15px;
+    font-weight:900;
+    margin:0;
+  }
+  .summary-row{
+    display:grid;
+    grid-template-columns:110px 1fr;
+    gap:10px;
+    padding:8px 0;
+    border-bottom:1px solid #dbeafe;
+  }
+  .summary-row:last-child{border-bottom:none}
+  .summary-k span{
+    font-weight:900;
+    font-size:13px;
+    padding:3px 8px;
+    border-radius:999px;
+    background:rgba(37,99,235,.08);
+    border:1px solid rgba(37,99,235,.18);
+    white-space:nowrap;
+  }
+  .summary-v{font-size:13.5px;line-height:1.6}
+
+  .info-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:10px;
+    margin:14px 0;
+    width:100%;
+    box-sizing:border-box;
+  }
+  .info-card{
+    background:#f7f9ff;
+    border:1px solid rgba(0,51,102,.10);
+    border-radius:12px;
+    padding:11px;
+    box-shadow:0 2px 6px rgba(0,0,0,.06);
+    box-sizing:border-box;
+  }
+  .info-card p.info-label{margin:0 0 4px;font-size:12.5px;font-weight:800;color:#1f2750;}
+  .info-card p.info-body{margin:0;font-size:12.5px;line-height:1.6;color:#333;}
+
+  .quote-card{
+    background:linear-gradient(135deg,#fff9f0 0%,#ffffff 70%);
+    border:1px solid rgba(217,119,6,.20);
+    border-left:5px solid rgba(217,119,6,.55);
+    border-radius:12px;
+    padding:14px 16px;
+    margin:14px 0;
+    width:100%;
+    box-sizing:border-box;
+    box-shadow:0 6px 16px rgba(15,37,90,0.06);
+  }
+  .quote-card p.quote-text{margin:0 0 6px;font-size:14px;line-height:1.7;color:#3f2d00;font-weight:700;}
+  .quote-card p.quote-who{margin:0;font-size:12px;color:#7a5a1a;}
+
+  .profile-table{
+    width:100%;
+    border-collapse:collapse;
+    margin:14px 0;
+    font-size:13px;
+  }
+  .profile-table th,.profile-table td{
+    border:1px solid #dbeafe;
+    padding:9px 10px;
+    text-align:left;
+    vertical-align:top;
+  }
+  .profile-table th{
+    background:#f7f9ff;
+    width:34%;
+    font-weight:800;
+    color:#1f2750;
+    white-space:nowrap;
+  }
+
+  .check-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:10px;
+    margin:14px 0;
+    width:100%;
+    box-sizing:border-box;
+  }
+  .check-card{
+    border-radius:12px;
+    padding:11px 12px;
+    box-sizing:border-box;
+    border-left:4px solid;
+  }
+  .check-card.yes{
+    background:linear-gradient(135deg,#f0fdf4 0%,#ffffff 70%);
+    border-left-color:#16a34a;
+  }
+  .check-card.no{
+    background:linear-gradient(135deg,#fef2f2 0%,#ffffff 70%);
+    border-left-color:#dc2626;
+  }
+  .check-card p.check-label{margin:0 0 4px;font-size:12.5px;font-weight:800;color:#1f2750;}
+  .check-card p.check-body{margin:0;font-size:12.5px;line-height:1.6;color:#333;}
+</style>
+
+<aside class="summary-card" role="region" aria-label="かずくんとるるの関係の要約">
+  <div class="summary-top">
+    <p class="summary-title">かずくんとるるの関係を整理</p>
+  </div>
+  <div class="summary-row">
+    <div class="summary-k"><span>今どうなってる？</span></div>
+    <p class="summary-v">番組内ではお互いの気持ちが通じ合う様子が描かれていますが、交際の公式発表はまだ確認できていません。</p>
+  </div>
+  <div class="summary-row">
+    <div class="summary-k"><span>きっかけは？</span></div>
+    <p class="summary-v">1泊2日のお泊まりデートで気持ちが大きく変わったと、るる本人が話していました。</p>
+  </div>
+  <div class="summary-row">
+    <div class="summary-k"><span>決め手は？</span></div>
+    <p class="summary-v">るるが「現実味があった」と話していた、東京での距離の近さや人柄が決め手だったみたいです。</p>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][mokujimae][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>この記事では、二人が近づいたきっかけとるる本人が明かした本音を整理していきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>かずくんとるるは付き合ってる？結論を整理</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/DaP0yqRGAyr/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px auto; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/DaP0yqRGAyr/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">この投稿をInstagramで見る</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/DaP0yqRGAyr/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">緋咲 一馬(@kazumasks)がシェアした投稿</a></p></div></blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>結論から言うと、番組の中でかずくんとるるの気持ちが通じ合っていく様子は何度も描かれていて、るる本人も後のインタビューで気持ちの変化を素直に話していました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>ただ、二人が交際を公式に発表したという話はまだ出てきていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>番組本編で描かれた二人のやり取りと、るる本人が取材に答えて語った内容は、少し性質が違います。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>番組の演出で見えている部分と、本人が実際に語った言葉は分けて捉えたほうが、状況をつかみやすいはずです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="check-grid" role="region" aria-label="かずくんとるるの関係で分かっていること・分かっていないこと">
+  <div class="check-card yes">
+    <p class="check-label">分かっていること</p>
+    <p class="check-body">番組でも、るる本人のインタビューでも、気持ちが通じ合っている様子が語られていること。</p>
+  </div>
+  <div class="check-card no">
+    <p class="check-label">分かっていないこと</p>
+    <p class="check-body">交際を公式に発表したという話。本人からも所属先からも、正式な発信はまだ見当たりません。</p>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>かずくんとるるが急接近したきっかけ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>二人の関係が大きく動いたきっかけは、番組内で行われたお泊まりデートの権利を懸けた対決だったようです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>お泊まりデートをかけた対決でかずくんが勝利</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>番組の8〜10話ダイジェストによると、お泊まりデートの権利を懸けた対決でかずくんが勝利し、指名した相手と1泊2日を過ごしたそうです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>この記事内では相手の名前が明記されていませんが、別のインタビュー記事ではこの相手をるるだと紹介されていて、複数の記事を照らし合わせる限り、その相手はるるだったと考えてよさそうです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>生い立ちや孤独を語り合い距離を縮めた</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>この1泊2日の間に、二人は生い立ちや孤独といった深い話を打ち明け合って、急速に距離を縮めていったようです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="quote-card" role="region" aria-label="るる本人のコメント">
+  <p class="quote-text">「あの1泊で、こんなに気持ち変えることってできるんだって思いました」</p>
+  <p class="quote-who">るる本人のインタビューより</p>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>るる本人も後のインタビューでこう振り返っていて、この1泊2日が関係を大きく動かしたきっかけだったのは間違いなさそうです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>るる本人が語った「かずくんを選んだ理由」</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>モデルプレスに掲載されたるる本人へのインタビューでは、かずくんを選んだ理由や心境の変化について、本人の言葉でかなり具体的に語られていました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>「現実味があった」LEOとの片思いとの違い</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>るるは番組内で最初はLEOに気持ちを寄せていましたが、京都在住のLEOとは「すぐの話ではない」将来への不安があったと明かしていました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>一方でかずくんについては「東京でも会えるし」「顔もイケメンだし、レディーファーストなところにも惹かれました」と話していたのが印象的です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="info-grid" role="region" aria-label="LEOとかずくんへの気持ちの比較">
+  <div class="info-card">
+    <p class="info-label">LEOへの気持ち</p>
+    <p class="info-body">一途に想いを寄せていたが、京都在住で将来への不安があった。</p>
+  </div>
+  <div class="info-card">
+    <p class="info-label">かずくんへの気持ち</p>
+    <p class="info-body">東京で会える距離感、レディーファーストな一面に惹かれたと語っている。</p>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>るるはこの違いについて「現実味があるなというのがありました」と話していて、その「現実味」が決め手になったようです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>「前日までは結構悩んでた」告白当日の心境</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>最終的な告白の場面についても、るるは飾らずに振り返っていました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="quote-card" role="region" aria-label="るる本人のコメント">
+  <p class="quote-text">「告白の前日までは結構悩んでたんですけど、卒業式の日にはもう気持ちも固まっていました」</p>
+  <p class="quote-who">るる本人のインタビューより</p>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>直前まで迷いがあったことを隠さずに話しているところに、素直さが伝わってきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>『ラブ上等2』かずくんのプロフィール</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>るるとの関係を知る前に、かずくんがどんな人なのかまずは基本プロフィールから紹介しますね。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/DXtZwPuickk/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px auto; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/DXtZwPuickk/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">この投稿をInstagramで見る</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/DXtZwPuickk/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">緋咲 一馬(@kazumasks)がシェアした投稿</a></p></div></blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<table class="profile-table">
+  <tr><th>本名</th><td>塩田一馬（しおた かずま）</td></tr>
+  <tr><th>ホストとしての源氏名</th><td>緋咲一馬</td></tr>
+  <tr><th>年齢</th><td>29歳（本人インタビュー時点）</td></tr>
+  <tr><th>出身</th><td>富山県</td></tr>
+  <tr><th>職業</th><td>ホストクラブ経営</td></tr>
+  <tr><th>番組参加のきっかけ</th><td>夜職以外の人と恋愛した経験がほとんどなく、過去に結婚が続かなかった経験から、これまでと違うタイプの人と出会いたいと語っている</td></tr>
+</table>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>よくある質問</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3>かずくんとるるは今も交際中ですか？</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>番組内ではお互いの気持ちが通じ合う様子が描かれていますが、交際を公式に発表したという話はまだ出ていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>本人たちから何か発信があれば、このページも随時更新していきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>るるのプロフィールは？</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>るるは『ラブ上等2』に出演する女性メンバーの一人です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>詳しいプロフィールは今のところあまり公表されておらず、分かっているのは番組内での言動と、インタビューで語られた内容くらいです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>かずくんの本名は？</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>本名は塩田一馬さんです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>ホストとしての源氏名は緋咲一馬で、番組内では「かずくん」の愛称で呼ばれていました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>『ラブ上等2』で描かれたかずくんとるるの急接近は、1泊2日のお泊まりデートが大きな転機になったようです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>るる本人も、東京での距離の近さやかずくんの人柄が決め手になったと、飾らない言葉で語っていました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>交際の公式発表はまだ確認できていませんが、この先二人からどんな発信があるのか、気になるところです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<!-- MANUAL_JSONLD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://darepedia.com/lovejyoutou2-kazukun-ruru/#article",
+      "url": "https://darepedia.com/lovejyoutou2-kazukun-ruru/",
+      "headline": "「ラブ上等2」のかずくんとるるは付き合ってる？急接近のきっかけを解説",
+      "description": "Netflix『ラブ上等2』で急接近したかずくんとるる。1泊2日のお泊まりデートで気持ちが変化した経緯と、るる本人が語った本音を整理します。",
+      "articleSection": "芸能人",
+      "keywords": ["ラブ上等2", "かずくん", "るる", "塩田一馬", "緋咲一馬", "かずくん るる 付き合ってる"],
+      "datePublished": "2026-08-27T12:00:00+09:00",
+      "dateModified": "2026-08-27T12:00:00+09:00",
+      "inLanguage": "ja",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://darepedia.com/lovejyoutou2-kazukun-ruru/#image",
+        "url": "https://darepedia.com/wp-content/uploads/2026/08/image-2.webp",
+        "thumbnailUrl": "https://darepedia.com/wp-content/uploads/2026/08/image-2.webp"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "YU-i",
+        "url": "https://darepedia.com/operator-information/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "だれペディア",
+        "url": "https://darepedia.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://darepedia.com/wp-content/uploads/2025/08/darepedia.webp"
+        }
+      },
+      "about": {
+        "@type": "Thing",
+        "name": "『ラブ上等2』",
+        "sameAs": ["https://www.netflix.com/jp/title/81769466"]
+      },
+      "mentions": [
+        { "@type": "Person", "name": "かずくん（塩田一馬）" },
+        { "@type": "Person", "name": "るる" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://darepedia.com/lovejyoutou2-kazukun-ruru/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "かずくんとるるは今も交際中ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "番組内ではお互いの気持ちが通じ合う様子が描かれていますが、交際を公式に発表したという話はまだ出ていません。本人たちから何か発信があれば、このページも随時更新していきます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "るるのプロフィールは？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "るるは『ラブ上等2』に出演する女性メンバーの一人です。詳しいプロフィールは今のところあまり公表されておらず、分かっているのは番組内での言動と、インタビューで語られた内容くらいです。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "かずくんの本名は？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "本名は塩田一馬さんです。ホストとしての源氏名は緋咲一馬で、番組内では「かずくん」の愛称で呼ばれていました。"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://darepedia.com/lovejyoutou2-kazukun-ruru/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://darepedia.com/" },
+        { "@type": "ListItem", "position": 2, "name": "芸能人", "item": "https://darepedia.com/category/celebrity/" },
+        { "@type": "ListItem", "position": 3, "name": "「ラブ上等2」のかずくんとるるは付き合ってる？急接近のきっかけを解説", "item": "https://darepedia.com/lovejyoutou2-kazukun-ruru/" }
+      ]
+    }
+  ]
+}
+</script>
+<!-- /wp:html -->

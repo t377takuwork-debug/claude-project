@@ -83,6 +83,7 @@ claude project/
 | cf_room リライト | `blogs/cf_room/CLAUDE.md` |
 | vtuber_log 記事新規作成（画像自動配置） | `/vtuber-article` スキルを起動 |
 | vtuber_log リライト | `blogs/vtuber_log/CLAUDE.md` |
+| darepedia 記事新規作成 | `/darepedia-article` スキルを起動 |
 | Note記事生成（s4lv/MBTICODE） | `brands/CLAUDE.md` |
 | X・Threads投稿生成 | `brands/CLAUDE.md` |
 | junk_juice Note記事（テーマ・タイトル） | `/junk-theme` スキルを起動 |

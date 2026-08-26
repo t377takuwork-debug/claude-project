@@ -44,14 +44,13 @@
 | I11 | cf_room 記事新規作成・リライト | 新規は `/cf-article`／リライトは `blogs/cf_room/CLAUDE.md`（工程地図: `rules/article_pipeline.md`） | drafts/保存＋`qa_draft.ps1` ERROR 0件＋rewrite_log追記 | `blogs/cf_room/tools/qa_draft.ps1`（機械） |
 | I12 | vtuber_log 記事新規作成・リライト | 新規は `/vtuber-article`／リライトは `blogs/vtuber_log/CLAUDE.md`（工程地図: `rules/article_pipeline.md`） | drafts/保存＋`qa_draft.ps1` ERROR 0件＋rewrite_log追記 | `blogs/vtuber_log/tools/qa_draft.ps1`（機械） |
 | I13 | 音声ジャーナル資産化（文字起こし→整形・分類・分析） | `/journal`（詳細: `journals/CLAUDE.md`） | `journals/daily/`にraw＋整形済み保存済み＋該当インデックス（tasks/ideas/insights/content_seeds/themes）へ反映済み＋方針バッティング検知時はユーザー確認済み | － |
+| I14 | darepedia 記事新規作成 | `/darepedia-article`（工程地図: `blogs/darepedia/rules/article_pipeline.md`） | `drafts/draft_{スラッグ}.txt`保存＋`qa_draft.ps1` ERROR 0件＋`internal_links.md`・`publish_log.md`追記 | `blogs/darepedia/tools/qa_draft.ps1`（機械） |
 
 ### 休眠・準備中
 
-| # | 対象 | 状態 |
-|---|---|---|
-| S1 | `blogs/darepedia` | CLAUDE.mdはSEO参照表のみ（.claudeignoreで除外中）。稼働時は cf_room 構造（rules/＋tools/＋専用スキル＋機械QA）を横展開する |
+（現在該当なし）
 
-※cf_room は2026-07-12に稼働開始（→I11）、vtuber_log は2026-07-12にcf_room構造を横展開して稼働開始（→I12）。
+※cf_room は2026-07-12に稼働開始（→I11）、vtuber_log は2026-07-12にcf_room構造を横展開して稼働開始（→I12）、darepedia は2026-08-26にcf_room構造を土台に（画像運用なし・実HTML出力の簡易版として）稼働開始（→I14）。
 
 ---
 
