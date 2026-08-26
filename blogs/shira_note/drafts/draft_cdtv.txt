@@ -867,9 +867,9 @@ BE:FIRST「Missing」（テレビ初披露）＋サプライズ「ALL DAY」/ M!
 </div>
 <!-- /wp:html -->
 
-<!-- wp:html -->
+<!-- wp:shortcode -->
 <!-- MANUAL_JSONLD -->
-<script type="application/ld+json">
+[jsonld]
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -1028,5 +1028,5 @@ BE:FIRST「Missing」（テレビ初披露）＋サプライズ「ALL DAY」/ M!
     }
   ]
 }
-</script>
-<!-- /wp:html -->
+[/jsonld]
+<!-- /wp:shortcode -->

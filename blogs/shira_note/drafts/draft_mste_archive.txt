@@ -978,9 +978,9 @@ overflow: hidden;
 </div>
 <!-- /wp:html -->
 
-<!-- wp:html -->
+<!-- wp:shortcode -->
 <!-- MANUAL_JSONLD -->
-<script type="application/ld+json">
+[jsonld]
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -1124,5 +1124,5 @@ overflow: hidden;
     }
   ]
 }
-</script>
-<!-- /wp:html -->
+[/jsonld]
+<!-- /wp:shortcode -->

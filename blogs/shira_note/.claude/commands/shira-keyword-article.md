@@ -156,7 +156,7 @@ Step 3・4で確定したタイトル・構成の時点で、本文（Step 5）�
 本文完成後、「まとめ」セクションより下・ファイル末尾に配置する。`draft_dancebattle.txt`で確立した形式を標準とする。
 
 **固定要件**
-- `<!-- wp:html -->` で囲み、内部に `<!-- MANUAL_JSONLD -->` → `<script type="application/ld+json">` → JSON（`@graph`形式）→ `</script>` → `<!-- /wp:html -->`
+- `<!-- wp:shortcode -->` で囲み、内部に `<!-- MANUAL_JSONLD -->` → `[jsonld]` → JSON（`@graph`形式）→ `[/jsonld]` → `<!-- /wp:shortcode -->`（`<script>`直書きはWP 7.0以降のCustom HTMLブロック仕様変更で保存時に消えるため使用不可。functions.php側の`[jsonld]`ショートコードが実際の`<script type="application/ld+json">`へ変換する）
 - `@graph`で全スキーマを統合し、日付はISO8601（JST +09:00）
 - `@id`は `https://shira-treat.com/{スラッグ}/#post` のようにセクションIDで統一
 - `keywords`は配列。画像は`width:1200, height:675`で統一し`thumbnailUrl`も同一URL

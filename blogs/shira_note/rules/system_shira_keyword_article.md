@@ -17,7 +17,7 @@ metadata:
 
 **Step0資料インプット確認フェーズ**（2026-07-03追加）: WebSearchは検索結果の要約スニペットしか取れず、公式サイト詳細ページの粒度細かい情報（事務所別メンバー個別名等）をほぼ拾えないという精度限界が判明（「音楽の日 ダンスバトル」事例で、WebSearchでは主要事実しか拾えず、ユーザーが独自調査した公式サイト全文情報を提供して初めて正確なチーム編成が書けた）。このためStep1でWebSearchを走らせる前に、必ずユーザーに「一次資料はお持ちですか」と確認するフェーズをStep0として新設。資料が無い場合のみWebSearchに進むが、個別名等の細かい粒度は限界がある旨を先に伝える。
 
-**Step6構造化データ生成フェーズ**（2026-07-03追加、出所は`draft_dancebattle.txt`で確立した形式）: 本文末尾に`<!-- wp:html --><!-- MANUAL_JSONLD --><script type="application/ld+json">`形式で`@graph`統合のJSON-LDを配置。固定データ：publisher/author共に"Shira Notes"（sameAs `x.com/ShiraNotes_`、operator-information URL）。画像は1200×675固定。`about`は必ず`Thing`型（Event/Product/Person禁止）。`BroadcastEvent`は`location`未公表時`VirtualLocation`で代替、`performer`は本文記載分のみ反映（推測禁止）。`BreadcrumbList`はカテゴリURL未確定なら「ホーム→記事→本記事」の3階層（`draft_ongakunohi.txt`と同じ簡易パターン）。メタディスクリプションと`description`の一字一句一致が`qa_draft.py`のERROR対象。
+**Step6構造化データ生成フェーズ**（2026-07-03追加、出所は`draft_dancebattle.txt`で確立した形式）: 本文末尾に`<!-- wp:shortcode --><!-- MANUAL_JSONLD -->[jsonld]`形式（2026-08-27〜。`<script>`直書きはWP 7.0以降のCustom HTMLブロック仕様変更で保存時に消えるため使用不可。functions.php側の`[jsonld]`ショートコードが実際の`<script type="application/ld+json">`へ変換する）で`@graph`統合のJSON-LDを配置。固定データ：publisher/author共に"Shira Notes"（sameAs `x.com/ShiraNotes_`、operator-information URL）。画像は1200×675固定。`about`は必ず`Thing`型（Event/Product/Person禁止）。`BroadcastEvent`は`location`未公表時`VirtualLocation`で代替、`performer`は本文記載分のみ反映（推測禁止）。`BreadcrumbList`はカテゴリURL未確定なら「ホーム→記事→本記事」の3階層（`draft_ongakunohi.txt`と同じ簡易パターン）。メタディスクリプションと`description`の一字一句一致が`qa_draft.py`のERROR対象。
 
 **Step3タイトル手法の出所**: `c:\Users\PC_User\OneDrive\デスクトップ\音楽プロンプト\タイトル.txt`（2026-07-03、ユーザーが持ち込んだ既存プロンプトを恒久的にスキルへ統合）。10パターン＝汎用/CTR特化/AI検索向け質問型/速報性/総まとめ/Discover向け/企画内容推し型/出演者ファン向け/ライト層向け/ニッチ検索拾い型。タイトル長32〜40文字目安、記号は10本中4本以上、主観的感想・スラング・上から目線表現は禁止。
 

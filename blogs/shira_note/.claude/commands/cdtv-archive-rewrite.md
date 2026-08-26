@@ -52,7 +52,7 @@ CDTVライブ！ライブ！の月次アーカイブ記事を指定月の内容�
 | H3見出し | `<!-- wp:heading {"level":3} --><h3>見出し</h3><!-- /wp:heading -->` |
 | HTML全ブロック（aside・table・div等） | `<!-- wp:html -->...<!-- /wp:html -->` |
 | 画像 | `<!-- wp:image {"align":"center"} -->...<!-- /wp:image -->` |
-| JSON-LD | `<!-- wp:html --><!-- MANUAL_JSONLD_ARCHIVE --><script>...</script><!-- /wp:html -->` |
+| JSON-LD | `<!-- wp:shortcode --><!-- MANUAL_JSONLD_ARCHIVE -->[jsonld]...[/jsonld]<!-- /wp:shortcode -->`（`<script>`直書きはWP 7.0以降のCustom HTMLブロック仕様変更で保存時に消えるため使用不可） |
 | **ショートコード（独立必須）** | `<!-- wp:paragraph --><p>[nopc][title][/nopc]</p><!-- /wp:paragraph -->` |
 
 **モデルファイル**: `draft_cdtv_archive.txt` が正規の出力形式。形式に迷った場合はこのファイルを参照する。

@@ -231,9 +231,9 @@ def strip_jsonld_regions(text: str) -> tuple[str, list[tuple[int, int]]]:
     regions = []
     start = None
     for i, line in enumerate(lines):
-        if 'application/ld+json' in line:
+        if '[jsonld]' in line:
             start = i
-        elif start is not None and "</script>" in line:
+        elif start is not None and '[/jsonld]' in line:
             regions.append((start, i))
             start = None
     return text, regions
@@ -341,7 +341,7 @@ def check_jsonld(text: str, rep: Report) -> list[str]:
     """JSON-LDをパースし、descriptionのリストを返す"""
     descriptions = []
     for m in re.finditer(
-        r'<script type="application/ld\+json">\s*(.*?)\s*</script>', text, re.DOTALL
+        r'\[jsonld\]\s*(.*?)\s*\[/jsonld\]', text, re.DOTALL
     ):
         raw = m.group(1)
         lineno = text[:m.start()].count("\n") + 1
@@ -376,7 +376,7 @@ def check_jsonld_canonical_url(text: str, filename: str, rep: Report):
     self_base = self_url.rstrip("/")
 
     for m in re.finditer(
-        r'<script type="application/ld\+json">\s*(.*?)\s*</script>', text, re.DOTALL
+        r'\[jsonld\]\s*(.*?)\s*\[/jsonld\]', text, re.DOTALL
     ):
         lineno = text[:m.start()].count("\n") + 1
         try:
@@ -476,7 +476,7 @@ def extract_jsonld_faq(text: str) -> list[tuple[str, str]]:
                 walk(item)
 
     for m in re.finditer(
-        r'<script type="application/ld\+json">\s*(.*?)\s*</script>', text, re.DOTALL
+        r'\[jsonld\]\s*(.*?)\s*\[/jsonld\]', text, re.DOTALL
     ):
         try:
             data = json.loads(m.group(1))

@@ -418,9 +418,9 @@ NEWS「変身」Blu-ray/DVDは9月15日発売。初回盤・通常盤の特典�
 <p>特典映像までしっかり楽しみたい方には初回盤を、ライブ本編とMC集があれば満足という方には通常盤を選んでみてください。</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:html -->
+<!-- wp:shortcode -->
 <!-- MANUAL_JSONLD -->
-<script type="application/ld+json">
+[jsonld]
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -571,5 +571,5 @@ NEWS「変身」Blu-ray/DVDは9月15日発売。初回盤・通常盤の特典�
     }
   ]
 }
-</script>
-<!-- /wp:html -->
+[/jsonld]
+<!-- /wp:shortcode -->

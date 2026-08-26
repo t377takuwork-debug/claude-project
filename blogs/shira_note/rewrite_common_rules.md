@@ -79,6 +79,18 @@
   - 音楽の日等、数時間に及ぶ長尺タイムテーブル記事や広告差し込み位置を増やしたい場合は`[nopc][originalsc][/nopc]`を追加でもう1箇所使ってよい。配置個数・位置は記事のボリュームに応じて調整する（全番組共通仕様）
   - **同じショートコードを連続配置してはいけない**（`[nopc][originalsc][/nopc]`のブロック直後に別の`[nopc][originalsc][/nopc]`ブロックを続けて置く等はNG。間に本文パラグラフ等を挟むこと）。**`qa_draft.py`が機械検知する**（`check_shortcode_adjacency`。間に他のwp:html/見出し等の実質コンテンツがあれば合格、blank行とwp:paragraphコメントのみの隙間はERROR）
 
+- **JSON-LDは`<script>`直書きではなく`[jsonld]`ショートコードで囲む**（2026-08-27確定。WordPress 7.0以降、Custom HTMLブロックがHTML/CSS/JSを分離して扱うようになり、`<!-- wp:html -->`内に`<script type="application/ld+json">`を直書きすると保存時に消失する実例が確認された。`unfiltered_html`権限・サーバー側WAF・セキュリティプラグインいずれも原因ではなく、ブロックエディタ自体の仕様変更が原因）。
+  ```
+  <!-- wp:shortcode -->
+  <!-- MANUAL_JSONLD -->
+  [jsonld]
+  { ...JSON本体（@graph形式）... }
+  [/jsonld]
+  <!-- /wp:shortcode -->
+  ```
+  - WordPress側（functions.php）に`[jsonld]`ショートコードを登録済み。`wpautop`が`do_shortcode`より先に走る仕様のため、ショートコード内の改行に`<br>`/`<p>`が混入する問題があり、ショートコード側でこれらを除去してから`<script type="application/ld+json">`に変換する実装になっている（functions.phpはリポジトリ外・WordPress本番サーバー側）。
+  - **`<!-- MANUAL_JSONLD -->`（アーカイブ系は`<!-- MANUAL_JSONLD_ARCHIVE -->`）は単なるGrep目印ではなく、functions.php側で`strpos($post->post_content, '<!-- MANUAL_JSONLD -->')`により実際に判定される機能的マーカー**。存在するとAFFINGERテーマ自身の自動構造化データ出力（WebSite/記事/プロフィールページ/コメントグラフ）を止める。削除すると手動JSON-LDとAFFINGER自動出力が二重に出力されるため、必ず`[jsonld]`ブロックと同じ`wp:shortcode`ブロック内に残すこと（コメント単体だけの独立ブロックは「空」と判定され保存時に消えるため不可）。
+
 ## 5. HTML実装ルール
 
 - **インラインスタイル付き`<ul>`は使わず`<div>`で書く**（WPテーマCSSがfont-size等を上書きするため）

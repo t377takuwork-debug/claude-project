@@ -277,7 +277,7 @@ H2直下の導入段落（`<!-- wp:paragraph -->`）は放送前でも今年の�
 
 ### 12. 構造化データ（JSON-LD）の更新
 
-JSON-LDはファイル末尾の `<!-- MANUAL_JSONLD -->` で始まる `<!-- wp:html -->` ブロック内。更新フィールドの値はcontextから直接構築できるため、**ReadなしでEditを実行してよい**（Grepで行番号を得たらそのままEditへ進む）。
+JSON-LDはファイル末尾の `<!-- MANUAL_JSONLD -->` で始まる `<!-- wp:shortcode -->` ブロック内（`[jsonld]...[/jsonld]`。`<script>`直書きはWP 7.0以降のCustom HTMLブロック仕様変更で保存時に消えるため使用不可）。更新フィールドの値はcontextから直接構築できるため、**ReadなしでEditを実行してよい**（Grepで行番号を得たらそのままEditへ進む）。
 
 #### 毎回更新する箇所
 

@@ -318,15 +318,16 @@ Q1〜Q3の質問・回答を今年の情報で更新する。
 JSON-LDは常にファイル末尾の固定ブロック。構造は以下の通り（この順序を崩さない）：
 
 ```
-<!-- wp:html -->
+<!-- wp:shortcode -->
 <!-- MANUAL_JSONLD -->
-<script type="application/ld+json">
+[jsonld]
 ...
-</script>
-<!-- /wp:html -->
+[/jsonld]
+<!-- /wp:shortcode -->
 ```
 
-`<!-- MANUAL_JSONLD -->` マーカーは `<!-- wp:html -->` の内側に配置する。更新フィールドの値はcontextから直接構築できるため、**ReadなしでEditを実行してよい**（Grepで行番号を得たらそのままEditへ進む）。
+`<script>`直書きはWP 7.0以降のCustom HTMLブロック仕様変更で保存時に消えるため使用不可。functions.php側の`[jsonld]`ショートコードが実際の`<script type="application/ld+json">`へ変換する。
+`<!-- MANUAL_JSONLD -->` マーカーは `<!-- wp:shortcode -->` の内側に配置する。更新フィールドの値はcontextから直接構築できるため、**ReadなしでEditを実行してよい**（Grepで行番号を得たらそのままEditへ進む）。
 
 #### 毎回更新する箇所
 

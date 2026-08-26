@@ -51,9 +51,9 @@
 
 ---
 
-<!-- wp:html -->
+<!-- wp:shortcode -->
 <!-- MANUAL_JSONLD_ARCHIVE -->
-<script type="application/ld+json">
+[jsonld]
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -126,5 +126,5 @@
     }
   ]
 }
-</script>
-<!-- /wp:html -->
+[/jsonld]
+<!-- /wp:shortcode -->

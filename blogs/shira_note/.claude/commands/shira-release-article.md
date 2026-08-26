@@ -155,7 +155,7 @@ python tools/generate_af_link.py amazon    "{amzn.to短縮URL}" "{リンクテ�
 
 ## Step 7. 構造化データ生成（JSON-LD）
 
-`<!-- wp:html --><!-- MANUAL_JSONLD --><script type="application/ld+json">`形式、`@graph`で以下を統合する。
+`<!-- wp:shortcode --><!-- MANUAL_JSONLD -->[jsonld]`形式（`<script>`直書きはWP 7.0以降のCustom HTMLブロック仕様変更で保存時に消えるため使用不可。functions.php側の`[jsonld]`ショートコードが実際の`<script type="application/ld+json">`へ変換する）、`@graph`で以下を統合する。
 
 1. `BlogPosting`（必須）：headline/description/keywords/日付/image/author/publisher/articleSection/about（`Thing`型）/hasPart
 2. `Product`：`brand`（`MusicGroup`または`Person`）、`offers`は`AggregateOffer`（`lowPrice`/`highPrice`/`priceCurrency`:"JPY"/`availability`：発売日が未来なら`PreOrder`、発売済みなら`InStock`）
