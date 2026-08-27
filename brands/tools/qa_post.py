@@ -541,11 +541,45 @@ def detect(path):
     return account, platform
 
 
+def _month_day(s):
+    """'M/D' or 'YYYY-MM-DD' -> (month, day)."""
+    s = s.strip()
+    parts = s.split("-") if "-" in s else s.split("/")
+    return (int(parts[-2]), int(parts[-1]))
+
+
+def filter_since(posts, since):
+    """Keep only post blocks whose header date is on/after `since`.
+
+    Post headers carry no year (just 'M/D'); the file never spans more than a few
+    months, so a >6-month gap between the post month and the --since month is read
+    as a year boundary. Lets `qa_post.py posts_threads.txt --since 2026-08-29`
+    check just the new batch instead of drowning in WARNs from pre-rule old posts.
+    """
+    sm, sd = _month_day(since)
+    out = []
+    for p in posts:
+        if not p["date"]:
+            continue
+        pm, pd = _month_day(p["date"])
+        if sm - pm > 6:
+            keep = True          # post is early next year
+        elif pm - sm > 6:
+            keep = False         # post is late previous year
+        else:
+            keep = (pm, pd) >= (sm, sd)
+        if keep:
+            out.append(p)
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("file")
     ap.add_argument("--account", choices=["mbticode", "s4lv"])
     ap.add_argument("--platform", choices=["x", "threads"])
+    ap.add_argument("--since", metavar="M/D|YYYY-MM-DD",
+                    help="このヘッダー日付以降の投稿ブロックだけを検品する（旧投稿のWARN混入を避ける）")
     args = ap.parse_args()
 
     auto_acc, auto_pf = detect(args.file)
@@ -562,7 +596,15 @@ def main():
         print("[ERROR] 投稿ブロック（【ヘッダー】＋----区切り）が見つかりません。")
         sys.exit(2)
 
-    print(f"=== qa_post: {args.file} / account={account} / platform={platform} / {len(posts)}ブロック ===")
+    since_note = ""
+    if args.since:
+        posts = filter_since(posts, args.since)
+        since_note = f" / since={args.since}"
+        if not posts:
+            print(f"[INFO] --since {args.since} 以降の投稿ブロックがありません。")
+            sys.exit(0)
+
+    print(f"=== qa_post: {args.file} / account={account} / platform={platform}{since_note} / {len(posts)}ブロック ===")
     findings = []
     for p in posts:
         if account == "mbticode":

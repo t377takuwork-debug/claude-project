@@ -81,7 +81,7 @@ X本文投稿は1日3本（週21本・時間帯08:00/12:00/22:00）を維持。*
 **Step 3. ユーザーOK後 → Threads本文を内部生成し検品する（チャット出力しない）**
 検品は次の2層。**役割を重複させない**：
 - **LLM判断チェック**：発信前チェックリスト（判断項目のみ・下記セクション）＋ `/quality-guardrail` Step 2〜2.5（persona文体・同日角度重複）。機械化済みの表現・記号・字数チェックをLLMが再走査しない
-- **機械検品（保存条件）**：`python brands/tools/qa_post.py <postsファイル>` で **ERROR 0件・exit=0**。WARNは削除・自己判断で潰さず報告に全文転記する（人間が判断する）
+- **機械検品（保存条件）**：バッチを一時ファイル（例 `posts/_batch_MMDD_draft.txt`）に書き出し `python brands/tools/qa_post.py <一時ファイル>` で **ERROR 0件・exit=0**。保存後に `posts_threads.txt` 全体で再検品する場合は `--since <バッチ開始日>` を付けて対象バッチだけに絞る（旧投稿のWARN混入を避ける）。WARNは削除・自己判断で潰さず報告に全文転記する（人間が判断する）
 - 問題がある場合のみチャットで報告する（修正は同一指摘2回まで）
 
 **Step 4. 保存（追記）**
@@ -92,7 +92,7 @@ X本文投稿は1日3本（週21本・時間帯08:00/12:00/22:00）を維持。*
 - 確定前の壁打ちが必要な場合（新しい型の試験・戦略変更直後など）は `/post-review` を通してから確定する
 
 **Step 5. Threads自動投稿キューへの転送（自動化の接続点）**
-- 保存したThreads投稿からCSV（列：`投稿日時,本文,リプライ本文,型,FW`、投稿日時は `YYYY-MM-DD HH:MM`）を作成する
+- `python brands/mbticode/tools/threads_txt_to_csv.py <バッチ開始日>` で `posts_threads.txt` から該当分のCSV（列：`投稿日時,本文,リプライ本文,型,FW`）を生成する（自己リプライ注記の除去・年の補完は自動。手作業のパース禁止）
 - `python brands/mbticode/tools/push_threads_queue.py <csv>` でスプレッドシートのキューへ投入する（過去時刻・重複は自動スキップ）
 - 週次クラウドルーティン産のバッチは `_pending_batch.json` → `apply_pending_batch.py` 経由（手順は同スクリプトのdocstring参照）
 
