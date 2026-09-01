@@ -1,0 +1,978 @@
+<!-- wp:paragraph -->
+タイトル：テレビ×ミセス タイムテーブル【9月7日】出演順や出演者、放送は何時から？
+メタディスクリプション（112字）：
+テレビ×ミセス（9月7日・TBS）タイムテーブルを速報更新！Mrs. GREEN APPLEの「Brand New」披露やLA密着ロケ、スター発掘×ミセス、大人しりとりのコーナー進行・出演順・出演時間の目安を随時追記します。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][title][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>次回放送の「テレビ×ミセス」がいつ放送されるのかや、出演者やタイムテーブル、進行の順番等をまとめています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="テレビ×ミセス最新情報" style="display: block; font-family: 'Helvetica Neue', 'Arial', 'Hiragino Sans', 'Meiryo', sans-serif; background: #ffffff; border: 1px solid #e2e2d8; position: relative; overflow: hidden; max-width: 100%; margin: 12px 0; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);">
+
+  <div style="height: 4px; background: linear-gradient(90deg, #3E5B4C, #C2A24C, #B07E2A, #6E8C7B); width: 100%;"></div>
+
+  <div style="padding: 16px; position: relative;">
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 12px;">
+      <div style="font-size: 13px; font-weight: 900; color: #3E5B4C; letter-spacing: 0.05em; border-left: 3px solid #3E5B4C; padding-left: 8px; line-height: 1;">TEREBI &times; MRS.</div>
+      <div style="font-size: 10px; font-weight: 800; color: #B07E2A; display: flex; align-items: center; gap: 4px;">
+        <span style="display: inline-block; width: 6px; height: 6px; background: #B07E2A; border-radius: 50%;"></span>
+        REAL-TIME UPDATES
+      </div>
+    </div>
+
+    <div style="font-size: 16px; font-weight: 900; color: #232420; line-height: 1.4; margin-bottom: 6px;">
+      テレビ×ミセス タイムテーブル・出演者最新情報
+    </div>
+
+    <div style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #4a5568;">
+      <span style="background: #B07E2A; color: #fff; font-size: 9px; padding: 2px 4px; border-radius: 2px; font-weight: 900;">LIVE</span>
+      2026年9月7日(月) 20:55〜22:00
+    </div>
+
+    <div style="margin-top: 14px; border: 1px solid #edefe9; border-bottom: none;">
+
+      <div style="display: flex; border-bottom: 1px solid #edefe9;">
+        <div style="width: 80px; font-size: 9px; font-weight: 900; color: #a0a598; padding: 10px 8px; background: #faf8f2; flex-shrink: 0; display: flex; align-items: center;">STATUS</div>
+        <div style="flex: 1; padding: 10px; font-size: 11px; font-weight: 700; color: #2d3748; line-height: 1.5;">
+          <strong style="font-weight: 800; color: #B07E2A;">出演者・コーナー内容 発表済み</strong>（分刻みの進行は事前発表なし。放送に合わせて判明分を更新）
+        </div>
+      </div>
+
+      <div style="display: flex; border-bottom: 1px solid #edefe9;">
+        <div style="width: 80px; font-size: 9px; font-weight: 900; color: #a0a598; padding: 10px 8px; background: #faf8f2; flex-shrink: 0; display: flex; align-items: center;">CAST</div>
+        <div style="flex: 1; padding: 10px; font-size: 12px; font-weight: 700; color: #2d3748; line-height: 1.6;">
+          MC：Mrs. GREEN APPLE ／ ゲスト：渋谷凪咲・陣内智則・チョコレートプラネット・辻希美・出川哲朗・中岡創一（ロッチ）・中澤裕子・塩﨑太智（M!LK）
+</div>
+      </div>
+
+      <div style="display: flex; border-bottom: 1px solid #edefe9;">
+        <div style="width: 80px; font-size: 9px; font-weight: 900; color: #a0a598; padding: 10px 8px; background: #faf8f2; flex-shrink: 0; display: flex; align-items: center;">TIMETABLE</div>
+        <div style="flex: 1; padding: 10px; font-size: 11px; font-weight: 700; color: #7a7a70; line-height: 1.6; font-style: italic;">
+          公式の分刻みタイムテーブルは出ていません。コーナー進行と出演順は生放送を追いながらこのページに反映します。
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top: 12px; background: #f6f2e8; border-left: 3px solid #232420; color: #2d3748; padding: 10px; font-size: 11px; font-weight: 700; display: flex; align-items: flex-start; gap: 8px; line-height: 1.5;">
+      <span style="color: #B07E2A;">💡</span>
+      <span>Mrs. GREEN APPLEが「Brand New」を披露。LA密着ロケ、浦和学院高校での「スター発掘×ミセス」、対戦企画「大人しりとり」も見どころです。</span>
+    </div>
+
+    <div style="margin-top: 12px; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 8px;">
+      <a href="#st-toc-h-1" style="text-decoration: none; background: #3E5B4C; color: #fff; font-size: 10px; font-weight: 900; padding: 8px 16px; border-radius: 2px; text-align: center; letter-spacing: 0.05em;">
+        最新情報を確認する ▶
+      </a>
+      <div style="font-size: 9px; color: #a0a598; text-align: right; line-height: 1.4;">
+        最終更新: 2026.09.01 放送前<br>
+        (放送当日、生放送にあわせて更新)
+      </div>
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][mokujimae][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>次回はMrs. GREEN APPLEの「Brand New」披露やLAロケ、スター発掘×ミセス、大人しりとりなど見どころが続きます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>テレビ×ミセス 最新タイムテーブル【9/7】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>※9/7はコーナーごとの時間が公開されていないため、番組構成からの並び予想として掲載中。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div role="region" aria-label="テレビ×ミセス タイムテーブル（2026年9月7日）" style="font-family: 'Inter', 'Hiragino Sans', 'Yu Gothic', sans-serif; margin: 20px 0; background: #ffffff; border: 1px solid #e2e2d8; border-radius: 4px; overflow: hidden; box-shadow: 0 10px 25px -5px rgba(40, 50, 40, 0.1);">
+
+  <div style="height: 4px; background: linear-gradient(90deg, #3E5B4C, #C2A24C, #B07E2A, #6E8C7B);"></div>
+
+  <div style="padding: 16px; background: #faf8f2; border-bottom: 1px solid #edefe9;">
+    <div style="display: flex; align-items: center; gap: 8px;">
+      <span style="background: #B07E2A; color: #fff; font-size: 10px; font-weight: 900; padding: 2px 6px; border-radius: 2px;">並び予想</span
+      ><span style="font-size: 14px; font-weight: 900; color: #232420; letter-spacing: -0.01em;">2026.09.07 コーナー進行（放送前の予想）</span>
+    </div>
+  </div>
+
+  <div style="padding: 0;">
+
+    <div style="display: flex; border-bottom: 1px solid #f2f2ec;">
+      <div style="width: 78px; background: #faf8f2; padding: 18px 8px; text-align: center; border-right: 1px solid #f2f2ec; flex-shrink: 0;">
+        <div style="font-size: 14px; font-weight: 900; color: #3E5B4C;">20:55</div>
+        <div style="font-size: 8px; font-weight: 800; color: #a0a598; margin-top: 2px;">START</div>
+      </div>
+      <div style="flex: 1; padding: 15px 16px;">
+        <div style="font-size: 14px; font-weight: 800; color: #2d3748; display: flex; align-items: center; gap: 6px;">
+          <span style="color: #B07E2A;">●</span>オープニング（Mrs. GREEN APPLE 登場・番組案内）
+        </div>
+      </div>
+    </div>
+
+    <div style="display: flex; border-bottom: 1px solid #f2f2ec;">
+      <div style="width: 78px; background: #faf8f2; padding: 18px 8px; text-align: center; border-right: 1px solid #f2f2ec; flex-shrink: 0;">
+        <div style="font-size: 13px; font-weight: 900; color: #3E5B4C;">序盤</div>
+        <div style="font-size: 8px; font-weight: 800; color: #a0a598; margin-top: 2px;">予想</div>
+      </div>
+      <div style="flex: 1; padding: 15px 16px; background: #fff;">
+        <div style="font-size: 13px; font-weight: 700; color: #2d3748; margin-bottom: 6px;">テレビ×ミセスinLA</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #7a7a70; font-weight: 700; line-height: 1.6;">ロサンゼルス密着ロケ。エコーパークのスワンボートレース、セグウェイ初体験、イタズラ涼ちゃんinLA。</div>
+      </div>
+    </div>
+
+    <div style="display: flex; border-bottom: 1px solid #f2f2ec;">
+      <div style="width: 78px; background: #faf8f2; padding: 18px 8px; text-align: center; border-right: 1px solid #f2f2ec; flex-shrink: 0;">
+        <div style="font-size: 13px; font-weight: 900; color: #3E5B4C;">中盤</div>
+        <div style="font-size: 8px; font-weight: 800; color: #a0a598; margin-top: 2px;">予想</div>
+      </div>
+      <div style="flex: 1; padding: 15px 16px; background: #fff;">
+        <div style="font-size: 13px; font-weight: 700; color: #2d3748; margin-bottom: 6px;">スター発掘×ミセス</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #7a7a70; font-weight: 700; line-height: 1.6;">若井滉斗・藤澤涼架が浦和学院高校に潜入。女子硬式野球部／パワーリフティング部／ソングリーダー部／筝曲部を訪問。</div>
+      </div>
+    </div>
+
+    <div style="display: flex; border-bottom: 1px solid #f2f2ec;">
+      <div style="width: 78px; background: #faf8f2; padding: 18px 8px; text-align: center; border-right: 1px solid #f2f2ec; flex-shrink: 0;">
+        <div style="font-size: 13px; font-weight: 900; color: #3E5B4C;">終盤</div>
+        <div style="font-size: 8px; font-weight: 800; color: #a0a598; margin-top: 2px;">予想</div>
+      </div>
+      <div style="flex: 1; padding: 15px 16px; background: #fff;">
+        <div style="font-size: 13px; font-weight: 700; color: #2d3748; margin-bottom: 6px;">大人しりとり</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #7a7a70; font-weight: 700; line-height: 1.6;">チョコレートプラネット、出川哲朗、中岡創一（ロッチ）、中澤裕子・辻希美らが対戦。</div>
+      </div>
+    </div>
+
+    <div style="display: flex; border-bottom: 1px solid #f2f2ec;">
+      <div style="width: 78px; background: #faf8f2; padding: 18px 8px; text-align: center; border-right: 1px solid #f2f2ec; flex-shrink: 0;">
+        <div style="font-size: 13px; font-weight: 900; color: #B07E2A;">終盤</div>
+        <div style="font-size: 8px; font-weight: 800; color: #B07E2A; margin-top: 2px;">歌唱予想</div>
+      </div>
+      <div style="flex: 1; padding: 15px 16px; background: #fff;">
+        <div style="font-size: 13px; font-weight: 700; color: #2d3748; margin-bottom: 8px;">Mrs. GREEN APPLE</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+          <span style="background: #f6f2e8; color: #B07E2A; font-size: 11px; padding: 4px 10px; border-radius: 2px; font-weight: 700; border: 1px solid #e7dcc2;">Brand New</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: flex;">
+      <div style="width: 78px; background: #faf8f2; padding: 18px 8px; text-align: center; border-right: 1px solid #f2f2ec; flex-shrink: 0;">
+        <div style="font-size: 14px; font-weight: 900; color: #3E5B4C;">22:00</div>
+        <div style="font-size: 8px; font-weight: 800; color: #a0a598; margin-top: 2px;">END</div>
+      </div>
+      <div style="flex: 1; padding: 15px 16px;">
+        <div style="font-size: 14px; font-weight: 800; color: #2d3748; display: flex; align-items: center; gap: 6px;">
+          <span style="color: #B07E2A;">●</span>エンディング（来週予告）
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div style="padding: 12px 16px; background: #232420; color: #fff;">
+    <div style="font-size: 11px; font-weight: 700; line-height: 1.6; display: flex; align-items: flex-start; gap: 8px;">
+      <span style="color: #C2A24C; font-size: 14px;">⚠️</span>
+      <span>上記はコーナー内容と番組構成からの並び予想です。放送では順番・時間帯が前後する場合があります。放送開始後は実際の進行へ書き換えます。</span>
+    </div>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>※コーナーの進行順は生放送の展開に合わせて随時更新します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>テレビ×ミセスの披露楽曲・歌コラボ【9/7】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>9月7日にMrs. GREEN APPLEが披露するのは「Brand New」の1曲です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div role="region" aria-label="テレビ×ミセス 披露楽曲（2026年9月7日）" style="font-family: 'Inter', 'Hiragino Sans', 'Yu Gothic', sans-serif; margin: 20px 0; background: #ffffff; border: 1px solid #e2e2d8; border-radius: 4px; overflow: hidden; box-shadow: 0 6px 18px rgba(40, 50, 40, 0.06);">
+  <div style="height: 4px; background: linear-gradient(90deg, #3E5B4C, #C2A24C, #B07E2A, #6E8C7B);"></div>
+  <div style="padding: 14px 16px;">
+    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+      <span style="background: #3E5B4C; color: #fff; font-size: 9px; font-weight: 900; padding: 3px 8px; border-radius: 2px; letter-spacing: 0.06em;">THIS WEEK</span>
+      <span style="font-size: 14px; font-weight: 900; color: #232420;">Mrs. GREEN APPLE「Brand New」</span>
+    </div>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #7a7a70; line-height: 1.7;">日本レコード大賞3連覇中のMCバンドによるスタジオ歌唱。番組の終盤に置かれることが多い印象です。</p>
+    <p style="margin: 10px 0 0; font-size: clamp(10px, calc(10px + (100vw - 480px) / 240), 12.5px); font-weight: 700; color: #a0a598; line-height: 1.6;">※歌コラボSP回（過去回では複数アーティストとのコラボを放送）では、ここにセットリストを掲載します。</p>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>テレビ×ミセスの出演者一覧【9/7】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"align":"center","className":"size-large"} -->
+<figure class="wp-block-image aligncenter size-large"><img src="https://shira-treat.com/wp-content/uploads/2026/09/image-11.webp" alt="テレビ×ミセス タイムテーブル 出演順・出演者・出演時間" class="wp-image-XXXX"/><figcaption class="wp-element-caption"><a href="https://www.tbs.co.jp/tbstv_mga/">公式サイト</a>｜<a href="https://x.com/tbsTV_MGA">公式X(@tbsTV_MGA)</a></figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>2026年9月7日（月）放送『テレビ×ミセス』の出演者一覧です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div class="tvmrs-container" style="background: #ffffff; padding: 10px; border: 1px solid #eceae0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); font-family: sans-serif; margin-bottom: 15px;">
+
+<div style="border-left: 3px solid #3E5B4C; margin-bottom: 8px; padding-left: 8px;">
+<span style="color: #1a1a1a; font-size: 13px; font-weight: 900; letter-spacing: 0.05em;">CAST LINEUP (2026.09.07)</span>
+</div>
+
+<div class="tvmrs-artist-section">
+<div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px;">
+
+  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #f5f7f4 0%, #eef2ec 100%); border: 1px solid #d6e0d5; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #3E5B4C, #C2A24C);"></div>
+    <div style="padding: 14px 12px;">
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #232420 !important; line-height: 1.4 !important;">Mrs. GREEN APPLE <span style="font-size: 10px; font-weight: 900; color: #3E5B4C; background: #eef2ec; padding: 2px 6px; border-radius: 2px;">MC</span></p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">大森元貴・若井滉斗・藤澤涼架。番組内で「Brand New」を披露。</p>
+    </div>
+  </div>
+
+  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #faf8f2 0%, #f6f2e8 100%); border: 1px solid #e7dcc2; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #C2A24C, #B07E2A);"></div>
+    <div style="padding: 14px 12px;">
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #232420 !important; line-height: 1.4 !important;">ゲスト</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">渋谷凪咲／陣内智則／チョコレートプラネット／辻希美／出川哲朗／中岡創一（ロッチ）／中澤裕子／塩﨑太智（M!LK）</p>
+    </div>
+  </div>
+
+  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #f5f7f4 0%, #eef2ec 100%); border: 1px solid #d6e0d5; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #3E5B4C, #6E8C7B);"></div>
+    <div style="padding: 14px 12px;">
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #232420 !important; line-height: 1.4 !important;">大人しりとり 参戦</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">チョコレートプラネット、出川哲朗、中岡創一（ロッチ）、中澤裕子、辻希美らが対戦。</p>
+    </div>
+  </div>
+
+  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #f5f7f4 0%, #eef2ec 100%); border: 1px solid #d6e0d5; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #3E5B4C, #6E8C7B);"></div>
+    <div style="padding: 14px 12px;">
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #232420 !important; line-height: 1.4 !important;">スター発掘×ミセス ロケ</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">若井滉斗・藤澤涼架が浦和学院高校を訪問。筝曲部でミセスが琴に挑戦。</p>
+    </div>
+  </div>
+
+</div>
+
+<p style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #a0a598; margin: 0 0 16px;">※出演者・コーナー内容は番組放送中にリアルタイムで更新します</p>
+
+<div style="display: flex; flex-direction: column; gap: 8px;">
+
+  <div style="display: flex; align-items: center; background: #f1f4f0; padding: 4px 10px; border-radius: 4px; margin-bottom: 2px;">
+    <span style="width: 3px; height: 10px; background: #64748b; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">出演アーティストの最新CD・サブスク配信をチェック</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+    <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #232f3e; border-radius: 4px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #161d26;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        AmazonでCD・特典を見る <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
+      </span>
+    </a>
+
+    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fdaily%2F002%2F" target="_blank" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 4px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        楽天ブックスでCDを探す <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
+      </span>
+    </a>
+  </div>
+
+  <img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+
+  <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #001a4d, #003399); border-radius: 4px; text-decoration: none; box-sizing: border-box; border: 1px solid #C2A24C; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
+    <span style="font-size: 9px; font-weight: 900; color: #C2A24C; border: 1px solid #C2A24C; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 3px;">Music</span>
+    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで「Brand New」を聴く（30日間無料）</span>
+    <span style="font-size: 18px; color: #C2A24C; margin-left: auto;">›</span>
+  </a>
+
+</div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>「Brand New」披露や各コーナーは何時頃？【目安】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>テレビ×ミセスはコーナーごとの時間が細かく発表されないので、番組の構成から時間帯の目安をまとめてみました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="font-family: 'Hiragino Sans', 'Meiryo', sans-serif; margin: 20px 0; border: 1px solid #e2e2d8; border-radius: 8px; overflow: hidden;">
+  <div style="background: #3E5B4C; color: #ffffff; padding: 12px 15px; font-size: 14px; font-weight: 900; display: flex; align-items: center; gap: 8px;">
+    <span style="color: #C2A24C;">●</span> 9/7 コーナー時間帯の目安
+  </div>
+
+  <div style="padding: 15px; background: #ffffff;">
+    <div style="display: grid; grid-template-columns: 92px 1fr; gap: 10px; margin-bottom: 12px; border-bottom: 1px dashed #edefe9; padding-bottom: 10px;">
+      <div style="font-size: 11px; font-weight: 800; color: #B07E2A; background: #f6f2e8; padding: 2px 6px; border-radius: 4px; text-align: center; align-self: start;">20:55〜21:20頃</div>
+      <div style="font-size: 12px; color: #2d3748; line-height: 1.5;">
+        <strong>序盤・LAロケ枠</strong><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #7a7a70;">オープニングに続いて「テレビ×ミセスinLA」。ロサンゼルスでのスワンボートレースやセグウェイ初体験、イタズラ涼ちゃんinLAなど、尺の長いロケVTRが前半に置かれやすい構成です。</span>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 92px 1fr; gap: 10px; margin-bottom: 12px; border-bottom: 1px dashed #edefe9; padding-bottom: 10px;">
+      <div style="font-size: 11px; font-weight: 800; color: #B07E2A; background: #f6f2e8; padding: 2px 6px; border-radius: 4px; text-align: center; align-self: start;">21:20〜21:45頃</div>
+      <div style="font-size: 12px; color: #2d3748; line-height: 1.5;">
+        <strong>中盤・スター発掘枠</strong><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #7a7a70;">「スター発掘×ミセス」で若井滉斗・藤澤涼架が浦和学院高校に潜入。女子硬式野球部・パワーリフティング部・ソングリーダー部・筝曲部をめぐります。</span>
+      </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 92px 1fr; gap: 10px;">
+      <div style="font-size: 11px; font-weight: 800; color: #B07E2A; background: #f6f2e8; padding: 2px 6px; border-radius: 4px; text-align: center; align-self: start;">21:45〜22:00頃</div>
+      <div style="font-size: 12px; color: #2d3748; line-height: 1.5;">
+        <strong>終盤・大人しりとり＋歌唱枠</strong><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #7a7a70;">「大人しりとり」の対戦と、Mrs. GREEN APPLE「Brand New」の披露が終盤に置かれることが多い印象です。最後に来週予告が入ります。</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="background: #faf8f2; padding: 10px 15px; font-size: clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color: #a0a598; border-top: 1px solid #edefe9;">
+    ※コーナー内容と番組構成に基づいた目安です。実際の進行はリアルタイム更新をご確認ください。
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>番組の作りを見ると、だいたいこんな並びになりそうです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>実際のコーナー進行は放送開始後にリアルタイムで更新していきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>テレビ×ミセスの順番の傾向</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>テレビ×ミセスは、放送回によってコーナー構成が変わるコラボバラエティです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div role="list" aria-label="テレビ×ミセス 通常回のコーナー構成の傾向と注目点" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px; margin: 14px 0; font-family: 'Inter', 'Hiragino Sans', 'Yu Gothic', sans-serif;">
+
+  <div role="listitem" style="background: #ffffff; border: 1px solid #e2e2d8; border-radius: 2px; box-shadow: 0 3px 10px rgba(40, 50, 40, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #3E5B4C, #C2A24C, #B07E2A, #6E8C7B);"></div>
+    <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #3E5B4C; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">🕒 通常回の構成</div>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">月曜20:55開始のコラボバラエティ。ロケVTR→スタジオ企画→歌唱の流れになりやすく、Mrs. GREEN APPLEの歌は番組の後半に置かれる構成が多い印象です。</p>
+  </div>
+
+  <div role="listitem" style="background: #ffffff; border: 1px solid #e2e2d8; border-radius: 2px; box-shadow: 0 3px 10px rgba(40, 50, 40, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #3E5B4C, #C2A24C, #B07E2A, #6E8C7B);"></div>
+    <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #3E5B4C; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">🎤 「Brand New」披露のタイミング</div>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">MC自身のスタジオ歌唱は、番組の後半〜終盤にまとめられることが多い印象です。放送開始後に実際の時間帯を反映します。</p>
+  </div>
+
+  <div role="listitem" style="background: #ffffff; border: 1px solid #e2e2d8; border-radius: 2px; box-shadow: 0 3px 10px rgba(40, 50, 40, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #3E5B4C, #C2A24C, #B07E2A, #6E8C7B);"></div>
+    <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #3E5B4C; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">🔍 コーナー企画の並び</div>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">今回はLA密着ロケ、浦和学院高校の「スター発掘×ミセス」、対戦企画「大人しりとり」が柱。尺の長いロケVTRは序盤〜中盤、対戦企画は中盤〜終盤に置かれる傾向です。</p>
+  </div>
+
+  <div role="listitem" style="background: #ffffff; border: 1px solid #e2e2d8; border-radius: 2px; box-shadow: 0 3px 10px rgba(40, 50, 40, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
+    <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #3E5B4C, #C2A24C, #B07E2A, #6E8C7B);"></div>
+    <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #3E5B4C; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">📱 公式SNSの連動</div>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">公式X（@tbsTV_MGA）やInstagram（tbstv_mga）で放送前後に情報が出ます。ハッシュタグは「#テレビミセス」。本ページでもキャッチ次第、最速で反映します。</p>
+    <div style="margin-top: 8px; align-self: flex-start; font-size: 9px; font-weight: 900; color: #B07E2A; background: rgba(176, 126, 42, 0.08); padding: 2px 8px; border-radius: 2px;">9月7日 20:55〜 随時更新予定</div>
+  </div>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>通常回は出演者とコーナー内容の告知がされますが、進行順や時間帯は放送でわかることが一般的です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>事前に分かっているのは「誰が出てどんなコーナーがあるか」まで。並び順は放送開始後にこのページで随時反映します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>テレビ×ミセスの実際の放送内容・出演順【放送後更新】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>2026年8月31日に放送された『テレビ×ミセス』の内容をレポートとしてまとめています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside class="tvmrs-archive-panel" role="region" aria-label="テレビ×ミセス放送アーカイブ" style="position: relative; margin: 16px 0; padding: 1px; border-radius: 12px; background: linear-gradient(90deg, #3E5B4C, #C2A24C, #B07E2A, #6E8C7B); font-family: 'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', sans-serif; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+  <div style="position: absolute; inset: 1px; background: #ffffff; border-radius: 11px; z-index: 0;"></div>
+
+  <div style="position: relative; z-index: 1; padding: 16px;">
+
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
+      <div style="display: flex; align-items: center; gap: 8px;">
+        <div style="background: #3E5B4C; color: #fff; font-size: 10px; font-weight: 900; padding: 3px 8px; border-radius: 2px; letter-spacing: 1px;">ARCHIVE</div>
+        <div style="margin: 0; font-size: 15px; font-weight: 900; color: #232420; letter-spacing: -0.5px;">テレビ×ミセス 放送レポート</div>
+      </div>
+      <div style="font-size: 11px; font-weight: 800; color: #a0a598;">2026.08.31 <span style="font-weight: 400;">MON</span></div>
+    </div>
+
+    <div style="background: #faf8f2; border-radius: 4px; padding: 10px 12px; margin-bottom: 16px; border-left: 4px solid #3E5B4C;">
+      <div style="font-size: 10px; color: #3E5B4C; font-weight: 800; margin-bottom: 2px; letter-spacing: 0.05em;">MAIN CAST</div>
+      <div style="font-size: 13px; font-weight: 700; color: #2d3748;">MC：Mrs. GREEN APPLE（大森元貴・若井滉斗・藤澤涼架）／過去コラボ映像：Superfly、M!LK、FRUITS ZIPPER、郷ひろみ、AI、大塚愛、こっちのけんと、森山直太朗／未公開トーク：りくりゅう（三浦璃来・木原龍一）</div>
+    </div>
+
+    <div style="display: grid; gap: 0; margin-bottom: 16px; border-left: 2px solid #edefe9; margin-left: 6px; padding-left: 14px;">
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #6E8C7B; border: 2px solid #fff;"></div>
+        <div style="font-size: 10px; color: #a0a598; font-weight: 800;">20:55頃 / OPENING</div>
+        <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
+          <strong style="color: #2b4438;">「極上の歌コラボ8連発SP」開始／Superfly「愛をこめて花束を」</strong><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #7a7a70; display: block; margin: 2px 0 6px 0;">藤澤涼架のピアノ導入で最初のコラボ映像を放送。</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #6E8C7B; border: 2px solid #fff;"></div>
+        <div style="font-size: 10px; color: #a0a598; font-weight: 800;">21:05頃 / EARLY</div>
+        <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
+          <strong style="color: #2b4438;">M!LK「好きすぎて滅！」／FRUITS ZIPPER「わたしの一番かわいいところ」</strong><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #7a7a70; display: block; margin: 2px 0 6px 0;">大森元貴のダンスとアイドルコラボ枠が続き、投稿が伸びた場面。</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #C2A24C; border: 2px solid #fff;"></div>
+        <div style="font-size: 10px; color: #a0a598; font-weight: 800;">21:20頃 / TALK</div>
+        <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
+          <strong style="color: #2b4438;">りくりゅう（三浦璃来・木原龍一）未公開トーク</strong><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #7a7a70; display: block; margin: 2px 0 6px 0;">掛け合いとミセスの曲を好きと挙げる話に「癒される」の声。</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #C2A24C; border: 2px solid #fff;"></div>
+        <div style="font-size: 10px; color: #a0a598; font-weight: 800;">21:30頃 / MID</div>
+        <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
+          <strong style="color: #2b4438;">郷ひろみ「GOLDFINGER'99」／AI「Story」</strong><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #7a7a70; display: block; margin: 2px 0 6px 0;">大森元貴の表現の切り替わりに驚きと称賛が集まった。</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #B07E2A; border: 2px solid #fff;"></div>
+        <div style="font-size: 10px; color: #a0a598; font-weight: 800;">21:38頃 / LATE</div>
+        <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
+          <strong style="color: #2b4438;">大塚愛「プラネタリウム」／こっちのけんと「はいよろこんで」</strong><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #7a7a70; display: block; margin: 2px 0 6px 0;">大森元貴の低音Aメロと藤澤涼架のピアノ、ハーモニーが好評。</span>
+        </div>
+      </div>
+
+      <div style="position: relative;">
+        <div style="position: absolute; left: -21px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #B07E2A; border: 2px solid #fff;"></div>
+        <div style="font-size: 11px; color: #B07E2A; font-weight: 900;">21:48頃〜終盤 / ★最も話題を集めた場面</div>
+        <div style="font-size: 13px; color: #232420; line-height: 1.5;">
+          <span style="font-weight: 900; color: #2b4438;">森山直太朗「生きてることが辛いなら」</span><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #7a7a70; font-weight: 600;">クリック（メトロノーム）を使わずに演奏した秘話と歌声に反応が集中し、番組で最も話題を集めた場面となった。エンディングで8連発を総括し、9月7日の予告が入った。</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #4a5568; background: #f1f4f0; border-radius: 4px; padding: 10px; margin-bottom: 16px; line-height: 1.6; font-weight: 600;">
+      <span style="display: inline-block; background: #3E5B4C; color: #fff; padding: 0 6px; border-radius: 2px; margin-right: 4px; font-weight: 900; font-size: 9px;">REPORT</span>
+      「極上の歌コラボ8連発＆未公開トークSP」として、過去回のコラボ映像を再構成した回。森山直太朗「生きてることが辛いなら」の歌唱と、クリックを使わず演奏したという秘話に反応が集中し、番組で最も話題を集めた場面になりました。M!LK「好きすぎて滅！」での大森元貴のダンス、大塚愛「プラネタリウム」やSuperfly「愛をこめて花束を」のハーモニーも好評でした。新規のスタジオ歌唱はなく、VTR中心の振り返り回でした。
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="background: #232420; color: #fff; padding: 12px; border-radius: 4px; text-align: center;">
+        <span style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 800;">※テレビ×ミセスはTBS系。放送後はTVerで見逃し配信あり（次回放送までの期間限定）</span>
+      </div>
+      <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 8px; border-top: 1px solid #edefe9;">
+        <div style="font-size: 8px; color: #a0a598; font-weight: 800; letter-spacing: 0.5px;">SUMMARIZED FROM PUBLIC BROADCAST INFO</div>
+        <div style="font-size: 8px; color: #a0a598;">UPDATED: 2026.09.01</div>
+      </div>
+    </div>
+
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>9月7日の放送終了後に実際のコーナー進行と出演順をここへ追記します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>テレビ×ミセスの見逃し配信・再放送はある？</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>テレビ×ミセスはTBS系なので、放送が終わったあとにTVerで見逃し配信が見られます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>配信は次回放送までの期間限定です。リアルタイムで見られなかった場合はTVerを利用するのがおすすめです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div role="region" aria-label="テレビ×ミセス見逃し情報" style="margin:20px 0;background:#fff;border:1px solid #e2e2d8;border-radius:4px;overflow:hidden;box-shadow:0 8px 20px rgba(40,50,40,0.06);font-family:'Inter','Hiragino Sans','Yu Gothic',sans-serif;">
+
+<div style="height:4px;background:linear-gradient(90deg,#3E5B4C,#C2A24C,#B07E2A,#6E8C7B);"></div>
+
+<div style="padding:14px 16px;background:#faf8f2;border-bottom:1px solid #edefe9;">
+<div style="font-size:11px;font-weight:900;color:#3E5B4C;">CHECK</div>
+<div style="font-size:15px;font-weight:900;color:#232420;">見逃し配信・再放送の有無</div>
+</div>
+
+<div style="padding:12px 16px;">
+
+<div style="display:flex;border-bottom:1px solid #edefe9;">
+<div style="width:96px;font-size:10px;font-weight:900;color:#a0a598;padding:10px;background:#faf8f2;">TVer配信</div>
+<div style="flex:1;padding:10px;font-size:12px;font-weight:800;color:#3E5B4C;">あり（放送終了後〜次回放送まで期間限定）</div>
+</div>
+
+<div style="display:flex;border-bottom:1px solid #edefe9;">
+<div style="width:96px;font-size:10px;font-weight:900;color:#a0a598;padding:10px;background:#faf8f2;">シリーズページ</div>
+<div style="flex:1;padding:10px;font-size:12px;font-weight:700;color:#2d3748;word-break:break-all;">https://tver.jp/series/sra5n6j0w3</div>
+</div>
+
+<div style="display:flex;">
+<div style="width:96px;font-size:10px;font-weight:900;color:#a0a598;padding:10px;background:#faf8f2;">当ページ</div>
+<div style="flex:1;padding:10px;font-size:12px;font-weight:800;color:#2d3748;">コーナー進行・出演順をリアルタイム更新</div>
+</div>
+
+</div>
+
+<div style="padding:12px 14px;background:#faf8f2;border-top:1px solid #edefe9;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#2d3748;line-height:1.6;">
+💡 放送中にコーナー進行や出演順を随時更新しているため、見逃した場合でも内容を把握できます。
+</div>
+
+<div style="padding:10px 14px;border-top:1px solid #edefe9;">
+  <div style="font-size:10px;font-weight:800;color:#a0a598;margin-bottom:8px;">放送を見逃しても、楽曲はいつでも聴ける</div>
+  <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display:flex;align-items:center;justify-content:flex-start;height:40px;background:linear-gradient(90deg,#001a4d,#003399);border-radius:4px;text-decoration:none;box-sizing:border-box;border:1px solid #C2A24C;padding:0 15px;">
+    <span style="font-size:9px;font-weight:900;color:#C2A24C;border:1px solid #C2A24C;padding:1px 4px;border-radius:2px;margin-right:12px;">Music</span>
+    <span style="font-size:11px;font-weight:800;color:#ffffff;letter-spacing:0.05em;">Amazon MusicでMrs. GREEN APPLEを聴く（30日間無料）</span>
+    <span style="font-size:18px;color:#C2A24C;margin-left:auto;">›</span>
+  </a>
+</div>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>公式X（@tbsTV_MGA）や公式YouTubeで、コーナーの一部映像やダイジェストが公開されることもあります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:embed {"url":"https://www.youtube.com/watch?v=vU6hnzz_0Nk","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+https://www.youtube.com/watch?v=vU6hnzz_0Nk
+</div><figcaption class="wp-element-caption">YouTube👉<a href="https://www.tbs.co.jp/tbstv_mga/">テレビ×ミセス 公式</a></figcaption></figure>
+<!-- /wp:embed -->
+
+<!-- wp:heading -->
+<h2>テレビ×ミセス 過去の放送内容一覧</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>放送済みのテレビ×ミセスのコーナー進行・タイムテーブルをまとめていきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>直近回の内容は上の「放送レポート」に掲載しています。9月7日の放送後、それより前の回を古い順にこの一覧へ追加していきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>よくある質問（FAQ）</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div style="font-family: 'Inter', 'Hiragino Sans', 'Yu Gothic', sans-serif; margin: 20px 0;">
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px;">
+
+    <!-- Q1 -->
+    <div style="background: #ffffff; border: 1px solid #e6e4da; border-radius: 4px; padding: 15px; position: relative; overflow: hidden; box-shadow: 0 4px 12px rgba(40, 50, 40, 0.05);">
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, #C2A24C, #B07E2A, #3E5B4C);"></div>
+      <div style="display: flex; gap: 12px; align-items: flex-start; margin-bottom: 12px;">
+        <span style="flex: 0 0 auto; background: #3E5B4C; color: #ffffff; font-size: 11px; font-weight: 900; width: 28px; height: 18px; display: flex; align-items: center; justify-content: center; transform: skewX(-15deg); line-height: 1;">
+          <span style="display: inline-block; transform: skewX(0deg);">Q1</span>
+        </span>
+        <p style="margin: 0; font-size: 12px; font-weight: 900; color: #3E5B4C; line-height: 1.5;">テレビ×ミセスの放送はいつ？タイムテーブルは事前にわかりますか？</p>
+      </div>
+      <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #f1efe6;">
+        <span style="flex: 0 0 auto; color: #B07E2A; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
+        <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
+          放送は2026年9月7日（月）20:55〜22:00です。分刻みのタイムテーブルは事前発表されていませんが、LA密着ロケ→スター発掘×ミセス→大人しりとり→Mrs. GREEN APPLE「Brand New」披露という流れが見込まれます。実際のコーナー進行と出演順は放送に合わせて本ページで更新します。
+        </p>
+      </div>
+    </div>
+
+    <!-- Q2 -->
+    <div style="background: #ffffff; border: 1px solid #e6e4da; border-radius: 4px; padding: 15px; position: relative; overflow: hidden; box-shadow: 0 4px 12px rgba(40, 50, 40, 0.05);">
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, #C2A24C, #B07E2A, #3E5B4C);"></div>
+      <div style="display: flex; gap: 12px; align-items: flex-start; margin-bottom: 12px;">
+        <span style="flex: 0 0 auto; background: #3E5B4C; color: #ffffff; font-size: 11px; font-weight: 900; width: 28px; height: 18px; display: flex; align-items: center; justify-content: center; transform: skewX(-15deg); line-height: 1;">
+          <span style="display: inline-block; transform: skewX(0deg);">Q2</span>
+        </span>
+        <p style="margin: 0; font-size: 12px; font-weight: 900; color: #3E5B4C; line-height: 1.5;">Mrs. GREEN APPLEの「Brand New」披露は何時頃ですか？</p>
+      </div>
+      <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #f1efe6;">
+        <span style="flex: 0 0 auto; color: #B07E2A; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
+        <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
+          9月7日時点で披露の時間帯は発表されていません。バラエティ番組では、MCバンドによるスタジオ歌唱は番組の後半〜終盤に置かれることが多い印象です。実際の時間は放送に合わせて本ページで更新します。
+        </p>
+      </div>
+    </div>
+
+    <!-- Q3 -->
+    <div style="background: #ffffff; border: 1px solid #e6e4da; border-radius: 4px; padding: 15px; position: relative; overflow: hidden; box-shadow: 0 4px 12px rgba(40, 50, 40, 0.05);">
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, #C2A24C, #B07E2A, #3E5B4C);"></div>
+      <div style="display: flex; gap: 12px; align-items: flex-start; margin-bottom: 12px;">
+        <span style="flex: 0 0 auto; background: #3E5B4C; color: #ffffff; font-size: 11px; font-weight: 900; width: 28px; height: 18px; display: flex; align-items: center; justify-content: center; transform: skewX(-15deg); line-height: 1;">
+          <span style="display: inline-block; transform: skewX(0deg);">Q3</span>
+        </span>
+        <p style="margin: 0; font-size: 12px; font-weight: 900; color: #3E5B4C; line-height: 1.5;">テレビ×ミセスのゲスト出演者と注目コーナーは？</p>
+      </div>
+      <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #f1efe6;">
+        <span style="flex: 0 0 auto; color: #B07E2A; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
+        <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
+          9月7日のゲストは渋谷凪咲、陣内智則、チョコレートプラネット、辻希美、出川哲朗、中岡創一（ロッチ）、中澤裕子、塩﨑太智（M!LK）です。注目コーナーは、チョコレートプラネットや出川哲朗らが対戦する「大人しりとり」と、浦和学院高校に潜入する「スター発掘×ミセス」です。
+        </p>
+      </div>
+    </div>
+
+    <!-- Q4 -->
+    <div style="background: #ffffff; border: 1px solid #e6e4da; border-radius: 4px; padding: 15px; position: relative; overflow: hidden; box-shadow: 0 4px 12px rgba(40, 50, 40, 0.05);">
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, #C2A24C, #B07E2A, #3E5B4C);"></div>
+      <div style="display: flex; gap: 12px; align-items: flex-start; margin-bottom: 12px;">
+        <span style="flex: 0 0 auto; background: #3E5B4C; color: #ffffff; font-size: 11px; font-weight: 900; width: 28px; height: 18px; display: flex; align-items: center; justify-content: center; transform: skewX(-15deg); line-height: 1;">
+          <span style="display: inline-block; transform: skewX(0deg);">Q4</span>
+        </span>
+        <p style="margin: 0; font-size: 12px; font-weight: 900; color: #3E5B4C; line-height: 1.5;">テレビ×ミセスに見逃し配信・再放送はありますか？</p>
+      </div>
+      <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #f1efe6;">
+        <span style="flex: 0 0 auto; color: #B07E2A; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
+        <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
+          TBS系の番組のため、放送終了後にTVerで見逃し配信が行われます（次回放送までの期間限定）。シリーズページはhttps://tver.jp/series/sra5n6j0w3です。放送内容は本ページのコーナー進行・出演順まとめでも確認できます。
+        </p>
+      </div>
+    </div>
+
+    <!-- Q5（固定・編集不要） -->
+    <div style="background: #ffffff; border: 1px solid #e6e4da; border-radius: 4px; padding: 15px; position: relative; overflow: hidden; box-shadow: 0 4px 12px rgba(40, 50, 40, 0.05);">
+      <div style="position: absolute; top: 0; left: 0; width: 100%; height: 3px; background: linear-gradient(90deg, #C2A24C, #B07E2A, #3E5B4C);"></div>
+      <div style="display: flex; gap: 12px; align-items: flex-start; margin-bottom: 12px;">
+        <span style="flex: 0 0 auto; background: #3E5B4C; color: #ffffff; font-size: 11px; font-weight: 900; width: 28px; height: 18px; display: flex; align-items: center; justify-content: center; transform: skewX(-15deg); line-height: 1;">
+          <span style="display: inline-block; transform: skewX(0deg);">Q5</span>
+        </span>
+        <p style="margin: 0; font-size: 12px; font-weight: 900; color: #3E5B4C; line-height: 1.5;">「テレビ×ミセス」はどんな番組ですか？</p>
+      </div>
+      <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #f1efe6;">
+        <span style="flex: 0 0 auto; color: #B07E2A; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
+        <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
+          Mrs. GREEN APPLEがMCを務めるTBS系のコラボバラエティ番組です。さまざまな人やモノと本気で「コラボ」する企画を軸に構成され、公式ハッシュタグは「#テレビミセス」です。
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>【まとめ】テレビ×ミセスの出演者・タイムテーブルと放送時間</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>次回のテレビ×ミセスの放送は2026年9月7日（月）。TBS系でよる8時55分からです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>MCはMrs. GREEN APPLE。ゲストは渋谷凪咲、陣内智則、チョコレートプラネット、辻希美、出川哲朗、中岡創一（ロッチ）、中澤裕子、塩﨑太智（M!LK）の8組です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>LA密着ロケ、浦和学院高校での「スター発掘×ミセス」、対戦企画「大人しりとり」を放送し、Mrs. GREEN APPLEが「Brand New」を披露します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>コーナーごとの時間は事前発表がありませんが、放送開始から終了まで実際の進行と出演順をリアルタイムで更新していきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="margin: 18px 0 14px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px 10px; font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+
+  <div style="display: flex; align-items: center; background: #f6f2e8; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #B07E2A; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">他の音楽番組もチェック</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px;">
+
+    <a href="https://shira-treat.com/cdtv-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        CDTV <span style="font-size: 14px; margin-left: 6px; color: #B07E2A;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/star-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        STAR <span style="font-size: 14px; margin-left: 6px; color: #B07E2A;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/music-station-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        Mステ <span style="font-size: 14px; margin-left: 6px; color: #B07E2A;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/fnskayousai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        FNS歌謡祭 <span style="font-size: 14px; margin-left: 6px; color: #B07E2A;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/the-musicday-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        THE MUSIC DAY <span style="font-size: 14px; margin-left: 6px; color: #B07E2A;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/teretoongakusai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        テレ東音楽祭 <span style="font-size: 14px; margin-left: 6px; color: #B07E2A;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/ongakunohi-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        音楽の日 <span style="font-size: 14px; margin-left: 6px; color: #B07E2A;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/utadeaetara-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        うたであえたら <span style="font-size: 14px; margin-left: 6px; color: #B07E2A;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/record-award-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        レコード大賞 <span style="font-size: 14px; margin-left: 6px; color: #B07E2A;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/nhk-kouhaku-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        紅白歌合戦 <span style="font-size: 14px; margin-left: 6px; color: #B07E2A;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/utacon-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        うたコン <span style="font-size: 14px; margin-left: 6px; color: #B07E2A;">›</span>
+      </span>
+    </a>
+
+  </div>
+
+  <div style="display: flex; align-items: center; background: #f6f2e8; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #64748b; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">今夜の放送で気になったアーティストの楽曲・CDを探す</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
+    <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #232f3e; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #161d26;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        CDをAmazonで探す <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
+      </span>
+    </a>
+
+    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fdaily%2F002%2F" target="_blank" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        楽天ブックスでCDを探す <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
+      </span>
+    </a>
+  </div>
+
+  <img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+
+  <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #001a4d, #003399); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid #C2A24C; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
+    <span style="font-size: 9px; font-weight: 900; color: #C2A24C; border: 1px solid #C2A24C; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 3px;">Music</span>
+    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を聴く（30日間無料）</span>
+    <span style="font-size: 18px; color: #C2A24C; margin-left: auto;">›</span>
+  </a>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:shortcode -->
+<!-- MANUAL_JSONLD -->
+[jsonld]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://shira-treat.com/terebi-mrs-timetable/#post",
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://shira-treat.com/terebi-mrs-timetable/" },
+      "headline": "テレビ×ミセス タイムテーブル【9月7日】出演順や出演者、放送は何時から？",
+      "description": "テレビ×ミセス（9月7日・TBS）タイムテーブルを速報更新！Mrs. GREEN APPLEの「Brand New」披露やLA密着ロケ、スター発掘×ミセス、大人しりとりのコーナー進行・出演順・出演時間の目安を随時追記します。",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://shira-treat.com/terebi-mrs-timetable/#primaryimage",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/09/image-9.webp",
+        "width": 1200,
+        "height": 675
+      },
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/09/image-9.webp",
+      "datePublished": "2026-09-01T19:30:00+09:00",
+      "dateModified": "2026-09-01T19:30:00+09:00",
+      "author": { "@type": "Person", "name": "Shira Notes", "url": "https://shira-treat.com/operator-information/" },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/",
+        "sameAs": ["https://x.com/ShiraNotes_"],
+        "logo": { "@type": "ImageObject", "url": "https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp", "width": 512, "height": 512 }
+      },
+      "articleSection": "音楽番組",
+      "keywords": ["テレビミセス タイムテーブル", "テレビミセス 順番", "テレビミセス 出演者", "テレビミセス いつ", "テレビ×ミセス タイムテーブル", "テレビ×ミセス 9月7日"],
+      "inLanguage": "ja",
+      "about": [
+        { "@type": "Thing", "name": "テレビ×ミセス", "sameAs": "https://www.tbs.co.jp/tbstv_mga/" },
+        { "@type": "Thing", "name": "テレビミセス タイムテーブル" }
+      ],
+      "mentions": [
+        { "@type": "MusicGroup", "name": "Mrs. GREEN APPLE" },
+        { "@type": "Person", "name": "渋谷凪咲" },
+        { "@type": "Person", "name": "陣内智則" },
+        { "@type": "PerformingGroup", "name": "チョコレートプラネット" },
+        { "@type": "Person", "name": "辻希美" },
+        { "@type": "Person", "name": "出川哲朗" },
+        { "@type": "Person", "name": "中岡創一" },
+        { "@type": "Person", "name": "中澤裕子" },
+        { "@type": "Person", "name": "塩﨑太智" }
+      ]
+    },
+    {
+      "@type": "BroadcastEvent",
+      "@id": "https://shira-treat.com/terebi-mrs-timetable/#event",
+      "name": "テレビ×ミセス（2026年9月7日放送）",
+      "startDate": "2026-09-07T20:55:00+09:00",
+      "endDate": "2026-09-07T22:00:00+09:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+      "isLiveBroadcast": true,
+      "description": "2026年9月7日放送のテレビ×ミセス。Mrs. GREEN APPLEがMCを務め、LA密着ロケ、スター発掘×ミセス、大人しりとりを放送。Mrs. GREEN APPLEが「Brand New」を披露する回。",
+      "image": "https://shira-treat.com/wp-content/uploads/2026/09/image-9.webp",
+      "location": { "@type": "Place", "name": "TBSテレビ", "sameAs": "https://www.tbs.co.jp/" },
+      "organizer": { "@type": "Organization", "name": "TBSテレビ", "sameAs": "https://www.tbs.co.jp/" },
+      "performer": [
+        { "@type": "MusicGroup", "name": "Mrs. GREEN APPLE" },
+        { "@type": "Person", "name": "渋谷凪咲" },
+        { "@type": "Person", "name": "陣内智則" },
+        { "@type": "PerformingGroup", "name": "チョコレートプラネット" },
+        { "@type": "Person", "name": "辻希美" },
+        { "@type": "Person", "name": "出川哲朗" },
+        { "@type": "Person", "name": "中岡創一" },
+        { "@type": "Person", "name": "中澤裕子" },
+        { "@type": "Person", "name": "塩﨑太智" }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://shira-treat.com/terebi-mrs-timetable/#lineup",
+      "name": "2026年9月7日 テレビ×ミセス出演者一覧",
+      "numberOfItems": 9,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "item": { "@type": "MusicGroup", "name": "Mrs. GREEN APPLE" } },
+        { "@type": "ListItem", "position": 2, "item": { "@type": "Person", "name": "渋谷凪咲" } },
+        { "@type": "ListItem", "position": 3, "item": { "@type": "Person", "name": "陣内智則" } },
+        { "@type": "ListItem", "position": 4, "item": { "@type": "PerformingGroup", "name": "チョコレートプラネット" } },
+        { "@type": "ListItem", "position": 5, "item": { "@type": "Person", "name": "辻希美" } },
+        { "@type": "ListItem", "position": 6, "item": { "@type": "Person", "name": "出川哲朗" } },
+        { "@type": "ListItem", "position": 7, "item": { "@type": "Person", "name": "中岡創一" } },
+        { "@type": "ListItem", "position": 8, "item": { "@type": "Person", "name": "中澤裕子" } },
+        { "@type": "ListItem", "position": 9, "item": { "@type": "Person", "name": "塩﨑太智" } }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://shira-treat.com/terebi-mrs-timetable/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "テレビ×ミセスの放送はいつ？タイムテーブルは事前にわかりますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "放送は2026年9月7日（月）20:55〜22:00です。分刻みのタイムテーブルは事前発表されていませんが、LA密着ロケ→スター発掘×ミセス→大人しりとり→Mrs. GREEN APPLE「Brand New」披露という流れが見込まれます。実際のコーナー進行と出演順は放送に合わせて本ページで更新します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Mrs. GREEN APPLEの「Brand New」披露は何時頃ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "9月7日時点で披露の時間帯は発表されていません。バラエティ番組では、MCバンドによるスタジオ歌唱は番組の後半〜終盤に置かれることが多い印象です。実際の時間は放送に合わせて本ページで更新します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "テレビ×ミセスのゲスト出演者と注目コーナーは？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "9月7日のゲストは渋谷凪咲、陣内智則、チョコレートプラネット、辻希美、出川哲朗、中岡創一（ロッチ）、中澤裕子、塩﨑太智（M!LK）です。注目コーナーは、チョコレートプラネットや出川哲朗らが対戦する「大人しりとり」と、浦和学院高校に潜入する「スター発掘×ミセス」です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "テレビ×ミセスに見逃し配信・再放送はありますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TBS系の番組のため、放送終了後にTVerで見逃し配信が行われます（次回放送までの期間限定）。シリーズページはhttps://tver.jp/series/sra5n6j0w3です。放送内容は本ページのコーナー進行・出演順まとめでも確認できます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "「テレビ×ミセス」はどんな番組ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mrs. GREEN APPLEがMCを務めるTBS系のコラボバラエティ番組です。さまざまな人やモノと本気で「コラボ」する企画を軸に構成され、公式ハッシュタグは「#テレビミセス」です。"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://shira-treat.com/terebi-mrs-timetable/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://shira-treat.com/" },
+        { "@type": "ListItem", "position": 2, "name": "音楽番組", "item": "https://shira-treat.com/category/musictv/" },
+        { "@type": "ListItem", "position": 3, "name": "テレビ×ミセス タイムテーブル", "item": "https://shira-treat.com/terebi-mrs-timetable/" }
+      ]
+    }
+  ]
+}
+[/jsonld]
+<!-- /wp:shortcode -->
