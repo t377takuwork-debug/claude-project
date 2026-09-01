@@ -17,3 +17,4 @@ URLの形式：https://note.com/s4lv24/n/[key]
 | 10 | VIVANT和久井は裏切り者なのか、スマホの伏線から考える | https://note.com/s4lv24/n/ncc4d1251efa3 | 無料 | 2026-08-15 |
 | 11 | VIVANTハンが「孤児院」に反応した理由、シンシーの正体とは | https://note.com/s4lv24/n/nfcf9e0881c6f | 無料 | 2026-08-17 |
 | 12 | VIVANT野崎はなぜ裏切ったのか、本物の離反説と偽装説を整理 | https://note.com/s4lv24/n/nd8af7020857c | 無料 | 2026-08-17 |
+| 13 | 乃木とリュウ・ミンシュエンは同一人物？双子説と「同じ顔の理由」を整理（第16話反映） | https://note.com/s4lv24/n/n9274578f13cc | 無料 | 2026-09-02 |
