@@ -22,7 +22,7 @@ Usage:
   [ERROR] メタディスクリプションとJSON-LD descriptionの不一致
   [ERROR] 本文FAQ（Q/Aカード）とJSON-LD FAQPage.mainEntityの件数・文言不一致
   [ERROR] 楽天もしもAFリンクの属性仕様違反（rel/attributionsrc/referrerpolicy/daily-002/インプレッションピクセル）
-  [WARN]  禁止ワード（彩る・飾る・幕を開ける・見せ場・筆頭に・フィナーレを飾る・締めくくる・編集部・集結）
+  [WARN]  禁止ワード（彩る・飾る・幕を開ける・見せ場・筆頭に・フィナーレを飾る・締めくくる・編集部・集結・セクション）
   [WARN]  メタディスクリプション120字超
   [WARN]  <ul style= の使用（WPテーマCSSに上書きされるためdiv推奨）
   [WARN]  wp:imageブロックのalign指定とfigureのclassの不一致（手動修正時のズレ検知）
@@ -74,6 +74,7 @@ BANNED_PATTERNS = [
     (r"を飾る|を飾り(?:ます)?[、。]|を飾った", "「出演する」「初登場する」等に"),
     (r"編集部", "「筆者」「当サイト」に（一人運営のため組織を装わない・2026-07-16追加）"),
     (r"集結", "「出演する」「登場する」「顔ぶれが揃う」等に（2026-07-17追加）"),
+    (r"セクション", "「ここ」「この記事」「〜欄」「〜の見出し」等の日本語に（訳語的でAI文体になりやすい・2026-09-01追加）"),
 ]
 
 # 締め文の主観形容詞（rewrite_common_rules.md 準拠・語幹マッチで「な」なしの形も検出）
@@ -98,6 +99,7 @@ NAV_FIXED_URLS = {
     "レコード大賞": "https://shira-treat.com/record-award-timetable/",
     "紅白歌合戦": "https://shira-treat.com/nhk-kouhaku-timetable/",
     "うたコン": "https://shira-treat.com/utacon-timetable/",
+    "テレビ×ミセス": "https://shira-treat.com/terebi-mrs-timetable/",
 }
 
 # ナビブロックの「自番組」判定用（この番組へのリンクはナビに出てはいけない＝自己参照バグ）
@@ -118,6 +120,7 @@ NAV_SELF_URL_BY_FILENAME = {
     "draft_teretou.txt": NAV_FIXED_URLS["テレ東音楽祭"],
     "draft_utadeaetara.txt": NAV_FIXED_URLS["うたであえたら"],
     "draft_utacon.txt": NAV_FIXED_URLS["うたコン"],
+    "draft_tvmrs.txt": NAV_FIXED_URLS["テレビ×ミセス"],
 }
 
 # JSON-LDの@id/urlが指すべき、この記事自身の正規URL。
@@ -132,6 +135,7 @@ CANONICAL_URL_BY_FILENAME = {
     "draft_teretou.txt": NAV_FIXED_URLS["テレ東音楽祭"],
     "draft_utadeaetara.txt": NAV_FIXED_URLS["うたであえたら"],
     "draft_utacon.txt": NAV_FIXED_URLS["うたコン"],
+    "draft_tvmrs.txt": NAV_FIXED_URLS["テレビ×ミセス"],
 }
 
 # JSON-LDの@id/urlチェックから除外する、記事URLとは別に正当に存在する固定URL

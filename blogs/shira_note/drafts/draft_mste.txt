@@ -717,7 +717,7 @@ M!LK（曽野舜太＆山中柔太朗）「真・運命」★投稿爆発ピー�
 DOMOTO「ジェットコースター・ロマンス」「またね」／21:35頃〜 Kis-My-Ft2「Everybody Go」「My Affection」→Juice=Juice「盛れ！ミ・アモーレ」「クラクラ☆クライマックス」★番組最大ピーク
 </div>
 <div style="padding:10px 14px;background:#f7fafc;border-top:1px solid #edf2f7;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;">
-💡 Kis-My-Ft2×Juice=Juiceの後半セクションが番組全体で最大の投稿ピーク。DOMOTO・M!LKのトークパートも「神回」評価で反応の核になった回。
+💡 Kis-My-Ft2×Juice=Juiceの後半パートが番組全体で最大の投稿ピーク。DOMOTO・M!LKのトークパートも「神回」評価で反応の核になった回。
 </div>
 </div>
 
@@ -909,6 +909,12 @@ DOMOTO「ジェットコースター・ロマンス」「またね」／21:35頃
     <a href="https://shira-treat.com/utacon-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
       <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
         うたコン <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/terebi-mrs-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        テレビ×ミセス <span style="font-size: 14px; margin-left: 6px; color: #ff008d;">›</span>
       </span>
     </a>
 

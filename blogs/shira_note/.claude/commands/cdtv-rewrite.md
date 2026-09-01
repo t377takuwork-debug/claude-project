@@ -57,6 +57,7 @@ CDTVライブ！ライブ！のタイムテーブル記事を最新情報にリ�
 | **ドラフトはアーカイブ以外読まない** | コマンドのGrepマーカーと既知の構造から一意なold_stringを構築してEditする。アーカイブ以外のセクションをReadするのは時間の無駄 |
 | **独立セクションは並行Edit** | 1メッセージに複数のEditを束ねて送信する。old_stringが互いに重複しない場合は競合しない |
 | **ユーザー修正後の確認** | 修正後はsystem-reminderの差分を優先参照し、JSON-LD FAQ整合性など必要箇所のみRead・確認する |
+| **文言差し替えのold_string** | カード説明文・テーブルセル・バッジの文言を差し替えるEditは、`<div style="…clamp…">` などのラッパーごとではなく、**変更する文・セル値そのものだけ**をold_stringにする（長いstyle文字列を記憶から転記するとズレてEdit失敗→やり直しになる。`rewrite_common_rules.md` 9章の具体化） |
 
 ### セクション特定用Grepマーカー（Edit前に行番号を確認）
 
@@ -72,6 +73,94 @@ CDTVライブ！ライブ！のタイムテーブル記事を最新情報にリ�
 | 過去のタイムテーブル一覧 | `カウントダウンTV 過去のタイムテーブル一覧` |
 | FAQ | `よくある質問` |
 | JSON-LD | `MANUAL_JSONLD` |
+
+---
+
+## 繰り返しユニットの雛形（Step 5・8・10で使う。空欄 `{…}` を埋めて貼る）
+
+出演者が総入れ替えの回は、ドラフトからボイラープレートを再構築せず以下を骨格にする（style文字列の手書き転記ミス・Edit失敗を防ぐ）。`&` は `&amp;` にエスケープする。
+
+### 雛形① 出演者カード1枚（Step 5）
+バッジ不要なカードは `<span>` ごと削除する。
+
+```html
+  <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
+    <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
+    <div style="padding:12px;">
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">{アーティスト名} <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">{バッジ｜任意}</span></p>
+      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">{歌唱曲＋一言。「テレビ初披露」等の注記は体言止め}</p>
+    </div>
+  </div>
+```
+
+### 雛形② アーカイブ用フルカード（Step 10。②'退避データの変換先）
+②'（旧「実際の出演順」テーブル）の各 `<tr>` を「アーティスト「曲」/ アーティスト「曲」…」のスラッシュ連結にして19時台・20時台の2セルへ流し込む。最も投稿が伸びた枠だけ黄色 `<span>` にする。
+
+```html
+<!-- wp:heading {"level":3} -->
+<h3>CDTV YYYY年M月D日のタイムテーブル</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div role="region" aria-label="CDTV YYYY年M月D日タイムテーブル" style="font-family:'Inter','Helvetica Neue',Arial,sans-serif;margin:20px 0;background:#0b0b0c;border:1px solid #222;border-radius:6px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.5);">
+<div style="height:3px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
+<div style="padding:12px 14px;background:#111;border-bottom:1px solid #222;">
+<div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 360), 12px);font-weight:900;color:#f9ff00;letter-spacing:.08em;">TIME TABLE</div>
+<div style="font-size:13px;font-weight:900;color:#fff;">出演順・盛り上がり実績（YYYY年M月D日放送{／3時間スペシャル等あれば}）</div>
+</div>
+<div>
+<div style="display:flex;border-bottom:1px solid #222;">
+<div style="width:95px;background:#0f0f10;padding:14px 10px;text-align:center;border-right:1px solid #222;">
+<div style="font-size:13px;font-weight:900;color:#ff00ea;">19:00〜</div>
+<div style="font-size:9px;font-weight:700;color:#aaa;margin-top:2px;">前半</div>
+</div>
+<div style="flex:1;padding:14px 14px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ddd;line-height:1.7;">
+{アーティスト「曲」/ アーティスト「曲」/ …}
+</div>
+</div>
+<div style="display:flex;">
+<div style="width:95px;background:#0f0f10;padding:14px 10px;text-align:center;border-right:1px solid #222;">
+<div style="font-size:13px;font-weight:900;color:#ff00ea;">20:00〜</div>
+<div style="font-size:9px;font-weight:700;color:#aaa;margin-top:2px;">後半</div>
+</div>
+<div style="flex:1;padding:14px 14px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ddd;line-height:1.7;">
+{アーティスト「曲」/ …}<br>
+<span style="color:#f9ff00;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);">{最も投稿が伸びた枠だけ黄色で}</span>
+</div>
+</div>
+</div>
+<div style="padding:10px 14px;background:#0f0f10;border-top:1px solid #222;font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);font-weight:700;color:#bbb;line-height:1.6;">
+💡 {2〜3文の振り返り。初披露・初パフォーマンス・投稿が集中した枠に触れる}
+</div>
+</div>
+<!-- /wp:html -->
+```
+
+### 雛形③ details内コンパクト1エントリ（Step 10）
+先頭エントリの `<h3>` は `margin:10px 0 6px`、2枚目以降は `margin:18px 0 6px`。
+
+```html
+<h3 style="margin:{10px 0 6px｜先頭}｜{18px 0 6px｜2枚目以降};font-size:14px;font-weight:900;color:#fff;">YYYY年M月D日のタイムテーブル</h3>
+<div style="border:1px solid #222;border-radius:6px;overflow:hidden;margin:14px 0;background:#0b0b0c;">
+<div style="height:3px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
+<div style="padding:14px 16px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:700;color:#ddd;line-height:1.8;">
+19:00台〜<br>
+{アーティスト「曲」/ …}<br><br>
+20:00台〜<br>
+{アーティスト「曲」/ …}
+</div>
+</div>
+```
+
+### 雛形④ 実際の出演順テーブルの1行（Step 8）
+`template_cdtv_static.txt` の骨格に流し込む行ユニット。時間帯ラベルは通常2時間回=`20:00〜20:55（後半）`、3時間SP=`20:00〜22:00（後半）`。
+
+```html
+                    <tr><td bgcolor="#111111" border="1">
+                        <font color="#ffffff" size="2"><b>HH:MM頃：{アーティスト名}</b></font><br>
+                        <font color="#ff008d" size="2">「{曲名}」（{初披露・演出・投稿が伸びた等の備考｜任意}）</font>
+                    </td></tr>
+```
 
 ---
 
@@ -212,7 +301,7 @@ H2タイトルの日付（例：`【6/1】`）を更新する。
 
 H2タイトルの日付を更新する。
 
-**アーティストカードグリッド**の各カードを最新の出演者・楽曲に差し替える。
+**アーティストカードグリッド**の各カードを最新の出演者・楽曲に差し替える。出演者が総入れ替えの回は**雛形①**（「## 繰り返しユニットの雛形」）を骨格にし、カード数の増減もここで行う。
 
 | カード要素 | 更新内容 |
 |---|---|
@@ -252,7 +341,7 @@ H2タイトルの日付を更新する。
 
 **放送前は直前回（資料②）のデータを暫定掲載する。**
 
-tableタグ形式で19時台・20時台の出演順を記載する。
+tableタグ形式で19時台・20時台の出演順を記載する。骨格は `template_cdtv_static.txt` のBLOCK 1、1行ユニットは**雛形④**（「## 繰り返しユニットの雛形」）を使う。`&` は `&amp;` にエスケープする。
 
 ```html
 CDTVライブ！ライブ！YYYY年MM月DD日 放送出演順
@@ -288,16 +377,21 @@ TVer URL（変更の場合のみ差し替え）：`https://tver.jp/series/sr2cbx
 
 | 操作 | 内容 |
 |---|---|
-| 追加 | 手順1②'で退避した「上書き前の実際の出演順」データをフルカード形式でH3として先頭に追加（資料②のデータではない） |
+| 追加 | 手順1②'で退避した「上書き前の実際の出演順」データを**雛形②**のフルカード形式でH3として先頭に追加（資料②のデータではない） |
 | 維持 | 2回前の回はH3フルカードのまま維持 |
-| 移動 | 3回前の回を `<details>` 折りたたみブロックの先頭に移動（コンパクト形式に変換） |
+| 移動 | 3回前の回を `<details>` 折りたたみブロックの先頭に移動（**雛形③**のコンパクト形式に変換） |
 | 削除 | `<details>` 内で最も古い回を削除 |
+
+**②'→フルカードの変換レシピ**：実際の出演順テーブルの各 `<tr>`（`HH:MM頃：アーティスト`＋`「曲」備考`）を「アーティスト「曲」/ アーティスト「曲」…」のスラッシュ連結にまとめ、19時台=前半セル・20時台=後半セルへ流し込む。`&` は `&amp;` にエスケープ。最も投稿が伸びた1枠だけ黄色 `<span>`。3時間SP回でも前半／後半の2セルに集約する（21時台も後半セルへ）。💡欄は初披露・初パフォーマンス・投稿集中枠に触れた2〜3文。
 
 **フルカード形式**（19時台・20時台の2ブロック構成）を `<details>` 内のコンパクト形式（19:00台〜・20:00台〜の箇条書き）に変換する。
 
 **完了後セルフチェック**：過去一覧の新規追加カードの放送日と、実際の出演順テーブル（手順8）の放送日が同じになっていないかGrepで確認する（同じ日付が2箇所に出ていたら②'と資料②の取り違え）。
 
-**月別アーカイブリンク**（「5月のアーカイブは以下に掲載しています。」の箇所）は、月が変わった場合にリンク先URLとテキストを更新する。
+**月別アーカイブリンク**（「◯月のアーカイブは以下に掲載しています。」の箇所）：
+- **導入文の月・アンカーテキストの月・リンク先URLのスラッグ（`cdtv-2026july` 等）の3点を必ず一致させる**（過去に導入文だけ前月のまま残った実例あり）
+- 指すべき月＝`<details>` から押し出されて今回削除した最古の回の月（＝月次アーカイブ記事に集約済みの月）
+- その月の月次アーカイブ記事（`draft_cdtv_archive.txt` 側）がまだ公開されていない場合はリンクを現状維持し、リライト報告で「◯月分アーカイブ記事の公開状況」をユーザーに確認する
 
 ---
 
@@ -372,6 +466,8 @@ Q1〜Q4の質問・回答を今回の出演者・見どころに合わせて書�
 
 - 保存方法：`C:\Users\PC_User\claude project\blogs\shira_note\drafts\draft_cdtv.txt` をEditで差分更新（Write全体上書きは使用しない）
 - 構造化データはJSON-LDブロックをEditで一括差し替え（WordPressのカスタムHTML欄に貼り付けて使用）
+- 検品：`python tools/qa_draft.py draft_cdtv.txt`（チャットでは `/shira-qa draft_cdtv.txt`）。**引数はbasenameのみ**（`drafts/` 付き・フルパスは `drafts/drafts/…` と解決されて失敗する）。ERROR 0件・新規WARN 0件（終了コード0）を確認してから完了報告する
+- **前回出演者の残存チェック**：前回ラインナップのアーティスト名を数語Grepし、ヒットが「実際の出演順」テーブルと「過去のタイムテーブル一覧」内だけであることを確認する（最新回セクション＝タイムテーブル予想・出演者カード・出演時間の目安・順番の傾向・FAQ・まとめ・JSON-LD に旧出演者が残っていないか。qa_draft の日付分布INFOは日付のみで人名は見ないため手動で行う）
 
 ### SEOチェックリスト（保存後に実施）
 

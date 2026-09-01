@@ -28,6 +28,7 @@
 | `/utadeaetara-rewrite` | NHK夏の音楽祭 うたであえたら（NHK・年1回特番） | `.claude/commands/utadeaetara-rewrite.md` |
 | `/utacon-rewrite` | うたコン（NHK総合・定期番組） | `.claude/commands/utacon-rewrite.md` |
 | `/24tv-rewrite` | 24時間テレビ（日本テレビ・年1回特番） | `.claude/commands/24tv-rewrite.md` |
+| `/tvmrs-rewrite` | テレビ×ミセス（TBS・月曜・コラボバラエティ／ハイブリッド型） | `.claude/commands/tvmrs-rewrite.md` |
 | `/shira-qa` | 全番組共通・ドラフト検品（リライト後必須） | `.claude/commands/shira-qa.md` |
 | `/shira-keyword-article` | キーワード起点の新規テーマ記事（番組タイムテーブル速報とは別枠） | `.claude/commands/shira-keyword-article.md` |
 | `/shira-release-article` | CD/DVD等リリース記事（予約・購入導線特化、1リリース＝1記事） | `.claude/commands/shira-release-article.md` |
@@ -61,6 +62,7 @@
 | 音楽の日 ダンスバトル（DREAMダンス） | `draft_dancebattle.txt` |
 | うたコン | `draft_utacon.txt` |
 | 24時間テレビ | `draft_24tv.txt` |
+| テレビ×ミセス | `draft_tvmrs.txt` |
 
 保存先：`drafts/` フォルダ（`C:\Users\PC_User\claude project\blogs\shira_note\drafts\`）
 
