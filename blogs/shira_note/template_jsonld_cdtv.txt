@@ -1,6 +1,6 @@
 # CDTV JSON-LD テンプレート
 # ALL_CAPS の箇所を毎回差し替える。それ以外は固定。
-# FAQPage の Q&A は記事本文と一字一句一致させること（3問）。
+# FAQPage の Q&A は記事本文と一字一句一致させること（6問：Q1〜Q4はプレースホルダー、Q5・Q6は固定質問でプレースホルダーなし。2026-09-03更新）。
 
 ## プレースホルダー一覧
 
@@ -19,7 +19,9 @@
 | N_ARTISTS | 出演者総数（整数） | 8 |
 | FAQ_Q1 / FAQ_A1 | Q1の質問文・回答文（本文と完全一致） | |
 | FAQ_Q2 / FAQ_A2 | Q2の質問文・回答文（本文と完全一致） | |
+| FAQ_Q3 / FAQ_A3 | Q3の質問文・回答文（本文と完全一致） | |
 | FAQ_Q4 / FAQ_A4 | Q4の質問文・回答文（本文と完全一致） | |
+| （Q5・Q6は固定文のためプレースホルダーなし） | 下記JSON内に直接記載済み | |
 
 ---
 
@@ -37,7 +39,7 @@
       "description": "META_DESCRIPTION",
       "articleSection": "タイムテーブル",
       "keywords": [
-        "CDTV", "CDTV タイムテーブル", "カウントダウンTV", "CDTVライブ！ライブ！",
+        "CDTV", "CDTV タイムテーブル", "カウントダウンTV", "CDTVライブ！ライブ！", "今日",
         "出演者", "出演順", "歌唱曲", "DATE_ISO_TAG",
         ARTIST_KEYWORDS
       ],
@@ -136,8 +138,29 @@
         },
         {
           "@type": "Question",
+          "name": "FAQ_Q3",
+          "acceptedAnswer": { "@type": "Answer", "text": "FAQ_A3" }
+        },
+        {
+          "@type": "Question",
           "name": "FAQ_Q4",
           "acceptedAnswer": { "@type": "Answer", "text": "FAQ_A4" }
+        },
+        {
+          "@type": "Question",
+          "name": "CDTVとは何の略ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CDTVはCOUNT DOWN TV（カウントダウンTV）の略称で、正式名称は『CDTVライブ！ライブ！』。TBS系列で毎週生放送されている音楽番組です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "カウントダウンTV(CDTV)の今日の出演者・タイムテーブルはどこで確認できますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "このページで随時更新しています。放送日の出演順が判明次第、当ページの「実際の出演順」欄に反映します。"
+          }
         }
       ]
     },

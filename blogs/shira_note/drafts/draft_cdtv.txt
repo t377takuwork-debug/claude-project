@@ -1,7 +1,7 @@
 <!-- wp:paragraph -->
 タイトル：【CDTV】タイムテーブル 9月7日速報！出演順・出演時間をリアルタイム更新
-メタディスクリプション（106字）：
-CDTVライブ！ライブ！（カウントダウンTV）9月7日タイムテーブルを速報更新！CORTISが日本の音楽番組初パフォーマンス、福山雅治は2週連続出演で新曲「邂逅」。出演順・登場時間の目安をリアルタイムで随時追記。
+メタディスクリプション（103字）：
+CDTVライブ！ライブ！（カウントダウンTV）今日が気になる方へ、9月7日分を速報更新！CORTISが日本の音楽番組初パフォーマンス、福山雅治は2週連続出演。出演順・登場時間の目安をリアルタイムで随時追記。
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -9,7 +9,7 @@ CDTVライブ！ライブ！（カウントダウンTV）9月7日タイムテー
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>『CDTVライブ！ライブ！』の出演順や歌唱曲を、当日の放送と連動しながらどこよりも早くお届け。</p>
+<p>『CDTVライブ！ライブ！』の出演順や歌唱曲を、今日のタイムテーブルが気になる方に向けて、当日の放送と連動しながらどこよりも早くお届け。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -378,6 +378,10 @@ CDTVライブ！ライブ！（カウントダウンTV）9月7日タイムテー
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
+<p>今日の出演者は誰だったか確認したい方は、以下の実際の出演順をご覧ください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
 <p>※前回（8月31日）の放送出演順を掲載中です。</p>
 <!-- /wp:paragraph -->
 
@@ -736,6 +740,18 @@ Number_i「BUGS LIFE」/ 乃木坂46「是非に及ばず」/ ≠ME「愛くだ�
 </div>
 </div>
 
+<div style="position:relative;background:#111;border:1px solid #222;border-radius:4px;padding:14px;overflow:hidden;">
+<div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
+<div style="display:flex;gap:10px;margin-bottom:10px;">
+<span style="background:#fff;color:#000;font-size:10px;font-weight:900;padding:2px 6px;transform:skewX(-15deg);">Q6</span>
+<p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">カウントダウンTV(CDTV)の今日の出演者・タイムテーブルはどこで確認できますか？</p>
+</div>
+<div style="display:flex;gap:10px;border-top:1px solid #222;padding-top:10px;">
+<span style="color:#ff008d;font-size:12px;font-weight:900;">A</span>
+<p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.7;font-weight:700;">このページで随時更新しています。放送日の出演順が判明次第、当ページの「実際の出演順」欄に反映します。</p>
+</div>
+</div>
+
 </div>
 </div>
 <!-- /wp:html -->
@@ -867,10 +883,10 @@ Number_i「BUGS LIFE」/ 乃木坂46「是非に及ばず」/ ≠ME「愛くだ�
       "@id": "https://shira-treat.com/cdtv-timetable/#article",
       "url": "https://shira-treat.com/cdtv-timetable/",
       "headline": "【CDTV】タイムテーブル 9月7日速報！出演順・出演時間をリアルタイム更新",
-      "description": "CDTVライブ！ライブ！（カウントダウンTV）9月7日タイムテーブルを速報更新！CORTISが日本の音楽番組初パフォーマンス、福山雅治は2週連続出演で新曲「邂逅」。出演順・登場時間の目安をリアルタイムで随時追記。",
+      "description": "CDTVライブ！ライブ！（カウントダウンTV）今日が気になる方へ、9月7日分を速報更新！CORTISが日本の音楽番組初パフォーマンス、福山雅治は2週連続出演。出演順・登場時間の目安をリアルタイムで随時追記。",
       "articleSection": "タイムテーブル",
       "keywords": [
-        "CDTV", "CDTV タイムテーブル", "カウントダウンTV", "CDTVライブ！ライブ！",
+        "CDTV", "CDTV タイムテーブル", "カウントダウンTV", "CDTVライブ！ライブ！", "今日",
         "出演者", "出演順", "歌唱曲", "2026-09-07",
         "CORTIS", "SixTONES", "絢香", "福山雅治", "T.M.Revolution", "テレビ初披露"
       ],
@@ -1005,6 +1021,14 @@ Number_i「BUGS LIFE」/ 乃木坂46「是非に及ばず」/ ≠ME「愛くだ�
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "CDTVはCOUNT DOWN TV（カウントダウンTV）の略称で、正式名称は『CDTVライブ！ライブ！』。TBS系列で毎週生放送されている音楽番組です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "カウントダウンTV(CDTV)の今日の出演者・タイムテーブルはどこで確認できますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "このページで随時更新しています。放送日の出演順が判明次第、当ページの「実際の出演順」欄に反映します。"
           }
         }
       ]
