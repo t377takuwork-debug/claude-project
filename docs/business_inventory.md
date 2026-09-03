@@ -31,7 +31,7 @@
 
 | # | 業務 | エントリポイント | 完了条件 | QA・検品 |
 |---|---|---|---|---|
-| I1 | MBTICODE Note記事生成 | `/note-article mbticode [テーマ]` | `brands/mbticode/articles/drafts/` へ保存済み＋`qa_article.py` ERROR 0件 | `brands/tools/qa_article.py`（機械）→`/quality-guardrail`（LLM） |
+| I1 | MBTICODE Note記事生成 | `/note-article mbticode [テーマ]` | `brands/mbticode/articles/drafts/` へ保存済み＋`qa_article.py` ERROR 0件 | `brands/tools/qa_article.py`（機械）→`note-ai-reviewer` 審査 PASS 必須（LLM・`note_review_rubric.md`） |
 | I2 | junk_juice テーマ・タイトル設計 | `/junk-theme` | テーマ・タイトル確定 | － |
 | I3 | junk_juice 記事生成（クライアント） | `/junk-article` | `Junk314/junk_juice/articles/drafts/` へ保存済み | 有料記事は `Junk314/junk_juice/rules/feedback_junk_paid_article.md` のチェックリスト最低15項目 |
 | I4 | s4lv Note記事・X/Threads投稿 | `brands/s4lv/rules/`（文体・プロセス一式） | X投稿は `/post-review` チェック済み | 反響設計図（`rules/feedback_s4lv_x_post.md`） |

@@ -13,13 +13,13 @@
 2b. 保存後に機械検品: `python brands/tools/qa_article.py "<draftパス>"`（有料記事は `--paid`）→ **ERROR 0件必須**
 3. テーマの優先順位は `brands/mbticode/rules/project_mbticode_article_themes.md` に従う
 4. 保存先: `brands/mbticode/articles/drafts/`
-5. `/quality-guardrail` でAIっぽさを添削する
+5. `note-ai-reviewer` サブエージェントに審査させ、`## 審査結果: PASS` が出るまで本文をユーザーに提示しない（`/note-article` Step 4.5。採点基準は `brands/writing/note_review_rubric.md`、文体の定義は `writing_tone.md`。`/quality-guardrail` はSNS投稿用でありNote記事には使わない。2026-09-04）。手動で審査だけ回すときは `/note-shinsa <パス>`
 
 ## 手順（s4lv）
 
 1. プロセス定義: `brands/s4lv/rules/project_s4lv_note_article_process.md`（無料記事7ステップ・有料記事3フェーズ・タイトル95点基準・公開日プロモ導線）
 2. プロフィール・実績: `brands/s4lv/shared/personal_data.md`＋アカウント別 `profile.md`
-3. ライティング原則: `brands/writing/writing_core.md` を起点に4ファイル
+3. ライティング原則: `brands/writing/writing_core.md` を起点に5ファイル（`writing_tone.md` の共通核＋s4lv上書きを含む）
 
 ## 必ず守るルール
 

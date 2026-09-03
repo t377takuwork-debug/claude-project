@@ -12,14 +12,18 @@
   1. AI定型表現（どのアカウントの文体でも使わない語）… ERROR
   2. AIっぽさの兆候（要人間判断）… WARN
   3. 構造・保存先・文字数 … WARN / INFO
+  4. フレームワーク用語の本文流入（感情トリガー等の制作側用語）… WARN
+  5. 過去記事との言い回し重複（同アカウントの既存記事コーパスと照合）… WARN
+  6. 同一記事内の重複（同じ文・言い直しが2回以上）… WARN
 
 ルールの出典（変更時は出典を先に更新し本スクリプトを追従させる）:
   - .claude/commands/quality-guardrail.md（禁止表現の考え方）
   - brands/s4lv/rules/project_s4lv_note_article_process.md（AI臭さ除去3軸・——禁止・字数基準）
-  - brands/writing/writing_core.md（PASONA導入・CTA具体化）
+  - brands/writing/writing_core.md（PASONA導入・CTA具体化・AI臭さ除去の章＝層4〜6の出典）
   - Junk314/junk_juice/rules/feedback_junk_paid_article.md（有料記事基準）
 """
 import argparse
+import os
 import re
 import sys
 
@@ -43,6 +47,7 @@ WARN_PATTERNS = [
     ("ai-konoyouni", r"このように、", "説明の要約フレーズの疑い"),
     ("ai-ikagadeshou", r"いかがでしょうか", "問いかけの定型の疑い"),
     ("number-setsu", r"\d+(\.\d+)?[%％]説", "「数字＋説」表現の疑い（2026-08-01、vivant新庄考察記事でユーザー指摘。論点を名付けた表現に置き換え推奨）"),
+    ("gimonbun-kutouten", r"(ませんか|でしょうか|んですか|ますか|ですか)。", "疑問文は「か。」でなく「か？」を使う（2026-09-03、s4lvタイトル診断記事でユーザー指摘。writing_core.md 句読点ルール）"),
 ]
 
 # 層3: Note貼り付け時に崩れる記法（WARN・2026-07-09 s4lvトレンドブログ記事の実修正から追加）
@@ -55,9 +60,118 @@ NOTE_PASTE_WARN_PATTERNS = [
     ("note-bold-percent", r"%\*\*", "「%」の直後に太字マーカーはNote貼り付けで太字が反映されない可能性（2026-08-01、新庄考察記事で確認）。`**95**%`のように%を太字の外に出す"),
 ]
 
+# 層4: フレームワーク用語の本文流入（WARN・2026-09-03 ユーザー指摘）
+# 記事を「作る側」の分析用語が読者向け本文に出ると、設計図が透けてAIっぽくなる。
+# 平易な言葉に言い換える。対象は本文（ヘッダー除去後）のみ。
+AI_JARGON_WARN = [
+    ("ai-jargon-kanjo-trigger", r"感情トリガー", "「感情トリガー」は制作側の用語。『思わず反応してしまう言葉』等の平易な表現に言い換える"),
+    ("ai-jargon-saigensei", r"再現性シグナル", "「再現性シグナル」は制作側の用語。『誰でも同じ手順で再現できると伝わる書き方』等に言い換える"),
+    ("ai-jargon-benefit", r"ベネフィット", "「ベネフィット」→『読者にとっての得』『読むと何が変わるか』に言い換える"),
+    ("ai-jargon-hook", r"フック(?!アップ)", "「フック」→『続きを読みたくなる仕掛け』に言い換える"),
+    ("ai-jargon-persona", r"ペルソナ", "「ペルソナ」→『想定読者』『こういう人』に言い換える"),
+    ("ai-jargon-pasona", r"PASONA|パソナの法則", "型の名前（PASONA等）を本文に出さない"),
+    ("ai-jargon-cta", r"(?<![A-Za-z])CTA(?![A-Za-z])", "「CTA」→『行動の呼びかけ』または具体的な依頼文に言い換える"),
+    ("ai-jargon-keni", r"権威性", "「権威性」→『信頼できる根拠』『実績』に言い換える"),
+    ("ai-jargon-moura", r"網羅性", "「網羅性」→『抜けなく揃っている』に言い換える"),
+    ("ai-jargon-sokuji", r"即時性", "「即時性」→『すぐに』『今日から』に言い換える"),
+    ("ai-jargon-engage", r"エンゲージメント", "「エンゲージメント」→『反応』『いいねや保存』に言い換える"),
+    ("ai-jargon-fw", r"フレームワーク|(?<![A-Za-z])FW(?![A-Za-z])", "「フレームワーク」「FW」→『考え方の型』『手順』に言い換える"),
+]
+
+# 層7: 文体・トーン（WARN・2026-09-04 writing_tone.md 1-1）。
+# 4番目の要素は「このパス片を含むアカウントでは検知しない」（None=全アカウント）。
+TONE_WARN_PATTERNS = [
+    ("tone-omoimasu", r"と思います|と感じています|と思っています", "「〜と思います／感じています」は使わない。推量は「〜はず」「たぶん〜」（writing_tone 1-1）", None),
+    ("tone-shimashou", r"しましょう|していきましょう", "「〜しましょう」のセミナー講師口調。呼びかけは「〜してみてください」まで（writing_tone 1-1）", None),
+    ("tone-section", r"セクション", "「セクション」は本文で使わない→「ここ」「この記事」「〜欄」「〜一覧」（writing_tone 1-1）", None),
+    ("tone-desune", r"ですね[。？]", "「〜ですね」の相槌語尾（writing_tone 1-1。vivantは可）", "/vivant/"),
+]
+
+# 層5-6用: 過去記事コーパスの所在（対象ファイルのパスから判定）
+CORPUS_MAP = [
+    ("/s4lv/", ["brands/s4lv/drafts"]),
+    ("/mbticode/", ["brands/mbticode/articles/published", "brands/mbticode/articles/drafts"]),
+    ("/junk_juice/", ["Junk314/junk_juice/articles/published", "Junk314/junk_juice/articles/drafts"]),
+    ("/vivant/", ["vivant/articles/published", "vivant/articles/drafts"]),
+]
+SHINGLE_LEN = 20  # この文字数の連続一致を「同じ言い回し」とみなす（数字はマスクして比較）
+_DIGIT_RE = re.compile(r"[0-9０-９]+")
+
+# 層5で重複を報告しない「意図的に共通化している定型ブロック」（末尾の謝辞・更新履歴の断り書き・
+# 有料記事の購入者保証・プロフィール署名など）。ここに載る語を含む文はコーパス一致してもスキップする。
+# アカウント運用で新しい定型を足したらここに1行追加する。
+CROSS_DUP_IGNORE = [
+    "最後までお読みいただき",
+    "追加料金なしで",
+    "随時アップデート",
+    "随時更新",
+    "ご購入いただいた方",
+    "本記事は", "免責", "情報は執筆時点",
+    "恋愛の設計局",
+    "この記事の内容は",
+]
+
 
 def sentences(text):
     return [s.strip() for s in re.split(r"[。！？!?]", text) if s.strip()]
+
+
+def normalize_for_compare(s):
+    """空白除去＋連続数字を0に潰す（「7曲」「12曲」の違いを同一視して言い回しの重複を拾う）。"""
+    return _DIGIT_RE.sub("0", re.sub(r"\s+", "", s))
+
+
+def strip_for_compare(text):
+    """比較対象から外す行（見出し・引用・URL・箇条書き記号のみの行）を落とす。"""
+    out = []
+    for line in text.splitlines():
+        st = line.strip()
+        if not st or st.startswith("#") or st.startswith(">") or st.startswith("```"):
+            continue
+        if "http" in st or "note.com" in st:
+            continue
+        out.append(st.lstrip("-・*　 "))
+    return "\n".join(out)
+
+
+def load_corpus_files(target_file):
+    """対象アカウントの既存記事ファイル一覧（対象ファイル自身は除く）。"""
+    norm = target_file.replace("\\", "/")
+    if not norm.startswith("/"):
+        norm = "/" + norm  # 先頭ディレクトリ（vivant/ 等）も "/vivant/" で拾えるように
+    tgt_abs = os.path.abspath(target_file)
+    dirs = []
+    for key, ds in CORPUS_MAP:
+        if key in norm:
+            dirs = ds
+            break
+    files = []
+    for d in dirs:
+        if not os.path.isdir(d):
+            continue
+        for fn in sorted(os.listdir(d)):
+            if fn.endswith(".md") and os.path.abspath(os.path.join(d, fn)) != tgt_abs:
+                files.append(os.path.join(d, fn))
+    return files
+
+
+def build_shingle_index(files):
+    """コーパス全文の SHINGLE_LEN 文字シングル → 初出ファイル名 の辞書。"""
+    idx = {}
+    for p in files:
+        try:
+            with open(p, encoding="utf-8") as fh:
+                t = normalize_for_compare(strip_for_compare(fh.read()))
+        except OSError:
+            continue
+        name = os.path.basename(p)
+        for i in range(len(t) - SHINGLE_LEN + 1):
+            idx.setdefault(t[i:i + SHINGLE_LEN], name)
+    return idx
+
+
+def char_ngrams(s, n=4):
+    return {s[i:i + n] for i in range(max(0, len(s) - n + 1))}
 
 
 def main():
@@ -97,6 +211,14 @@ def main():
         else:
             run, prev = 1, tail
 
+    # 読点過多チェック（1文に読点3つ以上 → 過剰読点の疑い。2026-09-03、s4lvタイトル診断記事でユーザー指摘。writing_core.md 句読点ルール）
+    text_noheading = re.sub(r"^#.*$", "", text, flags=re.M)
+    for m in re.finditer(r"[^。！？\n]*[。！？]", text_noheading):
+        sent = m.group(0)
+        if sent.count("、") >= 3:
+            line_no = text_noheading[:m.start()].count("\n") + 1
+            warns.append(f"[WARN] L{line_no} kutouten-kajou: 1文に読点{sent.count('、')}個（目安2つまで。読点を削るか文を分割する）（「{sent.strip()[:40]}...」）")
+
     # 構造チェック
     # ヘッダーは「作成日：〜Noteタグ：」の後に単独の「---」区切り行が1本のみ（前後ペア形式ではない）。
     # 旧・正規表現(^---.*?---)は先頭が"---"で始まる前提で壊れており、ヘッダーが本文に混入していた（2026-08-01修正）。
@@ -135,6 +257,71 @@ def main():
     norm = args.file.replace("\\", "/")
     if "/articles/" not in norm:
         warns.append("[WARN] save-location: 保存先が articles/ 配下ではない（drafts保存ルール）")
+
+    # 層4: フレームワーク用語の本文流入（本文＝ヘッダー除去後のみ対象）
+    for code, pat, msg in AI_JARGON_WARN:
+        for m in re.finditer(pat, body):
+            line_no = text[:body_start + m.start()].count("\n") + 1
+            warns.append(f"[WARN] L{line_no} {code}: {msg}（「{m.group(0)}」）")
+
+    # 層7: 文体・トーン（writing_tone.md 1-1。アカウント除外あり）
+    norm_slash = norm if norm.startswith("/") else "/" + norm
+    for code, pat, msg, skip in TONE_WARN_PATTERNS:
+        if skip and skip in norm_slash:
+            continue
+        for m in re.finditer(pat, body):
+            line_no = text[:body_start + m.start()].count("\n") + 1
+            warns.append(f"[WARN] L{line_no} {code}: {msg}（「{m.group(0)}」）")
+
+    # 層5: 過去記事との言い回し重複（同アカウントの既存記事コーパスと照合）
+    corpus_files = load_corpus_files(args.file)
+    if not corpus_files:
+        infos.append("[INFO] cross-article-dup: 既存記事コーパスが見つからずスキップ（対象アカウントの articles/drafts・published に .md がない）")
+    else:
+        sh_idx = build_shingle_index(corpus_files)
+        seen = set()
+        for raw in sentences(strip_for_compare(body)):
+            if any(ig in raw for ig in CROSS_DUP_IGNORE):
+                continue
+            ns = normalize_for_compare(raw)
+            if len(ns) < SHINGLE_LEN:
+                continue
+            for i in range(len(ns) - SHINGLE_LEN + 1):
+                src = sh_idx.get(ns[i:i + SHINGLE_LEN])
+                if src:
+                    key = (raw[:24], src)
+                    if key not in seen:
+                        seen.add(key)
+                        warns.append(f"[WARN] cross-article-dup: 過去記事「{src}」と{SHINGLE_LEN}字以上一致する言い回し（「{raw.strip()[:45]}…」）。表現を作り直す")
+                    break
+
+    # 層6: 同一記事内の重複（同じ文・言い直しが2回以上）
+    body_sents = [s.strip() for s in sentences(strip_for_compare(body)) if len(normalize_for_compare(s)) >= 12]
+    norm_sents = [normalize_for_compare(s) for s in body_sents]
+    counts = {}
+    for n in norm_sents:
+        counts[n] = counts.get(n, 0) + 1
+    done = set()
+    for orig, n in zip(body_sents, norm_sents):
+        if counts[n] >= 2 and n not in done:
+            done.add(n)
+            warns.append(f"[WARN] intra-dup-exact: 同じ文が記事内で{counts[n]}回（「{orig[:45]}…」）。1回に減らすか言い換える")
+    grams = [(char_ngrams(n), body_sents[i]) for i, n in enumerate(norm_sents) if 20 <= len(n) <= 200]
+    near_done = set()
+    for a in range(len(grams)):
+        ga, oa = grams[a]
+        if not ga or len(near_done) >= 10:
+            continue
+        for b in range(a + 1, len(grams)):
+            gb, ob = grams[b]
+            if not gb or normalize_for_compare(oa) == normalize_for_compare(ob):
+                continue
+            inter = len(ga & gb)
+            if inter and inter / len(ga | gb) >= 0.70:
+                pk = tuple(sorted((oa[:24], ob[:24])))
+                if pk not in near_done:
+                    near_done.add(pk)
+                    warns.append(f"[WARN] intra-dup-near: 記事内で同じ内容を言い直している疑い（「{oa[:35]}…」 ≒ 「{ob[:35]}…」）")
 
     # vivant専用：冒頭注意書きのblockquote化チェック（2026-08-01追加。vivant-article.md「冒頭の注意書き」ルール準拠）
     if "/vivant/" in norm or norm.startswith("vivant/"):
