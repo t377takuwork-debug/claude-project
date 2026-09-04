@@ -493,6 +493,20 @@ S4LV_AI_TELL_ERRORS = [
     ("ai-yobousen", r"個人差があります|一概には言えません", "責任回避の予防線禁止（AI感・s4lv）"),
 ]
 
+# 1行目に説明なしで置くと読者を選別してしまう符丁（2026-09-04追加・WARN専用・広めの初期辞書）
+# 出典：feedback_s4lv_threads_writing_style.md「専門用語・符丁の扱い」。誤検知が多ければ辞書を削る
+S4LV_HOOK_JARGON = [
+    "allintitle", "参入判定", "撤退判定", "共起語", "ファーストビュー", "一次情報",
+    "ドメインパワー", "ドメイン評価", "被リンク", "インデックス", "クローズド案件",
+    "サチコ", "サーチコンソール", "Search Console", "SERP", "カニバリ",
+    "E-E-A-T", "YMYL", "サジェスト", "ロングテール", "ずらし",
+]
+# 死にやすい書き出し（2026-09-04追加・WARN専用・1行目のみ判定）
+S4LV_DEAD_OPENERS = [
+    "方法をまとめました", "まとめてみました", "学びをシェア", "知らないと損",
+    "保存推奨", "拡散希望", "皆さんこんにちは", "みなさんこんにちは",
+]
+
 
 def check_s4lv_post(post, platform):
     f = []
@@ -508,6 +522,17 @@ def check_s4lv_post(post, platform):
         f.append(Finding("ERROR", post["label"], "x-url", "本文にURL禁止（URLはリプライ欄・s4lv）"))
     for code, pattern, message in S4LV_AI_TELL_ERRORS:
         check_regex(f, post, "ERROR", code, pattern, message)
+    # 1行目のフックチェック（2026-09-04追加・Threadsのみ・WARN）
+    if platform == "threads" and not post["is_reply"]:
+        first = (nonempty_lines(body) or [""])[0]
+        hit = next((t for t in S4LV_HOOK_JARGON if t in first), None)
+        if hit:
+            f.append(Finding("WARN", post["label"], "hook-jargon",
+                             f"1行目に符丁「{hit}」（説明なしで置かない・2行目以降で平易な言い換え＋実例に）"))
+        dead = next((t for t in S4LV_DEAD_OPENERS if t in first), None)
+        if dead:
+            f.append(Finding("WARN", post["label"], "dead-opener",
+                             f"1行目が死にやすい書き出し「{dead}」（予告・あいさつ・煽り定型）"))
     # 短文羅列のAI感（ヒューリスティック）
     run = 0
     for s in sentences(body):
@@ -530,6 +555,25 @@ def check_s4lv_file(posts, findings):
     if all_body.count("また別の機会") >= 2:
         findings.append(Finding("WARN", "バッチ全体", "jikai-yudo",
                                 "次回誘導フレーズが2回以上（1日1回まで・s4lv）"))
+    # 書き出しフレーズの反復検知（2026-09-04追加・mbticodeのopener-phrase-repeatと同型）
+    # 1行目冒頭の同一フレーズ（読点/句点/？まで、なければ先頭8文字）が絶対数3本以上でWARN。
+    opener_phrases = {}
+    for p in posts:
+        if p["is_reply"] or not p["date"]:
+            continue
+        lines = nonempty_lines(p["body"])
+        if not lines:
+            continue
+        first = lines[0].strip()
+        m = re.match(r"^(.+?[、。？?])", first)
+        phrase = m.group(1) if m else first[:8]
+        if len(phrase) >= 3:
+            opener_phrases.setdefault(phrase, []).append(p["label"])
+    for phrase, labels in opener_phrases.items():
+        if len(labels) >= 3:
+            findings.append(Finding("WARN", "バッチ全体", "s4lv-opener-repeat",
+                                    f"書き出し「{phrase}」が{len(labels)}本で一致"
+                                    "（テンプレ構文は同一バッチ2本まで）: " + " / ".join(labels)))
 
 
 # ---------------------------------------------------------------- main
