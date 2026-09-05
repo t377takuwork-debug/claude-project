@@ -17,6 +17,7 @@
 | コマンド | 対象番組・記事 | 手順ファイル |
 |---|---|---|
 | `/mste-rewrite` | ミュージックステーション | `.claude/commands/mste-rewrite.md` |
+| `/mste-research` | Mステ リライト用の資料①②リサーチ（資料が渡されなかった回のみ／`/mste-rewrite` から呼ばれる） | `.claude/commands/mste-research.md` |
 | `/mste-archive-rewrite` | ミュージックステーション（月次アーカイブ記事） | `.claude/commands/mste-archive-rewrite.md` |
 | `/cdtv-rewrite` | CDTVライブ！ライブ！（タイムテーブル速報） | `.claude/commands/cdtv-rewrite.md` |
 | `/cdtv-archive-rewrite` | CDTVライブ！ライブ！（月次アーカイブ記事） | `.claude/commands/cdtv-archive-rewrite.md` |
@@ -256,15 +257,28 @@ New-ScheduledTaskAction -Execute 'C:\Windows\System32\wscript.exe' `
 - 窓の非表示化にS4U（`-LogonType S4U`）は使わない（管理者昇格が必要でAccess denied。wscript＋`run_hidden.vbs` で代替済み）
 - `run_hidden.vbs` はASCIIのみで書く（WSHはANSIとして読むため、UTF-8日本語コメントが化けて構文を壊す）
 
-## JSON-LD 出演者データ生成ツール
+## JSON-LD 生成ツール
 
-### 実行方法
+### Mステ記事：JSON-LDブロック丸ごと生成（`/mste-rewrite` 手順14）
+
+```
+python tools/build_mste_jsonld.py --sample > tools/output/mste_jsonld_input.json  # 入力雛形
+python tools/build_mste_jsonld.py tools/output/mste_jsonld_input.json              # 完成ブロック生成
+```
+
+放送日・出演者・FAQ5問を入力JSONに書くと、`<!-- wp:shortcode -->` 〜 `<!-- /wp:shortcode -->` を含む
+JSON-LDブロック（BlogPosting/BroadcastEvent/ItemList/FAQPage/BreadcrumbList）を stdout に出す。
+出力をドラフト末尾のJSON-LDブロックへEditで丸ごと貼り替える。headline/description⇔メタ、FAQPage⇔本文FAQ の
+一字一句一致が構造的に保証される。詳細は `.claude/commands/mste-rewrite.md` 手順14。
+
+### 出演者フラグメント生成（Mステ以外の番組・汎用）
 
 ```
 python tools/generate_jsonld.py artists.txt   # ファイル入力
 python tools/generate_jsonld.py               # 標準入力（空行2連続で終了）
 ```
 
+mentions / performer 配列・itemListElement 配列・keywords 文字列などの断片のみ生成する。
 チャットでは「JSON-LD生成して」「出演者リストからJSON-LD作って」と依頼するだけでよい。
 
 ### 出演者リストの書き方ルール（AIへの渡し方）

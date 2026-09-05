@@ -22,6 +22,14 @@ Mステ（ミュージックステーション）のタイムテーブル記事�
 ### その他
 - アイキャッチ画像URL（構造化データ（JSON-LD）に反映）
 
+---
+
+## 手順0：資料が渡されなかった場合のリサーチ
+
+資料①（または資料①②とも）が渡されず「Mステのリライトをして」とだけ依頼された回は、本編（手順1以降）に入る前に **`mste-research.md`（`.claude/commands/` 直下）** の手順でリサーチし、`tools/output/mste_material.md` にユーザー承認済みの資料①②をまとめてから手順1へ進む。**資料が渡された回はこの手順をスキップ**し、渡されたデータをそのまま使う（従来どおりの挙動）。
+
+---
+
 ### 資料①が「出演者未発表」の場合
 
 次回放送の出演者がまだ発表されていない状態でリライトを依頼された場合（資料②のみ提供・資料①なし）、以下の方針で進める。
@@ -68,7 +76,7 @@ Mステ（ミュージックステーション）のタイムテーブル記事�
 | 原則 | 内容 |
 |---|---|
 | **WriteしないでEditする** | 変更箇所のみEditで差分更新。Write（全体上書き）は使用しない |
-| **初回の読み込み** | **全面リライト**（資料①で出演者が総入れ替えになる通常運用）は、着手時に `draft_mste.txt` を**全文Read 1回**で取得する（Grepマーカー→部分Readの反復はしない）。全体が文脈にあるほうがEditの `old_string` を転記でき、閉じタグずれ等のEdit失敗が減る。**部分更新のみの回**（プレースホルダー化・アーカイブパネルのみ差し替え等）は下の「セクション特定用Grepマーカー」で必要箇所だけRead。ユーザー手動編集の検証は従来どおり `git diff` 優先（全文Readしない） |
+| **初回の読み込み** | **全面リライト**（資料①で出演者が総入れ替えになる通常運用）は、着手時に `draft_mste.txt` を**通しでRead**する（`draft_mste.txt` は約1,100行＝トークン上限で1コールに収まらないため、`offset` を変えた**2コール**で全体を読む。例：1-700 / 701-末尾）。Grepマーカー→部分Readの往復はしない。全体が文脈にあるほうがEditの `old_string` を転記でき、閉じタグずれ等のEdit失敗が減る。**部分更新のみの回**（プレースホルダー化・アーカイブパネルのみ差し替え等）は下の「セクション特定用Grepマーカー」で必要箇所だけRead。ユーザー手動編集の検証は従来どおり `git diff` 優先（全文Readしない） |
 | **静的セクションはスキップ** | 見逃し配信・ナビゲーション/アフィリエイトブロックはRead・Edit不要（ドラフトの既存ブロックをそのまま維持する。`template_mste_static.txt` はバックアップ参照用） |
 | **ショートコードは独立ブロック** | `[nopc][title]`・`[nopc][mokujimae]`・`[nopc][originalsc]` はそれぞれ独立した `<!-- wp:paragraph -->` ブロックに分割する |
 | **ユーザー修正後の確認** | system-reminderの差分 → 無ければ`git diff drafts/draft_mste.txt`（PowerShell）を優先参照し、JSON-LD FAQ整合性など必要箇所のみRead・確認する（全文Readは最終手段。詳細は`rewrite_common_rules.md` 9章） |
@@ -99,7 +107,9 @@ Grep パターン: タイトル：Mステ|aria-label=|ARTIST LINEUP|SETLIST|ARCH
 
 ### 1. ファイル準備
 
-**全面リライトの場合**：着手時に `draft_mste.txt` を全文Read 1回（「作業方針」の「初回の読み込み」）。下記①③のデータはこの全文Readの中に含まれるので、個別のGrep→Readは不要。②（YouTube）だけは別途WebFetchする。
+資料が渡されず手順0でリサーチした場合は、**ユーザー承認済みの `tools/output/mste_material.md`** を資料①②として使う（承認前に手順1へ進まない）。
+
+**全面リライトの場合**：着手時に `draft_mste.txt` を通しでRead（「作業方針」の「初回の読み込み」＝offsetを変えた2コール）。下記①③のデータはこのReadに含まれるので、個別のGrep→Readは不要。②（YouTube）だけは別途WebFetchする。大きな挿入・削除の後は下流のセクションで行番号が大きくずれるため、記憶した行番号を信じず必要箇所を再ReadしてからEditする。
 **部分更新のみの場合**：①③を下記のGrep→Readで個別取得する。②も実施する。
 
 **① 直前回ドラフトの「過去のタイムテーブル一覧」（部分更新時のみ Grep → Read）**
@@ -116,10 +126,7 @@ Grep パターン: "SETLIST" または "ARCHIVE"
 ```
 取得目的：このアーカイブパネルの中身は**今回の資料②ではなく、今回の資料②で上書きされる「前々回」のデータ**。手順10で過去一覧のdetails先頭に追加するのはこの③のデータであり、資料②（今回アーカイブパネルに新しく入れるデータ）ではない。**③と資料②を取り違えないこと**（2026-07-18 Mステ7/24回でユーザー指摘により明文化。過去一覧に資料②の日付を入れてしまい、アーカイブパネルと内容が重複する誤りが発生した）。
 
-**② WebFetch で YouTube 最新動画URL を取得（RSSフィード経由・全面/部分どちらでも実施）**
-- `https://www.youtube.com/feeds/videos.xml?channel_id=UCStFsybJM6SjDFvcacVcanw`
-- チャンネルページ（`/videos`一覧URL）は動的レンダリングのためWebFetchでは中身が取得できないことが多い。RSSフィードは静的XMLで確実に取得できるため、必ずこちらを使う。
-- 取得後、先頭（最新）エントリの `yt:videoId` を動画IDとして使用する。
+**② YouTube 最新動画URL を取得**（全面/部分どちらでも実施）── 手順は **手順9「YouTube最新動画URL取得手順」** に一本化。RSSフィードを WebFetch → 先頭エントリの `yt:videoId` を使う。
 
 ---
 
@@ -200,9 +207,11 @@ Mステ（M月DD日）タイムテーブルを速報更新！{最大注目ポイ
 **【SEO】** 「トリの予測」は断言調で書く（「〜の可能性があります」より「〜が最有力」）。検索者は答えを求めており、曖昧な表現は離脱につながる。根拠は主観形容詞ではなく「過去の放送での配置傾向」などの事実で短く添える。
 
 ### 8. H2：実際の出演順【放送後更新】
-**放送前は直前回（資料②）のアーカイブデータを暫定掲載する。**
-アーカイブパネル内の日付・出演者・タイムライン・REPORTを直前回の情報に差し替える。
-放送後にリアルタイムで今回の実データに書き換える運用。
+手順0で取得した**資料②（直前回）**をこのアーカイブパネルに反映する（日付・MAIN CAST・タイムライン・REPORT・UPDATED日）。
+- タイムラインは資料②の登場順・時間帯をそのまま。**ヘッジ表現（「Xからの推定」「推定困難」等）は本文に書かない**（ユーザー指示 2026-09-06）。分単位が無い組は時間帯を丸める（「21:35頃」等）。
+- REPORT欄は資料②の反響（投稿が伸びた瞬間・話題の核）を**事実の要約として**1段落で。
+- フッターのラベルは `COMPILED FROM BROADCAST & SNS REPORTS`（`&` は `&amp;`）。
+- 資料②が未取得（Chrome不可等）の回のみ、前回どおり直前回の発表ラインナップを暫定掲載し「実際の出演順は放送後更新」とする。
 
 ### 9. H2：見逃し配信・再放送はある？
 
@@ -261,58 +270,40 @@ Q1〜Q4の質問・回答を今回の出演者に合わせて書き換える。*
 
 ---
 
-### Edit の並列実行グループ
+### Edit の実行順
 
-Edit は以下のグループに分けて並列実行することでターン数を削減する。
-
-**第1バッチ（同時実行）：**
-手順2（タイトル・メタ）／手順3（aside・締め文）／手順4（タイムテーブル）／手順5（ARTIST）／手順6（出演時間予測）／手順7（順番の傾向）／手順8（アーカイブ）／手順9（YouTube URL）／手順10（過去一覧）／手順11（FAQ）／手順12（まとめ）
-
-**第2バッチ（第1バッチ完了後）：**
-手順14（JSON-LD）← FAQ確定テキストと一字一句一致させるため最後に実行
+- 初回の通しRead（作業方針参照）で全体を文脈に入れたら、手順2〜12を**上から順にEdit**する。`old_string` は Read 結果からそのまま転記する（記憶や手打ちで再現しない）。
+- 1メッセージで複数Editを並列に出してよいのは、`old_string` が**互いに重複しない**と確信できるとき（例：タイトル行とJSON-LD、離れたH2どうし）。同じHTMLブロック内の近接した書き換えは、行ズレで `old_string` を取り違えやすいので**1つずつ順に**出す。Editが失敗したら該当箇所を再Readしてから再試行。
+- **手順14（JSON-LD）は最後**に実行（FAQ・メタの確定テキストと一字一句一致させるため）。
 
 ---
 
 ### 14. 構造化データ（JSON-LD）の更新
 
-ドラフトファイル末尾のJSON-LDを以下のルールで更新する。
+**JSON-LDブロックは手打ちで組み直さず、`tools/build_mste_jsonld.py` で丸ごと生成する。** これで headline/description⇔メタ、FAQPage⇔本文FAQ の一字一句一致が構造的に保証される（従来ここで一番Edit失敗が多かった）。
 
-#### 差し替え箇所
+#### 手順
 
-| 項目 | 更新内容 |
-|---|---|
-| `headline` | タイトル（WordPressタイトル欄と同じ文字列） |
-| `description` | メタディスクリプションと同じ文字列 |
-| `dateModified` | 記事作成・更新日時（ISO形式：YYYY-MM-DDTHH:MM:SS+09:00） |
-| `image` / `thumbnailUrl` | 今回のアイキャッチ画像URLに更新 |
-| `mentions` / `performer` | 出演者をMusicGroup/Person型のJSON配列で列挙 |
-| BroadcastEvent `name` | 「ミュージックステーション（YYYY年MM月DD日放送）」に更新 |
-| BroadcastEvent `description` | 今回の放送説明文に更新 |
-| BroadcastEvent `startDate` / `endDate` | 放送日時（ISO形式）に更新 |
-| ItemList `name` | 「YYYY年MM月DD日 Mステ出演者と歌唱曲一覧」に更新 |
-| ItemList `numberOfItems` | 出演者数に更新 |
-| ItemList `itemListElement` | 出演者を最新に更新 |
-| FAQPage `mainEntity` | 記事本文のQ&Aと**一字一句一致**させる（Q1〜Q4は今回の内容で更新、Q5は固定文のまま維持。計5問） |
-| `keywords` 配列 | 固定6語：`"Mステ タイムテーブル", "ミュージックステーション タイムテーブル", "Mステ 出演順", "Mステ 曲順", "Mステ {年}", "Mステ {月日}"`。放送日部分のみ更新し、他は書き換えない |
+1. `python tools/build_mste_jsonld.py --sample > tools/output/mste_jsonld_input.json` で雛形を出す（初回のみ。以降は前回の入力を上書き）。
+2. 入力JSONを埋める。**FAQ5問とメタは、手順2・11で本文へ確定させたものと同じ文字列をコピペする**（別々に書かない）。
+   - `title` / `meta_description` … 手順2で確定した文字列
+   - `image_url` … 事前確認済みアイキャッチURL（未提供なら現ドラフトの値を維持）
+   - `date_modified` … 記事更新日（`YYYY-MM-DD` だけでも可＝12:00:00補完）
+   - `broadcast_date` / `start_time` / `end_time` … 手順0で確定した放送枠
+   - `special_edition` … 特別編成名（通常回は `null`）
+   - `artists` … 発表順（五十音順）。`type` は省略可（`MusicGroup`/`Person` 自動判定・要確認は警告）
+   - `lineup_order` … 出演順予想の並び（手順4のタイムテーブルと揃える）
+   - `faq` … 本文Q1〜Q5と同じ5問（Q5は固定文）
+3. `python tools/build_mste_jsonld.py tools/output/mste_jsonld_input.json` を実行し、stdout の `<!-- wp:shortcode -->` 〜 `<!-- /wp:shortcode -->` を**ドラフト末尾のJSON-LDブロックへEditで丸ごと貼り替える**（1回のEdit）。
+4. stderr の `[OK]` 行と、後段の `python tools/qa_draft.py draft_mste.txt`（メタ⇔JSON-LD・本文FAQ⇔FAQPage の同期チェック）で検証する。
 
-#### 固定箇所（変更不要）
+#### スクリプトが固定で埋める項目（入力不要）
 
-- `datePublished` / `dateCreated`：2025-11-17T00:00:00+09:00（固定）
-- `author` / `publisher`
-- `about`（Mステ番組情報）
-- `BreadcrumbList`
+`datePublished`（2025-11-17T18:00:00+09:00）／`author`／`publisher`／`articleSection`／`about`／`keywords`（放送日のみ差し替え）／`BroadcastEvent` の `location`・`organizer`・`eventStatus` 等／`BreadcrumbList` 全体。
 
-#### アーティストの型判定
+#### スクリプトを使わない場合（フォールバック）
 
-| 区分 | 型 |
-|---|---|
-| グループ・バンド | `{ "@type": "MusicGroup", "name": "アーティスト名" }` |
-| ソロ（個人名） | `{ "@type": "Person", "name": "アーティスト名" }` |
-
-#### 注意事項
-
-- アイキャッチ画像URLは事前確認済みのものを使用する
-- FAQのQ&A文は記事本文と**一字一句一致**させる（Googleの整合性チェック対策）
+`build_mste_jsonld.py` が使えないときのみ手Edit。その場合の差し替え箇所は headline / description / dateModified / image / mentions / performer / BroadcastEvent name・description・startDate・endDate / ItemList name（`YYYY年M月D日 Mステ出演者一覧`）・numberOfItems・itemListElement / FAQPage mainEntity（本文と一字一句一致・計5問） / keywords の放送日部分。型判定は グループ・バンド→`MusicGroup`／ソロ個人名→`Person`。
 
 ## 保存・確認
 
