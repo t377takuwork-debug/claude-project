@@ -20,6 +20,7 @@
 | `/mste-research` | Mステ リライト用の資料①②リサーチ（資料が渡されなかった回のみ／`/mste-rewrite` から呼ばれる） | `.claude/commands/mste-research.md` |
 | `/mste-archive-rewrite` | ミュージックステーション（月次アーカイブ記事） | `.claude/commands/mste-archive-rewrite.md` |
 | `/cdtv-rewrite` | CDTVライブ！ライブ！（タイムテーブル速報） | `.claude/commands/cdtv-rewrite.md` |
+| `/cdtv-research` | CDTV リライト用の資料①②リサーチ（資料が渡されなかった回のみ／`/cdtv-rewrite` の手順0から呼ばれる） | `.claude/commands/cdtv-research.md` |
 | `/cdtv-archive-rewrite` | CDTVライブ！ライブ！（月次アーカイブ記事） | `.claude/commands/cdtv-archive-rewrite.md` |
 | `/star-rewrite` | STAR（フジテレビ） | `.claude/commands/star-rewrite.md` |
 | `/musicday-rewrite` | THE MUSIC DAY（日本テレビ・年1回特番） | `.claude/commands/musicday-rewrite.md` |
