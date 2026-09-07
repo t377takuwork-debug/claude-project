@@ -2,7 +2,7 @@
 
 s4lv統一アカウント（X @cfrms4lv／Threads @cfrms4lv）の投稿を生成する。旧Threads @s4lv24は運用終了・vivant用に転用済み（`brands/s4lv/rules/project_s4lv_accounts.md`「旧アカウント」参照）。
 
-**体制**：X 1日3本（手動運用・2026-09-07に2本→3本へ増量。推奨投稿時刻 JST＝朝7:30〜8:00／昼12:15／夜20:45。夜枠が最重要、朝枠が最弱。唯一の正は `brands/s4lv/rules/project_s4lv_operation_system.md`「投稿量」）・Threads 1日3本（07:30/12:00/21:30・自動投稿キュー運用。2026-08-21確定、詳細は `brands/s4lv/tools/threads_setup_guide.md`「開始前の決定事項」）。コンテンツ2本柱（型・思想6割／AI実働4割）の最新定義は `brands/s4lv/rules/project_s4lv_accounts.md` を参照（本ファイルには重複記載しない）。
+**体制**：X 1日3本（手動運用・2026-09-07に2本→3本へ増量。推奨投稿時刻 JST＝朝7:30〜8:00／昼12:15／夜20:45。夜枠が最重要、朝枠が最弱。唯一の正は `brands/s4lv/rules/project_s4lv_operation_system.md`「投稿量」）・**Threads は本数可変（2026-09-07 Threads運用プレイブック）＝通常1日1本／切替日2本／返信安定で2〜3本。枠は07:30/12:00/21:30。本数・3本条件・誘導リンク全廃・1行目ルールの唯一の正は `brands/s4lv/sns_post_cheatsheet.md`「Threads 本数と3本条件」**（基盤詳細は `brands/s4lv/tools/threads_setup_guide.md`）。コンテンツ2本柱（型・思想6割／AI実働4割）の最新定義は `brands/s4lv/rules/project_s4lv_accounts.md` を参照（本ファイルには重複記載しない）。
 
 ---
 
@@ -19,7 +19,7 @@ s4lv統一アカウント（X @cfrms4lv／Threads @cfrms4lv）の投稿を生成
 ### 1. 定型バッチで読む該当媒体ファイル
 
 - **X**：`rules/feedback_s4lv_x_writing_style.md`（文体OS・唯一の正）／`x_neta_daicho.md` の使うK/A項目／（誘導回のみ）`articles/note_article_index.md`／必要なら `examples_x_posts.md`
-- **Threads**：`rules/feedback_s4lv_threads_writing_style.md`（文体OS・唯一の正）／`x_neta_daicho.md` の使うK/A項目（AI実働は `ai_work_log.md` 確認済みでも可）／（誘導回のみ）`articles/note_article_index.md`
+- **Threads**：**`rules/threads_post_generation_rules.md`（生成の実務・唯一の正。これ1本＋台帳の使うK/A項目で足りる）**／`x_neta_daicho.md` の使うK/A項目（AI実働＝柱2 A項目）。※フォロワー100までは note_article_index の誘導チラ見せは使わない。細かい文体判断・生成後の自己レビューが要るときだけ `rules/feedback_s4lv_threads_writing_style.md`
 
 ### 2. 深掘りが要るときだけ全文Read
 
@@ -39,20 +39,21 @@ s4lv統一アカウント（X @cfrms4lv／Threads @cfrms4lv）の投稿を生成
    - **推奨投稿時刻（X・毎回必須）**：`project_s4lv_operation_system.md`「投稿量」の3枠から割り当てる——朝7:30〜8:00／昼12:15／夜20:45（21時ピーク直前予約）。**一番強い1本を夜枠に**。朝枠は3つの中で最弱なので、軽め・短めの型・思想を置く。土日は朝枠を10:30へずらす。Threadsは07:30/12:00/21:30固定（キュー運用）なので時刻の割り当ては不要X投稿は他アカウントへのリプライで露出を稼ぐ設計にしない（未フォロー同士の返信・RTは候補から除外される）。
    - **Xの型・思想枠／AI実働枠は `x_neta_daicho.md`（柱1 K項目／柱2 A項目）からネタを起こす**。投稿案に「元ネタ＝台帳 K◯／A◯」を明記。台帳の「事実」欄の範囲外（＝創作）を書かない。台帳「候補」欄のネタはユーザー確認前は使わない
    - **Xの Note誘導回（週1本目安）は `note_article_index.md` の章別チャプターから概念チラ見せ**（自己完結の手法投稿は台帳K項目、記事へ誘導する概念チラ見せは note_article_index、と役割を分ける）。誘導する記事は「直近X誘導日」が空欄または最古を選ぶ。**有料記事は概念のチラ見せまで**（キーワード選定ルール・記事構成テンプレのテキスト直接開示はしない。2026-08-21マネタイズ設計原則）。投稿案に「元記事＋どの章の小出しか」を明記
-   - Threadsの型・思想枠は`note_article_index.md`の「適合判定＝合う」記事を優先してネタを起こす（小出し設計。CTAなしのテーマ借用が基本）。**投稿案には「元記事＋どの小見出しの小出しか」を必ず明記する**（記事に無い話・創作を書かないための追跡）
-   - **ThreadsのAI実働枠は `brands/s4lv/x_neta_daicho.md` 柱2（A項目）から起こす**（旧 `ai_work_log.md` A/B は台帳 A1/A2 に統合済み・当面残置）。投稿案に「元ネタ＝台帳 A◯」を明記。使えるネタが無ければ型・思想枠の小出しで埋める（「Claude Codeに◯◯を渡している」等を推測で書かない）。新しい作業を使いたい場合は先にユーザーへ「今も動いているか／公開してよいか」を確認し、確認できたら台帳の「候補」欄から本欄へ移す
-   - **週3本中1本は「リプライ狙い」を必須**とし、締めを「経験で即答できる・現在の習慣をそのまま聞く問い」にする（`feedback_s4lv_threads_writing_style.md`「締め」参照）。残り2本はCTAまたは根拠つきの断定で閉じる
-   - Note誘導CTA（自己リプライ欄）は週3本中1本を目安に、`note_article_index.md`の「直近Threads誘導日」が空欄または最古の記事を選ぶ
+   - **Threadsの型・思想枠は `brands/s4lv/x_neta_daicho.md` 柱1（K項目）から起こす**（フォロワー100までは `note_article_index.md` の誘導チラ見せは使わない・2026-09-07プレイブック）。投稿案に「元ネタ＝台帳 K◯」を明記。台帳「事実」欄の範囲外（＝創作）を書かない
+   - **ThreadsのAI実働枠は `brands/s4lv/x_neta_daicho.md` 柱2（A項目）から起こす**（旧 `ai_work_log.md` は台帳 A1/A2 へ統合し2026-09-07に廃止）。投稿案に「元ネタ＝台帳 A◯」を明記。使えるネタが無ければ型・思想枠の小出しで埋める（「Claude Codeに◯◯を渡している」等を推測で書かない）。新しい作業を使いたい場合は先にユーザーへ「今も動いているか／公開してよいか」を確認し、確認できたら台帳の「候補」欄から本欄へ移す
+   - **Threadsの生成は `rules/threads_post_generation_rules.md` を開いて従う（唯一の正）**。要点：①1投稿ごとに役割（失敗談／知見／現場メモ）を先に決め、同じ骨格を3本続けない ②1行目は指摘・職歴で開かない＝現場か具体事実。「〜してないですか？」型は週1本まで（`qa_post.py` `th-shitenai-opener`）。「10年」等は1行目に置かず2文目・週2本まで ③誘導リンク全廃（本文も自己リプもURLなし・`qa_post.py` `th-url` がERROR）④問いで閉じるのは失敗談の回だけ（1バッチ2本前後）。知見は言い切り・現場メモは短く終わる ⑤自己リプは毎回付ける（例外／内訳／自分の抜け／技術的な詰まり のどれか1つ・本文の結論を繰り返さない）。AI実働の自己リプを毎回「エラーも出ず動かない」型にしない ⑥本数は通常1〜2本／世話できる日だけ3本
+   - 出力は `threads_post_generation_rules.md`「出力フォーマット」の形（【役割】【狙い】【1行目の仕事】【本文】【自己リプ】【チェック】）で出す
 
 2. **Step 2：群全体チェック**（同日・同バッチ内）
-   - 170万PVの言及は1回以内か
-   - Note誘導は1本以内か（URLは本文に入れずリプライ欄）
+   - 実績語（10年・170万・検索1〜5位）は週2回まで・1日の投稿群では1回以内か
+   - **Threads：本文・自己リプライに外部URLがないか（フォロワー100まで誘導全廃）**。X：Note誘導は週1本目安・URLは本文でなくリプライ欄
+   - **Threads：3本出す日は3本の文法が違うか（現場メモ・知見・失敗談）。1行目が指摘・問いかけで開いていないか。「〜してないですか？」型は週1本まで**
    - 複数投稿が同じトーン・フックになっていないか
    - 週単位で2本柱の比率（6:4）から大きく外れていないか
    - AI（Claude Code等）の話は**進行形表現のみ**（「再現する過程」「テスト運用中」）。完了形の実績断定は禁止
 
 3. **Step 3：本文生成**
-   ユーザーOK後に生成。X・Threadsで文体OSを切り替える（Threadsに X の硬さを持ち込まない）。Threadsは`feedback_s4lv_threads_writing_style.md`「反響を生む型」（フック・箇条書き・障壁除去・想定反論・CTA）を適用する。
+   ユーザーOK後に生成。X・Threadsで文体OSを切り替える（Threadsに X の硬さを持ち込まない）。Threadsは`rules/threads_post_generation_rules.md`（生成実務・唯一の正）に従い、詳細な文体判断は`feedback_s4lv_threads_writing_style.md`「反響を生む型」を参照する。
 
 3.5. **Step 3.5a：自己レビュー（X・必須・2026-09-06追加）**
    生成後、保存前に`feedback_s4lv_x_writing_style.md`の以下2セクションを確認する。`qa_post.py`のAI感禁止リストは語彙レベルの検知にとどまり、これらは拾えないため必ず人間の目で確認する（2026-09-06、新2軸フレームワーク初回バッチでユーザーに2回指摘され追加）：

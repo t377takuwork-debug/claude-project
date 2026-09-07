@@ -14,17 +14,18 @@ type: project
 
 | 項目 | 権限ファイル |
 |---|---|
-| 本数・投稿時刻 | `rules/project_s4lv_operation_system.md`「投稿量」 |
+| 本数・投稿時刻（X） | `rules/project_s4lv_operation_system.md`「投稿量」 |
+| **Threads生成の実務ルール（役割・1行目・型ローテ・自己リプ・問い・本数・出力形式）** | **`rules/threads_post_generation_rules.md`（唯一の正・システムプロンプト型）** |
+| Threads の詳細文体リファレンス（AI感禁止リスト・句読点・⭕見本・修正見本1〜6） | `rules/feedback_s4lv_threads_writing_style.md` |
 | 2本柱の定義・比率・アイデンティティ原則 | `rules/project_s4lv_accounts.md` |
 | X文体（フック・本文・締め・禁止・数値の使い方） | `rules/feedback_s4lv_x_writing_style.md` |
 | X反響設計（A/B 2軸）・確定構造 | `rules/feedback_s4lv_x_post.md` |
-| Threads文体（フック・符丁・実績・締め・句読点・自己リプライ） | `rules/feedback_s4lv_threads_writing_style.md` |
-| ネタ元（型・思想＝K項目／AI実働＝A項目） | `x_neta_daicho.md` |
-| AI実働ネタの確認済みログ | `ai_work_log.md`（当面残置。台帳A項目が本体） |
+| Threads文体の詳細（語尾・句読点・専門用語・数字・連続スレッド機構・語彙・絵文字・文字数） | `rules/feedback_s4lv_threads_writing_style.md` |
+| ネタ元（型・思想＝K項目／AI実働＝A項目・唯一の正） | `x_neta_daicho.md`（旧 `ai_work_log.md` は2026-09-07に統合廃止） |
 | Note誘導のネタ源・ローテーション | `articles/note_article_index.md` |
 | 実績数値・開示ルール | `shared/personal_data.md` |
 | 対象読者ペルソナ（3軸） | `rules/project_s4lv_persona.md` |
-| Good/Bad見本 | `examples_x_posts.md`（X）／Threads見本は文体OS末尾の⭕見本 |
+| Good/Bad見本 | `examples_x_posts.md`（X）／Threadsは `rules/threads_post_generation_rules.md`「見本」（⭕完成形＋修正見本1〜6） |
 
 ---
 
@@ -33,13 +34,15 @@ type: project
 | 媒体 | 本数 | 投稿時刻(JST) | 補足 |
 |---|---|---|---|
 | X（@cfrms4lv・手動） | 1日3本 | 朝7:30〜8:00／昼12:15／夜20:45 | 夜枠が最重要・一番強い1本を夜に。朝枠が最弱＝軽め短めの型・思想。土日は朝を10:30へ。投稿後15分以内に自分で返信。前の投稿の会話が落ち着いてから次を出す（author diversity減衰の回避） |
-| Threads（@cfrms4lv・自動キュー） | 1日3本 | 07:30／12:00／21:30（固定・時刻割当不要） | キュー投入は `tools/queue_from_posts.py <file> "M/D " …`。時刻超過分は投入されないので当日午前分は繰り越す |
+| Threads（@cfrms4lv・自動キュー） | **可変・通常1〜2本／世話できる日3本**（下記「Threads 運用値」） | 07:30／12:00／21:30（使う枠だけ） | キュー投入は `tools/queue_from_posts.py <file> "M/D " …`。時刻超過分は投入されないので当日午前分は繰り越す |
 
-- **2本柱比率**：型・思想6：AI実働4（週単位で守る。3日バッチなら型5〜6：AI3〜4が目安）
-- **Note誘導**：週3本中1本目安。URLは本文に入れず自己リプライ欄。「また別の機会に」等の次回誘導も1日1回まで
-- **170万PV言及**：1日の投稿群で1回まで
-- **他アカウントへのリプライで露出を稼ぐ設計はしない**（未フォロー同士の返信・RTは候補から除外）
-- **AI実働は進行形のみ**（「再現する過程」「テスト運用中」）。完了形の実績断定は禁止。丸投げしていない点（判断は自分）を必ず添える
+### Threads 運用値（役割ローテ・1行目・自己リプ・問い・見本の唯一の正＝`rules/threads_post_generation_rules.md`）
+
+- 枠 07:30／12:00／21:30。**通常1日1〜2本／世話できる日だけ3本**・同じ文法の3本は出さない・間隔30〜60分（5〜10分連投禁止）
+- **2本柱比率**：型・思想6：AI実働4（週単位。3日バッチなら型5〜6：AI3〜4が目安）
+- Note誘導・本文/自己リプの外部URLは**フォロワー100まで全廃**（noteはプロフィール欄のみ）。実績語（10年・170万・検索1〜5位）は週2まで・1行目に置かない
+- 他アカウントへのリプライで露出を稼ぐ設計はしない（未フォロー同士の返信・RTは候補から除外）
+- AI実働は進行形のみ・丸投げしていない点（判断は自分）を必ず添える
 
 ## 開示ルール（1行版・詳細は personal_data.md）
 
@@ -59,9 +62,9 @@ type: project
 5. 誘導回（週1目安）は note_article_index の章の概念チラ見せ。自己完結の手法投稿は台帳K項目、と役割を分ける。有料記事は概念のチラ見せまで（キーワード選定ルール・記事構成テンプレのテキスト直接開示はしない）
 
 ### Threads（媒体＝threads）
-6. **週3本中1本は「リプライ狙い」**：締めを「経験で即答できる・現在の習慣をそのまま聞く問い」にする。残り2本はCTAまたは根拠つき断定で閉じる
-7. 型・思想枠は note_article_index の「適合＝合う」記事の小見出しから小出し。AI実働枠は台帳A項目（または ai_work_log 確認済み）から
-8. 自己リプライを原則1本：80〜200字の「2つ目の山」（具体例・例外・崩れる条件・現場の一手）。本文は単体で完結させる。「続きはリプで」型のぶつ切り禁止
+6. **`rules/threads_post_generation_rules.md` を開いて従う（唯一の正）**。要点だけ：1投稿ごとに役割（失敗談／知見／現場メモ）を先に決める・同じ骨格を3本続けない／1行目は指摘・職歴で開かない・「〜してないですか？」は週1本まで（`qa_post.py` `th-shitenai-opener`）／問いで閉じるのは失敗談の回だけ／自己リプは毎回「2つ目の山」1つ・URLなし・本文の結論を繰り返さない・AI実働の自己リプを同型にしない
+7. ネタ元は台帳K/A項目のみ・「事実」欄の範囲外＝創作は書かない・**誘導チラ見せ（note_article_index）はフォロワー100まで不使用**
+8. 出力は gen_rules「出力フォーマット」の形（【役割】【狙い】【1行目の仕事】【本文】【自己リプ】【チェック】）
 
 ---
 
@@ -78,15 +81,11 @@ type: project
 - 数値：手法・判断・現状と同じ文か隣接1文に置く。トロフィー数字（170万PV等）は1日1回・本文中盤のみ・やり方とセット。単独フック/威圧はNG
 - 本文にURL・ハッシュタグ禁止。140字以内（テスト運用基準）
 
-### Threads（`feedback_s4lv_threads_writing_style.md`）
-- **わかりやすさ最優先**。曖昧な比喩より直接的な言い方。抽象語の前に「何の話か」を置く。主語を省かない
-- 1行目＝**読者の"今"**（普段の行動・癖を平易な言葉で）。著者の回想で始めない。符丁を1行目に置かない。答えを言い切らない
-- 符丁（allintitle・参入判定・ずらし・一次情報等）：2行目以降で平易な言い換え→用語＋一般語の実例で1回だけ固定
-- 主張・チェック項目が2つ以上＝箇条書き（・）。短い段落を積む
-- 言い切りは多用しない。「〜んです」「〜んですよね」等の親しみ語尾を混ぜる
-- 実績：進行形／本文ルールと矛盾しない範囲に限定／卑下しない
-- 数字使用可（personal_data記載のもの・1投稿の主役数値は1つ）
-- 締め：週3本中1本を問いで。問いは「現在の習慣をそのまま聞く」。今すぐ調べさせる問い・presuppose失敗の問い・「どう思いますか？」は禁止
+### Threads
+**立ち位置・合格ライン・1行目・型ローテ・自己リプ・問い・見本＝`rules/threads_post_generation_rules.md`。細かい文体判断・生成後レビュー＝`feedback_s4lv_threads_writing_style.md`。** 生成前に前者を開く。両方に載っていない cheatsheet 固有の要点だけ再掲：
+- 符丁（allintitle・ずらし・一次情報等）：2行目以降で平易な言い換え→用語＋一般語の実例で1回だけ固定。1行目には置かない
+- 主張・チェック項目が2つ以上＝箇条書き（・）。言い切りは多用せず「〜んです」等の親しみ語尾を混ぜる
+- 数字は personal_data 記載のもの・1投稿の主役数値は1つ
 - 記号：二重引用符で語を囲まない・ダッシュ禁止・疑問文は「？」・**1文の読点は目安2つまで**
 - 文字数：説得型150〜300字／短い型80字〜
 
@@ -106,9 +105,11 @@ type: project
 | x-url / x-hashtag | X本文のURL・ハッシュタグ | ERROR |
 | meirei / kougo-toi | 命令口調・問いかけ口語体 | ERROR |
 | th-length-api-limit | Threads本文/自己リプ 500字超 | ERROR |
+| th-url | Threads本文・自己リプにURL（フォロワー100まで誘導全廃・2026-09-07） | ERROR |
 | kutouten-3 | 1文に読点3個以上（本文＋自己リプ） | WARN |
 | th-length / th-reply-length | Threads字数が目安外 | WARN |
 | hook-jargon / dead-opener | 1行目の符丁・死にやすい書き出し（Threads） | WARN |
+| th-shitenai-opener / th-shitenai-opener-multi | 1行目が「〜してないですか？」型の指摘フック（週1本まで・連投禁止・2026-09-07） | WARN |
 | x-question-closing / x-shojiki-opener | 疑問符締め・告白風ヘッジ（X） | WARN |
 | closing-binary-q | 締めの二択問い「〜か、〜か？」がバッチ2本以上（Threads） | WARN |
 | closing-q-tail-repeat | 問い締めの語尾がバッチ3本以上一致（Threads） | WARN |

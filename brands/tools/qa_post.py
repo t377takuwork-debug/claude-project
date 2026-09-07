@@ -20,6 +20,11 @@
     （2026-09-07追加：sns-ai-reviewerで3巡かかった機械的指摘を先取り検知する
      kutouten-3 / closing-binary-q / closing-q-tail-repeat / opener-watashiwa を実装。
      すべてWARN・実ファイル40ブロックで現行文体への誤検知0を確認済み）
+    （2026-09-07追加②：Threads運用プレイブック採用に伴い th-url（Threads本文・自己リプの
+     外部URL＝フォロワー100まで誘導全廃・ERROR）と th-shitenai-opener /
+     th-shitenai-opener-multi（1行目の「〜してないですか？」型指摘フック＝週1本まで・WARN）を実装。
+     出典：feedback_s4lv_threads_writing_style.md「誘導リンクの扱い」「フック（1行目）」。
+     旧・誘導リンク付き投稿済みブロックでth-urlが出るため新バッチ検品は --since を付ける）
   - brands/CLAUDE.md 絶対遵守ルール3           … 断定的統計・性的描写・特定個人を傷つける表現の禁止
     （2026-07-26notekaigi Phase1で追加。正規表現の一次防御であり漏れは残る前提。
     完全な意味判定はPhase2のLLM二次判定で補う）
@@ -541,6 +546,25 @@ def check_s4lv_post(post, platform):
                 "問いかけの口語体禁止→「と思いますか？」（s4lv）")
     if platform == "x" and URL_RE.search(body):
         f.append(Finding("ERROR", post["label"], "x-url", "本文にURL禁止（URLはリプライ欄・s4lv）"))
+    # Threads：フォロワー100までの期間は本文・自己リプライとも誘導リンク全廃（noteはプロフィール欄のみ）。
+    # 出典：brands/s4lv/rules/feedback_s4lv_threads_writing_style.md「誘導リンクの扱い」／
+    # sns_post_cheatsheet.md「ハード運用値」（2026-09-07 Threads運用プレイブックで決定）。
+    if platform == "threads":
+        _url_reply_raw = post.get("reply", "")
+        _url_reply_body = REPLY_LABEL_RE.sub("", _url_reply_raw, count=1) if _url_reply_raw else ""
+        if URL_RE.search(body) or URL_RE.search(_url_reply_body):
+            f.append(Finding("ERROR", post["label"], "th-url",
+                             "Threads本文・自己リプライにURL禁止（フォロワー100までは誘導リンク全廃・"
+                             "noteはプロフィール欄のみ・2026-09-07プレイブック）"))
+    # Threads 1行目の「〜してないですか？」型の指摘フック（週1本まで・連続禁止）。
+    # 出典：feedback_s4lv_threads_writing_style.md「フック（1行目）」。1行目は指摘でなく
+    # 自分の現場か具体事実で開く（2026-09-07プレイブック）。誤検知の余地があるためWARN。
+    if platform == "threads" and not post["is_reply"]:
+        _first = (nonempty_lines(body) or [""])[0].strip()
+        if re.search(r"(てない|ていない|じゃない|ないん?)ですか[？?]$", _first):
+            f.append(Finding("WARN", post["label"], "th-shitenai-opener",
+                             "1行目が「〜してないですか？」型の指摘フック（週1本まで・連続禁止・"
+                             "指摘でなく自分の現場か具体事実で開く・2026-09-07プレイブック）"))
     for code, pattern, message in S4LV_AI_TELL_ERRORS:
         check_regex(f, post, "ERROR", code, pattern, message)
     # X専用AI感チェック（2026-09-06追加）
@@ -660,6 +684,16 @@ def check_s4lv_file(posts, findings, platform=None):
             findings.append(Finding("WARN", "バッチ全体", "opener-watashiwa",
                                     f"本文の入りが「私は〜している」型が{len(wa)}/{len(body_posts)}本"
                                     "（構成テンプレの固定化・型を2〜3種に散らす）: " + " / ".join(wa)))
+
+        # (d) 「〜してないですか？」型の指摘フックがバッチ内2本以上（週1本まで・連続禁止）
+        #     2026-09-07 Threads運用プレイブック。1行目は指摘でなく現場/具体事実で開く。
+        _shitenai = re.compile(r"(てない|ていない|じゃない|ないん?)ですか[？?]$")
+        st = [p["label"] for p in body_posts
+              if nonempty_lines(p["body"]) and _shitenai.search(nonempty_lines(p["body"])[0].strip())]
+        if len(st) >= 2:
+            findings.append(Finding("WARN", "バッチ全体", "th-shitenai-opener-multi",
+                                    f"「〜してないですか？」型フックが{len(st)}本（週1本まで・連続禁止・"
+                                    "指摘でなく現場/具体事実で開く）: " + " / ".join(st)))
 
 
 # ---------------------------------------------------------------- main

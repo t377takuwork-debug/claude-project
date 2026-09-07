@@ -29,7 +29,7 @@ tools: Read, Grep, Glob, PowerShell
 4. `brands/s4lv/examples_x_posts.md` — Good/Bad のアンカー（D・E項目の基準合わせ）
 5. 媒体別の文体定義（該当1つだけ）：
    - x → `brands/s4lv/rules/feedback_s4lv_x_writing_style.md` の「絶対禁止事項」「生成後自己チェック（読者の入口）」「生成後自己チェック（AI臭さ・構造レベル）」の3セクション
-   - threads → `brands/s4lv/rules/feedback_s4lv_threads_writing_style.md` の「Step 3.5b」11項目と「締め」
+   - threads → `brands/s4lv/rules/threads_post_generation_rules.md`（生成の実務・唯一の正。合格ライン／1行目／型ローテ／自己リプの役割／問い／見本）＋ `brands/s4lv/rules/feedback_s4lv_threads_writing_style.md` の「語尾・文末」「句読点・記号」「専門用語・符丁の扱い」「反響を生む型」
 6. 対象ファイル本体（該当バッチのブロック全文）
 
 ## 手順

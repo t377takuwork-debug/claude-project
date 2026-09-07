@@ -54,9 +54,9 @@ type: project
 | 型・思想（守り） | 旧pro | 6割 | 参入判定・撤退の教訓・捨てたSEO理論・「10年変わらないこと」 |
 | AI実働記録（攻め) | 旧ai | 4割 | 「この型をClaude Codeでこう回した」・進行形の生データ・プロンプト手順 |
 
-文体は既存OS（`feedback_s4lv_x_writing_style.md`／`feedback_s4lv_threads_writing_style.md`）をそのまま適用。AI実働ネタのときだけ「ハッカー的ワクワク10%」を乗せるのが唯一の切り替え。
+文体は既存OS（X＝`feedback_s4lv_x_writing_style.md`／Threads＝`rules/threads_post_generation_rules.md`＋詳細は`feedback_s4lv_threads_writing_style.md`）をそのまま適用。AI実働ネタのときだけ「ハッカー的ワクワク10%」を乗せるのが唯一の切り替え。
 
-**未着手の追従作業（2026-08-19時点）**：投稿本文の文体OS（`feedback_s4lv_x_writing_style.md`・`feedback_s4lv_threads_writing_style.md`・`examples_x_posts.md`）は170万PVや「盾としての実績」を前提にした記述が残っている可能性があり、今回のプロフィール改訂（数字非表示・経歴ドラマ排除・カジュアル化）とトーンが揃っているか未確認。次に投稿を生成する前に棚卸しが必要。
+**文体OSの棚卸し（2026-08-19に課題化 → 2026-09-07までに解消済み）**：X文体OSは2026-09-04〜09-06の再構築、Threads文体OSは2026-08-23全面改訂＋2026-09-07プレイブック＋round2で「実績語（10年・170万・検索1〜5位）は週2まで・1行目に置かない」まで反映済み。プロフィール改訂（数字非表示・カジュアル化）とのトーン整合も取れている。
 
 ---
 
