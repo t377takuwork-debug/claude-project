@@ -76,8 +76,13 @@ s4lv統一アカウント（X @cfrms4lv／Threads @cfrms4lv）の投稿を生成
    `C:\Users\PC_User\AppData\Local\Python\bin\python.exe brands/tools/qa_post.py <postsファイル> --account s4lv --platform <x|threads>`
    **ERROR 0件が次工程への条件**。結果はユーザーに提示する。
 
-5. **Step 5：/post-review 壁打ち（必須・スキップ禁止）**
-   `rules/feedback_s4lv_x_post_workflow.md` の確定工程。生成 → `/post-review` → 修正 → 提案の順番を守り、スキルを通さず直接出力しない。**`/post-review`がスキルとして未登録の場合**（2026-08-23に発生実績あり）、`.claude/commands/post-review.md`を直接読み込み、その採点基準（事実→構造→文体→投稿群全体・90点未満は修正案併記）に沿って自分で壁打ちを行う。省略しない。
+5. **Step 5：sns-ai-reviewer 審査（必須・スキップ禁止・2026-09-07 `/notekaigi` で `/post-review` から差し替え）**
+   生成した投稿バッチを `sns-ai-reviewer`（審査部隊）へ委譲し、**PASS が出るまで Step 6 の保存へ進まない**。`rules/feedback_s4lv_x_post_workflow.md` が確定工程。
+   - 委譲文：「sns-ai-reviewer に委譲：s4lv {X|Threads} 投稿バッチ {対象日}。ドラフト＝{パス}。媒体＝{x|threads}。1巡目。」
+   - エージェントは `docs/rubrics/sns_ai_tone_rubric.md` に沿って qa_post.py 実行 → 台帳（`x_neta_daicho.md`）の根拠照合・開示・初心者可読性・名前つきAI臭さ・投稿群整合を審査 → PASS/FAIL＋行番号指摘表を返す（本文は書き換えない）。**審査しないこと＝文体の良し悪し・旧確定構造（比喩→記憶のゆらぎ）への適合・100点採点**
+   - FAIL なら司令塔が指摘に沿って修正 → 2巡目委譲。**同じ指摘への修正は2巡まで**。2巡後に残る FIX は現状・理由を添えてユーザー判断に回す
+   - **エージェントタイプが未認識の場合**（作成セッション内等・2026-07〜08に発生実績あり）：`general-purpose`＋`model: sonnet` に `.claude/agents/sns-ai-reviewer.md` の定義全文を貼り込んで代替する
+   - `/post-review` は削除せず、手動の深掘り・投稿群の戦略チェック用に残置（この定型工程には含めない）
 
 6. **Step 6：保存**
    - X：通過した投稿を `brands/s4lv/posts/posts_x.txt` に保存する（毎回上書き・コピペ即使用。自動化対象外のため履歴管理不要）。**投稿後運用（2026-09-05追加、手動）**：投稿後15分以内に自分で返信して会話を継続する。1日2本の場合は1本目の会話が落ち着いてから2本目を投稿する（author diversity減衰の回避。詳細は`feedback_s4lv_x_writing_style.md`「投稿後の運用ルール」）。
