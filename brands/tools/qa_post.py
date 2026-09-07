@@ -493,6 +493,18 @@ S4LV_AI_TELL_ERRORS = [
     ("ai-yobousen", r"個人差があります|一概には言えません", "責任回避の予防線禁止（AI感・s4lv）"),
 ]
 
+# X専用のAI感禁止パターン（2026-09-06ユーザー指摘・具体例から追加）
+# 出典：brands/s4lv/rules/feedback_s4lv_x_writing_style.md「絶対禁止事項」
+S4LV_X_AI_TELL_ERRORS = [
+    ("x-nda-ending", r"んだ。", "「〜んだ。」語尾禁止（AI感・s4lv X・2026-09-06ユーザー指摘）"),
+]
+# 「正直」自体は禁止語ではないが、「正直、〜ます/です。」の告白風ヘッジ構文はAI感が強いとの
+# ユーザー指摘（2026-09-06）。誤検知の余地があるためERRORではなくWARN扱い。
+S4LV_X_AI_TELL_WARNS = [
+    ("x-shojiki-opener", r"正直[、,]?\s*(まだ)?.{0,15}(ます|です)。",
+     "「正直、〜ます/です。」型の告白風ヘッジ構文（正直という語自体の禁止ではない・s4lv X・2026-09-06ユーザー指摘）"),
+]
+
 # 1行目に説明なしで置くと読者を選別してしまう符丁（2026-09-04追加・WARN専用・広めの初期辞書）
 # 出典：feedback_s4lv_threads_writing_style.md「専門用語・符丁の扱い」。誤検知が多ければ辞書を削る
 S4LV_HOOK_JARGON = [
@@ -522,6 +534,17 @@ def check_s4lv_post(post, platform):
         f.append(Finding("ERROR", post["label"], "x-url", "本文にURL禁止（URLはリプライ欄・s4lv）"))
     for code, pattern, message in S4LV_AI_TELL_ERRORS:
         check_regex(f, post, "ERROR", code, pattern, message)
+    # X専用AI感チェック（2026-09-06追加）
+    if platform == "x":
+        for code, pattern, message in S4LV_X_AI_TELL_ERRORS:
+            check_regex(f, post, "ERROR", code, pattern, message)
+        for code, pattern, message in S4LV_X_AI_TELL_WARNS:
+            check_regex(f, post, "WARN", code, pattern, message)
+        last = (nonempty_lines(body) or [""])[-1].strip()
+        if last.endswith("？") or last.endswith("?"):
+            f.append(Finding("WARN", post["label"], "x-question-closing",
+                             "文末が疑問符で終わっている（汎用的な意見募集型の締めはAI的と指摘あり・"
+                             "属性を絞った具体的な問いかけでない限り断言・観察で締める・2026-09-06）"))
     # 1行目のフックチェック（2026-09-04追加・Threadsのみ・WARN）
     if platform == "threads" and not post["is_reply"]:
         first = (nonempty_lines(body) or [""])[0]
