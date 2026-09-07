@@ -1,20 +1,29 @@
 # 番組ネタ候補
 
-収集日時: 2026年09月04日 07:10 (JST)
-合計: 3件（音楽番組 1件 / 長時間特番 2件）
+収集日時: 2026年09月07日 07:10 (JST)
+合計: 4件（音楽番組 4件 / 長時間特番 0件）
 
-## 音楽番組（1件）
+## 音楽番組（4件）
 
-### ミュージックステーション ポルノ「サウダージ」福山雅治「虹」絢香…名曲が続々！🈑 ポルノグラフィティ「サウダージ」、福山雅治「虹」、絢香「みんな空の下」…名曲が続々▽新しい学校のリーダーズとアイナのコラボ曲を独占初披露▽平井 大がドラマ主題歌
-- 放送日時: 9月4日 
-- URL: https://bangumi.org/tv_events/AmCAQoJBIAM
+### SONGS TMNETWORK▽俳優・鈴木亮平からSPメッセージ🈑🈞 SONGS初登場！TMNETWORKを大特集！▽俳優・鈴木亮平からスペシャルメッセージ。メンバーの素顔を語る▽「Get Wild Continual」を披露。
+- 放送日時: 9月7日 
+- URL: https://bangumi.org/tv_events/AmDAQAK2EAM
 
-## 長時間特番（2件）
+### musicる TV アーティストのリアルに密着！「ヒャダイン」「内田真礼」がお送りする音楽ドキュメント番組！
+- 放送日時: 9月7日 
+- URL: https://bangumi.org/tv_events/AmDAQoJxoAM
 
-### ドキュメント72時間PR 5分で見どころ！うどん自販機の旅＜瀬戸内編＞🈑 1時間SP「全国うどん自販機の旅・瀬戸内編」が、9月4日金曜夜10時に放送決定！古びた自販機を求めて岡山・愛媛・広島・山口を巡る300kmの旅。スタジオ企画も！
-- 放送日時: 9月4日 
-- URL: https://bangumi.org/tv_events/AmCAQAJMwAM
+### CDTVライブ！ライブ！★EBiDAN「Yes! 東京」★福山雅治★ストーンズ🈑🈓 ★T.M.Revolution「HOT LIMIT」★AKB48★絢香★CORTIS★PSYCHIC FEVER★JUJU
+- 放送日時: 9月7日 
+- URL: https://bangumi.org/tv_events/AmCwQYu5sAM
 
-### ドキュメント72時間 全国うどん自販機の旅 瀬戸内編🈖🈑 「うどん自販機」最新作は瀬戸内編！岡山・愛媛・広島・山口を巡る300kmの旅。番組ファン麒麟・川島明さんとナレーション担当・飯豊まりえさん出演のスタジオ企画も！
-- 放送日時: 9月4日 
-- URL: https://bangumi.org/tv_events/AmCAQAIwQAM
+### Hello! Music Lab。 ハロー！プロジェクトの楽曲に焦点を当てた音楽番組
+▼BEYOOOOONDS「ハイ！テンション」新メンバー初登場！
+振り担当の里吉こだわり&裏話
+▼OCHA...
+- 放送日時: 9月7日 
+- URL: https://bangumi.org/tv_events/AmDAQwCxAAM
+
+## 長時間特番（0件）
+
+該当なし

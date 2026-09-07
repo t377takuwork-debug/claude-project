@@ -6,32 +6,28 @@ s4lv統一アカウント（X @cfrms4lv／Threads @cfrms4lv）の投稿を生成
 
 ---
 
-## 必須：実行前に読み込むファイル（この順序で必ず全て読む）
+## 必須：実行前に読み込むファイル
 
-### 共通（X・Threadsとも）
+### 0. まず全ケース共通（2026-09-07・読み込み効率化）
 
-1. `brands/s4lv/rules/project_s4lv_accounts.md` — 統一アイデンティティ原則・2本柱・確定プロフィール
-2. `brands/s4lv/shared/personal_data.md` — 実績データ・開示ルール（**使用可能な数値の唯一の源。捏造禁止**）
-3. `brands/s4lv/rules/project_s4lv_persona.md` — 対象読者のペルソナ定義（2026-08-23新設。行動トリガー・課金する瞬間の感情・期待値の3軸。フック設計・CTA設計の判断基準）
+**`brands/s4lv/sns_post_cheatsheet.md`** — 運用ナビ＋高頻度ルールの凝縮版。ハード運用値・開示ルール1行・生成前チェック（思考OS）・媒体別文体の要点・qa_post自動検知一覧・生成後の工程・読む順序を持つ。
 
-### X投稿を含む場合
+**定型バッチ生成（本数を指定された通常依頼）は、このチートシート＋下記の「該当媒体の文体OS 1本」＋「使うK/A項目の該当セクションだけ」＋（誘導回なら）note_article_index、で足りる。** K1〜K16・A1〜A16の全文Read、および persona/accounts/personal_data/algorithm の全文Readはしない（チートシートに要点あり・必要な項目だけ拾い読み）。
 
-4. `brands/s4lv/x_neta_daicho.md` — **発信ネタ台帳（型・思想＝柱1 K項目／AI実働＝柱2 A項目・唯一の正）**。各ネタ「事実／言い換え／崩れる条件／出どころ／使用履歴」。投稿は「言い換え」欄の粒度で書き、「事実」欄の範囲外を書かない
-5. `brands/s4lv/rules/feedback_s4lv_x_writing_style.md` — X投稿文体OS（フック・本文・締め・禁止事項）
-6. `brands/s4lv/rules/feedback_s4lv_x_post.md` — 精度ルール・反響別の確定構造（96〜99点基準）・素材の使用可否
-7. `brands/s4lv/examples_x_posts.md` — Good/Bad見本バンク（生成前に必ず読む）
-8. `brands/s4lv/articles/note_article_index.md` — **Note誘導回のネタ源（章別チャプターを概念チラ見せ）＋誘導ローテーション（直近X誘導日）**
-9. `brands/reference/x_algorithm_2026.md` — Xアルゴリズム資料
+**戦略・トーン・2本柱・価格の変更や想定外テーマのとき**は、チートシート「唯一の正マップ」の該当ファイルを全文読む。
 
-### Threads投稿を含む場合
+### 1. 定型バッチで読む該当媒体ファイル
 
-4. `brands/s4lv/rules/feedback_s4lv_threads_writing_style.md` — Threads文体OS（2026-09-04改訂。フック＝読者の今で開く・符丁を1行目に置かない・答えを言い切らない／専門用語の扱い／実績の出し方／締めの問い／記号・句読点／自己リプライ＝2つ目の山。改訂経緯はファイル末尾「改訂履歴」参照）
-5. `brands/s4lv/articles/note_article_index.md` — Note記事インデックス（型・思想柱の小出しネタ元・誘導ローテーションの唯一の正）
-6. `brands/s4lv/ai_work_log.md` — AI実働柱の小出しネタ元（「確認済み」作業からのみ起こす。創作防止）
-7. `brands/reference/threads_algorithm_2026.md` — Threadsアルゴリズム資料（会話速度モデル・著者返信の重要性・エンゲージメントベイトのペナルティ・2026年9月再調査分）
+- **X**：`rules/feedback_s4lv_x_writing_style.md`（文体OS・唯一の正）／`x_neta_daicho.md` の使うK/A項目／（誘導回のみ）`articles/note_article_index.md`／必要なら `examples_x_posts.md`
+- **Threads**：`rules/feedback_s4lv_threads_writing_style.md`（文体OS・唯一の正）／`x_neta_daicho.md` の使うK/A項目（AI実働は `ai_work_log.md` 確認済みでも可）／（誘導回のみ）`articles/note_article_index.md`
 
-条件付き参照（該当する場合のみ）：
-- 市場動向・競合の反響投稿など、repo内に情報がない/古い可能性がある論点を扱う場合 → WebSearch/WebFetchで裏取りする（2026-08-23、Xアルゴリズムの数値相違をこの方法で検証した実績あり。複数ソースで矛盾する場合は不採用にせず、両論併記でユーザーに判断を仰ぐ）
+### 2. 深掘りが要るときだけ全文Read
+
+`rules/project_s4lv_accounts.md`（2本柱・アイデンティティ原則）／`shared/personal_data.md`（実績数値・開示ルールの全文）／`rules/project_s4lv_persona.md`（3軸）／`rules/feedback_s4lv_x_post.md`（A/B 2軸・確定構造）／`reference/x_algorithm_2026.md`・`reference/threads_algorithm_2026.md`（アルゴリズム）。
+
+チートシートの記述に迷い・矛盾を感じたら、その項目の権限ファイルを全文読む（チートシートは派生・権限ファイルが正）。
+
+条件付き参照：市場動向・競合の反響投稿などrepo内に情報がない/古い可能性がある論点 → WebSearch/WebFetchで裏取り（複数ソースで矛盾する場合は両論併記でユーザー判断へ）。
 
 ---
 

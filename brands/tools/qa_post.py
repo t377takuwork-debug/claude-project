@@ -16,7 +16,10 @@
   - .claude/commands/quality-guardrail.md           … AIっぽさ禁止表現
   - brands/mbticode/rules/feedback_mbticode_reply_style.md … リプライ・引用RT文体
   - brands/s4lv/rules/feedback_s4lv_x_writing_style.md     … s4lv X投稿文体
-  - brands/s4lv/rules/feedback_s4lv_threads_writing_style.md … s4lv Threads投稿文体（AI感禁止リストの出典）
+  - brands/s4lv/rules/feedback_s4lv_threads_writing_style.md … s4lv Threads投稿文体（AI感禁止リスト・読点2つまで・締めの型の出典）
+    （2026-09-07追加：sns-ai-reviewerで3巡かかった機械的指摘を先取り検知する
+     kutouten-3 / closing-binary-q / closing-q-tail-repeat / opener-watashiwa を実装。
+     すべてWARN・実ファイル40ブロックで現行文体への誤検知0を確認済み）
   - brands/CLAUDE.md 絶対遵守ルール3           … 断定的統計・性的描写・特定個人を傷つける表現の禁止
     （2026-07-26notekaigi Phase1で追加。正規表現の一次防御であり漏れは残る前提。
     完全な意味判定はPhase2のLLM二次判定で補う）
@@ -115,7 +118,13 @@ def parse_posts(text):
                     "date": date_m.group(1) if date_m else "",
                     "body": body,
                     "reply": reply,
-                    "is_reply": ("引用" in header) or ("リプライ" in header),
+                    # 「リプライ狙い」（s4lv Threadsの"締めで返信を誘う通常投稿"のラベル）や
+                    # 「自己リプライ」は他者への返信/引用ポストではないので is_reply から除外する
+                    # （2026-09-07：ヘッダー語の衝突で通常投稿が誤ってreply扱いされバッチ検査から
+                    #  漏れる不具合を修正）。
+                    "is_reply": (("引用" in header) or ("リプライ" in header))
+                                and ("リプライ狙い" not in header)
+                                and ("自己リプライ" not in header),
                 })
                 i = end
                 continue
@@ -567,10 +576,23 @@ def check_s4lv_post(post, platform):
                 break
         else:
             run = 0
+
+    # 読点過多（1文に「、」3個以上）＝冗長・AI感（feedback_s4lv_threads_writing_style「句読点・記号」／
+    # memory feedback_kutouten_kihon_rule_0903「読点は目安2つまで」）。2026-09-07追加。
+    # 実測：現行文体(9/4以降)の全バッチで誤検知0。旧8/23バッチの冗長文のみ検出。本文＋自己リプライ両方。
+    kt_texts = [("本文", body)]
+    _reply_raw = post.get("reply", "")
+    if _reply_raw:
+        kt_texts.append(("自己リプライ", REPLY_LABEL_RE.sub("", _reply_raw, count=1)))
+    for _tlabel, _ttext in kt_texts:
+        for s in sentences(_ttext):
+            if s.count("、") >= 3:
+                f.append(Finding("WARN", post["label"], "kutouten-3",
+                                 f"1文に読点3個以上（{_tlabel}・目安2つまで）: 「{s.strip()[:40]}…」"))
     return f
 
 
-def check_s4lv_file(posts, findings):
+def check_s4lv_file(posts, findings, platform=None):
     all_body = "\n".join(p["body"] for p in posts)
     if all_body.count("170万") >= 2:
         findings.append(Finding("WARN", "バッチ全体", "pv-nikai",
@@ -597,6 +619,47 @@ def check_s4lv_file(posts, findings):
             findings.append(Finding("WARN", "バッチ全体", "s4lv-opener-repeat",
                                     f"書き出し「{phrase}」が{len(labels)}本で一致"
                                     "（テンプレ構文は同一バッチ2本まで）: " + " / ".join(labels)))
+
+    # --- 2026-09-07追加：sns-ai-reviewerで3巡かかった「型の重複」指摘を機械化（Threadsバッチのみ）。
+    # 実測（posts_threads.txt 40ブロック）で現行文体への誤検知が出ない閾値に調整済み。
+    if platform == "threads":
+        body_posts = [p for p in posts if not p["is_reply"] and p["date"]]
+
+        # (a) 締めの二択問い「〜か、（…）〜か？」がバッチ内2本以上（別型にローテすべき）
+        binary_q = re.compile(r"か、.{0,25}か[？?]\s*$")
+        bq = [p["label"] for p in body_posts
+              if (nonempty_lines(p["body"]) and binary_q.search(nonempty_lines(p["body"])[-1].strip()))]
+        if len(bq) >= 2:
+            findings.append(Finding("WARN", "バッチ全体", "closing-binary-q",
+                                    f"締めの二択問い「〜か、〜か？」が{len(bq)}本（問いの型を散らす・"
+                                    "件数/習慣yes-no等へローテ）: " + " / ".join(bq)))
+
+        # (b) 問い締めの語尾（？直前5字）がバッチ内3本以上で一致
+        qtails = {}
+        for p in body_posts:
+            lines = nonempty_lines(p["body"])
+            if not lines:
+                continue
+            last = lines[-1].strip()
+            if last.endswith("？") or last.endswith("?"):
+                qtails.setdefault(last[:-1][-5:], []).append(p["label"])
+        for tail, labels in qtails.items():
+            if len(labels) >= 3:
+                findings.append(Finding("WARN", "バッチ全体", "closing-q-tail-repeat",
+                                        f"締めの問いの語尾「…{tail}？」が{len(labels)}本で一致"
+                                        "（問いの型を散らす）: " + " / ".join(labels)))
+
+        # (c) 本文の入り（1〜2文目）が「私は(いま)〜」宣言でバッチの4割以上かつ4本以上
+        #     ＝「現象→私の対処→箇条書き」の同型構成の兆候
+        wa = []
+        for p in body_posts:
+            ss = sentences(p["body"])[:2]
+            if any(re.match(r"^私は(いま)?", s.strip()) for s in ss):
+                wa.append(p["label"])
+        if len(wa) >= 4 and len(wa) / max(len(body_posts), 1) >= 0.4:
+            findings.append(Finding("WARN", "バッチ全体", "opener-watashiwa",
+                                    f"本文の入りが「私は〜している」型が{len(wa)}/{len(body_posts)}本"
+                                    "（構成テンプレの固定化・型を2〜3種に散らす）: " + " / ".join(wa)))
 
 
 # ---------------------------------------------------------------- main
@@ -681,7 +744,7 @@ def main():
     if account == "mbticode":
         check_mbticode_file(posts, findings)
     else:
-        check_s4lv_file(posts, findings)
+        check_s4lv_file(posts, findings, platform)
 
     errors = [x for x in findings if x.severity == "ERROR"]
     warns = [x for x in findings if x.severity == "WARN"]
