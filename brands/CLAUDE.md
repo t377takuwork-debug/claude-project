@@ -64,7 +64,7 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 | スキル | 用途 | 使うタイミング |
 |---|---|---|
 | `/mbticode-post` | MBTICODE X・Threads投稿のバッチ生成（1日3本・各週21本体制。最新値は `mbticode/sns_post_cheatsheet.md` が唯一の正） | MBTICODEの投稿バッチを作るたびに |
-| `/s4lv-post` | s4lv X・Threads投稿のバッチ生成（X 1日2本・Threads 1日1本。2本柱の最新定義は `s4lv/rules/project_s4lv_accounts.md` が唯一の正） | s4lvの投稿バッチを作るたびに |
+| `/s4lv-post` | s4lv X・Threads投稿のバッチ生成（X 1日3本・Threads 1日3本。本数・投稿時刻の唯一の正は `s4lv/rules/project_s4lv_operation_system.md`「投稿量」、2本柱の定義は `s4lv/rules/project_s4lv_accounts.md`） | s4lvの投稿バッチを作るたびに |
 | `/reply` | 他者投稿へのリプライ・引用ポスト生成（投稿分析→反映メモ→本文の3ブロック出力） | リプライ・引用ポストを作るたびに |
 | `/note-article [アカウント] [テーマ]` | Note記事をペルソナ→SEO確認→タイトル→構成→本文→drafts保存まで一貫生成 | 記事を作るたびに |
 | `/notekaigi` | 戦略的意思決定の会議 | 新規戦略・方針転換・想定外のテーマが来たとき |
