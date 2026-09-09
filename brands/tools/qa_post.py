@@ -20,6 +20,9 @@
     （2026-09-07追加：sns-ai-reviewerで3巡かかった機械的指摘を先取り検知する
      kutouten-3 / closing-binary-q / closing-q-tail-repeat / opener-watashiwa を実装。
      すべてWARN・実ファイル40ブロックで現行文体への誤検知0を確認済み）
+    （2026-09-10追加：s4lv開示ワード（番組表・タイムテーブル・出演順・放送日・
+     「毎年おなじ時期」「数字や日付の差し替え」等）の disclosure-tell を実装。
+     Threadsバッチで審査2巡の原因になった開示漏れを生成時点で検知。WARN・高確度語のみ）
   - brands/CLAUDE.md 絶対遵守ルール3           … 断定的統計・性的描写・特定個人を傷つける表現の禁止
     （2026-07-26notekaigi Phase1で追加。正規表現の一次防御であり漏れは残る前提。
     完全な意味判定はPhase2のLLM二次判定で補う）
@@ -589,6 +592,33 @@ def check_s4lv_post(post, platform):
             if s.count("、") >= 3:
                 f.append(Finding("WARN", post["label"], "kutouten-3",
                                  f"1文に読点3個以上（{_tlabel}・目安2つまで）: 「{s.strip()[:40]}…」"))
+
+    # 開示ワード（ブログ種別＝テレビ・エンタメ系の定期更新記事が特定される語）が本文・
+    # 自己リプライに出ていないか（2026-09-10追加・WARN）。出典：sns_post_cheatsheet.md
+    # 開示ルール／x_neta_daicho.md A1・A3「開示注意」。2026-09-10のThreadsバッチで
+    # sns-ai-reviewer審査が2巡した原因（「数字や日付の差し替え」「番組表」）を生成時点で
+    # 潰すのが目的。誤検知を避けるため高確度の語句・文脈つきパターンのみ。
+    DISCLOSURE_TELLS = [
+        "番組表", "タイムテーブル", "セットリスト", "セトリ", "出演順", "出演者順",
+        "放送日", "放送予定", "毎年おなじ時期", "毎年同じ時期", "毎年書き直",
+        "去年書いた記事", "去年の記事",
+    ]
+    # 「数字や日付を差し替え／更新」＝定期更新の表形式記事の示唆。単に「数字を1つ入れる」
+    # 「日付は本文の1か所に」等の一般的な言及は拾わない。
+    DISCLOSURE_RE = re.compile(r"数字[や、と]日付[をのは]?.{0,10}(差し替え|差替|置き換え|更新|直す|新しく)")
+    _disc_texts = [("本文", body)]
+    _disc_reply = post.get("reply", "")
+    if _disc_reply:
+        _disc_texts.append(("自己リプライ", REPLY_LABEL_RE.sub("", _disc_reply, count=1)))
+    for _tlabel, _ttext in _disc_texts:
+        hit = next((t for t in DISCLOSURE_TELLS if t in _ttext), None)
+        if hit:
+            f.append(Finding("WARN", post["label"], "disclosure-tell",
+                             f"開示ワード「{hit}」（{_tlabel}・ブログ種別が特定される・一般語へ言い換え）"))
+        if DISCLOSURE_RE.search(_ttext):
+            f.append(Finding("WARN", post["label"], "disclosure-tell",
+                             f"開示ワード「数字や日付＋差し替え/更新」（{_tlabel}・定期更新記事の示唆・"
+                             "「古くなった記述を新しい情報に」等へ一般化）"))
     return f
 
 
