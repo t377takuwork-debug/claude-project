@@ -32,6 +32,7 @@ s4lv の「Noteでどう稼ぐか」「X・ThreadsからNoteへどう案内す�
 | Note記事の口調 | `brands/writing/writing_tone.md` 0章＋s4lv上書き |
 | 特定の記事についての相談 | `brands/s4lv/drafts/` の該当記事 |
 | X・Threadsからの案内・反応 | `brands/s4lv/sns_post_cheatsheet.md`・`brands/s4lv/tools/s4lv_threads_insights_notes_*.md` |
+| noteの表示数を増やす相談・KPIスクショの切り分け | `brands/reference/note_impression_checklist.md` |
 | 人格・考え方をもっと深く | `rules/project_s4lv_identity.md` |
 
 ### 読まないもの
