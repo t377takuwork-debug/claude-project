@@ -8,10 +8,12 @@ whose ステータス is exactly "投稿済み" or "エラー", so blanking it (
 other value) would make the next trigger run re-publish the withdrawn text.
 
 What this script does instead:
-  - leaves 投稿日時 / 本文 / リプライ本文 / 型 / FW / ステータス untouched
-  - clears 投稿ID and リプライ投稿ID only, so collectInsights() (which requires
-    both ステータス == "投稿済み" and a non-empty 投稿ID) stops calling the Threads
-    API for a post_id that no longer exists on the platform
+  - leaves 投稿日時 / 本文 / リプライ本文 / 型 / FW / ステータス / トピック untouched
+  - clears 投稿ID (col J) and リプライ投稿ID1-4 (cols K-N) only, so collectInsights()
+    (which requires both ステータス == "投稿済み" and a non-empty 投稿ID) stops calling
+    the Threads API for a post_id that no longer exists on the platform
+2026-09-10: fixed column offsets — this script still targeted the pre-2026-08-23
+schema (single リプライ本文/投稿ID). Now reads ステータス from col I and clears J-N.
 
 Usage:
   python withdraw_posted_row.py "2026-08-03 12:00"
@@ -55,7 +57,7 @@ def main():
 
     rows = sheets.values().get(
         spreadsheetId=spreadsheet_id,
-        range=f"{sheet_name}!A2:H",
+        range=f"{sheet_name}!A2:N",
         valueRenderOption="UNFORMATTED_VALUE",
     ).execute().get("values", [])
 
@@ -70,7 +72,7 @@ def main():
         if serial_to_dt(r[0]) != target:
             continue
 
-        status = r[5] if len(r) > 5 else ""
+        status = r[8] if len(r) > 8 else ""
         if status != "投稿済み":
             print(f"[ERROR] {target} 行のステータスは {status!r} です。"
                   f"「投稿済み」以外の行はこのスクリプトの対象外なので何もしていません。")
@@ -81,12 +83,12 @@ def main():
             body={
                 "valueInputOption": "USER_ENTERED",
                 "data": [
-                    {"range": f"{sheet_name}!G{idx}", "values": [[""]]},
-                    {"range": f"{sheet_name}!H{idx}", "values": [[""]]},
+                    {"range": f"{sheet_name}!{col}{idx}", "values": [[""]]}
+                    for col in ("J", "K", "L", "M", "N")
                 ],
             },
         ).execute()
-        print(f"[OK] {target}: 投稿ID・リプライ投稿IDを空にしました（ステータス「投稿済み」は維持＝再投稿されません）")
+        print(f"[OK] {target}: 投稿ID・リプライ投稿ID1-4を空にしました（ステータス「投稿済み」は維持＝再投稿されません）")
         return
 
     print(f"[ERROR] {target} に一致する行がシート内に見つかりませんでした。")
