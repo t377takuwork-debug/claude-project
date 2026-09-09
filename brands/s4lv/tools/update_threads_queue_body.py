@@ -25,6 +25,9 @@ Only posts matching a given prefix are updated. Rows with a non-empty ステー�
 型（2026-08-04追加）: 見出しの「型①」「型②」「型③」を検出し、シート側の列Gと食い違って
 いれば同期する。FW（列H・短縮トピックラベル）は見出しの説明的なタイトルとは別物として
 運用しているため対象外（トピック自体を差し替えた場合は列Hを手動更新すること）。
+
+トピック（2026-09-10追加・列O）: 見出しの「／トピック：XXX」を検出し、シート側の列Oと
+食い違っていれば同期する（Threadsのtopic_tag。空なら同期しない＝既存値を消さない）。
 """
 import datetime
 import json
@@ -48,6 +51,7 @@ SEP_RE = re.compile(r"^-{10,}\s*$")
 DATETIME_RE = re.compile(r"(\d{1,2})/(\d{1,2})\s+(\d{1,2}):(\d{2})")
 REPLY_LABEL_RE = re.compile(r"^自己リプライ[^：]*：\s*")
 TYPE_RE = re.compile(r"^(型[①②③])")
+TOPIC_RE = re.compile(r"トピック[：:]\s*([^／/\n]+)")
 
 
 def parse_posts(text):
@@ -60,6 +64,8 @@ def parse_posts(text):
             header = m.group(1) + m.group(2)
             type_match = TYPE_RE.match(m.group(2).strip())
             type_label = type_match.group(1) if type_match else ""
+            topic_match = TOPIC_RE.search(header)
+            topic_label = topic_match.group(1).strip() if topic_match else ""
             j = i + 1
             while j < len(lines) and not SEP_RE.match(lines[j]):
                 if HEADER_RE.match(lines[j]):
@@ -100,7 +106,8 @@ def parse_posts(text):
                         end = m2
                     else:
                         end = m2
-                posts.append({"header": header, "body": main_body, "replies": replies, "type": type_label})
+                posts.append({"header": header, "body": main_body, "replies": replies,
+                              "type": type_label, "topic": topic_label})
                 i = end
                 continue
         i += 1
@@ -133,7 +140,7 @@ def main():
         month, day, hh, mm = (int(x) for x in m.groups())
         year = infer_year(month, day, now)
         key = f"{year:04d}-{month:02d}-{day:02d} {hh}:{mm:02d}"
-        targets[key] = {"body": p["body"], "replies": p["replies"], "type": p["type"]}
+        targets[key] = {"body": p["body"], "replies": p["replies"], "type": p["type"], "topic": p["topic"]}
 
     if not targets:
         print("[ERROR] 指定prefixに一致する投稿がposts_threads.txt内に見つかりません。")
@@ -147,13 +154,13 @@ def main():
 
     rows = service.values().get(
         spreadsheetId=spreadsheet_id,
-        range=f"{sheet_name}!A2:N",
+        range=f"{sheet_name}!A2:O",
         valueRenderOption="UNFORMATTED_VALUE",
     ).execute().get("values", [])
-    # 列: A投稿日時 B本文 C-Fリプライ1-4本文 G型 HFW Iステータス J投稿ID K-Nリプライ投稿ID1-4
-    # NOTE: FW（列H・トピック短縮ラベル）はposts_threads.txtの見出し文言（人間向けの
-    # 説明的なタイトル）とは別物として運用されているため自動同期しない。トピックその
-    # ものを差し替えた場合は列Hを手動で更新すること。
+    # 列: A投稿日時 B本文 C-Fリプライ1-4本文 G型 HFW Iステータス J投稿ID K-Nリプライ投稿ID1-4 Oトピック
+    # NOTE: FW（列H・人間向けの説明ラベル）はposts_threads.txtの見出し文言とは別物として
+    # 運用されているため自動同期しない。API送信用のトピックは列O（見出しの「／トピック：」）で
+    # 別管理し、こちらは同期する（空なら既存値を消さない）。
     REPLY_COLS = ["C", "D", "E", "F"]
 
     EPOCH = datetime.datetime(1899, 12, 30)
@@ -162,7 +169,7 @@ def main():
         return EPOCH + datetime.timedelta(days=serial)
 
     data = []
-    updated, updated_reply, updated_type, skipped_posted, not_found = [], [], [], [], list(targets.keys())
+    updated, updated_reply, updated_type, updated_topic, skipped_posted, not_found = [], [], [], [], [], list(targets.keys())
     for idx, r in enumerate(rows, start=2):
         if not r:
             continue
@@ -202,6 +209,13 @@ def main():
                 "values": [[targets[key]["type"]]],
             })
             updated_type.append(key)
+        current_topic = r[14] if len(r) > 14 else ""
+        if targets[key]["topic"] and targets[key]["topic"] != current_topic:
+            data.append({
+                "range": f"{sheet_name}!O{idx}",
+                "values": [[targets[key]["topic"]]],
+            })
+            updated_topic.append(key)
         if key in not_found:
             not_found.remove(key)
 
@@ -219,8 +233,12 @@ def main():
         for k in updated_reply:
             print(f"  - {k}")
     if updated_type:
-        print(f"[OK] うち {len(updated_type)} 件は型（列D）も見出しと同期しました:")
+        print(f"[OK] うち {len(updated_type)} 件は型（列G）も見出しと同期しました:")
         for k in updated_type:
+            print(f"  - {k}")
+    if updated_topic:
+        print(f"[OK] うち {len(updated_topic)} 件はトピック（列O）も見出しと同期しました:")
+        for k in updated_topic:
             print(f"  - {k}")
     if skipped_posted:
         print(f"[SKIP] 投稿済みのため {len(skipped_posted)} 件はスキップ:")

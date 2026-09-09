@@ -3,7 +3,7 @@
 
 Runs, in order:
   1. qa_post.py on the selected blocks (aborts if ERROR > 0)
-  2. builds the push CSV (投稿日時,本文,リプライ1-4,型,FW) from the blocks
+  2. builds the push CSV (投稿日時,本文,リプライ1-4,型,FW,トピック) from the blocks
   3. push_threads_queue.py <csv>          (append + duplicate-skip)
   4. verify_queue_matches_file.py         (sheet vs file consistency)
 
@@ -19,6 +19,10 @@ Usage:
 
 FW (column H, short topic label) is left blank — set it in the sheet by hand if wanted.
 型 is taken from the header text between 】 and the first ／ (e.g. 型・思想 / AI実働).
+トピック (column O) is taken from a "／トピック：XXX" segment in the header, e.g.
+  【9/11 07:30】型・思想／K5 ...／トピック：SEO対策
+Blank if the header has no such segment. threads_scheduler.gs attaches it as the
+Threads topic_tag on the main post only.
 """
 import csv
 import datetime
@@ -40,6 +44,7 @@ HEADER_RE = re.compile(r"^【(.+?)】(.*)$")
 SEP_RE = re.compile(r"^-{10,}\s*$")
 DATETIME_RE = re.compile(r"(\d{1,2})/(\d{1,2})\s+(\d{1,2}):(\d{2})")
 REPLY_LABEL_RE = re.compile(r"^自己リプライ[^：]*：\s*")
+TOPIC_RE = re.compile(r"トピック[：:]\s*([^／/\n]+)")
 
 
 def infer_year(month, day, now):
@@ -60,6 +65,8 @@ def parse_blocks(text):
         header = m.group(1) + m.group(2)
         after = m.group(2).strip()
         type_label = after.split("／")[0].split("/")[0].strip() if after else ""
+        tm = TOPIC_RE.search(header)
+        topic = tm.group(1).strip() if tm else ""
         j = i + 1
         while j < len(lines) and not SEP_RE.match(lines[j]):
             if HEADER_RE.match(lines[j]):
@@ -101,7 +108,7 @@ def parse_blocks(text):
             yr = infer_year(mo, da, now)
             dt_str = f"{yr:04d}-{mo:02d}-{da:02d} {hh:02d}:{mm:02d}"
         yield {"header": header, "dt_str": dt_str, "body": body,
-               "replies": replies, "type": type_label}
+               "replies": replies, "type": type_label, "topic": topic}
         i = end
 
 
@@ -131,7 +138,8 @@ def main():
 
     print(f"対象 {len(blocks)} 件:")
     for b in blocks:
-        print(f"  - {b['dt_str']}  {b['type']}  (自己リプライ {len(b['replies'])}本)")
+        topic_disp = f"  トピック={b['topic']}" if b["topic"] else "  トピック=(なし)"
+        print(f"  - {b['dt_str']}  {b['type']}{topic_disp}  (自己リプライ {len(b['replies'])}本)")
     print("--- qa_post.py ---", flush=True)
 
     # 1. QA
@@ -155,10 +163,10 @@ def main():
     csv_path = Path(tempfile.gettempdir()) / "queue_from_posts.csv"
     with open(csv_path, "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["投稿日時", "本文", "リプライ1", "リプライ2", "リプライ3", "リプライ4", "型", "FW"])
+        w.writerow(["投稿日時", "本文", "リプライ1", "リプライ2", "リプライ3", "リプライ4", "型", "FW", "トピック"])
         for b in blocks:
             reps = (b["replies"] + ["", "", "", ""])[:4]
-            w.writerow([b["dt_str"], b["body"], *reps, b["type"], ""])
+            w.writerow([b["dt_str"], b["body"], *reps, b["type"], "", b["topic"]])
     print(f"\n[OK] CSV: {csv_path}")
 
     if dry_run:

@@ -43,6 +43,13 @@ s4lv統一アカウント（X @cfrms4lv／Threads @cfrms4lv）の投稿を生成
    - **ThreadsのAI実働枠は `brands/s4lv/x_neta_daicho.md` 柱2（A項目）から起こす**（旧 `ai_work_log.md` A/B は台帳 A1/A2 に統合済み・当面残置）。投稿案に「元ネタ＝台帳 A◯」を明記。使えるネタが無ければ型・思想枠の小出しで埋める（「Claude Codeに◯◯を渡している」等を推測で書かない）。新しい作業を使いたい場合は先にユーザーへ「今も動いているか／公開してよいか」を確認し、確認できたら台帳の「候補」欄から本欄へ移す
    - **週3本中1本は「リプライ狙い」を必須**とし、締めを「経験で即答できる・現在の習慣をそのまま聞く問い」にする（`feedback_s4lv_threads_writing_style.md`「締め」参照）。残り2本はCTAまたは根拠つきの断定で閉じる
    - Note誘導CTA（自己リプライ欄）は週3本中1本を目安に、`note_article_index.md`の「直近Threads誘導日」が空欄または最古の記事を選ぶ
+   - **Threadsのみ：トピックを1つ割り当てる（2026-09-10）**。下の対応表から投稿1本につき1つ選び、見出しの末尾へ `／トピック：XXX` を付ける（例：`【9/11 07:30】型・思想／K5 …／トピック：SEO対策`）。メイン投稿にのみ付く（自己リプライには付かない）。Threadsは1投稿1トピックまで。全4語はスレッズ上で実在確認済み（2026-09-10）。迷ったら柱で決める（型・思想→SEO対策 or 副業ブログ／AI実働→ClaudeCode）。X投稿にはトピックの概念はない
+     | 投稿の中身 | トピック |
+     |---|---|
+     | 検索順位・キーワード選定・記事構成・タイトル・リライト・構造化データ・内部リンク（K系の大半） | **SEO対策** |
+     | トレンドブログ論・収益化・PV／アクセスの考え方・「稼げるか」系（K系のうち収益寄り） | **副業ブログ** |
+     | Claude Code・AIエージェント・自動化・機械チェック（A系すべて） | **ClaudeCode** |
+     | noteの有料記事・note運用の話（K16 等） | **note有料記事** |
 
 2. **Step 2：群全体チェック**（同日・同バッチ内）
    - 170万PVの言及は1回以内か
@@ -93,8 +100,9 @@ s4lv統一アカウント（X @cfrms4lv／Threads @cfrms4lv）の投稿を生成
 7. **Step 7：Threads自動投稿キューへの転送**（Threads投稿を含む場合のみ）
    **推奨（一発）**：Step 6で `posts_threads.txt` へ追記したあと、
    `python brands/s4lv/tools/queue_from_posts.py brands/s4lv/posts/posts_threads.txt <日付prefix…> [--dry-run]`
-   を実行する。qa_post.py → CSV生成 → push_threads_queue.py → verify_queue_matches_file.py を順に回す（ERROR検出時は中断）。`--dry-run` でCSV生成まで確認できる。FW列（トピック短縮ラベル）は空で入るので、必要ならシート側で手入力する。
-   **手動（従来）**：CSV（列：`投稿日時,本文,リプライ1〜4,型,FW`。トリガー時刻＝07:30/12:00/21:30）を作り `push_threads_queue.py <csv>` → `verify_queue_matches_file.py <posts_threads.txt> <ヘッダー日付…>`。
+   を実行する。qa_post.py → CSV生成 → push_threads_queue.py → verify_queue_matches_file.py を順に回す（ERROR検出時は中断）。`--dry-run` でCSV生成まで確認できる。FW列（人間向けの説明ラベル）は空で入るので、必要ならシート側で手入力する。
+   **トピック（列O）**：見出しの `／トピック：XXX` が自動でCSV9列目→シート列Oへ入り、`threads_scheduler.gs` がメイン投稿に `topic_tag` として付ける。dry-run出力の「トピック=XXX」で割り当てを確認する。見出しに `／トピック：` が無ければ列Oは空（トピックなしで投稿）。
+   **手動（従来）**：CSV（列：`投稿日時,本文,リプライ1〜4,型,FW,トピック`。トリガー時刻＝07:30/12:00/21:30）を作り `push_threads_queue.py <csv>` → `verify_queue_matches_file.py <posts_threads.txt> <ヘッダー日付…>`。
    既にキュー投入済みの投稿の本文・自己リプライを差し替える場合は `update_threads_queue_body.py <posts_threads.txt> <prefix…>`。
    - **自己リプライは原則1本仕込む**（著者の最初の返信という初速シグナルの代替）。ただし薄くなるなら入れない。入れるなら「2つ目の山」として具体例・例外・崩れる条件・現場の一手を80〜200字で。本文は単体で完結させ、「続きはリプで」型のぶつ切りはしない。継ぎ目（本文末で次の1点を名指し→自己リプライが受ける）は名指しできるときだけ・毎回はやらない。Note誘導を自己リプライに置く回は宣伝口調にせず、本文の続きとして自然に書きリンクは完結文のあとに置く（`feedback_s4lv_threads_writing_style.md`「連続スレッド」参照）
 

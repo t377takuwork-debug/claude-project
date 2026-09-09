@@ -31,6 +31,7 @@ SEP_RE = re.compile(r"^-{10,}\s*$")
 DATETIME_RE = re.compile(r"(\d{1,2})/(\d{1,2})\s+(\d{1,2}):(\d{2})")
 REPLY_LABEL_RE = re.compile(r"^自己リプライ[^：]*：\s*")
 TYPE_RE = re.compile(r"^(型[①②③])")
+TOPIC_RE = re.compile(r"トピック[：:]\s*([^／/\n]+)")
 
 
 def parse_posts(text):
@@ -43,6 +44,8 @@ def parse_posts(text):
             header = m.group(1) + m.group(2)
             type_match = TYPE_RE.match(m.group(2).strip())
             type_label = type_match.group(1) if type_match else ""
+            topic_match = TOPIC_RE.search(header)
+            topic_label = topic_match.group(1).strip() if topic_match else ""
             j = i + 1
             while j < len(lines) and not SEP_RE.match(lines[j]):
                 if HEADER_RE.match(lines[j]):
@@ -81,7 +84,8 @@ def parse_posts(text):
                         end = m2
                     else:
                         end = m2
-                posts.append({"header": header, "body": body, "replies": replies, "type": type_label})
+                posts.append({"header": header, "body": body, "replies": replies,
+                              "type": type_label, "topic": topic_label})
                 i = end
                 continue
         i += 1
@@ -115,7 +119,8 @@ def main():
         month, day, hh, mm = (int(x) for x in m.groups())
         year = infer_year(month, day, now)
         key = f"{year:04d}-{month:02d}-{day:02d} {hh}:{mm:02d}"
-        targets[key] = {"body": p["body"], "replies": p["replies"], "type": p["type"], "header": p["header"]}
+        targets[key] = {"body": p["body"], "replies": p["replies"], "type": p["type"],
+                        "topic": p["topic"], "header": p["header"]}
         order.append(key)
 
     config = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
@@ -126,7 +131,7 @@ def main():
 
     rows = service.values().get(
         spreadsheetId=spreadsheet_id,
-        range=f"{sheet_name}!A2:N",
+        range=f"{sheet_name}!A2:O",
         valueRenderOption="UNFORMATTED_VALUE",
     ).execute().get("values", [])
 
@@ -149,6 +154,7 @@ def main():
             "replies": [r[i] if len(r) > i else "" for i in range(2, 6)],
             "type": r[6] if len(r) > 6 else "",
             "status": r[8] if len(r) > 8 else "",
+            "topic": r[14] if len(r) > 14 else "",
         }
 
     n_ok = n_mismatch = n_missing = 0
@@ -168,6 +174,8 @@ def main():
             diffs.append("リプライ")
         if t["type"] and s["type"] != t["type"]:
             diffs.append("型")
+        if t["topic"] and t["topic"].strip() != (s["topic"] or "").strip():
+            diffs.append("トピック")
         if diffs:
             print(f"[MISMATCH] {key} ({t['header']}) — 差異: {', '.join(diffs)}")
             if "本文" in diffs:

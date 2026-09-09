@@ -32,8 +32,13 @@
 //
 // Sheet: a tab named exactly SHEET_NAME, row 1 = header, columns in this order:
 //   投稿日時 | 本文 | リプライ1本文 | リプライ2本文 | リプライ3本文 | リプライ4本文 | 型 | FW |
-//   ステータス | 投稿ID | リプライ1投稿ID | リプライ2投稿ID | リプライ3投稿ID | リプライ4投稿ID
+//   ステータス | 投稿ID | リプライ1投稿ID | リプライ2投稿ID | リプライ3投稿ID | リプライ4投稿ID |
+//   トピック
 // 投稿日時 must be an actual Date/time cell (not plain text) so comparisons work.
+// トピック (2026-09-10, column O): the Threads topic tag to attach. Applied to the
+// MAIN post only (Threads allows 1 topic per post; chained self-replies get none).
+// Leave blank to post with no topic. Sent to the API as topic_tag on container
+// creation.
 // 2026-08-23: extended from a single self-reply slot to up to 4 chained replies
 // (連続スレッド対応). リプライ2/3/4 are optional — leave blank to post only the
 // main text (+ optional リプライ1本文, as before). Each non-empty reply is
@@ -59,7 +64,8 @@ const COL = {
   DATETIME: 1, TEXT: 2,
   REPLY1: 3, REPLY2: 4, REPLY3: 5, REPLY4: 6,
   TYPE: 7, FW: 8, STATUS: 9, POST_ID: 10,
-  REPLY_POST_ID1: 11, REPLY_POST_ID2: 12, REPLY_POST_ID3: 13, REPLY_POST_ID4: 14
+  REPLY_POST_ID1: 11, REPLY_POST_ID2: 12, REPLY_POST_ID3: 13, REPLY_POST_ID4: 14,
+  TOPIC: 15
 };
 // Ordered list used by postScheduled() to walk the reply chain.
 const REPLY_COL_PAIRS = [
@@ -385,7 +391,7 @@ function postScheduled() {
     if (scheduledAt > now) continue;
 
     try {
-      const mainId = publishText(token, userId, row[COL.TEXT - 1], null);
+      const mainId = publishText(token, userId, row[COL.TEXT - 1], null, row[COL.TOPIC - 1]);
       sheet.getRange(r + 1, COL.POST_ID).setValue(mainId);
 
       // Chain: reply1 replies to the main post, reply2 replies to reply1's
@@ -409,9 +415,14 @@ function postScheduled() {
   }
 }
 
-function publishText(token, userId, text, replyToId) {
+function publishText(token, userId, text, replyToId, topicTag) {
   const createPayload = { media_type: "TEXT", text: text, access_token: token };
   if (replyToId) createPayload.reply_to_id = replyToId;
+  // Topic tag: main post only (not replies), and only if the cell is non-empty.
+  // Trim so a stray space doesn't become a bogus one-space topic.
+  if (!replyToId && topicTag && String(topicTag).trim()) {
+    createPayload.topic_tag = String(topicTag).trim();
+  }
   const creationId = callThreads(userId + "/threads", createPayload);
   Utilities.sleep(2000); // give the container a moment to become publishable
   return callThreads(userId + "/threads_publish", { creation_id: creationId, access_token: token });

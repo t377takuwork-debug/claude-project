@@ -5,8 +5,10 @@ Usage:
   python push_threads_queue.py <csv_file> [--allow-past]
 
 CSV columns (header row optional, auto-detected by date-parse failure):
-  投稿日時,本文,リプライ1,リプライ2,リプライ3,リプライ4,型,FW
+  投稿日時,本文,リプライ1,リプライ2,リプライ3,リプライ4,型,FW,トピック
 投稿日時 must parse as "YYYY-MM-DD HH:MM". リプライ2〜4は省略可（末尾から空でよい）。
+トピック（2026-09-10・9列目・任意）: Threadsのトピックタグ。空でよい。シート列Oへ入り、
+threads_scheduler.gs がメイン投稿にのみ topic_tag として付与する。
 2026-08-23: 単発の自己リプライ1本から、連続スレッド（最大4本連鎖）対応へ拡張。
 リプライ1は前の投稿(本文)へ、リプライ2はリプライ1へ、…と順に連鎖して投稿される
 （threads_scheduler.gs側の実装）。
@@ -47,14 +49,14 @@ def get_service():
     return build("sheets", "v4", credentials=creds)
 
 
-ROW_WIDTH = 14  # 投稿日時,本文,リプライ1-4,型,FW,ステータス,投稿ID,リプライ投稿ID1-4
+ROW_WIDTH = 15  # 投稿日時,本文,リプライ1-4,型,FW,ステータス,投稿ID,リプライ投稿ID1-4,トピック
 
 
 def sort_queue_by_date(sheets, spreadsheet_id, sheet_name):
-    """Re-sort all data rows (A2:N) by 投稿日時 ascending, in place."""
+    """Re-sort all data rows (A2:O) by 投稿日時 ascending, in place."""
     resp = sheets.values().get(
         spreadsheetId=spreadsheet_id,
-        range=f"{sheet_name}!A2:N",
+        range=f"{sheet_name}!A2:O",
         valueRenderOption="UNFORMATTED_VALUE",
     ).execute()
     rows = resp.get("values", [])
@@ -64,7 +66,7 @@ def sort_queue_by_date(sheets, spreadsheet_id, sheet_name):
     padded.sort(key=lambda r: r[0] if isinstance(r[0], (int, float)) else float("inf"))
     sheets.values().update(
         spreadsheetId=spreadsheet_id,
-        range=f"{sheet_name}!A2:N{len(padded) + 1}",
+        range=f"{sheet_name}!A2:O{len(padded) + 1}",
         valueInputOption="USER_ENTERED",
         body={"values": padded},
     ).execute()
@@ -86,6 +88,7 @@ def read_csv_rows(path):
                 "replies": [row[i] if len(row) > i else "" for i in range(2, 6)],
                 "type": row[6] if len(row) > 6 else "",
                 "fw": row[7] if len(row) > 7 else "",
+                "topic": row[8] if len(row) > 8 else "",
             })
     return rows
 
@@ -145,7 +148,7 @@ def main():
 
     values = [
         [row["dt"].strftime("%Y-%m-%d %H:%M"), row["body"], *row["replies"],
-         row["type"], row["fw"], "", "", "", "", "", ""]
+         row["type"], row["fw"], "", "", "", "", "", "", row["topic"]]
         for row in to_append
     ]
     sheets.values().append(

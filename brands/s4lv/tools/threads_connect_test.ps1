@@ -3,7 +3,11 @@
 # Usage:
 #   powershell -ExecutionPolicy Bypass -File tools\threads_connect_test.ps1                # auth check only (safe, read-only)
 #   powershell -ExecutionPolicy Bypass -File tools\threads_connect_test.ps1 -Step refresh   # refresh long-lived token (safe)
-#   powershell -ExecutionPolicy Bypass -File tools\threads_connect_test.ps1 -Step post -Confirm2Publish
+#   powershell -ExecutionPolicy Bypass -File tools\threads_connect_test.ps1 -Step post -Text "..." -Topic "<topic>" -Confirm2Publish
+#
+# -Topic (optional): attaches a Threads topic tag (topic_tag) to the post. Only 1
+# topic per post is allowed by Threads. Omit for no topic. The value itself may be
+# non-ASCII (e.g. a Japanese topic); pass it as a normal -Topic argument.
 #
 # IMPORTANT: Threads API has no draft state. -Step post creates a container AND
 # publishes it live and public immediately. It is NOT reversible via this script
@@ -17,6 +21,7 @@ param(
     [ValidateSet("auth", "refresh", "post")]
     [string]$Step = "auth",
     [string]$Text = "",
+    [string]$Topic = "",
     [switch]$Confirm2Publish
 )
 
@@ -98,6 +103,10 @@ function Step-Post {
     try {
         $uri = "$base/$($auth.threads_user_id)/threads"
         $body = @{ media_type = "TEXT"; text = $Text; access_token = $auth.access_token }
+        if ($Topic -ne "") {
+            $body.topic_tag = $Topic
+            Write-Host "     topic_tag = $Topic"
+        }
         $resp = Invoke-RestMethod -Method Post -Uri $uri -Body $body -TimeoutSec 30
         $creationId = $resp.id
         Write-Host "[OK] container created: creation_id=$creationId (NOT public yet)"
