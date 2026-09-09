@@ -18,7 +18,7 @@
 ## 手順（s4lv）
 
 1. プロセス定義: `brands/s4lv/rules/project_s4lv_note_article_process.md`（無料記事7ステップ・有料記事3フェーズ・タイトル95点基準・公開日プロモ導線）
-2. プロフィール・実績: `brands/s4lv/shared/personal_data.md`＋アカウント別 `profile.md`
+2. プロフィール・実績: `brands/s4lv/shared/personal_data.md`＋アカウント別のプロフィール（s4lv＝`rules/project_s4lv_accounts.md`、他アカウント＝`profile.md`）
 3. ライティング原則: `brands/writing/writing_core.md` を起点に5ファイル（`writing_tone.md` の共通核＋s4lv上書きを含む）
 
 ## 必ず守るルール

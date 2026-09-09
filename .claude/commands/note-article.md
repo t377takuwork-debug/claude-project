@@ -32,7 +32,7 @@ Note有料・無料記事をテーマ入力から完成まで一貫して生成�
 
 ### s4lv 専用
 - `s4lv/rules/project_s4lv_accounts.md` — 統一アカウント定義・アイデンティティ原則（2026-07-08に1アカウント統一。ai/proの確認は不要）
-- `s4lv/profile.md` — プロフィール
+- `s4lv/rules/s4lv_learnings.md` — 学びの台帳（オーナー意図・仮説・観測トリガー。起草前に「オーナー意図」節を読む）
 - `s4lv/rules/project_s4lv_note_article_process.md` — Note記事生成プロセス
 
 ---
@@ -308,6 +308,8 @@ Noteタグ：タグ1 / タグ2 / タグ3 / ...
 3. ヘッダーに管理No・価格・ステータス（公開済み＋日付）・URL・Noteタグを記載する
 4. `mbticode/articles/article_index.md` に1行追加する（管理No／タイトル略称／URL／価格／公開日）
 5. **上記1〜4が完了して初めて** `articles/drafts/` の元ファイルを削除してよい
+
+**s4lv の場合（2026-09-10追加）**：`published/` は作らない（`articles/note_article_index.md` が `drafts/` を直接参照）。代わりに①オーナーがNote編集画面で直した箇所を `drafts/` へ同期（`rules/project_s4lv_note_article_process.md`）②index に URL・公開日を登録 ③制作中にオーナーが繰り返し直した箇所の**意図**を1〜3行で `rules/s4lv_learnings.md`「オーナー意図」へ（`/note-advisor` モードC。既存項目と重なるなら書かない）。
 
 ---
 

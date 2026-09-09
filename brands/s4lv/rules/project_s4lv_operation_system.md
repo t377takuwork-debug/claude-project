@@ -31,7 +31,7 @@ type: project
 | Note構成案（Step1〜3） | Claude | 前提確認→タイトル3案（95点基準採点）→構成案 |
 | ★構成の合意 | ユーザー | Noteの「声」を守る最重要関門。構成を通せば本文の質は7割決まる |
 | Note本文（Step4〜7） | Claude | 執筆→AI臭さ除去→`qa_article.py`→保存 |
-| KPI記録・分析 | Claude | 週次数値→前週比3点コメント（`kpi_weekly_template.md`に記入して渡す→`kpi_log.md`へ蓄積。2026-08-19新設） |
+| KPI記録・分析 | Claude | Noteダッシュボード等のスクショを受け取り→数値と「何を確認/否定したか」を `rules/s4lv_learnings.md`「実測ログ」へ1行（2026-09-10確定。`kpi_log.md` は作らない・`kpi_weekly_template.md` は項目の参照用）。転記は `/note-advisor` が担う |
 | 戦略転換・価格決定 | ユーザー（/notekaigiで壁打ち） | 月1回程度。**2026-08-21確定：この壁打ち時のClaude側スタンスは「シビアで現実的なビジネスアドバイザー」（ROI・リスク管理最優先、綺麗事や再現性のないノウハウを排除）。note記事の著者ボイス（謙虚な実力者・8/19改訂のカジュアル路線）とは別レイヤーであり、公開コンテンツのトーンには適用しない** |
 
 ユーザーが手放さない判断は★の3点のみ。
@@ -110,12 +110,13 @@ AI臭さ除去の3軸で自己チェックし、qa_article.pyの結果ごと見�
 文体OSと反響設計図に照らして敗因を特定し、examples_x_posts.mdのBad見本に追記して。
 ```
 
-## 未整備の資産（優先度低・着手時に確認）
+## 未整備の資産（優先度低・着手時に確認・2026-09-10更新）
 
 - `shared/neta_bank.md`：未作成。旧4資産（テーマストック・他者タイトル集・ネタバンク）の統合先として新設予定（`project_s4lv_assets_lost.md`参照）。2026-08-19会議で「実測データが貯まってから判断」と保留を再確認（バックアップ有無は未確認のまま）
 - `examples_note.md`：未作成。過去Note記事からGood見本を抽出して新設予定（Note品質の要）
 - OneDriveの`suggest_keywords.md`がs4lv_pro版かは未確認
-- `articles/published/`・`article_index.md`：未作成。Note公開8本のうち4本はrepoに本文なし（一覧・URL・repo本文有無は `articles/note_article_index.md`「未解決の課題」が正）。本文保全はユーザーからのコピー提供待ち
+- Note公開記事のうち4本（売れない理由／Xアルゴリズム／楽天アフィリ／アドセンス審査）はrepoに本文なし。一覧・URL・本文有無は `articles/note_article_index.md`「未解決の課題」が正。本文保全はユーザーからのコピー提供待ち。`articles/published/` は s4lv では作らない（2026-09-03判断・index が drafts/ を直接参照）
+- 知見の蓄積先は `rules/s4lv_learnings.md`（2026-09-10新設）。`kpi_log.md` は作らない
 
 ## 運用再開状況（2026-08-19時点）
 

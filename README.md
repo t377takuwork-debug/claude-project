@@ -61,7 +61,7 @@ claude project/
 │   ├── s4lv/
 │   │   ├── rules/         ← 文体定義・Note記事プロセス・アカウント方針 10本
 │   │   ├── examples_x_posts.md ← X投稿見本バンク（Good/Bad対比・生成前に読む）
-│   │   ├── profile.md     ← 統一プロフィール（2026-07-08確定・セットA）
+│   │   ├── rules/s4lv_learnings.md ← 学びの台帳（2026-09-10新設・/note-advisor の主参照。プロフィールの正は rules/project_s4lv_accounts.md）
 │   │   └── shared/        ← 実績データ・開示ルール（personal_data.md）
 │   └── mbticode/
 │       ├── rules/         ← 文体・戦略・KPI・販売分析 12本

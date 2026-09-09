@@ -64,7 +64,7 @@
 | `rules/project_s4lv_accounts.md` | 1アカウント統一・**トーンはカジュアル・親しみやすさ優先（2026-08-19）**・経歴ドラマ排除・数字非表示（プロフィール） |
 | `rules/project_s4lv_persona.md` | 3軸ペルソナ・「隣で一緒に確認してくれる距離感」 |
 | `rules/project_s4lv_operation_system.md` | 役割分担（構成合意＝ユーザー／本文＝Claude：執筆→AI臭さ除去→qa→保存）・依頼プロンプト定型 |
-| `shared/personal_data.md`・`profile.md`・`articles/note_article_index.md` | 実績・開示ルール・公開一覧 |
+| `shared/personal_data.md`・`rules/project_s4lv_accounts.md`・`articles/note_article_index.md`・`rules/s4lv_learnings.md` | 実績・開示ルール・プロフィール・公開一覧・学びの台帳（`profile.md` は2026-09-10に削除） |
 
 **MBTICODE（`brands/`・`brands/mbticode/`）**
 

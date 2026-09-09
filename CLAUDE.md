@@ -19,8 +19,7 @@ claude project/
 ├── brands/         ← アカウント運用・ライティング原則（→ brands/CLAUDE.md を参照）
 │   ├── writing/        ← ライティング原則4ファイル
 │   ├── s4lv/
-│   │   ├── profile.md  ← s4lv統一プロフィール（2026-07-08統一）
-│   │   ├── rules/      ← 文体定義・Note記事プロセス等10本（旧Claude Codeメモリから統合）
+│   │   ├── rules/      ← 文体定義・Note記事プロセス・学びの台帳（s4lv_learnings.md）等（プロフィールの正は rules/project_s4lv_accounts.md）
 │   │   └── shared/     ← s4lv共通プロフィール・実績データ
 │   └── mbticode/       ← MBTI×ラブタイプ診断コンテンツ運用（rules/に文体・戦略12本）
 ├── Junk314/        ← クライアント管理アカウント（→ Junk314/junk_juice/CLAUDE.md を参照）
@@ -85,6 +84,7 @@ claude project/
 | vtuber_log リライト | `blogs/vtuber_log/CLAUDE.md` |
 | darepedia 記事新規作成 | `/darepedia-article` スキルを起動 |
 | Note記事生成（s4lv/MBTICODE） | `brands/CLAUDE.md` |
+| s4lv Note運用の相談・KPI転記（テーマ／価格／導線／記事の判断） | `/note-advisor` スキルを起動 |
 | X・Threads投稿生成 | `brands/CLAUDE.md` |
 | junk_juice Note記事（テーマ・タイトル） | `/junk-theme` スキルを起動 |
 | junk_juice Note記事（構成・本文・保存） | `/junk-article` スキルを起動 |
