@@ -18,7 +18,7 @@ note.com/salvami77の公開記事一覧。**Threads・X の Note誘導回**は�
 
 | 公開日 | タイトル | 種別 | URL | 適合判定 | repo内本文 | 直近Threads誘導日 | 直近X誘導日 |
 |---|---|---|---|---|---|---|---|
-| 2026-09-09 | noteのアクセス解析（ダッシュボード）から、自分の記事を伸ばすヒントを見つける方法 | 無料 | https://note.com/salvami77/n/na256af0852ae | 合う | `drafts/note_free_20260908_note_access_kaiseki.md`（全文あり） | なし | なし |
+| 2026-09-09 | noteのアクセス解析（ダッシュボード）から、自分の記事を伸ばすヒントを見つける方法 | 無料 | https://note.com/salvami77/n/na256af0852ae | 合う | `drafts/note_free_20260908_note_access_kaiseki.md`（全文あり） | なし | 2026-09-09（章2「3つのサイン」誘導・単発。投稿済み） |
 | 2026-08-25 | 狙ったキーワードで検索1位へ導く。170万PVを生んだ設計で、検索1〜5位を今も量産中のブロガーが完全公開します。 | 有料¥4,980（タイムセール中¥3,980・8/25 8:00〜9/6 23:30） | https://note.com/salvami77/n/n243c6606523d | 合う（核） | `drafts/note_paid_20260430_sekkei_no_kata.md`（全文あり） | なし（2026-08-25新規記事として公開・旧URL nd6eb36a0ab5eの誘導実績は引き継がない） | なし |
 | 2026-09-04 | noteアフィリエイトの始め方。楽天・Amazonの貼り方と広告表記のルール | 無料 | https://note.com/salvami77/n/n8595dc7f6ffd | 合う（実用リファレンス・与信） | `drafts/note_free_20260831_note_affiliate_hajimekata.md`（全文あり） | なし（K16「noteアフィリの落とし穴」でテーマ借用のみ・URL誘導は誘導全廃で削除） | なし |
 | 2026-05-04 | noteの有料記事が売れない理由｜実績ゼロから売れるまでに変えた3つのポイント | 無料 | https://note.com/salvami77/n/nf101fe6400c4 | 合う | なし（見出し確認済み・本文未保全） | なし | なし |
