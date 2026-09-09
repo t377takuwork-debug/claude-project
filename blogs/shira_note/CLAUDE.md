@@ -23,6 +23,7 @@
 | `/cdtv-research` | CDTV リライト用の資料①②リサーチ（資料が渡されなかった回のみ／`/cdtv-rewrite` の手順0から呼ばれる） | `.claude/commands/cdtv-research.md` |
 | `/cdtv-archive-rewrite` | CDTVライブ！ライブ！（月次アーカイブ記事） | `.claude/commands/cdtv-archive-rewrite.md` |
 | `/star-rewrite` | STAR（フジテレビ） | `.claude/commands/star-rewrite.md` |
+| `/star-research` | STAR リライト用の資料①②リサーチ（資料が渡されなかった回のみ／`/star-rewrite` の手順0から呼ばれる） | `.claude/commands/star-research.md` |
 | `/musicday-rewrite` | THE MUSIC DAY（日本テレビ・年1回特番） | `.claude/commands/musicday-rewrite.md` |
 | `/teretou-rewrite` | テレ東音楽祭（テレビ東京・年1回特番） | `.claude/commands/teretou-rewrite.md` |
 | `/fns-rewrite` | FNS歌謡祭（フジテレビ・年2回特番） | `.claude/commands/fns-rewrite.md` |
