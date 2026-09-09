@@ -67,7 +67,7 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 | `/s4lv-post` | s4lv X・Threads投稿のバッチ生成（X 1日3本・Threads 1日3本。本数・投稿時刻の唯一の正は `s4lv/rules/project_s4lv_operation_system.md`「投稿量」、2本柱の定義は `s4lv/rules/project_s4lv_accounts.md`） | s4lvの投稿バッチを作るたびに |
 | `/reply` | 他者投稿へのリプライ・引用ポスト生成（投稿分析→反映メモ→本文の3ブロック出力） | リプライ・引用ポストを作るたびに |
 | `/note-article [アカウント] [テーマ]` | Note記事をペルソナ→SEO確認→タイトル→構成→本文→drafts保存まで一貫生成 | 記事を作るたびに |
-| `/notekaigi` | 戦略的意思決定の会議 | 新規戦略・方針転換・想定外のテーマが来たとき |
+| `/notekaigi` | 戦略的意思決定の会議（全アカウント共通・起動ゲート3条件：不可逆／トレードオフ／いま決められる） | 価格・方針転換・プロフィール改訂・開示範囲など後戻りしにくい判断のとき。定型作業・データ待ちは対象外 |
 | `/asp-kaigi` | ASP案件・収益化戦略会議 | ASP案件の選定・戦略を決めるとき |
 | `/asp-outline` | ASP記事タイトル・構成設計 | ASP記事の設計時 |
 | `/asp-theme` | ASP案件・記事テーマ戦略 | ASPのテーマ選定時 |
