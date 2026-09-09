@@ -16,11 +16,12 @@ type: project
 |---|---|
 | 本数・投稿時刻（X） | `rules/project_s4lv_operation_system.md`「投稿量」 |
 | **Threads生成の実務ルール（役割・1行目・型ローテ・自己リプ・問い・本数・出力形式）** | **`rules/threads_post_generation_rules.md`（唯一の正・システムプロンプト型）** |
-| Threads の詳細文体リファレンス（AI感禁止リスト・句読点・⭕見本・修正見本1〜6） | `rules/feedback_s4lv_threads_writing_style.md` |
+| Threads の詳細文体リファレンス（AI感禁止リスト・⭕見本・修正見本1〜6。句読点・改行・記号は `rules/sns_kutouten_kaigyo_rules.md`） | `rules/feedback_s4lv_threads_writing_style.md` |
 | 2本柱の定義・比率・アイデンティティ原則 | `rules/project_s4lv_accounts.md` |
 | X文体（フック・本文・締め・禁止・数値の使い方） | `rules/feedback_s4lv_x_writing_style.md` |
+| **句読点・改行・記号（X・Threads共通）** | **`rules/sns_kutouten_kaigyo_rules.md`（唯一の正・両媒体の文体OSはここを参照）** |
 | X反響設計（A/B 2軸）・確定構造 | `rules/feedback_s4lv_x_post.md` |
-| Threads文体の詳細（語尾・句読点・専門用語・数字・連続スレッド機構・語彙・絵文字・文字数） | `rules/feedback_s4lv_threads_writing_style.md` |
+| Threads文体の詳細（語尾・専門用語・数字・連続スレッド機構・語彙・絵文字・文字数。句読点・改行・記号は `rules/sns_kutouten_kaigyo_rules.md`） | `rules/feedback_s4lv_threads_writing_style.md` |
 | ネタ元（型・思想＝K項目／AI実働＝A項目・唯一の正） | `x_neta_daicho.md`（旧 `ai_work_log.md` は2026-09-07に統合廃止） |
 | Note誘導のネタ源・ローテーション | `articles/note_article_index.md` |
 | 実績数値・開示ルール | `shared/personal_data.md` |
@@ -56,7 +57,7 @@ type: project
 ### 0. まず `rules/s4lv_learnings.md`「オーナーの好み」を読み、全項目を生成の制約として入れる（2026-09-10・往復削減）
 往復の主因は「1稿目が既知のオーナーの好みを外していて、あとから直す」こと。最初から入れる：
 - **1行目・締めをバッチ内でばらす**。同じ入り方（過去失敗→今は／お題→説明→観察オチ 等）が3本以上なら書き直す。断言で開かない。締めを「〜ました。」で終える本を2本以上作らない
-- **改行・読点の型**：句点（。）ごとに改行／話題の切れ目に空行1つ／「間」の読点は削る（文頭の接続詞のあとは置く）／キー語句は「」／体言止め可／観点の列挙は「」1行ずつか「・」
+- **句読点・改行・記号**：`rules/sns_kutouten_kaigyo_rules.md`（X・Threads共通・唯一の正）。要点＝句点ごとに改行・1文1行／話題の切れ目に空行1つ／「間」の読点は削る（文頭の接続詞のあとは置く）／用語・キー語句は「」（"" は不可）／体言止め可／観点の列挙は「」1行ずつか「・」
 - **分かりにくい語を使わない**（わかりやすさ最優先）：カタカナ語・像を結べない語（「最初の画面」「横に並べて」「スクリプト」等）・オーナーが使わない決まり文句（「点は勝手に足しません」等）
 - **数字は控えめ**（誇張を嫌う。台帳の数字より低め or ぼかす）
 
@@ -95,7 +96,7 @@ type: project
 - 符丁（allintitle・ずらし・一次情報等）：2行目以降で平易な言い換え→用語＋一般語の実例で1回だけ固定。1行目には置かない
 - 主張・チェック項目が2つ以上＝箇条書き（・）。言い切りは多用せず「〜んです」等の親しみ語尾を混ぜる
 - 数字は personal_data 記載のもの・1投稿の主役数値は1つ
-- 記号：二重引用符で語を囲まない・ダッシュ禁止・疑問文は「？」・**1文の読点は目安2つまで**
+- 句読点・改行・記号は `rules/sns_kutouten_kaigyo_rules.md`（X・Threads共通・唯一の正）。Threads差分＝強調の「」は用語の明示に絞る（キー概念を「」で飾らない）
 - 文字数：説得型150〜300字／短い型80字〜
 
 ### AI感の禁止リスト（両媒体・qa_post.pyでERROR検知）
