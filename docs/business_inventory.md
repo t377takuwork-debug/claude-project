@@ -37,7 +37,7 @@
 | I4 | s4lv Note記事・X/Threads投稿 | `brands/s4lv/rules/`（文体・プロセス一式） | X投稿は `/post-review` チェック済み | 反響設計図（`rules/feedback_s4lv_x_post.md`） |
 | I5 | shira_note キーワード起点記事 | `/shira-keyword-article` | `/shira-qa` ERROR 0件 | qa_draft.py |
 | I6 | shira_note 新規番組記事立ち上げ | `/shira-new-article` | 専用コマンド新設＋CLAUDE.md登録まで1セッション完結 | qa_draft.py |
-| I7 | 戦略・方針判断 | `/notekaigi`（構造的判断は必ずここを経由・起動ゲート3条件） | [論点整理]→[決定]→[戦略案]→[収益・改善プラン]→[更新] 出力＋[更新]の運用ファイル反映まで完了 | － |
+| I7 | 戦略・方針判断 | `/notekaigi`（構造的判断は必ずここを経由・開く条件3つ：あとから戻せない／どっちかしか取れない／いま決められる） | [論点整理]→[決定]→[戦略案]→[収益・改善プラン]→[更新] 出力＋[更新]の運用ファイル反映まで完了 | － |
 | I8 | ASP記事設計 | `/asp-kaigi` → `/asp-theme` → `/asp-outline` の順に連結 | 各スキルの出力フォーマット完了 | － |
 | I9 | ブログ戦略・記事CV改善 | `/blog-kaigi`（戦略）／`/monetize-kaigi`（CV改善） | 5名合議の出力完了 | － |
 | I10 | バズ投稿分析 | `/buzz-analysis`（収集はユーザー手動・自動取得はX/Threadsで機能せず見送り済み） | 4部構成の分析出力（投稿別分析表〜資産反映提案） | 固定フレームワーク6観点 |

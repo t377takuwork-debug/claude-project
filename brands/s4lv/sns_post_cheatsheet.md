@@ -25,7 +25,7 @@ type: project
 | Note誘導のネタ源・ローテーション | `articles/note_article_index.md` |
 | 実績数値・開示ルール | `shared/personal_data.md` |
 | 対象読者ペルソナ（3軸） | `rules/project_s4lv_persona.md` |
-| 検証済み／仮説／棄却／オーナー意図／観測トリガー／実測ログ（学びの台帳） | `rules/s4lv_learnings.md`（2026-09-10新設・`/note-advisor` の主参照） |
+| 学びの台帳（確かめられたこと／まだ確かめていない考え／やらないと決めたこと／オーナーの好み／見直しのタイミング／実際の数字の記録） | `rules/s4lv_learnings.md`（2026-09-10新設・`/note-advisor` がいちばん先に読む） |
 | Good/Bad見本 | `examples_x_posts.md`（X）／Threadsは `rules/threads_post_generation_rules.md`「見本」（⭕完成形＋修正見本1〜6） |
 
 ---

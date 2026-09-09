@@ -66,6 +66,9 @@ claude project/
 自信のない箇所には確信度（高・中・低）を付け、中・低なら確認してから進むべきかを聞く。
 長い作業では、区切りごとに「完了したこと」「次にやること」「気になっていること」の3点だけ報告する。
 
+### ふだんの言葉で書く（2026-09-10）
+オーナーは高校卒業レベルの知識で、IT・マーケティングの専門用語やカタカナ語（観測トリガー／トレードオフ／ペイウォール／レンズ／Tier／モードA 等）がぱっと理解しにくい。チャットの返答も、作るファイル（台帳・スキル・報告）も、ふだんの日本語で書く。どうしても専門用語が要るときは、すぐ横に（かんたんな説明）をつける。言いかえ表は `docs/plain_language_glossary.md` が唯一の正。見出し・区分名に英字略語やカタカナ語を使わない。
+
 ### モデル切替時のeffort目安（タスク種類で切り替える）
 - **定型作業＝`medium`**（機械QAの安全網があるもの）：shira_noteリライト（qa_gateフックが自動検品）／X・Threads投稿提案（qa_post＋/post-review）／Note記事本文生成（qa_article）
 - **判断・環境系＝`high`**（Opus系は`xhigh`）：戦略会議（/notekaigi・/asp-kaigi等）／新規記事立ち上げ・タイトル/構成設計／/consolidate-memory／フック・タスクスケジューラ・settings.json等の環境変更
@@ -84,7 +87,7 @@ claude project/
 | vtuber_log リライト | `blogs/vtuber_log/CLAUDE.md` |
 | darepedia 記事新規作成 | `/darepedia-article` スキルを起動 |
 | Note記事生成（s4lv/MBTICODE） | `brands/CLAUDE.md` |
-| s4lv Note運用の相談・KPI転記（テーマ／価格／導線／記事の判断） | `/note-advisor` スキルを起動 |
+| s4lv Note運用の相談・数字の記録（テーマ／価格／読者を案内する流れ／記事の判断） | `/note-advisor` スキルを起動 |
 | X・Threads投稿生成 | `brands/CLAUDE.md` |
 | junk_juice Note記事（テーマ・タイトル） | `/junk-theme` スキルを起動 |
 | junk_juice Note記事（構成・本文・保存） | `/junk-article` スキルを起動 |
