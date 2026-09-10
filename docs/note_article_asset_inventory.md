@@ -38,7 +38,7 @@
 | `/vivant-theme` → `/vivant-article` | vivant専用の2段フロー。Step 3品質チェックが最も網羅的 | vivant | 手順 |
 | `/junk-theme` → `/junk-article` | junk_juice専用（文体2層：エピソード口語／鉄則ですます） | junk_juice | 手順（トーン基準適用外） |
 | `/quality-guardrail` | AIっぽさ添削（ヘッジ・説教・相槌の書き直し） | **SNS投稿設計**（cheatsheet上に重ねる前提） | SOP上はNoteにも使えと記載（後述の矛盾3） |
-| `/notekaigi` | 5人格の戦略会議。テーマ・価格・方針転換 | 全 | 任意（戦略判断・スキル改変時は必須：`docs/rules/feedback_notekaigi_timing.md`） |
+| `/notekaigi` | 3レンズ（需要／成約／CEO）の戦略会議。テーマ・価格・方針転換。起動ゲート3条件＋Step 0でアカウント文脈を読む。思考モデルは`docs/reference/note_monetization_reference.md` | 全 | 任意（戦略判断・スキル改変時は必須：`docs/rules/feedback_notekaigi_timing.md`） |
 | `/content-scan` | 記事から読者の疑問・無意識の前提を抽出→次テーマ | 全 | 任意 |
 | `/monetize-kaigi` | アフィリ収益最適化会議 | ブログ向け | 任意（Note記事にはほぼ未使用） |
 | `/seo-check` | URL×KWのSEO診断 | ブログ向け（Note URLにも適用可） | 任意 |
@@ -64,7 +64,7 @@
 | `rules/project_s4lv_accounts.md` | 1アカウント統一・**トーンはカジュアル・親しみやすさ優先（2026-08-19）**・経歴ドラマ排除・数字非表示（プロフィール） |
 | `rules/project_s4lv_persona.md` | 3軸ペルソナ・「隣で一緒に確認してくれる距離感」 |
 | `rules/project_s4lv_operation_system.md` | 役割分担（構成合意＝ユーザー／本文＝Claude：執筆→AI臭さ除去→qa→保存）・依頼プロンプト定型 |
-| `shared/personal_data.md`・`profile.md`・`articles/note_article_index.md` | 実績・開示ルール・公開一覧 |
+| `shared/personal_data.md`・`rules/project_s4lv_accounts.md`・`articles/note_article_index.md`・`rules/s4lv_learnings.md` | 実績・開示ルール・プロフィール・公開一覧・学びの台帳（`profile.md` は2026-09-10に削除） |
 
 **MBTICODE（`brands/`・`brands/mbticode/`）**
 
@@ -105,7 +105,7 @@
 | 資産 | 視点 | 忖度 | 強制力 |
 |---|---|---|---|
 | `docs/reference/note_asset_check_prompt.md` | 迫×コトラー（資産性・導線・LTV） | 禁止・減点方式 | 任意 |
-| `/notekaigi` | CEO・コトラー・リサーチャー・Noteマネタイザー・AIエージェント | 同意だけ禁止 | 任意 |
+| `/notekaigi` | ①需要=Amy Hoy＋Kotler／②成約=Nathan Barry＋Justin Welsh／③CEO=Adam Enfroy | 同意だけ禁止 | 任意 |
 | `/quality-guardrail` | 構文レベルの薄さ | — | SNS設計 |
 | `/content-scan` | 読者の疑問・前提 | — | 任意 |
 

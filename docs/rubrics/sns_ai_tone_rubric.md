@@ -96,7 +96,7 @@
 | **数字が、読者が再現・検証できる具体的な手法・判断・現状と、同じ文か隣接1文にあるか**（「170万PV出しました」等の単独フック・威圧はNG。手法とセットならOK。2026-09-08 `/notekaigi` でX本文の数字を条件付き解禁） | FIX（文脈なしの単独数字） | project_s4lv_accounts 原則2／feedback_s4lv_x_writing_style「数値・実績の使い方」 |
 | **トロフィー数字**（170万PV・月収65万・年間約100件成約・amiibo 1日約170万円）が、1日の投稿群で2回以上／1行目／「どのやり方でそうなったか」とセットでない、のいずれかに該当していないか | FIX | 同上（2項） |
 | 小さい・現在進行の数字（検索順位・allintitle実測・pv感・成約件数で `personal_data.md`「X本文で文脈つきなら自由に使える数字」記載）で文脈つき → **OK**（指摘しない） | ― | 同上（3項） |
-| AI（Claude Code等）を**完了形で断定**していないか（「AIで再現した」不可。「〜している」「テスト運用中」のみ） | BLOCK | project_s4lv_accounts 原則3／ai_work_log 開示ルール |
+| AI（Claude Code等）を**完了形で断定**していないか（「AIで再現した」不可。「〜している」「テスト運用中」のみ） | BLOCK | project_s4lv_accounts 原則3／`x_neta_daicho.md` 開示注意・使い方7 |
 | AI実働枠：**丸投げしていない点（判断は自分）**が添えられているか | FIX | `x_neta_daicho.md` 使い方7 |
 | Threadsは数字ルールが別（本文解禁済み・`feedback_s4lv_threads_writing_style.md`）。Note誘導のURLは本文でなくリプライ欄 | 各項 FIX | 各正 |
 
@@ -112,7 +112,7 @@
 ### H. Threads固有（platform=threads のときのみ追加適用）
 | 見るもの | 重大度 | 正 |
 |---|---|---|
-| `feedback_s4lv_threads_writing_style.md` Step 3.5b の11項目（フックと締めの時間軸ズレ・箇条書き化できる主張の文章流し込み・否定から入るフック・著者回想始まり・符丁の1行目・抽象語の前置き・実績の進行形・締めの問いの型・二重引用符/ダッシュ記号・「間」だけの読点） | 各項目 FIX | feedback_s4lv_threads_writing_style Step 3.5b |
+| `threads_post_generation_rules.md`（合格ライン・1行目・型ローテ・自己リプ・問い）＋ `feedback_s4lv_threads_writing_style.md`（語尾/句読点/専門用語/反響を生む型）：フックと締めの時間軸ズレ・箇条書きにできる主張の文章流し込み・指摘/職歴で始まるフック・符丁の1行目・抽象語の前置き・実績の進行形・締めの問いの型（失敗談の回のみ）・二重引用符/ダッシュ記号・「間」だけの読点・バッチの骨格が単調でないか | 各項目 FIX | threads_post_generation_rules ＋ feedback_s4lv_threads_writing_style |
 | 自己リプライがある場合：本文が単体で完結しているか（「続きはリプで」型のぶつ切りでないか） | FIX | s4lv-post Step 7 |
 
 ## 4. 出力フォーマット（固定・この形以外で返さない）

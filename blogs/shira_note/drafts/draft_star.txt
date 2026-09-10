@@ -1,8 +1,8 @@
 ﻿<!-- wp:paragraph -->
-タイトル：【最新】STAR タイムテーブル 9月3日は何時から？出演順や出演時間更新！
+タイトル：【最新】STAR タイムテーブル 9月10日は何時から？出演順や出演時間更新！
 
-メタディスクリプション（109字）：
-9/3放送のフジテレビ音楽番組『STAR』出演アーティスト・出演順・歌唱曲を随時更新。＝LOVE、King & Prince「So Honey」、中島健人が出演。ナビゲーターは今回未発表、詳細曲目は発表次第追記します！
+メタディスクリプション（105字）：
+9/10放送のフジテレビ音楽番組『STAR』出演アーティスト・歌唱曲・出演順を随時更新。Snow Man「show time...」、King & Princeの2曲、中島健人・INI・ピコ太郎・モナキも登場！
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -64,7 +64,7 @@
       <div style="display: flex; justify-content: space-between; align-items: center;">
         <span style="font-size: 11px; color: #F26522; font-weight: 700;">放送日時</span>
         <span style="font-size: 13px; font-weight: 800; color: #1a1a1a;">
-          9.3 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
+          9.10 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
         </span>
       </div>
     </div>
@@ -74,21 +74,21 @@
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333; line-height: 1.5;">
           <strong style="color: #000;">出演：</strong>
-          ＝LOVE／King &amp; Prince／中島健人／and more...
+          Snow Man／King &amp; Prince／中島健人／INI／ピコ太郎／モナキ
         </p>
       </div>
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333; line-height: 1.5;">
           <strong style="color: #000;">注目：</strong>
-          King &amp; Prince「So Honey」を披露予定／＝LOVE・中島健人の歌唱曲は今後発表予定／今回はナビゲーターの発表がなく、MC上垣皓太朗が単独で進行
+          モナキが地上波でデビュー曲「ほんまやで☆なんでやねん☆しらんけど」を披露／King &amp; Princeは2週連続出演で「HEART」「So Honey」の2曲／中島健人は3週連続出演／ナビゲーターはモナキのおヨネ
         </p>
       </div>
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333; line-height: 1.5;">
           <strong style="color: #000;">タイムテーブル：</strong>
-          放送前のため出演順の予測を掲載中です。19:00の放送開始とともに、実際の進行へリアルタイムで反映していきます。
+          放送開始前は構成の予測を掲載しています。19:00からは実際の進行に合わせて順次書き換えます。
         </p>
       </div>
     </div>
@@ -103,7 +103,7 @@
       line-height: 1.4;
     ">
       <span style="font-weight: 700; color: #444;">※ハイライト：</span><br>
-      ＝LOVE・King &amp; Prince・中島健人が発表された回。King &amp; Prince「So Honey」の披露に注目。
+      Snow Man「show time...」やKing &amp; Princeの2曲披露に加え、6人組・モナキの地上波パフォーマンスが今回の注目です。
     </div>
 
     <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -120,7 +120,7 @@
         最新タイムテーブルを見る ❯
       </a>
       <div style="font-size: 9px; color: #999; text-align: right;">
-        UPDATED: 2026.08.24
+        UPDATED: 2026.09.09
       </div>
     </div>
   </div>
@@ -136,15 +136,15 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>今回は＝LOVE・King & Prince・中島健人が出演し、King & Prince「So Honey」の披露にも注目です！</p>
+<p>今回はSnow Man・King & Prince・中島健人・INI・ピコ太郎・モナキが出演し、モナキの地上波パフォーマンスにも注目です！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>STAR 最新タイムテーブル【9/3】</h2>
+<h2>STAR 最新タイムテーブル【9/10】</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年9月3日（木）19:00から放送の『STAR』出演アーティストと歌唱曲の予想です。</p>
+<p>2026年9月10日（木）19:00から放送の『STAR』出演アーティストと歌唱曲の予想です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -194,7 +194,7 @@
       <div style="display: flex; justify-content: space-between; align-items: center;">
         <span style="font-size: 11px; color: #F26522; font-weight: 700;">放送日時</span>
         <span style="font-size: 13px; font-weight: 800; color: #1a1a1a;">
-          8.13 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
+          9.10 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 20:00
         </span>
       </div>
     </div>
@@ -204,35 +204,49 @@
       <div style="display: flex; gap: 6px; align-items: flex-start;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:00</strong> OP（MC上垣皓太朗）※今回はナビゲーターの発表なし
+          <strong>19:00</strong> OP（MC上垣皓太朗／ナビゲーター：おヨネ〈モナキ〉）
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:10頃</strong> ＝LOVE★歌唱曲は後日発表
+          <strong>19:10頃</strong> モナキ「ほんまやで☆なんでやねん☆しらんけど」
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:20頃</strong> King & Prince「So Honey」
+          <strong>19:20頃</strong> INI「You Know What To Do」
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:30頃</strong> 中島健人★歌唱曲は後日発表
+          <strong>19:28頃</strong> 中島健人「Fiction Love」
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:40頃〜</strong> and more★追加出演者・詳細な進行は今後発表予定
+          <strong>19:36頃</strong> King & Prince「HEART」「So Honey」
+        </p>
+      </div>
+
+      <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
+        <span style="color: #00B7B5; font-size: 12px;">✦</span>
+        <p style="margin: 0; font-size: 11.5px; color: #333;">
+          <strong>19:46頃</strong> ピコ太郎「PPAP」
+        </p>
+      </div>
+
+      <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
+        <span style="color: #00B7B5; font-size: 12px;">✦</span>
+        <p style="margin: 0; font-size: 11.5px; color: #333;">
+          <strong>19:50頃</strong> Snow Man「show time...」
         </p>
       </div>
 
@@ -255,7 +269,7 @@
       line-height: 1.4;
     ">
       <strong>※最新の状況：</strong><br>
-      ただいま表示している出演時間は9月3日放送分の<strong>構成予測</strong>です。出演者は一部発表のみのため、続報が入り次第、随時この一覧を更新していきます。
+      ただいま表示しているのは9月10日放送分の<strong>構成予測</strong>です。出演6組と歌唱曲は発表済みで、19:00の放送開始後に実際の出演順へ書き換えます。
     </div>
 
     <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -272,7 +286,7 @@
       </a>
 
       <div style="font-size: 9px; color: #999;">
-        UPDATED: 2026.08.24
+        UPDATED: 2026.09.09
       </div>
     </div>
 
@@ -289,7 +303,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>STAR（9/3）出演アーティスト・歌唱内容一覧</h2>
+<h2>STAR（9/10）出演アーティスト・歌唱内容一覧</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center","sizeSlug":"full"} -->
@@ -318,27 +332,39 @@ box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 <div style="background: #fff; border-radius: 0 0 11px 11px; overflow: hidden;">
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">＝LOVE</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">歌唱曲は後日発表</div>
-  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">出演のみ発表済み。詳細な披露曲は今後の続報を待つ状況</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">INI</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「You Know What To Do」</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">9月16日発売の9thシングル「ANTHEM」より。後藤威尊・西洸人が作詞に参加</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
   <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">King &amp; Prince</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「So Honey」</div>
-  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">披露曲まで確定済みで発表されている今回の目玉パフォーマンス</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「HEART」「So Honey」</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">「HEART」は永瀬廉主演ドラマ『御曹司に恋はムズすぎる』主題歌。「So Honey」は1st EP表題曲で2週連続の披露</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">Snow Man</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「show time...」</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">10月7日発売の6thアルバム「AMENITY」より</div>
+</div>
+
+<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
   <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">中島健人</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">歌唱曲は後日発表</div>
-  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">出演のみ発表済み。詳細な披露曲は今後の続報を待つ状況</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「Fiction Love」</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">主演映画『ラブ≠コメディ』主題歌。9月3日から3週連続出演の2週目</div>
+</div>
+
+<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">ピコ太郎</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「PPAP」</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">世界的にヒットした代表曲を披露</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; background: #fdf2ed;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">and more…</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">追加出演者は今後発表予定</div>
-  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">現時点では一部出演者のみの発表。続報が入り次第この一覧に反映</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">モナキ</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「ほんまやで☆なんでやねん☆しらんけど」</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">デビューシングル。メンバーのおヨネが今回のナビゲーターも担当</div>
 </div>
 
 </div>
@@ -350,7 +376,7 @@ box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>9月3日の『STAR』は、＝LOVE・King & Prince・中島健人の出演が発表済みです。King & Princeは披露曲「So Honey」まで確定しており、今回の目玉パフォーマンスになりそうです。</p>
+<p>9月10日の『STAR』は6組が出演し、全アーティストの歌唱曲まで発表済みです。King & Princeは「HEART」「So Honey」の2曲、Snow Manは新アルバムから「show time...」を披露します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -398,7 +424,7 @@ padding: 14px;
     <span style="color:#F26522; font-size:12px;">✦</span>
     <div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color:#333;">
       <strong>19:00〜（オープニング・熱狂枠）</strong><br>
-      今回はナビゲーターの発表がなく、MC上垣皓太朗単独でのオープニング進行になりそうです。前回（8/13）放送でも緑黄色社会「晴々」・ME:I「花咲く道」が序盤に置かれた実績があり、今回も＝LOVEなどが早い時間帯に配置される可能性があります。
+      今回はナビゲーターをモナキのおヨネが務めます。前回（9/3）放送は福山雅治のメドレーで序盤から一気に盛り上げる構成だったため、今回もモナキやINIなど、勢いのあるパフォーマンスが早い時間帯に置かれるかもしれません。
     </div>
   </div>
 
@@ -406,7 +432,7 @@ padding: 14px;
     <span style="color:#00B7B5; font-size:12px;">✦</span>
     <div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color:#333;">
       <strong>19:15〜19:45（中盤・パフォーマンス枠）</strong><br>
-      披露曲まで確定しているKing & Prince「So Honey」が中盤の目玉になりそうです。前回（8/13）放送でもLE SSERAFIM・.ENDRECHERI.のパフォーマンスが中盤枠に集中した実績があります。
+      King & Princeの「HEART」「So Honey」2曲、中島健人「Fiction Love」あたりが中盤の見どころになりそうです。前回（9/3）放送でもKing & Prince「So Honey」と中島健人のパフォーマンスに反響が集まりました。
     </div>
   </div>
 
@@ -414,7 +440,7 @@ padding: 14px;
     <span style="color:#F26522; font-size:12px;">✦</span>
     <div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color:#333;">
       <strong>19:45〜20:00（終盤・クライマックス枠）</strong><br>
-      中島健人や「and more」で発表される追加出演者が終盤に配置される可能性があります。前回（8/13）放送は生中継パートのINI×RIIZEコラボが終盤の目玉となり最大の反響を集めた実績があります。
+      Snow Man「show time...」が終盤の目玉になるかもしれません。前回（9/3）放送も＝LOVEのフルサイズ披露が終盤に置かれ、放送の最後にかけて感想が伸びました。
     </div>
   </div>
 
@@ -431,7 +457,7 @@ border-radius:8px;
 line-height:1.5;
 ">
 💡 <strong>今回のポイント</strong><br>
-前回（8/13）放送は「序盤：緑黄色社会・ME:I→中盤：LE SSERAFIM・.ENDRECHERI.→終盤：生中継コラボ」という進行だった実績を踏まえると、今回も「序盤：＝LOVE→中盤：King & Prince→終盤：中島健人・and more」の流れになるのではと見ています（あくまで筆者の予想）。ただし今回はまだ一部発表の段階のため、続報次第で構成が変わる可能性もあります。
+前回（9/3）放送は「福山雅治のメドレー→King & Prince→初登場VTR→中島健人→＝LOVE」という流れで、King & Princeの登場と中島健人のパフォーマンスに反響が集まりました。今回も「序盤：モナキ・INI→中盤：King & Prince・中島健人→終盤：Snow Man」あたりが山になるのではと見ています（あくまで筆者の予想）。出演順は放送後にこのページで実際の進行へ更新します。
 </div>
 
 </div>
@@ -451,7 +477,7 @@ line-height:1.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>8月13日の放送は以下のような流れでした。</p>
+<p>9月3日の放送は以下のような流れでした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -490,7 +516,7 @@ line-height:1.5;
           『STAR』SETLIST &amp; REPORT
         </div>
       </div>
-      <div style="font-size: 12px; font-weight: 700; color: #666;">2026.08.13 <span style="font-weight: 400;">THU</span></div>
+      <div style="font-size: 12px; font-weight: 700; color: #666;">2026.09.03 <span style="font-weight: 400;">THU</span></div>
     </div>
 
     <div style="
@@ -501,7 +527,7 @@ line-height:1.5;
       border-left: 4px solid #F26522;
     ">
       <div style="font-size: 11px; color: #F26522; font-weight: 800; margin-bottom: 2px;">STAR NAVIGATORS</div>
-      <div style="font-size: 14px; font-weight: 700; color: #333;">上垣 皓太朗（フジテレビアナウンサー）／大林素子（元バレーボール日本代表）</div>
+      <div style="font-size: 14px; font-weight: 700; color: #333;">上垣 皓太朗（フジテレビアナウンサー）／リリー・フランキー</div>
     </div>
 
     <div style="display: grid; gap: 0; margin-bottom: 16px; border-left: 2px solid #eee; margin-left: 6px; padding-left: 14px;">
@@ -510,16 +536,16 @@ line-height:1.5;
         <div style="font-size: 11px; color: #F26522; font-weight: 800;">19:00頃 / OPENING</div>
         <div style="font-size: 13px; color: #1a1a1a; line-height: 1.5;">
           MC上垣皓太朗進行で番組スタート<br>
-          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">STARナビゲーター大林素子が初登場</span>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">ナビゲーターにリリー・フランキーが登場</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:05頃</div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:00頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">緑黄色社会</span> 「晴々」<br>
-          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">『バレーボールアジア選手権2026』中継テーマソング</span>
+          <span style="font-weight: 800;">福山雅治</span> フジテレビ ドラマ・映画メドレー<br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">「KISSして」→「vs. ～知覚と快楽の螺旋～」→「HELLO」。番組序盤からの熱演に反響が集まった</span>
         </div>
       </div>
 
@@ -527,17 +553,8 @@ line-height:1.5;
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
         <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:10頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">ME:I</span> 「花咲く道」<br>
-          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">最新シングルを披露</span>
-        </div>
-      </div>
-
-      <div style="position: relative; padding-bottom: 14px;">
-        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:15頃</div>
-        <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">LE SSERAFIM</span> 「BOOMPALA」<br>
-          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">「マカレナ」をサンプリングした新曲</span>
+          <span style="font-weight: 800;">King &amp; Prince</span> 「So Honey」<br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">フルサイズで披露。交差の演出とカメラワークへの称賛が集まり、2週連続出演の発表も話題に</span>
         </div>
       </div>
 
@@ -545,26 +562,44 @@ line-height:1.5;
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
         <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:20頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">（企画）夏の応援ソング大特集</span><br>
-          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">ナビゲーター大林素子のトークとともに、3000人調査を元にしたランキングを紹介</span>
+          <span style="font-weight: 800;">（企画VTR）スター初登場の瞬間！！大公開SP</span><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">中森明菜・反町隆史・SPEED・DOMOTO・織田裕二・浜崎あゆみらの初々しい映像。福山雅治の初登場も公開</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:30頃</div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:32頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">.ENDRECHERI.（堂本剛）</span> 「Thinking Time」<br>
-          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">落ち着いたグルーヴのパフォーマンスが披露された</span>
+          <span style="font-weight: 800;">福山雅治</span> 「邂逅」<br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">映画『あの星が降る丘で、君とまた出会いたい』主題歌。ギターの弾き語りでしっとりと</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 14px;">
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:38頃</div>
+        <div style="font-size: 13px; color: #1a1a1a;">
+          <span style="font-weight: 800;">中島健人</span> 「鬼事」<br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">アニメ『逃げ上手の若君』オープニング曲。早着替えの「スターのお色直し」演出が話題に</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 14px;">
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:48頃</div>
+        <div style="font-size: 13px; color: #1a1a1a;">
+          <span style="font-weight: 800;">（エンタメニュース）</span><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">上垣アナ進行。翌週のSnow Man「show time...」などを紹介</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #F26522; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:38頃 / LAST</div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:50頃 / LAST</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">INI＆RIIZE</span> スペシャルステージ（生中継）<br>
-          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">東京ガーデンシアター「めざましWANGANフェス」より生中継。出演者全員とCANDY TUNEの「倍倍FIGHT!」コラボにちいかわ・ハチワレも登場し、番組最大の反響を集めた</span>
+          <span style="font-weight: 800;">＝LOVE</span> 「恋、はじめました。」<br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">フル歌詞で披露。終盤にかけて感想が急増した</span>
         </div>
       </div>
     </div>
@@ -589,11 +624,11 @@ line-height:1.5;
       line-height: 1.6;
     ">
       <span style="display: inline-block; background: #eee; padding: 0 4px; border-radius: 2px; margin-right: 4px; font-weight: 800;">REPORT</span><br>
-      MC上垣皓太朗と初登場のSTARナビゲーター大林素子の進行で、『FNS歌謡祭』×『めざましテレビ』のコラボ回に。終盤は東京ガーデンシアターからの生中継に切り替わり、INI×RIIZEのステージから出演者全員とCANDY TUNEの「倍倍FIGHT!」コラボへの流れが番組最大の反響を集めた。マルシィ・MyM・VOLTACTION・ちいかわ・ハチワレも登場。
+      MC上垣皓太朗とナビゲーターのリリー・フランキーの進行で、福山雅治のフジテレビ ドラマ・映画メドレーから始まった回。King &amp; Prince「So Honey」の交差の演出と、中島健人「鬼事」の早着替え（お色直し）が特に話題を集めた。＝LOVEはフル歌詞で「恋、はじめました。」を披露し、終盤にかけて感想が伸びた。
     </div>
 
     <div style="display: flex; flex-direction: column; gap: 12px;">
-      <a href="https://tver.jp/series/sr1ksvsv1n" target="_blank" style="
+      <a href="https://tver.jp/episodes/ep8j3ojgkg" target="_blank" style="
         text-decoration: none;
         background: #00B7B5;
         color: #fff;
@@ -609,7 +644,7 @@ line-height:1.5;
       </a>
       <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 4px; border-top: 1px solid #eee;">
         <div style="font-size: 9px; color: #999; font-weight: 700; letter-spacing: 0.5px;">STAR ARCHIVE REPORT</div>
-        <div style="font-size: 9px; color: #999;">FINAL UPDATED: 2026.08.13</div>
+        <div style="font-size: 9px; color: #999;">FINAL UPDATED: 2026.09.03</div>
       </div>
     </div>
   </div>
@@ -621,7 +656,7 @@ line-height:1.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>※9/3放送分は放送前のため未確定です。19:00の放送開始とともにリアルタイムで出演順を反映します。</p>
+<p>※9/10放送分は放送前のため未確定です。19:00の放送開始とともにリアルタイムで出演順を反映します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -731,7 +766,47 @@ color:#fff;
 <div style="padding:14px 16px;">
 
 <!-- ======================= -->
-<!-- 2026.08.06 (NEW) -->
+<!-- 2026.08.13 (NEW) -->
+<!-- ======================= -->
+<h3 style="margin:16px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
+2026年8月13日放送回
+</h3>
+
+<div style="
+border-radius:12px;
+overflow:hidden;
+border:1px solid #eee;
+background:#fff;
+box-shadow:0 6px 18px rgba(0,0,0,0.06);
+">
+
+<div style="height:4px;background:linear-gradient(90deg,#F26522,#00B7B5);"></div>
+
+<div style="padding:12px 14px;background:#fdfdfd;border-bottom:1px solid #eee;">
+  <div style="font-size:11px;font-weight:900;color:#F26522;">PAST LOG / STAR ARCHIVE</div>
+  <div style="font-size:14px;font-weight:900;color:#1a1a1a;">2026.08.13</div>
+</div>
+
+<div style="padding:14px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);line-height:1.8;color:#333;">
+
+<strong>19:00～19:10頃 OPENING</strong>：MC上垣皓太朗進行で番組スタート、STARナビゲーター大林素子が初登場<br>
+<strong>19:05頃 緑黄色社会</strong>：「晴々」（『バレーボールアジア選手権2026』中継テーマソング）<br>
+<strong>19:10頃 ME:I</strong>：「花咲く道」（最新シングルを披露）<br>
+<strong>19:15頃 LE SSERAFIM</strong>：「BOOMPALA」（「マカレナ」をサンプリングした新曲）<br>
+<strong>19:20頃 （企画）夏の応援ソング大特集</strong>：大林素子のトークとともに、3000人調査を元にしたランキングを紹介<br>
+<strong>19:30頃 .ENDRECHERI.（堂本剛）</strong>：「Thinking Time」（落ち着いたグルーヴのパフォーマンス）<br>
+<strong>19:38頃 LAST INI＆RIIZE</strong>：スペシャルステージ（生中継）。東京ガーデンシアター「めざましWANGANフェス」より、出演者全員とCANDY TUNEの「倍倍FIGHT!」コラボにちいかわ・ハチワレも登場
+
+</div>
+
+<div style="padding:10px 14px;background:#f7fafc;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#666;">
+💡 MC上垣皓太朗とSTARナビゲーター大林素子の進行で、『FNS歌謡祭』×『めざましテレビ』のコラボ回に。終盤の東京ガーデンシアターからの生中継で、INI×RIIZEから出演者全員とCANDY TUNEの「倍倍FIGHT!」コラボへの流れが特に話題を集めた。マルシィ・MyM・VOLTACTION・ちいかわ・ハチワレも登場。※出演順は反響が集中したタイミングに基づく推定
+</div>
+
+</div>
+
+<!-- ======================= -->
+<!-- 2026.08.06 -->
 <!-- ======================= -->
 <h3 style="margin:16px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
 2026年8月6日放送回
@@ -847,44 +922,6 @@ box-shadow:0 6px 18px rgba(0,0,0,0.06);
 
 </div>
 
-<!-- ======================= -->
-<!-- 2026.07.16 -->
-<!-- ======================= -->
-<h3 style="margin:16px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
-2026年7月16日放送回
-</h3>
-
-<div style="
-border-radius:12px;
-overflow:hidden;
-border:1px solid #eee;
-background:#fff;
-box-shadow:0 6px 18px rgba(0,0,0,0.06);
-">
-
-<div style="height:4px;background:linear-gradient(90deg,#F26522,#00B7B5);"></div>
-
-<div style="padding:12px 14px;background:#fdfdfd;border-bottom:1px solid #eee;">
-  <div style="font-size:11px;font-weight:900;color:#F26522;">PAST LOG / STAR ARCHIVE</div>
-  <div style="font-size:14px;font-weight:900;color:#1a1a1a;">2026.07.16</div>
-</div>
-
-<div style="padding:14px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);line-height:1.8;color:#333;">
-
-<strong>19:00～19:10頃 OPENING</strong>：ディズニー特集告知、M!LK・＝LOVEらのディズニー愛あふれる推しコメントVTR<br>
-<strong>19:10～19:25頃</strong>：「心に響いたディズニーソングBEST20」序盤〜中盤発表（Hey! Say! JUMP・NEWS・Aぇ! group・櫻坂46関連VTR）<br>
-<strong>19:25～19:35頃 ORANGE RANGE・モナキ</strong>：『ライオン・キング』『美女と野獣』関連コーナー<br>
-<strong>19:35～19:50頃</strong>：BEST20上位発表（NiziU・アイナ・ジ・エンド・Little Glee Monster・FANTASTICS・JI BLUE・郷ひろみ・きゃりーぱみゅぱみゅ）<br>
-<strong>19:50～20:00頃 LAST</strong>：エンタメニュース＋東京ディズニーリゾート最新情報
-
-</div>
-
-<div style="padding:10px 14px;background:#f7fafc;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#666;">
-💡 MC上垣皓太朗の進行で、国民3000人が選ぶ「心に響いたディズニーソングランキングBEST20」を発表する特別編に。過去のパフォーマンス映像とアーティストのディズニー愛あふれるコメントが連発し、上位発表のタイミングで感想が集中。高品質なVTRとテンポの良い進行が好評を集めた1時間に。
-</div>
-
-</div>
-
 </div>
 </details>
 <!-- /wp:html -->
@@ -914,25 +951,25 @@ overflow:hidden;
 
 <!-- Q1 -->
 <div style="padding:12px;border-radius:10px;background:#fdf2ed;margin-bottom:10px;">
-  <div style="font-size:12px;font-weight:900;color:#F26522;">Q1｜King &amp; Prince「So Honey」は何時頃披露されますか？</div>
+  <div style="font-size:12px;font-weight:900;color:#F26522;">Q1｜Snow Man「show time...」は何時頃披露されますか？</div>
   <div style="margin-top:6px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#333;line-height:1.6;">
-    番組中盤の19:20頃の披露が有力と予想しています（あくまで筆者の予想）。前回（8/13）放送ではLE SSERAFIM・.ENDRECHERI.のパフォーマンスが中盤枠に集中した実績があり、今回も披露曲まで確定しているKing &amp; Princeが中盤に置かれると見ています。実際の出演順は放送後に本ページで更新します。
+    番組終盤の19:45〜20:00頃に置かれる可能性があると見ています（あくまで筆者の予想）。前回（9/3）放送でも反響の大きいアーティストが中盤から終盤にかけて配置されました。実際の出演順は放送後にこの記事で更新します。
   </div>
 </div>
 
 <!-- Q2 -->
 <div style="padding:12px;border-radius:10px;background:#fff;border:1px solid #eee;margin-bottom:10px;">
-  <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q2｜今回はナビゲーターがいますか？</div>
+  <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q2｜今回のナビゲーターは誰ですか？</div>
   <div style="margin-top:6px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#333;line-height:1.6;">
-    9月3日放送分は現時点でナビゲーターの発表がなく、MC上垣皓太朗の単独進行になる見込みです。続報が出た場合はこのページに追記します。
+    9月10日放送分のナビゲーターは、モナキのおヨネです。MC上垣皓太朗とともに番組を進行します。
   </div>
 </div>
 
 <!-- Q3 -->
 <div style="padding:12px;border-radius:10px;background:#fdf2ed;margin-bottom:10px;">
-  <div style="font-size:12px;font-weight:900;color:#F26522;">Q3｜＝LOVE・中島健人の歌唱曲は発表されていますか？</div>
+  <div style="font-size:12px;font-weight:900;color:#F26522;">Q3｜モナキは地上波でどんなパフォーマンスをしますか？</div>
   <div style="margin-top:6px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#333;line-height:1.6;">
-    現時点では出演のみの発表で、＝LOVE・中島健人の詳細な歌唱曲は今後発表される予定です。King &amp; Princeは「So Honey」の披露が確定しています。判明次第、この記事に反映します。
+    モナキはデビューシングル「ほんまやで☆なんでやねん☆しらんけど」を披露予定です。独特のコールとキャッチーな振り付けが特徴で、地上波の音楽番組での歌唱に注目が集まっています。
   </div>
 </div>
 
@@ -940,7 +977,7 @@ overflow:hidden;
 <div style="padding:12px;border-radius:10px;background:#fff;border:1px solid #eee;">
   <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q4｜タイムテーブルのリアルタイム更新はありますか？</div>
   <div style="margin-top:6px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#333;line-height:1.6;">
-    公式から詳細な時間は公開されませんが、当ページでは9月3日の19:00放送開始とともに、実際の進行・出演順をリアルタイムで速報更新します。
+    公式から詳細な時間は公開されませんが、この記事では9月10日の19:00放送開始とともに、実際の進行・出演順をリアルタイムで速報更新します。
   </div>
 </div>
 
@@ -953,15 +990,15 @@ overflow:hidden;
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年9月3日（木）19:00放送のフジテレビ系『STAR』。</p>
+<p>2026年9月10日（木）19:00放送のフジテレビ系『STAR』。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>今回は＝LOVE・King & Prince・中島健人の出演が発表されており、ナビゲーターは今回未発表のため、MC上垣皓太朗が単独で進行する見込みです。</p>
+<p>今回はSnow Man・King & Prince・中島健人・INI・ピコ太郎・モナキの6組が出演し、ナビゲーターはモナキのおヨネが務めます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>King & Prince「So Honey」の披露が確定しているほか、＝LOVE・中島健人の歌唱曲や追加出演者（and more）の発表も待たれます。</p>
+<p>King & Princeは「HEART」「So Honey」の2曲、Snow Manは新アルバムから「show time...」を披露。中島健人「Fiction Love」、INI「You Know What To Do」、ピコ太郎「PPAP」、モナキのデビュー曲も披露されます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -1078,31 +1115,33 @@ overflow:hidden;
       "@type": "BlogPosting",
       "@id": "https://shira-treat.com/star-timetable/#post",
       "url": "https://shira-treat.com/star-timetable/",
-      "headline": "【最新】STAR タイムテーブル 9月3日は何時から？出演順や出演時間更新！",
-      "description": "9/3放送のフジテレビ音楽番組『STAR』出演アーティスト・出演順・歌唱曲を随時更新。＝LOVE、King & Prince「So Honey」、中島健人が出演。ナビゲーターは今回未発表、詳細曲目は発表次第追記します！",
+      "headline": "【最新】STAR タイムテーブル 9月10日は何時から？出演順や出演時間更新！",
+      "description": "9/10放送のフジテレビ音楽番組『STAR』出演アーティスト・歌唱曲・出演順を随時更新。Snow Man「show time...」、King & Princeの2曲、中島健人・INI・ピコ太郎・モナキも登場！",
       "keywords": [
         "STAR",
         "タイムテーブル",
         "出演者",
-        "＝LOVE",
+        "Snow Man",
         "King & Prince",
-        "So Honey",
+        "show time...",
         "中島健人",
-        "9月3日",
+        "INI",
+        "モナキ",
+        "9月10日",
         "フジテレビ"
       ],
       "datePublished": "2026-04-09T20:00:00+09:00",
       "dateCreated": "2026-04-09T20:00:00+09:00",
-      "dateModified": "2026-08-24T10:00:00+09:00",
+      "dateModified": "2026-09-09T10:00:00+09:00",
       "inLanguage": "ja",
       "image": {
         "@type": "ImageObject",
         "@id": "https://shira-treat.com/star-timetable/#heroimage",
-        "url": "https://shira-treat.com/wp-content/uploads/2026/08/image.webp",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/08/image-14.webp",
         "width": 1200,
         "height": 675
       },
-      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/08/image.webp",
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/08/image-14.webp",
       "author": {
         "@type": "Person",
         "name": "Shira",
@@ -1137,17 +1176,21 @@ overflow:hidden;
     {
       "@type": "BroadcastEvent",
       "@id": "https://shira-treat.com/star-timetable/#broadcast",
-      "name": "STAR（2026年9月3日放送回）",
-      "startDate": "2026-09-03T19:00:00+09:00",
-      "endDate": "2026-09-03T20:00:00+09:00",
+      "name": "STAR（2026年9月10日放送回）",
+      "startDate": "2026-09-10T19:00:00+09:00",
+      "endDate": "2026-09-10T20:00:00+09:00",
       "eventStatus": "https://schema.org/EventScheduled",
       "isLiveBroadcast": true,
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "performer": [
         { "@type": "Person", "name": "上垣皓太朗" },
-        { "@type": "MusicGroup", "name": "＝LOVE" },
+        { "@type": "Person", "name": "おヨネ" },
+        { "@type": "MusicGroup", "name": "INI" },
         { "@type": "MusicGroup", "name": "King & Prince" },
-        { "@type": "Person", "name": "中島健人" }
+        { "@type": "MusicGroup", "name": "Snow Man" },
+        { "@type": "Person", "name": "中島健人" },
+        { "@type": "Person", "name": "ピコ太郎" },
+        { "@type": "MusicGroup", "name": "モナキ" }
       ],
       "broadcaster": {
         "@type": "Organization",
@@ -1158,12 +1201,15 @@ overflow:hidden;
     {
       "@type": "ItemList",
       "@id": "https://shira-treat.com/star-timetable/#lineup",
-      "name": "STAR（9/3）出演アーティスト・パフォーマンス一覧",
-      "numberOfItems": 3,
+      "name": "STAR（9/10）出演アーティスト・パフォーマンス一覧",
+      "numberOfItems": 6,
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "＝LOVE" },
+        { "@type": "ListItem", "position": 1, "name": "INI" },
         { "@type": "ListItem", "position": 2, "name": "King & Prince" },
-        { "@type": "ListItem", "position": 3, "name": "中島健人" }
+        { "@type": "ListItem", "position": 3, "name": "Snow Man" },
+        { "@type": "ListItem", "position": 4, "name": "中島健人" },
+        { "@type": "ListItem", "position": 5, "name": "ピコ太郎" },
+        { "@type": "ListItem", "position": 6, "name": "モナキ" }
       ]
     },
     {
@@ -1172,26 +1218,26 @@ overflow:hidden;
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "King & Prince「So Honey」は何時頃披露されますか？",
+          "name": "Snow Man「show time...」は何時頃披露されますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "番組中盤の19:20頃の披露が有力と予想しています（あくまで筆者の予想）。前回（8/13）放送ではLE SSERAFIM・.ENDRECHERI.のパフォーマンスが中盤枠に集中した実績があり、今回も披露曲まで確定しているKing & Princeが中盤に置かれると見ています。実際の出演順は放送後に本ページで更新します。"
+            "text": "番組終盤の19:45〜20:00頃に置かれる可能性があると見ています（あくまで筆者の予想）。前回（9/3）放送でも反響の大きいアーティストが中盤から終盤にかけて配置されました。実際の出演順は放送後にこの記事で更新します。"
           }
         },
         {
           "@type": "Question",
-          "name": "今回はナビゲーターがいますか？",
+          "name": "今回のナビゲーターは誰ですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "9月3日放送分は現時点でナビゲーターの発表がなく、MC上垣皓太朗の単独進行になる見込みです。続報が出た場合はこのページに追記します。"
+            "text": "9月10日放送分のナビゲーターは、モナキのおヨネです。MC上垣皓太朗とともに番組を進行します。"
           }
         },
         {
           "@type": "Question",
-          "name": "＝LOVE・中島健人の歌唱曲は発表されていますか？",
+          "name": "モナキは地上波でどんなパフォーマンスをしますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "現時点では出演のみの発表で、＝LOVE・中島健人の詳細な歌唱曲は今後発表される予定です。King & Princeは「So Honey」の披露が確定しています。判明次第、この記事に反映します。"
+            "text": "モナキはデビューシングル「ほんまやで☆なんでやねん☆しらんけど」を披露予定です。独特のコールとキャッチーな振り付けが特徴で、地上波の音楽番組での歌唱に注目が集まっています。"
           }
         },
         {
@@ -1199,7 +1245,7 @@ overflow:hidden;
           "name": "タイムテーブルのリアルタイム更新はありますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "公式から詳細な時間は公開されませんが、当ページでは9月3日の19:00放送開始とともに、実際の進行・出演順をリアルタイムで速報更新します。"
+            "text": "公式から詳細な時間は公開されませんが、この記事では9月10日の19:00放送開始とともに、実際の進行・出演順をリアルタイムで速報更新します。"
           }
         }
       ]
@@ -1223,7 +1269,7 @@ overflow:hidden;
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "9月3日 STAR タイムテーブル",
+          "name": "9月10日 STAR タイムテーブル",
           "item": "https://shira-treat.com/star-timetable/"
         }
       ]

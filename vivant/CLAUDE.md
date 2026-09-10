@@ -37,6 +37,7 @@ vivant/
 │   └── project_vivant_threads_strategy_0802.md ← Threads運用方針の決定経緯（notekaigi会議録）
 ├── tools/
 │   ├── qa_vivant_database.py ← 考察データベースの機械QA（`/vivant-episode-update` Step 3で使用）
+│   ├── grok_harvest_x_prompt.md ← 最新回のX反響収集プロンプト。Grok（grok.com）を「ファスト」モードで実行。`/vivant-episode-update` Step 1で使用。エキスパートはX Premium週次上限のため常用しない
 │   ├── threads_setup_guide.md ← Threads API接続・スプレッドシート初期セットアップ手順
 │   ├── threads_scheduler.gs ← Apps Script（定時投稿・インサイト収集・日次観測ログ。MBTICODE方式のPhase1-4部分のみ移植）
 │   ├── threads_connect_test.ps1 / push_threads_queue.py / fetch_insights.py / fetch_past_posts.py / check_analysis_due.py / check_queue_coverage.py / update_threads_queue_body.py / withdraw_posted_row.py ← MBTICODE同形式のThreads運用ツール一式（push/update系は2026-08-04に自動並び替え・型同期・投稿済み行の安全な取り下げ機能を追加）
@@ -72,7 +73,8 @@ vivant/
 
 ## 考察データベースの運用
 
-- 新話放送後は必ず `/vivant-episode-update [話数]` を使う（Web調査からデータベース更新までを1コマンドで完結。手動でraw_dataを作ってからデータベースを編集する運用はしない）
+- 新話放送後は必ず `/vivant-episode-update [話数]` を使う（リサーチからデータベース更新までを1コマンドで完結。手動でraw_dataを作ってからデータベースを編集する運用はしない）
+- リサーチは2ソースのマージ（2026-09-09確立）：**X反響＝Grok「ファスト」×`tools/grok_harvest_x_prompt.md`**（→`raw_grok_x_ep[N].md`）／**本編事実・視聴率・日本語考察＝Claude WebSearch**。Grok出力のX投稿URLはサンプル実在検証を通したものだけを事実欄に使う。詳細は `/vivant-episode-update` Step 1
 - 更新ルールの正は `vivant_database_ep[N].md` 末尾の「5. データベース運用マニュアル」（事実／推測の分離・ステータス管理・履歴保持・用語統一を規定）。本ファイルとマニュアルが矛盾する場合はマニュアル側を優先する
 - データベースファイル（`vivant_database_ep[N].md`）・生データファイル（`raw_data_ep[N].md`）はいずれも旧版を削除せず、話数ごとに並存させる（履歴保持ルール）
 

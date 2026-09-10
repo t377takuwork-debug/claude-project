@@ -66,8 +66,9 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 | `/mbticode-post` | MBTICODE X・Threads投稿のバッチ生成（1日3本・各週21本体制。最新値は `mbticode/sns_post_cheatsheet.md` が唯一の正） | MBTICODEの投稿バッチを作るたびに |
 | `/s4lv-post` | s4lv X・Threads投稿のバッチ生成（X 1日3本・Threads 1日3本。本数・投稿時刻の唯一の正は `s4lv/rules/project_s4lv_operation_system.md`「投稿量」、2本柱の定義は `s4lv/rules/project_s4lv_accounts.md`） | s4lvの投稿バッチを作るたびに |
 | `/reply` | 他者投稿へのリプライ・引用ポスト生成（投稿分析→反映メモ→本文の3ブロック出力） | リプライ・引用ポストを作るたびに |
+| `/note-advisor` | s4lv Note運用アドバイザー（相談／数字の記録／台帳への書き足し／大きな判断は notekaigi に回す）。おもに読むのは `s4lv/rules/s4lv_learnings.md`（学びの台帳）。s4lvのみ・他アカウントは s4lv が回ってから同じ形にする | テーマ・価格・読者を案内する流れ・記事の判断を気軽に相談するとき、数字の画面（スクショ）を渡すとき |
 | `/note-article [アカウント] [テーマ]` | Note記事をペルソナ→SEO確認→タイトル→構成→本文→drafts保存まで一貫生成 | 記事を作るたびに |
-| `/notekaigi` | 戦略的意思決定の会議 | 新規戦略・方針転換・想定外のテーマが来たとき |
+| `/notekaigi` | 大きな方針を決める会議（全アカウント共通・開く条件3つ：あとから戻せない／どっちかしか取れない／いま決められる） | 価格・方針の変更・プロフィールの書き換え・実績をどこまで見せるか など、あとから戻しにくい判断のとき。いつもの作業・数字待ちのものは対象外 |
 | `/asp-kaigi` | ASP案件・収益化戦略会議 | ASP案件の選定・戦略を決めるとき |
 | `/asp-outline` | ASP記事タイトル・構成設計 | ASP記事の設計時 |
 | `/asp-theme` | ASP案件・記事テーマ戦略 | ASPのテーマ選定時 |

@@ -1,28 +1,21 @@
 # 番組ネタ候補
 
-収集日時: 2026年09月07日 07:10 (JST)
-合計: 4件（音楽番組 4件 / 長時間特番 0件）
+収集日時: 2026年09月10日 07:10 (JST)
+合計: 3件（音楽番組 3件 / 長時間特番 0件）
 
-## 音楽番組（4件）
+## 音楽番組（3件）
 
-### SONGS TMNETWORK▽俳優・鈴木亮平からSPメッセージ🈑🈞 SONGS初登場！TMNETWORKを大特集！▽俳優・鈴木亮平からスペシャルメッセージ。メンバーの素顔を語る▽「Get Wild Continual」を披露。
-- 放送日時: 9月7日 
-- URL: https://bangumi.org/tv_events/AmDAQAK2EAM
+### SONGS 福山雅治PART1🈑 福山雅治が2週連続でSPライブ。代表曲「MELODY」から最新曲まで披露！「龍馬伝」「稲葉浩志との紅白共演」など貴重映像で振り返る＜福山の人生を変えた出会い＞も
+- 放送日時: 9月10日 
+- URL: https://bangumi.org/tv_events/AmDgQAL14AM
 
-### musicる TV アーティストのリアルに密着！「ヒャダイン」「内田真礼」がお送りする音楽ドキュメント番組！
-- 放送日時: 9月7日 
-- URL: https://bangumi.org/tv_events/AmDAQoJxoAM
+### STAR★SnowMan中島健人キンプリINI▼ピコ太郎モナキPPAPコラボ！🈑 SnowMan中島健人INIが最新曲！キンプリSPメドレー！モナキが大バズり曲＆ピコ太郎とPPAPコラボ！マツケン・シブがき隊マルモリ一世風靡名曲特集
+- 放送日時: 9月10日 
+- URL: https://bangumi.org/tv_events/AmDgQg90EAM
 
-### CDTVライブ！ライブ！★EBiDAN「Yes! 東京」★福山雅治★ストーンズ🈑🈓 ★T.M.Revolution「HOT LIMIT」★AKB48★絢香★CORTIS★PSYCHIC FEVER★JUJU
-- 放送日時: 9月7日 
-- URL: https://bangumi.org/tv_events/AmCwQYu5sAM
-
-### Hello! Music Lab。 ハロー！プロジェクトの楽曲に焦点を当てた音楽番組
-▼BEYOOOOONDS「ハイ！テンション」新メンバー初登場！
-振り担当の里吉こだわり&裏話
-▼OCHA...
-- 放送日時: 9月7日 
-- URL: https://bangumi.org/tv_events/AmDAQwCxAAM
+### Tune 日本や世界の音楽シーンを代表するアーティストから、次世代を担うネクストブレイクアーティストまで、旬な情報をお届けする音楽番組です。
+- 放送日時: 9月10日 
+- URL: https://bangumi.org/tv_events/AmDwQg900AM
 
 ## 長時間特番（0件）
 

@@ -17,20 +17,33 @@
 
 ---
 
-## Step 1：Webリサーチ（raw_data_ep[N].md の生成）
+## Step 1：リサーチ（raw_data_ep[N].md の生成）
 
-WebSearchツールを使い、以下のカテゴリで調査する。**他サイトの文章はコピーせず要約のみ**（`vivant/rules/project_vivant_content_policy.md` 準拠）。出典URLは必ず併記する。
+**2ソースをマージして作る**。**他サイトの文章はコピーせず要約のみ**（`vivant/rules/project_vivant_content_policy.md` 準拠）。出典URLは必ず併記する。
 
-### 検索クエリの型
+### ソース1：Grok X反響ハーベスト（B節の主素材）
+
+`vivant/raw_grok_x_ep[N].md` があれば取り込む。無ければ、`vivant/tools/grok_harvest_x_prompt.md` の手順でユーザーにGrok（ファストモード）で実行してもらい、出力を受け取る（詳細は同ファイル）。これがX上の考察・伏線議論・注目セリフ・反応数付きURLの主素材になる。
+
+**URL検証ゲート（必須）**：Grok出力のX投稿URLから代表的なもの3本前後をサンプル抽出し、Claude in Chrome で実在＋本文の一致を確認する。捏造・不一致が出たものは `B.` の「未確認」扱いに留め、`A.`（本編事実）や `C.`（確定した進捗）には入れない。全滅・多数不一致なら、その旨をStep 4でユーザーに報告する。
+
+### ソース2：Claude WebSearch（A節の主素材＋B節の補完）
+
+WebSearchツールで以下を調査する。Grokハーベストが弱い「本編事実・公式・日本語考察ブログ」を埋める。
 
 1. 放送事実確認：`VIVANT 第[N]話 あらすじ`／`VIVANT シーズン2 第[N]話 放送内容`
-2. 視聴率：`VIVANT 第[N]話 視聴率`
+2. 視聴率：`VIVANT 第[N]話 視聴率`（世帯・個人の数値は必ず本文に明記）
 3. SNS・メディア反応：`VIVANT 第[N]話 感想`／`VIVANT 第[N]話 SNS 反応`
-4. 考察・伏線：`VIVANT 第[N]話 考察`／`VIVANT 第[N]話 伏線`
+4. 考察・伏線：`VIVANT 第[N]話 考察`／`VIVANT 第[N]話 伏線`（note・まとめブログの精読）
 5. **Step 0-4で洗い出した未解決の伏線・注目ポイントごとの追加検索**（例：前版で「8人目の別班員」が未解決なら `VIVANT 第[N]話 別班 長野専務` のように的を絞って検索し、決着したかどうかを重点確認する）
 6. 次回（第N+1話）予告情報：`VIVANT 第[N+1]話 予告`
 
-### 出力フォーマット（`01_raw_data.md` の構成を踏襲）
+### マージ
+
+- `A.`＝WebSearchの本編事実＋Grok §4の報道（複数一致のみ）。`B.`＝Grokハーベスト §1〜3 ＋ WebSearchの日本語考察。`C.`＝Step 0-4の項目ごとの進捗。`D.`＝活用メモ。
+- 同一主張は代表URL＋追加URLに集約。Grokとブログで同じ論点が出たら統合する。
+
+### 出力フォーマット（`raw_data_ep16.md`／`raw_data_ep17.md` の構成を踏襲）
 
 `vivant/raw_data_ep[N].md` として保存する：
 
@@ -122,5 +135,6 @@ python vivant/tools/qa_vivant_database.py vivant/vivant_database_ep[N].md --prev
 
 - 本スキルは**データベースの更新のみ**を行う。記事化（テーマ設計・執筆）は引き続き `/vivant-theme` → `/vivant-article` を別途実行する
 - `vivant/reference/` 配下の個別ファイル（キャラクター一覧・キャスト鮮度チェック等）の更新は本スキルの対象外。`vivant_characters.md` の鮮度チェックが必要な場合は `/vivant-theme` 実行時に行われる
-- Web検索で確認できない情報を推測で埋めない（`vivant/rules/project_vivant_content_policy.md` 準拠の捏造禁止ルールはraw_data生成にも適用される）
-- `raw_data_ep[N].md` は作業ログとして保持する（削除しない。次回以降の検証・監査に使えるため）
+- Web検索・Grokハーベストで確認できない情報を推測で埋めない（`vivant/rules/project_vivant_content_policy.md` 準拠の捏造禁止ルールはraw_data生成にも適用される）
+- Grok出力のX投稿URLは、Step 1のURL検証ゲートを通したものだけを`A.`/`C.`に使う。未検証は`B.`の「未確認」止まり
+- `raw_data_ep[N].md` および `raw_grok_x_ep[N].md` は作業ログとして保持する（削除しない。次回以降の検証・監査に使えるため）
