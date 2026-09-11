@@ -23,3 +23,6 @@ brands/s4lv/tools/sheets_service_account.local.json
 
 # Claude Code worktrees (local, never commit)
 **/.claude/worktrees/
+
+# オーナー本人の個人資料（発想・文脈用にローカル保管、コミットしない）
+わたしについて_git対象外/
