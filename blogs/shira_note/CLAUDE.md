@@ -36,6 +36,7 @@
 | `/shira-keyword-article` | キーワード起点の新規テーマ記事（番組タイムテーブル速報とは別枠） | `.claude/commands/shira-keyword-article.md` |
 | `/shira-release-article` | CD/DVD等リリース記事（予約・購入導線特化、1リリース＝1記事） | `.claude/commands/shira-release-article.md` |
 | `/shira-research` | 記事ネタ収集（news.ceek.jp 3URL・直近5時間の番組/発売情報） | `.claude/commands/shira-research.md` |
+| `/shira-tv-scout` | 番組表ベースの新規ネタ発掘（手動実行・音楽番組に限らず全ジャンルの概要文から候補抽出） | `.claude/commands/shira-tv-scout.md` |
 
 ### リライト時に必要な事前情報（共通）
 
@@ -165,99 +166,10 @@ WARNは `tools/output/qa_baseline.json` と照合して[新規]/[既知]に分�
 
 ---
 
-## ネタ収集ツール
+## 番組表リサーチ（ネタ発掘）
 
-### 実行方法
-
-```
-python tools/collect_news.py              # 今日の番組・リリース情報を収集
-python tools/collect_news.py --date YYYYMMDD  # 指定日の番組を収集（例: --date 20260627）
-```
-
-チャットでは「ネタ収集して」「今日のネタを集めて」と依頼するだけでよい。
-日付を指定したい場合は「6月27日のネタを収集して」のように伝えればよい。
-
-### 出力ファイル
-
-| ファイル | 内容 |
-|---|---|
-| `tools/output/programs.md` | 番組ネタ候補（音楽番組 / 長時間特番） |
-| `tools/output/releases.md` | リリース情報ネタ候補（過去2時間以内のみ。深夜〜早朝は0件になりやすい） |
-
-### 収集先
-
-| 対象 | URL | 備考 |
-|---|---|---|
-| 番組情報 | `https://bangumi.org/epg/td?broad_cast_date=YYYYMMDD&ggm_group_id=42` | 省略時は実行日、`--date` で指定可。東京エリア（42固定） |
-| リリース情報 | mdpr.jp / realsound.jp / oricon.co.jp | `--date` 指定時はスキップ。natalie.mu は 403 のためスキップ |
-
-### 効率的な依頼パターン
-
-| やりたいこと | 依頼例 |
-|---|---|
-| 番組・リリース両方収集 | 「ネタ収集して」「今日のネタを集めて」 |
-| 日付を指定して収集 | 「6月27日のネタを収集して」 |
-| 番組情報だけ見たい | 「番組情報だけ収集して」 |
-| リリース情報だけ見たい | 「リリース情報だけ収集して」 |
-| 結果を見たい（再実行不要） | 「前回のネタ結果を見せて」 |
-
-### キーワード設定（tools/collect_news.py）
-
-- **MUSIC_KEYWORDS**: 音楽番組として拾うキーワード一覧
-- **MUSIC_KEYWORDS_EXACT**: 単語境界が必要なキーワード（STAR、SONGSなど部分一致を避けたいもの）
-- **LONG_SPECIAL_KEYWORDS**: 長時間特番として拾うキーワード（タイトル先頭40文字のみ対象）
-
-キーワードの追加・変更が必要な場合は「〇〇をキーワードに追加して」と依頼。
-
-## 番組情報 差分監視ツール
-
-```
-python tools/watch_programs.py            # 今日〜7日先をスキャンし前回との差分を検出
-python tools/watch_programs.py --days 14  # 14日先まで
-```
-
-チャットでは「番組監視して」「新しい特番出てないか見て」と依頼するだけでよい。
-1日1回実行すると、新規に番組表へ載った音楽番組・特番、時間変更、消失（放送中止の可能性）を `tools/output/watch_report.md` に出力する。初回はベースライン保存のみ。
-
-## 定期実行（Windowsタスクスケジューラ・2026-07-07登録）
-
-上記2ツールは毎朝自動実行される。**朝の運用は「前回のネタ結果を見せて」と依頼して `tools/output/` の3ファイル（programs.md / releases.md / watch_report.md）をReadするだけ。再実行は不要。**
-
-| タスク名 | 実行時刻 | 実体 |
-|---|---|---|
-| `ShiraNotes_WatchPrograms` | 毎日 07:00 | wscript.exe → `tools/run_hidden.vbs` → `tools/run_watch_programs.cmd` → watch_programs.py |
-| `ShiraNotes_CollectNews` | 毎日 07:10 | wscript.exe → `tools/run_hidden.vbs` → `tools/run_collect_news.cmd` → collect_news.py |
-
-- 07時にPCがスリープ・電源オフでも、次回起動時に遅延実行される（StartWhenAvailable設定済み）
-- **コンソール窓は表示されない**（2026-07-09変更: `run_hidden.vbs` 経由の非表示起動。窓が出ないため発火確認は必ずログで行う）
-- 発火ログ: `tools/output/scheduler_watch.log` / `scheduler_collect.log`（UTF-8。PowerShell 5.1では `Get-Content -Encoding UTF8` で読む。gitignore対象）
-
-### 運用コマンド（PowerShell）
-
-```powershell
-# 動作確認（LastTaskResult が 0 なら正常）
-Get-ScheduledTaskInfo -TaskName "ShiraNotes_WatchPrograms"
-
-# 手動で今すぐ実行
-Start-ScheduledTask -TaskName "ShiraNotes_CollectNews"
-
-# 実行時刻の変更（例: 08:00へ）
-Set-ScheduledTask -TaskName "ShiraNotes_WatchPrograms" -Trigger (New-ScheduledTaskTrigger -Daily -At 08:00)
-```
-
-タスクが消えた場合の再登録手順は、このリポジトリのコミット `418bf93` の内容（`Register-ScheduledTask` で毎日実行・StartWhenAvailable付き）を基に、アクションだけ以下の形式（2026-07-09変更後）で登録する。
-
-```powershell
-# アクションは wscript 経由（非表示起動）。パスにスペースがあるため引用符必須
-New-ScheduledTaskAction -Execute 'C:\Windows\System32\wscript.exe' `
-  -Argument '//B //Nologo "C:\Users\PC_User\claude project\blogs\shira_note\tools\run_hidden.vbs" "C:\Users\PC_User\claude project\blogs\shira_note\tools\run_watch_programs.cmd"'
-```
-
-再登録時の注意（2026-07-09の修正で確定した制約）：
-- pythonの呼び出しは必ず絶対パス `C:\Users\PC_User\AppData\Local\Python\bin\python.exe` を使う（PATH上の `python` はStoreスタブを掴んで無言失敗する）
-- アクションのパスは必ず引用符で囲む（`claude project` のスペースで「'C:\Users\PC_User\claude' は、内部コマンドまたは外部コマンドとして認識されていません」が出る）
-- 窓の非表示化にS4U（`-LogonType S4U`）は使わない（管理者昇格が必要でAccess denied。wscript＋`run_hidden.vbs` で代替済み）
-- `run_hidden.vbs` はASCIIのみで書く（WSHはANSIとして読むため、UTF-8日本語コメントが化けて構文を壊す）
+「番組表から調査して」と依頼するだけでよい。手順・出力形式は `/shira-tv-scout`（`.claude/commands/shira-tv-scout.md`）を参照。
+音楽番組に絞らず東京エリアの全番組を概要文つきで取得し、記事になりそうな人物・話題をAIが読んで拾う仕組み。**手動実行専用**（自動実行の仕組みは持たない）。既定では翌日から3日分・夜のプライム帯（18:00〜23:00）だけに絞って取得する（`--days`/`--start`/`--end`/`--full`で変更可）。
 
 ## JSON-LD 生成ツール
 
