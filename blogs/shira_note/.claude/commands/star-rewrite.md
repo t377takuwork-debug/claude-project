@@ -309,14 +309,14 @@ Q文は口語的な疑問形。A文は結論→根拠の構造。
 | `description` | **手順1で確定したメタの文字列を丸ごとコピー**（要約・言い換え不可） |
 | `dateModified` | 作成日時（ISO形式） |
 | `keywords` | 出演者名を最新に（前回KWは番組名・タイムテーブル・出演者・フジテレビを残す） |
-| `image` / `thumbnailUrl` | 今回のアイキャッチ画像URL（`width`/`height`/`@id` は据え置き）。**URL未提供なら既存値を据え置き、承認提示で「アイキャッチ未更新」と明示** |
+| `image` / `thumbnailUrl` | 今回のアイキャッチ画像URL（`width`/`height`/`@id` は据え置き）。**`/star-research.md` の承認ゲートで既にURLを尋ねてある想定。**それでも未提供なら既存値を据え置き、承認提示で「アイキャッチ未更新」と明示 |
 | BroadcastEvent `name` | 「STAR（YYYY年MM月DD日放送回）」 |
 | BroadcastEvent `startDate` / `endDate` | 放送日時（ISO形式） |
 | BroadcastEvent `performer` | MC（上垣皓太朗）＋ナビゲーター＋今回の出演者（全員） |
 | ItemList `name` / `numberOfItems` / `itemListElement` | 今回の出演者（MC・ナビゲーターは含めない。`numberOfItems` と要素数を一致させる） |
 | FAQPage `mainEntity` | **手順12の本文Q&A（4問）をそのままコピーし一字一句一致**。STARはdiv形式FAQのため `qa_draft.py` の同期チェックは走らない＝手動照合必須 |
 
-上記を1回のEditでJSON-LDブロック全体を差し替える（動的フィールドが多いため個別Editより一括の方が効率的）。
+上記は1回のEditでJSON-LDブロック全体をまとめて差し替えてよい（動的フィールドが多いため個別Editより一括の方が効率的）。**ただし`image`/`thumbnailUrl`だけは他フィールドと別Editにしておく**（2026-09-13明文化：アイキャッチURLは資料承認時に尋ねてもなお本編完了後に届くことがあり、その場合この2フィールドだけを後から個別Editすれば足りる。一括1本にまとめていると、画像URLが遅れて届いた時に他の確定済みフィールドまで再度old_stringに含めて組み直す必要が出て非効率）。
 
 #### 固定箇所（変更不要）
 
