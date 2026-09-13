@@ -212,12 +212,16 @@ def main():
             run, prev = 1, tail
 
     # 読点過多チェック（1文に読点3つ以上 → 過剰読点の疑い。2026-09-03、s4lvタイトル診断記事でユーザー指摘。writing_core.md 句読点ルール）
+    # 一文長チェック（70字超 → 長文の疑い。2026-09-13、Xの外部投稿での指摘を照合して追加。writing_core.md 句読点ルール3）
     text_noheading = re.sub(r"^#.*$", "", text, flags=re.M)
     for m in re.finditer(r"[^。！？\n]*[。！？]", text_noheading):
         sent = m.group(0)
+        line_no = text_noheading[:m.start()].count("\n") + 1
         if sent.count("、") >= 3:
-            line_no = text_noheading[:m.start()].count("\n") + 1
             warns.append(f"[WARN] L{line_no} kutouten-kajou: 1文に読点{sent.count('、')}個（目安2つまで。読点を削るか文を分割する）（「{sent.strip()[:40]}...」）")
+        sent_len = len(sent.strip())
+        if sent_len > 70:
+            warns.append(f"[WARN] L{line_no} ichibun-nagai: 1文が{sent_len}字（目安70字まで。読点で分割できないか見直す）（「{sent.strip()[:40]}...」）")
 
     # 構造チェック
     # ヘッダーは「作成日：〜Noteタグ：」の後に単独の「---」区切り行が1本のみ（前後ペア形式ではない）。
