@@ -63,6 +63,26 @@ def route(file_path):
     return None
 
 
+def sync_neta_usage(file_path):
+    """s4lv発信ネタ台帳の使用履歴を自動更新する（posts_x.txt/posts_threads.txt保存時）。
+    失敗しても保存・QA合否には影響させない（フェイルオープン・ログで検知）。"""
+    script = os.path.join(REPO_ROOT, "brands", "s4lv", "tools", "sync_neta_usage.py")
+    if not os.path.isfile(script):
+        return
+    env = dict(os.environ)
+    env["PYTHONIOENCODING"] = "utf-8"
+    try:
+        proc = subprocess.run(
+            [sys.executable, script, file_path],
+            capture_output=True, encoding="utf-8", errors="replace",
+            timeout=QA_TIMEOUT_SEC, cwd=REPO_ROOT, env=env,
+        )
+        log("SYNC-NETA {} (exit={}): {}".format(
+            file_path, proc.returncode, (proc.stdout or proc.stderr or "").strip()))
+    except Exception as exc:
+        log("SYNC-NETA-ERROR {}: {}".format(file_path, exc))
+
+
 def main():
     try:
         if hasattr(sys.stdin, "reconfigure"):
@@ -122,6 +142,8 @@ def main():
 
     if proc.returncode == 0:
         log("PASS  {} {}".format(label, file_path))
+        if label == "qa_post":
+            sync_neta_usage(file_path)
         return 0
 
     log("FAIL  {} {} (exit={})".format(label, file_path, proc.returncode))

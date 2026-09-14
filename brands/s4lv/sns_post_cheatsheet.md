@@ -22,7 +22,7 @@ type: project
 | **句読点・改行・記号（X・Threads共通）** | **`rules/sns_kutouten_kaigyo_rules.md`（唯一の正・両媒体の文体OSはここを参照）** |
 | X反響設計（A/B 2軸）・確定構造 | `rules/feedback_s4lv_x_post.md` |
 | Threads文体の詳細（語尾・専門用語・数字・連続スレッド機構・語彙・絵文字・文字数。句読点・改行・記号は `rules/sns_kutouten_kaigyo_rules.md`） | `rules/feedback_s4lv_threads_writing_style.md` |
-| ネタ元（型・思想＝K項目／AI実働＝A項目・唯一の正） | `x_neta_daicho.md`（旧 `ai_work_log.md` は2026-09-07に統合廃止） |
+| ネタ元（型・思想＝K項目／AI実働＝A項目・唯一の正） | `x_neta_daicho.md`（旧 `ai_work_log.md` は2026-09-07に統合廃止）。**ネタを選ぶ前に、ファイル末尾の「使用履歴・自動記録」表を必ず見る**（posts_x.txt／posts_threads.txt保存のたびにsync_neta_usage.pyが自動更新・2026-09-14新設。各項目内の手書き「使用履歴」欄は更新が漏れることがあるため、こちらが正） |
 | Note誘導のネタ源・ローテーション | `articles/note_article_index.md` |
 | 実績数値・開示ルール | `shared/personal_data.md` |
 | 対象読者ペルソナ（3軸） | `rules/project_s4lv_persona.md` |
