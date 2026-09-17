@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<title>AIっぽさ指摘まとめ</title>
+<style>
+:root{
+  --bg:#faf9f6;
+  --surface:#ffffff;
+  --border:#e4e0d8;
+  --ink:#2a2620;
+  --ink-soft:#5c5648;
+  --accent:#a8542f;
+  --accent-soft:#f3e3da;
+  --tag-s4lv:#3f6b52;
+  --tag-mbti:#4a5a8f;
+  --tag-vivant:#8f4a6a;
+  --tag-shira:#8a6a1f;
+  --tag-note:#5c5648;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#1c1a16;
+    --surface:#25221d;
+    --border:#3a3527;
+    --ink:#ece7db;
+    --ink-soft:#b9b2a0;
+    --accent:#e08a5c;
+    --accent-soft:#3a2a20;
+    --tag-s4lv:#7fbf9c;
+    --tag-mbti:#8ea0e0;
+    --tag-vivant:#d391b0;
+    --tag-shira:#d9b35a;
+    --tag-note:#b9b2a0;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1c1a16;
+  --surface:#25221d;
+  --border:#3a3527;
+  --ink:#ece7db;
+  --ink-soft:#b9b2a0;
+  --accent:#e08a5c;
+  --accent-soft:#3a2a20;
+  --tag-s4lv:#7fbf9c;
+  --tag-mbti:#8ea0e0;
+  --tag-vivant:#d391b0;
+  --tag-shira:#d9b35a;
+  --tag-note:#b9b2a0;
+}
+*{box-sizing:border-box;}
+body{
+  background:var(--bg);
+  color:var(--ink);
+  font-family:"Noto Sans JP","Hiragino Sans","Yu Gothic",sans-serif;
+  line-height:1.85;
+  padding:0 16px;
+}
+.wrap{max-width:760px;margin:0 auto;padding:48px 0 96px;}
+h1{
+  font-size:1.7rem;
+  font-weight:700;
+  letter-spacing:.02em;
+  margin:0 0 8px;
+  text-wrap:balance;
+}
+.lede{
+  color:var(--ink-soft);
+  font-size:.95rem;
+  margin:0 0 40px;
+  padding-bottom:28px;
+  border-bottom:1px solid var(--border);
+}
+.lede p{margin:.4em 0;}
+h2{
+  font-size:1.15rem;
+  font-weight:700;
+  margin:52px 0 6px;
+  display:flex;
+  align-items:baseline;
+  gap:10px;
+}
+h2 .no{
+  color:var(--accent);
+  font-size:.85rem;
+  font-weight:700;
+  font-variant-numeric:tabular-nums;
+}
+.cat-desc{
+  color:var(--ink-soft);
+  font-size:.88rem;
+  margin:0 0 20px;
+}
+.item{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:10px;
+  padding:18px 20px;
+  margin-bottom:14px;
+}
+.item-head{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:8px;
+  margin-bottom:8px;
+}
+.item-title{
+  font-weight:700;
+  font-size:1rem;
+}
+.tags{display:flex;gap:6px;flex-wrap:wrap;margin-left:auto;}
+.tag{
+  font-size:.72rem;
+  padding:2px 9px;
+  border-radius:999px;
+  color:#fff;
+  white-space:nowrap;
+  font-weight:700;
+  letter-spacing:.02em;
+}
+.date{
+  font-size:.72rem;
+  color:var(--ink-soft);
+  font-variant-numeric:tabular-nums;
+  white-space:nowrap;
+}
+.item p{margin:.5em 0;font-size:.94rem;}
+.item p.note{color:var(--ink-soft);font-size:.86rem;}
+.ex{
+  margin:10px 0;
+  padding:10px 14px;
+  background:var(--accent-soft);
+  border-left:3px solid var(--accent);
+  border-radius:0 6px 6px 0;
+  font-size:.88rem;
+}
+.ex .label{
+  display:block;
+  font-size:.7rem;
+  font-weight:700;
+  color:var(--accent);
+  margin-bottom:3px;
+  letter-spacing:.05em;
+}
+ul{margin:.5em 0;padding-left:1.2em;font-size:.94rem;}
+li{margin:.3em 0;}
+.summary-box{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:10px;
+  padding:22px 24px;
+  margin:44px 0;
+}
+.summary-box h3{margin:0 0 10px;font-size:1rem;}
+.summary-box p{font-size:.92rem;margin:.5em 0;}
+footer{
+  margin-top:56px;
+  padding-top:20px;
+  border-top:1px solid var(--border);
+  font-size:.8rem;
+  color:var(--ink-soft);
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>「AIっぽい」と指摘してきたこと、まとめ</h1>
+<div class="lede">
+<p>2026年7月〜9月の作業記録（メモリ・各アカウントのルール台帳）から、文章表現について「AIっぽい」「機械的」「不自然」と指摘した内容を拾い集めたものです。</p>
+<p>指摘はs4lv・MBTICODE・vivant・shira_note・Note記事共通ルールなど複数のアカウントにまたがっていますが、並べてみると同じクセが形を変えて繰り返し出ていることが分かります。</p>
+</div>
+
+<h2><span class="no">01</span>書き出し・導入のパターンが毎回同じ</h2>
+<p class="cat-desc">最初の一文がいつも同じ型にはまってしまい、読む前から「またこれか」と分かってしまう問題です。</p>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">導入が疑問形の一文で締めくくられる</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-vivant)">vivant</span></span>
+    <span class="date">2026-08-15</span>
+  </div>
+  <p>記事の導入部が毎回「〜のではないでしょうか。」という同じ疑問形で終わっていた。1本だけでなく複数の記事で繰り返されていたため、「AIが書いた定型文」という印象が積み重なっていくと指摘された。</p>
+  <div class="ex"><span class="label">対策</span>断定・体言止め・引用・場面をそのまま見せる、など記事ごとに違う型を選ぶ。直近の公開記事の導入部を先に確認してから書く。</div>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">冒頭で何の話か伝わらない・明るさがない</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-mbti)">MBTICODE</span></span>
+    <span class="date">2026-09-16</span>
+  </div>
+  <p>「全体的にAI臭が強い」「人が実際に打っている感じがしない」「冒頭から何の話か即伝わるようにしてほしい」「中高生レベルの知識の人にもパッと伝わる分かりやすさを優先してほしい」との指摘。</p>
+  <div class="ex"><span class="label">対策</span>1行目で話題を名指しで即断定する。ですます調やだ体の多用に流れず、砕けた明るい言い回しを混ぜる。</div>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">導入で悩みごとを煽って引き込もうとする</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-s4lv)">s4lv</span></span>
+    <span class="date">2026-09-09</span>
+  </div>
+  <p>時事ネタ・アップデート便乗の記事で、読者の困りごとをわざと大きく見せて引き込む書き方が却下された。例：「いつもの『ビュー』が見当たらない…前より下がった気がして落ち着かない」という痛み描写の連発。</p>
+  <div class="ex"><span class="label">求められた温度感</span>「アップデートがあった → それに合わせて自分の見方を置いておく」程度の落ち着いたスタンス。</div>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">誰もが知っている事実を「実は」ともったいぶって出す</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-vivant)">vivant</span></span>
+    <span class="date">2026-08-10</span>
+  </div>
+  <p>放送から数日経ち読者の大半がもう知っている事実を「実はもう正体が分かってるんです」のように新事実めかして演出していた。「当たり前にわかっている情報をわざわざ勿体ぶって伝える必要はない」と指摘。</p>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">「〜ましたね」と読者と今一緒に発見したふりをする</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-vivant)">vivant</span></span>
+    <span class="date">2026-08-17</span>
+  </div>
+  <p>「黒須、3話ぶりに動きがありましたね。」のように、既に判明している事実を読者と一緒に今気づいたかのように語りかける書き出しが「気持ち悪い」と評された。放送を見ればわかっていることを、わざわざ「判明しました」と告げる"メタ的な報告"も同様に不要と指摘。</p>
+</div>
+
+<h2><span class="no">02</span>語尾・言い切り方の不自然さ</h2>
+<p class="cat-desc">一番指摘の回数が多かった分野です。「言い切りすぎ」と「ぼかしすぎ」の両方を行き来して、ちょうどいい人間らしさになかなか着地しませんでした。</p>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">「〜でした。〜でした。」と無感情に事実を並べる棒読み調</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-vivant)">vivant</span></span>
+    <span class="date">2026-09-14</span>
+  </div>
+  <p>「新庄、生きていました。乃木が新庄の顔を模したマスクを別の遺体にかぶせて、死を偽装していました。」のように、事実を同じ語尾で淡々と並べただけの文。個別の禁止ルール（て形で終わらない、ですます調が続きすぎない、等）を守っていても、実際に声に出して読むと人が喋っている感じがしないことがある、という指摘。</p>
+  <div class="ex"><span class="label">対策</span>生成した文章を実際に声に出して、知人に話しかけているつもりで読んでみる一手間を必ず入れる。</div>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">て形（〜して。〜あって。）で文を尻切れにする</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-vivant)">vivant</span></span>
+    <span class="date">2026-08-04</span>
+  </div>
+  <p>「ですます調が硬い」という指摘を受けて活用途中の語で文を切る書き方（「普通にダメージあって。」）を増やしたところ、今度は「不自然」「人間の口調感がない」と再び指摘された。参考にした反響の多い投稿を読み直すと、実際に使われていた「流す」文は活用途中で切るのではなく、それ自体で意味が完結する語＋余韻（「〜だったような気もして。」）だったと判明。</p>
+  <div class="ex"><span class="label">分かったこと</span>「カジュアルにする」ことと「言い切らずぼかす」ことは別物。ぼかしすぎると逆に不自然になる。</div>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">「〜だ。」の言い切り多用・二段オチの蛇足</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-mbti)">MBTICODE</span></span>
+    <span class="date">2026-08-16</span>
+  </div>
+  <p>機械チェックの禁止語尾を避けようとした結果「〜だ。」への逃げ込みが増え、「言い切り感が強すぎる。もっと柔らかく人間らしく」と指摘された。「それに気づいたのは、つい最近のことだ。」のように、言い切った直後に別の言い方で同じ内容を言い直す蛇足文も禁止に。</p>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">「んだ。」語尾・「正直、〜ます」の告白風ヘッジ</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-s4lv)">s4lv</span></span>
+    <span class="date">2026-09-06</span>
+  </div>
+  <p>4つの具体的な語尾・締め方をAI的と名指しで指摘：①「越えられないんだ。」のような「〜んだ。」語尾　②「正直、〜ます／です。」型の告白風の前置き　③「丸投げにした瞬間、半年後の順位でしっぺ返しがくる。」のような教訓・格言風の締め　④「同じ基準、厳しすぎますか？」のような、誰にでも当てはまる意見募集型の疑問符締め。</p>
+  <div class="ex"><span class="label">区別のポイント</span>疑問符で締めること自体がNGなのではなく、「属性を絞った具体的な問いかけ」（例：「ひっそりと〇〇している仲間、いますか？」）は例外として許容。汎用的な意見募集型がNG。</div>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">同じ副詞を使い回す（「地味に」の乱用）</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-vivant)">vivant</span></span>
+    <span class="date">2026-08-04・2026-09-14</span>
+  </div>
+  <p>便利で使い回しやすい副詞（「地味に」「正直」）を1つのバッチ内で何度も使ってしまい、機械生成っぽさが際立つと指摘された。9月には「正直」を同一バッチで8回使っていた。</p>
+</div>
+
+<h2><span class="no">03</span>決まり文句・紋切り型フレーズ</h2>
+<p class="cat-desc">AIが使いがちと言われる「テンプレ感情表現」を、何度言い換えても見抜かれ続けたパターンです。</p>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">紋切り型の共感フレーズ</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-note)">SNSリプライ</span></span>
+    <span class="date">2026-09-12</span>
+  </div>
+  <p>「刺さりました」「ハッとしました」「地味に耳が痛いです」「テンション上がりました／爆上がりしました」「まさに自分のことです」。1つ却下されるたびに別の紋切り表現に言い換えるだけで、7〜8往復しても見抜かれ続けた。</p>
+  <div class="ex"><span class="label">採用された形</span>相手の抽象的なまとめ文言に感想を言おうとせず、具体的な提案・ToDoへ「気づけました。助かります」のように率直に反応する。</div>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">感情語を盛って寄り添いすぎる</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-note)">SNSリプライ</span></span>
+    <span class="date">2026-09-12</span>
+  </div>
+  <p>「めっちゃ好きです」に一旦OKが出たが「寄り添いすぎでは？」という留保つきだった。「好き」「感動」「尊敬」のような愛着を表す語は、大げさでなくても迎合しすぎに見えるリスクがあると指摘。</p>
+  <div class="ex"><span class="label">求められている軸</span>ゴールは「この人わかってるな」であって「仲良くなりたい」ではない。感情語より、自分の行動宣言（「気をつけます」「やってみます」）の方が距離感を保てる。</div>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">大げさ・誇張した感情表現</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-vivant)">vivant</span></span>
+    <span class="date">2026-09-14</span>
+  </div>
+  <p>棒読み調を崩そうとして「そこまでやるかと思いました」「驚きが抜けきってません」のような大げさな感情表現を足したところ、今度は誇張しすぎと指摘された。「正直◯◯」という言い回しも禁止に。</p>
+  <div class="ex"><span class="label">分かったこと</span>「カジュアルにする」ことと「感情を盛る」ことは別軸。感情の強さは言葉で盛らず、事実の提示と淡々とした一言で十分。</div>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">名前をコンマでつなぐ</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-note)">SNSリプライ</span></span>
+    <span class="date">2026-09-12</span>
+  </div>
+  <p>「〇〇さん、（コメント）」とコンマで名前をつなぐ書き方が「AI感が出る」と指摘された。「〇〇さんおはようございます。」のように、名前は挨拶として文を独立させる形に修正。</p>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">過去記事の核心フレーズをそのまま使い回す</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-mbti)">MBTICODE</span></span>
+    <span class="date">2026-07-29</span>
+  </div>
+  <p>新記事の執筆で過去の公開記事を参考にした際、「〇〇の問題じゃない。設計の話なんです。」のような決めゼリフや自己開示の言い回しをほぼそのまま流用してしまい、複数記事にわたって重複が見つかった。</p>
+  <div class="ex"><span class="label">線引き</span>過去記事から参考にしていいのは構成・語尾・記号などの「ルール」だけ。決めゼリフなど「文章そのもの」は毎回ゼロから作る。</div>
+</div>
+
+<h2><span class="no">04</span>説明口調・分析口調・裏側を見せる発言</h2>
+<p class="cat-desc">読者に語りかけるべき場面で、つい「解説者」や「制作者」の立場に戻ってしまう問題です。</p>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">行動を後から解説する分析文</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-mbti)">MBTICODE</span></span>
+    <span class="date">2026-09-16</span>
+  </div>
+  <p>「〜からわかるけど、〜という動きが増えていく」「頼まれたことに応えているんじゃなくて〜」のような、行動の意味を後から説明する分析口調が指摘された。</p>
+  <div class="ex"><span class="label">対策</span>「もう体が先に動いてる」のように、解説せずそのまま言い切る文に変える。</div>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">「教え口調」「上から目線」</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-s4lv)">s4lv</span></span>
+    <span class="date">2026-09-09</span>
+  </div>
+  <p>「どう読めばいいか、そこだけをまとめました」「まず、全部を使いこなす必要はありません」「この記事で見るのは」のような言い方が「不自然・人間らしくない」と却下。「見るのは3つでいいです」のような素の話し言葉に修正。</p>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">制作の裏側（データベース・調査プロセス）を本文に出してしまう</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-vivant)">vivant</span></span>
+    <span class="date">2026-09-14</span>
+  </div>
+  <p>「これまでの本編にもデータベースにも、この名前の手がかりは見当たりません」のように、自分たちの内部管理物（データベース）を読者向けの本文で名指ししてしまった。</p>
+  <div class="ex"><span class="label">対策</span>本文に「データベース」「調査した」「裏取り」等、制作プロセスを示す語を一切書かない。</div>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">「セクション」など訳語っぽい語</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-note)">全アカウント共通</span></span>
+    <span class="date">2026-09-01</span>
+  </div>
+  <p>読者向けの記事本文で「セクション」という語を使うと訳語的でAI生成文っぽさが出ると指摘。「この記事だけでなくすべてに言える」と明言された。「ここ」「この記事」「〜欄」「〜の見出し」等、日本語に言い換える。</p>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">ビジネス語・制作者側の気取った語</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-s4lv)">s4lv</span></span>
+    <span class="date">2026-09-09</span>
+  </div>
+  <p>「数字はマスクせず」→「数字も、隠さず（売上以外は）そのまま載せました」、「有料記事に手順で落としてあります」→「有料記事のほうに手順で書いています」のように、マスク／落とし込む／据える／担保する等の制作者語・ビジネス語を素直な動詞に直す。</p>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">設計者用語（フック・ペルソナ・CTA等）の本文流入</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-note)">Note記事共通</span></span>
+    <span class="date">2026-09-03</span>
+  </div>
+  <p>感情トリガー・再現性シグナル・ベネフィット・フック・ペルソナ・PASONA・CTA・権威性・網羅性・即時性・エンゲージメント・フレームワーク等、記事を作る側の設計用語が本文にそのまま出てしまう問題を機械チェック化。</p>
+</div>
+
+<h2><span class="no">05</span>ヘッジ（言い回しの濁し方）の誤用</h2>
+<p class="cat-desc">「確定している事実」と「まだ分からないこと」の境目があいまいになり、濁し方の強さが事実の強さと噛み合っていない指摘です。</p>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">確定した事実にまで「〜ようです」をかける</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-vivant)">vivant</span></span>
+    <span class="date">2026-08-17</span>
+  </div>
+  <p>本来言い切ってよい確定済みの事実（報酬を受け取った、番組内で「死んだ」と発言した等）にまで、ヘッジ表現（「〜ようです」）を誤ってかけていた。ヘッジは「物語の真相・まだ決着していない謎」にのみかけるべきもの。</p>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">根拠の強さとヘッジの強さが不釣り合い</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-vivant)">vivant</span></span>
+    <span class="date">2026-08-17</span>
+  </div>
+  <p>一般に確立された知識を根拠にしているのに、「〜のではと個人的に気になっています」という弱い言い回しをかけてしまい、根拠の強さと言い切りの弱さが釣り合っていなかった。</p>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">「噂」という語で情報の重みを間違って軽く見せる</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-vivant)">vivant</span></span>
+    <span class="date">2026-09-14</span>
+  </div>
+  <p>公式のメイキング映像由来の情報を「噂」と呼んでしまい、実態より軽く・不確かに見せる表現になっていた。出典の性質に応じて「気になる情報」「という話」等、表現を使い分ける必要がある。</p>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">調べれば分かることを「不明」と書く</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-vivant)">vivant</span></span>
+    <span class="date">2026-09-14</span>
+  </div>
+  <p>新キャラクターを「正体不明」として投稿しようとしたが、実際は少し調べれば5分程度で分かる情報だった。「情報がない」と書く前に、本当に調べたのかを自問すべきと指摘された。</p>
+</div>
+
+<h2><span class="no">06</span>論理・因果の作り方が不自然</h2>
+<p class="cat-desc">話の筋道そのものが「作られた感じ」になってしまうパターンです。</p>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">原因→結果がきれいにまとまりすぎる（構造レベルのAI臭さ）</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-s4lv)">s4lv</span></span>
+    <span class="date">2026-09-06</span>
+  </div>
+  <p>特定のフレーズだけでなく、「悩み→箇条書き→教訓」という3幕構成そのもの、箇条書き各項目の文法的な対称性、締めの格言風オチ、文のリズムの均一さなど、構造そのものがAI臭さを生むと指摘。単語レベルの禁止リストでは検知できない領域。</p>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">不要な留保を作ってしまう・因果の対象範囲を混同する</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-vivant)">vivant</span></span>
+    <span class="date">2026-08-17</span>
+  </div>
+  <p>ある根拠を、別の判断材料であるかのように混同したり、単純な因果関係を「判断が割れる論点」であるかのように書いてしまう論理の飛躍が2回連続で指摘された。</p>
+</div>
+
+<h2><span class="no">07</span>構成・型が毎回そっくりになる</h2>
+<p class="cat-desc">個別の文章としては問題なくても、複数まとめて読み比べると「型にはめて量産している」ことがバレるパターンです。</p>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">投稿を並べると語尾・構造・リズムが全部同じ</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-vivant)">vivant</span></span>
+    <span class="date">2026-08-04</span>
+  </div>
+  <p>「全体的に型が一定すぎる。語尾のバリエーションや印象がどれも同じでAIが型に合わせて書いている感が強い」と指摘。ルールに「同じ構造を繰り返さない」と書いてあるだけでは守れず、生成後に投稿同士を並べて比較するチェックが抜けていた。</p>
+  <div class="ex"><span class="label">対策</span>バッチ生成後、投稿同士を並べて語尾・構造・句読点パターンが似すぎていないか必ず比較する。</div>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">ベネフィット文・締めCTAの型が3記事連続で同じ</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-s4lv)">s4lv</span></span>
+    <span class="date">2026-09-09</span>
+  </div>
+  <p>「読み終わる頃には〜できるようになっているはずです」型の締め、「〜はまた別の話 → 有料記事にまとめています → 裸URL」の3点セットなど、同じ型が繰り返されていた。次回は起草段階で封印し別の形にする方針に。</p>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">例文集の言い回しをそのまま次の記事に流用する</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-vivant)">vivant</span></span>
+    <span class="date">2026-07-31</span>
+  </div>
+  <p>「クオリティを再現したいが、別の記事で同じ表現・既視感のある文章にはしたくない」と明言。参考用の例文集（examples_*.md）は「型・トーンの実例」であり、フレーズ集として使い回すものではない、と整理された。</p>
+</div>
+
+<h2><span class="no">08</span>句読点・記号のクセ</h2>
+<p class="cat-desc">細かい部分ですが、積み重なると読み心地に効いてくる指摘です。</p>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">「〜していませんか。」型の疑問文</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-note)">Note記事・ブログ全般</span></span>
+    <span class="date">2026-09-03</span>
+  </div>
+  <p>疑問文には必ず「？」を使い、「か。」で疑問を表す書き方はしない、というルール。3箇所を具体的に指摘され「この記事だけでなく全体に言える」と明言された。</p>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">読点の打ちすぎ</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-note)">Note記事・ブログ全般</span></span>
+    <span class="date">2026-09-03</span>
+  </div>
+  <p>1文の読点は目安2つまで。「のかも、正直、自信がない。」のような意味の切れ目でない読点は削る。</p>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">三点リーダーでの尻すぼみ終わり</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-vivant)">vivant</span></span>
+    <span class="date">2026-08-04</span>
+  </div>
+  <p>「〜気になってて……。」のような三点リーダーで尻すぼみに終わる書き方も使わないよう指摘された（て形の尻切れと同系統の問題）。</p>
+</div>
+
+<h2><span class="no">09</span>その他の細かい違和感</h2>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">時間経過を律儀に演出する情景描写</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-vivant)">vivant</span></span>
+    <span class="date">2026-08-01</span>
+  </div>
+  <p>取ってつけたような接続語、自問自答で締める演出など、AIっぽい定型的なシーン描写が指摘され、テーマの深刻さと感情表現の重さが噛み合っていない点も併せて指摘された。</p>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">「実は」という書き出し</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-vivant)">vivant</span></span>
+    <span class="date">2026-08-04</span>
+  </div>
+  <p>「実は」で切り出す書き出し自体を使いたくない、と明示された。</p>
+</div>
+
+<div class="item">
+  <div class="item-head"><span class="item-title">文の末尾でわざわざ記事の存在に触れる</span>
+    <span class="tags"><span class="tag" style="background:var(--tag-vivant)">vivant</span></span>
+    <span class="date">2026-08-04</span>
+  </div>
+  <p>「そのあたりは記事のほうで整理してます」のように、本文の締めで記事への誘導に触れると、あからさまな宣伝に見える。誘導は自己リプライだけに任せ、本文は気づき・感情の流れだけで終わらせる。</p>
+</div>
+
+<div class="summary-box">
+<h3>全体を通して見えてくること</h3>
+<p><strong>①「型」ではなく「実際に声に出して読んだときの温度」で判定している。</strong>個別のNGフレーズを避けても、機械的なチェックを全部クリアしても、実際に人が喋っているように聞こえるかどうかは別問題として繰り返し指摘されています。</p>
+<p><strong>②「言い切る」と「ぼかす」、「感情を盛る」と「感情を抑える」の間の、ちょうどいい一点を探している。</strong>どちらかに寄りすぎると必ず指摘が入り、やり過ぎて反対側に振れることも多いパターンでした。</p>
+<p><strong>③1本だけでなく、複数の文章を並べたときに同じクセが見える「量産感」を強く嫌う。</strong>語尾・構成・フレーズ・副詞のいずれも、単発では気づかれなくても繰り返すと必ず指摘されています。</p>
+<p><strong>④読者に見せるべきでない「作り手側の視点」（制作プロセス・設計用語・裏取りの過程）が漏れることを嫌う。</strong>読者に語りかける文章と、内部の作業メモは完全に分けるべきという一貫した姿勢があります。</p>
+</div>
+
+<footer>
+claude project内のメモリ・各アカウントのルール台帳（brands/writing/writing_core.md、各アカウントのsns_post_cheatsheet.md等）をもとに作成。恒久ルールの正本は各ファイル側にあり、この資料は指摘の傾向をまとめた振り返り用です。（作成日：2026-09-17）
+</footer>
+
+</div>
+</body>
+</html>
