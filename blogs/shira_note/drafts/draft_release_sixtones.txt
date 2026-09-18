@@ -1,0 +1,402 @@
+<!-- wp:paragraph -->
+タイトル：SixTONES最新情報｜発売予定・予約情報をまとめてチェック
+メタディスクリプション（80字）：
+SixTONESの最新の発売情報をまとめました。CD・DVD・雑誌などの予約状況を随時更新し、気づかないうちに発表を見逃していないか確認できるようにしています。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+SixTONESのCDやDVD/Blu-ray、雑誌掲載といった<strong>発売情報</strong>を全部追いきれているか把握するために情報をまとめました。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+公式サイトの更新は発売の直前になりやすく、<span style="font-weight:800;color:#111827;text-decoration:underline;text-decoration-color:#93c5fd;text-decoration-thickness:2px;text-underline-offset:3px;">ファンクラブ限定の商品</span>などは特に見落としやすいです。
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="SixTONES発売情報まとめ" style="display:block;background:#ffffff;border:1px solid #eef0f4;border-radius:18px;padding:20px;margin:1.6em 0;box-shadow:0 10px 30px rgba(15,23,42,0.07);box-sizing:border-box;max-width:100%;">
+
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:8px;">
+    <div style="display:flex;align-items:center;gap:10px;">
+      <span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:9px;background:linear-gradient(160deg,#4f46e5,#db2777);color:#fff;font-size:13px;flex-shrink:0;">📌</span>
+      <span style="font-size:clamp(13px,calc(13px + (100vw - 480px)/200),15px);font-weight:900;color:#0f172a;letter-spacing:0.01em;">SixTONES 発売・予約情報</span>
+    </div>
+    <span style="font-size:10px;font-weight:800;color:#4f46e5;background:#eef2ff;padding:4px 10px;border-radius:999px;letter-spacing:0.03em;">随時更新</span>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:12px;">
+    <div style="display:flex;align-items:flex-start;gap:12px;">
+      <span style="flex-shrink:0;font-size:10.5px;font-weight:800;color:#94a3b8;width:78px;padding-top:2px;letter-spacing:0.02em;">更新日</span>
+      <span style="font-size:clamp(12.5px,calc(12.5px + (100vw - 480px)/220),14px);font-weight:700;color:#1e293b;">2026年9月18日</span>
+    </div>
+    <div style="display:flex;align-items:flex-start;gap:12px;">
+      <span style="flex-shrink:0;font-size:10.5px;font-weight:800;color:#94a3b8;width:78px;padding-top:2px;letter-spacing:0.02em;">直近の発売</span>
+      <span style="font-size:clamp(12.5px,calc(12.5px + (100vw - 480px)/220),14px);font-weight:700;color:#1e293b;line-height:1.6;"><span style="color:#4f46e5;font-weight:800;">2026年11月4日</span>　ライブBlu-ray＆DVD『MILESixTONES』</span>
+    </div>
+    <div style="display:flex;align-items:flex-start;gap:10px;padding-top:12px;border-top:1px dashed #e2e8f0;">
+      <span style="flex-shrink:0;font-size:15px;line-height:1.4;">⚠️</span>
+      <span style="font-size:clamp(12.5px,calc(12.5px + (100vw - 480px)/220),14px);font-weight:700;color:#b45309;line-height:1.6;">SixTONES STockでアナログ盤を受注中（通常の発売スケジュールには出てきません）</span>
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+この記事では、SixTONESの<strong>最新の発売予定・予約情報</strong>を現時点でわかる範囲で紹介し、新しい発表があれば随時追記していきます。
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>SixTONESの発売情報｜最新のCD・DVD/Blu-ray・雑誌まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+2026年9月18日時点で判明している、SixTONESのCD・DVD・雑誌掲載の<strong>最新の発売情報</strong>を一覧にしました。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+予約が始まっている商品もあわせて紹介します。
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>CD・DVDの発売情報</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+まずは、Blu-rayやDVDなど映像作品の発売情報です。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+いずれも2026年9月18日時点で<strong>予約を受け付けています</strong>。
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="display:flex;flex-direction:column;gap:14px;margin:1.4em 0;">
+
+  <div style="background:#ffffff;border:1px solid #eef0f4;border-radius:16px;padding:16px;box-shadow:0 8px 24px rgba(15,23,42,0.06);box-sizing:border-box;">
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px;">
+      <span style="flex-shrink:0;padding:5px 10px;border-radius:8px;background:linear-gradient(160deg,#4f46e5,#7c3aed);color:#fff;box-shadow:0 4px 10px rgba(79,70,229,0.3);white-space:nowrap;"><span style="font-size:13px;font-weight:900;">11/4</span><span style="font-size:10px;font-weight:700;opacity:0.9;margin-left:2px;">(水)</span></span>
+      <span style="font-size:10px;font-weight:800;color:#4f46e5;letter-spacing:0.06em;">Blu-ray／DVD</span>
+      <span style="display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:700;color:#059669;border:1px solid #a7f3d0;background:#f0fdf4;padding:2px 9px;border-radius:999px;margin-left:auto;">
+        <span style="width:5px;height:5px;border-radius:50%;background:#059669;"></span>予約受付中
+      </span>
+    </div>
+    <div style="font-size:clamp(14.5px,calc(14.5px + (100vw - 480px)/150),16.5px);font-weight:900;color:#0f172a;line-height:1.45;margin-bottom:4px;">ライブBlu-ray＆DVD『MILESixTONES』</div>
+    <div style="font-size:clamp(11.5px,calc(11.5px + (100vw - 480px)/220),13px);color:#64748b;font-weight:600;margin-bottom:10px;">SixTONES</div>
+    <div style="font-size:clamp(12px,calc(12px + (100vw - 480px)/200),13.5px);color:#475569;line-height:1.7;margin-bottom:12px;">初回盤・通常盤があり、STARTO公式サイトでは<strong>9月16日</strong>に発売決定が発表されました。</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;">
+      <a href="//af.moshimo.com/af/c/click?a_id=4824566&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F18814391%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display:inline-flex;align-items:center;padding:6px 12px;border:1px solid #bf0000;border-radius:999px;text-decoration:none;font-size:clamp(11px,calc(11px + (100vw - 480px)/200),13px);font-weight:700;color:#bf0000;background:#fff;">楽天ブックスで予約する ›</a>
+      <a href="//af.moshimo.com/af/c/click?a_id=4824566&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FSixTONES%20MILESixTONES%20Blu-ray%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display:inline-flex;align-items:center;padding:6px 12px;border:1px solid #9ca3af;border-radius:999px;text-decoration:none;font-size:clamp(11px,calc(11px + (100vw - 480px)/200),13px);font-weight:700;color:#4b5563;background:#fff;">楽天市場で探す ›</a>
+      <a href="https://www.amazon.co.jp/dp/B0HK16VB8F/ref=nosim?tag=shira1-22" rel="nofollow sponsored noopener noreferrer" style="display:inline-flex;align-items:center;padding:6px 12px;border:1px solid #232f3e;border-radius:999px;text-decoration:none;font-size:clamp(11px,calc(11px + (100vw - 480px)/200),13px);font-weight:700;color:#232f3e;background:#fff;">Amazonで予約する ›</a>
+    </div>
+    <img src="//i.moshimo.com/af/i/impression?a_id=4824566&p_id=54&pc_id=54&pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+  </div>
+
+  <div style="background:#ffffff;border:1px solid #eef0f4;border-radius:16px;padding:16px;box-shadow:0 8px 24px rgba(15,23,42,0.06);box-sizing:border-box;">
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px;">
+      <span style="flex-shrink:0;padding:5px 10px;border-radius:8px;background:linear-gradient(160deg,#4f46e5,#7c3aed);color:#fff;box-shadow:0 4px 10px rgba(79,70,229,0.3);white-space:nowrap;"><span style="font-size:13px;font-weight:900;">11/18</span><span style="font-size:10px;font-weight:700;opacity:0.9;margin-left:2px;">(水)</span></span>
+      <span style="font-size:10px;font-weight:800;color:#4f46e5;letter-spacing:0.06em;">Blu-ray／DVD</span>
+      <span style="display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:700;color:#059669;border:1px solid #a7f3d0;background:#f0fdf4;padding:2px 9px;border-radius:999px;margin-left:auto;">
+        <span style="width:5px;height:5px;border-radius:50%;background:#059669;"></span>予約受付中
+      </span>
+    </div>
+    <div style="font-size:clamp(14.5px,calc(14.5px + (100vw - 480px)/150),16.5px);font-weight:900;color:#0f172a;line-height:1.45;margin-bottom:4px;">ドラマ『憧れの作家は人間じゃありませんでした』Blu-ray＆DVD BOX</div>
+    <div style="font-size:clamp(11.5px,calc(11.5px + (100vw - 480px)/220),13px);color:#64748b;font-weight:600;margin-bottom:10px;">京本大我主演</div>
+    <div style="font-size:clamp(12px,calc(12px + (100vw - 480px)/200),13.5px);color:#475569;line-height:1.7;margin-bottom:12px;"><strong>Prime Video独占配信ドラマ</strong>の完全生産限定盤です。</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;">
+      <a href="//af.moshimo.com/af/c/click?a_id=4824566&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F18647064%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display:inline-flex;align-items:center;padding:6px 12px;border:1px solid #bf0000;border-radius:999px;text-decoration:none;font-size:clamp(11px,calc(11px + (100vw - 480px)/200),13px);font-weight:700;color:#bf0000;background:#fff;">楽天ブックスで予約する ›</a>
+      <a href="//af.moshimo.com/af/c/click?a_id=4824566&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E6%86%A7%E3%82%8C%E3%81%AE%E4%BD%9C%E5%AE%B6%E3%81%AF%E4%BA%BA%E9%96%93%E3%81%98%E3%82%83%E3%81%82%E3%82%8A%E3%81%BE%E3%81%9B%E3%82%93%E3%81%A7%E3%81%97%E3%81%9F%20Blu-ray%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display:inline-flex;align-items:center;padding:6px 12px;border:1px solid #9ca3af;border-radius:999px;text-decoration:none;font-size:clamp(11px,calc(11px + (100vw - 480px)/200),13px);font-weight:700;color:#4b5563;background:#fff;">楽天市場で探す ›</a>
+      <a href="https://www.amazon.co.jp/dp/B0H2HFJG47/ref=nosim?tag=shira1-22" rel="nofollow sponsored noopener noreferrer" style="display:inline-flex;align-items:center;padding:6px 12px;border:1px solid #232f3e;border-radius:999px;text-decoration:none;font-size:clamp(11px,calc(11px + (100vw - 480px)/200),13px);font-weight:700;color:#232f3e;background:#fff;">Amazonで予約する ›</a>
+    </div>
+    <img src="//i.moshimo.com/af/i/impression?a_id=4824566&p_id=54&pc_id=54&pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+  </div>
+
+  <div style="background:#ffffff;border:1px solid #eef0f4;border-radius:16px;padding:16px;box-shadow:0 8px 24px rgba(15,23,42,0.06);box-sizing:border-box;">
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px;">
+      <span style="flex-shrink:0;padding:5px 10px;border-radius:8px;background:linear-gradient(160deg,#4f46e5,#7c3aed);color:#fff;box-shadow:0 4px 10px rgba(79,70,229,0.3);white-space:nowrap;"><span style="font-size:13px;font-weight:900;">12/9</span><span style="font-size:10px;font-weight:700;opacity:0.9;margin-left:2px;">(水)</span></span>
+      <span style="font-size:10px;font-weight:800;color:#4f46e5;letter-spacing:0.06em;">Blu-ray／DVD</span>
+      <span style="display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:700;color:#059669;border:1px solid #a7f3d0;background:#f0fdf4;padding:2px 9px;border-radius:999px;margin-left:auto;">
+        <span style="width:5px;height:5px;border-radius:50%;background:#059669;"></span>予約受付中
+      </span>
+    </div>
+    <div style="font-size:clamp(14.5px,calc(14.5px + (100vw - 480px)/150),16.5px);font-weight:900;color:#0f172a;line-height:1.45;margin-bottom:4px;">ドラマ『10回切って倒れない木はない』Blu-ray＆DVD BOX</div>
+    <div style="font-size:clamp(11.5px,calc(11.5px + (100vw - 480px)/220),13px);color:#64748b;font-weight:600;margin-bottom:10px;">京本大我出演</div>
+    <div style="font-size:clamp(12px,calc(12px + (100vw - 480px)/200),13.5px);color:#475569;line-height:1.7;margin-bottom:12px;">店舗によっては<span style="font-weight:800;color:#111827;text-decoration:underline;text-decoration-color:#93c5fd;text-decoration-thickness:2px;text-underline-offset:3px;">オリジナルクリアファイルの先着特典</span>が付きます。</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;">
+      <a href="//af.moshimo.com/af/c/click?a_id=4824566&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F18672898%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display:inline-flex;align-items:center;padding:6px 12px;border:1px solid #bf0000;border-radius:999px;text-decoration:none;font-size:clamp(11px,calc(11px + (100vw - 480px)/200),13px);font-weight:700;color:#bf0000;background:#fff;">楽天ブックスで予約する ›</a>
+      <a href="//af.moshimo.com/af/c/click?a_id=4824566&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F10%E5%9B%9E%E5%88%87%E3%81%A3%E3%81%A6%E5%80%92%E3%82%8C%E3%81%AA%E3%81%84%E6%9C%A8%E3%81%AF%E3%81%AA%E3%81%84%20Blu-ray%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display:inline-flex;align-items:center;padding:6px 12px;border:1px solid #9ca3af;border-radius:999px;text-decoration:none;font-size:clamp(11px,calc(11px + (100vw - 480px)/200),13px);font-weight:700;color:#4b5563;background:#fff;">楽天市場で探す ›</a>
+      <a href="https://www.amazon.co.jp/dp/B0H4QSVPF7/ref=nosim?tag=shira1-22" rel="nofollow sponsored noopener noreferrer" style="display:inline-flex;align-items:center;padding:6px 12px;border:1px solid #232f3e;border-radius:999px;text-decoration:none;font-size:clamp(11px,calc(11px + (100vw - 480px)/200),13px);font-weight:700;color:#232f3e;background:#fff;">Amazonで予約する ›</a>
+    </div>
+    <img src="//i.moshimo.com/af/i/impression?a_id=4824566&p_id=54&pc_id=54&pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+  </div>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<div role="region" aria-label="見落としやすい発売情報" style="background:#fffaf0;border:1px solid #fde8c8;border-radius:14px;padding:14px 16px;margin:1.5em 0;box-shadow:0 6px 18px rgba(180,83,9,0.06);box-sizing:border-box;width:100%;">
+  <div style="display:flex;align-items:flex-start;gap:10px;">
+    <span style="flex-shrink:0;display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:8px;background:#f59e0b;color:#fff;font-size:13px;">⚠</span>
+    <div>
+      <p style="margin:0 0 5px;font-weight:900;font-size:clamp(12.5px,calc(12.5px + (100vw - 480px)/220),14px);color:#92400e;">見落としやすい情報</p>
+      <p style="margin:0;font-size:clamp(12.5px,calc(12.5px + (100vw - 480px)/220),14px);color:#78350f;line-height:1.7;"><strong>『MILESixTONES -Best Tracks-』のアナログ盤（レコード）</strong>が、通常のCDショップではなくファンクラブ限定の「SixTONES STock」で2026年9月17日から二次受注を受け付けています。通常の発売スケジュールには出てこない商品なので、気づかないまま終わってしまう方も多そうです。受注状況は公式Xや「SixTONES STock」で確認してください。</p>
+    </div>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":3} -->
+<h3>雑誌掲載・写真集などの発売情報</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+続いて、雑誌掲載の発売情報です。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+いずれも2026年9月24日発売で、現時点で判明している分をまとめました。
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="display:flex;flex-direction:column;gap:14px;margin:1.4em 0;">
+
+  <div style="background:#ffffff;border:1px solid #eef0f4;border-radius:16px;padding:16px;box-shadow:0 8px 24px rgba(15,23,42,0.06);box-sizing:border-box;">
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px;">
+      <span style="flex-shrink:0;padding:5px 10px;border-radius:8px;background:linear-gradient(160deg,#db2777,#f472b6);color:#fff;box-shadow:0 4px 10px rgba(219,39,119,0.28);white-space:nowrap;"><span style="font-size:13px;font-weight:900;">9/24</span><span style="font-size:10px;font-weight:700;opacity:0.9;margin-left:2px;">(木)</span></span>
+      <span style="font-size:10px;font-weight:800;color:#db2777;letter-spacing:0.06em;">雑誌</span>
+      <span style="display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:700;color:#059669;border:1px solid #a7f3d0;background:#f0fdf4;padding:2px 9px;border-radius:999px;margin-left:auto;">
+        <span style="width:5px;height:5px;border-radius:50%;background:#059669;"></span>予約受付中
+      </span>
+    </div>
+    <div style="font-size:clamp(14.5px,calc(14.5px + (100vw - 480px)/150),16.5px);font-weight:900;color:#0f172a;line-height:1.45;margin-bottom:4px;">Myojo 創刊74周年記念特大号</div>
+    <div style="font-size:clamp(11.5px,calc(11.5px + (100vw - 480px)/220),13px);color:#64748b;font-weight:600;margin-bottom:10px;">SixTONES表紙</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;">
+      <a href="//af.moshimo.com/af/c/click?a_id=4824566&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F18779364%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display:inline-flex;align-items:center;padding:6px 12px;border:1px solid #bf0000;border-radius:999px;text-decoration:none;font-size:clamp(11px,calc(11px + (100vw - 480px)/200),13px);font-weight:700;color:#bf0000;background:#fff;">楽天ブックスで予約する ›</a>
+      <a href="//af.moshimo.com/af/c/click?a_id=4824566&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FMyojo%202026%E5%B9%B411%E6%9C%88%E5%8F%B7%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display:inline-flex;align-items:center;padding:6px 12px;border:1px solid #9ca3af;border-radius:999px;text-decoration:none;font-size:clamp(11px,calc(11px + (100vw - 480px)/200),13px);font-weight:700;color:#4b5563;background:#fff;">楽天市場で探す ›</a>
+      <a href="https://www.amazon.co.jp/dp/B0HFJJMWX3/ref=nosim?tag=shira1-22" rel="nofollow sponsored noopener noreferrer" style="display:inline-flex;align-items:center;padding:6px 12px;border:1px solid #232f3e;border-radius:999px;text-decoration:none;font-size:clamp(11px,calc(11px + (100vw - 480px)/200),13px);font-weight:700;color:#232f3e;background:#fff;">Amazonで予約する ›</a>
+    </div>
+    <img src="//i.moshimo.com/af/i/impression?a_id=4824566&p_id=54&pc_id=54&pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+  </div>
+
+  <div style="background:#ffffff;border:1px solid #eef0f4;border-radius:16px;padding:16px;box-shadow:0 8px 24px rgba(15,23,42,0.06);box-sizing:border-box;">
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px;">
+      <span style="flex-shrink:0;padding:5px 10px;border-radius:8px;background:linear-gradient(160deg,#db2777,#f472b6);color:#fff;box-shadow:0 4px 10px rgba(219,39,119,0.28);white-space:nowrap;"><span style="font-size:13px;font-weight:900;">9/24</span><span style="font-size:10px;font-weight:700;opacity:0.9;margin-left:2px;">(木)</span></span>
+      <span style="font-size:10px;font-weight:800;color:#db2777;letter-spacing:0.06em;">雑誌</span>
+      <span style="display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:700;color:#b45309;border:1px solid #fde68a;background:#fffbeb;padding:2px 9px;border-radius:999px;margin-left:auto;">
+        <span style="width:5px;height:5px;border-radius:50%;background:#b45309;"></span>要確認
+      </span>
+    </div>
+    <div style="font-size:clamp(14.5px,calc(14.5px + (100vw - 480px)/150),16.5px);font-weight:900;color:#0f172a;line-height:1.45;margin-bottom:4px;">MAQUIA 2026年11月号増刊</div>
+    <div style="font-size:clamp(11.5px,calc(11.5px + (100vw - 480px)/220),13px);color:#64748b;font-weight:600;margin-bottom:10px;">京本大我表紙・スペシャル美撮8P</div>
+    <div style="font-size:clamp(12px,calc(12px + (100vw - 480px)/200),13.5px);color:#475569;line-height:1.7;margin-bottom:12px;">2026年9月18日時点、楽天ブックスでは<span style="font-weight:800;color:#111827;text-decoration:underline;text-decoration-color:#93c5fd;text-decoration-thickness:2px;text-underline-offset:3px;">ご注文いただけない状態</span>でした。Amazonではマーケットプレイス出品で購入できます。</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;">
+      <a href="//af.moshimo.com/af/c/click?a_id=4824566&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FMAQUIA%2011%E6%9C%88%E5%8F%B7%E5%A2%97%E5%88%8A%20SixTONES%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display:inline-flex;align-items:center;padding:6px 12px;border:1px solid #9ca3af;border-radius:999px;text-decoration:none;font-size:clamp(11px,calc(11px + (100vw - 480px)/200),13px);font-weight:700;color:#4b5563;background:#fff;">楽天市場で探す ›</a>
+      <a href="https://www.amazon.co.jp/dp/B0HF7P7M11/ref=nosim?tag=shira1-22" rel="nofollow sponsored noopener noreferrer" style="display:inline-flex;align-items:center;padding:6px 12px;border:1px solid #232f3e;border-radius:999px;text-decoration:none;font-size:clamp(11px,calc(11px + (100vw - 480px)/200),13px);font-weight:700;color:#232f3e;background:#fff;">Amazonで見る ›</a>
+    </div>
+    <img src="//i.moshimo.com/af/i/impression?a_id=4824566&p_id=54&pc_id=54&pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+  </div>
+
+  <div style="background:#ffffff;border:1px solid #eef0f4;border-radius:16px;padding:16px;box-shadow:0 8px 24px rgba(15,23,42,0.06);box-sizing:border-box;">
+    <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:10px;">
+      <span style="flex-shrink:0;padding:5px 10px;border-radius:8px;background:linear-gradient(160deg,#db2777,#f472b6);color:#fff;box-shadow:0 4px 10px rgba(219,39,119,0.28);white-space:nowrap;"><span style="font-size:13px;font-weight:900;">9/24</span><span style="font-size:10px;font-weight:700;opacity:0.9;margin-left:2px;">(木)</span></span>
+      <span style="font-size:10px;font-weight:800;color:#db2777;letter-spacing:0.06em;">雑誌</span>
+      <span style="display:inline-flex;align-items:center;gap:4px;font-size:10px;font-weight:700;color:#059669;border:1px solid #a7f3d0;background:#f0fdf4;padding:2px 9px;border-radius:999px;margin-left:auto;">
+        <span style="width:5px;height:5px;border-radius:50%;background:#059669;"></span>予約受付中
+      </span>
+    </div>
+    <div style="font-size:clamp(14.5px,calc(14.5px + (100vw - 480px)/150),16.5px);font-weight:900;color:#0f172a;line-height:1.45;margin-bottom:4px;">週刊TVガイド関東版 2026年10/2号</div>
+    <div style="font-size:clamp(11.5px,calc(11.5px + (100vw - 480px)/220),13px);color:#64748b;font-weight:600;margin-bottom:10px;">ジェシー・森本慎太郎 掲載</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;">
+      <a href="//af.moshimo.com/af/c/click?a_id=4824566&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Frb%2F18812753%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display:inline-flex;align-items:center;padding:6px 12px;border:1px solid #bf0000;border-radius:999px;text-decoration:none;font-size:clamp(11px,calc(11px + (100vw - 480px)/200),13px);font-weight:700;color:#bf0000;background:#fff;">楽天ブックスで予約する ›</a>
+      <a href="//af.moshimo.com/af/c/click?a_id=4824566&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2F%E9%80%B1%E5%88%8ATV%E3%82%AC%E3%82%A4%E3%83%89%202026%E5%B9%B410%E6%9C%882%E5%8F%B7%2F" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display:inline-flex;align-items:center;padding:6px 12px;border:1px solid #9ca3af;border-radius:999px;text-decoration:none;font-size:clamp(11px,calc(11px + (100vw - 480px)/200),13px);font-weight:700;color:#4b5563;background:#fff;">楽天市場で探す ›</a>
+      <a href="https://www.amazon.co.jp/dp/B0HJ6J923W/ref=nosim?tag=shira1-22" rel="nofollow sponsored noopener noreferrer" style="display:inline-flex;align-items:center;padding:6px 12px;border:1px solid #232f3e;border-radius:999px;text-decoration:none;font-size:clamp(11px,calc(11px + (100vw - 480px)/200),13px);font-weight:700;color:#232f3e;background:#fff;">Amazonで予約する ›</a>
+    </div>
+    <img src="//i.moshimo.com/af/i/impression?a_id=4824566&p_id=54&pc_id=54&pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+  </div>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>今月の注目リリースをピックアップ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+今回とくに注目したいのが、9月24日発売のMyojo創刊74周年記念特大号です。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+節目の号で<strong>SixTONESが表紙</strong>になることが決まっており、通常号とは違う1冊になりそうです。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+もう1つは、11月4日発売のライブBlu-ray＆DVD『MILESixTONES』です。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+初回盤・通常盤に加えてBlu-ray／DVDそれぞれの仕様が用意されており、STARTO公式サイトでも9月16日に発売決定が発表されたばかりの<strong>大型リリース</strong>です。
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>よくある質問</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3>発売情報はいつ更新されますか？</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+STARTO公式サイトの表示を中心に、放送や発売の直前に新しい情報が追加される運用のようです。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+この記事でも<strong>新しい発表を確認でき次第</strong>、随時反映していきます。
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>予約の締切はいつまでですか？</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+商品によって異なります。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+特典付きの商品は<strong>先着順で終了</strong>することが多いため、気になる商品は早めに商品ページで確認することをおすすめします。
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>特典は店舗によって違いますか？</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+はい、異なる場合があります。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+たとえば『10回切って倒れない木はない』のBlu-ray BOXには、店舗によって<strong>オリジナルクリアファイル</strong>などの先着特典が付くものと付かないものがあります。
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>発表に気づかず見逃さないためにはどうすればいいですか？</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+公式サイトだけでなく、公式X（旧Twitter）や<span style="font-weight:800;color:#111827;text-decoration:underline;text-decoration-color:#93c5fd;text-decoration-thickness:2px;text-underline-offset:3px;">ファンクラブ限定の「SixTONES STock」</span>もあわせてチェックすると安心です。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+今回のアナログ盤のように、通常の発売スケジュールに出てこない商品もあります。
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+この記事では、2026年9月18日時点でわかっているSixTONESの<strong>最新の発売・予約情報</strong>をまとめました。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+CD・DVD・雑誌に加えて、ファンクラブ限定のアナログ盤のように見落としやすい情報もあわせて紹介しています。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+新しい発表があり次第、この記事に追記していきます。
+<!-- /wp:paragraph -->
+
+<!-- wp:shortcode -->
+<!-- MANUAL_JSONLD -->
+[jsonld]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://shira-treat.com/sixtones-release-schedule/#post",
+      "headline": "SixTONES最新情報｜発売予定・予約情報をまとめてチェック",
+      "description": "SixTONESの最新の発売情報をまとめました。CD・DVD・雑誌などの予約状況を随時更新し、気づかないうちに発表を見逃していないか確認できるようにしています。",
+      "keywords": ["SixTONES", "発売情報", "予約情報", "最新情報", "CD", "DVD", "雑誌", "Blu-ray"],
+      "datePublished": "2026-09-18T00:00:00+09:00",
+      "dateCreated": "2026-09-18T00:00:00+09:00",
+      "dateModified": "2026-09-18T00:00:00+09:00",
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/09/image-2-2.webp",
+        "width": 1200,
+        "height": 675
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/operator-information/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/",
+        "sameAs": ["https://x.com/ShiraNotes_"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "articleSection": "アーティスト情報",
+      "about": { "@type": "Thing", "name": "SixTONES" },
+      "inLanguage": "ja",
+      "hasPart": [
+        { "@id": "https://shira-treat.com/sixtones-release-schedule/#itemlist" },
+        { "@id": "https://shira-treat.com/sixtones-release-schedule/#faq" }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://shira-treat.com/sixtones-release-schedule/#itemlist",
+      "numberOfItems": 6,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "ライブBlu-ray＆DVD『MILESixTONES』", "url": "https://books.rakuten.co.jp/rb/18814391/" },
+        { "@type": "ListItem", "position": 2, "name": "ドラマ『憧れの作家は人間じゃありませんでした』Blu-ray＆DVD BOX", "url": "https://books.rakuten.co.jp/rb/18647064/" },
+        { "@type": "ListItem", "position": 3, "name": "ドラマ『10回切って倒れない木はない』Blu-ray＆DVD BOX", "url": "https://books.rakuten.co.jp/rb/18672898/" },
+        { "@type": "ListItem", "position": 4, "name": "Myojo 創刊74周年記念特大号", "url": "https://books.rakuten.co.jp/rb/18779364/" },
+        { "@type": "ListItem", "position": 5, "name": "MAQUIA 2026年11月号増刊", "url": "https://books.rakuten.co.jp/rb/18809495/" },
+        { "@type": "ListItem", "position": 6, "name": "週刊TVガイド関東版 2026年10/2号", "url": "https://books.rakuten.co.jp/rb/18812753/" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://shira-treat.com/sixtones-release-schedule/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "発売情報はいつ更新されますか？",
+          "acceptedAnswer": { "@type": "Answer", "text": "STARTO公式サイトの表示を中心に、放送や発売の直前に新しい情報が追加される運用のようです。この記事でも新しい発表を確認でき次第、随時反映していきます。" }
+        },
+        {
+          "@type": "Question",
+          "name": "予約の締切はいつまでですか？",
+          "acceptedAnswer": { "@type": "Answer", "text": "商品によって異なります。特典付きの商品は先着順で終了することが多いため、気になる商品は早めに商品ページで確認することをおすすめします。" }
+        },
+        {
+          "@type": "Question",
+          "name": "特典は店舗によって違いますか？",
+          "acceptedAnswer": { "@type": "Answer", "text": "はい、異なる場合があります。たとえば『10回切って倒れない木はない』のBlu-ray BOXには、店舗によってオリジナルクリアファイルなどの先着特典が付くものと付かないものがあります。" }
+        },
+        {
+          "@type": "Question",
+          "name": "発表に気づかず見逃さないためにはどうすればいいですか？",
+          "acceptedAnswer": { "@type": "Answer", "text": "公式サイトだけでなく、公式X（旧Twitter）やファンクラブ限定の「SixTONES STock」もあわせてチェックすると安心です。今回のアナログ盤のように、通常の発売スケジュールに出てこない商品もあります。" }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://shira-treat.com/" },
+        { "@type": "ListItem", "position": 2, "name": "記事", "item": "https://shira-treat.com/" },
+        { "@type": "ListItem", "position": 3, "name": "SixTONES最新情報｜発売予定・予約情報をまとめてチェック", "item": "https://shira-treat.com/sixtones-release-schedule/" }
+      ]
+    }
+  ]
+}
+[/jsonld]
+<!-- /wp:shortcode -->

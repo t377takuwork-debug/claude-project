@@ -35,6 +35,7 @@
 | `/shira-qa` | 全番組共通・ドラフト検品（リライト後必須） | `.claude/commands/shira-qa.md` |
 | `/shira-keyword-article` | キーワード起点の新規テーマ記事（番組タイムテーブル速報とは別枠） | `.claude/commands/shira-keyword-article.md` |
 | `/shira-release-article` | CD/DVD等リリース記事（予約・購入導線特化、1リリース＝1記事） | `.claude/commands/shira-release-article.md` |
+| `/shira-release-tracker` | アーティスト別・発売情報トラッカー記事（見落とし防止軸、複数商品を1記事に横断まとめ・継続更新） | `.claude/commands/shira-release-tracker.md` |
 | `/shira-research` | 記事ネタ収集（news.ceek.jp 3URL・直近5時間の番組/発売情報） | `.claude/commands/shira-research.md` |
 | `/shira-tv-scout` | 番組表ベースの新規ネタ発掘（手動実行・音楽番組に限らず全ジャンルの概要文から候補抽出） | `.claude/commands/shira-tv-scout.md` |
 
@@ -69,6 +70,8 @@
 | テレビ×ミセス | `draft_tvmrs.txt` |
 
 保存先：`drafts/` フォルダ（`C:\Users\PC_User\claude project\blogs\shira_note\drafts\`）
+
+**アーティスト別・発売情報トラッカー記事**（`/shira-release-tracker`）は番組ではなくアーティスト単位でファイルを分ける：`draft_release_{artist-slug}.txt`（例：SixTONES → `draft_release_sixtones.txt`）。複数アーティストへの同時展開が前提のため上書き禁止・アーティストごとに1ファイル。
 
 ---
 

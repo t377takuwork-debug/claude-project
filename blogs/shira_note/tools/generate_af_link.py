@@ -5,16 +5,19 @@ generate_af_link.py  アフィリエイトリンク自動変換ツール（CD/DV
 【使い方】
   python tools/generate_af_link.py rakuten   "{商品ページURL}" "{リンクテキスト}"
   python tools/generate_af_link.py sevennet  "{商品ページURL}" "{リンクテキスト}"
-  python tools/generate_af_link.py amazon    "{amzn.to短縮URL}" "{リンクテキスト}"
+  python tools/generate_af_link.py amazon    "{ASIN または amazon.co.jp商品URL または amzn.to短縮URL}" "{リンクテキスト}"
 
 【対応ASPと変換可否】
   rakuten   : もしもアフィリエイト。商品ページのプレーンURLから完全自動生成できる
               （a_id/p_id/pc_id/pl_id はアカウント固有・使い回し可、2026-06-27確定仕様）
   sevennet  : バリューコマース。商品ページのプレーンURLから完全自動生成できる
               （sid/pid はアカウント固有・使い回し可、2026-08-07確定仕様）
-  amazon    : amzn.to短縮URLはAmazonアソシエイト管理画面で商品ごとに個別発行が必要なため、
-              このツールでは自動生成できない。発行済みの短縮URLを渡すと、
-              サイト既定のrel属性を付けたタグに整形するだけを行う（2026-08-07確定仕様）
+  amazon    : ASIN（10桁）またはamazon.co.jpの商品URLを渡すと、Amazon公式のシンプルテキスト
+              リンク形式 `https://www.amazon.co.jp/dp/{ASIN}/ref=nosim?tag={アソシエイトID}` で
+              完全自動生成できる（ASIN_TAG＝ShiraNote専用アソシエイトID、2026-09-18確定）。
+              amzn.to短縮URLを渡した場合は従来どおりrel属性の付与のみ行う（linkId等の個別
+              トラッキングパラメータを保持したい場合はamzn.toを使う。通常はASIN直渡しでよい）。
+              **ASIN_TAGはShiraNoteブログ専用。他ブログ・他アカウントでは流用不可**
 
 【出力形式についての方針】
   各ASPが実際に生成するコードスタイルをそのまま踏襲する（target="_blank"は付与しない。
@@ -24,6 +27,7 @@ generate_af_link.py  アフィリエイトリンク自動変換ツール（CD/DV
 
 import sys
 import io
+import re
 import argparse
 from urllib.parse import quote
 
@@ -40,6 +44,13 @@ RAKUTEN_PL_ID = "616"
 # ── セブンネット（バリューコマース）2026-08-07確定 ──────────────────────
 SEVENNET_SID = "3773727"
 SEVENNET_PID = "892674443"
+
+# ── Amazonアソシエイト（ShiraNote専用・2026-09-18確定） ──────────────────
+# 他ブログ・他アカウントでは流用不可
+AMAZON_ASSOCIATE_TAG = "shira1-22"
+
+ASIN_RE = re.compile(r"^[A-Z0-9]{10}$")
+ASIN_IN_URL_RE = re.compile(r"/dp/([A-Z0-9]{10})")
 
 
 def build_rakuten(product_url: str, text: str) -> str:
@@ -69,15 +80,29 @@ def build_sevennet(product_url: str, text: str) -> str:
     )
 
 
-def build_amazon(short_url: str, text: str) -> str:
-    if "amzn.to" not in short_url:
-        print(
-            "[警告] amzn.to形式の短縮URLではありません。"
-            "Amazonアソシエイト管理画面（SiteStripe等）で発行した短縮URLを渡してください。"
-            "このツールはAmazonリンク自体を生成できません（rel属性の付与のみ行います）。",
-            file=sys.stderr,
-        )
-    return f'<a href="{short_url}" rel="nofollow sponsored noopener noreferrer">{text}</a>'
+def build_amazon(value: str, text: str) -> str:
+    # amzn.to短縮URL: 個別トラッキングパラメータ（linkId等）を保持したい場合に使う。
+    # rel属性の付与のみ行い、リンク自体はユーザーがSiteStripe等で発行済みのものを使う。
+    if "amzn.to" in value:
+        return f'<a href="{value}" rel="nofollow sponsored noopener noreferrer">{text}</a>'
+
+    # ASINの直接指定、またはamazon.co.jp商品URLからASINを抽出
+    value = value.strip()
+    if ASIN_RE.match(value):
+        asin = value
+    else:
+        m = ASIN_IN_URL_RE.search(value)
+        if not m:
+            print(
+                "[警告] ASIN（10桁）・amazon.co.jp商品URL・amzn.to短縮URLのいずれの形式でもありません。"
+                "ASINは商品詳細ページの「商品の情報」欄で確認できます。",
+                file=sys.stderr,
+            )
+            return f'<a href="{value}" rel="nofollow sponsored noopener noreferrer">{text}</a>'
+        asin = m.group(1)
+
+    href = f"https://www.amazon.co.jp/dp/{asin}/ref=nosim?tag={AMAZON_ASSOCIATE_TAG}"
+    return f'<a href="{href}" rel="nofollow sponsored noopener noreferrer">{text}</a>'
 
 
 BUILDERS = {
@@ -90,7 +115,7 @@ BUILDERS = {
 def main():
     parser = argparse.ArgumentParser(description="CD/DVDリリース記事用アフィリエイトリンク生成")
     parser.add_argument("platform", choices=BUILDERS.keys(), help="rakuten / sevennet / amazon")
-    parser.add_argument("url", help="商品ページURL（amazonの場合はamzn.to短縮URL）")
+    parser.add_argument("url", help="商品ページURL（amazonの場合はASIN／商品URL／amzn.to短縮URL）")
     parser.add_argument("text", help="リンクテキスト（例: 楽天ブックスで予約する）")
     args = parser.parse_args()
 
