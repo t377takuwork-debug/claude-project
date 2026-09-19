@@ -137,14 +137,14 @@ SNS上の個人投稿（購入報告等）を根拠に使う場合：
 ```
 python tools/generate_af_link.py rakuten   "{商品ページURL}" "{リンクテキスト}"
 python tools/generate_af_link.py sevennet  "{商品ページURL}" "{リンクテキスト}"
-python tools/generate_af_link.py amazon    "{amzn.to短縮URL}" "{リンクテキスト}"
+python tools/generate_af_link.py amazon    "{ASINまたは商品URL}" "{リンクテキスト}"
 ```
 
 | ASP | 自動変換 | 備考 |
 |---|---|---|
 | 楽天ブックス | ○ | 商品ページのプレーンURLを渡すだけでよい |
 | セブンネット | ○ | 同上 |
-| Amazon | × | amzn.to短縮URLはユーザーから受け取る（Amazonアソシエイト管理画面で個別発行が必要）。rel属性の付与のみ自動化 |
+| Amazon | ○ | ASIN（10桁）またはamazon.co.jp商品URLを渡せば完全自動生成できる（`dp/{ASIN}/ref=nosim?tag=shira1-22`形式、2026-09-18確定）。amzn.to短縮URLも引き続き渡せる（linkId等の個別トラッキングを保持したい場合） |
 | タワーレコード・公式サイト | 対象外 | 通常のリンク（アフィリエイトなし）として扱う。`rel="noopener"`のみ付与 |
 
 **注意**
