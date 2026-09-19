@@ -55,8 +55,8 @@ NOTE_PASTE_WARN_PATTERNS = [
     ("note-list-dash", r"^- ", "Markdownリスト「- 」はNote貼り付けで崩れる可能性。テキストの「・」表記を推奨"),
     ("note-blank-quote", r"^>[ \t]*$", "引用ブロック内の空行「>」のみだとNote貼り付けで段落が潰れる可能性。全角スペースを挟んだ「>　」を推奨"),
     ("note-md-link", r"\[.+?\]\(https?://note\.com[^)]*\)", "note.comへのMarkdownリンク[text](url)はリンクカード化されない。裸URLを単独行に置くとカード化される"),
-    ("note-bold-bracket-open", r"\*\*[「『【]", "太字マーカー直後に開き括弧はNote貼り付けで太字が反映されない可能性（2026-08-01確認）。括弧を太字の外に出す"),
-    ("note-bold-bracket-close", r"[」』】）]\*\*", "閉じ括弧の直後に太字マーカーはNote貼り付けで太字が反映されない可能性（2026-08-01確認）。括弧を太字の外に出す"),
+    ("note-bold-bracket-open", r"\*\*[「『【]", "太字マーカー直後に開き括弧はNote貼り付けで太字が反映されない可能性（2026-08-01確認）。括弧を太字の外に出す（例：「別れたい」は**行動の前で〜**のように、括弧の中身は太字にせず後続部分だけ太字にする）"),
+    ("note-bold-bracket-close", r"[」』】）]\*\*", "閉じ括弧の直後に太字マーカーはNote貼り付けで太字が反映されない可能性（2026-08-01確認）。括弧を太字の外に出すだけでは直らない場合がある（2026-09-17：括弧の直後に**を置いた再修正でも同じWARNが出た実例あり）。括弧と太字マーカーの間に「という」等の語を1つ挟んで物理的に離す"),
     ("note-bold-percent", r"%\*\*", "「%」の直後に太字マーカーはNote貼り付けで太字が反映されない可能性（2026-08-01、新庄考察記事で確認）。`**95**%`のように%を太字の外に出す"),
 ]
 
@@ -84,7 +84,7 @@ TONE_WARN_PATTERNS = [
     ("tone-omoimasu", r"と思います|と感じています|と思っています", "「〜と思います／感じています」は使わない。推量は「〜はず」「たぶん〜」（writing_tone 1-1）", None),
     ("tone-shimashou", r"しましょう|していきましょう", "「〜しましょう」のセミナー講師口調。呼びかけは「〜してみてください」まで（writing_tone 1-1）", None),
     ("tone-section", r"セクション", "「セクション」は本文で使わない→「ここ」「この記事」「〜欄」「〜一覧」（writing_tone 1-1）", None),
-    ("tone-desune", r"ですね[。？]", "「〜ですね」の相槌語尾（writing_tone 1-1。vivantは可）", "/vivant/"),
+    ("tone-desune", r"ですね[。？]", "「〜ですね」の相槌語尾（writing_tone 1-1。vivant・MBTICODEは可）", ("/vivant/", "/mbticode/")),
 ]
 
 # 層5-6用: 過去記事コーパスの所在（対象ファイルのパスから判定）
@@ -271,7 +271,8 @@ def main():
     # 層7: 文体・トーン（writing_tone.md 1-1。アカウント除外あり）
     norm_slash = norm if norm.startswith("/") else "/" + norm
     for code, pat, msg, skip in TONE_WARN_PATTERNS:
-        if skip and skip in norm_slash:
+        skip_paths = (skip,) if isinstance(skip, str) else skip
+        if skip and any(s in norm_slash for s in skip_paths):
             continue
         for m in re.finditer(pat, body):
             line_no = text[:body_start + m.start()].count("\n") + 1

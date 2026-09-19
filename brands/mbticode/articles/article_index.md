@@ -13,3 +13,5 @@ URLの形式：https://note.com/mbticode/n/[key]
 | ⑥ | 誠実にやるほど当たり前にされる。その仕組みを知ってから、変わった | https://note.com/mbticode/n/nd5345b3b273a | 無料 | 2026-06-08 |
 | ⑦ | 恋愛で合わせすぎるほど、自分がわからなくなっていく理由 | https://note.com/mbticode/n/n2fbf7291aed7 | 無料 | 2026-06-14 |
 | ⑧ | 気づけばまた、同じような人を好きになっている理由 | https://note.com/mbticode/n/ndf45d682e488 | 無料 | 2026-07-29 |
+| ⑨ | 会うほど素っ気なくなる。好きなのに、なぜそうなってしまうのか | https://note.com/mbticode/n/n10455f1316cd | 無料 | 2026-09-17 |
+| ⑩ | 別れたいのに言えない自分から、抜け出す糸口 | https://note.com/mbticode/n/nb90f14eac29b | 無料 | 2026-09-18 |

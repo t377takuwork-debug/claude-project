@@ -7,6 +7,8 @@ metadata:
   originSessionId: 1b3472ac-b12a-454b-83c1-0238f58b2117
 ---
 
+> **廃止（2026-09-17 notekaigi）**：本ファイルのテーマ優先順位・フォロワー数トリガーは使わない。テーマ選定はGrok調査（`mbticode/tools/grok_harvest_note_theme_prompt.md`）または`threads_insights_notes.md`の実測データから直接提案する運用に切り替えた。有料記事の着手条件は`mbticode_strategy.md`「確定運用モデル」（数字ゲートなし・編集判断）参照。以下は経緯の記録として残す。
+
 2026-06-09のnotekaigiで、Phase 1〜2のNote記事テーマを決定。
 
 **無料記事（優先順位順）**

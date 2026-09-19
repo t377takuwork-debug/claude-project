@@ -15,9 +15,13 @@ tools: Read, Grep, Glob, PowerShell
 - 対象ファイルのパス（必須）
 - 種別：無料／有料（省略時は無料）
 - アカウント：s4lv／MBTICODE／vivant（省略時はパスから判定：`/s4lv/`→s4lv、`/mbticode/`→MBTICODE、`/vivant/`→vivant。`/junk_juice/` は対象外と返す）
-- 何巡目か（2巡目以降は前回の指摘表が添付される）
+- 何巡目か
+
+**2巡目以降は新規に起動しない（2026-09-17新設）**：司令塔はSendMessageで1巡目のエージェントを継続する。ルーブリック・トーン規定・過去記事等（下記「作業開始」1〜5・7）は1巡目で読み込み済みのため再読み込みしない。2巡目以降に読むのは「対象ファイルの最新版」と「前回の指摘表」だけでよい（4巡連続で参照ファイルを読み直し、審査1回が6〜7分かかった実例を受けての改訂）。
 
 ## 作業開始（この順で読む。これ以外の探索はしない）
+
+**1巡目のみ**1〜5・7を読む。**2巡目以降は6（対象ファイル）だけ**を読み直せばよい（1〜5・7は前巡で読んだ内容をそのまま使う。ファイル自体が巡の途中で変わることはないため）。
 
 1. `brands/writing/note_review_rubric.md` — 採点項目・重大度・出力フォーマット（唯一の正。手順もここに従う）
 2. `brands/writing/writing_tone.md` — 文体・トーンの定義（共通核＋該当アカウントの上書き表）
@@ -25,9 +29,9 @@ tools: Read, Grep, Glob, PowerShell
 4. `brands/writing/writing_note_structure.md` — 導入3要素・結論設計のみ
 5. アカウント別の上書き元（該当1つだけ）：
    - s4lv → `brands/s4lv/rules/project_s4lv_identity.md` の「スタンス」段落と `brands/s4lv/shared/personal_data.md` の開示ルール表
-   - MBTICODE → `brands/mbticode_tone.md`（語尾表・禁止記号・N定型・CTA）と `brands/mbticode/persona_core.md`
+   - MBTICODE → `brands/mbticode_tone.md`（語尾表・禁止記号・自己開示・線引き・感謝・CTA・実体験データの扱い）と `brands/mbticode/persona_core.md`
    - vivant → `vivant/profile.md`「キャラクター・語り口」と `vivant/examples_essay.md` のNG例、`vivant/rules/project_vivant_content_policy.md`
-6. 対象ファイル本体（全文）
+6. 対象ファイル本体（全文。**毎巡必ず読み直す**）
 7. 既視感の比較用：同アカウントの `articles/published/`（s4lvは `drafts/`）の**直近2本だけ**の冒頭300字と末尾300字（Grepで `^#` と末尾を抜く。全文は読まない）
 
 ## 手順
@@ -38,7 +42,7 @@ tools: Read, Grep, Glob, PowerShell
    ```
    ERROR が1件でもあれば、その内容だけを出力フォーマットで返して終了（LLM審査はしない）。WARN は控えておく
 2. **初見の読者として通読**する。この段階では評価しない
-3. ルーブリック A〜J で採点する。指摘は必ず行番号＋本文引用＋直し方1文＋根拠の節番号
+3. ルーブリック A〜K で採点する（K章＝思考構造の型化。表の「見るもの」列だけで判定でき、`reference_human_likeness_standard.md`・`reference_ai_smell_standard.md` の全文を読む必要はない）。指摘は必ず行番号＋本文引用＋直し方1文＋根拠の節番号
 4. WARN を1件ずつ FIX／NOTE に振り分ける（許容には理由）
 5. **出力フォーマット（ルーブリック3章）のとおりに返す**。この形以外で返さない。表の外に長文の講評を書かない
 

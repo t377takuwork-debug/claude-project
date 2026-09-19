@@ -2,8 +2,8 @@
 
 > **用途**：本文完成後・ユーザーへ提案する前に、`note-ai-reviewer` がこの表で採点する。PASS が出るまで本文はユーザーに提示しない。
 > **適用**：s4lv／MBTICODE／vivant（junk_juice は対象外）。
-> **定義の正**：このファイルは「何をどの重さで見るか」だけを決める。各項目の定義・言い換え表は `writing_tone.md`（文体）・`writing_core.md` AI臭さ除去章＋句読点（定型表現・重複・制作側用語）・`writing_note_structure.md`（構成）・各アカウント上書き元が正。ここに定義を複製しない。
-> **成立**：2026-09-04（Step 2）。`docs/note_article_asset_inventory.md` 参照。
+> **定義の正**：このファイルは「何をどの重さで見るか」だけを決める。各項目の定義・言い換え表は `writing_tone.md`（文体）・`writing_core.md` AI臭さ除去章＋句読点（定型表現・重複・制作側用語）・`writing_note_structure.md`（構成）・各アカウント上書き元が正。ここに定義を複製しない。K章の定義の正は `brands/writing/reference_human_likeness_standard.md`・`brands/writing/reference_ai_smell_standard.md`。
+> **成立**：2026-09-04（Step 2）。`docs/note_article_asset_inventory.md` 参照。K章は2026-09-17追加（オーナー提供資料3本の取り込み。MBTICODE先行だが定義自体は全アカウント共通）。
 
 ---
 
@@ -68,7 +68,7 @@
 ### E. 段落・余白・リズム
 | 見るもの | 重大度 | 正 |
 |---|---|---|
-| 段落が2〜4文の塊になっているか。1文ずつの改行が続いていないか／3〜4文超の塊が続いていないか | FIX | writing_tone 1-3 |
+| 段落が2〜4文の塊になっているか。1文ずつの改行が続いていないか／3〜4文超の塊が続いていないか（**MBTICODEは対象外**：2026-09-17よりオーナー確定で1文1段落が標準スタイル） | FIX | writing_tone 1-3 |
 | 全角スペース行の一拍が節目だけに置かれているか（多すぎ＝間延び／なし＝密集）。二重改行で余白を作ろうとしていないか | FIX | writing_tone 1-3 |
 | リズム：短い断定文・体言止め・相反2文の塊が使われ、淡々と流れていないか | FIX | writing_tone 1-4 |
 
@@ -97,7 +97,7 @@
 ### I. 事実・前提・規約
 | 見るもの | 重大度 | 正 |
 |---|---|---|
-| `personal_data.md` にない実績・数字・体験がないか（vivant は content_policy：出典不明の統計・実体験と誤認させる一人称） | BLOCK | brands/CLAUDE.md 捏造禁止／vivant content_policy |
+| `personal_data.md` にない実績・数字・体験がないか（**MBTICODEは2026-09-17よりpersonal_data.md非参照方針のため対象外**。代わりに「実話と誤認させる一人称の断定」がないかを見る＝架空の日付・相手の属性・会話等を実話のように断定していないか。vivant は content_policy：出典不明の統計・実体験と誤認させる一人称） | BLOCK | brands/CLAUDE.md 捏造禁止／vivant content_policy／MBTICODEは`mbticode_tone.md`「実体験データの扱い」 |
 | Note規約（性的描写・断定的統計・特定個人） | BLOCK | brands/CLAUDE.md |
 | 開示NG項目（番組名・ジャンル特定情報等）が直接・間接に漏れていないか | BLOCK | 各 personal_data 開示ルール |
 | 制作順序（キーワード＋読者像→タイトル→構成→本文）を誤認させる記述、時系列の逆転した根拠 | FIX | writing_tone 1-11／vivant content_policy |
@@ -107,9 +107,23 @@
 | 見るもの | 重大度 | 正 |
 |---|---|---|
 | H2直下のH3が1本だけ、2,000字超で見出しなし | FIX | qa構造・s4lv process |
-| N（絞り込み）→1つのCTA→あえての隙、の順が崩れていないか（有料・MBTICODEは必須） | FIX | writing_note_structure 結論／mbticode_tone |
+| 線引き（旧N・絞り込み）→1つのCTA→あえての隙、の順が崩れていないか（有料・MBTICODEは必須） | FIX | writing_note_structure 結論／mbticode_tone |
 | 有料誘導・関連記事リンクが裸URL単独行か、価格表記が混入していないか | FIX | note-article Step 4完了後／vivant-article リンク |
 | 引用枠内の番号リスト・`- `・MDリンク等、Note貼り付けで崩れる記法 | FIX | writing_tone 1-9・qa層3 |
+
+### K. 思考構造の型化（新設・2026-09-17。表現ではなく「考え方の流れ」を見る）
+
+A〜Jは主に表現・構成レベルのAI臭を見る。K章は**もう一段深い、思考の処理のされ方**を見る。ここが一番AI臭が残りやすい層（`reference_ai_smell_standard.md` 39章「表面→構造→思考」の第3層に相当）。
+
+| 見るもの | 重大度 | 正 |
+|---|---|---|
+| 段落・記事全体が「体験→一般化→原因説明→教訓」と綺麗に並びすぎていないか（役割が整いすぎた構成） | FIX | reference_human_likeness_standard 13・15章 |
+| 具体的な場面をすぐ心理学的概念（「防御反応」「認知の歪み」等）に変換していないか。行動レベルの描写が概念より先にあるか | FIX | reference_ai_smell_standard 8・29章 |
+| 対比（AではなくB）・A/B分類が、綺麗にまとまるという理由だけで作られていないか | FIX | reference_ai_smell_standard 16・17章 |
+| 「つまり／要するに／大切なのは／ここで重要なのは」等で、すでに伝わったことを何度も回収していないか | FIX | reference_ai_smell_standard 13章 |
+| 読者の反応・記憶・心理を先回りして決めつけていないか（「きっとあなたも」「多くの人はここで」等。1-5と重複する場合は1-5を優先） | FIX | reference_ai_smell_standard 25章 |
+| 同じ主張を、語彙を変えて何度も言い直していないか（qa層6が拾えない言い換え型の繰り返し） | FIX | reference_ai_smell_standard 31章 |
+| すべての段落・すべての疑問に綺麗な結論・解決がついていないか（「まだわからない」を残す余地を潰していないか） | NOTE | reference_ai_smell_standard 10・33章 |
 
 ## 3. 出力フォーマット（固定・この形以外で返さない）
 
