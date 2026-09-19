@@ -16,7 +16,8 @@
 //      (2h after each posting slot; see checkEarlyPerformance below),
 //      the daily 23:30 insight-collection / 23:35 observation-log / 23:40
 //      GitHub-sync triggers, the every-10-minutes external-reply-detection /
-//      reply-candidate-sync triggers, the hourly generated-reply-pull trigger
+//      reply-candidate-sync / delayed-URL-reply-posting triggers (see
+//      postDelayedUrlReplies below), the hourly generated-reply-pull trigger
 //      (2026-08-16notekaigi Phase5 timing revision: detection polls every
 //      10min but the cloud drafting routine can only run hourly at minimum --
 //      see checkEarlyPerformance/detectExternalReplies below and
@@ -30,6 +31,12 @@
 // 型・FW are free-text tags (e.g. "型B", "MBTI(ESFJ)") copied from posts_threads.txt
 // when the row is created; used later to correlate insights with content category.
 // ステータス starts empty/"未投稿"; this script writes "投稿済み" or "エラー".
+// リプライ本文 containing a URL is NOT posted immediately alongside the main
+// post -- postScheduled() skips it and leaves リプライ投稿ID empty, and
+// postDelayedUrlReplies() (2026-09-19 user request) posts it once the main
+// post is at least URL_REPLY_DELAY_MS old, same "poll every 10min, act once
+// past the threshold" timing as checkEarlyPerformance. Reply text with no URL
+// (続き型 etc.) still posts immediately, as before.
 //
 // Insight tab: a tab named exactly INSIGHTS_SHEET_NAME, row 1 = header:
 //   投稿ID | 投稿日時 | 型 | FW | Views | Likes | Replies | Reposts | Quotes | 取得日時
@@ -450,12 +457,15 @@ function installTriggers() {
   ScriptApp.newTrigger("detectExternalReplies").timeBased().everyMinutes(10).create();
   ScriptApp.newTrigger("syncReplyCandidatesToGitHub").timeBased().everyMinutes(10).create();
   ScriptApp.newTrigger("pullGeneratedRepliesFromGitHub").timeBased().everyHours(1).create();
+  // 2026-09-19ユーザー要望: URLを含む自己リプライは本編投稿の2時間後に送る
+  // （checkEarlyPerformanceと同じ「10分間隔ポーリング」方式。postDelayedUrlReplies参照）
+  ScriptApp.newTrigger("postDelayedUrlReplies").timeBased().everyMinutes(10).create();
   ScriptApp.newTrigger("dailyObservationLog").timeBased().everyDays(1).atHour(23).nearMinute(35).create();
   ScriptApp.newTrigger("syncDataToGitHub").timeBased().everyDays(1).atHour(23).nearMinute(40).create();
   ScriptApp.newTrigger("checkHealth").timeBased().everyDays(1).atHour(23).nearMinute(45).create();
   ScriptApp.newTrigger("refreshToken").timeBased().onWeekDay(ScriptApp.WeekDay.MONDAY).atHour(7).create();
   ScriptApp.newTrigger("pullBatchFromGitHub").timeBased().onWeekDay(ScriptApp.WeekDay.SUNDAY).atHour(21).create();
-  Logger.log("triggers installed: postScheduled 08:00/12:00/16:00/19:00/22:00 daily, checkEarlyPerformance 10:00/14:00/18:00/21:00/00:00 daily, collectInsights 23:30 daily, detectExternalReplies every10min, syncReplyCandidatesToGitHub every10min, pullGeneratedRepliesFromGitHub hourly, dailyObservationLog 23:35 daily, syncDataToGitHub 23:40 daily, checkHealth 23:45 daily, refreshToken Mon 07:00, pullBatchFromGitHub Sun 21:00");
+  Logger.log("triggers installed: postScheduled 08:00/12:00/16:00/19:00/22:00 daily, checkEarlyPerformance 10:00/14:00/18:00/21:00/00:00 daily, collectInsights 23:30 daily, detectExternalReplies every10min, syncReplyCandidatesToGitHub every10min, postDelayedUrlReplies every10min, pullGeneratedRepliesFromGitHub hourly, dailyObservationLog 23:35 daily, syncDataToGitHub 23:40 daily, checkHealth 23:45 daily, refreshToken Mon 07:00, pullBatchFromGitHub Sun 21:00");
 }
 
 // Daily (Phase2, 2026-07-26notekaigi): re-aggregates INSIGHTS_SHEET_NAME into
@@ -530,7 +540,7 @@ function checkHealth() {
     problems.push("GITHUB_TOKENがScript Propertiesに存在しません（setupGithubToken()を再実行してください）");
   }
 
-  const expectedTriggers = ["postScheduled", "checkEarlyPerformance", "collectInsights", "detectExternalReplies", "dailyObservationLog", "syncDataToGitHub", "syncReplyCandidatesToGitHub", "checkHealth", "pullGeneratedRepliesFromGitHub", "refreshToken", "pullBatchFromGitHub"];
+  const expectedTriggers = ["postScheduled", "checkEarlyPerformance", "collectInsights", "detectExternalReplies", "postDelayedUrlReplies", "dailyObservationLog", "syncDataToGitHub", "syncReplyCandidatesToGitHub", "checkHealth", "pullGeneratedRepliesFromGitHub", "refreshToken", "pullBatchFromGitHub"];
   const installed = ScriptApp.getProjectTriggers().map(function (t) { return t.getHandlerFunction(); });
   expectedTriggers.forEach(function (fn) {
     if (installed.indexOf(fn) === -1) problems.push("トリガー未設定: " + fn + "（installTriggers()を再実行してください）");
@@ -600,15 +610,57 @@ function postScheduled() {
       const mainId = publishText(token, userId, row[COL.TEXT - 1], null);
       let replyId = "";
       const replyText = row[COL.REPLY - 1];
-      if (replyText) {
+      if (replyText && !/https?:\/\//.test(replyText)) {
         replyId = publishText(token, userId, replyText, mainId);
       }
+      // URL replies are posted later by postDelayedUrlReplies(), not here.
       sheet.getRange(r + 1, COL.STATUS).setValue("投稿済み");
       sheet.getRange(r + 1, COL.POST_ID).setValue(mainId);
       if (replyId) sheet.getRange(r + 1, COL.REPLY_POST_ID).setValue(replyId);
     } catch (e) {
       sheet.getRange(r + 1, COL.STATUS).setValue("エラー");
       sheet.getRange(r + 1, COL.POST_ID).setValue(String(e.message).slice(0, 200));
+    }
+  }
+}
+
+// Fires every 10 minutes (installTriggers). Posts any リプライ本文 that
+// postScheduled() skipped because it contained a URL, once the main post is
+// at least this old (2026-09-19 user request: URL self-replies should land
+// ~2h after the main post, not seconds after it, matching the timing
+// checkEarlyPerformance already uses for the growth-triggered auto CTA).
+// Actual send time is 2h00m-2h10m after the main post depending on where in
+// the polling cycle it falls, same tolerance as checkEarlyPerformance.
+const URL_REPLY_DELAY_MS = 2 * 60 * 60 * 1000;
+
+function postDelayedUrlReplies() {
+  const props = PropertiesService.getScriptProperties();
+  const token = props.getProperty("THREADS_ACCESS_TOKEN");
+  const userId = props.getProperty("THREADS_USER_ID");
+  if (!token || !userId) { Logger.log("postDelayedUrlReplies: setup() not run"); return; }
+
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME);
+  const data = sheet.getDataRange().getValues();
+  const now = new Date();
+
+  for (let r = 1; r < data.length; r++) {
+    const row = data[r];
+    if (row[COL.STATUS - 1] !== "投稿済み") continue;
+    const replyText = row[COL.REPLY - 1];
+    if (!replyText || !/https?:\/\//.test(replyText)) continue;
+    if (row[COL.REPLY_POST_ID - 1]) continue; // already sent (or already flagged as errored)
+    const postedAt = row[COL.DATETIME - 1];
+    const mainId = row[COL.POST_ID - 1];
+    if (!(postedAt instanceof Date) || !mainId) continue;
+    if (now - postedAt < URL_REPLY_DELAY_MS) continue;
+
+    try {
+      const replyId = publishText(token, userId, replyText, mainId);
+      sheet.getRange(r + 1, COL.REPLY_POST_ID).setValue(replyId);
+      Logger.log("postDelayedUrlReplies: posted reply for " + mainId);
+    } catch (e) {
+      sheet.getRange(r + 1, COL.REPLY_POST_ID).setValue("エラー:" + String(e.message).slice(0, 200));
+      Logger.log("postDelayedUrlReplies: failed for " + mainId + ": " + e.message);
     }
   }
 }
