@@ -104,6 +104,12 @@ const BASE = "https://graph.threads.net/v1.0";
 // 新規生成はしない（LLM呼び出し・追加課金なしの方針）。
 const BASELINE_WINDOW = 20;   // 直近何件のViewsで基準値を計算するか
 const GROWTH_MULTIPLIER = 3;  // 基準値の何倍で「伸びている」と判定するか
+// 2026-09-21: detectExternalRepliesが「投稿済み全件」を10分おきにスキャンする作りだったため、
+// 投稿が146件に積み上がった時点でurlfetchの1日上限(20,000回)を超えてエラーになった
+// （146件×144回/日=約21,000回。投稿頻度ではなく累積投稿数と10分間隔の掛け算が原因）。
+// 投稿から日数が経つほど新規の外部リプライは実質発生しないため、直近分だけに絞る
+// （3日なら1日5本×3日=15件×144回/日=約2,160回で十分な余裕がある）。
+const EXTERNAL_REPLY_LOOKBACK_DAYS = 3;
 const PAID_ARTICLES = {
   "2": {
     url: "https://note.com/mbticode/n/nbbb64cbef664",
@@ -930,13 +936,18 @@ function leastRecentlyUsedArticle(logSheet) {
   return keys[0];
 }
 
-// Every 10 minutes: scans every 投稿済み post for external replies
-// (is_reply_owned_by_me = false) not already in REPLY_QUEUE_SHEET_NAME, and
-// appends one row per new reply with ステータス=未処理. Detection only -- no
-// reply text is generated here (see syncReplyCandidatesToGitHub /
-// sns_post_cheatsheet.md「外部リプライ自動応答」for where drafting happens).
-// Polls this often so a reply is picked up quickly even though the drafting
-// routine itself can only run hourly (platform cron minimum).
+// Every 10 minutes: scans 投稿済み posts from the last EXTERNAL_REPLY_LOOKBACK_DAYS
+// days for external replies (is_reply_owned_by_me = false) not already in
+// REPLY_QUEUE_SHEET_NAME, and appends one row per new reply with ステータス=未処理.
+// Detection only -- no reply text is generated here (see
+// syncReplyCandidatesToGitHub / sns_post_cheatsheet.md「外部リプライ自動応答」for
+// where drafting happens). Polls this often so a reply is picked up quickly
+// even though the drafting routine itself can only run hourly (platform cron
+// minimum).
+// 2026-09-21: previously scanned every 投稿済み row ever (unbounded), which hit
+// the urlfetch daily quota once the queue passed ~140 posted rows (see
+// EXTERNAL_REPLY_LOOKBACK_DAYS comment above). Old posts essentially never
+// receive new external replies, so bounding the scan to a recent window is safe.
 function detectExternalReplies() {
   const props = PropertiesService.getScriptProperties();
   const token = props.getProperty("THREADS_ACCESS_TOKEN");
@@ -953,6 +964,7 @@ function detectExternalReplies() {
     if (id) existingIds[id] = true;
   }
 
+  const windowStart = new Date(Date.now() - EXTERNAL_REPLY_LOOKBACK_DAYS * 24 * 60 * 60 * 1000);
   const queueData = queueSheet.getDataRange().getValues();
   let added = 0;
   for (let r = 1; r < queueData.length; r++) {
@@ -960,6 +972,8 @@ function detectExternalReplies() {
     if (row[COL.STATUS - 1] !== "投稿済み") continue;
     const postId = row[COL.POST_ID - 1];
     if (!postId) continue;
+    const postedAt = row[COL.DATETIME - 1];
+    if (postedAt instanceof Date && postedAt < windowStart) continue;
 
     let replies;
     try {
