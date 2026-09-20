@@ -408,7 +408,9 @@ def check_mbticode_file(posts, findings):
 
     # 結び文の文末パターン偏り検知（2026-07-30追加・「ことがある/だった/じゃなかった」量産の再発防止）
     CLOSING_SUFFIX_PATTERNS = [
-        ("ことがある型", re.compile(r"ことが(あ|あっ)る[。！]?$")),
+        # 2026-09-21: 「こともある。」（「が」ではなく「も」）が同じ意味・同じ距離感の語尾なのに
+        # 「ことが」限定の正規表現をすり抜けていた実例（未投稿キュー162行目）を受けて「こと(が|も)ある」に拡張。
+        ("ことがある型", re.compile(r"こと(が|も)(あ|あっ)る[。！]?$")),
         ("だった/じゃなかった型", re.compile(r"(だった|じゃなかった)[。！]?$")),
         # 2026-08-16notekaigi追加：締め文の「〜だ。」は言い切り感が強く機械的に見えるとユーザー指摘。
         # 「んだ。」（んですよね系の柔らかい語尾に連なる契機・許容）は対象外にする。
@@ -422,6 +424,9 @@ def check_mbticode_file(posts, findings):
         # 2026-08-14追加：「AなのかBなのか／〜のか、まだ答えが出ていない・整理できていない・
         # わからないままでいる」という自問未解決型の締め。ユーザー指摘で新規14本中4本の重複が発覚。
         ("まだ〜ない型", re.compile(r"まだ.{0,12}(ない|できていない)[。！]?$")),
+        # 2026-09-21追加：「見えてくる。」「出てこなくなる。」等の「てくる」系語尾。ユーザー指摘で
+        # 冒頭フック文にこの語尾が使われているのが判明し、追加登録した（下記opener-suffix-*参照）。
+        ("てくる型", re.compile(r"(てくる|てこなくなる)[。！]?$")),
     ]
     closing_suffixes = {}
     closing_labels = {}
@@ -451,6 +456,37 @@ def check_mbticode_file(posts, findings):
                 findings.append(Finding("WARN", "バッチ全体", "closing-suffix-repeat",
                                         f"結び文の文末「{label}」が絶対数{cnt}本で重複: "
                                         + " / ".join(closing_labels[label])))
+
+    # 冒頭文の文末パターン偏り検知（2026-09-21追加）：上のCLOSING_SUFFIX_PATTERNSは元々
+    # 締めの文（最終行）だけを見ており、同じ語尾を1行目（フック文）で使う抜け道が
+    # 機械チェックの対象外だった（ユーザー指摘・実例：9/19-9/20投稿10本中5本が該当）。
+    # 締めと同じ禁止語尾リストを1行目にもそのまま適用する。
+    opener_suffixes = {}
+    opener_suffix_labels = {}
+    for p in posts:
+        if p["is_reply"] or not p["date"]:
+            continue
+        lines = nonempty_lines(p["body"])
+        if not lines:
+            continue
+        first = lines[0].strip()
+        for label, pat in CLOSING_SUFFIX_PATTERNS:
+            if pat.search(first):
+                opener_suffixes[label] = opener_suffixes.get(label, 0) + 1
+                opener_suffix_labels.setdefault(label, []).append(p["label"])
+                break
+    if opener_suffixes:
+        total = sum(opener_suffixes.values())
+        top_label, top_cnt = max(opener_suffixes.items(), key=lambda kv: kv[1])
+        if total >= 5 and top_cnt / total >= 0.4:
+            findings.append(Finding("WARN", "バッチ全体", "opener-suffix-tayou",
+                                    f"冒頭文の文末「{top_label}」が{top_cnt}/{total}本に偏り"
+                                    "（40%以上・結び文と同じ禁止語尾リストを1行目にも適用。2026-09-21追加）"))
+        for label, cnt in opener_suffixes.items():
+            if cnt >= 3:
+                findings.append(Finding("WARN", "バッチ全体", "opener-suffix-repeat",
+                                        f"冒頭文の文末「{label}」が絶対数{cnt}本で重複: "
+                                        + " / ".join(opener_suffix_labels[label])))
 
     # 続き型の接続表現（読点直前フレーズ）の重複検知（2026-08-16notekaigi追加）
     CONNECTOR_TAIL_RE = re.compile(
