@@ -31,5 +31,5 @@
 ## 使用時の注意（共通）
 
 - 一人称の体験口調（「自分も〜だから言える」等）で語るワードは、`personal_data.md`に対応する実体験があるか確認する。無い場合は一般化された観察表現に留める
-- Noteタイトルへの適用時は`note-article.md` Step2のNG条件（タイプ名・FW名を含めない／暗い印象を与えない）は従来通り適用する
+- Noteタイトルへの適用時は`brands/mbticode/rules/note_article_mbticode.md` Step 2のNG条件（タイプ名・FW名を含めない／暗い印象を与えない）は従来通り適用する
 - SNS投稿への適用時は`sns_post_cheatsheet.md`の禁止語・禁止記号・語尾ルール（qa_post.py機械チェック対象）は従来通り適用する

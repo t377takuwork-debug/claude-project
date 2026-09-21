@@ -58,6 +58,7 @@ NOTE_PASTE_WARN_PATTERNS = [
     ("note-bold-bracket-open", r"\*\*[「『【]", "太字マーカー直後に開き括弧はNote貼り付けで太字が反映されない可能性（2026-08-01確認）。括弧を太字の外に出す（例：「別れたい」は**行動の前で〜**のように、括弧の中身は太字にせず後続部分だけ太字にする）"),
     ("note-bold-bracket-close", r"[」』】）]\*\*", "閉じ括弧の直後に太字マーカーはNote貼り付けで太字が反映されない可能性（2026-08-01確認）。括弧を太字の外に出すだけでは直らない場合がある（2026-09-17：括弧の直後に**を置いた再修正でも同じWARNが出た実例あり）。括弧と太字マーカーの間に「という」等の語を1つ挟んで物理的に離す"),
     ("note-bold-percent", r"%\*\*", "「%」の直後に太字マーカーはNote貼り付けで太字が反映されない可能性（2026-08-01、新庄考察記事で確認）。`**95**%`のように%を太字の外に出す"),
+    ("note-bold-trailing", r"\*\*[^*\n]*?[。！？]\*\*[^\s*\n]", "句点で終わる太字の直後に文字が続くと、Markdownの仕様では太字と認識されず「**」がそのまま出る可能性（2026-09-21、審査員の指摘）。太字の文のあとで改行し、続きを次の行に置く"),
 ]
 
 # 層4: フレームワーク用語の本文流入（WARN・2026-09-03 ユーザー指摘）
@@ -87,6 +88,18 @@ TONE_WARN_PATTERNS = [
     ("tone-desune", r"ですね[。？]", "「〜ですね」の相槌語尾（writing_tone 1-1。vivant・MBTICODEは可）", ("/vivant/", "/mbticode/")),
 ]
 
+# 層8: s4lv専用（WARN・2026-09-21新設。オーナーが繰り返し伝えた意図の機械化。出典は brands/s4lv/rules/note_article_checklist.md）
+# 対象は「/s4lv/」を含むパスだけ。ここに足すときは、checklist を先に直す。
+S4LV_ONLY_WARN_PATTERNS = [
+    ("s4lv-ippou", r"一方で|一方、|一方の", "「一方で／一方、／一方の」は使わない。文を切って並べれば、対比の接続語は要らない（checklist 2章。09-21・オーナーが再指摘）"),
+    ("s4lv-ugoku", r"動いていた|動いている|働いていた|働いている", "「〜が動いていた／働いていた」のような抽象的な動詞は使わない。「結びついていなかった」「入口になっていた」等に（checklist 2章）"),
+    ("s4lv-direct-benefit", r"読み終えると|読み終わる頃には|読み終わったとき|読み終えたとき", "読むとどうなるかを直球で言う文は使わない。読者の悩みに答える数字や場面を、導入の前半で先に見せる（checklist 2章）"),
+    ("s4lv-disclosure", r"タイムテーブル|音楽番組|VIVANT|ドラマ考察|旬の話題|いまちょうど注目", "ジャンルや時期の手がかり・開示NGの語。アカウントの特定につながる（checklist 4章・personal_data 開示ルール）"),
+    ("s4lv-cta-ippan", r"はまた別の話", "「〜はまた別の話→有料記事へ」の3点セットは使わない（checklist 5章）"),
+]
+S4LV_NUMBER_RE = re.compile(r"[0-9０-９][0-9０-９,\.]*\s*(?:%|％|割|倍|人|万|本|回|件|個|ページビュー)|[一二三四五六七八九十]割|十数万|何十倍|千数百")
+S4LV_NUMBER_LIMIT = 40  # 目安は約30個まで。40を超えたらWARN（初心者役の審査が3/5から上がらなかった記事は約40個だった）
+
 # 層5-6用: 過去記事コーパスの所在（対象ファイルのパスから判定）
 CORPUS_MAP = [
     ("/s4lv/", ["brands/s4lv/drafts"]),
@@ -110,6 +123,20 @@ CROSS_DUP_IGNORE = [
     "恋愛の設計局",
     "この記事の内容は",
 ]
+
+
+def rel_norm(path):
+    """アカウント判定用の正規化パス。先頭に「/」を付け、ワークツリー配下の絶対パスは、
+    ワークツリー内のリポジトリ相対パスに直す（2026-09-21。ワークツリー自体が brands/s4lv/ の下に
+    作られると、他アカウントの記事まで「/s4lv/」を含むと誤判定されていたため）。"""
+    n = path.replace("\\", "/")
+    marker = "/.claude/worktrees/"
+    if marker in n:
+        after = n.split(marker, 1)[1]
+        n = after.split("/", 1)[1] if "/" in after else after
+    if not n.startswith("/"):
+        n = "/" + n
+    return n
 
 
 def sentences(text):
@@ -136,9 +163,7 @@ def strip_for_compare(text):
 
 def load_corpus_files(target_file):
     """対象アカウントの既存記事ファイル一覧（対象ファイル自身は除く）。"""
-    norm = target_file.replace("\\", "/")
-    if not norm.startswith("/"):
-        norm = "/" + norm  # 先頭ディレクトリ（vivant/ 等）も "/vivant/" で拾えるように
+    norm = rel_norm(target_file)  # 先頭ディレクトリ（vivant/ 等）も "/vivant/" で拾えるように
     tgt_abs = os.path.abspath(target_file)
     dirs = []
     for key, ds in CORPUS_MAP:
@@ -184,6 +209,11 @@ def main():
         text = fh.read()
 
     errors, warns, infos = [], [], []
+    _norm_early = rel_norm(args.file)
+    is_s4lv = "/s4lv/" in _norm_early
+    # ヘッダー（作成日〜Noteタグ〜---）の行数。一文の長さ・読点のチェックはヘッダーを除く
+    _fm0 = re.match(r"^.*?\n---[ \t]*\n", text, flags=re.S)
+    header_lines = text[:_fm0.end()].count("\n") if _fm0 else 0
 
     # 層1・層2
     for code, pat, msg in ERROR_PATTERNS:
@@ -217,6 +247,8 @@ def main():
     for m in re.finditer(r"[^。！？\n]*[。！？]", text_noheading):
         sent = m.group(0)
         line_no = text_noheading[:m.start()].count("\n") + 1
+        if line_no <= header_lines:
+            continue  # ヘッダー行（作成日・公開・タグ等）は対象外
         if sent.count("、") >= 3:
             warns.append(f"[WARN] L{line_no} kutouten-kajou: 1文に読点{sent.count('、')}個（目安2つまで。読点を削るか文を分割する）（「{sent.strip()[:40]}...」）")
         sent_len = len(sent.strip())
@@ -230,8 +262,12 @@ def main():
     body_start = fm_match.end() if fm_match else 0
     body = text[body_start:]
     char_count = len(re.sub(r"\s", "", body))
-    infos.append(f"[INFO] 本文文字数（空白除く）: {char_count}字"
-                 f"（s4lv無料記事基準は4,000字以上／980円帯は3,000〜5,000字）")
+    if is_s4lv:
+        infos.append(f"[INFO] 本文文字数（空白除く）: {char_count}字"
+                     f"（s4lv無料記事の目安は4,000〜5,000字台。6,000字を超えると後半が流し読みされる）")
+    else:
+        infos.append(f"[INFO] 本文文字数（空白除く）: {char_count}字"
+                     f"（s4lv無料記事基準は4,000字以上／980円帯は3,000〜5,000字）")
     if char_count > 2000 and not re.search(r"^#{2,3} ", text, flags=re.M):
         warns.append("[WARN] no-heading: 2,000字超で見出し（##）なし（スマホ縦読みでの離脱要因）")
 
@@ -249,7 +285,8 @@ def main():
         if count == 1:
             warns.append(f"[WARN] L{line_no} lone-h3: H2「{title}」直下のH3が1本のみ（ルールではH3は複数の独立サブトピックがある場合のみ・2〜3本セットで使う。単独H3は禁止）")
     first45 = "\n".join(text.splitlines()[:45])  # 冒頭メタ情報（タイトル・タグ・構成）を考慮した窓
-    if "？" not in first45 and "?" not in first45:
+    # s4lvは「悩みをあおらない・問いかけで始めない」方針（台帳）なので、この警告は出さない（毎回「許容」になる無駄を消す。2026-09-21）
+    if not is_s4lv and "？" not in first45 and "?" not in first45:
         warns.append("[WARN] no-question-intro: 記事冒頭に問いかけがない（PASONA導入Step.1「〇〇でお困りではないですか？」型の確認）")
     if not re.search(r"note\.com|http", text) and args.paid:
         warns.append("[WARN] no-cta-link: 有料記事にURL・CTAリンクが見当たらない（中間CTA最低2箇所・s4lvマネタイズ設計）")
@@ -259,7 +296,8 @@ def main():
 
     # 保存先チェック
     norm = args.file.replace("\\", "/")
-    if "/articles/" not in norm:
+    # s4lvの保存先は brands/s4lv/drafts/ が正（articles/ 配下ではない）。この場合は警告しない（2026-09-21）
+    if "/articles/" not in norm and "/s4lv/drafts/" not in _norm_early:
         warns.append("[WARN] save-location: 保存先が articles/ 配下ではない（drafts保存ルール）")
 
     # 層4: フレームワーク用語の本文流入（本文＝ヘッダー除去後のみ対象）
@@ -269,7 +307,7 @@ def main():
             warns.append(f"[WARN] L{line_no} {code}: {msg}（「{m.group(0)}」）")
 
     # 層7: 文体・トーン（writing_tone.md 1-1。アカウント除外あり）
-    norm_slash = norm if norm.startswith("/") else "/" + norm
+    norm_slash = _norm_early
     for code, pat, msg, skip in TONE_WARN_PATTERNS:
         skip_paths = (skip,) if isinstance(skip, str) else skip
         if skip and any(s in norm_slash for s in skip_paths):
@@ -277,6 +315,20 @@ def main():
         for m in re.finditer(pat, body):
             line_no = text[:body_start + m.start()].count("\n") + 1
             warns.append(f"[WARN] L{line_no} {code}: {msg}（「{m.group(0)}」）")
+
+    # 層8: s4lv専用（オーナーの意図の機械化。checklist 2〜5章）
+    if is_s4lv:
+        for code, pat, msg in S4LV_ONLY_WARN_PATTERNS:
+            for m in re.finditer(pat, body):
+                line_no = text[:body_start + m.start()].count("\n") + 1
+                warns.append(f"[WARN] L{line_no} {code}: {msg}（「{m.group(0)}」）")
+        num_count = len(S4LV_NUMBER_RE.findall(body))
+        bold_count = len(re.findall(r"\*\*[^*\n]+\*\*", body))
+        if num_count > S4LV_NUMBER_LIMIT:
+            warns.append(f"[WARN] s4lv-info-load: 数字が{num_count}個（目安は約30個まで。多いと初心者は「何の数字か」を見失う。比べる相手・数字を減らす案をオーナーに出す。checklist 0章・7章）")
+        else:
+            infos.append(f"[INFO] 数字の登場: {num_count}個（目安は約30個まで／{S4LV_NUMBER_LIMIT}超でWARN）")
+        infos.append(f"[INFO] 太字: {bold_count}か所（目安は6〜7か所。説明の文には付けない）")
 
     # 層5: 過去記事との言い回し重複（同アカウントの既存記事コーパスと照合）
     corpus_files = load_corpus_files(args.file)

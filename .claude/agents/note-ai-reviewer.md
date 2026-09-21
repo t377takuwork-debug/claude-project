@@ -21,14 +21,14 @@ tools: Read, Grep, Glob, PowerShell
 
 ## 作業開始（この順で読む。これ以外の探索はしない）
 
-**1巡目のみ**1〜5・7を読む。**2巡目以降は6（対象ファイル）だけ**を読み直せばよい（1〜5・7は前巡で読んだ内容をそのまま使う。ファイル自体が巡の途中で変わることはないため）。
+**1巡目のみ**1〜5・7を読む（s4lvは3・4を省く）。**2巡目以降は6（対象ファイル）だけ**を読み直せばよい（1〜5・7は前巡で読んだ内容をそのまま使う。ファイル自体が巡の途中で変わることはないため）。
 
 1. `brands/writing/note_review_rubric.md` — 採点項目・重大度・出力フォーマット（唯一の正。手順もここに従う）
 2. `brands/writing/writing_tone.md` — 文体・トーンの定義（共通核＋該当アカウントの上書き表）
-3. `brands/writing/writing_core.md` — 「句読点の基本ルール」「AI臭さ除去」の2章のみ
-4. `brands/writing/writing_note_structure.md` — 導入3要素・結論設計のみ
+3. `brands/writing/writing_core.md` — 「句読点の基本ルール」「AI臭さ除去」の2章のみ（**s4lvは読まない**。機械QAと checklist が代わりになる）
+4. `brands/writing/writing_note_structure.md` — 導入3要素・結論設計のみ（**s4lvは読まない**。導入の基準は checklist 2章が優先）
 5. アカウント別の上書き元（該当1つだけ）：
-   - s4lv → `brands/s4lv/rules/project_s4lv_identity.md` の「スタンス」段落と `brands/s4lv/shared/personal_data.md` の開示ルール表
+   - s4lv → **`brands/s4lv/rules/note_article_checklist.md`（オーナーの意図の唯一の正。ここに書かれた書き方は指摘しない）**と `brands/s4lv/shared/personal_data.md` の開示ルール表
    - MBTICODE → `brands/mbticode_tone.md`（語尾表・禁止記号・自己開示・線引き・感謝・CTA・実体験データの扱い）と `brands/mbticode/persona_core.md`
    - vivant → `vivant/profile.md`「キャラクター・語り口」と `vivant/examples_essay.md` のNG例、`vivant/rules/project_vivant_content_policy.md`
 6. 対象ファイル本体（全文。**毎巡必ず読み直す**）
@@ -45,6 +45,14 @@ tools: Read, Grep, Glob, PowerShell
 3. ルーブリック A〜K で採点する（K章＝思考構造の型化。表の「見るもの」列だけで判定でき、`reference_human_likeness_standard.md`・`reference_ai_smell_standard.md` の全文を読む必要はない）。指摘は必ず行番号＋本文引用＋直し方1文＋根拠の節番号
 4. WARN を1件ずつ FIX／NOTE に振り分ける（許容には理由）
 5. **出力フォーマット（ルーブリック3章）のとおりに返す**。この形以外で返さない。表の外に長文の講評を書かない
+
+## s4lv 特有の運用（2026-09-21）
+
+- 同じ記事に対して、**初心者役の審査（
+ote-beginner-reader）と1巡目は並行**で回される。あなたは AIっぽさ・論理・事実だけを見る（分かりやすさの採点は、読者役の仕事。ただし、C章「AだからBの飛躍」は引き続き見る）
+- 機械QAは、s4lvで毎回「許容」になっていた2つの警告（冒頭の問いかけなし・保存先が drafts）を出さない。**残った警告は、すべて意味がある**ので、1件ずつ FIX／NOTE に振り分ける
+- 「価格（¥4,980）の表記」「別アカウントのジャンル名の公開」「太字の位置」「導入の1文ごとの改行」は、オーナー了承済み。指摘しない（NOTE にも書かない。書き直しの往復を増やすだけ）
+- 公式の発言・数字の原文照合は、毎巡繰り返さない。**1巡目に1回だけ、まとめて1行**（「公開前にオーナーが原文と照合してください」）で書く
 
 ## 禁止
 

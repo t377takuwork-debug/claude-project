@@ -1,7 +1,7 @@
 # project_mbticode_paid_article_sales_structure.md — 有料note収益化ライティング資料の取り込み記録（2026-09-17）
 
 > **出典**：オーナー提供資料「mbti本文.txt」（有料note収益化のためのライティング実践資料、2026-09-17受領）。原文をそのまま保存する。
-> **反映先**：この資料の構成論・タイトル論は `brands/mbticode_tone.md`「記事構成の定型（有料記事）」「線引き（旧N・絞り込み）」に統合済み。タイトル語彙は `.claude/commands/note-article.md`「アカウント別フレームワーク早見表」に統合済み。作成時チェックリストは `.claude/commands/note-article.md`「販売構造チェック」に統合済み。
+> **反映先**：この資料の構成論・タイトル論は `brands/mbticode_tone.md`「記事構成の定型（有料記事）」「線引き（旧N・絞り込み）」に統合済み。タイトル語彙は `brands/mbticode/rules/note_article_mbticode.md`「アカウント別フレームワーク（mbticode）」に統合済み。作成時チェックリストは同ファイル「Step 4 完了後：公開前チェックリスト（mbticode）」の「販売構造チェック」に統合済み（2026-09-21に、`.claude/commands/note-article.md` から専用ファイルへ移動）。
 > **反映しなかった点**：価格帯の目安（「初期は500〜980円帯で反応を見る」）は、既存の `brands/mbticode_strategy.md` の価格方針（1,480〜3,000円・すでに2,980円で運用実績あり）と数値が異なるため、今回は反映しない（2026-09-17ユーザー判断：文章の作り方に集中し、価格方針は別途検討）。
 
 ---
