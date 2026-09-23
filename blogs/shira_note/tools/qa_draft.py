@@ -103,6 +103,7 @@ NAV_FIXED_URLS = {
     "紅白歌合戦": "https://shira-treat.com/nhk-kouhaku-timetable/",
     "うたコン": "https://shira-treat.com/utacon-timetable/",
     "テレビ×ミセス": "https://shira-treat.com/terebi-mrs-timetable/",
+    "歌の感謝祭": "https://shira-treat.com/utanokanshasai-timetable/",
 }
 
 # ナビブロックの「自番組」判定用（この番組へのリンクはナビに出てはいけない＝自己参照バグ）
@@ -124,6 +125,7 @@ NAV_SELF_URL_BY_FILENAME = {
     "draft_utadeaetara.txt": NAV_FIXED_URLS["うたであえたら"],
     "draft_utacon.txt": NAV_FIXED_URLS["うたコン"],
     "draft_tvmrs.txt": NAV_FIXED_URLS["テレビ×ミセス"],
+    "draft_kanshasai.txt": NAV_FIXED_URLS["歌の感謝祭"],
 }
 
 # JSON-LDの@id/urlが指すべき、この記事自身の正規URL。
@@ -139,6 +141,7 @@ CANONICAL_URL_BY_FILENAME = {
     "draft_utadeaetara.txt": NAV_FIXED_URLS["うたであえたら"],
     "draft_utacon.txt": NAV_FIXED_URLS["うたコン"],
     "draft_tvmrs.txt": NAV_FIXED_URLS["テレビ×ミセス"],
+    "draft_kanshasai.txt": NAV_FIXED_URLS["歌の感謝祭"],
 }
 
 # JSON-LDの@id/urlチェックから除外する、記事URLとは別に正当に存在する固定URL

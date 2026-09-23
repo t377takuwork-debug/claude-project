@@ -1,0 +1,792 @@
+<!-- wp:paragraph -->
+タイトル：1億2000万人のありがとう! 歌の感謝祭タイムテーブル【2026年9月23日】出演者・順番まとめ
+
+メタディスクリプション（119字）：
+2026年9月23日（水・祝）19:00〜22:54放送、日本テレビ系音楽特番「1億2000万人のありがとう 歌の感謝祭」秋冬編のタイムテーブルを更新。Snow Man・King & Princeら12組の出演順・歌唱曲をまとめています。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][title][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>日本テレビ系音楽特番「1億2000万人のありがとう 歌の感謝祭」の放送日程やMC、出演アーティスト、タイムテーブルをまとめています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>前回（2026年5月6日放送分）は3時間構成でしたが、今回の秋冬編は4時間に拡大して放送されます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="歌の感謝祭 速報ガイド" style="display: block; font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif; background: #ffffff; color: #333333; border: 1px solid #e0e0e0; border-radius: 4px; overflow: hidden; position: relative; max-width: 100%; margin: 10px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+
+  <div style="position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0, 12, 26, 0.03) 0%, rgba(255, 255, 255, 0) 100%); pointer-events: none; z-index: 1;"></div>
+
+  <div style="position: relative; background: #000c1a; padding: 10px 15px; display: flex; justify-content: space-between; align-items: center; z-index: 2; border-bottom: 2px solid #d4af37;">
+    <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.1em; color: #d4af37;">1億2000万人のありがとう 歌の感謝祭</div>
+    <div style="display: flex; align-items: center; gap: 6px; font-size: 9px; font-weight: 600; color: #fff; border-left: 1px solid rgba(212, 175, 55, 0.4); padding-left: 10px; white-space: nowrap;">
+      REAL TIME
+    </div>
+  </div>
+
+  <div style="position: relative; padding: 20px 12px; display: grid; gap: 15px; z-index: 2;">
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; border: 1px solid #000c1a; color: #000c1a; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 2px;">SCHEDULE</div>
+      <div style="flex: 1;">
+        <span style="font-size: clamp(15.5px, calc(15.5px + (100vw - 480px) / 240), 20px); font-weight: 700; color: #000c1a; display: block; margin-bottom: 4px; white-space: nowrap; letter-spacing: -0.02em;">2026.09.23 (水・祝) 19:00 - 22:54</span>
+        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 6px;">
+          <span style="color: #e91e63; font-size: 10.5px; font-weight: 800;">日本テレビ系 全国生放送</span>
+          <span style="color: #666; font-size: 10px;">MC：渡辺翔太・比嘉愛未</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; background: #d4af37; color: #fff; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 1px;">ARTISTS</div>
+      <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">
+        Snow Man / King &amp; Prince / timelesz / <span style="color: #e91e63;">浜崎あゆみ</span> 他、全12組
+        <div style="font-size: 10px; font-weight: 500; color: #666; margin-top: 3px;">4時間拡大！秘蔵アーカイブ映像＆2026年ヒット曲スペシャルステージ</div>
+      </div>
+    </div>
+
+    <div style="background: rgba(233, 30, 99, 0.04); border-left: 3px solid #e91e63; padding: 8px 10px;">
+      <div style="font-size: 10.5px; color: #e91e63; font-weight: 800; margin-bottom: 2px;">
+        SPECIAL：SEKAI NO OWARIの新曲を地上波初披露
+      </div>
+      <div style="font-size: 9px; font-weight: 500; color: #888;">
+        timeleszは冠番組コラボの花火演出特別ステージも放送
+      </div>
+    </div>
+
+  </div>
+
+  <div style="background: #fcfcfc; padding: 10px 12px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #eee;">
+    <div style="color: #999; font-size: 9px;">Update: 2026.09.23</div>
+    <a href="#st-toc-h-1" style="display: inline-flex; align-items: center; background: #e91e63; color: #fff; text-decoration: none; font-size: 10.5px; font-weight: 800; padding: 5px 12px; border-radius: 20px; box-shadow: 0 4px 10px rgba(233, 30, 99, 0.2);">
+      詳細を確認 <span style="margin-left: 4px; font-size: 11px;">↓</span>
+    </a>
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][mokujimae][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>推しの出演時間や歌唱曲が気になる方は、放送に合わせた最新情報もあわせてチェックしてください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>歌の感謝祭 タイムテーブル</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>2026年9月23日（水・祝）19:00から放送される『1億2000万人のありがとう 歌の感謝祭』秋冬編の、時間帯ごとの出演アーティストと歌唱曲です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>各時間帯内の細かい出演順は放送前時点では非公開のため、判明している曲順のみ掲載しています。実際の進行に合わせてこの記事を更新します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>19：00～</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="歌の感謝祭 タイムテーブル（19時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #000c1a; border: 1px solid #d4af37; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #001f4d 0%, #000c1a 100%);">
+
+    <div style="margin-bottom: 12px; border-bottom: 1px solid rgba(212, 175, 55, 0.3); padding-bottom: 4px;">
+      <span style="font-size: 12px; color: #d4af37; font-weight: 800;">▼ 19:00〜台</span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d4af37;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #d4af37; font-weight: 800;">19時台</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">絢香</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin-top: 4px;">「三日月」を披露します。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e91e63;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #e91e63; font-weight: 800;">19時台</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">King &amp; Prince</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin-top: 4px;">「リメンバー・ミー」を披露します。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #32cd32;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #32cd32; font-weight: 800;">19時台</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">Snow Man</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin-top: 4px;">「ブラザービート」を披露します。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #ffd700;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ffd700; font-weight: 800;">19時台</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">SEKAI NO OWARI</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin-top: 4px;">「Supermarket」を披露します。10月スタートのドラマ『メリーベリーラブ』メインテーマとして書き下ろされた新曲で、地上波初披露です。</p>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":3} -->
+<h3>20：00～</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="歌の感謝祭 タイムテーブル（20時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #000c1a; border: 1px solid #d4af37; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #001f4d 0%, #000c1a 100%);">
+
+    <div style="margin-bottom: 12px; border-bottom: 1px solid rgba(212, 175, 55, 0.3); padding-bottom: 4px;">
+      <span style="font-size: 12px; color: #d4af37; font-weight: 800;">▼ 20:00〜台</span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e91e63;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #e91e63; font-weight: 800;">20時台</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">King &amp; Prince</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin-top: 4px;">「So Honey」を披露します。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #ff69b4;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff69b4; font-weight: 800;">20時台</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">CUTIE STREET</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin-top: 4px;">「キュートなキューたい」を披露します。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d4af37;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #d4af37; font-weight: 800;">20時台</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">柴咲コウ</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin-top: 4px;">「かたち あるもの」を披露します。</p>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>21：00～</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="歌の感謝祭 タイムテーブル（21時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #000c1a; border: 1px solid #d4af37; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2); color: #fff;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #001f4d 0%, #000c1a 100%);">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 8px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 2px solid #e91e63;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #e91e63; font-weight: 800;">21時台</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">アイナ・ジ・エンド</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc;">「ルミナス – Luminous」を披露します。</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 2px solid #32cd32;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #32cd32; font-weight: 800;">21時台</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">Snow Man</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc;">「show time…」を披露します。</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 2px solid #d4af37;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #d4af37; font-weight: 800;">21時台</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">timelesz</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc;">「消えない花火」を披露します。冠番組「timeleszファミリア」とのコラボ企画で、伊豆多賀温泉海上花火大会の花火演出を使った特別ステージです。</span>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":3} -->
+<h3>22：00～</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="歌の感謝祭 タイムテーブル（22時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #000c1a; border: 1px solid #d4af37; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2); color: #fff;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #001f4d 0%, #000c1a 100%);">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 8px;">
+
+      <div style="background: rgba(255,255,255,0.1); padding: 8px 12px; border-radius: 4px; border-left: 2px solid #fff; border: 1px solid rgba(212,175,55,0.3);">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #fff; font-weight: 800;">22時台</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">Snow Man</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ffd700;">「グッタイム」を披露します。</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 2px solid #e91e63;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #e91e63; font-weight: 800;">22時台</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">中島美嘉</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc;">「ORION」を披露します。</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 2px solid #d4af37;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #d4af37; font-weight: 800;">22時台</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">浜崎あゆみ</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc;">「BLUE BIRD」を披露します。</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 2px solid #ff69b4;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff69b4; font-weight: 800;">22時台</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">マルシィ</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc;">「光」を披露します。10月スタートのドラマ『ハイド＆シーク 0秒前の彼女』主題歌です。</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 2px solid #32cd32;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #32cd32; font-weight: 800;">22時台</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">MAZZEL</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc;">「Only You」を披露します。</span>
+      </div>
+
+    </div>
+  </div>
+  <div style="background: #000; padding: 10px; text-align: center; border-top: 1px solid #d4af37;">
+    <a href="https://x.com/ms_thank_you" target="_blank" style="text-decoration: none; color: #d4af37; font-size: 11px; font-weight: 800;">
+      公式Xで最新情報をチェック ❯
+    </a>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>実際の出演順とは異なる場合があり、放送開始後に順次更新予定です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>歌の感謝祭 出演アーティスト・歌唱内容一覧</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>それぞれの出演アーティストが披露する歌唱曲や注目ポイントを一覧でまとめました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="歌の感謝祭 出演アーティスト・歌唱曲一覧" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #000c1a; border: 1px solid #d4af37; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(212, 175, 55, 0.3); color: #fff;">
+
+  <div style="background: #050505; padding: 12px 15px; border-bottom: 2px solid #d4af37; text-align: center;">
+    <div style="font-size: 15px; font-weight: 900; letter-spacing: 0.1em;
+                background: linear-gradient(135deg, #d4af37 0%, #ffffff 50%, #d4af37 100%);
+                -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+                text-shadow: 1px 1px 2px rgba(233, 30, 99, 0.4);">
+      🎤 アーティストラインナップ &amp; 歌唱曲
+    </div>
+  </div>
+
+  <div style="padding: 15px; background-image: radial-gradient(circle at top, #001f4d 0%, #000c1a 80%);">
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px; margin-bottom: 15px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 4px; border-left: 3px solid #e91e63;">
+        <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 900; color: #fff;">アイナ・ジ・エンド</div>
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); color: #d4af37; font-weight: bold;">「ルミナス – Luminous」</div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 4px; border-left: 3px solid #d4af37;">
+        <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 900; color: #fff;">絢香</div>
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); color: #d4af37; font-weight: bold;">「三日月」</div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 4px; border-left: 3px solid #e91e63;">
+        <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 900; color: #fff;">King &amp; Prince</div>
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); color: #d4af37; font-weight: bold;">「リメンバー・ミー」「So Honey」</div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 4px; border-left: 3px solid #d4af37;">
+        <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 900; color: #fff;">CUTIE STREET</div>
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); color: #d4af37; font-weight: bold;">「キュートなキューたい」</div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 4px; border-left: 3px solid #e91e63;">
+        <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 900; color: #fff;">柴咲コウ</div>
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); color: #d4af37; font-weight: bold;">「かたち あるもの」</div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 4px; border-left: 3px solid #d4af37;">
+        <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 900; color: #fff;">Snow Man</div>
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); color: #d4af37; font-weight: bold;">「ブラザービート」「show time…」「グッタイム」</div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 4px; border-left: 3px solid #e91e63;">
+        <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 900; color: #fff;">SEKAI NO OWARI</div>
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); color: #d4af37; font-weight: bold;">「Supermarket」</div>
+        <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 360), 12px); color: #ccc; line-height: 1.4;">ドラマ『メリーベリーラブ』メインテーマ・地上波初披露</div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 4px; border-left: 3px solid #d4af37;">
+        <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 900; color: #fff;">timelesz</div>
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); color: #d4af37; font-weight: bold;">「消えない花火」</div>
+        <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 360), 12px); color: #ccc; line-height: 1.4;">冠番組コラボ・花火演出の特別ステージ</div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 4px; border-left: 3px solid #e91e63;">
+        <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 900; color: #fff;">中島美嘉</div>
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); color: #d4af37; font-weight: bold;">「ORION」</div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 4px; border-left: 3px solid #d4af37;">
+        <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 900; color: #fff;">浜崎あゆみ</div>
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); color: #d4af37; font-weight: bold;">「BLUE BIRD」</div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 4px; border-left: 3px solid #e91e63;">
+        <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 900; color: #fff;">マルシィ</div>
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); color: #d4af37; font-weight: bold;">「光」</div>
+        <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 360), 12px); color: #ccc; line-height: 1.4;">ドラマ『ハイド＆シーク 0秒前の彼女』主題歌</div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px; border-radius: 4px; border-left: 3px solid #d4af37;">
+        <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 900; color: #fff;">MAZZEL</div>
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); color: #d4af37; font-weight: bold;">「Only You」</div>
+      </div>
+
+    </div>
+
+    <div style="background: rgba(212, 175, 55, 0.05); border: 1px dashed #d4af37; border-radius: 6px; padding: 10px 12px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); line-height: 1.6; color: #eee;">
+      <div><span style="color: #d4af37; font-weight: 800;">🎙 ゲスト：</span>今田美桜、福士蒼汰、ガンバレルーヤ、羽鳥慎一</div>
+    </div>
+  </div>
+
+  <div style="background: #000; padding: 8px; text-align: center; border-top: 1px solid #d4af37; font-size: 9px; color: #888;">
+    ※出演発表順に基づく掲載
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>9月23日の『歌の感謝祭』秋冬編は、「感謝」をテーマに日本テレビの秘蔵アーカイブ映像を交えつつ、アーティスト本人による2026年ヒット曲のスペシャルステージが続きます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>出演時間は何時頃？構成傾向【目安】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="歌の感謝祭 構成傾向" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #000c1a; border: 1px solid #d4af37; border-radius: 8px; overflow: hidden; margin: 10px 0; box-shadow: 0 4px 20px rgba(212, 175, 55, 0.3); color: #fff;">
+
+  <div style="padding: 15px; background-image: radial-gradient(circle at top, #001f4d 0%, #000c1a 80%);">
+
+    <div style="text-align: center; margin-bottom: 15px;">
+      <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); line-height: 1.6; color: #eee; margin: 0;">
+        今回の『歌の感謝祭』秋冬編は19:00〜22:54の約4時間構成。<br>
+        <span style="color: #d4af37; font-weight: bold;">秘蔵映像と生ライブを織り交ぜる形式</span>で進行します。
+      </p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px; margin-bottom: 15px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 12px; border-radius: 6px; border-left: 3px solid #e91e63;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); color: #ff6b9d; font-weight: 900; margin-bottom: 4px;">19時台</div>
+        <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800; color: #fff; margin-bottom: 5px;">絢香・King &amp; Prince・Snow Man・SEKAI NO OWARI</div>
+        <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 360), 12px); color: #ccc; line-height: 1.5;">オープニングから早い時間帯に登場。SEKAI NO OWARIは新曲を地上波初披露します。</div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 12px; border-radius: 6px; border-left: 3px solid #d4af37;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); color: #d4af37; font-weight: 900; margin-bottom: 4px;">20時台</div>
+        <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800; color: #fff; margin-bottom: 5px;">King &amp; Prince（2曲目）・CUTIE STREET・柴咲コウ</div>
+        <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 360), 12px); color: #ccc; line-height: 1.5;">中盤へ向けたラインナップです。</div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 12px; border-radius: 6px; border-left: 3px solid #e91e63;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); color: #ff6b9d; font-weight: 900; margin-bottom: 4px;">21時台</div>
+        <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800; color: #fff; margin-bottom: 5px;">アイナ・ジ・エンド・Snow Man（2曲目）・timelesz</div>
+        <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 360), 12px); color: #ccc; line-height: 1.5;">timeleszの花火演出特別ステージが中盤の見どころです。</div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 12px; border-radius: 6px; border-left: 3px solid #d4af37;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); color: #d4af37; font-weight: 900; margin-bottom: 4px;">22時台</div>
+        <div style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800; color: #fff; margin-bottom: 5px;">Snow Man（3曲目）・中島美嘉・浜崎あゆみ・マルシィ・MAZZEL</div>
+        <div style="font-size: clamp(10px, calc(10px + (100vw - 480px) / 360), 12px); color: #ccc; line-height: 1.5;">終盤に出演組数が最も多い時間帯です。</div>
+      </div>
+
+    </div>
+
+    <div style="background: rgba(212, 175, 55, 0.08); border: 1px dashed #d4af37; border-radius: 6px; padding: 10px 12px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); line-height: 1.6; color: #eee; text-align: center;">
+      各時間の<span style="color: #d4af37; font-weight: 900;">「00分」前後</span>で更新される最新情報をチェックすることをおすすめします。
+    </div>
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>『歌の感謝祭』秋冬編は、19:00〜22:54の約4時間枠で構成される大型特番です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>秘蔵映像と生ライブを交互に織り交ぜる形式で進行するため、特定のアーティストを待つ場合は各時間の「00分」前後で更新される最新情報をチェックすることをおすすめします。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>MCを務める渡辺翔太さんのSnow Manとしての楽曲披露も、番組を通じて大きく扱われる見込みです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>よくある質問（FAQ）</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>番組に関するよくある質問について掲載しました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="歌の感謝祭 よくある質問" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #000c1a; border: 1px solid #d4af37; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(212, 175, 55, 0.3); color: #fff;">
+
+  <div style="background: #050505; padding: 12px 15px; border-bottom: 2px solid #d4af37; text-align: center;">
+    <div style="font-size: 15px; font-weight: 900; letter-spacing: 0.1em;
+                background: linear-gradient(135deg, #d4af37 0%, #ffffff 50%, #d4af37 100%);
+                -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+      💬 よくある質問（FAQ）
+    </div>
+  </div>
+
+  <div style="padding: 15px; background-image: radial-gradient(circle at top, #001f4d 0%, #000c1a 80%);">
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px;">
+
+      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 6px; padding: 12px;">
+        <div style="color: #e91e63; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q1｜タイムテーブルは事前に出ますか？</div>
+        <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
+          放送前に時間帯別の出演者・歌唱曲がニュースサイトで発表されており、この記事に反映しています。ただし各時間帯内の細かい出演順は放送前時点では非公開のため、放送後に確定順へ更新します。
+        </div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 6px; padding: 12px;">
+        <div style="color: #d4af37; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q2｜timeleszの花火演出企画とは？</div>
+        <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
+          冠番組「timeleszファミリア」とのコラボ企画です。伊豆多賀温泉海上花火大会の花火演出を使った特別ステージが予定されています。
+        </div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 6px; padding: 12px;">
+        <div style="color: #e91e63; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q3｜SEKAI NO OWARIの新曲「Supermarket」とは？</div>
+        <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
+          10月スタートのドラマ『メリーベリーラブ』のメインテーマとして書き下ろされた新曲で、今回が地上波初披露です。
+        </div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(212, 175, 55, 0.2); border-radius: 6px; padding: 12px;">
+        <div style="color: #d4af37; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q4｜見逃し配信はありますか？</div>
+        <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
+          配信の有無は回によって異なるため、公式サイトまたはTVer（歌の感謝祭シリーズページ）でご確認ください。
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>2026年9月23日（水・祝）午後7時から、日本テレビ系の音楽特番『1億2000万人のありがとう 歌の感謝祭』秋冬編が4時間にわたって放送されます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>渡辺翔太さん（Snow Man）と比嘉愛未さんがMCを務め、Snow Man、King &amp; Prince、timelesz、浜崎あゆみ、中島美嘉ら12組が出演します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>SEKAI NO OWARIの新曲「Supermarket」地上波初披露や、timeleszの花火演出特別ステージなど、この日ならではのステージが予定されています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>「推しの出番を見逃したくない」という方は、このページのタイムテーブルをチェックしておいてください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>放送に合わせて、実際の進行や出演順をこの記事で更新していきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="margin: 18px 0 14px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px 10px; font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #c94277; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">他の音楽番組もチェック</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px;">
+
+    <a href="https://shira-treat.com/cdtv-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        CDTV <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/star-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        STAR <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/music-station-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        Mステ <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/fnskayousai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        FNS歌謡祭 <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/the-musicday-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        THE MUSIC DAY <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/ongakunohi-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        音楽の日 <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/teretoongakusai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        テレ東音楽祭 <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/utadeaetara-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        うたであえたら <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/record-award-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        レコード大賞 <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/nhk-kouhaku-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        紅白歌合戦 <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/utacon-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        うたコン <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/terebi-mrs-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        テレビ×ミセス <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+  </div>
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #64748b; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">今夜の放送で気になったアーティストの楽曲・CDを探す</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
+    <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #232f3e; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #161d26;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        CDをAmazonで探す <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
+      </span>
+    </a>
+
+    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fdaily%2F002%2F" target="_blank" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        楽天ブックスでCDを探す <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
+      </span>
+    </a>
+  </div>
+
+  <img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+
+  <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #000c1a, #001f4d); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid #d4af37; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
+    <span style="font-size: 9px; font-weight: 900; color: #d4af37; border: 1px solid #d4af37; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 3px;">Music</span>
+    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を聴く（30日間無料）</span>
+    <span style="font-size: 18px; color: #d4af37; margin-left: auto;">›</span>
+  </a>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:shortcode -->
+<!-- MANUAL_JSONLD -->
+[jsonld]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://shira-treat.com/utanokanshasai-timetable/#post",
+      "url": "https://shira-treat.com/utanokanshasai-timetable/",
+      "headline": "1億2000万人のありがとう! 歌の感謝祭タイムテーブル【2026年9月23日】出演者・順番まとめ",
+      "description": "2026年9月23日（水・祝）19:00〜22:54放送、日本テレビ系音楽特番「1億2000万人のありがとう 歌の感謝祭」秋冬編のタイムテーブルを更新。Snow Man・King & Princeら12組の出演順・歌唱曲をまとめています。",
+      "keywords": [
+        "歌の感謝祭",
+        "1億2000万人のありがとう",
+        "歌の感謝祭 タイムテーブル",
+        "出演者",
+        "出演順",
+        "Snow Man",
+        "King & Prince",
+        "timelesz",
+        "9月23日",
+        "日本テレビ"
+      ],
+      "datePublished": "2026-09-23T12:00:00+09:00",
+      "dateCreated": "2026-09-23T12:00:00+09:00",
+      "dateModified": "2026-09-23T12:00:00+09:00",
+      "inLanguage": "ja",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://shira-treat.com/utanokanshasai-timetable/#heroimage",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/05/image-5-2.webp",
+        "width": 1200,
+        "height": 675
+      },
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/05/image-5-2.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Shira",
+        "url": "https://shira-treat.com/operator-information/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Shira",
+        "url": "https://shira-treat.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "articleSection": "歌の感謝祭",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "1億2000万人のありがとう 歌の感謝祭（音楽番組）",
+          "sameAs": "https://www.ntv.co.jp/music-thanksgiving/"
+        }
+      ],
+      "hasPart": [
+        { "@id": "https://shira-treat.com/utanokanshasai-timetable/#broadcast" },
+        { "@id": "https://shira-treat.com/utanokanshasai-timetable/#lineup" },
+        { "@id": "https://shira-treat.com/utanokanshasai-timetable/#faq" },
+        { "@id": "https://shira-treat.com/utanokanshasai-timetable/#breadcrumb" }
+      ]
+    },
+    {
+      "@type": "BroadcastEvent",
+      "@id": "https://shira-treat.com/utanokanshasai-timetable/#broadcast",
+      "name": "1億2000万人のありがとう 歌の感謝祭（2026年9月23日放送・秋冬編）",
+      "startDate": "2026-09-23T19:00:00+09:00",
+      "endDate": "2026-09-23T22:54:00+09:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "isLiveBroadcast": true,
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "performer": [
+        { "@type": "Person", "name": "アイナ・ジ・エンド" },
+        { "@type": "Person", "name": "絢香" },
+        { "@type": "MusicGroup", "name": "King & Prince" },
+        { "@type": "MusicGroup", "name": "CUTIE STREET" },
+        { "@type": "Person", "name": "柴咲コウ" },
+        { "@type": "MusicGroup", "name": "Snow Man" },
+        { "@type": "MusicGroup", "name": "SEKAI NO OWARI" },
+        { "@type": "MusicGroup", "name": "timelesz" },
+        { "@type": "Person", "name": "中島美嘉" },
+        { "@type": "Person", "name": "浜崎あゆみ" },
+        { "@type": "MusicGroup", "name": "マルシィ" },
+        { "@type": "MusicGroup", "name": "MAZZEL" }
+      ],
+      "broadcaster": {
+        "@type": "Organization",
+        "name": "日本テレビ",
+        "sameAs": "https://www.ntv.co.jp/"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://shira-treat.com/utanokanshasai-timetable/#lineup",
+      "name": "歌の感謝祭（9/23）出演アーティスト一覧",
+      "numberOfItems": 12,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "アイナ・ジ・エンド" },
+        { "@type": "ListItem", "position": 2, "name": "絢香" },
+        { "@type": "ListItem", "position": 3, "name": "King & Prince" },
+        { "@type": "ListItem", "position": 4, "name": "CUTIE STREET" },
+        { "@type": "ListItem", "position": 5, "name": "柴咲コウ" },
+        { "@type": "ListItem", "position": 6, "name": "Snow Man" },
+        { "@type": "ListItem", "position": 7, "name": "SEKAI NO OWARI" },
+        { "@type": "ListItem", "position": 8, "name": "timelesz" },
+        { "@type": "ListItem", "position": 9, "name": "中島美嘉" },
+        { "@type": "ListItem", "position": 10, "name": "浜崎あゆみ" },
+        { "@type": "ListItem", "position": 11, "name": "マルシィ" },
+        { "@type": "ListItem", "position": 12, "name": "MAZZEL" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://shira-treat.com/utanokanshasai-timetable/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "タイムテーブルは事前に出ますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "放送前に時間帯別の出演者・歌唱曲がニュースサイトで発表されており、この記事に反映しています。ただし各時間帯内の細かい出演順は放送前時点では非公開のため、放送後に確定順へ更新します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "timeleszの花火演出企画とは？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "冠番組「timeleszファミリア」とのコラボ企画です。伊豆多賀温泉海上花火大会の花火演出を使った特別ステージが予定されています。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "SEKAI NO OWARIの新曲「Supermarket」とは？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "10月スタートのドラマ『メリーベリーラブ』のメインテーマとして書き下ろされた新曲で、今回が地上波初披露です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "見逃し配信はありますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "配信の有無は回によって異なるため、公式サイトまたはTVer（歌の感謝祭シリーズページ）でご確認ください。"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://shira-treat.com/utanokanshasai-timetable/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://shira-treat.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "歌の感謝祭",
+          "item": "https://shira-treat.com/category/musictv/kanshasai/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "歌の感謝祭 タイムテーブル",
+          "item": "https://shira-treat.com/utanokanshasai-timetable/"
+        }
+      ]
+    }
+  ]
+}
+[/jsonld]
+<!-- /wp:shortcode -->
