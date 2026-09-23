@@ -2,7 +2,7 @@
 
 ユーザーが手動収集したX/Threads投稿（自分の高反響投稿・他者のバズ投稿）を、固定の観点で分析し、アカウント資産（cheatsheet・見本バンク）への反映案まで出す。
 
-> 前提: 収集は必ずユーザーが行う（スクリーンショットまたはテキスト貼り付け）。X/Threadsのブラウザ自動取得は技術的制限により禁止（`brands/mbticode/rules/project_buzz_analysis.md`）。取得の自動化を提案しない。
+> 前提（2026-09-22改訂）: 他アカウントの投稿本文・反響数は、Claude in Chromeの`javascript_tool`方式でブラウザから自動取得してよい（`screenshot`・`get_page_text`・`read_page`はx.com/threads.comでタイムアウトするため使わない。手順は`brands/mbticode/rules/project_buzz_analysis.md`または`.claude/commands/s4lv-research.md`「技術メモ」参照）。ユーザーがスクリーンショット・テキストで渡す形も引き続き可。**自分のアカウント（MBTICODE）の非公開アナリティクス画面は未検証のため、従来通りユーザーが数値を共有する。**
 
 ## 入力（ユーザーから受け取るもの）
 

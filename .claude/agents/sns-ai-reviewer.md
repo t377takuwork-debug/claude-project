@@ -24,7 +24,7 @@ tools: Read, Grep, Glob, PowerShell
 ## 作業開始（この順で読む。これ以外の探索はしない）
 
 1. `docs/rubrics/sns_ai_tone_rubric.md` — 採点項目・重大度・出力フォーマット・「審査しないこと」（唯一の正。手順もここに従う）
-2. `brands/s4lv/x_neta_daicho.md` — 根拠照合の台帳（B項目。本文の主張が K◯／A◯ の「事実」欄の範囲内か）
+2. `brands/s4lv/x_neta_daicho.md` — 根拠照合の台帳（B項目。柱1・柱2＝本文の主張が K◯／A◯ の「事実」欄の範囲内か。柱3＝実体験不要が前提のため範囲内チェックは適用せず、代わりに架空エピソードの有無・切り口の変え方を見る。判定軸はルーブリックB章参照）
 3. `brands/s4lv/shared/personal_data.md` — 「⚠️ 開示ルール」表と「実績データ（一覧）」テーブル（C・F項目）
 4. `brands/s4lv/examples_x_posts.md` — Good/Bad のアンカー（D・E項目の基準合わせ）
 5. 媒体別の文体定義（該当1つだけ）：

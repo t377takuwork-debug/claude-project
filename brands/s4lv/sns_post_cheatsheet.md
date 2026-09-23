@@ -23,6 +23,7 @@ type: project
 | X反響設計（A/B 2軸）・確定構造 | `rules/feedback_s4lv_x_post.md` |
 | Threads文体の詳細（語尾・専門用語・数字・連続スレッド機構・語彙・絵文字・文字数。句読点・改行・記号は `rules/sns_kutouten_kaigyo_rules.md`） | `rules/feedback_s4lv_threads_writing_style.md` |
 | ネタ元（型・思想＝K項目／AI実働＝A項目・唯一の正） | `x_neta_daicho.md`（旧 `ai_work_log.md` は2026-09-07に統合廃止）。**ネタを選ぶ前に、ファイル末尾の「使用履歴・自動記録」表を必ず見る**（posts_x.txt／posts_threads.txt保存のたびにsync_neta_usage.pyが自動更新・2026-09-14新設。各項目内の手書き「使用履歴」欄は更新が漏れることがあるため、こちらが正） |
+| ネタ元（意見・考え＝柱3・外部きっかけ） | `x_neta_daicho.md`「柱3：意見・考え」（2026-09-22新設）。発掘は `/s4lv-research`（ユーザー指示時のみ実行） |
 | Note誘導のネタ源・ローテーション | `articles/note_article_index.md` |
 | 実績数値・開示ルール | `shared/personal_data.md` |
 | 対象読者ペルソナ（3軸） | `rules/project_s4lv_persona.md` |
@@ -82,6 +83,7 @@ type: project
 ## 媒体別 文体の要点（詳細は権限ファイル）
 
 ### X（`feedback_s4lv_x_writing_style.md`）
+- **発見用の投稿は「さらに表示」に頼らず1画面で完結させる**（結論→数字か手順→次の一手、を折りたたみの外に収める。2026-09-22 notekaigi。長文の保存用（チェックリスト等・週1〜2本）は折りたたみ可）
 - **初心者〜中級者向けの平易さを最優先**（2026-09-08で「エグい比喩・情景ワードをねじ込む」旧ルールより優先に格上げ）
 - 「大手」は具体化（大手メディア／大手サイト／公式サイト）。裸で終えない
 - 業界語（allintitle・共起語・権威性・DP・E-E-A-T等）は裸で使わず、その場で平易な言い換え＋具体例を1つ
