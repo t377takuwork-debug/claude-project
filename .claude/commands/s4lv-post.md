@@ -2,7 +2,7 @@
 
 s4lv統一アカウント（X @cfrms4lv／Threads @cfrms4lv）の投稿を生成する。旧Threads @s4lv24は運用終了・vivant用に転用済み（`brands/s4lv/rules/project_s4lv_accounts.md`「旧アカウント」参照）。
 
-**体制**：X 1日3本（手動運用・2026-09-07に2本→3本へ増量。推奨投稿時刻 JST＝朝7:30〜8:00／昼12:15／夜20:45。夜枠が最重要、朝枠が最弱。唯一の正は `brands/s4lv/rules/project_s4lv_operation_system.md`「投稿量」）・**Threads は本数可変（2026-09-07 Threads運用プレイブック）＝通常1日1本／切替日2本／返信安定で2〜3本。枠は07:30/12:00/21:30。本数・3本条件・誘導リンク全廃・1行目ルールの唯一の正は `brands/s4lv/sns_post_cheatsheet.md`「Threads 本数と3本条件」**（基盤詳細は `brands/s4lv/tools/threads_setup_guide.md`）。コンテンツ2本柱（型・思想6割／AI実働4割）の最新定義は `brands/s4lv/rules/project_s4lv_accounts.md` を参照（本ファイルには重複記載しない）。
+**体制**：X 1日3本（手動運用・2026-09-07に2本→3本へ増量。推奨投稿時刻 JST＝朝7:30〜8:00／昼12:15／夜20:45。夜枠が最重要、朝枠が最弱。唯一の正は `brands/s4lv/rules/project_s4lv_operation_system.md`「投稿量」）・**Threads は本数可変（2026-09-07 Threads運用プレイブック）＝通常1日2〜3本（2026-09-25オーナー確認）。枠は07:30/12:00/21:30。本数・3本条件・誘導リンク全廃・1行目ルールの唯一の正は `brands/s4lv/sns_post_cheatsheet.md`「Threads 本数と3本条件」**（基盤詳細は `brands/s4lv/tools/threads_setup_guide.md`）。コンテンツ2本柱（型・思想6割／AI実働4割）の最新定義は `brands/s4lv/rules/project_s4lv_accounts.md` を参照（本ファイルには重複記載しない）。
 
 ---
 
