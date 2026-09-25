@@ -154,6 +154,7 @@
 | うたコン | `https://shira-treat.com/utacon-timetable/` |
 | テレビ×ミセス | `https://shira-treat.com/terebi-mrs-timetable/` |
 | 歌の感謝祭 | `https://shira-treat.com/utanokanshasai-timetable/` |
+| Venue101 | `https://shira-treat.com/venue101-timetable/` |
 
 - **BreadcrumbList（JSON-LD）内のカテゴリURLは変更不要**（WP分類構造用でナビブロックとは別物）
 - その記事自身へのリンクは入れない

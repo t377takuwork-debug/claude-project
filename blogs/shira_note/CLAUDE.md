@@ -10,7 +10,7 @@
 各番組のリライトはスラッシュコマンドで開始する。詳細な手順・参照ファイルは各コマンドファイルに記載。
 
 **全リライト・新規記事共通ルール**：作業開始時に必ず `rewrite_common_rules.md`（このフォルダ直下）を読むこと。禁止ワード・段落分割・タイトル/メタ設計・WPブロック構造・AFリンク仕様・ナビURL一覧はこのファイルが唯一の正。
-**ENGINE準拠番組**（コマンドファイル冒頭に宣言あり。現在: うたコン）は続けて `rewrite_engine.md`（速報型の共通手順骨格）→ 番組別コマンド（パラメータ）の順で読む。未移行番組は従来どおり番組別コマンドのフル手順が正。
+**ENGINE準拠番組**（コマンドファイル冒頭に宣言あり。現在: うたコン・Venue101）は続けて `rewrite_engine.md`（速報型の共通手順骨格）→ 番組別コマンド（パラメータ）の順で読む。未移行番組は従来どおり番組別コマンドのフル手順が正。
 
 ### スラッシュコマンド一覧
 
@@ -33,6 +33,8 @@
 | `/24tv-rewrite` | 24時間テレビ（日本テレビ・年1回特番） | `.claude/commands/24tv-rewrite.md` |
 | `/tvmrs-rewrite` | テレビ×ミセス（TBS・月曜・コラボバラエティ／ハイブリッド型） | `.claude/commands/tvmrs-rewrite.md` |
 | `/kanshasai-rewrite` | 1億2000万人のありがとう 歌の感謝祭（日本テレビ・不定期特番） | `.claude/commands/kanshasai-rewrite.md` |
+| `/venue101-rewrite` | Venue101（NHK総合・定期番組。EXTRA・拡大版SP等の特別編成あり） | `.claude/commands/venue101-rewrite.md` |
+| `/venue101-research` | Venue101 リライト用の資料①②リサーチ（資料が渡されなかった回のみ／Yahoo検索＋Grok。TVerなし） | `.claude/commands/venue101-research.md` |
 | `/shira-qa` | 全番組共通・ドラフト検品（リライト後必須） | `.claude/commands/shira-qa.md` |
 | `/shira-keyword-article` | キーワード起点の新規テーマ記事（番組タイムテーブル速報とは別枠） | `.claude/commands/shira-keyword-article.md` |
 | `/shira-release-article` | CD/DVD等リリース記事（予約・購入導線特化、1リリース＝1記事） | `.claude/commands/shira-release-article.md` |
@@ -70,6 +72,7 @@
 | 24時間テレビ | `draft_24tv.txt` |
 | テレビ×ミセス | `draft_tvmrs.txt` |
 | 歌の感謝祭 | `draft_kanshasai.txt` |
+| Venue101 | `draft_venue101.txt` |
 
 保存先：`drafts/` フォルダ（`C:\Users\PC_User\claude project\blogs\shira_note\drafts\`）
 
@@ -165,7 +168,7 @@ WARNは `tools/output/qa_baseline.json` と照合して[新規]/[既知]に分�
 | ファイル | 内容 | 対象 |
 |---|---|---|
 | `rewrite_common_rules.md` | 禁止ワード・段落文体・タイトル/メタ・WPブロック・AFリンク・ナビURLの共通ルール集（**リライト時必読**） | 全番組共通 |
-| `rewrite_engine.md` | 速報型リライトの共通手順骨格（手順1〜14・Read/Edit規律・JSON-LD共通差し替え表） | ENGINE準拠番組（現在: うたコン）で必読 |
+| `rewrite_engine.md` | 速報型リライトの共通手順骨格（手順1〜14・Read/Edit規律・JSON-LD共通差し替え表） | ENGINE準拠番組（現在: うたコン・Venue101）で必読 |
 | `C:\Users\PC_User\claude project\blogs\seo\SEO_guide.txt` | SEO基礎・構成設計・タイトル設計・リライトチェックリスト | 全番組共通 |
 | `persona_timetable.txt` | タイムテーブル・出演順番記事用ペルソナ（佐藤 真由） | 全番組共通 |
 

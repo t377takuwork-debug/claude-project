@@ -104,6 +104,7 @@ NAV_FIXED_URLS = {
     "うたコン": "https://shira-treat.com/utacon-timetable/",
     "テレビ×ミセス": "https://shira-treat.com/terebi-mrs-timetable/",
     "歌の感謝祭": "https://shira-treat.com/utanokanshasai-timetable/",
+    "Venue101": "https://shira-treat.com/venue101-timetable/",
 }
 
 # ナビブロックの「自番組」判定用（この番組へのリンクはナビに出てはいけない＝自己参照バグ）
@@ -126,6 +127,7 @@ NAV_SELF_URL_BY_FILENAME = {
     "draft_utacon.txt": NAV_FIXED_URLS["うたコン"],
     "draft_tvmrs.txt": NAV_FIXED_URLS["テレビ×ミセス"],
     "draft_kanshasai.txt": NAV_FIXED_URLS["歌の感謝祭"],
+    "draft_venue101.txt": NAV_FIXED_URLS["Venue101"],
 }
 
 # JSON-LDの@id/urlが指すべき、この記事自身の正規URL。
@@ -142,6 +144,7 @@ CANONICAL_URL_BY_FILENAME = {
     "draft_utacon.txt": NAV_FIXED_URLS["うたコン"],
     "draft_tvmrs.txt": NAV_FIXED_URLS["テレビ×ミセス"],
     "draft_kanshasai.txt": NAV_FIXED_URLS["歌の感謝祭"],
+    "draft_venue101.txt": NAV_FIXED_URLS["Venue101"],
 }
 
 # JSON-LDの@id/urlチェックから除外する、記事URLとは別に正当に存在する固定URL
@@ -582,7 +585,7 @@ def check_nav_completeness(lines: list[str], filename: str, rep: Report):
     if start is None:
         return  # ナビブロックがないファイル（アーカイブ月次記事の一部等）は対象外
 
-    end = min(start + 80, len(lines))
+    end = min(start + 120, len(lines))  # 番組数が増えて末尾のリンクが80行を超えたため拡大（2026-09-25 Venue101追加時）
     for i in range(start + 1, end):
         if any(marker in lines[i] for marker in NAV_BLOCK_END_MARKERS):
             end = i
