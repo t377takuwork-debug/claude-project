@@ -163,7 +163,9 @@ NAV_BLOCK_END_MARKERS = ("出演者の作品を探す", "レコードを探す")
 # 旧記事は読点が多いなど当時の書き方のままなので、全記事に適用すると警告が大量に出る（2026-09-26実測：約80件）。
 # そのため新規記事だけを登録する。登録していない記事には、参考（INFO）を1行だけ出す。
 # 新規記事を立ち上げたら、ここへファイル名を足す（rewrite_common_rules.md 16章の文体ルールを機械で守るため）。
-STYLE_STRICT_FILES = {"draft_allstar_marathon.txt", "draft_onirenchan.txt"}
+STYLE_STRICT_FILES = {"draft_allstar_marathon.txt"}
+# 人物ごとに1ファイル作る記事は、名前の前半でまとめて登録する（毎回の追記を不要にする）
+STYLE_STRICT_PREFIXES = ("draft_onirenchan_",)
 NEWS_TONE_RE = re.compile(
     r"と読めます|と報じられています|と紹介されています|は確認できていません|が確認できていません|を掲載します|を掲載しています"
 )
@@ -543,7 +545,7 @@ def check_style(text: str, filename: str, rep: Report):
     for i in range(1, len(parts) - 1, 2):
         if len(re.findall(r"<h3>", parts[i + 1])) == 1:
             lone.append(re.sub(r"<[^>]+>", "", parts[i]))
-    if filename in STYLE_STRICT_FILES:
+    if filename in STYLE_STRICT_FILES or filename.startswith(STYLE_STRICT_PREFIXES):
         for p in multi:
             rep.warn(f"文体: 読点（、）が2つ以上の段落 → {ctx(p, 50)}（16-1: 並べる言葉は「・」、主題のあとは付けない）")
         for p, w in news:
