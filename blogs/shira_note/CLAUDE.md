@@ -153,7 +153,7 @@ python tools/qa_draft.py draft_XXXX.txt --fix  # スマートクォート自動�
 ```
 
 チャットでは `/shira-qa {ファイル名}` で起動する（結果の解釈・修正ルールは `.claude/commands/shira-qa.md`）。
-チェック内容: スマートクォート / 禁止ワード / WPブロック開閉 / ショートコード混在 / ショートコード連続配置（originalsc同士の間に本文が必要） / JSON-LDパース / メタ⇔JSON-LD同期 / 本文FAQ⇔JSON-LD FAQPage同期（Q1/A形式のspanマークアップと「Q1｜質問文」のdiv形式に対応。どちらでも取れない形式のみ判定スキップ。2026-09-26にdiv形式へ対応） / AFリンク仕様 / ul style / wp:imageのalign⇔figureのclass不一致（手動修正時のズレ検知） / カテゴリURL残存 / ナビブロックの番組網羅漏れ・自己参照リンク（`rewrite_common_rules.md` 8章のURL一覧と照合。新番組追加時はこの一覧を先に更新） / リード文日付 / 締め文の主観形容詞（`shicho-memo`ブロック内は対象外） / 同一文の記事内3回以上リピート（数字違いは同一視・表現ローテーション用） / 他番組告知パラグラフの放送日が自記事より過去（放送済み番組への導線残存を検知）。
+チェック内容: スマートクォート / 禁止ワード / WPブロック開閉 / ショートコード混在 / ショートコード連続配置（originalsc同士の間に本文が必要） / JSON-LDパース / メタ⇔JSON-LD同期 / 本文FAQ⇔JSON-LD FAQPage同期（Q1/A形式のspanマークアップと「Q1｜質問文」のdiv形式に対応。どちらでも取れない形式のみ判定スキップ。2026-09-26にdiv形式へ対応） / AFリンク仕様 / ul style / wp:imageのalign⇔figureのclass不一致（手動修正時のズレ検知） / カテゴリURL残存 / ナビブロックの番組網羅漏れ・自己参照リンク（`rewrite_common_rules.md` 8章のURL一覧と照合。新番組追加時はこの一覧を先に更新） / リード文日付 / 締め文の主観形容詞（`shicho-memo`ブロック内は対象外） / 同一文の記事内3回以上リピート（数字違いは同一視・表現ローテーション用） / 他番組告知パラグラフの放送日が自記事より過去（放送済み番組への導線残存を検知）。 文体（読点2つ以上の段落・ニュース調・句点なし・H3が1つだけのH2。`STYLE_STRICT_FILES`に登録した新規記事は**警告**、それ以外は参考表示。2026-09-26新設）。FAQの照合は、キーワード記事の「H3＋回答」の形にも対応。
 WARNは `tools/output/qa_baseline.json` と照合して[新規]/[既知]に分類される。
 **全リライトコマンドの最終ステップとして「ERROR 0件・新規WARN 0件」（終了コード0）を確認してから完了報告すること。** `--update-baseline` はユーザー承認時のみ。
 
@@ -174,6 +174,7 @@ WARNは `tools/output/qa_baseline.json` と照合して[新規]/[既知]に分�
 | `rewrite_engine.md` | 速報型リライトの共通手順骨格（手順1〜14・Read/Edit規律・JSON-LD共通差し替え表） | ENGINE準拠番組（現在: うたコン・Venue101）で必読 |
 | `C:\Users\PC_User\claude project\blogs\seo\SEO_guide.txt` | SEO基礎・構成設計・タイトル設計・リライトチェックリスト | 全番組共通 |
 | `persona_timetable.txt` | タイムテーブル・出演順番記事用ペルソナ（佐藤 真由） | 全番組共通 |
+| `template_parts/` | すぐ貼れるHTML部品（冒頭のコード・時間帯の予想カード・配信ガイド）。`README.md`に使い方 | 新規記事・リライト |
 
 ---
 

@@ -1,0 +1,30 @@
+<!-- wp:heading {"level":3} -->
+<h3>{{HH：00～（予想）}}</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="{{番組名}} タイムテーブル予想（{{HH}}時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(242, 194, 48, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 100%);">
+
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; border-bottom: 1px solid rgba(242, 194, 48, 0.3); padding-bottom: 6px;">
+      <span style="font-size: 12px; color: #f2c230; font-weight: 800;">▼ {{HH:00〜}}</span>
+      <span style="font-size: 10px; font-weight: 900; color: #f2c230; border: 1px dashed #f2c230; border-radius: 2px; padding: 0 5px;">予想</span>
+      <span style="font-size: 10px; font-weight: 700; color: #a8a8c8;">確度：{{高・中・低}}</span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">{{企画名1}}</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">{{過去◯回のうち◯回で〜、の形で根拠を書く。断定しない}}</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">{{企画名2}}</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">{{根拠つきの予想2。時刻は報道の配信時刻など。SNSの投稿時刻は根拠にしない}}</p>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->

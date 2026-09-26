@@ -236,6 +236,10 @@ Q&Aカード1件のHTML構造：
 
 ---
 
+## すぐ貼れる部品（`template_parts/`・2026-09-26新設）
+
+冒頭のコード（`sokuho_guide.html`）・時間帯ごとの予想カード（`time_band_yosou.html`）・配信ガイド（`haishin_guide.html`、U-NEXTのA8コード入り）は、`template_parts/` に `{{...}}` 付きで置いてある。`{{}}` を書き換えて貼るだけでよい。使い方は `template_parts/README.md`。下の表の部品のうち、この3つ以外は従来どおりGrepで取り出す。
+
 ## 部品の探し方（実例は最新の立ち上げ記事`drafts/draft_allstar.txt`からGrepで部分抽出する）
 
 このスケルトンの1〜14章は骨組み。細かい部品は下の表のマーカーで`draft_allstar.txt`を**Grep→該当行だけRead**する（完成済みdraftの全文Readはしない）。**装飾クラス（`.artist-item`・`.qa-card`等）に頼らず、すべてインラインstyleで書く**（クラスは`draft_utacon.txt`にしか無く、WP側のCSSに依存すると崩れる）。配色は`draft_allstar.txt`の紺×金×赤を、番組の公式ロゴに合わせて置き換える。

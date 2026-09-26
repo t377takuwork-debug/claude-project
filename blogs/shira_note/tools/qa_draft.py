@@ -159,6 +159,15 @@ JSONLD_URL_EXCLUDE_BASES = {
 NAV_BLOCK_START_RE = re.compile(r"他の音楽(?:番組|特番)もチェック")
 NAV_BLOCK_END_MARKERS = ("出演者の作品を探す", "レコードを探す")
 
+# 文体チェック（読点・ニュース調・句点なし・H3が1つだけのH2）を「警告」として出すファイル。
+# 旧記事は読点が多いなど当時の書き方のままなので、全記事に適用すると警告が大量に出る（2026-09-26実測：約80件）。
+# そのため新規記事だけを登録する。登録していない記事には、参考（INFO）を1行だけ出す。
+# 新規記事を立ち上げたら、ここへファイル名を足す（rewrite_common_rules.md 16章の文体ルールを機械で守るため）。
+STYLE_STRICT_FILES = {"draft_allstar_marathon.txt"}
+NEWS_TONE_RE = re.compile(
+    r"と読めます|と報じられています|と紹介されています|は確認できていません|が確認できていません|を掲載します|を掲載しています"
+)
+
 
 class Report:
     def __init__(self, filename: str):
@@ -479,6 +488,15 @@ def extract_body_faq(text: str) -> list[tuple[str, str]]:
         q = html.unescape(re.sub(r"<[^>]+>", "", m3.group(1))).strip()
         a = html.unescape(re.sub(r"<[^>]+>", "", re.sub(r"\s*\n\s*", "", m3.group(2)))).strip()
         pairs.append((q, a))
+    if pairs:
+        return pairs
+    # キーワード起点記事の形式：FAQのH2の下に、質問＝H3・回答＝直後のwp:paragraph。
+    for m4 in re.finditer(
+        r'<h3>(.*?)</h3>\s*<!-- /wp:heading -->\s*<!-- wp:paragraph -->\s*<p>(.*?)</p>', block, re.DOTALL
+    ):
+        q = html.unescape(re.sub(r"<[^>]+>", "", m4.group(1))).strip()
+        a = html.unescape(re.sub(r"<[^>]+>", "", m4.group(2))).strip()
+        pairs.append((q, a))
     return pairs
 
 
@@ -508,6 +526,37 @@ def extract_jsonld_faq(text: str) -> list[tuple[str, str]]:
             continue
         walk(data)
     return pairs
+
+
+def check_style(text: str, filename: str, rep: Report):
+    """文体・見出しの好み（rewrite_common_rules.md 16章）を機械で確認する。
+    STYLE_STRICT_FILES の記事は警告、それ以外は参考（INFO）1行だけ。"""
+    body = text[: text.index("[jsonld]")] if "[jsonld]" in text else text
+    body = re.sub(r"<!-- wp:html -->[\s\S]*?<!-- /wp:html -->", "", body)  # コード部品の中は対象外
+    ps = [re.sub(r"<[^>]+>", "", m).strip() for m in re.findall(r"<p>(.*?)</p>", body, re.DOTALL)]
+    ps = [p for p in ps if p and not p.startswith("[nopc]")]
+    multi = [p for p in ps if p.count("、") >= 2]
+    news = [(p, m.group(0)) for p in ps for m in NEWS_TONE_RE.finditer(p)]
+    noend = [p for p in ps if len(p) > 8 and not re.search(r"[。！？）」』]$", p)]
+    lone = []
+    parts = re.split(r"(<h2>.*?</h2>)", body, flags=re.DOTALL)
+    for i in range(1, len(parts) - 1, 2):
+        if len(re.findall(r"<h3>", parts[i + 1])) == 1:
+            lone.append(re.sub(r"<[^>]+>", "", parts[i]))
+    if filename in STYLE_STRICT_FILES:
+        for p in multi:
+            rep.warn(f"文体: 読点（、）が2つ以上の段落 → {ctx(p, 50)}（16-1: 並べる言葉は「・」、主題のあとは付けない）")
+        for p, w in news:
+            rep.warn(f"文体: ニュース調の言い回し「{w}」 → {ctx(p, 50)}（16-1b: 人が話す口調へ）")
+        for p in noend:
+            rep.warn(f"文体: 句点で終わらない段落 → {ctx(p, 50)}")
+        for h in lone:
+            rep.warn(f"見出し: H3が1つだけのH2「{h}」（H3を使うなら1つのH2に2つ以上）")
+    elif multi or news or lone:
+        rep.info(
+            f"文体（参考・警告ではない）: 読点2つ以上の段落{len(multi)}件／ニュース調{len(news)}件／"
+            f"H3が1つだけのH2{len(lone)}件。新規記事は STYLE_STRICT_FILES に登録すると警告になる"
+        )
 
 
 def check_faq_sync(text: str, rep: Report):
@@ -793,6 +842,7 @@ def run_qa(path: str) -> Report:
     check_jsonld_canonical_url(text, os.path.basename(path), rep)
     check_meta_description(text, descriptions, rep)
     check_faq_sync(text, rep)
+    check_style(text, os.path.basename(path), rep)
     check_af_links(lines, text, rep)
     check_ul_style(lines, rep)
     check_image_align(text, rep)
