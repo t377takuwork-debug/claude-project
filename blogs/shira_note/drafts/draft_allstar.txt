@@ -256,8 +256,8 @@
       </div>
 
       <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">赤坂ミニマラソン（20時台に始まる見方）</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">2025年秋と2026年春は、20時台にマラソンが始まりました。2026年春のスタートは20:40頃でした。</p>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">赤坂ミニマラソン（中継のはじまり）</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">2025年春は20:45頃に中継が入り、2026年春もコース紹介が20:54頃にありました。20時台の後半に、マラソンの中継が始まっています。</p>
       </div>
 
     </div>
@@ -282,8 +282,8 @@
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
 
       <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">赤坂ミニマラソン（遅めになる見方）</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">今回と同じ17:40スタートの2025年春は、21時台から走り、公式Xの結果投稿は22:27頃でした。他の2回は、21時台のうちに結果が出ています。</p>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">赤坂ミニマラソン（スタートからゴール）</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">過去3回とも、スタートは21時前後で、ゴールは21時台のうちだったと読めます。結果を伝える記事は21:38頃から21:43頃に出ています。今回と同じ17:40スタートだった2025年春も、同じ流れでした。</p>
       </div>
 
       <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #f2c230;">
@@ -490,7 +490,7 @@
 
       <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
         <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">🏃 赤坂ミニマラソンの時間帯</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">過去3回で公式Xがマラソンの結果を投稿したのは、21:51頃・21:58頃・22:27頃でした。今回と同じ17:40スタートだった2025年春が最も遅く、開始時刻だけでは決まらないようです。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">過去3回とも、マラソンは21時前後にスタートし、21時台のうちにゴールしたと読めます。今回と同じ17:40スタートだった2025年春も、番組の開始が早くても21時前後でした。時刻は、報道の配信時刻などからの推定です。</p>
       </div>
 
       <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #f2c230;">
@@ -564,7 +564,7 @@
         <div style="position: absolute; left: -27px; top: 3px; width: 12px; height: 12px; border-radius: 50%; background: #e3262a; border: 2px solid #0a0b22;"></div>
         <div style="font-size: 10px; color: #ff6b6e; font-weight: 800;">20時台 / 赤坂ミニマラソン</div>
         <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #eee; margin-top: 4px; line-height: 1.6;">
-          <strong style="color: #ff6b6e;">アーチェリー決着のあと、20:40頃からミニマラソンを放送</strong><br>
+          <strong style="color: #ff6b6e;">アーチェリー決着のあと、20時台の後半にマラソンの中継が始まりました</strong><br>
           <span style="font-size: 11px; color: #a8a8c8; display: block; margin: 2px 0 6px 0;">ハンデ付きで、吉田祐也さんは最後尾からのスタートでした。</span>
         </div>
       </div>
@@ -574,7 +574,7 @@
         <div style="font-size: 10px; color: #ff6b6e; font-weight: 800;">21時台 / 結果発表と新ゲーム</div>
         <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #eee; margin-top: 4px; line-height: 1.6;">
           <strong style="color: #ff6b6e;">ゴール〜表彰、コロコロチャレンジ、新企画「スローゴーランド」</strong><br>
-          <span style="font-size: 11px; color: #a8a8c8; display: block; margin: 2px 0 6px 0;">マラソンの結果は、公式Xに21:51頃に投稿されました。</span>
+          <span style="font-size: 11px; color: #a8a8c8; display: block; margin: 2px 0 6px 0;">レース本体は21時台前半にスタートし、21:40頃にゴールしたと読めます。報知の結果記事は21:43配信で、公式Xの結果投稿は21:51頃でした。</span>
         </div>
       </div>
 
@@ -703,8 +703,8 @@
       </div>
 
       <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #e3262a;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">20〜21時台</span><br>
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">赤坂ミニマラソン（結果の公式X投稿は21:58頃）</span>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">21時前後</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">赤坂ミニマラソン（サンスポの結果記事は21:41配信。公式Xの結果投稿は21:58頃）</span>
       </div>
 
       <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #f2c230;">
@@ -764,8 +764,8 @@
       </div>
 
       <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #e3262a;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">21〜22時台</span><br>
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">赤坂ミニマラソン（結果の公式X投稿は22:27頃）</span>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">20:45頃〜21時台</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">赤坂ミニマラソン（20:45頃に中継が入り、21:00頃にスタート。結果記事は21:38頃に出て、公式Xの結果投稿は22:27頃）</span>
       </div>
 
       <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #f2c230;">
@@ -832,7 +832,7 @@
       <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(242, 194, 48, 0.2); border-radius: 6px; padding: 12px;">
         <div style="color: #f2c230; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q4｜赤坂ミニマラソンは何時ごろ放送されますか？</div>
         <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
-          過去3回のうち2回は20時台にマラソンが始まり、公式Xの結果投稿は21:51頃と21:58頃でした。今回と同じ17:40スタートの2025年春は、21時台から走り、結果投稿は22:27頃と遅めでした。今回の実際の時刻は放送後にこの記事で更新します。
+          過去3回とも、21時前後にスタートし、21時台のうちにゴールしたと読めます。時刻は報道の配信時刻などからの推定です。2025年春は今回と同じ17:40スタートでしたが、スタートは21:00頃でした。今回の実際の時刻は放送後にこの記事で更新します。
         </div>
       </div>
 
@@ -1159,7 +1159,7 @@
           "name": "赤坂ミニマラソンは何時ごろ放送されますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "過去3回のうち2回は20時台にマラソンが始まり、公式Xの結果投稿は21:51頃と21:58頃でした。今回と同じ17:40スタートの2025年春は、21時台から走り、結果投稿は22:27頃と遅めでした。今回の実際の時刻は放送後にこの記事で更新します。"
+            "text": "過去3回とも、21時前後にスタートし、21時台のうちにゴールしたと読めます。時刻は報道の配信時刻などからの推定です。2025年春は今回と同じ17:40スタートでしたが、スタートは21:00頃でした。今回の実際の時刻は放送後にこの記事で更新します。"
           }
         },
         {
