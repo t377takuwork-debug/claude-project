@@ -1,6 +1,6 @@
 <!-- wp:paragraph -->
 タイトル：Venue101 EXTRA タイムテーブル 9月26日の出演者・順番をリアルタイム更新
-メタディスクリプション（74字）：
+メタディスクリプション（77字）：
 2026年9月26日放送のVenue101 EXTRA、今日の出演者タイムテーブルをまとめています。曲順は事前に発表されないため放送に合わせて更新します。
 <!-- /wp:paragraph -->
 
@@ -78,7 +78,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center","className":"size-full"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="https://shira-treat.com/wp-content/uploads/2026/06/image-7-2.webp" alt="Venue101 EXTRA タイムテーブル出演者・順番をリアルタイム更新"/><figcaption class="wp-element-caption"><a href="https://www.nhk.jp/p/venue101/">公式サイト</a></figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="https://shira-treat.com/wp-content/uploads/2026/09/image-22.webp" alt="Venue101 タイムテーブル" class="wp-image-6988"/><figcaption class="wp-element-caption"><a href="https://www.nhk.jp/p/venue101/">公式サイト</a></figcaption></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
@@ -505,7 +505,7 @@ EBiDAN「Yes! 東京」（1組目）/ =LOVE「恋、はじめました。」/ CU
         "@id": "https://shira-treat.com/venue101-timetable/"
       },
       "headline": "Venue101 EXTRA タイムテーブル 9月26日の出演者・順番をリアルタイム更新",
-      "description": "9月26日放送のVenue101 EXTRA、今日の出演者と歌唱曲、出演順をまとめています。曲順は事前に発表されないため、放送に合わせて更新します。",
+      "description": "2026年9月26日放送のVenue101 EXTRA、今日の出演者タイムテーブルをまとめています。曲順は事前に発表されないため放送に合わせて更新します。",
       "image": {
         "@type": "ImageObject",
         "@id": "https://shira-treat.com/venue101-timetable/#primaryimage",

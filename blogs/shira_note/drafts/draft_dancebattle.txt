@@ -376,7 +376,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>続報が入り次第、この記事を更新します。</p>
+<p>新しい情報があれば追記します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
