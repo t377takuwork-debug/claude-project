@@ -75,6 +75,7 @@
 | 歌の感謝祭 | `draft_kanshasai.txt` |
 | Venue101 | `draft_venue101.txt` |
 | オールスター感謝祭 | `draft_allstar.txt` |
+| オールスター感謝祭 マラソン（キーワード起点記事。年号なしで毎年上書き） | `draft_allstar_marathon.txt` |
 
 保存先：`drafts/` フォルダ（`C:\Users\PC_User\claude project\blogs\shira_note\drafts\`）
 

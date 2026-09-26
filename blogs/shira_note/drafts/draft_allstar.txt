@@ -517,6 +517,10 @@
 <p>分単位の台本は公開されていないため時間帯はあくまで目安です。</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:paragraph -->
+<p>赤坂ミニマラソンの時間帯や距離、過去の結果は、<a href="https://shira-treat.com/allstar-marathon/">オールスター感謝祭 マラソンの記事</a>にまとめています。</p>
+<!-- /wp:paragraph -->
+
 <!-- wp:heading -->
 <h2>オールスター感謝祭の実際の流れ【放送後更新】</h2>
 <!-- /wp:heading -->

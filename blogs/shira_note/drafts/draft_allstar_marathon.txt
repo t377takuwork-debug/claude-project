@@ -1,0 +1,582 @@
+<!-- wp:paragraph -->
+タイトル：オールスター感謝祭2026秋 マラソンは何時から？出走者や距離、結果順位まとめ
+
+メタディスクリプション（95字）：
+オールスター感謝祭2026秋 マラソン（赤坂5丁目ミニマラソン）は何時から？過去3回の開始の目安や距離・前回の結果や順位・観覧の情報をまとめました。出走者は未発表で放送後に結果を更新します。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][title][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>2026年10月10日（土）放送のオールスター感謝祭 マラソン（赤坂5丁目ミニマラソン）は何時から始まかについてや、出走者・距離・前回の結果や順位もまとめました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 マラソン 速報ガイド" style="display: block; font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif; background: #ffffff; color: #333333; border: 1px solid #e0e0e0; border-radius: 4px; overflow: hidden; position: relative; max-width: 100%; margin: 10px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+
+  <div style="position: relative; background: #0a0b22; padding: 10px 15px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #f2c230;">
+    <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.1em; color: #f2c230;">赤坂5丁目ミニマラソン 2026秋</div>
+    <div style="display: flex; align-items: center; gap: 6px; font-size: 9px; font-weight: 600; color: #fff; border-left: 1px solid rgba(242, 194, 48, 0.4); padding-left: 10px; white-space: nowrap;">
+      10/10 放送分
+    </div>
+  </div>
+
+  <div style="position: relative; padding: 20px 12px; display: grid; gap: 15px;">
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; border: 1px solid #0a0b22; color: #0a0b22; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 2px;">放送日</div>
+      <div style="flex: 1;">
+        <span style="font-size: clamp(15.5px, calc(15.5px + (100vw - 480px) / 240), 20px); font-weight: 700; color: #0a0b22; display: block; margin-bottom: 4px; white-space: nowrap; letter-spacing: -0.02em;">2026.10.10 (土) 17:40 - 23:50</span>
+        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 6px;">
+          <span style="color: #e3262a; font-size: 10.5px; font-weight: 800;">TBS系 生放送</span>
+          <span style="color: #666; font-size: 10px;">オールスター感謝祭'26秋 放送70回記念SP</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; border: 1px solid #0a0b22; color: #0a0b22; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 1px;">発表状況</div>
+      <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">
+        マラソンの開始時刻・出走者は未発表
+        <div style="font-size: 10px; font-weight: 500; color: #666; margin-top: 3px;">過去3回の放送をもとにした目安を掲載</div>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; background: #d4a017; color: #fff; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 1px;">過去の目安</div>
+      <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">
+        21時前後にスタートして21時台にゴール
+        <div style="font-size: 10px; font-weight: 500; color: #666; margin-top: 3px;">報道の配信時刻などからの推定</div>
+      </div>
+    </div>
+
+    <div style="background: rgba(227, 38, 42, 0.04); border-left: 3px solid #e3262a; padding: 8px 10px;">
+      <div style="font-size: 10.5px; color: #e3262a; font-weight: 800; margin-bottom: 2px;">
+        距離：直近3回はどれも約5km
+      </div>
+      <div style="font-size: 9px; font-weight: 500; color: #888;">
+        前回（2026年春）の優勝は福山康平さん
+      </div>
+    </div>
+
+  </div>
+
+  <div style="background: #fcfcfc; padding: 10px 12px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #eee;">
+    <div style="color: #999; font-size: 9px;">Update: 2026.09.26</div>
+    <a href="#st-toc-h-1" style="display: inline-flex; align-items: center; background: #e3262a; color: #fff; text-decoration: none; font-size: 10.5px; font-weight: 800; padding: 5px 12px; border-radius: 20px; box-shadow: 0 4px 10px rgba(227, 38, 42, 0.2);">
+      詳細を確認 <span style="margin-left: 4px; font-size: 11px;">↓</span>
+    </a>
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][mokujimae][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>新しい追加情報などあり次第更新していきます！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>オールスター感謝祭 マラソンは何時から？【10/10】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"align":"center","className":"size-full"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://shira-treat.com/wp-content/uploads/2026/09/image-12.webp" alt="オールスター感謝祭2026秋 マラソンは何時から・出走者・距離"/><figcaption class="wp-element-caption"><a href="https://www.tbs.co.jp/kanshasai/">公式サイト</a>｜<a href="https://x.com/allstar_tbs">公式X(@allstar_tbs)</a></figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>2026秋の開始時刻はまだ発表されていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>過去3回を振り返るとだいたい21時前後にスタートして21時台にゴールしていたと思います。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>今回は番組の開始が午後5時40分と早めですが、同じ17:40スタートだった2025年春もマラソンのスタートは21:00頃でした。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 マラソン 過去3回の開始の目安" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(242, 194, 48, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 100%);">
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">2025年春（3/29）</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">21:00頃スタート</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">番組は17:40開始。20:45頃に中継が入って、結果記事は21:38頃でした。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">2025年秋（10/4）</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">21時前後にスタート</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">番組は18:30開始で結果記事は21:41に出ました。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d4a017;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">2026年春（4/4）</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">21時台前半にスタート</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">番組は18:30開始。20:54頃にコース紹介が入って、結果記事は21:43でした。</p>
+      </div>
+
+    </div>
+
+    <div style="margin-top: 10px; font-size: 10px; color: #a8a8c8; line-height: 1.6;">時刻は報道の配信時刻や視聴記録などからの推定です。</div>
+
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>公式の分刻みのタイムテーブルは出ていないのであくまで目安ですね。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>番組全体の流れは<a href="https://shira-treat.com/allstar-kanshasai-timetable/">オールスター感謝祭2026秋のタイムテーブル</a>にまとめています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>出走者は誰？発表状況【10/10】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>2026秋のマラソンの出走者もまだ発表されていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>9月26日に秋ドラマの俳優6名が第1弾として発表されましたが、マラソンに出るかどうかはまだ分からないんですよね。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>これまでに俳優・芸人・アイドル・マラソン日本代表クラスのランナーなどが走っています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>走力に応じてスタートに時間差（ハンデ）が付きます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>2026年春は吉田祐也さんが一般女子のスタートから約8分30秒遅れて走りました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>出走者が発表されたらこちらで更新していきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>赤坂5丁目ミニマラソンの距離とコース</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>距離は直近3回とも約5km（4.9〜5km）です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>2026年春は約4.9kmで、スタートは赤坂サカスの広場でした。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>コースには「心臓破りの坂」があり、2025年春はたしか6回上ったそうです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>2026秋のコースや距離もまだ発表されていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>結果・順位まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>マラソンの結果と順位です。2026秋の結果は放送後に書き足します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>2026秋の結果【放送後に更新】</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>放送が終わったら優勝者と順位をここに載せていきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>過去の結果（2026春・2025秋・2025春）</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 マラソン 過去の結果" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(242, 194, 48, 0.3); color: #fff;">
+
+  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 80%);">
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px;">
+
+      <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(242, 194, 48, 0.25); border-radius: 6px; padding: 12px;">
+        <div style="color: #f2c230; font-weight: 900; font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); margin-bottom: 8px;">2026年春（4/4）</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #eee; line-height: 1.9;">
+          1位　福山康平（初出場）<br>
+          2位　たける（東京ホテイソン）<br>
+          3位　吉田祐也<br>
+          4位　八村倫太郎（WATWING）<br>
+          5位　森脇健児<br>
+          6位　菅田琳寧（B&amp;ZAI）<br>
+          7位　猫ひろし<br>
+          8位　高橋成美（女子1位）
+        </div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(242, 194, 48, 0.25); border-radius: 6px; padding: 12px;">
+        <div style="color: #ff6b6e; font-weight: 900; font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); margin-bottom: 8px;">2025年春（3/29）</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #eee; line-height: 1.9;">
+          1位　森本裕介（SASUKE）<br>
+          2位　若林宏樹（48秒差）<br>
+          3位　渡邉蒼<br>
+          4位　ワタリ119<br>
+          5位　佐野文哉<br>
+          6位　宮岡良丞（SASUKE）<br>
+          7位　風見和香（女子1位）<br>
+          8位　猫ひろし
+        </div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(242, 194, 48, 0.25); border-radius: 6px; padding: 12px;">
+        <div style="color: #f2c230; font-weight: 900; font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); margin-bottom: 8px;">2025年秋（10/4）</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #eee; line-height: 1.9;">
+          1位　赤崎暁<br>
+          2位　雅久（aoen・19秒差）<br>
+          女子1位　坂下真心（NMB48・総合8位）
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>2025年秋の3〜7位は確認できていないので載せていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>2026年春は雨と風のなか福山康平さんが初出場で優勝しました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>吉田祐也さんは約8分30秒遅れのスタートから3位まで追い上げました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>観覧はできる？</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>現地で見てみたい方もいると思いますが、公式の募集や案内は見つかっていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>個人ブログなどには過去に沿道で見ていた人がいたと書かれています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>2026秋の案内も今のところ見つかっていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>観覧を考えるなら<a href="https://www.tbs.co.jp/kanshasai/">公式サイト</a>や<a href="https://x.com/allstar_tbs">公式X</a>の案内を確認して、周りの迷惑にならないようにしてくださいね。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>見逃し配信と全体のタイムテーブル</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><a href="https://tver.jp/series/srv8sdsc13">TVer</a>または<a href="https://cu.tbs.co.jp/program/28647">TBS FREE</a>で期間限定の見逃し配信が行われるようです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 マラソン 配信ガイド" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(242, 194, 48, 0.3); color: #fff;">
+
+  <div style="background: #050510; padding: 12px 15px; border-bottom: 2px solid #f2c230; text-align: center;">
+    <div style="font-size: 15px; font-weight: 900; letter-spacing: 0.1em; background: linear-gradient(135deg, #f2c230 0%, #ffffff 50%, #f2c230 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+      📺 配信ガイド
+    </div>
+  </div>
+
+  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 80%);">
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px;">
+
+      <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(242, 194, 48, 0.25); border-radius: 6px; padding: 12px;">
+        <div style="text-align: center; color: #f2c230; font-weight: 900; font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); margin-bottom: 10px;">リアルタイムで配信</div>
+        <a href="https://tver.jp/live/tbs" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; min-height: 40px; background: #ffffff; border-radius: 5px; text-decoration: none; box-sizing: border-box; padding: 6px 10px; margin-bottom: 8px;">
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 900; color: #0a0b22; line-height: 1.4; text-align: center;">TBS系リアルタイム配信 ▶</span>
+        </a>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(242, 194, 48, 0.25); border-radius: 6px; padding: 12px;">
+        <div style="text-align: center; color: #f2c230; font-weight: 900; font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); margin-bottom: 10px;">最新回を無料配信中</div>
+        <a href="https://cu.tbs.co.jp/program/28647" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; min-height: 40px; background: #ffffff; border-radius: 5px; text-decoration: none; box-sizing: border-box; padding: 6px 10px; margin-bottom: 8px;">
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 900; color: #0a0b22; line-height: 1.4;">TBS FREE</span>
+        </a>
+        <a href="https://tver.jp/series/srv8sdsc13" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; min-height: 40px; background: #ffffff; border-radius: 5px; text-decoration: none; box-sizing: border-box; padding: 6px 10px; margin-bottom: 8px;">
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 900; color: #0a0b22; line-height: 1.4;">TVer</span>
+        </a>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(242, 194, 48, 0.25); border-radius: 6px; padding: 12px;">
+        <div style="text-align: center; color: #f2c230; font-weight: 900; font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); margin-bottom: 10px;">これまでの配信はこちら</div>
+        <a href="https://px.a8.net/svt/ejp?a8mat=2ZWAMB+51LYIQ+3250+BW8O2&amp;a8ejpredirect=https%3A%2F%2Fwww.video.unext.jp%2Flp%2Fapi_data_not_found" target="_blank" rel="nofollow" style="display: flex; align-items: center; justify-content: center; min-height: 40px; background: #ffffff; border-radius: 5px; text-decoration: none; box-sizing: border-box; padding: 6px 10px; margin-bottom: 8px;">
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 900; color: #0a0b22; line-height: 1.4;">U-NEXT</span>
+          <span style="font-size: 9px; font-weight: 900; color: #999; border: 1px solid #ccc; border-radius: 2px; padding: 0 3px; margin-left: 8px;">PR</span>
+        </a>
+        <img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=2ZWAMB+51LYIQ+3250+BW8O2" alt="">
+      </div>
+
+    </div>
+
+    <div style="margin-top: 12px; text-align: center; font-size: 10px; color: #a8a8c8; line-height: 1.6;">※都合により視聴できない場合があります。U-NEXTのリンクは広告（PR）です。</div>
+
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>放送中はTVerのTBS系リアルタイム配信でも見られます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>マラソン以外の企画も知りたい方は<a href="https://shira-treat.com/allstar-kanshasai-timetable/">感謝祭全体のタイムテーブル</a>もどうぞ。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>よくある質問（FAQ）</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>オールスター感謝祭のマラソンについてよく検索される疑問に答えます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>何時から始まりますか？</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>2026秋の開始時刻は未発表です。過去3回は21時前後にスタートして21時台にゴールしていたようですが、時刻は報道の配信時刻などからの推定なので少し前後するかもしれません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>前回の優勝者は？</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>2026年春の優勝は初出場の福山康平さんでした。2位はたけるさん（東京ホテイソン）で、3位は吉田祐也さんでした。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>観覧はできますか？</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>公式の募集や案内は見つかっていません。2026秋の案内もまだ見つかっていないので公式サイトや公式Xで確認してくださいね。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>オールスター感謝祭 マラソンは過去3回とも21時前後にスタートして21時台にゴールしていたみたいです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>2026秋の開始時刻と出走者はまだ発表されていません。距離は直近3回とも約5kmでした。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>前回（2026年春）の優勝は福山康平さんでした。観覧は公式の案内が見つかっていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>放送後に2026秋の結果を書き足していくのでぜひまた見に来てくださいね。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:shortcode -->
+<!-- MANUAL_JSONLD -->
+[jsonld]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://shira-treat.com/allstar-marathon/#post",
+      "url": "https://shira-treat.com/allstar-marathon/",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://shira-treat.com/allstar-marathon/"
+      },
+      "headline": "オールスター感謝祭2026秋 マラソンは何時から？出走者や距離、結果順位まとめ",
+      "description": "オールスター感謝祭2026秋 マラソン（赤坂5丁目ミニマラソン）は何時から？過去3回の開始の目安や距離・前回の結果や順位・観覧の情報をまとめました。出走者は未発表で放送後に結果を更新します。",
+      "keywords": [
+        "オールスター感謝祭 マラソン",
+        "オールスター感謝祭 マラソン 何時から",
+        "オールスター感謝祭 マラソン 出走者",
+        "オールスター感謝祭 マラソン 距離",
+        "オールスター感謝祭 マラソン 結果",
+        "オールスター感謝祭 マラソン 順位",
+        "オールスター感謝祭 マラソン 観覧",
+        "赤坂5丁目ミニマラソン"
+      ],
+      "datePublished": "2026-09-26T12:00:00+09:00",
+      "dateCreated": "2026-09-26T12:00:00+09:00",
+      "dateModified": "2026-09-26T12:00:00+09:00",
+      "inLanguage": "ja",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://shira-treat.com/allstar-marathon/#primaryimage",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/09/image-13.webp",
+        "width": 1200,
+        "height": 675
+      },
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/09/image-13.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/operator-information/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/",
+        "sameAs": ["https://x.com/ShiraNotes_"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "articleSection": "オールスター感謝祭",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "赤坂5丁目ミニマラソン（オールスター感謝祭の企画）",
+          "sameAs": "https://www.tbs.co.jp/kanshasai/"
+        },
+        {
+          "@type": "Thing",
+          "name": "オールスター感謝祭 マラソン"
+        }
+      ],
+      "hasPart": [
+        { "@id": "https://shira-treat.com/allstar-marathon/#broadcast" },
+        { "@id": "https://shira-treat.com/allstar-marathon/#result2026spring" },
+        { "@id": "https://shira-treat.com/allstar-marathon/#faq" },
+        { "@id": "https://shira-treat.com/allstar-marathon/#breadcrumb" }
+      ]
+    },
+    {
+      "@type": "BroadcastEvent",
+      "@id": "https://shira-treat.com/allstar-marathon/#broadcast",
+      "name": "オールスター感謝祭'26秋 放送70回記念SP（2026年10月10日放送）",
+      "startDate": "2026-10-10T17:40:00+09:00",
+      "endDate": "2026-10-10T23:50:00+09:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "isLiveBroadcast": true,
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "description": "TBS系で2026年10月10日に生放送される、放送70回記念のクイズ特番。名物企画の赤坂ミニマラソンが案内されている。",
+      "image": "https://shira-treat.com/wp-content/uploads/2026/09/image-13.webp",
+      "broadcaster": {
+        "@type": "Organization",
+        "name": "TBSテレビ",
+        "sameAs": "https://www.tbs.co.jp/"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://shira-treat.com/allstar-marathon/#result2026spring",
+      "name": "オールスター感謝祭'26春 赤坂5丁目ミニマラソン 順位（8位まで）",
+      "numberOfItems": 8,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "福山康平" },
+        { "@type": "ListItem", "position": 2, "name": "たける（東京ホテイソン）" },
+        { "@type": "ListItem", "position": 3, "name": "吉田祐也" },
+        { "@type": "ListItem", "position": 4, "name": "八村倫太郎（WATWING）" },
+        { "@type": "ListItem", "position": 5, "name": "森脇健児" },
+        { "@type": "ListItem", "position": 6, "name": "菅田琳寧（B&ZAI）" },
+        { "@type": "ListItem", "position": 7, "name": "猫ひろし" },
+        { "@type": "ListItem", "position": 8, "name": "高橋成美" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://shira-treat.com/allstar-marathon/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "何時から始まりますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2026秋の開始時刻は未発表です。過去3回は21時前後にスタートして21時台にゴールしていたようですが、時刻は報道の配信時刻などからの推定なので少し前後するかもしれません。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "前回の優勝者は？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2026年春の優勝は初出場の福山康平さんでした。2位はたけるさん（東京ホテイソン）で、3位は吉田祐也さんでした。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "観覧はできますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "公式の募集や案内は見つかっていません。2026秋の案内もまだ見つかっていないので公式サイトや公式Xで確認してくださいね。"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://shira-treat.com/allstar-marathon/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://shira-treat.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "タイムテーブル",
+          "item": "https://shira-treat.com/category/timetable/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "オールスター感謝祭 マラソン",
+          "item": "https://shira-treat.com/allstar-marathon/"
+        }
+      ]
+    }
+  ]
+}
+[/jsonld]
+<!-- /wp:shortcode -->
