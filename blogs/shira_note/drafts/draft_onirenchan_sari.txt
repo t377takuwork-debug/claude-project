@@ -1,0 +1,518 @@
+<!-- wp:paragraph -->
+タイトル：鬼レンチャン SARIは誰？9/27の挑戦者｜ZARD激似モノマネ
+
+メタディスクリプション（103字）：
+ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27（日）放送の「千鳥の鬼レンチャン」サビだけカラオケにリベンジ参戦。プロフィールや過去の出演・見どころ・放送日時・見逃し配信をまとめました。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][title][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>9/27（日）放送の「千鳥の鬼レンチャン」にリベンジ参戦するSARIさんが誰なのかをまとめました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>プロフィールと過去の出演・放送日時・見逃し配信を載せています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="鬼レンチャン SARI 速報ガイド" style="display: block; font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif; background: #ffffff; color: #333333; border: 1px solid #ead3ce; border-radius: 4px; overflow: hidden; position: relative; max-width: 100%; margin: 10px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+
+  <div style="position: relative; background: #2b4288; padding: 10px 15px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #d94c63;">
+    <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.1em; color: #ffe3e8;">千鳥の鬼レンチャン サビだけカラオケ</div>
+    <div style="display: flex; align-items: center; gap: 6px; font-size: 9px; font-weight: 600; color: #fff; border-left: 1px solid rgba(255, 255, 255, 0.5); padding-left: 10px; white-space: nowrap;">
+      9/27 放送分
+    </div>
+  </div>
+
+  <div style="position: relative; padding: 20px 12px; display: grid; gap: 15px;">
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; border: 1px solid #2b4288; color: #2b4288; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 2px;">放送日</div>
+      <div style="flex: 1;">
+        <span style="font-size: clamp(15.5px, calc(15.5px + (100vw - 480px) / 240), 20px); font-weight: 700; color: #2b4288; display: block; margin-bottom: 4px; white-space: nowrap; letter-spacing: -0.02em;">2026.09.27 (日) 19:00 - 21:00</span>
+        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 6px;">
+          <span style="color: #d94c63; font-size: 10.5px; font-weight: 800;">フジテレビ</span>
+          <span style="color: #666; font-size: 10px;">千鳥の鬼レンチャン</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; border: 1px solid #2b4288; color: #2b4288; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 1px;">挑戦者</div>
+      <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">
+        4名が発表済み
+        <div style="font-size: 10px; font-weight: 500; color: #666; margin-top: 3px;">サビだけカラオケにリベンジ参戦</div>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; background: #2f51b7; color: #fff; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 1px;">人物</div>
+      <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">
+        ZARD激似モノマネ
+        <div style="font-size: 10px; font-weight: 500; color: #666; margin-top: 3px;">1998年生まれ・神奈川県出身</div>
+      </div>
+    </div>
+
+    <div style="background: rgba(217, 76, 99, 0.06); border-left: 3px solid #d94c63; padding: 8px 10px;">
+      <div style="font-size: 10.5px; color: #d94c63; font-weight: 800; margin-bottom: 2px;">
+        結果：放送後に更新
+      </div>
+      <div style="font-size: 9px; font-weight: 500; color: #888;">
+        リベンジの結果を書き足します
+      </div>
+    </div>
+
+  </div>
+
+  <div style="background: #fcfcfc; padding: 10px 12px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #eee;">
+    <div style="color: #999; font-size: 9px;">Update: 2026.09.26</div>
+    <a href="#st-toc-h-1" style="display: inline-flex; align-items: center; background: #d94c63; color: #fff; text-decoration: none; font-size: 10.5px; font-weight: 800; padding: 5px 12px; border-radius: 20px; box-shadow: 0 4px 10px rgba(217, 76, 99, 0.2);">
+      詳細を確認 <span style="margin-left: 4px; font-size: 11px;">↓</span>
+    </a>
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][mokujimae][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>結果など新しい情報はあり次第更新していきます！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>鬼レンチャンに出演のSARIとは誰？</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>サビだけカラオケを観て「この人は誰？」と検索した方も多いと思います。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>SARIさんはZARDの歌声にそっくりなものまねで知られるタレントです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<center><blockquote class="instagram-media" data-instgrm-captioned="" data-instgrm-permalink="https://www.instagram.com/p/Ddgim1uTw-0/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/Ddgim1uTw-0/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">この投稿をInstagramで見る</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/Ddgim1uTw-0/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">SARIスタッフ(@sari_staff_88)がシェアした投稿</a></p></div></blockquote>
+<script async="" src="//www.instagram.com/embed.js"></script></center>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="SARI プロフィール" style="display: block; font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif; background: #ffffff; color: #333333; border: 1px solid #ead3ce; border-radius: 4px; overflow: hidden; max-width: 100%; margin: 10px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+
+  <div style="background: #2b4288; padding: 10px 15px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #d94c63;">
+    <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.1em; color: #ffe3e8;">SARI プロフィール</div>
+  </div>
+
+  <div style="padding: 16px 12px; display: grid; gap: 10px;">
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 9px; font-weight: 700; border: 1px solid #2b4288; color: #2b4288; padding: 2px 4px; width: 56px; text-align: center; box-sizing: border-box;">特徴</div>
+      <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">ZARDのものまね</div>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 9px; font-weight: 700; border: 1px solid #2b4288; color: #2b4288; padding: 2px 4px; width: 56px; text-align: center; box-sizing: border-box;">生年月日</div>
+      <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">1998年11月20日</div>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 9px; font-weight: 700; border: 1px solid #2b4288; color: #2b4288; padding: 2px 4px; width: 56px; text-align: center; box-sizing: border-box;">年齢</div>
+      <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">27歳（2026年9月時点）</div>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 9px; font-weight: 700; border: 1px solid #2b4288; color: #2b4288; padding: 2px 4px; width: 56px; text-align: center; box-sizing: border-box;">出身</div>
+      <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">神奈川県</div>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 9px; font-weight: 700; border: 1px solid #2b4288; color: #2b4288; padding: 2px 4px; width: 56px; text-align: center; box-sizing: border-box;">旧名義</div>
+      <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">柴山サリー（2024年5月に「SARI」へ改名）</div>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 9px; font-weight: 700; border: 1px solid #2b4288; color: #2b4288; padding: 2px 4px; width: 56px; text-align: center; box-sizing: border-box;">経歴</div>
+      <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">2018年からテレビに出演</div>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 9px; font-weight: 700; border: 1px solid #2b4288; color: #2b4288; padding: 2px 4px; width: 56px; text-align: center; box-sizing: border-box;">出演歴</div>
+      <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">2024年3月10日・2025年3月16日（今回で3回目）</div>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 9px; font-weight: 700; border: 1px solid #2b4288; color: #2b4288; padding: 2px 4px; width: 56px; text-align: center; box-sizing: border-box;">最高記録</div>
+      <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">9レンチャン</div>
+    </div>
+
+  </div>
+
+  <div style="background: #fcfcfc; padding: 8px 12px; border-top: 1px solid #eee; color: #999; font-size: 9px; line-height: 1.6;">Wikipediaと公式サイトの記載をもとにしています。</div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>きっかけは高校時代のYouTubeで、ZARDの曲を歌ってみたところ声が坂井泉水さんに似ていると話題になったことでした。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>今もテレビだけでなくYouTubeやライブで歌い続けています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>サビだけカラオケは何時から？リベンジ参戦の見どころ【9/27】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"align":"center","className":"size-full"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://shira-treat.com/wp-content/uploads/2026/09/image-15.webp" alt="鬼レンチャンに出ている人が誰なのか？" class="wp-image-6966"/><figcaption class="wp-element-caption">参考：<a href="https://www.fujitv.co.jp/oniren/">公式サイト</a>｜<a href="https://x.com/oni_renchan">公式X(@oni_renchan)</a></figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>フジテレビで9月27日（日）の19:00〜21:00に放送されます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="9/27放送 サビだけカラオケの挑戦者" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #f9ede9; border: 1px solid #d94c63; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(217, 76, 99, 0.15); color: #333333; max-width: 800px;">
+  <div style="padding: 12px;">
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px;">
+
+      <div style="background: #ffffff; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #2f51b7;">
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800; color: #2b4288;">佐々木大光（KEY TO LIT）</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">サビだけカラオケに初参戦。今冬CDデビューが決まっています。</p>
+      </div>
+
+      <div style="background: #ffffff; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d94c63;">
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800; color: #2b4288;">SARI</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">ZARD激似モノマネで最高9レンチャンの記録があります。</p>
+      </div>
+
+      <div style="background: #ffffff; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #2f51b7;">
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800; color: #2b4288;">せいや（霜降り明星）</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">最高8レンチャンの記録があり「石川晟也」名義で歌手デビューしています。</p>
+      </div>
+
+      <div style="background: #ffffff; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #2f51b7;">
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800; color: #2b4288;">ダイアナ・ガーネット</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">アメリカ出身のアニソン歌手で今回が初参戦です。</p>
+      </div>
+
+    </div>
+
+    <div style="margin-top: 10px; font-size: 10px; color: #8a6f6a; line-height: 1.6;">公式サイトの表記に合わせて五十音順に並べています。</div>
+
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>公式Xによると前回はスタジオからリアクションが薄いと指摘されていて今回はリアクションとトークの改善に取り組んだそうです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>今回はZARD以外のものまねでも挑戦するようでどんな曲になるのか気になりますね。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>詳しい情報は<a href="https://www.fujitv.co.jp/oniren/">公式サイト</a>や<a href="https://x.com/oni_renchan">公式X</a>で見られます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>リベンジの結果は？SARIは何レンチャン？歌った曲【放送後に更新】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>リベンジの結果はまだ出ていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>放送が終わったら何レンチャンだったかと歌った曲をここに載せます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>鬼レンチャンの見逃し配信はある？</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>見逃した方向けにTVer・FOD・Netflixでの配信が公式Xで案内されています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="千鳥の鬼レンチャン 配信ガイド" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #f9ede9; border: 1px solid #d94c63; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(217, 76, 99, 0.15); color: #333333;">
+
+  <div style="background: #2b4288; padding: 12px 15px; border-bottom: 2px solid #d94c63; text-align: center;">
+    <div style="font-size: 15px; font-weight: 900; letter-spacing: 0.1em; color: #ffffff;">
+      📺 配信ガイド
+    </div>
+  </div>
+
+  <div style="padding: 15px;">
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px;">
+
+      <div style="background: #ffffff; border: 1px solid #e6c9c9; border-radius: 6px; padding: 12px;">
+        <div style="text-align: center; color: #2b4288; font-weight: 900; font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); margin-bottom: 10px;">リアルタイムで配信</div>
+        <a href="https://tver.jp/live/simul/le4cms03h6" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; min-height: 40px; background: #2b4288; border-radius: 5px; text-decoration: none; box-sizing: border-box; padding: 6px 10px; margin-bottom: 8px;">
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 900; color: #ffffff; line-height: 1.4; text-align: center;">TVerのリアルタイム配信 ▶</span>
+        </a>
+      </div>
+
+      <div style="background: #ffffff; border: 1px solid #e6c9c9; border-radius: 6px; padding: 12px;">
+        <div style="text-align: center; color: #2b4288; font-weight: 900; font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); margin-bottom: 10px;">見逃し配信はこちら</div>
+        <a href="https://tver.jp/series/srytsco4k7" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; min-height: 40px; background: #2b4288; border-radius: 5px; text-decoration: none; box-sizing: border-box; padding: 6px 10px; margin-bottom: 8px;">
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 900; color: #ffffff; line-height: 1.4;">TVer</span>
+        </a>
+        <a href="https://fod.fujitv.co.jp/title/2805/" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; min-height: 40px; background: #2b4288; border-radius: 5px; text-decoration: none; box-sizing: border-box; padding: 6px 10px; margin-bottom: 8px;">
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 900; color: #ffffff; line-height: 1.4;">FOD</span>
+        </a>
+      </div>
+
+
+    </div>
+
+    <div style="margin-top: 12px; text-align: center; font-size: 10px; color: #8a6f6a; line-height: 1.6;">※都合により視聴できない場合があります。</div>
+
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>リアルタイムで観たいときはTVerの配信を使えるようです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>よくある質問（FAQ）</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3>SARIは誰？</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>ZARDのものまねで注目されているタレントです。きっかけはYouTubeに投稿した歌ってみた動画でした。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>鬼レンチャンは何回目の出演？</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>今回が3回目です。過去には2024年3月10日と2025年3月16日に出演していて今回はリベンジ参戦と案内されています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>サビだけカラオケとはどんな企画？</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>名曲のサビだけを一音も外さずに10曲連続で歌う企画です。スタジオでは千鳥とかまいたちが何レンチャンできるかを予想して、選んだ挑戦者でチームを作り合計のレンチャン数で勝敗を競います。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>【まとめ】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>SARIさんは1998年生まれで神奈川県出身のものまねタレントです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>9月27日（日）のサビだけカラオケにリベンジ参戦します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>ほかの挑戦者は佐々木大光さん・せいやさん・ダイアナ・ガーネットさんです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>リベンジの結果は放送後に書き足しますのでまた見に来てくださいね。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:shortcode -->
+<!-- MANUAL_JSONLD -->
+[jsonld]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://shira-treat.com/sari-onirenchan/#post",
+      "url": "https://shira-treat.com/sari-onirenchan/",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://shira-treat.com/sari-onirenchan/"
+      },
+      "headline": "鬼レンチャン SARIは誰？9/27の挑戦者｜ZARD激似モノマネ",
+      "description": "ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27（日）放送の「千鳥の鬼レンチャン」サビだけカラオケにリベンジ参戦。プロフィールや過去の出演・見どころ・放送日時・見逃し配信をまとめました。",
+      "keywords": [
+        "SARI",
+        "SARI 鬼レンチャン",
+        "鬼レンチャン SARI",
+        "SARI ZARD モノマネ",
+        "SARI 柴山サリー",
+        "鬼レンチャン サビだけカラオケ",
+        "千鳥の鬼レンチャン 挑戦者"
+      ],
+      "datePublished": "2026-09-26T21:30:00+09:00",
+      "dateCreated": "2026-09-26T21:30:00+09:00",
+      "dateModified": "2026-09-26T21:30:00+09:00",
+      "inLanguage": "ja",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://shira-treat.com/sari-onirenchan/#primaryimage",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/09/image-18.webp",
+        "width": 1200,
+        "height": 675
+      },
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/09/image-18.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/operator-information/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/",
+        "sameAs": ["https://x.com/ShiraNotes_"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "articleSection": "千鳥の鬼レンチャン",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "千鳥の鬼レンチャン サビだけカラオケ",
+          "sameAs": "https://www.fujitv.co.jp/oniren/"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "Person",
+          "name": "SARI"
+        }
+      ],
+      "hasPart": [
+        { "@id": "https://shira-treat.com/sari-onirenchan/#broadcast" },
+        { "@id": "https://shira-treat.com/sari-onirenchan/#challengers" },
+        { "@id": "https://shira-treat.com/sari-onirenchan/#faq" },
+        { "@id": "https://shira-treat.com/sari-onirenchan/#breadcrumb" }
+      ]
+    },
+    {
+      "@type": "BroadcastEvent",
+      "@id": "https://shira-treat.com/sari-onirenchan/#broadcast",
+      "name": "千鳥の鬼レンチャン（2026年9月27日放送）",
+      "startDate": "2026-09-27T19:00:00+09:00",
+      "endDate": "2026-09-27T21:00:00+09:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "isLiveBroadcast": false,
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://www.fujitv.co.jp/oniren/"
+      },
+      "description": "フジテレビで2026年9月27日に放送される「サビだけカラオケ」の回。ZARDのものまねで知られるSARIがリベンジ参戦する。",
+      "image": "https://shira-treat.com/wp-content/uploads/2026/09/image-18.webp",
+      "broadcaster": {
+        "@type": "Organization",
+        "name": "フジテレビ",
+        "sameAs": "https://www.fujitv.co.jp/"
+      },
+      "performer": [
+        { "@type": "Person", "name": "佐々木大光" },
+        { "@type": "Person", "name": "SARI" },
+        { "@type": "Person", "name": "せいや" },
+        { "@type": "Person", "name": "ダイアナ・ガーネット" }
+      ],
+      "potentialAction": {
+        "@type": "WatchAction",
+        "target": "https://tver.jp/live/simul/le4cms03h6"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://shira-treat.com/sari-onirenchan/#challengers",
+      "name": "9/27放送 サビだけカラオケの挑戦者",
+      "numberOfItems": 4,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "佐々木大光（KEY TO LIT）" },
+        { "@type": "ListItem", "position": 2, "name": "SARI" },
+        { "@type": "ListItem", "position": 3, "name": "せいや（霜降り明星）" },
+        { "@type": "ListItem", "position": 4, "name": "ダイアナ・ガーネット" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://shira-treat.com/sari-onirenchan/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "SARIは誰？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ZARDのものまねで注目されているタレントです。きっかけはYouTubeに投稿した歌ってみた動画でした。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "鬼レンチャンは何回目の出演？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "今回が3回目です。過去には2024年3月10日と2025年3月16日に出演していて今回はリベンジ参戦と案内されています。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "サビだけカラオケとはどんな企画？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "名曲のサビだけを一音も外さずに10曲連続で歌う企画です。スタジオでは千鳥とかまいたちが何レンチャンできるかを予想して、選んだ挑戦者でチームを作り合計のレンチャン数で勝敗を競います。"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://shira-treat.com/sari-onirenchan/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://shira-treat.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "記事",
+          "item": "https://shira-treat.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "鬼レンチャン SARI",
+          "item": "https://shira-treat.com/sari-onirenchan/"
+        }
+      ]
+    }
+  ]
+}
+[/jsonld]
+<!-- /wp:shortcode -->

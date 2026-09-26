@@ -14,14 +14,18 @@
 項目の意味は .claude/commands/onirenchan-article.md の「入力ファイル」を参照。
 """
 import argparse
+import difflib
+import hashlib
 import json
 import os
+import re
 import subprocess
 import sys
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SITE = "https://shira-treat.com/"
+MORE_INFO_DEFAULT = "詳しい情報は"
 FONT_A = "'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif"
 FONT_B = "'Hiragino Kaku Gothic ProN', sans-serif"
 FS_CARD = "clamp(11px, calc(11px + (100vw - 480px) / 360), 13px)"
@@ -461,43 +465,53 @@ def build(b, pr):
     blocks.append("<!-- wp:paragraph -->\nタイトル：" + title + "\n\nメタディスクリプション（"
                   + str(len(meta)) + "字）：\n" + meta + "\n<!-- /wp:paragraph -->")
     blocks.append(p("[nopc][title][/nopc]"))
-    blocks.append(p(pr["lead"]))
+    lead = pr["lead"] if isinstance(pr["lead"], list) else [pr["lead"]]
+    blocks += [p(t) for t in lead]
     blocks.append(quick_guide(b, pr, name, md, date_dot, upd))
     blocks.append(p("[nopc][mokujimae][/nopc]"))
     blocks.append(p(b["update_promise"]))
 
-    blocks.append(h2(f"鬼レンチャン {name}は誰？"))
+    blocks.append(h2(pr.get("h2_who", f"鬼レンチャンに出演の{name}とは誰？")))
     emb = embed_block(pr)
-    if emb:
+    emb_top = pr.get("embed_position", "intro") == "h2"
+    if emb and emb_top:
         blocks.append(emb)
     blocks += [p(t) for t in pr["intro"]]
+    if emb and not emb_top:
+        blocks.append(emb)
     blocks.append(profile_card(pr, name))
     blocks += [p(t) for t in pr["after_profile"]]
 
-    blocks.append(h2(f"サビだけカラオケは何時から？挑戦者と見どころ【{md}】"))
+    blocks.append(h2(pr.get("h2_when", f"サビだけカラオケは何時から？挑戦者と見どころ【{md}】")))
     blocks.append("<!-- wp:image {\"align\":\"center\",\"className\":\"size-full\"} -->\n"
                   '<figure class="wp-block-image aligncenter size-full"><img src="' + pr["image_src"]
-                  + '" alt="' + pr["image_alt"] + '"/><figcaption class="wp-element-caption">参考：<a href="'
+                  + '" alt="' + pr["image_alt"] + '"'
+                  + (' class="wp-image-%s"' % pr["image_id"] if pr.get("image_id") else "")
+                  + '/><figcaption class="wp-element-caption">参考：<a href="'
                   + b["official_url"] + '">公式サイト</a>｜<a href="' + b["x_url"] + '">公式X('
                   + b["x_handle"] + ")</a></figcaption></figure>\n<!-- /wp:image -->")
-    blocks.append(p(f'放送は{int(m)}月{int(dd)}日（{wd}）の{b["start"]}〜{b["end"]}で{b["channel"]}です。'))
+    blocks.append(p(pr.get("when_first",
+                           f'放送は{int(m)}月{int(dd)}日（{wd}）の{b["start"]}〜{b["end"]}で{b["channel"]}です。')))
     blocks += [p(t) for t in pr["when"]]
     blocks.append(challenger_cards(b, name, md))
     blocks += [p(t) for t in pr["after_challengers"]]
-    blocks.append(p('詳しい案内は<a href="' + b["official_url"] + '">公式サイト</a>や<a href="'
+    blocks.append(p(pr.get("more_info", MORE_INFO_DEFAULT) + '<a href="' + b["official_url"] + '">公式サイト</a>や<a href="'
                     + b["x_url"] + '">公式X</a>で見られます。'))
     blocks.append(p("[nopc][originalsc][/nopc]"))
 
-    blocks.append(h2(f"{name}は何レンチャン？歌った曲と結果{suffix}"))
+    blocks.append(h2(pr.get("h2_result", f"{name}は何レンチャン？歌った曲と結果{{suffix}}")
+                     .replace("{suffix}", suffix)))
     blocks += [p(t) for t in pr["result"]["paragraphs"]]
 
     blocks.append(h2("鬼レンチャンの見逃し配信はある？"))
-    blocks.append(p(v["lead"]))
+    blocks.append(p(pr.get("vod_lead", v["lead"])))
     blocks.append(vod_guide(b))
-    blocks.append(p(v["after"]))
+    blocks.append(p(pr.get("vod_after", v["after"])))
 
     blocks.append(h2("よくある質問（FAQ）"))
-    blocks.append(p(f"{name}さんについてよく検索されそうな疑問に答えます。"))
+    faq_lead = pr.get("faq_lead", f"{name}さんについてよく検索されそうな疑問に答えます。")
+    if faq_lead:
+        blocks.append(p(faq_lead))
     for q, a in ctx["faq"]:
         blocks.append(h3(q))
         blocks.append(p(a))
@@ -508,12 +522,61 @@ def build(b, pr):
     return "\n\n".join(blocks) + "\n", title
 
 
+# ---------------------------------------------------------------- 使いまわしの検出
+
+def visible_sentences(text):
+    """本文の見出し・段落を取り出す（コード部品・構造化データ・ショートコードは除く）"""
+    body = text[: text.index("<!-- wp:shortcode -->")]
+    body = re.sub(r"<!-- wp:html -->.*?<!-- /wp:html -->", "", body, flags=re.S)
+    out = []
+    for s in re.findall(r"<(?:p|h2|h3)>(.*?)</(?:p|h2|h3)>", body, re.S):
+        s = re.sub(r"<[^>]+>", "", s).strip()
+        if s and not s.startswith("[nopc]"):
+            out.append(s)
+    return out
+
+
+def norm(s, name):
+    return s.replace(name + "さん", "◯さん").replace(name, "◯")
+
+
+def reuse_check(b, pr, text, person_path):
+    """同じ放送回の他の人物ファイルと、人名を除いて同じ文になっていないかを調べる。
+    型として決まっている固定の文（放送回で共通の文・型の見出し）は数えない。"""
+    name = pr["name"]
+    v = b["vod"]
+    fc = b.get("faq_common", FAQ_COMMON)
+    ok = {b["update_promise"], v["lead"], v["after"], fc["q"], fc["a"], "よくある質問（FAQ）", "【まとめ】",
+          "鬼レンチャンの見逃し配信はある？", pr.get("more_info", MORE_INFO_DEFAULT) + "公式サイトや公式Xで見られます。",
+          f"鬼レンチャンに出演の{name}とは誰？", f"{name}は誰？"}
+    ok = {norm(x, name) for x in ok}
+    mine = {norm(s, name) for s in visible_sentences(text)} - ok
+    folder = os.path.dirname(os.path.abspath(person_path))
+    found = []
+    for fn in sorted(os.listdir(folder)):
+        full = os.path.join(folder, fn)
+        if (not fn.endswith(".json") or fn.startswith(("example_", "broadcast_"))
+                or os.path.samefile(full, person_path)):
+            continue
+        try:
+            with open(full, encoding="utf-8") as f:
+                other = json.load(f)
+            other_text, _ = build(b, other)
+        except (SystemExit, KeyError, ValueError, OSError):
+            continue
+        same = sorted(mine & {norm(s, other["name"]) for s in visible_sentences(other_text)})
+        if same:
+            found.append((other.get("file", fn), same))
+    return found
+
+
 def main():
     ap = argparse.ArgumentParser(description="鬼レンチャン人物記事の下書きを作る")
     ap.add_argument("broadcast", help="放送回ファイル（json）")
     ap.add_argument("person", help="人物ファイル（json）")
     ap.add_argument("-o", "--output", help="出力先（省略時 drafts/draft_onirenchan_{file}.txt）")
     ap.add_argument("--no-qa", action="store_true", help="作成後の検品を省く")
+    ap.add_argument("--force", action="store_true", help="直接編集された下書きでも上書きする")
     a = ap.parse_args()
     with open(a.broadcast, encoding="utf-8") as f:
         b = json.load(f)
@@ -522,10 +585,50 @@ def main():
     text, title = build(b, pr)
     out = os.path.abspath(a.output) if a.output else os.path.join(
         BASE, "drafts", f"draft_onirenchan_{pr['file']}.txt")
+    # 下書きを直接編集した内容を、作り直しで消さないための確認
+    sidecar_dir = os.path.join(BASE, "tools", "output", "onirenchan_built")
+    sidecar = os.path.join(sidecar_dir, os.path.basename(out) + ".sha1")
+
+    def sha(s):
+        return hashlib.sha1(s.encode("utf-8")).hexdigest()
+
+    if os.path.exists(out) and not a.force:
+        with open(out, encoding="utf-8", newline="") as f:
+            current = f.read()
+        if current != text:
+            last = None
+            if os.path.exists(sidecar):
+                with open(sidecar, encoding="utf-8") as f:
+                    last = f.read().strip()
+            if last != sha(current):
+                print(f"[停止] {os.path.basename(out)} は、前回このプログラムが作った内容と違います（直接編集された可能性）。")
+                print("       このまま作り直すと、直接直した内容が消えます。先に差分を入力ファイルへ反映してください。")
+                diff = list(difflib.unified_diff(current.splitlines(), text.splitlines(),
+                                                 "今の下書き", "作り直した内容", lineterm="", n=0))
+                for line in diff[:40]:
+                    print("  " + line[:160])
+                if len(diff) > 40:
+                    print(f"  …（差分は全部で{len(diff)}行）")
+                print("       消えてよいときだけ --force を付けて実行してください。")
+                sys.exit(2)
     with open(out, "w", encoding="utf-8", newline="\n") as f:
         f.write(text)
+    os.makedirs(sidecar_dir, exist_ok=True)
+    with open(os.path.join(sidecar_dir, ".gitignore"), "w", encoding="utf-8", newline="\n") as f:
+        f.write("*\n!.gitignore\n")
+    with open(sidecar, "w", encoding="utf-8", newline="\n") as f:
+        f.write(sha(text) + "\n")
     print(f"作成: {out}")
     print(f"タイトル: {title}（{len(title)}字）")
+    dups = reuse_check(b, pr, text, a.person)
+    if dups:
+        print("\n[使いまわしの疑い] 他の人物と、人名を除いて同じ文があります。人物ごとの角度で書き直してください:")
+        for other, same in dups:
+            print(f"  ・{other} と同じ文 {len(same)}件")
+            for s in same[:12]:
+                print(f"      「{s}」")
+    else:
+        print("使いまわしチェック: 他の人物と同じ文はありません")
     if a.no_qa:
         return
     drafts = os.path.join(BASE, "drafts")
