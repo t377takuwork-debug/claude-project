@@ -18,6 +18,17 @@
 <!-- /wp:paragraph -->
 ```
 
+**検索語重視の型（音楽番組以外の特番・年2回の番組など。2026-09-26 オールスター感謝祭でオーナーが選定）**：
+
+```
+タイトル：{番組名}{年}{季節}のタイムテーブル｜何時から？出演者一覧・最新情報
+メタディスクリプション（{n}字）：
+{番組名}{年}{季節}（{年月日}・{放送局}）のタイムテーブル。{開始時刻}スタートの生放送について、出演者や{目玉企画}など企画の順番の目安を更新しています。
+```
+
+- 番組名の直後に「{年}{季節}」を付け、「タイムテーブル」を隣接させる（3章）。数値・人数は入れない。メタには「順番」か「出演順」を必ず入れる
+- メタの字数は書いた後にPowerShellで実測して申告値と一致させる（`qa_draft.py`が不一致をWARNにする）
+
 ## 2. リード文（`[nopc][title]` 直後。冒頭にコード＝asideが入るため短く）
 
 **推奨は「この記事の守備範囲を述べる1文」1段落**（2026-09-01 `rewrite_common_rules.md` 2章で型化）。狙う検索クエリを自然な名詞の並びで織り込む。ハイプ・「速報」「リアルタイム更新」・CTA・「〜は？」の疑問断片は冒頭第一文に入れない。中黒でKWを羅列した見出し的な文にしない。
@@ -33,6 +44,8 @@
 ```
 
 情報量が要る番組は2文目（別段落）で「{月}月{日}日の{番組名}は『{テーマ名}』。{注目アーティスト}が出演します。」を足してよいが、更新告知の段落は作らない。
+
+**締め文（`[nopc][mokujimae][/nopc]` 直後）の型（2026-09-26オーナー確定）**：見どころ1文＋「新しい追加情報などあり次第更新していきます！」を別々の段落に。前回との違い（開始時刻が早い等）は、冒頭の2段落目ではなく、この締め文に足す。読点・段落分割の好みは`rewrite_common_rules.md` 16章。
 
 ## 3. aside「最新情報」（1枚のみ・固定パターン）
 
@@ -93,13 +106,16 @@
 ## 4. H2：{番組名}最新タイムテーブル【{月}/{日}】
 
 - 歌唱曲・出演順が**確定済み**の場合：Mステ型の時間帯カード（`aria-label="{番組名} タイムテーブル（{日付}）"`のdiv内に、1件あたり時刻＋アーティスト名＋曲名バッジのブロックを出演者数分繰り返す）
-- **未発表**の場合：時間帯カードは作らず、「未発表」バッジ＋通知文のみのブロック1つにする（`rewrite_common_rules.md`の「事前発表は特番/通常回で決まる」ルールを確認してから判断する）
+- **未発表**の場合：放送枠が決まっていれば、「未発表」バッジ＋放送枠のブロック1つのあとに、**時間帯ごとのH3（例：「17：40～（予想）」「18：00～（予想）」…放送終了の時間台まで）と「予想」カード**を置く（2026-09-26 オーナー指示。`rewrite_common_rules.md` 16-5・16-8）。カードには「予想」バッジと確度（高・中・低）、本文に「過去◯回のうち◯回」の根拠を書く。放送枠が決まっていない場合のみ、時間帯カードは作らない。実例は`draft_allstar.txt`（Grep `aria-label="オールスター感謝祭 タイムテーブル予想（`）
+- H2直下のコード前の文章は**1文だけ**（16-4）。企画の順番が公式発表されたら、H3の「（予想）」とバッジを外して確定情報に書き換える
 
 ## 5. H2：{番組名}の出演者一覧【{月}/{日}】
 
+**画像は2種類を分ける**（2026-09-26 オーナー指定）：ここの`wp:image`には**記事内画像**のURLを使う。**アイキャッチ画像は構造化データ（14章の`image`・`thumbnailUrl`）専用**で、記事内には置かない。立ち上げの最初に、2つのURLを両方聞く。
+
 ```html
 <!-- wp:image {"align":"center","className":"size-full"} -->
-<figure class="wp-block-image aligncenter size-full"><img src="{アイキャッチ画像URL}" alt="{番組名} タイムテーブル出演者・出演順をリアルタイム更新" class="wp-image-XXXX"/><figcaption class="wp-element-caption"><a href="{公式サイトURL}">公式サイト</a>｜<a href="{公式XURL}">公式X(@xxx)</a></figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img src="{記事内画像URL}" alt="{番組名} タイムテーブル出演者・出演順をリアルタイム更新" class="wp-image-XXXX"/><figcaption class="wp-element-caption"><a href="{公式サイトURL}">公式サイト</a>｜<a href="{公式XURL}">公式X(@xxx)</a></figcaption></figure>
 <!-- /wp:image -->
 ```
 
@@ -189,9 +205,9 @@ Q&Aカード1件のHTML構造：
 
 計5問が標準（Q1:今回の事前発表有無／Q2:番組概要（固定）／Q3:見逃し配信（固定）／Q4:前回放送内容／Q5:放送時間（固定）。固定Qは次回リライト時に書き換えない）。
 
-## 12. H2：【まとめ】{番組名}出演者・タイムテーブルと放送時間
+## 12. H2：【まとめ】
 
-放送日・出演者・見どころを3段落程度で要約。
+見出しは「【まとめ】」だけ（検索語は付けない。2026-09-26 オーナー指定。`rewrite_common_rules.md` 16-4）。放送日・出演者・見どころを、1段落1つの話で3〜4段落に要約（16-2）。
 
 ## 13. ナビゲーション・アフィリエイトブロック
 
@@ -203,7 +219,7 @@ Q&Aカード1件のHTML構造：
 {
   "@context": "https://schema.org",
   "@graph": [
-    { "@type": "BlogPosting", "@id": "{URL}#post", "mainEntityOfPage": {"@type":"WebPage","@id":"{URL}"}, "headline": "{タイトルと一字一句一致}", "description": "{メタと一字一句一致}", "image": {"@type":"ImageObject","@id":"{URL}#primaryimage","url":"{アイキャッチ画像URL}","width":1200,"height":675}, "thumbnailUrl": "{アイキャッチ画像URL}", "datePublished": "{ISO日時}", "dateModified": "{ISO日時}", "author": {"@type":"Person","name":"Shira Notes","url":"https://shira-treat.com/operator-information/"}, "publisher": {"@type":"Organization","name":"Shira Notes","url":"https://shira-treat.com/","sameAs":["https://x.com/ShiraNotes_"],"logo":{"@type":"ImageObject","url":"https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp","width":512,"height":512}}, "articleSection": "音楽番組", "keywords": ["{番組名} タイムテーブル","{番組名} 出演者","{番組名} 順番","{番組名} 今日","{番組名} {年}","{番組名} {月日}"], "inLanguage": "ja", "about": [{"@type":"Thing","name":"{番組名}"},{"@type":"Thing","name":"{番組名} タイムテーブル"}], "mentions": [ /* 出演者を{"@type":"MusicGroup"|"Person","name":"..."}で人数分列挙 */ ] },
+    { "@type": "BlogPosting", "@id": "{URL}#post", "mainEntityOfPage": {"@type":"WebPage","@id":"{URL}"}, "headline": "{タイトルと一字一句一致}", "description": "{メタと一字一句一致}", "image": {"@type":"ImageObject","@id":"{URL}#primaryimage","url":"{アイキャッチ画像URL（構造化データ専用。記事内には置かない）}","width":1200,"height":675}, "thumbnailUrl": "{アイキャッチ画像URL}", "datePublished": "{ISO日時}", "dateModified": "{ISO日時}", "author": {"@type":"Person","name":"Shira Notes","url":"https://shira-treat.com/operator-information/"}, "publisher": {"@type":"Organization","name":"Shira Notes","url":"https://shira-treat.com/","sameAs":["https://x.com/ShiraNotes_"],"logo":{"@type":"ImageObject","url":"https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp","width":512,"height":512}}, "articleSection": "音楽番組", "keywords": ["{番組名} タイムテーブル","{番組名} 出演者","{番組名} 順番","{番組名} 今日","{番組名} {年}","{番組名} {月日}"], "inLanguage": "ja", "about": [{"@type":"Thing","name":"{番組名}"},{"@type":"Thing","name":"{番組名} タイムテーブル"}], "mentions": [ /* 出演者を{"@type":"MusicGroup"|"Person","name":"..."}で人数分列挙 */ ] },
     { "@type": "BroadcastEvent", "@id": "{URL}#event", "name": "{番組名}（{放送日}放送・{テーマ名}）", "startDate": "{ISO日時}", "endDate": "{ISO日時}", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode", "isLiveBroadcast": true, "description": "{放送説明文}", "image": "{アイキャッチ画像URL}", "location": {"@type":"Organization","name":"{放送局}"}, "organizer": {"@type":"Organization","name":"{放送局}"}, "performer": [ /* mentionsと同じ配列 */ ] },
     { "@type": "ItemList", "@id": "{URL}#lineup", "name": "{放送日} {番組名}出演者一覧", "numberOfItems": {人数}, "itemListElement": [ /* {"@type":"ListItem","position":n,"item":{...}} を人数分 */ ] },
     { "@type": "FAQPage", "@id": "{URL}#faq", "mainEntity": [ /* 本文と一字一句一致するQ&A 5問 */ ] },
@@ -219,6 +235,24 @@ Q&Aカード1件のHTML構造：
 アーティストの型判定（MusicGroup/Person）は`generate_jsonld.py`のルールに準拠。迷う場合はそのツールを使う。
 
 ---
+
+## 部品の探し方（実例は最新の立ち上げ記事`drafts/draft_allstar.txt`からGrepで部分抽出する）
+
+このスケルトンの1〜14章は骨組み。細かい部品は下の表のマーカーで`draft_allstar.txt`を**Grep→該当行だけRead**する（完成済みdraftの全文Readはしない）。**装飾クラス（`.artist-item`・`.qa-card`等）に頼らず、すべてインラインstyleで書く**（クラスは`draft_utacon.txt`にしか無く、WP側のCSSに依存すると崩れる）。配色は`draft_allstar.txt`の紺×金×赤を、番組の公式ロゴに合わせて置き換える。
+
+| 部品 | Grepマーカー（`draft_allstar.txt`） |
+|---|---|
+| 冒頭コード（放送日時／発表状況／出演者／注目バッジ／SPECIAL） | `aria-label="オールスター感謝祭 速報ガイド"` |
+| 放送枠＋未発表 | `aria-label="オールスター感謝祭 タイムテーブル（10月10日）"` |
+| 時間帯ごとの予想カード（H3×時間台） | `aria-label="オールスター感謝祭 タイムテーブル予想（` |
+| 出演者カード（MC＋作品別） | `aria-label="オールスター感謝祭 出演者一覧"` |
+| 放送スケジュールと関連番組 | `aria-label="オールスター感謝祭 放送スケジュールと関連番組"` |
+| 企画の順番の見方（4枚カード） | `aria-label="オールスター感謝祭 企画の順番の見方"` |
+| 放送アーカイブ（直前回） | `aria-label="オールスター感謝祭 放送アーカイブ"` |
+| 過去のタイムテーブル（H3ごと） | `aria-label="オールスター感謝祭 過去のタイムテーブル（` |
+| 配信ガイド（リアルタイム／無料配信／アフィリエイト） | `aria-label="オールスター感謝祭 配信ガイド"` |
+| FAQ（「Q1｜」形式。`qa_draft.py`が本文⇔JSON-LDを自動照合） | `aria-label="オールスター感謝祭 よくある質問"` |
+| JSON-LD（@graph 5種） | `MANUAL_JSONLD` |
 
 ## 使い方
 

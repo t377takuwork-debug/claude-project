@@ -1,0 +1,1196 @@
+<!-- wp:paragraph -->
+タイトル：オールスター感謝祭2026秋のタイムテーブル｜何時から？出演者一覧・最新情報
+
+メタディスクリプション（92字）：
+オールスター感謝祭2026秋（2026年10月10日・TBS系）のタイムテーブル。午後5時40分スタートの生放送について、出演者や赤坂ミニマラソンなど企画の順番の目安を更新しています。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][title][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>次回放送のTBS系『オールスター感謝祭』が何時から始まるのか、出演者やタイムテーブル、企画の流れなどをまとめています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 速報ガイド" style="display: block; font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif; background: #ffffff; color: #333333; border: 1px solid #e0e0e0; border-radius: 4px; overflow: hidden; position: relative; max-width: 100%; margin: 10px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+
+  <div style="position: relative; background: #0a0b22; padding: 10px 15px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #f2c230;">
+    <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.1em; color: #f2c230;">オールスター感謝祭'26秋 放送70回記念SP</div>
+    <div style="display: flex; align-items: center; gap: 6px; font-size: 9px; font-weight: 600; color: #fff; border-left: 1px solid rgba(242, 194, 48, 0.4); padding-left: 10px; white-space: nowrap;">
+      REAL TIME
+    </div>
+  </div>
+
+  <div style="position: relative; padding: 20px 12px; display: grid; gap: 15px;">
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; border: 1px solid #0a0b22; color: #0a0b22; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 2px;">SCHEDULE</div>
+      <div style="flex: 1;">
+        <span style="font-size: clamp(15.5px, calc(15.5px + (100vw - 480px) / 240), 20px); font-weight: 700; color: #0a0b22; display: block; margin-bottom: 4px; white-space: nowrap; letter-spacing: -0.02em;">2026.10.10 (土) 17:40 - 23:50</span>
+        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 6px;">
+          <span style="color: #e3262a; font-size: 10.5px; font-weight: 800;">TBS系 生放送</span>
+          <span style="color: #666; font-size: 10px;">MC：今田耕司・島崎和歌子</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; border: 1px solid #0a0b22; color: #0a0b22; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 1px;">発表状況</div>
+      <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">
+        企画の順番・時間帯は未発表
+        <div style="font-size: 10px; font-weight: 500; color: #666; margin-top: 3px;">過去3回の放送をもとにした予想を掲載中</div>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; background: #d4a017; color: #fff; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 1px;">出演者</div>
+      <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">
+        横浜流星 / 小栗旬 / 上白石萌音 / 向井康二 他、総勢100名以上
+        <div style="margin-top: 5px; font-size: 11.5px; font-weight: 800; color: #e3262a;"><span style="background: #e3262a; color: #fff; font-size: 9px; font-weight: 800; padding: 1px 5px; border-radius: 2px; margin-right: 6px;">VIVANT</span>宮下今日子・富栄ドラムも出演</div>
+        <div style="font-size: 10px; font-weight: 500; color: #666; margin-top: 3px;">9月26日に秋ドラマの俳優6名が第1弾として発表</div>
+      </div>
+    </div>
+
+    <div style="background: rgba(227, 38, 42, 0.04); border-left: 3px solid #e3262a; padding: 8px 10px;">
+      <div style="font-size: 10.5px; color: #e3262a; font-weight: 800; margin-bottom: 2px;">
+        SPECIAL：放送70回記念、赤坂ミニマラソンなど
+      </div>
+      <div style="font-size: 9px; font-weight: 500; color: #888;">
+        俳優陣の対決企画、体を張った新クイズ、dボタン生クイズバトルも予定
+      </div>
+    </div>
+
+  </div>
+
+  <div style="background: #fcfcfc; padding: 10px 12px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #eee;">
+    <div style="color: #999; font-size: 9px;">Update: 2026.09.26</div>
+    <a href="#st-toc-h-1" style="display: inline-flex; align-items: center; background: #e3262a; color: #fff; text-decoration: none; font-size: 10.5px; font-weight: 800; padding: 5px 12px; border-radius: 20px; box-shadow: 0 4px 10px rgba(227, 38, 42, 0.2);">
+      詳細を確認 <span style="margin-left: 4px; font-size: 11px;">↓</span>
+    </a>
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][mokujimae][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>赤坂ミニマラソンや新クイズなど見どころ満載の70回記念SPです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>今回は午後5時40分スタートと前回より約50分早くスタート予定！新しい追加情報などあり次第更新していきます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>オールスター感謝祭2026秋 最新タイムテーブル【10/10】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>確定しているのは放送枠だけで、時間帯ごとの内容は過去3回の放送をもとにした予想です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 タイムテーブル（10月10日）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(242, 194, 48, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 100%);">
+
+    <div style="margin-bottom: 12px; border-bottom: 1px solid rgba(242, 194, 48, 0.3); padding-bottom: 4px;">
+      <span style="font-size: 12px; color: #f2c230; font-weight: 800;">▼ 2026年10月10日（土）</span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">放送枠</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">17:40〜23:50</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin-top: 4px;">TBS系で生放送されます。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">企画の順番</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">未発表</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin-top: 4px;">今のところ公式からのアナウンスはありません。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d4a017;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">公式が案内する企画</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin-top: 4px;">赤坂ミニマラソン、俳優陣の対決企画、体を張った新クイズ、dボタン生クイズバトル。</p>
+      </div>
+
+    </div>
+  </div>
+  <div style="background: #000; padding: 10px; text-align: center; border-top: 1px solid #f2c230;">
+    <a href="https://x.com/allstar_tbs" target="_blank" style="text-decoration: none; color: #f2c230; font-size: 11px; font-weight: 800;">
+      公式Xで最新情報をチェック ❯
+    </a>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>過去3回の放送でも分単位の公式タイムテーブルは公開されていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>今回の企画の順番も発表待ちの状態が続いています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>17：40～（予想）</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 タイムテーブル予想（17時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(242, 194, 48, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 100%);">
+
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; border-bottom: 1px solid rgba(242, 194, 48, 0.3); padding-bottom: 6px;">
+      <span style="font-size: 12px; color: #f2c230; font-weight: 800;">▼ 17:40〜</span>
+      <span style="font-size: 10px; font-weight: 900; color: #f2c230; border: 1px dashed #f2c230; border-radius: 2px; padding: 0 5px;">予想</span>
+      <span style="font-size: 10px; font-weight: 700; color: #a8a8c8;">確度：低</span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">オープニングと時事クイズ</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">序盤に時事クイズが入る流れは、過去3回とも同じでした。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">拡大パートの企画</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">今回と同じ17:40スタートだった2025年春は、この時間帯に「4×200mリレー」の中継が入りました。今回は公式の案内がなく、内容は分かっていません。</p>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":3} -->
+<h3>18：00～（予想）</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 タイムテーブル予想（18時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(242, 194, 48, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 100%);">
+
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; border-bottom: 1px solid rgba(242, 194, 48, 0.3); padding-bottom: 6px;">
+      <span style="font-size: 12px; color: #f2c230; font-weight: 800;">▼ 18:00〜</span>
+      <span style="font-size: 10px; font-weight: 900; color: #f2c230; border: 1px dashed #f2c230; border-radius: 2px; padding: 0 5px;">予想</span>
+      <span style="font-size: 10px; font-weight: 700; color: #a8a8c8;">確度：中</span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">超ひらめきクイズ</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">過去3回とも、18:30〜20:00の間に放送されました。今回も同じ流れなら、18時台の後半に入りそうです。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d4a017;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">卓球「返せたら100万円」</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">2025年秋と2026年春は、同じ18:30〜20:00の間に放送されました。2025年春は放送の有無を確認できていません。</p>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":3} -->
+<h3>19：00～（予想）</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 タイムテーブル予想（19時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(242, 194, 48, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 100%);">
+
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; border-bottom: 1px solid rgba(242, 194, 48, 0.3); padding-bottom: 6px;">
+      <span style="font-size: 12px; color: #f2c230; font-weight: 800;">▼ 19:00〜</span>
+      <span style="font-size: 10px; font-weight: 900; color: #f2c230; border: 1px dashed #f2c230; border-radius: 2px; padding: 0 5px;">予想</span>
+      <span style="font-size: 10px; font-weight: 700; color: #a8a8c8;">確度：低</span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">クイズの得点争い</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">2025年春は、18:30〜20:00にドラマの宣伝を挟みながら、得点が動き始めました。今回も、この時間帯に順位争いが始まるかもしれません。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">重圧アーチェリー</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">2025年秋と2026年春は、20:00までにアーチェリーが始まっていました。2025年春は20時台でした。今回は19時台の後半から20時台にかけて入るかもしれません。</p>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>20：00～（予想）</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 タイムテーブル予想（20時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(242, 194, 48, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 100%);">
+
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; border-bottom: 1px solid rgba(242, 194, 48, 0.3); padding-bottom: 6px;">
+      <span style="font-size: 12px; color: #f2c230; font-weight: 800;">▼ 20:00〜</span>
+      <span style="font-size: 10px; font-weight: 900; color: #f2c230; border: 1px dashed #f2c230; border-radius: 2px; padding: 0 5px;">予想</span>
+      <span style="font-size: 10px; font-weight: 700; color: #a8a8c8;">確度：中</span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">重圧アーチェリーの決着</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">アーチェリーが赤坂ミニマラソンの直前に放送される順番は、過去3回とも同じでした。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">赤坂ミニマラソン（20時台に始まる見方）</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">2025年秋と2026年春は、20時台にマラソンが始まりました。2026年春のスタートは20:40頃でした。</p>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":3} -->
+<h3>21：00～（予想）</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 タイムテーブル予想（21時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(242, 194, 48, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 100%);">
+
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; border-bottom: 1px solid rgba(242, 194, 48, 0.3); padding-bottom: 6px;">
+      <span style="font-size: 12px; color: #f2c230; font-weight: 800;">▼ 21:00〜</span>
+      <span style="font-size: 10px; font-weight: 900; color: #f2c230; border: 1px dashed #f2c230; border-radius: 2px; padding: 0 5px;">予想</span>
+      <span style="font-size: 10px; font-weight: 700; color: #a8a8c8;">確度：中</span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">赤坂ミニマラソン（遅めになる見方）</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">今回と同じ17:40スタートの2025年春は、21時台から走り、公式Xの結果投稿は22:27頃でした。他の2回は、21時台のうちに結果が出ています。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">赤坂5丁目コロコロチャレンジ</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">2025年秋と2026年春は、マラソンのあとに放送されました。</p>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":3} -->
+<h3>22：00～（予想）</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 タイムテーブル予想（22時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(242, 194, 48, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 100%);">
+
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; border-bottom: 1px solid rgba(242, 194, 48, 0.3); padding-bottom: 6px;">
+      <span style="font-size: 12px; color: #f2c230; font-weight: 800;">▼ 22:00〜</span>
+      <span style="font-size: 10px; font-weight: 900; color: #f2c230; border: 1px dashed #f2c230; border-radius: 2px; padding: 0 5px;">予想</span>
+      <span style="font-size: 10px; font-weight: 700; color: #a8a8c8;">確度：低</span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">新しい体感ゲーム</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">2025年春と秋は、22時台から23時台前半に「爆走フリースロー」が入りました。2026年春は、21時台に「スローゴーランド」が入っています。ゲームの位置は回によって変わります。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d4a017;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">後半のクイズ</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">2025年秋と2026年春は、この時間帯に複数のピリオドで得点が動きました。</p>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":3} -->
+<h3>23：00～（予想）</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 タイムテーブル予想（23時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(242, 194, 48, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 100%);">
+
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; border-bottom: 1px solid rgba(242, 194, 48, 0.3); padding-bottom: 6px;">
+      <span style="font-size: 12px; color: #f2c230; font-weight: 800;">▼ 23:00〜23:50</span>
+      <span style="font-size: 10px; font-weight: 900; color: #f2c230; border: 1px dashed #f2c230; border-radius: 2px; padding: 0 5px;">予想</span>
+      <span style="font-size: 10px; font-weight: 700; color: #a8a8c8;">確度：高</span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">最終クイズ</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">過去3回とも、23時台に最終ピリオドのクイズが行われ、総合順位が決まりました。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">総合成績発表とエンディング</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">発表からエンディングまで、過去3回とも23時台に収まりました。今回の終了は23:50と報じられています。</p>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>予想が外れた場合も消さずに、「予想はこうでしたが、実際はこうでした」と残します。放送後は確定した流れに書き換えます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>オールスター感謝祭2026秋の出演者一覧【10/10】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"align":"center","className":"size-full"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://shira-treat.com/wp-content/uploads/2026/09/image-9-1.webp" alt="オールスター感謝祭2026秋のタイムテーブル 何時から・出演者一覧"/><figcaption class="wp-element-caption"><a href="https://www.tbs.co.jp/kanshasai/">公式サイト</a>｜<a href="https://x.com/allstar_tbs">公式X(@allstar_tbs)</a></figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>2026年9月26日に発表された第1弾は秋ドラマ3作品の俳優6名です。MCは今田耕司さんと島崎和歌子さんが務めます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 出演者一覧" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(242, 194, 48, 0.3); color: #fff;">
+
+  <div style="background: #050510; padding: 12px 15px; border-bottom: 2px solid #f2c230; text-align: center;">
+    <div style="font-size: 15px; font-weight: 900; letter-spacing: 0.1em; background: linear-gradient(135deg, #f2c230 0%, #ffffff 50%, #f2c230 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+      ★ 出演者（第1弾）
+    </div>
+  </div>
+
+  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 80%);">
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">MC</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">今田耕司 / 島崎和歌子</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0;">生放送の進行を務めます。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">『LOST10』</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">横浜流星 / 小栗旬</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0;">10月スタートの金曜ドラマの出演者です。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d4a017;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">『いろはの恋は時代（とき）をかける』</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">上白石萌音 / 向井康二</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0;">火曜ドラマの出演者です。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">『VIVANT』</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">宮下今日子 / 富栄ドラム</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0;">日曜劇場（2クール目）の出演者です。</p>
+      </div>
+
+    </div>
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>報道では、6名は「感謝祭でしか見られない俳優陣のコラボ」としてさまざまな企画に挑むと紹介されています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>どの俳優がどの企画に出るのかは、まだ発表されていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>公式サイトは総勢100名以上の出演を案内しています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>オールスター感謝祭2026秋は何時から？放送時間と前後の番組</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>オールスター感謝祭の本放送は、10月10日（土）午後5時40分から午後11時50分までです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>前夜と深夜にも関連番組が組まれています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 放送スケジュールと関連番組" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(242, 194, 48, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 100%);">
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">前夜｜10月9日（金）</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">超タッグ祭　20:55〜22:54</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0;">生放送。進行はハライチ澤部佑さんとTBSの杉山真也アナウンサーで、有名人と視聴者がスマホでタッグを組む参加型の番組です。感謝祭の前夜祭として編成されています。今回の出演者は、公式では「豪華有名人多数」とのみ案内されています。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.08); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #f2c230; border: 1px solid rgba(242,194,48,0.4);">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">本放送｜10月10日（土）</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">オールスター感謝祭'26秋　17:40〜23:50</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0;">放送70回記念SPとして、6時間を超える生放送でお届けします。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d4a017;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">深夜｜10月10日（土）</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">オールスター後夜祭'26秋　24:58〜26:58</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0;">実際の時刻は11日の0:58〜2:58です。MCは有吉弘行さんと高山一実さんで、感謝祭のセットを使った深夜の延長戦です。2026年春は休止だったため、1年ぶりの放送になります。出演者と出題内容は未発表です。</p>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>オールスター感謝祭の企画の順番の傾向</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>過去3回（2025年春・2025年秋・2026年春）の放送では、企画がほぼ同じ順番で進みました。時間帯ごとの予想は最新タイムテーブルの欄にまとめています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 企画の順番の見方" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(242, 194, 48, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 100%);">
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">🏃 赤坂ミニマラソンの時間帯</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">過去3回で公式Xがマラソンの結果を投稿したのは、21:51頃・21:58頃・22:27頃でした。今回と同じ17:40スタートだった2025年春が最も遅く、開始時刻だけでは決まらないようです。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">🎯 新しい体感ゲーム</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">2025年春と秋は「爆走フリースロー」、2026年春は「スローゴーランド」と、回によって体感ゲームが入れ替わりました。今回は公式が「体張りまくりの新クイズ」と案内しています。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d4a017;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">🏆 総合成績発表</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">過去3回とも、最終クイズのあと放送終了前の23時台に発表されました。放送の最後の山場です。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #ff6b6e;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">📱 dボタン生クイズバトル</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">視聴者はスマホから、出演者と同じクイズに参加できます。正解数に応じて、賞品の応募につながります。</p>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>分単位の台本は公開されていないため時間帯はあくまで目安です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>オールスター感謝祭の実際の流れ【放送後更新】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>放送が終わったらこの欄を今回の流れに書き換えます。現在は直前回（2026年4月4日放送の春）の記録を載せています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 放送アーカイブ" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(242, 194, 48, 0.3); color: #fff;">
+
+  <div style="background: #050510; padding: 12px 15px; border-bottom: 2px solid #f2c230; text-align: center;">
+    <div style="font-size: 15px; font-weight: 900; letter-spacing: 0.05em; background: linear-gradient(135deg, #f2c230 0%, #ffffff 50%, #f2c230 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+      2026年4月4日放送 オールスター感謝祭'26春
+    </div>
+  </div>
+
+  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 80%);">
+
+    <div style="display: grid; gap: 6px; margin-bottom: 14px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">
+      <div><span style="color: #f2c230; font-weight: 800;">放送</span>　18:30〜23:50（69回目・ミラノ五輪金メダリスト参戦SP）</div>
+      <div><span style="color: #f2c230; font-weight: 800;">総合優勝</span>　中間淳太（WEST.）38問。2位は伊沢拓司さん37問、3位はたくやさん（ザ・たっち）36問</div>
+      <div><span style="color: #f2c230; font-weight: 800;">ミニマラソン</span>　優勝は福山康平さん。2位はたけるさん（東京ホテイソン）、3位は吉田祐也さん。雨と風のなか、約4.9kmを走りました</div>
+    </div>
+
+    <div style="border-left: 2px solid rgba(242,194,48,0.4); margin-left: 6px; padding-left: 18px;">
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -25px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #f2c230; border: 2px solid #0a0b22;"></div>
+        <div style="font-size: 10px; color: #a8a8c8; font-weight: 800;">18:30頃〜 / オープニング</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #eee; margin-top: 4px; line-height: 1.6;">
+          <strong style="color: #f2c230;">USJ開業25周年スペシャルダンスショーと時事クイズ</strong>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -25px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #f2c230; border: 2px solid #0a0b22;"></div>
+        <div style="font-size: 10px; color: #a8a8c8; font-weight: 800;">〜20:00頃 / 前半</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #eee; margin-top: 4px; line-height: 1.6;">
+          <strong style="color: #f2c230;">卓球「返せたら100万円」、超ひらめきクイズ、重圧アーチェリー</strong>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -27px; top: 3px; width: 12px; height: 12px; border-radius: 50%; background: #e3262a; border: 2px solid #0a0b22;"></div>
+        <div style="font-size: 10px; color: #ff6b6e; font-weight: 800;">20時台 / 赤坂ミニマラソン</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #eee; margin-top: 4px; line-height: 1.6;">
+          <strong style="color: #ff6b6e;">アーチェリー決着のあと、20:40頃からミニマラソンを放送</strong><br>
+          <span style="font-size: 11px; color: #a8a8c8; display: block; margin: 2px 0 6px 0;">ハンデ付きで、吉田祐也さんは最後尾からのスタートでした。</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -27px; top: 3px; width: 12px; height: 12px; border-radius: 50%; background: #e3262a; border: 2px solid #0a0b22;"></div>
+        <div style="font-size: 10px; color: #ff6b6e; font-weight: 800;">21時台 / 結果発表と新ゲーム</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #eee; margin-top: 4px; line-height: 1.6;">
+          <strong style="color: #ff6b6e;">ゴール〜表彰、コロコロチャレンジ、新企画「スローゴーランド」</strong><br>
+          <span style="font-size: 11px; color: #a8a8c8; display: block; margin: 2px 0 6px 0;">マラソンの結果は、公式Xに21:51頃に投稿されました。</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -25px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #f2c230; border: 2px solid #0a0b22;"></div>
+        <div style="font-size: 10px; color: #a8a8c8; font-weight: 800;">22時台 / 後半クイズ</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #eee; margin-top: 4px; line-height: 1.6;">
+          <strong style="color: #f2c230;">複数のピリオドで得点が動く時間帯</strong>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 4px;">
+        <div style="position: absolute; left: -25px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #f2c230; border: 2px solid #0a0b22;"></div>
+        <div style="font-size: 10px; color: #a8a8c8; font-weight: 800;">23時台〜23:50 / 総合発表</div>
+        <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #eee; margin-top: 4px; line-height: 1.6;">
+          <strong style="color: #f2c230;">最終ピリオドのクイズ、総合成績発表、エンディング</strong><br>
+          <span style="font-size: 11px; color: #a8a8c8; display: block; margin: 2px 0 6px 0;">この回の『後夜祭』は休止でした。</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="margin-top: 10px; font-size: 10px; color: #a8a8c8; line-height: 1.6;">時間帯は、報道や公式Xの投稿時刻などをもとにした目安です。</div>
+
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>オールスター感謝祭の見逃し配信はある？</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>公式サイトには「リアルタイムで配信」「最新回を無料配信中」との案内があります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="https://tver.jp/series/srv8sdsc13">TVer</a>または<a href="https://cu.tbs.co.jp/program/28647">TBS FREE</a>で、期間限定の見逃し配信が行われる模様です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 配信ガイド" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(242, 194, 48, 0.3); color: #fff;">
+
+  <div style="background: #050510; padding: 12px 15px; border-bottom: 2px solid #f2c230; text-align: center;">
+    <div style="font-size: 15px; font-weight: 900; letter-spacing: 0.1em; background: linear-gradient(135deg, #f2c230 0%, #ffffff 50%, #f2c230 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+      📺 配信ガイド
+    </div>
+  </div>
+
+  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 80%);">
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px;">
+
+      <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(242, 194, 48, 0.25); border-radius: 6px; padding: 12px;">
+        <div style="text-align: center; color: #f2c230; font-weight: 900; font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); margin-bottom: 10px;">リアルタイムで配信</div>
+        <a href="https://tver.jp/live/tbs" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; min-height: 40px; background: #ffffff; border-radius: 5px; text-decoration: none; box-sizing: border-box; padding: 6px 10px; margin-bottom: 8px;">
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 900; color: #0a0b22; line-height: 1.4; text-align: center;">TBS系リアルタイム配信 ▶</span>
+        </a>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(242, 194, 48, 0.25); border-radius: 6px; padding: 12px;">
+        <div style="text-align: center; color: #f2c230; font-weight: 900; font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); margin-bottom: 10px;">最新回を無料配信中</div>
+        <a href="https://cu.tbs.co.jp/program/28647" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; min-height: 40px; background: #ffffff; border-radius: 5px; text-decoration: none; box-sizing: border-box; padding: 6px 10px; margin-bottom: 8px;">
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 900; color: #0a0b22; line-height: 1.4;">TBS FREE</span>
+        </a>
+        <a href="https://tver.jp/series/srv8sdsc13" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; min-height: 40px; background: #ffffff; border-radius: 5px; text-decoration: none; box-sizing: border-box; padding: 6px 10px; margin-bottom: 8px;">
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 900; color: #0a0b22; line-height: 1.4;">TVer</span>
+        </a>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(242, 194, 48, 0.25); border-radius: 6px; padding: 12px;">
+        <div style="text-align: center; color: #f2c230; font-weight: 900; font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); margin-bottom: 10px;">これまでの配信はこちら</div>
+        <a href="https://px.a8.net/svt/ejp?a8mat=2ZWAMB+51LYIQ+3250+BW8O2&amp;a8ejpredirect=https%3A%2F%2Fwww.video.unext.jp%2Flp%2Fapi_data_not_found" target="_blank" rel="nofollow" style="display: flex; align-items: center; justify-content: center; min-height: 40px; background: #ffffff; border-radius: 5px; text-decoration: none; box-sizing: border-box; padding: 6px 10px; margin-bottom: 8px;">
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 900; color: #0a0b22; line-height: 1.4;">U-NEXT</span>
+          <span style="font-size: 9px; font-weight: 900; color: #999; border: 1px solid #ccc; border-radius: 2px; padding: 0 3px; margin-left: 8px;">PR</span>
+        </a>
+        <img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=2ZWAMB+51LYIQ+3250+BW8O2" alt="" loading="lazy">
+      </div>
+
+    </div>
+
+    <div style="margin-top: 12px; text-align: center; font-size: 10px; color: #a8a8c8; line-height: 1.6;">※都合により視聴できない場合があります。U-NEXTのリンクは広告（PR）です。</div>
+
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>放送中はTVerのTBS系リアルタイム配信でも視聴できます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>配信の開始時期や視聴できる期間は、決まり次第この欄に書き足します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>オールスター感謝祭 過去のタイムテーブル一覧</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>直前回（2026年春）は上の「実際の流れ」の欄に載せているため、ここでは前々回以前を掲載しています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>2025年10月4日（土）オールスター感謝祭'25秋</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 過去のタイムテーブル（2025年秋）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(242, 194, 48, 0.3); color: #fff;">
+
+  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 80%);">
+
+    <div style="display: grid; gap: 6px; margin-bottom: 14px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">
+      <div><span style="color: #f2c230; font-weight: 800;">放送</span>　18:30〜23:48（世界陸上アスリート参戦SP）</div>
+      <div><span style="color: #f2c230; font-weight: 800;">総合優勝</span>　伊沢拓司さん37問（番組史上初の3連覇）。2位は粗品さん36問、3位は中間淳太さん36問</div>
+      <div><span style="color: #f2c230; font-weight: 800;">ミニマラソン</span>　優勝は赤崎暁さん。2位は雅久さん（aoen）、3位はEIKIさん（MAZZEL）。コースは約4.9〜5kmでした</div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 8px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">18:30〜20:00頃</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">オープニング、時事クイズ、卓球、超ひらめきクイズ、アーチェリー</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">20〜21時台</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">赤坂ミニマラソン（結果の公式X投稿は21:58頃）</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">21〜22時台</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">ゴール〜表彰、赤坂5丁目コロコロチャレンジ</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">22〜23時台</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">「爆走フリースロー」、後半のクイズ</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">23時台〜</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">最終クイズ、総合成績発表、エンディング</span>
+      </div>
+
+    </div>
+
+    <div style="margin-top: 10px; font-size: 10px; color: #a8a8c8; line-height: 1.6;">時間帯は、報道や公式Xの投稿時刻などをもとにした目安です。</div>
+
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":3} -->
+<h3>2025年3月29日（土）オールスター感謝祭'25春</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 過去のタイムテーブル（2025年春）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(242, 194, 48, 0.3); color: #fff;">
+
+  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 80%);">
+
+    <div style="display: grid; gap: 6px; margin-bottom: 14px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">
+      <div><span style="color: #f2c230; font-weight: 800;">放送</span>　17:40〜23:48（67回目・世界陸上アスリートとガチ対決＆乱入だらけサプライズSP）。今回と同じ17:40スタートで、番組史上初の6時間超えの放送でした</div>
+      <div><span style="color: #f2c230; font-weight: 800;">総合優勝</span>　伊沢拓司さん52問で2連覇。2位は川島明さん（麒麟）、3位は新山さん（さや香）</div>
+      <div><span style="color: #f2c230; font-weight: 800;">ミニマラソン</span>　優勝は森本裕介さん（SASUKE）。2位は若林宏樹さん（青学・学生ラストラン）、3位は渡邉蒼さん。コースは約5kmで、心臓破りの坂を6回上りました</div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 8px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">17:40〜18:30頃</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">オープニング、時事クイズ、気温5度・小雨のなかで行われた「4×200mリレー」（帝京大八王子キャンパスから中継）</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">18:30〜20:00頃</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">超ひらめきクイズなど複数のピリオド</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">20時台</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">重圧アーチェリー（トリは阿部寛さん）</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">21〜22時台</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">赤坂ミニマラソン（結果の公式X投稿は22:27頃）</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">22:30〜23:20頃</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">「爆走！フリースロー」、赤坂5丁目！マーメイドチャレンジ（江頭2:50さんが乱入）</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">23:20〜23:48</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">最終クイズ、総合成績発表、エンディング。深夜に『オールスター後夜祭』が放送されました</span>
+      </div>
+
+    </div>
+
+    <div style="margin-top: 10px; font-size: 10px; color: #a8a8c8; line-height: 1.6;">この回の時間帯も、ニュースの公開時刻や公式Xなどから読み取った推定を含む目安です。</div>
+
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>よくある質問（FAQ）</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>オールスター感謝祭2026秋について、よく検索される疑問に答えています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="オールスター感謝祭 よくある質問" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0b22; border: 1px solid #f2c230; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(242, 194, 48, 0.3); color: #fff;">
+
+  <div style="background: #050510; padding: 12px 15px; border-bottom: 2px solid #f2c230; text-align: center;">
+    <div style="font-size: 15px; font-weight: 900; letter-spacing: 0.1em; background: linear-gradient(135deg, #f2c230 0%, #ffffff 50%, #f2c230 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+      💬 よくある質問（FAQ）
+    </div>
+  </div>
+
+  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1c1a55 0%, #0a0b22 80%);">
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px;">
+
+      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(242, 194, 48, 0.2); border-radius: 6px; padding: 12px;">
+        <div style="color: #ff6b6e; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q1｜オールスター感謝祭2026秋は何時から何時までですか？</div>
+        <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
+          2026年10月10日（土）午後5時40分から、TBS系で生放送されます。終了は午後11時50分と報じられており、6時間を超える放送です。
+        </div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(242, 194, 48, 0.2); border-radius: 6px; padding: 12px;">
+        <div style="color: #f2c230; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q2｜タイムテーブルや企画の順番は事前に発表されますか？</div>
+        <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
+          過去3回の放送では、分単位の公式タイムテーブルは公開されていません。今回も企画の順番はまだ発表されておらず、過去3回の流れをもとにした予想を載せています。放送後に実際の流れへ更新します。
+        </div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(242, 194, 48, 0.2); border-radius: 6px; padding: 12px;">
+        <div style="color: #ff6b6e; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q3｜今回の出演者は誰ですか？</div>
+        <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
+          MCは今田耕司さんと島崎和歌子さんです。9月26日に、横浜流星さん、小栗旬さん、上白石萌音さん、向井康二さん、宮下今日子さん、富栄ドラムさんの6名が発表されました。総勢100名以上が出演する予定で、追加の発表があれば書き足します。
+        </div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(242, 194, 48, 0.2); border-radius: 6px; padding: 12px;">
+        <div style="color: #f2c230; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q4｜赤坂ミニマラソンは何時ごろ放送されますか？</div>
+        <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
+          過去3回のうち2回は20時台にマラソンが始まり、公式Xの結果投稿は21:51頃と21:58頃でした。今回と同じ17:40スタートの2025年春は、21時台から走り、結果投稿は22:27頃と遅めでした。今回の実際の時刻は放送後にこの記事で更新します。
+        </div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(242, 194, 48, 0.2); border-radius: 6px; padding: 12px;">
+        <div style="color: #ff6b6e; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q5｜オールスター感謝祭は見逃し配信はありますか？</div>
+        <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
+          公式サイトには「リアルタイムで配信」「最新回を無料配信中」との案内があります。TVerとTBS FREEで、期間限定の見逃し配信が行われる模様です。配信期間は公式の発表を確認してください。
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>【まとめ】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>『オールスター感謝祭'26秋 放送70回記念SP』は、2026年10月10日（土）午後5時40分からTBS系で生放送されます。MCは今田耕司さんと島崎和歌子さんです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>出演者は、秋ドラマ3作品の俳優6名が第1弾として発表されています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>公式は総勢100名以上の出演を案内しており、赤坂ミニマラソンや俳優陣の対決企画、体を張った新クイズが予定されています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>企画の順番と時間帯はまだ発表されていません。前夜の10月9日には『超タッグ祭』、10日の深夜には1年ぶりの『後夜祭』が放送されます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>推しの出番や企画の時間帯が気になる方は、放送当日にこのページを開いたままご覧ください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="margin: 18px 0 14px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px 10px; font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #c94277; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">他の音楽番組もチェック</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px;">
+
+    <a href="https://shira-treat.com/cdtv-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        CDTV <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/star-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        STAR <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/music-station-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        Mステ <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/fnskayousai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        FNS歌謡祭 <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/the-musicday-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        THE MUSIC DAY <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/ongakunohi-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        音楽の日 <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/teretoongakusai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        テレ東音楽祭 <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/utadeaetara-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        うたであえたら <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/record-award-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        レコード大賞 <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/nhk-kouhaku-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        紅白歌合戦 <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/utacon-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        うたコン <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/terebi-mrs-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        テレビ×ミセス <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/utanokanshasai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        歌の感謝祭 <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/venue101-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        Venue101 <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+  </div>
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #64748b; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">今夜の放送で気になったアーティストの楽曲・CDを探す</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
+    <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #232f3e; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #161d26;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        CDをAmazonで探す <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
+      </span>
+    </a>
+
+    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fdaily%2F002%2F" target="_blank" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        楽天ブックスでCDを探す <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
+      </span>
+    </a>
+  </div>
+
+  <img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+
+  <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #0a0b22, #1c1a55); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid #f2c230; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
+    <span style="font-size: 9px; font-weight: 900; color: #f2c230; border: 1px solid #f2c230; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 3px;">Music</span>
+    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を聴く（30日間無料）</span>
+    <span style="font-size: 18px; color: #f2c230; margin-left: auto;">›</span>
+  </a>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:shortcode -->
+<!-- MANUAL_JSONLD -->
+[jsonld]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://shira-treat.com/allstar-kanshasai-timetable/#post",
+      "url": "https://shira-treat.com/allstar-kanshasai-timetable/",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://shira-treat.com/allstar-kanshasai-timetable/"
+      },
+      "headline": "オールスター感謝祭2026秋のタイムテーブル｜何時から？出演者一覧・最新情報",
+      "description": "オールスター感謝祭2026秋（2026年10月10日・TBS系）のタイムテーブル。午後5時40分スタートの生放送について、出演者や赤坂ミニマラソンなど企画の順番の目安を更新しています。",
+      "keywords": [
+        "オールスター感謝祭 タイムテーブル",
+        "オールスター感謝祭 何時から",
+        "オールスター感謝祭 出演者",
+        "オールスター感謝祭 2026秋",
+        "オールスター感謝祭 10月10日",
+        "赤坂ミニマラソン",
+        "放送70回記念SP",
+        "TBS"
+      ],
+      "datePublished": "2026-09-26T12:00:00+09:00",
+      "dateCreated": "2026-09-26T12:00:00+09:00",
+      "dateModified": "2026-09-26T12:00:00+09:00",
+      "inLanguage": "ja",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://shira-treat.com/allstar-kanshasai-timetable/#primaryimage",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/09/image-10-2.webp",
+        "width": 1200,
+        "height": 675
+      },
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/09/image-10-2.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/operator-information/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/",
+        "sameAs": ["https://x.com/ShiraNotes_"],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "articleSection": "オールスター感謝祭",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "オールスター感謝祭（TBS系クイズ特番）",
+          "sameAs": "https://www.tbs.co.jp/kanshasai/"
+        },
+        {
+          "@type": "Thing",
+          "name": "オールスター感謝祭 タイムテーブル"
+        }
+      ],
+      "mentions": [
+        { "@type": "Person", "name": "今田耕司" },
+        { "@type": "Person", "name": "島崎和歌子" },
+        { "@type": "Person", "name": "横浜流星" },
+        { "@type": "Person", "name": "小栗旬" },
+        { "@type": "Person", "name": "上白石萌音" },
+        { "@type": "Person", "name": "向井康二" },
+        { "@type": "Person", "name": "宮下今日子" },
+        { "@type": "Person", "name": "富栄ドラム" }
+      ],
+      "hasPart": [
+        { "@id": "https://shira-treat.com/allstar-kanshasai-timetable/#broadcast" },
+        { "@id": "https://shira-treat.com/allstar-kanshasai-timetable/#lineup" },
+        { "@id": "https://shira-treat.com/allstar-kanshasai-timetable/#faq" },
+        { "@id": "https://shira-treat.com/allstar-kanshasai-timetable/#breadcrumb" }
+      ]
+    },
+    {
+      "@type": "BroadcastEvent",
+      "@id": "https://shira-treat.com/allstar-kanshasai-timetable/#broadcast",
+      "name": "オールスター感謝祭'26秋 放送70回記念SP（2026年10月10日放送）",
+      "startDate": "2026-10-10T17:40:00+09:00",
+      "endDate": "2026-10-10T23:50:00+09:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "isLiveBroadcast": true,
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "description": "TBS系で2026年10月10日に生放送される、放送70回記念のクイズ特番。MCは今田耕司と島崎和歌子。",
+      "image": "https://shira-treat.com/wp-content/uploads/2026/09/image-10-2.webp",
+      "performer": [
+        { "@type": "Person", "name": "今田耕司" },
+        { "@type": "Person", "name": "島崎和歌子" },
+        { "@type": "Person", "name": "横浜流星" },
+        { "@type": "Person", "name": "小栗旬" },
+        { "@type": "Person", "name": "上白石萌音" },
+        { "@type": "Person", "name": "向井康二" },
+        { "@type": "Person", "name": "宮下今日子" },
+        { "@type": "Person", "name": "富栄ドラム" }
+      ],
+      "broadcaster": {
+        "@type": "Organization",
+        "name": "TBSテレビ",
+        "sameAs": "https://www.tbs.co.jp/"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://shira-treat.com/allstar-kanshasai-timetable/#lineup",
+      "name": "オールスター感謝祭2026秋（10/10）出演者一覧",
+      "numberOfItems": 8,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "今田耕司" },
+        { "@type": "ListItem", "position": 2, "name": "島崎和歌子" },
+        { "@type": "ListItem", "position": 3, "name": "横浜流星" },
+        { "@type": "ListItem", "position": 4, "name": "小栗旬" },
+        { "@type": "ListItem", "position": 5, "name": "上白石萌音" },
+        { "@type": "ListItem", "position": 6, "name": "向井康二" },
+        { "@type": "ListItem", "position": 7, "name": "宮下今日子" },
+        { "@type": "ListItem", "position": 8, "name": "富栄ドラム" }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://shira-treat.com/allstar-kanshasai-timetable/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "オールスター感謝祭2026秋は何時から何時までですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2026年10月10日（土）午後5時40分から、TBS系で生放送されます。終了は午後11時50分と報じられており、6時間を超える放送です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "タイムテーブルや企画の順番は事前に発表されますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "過去3回の放送では、分単位の公式タイムテーブルは公開されていません。今回も企画の順番はまだ発表されておらず、過去3回の流れをもとにした予想を載せています。放送後に実際の流れへ更新します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "今回の出演者は誰ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "MCは今田耕司さんと島崎和歌子さんです。9月26日に、横浜流星さん、小栗旬さん、上白石萌音さん、向井康二さん、宮下今日子さん、富栄ドラムさんの6名が発表されました。総勢100名以上が出演する予定で、追加の発表があれば書き足します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "赤坂ミニマラソンは何時ごろ放送されますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "過去3回のうち2回は20時台にマラソンが始まり、公式Xの結果投稿は21:51頃と21:58頃でした。今回と同じ17:40スタートの2025年春は、21時台から走り、結果投稿は22:27頃と遅めでした。今回の実際の時刻は放送後にこの記事で更新します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "オールスター感謝祭は見逃し配信はありますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "公式サイトには「リアルタイムで配信」「最新回を無料配信中」との案内があります。TVerとTBS FREEで、期間限定の見逃し配信が行われる模様です。配信期間は公式の発表を確認してください。"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://shira-treat.com/allstar-kanshasai-timetable/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://shira-treat.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "オールスター感謝祭 タイムテーブル",
+          "item": "https://shira-treat.com/allstar-kanshasai-timetable/"
+        }
+      ]
+    }
+  ]
+}
+[/jsonld]
+<!-- /wp:shortcode -->

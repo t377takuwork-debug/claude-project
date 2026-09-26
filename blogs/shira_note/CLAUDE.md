@@ -35,6 +35,7 @@
 | `/kanshasai-rewrite` | 1億2000万人のありがとう 歌の感謝祭（日本テレビ・不定期特番） | `.claude/commands/kanshasai-rewrite.md` |
 | `/venue101-rewrite` | Venue101（NHK総合・定期番組。EXTRA・拡大版SP等の特別編成あり） | `.claude/commands/venue101-rewrite.md` |
 | `/venue101-research` | Venue101 リライト用の資料①②リサーチ（資料が渡されなかった回のみ／Yahoo検索＋Grok。TVerなし） | `.claude/commands/venue101-research.md` |
+| `/allstar-rewrite` | オールスター感謝祭（TBS系クイズ特番・年2回。出演順ではなく企画の流れを軸にする） | `.claude/commands/allstar-rewrite.md` |
 | `/shira-qa` | 全番組共通・ドラフト検品（リライト後必須） | `.claude/commands/shira-qa.md` |
 | `/shira-keyword-article` | キーワード起点の新規テーマ記事（番組タイムテーブル速報とは別枠） | `.claude/commands/shira-keyword-article.md` |
 | `/shira-release-article` | CD/DVD等リリース記事（予約・購入導線特化、1リリース＝1記事） | `.claude/commands/shira-release-article.md` |
@@ -73,6 +74,7 @@
 | テレビ×ミセス | `draft_tvmrs.txt` |
 | 歌の感謝祭 | `draft_kanshasai.txt` |
 | Venue101 | `draft_venue101.txt` |
+| オールスター感謝祭 | `draft_allstar.txt` |
 
 保存先：`drafts/` フォルダ（`C:\Users\PC_User\claude project\blogs\shira_note\drafts\`）
 
@@ -150,7 +152,7 @@ python tools/qa_draft.py draft_XXXX.txt --fix  # スマートクォート自動�
 ```
 
 チャットでは `/shira-qa {ファイル名}` で起動する（結果の解釈・修正ルールは `.claude/commands/shira-qa.md`）。
-チェック内容: スマートクォート / 禁止ワード / WPブロック開閉 / ショートコード混在 / ショートコード連続配置（originalsc同士の間に本文が必要） / JSON-LDパース / メタ⇔JSON-LD同期 / 本文FAQ⇔JSON-LD FAQPage同期（Q1/A形式のspanマークアップ限定。STAR系のdiv形式は未対応で判定スキップ） / AFリンク仕様 / ul style / wp:imageのalign⇔figureのclass不一致（手動修正時のズレ検知） / カテゴリURL残存 / ナビブロックの番組網羅漏れ・自己参照リンク（`rewrite_common_rules.md` 8章のURL一覧と照合。新番組追加時はこの一覧を先に更新） / リード文日付 / 締め文の主観形容詞（`shicho-memo`ブロック内は対象外） / 同一文の記事内3回以上リピート（数字違いは同一視・表現ローテーション用） / 他番組告知パラグラフの放送日が自記事より過去（放送済み番組への導線残存を検知）。
+チェック内容: スマートクォート / 禁止ワード / WPブロック開閉 / ショートコード混在 / ショートコード連続配置（originalsc同士の間に本文が必要） / JSON-LDパース / メタ⇔JSON-LD同期 / 本文FAQ⇔JSON-LD FAQPage同期（Q1/A形式のspanマークアップと「Q1｜質問文」のdiv形式に対応。どちらでも取れない形式のみ判定スキップ。2026-09-26にdiv形式へ対応） / AFリンク仕様 / ul style / wp:imageのalign⇔figureのclass不一致（手動修正時のズレ検知） / カテゴリURL残存 / ナビブロックの番組網羅漏れ・自己参照リンク（`rewrite_common_rules.md` 8章のURL一覧と照合。新番組追加時はこの一覧を先に更新） / リード文日付 / 締め文の主観形容詞（`shicho-memo`ブロック内は対象外） / 同一文の記事内3回以上リピート（数字違いは同一視・表現ローテーション用） / 他番組告知パラグラフの放送日が自記事より過去（放送済み番組への導線残存を検知）。
 WARNは `tools/output/qa_baseline.json` と照合して[新規]/[既知]に分類される。
 **全リライトコマンドの最終ステップとして「ERROR 0件・新規WARN 0件」（終了コード0）を確認してから完了報告すること。** `--update-baseline` はユーザー承認時のみ。
 

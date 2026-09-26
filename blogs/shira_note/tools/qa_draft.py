@@ -47,6 +47,7 @@ WARNベースライン:
 """
 
 import argparse
+import html
 import json
 import os
 import re
@@ -468,6 +469,16 @@ def extract_body_faq(text: str) -> list[tuple[str, str]]:
         elif lbl == "A" and pending_q is not None:
             pairs.append((pending_q, txt))
             pending_q = None
+    if pairs:
+        return pairs
+    # span形式で取れなければ「Q1｜質問文」のdiv形式（STAR・うたであえたら・歌の感謝祭・オールスター感謝祭）で抽出する。
+    # 質問div直後のdivが回答。回答が複数行に整形されていても、改行・インデントは除いて比較する。
+    for m3 in re.finditer(
+        r'<div[^>]*>\s*Q\d+｜(.*?)</div>\s*<div[^>]*>(.*?)</div>', block, re.DOTALL
+    ):
+        q = html.unescape(re.sub(r"<[^>]+>", "", m3.group(1))).strip()
+        a = html.unescape(re.sub(r"<[^>]+>", "", re.sub(r"\s*\n\s*", "", m3.group(2)))).strip()
+        pairs.append((q, a))
     return pairs
 
 
@@ -503,8 +514,8 @@ def check_faq_sync(text: str, rep: Report):
     body_faq = extract_body_faq(text)
     jsonld_faq = extract_jsonld_faq(text)
     if not body_faq:
-        # 本文側のFAQマークアップがQ1/A形式のspan構造と異なるテンプレート
-        # （例: STAR系の <div>Q1｜質問文</div> 形式）は抽出非対応のため判定をスキップする。
+        # span形式（Q1/A）・div形式（「Q1｜質問文」）のどちらでも取れないマークアップは
+        # 抽出非対応のため判定をスキップする。
         return
     if len(body_faq) != len(jsonld_faq):
         rep.error(
