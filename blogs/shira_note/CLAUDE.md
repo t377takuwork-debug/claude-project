@@ -42,6 +42,7 @@
 | `/shira-release-tracker` | アーティスト別・発売情報トラッカー記事（見落とし防止軸、複数商品を1記事に横断まとめ・継続更新） | `.claude/commands/shira-release-tracker.md` |
 | `/shira-research` | 記事ネタ収集（news.ceek.jp 3URL・直近5時間の番組/発売情報） | `.claude/commands/shira-research.md` |
 | `/shira-tv-scout` | 番組表ベースの新規ネタ発掘（手動実行・音楽番組に限らず全ジャンルの概要文から候補抽出） | `.claude/commands/shira-tv-scout.md` |
+| `/onirenchan-article` | 千鳥の鬼レンチャン サビだけカラオケの出演者の人物記事（放送前に公開・人物ごとに新規記事。下書き1本を人物ごとに差し替える） | `.claude/commands/onirenchan-article.md` |
 
 ### リライト時に必要な事前情報（共通）
 
@@ -76,6 +77,7 @@
 | Venue101 | `draft_venue101.txt` |
 | オールスター感謝祭 | `draft_allstar.txt` |
 | オールスター感謝祭 マラソン（キーワード起点記事。年号なしで毎年上書き） | `draft_allstar_marathon.txt` |
+| 千鳥の鬼レンチャン サビだけカラオケの出演者（人物記事。人物ごとに中身を差し替えて1本を使い回す。1人ずつ結果の書き足しまで終えてから次へ） | `draft_onirenchan.txt` |
 
 保存先：`drafts/` フォルダ（`C:\Users\PC_User\claude project\blogs\shira_note\drafts\`）
 
