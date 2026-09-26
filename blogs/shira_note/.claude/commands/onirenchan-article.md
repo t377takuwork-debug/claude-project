@@ -51,7 +51,7 @@ await new Promise(r=>setTimeout(r,4500));
 - 最初は4件ほどしか出ない。挑戦者の予告が足りないときは、`window.scrollBy(0,2500)` を足して再実行する
 - **「リベンジ参戦」「◯回目」などの文言に注意**（実測：SARIさんは「リベンジ参戦」で初参戦ではない）。2回目以降の人は、手順3の「2回目以降の出演」の型にする
 
-**③ ユーザーに聞く**：どの人物の記事を作るか（全員か・除外する人はいるか）。**アイキャッチ画像と記事内画像のURL**（2つ）。
+**③ ユーザーに聞く**：どの人物の記事を作るか（全員か・除外する人はいるか）。**画像のURL2つ**：①**構造化データ用の代表画像**（`eyecatch`）②**記事内の画像**（`image_src`。放送回で同じ画像を使い回すことが多い）。※WordPressで設定するアイキャッチ画像は**別の画像でよく、下書きには入れない**（構造化データの画像と食い違っていても問題ない。オーナー確認済み 2026-09-26）。
 
 → 放送回ファイルを書く（見本をコピー）。**atwiki・TVerは、ここでは開かない**（公式サイトに全部載っているため）。
 
@@ -136,7 +136,7 @@ await new Promise(r=>setTimeout(r,4500));
 | `name`・`file`・`slug` | 名前・下書きのファイル名の後半・URLスラッグ |
 | `title_tail`・`meta`・`lead` | タイトルの後半・メタ（文字数と構造化データは自動）・冒頭の文（1文か、2文までの配列） |
 | `published`・`modified` | 公開日時（ISO形式）・更新日時（省略すると公開日時と同じ） |
-| `eyecatch`・`image_src`・`image_alt`・`image_id` | アイキャッチ・記事内画像・記事内画像のalt・記事内画像のWordPressの画像ID（省略可。あるとクラス `wp-image-ID` が付く） |
+| `eyecatch`・`image_src`・`image_alt`・`image_id` | 構造化データ用の代表画像・記事内画像・記事内画像のalt・記事内画像のWordPressの画像ID（省略可。あるとクラス `wp-image-ID` が付く）。WordPressのアイキャッチ画像は入れない |
 | `guide` | 速報ガイド：`challenger_sub`・`person_main`・`person_sub`・`result_main`・`result_sub` |
 | `embed_html` / `embed_url` / `embed_position` | **任意**。ユーザーが埋め込みコード（Xなど）を渡したときだけ入れる（`embed_url` はXの投稿URLだけ）。ふだんは省略。位置は導入の文のあと・プロフィールカードの前（`embed_position` を `"h2"` にすると見出し①の直下） |
 | `intro`・`after_profile` | 見出し①のプロフィールカードの前（1〜2文）・後（2〜3文）の段落（配列） |
