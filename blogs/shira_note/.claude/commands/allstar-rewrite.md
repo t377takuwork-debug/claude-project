@@ -14,10 +14,11 @@
 - 記事URL：https://shira-treat.com/allstar-kanshasai-timetable/
 - 見逃し配信：TVer（https://tver.jp/series/srv8sdsc13）またはTBS FREE（https://cu.tbs.co.jp/program/28647）で期間限定配信の模様（2026-09-26ユーザー提供。配信期間は未確認）
 - リアルタイム配信：https://tver.jp/live/tbs（TVerのTBS系リアルタイム配信）
-- 「見逃し配信」H2に配信ガイドaside（`aria-label="オールスター感謝祭 配信ガイド"`）あり。公式サイトの3列構成（リアルタイム／最新回を無料配信／これまでの配信）に合わせ、3列目にU-NEXTのA8アフィリエイトリンク（`rel="nofollow"`のみ・計測ピクセル`<img>`をリンク直後に配置・「PR」表記付き）を置く。リンクURLの`&`は`&amp;`で書く
+- 「見逃し配信」H2に配信ガイドaside（`aria-label="オールスター感謝祭 配信ガイド"`）あり。公式サイトの3列構成（リアルタイム／最新回を無料配信／これまでの配信）に合わせ、3列目にU-NEXTのA8アフィリエイトリンク（`rel="nofollow"`のみ・計測ピクセル`<img>`をリンク直後に配置・「PR」表記付き）を置く。リンクURLの`&`は`&amp;`で書く。**A8の計測ピクセルは、提供されたコードのまま書く（`loading="lazy"`等の属性を足さない）**。楽天もしもの仕様（`loading="lazy"`付き）を当てはめて、遅延読み込みでピクセルが遅れた（2026-09-26）
 - **画像の使い分け（2026-09-26ユーザー指定）**：アイキャッチ画像（`image-10-2.webp`）は**構造化データ（`image`／`thumbnailUrl`）にだけ**使い、記事内には置かない。記事内の画像は `image-9-1.webp`（出演者一覧H2の`wp:image`）
 - 配色：濃紺（`#0a0b22`）×金（`#f2c230`）×赤（`#e3262a`）。公式ロゴに寄せた配色のため、他番組の配色に寄せない
-- BreadcrumbListは**カテゴリ階層を入れていない2階層**（ホーム→記事）。WP側のカテゴリURLが確定したら3階層へ直す
+- BreadcrumbListは3階層（ホーム→「タイムテーブル」`https://shira-treat.com/category/timetable/`→記事）。この記事のWPカテゴリは「タイムテーブル」のみ（2026-09-26オーナー確認。公開ページのパンくずでも実測済み）
+- 構造化データの画像（`image-10-2.webp`）と、WPに設定した実際のアイキャッチ（公開ページ上部・og:imageは`image-11-3.webp`）は**別の画像でよい**（2026-09-26オーナー確認）。そろえ直さない
 
 ## 実行フロー判定
 
@@ -76,9 +77,8 @@ python tools/qa_draft.py draft_allstar.txt --fix
 
 `qa_draft.py` はこの番組のFAQ（`Q1｜`形式のdiv）の本文⇔JSON-LD同期を自動判定できない。**完了前に本文とJSON-LDのQ&A一致を手作業で確認する**（Q文は「Q{n}｜」を除いた文言が`name`と一致）。
 
-## 未対応事項（2026-09-26時点）
+## 決定事項・今後の作業（2026-09-26時点。記事は同日公開済み）
 
-- `tools/qa_draft.py` の `NAV_FIXED_URLS`・`NAV_SELF_URL_BY_FILENAME`・`CANONICAL_URL_BY_FILENAME` と `rewrite_common_rules.md` 8章のナビURL表には、この番組を**まだ登録していない**。登録すると他の全draftのナビブロックにこの番組の行を足す作業が同時に発生するため、公開後にユーザーと相談して行う
-- 他の全番組draftのナビブロックへの、この番組の行の追加
-- WPカテゴリURLの確定（確定したらBreadcrumbListを3階層へ）
-- 出演者・企画の順番・配信サービスの発表内容の反映
+- **他番組のナビへの追加はしない**（2026-09-26オーナー決定）。`tools/qa_draft.py` の `NAV_FIXED_URLS`・`NAV_SELF_URL_BY_FILENAME`・`CANONICAL_URL_BY_FILENAME` と `rewrite_common_rules.md` 8章のナビURL表にも、この番組は登録しない。この記事のナビには他の全14番組へのリンクがあるが、他の記事のナビにはこの番組の行を足さない
+- 公開ページのJSON-LDは、立ち上げ時のドラフト（パンくず2階層）のまま公開された可能性がある。**ドラフトを3階層に直したので、次にWPを更新するときに、パンくずのJSON-LDも差し替える**
+- 今後の作業：出演者・企画の順番・配信サービスの発表内容の反映（上の実行フロー判定表のとおり）

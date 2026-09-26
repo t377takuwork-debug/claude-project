@@ -652,7 +652,7 @@
           <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 900; color: #0a0b22; line-height: 1.4;">U-NEXT</span>
           <span style="font-size: 9px; font-weight: 900; color: #999; border: 1px solid #ccc; border-radius: 2px; padding: 0 3px; margin-left: 8px;">PR</span>
         </a>
-        <img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=2ZWAMB+51LYIQ+3250+BW8O2" alt="" loading="lazy">
+        <img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=2ZWAMB+51LYIQ+3250+BW8O2" alt="">
       </div>
 
     </div>
@@ -1185,6 +1185,12 @@
         {
           "@type": "ListItem",
           "position": 2,
+          "name": "タイムテーブル",
+          "item": "https://shira-treat.com/category/timetable/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
           "name": "オールスター感謝祭 タイムテーブル",
           "item": "https://shira-treat.com/allstar-kanshasai-timetable/"
         }
