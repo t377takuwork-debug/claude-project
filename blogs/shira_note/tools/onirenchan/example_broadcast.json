@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-27",
+  "weekday": "日",
+  "start": "19:00",
+  "end": "21:00",
+  "channel": "フジテレビ",
+  "program": "千鳥の鬼レンチャン",
+  "official_url": "https://www.fujitv.co.jp/oniren/",
+  "x_url": "https://x.com/oni_renchan",
+  "x_handle": "@oni_renchan",
+  "count_text": "4名が発表済み",
+  "challengers": [
+    {
+      "key": "佐々木大光",
+      "label": "佐々木大光（KEY TO LIT）",
+      "note": "サビだけカラオケに初参戦。今冬CDデビューが決まっています。"
+    },
+    {
+      "key": "SARI",
+      "label": "SARI",
+      "note": "ZARD激似モノマネで最高9レンチャンの記録があります。"
+    },
+    {
+      "key": "せいや",
+      "label": "せいや（霜降り明星）",
+      "note": "最高8レンチャンの記録があり「石川晟也」名義で歌手デビューしています。"
+    },
+    {
+      "key": "ダイアナ・ガーネット",
+      "label": "ダイアナ・ガーネット",
+      "note": "アメリカ出身のアニソン歌手で今回が初参戦です。"
+    }
+  ],
+  "challengers_note": "公式サイトの表記に合わせて五十音順に並べています。",
+  "update_promise": "結果など新しい情報はあり次第更新していきます！",
+  "vod": {
+    "lead": "公式Xでは見逃した方向けにTVer・FOD・Netflixでの配信が案内されています。",
+    "realtime_url": "https://tver.jp/live/cx",
+    "series_url": "https://tver.jp/series/srytsco4k7",
+    "fod_url": "https://fod.fujitv.co.jp/title/2805/",
+    "after": "放送中はTVerのリアルタイム配信でも見られるようです。"
+  },
+  "about_name": "千鳥の鬼レンチャン サビだけカラオケ"
+}
