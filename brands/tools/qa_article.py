@@ -58,6 +58,7 @@ NOTE_PASTE_WARN_PATTERNS = [
     ("note-bold-bracket-open", r"\*\*[「『【]", "太字マーカー直後に開き括弧はNote貼り付けで太字が反映されない可能性（2026-08-01確認）。括弧を太字の外に出す（例：「別れたい」は**行動の前で〜**のように、括弧の中身は太字にせず後続部分だけ太字にする）"),
     ("note-bold-bracket-close", r"[」』】）]\*\*", "閉じ括弧の直後に太字マーカーはNote貼り付けで太字が反映されない可能性（2026-08-01確認）。括弧を太字の外に出すだけでは直らない場合がある（2026-09-17：括弧の直後に**を置いた再修正でも同じWARNが出た実例あり）。括弧と太字マーカーの間に「という」等の語を1つ挟んで物理的に離す"),
     ("note-bold-percent", r"%\*\*", "「%」の直後に太字マーカーはNote貼り付けで太字が反映されない可能性（2026-08-01、新庄考察記事で確認）。`**95**%`のように%を太字の外に出す"),
+    ("note-bold-inside-bracket", r"[「『【]\*\*|\*\*[」』】）]", "括弧の内側全体（「**〜**」）を太字にすると、Note貼り付けで崩れる/分断される実例あり（2026-09-28、UYA.自己紹介記事で確認：文が3分割され一部が引用ブロック化した）。太字は括弧の外側の語にかける"),
     ("note-bold-trailing", r"\*\*[^*\n]*?[。！？]\*\*[^\s*\n]", "句点で終わる太字の直後に文字が続くと、Markdownの仕様では太字と認識されず「**」がそのまま出る可能性（2026-09-21、審査員の指摘）。太字の文のあとで改行し、続きを次の行に置く"),
 ]
 
@@ -85,7 +86,7 @@ TONE_WARN_PATTERNS = [
     ("tone-omoimasu", r"と思います|と感じています|と思っています", "「〜と思います／感じています」は使わない。推量は「〜はず」「たぶん〜」（writing_tone 1-1）", None),
     ("tone-shimashou", r"しましょう|していきましょう", "「〜しましょう」のセミナー講師口調。呼びかけは「〜してみてください」まで（writing_tone 1-1）", None),
     ("tone-section", r"セクション", "「セクション」は本文で使わない→「ここ」「この記事」「〜欄」「〜一覧」（writing_tone 1-1）", None),
-    ("tone-desune", r"ですね[。？]", "「〜ですね」の相槌語尾（writing_tone 1-1。vivant・MBTICODEは可）", ("/vivant/", "/mbticode/")),
+    ("tone-desune", r"ですね[。？]", "「〜ですね」の相槌語尾（writing_tone 1-1。vivant・MBTICODE・UYA.は可。2026-09-28追加：語りかけ口調の方針に合うため）", ("/vivant/", "/mbticode/", "/uya/")),
 ]
 
 # 層8: s4lv専用（WARN・2026-09-21新設。オーナーが繰り返し伝えた意図の機械化。出典は brands/s4lv/rules/note_article_checklist.md）
@@ -106,6 +107,7 @@ CORPUS_MAP = [
     ("/mbticode/", ["brands/mbticode/articles/published", "brands/mbticode/articles/drafts"]),
     ("/junk_juice/", ["Junk314/junk_juice/articles/published", "Junk314/junk_juice/articles/drafts"]),
     ("/vivant/", ["vivant/articles/published", "vivant/articles/drafts"]),
+    ("/uya/", ["uya/articles/published", "uya/articles/drafts"]),
 ]
 SHINGLE_LEN = 20  # この文字数の連続一致を「同じ言い回し」とみなす（数字はマスクして比較）
 _DIGIT_RE = re.compile(r"[0-9０-９]+")
@@ -211,6 +213,7 @@ def main():
     errors, warns, infos = [], [], []
     _norm_early = rel_norm(args.file)
     is_s4lv = "/s4lv/" in _norm_early
+    is_uya = "/uya/" in _norm_early
     # ヘッダー（作成日〜Noteタグ〜---）の行数。一文の長さ・読点のチェックはヘッダーを除く
     _fm0 = re.match(r"^.*?\n---[ \t]*\n", text, flags=re.S)
     header_lines = text[:_fm0.end()].count("\n") if _fm0 else 0
@@ -285,8 +288,8 @@ def main():
         if count == 1:
             warns.append(f"[WARN] L{line_no} lone-h3: H2「{title}」直下のH3が1本のみ（ルールではH3は複数の独立サブトピックがある場合のみ・2〜3本セットで使う。単独H3は禁止）")
     first45 = "\n".join(text.splitlines()[:45])  # 冒頭メタ情報（タイトル・タグ・構成）を考慮した窓
-    # s4lvは「悩みをあおらない・問いかけで始めない」方針（台帳）なので、この警告は出さない（毎回「許容」になる無駄を消す。2026-09-21）
-    if not is_s4lv and "？" not in first45 and "?" not in first45:
+    # s4lv・UYA.は「悩みをあおらない・問いかけで始めない」方針（台帳／project_uya_positioning.md）なので、この警告は出さない（毎回「許容」になる無駄を消す。2026-09-21・UYA.は2026-09-27追加）
+    if not is_s4lv and not is_uya and "？" not in first45 and "?" not in first45:
         warns.append("[WARN] no-question-intro: 記事冒頭に問いかけがない（PASONA導入Step.1「〇〇でお困りではないですか？」型の確認）")
     if not re.search(r"note\.com|http", text) and args.paid:
         warns.append("[WARN] no-cta-link: 有料記事にURL・CTAリンクが見当たらない（中間CTA最低2箇所・s4lvマネタイズ設計）")

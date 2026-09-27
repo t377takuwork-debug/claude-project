@@ -25,6 +25,7 @@ claude project/
 ├── Junk314/        ← クライアント管理アカウント（→ Junk314/junk_juice/CLAUDE.md を参照）
 │   └── junk_juice/ ← 60代推し活エッセイアカウント（rules/に品質基準3本）
 ├── vivant/         ← 新規Noteアカウント（ジャンル未定・情報ベース記事。→ vivant/CLAUDE.md を参照）
+├── uya/            ← 新規Note/X/スレッズアカウント「UYA.」（働き方・生き方エッセイ＋AI/ブログ/SNSの実践記録。s4lv等とは独立。→ uya/CLAUDE.md を参照）
 └── journals/       ← 音声ジャーナル資産化パイプライン（→ journals/CLAUDE.md を参照）
 ```
 
@@ -95,6 +96,9 @@ claude project/
 | vivant Note記事（テーマ・タイトル） | `/vivant-theme` スキルを起動 |
 | vivant Note記事（構成・本文・保存） | `/vivant-article` スキルを起動 |
 | vivant Threads投稿生成 | `/vivant-post` スキルを起動 |
+| UYA. Note記事（テーマ・タイトル） | `/uya-theme` スキルを起動 |
+| UYA. Note記事（構成・本文・保存） | `/uya-article` スキルを起動 |
+| UYA. その他作業・方針 | `uya/CLAUDE.md` |
 | ASP記事設計 | `/asp-kaigi` スキルを起動 |
 | 戦略・方針判断 | `/notekaigi` スキルを起動 |
 | 音声ジャーナル処理（文字起こし→資産化） | `/journal` スキルを起動 |
