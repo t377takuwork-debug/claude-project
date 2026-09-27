@@ -1,7 +1,7 @@
 <!-- wp:paragraph -->
-タイトル：Mステ タイムテーブル【9月18日】出演順・出演時間をリアルタイム更新
-メタディスクリプション（108字）：
-Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOOM BOOM SATELLITESが番組初出演、あいみょんが2曲を披露、中島健人「鬼事」も。全6組の出演順・登場時間の目安を随時追記。
+タイトル：Mステ タイムテーブル【次回未定】出演順・出演時間を決まり次第すぐ更新
+メタディスクリプション（115字）：
+Mステ（次回放送日は未定）のタイムテーブルを更新中。直前の9月18日は渡辺美里が約28年ぶり出演、THE SPELLBOUND×BOOM BOOM SATELLITESが初登場。次回の出演順・登場時間の目安は決まり次第追記します。
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -9,11 +9,11 @@ Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOO
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>9月18日のMステは、あいみょん、上白石萌音、THE SPELLBOUND×BOOM BOOM SATELLITES、中島健人、M!LK、渡辺美里の全6組が出演！</p>
+<p>Mステの次回放送日は、9月27日時点で未定です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演順と登場時間の目安は、生放送に合わせてこのページに追記していきます。</p>
+<p>出演者・タイムテーブル・出演順といった次回の情報を、この記事にまとめています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -26,7 +26,7 @@ Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOO
       <div style="font-size: 13px; font-weight: 900; color: #003366; letter-spacing: 0.05em; border-left: 3px solid #003366; padding-left: 8px; line-height: 1;">MUSIC STATION</div>
       <div style="font-size: 10px; font-weight: 800; color: #ff0084; display: flex; align-items: center; gap: 4px;">
         <span style="display: inline-block; width: 6px; height: 6px; background: #ff0084; border-radius: 50%;"></span>
-        REAL-TIME UPDATES
+        次回 未定
       </div>
     </div>
 
@@ -35,8 +35,8 @@ Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOO
     </div>
 
     <div style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #4a5568;">
-      <span style="background: #ff0000; color: #fff; font-size: 9px; padding: 2px 4px; border-radius: 2px; font-weight: 900;">LIVE</span>
-      2026年9月18日(金) 21:00〜21:54
+      <span style="background: #718096; color: #fff; font-size: 9px; padding: 2px 4px; border-radius: 2px; font-weight: 900;">未定</span>
+      次回放送日：未定（2026年9月27日時点）
     </div>
 
     <div style="margin-top: 14px; border: 1px solid #edf2f7; border-bottom: none;">
@@ -44,28 +44,28 @@ Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOO
       <div style="display: flex; border-bottom: 1px solid #edf2f7;">
         <div style="width: 80px; font-size: 9px; font-weight: 900; color: #a0aec0; padding: 10px 8px; background: #f8fafc; flex-shrink: 0; display: flex; align-items: center;">STATUS</div>
         <div style="flex: 1; padding: 10px; font-size: 11px; font-weight: 700; color: #2d3748; line-height: 1.5;">
-          <strong style="font-weight: 800; color: #ff0084;">出演アーティスト・歌唱曲 発表済み</strong>
+          <strong style="font-weight: 800; color: #ff0084;">次回の放送日・出演者とも未発表</strong>
         </div>
       </div>
 
       <div style="display: flex; border-bottom: 1px solid #edf2f7;">
         <div style="width: 80px; font-size: 9px; font-weight: 900; color: #a0aec0; padding: 10px 8px; background: #f8fafc; flex-shrink: 0; display: flex; align-items: center;">ARTISTS</div>
         <div style="flex: 1; padding: 10px; font-size: 12px; font-weight: 700; color: #2d3748; line-height: 1.6;">
-          あいみょん / 上白石萌音 / THE SPELLBOUND×BOOM BOOM SATELLITES / 中島健人 / M!LK / 渡辺美里
+          未発表
 </div>
       </div>
 
       <div style="display: flex; border-bottom: 1px solid #edf2f7;">
         <div style="width: 80px; font-size: 9px; font-weight: 900; color: #a0aec0; padding: 10px 8px; background: #f8fafc; flex-shrink: 0; display: flex; align-items: center;">TIMETABLE</div>
         <div style="flex: 1; padding: 10px; font-size: 11px; font-weight: 700; color: #718096; line-height: 1.6; font-style: italic;">
-          公式の分刻みタイムテーブルは未公開です。出演順と時間帯は生放送を追いながらこのページへ反映します。
+          公式サイトは「次回の放送もお楽しみに！」の表示のままで、分刻みのタイムテーブルも未公開です。
         </div>
       </div>
     </div>
 
     <div style="margin-top: 12px; background: #f7fafc; border-left: 3px solid #1a202c; color: #2d3748; padding: 10px; font-size: 11px; font-weight: 700; display: flex; align-items: flex-start; gap: 8px; line-height: 1.5;">
       <span style="color: #ff0084;">💡</span>
-      <span>THE SPELLBOUND×BOOM BOOM SATELLITESが番組初出演で「KICK IT OUT」を披露。中島健人「鬼事」はアニメ『逃げ上手の若君』第2期のオープニングテーマです。</span>
+      <span>直前の9月18日は渡辺美里が約28年ぶりに出演し、THE SPELLBOUND×BOOM BOOM SATELLITESが番組初出演。鈴木新彩アナのサブMC卒業回でもありました。</span>
     </div>
 
     <div style="margin-top: 12px; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 8px;">
@@ -73,8 +73,8 @@ Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOO
         最新情報を確認する ▶
       </a>
       <div style="font-size: 9px; color: #a0aec0; text-align: right; line-height: 1.4;">
-        最終更新: 2026.09.06 放送前<br>
-        (放送当日、生放送にあわせて更新)
+        最終更新: 2026.09.27 放送日未定<br>
+        (次回の放送日が決まったら更新)
       </div>
     </div>
   </div>
@@ -86,135 +86,41 @@ Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOO
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>推しの出番を見逃さないよう、出演順と時間帯の目安を生放送に合わせて随時更新します。</p>
+<p>直前の9月18日の出演順は、この下にまとめています。新しい追加情報などあり次第更新していきます！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>ミュージックステーション（Mステ）最新タイムテーブル【9/18】</h2>
+<h2>ミュージックステーション（Mステ）最新タイムテーブル</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>※9/18はタイムテーブルが公開されていないため予測として掲載中。</p>
+<p>次回の放送日と出演者が決まるまで、タイムテーブルは載せられません。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div role="region" aria-label="Mステ タイムテーブル（2026年9月18日）" style="font-family: 'Inter', 'Hiragino Sans', 'Yu Gothic', sans-serif; margin: 20px 0; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden; box-shadow: 0 10px 25px -5px rgba(0, 40, 80, 0.1);">
+<div role="region" aria-label="Mステ タイムテーブル（次回放送日未定）" style="font-family: 'Inter', 'Hiragino Sans', 'Yu Gothic', sans-serif; margin: 20px 0; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden; box-shadow: 0 10px 25px -5px rgba(0, 40, 80, 0.1);">
 
   <div style="height: 4px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff);"></div>
 
   <div style="padding: 16px; background: #fcfdfe; border-bottom: 1px solid #edf2f7;">
     <div style="display: flex; align-items: center; gap: 8px;">
-      <span style="background: #ff0084; color: #fff; font-size: 10px; font-weight: 900; padding: 2px 6px; border-radius: 2px;">独自予想</span
-      ><span style="font-size: 14px; font-weight: 900; color: #1a202c; letter-spacing: -0.01em;">2026.09.18 タイムテーブル（出演順予想）</span>
+      <span style="background: #718096; color: #fff; font-size: 10px; font-weight: 900; padding: 2px 6px; border-radius: 2px;">未定</span>
+      <span style="font-size: 14px; font-weight: 900; color: #1a202c; letter-spacing: -0.01em;">次回のタイムテーブル</span>
     </div>
   </div>
 
-  <div style="padding: 0;">
-
-    <!-- 21:00 -->
-    <div style="display: flex; border-bottom: 1px solid #f1f5f9;">
-      <div style="width: 75px; background: #f8fafc; padding: 18px 10px; text-align: center; border-right: 1px solid #f1f5f9; flex-shrink: 0;">
-        <div style="font-size: 14px; font-weight: 900; color: #003366;">21:00</div>
-        <div style="font-size: 8px; font-weight: 800; color: #a0aec0; margin-top: 2px;">START</div>
-      </div>
-      <div style="flex: 1; padding: 15px 16px;">
-        <div style="font-size: 14px; font-weight: 800; color: #2d3748; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
-          <span style="color: #ff0084;">●</span>オープニング・出演者紹介
-        </div>
-      </div>
+  <div>
+    <div style="display: flex; border-bottom: 1px solid #edf2f7;">
+      <div style="width: 80px; font-size: 10px; font-weight: 900; color: #a0aec0; padding: 12px 10px; background: #f8fafc; flex-shrink: 0; display: flex; align-items: center;">放送日</div>
+      <div style="flex: 1; padding: 12px 14px; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 800; color: #2d3748; line-height: 1.6;">未定（2026年9月27日時点）</div>
     </div>
-
-    <!-- 21:04 THE SPELLBOUND×BOOM BOOM SATELLITES -->
-    <div style="display: flex; border-bottom: 1px solid #f1f5f9;">
-      <div style="width: 75px; background: #f8fafc; padding: 18px 10px; text-align: center; border-right: 1px solid #f1f5f9; flex-shrink: 0;">
-        <div style="font-size: 14px; font-weight: 900; color: #003366;">21:04頃</div>
-        <div style="font-size: 8px; font-weight: 800; color: #a0aec0; margin-top: 2px;">予想</div>
-      </div>
-      <div style="flex: 1; padding: 15px 16px; background: #fff;">
-        <div style="font-size: 13px; font-weight: 700; color: #2d3748; margin-bottom: 8px;">THE SPELLBOUND×BOOM BOOM SATELLITES <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">番組初出演</span></div>
-        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-          <span style="background: #fff0f6; color: #ff0084; font-size: 11px; padding: 4px 10px; border-radius: 2px; font-weight: 700; border: 1px solid #ffd6ea;">KICK IT OUT</span>
-        </div>
-      </div>
+    <div style="display: flex; border-bottom: 1px solid #edf2f7;">
+      <div style="width: 80px; font-size: 10px; font-weight: 900; color: #a0aec0; padding: 12px 10px; background: #f8fafc; flex-shrink: 0; display: flex; align-items: center;">出演者</div>
+      <div style="flex: 1; padding: 12px 14px; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 800; color: #2d3748; line-height: 1.6;">未発表</div>
     </div>
-
-    <!-- 21:12 M!LK -->
-    <div style="display: flex; border-bottom: 1px solid #f1f5f9;">
-      <div style="width: 75px; background: #f8fafc; padding: 18px 10px; text-align: center; border-right: 1px solid #f1f5f9; flex-shrink: 0;">
-        <div style="font-size: 14px; font-weight: 900; color: #003366;">21:12頃</div>
-        <div style="font-size: 8px; font-weight: 800; color: #a0aec0; margin-top: 2px;">予想</div>
-      </div>
-      <div style="flex: 1; padding: 15px 16px; background: #fff;">
-        <div style="font-size: 13px; font-weight: 700; color: #2d3748; margin-bottom: 8px;">M!LK</div>
-        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-          <span style="background: #f1f5f9; color: #4a5568; font-size: 11px; padding: 4px 10px; border-radius: 2px; font-weight: 700; border: 1px solid #e2e8f0;">時空超えてユニバース</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- 21:20 中島健人 -->
-    <div style="display: flex; border-bottom: 1px solid #f1f5f9;">
-      <div style="width: 75px; background: #f8fafc; padding: 18px 10px; text-align: center; border-right: 1px solid #f1f5f9; flex-shrink: 0;">
-        <div style="font-size: 14px; font-weight: 900; color: #003366;">21:20頃</div>
-        <div style="font-size: 8px; font-weight: 800; color: #a0aec0; margin-top: 2px;">予想</div>
-      </div>
-      <div style="flex: 1; padding: 15px 16px; background: #fff;">
-        <div style="font-size: 13px; font-weight: 700; color: #2d3748; margin-bottom: 8px;">中島健人</div>
-        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-          <span style="background: #f1f5f9; color: #4a5568; font-size: 11px; padding: 4px 10px; border-radius: 2px; font-weight: 700; border: 1px solid #e2e8f0;">鬼事</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- 21:30 上白石萌音 -->
-    <div style="display: flex; border-bottom: 1px solid #f1f5f9;">
-      <div style="width: 75px; background: #f8fafc; padding: 18px 10px; text-align: center; border-right: 1px solid #f1f5f9; flex-shrink: 0;">
-        <div style="font-size: 14px; font-weight: 900; color: #003366;">21:30頃</div>
-        <div style="font-size: 8px; font-weight: 800; color: #a0aec0; margin-top: 2px;">予想</div>
-      </div>
-      <div style="flex: 1; padding: 15px 16px; background: #fff;">
-        <div style="font-size: 13px; font-weight: 700; color: #2d3748; margin-bottom: 8px;">上白石萌音</div>
-        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-          <span style="background: #f1f5f9; color: #4a5568; font-size: 11px; padding: 4px 10px; border-radius: 2px; font-weight: 700; border: 1px solid #e2e8f0;">Trophy</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- 21:38 渡辺美里 -->
-    <div style="display: flex; border-bottom: 1px solid #f1f5f9;">
-      <div style="width: 75px; background: #f8fafc; padding: 18px 10px; text-align: center; border-right: 1px solid #f1f5f9; flex-shrink: 0;">
-        <div style="font-size: 14px; font-weight: 900; color: #003366;">21:38頃</div>
-        <div style="font-size: 8px; font-weight: 800; color: #a0aec0; margin-top: 2px;">予想</div>
-      </div>
-      <div style="flex: 1; padding: 15px 16px; background: #fff;">
-        <div style="font-size: 13px; font-weight: 700; color: #2d3748; margin-bottom: 8px;">渡辺美里</div>
-        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-          <span style="background: #f1f5f9; color: #4a5568; font-size: 11px; padding: 4px 10px; border-radius: 2px; font-weight: 700; border: 1px solid #e2e8f0;">My Revolution</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- 21:45 あいみょん 大トリ -->
     <div style="display: flex;">
-      <div style="width: 75px; background: #f8fafc; padding: 18px 10px; text-align: center; border-right: 1px solid #f1f5f9; flex-shrink: 0;">
-        <div style="font-size: 14px; font-weight: 900; color: #ff0084;">21:45頃</div>
-        <div style="font-size: 8px; font-weight: 800; color: #ff0084; margin-top: 2px;">大トリ予想</div>
-      </div>
-      <div style="flex: 1; padding: 15px 16px; background: #fff;">
-        <div style="font-size: 13px; font-weight: 700; color: #2d3748; margin-bottom: 8px;">あいみょん</div>
-        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
-          <span style="background: #fff0f6; color: #ff0084; font-size: 11px; padding: 4px 10px; border-radius: 2px; font-weight: 700; border: 1px solid #ffd6ea;">マリーゴールド</span>
-          <span style="background: #fff0f6; color: #ff0084; font-size: 11px; padding: 4px 10px; border-radius: 2px; font-weight: 700; border: 1px solid #ffd6ea;">今日は晴れ、肌寒い。私は家、ギターを弾く。</span>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  <div style="padding: 12px 16px; background: #1a202c; color: #fff;">
-    <div style="font-size: 11px; font-weight: 700; line-height: 1.6; display: flex; align-items: flex-start; gap: 8px;">
-      <span style="color: #ffdc00; font-size: 14px;">⚠️</span>
-      <span>上記は過去の傾向に基づく独自予想です。放送開始後は実際の歌唱順にリアルタイムで書き換えます。</span>
+      <div style="width: 80px; font-size: 10px; font-weight: 900; color: #a0aec0; padding: 12px 10px; background: #f8fafc; flex-shrink: 0; display: flex; align-items: center;">出演順</div>
+      <div style="flex: 1; padding: 12px 14px; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 800; color: #2d3748; line-height: 1.6;">放送に合わせてこの記事で更新</div>
     </div>
   </div>
 </div>
@@ -224,12 +130,8 @@ Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOO
 <p>[nopc][originalsc][/nopc]</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p>※公式のタイムテーブルは生放送の進行に合わせて随時更新します。</p>
-<!-- /wp:paragraph -->
-
 <!-- wp:heading -->
-<h2>Mステの出演者・歌唱曲一覧【9/18】</h2>
+<h2>Mステの出演者・歌唱曲一覧</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center","className":"size-large"} -->
@@ -237,76 +139,23 @@ Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOO
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>2026年9月18日（金）放送『ミュージックステーション』の出演アーティストと披露曲の一覧です。</p>
+<p>次回放送の出演アーティストと披露曲は、まだ発表されていません。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
 <div class="mst-container" style="background: #ffffff; padding: 10px; border: 1px solid #eef2f6; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); font-family: sans-serif; margin-bottom: 15px;">
 
 <div style="border-left: 3px solid #ff007a; margin-bottom: 8px; padding-left: 8px;">
-<span style="color: #1a1a1a; font-size: 13px; font-weight: 900; letter-spacing: 0.05em;">ARTIST LINEUP (2026.09.18)</span>
+<span style="color: #1a1a1a; font-size: 13px; font-weight: 900; letter-spacing: 0.05em;">ARTIST LINEUP（未発表）</span>
 </div>
 
 <div class="mst-artist-section">
-<div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px;">
-
-  <!-- あいみょん -->
-  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #fff8f8 0%, #fff0f6 100%); border: 1px solid #ffcce0; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00);"></div>
-    <div style="padding: 14px 12px;">
-      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">あいみょん <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">2曲</span></p>
-      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「マリーゴールド」「今日は晴れ、肌寒い。私は家、ギターを弾く。」の2曲を披露。</p>
-    </div>
-  </div>
-
-  <!-- 上白石萌音 -->
-  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #dce4ed; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
-    <div style="padding: 14px 12px;">
-      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">上白石萌音</p>
-      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「Trophy」を披露。9月9日発売のアルバム『bouquet』収録で、B.LEAGUE 2026-27シーズンの公式テーマソング。</p>
-    </div>
-  </div>
-
-  <!-- THE SPELLBOUND×BOOM BOOM SATELLITES -->
-  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #fff8f8 0%, #fff0f6 100%); border: 1px solid #ffcce0; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00);"></div>
-    <div style="padding: 14px 12px;">
-      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">THE SPELLBOUND×BOOM BOOM SATELLITES <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">番組初出演</span></p>
-      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「KICK IT OUT」を披露。番組初出演。</p>
-    </div>
-  </div>
-
-  <!-- 中島健人 -->
-  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #dce4ed; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
-    <div style="padding: 14px 12px;">
-      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">中島健人</p>
-      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「鬼事」を披露。アニメ『逃げ上手の若君』第2期のオープニングテーマで、本人が作詞も手がけた。</p>
-    </div>
-  </div>
-
-  <!-- M!LK -->
-  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #dce4ed; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
-    <div style="padding: 14px 12px;">
-      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">M!LK</p>
-      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「時空超えてユニバース」を披露。9月16日発売の1stミニアルバム『LOVE ENG!NE』収録曲。</p>
-    </div>
-  </div>
-
-  <!-- 渡辺美里 -->
-  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #dce4ed; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
-    <div style="padding: 14px 12px;">
-      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">渡辺美里</p>
-      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「My Revolution」を披露。1986年発表の代表曲。</p>
-    </div>
-  </div>
-
+<div style="margin-bottom: 12px; padding: 14px 12px; background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #dce4ed; border-radius: 4px;">
+  <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">次回の出演アーティスト：未発表</p>
+  <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">放送日・出演者・披露曲は、公式の発表を待っている状態です。</p>
 </div>
 
-<p style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #99aabb; margin: 0 0 16px;">※放送内容および歌唱順は番組放送中にリアルタイムで更新します</p>
+<p style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #99aabb; margin: 0 0 16px;">※直前の9月18日の出演者と歌唱曲は、この下の「実際の出演順」にまとめています。</p>
 
 <div style="display: flex; flex-direction: column; gap: 8px;">
 
@@ -373,7 +222,7 @@ Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOO
 <!-- wp:html -->
 <div style="font-family: 'Hiragino Sans', 'Meiryo', sans-serif; margin: 20px 0; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;">
   <div style="background: #003366; color: #ffffff; padding: 12px 15px; font-size: 14px; font-weight: 900; display: flex; align-items: center; gap: 8px;">
-    <span style="color: #00d4ff;">●</span> 9/18 出演時間帯の予測ガイド
+    <span style="color: #00d4ff;">●</span> 直近4回から見る出演時間帯の目安
   </div>
 
   <div style="padding: 15px; background: #ffffff;">
@@ -381,7 +230,7 @@ Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOO
       <div style="font-size: 11px; font-weight: 800; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 4px; text-align: center; align-self: start;">21:00〜</div>
       <div style="font-size: 12px; color: #2d3748; line-height: 1.5;">
         <strong>オープニング・序盤枠</strong><br>
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096;">番組初出演のTHE SPELLBOUND×BOOM BOOM SATELLITESが「KICK IT OUT」を披露します。初出演や話題性の高いパフォーマンスを序盤に置く構成が多く、9月16日に新作を出したM!LKもこのあたりと予想します。</span>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096;">直近4回の放送は、いずれも21:00の開始直後から歌唱かトークが始まっています。1曲目にすぐ入る回も、出演者のトークから入る回もありました。</span>
       </div>
     </div>
 
@@ -389,7 +238,7 @@ Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOO
       <div style="font-size: 11px; font-weight: 800; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 4px; text-align: center; align-self: start;">21:20頃〜</div>
       <div style="font-size: 12px; color: #2d3748; line-height: 1.5;">
         <strong>中盤枠</strong><br>
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096;">中島健人「鬼事」、上白石萌音「Trophy」と、タイアップ曲を持つソロアーティストが並ぶ時間帯になりやすい構成です。</span>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096;">複数組が続けて歌う時間帯になりやすいようです。直近4回とも、この間に2組以上が登場していて、VTR企画を挟む回もありました。</span>
       </div>
     </div>
 
@@ -397,24 +246,16 @@ Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOO
       <div style="font-size: 11px; font-weight: 800; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 4px; text-align: center; align-self: start;">21:40頃〜</div>
       <div style="font-size: 12px; color: #2d3748; line-height: 1.5;">
         <strong>終盤・大トリ枠</strong><br>
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096;">2曲を披露するあいみょんが大トリ最有力です。「My Revolution」を歌う渡辺美里も、終盤の名曲枠に置かれる可能性が高いと予想します。</span>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096;">投稿のピークは、21:40前後から終盤にかけて来ることが多い印象です。直近4回では、トリや終盤の披露がそのまま番組のピークになっていました。</span>
       </div>
     </div>
   </div>
 
   <div style="background: #f8fafc; padding: 10px 15px; font-size: clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color: #a0aec0; border-top: 1px solid #edf2f7;">
-    ※これまでの放送傾向に基づいた独自予想です。実際の順番はリアルタイム更新をご確認ください。
+    ※直近4回の放送（いずれも21:00開始）をもとにした目安です。次回の放送時間が決まったら見直します。
   </div>
 </div>
 <!-- /wp:html -->
-
-<!-- wp:paragraph -->
-<p>過去の傾向を見ると、上記のような放送内容になるケースが多いです。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>実際の出演順は放送開始後にリアルタイムで更新していきます。</p>
-<!-- /wp:paragraph -->
 
 <!-- wp:heading -->
 <h2>ミュージックステーションの順番の傾向</h2>
@@ -430,26 +271,26 @@ Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOO
   <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 2px; box-shadow: 0 3px 10px rgba(0, 34, 68, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
     <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff);"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #003366; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">🕒 通常放送の構成</div>
-    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">今回は21:00開始の通常回。トークを挟みながら、終盤にメイン曲や注目のパフォーマンスがまとめて配置される構成が予想されます。</p>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">次回の放送日と放送時間は未定です。直近4回は21:00開始でしたが、1500回記念のスペシャルのように枠が変わる回もあります。</p>
   </div>
 
   <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 2px; box-shadow: 0 3px 10px rgba(0, 34, 68, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
     <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff);"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #003366; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">🌟 トリの予測</div>
-    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">2曲を披露するあいみょんが大トリ最有力です。直近の放送でも複数曲を歌うアーティストが番組の締めに配置されており、その傾向が根拠です。</p>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">次回の出演者が発表されていないため、トリの予想はまだできません。</p>
   </div>
 
   <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 2px; box-shadow: 0 3px 10px rgba(0, 34, 68, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
     <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff);"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #003366; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">🔍 企画コーナーのタイミング</div>
-    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">今回はTHE SPELLBOUND×BOOM BOOM SATELLITESが番組初出演で「KICK IT OUT」を披露します。初出演や話題のパフォーマンスは、序盤〜中盤の21:05〜21:30頃に置かれる傾向があります。</p>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">9月4日の放送では21:28頃にVTR企画がありました。次回に企画があるかどうかは、まだ発表されていません。</p>
   </div>
 
   <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 2px; box-shadow: 0 3px 10px rgba(0, 34, 68, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
     <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff);"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #003366; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">📱 公式SNSの連動</div>
-    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">公式X（旧Twitter）では放送直前や生放送中に「次は〇〇が登場！」といったリアルタイム告知が行われます。本ページでもその情報をキャッチし次第、最速で反映します。</p>
-    <div style="margin-top: 8px; align-self: flex-start; font-size: 9px; font-weight: 900; color: #00b8e6; background: rgba(0, 184, 230, 0.07); padding: 2px 8px; border-radius: 2px;">9月18日 21:00〜 随時更新予定</div>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">公式X（旧Twitter）では放送直前や生放送中に「次は〇〇が登場！」といったリアルタイム告知が行われます。次回の放送が決まったら、この記事でもその情報を反映します。</p>
+    <div style="margin-top: 8px; align-self: flex-start; font-size: 9px; font-weight: 900; color: #00b8e6; background: rgba(0, 184, 230, 0.07); padding: 2px 8px; border-radius: 2px;">次回放送日 未定</div>
   </div>
 
 </div>
@@ -472,7 +313,7 @@ Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOO
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年9月4日に放送された『ミュージックステーション』のパフォーマンス順をレポートとしてまとめています。</p>
+<p>2026年9月18日に放送された『ミュージックステーション』のパフォーマンス順をレポートとしてまとめています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -486,12 +327,12 @@ Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOO
         <div style="background: #003366; color: #fff; font-size: 10px; font-weight: 900; padding: 3px 8px; border-radius: 2px; letter-spacing: 1px;">ARCHIVE</div>
         <div style="margin: 0; font-size: 15px; font-weight: 900; color: #1a202c; letter-spacing: -0.5px;">Mステ 熱量・セットリストレポート</div>
       </div>
-      <div style="font-size: 11px; font-weight: 800; color: #a0aec0;">2026.09.04 <span style="font-weight: 400;">FRI</span></div>
+      <div style="font-size: 11px; font-weight: 800; color: #a0aec0;">2026.09.18 <span style="font-weight: 400;">FRI</span></div>
     </div>
 
     <div style="background: #f8fafc; border-radius: 4px; padding: 10px 12px; margin-bottom: 16px; border-left: 4px solid #003366;">
       <div style="font-size: 10px; color: #003366; font-weight: 800; margin-bottom: 2px; letter-spacing: 0.05em;">MAIN CAST</div>
-      <div style="font-size: 13px; font-weight: 700; color: #2d3748;">MC：タモリ、鈴木新彩 ／ 出演：福山雅治、新しい学校のリーダーズ feat.アイナ・ジ・エンド、ポルノグラフィティ、平井大、絢香</div>
+      <div style="font-size: 13px; font-weight: 700; color: #2d3748;">MC：タモリ、鈴木新彩 ／ 出演：あいみょん、上白石萌音、THE SPELLBOUND×BOOM BOOM SATELLITES、中島健人、M!LK、渡辺美里</div>
     </div>
 
     <div style="display: grid; gap: 0; margin-bottom: 16px; border-left: 2px solid #edf2f7; margin-left: 6px; padding-left: 14px;">
@@ -500,53 +341,71 @@ Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOO
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00d4ff; border: 2px solid #fff;"></div>
         <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:00頃 / OPENING</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
-          <strong style="color: #001a4d;">オープニング・出演者紹介</strong><br>
-          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">オープニングから福山雅治が登場し、ポルノグラフィティ・岡野昭仁との先輩後輩トークが展開された。</span>
+          <strong style="color: #001a4d;">渡辺美里「My Revolution」</strong><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">約28年ぶりのMステ出演。番組冒頭で代表曲を披露した。</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 16px;">
-        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00d4ff; border: 2px solid #fff;"></div>
-        <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:05頃 / EARLY</div>
-        <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
-          <strong style="color: #001a4d;">福山雅治「虹」／新しい学校のリーダーズ feat.アイナ・ジ・エンド「Sweet Memories」（21:12頃）</strong><br>
-          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">福山「虹」は約6年ぶりの披露で特別演出。「Sweet Memories」はアイナ・ジ・エンドを迎えたコラボ曲のテレビ初披露。</span>
-        </div>
-      </div>
-
-      <div style="position: relative; padding-bottom: 16px;">
-        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #0099ff; border: 2px solid #fff;"></div>
-        <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:20頃 / MID BLOCK</div>
-        <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
-          <strong style="color: #001a4d;">ポルノグラフィティ「はみだし御免」</strong><br>
-          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">4年ぶりの出演で「はみだし御免」をテレビ初披露した。</span>
+        <div style="position: absolute; left: -21px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #ff0084; border: 2px solid #fff;"></div>
+        <div style="font-size: 11px; color: #ff0084; font-weight: 900;">21:09頃 / ★投稿のピーク</div>
+        <div style="font-size: 13px; color: #1a202c; line-height: 1.5;">
+          <span style="font-weight: 900; color: #001a4d;">M!LK「時空超えてユニバース」</span><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; font-weight: 600;">テレビ初披露。走るパートのある振りが話題になった。</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 16px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #0099ff; border: 2px solid #fff;"></div>
-        <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:28頃 / VTR企画</div>
+        <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:20頃 / TALK</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
-          <strong style="color: #001a4d;">ゲスト各組のMステ初出演回を振り返るVTR企画</strong><br>
-          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">アイナ・ジ・エンドのBiSH時代、ポルノグラフィティや福山雅治のデビュー当時映像を放送。鈴木新彩アナのサブMC卒業も生報告された。</span>
+          <strong style="color: #001a4d;">ひな壇トーク</strong><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">M!LKのメンバーと上白石萌音の掛け合いに反応が集まった。</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 16px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #0099ff; border: 2px solid #fff;"></div>
-        <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:35頃 / LATE</div>
+        <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:27頃 / MID BLOCK</div>
         <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
-          <strong style="color: #001a4d;">平井大「名残花」／絢香「みんな空の下」→「WELL-come」</strong><br>
-          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">絢香は6年ぶりの出演。初出演回のVTRとあわせて紹介された。</span>
+          <strong style="color: #001a4d;">上白石萌音「Trophy」</strong><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">B.LEAGUE 2026-27シーズンの公式テーマソングを披露した。</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -21px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #ff0084; border: 2px solid #fff;"></div>
+        <div style="font-size: 11px; color: #ff0084; font-weight: 900;">21:35頃 / ★投稿のピーク</div>
+        <div style="font-size: 13px; color: #1a202c; line-height: 1.5;">
+          <span style="font-weight: 900; color: #001a4d;">中島健人「鬼事」</span><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; font-weight: 600;">赤鬼の衣装でパフォーマンス。歌のあとは共演者に話を振り、THE SPELLBOUND×BOOM BOOM SATELLITESへの敬意も伝えた。</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #0099ff; border: 2px solid #fff;"></div>
+        <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:45頃 / LATE</div>
+        <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
+          <strong style="color: #001a4d;">THE SPELLBOUND×BOOM BOOM SATELLITES「KICK IT OUT」</strong><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">番組初出演。完全生演奏の音圧に、ひな壇が総立ちで拍手を送った。</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 16px;">
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #0099ff; border: 2px solid #fff;"></div>
+        <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:50頃 / LATE</div>
+        <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
+          <strong style="color: #001a4d;">あいみょん「マリーゴールド」→「今日は晴れ、肌寒い。私は家、ギターを弾く。」</strong><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">「マリーゴールド」はMステで約7年ぶりの披露。新曲は番組独占披露だった。</span>
         </div>
       </div>
 
       <div style="position: relative;">
-        <div style="position: absolute; left: -21px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #ff0084; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #ff0084; font-weight: 900;">21:45頃〜終盤 / ★投稿のピーク</div>
-        <div style="font-size: 13px; color: #1a202c; line-height: 1.5;">
-          <span style="font-weight: 900; color: #001a4d;">福山雅治「邂逅」→ポルノグラフィティ「サウダージ」</span><br>
-          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; font-weight: 600;">福山「邂逅」からポルノグラフィティ「サウダージ」への終盤の流れと、観客を囲む一体型の演出に反応が集中した。</span>
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #0099ff; border: 2px solid #fff;"></div>
+        <div style="font-size: 10px; color: #a0aec0; font-weight: 800;">21:54頃 / ENDING</div>
+        <div style="font-size: 12px; color: #2d3748; margin-top: 4px;">
+          <strong style="color: #001a4d;">鈴木新彩アナがサブMCを卒業</strong><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096; display: block; margin: 2px 0 6px 0;">約4年間への感謝を伝える投稿が、番組中から放送後まで続いた。</span>
         </div>
       </div>
 
@@ -554,7 +413,7 @@ Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOO
 
     <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #4a5568; background: #f1f5f9; border-radius: 4px; padding: 10px; margin-bottom: 16px; line-height: 1.6; font-weight: 600;">
       <span style="display: inline-block; background: #003366; color: #fff; padding: 0 6px; border-radius: 2px; margin-right: 4px; font-weight: 900; font-size: 9px;">REPORT</span>
-      各組のMステ初出演回を振り返るVTR企画に反応が集中し、アイナ・ジ・エンドのBiSH時代やポルノグラフィティのデビュー当時映像で投稿が伸びました。終盤の福山雅治「邂逅」からポルノグラフィティ「サウダージ」への流れ、2組の先輩後輩トークも反響の核に。#Mステと出演者名・曲名が放送中を通じて多く投稿されました。
+      M!LK「時空超えてユニバース」のテレビ初披露と、中島健人「鬼事」の赤鬼パフォーマンスに反応が集中しました。THE SPELLBOUND×BOOM BOOM SATELLITESの完全生演奏には総立ちの様子が話題となり、あいみょんの新曲や鈴木新彩アナの卒業にも感謝の声が続きました。
     </div>
 
     <div style="display: flex; flex-direction: column; gap: 12px;">
@@ -563,7 +422,7 @@ Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOO
       </div>
       <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 8px; border-top: 1px solid #edf2f7;">
         <div style="font-size: 8px; color: #a0aec0; font-weight: 800; letter-spacing: 0.5px;">COMPILED FROM BROADCAST &amp; SNS REPORTS</div>
-        <div style="font-size: 8px; color: #a0aec0;">UPDATED: 2026.09.06</div>
+        <div style="font-size: 8px; color: #a0aec0;">UPDATED: 2026.09.27</div>
       </div>
     </div>
 
@@ -640,9 +499,9 @@ Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOO
 <p>番組公式SNSやYouTubeなどで一部のパフォーマンス映像やダイジェストが公開されることはあるため、気になる方はそちらもチェックしてみてください。</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:embed {"url":"https://www.youtube.com/watch?v=lDCyZWattKM","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
+<!-- wp:embed {"url":"https://www.youtube.com/watch?v=BlrCJxB5WR4","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} -->
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-https://www.youtube.com/watch?v=lDCyZWattKM
+https://www.youtube.com/watch?v=BlrCJxB5WR4
 </div><figcaption class="wp-element-caption">YouTube👉<a href="https://www.youtube.com/@musicstation5890/videos">MUSIC STATION</a></figcaption></figure>
 <!-- /wp:embed -->
 
@@ -666,6 +525,31 @@ https://www.youtube.com/watch?v=lDCyZWattKM
 </summary>
 
 <div style="padding:10px 16px;">
+
+<h3>2026年9月4日のタイムテーブル</h3>
+
+<div style="background:#fff;border:1px solid #e2e8f0;border-radius:4px;overflow:hidden;margin:16px 0;box-shadow:0 6px 15px rgba(0,40,80,0.05);">
+<div style="height:4px;background:linear-gradient(90deg,#ff0084,#ffdc00,#00d4ff,#0099ff);"></div>
+<div style="padding:12px 16px;background:#fcfdfe;border-bottom:1px solid #edf2f7;">
+<div style="font-size:11px;font-weight:900;color:#003366;">PAST DATA ARCHIVE</div>
+<div style="font-size:14px;font-weight:900;color:#1a202c;">2026年9月4日 放送回（MC: タモリ / 鈴木新彩）</div>
+</div>
+<div style="padding:14px 16px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;line-height:1.8;">
+21:05頃〜<br>
+福山雅治「虹」（約6年ぶり披露）／21:12頃〜 新しい学校のリーダーズ feat.アイナ・ジ・エンド「Sweet Memories」（TV初披露）<br><br>
+21:20頃〜<br>
+ポルノグラフィティ「はみだし御免」（4年ぶり出演・TV初披露）<br><br>
+21:28頃〜<br>
+ゲスト各組のMステ初出演回を振り返るVTR企画（鈴木新彩アナのサブMC卒業も生報告）<br><br>
+21:35頃〜<br>
+平井大「名残花」／絢香「みんな空の下」→「WELL-come」（6年ぶり出演）<br><br>
+21:45頃〜終盤<br>
+福山雅治「邂逅」→ポルノグラフィティ「サウダージ」★番組最大ピーク
+</div>
+<div style="padding:10px 14px;background:#f7fafc;border-top:1px solid #edf2f7;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;">
+💡 各組のMステ初出演回を振り返るVTR企画に反応が集中した回。終盤の福山雅治「邂逅」からポルノグラフィティ「サウダージ」への流れと、2組の先輩後輩トークも反響の核になった。
+</div>
+</div>
 
 <h3>2026年8月28日のタイムテーブル</h3>
 
@@ -734,27 +618,6 @@ timelesz「消えない花火」／SWEET STEADY「SWEET STEP」（初単独出�
 </div>
 </div>
 
-<h3>2026年7月17日のタイムテーブル</h3>
-
-<div style="background:#fff;border:1px solid #e2e8f0;border-radius:4px;overflow:hidden;margin:16px 0;box-shadow:0 6px 15px rgba(0,40,80,0.05);">
-<div style="height:4px;background:linear-gradient(90deg,#ff0084,#ffdc00,#00d4ff,#0099ff);"></div>
-<div style="padding:12px 16px;background:#fcfdfe;border-bottom:1px solid #edf2f7;">
-<div style="font-size:11px;font-weight:900;color:#003366;">PAST DATA ARCHIVE</div>
-<div style="font-size:14px;font-weight:900;color:#1a202c;">2026年7月17日 放送回（MC: タモリ / 鈴木新彩）</div>
-</div>
-<div style="padding:14px 16px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;line-height:1.8;">
-20:00頃〜<br>
-IVE「LUCID DREAM」／塩﨑太智（M!LK）「しおざきわんだーらんど」<br><br>
-20:30頃〜<br>
-SixTONES「マイオンリー」「Dance Forever」→Snow Man「グッタイム」<br><br>
-21:05頃〜<br>
-Mrs. GREEN APPLE「Brand New」／21:20頃〜 中森明菜「ごめんと、すきと、」「難破船」（30年ぶり復帰）★番組最大ピーク
-</div>
-<div style="padding:10px 14px;background:#f7fafc;border-top:1px solid #edf2f7;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;">
-💡 中森明菜の30年ぶり復帰・「難破船」披露が番組全体で最大の投稿ピーク。SixTONES・Snow Manのライブ披露も密度高く、Mrs. GREEN APPLEとM!LKのお辞儀トークも反応の核になった回。
-</div>
-</div>
-
 </div>
 </details>
 <!-- /wp:html -->
@@ -774,12 +637,12 @@ Mrs. GREEN APPLE「Brand New」／21:20頃〜 中森明菜「ごめんと、す�
         <span style="flex: 0 0 auto; background: #003366; color: #ffffff; font-size: 11px; font-weight: 900; width: 28px; height: 18px; display: flex; align-items: center; justify-content: center; transform: skewX(-15deg); line-height: 1;">
           <span style="display: inline-block; transform: skewX(0deg);">Q1</span>
         </span>
-        <p style="margin: 0; font-size: 12px; font-weight: 900; color: #003366; line-height: 1.5;">9/18の詳細なタイムテーブルは事前にわかりますか？</p>
+        <p style="margin: 0; font-size: 12px; font-weight: 900; color: #003366; line-height: 1.5;">次回のMステはいつ放送されますか？</p>
       </div>
       <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #f0f4f8;">
         <span style="flex: 0 0 auto; color: #ff0084; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
         <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
-          公式による分刻みのタイムテーブルは事前発表されていません。全6組の出演順・登場時間の目安は、21:00〜21:54の放送に合わせて本ページでリアルタイム更新していきます。
+          2026年9月27日時点で、次回の放送日は発表されていません。公式サイトの表示は「次回の放送もお楽しみに！」のままです。
         </p>
       </div>
     </div>
@@ -791,12 +654,12 @@ Mrs. GREEN APPLE「Brand New」／21:20頃〜 中森明菜「ごめんと、す�
         <span style="flex: 0 0 auto; background: #003366; color: #ffffff; font-size: 11px; font-weight: 900; width: 28px; height: 18px; display: flex; align-items: center; justify-content: center; transform: skewX(-15deg); line-height: 1;">
           <span style="display: inline-block; transform: skewX(0deg);">Q2</span>
         </span>
-        <p style="margin: 0; font-size: 12px; font-weight: 900; color: #003366; line-height: 1.5;">あいみょんさんの出番は何時頃ですか？</p>
+        <p style="margin: 0; font-size: 12px; font-weight: 900; color: #003366; line-height: 1.5;">9月18日のMステの出演順は？</p>
       </div>
       <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #f0f4f8;">
         <span style="flex: 0 0 auto; color: #ff0084; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
         <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
-          21:45頃、大トリでの登場が有力と予想します。2曲を披露するアーティストは番組の締めに置かれやすく、その傾向を踏まえた予想です。実際の出演順は放送開始後に本ページで更新します。
+          オープニングは渡辺美里で、M!LK・上白石萌音・中島健人と続き、終盤にTHE SPELLBOUND×BOOM BOOM SATELLITESとあいみょんが登場しました。時間帯はこの記事の「実際の出演順」にまとめています。
         </p>
       </div>
     </div>
@@ -808,12 +671,12 @@ Mrs. GREEN APPLE「Brand New」／21:20頃〜 中森明菜「ごめんと、す�
         <span style="flex: 0 0 auto; background: #003366; color: #ffffff; font-size: 11px; font-weight: 900; width: 28px; height: 18px; display: flex; align-items: center; justify-content: center; transform: skewX(-15deg); line-height: 1;">
           <span style="display: inline-block; transform: skewX(0deg);">Q3</span>
         </span>
-        <p style="margin: 0; font-size: 12px; font-weight: 900; color: #003366; line-height: 1.5;">M!LKの出番は何時頃ですか？</p>
+        <p style="margin: 0; font-size: 12px; font-weight: 900; color: #003366; line-height: 1.5;">Mステの出演者はいつ発表されますか？</p>
       </div>
       <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #f0f4f8;">
         <span style="flex: 0 0 auto; color: #ff0084; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
         <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
-          21:10〜21:20頃、番組序盤〜中盤での登場が有力と予想します。9月16日にリリースされた新作からの披露で、新譜プロモーション中のグループは前半に置かれやすい傾向があります。実際の出演順は放送開始後に本ページで更新します。
+          次回の発表時期は分かりません。直前の9月18日回は、放送の約2週間前にあたる9月4日の夜に出演者が報じられました。
         </p>
       </div>
     </div>
@@ -861,19 +724,19 @@ Mrs. GREEN APPLE「Brand New」／21:20頃〜 中森明菜「ごめんと、す�
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年9月18日（金）放送の『ミュージックステーション』は、テレビ朝日系でよる9時から放送です。</p>
+<p>Mステの次回放送日は、2026年9月27日時点で未定です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演アーティストはあいみょん、上白石萌音、THE SPELLBOUND×BOOM BOOM SATELLITES、中島健人、M!LK、渡辺美里の全6組。</p>
+<p>出演アーティストや放送時間も、まだ発表されていません。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>あいみょんが2曲を披露し、THE SPELLBOUND×BOOM BOOM SATELLITESが番組初出演を果たすなど、見どころのある回です。中島健人「鬼事」はアニメ『逃げ上手の若君』第2期のオープニングテーマです。</p>
+<p>直前の9月18日は渡辺美里が約28年ぶりに出演し、THE SPELLBOUND×BOOM BOOM SATELLITESが番組初出演。鈴木新彩アナのサブMC卒業回でもありました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>分刻みのタイムテーブル事前発表はありませんが、放送開始から終了までリアルタイムで実際の出演順を更新していきます。</p>
+<p>放送日が決まったら、出演者や出演順の目安をこの記事に追記します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -1005,9 +868,12 @@ Mrs. GREEN APPLE「Brand New」／21:20頃〜 中森明菜「ごめんと、す�
     {
       "@type": "BlogPosting",
       "@id": "https://shira-treat.com/music-station-timetable/#post",
-      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://shira-treat.com/music-station-timetable/" },
-      "headline": "Mステ タイムテーブル【9月18日】出演順・出演時間をリアルタイム更新",
-      "description": "Mステ（9月18日）タイムテーブルを速報更新！THE SPELLBOUND×BOOM BOOM SATELLITESが番組初出演、あいみょんが2曲を披露、中島健人「鬼事」も。全6組の出演順・登場時間の目安を随時追記。",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://shira-treat.com/music-station-timetable/"
+      },
+      "headline": "Mステ タイムテーブル【次回未定】出演順・出演時間を決まり次第すぐ更新",
+      "description": "Mステ（次回放送日は未定）のタイムテーブルを更新中。直前の9月18日は渡辺美里が約28年ぶり出演、THE SPELLBOUND×BOOM BOOM SATELLITESが初登場。次回の出演順・登場時間の目安は決まり次第追記します。",
       "image": {
         "@type": "ImageObject",
         "@id": "https://shira-treat.com/music-station-timetable/#primaryimage",
@@ -1017,66 +883,48 @@ Mrs. GREEN APPLE「Brand New」／21:20頃〜 中森明菜「ごめんと、す�
       },
       "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/08/image-9.webp",
       "datePublished": "2025-11-17T18:00:00+09:00",
-      "dateModified": "2026-09-06T12:00:00+09:00",
-      "author": { "@type": "Person", "name": "Shira Notes", "url": "https://shira-treat.com/operator-information/" },
+      "dateModified": "2026-09-27T12:00:00+09:00",
+      "author": {
+        "@type": "Person",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/operator-information/"
+      },
       "publisher": {
         "@type": "Organization",
         "name": "Shira Notes",
         "url": "https://shira-treat.com/",
-        "sameAs": ["https://x.com/ShiraNotes_"],
-        "logo": { "@type": "ImageObject", "url": "https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp", "width": 512, "height": 512 }
+        "sameAs": [
+          "https://x.com/ShiraNotes_"
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp",
+          "width": 512,
+          "height": 512
+        }
       },
       "articleSection": "音楽番組",
-      "keywords": ["Mステ タイムテーブル", "ミュージックステーション タイムテーブル", "Mステ 出演順", "Mステ 曲順", "Mステ 2026", "Mステ 9月18日"],
+      "keywords": [
+        "Mステ タイムテーブル",
+        "ミュージックステーション タイムテーブル",
+        "Mステ 出演順",
+        "Mステ 曲順",
+        "Mステ 2026",
+        "Mステ 次回"
+      ],
       "inLanguage": "ja",
       "about": [
-        { "@type": "Thing", "name": "ミュージックステーション", "sameAs": "https://www.tv-asahi.co.jp/music/" },
-        { "@type": "Thing", "name": "Mステ タイムテーブル" }
+        {
+          "@type": "Thing",
+          "name": "ミュージックステーション",
+          "sameAs": "https://www.tv-asahi.co.jp/music/"
+        },
+        {
+          "@type": "Thing",
+          "name": "Mステ タイムテーブル"
+        }
       ],
-      "mentions": [
-        { "@type": "Person", "name": "あいみょん" },
-        { "@type": "Person", "name": "上白石萌音" },
-        { "@type": "MusicGroup", "name": "THE SPELLBOUND×BOOM BOOM SATELLITES" },
-        { "@type": "Person", "name": "中島健人" },
-        { "@type": "MusicGroup", "name": "M!LK" },
-        { "@type": "Person", "name": "渡辺美里" }
-      ]
-    },
-    {
-      "@type": "BroadcastEvent",
-      "@id": "https://shira-treat.com/music-station-timetable/#event",
-      "name": "ミュージックステーション（2026年9月18日放送）",
-      "startDate": "2026-09-18T21:00:00+09:00",
-      "endDate": "2026-09-18T21:54:00+09:00",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
-      "isLiveBroadcast": true,
-      "description": "2026年9月18日放送のミュージックステーション。あいみょん、上白石萌音、THE SPELLBOUND×BOOM BOOM SATELLITES、中島健人、M!LK、渡辺美里が出演する回。",
-      "image": "https://shira-treat.com/wp-content/uploads/2026/08/image-9.webp",
-      "location": { "@type": "Place", "name": "テレビ朝日", "sameAs": "https://www.tv-asahi.co.jp/" },
-      "organizer": { "@type": "Organization", "name": "テレビ朝日", "sameAs": "https://www.tv-asahi.co.jp/" },
-      "performer": [
-        { "@type": "Person", "name": "あいみょん" },
-        { "@type": "Person", "name": "上白石萌音" },
-        { "@type": "MusicGroup", "name": "THE SPELLBOUND×BOOM BOOM SATELLITES" },
-        { "@type": "Person", "name": "中島健人" },
-        { "@type": "MusicGroup", "name": "M!LK" },
-        { "@type": "Person", "name": "渡辺美里" }
-      ]
-    },
-    {
-      "@type": "ItemList",
-      "@id": "https://shira-treat.com/music-station-timetable/#lineup",
-      "name": "2026年9月18日 Mステ出演者一覧",
-      "numberOfItems": 6,
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "item": { "@type": "MusicGroup", "name": "THE SPELLBOUND×BOOM BOOM SATELLITES" } },
-        { "@type": "ListItem", "position": 2, "item": { "@type": "MusicGroup", "name": "M!LK" } },
-        { "@type": "ListItem", "position": 3, "item": { "@type": "Person", "name": "中島健人" } },
-        { "@type": "ListItem", "position": 4, "item": { "@type": "Person", "name": "上白石萌音" } },
-        { "@type": "ListItem", "position": 5, "item": { "@type": "Person", "name": "渡辺美里" } },
-        { "@type": "ListItem", "position": 6, "item": { "@type": "Person", "name": "あいみょん" } }
-      ]
+      "mentions": []
     },
     {
       "@type": "FAQPage",
@@ -1084,26 +932,26 @@ Mrs. GREEN APPLE「Brand New」／21:20頃〜 中森明菜「ごめんと、す�
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "9/18の詳細なタイムテーブルは事前にわかりますか？",
+          "name": "次回のMステはいつ放送されますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "公式による分刻みのタイムテーブルは事前発表されていません。全6組の出演順・登場時間の目安は、21:00〜21:54の放送に合わせて本ページでリアルタイム更新していきます。"
+            "text": "2026年9月27日時点で、次回の放送日は発表されていません。公式サイトの表示は「次回の放送もお楽しみに！」のままです。"
           }
         },
         {
           "@type": "Question",
-          "name": "あいみょんさんの出番は何時頃ですか？",
+          "name": "9月18日のMステの出演順は？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "21:45頃、大トリでの登場が有力と予想します。2曲を披露するアーティストは番組の締めに置かれやすく、その傾向を踏まえた予想です。実際の出演順は放送開始後に本ページで更新します。"
+            "text": "オープニングは渡辺美里で、M!LK・上白石萌音・中島健人と続き、終盤にTHE SPELLBOUND×BOOM BOOM SATELLITESとあいみょんが登場しました。時間帯はこの記事の「実際の出演順」にまとめています。"
           }
         },
         {
           "@type": "Question",
-          "name": "M!LKの出番は何時頃ですか？",
+          "name": "Mステの出演者はいつ発表されますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "21:10〜21:20頃、番組序盤〜中盤での登場が有力と予想します。9月16日にリリースされた新作からの披露で、新譜プロモーション中のグループは前半に置かれやすい傾向があります。実際の出演順は放送開始後に本ページで更新します。"
+            "text": "次回の発表時期は分かりません。直前の9月18日回は、放送の約2週間前にあたる9月4日の夜に出演者が報じられました。"
           }
         },
         {
@@ -1128,9 +976,24 @@ Mrs. GREEN APPLE「Brand New」／21:20頃〜 中森明菜「ごめんと、す�
       "@type": "BreadcrumbList",
       "@id": "https://shira-treat.com/music-station-timetable/#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://shira-treat.com/" },
-        { "@type": "ListItem", "position": 2, "name": "ミュージックステーション", "item": "https://shira-treat.com/category/musictv/music-station-2/" },
-        { "@type": "ListItem", "position": 3, "name": "Mステ タイムテーブル", "item": "https://shira-treat.com/music-station-timetable/" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://shira-treat.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "ミュージックステーション",
+          "item": "https://shira-treat.com/category/musictv/music-station-2/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Mステ タイムテーブル",
+          "item": "https://shira-treat.com/music-station-timetable/"
+        }
       ]
     }
   ]
