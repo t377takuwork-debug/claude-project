@@ -47,6 +47,7 @@ uya/
 - 経歴・実績の材料ファイル（`shared/personal_data.md`）は主要項目が確定済み
 - 3媒体のプロフィール文は確定済み（`rules/project_uya_accounts.md`）
 - 記事生成スキル`/uya-theme`・`/uya-article`を新設済み（2026-09-27）
+- 1本目の記事（自己紹介）を2026-09-29に公開済み（[note](https://note.com/uyadot/n/n1b368f87363d)。`articles/published/`・`article_index.md`登録済み）
 - X・スレッズ投稿の運用ルール（型・頻度・X/スレッズの役割分担・ネタ切れ対策）を`/notekaigi`で決定済み（2026-09-28〜29。`sns_post_cheatsheet.md`）。ネタ元は`/journal`（本命）・`/uya-research`（補助）の2本立て。投稿本文の生成は`/uya-post`（軽量版。機械チェックは`tools/qa_post_uya.py`、判断が要る学びは`rules/uya_learnings.md`に蓄積。専用審査エージェントは投稿量が増えるまで後回し）
 - 2026-09-29に初回投稿（朝・夜×X・スレッズ計4本）を`posts/`へ保存・投稿予約済み
 
