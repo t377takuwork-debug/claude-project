@@ -1,7 +1,7 @@
 <!-- wp:paragraph -->
-タイトル：【CDTV】タイムテーブル 9月14日速報！出演順・出演時間をリアルタイム更新
-メタディスクリプション（112字）：
-CDTVライブ!ライブ!（カウントダウンTV）今日の放送が気になる方へ。9月14日分をまとめ！KO1KEYZがデビュー曲をフルサイズでテレビ初披露、なにわ男子はダンス2曲メドレー。出演順・登場時間の目安をリアルタイムで更新。
+タイトル：【CDTV】タイムテーブル 10月5日速報！出演順・出演時間をリアルタイム更新
+メタディスクリプション（119字）：
+CDTVライブ!ライブ!（カウントダウンTV）今日の放送が気になる方へ。10月5日分をまとめ！Snow Manが「奇跡」「グッタイム」の2曲を披露、&TEAMのK・JOがZONEの名曲をカバー。出演順・登場時間の目安をリアルタイムで更新。
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -40,12 +40,12 @@ CDTVライブ!ライブ!（カウントダウンTV）今日の放送が気にな
     <div style="display: flex; align-items: flex-start; gap: 10px;">
       <div style="flex-shrink: 0; font-size: 8px; font-weight: 900; background: #fff; color: #000; padding: 2px 5px; transform: skewX(-15deg); text-align: center; min-width: 48px; margin-top: 2px;">BROADCAST</div>
       <div style="flex: 1;">
-        <span style="font-size: 15.5px; font-weight: 900; color: #f9ff00; display: block; margin-bottom: 2px; letter-spacing: -0.01em; line-height: 1.2;">2026.09.14 (MON) 18:30</span>
+        <span style="font-size: 15.5px; font-weight: 900; color: #f9ff00; display: block; margin-bottom: 2px; letter-spacing: -0.01em; line-height: 1.2;">2026.10.05 (MON) 19:00</span>
         <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 2px;">
           <span style="color: #aaa; font-size: 10px; font-weight: 500;">TBS系列 2時間生放送</span>
           <span style="display: inline-flex; align-items: center; gap: 5px; padding: 1px 7px; border-radius: 999px; background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12); color: #d5d9e2; font-size: 10px; font-weight: 800;">
             <span style="width: 5px; height: 5px; border-radius: 50%; background: #00ffcc;"></span>
-            更新 <b>2026.09.08</b>
+            更新 <b>2026.09.29</b>
           </span>
         </div>
       </div>
@@ -54,20 +54,21 @@ CDTVライブ!ライブ!（カウントダウンTV）今日の放送が気にな
     <div style="display: flex; align-items: flex-start; gap: 10px;">
       <div style="flex-shrink: 0; font-size: 8px; font-weight: 900; background: #fff; color: #000; padding: 2px 5px; transform: skewX(-15deg); min-width: 48px;">STATUS</div>
       <div style="flex: 1; font-size: 12px; font-weight: 700; color: #ff008d;">
-        全6組の出演アーティストが発表済み／タイムテーブルは随時更新中
+        全9組の出演アーティストが発表済み／タイムテーブルは随時更新中
       </div>
     </div>
 
     <div style="display: flex; align-items: flex-start; gap: 10px;">
       <div style="flex-shrink: 0; font-size: 8px; font-weight: 900; background: #fff; color: #000; padding: 2px 5px; transform: skewX(-15deg); min-width: 48px;">LINEUP</div>
       <div style="flex: 1; font-size: 11.5px; line-height: 1.6; color: #ccc;">
-        KO1KEYZ／SixTONES／なにわ男子<br>
-        ポルノグラフィティ／マカロニえんぴつ／LIL LEAGUE
+        AI／&TEAM／GENERATIONS<br>
+        Snow Man／FRUITS ZIPPER／MAZZEL×STARGLOW<br>
+        M!LK／Lienel／LiSA
       </div>
     </div>
 
     <div style="background: rgba(255,242,0,0.12); border-left:3px solid #f9ff00; padding:6px 10px; font-size:clamp(10px, calc(10px + (100vw - 480px) / 360), 12px); color:#f9ff00; font-weight:800;">
-      KO1KEYZが日韓同時デビュー曲「KO1KEYZ」をフルサイズでテレビ初披露。なにわ男子はダンスチューン2曲をメドレーでテレビ初披露します
+      名曲ライブ！ライブ！では&TEAMのKとJOがZONE「secret base～君がくれたもの～」をカバー。踊ってみた企画ではLDH選抜メンバーがILLIT「It's Me」を披露します
     </div>
 
   </div>
@@ -86,23 +87,23 @@ CDTVライブ!ライブ!（カウントダウンTV）今日の放送が気にな
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>今回はマンスリーライブなどの大型企画がなく、6組それぞれのスタジオライブが中心となりそう。</p>
+<p>今回はマンスリーライブの発表はなく、9組それぞれのステージに加え名曲ライブと踊ってみた企画が見どころです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演順は分かり次第この記事へ書き足します。ブックマークしておくと便利です。</p>
+<p>出演順が分かり次第このページに反映していきます。放送前にもう一度チェックしに来てください。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>カウントダウンTV 最新タイムテーブル【9/14】</h2>
+<h2>カウントダウンTV 最新タイムテーブル【10/5】</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年9月14日（月）18:30から放送の『CDTVライブ！ライブ！』には、SixTONESやなにわ男子、KO1KEYZなど全6組の出演が発表されています。</p>
+<p>2026年10月5日（月）19:00から放送の『CDTVライブ！ライブ！』には、AIやSnow Man、&TEAMなど全9組の出演が発表されています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div role="region" aria-label="CDTV タイムテーブル（2026年9月14日）" style="font-family:'Inter','Hiragino Sans','Yu Gothic',sans-serif; margin:20px 0 0; background:#000; color:#fff; border:1px solid #333; border-radius:4px 4px 0 0; overflow:hidden; box-shadow:0 15px 35px rgba(0,0,0,0.6); position:relative;">
+<div role="region" aria-label="CDTV タイムテーブル（2026年10月5日）" style="font-family:'Inter','Hiragino Sans','Yu Gothic',sans-serif; margin:20px 0 0; background:#000; color:#fff; border:1px solid #333; border-radius:4px 4px 0 0; overflow:hidden; box-shadow:0 15px 35px rgba(0,0,0,0.6); position:relative;">
 
   <div style="position:relative; background:#ff008d; padding:10px 14px; display:flex; justify-content:space-between; align-items:center; clip-path:polygon(0 0,100% 0,96% 100%,0% 100%);">
     <div style="font-size:13px; font-weight:900; letter-spacing:0.1em;">CDTV LIVE! LIVE!</div>
@@ -113,45 +114,48 @@ CDTVライブ!ライブ!（カウントダウンTV）今日の放送が気にな
     <div style="display:flex; gap:12px; align-items:flex-start;">
       <div style="font-size:9px; font-weight:900; background:#fff; color:#000; padding:2px 6px; transform:skewX(-15deg); margin-top:4px;">ON AIR</div>
       <div>
-        <div style="font-size:18px; font-weight:900; color:#f9ff00; line-height:1.2;">2026.09.14 (MON) 18:30 START</div>
-        <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color:#aaa; margin-top:4px;">TBS系列 2時間生放送（18:30〜20:30） / KO1KEYZがデビュー曲をフルサイズでテレビ初披露</div>
+        <div style="font-size:18px; font-weight:900; color:#f9ff00; line-height:1.2;">2026.10.05 (MON) 19:00 START</div>
+        <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color:#aaa; margin-top:4px;">TBS系列 2時間生放送（19:00〜20:55） / 名曲ライブ！ライブ！では&TEAMのK・JOがZONEをカバー</div>
       </div>
     </div>
-    <div style="margin-top:10px; font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color:#888; line-height:1.5;">全6組の出演は発表済みですが、公式の出演順・時間帯はまだ発表されていません。以下は過去の放送傾向をもとにした「予想」の時間割です。</div>
+    <div style="margin-top:10px; font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color:#888; line-height:1.5;">全9組の出演は発表済みですが、公式の出演順・時間帯はまだ発表されていません。以下は過去の放送傾向をもとにした「予想」の時間割です。</div>
   </div>
 </div>
 <!-- /wp:html -->
 
 <!-- wp:heading {"level":3} -->
-<h3>18:30〜19:30（前半・予想）</h3>
+<h3>19:00〜20:00（前半・予想）</h3>
 <!-- /wp:heading -->
 
 <!-- wp:html -->
 <div style="font-family:'Inter','Hiragino Sans','Yu Gothic',sans-serif; background:#000; color:#fff; border:1px solid #333; border-top:none; padding:14px 16px;">
   <div style="display:flex; flex-wrap:wrap; gap:5px;">
-    <span style="border:1px solid #ff00ea; background:rgba(255,0,234,0.1); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight:700;">KO1KEYZ</span>
-    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">LIL LEAGUE</span>
-    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">マカロニえんぴつ</span>
+    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">FRUITS ZIPPER</span>
+    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">M!LK</span>
+    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">Lienel</span>
+    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">GENERATIONS</span>
   </div>
   <div style="margin-top:10px; border-top:1px solid #222; padding-top:8px; font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color:#ddd; line-height:1.4;">
-    過去のCDTVを見ると、テレビ初披露の曲は番組前半に登場しやすい傾向があります。デビュー曲「KO1KEYZ」をフルサイズでテレビ初披露するKO1KEYZや、シングル曲を披露するマカロニえんぴつ、LIL LEAGUEも、序盤に登場するかもしれません。
+    過去のCDTVを見ると、若手グループは番組前半に登場しやすい傾向があります。「時空超えてユニバース」のM!LKや「愛のダバダ」のLienelなど、初々しいステージが序盤に並ぶかもしれません。
   </div>
 </div>
 <!-- /wp:html -->
 
 <!-- wp:heading {"level":3} -->
-<h3>19:30〜20:30（後半・予想）</h3>
+<h3>20:00〜20:55（後半・予想）</h3>
 <!-- /wp:heading -->
 
 <!-- wp:html -->
 <div style="font-family:'Inter','Hiragino Sans','Yu Gothic',sans-serif; background:#000; color:#fff; border:1px solid #333; border-top:none; border-radius:0 0 4px 4px; padding:14px 16px;">
   <div style="display:flex; flex-wrap:wrap; gap:5px;">
-    <span style="border:1px solid #ff00ea; background:rgba(255,0,234,0.1); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight:700;">SixTONES</span>
-    <span style="border:1px solid #ff00ea; background:rgba(255,0,234,0.1); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight:700;">なにわ男子</span>
-    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">ポルノグラフィティ</span>
+    <span style="border:1px solid #ff00ea; background:rgba(255,0,234,0.1); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight:700;">Snow Man</span>
+    <span style="border:1px solid #ff00ea; background:rgba(255,0,234,0.1); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight:700;">LiSA</span>
+    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">AI</span>
+    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">&TEAM</span>
+    <span style="border:1px solid #444; background:rgba(255,255,255,0.05); padding:4px 8px; font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);">MAZZEL×STARGLOW</span>
   </div>
   <div style="margin-top:10px; border-top:1px solid #222; padding-top:8px; font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color:#ddd; line-height:1.4;">
-    過去のCDTVを見ると、動員力の大きいアーティストは後半に置かれやすい傾向があります。「Dance Forever」を披露するSixTONESや、ダンスチューン2曲をメドレーで披露するなにわ男子、「アゲハ蝶」など2曲を歌うポルノグラフィティは、この時間帯に登場するかもしれません。
+    過去のCDTVを見ると、動員力の大きいアーティストは後半に置かれやすい傾向があります。「奇跡」「グッタイム」を披露するSnow Manや、ソロで参加するLiSA、AIは、この時間帯に登場するかもしれません。
   </div>
   <div style="background:rgba(255,255,255,0.05); border-radius:4px; padding:10px; margin-top:12px; font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color:#bbb; line-height:1.5; border:1px solid #222;">
     <strong style="color:#f9ff00;">※リアルタイム速報：</strong> 公式タイムテーブル発表前のため、当日のステージ進行に合わせて実際の出演順を随時スピード更新していきます。
@@ -164,11 +168,11 @@ CDTVライブ!ライブ!（カウントダウンTV）今日の放送が気にな
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>※9月14日の公式タイムテーブル（出演順・時間帯）はまだ発表されていません。オンエア開始後、順番が分かったところから追記します。</p>
+<p>※10月5日の公式タイムテーブル（出演順・時間帯）はまだ発表されていません。オンエア開始後、順番が分かったところから追記します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>CDTVライブ！ライブ！の出演者・歌唱曲一覧【9/14】</h2>
+<h2>CDTVライブ！ライブ！の出演者・歌唱曲一覧【10/5】</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center"} -->
@@ -176,7 +180,7 @@ CDTVライブ!ライブ!（カウントダウンTV）今日の放送が気にな
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>最新回となる9月14日放送分は、6組の出演・披露曲が発表されています。歌唱曲の詳細を一覧にしています。</p>
+<p>最新回となる10月5日放送分は、9組の出演・披露曲が発表されています。歌唱曲の詳細を一覧にしています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -187,48 +191,72 @@ CDTVライブ!ライブ!（カウントダウンTV）今日の放送が気にな
   <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
     <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">KO1KEYZ <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">デビュー曲・テレビ初披露</span></p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">日韓同時デビュー曲「KO1KEYZ」をフルサイズでテレビ初披露。デビューしたばかりのグループによる地上波お披露目です。</p>
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">AI</p>
+      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「まだ旅の途中」「ハピネス」の2曲を披露します。</p>
     </div>
   </div>
 
   <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
     <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">SixTONES</p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「Dance Forever」をフルサイズで披露します。</p>
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">&TEAM <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">名曲ライブ</span></p>
+      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「Good Boy（Japanese ver.）」を披露。名曲ライブ！ライブ！ではKとJOがZONE「secret base～君がくれたもの～」をカバーします。</p>
     </div>
   </div>
 
   <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
     <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">なにわ男子 <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">2曲メドレー・テレビ初披露</span></p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「BLACK OUT MISSION」「僕がカワイくて君がカワイくて」のダンスチューン2曲をメドレーでテレビ初披露します。</p>
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">GENERATIONS</p>
+      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「VIBE」を披露します。</p>
     </div>
   </div>
 
   <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
     <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">ポルノグラフィティ</p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">新曲「はみだし御免」と代表曲「アゲハ蝶」の2曲を披露します。</p>
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">Snow Man</p>
+      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「奇跡」「グッタイム」の2曲を披露します。</p>
     </div>
   </div>
 
   <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
     <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">マカロニえんぴつ</p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「運命さがし」を披露します。</p>
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">FRUITS ZIPPER</p>
+      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「センセーション」を披露します。</p>
     </div>
   </div>
 
   <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
     <div style="padding:12px;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">LIL LEAGUE</p>
-      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「僕を探してた」を披露します。</p>
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">MAZZEL×STARGLOW <span style="font-size:9px;font-weight:900;color:#ff008d;background:rgba(255,0,141,0.12);padding:2px 6px;border-radius:2px;">コラボ</span></p>
+      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「Nameless MythS」をコラボで披露します。</p>
+    </div>
+  </div>
+
+  <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
+    <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
+    <div style="padding:12px;">
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">M!LK</p>
+      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「時空超えてユニバース」を披露します。</p>
+    </div>
+  </div>
+
+  <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
+    <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
+    <div style="padding:12px;">
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">Lienel</p>
+      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「愛のダバダ」を披露します。</p>
+    </div>
+  </div>
+
+  <div style="flex:1 1 calc(50% - 4px);min-width:140px;position:relative;background:#111;border:1px solid #ff008d;border-radius:4px;overflow:hidden;box-sizing:border-box;">
+    <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ffdc00)"></div>
+    <div style="padding:12px;">
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">LiSA</p>
+      <p style="margin:6px 0 0;font-size:clamp(10.5px, calc(10.5px + (100vw - 480px) / 240), 13.5px);color:#ccc;line-height:1.6;font-weight:700;">「ソフィリア」を披露します。</p>
     </div>
   </div>
 
@@ -240,7 +268,7 @@ CDTVライブ!ライブ!（カウントダウンTV）今日の放送が気にな
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>今回はKO1KEYZのデビュー曲フルサイズ初披露や、なにわ男子のダンスチューン2曲メドレー初披露が目玉です。</p>
+<p>今回は名曲ライブ！ライブ！で&TEAMのKとJOがZONEをカバーする企画や、踊ってみた企画でのLDH選抜のパフォーマンスが目玉です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -263,19 +291,19 @@ CDTVライブ!ライブ!（カウントダウンTV）今日の放送が気にな
   <div style="background:#111;border:1px solid #222;border-radius:6px;padding:12px;margin-bottom:8px;position:relative;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
     <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);font-weight:900;color:#f9ff00;margin-bottom:4px;">出演時間の目安</div>
-    <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.6;font-weight:700;">今回は18:30〜20:30の2時間放送のため、前半・後半の2部構成になりそうです。全6組の出演は発表済みですが、具体的な出演時間帯はまだ発表されていません。</div>
+    <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.6;font-weight:700;">今回は19:00〜20:55の2時間放送のため、前半・後半の2部構成になりそうです。全9組の出演は発表済みですが、具体的な出演時間帯はまだ発表されていません。</div>
   </div>
 
   <div style="background:#111;border:1px solid #222;border-radius:6px;padding:12px;margin-bottom:8px;position:relative;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
     <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);font-weight:900;color:#f9ff00;margin-bottom:4px;">オープニング傾向</div>
-    <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.6;font-weight:700;">過去の放送では、番組前半に新曲・話題曲を携えたアーティストが登場する傾向があります。今回はデビュー曲「KO1KEYZ」をフルサイズでテレビ初披露するKO1KEYZが、序盤に登場するかもしれません。分かり次第この項目に書き足します。</div>
+    <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.6;font-weight:700;">過去の放送では、番組前半に若手グループが登場する傾向があります。今回は「時空超えてユニバース」のM!LKや「愛のダバダ」のLienelが、序盤に登場するかもしれません。分かり次第この項目に書き足します。</div>
   </div>
 
   <div style="background:#111;border:1px solid #222;border-radius:6px;padding:12px;position:relative;">
     <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
     <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);font-weight:900;color:#f9ff00;margin-bottom:4px;">特別企画の影響</div>
-    <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.6;font-weight:700;">今回は特別企画やコラボの発表はなく、6組それぞれのスタジオライブが中心になりそうです。企画パートが少ない分、出演順はシンプルに進むかもしれません。</div>
+    <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.6;font-weight:700;">今回は名曲ライブ！ライブ！と踊ってみた企画が挟まる予定です。&TEAMのKとJOがZONEをカバーする名曲ライブは、企画パートとして中盤に配置されやすい傾向があります。</div>
   </div>
 
 </div>
@@ -303,31 +331,31 @@ CDTVライブ!ライブ!（カウントダウンTV）今日の放送が気にな
   <div style="position:relative;background:#0a0a0a;border:1px solid #222;border-radius:4px;padding:12px;overflow:hidden">
     <div style="position:absolute;top:0;left:0;font-size:8px;font-weight:900;background:#ff008d;color:#fff;padding:2px 6px;transform:skewX(-15deg)">FLOW</div>
     <div style="margin-top:10px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);font-weight:900;color:#f9ff00;margin-bottom:6px;letter-spacing:.05em">放送構成の傾向</div>
-    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">2時間の生放送では、前半に話題曲、後半に動員力の大きいアーティストが置かれる傾向があります。今回はスタジオライブ中心の編成になりそうです。</p>
+    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">2時間の生放送では、前半に話題曲、後半に動員力の大きいアーティストが置かれる傾向があります。今回は名曲ライブと踊ってみた企画を挟んだ編成になりそうです。</p>
   </div>
 
   <div style="position:relative;background:#0a0a0a;border:1px solid #222;border-radius:4px;padding:12px;overflow:hidden">
     <div style="position:absolute;top:0;left:0;font-size:8px;font-weight:900;background:#fff;color:#000;padding:2px 6px;transform:skewX(-15deg)">PICKUP</div>
     <div style="margin-top:10px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);font-weight:900;color:#f9ff00;margin-bottom:6px;letter-spacing:.05em">注目アーティスト</div>
-    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">今回最大の注目はKO1KEYZ。日韓同時デビュー曲「KO1KEYZ」を、フルサイズでテレビ初披露します。デビューしたばかりのグループによる地上波お披露目です。</p>
+    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">今回最大の注目は名曲ライブ！ライブ！。&TEAMのKとJOが、ZONEの名曲「secret base～君がくれたもの～」をカバーします。</p>
   </div>
 
   <div style="position:relative;background:#0a0a0a;border:1px solid #222;border-radius:4px;padding:12px;overflow:hidden">
     <div style="position:absolute;top:0;left:0;font-size:8px;font-weight:900;background:#ff008d;color:#fff;padding:2px 6px;transform:skewX(-15deg)">FINAL</div>
     <div style="margin-top:10px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);font-weight:900;color:#f9ff00;margin-bottom:6px;letter-spacing:.05em">番組終盤の傾向</div>
-    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">過去のCDTVでは、動員力の大きいアーティストが終盤に置かれる傾向があります。あくまで筆者の読みですが、今回は「Dance Forever」のSixTONESや、2曲を披露するなにわ男子が後半に登場するかもしれません。</p>
+    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">過去のCDTVでは、動員力の大きいアーティストが終盤に置かれる傾向があります。あくまで筆者の読みですが、今回は「奇跡」「グッタイム」のSnow Manや、LiSAが後半に登場するかもしれません。</p>
   </div>
 
   <div style="position:relative;background:#0a0a0a;border:1px solid #222;border-radius:4px;padding:12px;overflow:hidden">
     <div style="position:absolute;top:0;left:0;font-size:8px;font-weight:900;background:#fff;color:#000;padding:2px 6px;transform:skewX(-15deg)">VTR</div>
     <div style="margin-top:10px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);font-weight:900;color:#f9ff00;margin-bottom:6px;letter-spacing:.05em">初披露・初登場のタイミング</div>
-    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">今回はKO1KEYZ「KO1KEYZ」がデビュー曲のフルサイズ初披露、なにわ男子のダンスチューン2曲がメドレーでのテレビ初披露の予定です。</p>
+    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">今回はMAZZEL×STARGLOWのコラボ曲「Nameless MythS」が披露される予定です。テレビ初披露かどうかは分かり次第この項目に書き足します。</p>
   </div>
 
   <div style="position:relative;background:#0a0a0a;border:1px solid #222;border-radius:4px;padding:12px;overflow:hidden">
     <div style="position:absolute;top:0;left:0;font-size:8px;font-weight:900;background:#ff008d;color:#fff;padding:2px 6px;transform:skewX(-15deg)">LIVE</div>
     <div style="margin-top:10px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 360), 13px);font-weight:900;color:#f9ff00;margin-bottom:6px;letter-spacing:.05em">リアルタイム更新</div>
-    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">CDTVは事前の詳細なタイムテーブル発表がないため、出演順は当日の生放送で確定します。この記事でも9月14日のオンエアに合わせて随時反映していきます。</p>
+    <p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ccc;line-height:1.6">CDTVは事前の詳細なタイムテーブル発表がないため、出演順は当日の生放送で確定します。この記事でも10月5日のオンエアに合わせて随時反映していきます。</p>
     <div style="margin-top:8px;font-size:9px;font-weight:900;color:#f9ff00;background:rgba(249,255,0,0.1);padding:2px 8px;border-radius:2px;display:inline-block">生放送中に随時更新</div>
   </div>
 
@@ -339,7 +367,7 @@ CDTVライブ!ライブ!（カウントダウンTV）今日の放送が気にな
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>18:30〜20:30の2時間生放送は前半→後半の2部構成で、後半ほど注目度の高いアーティストが置かれる傾向です。</p>
+<p>19:00〜20:55の2時間生放送は前半→後半の2部構成で、後半ほど注目度の高いアーティストが置かれる傾向です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -355,7 +383,7 @@ CDTVライブ!ライブ!（カウントダウンTV）今日の放送が気にな
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>※前回（9月7日）の放送出演順を掲載中です。</p>
+<p>※前回（9月14日）の放送出演順を掲載中です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -363,78 +391,46 @@ CDTVライブ!ライブ!（カウントダウンTV）今日の放送が気にな
     <table border="1" bgcolor="#000000" width="100%" cellpadding="10" cellspacing="0">
         <tbody><tr>
             <td>
-                <font color="#ffffff" size="3"><b>2026年9月7日 放送出演順</b></font>
+                <font color="#ffffff" size="3"><b>2026年9月14日 放送出演順</b></font>
 
                 <hr color="#ff008d" align="left" width="50" style="margin-top: 15px; margin-bottom: 8px;">
 
-                <font color="#ff008d" size="2"><b>19:00〜20:00（前半）</b></font>
+                <font color="#ff008d" size="2"><b>18:30〜19:55（前半）</b></font>
 
                 <table border="0" width="100%" cellpadding="5" cellspacing="4" style="margin-top: 8px;">
                     <tbody>
                     <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>19:00頃：絢香</b></font><br>
-                        <font color="#ff008d" size="2">「にじいろ」（オープニングメガヒットLIVE）</font>
+                        <font color="#ffffff" size="2"><b>18:33頃：KO1KEYZ</b></font><br>
+                        <font color="#ff008d" size="2">「KO1KEYZ」（デビュー曲・テレビ初フルサイズ。番組前半で最も投稿が伸びた枠）</font>
                     </td></tr>
                     <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>19:07頃：T.M.Revolution</b></font><br>
-                        <font color="#ff008d" size="2">「HOT LIMIT」（フルサイズ／中務裕太〈GENERATIONS〉・PSYCHIC FEVERとダンスコラボ）</font>
+                        <font color="#ffffff" size="2"><b>18:38頃：LIL LEAGUE</b></font><br>
+                        <font color="#ff008d" size="2">「僕を探してた」（テレビ初フルサイズ）</font>
                     </td></tr>
                     <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>19:12頃：AKB48</b></font><br>
-                        <font color="#ff008d" size="2">「好きish」（おかわりライブ・フルサイズ）</font>
+                        <font color="#ffffff" size="2"><b>19:05頃：なにわ男子</b></font><br>
+                        <font color="#ff008d" size="2">「BLACK OUT MISSION」→「僕がカワイくて君がカワイくて」（2曲メドレー・テレビ初披露、早着替え演出）</font>
                     </td></tr>
                     <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>19:16頃：CORTIS</b></font><br>
-                        <font color="#ff008d" size="2">「REDRED」（日本の音楽番組初パフォーマンス・フルサイズ）</font>
+                        <font color="#ffffff" size="2"><b>19:32頃：ポルノグラフィティ</b></font><br>
+                        <font color="#ff008d" size="2">「はみだし御免」「アゲハ蝶」（フルサイズ2曲）</font>
                     </td></tr>
                     <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>19:31頃：福山雅治</b></font><br>
-                        <font color="#ff008d" size="2">「邂逅」（2週連続出演の2週目・映画の書き下ろし新曲）</font>
-                    </td></tr>
-                    <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>19:36頃：JUJU</b></font><br>
-                        <font color="#ff008d" size="2">「夏蝉」（テレビ初披露・水野良樹書き下ろし）</font>
-                    </td></tr>
-                    <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>19:45頃：絢香</b></font><br>
-                        <font color="#ff008d" size="2">「OK! GO!」（テレビ初披露／番組内2曲目）</font>
+                        <font color="#ffffff" size="2"><b>19:45頃：マカロニえんぴつ</b></font><br>
+                        <font color="#ff008d" size="2">「運命さがし」（フルサイズ初披露）</font>
                     </td></tr>
                     </tbody>
                 </table>
 
                 <br>
 
-                <font color="#ff008d" size="2"><b>20:00〜20:55（後半）</b></font>
+                <font color="#ff008d" size="2"><b>20:00〜20:30（後半）</b></font>
 
                 <table border="0" width="100%" cellpadding="5" cellspacing="4" style="margin-top: 8px;">
                     <tbody>
                     <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>20:04頃：EBiDAN</b></font><br>
-                        <font color="#ff008d" size="2">「Yes! 東京」（選抜・おかわりライブ／8月の月間ランキング1位発表の直後、投稿が最も伸びた時間帯）</font>
-                    </td></tr>
-                    <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>20:09頃：小波津志（PSYCHIC FEVER）</b></font><br>
-                        <font color="#ff008d" size="2">「点描の唄」（名曲ライブ！ライブ！・ソロ歌唱）</font>
-                    </td></tr>
-                    <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>20:16頃：SixTONES</b></font><br>
-                        <font color="#ff008d" size="2">「マイオンリー」（フルサイズ）</font>
-                    </td></tr>
-                    <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>20:21頃：EXILE</b></font><br>
-                        <font color="#ff008d" size="2">「Choo Choo TRAIN」（『音楽の日2026』南三陸ライブ未公開映像・生歌唱なし）</font>
-                    </td></tr>
-                    <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>20:32頃：PSYCHIC FEVER</b></font><br>
-                        <font color="#ff008d" size="2">「If You're Mine」（テレビ初披露・2ndアルバムのリード曲）</font>
-                    </td></tr>
-                    <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>20:40頃：絢香</b></font><br>
-                        <font color="#ff008d" size="2">「I believe」（今夜の music power.／番組内3曲目）</font>
-                    </td></tr>
-                    <tr><td bgcolor="#111111" border="1">
-                        <font color="#ffffff" size="2"><b>20:50頃：最新週間ランキング TOP5</b></font><br>
-                        <font color="#ff008d" size="2">エンディングでカウントダウン</font>
+                        <font color="#ffffff" size="2"><b>20:01頃：SixTONES</b></font><br>
+                        <font color="#ff008d" size="2">「Dance Forever」（フルサイズ。公式単体投稿で全出演告知中最多エンゲージ、番組後半のピーク）</font>
                     </td></tr>
                     </tbody>
                 </table>
@@ -449,11 +445,15 @@ CDTVライブ!ライブ!（カウントダウンTV）今日の放送が気にな
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
+<p>上記の間には「年間ランキング中間発表」や「スポーツの秋に聴きたい応援ソング」のコーナーも挟まれていました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
 <p>放送終了後に、出演順・歌唱曲の順番を正確にまとめて追記しています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>※9/14のCDTVは放送前のため未確定。<br>※放送開始後（18:30〜）に、出演順を順次このページへ反映します。</p>
+<p>※10/5のCDTVは放送前のため未確定。<br>※放送開始後（19:00〜）に、出演順を順次このページへ反映します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -531,6 +531,44 @@ CDTVライブ!ライブ!（カウントダウンTV）今日の放送が気にな
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
+<h3>CDTV 2026年9月7日のタイムテーブル</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div role="region" aria-label="CDTV 2026年9月7日タイムテーブル" style="font-family:'Inter','Helvetica Neue',Arial,sans-serif;margin:20px 0;background:#0b0b0c;border:1px solid #222;border-radius:6px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.5);">
+<div style="height:3px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
+<div style="padding:12px 14px;background:#111;border-bottom:1px solid #222;">
+<div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 360), 12px);font-weight:900;color:#f9ff00;letter-spacing:.08em;">TIME TABLE</div>
+<div style="font-size:13px;font-weight:900;color:#fff;">出演順・盛り上がり実績（2026年9月7日放送）</div>
+</div>
+<div>
+<div style="display:flex;border-bottom:1px solid #222;">
+<div style="width:95px;background:#0f0f10;padding:14px 10px;text-align:center;border-right:1px solid #222;">
+<div style="font-size:13px;font-weight:900;color:#ff00ea;">19:00〜</div>
+<div style="font-size:9px;font-weight:700;color:#aaa;margin-top:2px;">前半</div>
+</div>
+<div style="flex:1;padding:14px 14px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ddd;line-height:1.7;">
+絢香「にじいろ」（オープニングメガヒットLIVE）/ T.M.Revolution「HOT LIMIT」（フルサイズ）/ AKB48「好きish」（おかわりライブ）/ CORTIS「REDRED」（日本の音楽番組初パフォーマンス）/ 福山雅治「邂逅」（2週連続出演の2週目）/ JUJU「夏蝉」（テレビ初披露）/ 絢香「OK! GO!」（テレビ初披露）
+</div>
+</div>
+<div style="display:flex;">
+<div style="width:95px;background:#0f0f10;padding:14px 10px;text-align:center;border-right:1px solid #222;">
+<div style="font-size:13px;font-weight:900;color:#ff00ea;">20:00〜</div>
+<div style="font-size:9px;font-weight:700;color:#aaa;margin-top:2px;">後半</div>
+</div>
+<div style="flex:1;padding:14px 14px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ddd;line-height:1.7;">
+小波津志（PSYCHIC FEVER）「点描の唄」（名曲ライブ！ライブ！）/ SixTONES「マイオンリー」（フルサイズ）/ EXILE「Choo Choo TRAIN」（『音楽の日2026』南三陸ライブ未公開映像）/ PSYCHIC FEVER「If You're Mine」（テレビ初披露）/ 絢香「I believe」（今夜のmusic power.）<br>
+<span style="color:#f9ff00;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);">EBiDAN「Yes! 東京」（おかわりライブ・8月の月間ランキング1位発表の直後、投稿が最も伸びた時間帯）</span>
+</div>
+</div>
+</div>
+<div style="padding:10px 14px;background:#0f0f10;border-top:1px solid #222;font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);font-weight:700;color:#bbb;line-height:1.6;">
+💡 9月7日放送回は、前半にCORTISの日本の音楽番組初パフォーマンスとJUJU「夏蝉」のテレビ初披露がありました。後半はEBiDAN「Yes! 東京」に投稿が集中。絢香は「にじいろ」「OK! GO!」「I believe」の3曲で登場しました。
+</div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":3} -->
 <h3>CDTV 2026年8月31日のタイムテーブル</h3>
 <!-- /wp:heading -->
 
@@ -568,44 +606,6 @@ BE:FIRST「Missing」（おかわりライブ）/ MAZZEL「So Strawberry」/ TOM
 </div>
 <!-- /wp:html -->
 
-<!-- wp:heading {"level":3} -->
-<h3>CDTV 2026年8月17日のタイムテーブル</h3>
-<!-- /wp:heading -->
-
-<!-- wp:html -->
-<div role="region" aria-label="CDTV 2026年8月17日タイムテーブル" style="font-family:'Inter','Helvetica Neue',Arial,sans-serif;margin:20px 0;background:#0b0b0c;border:1px solid #222;border-radius:6px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.5);">
-<div style="height:3px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
-<div style="padding:12px 14px;background:#111;border-bottom:1px solid #222;">
-<div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 360), 12px);font-weight:900;color:#f9ff00;letter-spacing:.08em;">TIME TABLE</div>
-<div style="font-size:13px;font-weight:900;color:#fff;">出演順・盛り上がり実績（2026年8月17日放送・3時間スペシャル）</div>
-</div>
-<div>
-<div style="display:flex;border-bottom:1px solid #222;">
-<div style="width:95px;background:#0f0f10;padding:14px 10px;text-align:center;border-right:1px solid #222;">
-<div style="font-size:13px;font-weight:900;color:#ff00ea;">19:00〜</div>
-<div style="font-size:9px;font-weight:700;color:#aaa;margin-top:2px;">前半</div>
-</div>
-<div style="flex:1;padding:14px 14px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ddd;line-height:1.7;">
-FRUITS ZIPPER「わたしの一番かわいいところ」（トップバッター）/ 郷ひろみ「GOLDFINGER'99」/ King &amp; Prince「So Honey」→「うそだよ すきだよ」/ T.M.Revolution「HOT LIMIT」/ 岡本真夜「TOMORROW」（music power.）/ FRUITS ZIPPER「1,2,3,FOOOOUR」/ 超ときめき♡宣伝部「大盛りハッピー」（テレビ初披露）/ 島袋寛子「Body &amp; Soul」→「Wake Me Up!」/ BONNIE PINK「A Perfect Sky」
-</div>
-</div>
-<div style="display:flex;">
-<div style="width:95px;background:#0f0f10;padding:14px 10px;text-align:center;border-right:1px solid #222;">
-<div style="font-size:13px;font-weight:900;color:#ff00ea;">20:00〜</div>
-<div style="font-size:9px;font-weight:700;color:#aaa;margin-top:2px;">後半</div>
-</div>
-<div style="flex:1;padding:14px 14px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ddd;line-height:1.7;">
-郷ひろみ（再登場）「2億4千万の瞳」「I'm Neo G」/ LDH世界選抜「天体観測（2022 Rerecording Version）」/ FUNKY MONKEY BΛBY'S「夏子」（テレビ初披露）/ GRe4N BOYZ「キセキ」→「ペリドット」/ 中島健人「鬼事」（自身作詞・和装）/ BOYNEXTDOOR「Boom Boom Boom」（世界初パフォーマンス）/ きゃりーぱみゅぱみゅ 一夜限りメドレー4曲/ Fukase「twilight」（ソロ初登場）/ FUNKY MONKEY BΛBY'S「あとひとつ」（music power.）<br>
-<span style="color:#f9ff00;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);">Snow Man「グッタイム」（フルサイズ・浴衣夏祭り演出、投稿が最も伸びた時間帯）</span>
-</div>
-</div>
-</div>
-<div style="padding:10px 14px;background:#0f0f10;border-top:1px solid #222;font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);font-weight:700;color:#bbb;line-height:1.6;">
-💡 8月17日放送回は3時間スペシャル。前半は郷ひろみやKing &amp; Prince、T.M.Revolutionら世代を超えた顔ぶれが登場し、超ときめき♡宣伝部「大盛りハッピー」のテレビ初披露もありました。後半はSnow Man「グッタイム」の浴衣夏祭り演出に投稿が集中。中島健人のソロ「鬼事」、Fukaseのソロ初登場「twilight」、BOYNEXTDOOR「Boom Boom Boom」の世界初パフォーマンスも話題になりました。
-</div>
-</div>
-<!-- /wp:html -->
-
 <!-- wp:html -->
 <details style="margin:20px 0;border:1px solid #222;border-radius:6px;overflow:hidden;background:#0b0b0c;">
 <summary style="cursor:pointer;padding:14px 16px;font-weight:900;font-size:13px;background:#111;color:#fff;border-bottom:1px solid #222;">
@@ -613,7 +613,18 @@ FRUITS ZIPPER「わたしの一番かわいいところ」（トップバッタ�
 </summary>
 <div style="padding:10px 14px;">
 
-<h3 style="margin:10px 0 6px;font-size:14px;font-weight:900;color:#fff;">2026年8月10日のタイムテーブル</h3>
+<h3 style="margin:10px 0 6px;font-size:14px;font-weight:900;color:#fff;">2026年8月17日のタイムテーブル（3時間スペシャル）</h3>
+<div style="border:1px solid #222;border-radius:6px;overflow:hidden;margin:14px 0;background:#0b0b0c;">
+<div style="height:3px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
+<div style="padding:14px 16px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:700;color:#ddd;line-height:1.8;">
+19:00台〜<br>
+FRUITS ZIPPER「わたしの一番かわいいところ」（トップバッター）/ 郷ひろみ「GOLDFINGER'99」/ King &amp; Prince「So Honey」→「うそだよ すきだよ」/ T.M.Revolution「HOT LIMIT」/ 超ときめき♡宣伝部「大盛りハッピー」（テレビ初披露）ほか<br><br>
+20:00台〜<br>
+郷ひろみ（再登場）「2億4千万の瞳」「I'm Neo G」/ 中島健人「鬼事」/ BOYNEXTDOOR「Boom Boom Boom」（世界初パフォーマンス）/ Fukase「twilight」（ソロ初登場）/ Snow Man「グッタイム」（フルサイズ・浴衣夏祭り演出、投稿が最も伸びた時間帯）ほか
+</div>
+</div>
+
+<h3 style="margin:18px 0 6px;font-size:14px;font-weight:900;color:#fff;">2026年8月10日のタイムテーブル</h3>
 <div style="border:1px solid #222;border-radius:6px;overflow:hidden;margin:14px 0;background:#0b0b0c;">
 <div style="height:3px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
 <div style="padding:14px 16px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:700;color:#ddd;line-height:1.8;">
@@ -621,17 +632,6 @@ FRUITS ZIPPER「わたしの一番かわいいところ」（トップバッタ�
 特別編「CDTV33年間の1位の曲だけSP」（月別VTR紹介、生歌唱なし）<br><br>
 20:30台〜<br>
 ATEEZ「BAD（Japanese Ver.）」フルサイズ生パフォーマンス / 最新週間ランキングTOP5カウントダウン
-</div>
-</div>
-
-<h3 style="margin:18px 0 6px;font-size:14px;font-weight:900;color:#fff;">2026年8月3日のタイムテーブル</h3>
-<div style="border:1px solid #222;border-radius:6px;overflow:hidden;margin:14px 0;background:#0b0b0c;">
-<div style="height:3px;background:linear-gradient(90deg,#ff008d,#ff00ea);"></div>
-<div style="padding:14px 16px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:700;color:#ddd;line-height:1.8;">
-19:00台〜<br>
-＝LOVE「ナツマトペ」告知 / Da-iCE「スターマイン」告知 / ILLIT「I Got Your Back」/ EBiDAN「Yes! 東京」/ SUPER EIGHT「ダンダーラ」/ 企画「真夏の胸キュン」PART①② / AKB48「ポニーテールとシュシュ」（トップバッター）→「好きish」<br><br>
-20:00台〜<br>
-＝LOVE「恋、はじめました。」/ Da-iCE「アンリミテッド」/ ILLIT「It's Me」/ 優里「サンダーボルト」/ ME:I「花咲く道」/ STARGLOW「Drivin' My Life」/ AKB48「365日の紙飛行機」（music power）
 </div>
 </div>
 
@@ -660,7 +660,7 @@ ATEEZ「BAD（Japanese Ver.）」フルサイズ生パフォーマンス / 最�
 </div>
 <div style="display:flex;gap:10px;border-top:1px solid #222;padding-top:10px;">
 <span style="color:#ff008d;font-size:12px;font-weight:900;">A</span>
-<p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.7;font-weight:700;">9月14日は18:30〜20:30、TBS系列の2時間生放送。SixTONESやなにわ男子、KO1KEYZなど全6組の出演が発表されています。過去の放送では後半に注目度の高いアーティストが置かれる傾向があり、実際の出演順は放送後にこの記事で更新します。</p>
+<p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.7;font-weight:700;">10月5日は19:00〜20:55、TBS系列の2時間生放送。AIやSnow Man、&TEAMなど全9組の出演が発表されています。過去の放送では後半に注目度の高いアーティストが置かれる傾向があり、実際の出演順は放送後にこの記事で更新します。</p>
 </div>
 </div>
 
@@ -668,11 +668,11 @@ ATEEZ「BAD（Japanese Ver.）」フルサイズ生パフォーマンス / 最�
 <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
 <div style="display:flex;gap:10px;margin-bottom:10px;">
 <span style="background:#fff;color:#000;font-size:10px;font-weight:900;padding:2px 6px;transform:skewX(-15deg);">Q2</span>
-<p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">KO1KEYZはデビュー曲を何時頃に披露しますか？</p>
+<p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">Snow Manは何時頃に登場しそうですか？</p>
 </div>
 <div style="display:flex;gap:10px;border-top:1px solid #222;padding-top:10px;">
 <span style="color:#ff008d;font-size:12px;font-weight:900;">A</span>
-<p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.7;font-weight:700;">正式な出演時間は発表されていません。KO1KEYZは日韓同時デビュー曲「KO1KEYZ」をフルサイズでテレビ初披露します。過去のCDTVでは初披露の曲が前半に置かれることが多く、19時台に登場するかもしれません。</p>
+<p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.7;font-weight:700;">正式な出演時間は発表されていません。Snow Manは「奇跡」「グッタイム」の2曲を披露します。過去のCDTVでは動員力の大きいグループが後半に置かれる傾向があり、20時台に登場するかもしれません。</p>
 </div>
 </div>
 
@@ -680,11 +680,11 @@ ATEEZ「BAD（Japanese Ver.）」フルサイズ生パフォーマンス / 最�
 <div style="position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(90deg,#ff008d,#ff00ea)"></div>
 <div style="display:flex;gap:10px;margin-bottom:10px;">
 <span style="background:#fff;color:#000;font-size:10px;font-weight:900;padding:2px 6px;transform:skewX(-15deg);">Q3</span>
-<p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">SixTONESは何時頃に登場しそうですか？</p>
+<p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 360), 14px);font-weight:900;color:#fff;">&TEAMの名曲ライブは何時頃に見られますか？</p>
 </div>
 <div style="display:flex;gap:10px;border-top:1px solid #222;padding-top:10px;">
 <span style="color:#ff008d;font-size:12px;font-weight:900;">A</span>
-<p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.7;font-weight:700;">正式な時間は発表されていません。SixTONESは「Dance Forever」をフルサイズで披露します。過去のCDTVでは動員力の大きいグループが後半に置かれる傾向があり、20時台に登場するかもしれません。</p>
+<p style="margin:0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#ccc;line-height:1.7;font-weight:700;">正式な時間は発表されていません。名曲ライブ！ライブ！では&TEAMのKとJOがZONE「secret base～君がくれたもの～」をカバーします。企画コーナーは番組中盤に配置されやすい傾向があり、19時台後半から20時台にかけて登場するかもしれません。</p>
 </div>
 </div>
 
@@ -736,7 +736,7 @@ ATEEZ「BAD（Japanese Ver.）」フルサイズ生パフォーマンス / 最�
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年9月14日（月）放送の『CDTVライブ！ライブ！』は、TBS系で夕方6時半から2時間生放送！</p>
+<p>2026年10月5日（月）放送の『CDTVライブ！ライブ！』は、TBS系で夜7時から2時間生放送！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -744,7 +744,7 @@ ATEEZ「BAD（Japanese Ver.）」フルサイズ生パフォーマンス / 最�
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>全6組の出演が発表されており、KO1KEYZが日韓同時デビュー曲「KO1KEYZ」をフルサイズでテレビ初披露。なにわ男子はダンスチューン2曲をメドレーでテレビ初披露します。</p>
+<p>全9組の出演が発表されており、名曲ライブ！ライブ！では&TEAMのKとJOがZONE「secret base～君がくれたもの～」をカバー。踊ってみた企画ではLDH選抜メンバーがILLIT「It's Me」を披露します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -857,25 +857,25 @@ ATEEZ「BAD（Japanese Ver.）」フルサイズ生パフォーマンス / 最�
       "@type": "BlogPosting",
       "@id": "https://shira-treat.com/cdtv-timetable/#article",
       "url": "https://shira-treat.com/cdtv-timetable/",
-      "headline": "【CDTV】タイムテーブル 9月14日速報！出演順・出演時間をリアルタイム更新",
-      "description": "CDTVライブ!ライブ!（カウントダウンTV）今日の放送が気になる方へ。9月14日分をまとめ！KO1KEYZがデビュー曲をフルサイズでテレビ初披露、なにわ男子はダンス2曲メドレー。出演順・登場時間の目安をリアルタイムで更新。",
+      "headline": "【CDTV】タイムテーブル 10月5日速報！出演順・出演時間をリアルタイム更新",
+      "description": "CDTVライブ!ライブ!（カウントダウンTV）今日の放送が気になる方へ。10月5日分をまとめ！Snow Manが「奇跡」「グッタイム」の2曲を披露、&TEAMのK・JOがZONEの名曲をカバー。出演順・登場時間の目安をリアルタイムで更新。",
       "articleSection": "タイムテーブル",
       "keywords": [
         "CDTV", "CDTV タイムテーブル", "カウントダウンTV", "CDTVライブ！ライブ！", "今日",
-        "出演者", "出演順", "歌唱曲", "2026-09-14",
-        "KO1KEYZ", "SixTONES", "なにわ男子", "ポルノグラフィティ", "マカロニえんぴつ", "LIL LEAGUE", "テレビ初披露"
+        "出演者", "出演順", "歌唱曲", "2026-10-05",
+        "AI", "&TEAM", "GENERATIONS", "Snow Man", "FRUITS ZIPPER", "MAZZEL", "STARGLOW", "M!LK", "Lienel", "LiSA", "名曲ライブ"
       ],
       "datePublished": "2026-01-28T17:30:00+09:00",
       "dateCreated": "2026-01-28T17:30:00+09:00",
-      "dateModified": "2026-09-08T10:00:00+09:00",
+      "dateModified": "2026-09-29T10:00:00+09:00",
       "inLanguage": "ja",
       "image": {
         "@type": "ImageObject",
         "@id": "https://shira-treat.com/cdtv-timetable/#image",
-        "url": "https://shira-treat.com/wp-content/uploads/2026/09/image-10-1.webp",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/09/image-1-1.webp",
         "width": 1200,
         "height": 675,
-        "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/09/image-10-1.webp"
+        "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/09/image-1-1.webp"
       },
       "author": {
         "@type": "Person",
@@ -900,21 +900,25 @@ ATEEZ「BAD（Japanese Ver.）」フルサイズ生パフォーマンス / 最�
         "sameAs": ["https://www.tbs.co.jp/cdtv_livelive/"]
       },
       "mentions": [
-        { "@type": "MusicGroup", "name": "KO1KEYZ" },
-        { "@type": "MusicGroup", "name": "SixTONES" },
-        { "@type": "MusicGroup", "name": "なにわ男子" },
-        { "@type": "MusicGroup", "name": "ポルノグラフィティ" },
-        { "@type": "MusicGroup", "name": "マカロニえんぴつ" },
-        { "@type": "MusicGroup", "name": "LIL LEAGUE" }
+        { "@type": "Person", "name": "AI" },
+        { "@type": "MusicGroup", "name": "&TEAM" },
+        { "@type": "MusicGroup", "name": "GENERATIONS" },
+        { "@type": "MusicGroup", "name": "Snow Man" },
+        { "@type": "MusicGroup", "name": "FRUITS ZIPPER" },
+        { "@type": "MusicGroup", "name": "MAZZEL" },
+        { "@type": "MusicGroup", "name": "STARGLOW" },
+        { "@type": "MusicGroup", "name": "M!LK" },
+        { "@type": "MusicGroup", "name": "Lienel" },
+        { "@type": "Person", "name": "LiSA" }
       ]
     },
     {
       "@type": "BroadcastEvent",
       "@id": "https://shira-treat.com/cdtv-timetable/#broadcast",
-      "name": "CDTVライブ！ライブ！（2026年9月14日放送）",
-      "description": "2026年9月14日（月）18:30〜20:30、TBS系列の2時間生放送。KO1KEYZが日韓同時デビュー曲「KO1KEYZ」をフルサイズでテレビ初披露。なにわ男子はダンスチューン2曲をメドレーでテレビ初披露します。",
-      "startDate": "2026-09-14T18:30:00+09:00",
-      "endDate": "2026-09-14T20:30:00+09:00",
+      "name": "CDTVライブ！ライブ！（2026年10月5日放送）",
+      "description": "2026年10月5日（月）19:00〜20:55、TBS系列の2時間生放送。名曲ライブ！ライブ！では&TEAMのKとJOがZONE「secret base～君がくれたもの～」をカバー。踊ってみた企画ではLDH選抜メンバーがILLIT「It's Me」を披露します。",
+      "startDate": "2026-10-05T19:00:00+09:00",
+      "endDate": "2026-10-05T20:55:00+09:00",
       "eventStatus": "https://schema.org/EventScheduled",
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "isLiveBroadcast": true,
@@ -935,16 +939,19 @@ ATEEZ「BAD（Japanese Ver.）」フルサイズ生パフォーマンス / 最�
     {
       "@type": "ItemList",
       "@id": "https://shira-treat.com/cdtv-timetable/#lineup",
-      "name": "2026年9月14日 CDTV出演者と歌唱曲一覧",
+      "name": "2026年10月5日 CDTV出演者と歌唱曲一覧",
       "itemListOrder": "https://schema.org/ItemListOrderAscending",
-      "numberOfItems": 6,
+      "numberOfItems": 9,
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "KO1KEYZ" },
-        { "@type": "ListItem", "position": 2, "name": "SixTONES" },
-        { "@type": "ListItem", "position": 3, "name": "なにわ男子" },
-        { "@type": "ListItem", "position": 4, "name": "ポルノグラフィティ" },
-        { "@type": "ListItem", "position": 5, "name": "マカロニえんぴつ" },
-        { "@type": "ListItem", "position": 6, "name": "LIL LEAGUE" }
+        { "@type": "ListItem", "position": 1, "name": "AI" },
+        { "@type": "ListItem", "position": 2, "name": "&TEAM" },
+        { "@type": "ListItem", "position": 3, "name": "GENERATIONS" },
+        { "@type": "ListItem", "position": 4, "name": "Snow Man" },
+        { "@type": "ListItem", "position": 5, "name": "FRUITS ZIPPER" },
+        { "@type": "ListItem", "position": 6, "name": "MAZZEL×STARGLOW" },
+        { "@type": "ListItem", "position": 7, "name": "M!LK" },
+        { "@type": "ListItem", "position": 8, "name": "Lienel" },
+        { "@type": "ListItem", "position": 9, "name": "LiSA" }
       ]
     },
     {
@@ -956,23 +963,23 @@ ATEEZ「BAD（Japanese Ver.）」フルサイズ生パフォーマンス / 最�
           "name": "出演順やタイムテーブルはどうなりそうですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "9月14日は18:30〜20:30、TBS系列の2時間生放送。SixTONESやなにわ男子、KO1KEYZなど全6組の出演が発表されています。過去の放送では後半に注目度の高いアーティストが置かれる傾向があり、実際の出演順は放送後にこの記事で更新します。"
+            "text": "10月5日は19:00〜20:55、TBS系列の2時間生放送。AIやSnow Man、&TEAMなど全9組の出演が発表されています。過去の放送では後半に注目度の高いアーティストが置かれる傾向があり、実際の出演順は放送後にこの記事で更新します。"
           }
         },
         {
           "@type": "Question",
-          "name": "KO1KEYZはデビュー曲を何時頃に披露しますか？",
+          "name": "Snow Manは何時頃に登場しそうですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "正式な出演時間は発表されていません。KO1KEYZは日韓同時デビュー曲「KO1KEYZ」をフルサイズでテレビ初披露します。過去のCDTVでは初披露の曲が前半に置かれることが多く、19時台に登場するかもしれません。"
+            "text": "正式な出演時間は発表されていません。Snow Manは「奇跡」「グッタイム」の2曲を披露します。過去のCDTVでは動員力の大きいグループが後半に置かれる傾向があり、20時台に登場するかもしれません。"
           }
         },
         {
           "@type": "Question",
-          "name": "SixTONESは何時頃に登場しそうですか？",
+          "name": "&TEAMの名曲ライブは何時頃に見られますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "正式な時間は発表されていません。SixTONESは「Dance Forever」をフルサイズで披露します。過去のCDTVでは動員力の大きいグループが後半に置かれる傾向があり、20時台に登場するかもしれません。"
+            "text": "正式な時間は発表されていません。名曲ライブ！ライブ！では&TEAMのKとJOがZONE「secret base～君がくれたもの～」をカバーします。企画コーナーは番組中盤に配置されやすい傾向があり、19時台後半から20時台にかけて登場するかもしれません。"
           }
         },
         {
