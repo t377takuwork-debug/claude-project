@@ -473,7 +473,7 @@ def extract_body_faq(text: str) -> list[tuple[str, str]]:
     pending_q = None
     for m2 in matches:
         lbl, raw = m2.group(1), m2.group(2)
-        txt = re.sub(r"<[^>]+>", "", raw)
+        txt = html.unescape(re.sub(r"<[^>]+>", "", raw))
         txt = re.sub(r"\s+", " ", txt).strip()
         if lbl.startswith("Q"):
             pending_q = txt
