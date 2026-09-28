@@ -86,10 +86,10 @@ type: project
 
 ## 未確定・次に詰めること（2026-09-28更新：完了項目を整理）
 
-- 3媒体のプロフィール文の書き直し（`rules/project_uya_accounts.md` の現状文面を差し替える。反映はオーナーの手作業）
 - 投稿（X・スレッズ）の型・頻度など運用ルール（`sns_post_cheatsheet.md` 相当。まだ存在しない。`/uya-post`等のスキルも未作成）
+- スレッズの「関心」トピック設定（選択肢の実物が未確認のため保留。`rules/project_uya_accounts.md`参照）
 
-**完了済み**（参考。旧リストから削除）：材料ファイル（`shared/personal_data.md`）作成、1本目の記事（自己紹介記事）公開準備、記事生成スキル`/uya-theme`・`/uya-article`新設、文体見本`examples_essay.md`新設
+**完了済み**（参考。旧リストから削除）：材料ファイル（`shared/personal_data.md`）作成、1本目の記事（自己紹介記事）公開準備、記事生成スキル`/uya-theme`・`/uya-article`新設、文体見本`examples_essay.md`新設、ハッシュタグ選定システム（`docs/reference/note_hashtag_reference.md`・`uya/rules/hashtag_candidates.md`）構築、3媒体プロフィール文の書き直し（2026-09-28確定）
 
 ## Why
 
