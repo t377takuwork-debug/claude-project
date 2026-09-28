@@ -24,6 +24,7 @@ type: project
 | Threads文体の詳細（語尾・専門用語・数字・連続スレッド機構・語彙・絵文字・文字数。句読点・改行・記号は `rules/sns_kutouten_kaigyo_rules.md`） | `rules/feedback_s4lv_threads_writing_style.md` |
 | ネタ元（型・思想＝K項目／AI実働＝A項目・唯一の正） | `x_neta_daicho.md`（旧 `ai_work_log.md` は2026-09-07に統合廃止）。**ネタを選ぶ前に、ファイル末尾の「使用履歴・自動記録」表を必ず見る**（posts_x.txt／posts_threads.txt保存のたびにsync_neta_usage.pyが自動更新・2026-09-14新設。各項目内の手書き「使用履歴」欄は更新が漏れることがあるため、こちらが正） |
 | ネタ元（意見・考え＝柱3・外部きっかけ） | `x_neta_daicho.md`「柱3：意見・考え」（2026-09-22新設）。発掘は `/s4lv-research`（ユーザー指示時のみ実行） |
+| ネタ元（音声ジャーナル由来・UYA.と共通の受け皿） | `journals/content_seeds.md`（`/journal`が蓄積。s4lvタグの候補を拾う。同一人物のUYA.用ネタと共通の材料になり得るが、**s4lvでは「型・やり方として教える」角度に組み替えてから使う**。同じ素材をUYA.と同じ週に使わない。使うと決めたら`x_neta_daicho.md`の柱1/2形式に落とし込んで台帳へ追記する・2026-09-28新設） |
 | Note誘導のネタ源・ローテーション | `articles/note_article_index.md` |
 | 実績数値・開示ルール | `shared/personal_data.md` |
 | 対象読者ペルソナ（3軸） | `rules/project_s4lv_persona.md` |

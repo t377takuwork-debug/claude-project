@@ -1,9 +1,9 @@
 # journals/content_seeds.md — ブログ/SNSネタ横断インデックス
 
 `/journal` パイプラインが音声ジャーナルから抽出したコンテンツの種（ブログ/SNSネタ）の一覧。
-候補先アカウント（shira_note / cf_room / vtuber_log / vivant / s4lv / mbticode / junk_juice / 未定）をタグ付けする。
-詳しい文脈は各 `journals/daily/YYYY-MM-DD.md` を参照。実際の記事・投稿制作は各アカウントの通常フロー（`/note-article`・`/vivant-article`等）に渡す。
+候補先アカウント（shira_note / cf_room / vtuber_log / vivant / s4lv / mbticode / junk_juice / uya / 未定）を**1つ以上**タグ付けする。同じ体験が複数アカウントの候補になる場合（特にs4lvとuyaは同一人物の実体験なので起こりやすい）は両方タグ付けしてよい。**ただし実際に使うときは、そのまま両方に同じ内容で出さない**：s4lvは「型・やり方として教える」角度、UYA.は「自分がどう感じたか」という一人称の実況、と角度を変え、同じ素材を同じ週に両方で使わない（最低1週間ずらす）。詳しくは`uya/sns_post_cheatsheet.md`「s4lvとの重複回避」を参照。
+詳しい文脈は各 `journals/daily/YYYY-MM-DD.md` を参照。実際の記事・投稿制作は各アカウントの通常フロー（`/note-article`・`/vivant-article`・`/s4lv-post`等）に渡す。
 
 ---
 
-（まだ抽出実績なし）
+- note記事の執筆でAI（Grok等）を取り入れているが、自分が意図した語尾・ニュアンスにならず、完璧主義な性格もあって手直しにかなり時間がかかる、という試行錯誤の実況。当事者としてAI・ブログ・noteを試した記録に合う一人称の素材（uya）。s4lv側では「AIの下書きをそのまま出さない理由・手直しの判断基準」という教える角度に組み替えて使える — 候補先: s4lv, uya — 由来: `journals/daily/2026-09-28.md`

@@ -34,7 +34,7 @@
 | アイデア | まだタスク化されていない着想・思いつき | `journals/ideas.md` |
 | タスク | 具体的な行動として切り出せるもの | `journals/tasks.md`（チェックボックス形式） |
 | 気付き | 自分の傾向・パターンについてのメタ認知的な発見 | `journals/insights.md` |
-| ブログ/SNSネタ | コンテンツの具体的な切り口。分かれば候補先アカウント（shira_note/cf_room/vtuber_log/vivant/s4lv/mbticode/junk_juice/未定）をタグ付け | `journals/content_seeds.md` |
+| ブログ/SNSネタ | コンテンツの具体的な切り口。分かれば候補先アカウント（shira_note/cf_room/vtuber_log/vivant/s4lv/mbticode/junk_juice/uya/未定）を1つ以上タグ付け（同じ体験が複数アカウントの候補になる場合は両方タグ付けしてよい。特にs4lv・uyaは同一人物の実体験） | `journals/content_seeds.md` |
 | 長期テーマ | 繰り返し出てくる大きなテーマ | `journals/themes.md`（新規テーマのみ見出し新設。既存テーマは追記） |
 
 各抽出項目は「内容 — 由来: journals/daily/YYYY-MM-DD.md」の形で該当インデックスに追記する。
