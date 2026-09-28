@@ -34,6 +34,7 @@ Claude in Chrome（ユーザーの実ブラウザ・ログイン状態を使う�
 - `https://x.com/explore/tabs/keyword`の「本日のニュース」からAI・note・X・Threads関連の項目を拾う。関連ニュースは`div[role="link"]`をJSでクリックして詳細投稿を見る
 - 個別テーマの検索は`https://x.com/search?q=<キーワード>&src=typed_query&f=live`（最新順）
 - 反響の数値は`article.querySelectorAll('[aria-label]')`から結合ラベルを取る。「返信先：」を含む投稿（リプライ）は反響の高い投稿として拾わない
+- **ツールの読み込み節約（2026-09-29追加）**：このスキルは画面操作（クリック・スクロール等）が不要なので、Claude in Chromeのツールは`tabs_context_mcp`・`navigate`・`javascript_tool`の3つだけ読み込めば足りる（`computer`・`tabs_create_mcp`・`tabs_close_mcp`は読み込まない。使わないツールの定義を読み込むだけでも数千トークン分の無駄になる）。同じ検索・抽出パターンを複数回繰り返すときは、1回ずつ`navigate`→`javascript_tool`と呼ぶより`browser_batch`でまとめて呼ぶ方が往復回数が減って効率がよい
 
 **精度の注意**：X上の個人の「〜と判明した」的な主張は公式に確認された事実とは限らない。断定が必要な内容はWebSearchで一次情報を裏取りする。裏取りできないものは「そういう話も出ている」という扱いに留める（投稿でも同様）。
 

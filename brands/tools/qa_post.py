@@ -50,6 +50,11 @@ URL_RE = re.compile(r"https?://")
 # 本文の閉じ`----`の後・次の見出しの前に置かれる「自己リプライ（〜）：」注記行の接頭辞。
 # 投稿本体には含めない（実際にThreadsへ投稿するのはこの接頭辞を除いた本文のみ）。
 REPLY_LABEL_RE = re.compile(r"^自己リプライ[^：]*：\s*")
+# リスト型・続き型など、1本目の自己リプライ（列C＝続きの本文等）が既に使われている投稿向けの
+# 2本目の自己リプライ（URL誘導専用・2026-09-29追加）。「自己リプライ2（〜）：」で始まる行から
+# 次の見出しまでを reply2 として別途拾う（parse_posts参照）。
+REPLY2_LABEL_RE = re.compile(r"^自己リプライ2[^：]*：\s*")
+REPLY2_MARKER_RE = re.compile(r"^自己リプライ2[^：]*：")
 # Threads API実測の投稿本文上限（超過分は投稿時に必ずエラーになる。目安200〜350字とは別軸のハード制約）。
 THREADS_API_LIMIT = 500
 
@@ -110,6 +115,7 @@ def parse_posts(text):
                 body = "\n".join(body_lines).strip()
                 # 閉じ`----`が見つかった場合のみ、その後〜次の見出し直前までを自己リプライ候補として拾う
                 reply = ""
+                reply2 = ""
                 end = k
                 if k < len(lines) and SEP_RE.match(lines[k]):
                     m2 = k + 1
@@ -117,7 +123,15 @@ def parse_posts(text):
                     while m2 < len(lines) and not HEADER_RE.match(lines[m2]):
                         reply_lines.append(lines[m2])
                         m2 += 1
-                    reply = "\n".join(reply_lines).strip()
+                    # 「自己リプライ2（〜）：」行があれば、そこでreply/reply2に分割する
+                    # （URL誘導専用の2本目の自己リプライ・2026-09-29追加）
+                    split_idx = next((idx for idx, ln in enumerate(reply_lines)
+                                       if REPLY2_MARKER_RE.match(ln.strip())), None)
+                    if split_idx is not None:
+                        reply = "\n".join(reply_lines[:split_idx]).strip()
+                        reply2 = "\n".join(reply_lines[split_idx:]).strip()
+                    else:
+                        reply = "\n".join(reply_lines).strip()
                     end = m2
                 date_m = DATE_RE.search(header)
                 posts.append({
@@ -126,6 +140,7 @@ def parse_posts(text):
                     "date": date_m.group(1) if date_m else "",
                     "body": body,
                     "reply": reply,
+                    "reply2": reply2,
                     # 「リプライ狙い」（s4lv Threadsの"締めで返信を誘う通常投稿"のラベル）や
                     # 「自己リプライ」は他者への返信/引用ポストではないので is_reply から除外する
                     # （2026-09-07：ヘッダー語の衝突で通常投稿が誤ってreply扱いされバッチ検査から
@@ -304,6 +319,27 @@ def check_mbticode_post(post, platform):
                 f.append(Finding("WARN", post["label"], "tsuzuki-not-fragment",
                                  "続き型は本文の最後を読点（、）で文法的に途切れさせ、"
                                  "自己リプライがそのまま完成させる形にする（2026-08-16notekaigi・続き型の本文の切り方）"))
+
+        # 2本目の自己リプライ（URL誘導専用・2026-09-29追加）。1本目が既に本文の続き等で
+        # 使われているリスト型・続き型向け。URL事後型の1本目リプライと同じ扱い
+        # （字数は目安対象外・content-policy/禁止表現/API上限のみ機械チェック）。
+        reply2 = post.get("reply2", "")
+        if reply2:
+            reply2_body = REPLY2_LABEL_RE.sub("", reply2, count=1).strip()
+            for code, pat, msg in MBTICODE_MAIN_ERRORS:
+                if re.search(pat, reply2_body):
+                    f.append(Finding("ERROR", post["label"], code, f"{msg}（自己リプライ2・URL誘導）"))
+            for code, pat, msg in CONTENT_POLICY_ERRORS:
+                if re.search(pat, reply2_body):
+                    f.append(Finding("ERROR", post["label"], code, f"{msg}（自己リプライ2・URL誘導）"))
+            r2len = len(reply2_body.replace("\n", ""))
+            if r2len > THREADS_API_LIMIT:
+                f.append(Finding("ERROR", post["label"], "th-reply2-length-api-limit",
+                                 f"自己リプライ2（URL誘導）{r2len}字（API上限{THREADS_API_LIMIT}字を超過・"
+                                 f"投稿時に必ず失敗する）"))
+            if not URL_RE.search(reply2_body):
+                f.append(Finding("ERROR", post["label"], "th-reply2-no-url",
+                                 "自己リプライ2はURL誘導専用のはずだがURLが見つからない（誤用の疑い）"))
     return f
 
 
@@ -522,12 +558,29 @@ def check_mbticode_file(posts, findings):
                 continue
             if "URL事後型" not in p["header"]:
                 continue
+            # reply2がある投稿は、1本目（p["reply"]）がURL誘導ではなく続き型の本文等
+            # （2026-09-29追加のリスト型向け2本目リプライ構成）なので、この突合対象から外す。
+            # CTA突合はreply2側の専用ブロック（下）で行う。
+            if p.get("reply2"):
+                continue
             reply_body = REPLY_LABEL_RE.sub("", p["reply"], count=1).strip()
             reply_lines = [ln for ln in reply_body.split("\n") if not ln.strip().startswith("→")]
             reply_text = "\n".join(reply_lines).strip()
             if not any(reply_text in t or t in reply_text for t in cta_texts):
                 findings.append(Finding("WARN", p["label"], "cta-template-mismatch",
                                         "自己リプライがcta_templates.mdの承認済みパターンと一致しない"
+                                        "（新規パターンならテンプレート集へ正式追加したか確認）"))
+        # 2本目の自己リプライ（URL誘導専用・2026-09-29追加）も同様にcta_templates.md突合する。
+        # こちらは header の型ラベルに依存しない（reply2の存在自体がURL誘導の意図を示すため）。
+        for p in posts:
+            if p["is_reply"] or not p.get("reply2"):
+                continue
+            reply2_body = REPLY2_LABEL_RE.sub("", p["reply2"], count=1).strip()
+            reply2_lines = [ln for ln in reply2_body.split("\n") if not ln.strip().startswith("→")]
+            reply2_text = "\n".join(reply2_lines).strip()
+            if not any(reply2_text in t or t in reply2_text for t in cta_texts):
+                findings.append(Finding("WARN", p["label"], "cta-template-mismatch",
+                                        "自己リプライ2（URL誘導）がcta_templates.mdの承認済みパターンと一致しない"
                                         "（新規パターンならテンプレート集へ正式追加したか確認）"))
 
 

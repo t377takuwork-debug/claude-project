@@ -5,8 +5,12 @@ Usage:
   python push_threads_queue.py <csv_file> [--allow-past]
 
 CSV columns (header row optional, auto-detected by date-parse failure):
-  投稿日時,本文,リプライ本文,型,FW
+  投稿日時,本文,リプライ本文,型,FW[,URL自己リプライ本文]
 投稿日時 must parse as "YYYY-MM-DD HH:MM".
+The 6th column is optional (2026-09-29追加): a second, URL-only self-reply for
+posts whose 3rd column is already used for something else (e.g. リスト型・続き型
+の本文の続き) — see threads_scheduler.gs「2本目の自己リプライ」. Left blank for
+ordinary rows.
 
 Safety behavior:
   - rows whose date is before now are skipped unless --allow-past is passed
@@ -48,14 +52,14 @@ def sort_queue_by_datetime(sheets, spreadsheet_id, sheet_name):
     """
     resp = sheets.values().get(
         spreadsheetId=spreadsheet_id,
-        range=f"{sheet_name}!A2:H",
+        range=f"{sheet_name}!A2:K",
         valueRenderOption="UNFORMATTED_VALUE",
     ).execute()
     rows = resp.get("values", [])
     if not rows:
         return
     for r in rows:
-        while len(r) < 8:
+        while len(r) < 11:
             r.append("")
 
     def sort_key(r):
@@ -70,7 +74,7 @@ def sort_queue_by_datetime(sheets, spreadsheet_id, sheet_name):
     if not already_sorted:
         sheets.values().update(
             spreadsheetId=spreadsheet_id,
-            range=f"{sheet_name}!A2:H{1 + len(rows_sorted)}",
+            range=f"{sheet_name}!A2:K{1 + len(rows_sorted)}",
             valueInputOption="USER_ENTERED",
             body={"values": rows_sorted},
         ).execute()
@@ -97,6 +101,7 @@ def read_csv_rows(path):
                 "reply": row[2] if len(row) > 2 else "",
                 "type": row[3] if len(row) > 3 else "",
                 "fw": row[4] if len(row) > 4 else "",
+                "url_reply": row[5] if len(row) > 5 else "",
             })
     return rows
 
@@ -155,7 +160,8 @@ def main():
         return
 
     values = [
-        [row["dt"].strftime("%Y-%m-%d %H:%M"), row["body"], row["reply"], row["type"], row["fw"], "", "", ""]
+        [row["dt"].strftime("%Y-%m-%d %H:%M"), row["body"], row["reply"], row["type"], row["fw"],
+         "", "", "", "", row.get("url_reply", ""), ""]
         for row in to_append
     ]
     sheets.values().append(

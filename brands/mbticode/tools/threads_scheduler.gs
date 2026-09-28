@@ -12,21 +12,24 @@
 //   2b. setupGithubToken() - same idea for B3 (see GitHub relay section below).
 //   3. installTriggers() - creates the 08:00 / 12:00 / 16:00 / 19:00 / 22:00 posting
 //      triggers (2026-08-16notekaigi: increased from 3/day to 5/day),
-//      the 10:00 / 14:00 / 18:00 / 21:00 / 00:00 early-performance-check triggers
-//      (2h after each posting slot; see checkEarlyPerformance below),
 //      the daily 23:30 insight-collection / 23:35 observation-log / 23:40
 //      GitHub-sync triggers, the every-10-minutes external-reply-detection /
 //      reply-candidate-sync / delayed-URL-reply-posting triggers (see
 //      postDelayedUrlReplies below), the hourly generated-reply-pull trigger
 //      (2026-08-16notekaigi Phase5 timing revision: detection polls every
 //      10min but the cloud drafting routine can only run hourly at minimum --
-//      see checkEarlyPerformance/detectExternalReplies below and
-//      sns_post_cheatsheet.md「外部リプライ自動応答」for the full reasoning),
-//      the weekly (Mon 07:00) token refresh trigger, and the weekly
-//      (Sun 21:00) GitHub batch-pull trigger.
+//      see detectExternalReplies below and sns_post_cheatsheet.md「外部リプライ
+//      自動応答」for the full reasoning), the weekly (Mon 07:00) token refresh
+//      trigger, and the weekly (Sun 21:00) GitHub batch-pull trigger.
+//      (2026-09-29: the 10:00/14:00/18:00/21:00/00:00 early-performance-check
+//      trigger and checkEarlyPerformance() itself were removed -- the
+//      "反響を見てから動く" reactive URL-CTA feature is discontinued in favor of
+//      always seeding proven-strong リスト型 posts with a URL reply at write
+//      time, see 「型ローテーション比率」in sns_post_cheatsheet.md.)
 //
 // Sheet: a tab named exactly SHEET_NAME, row 1 = header, columns in this order:
-//   投稿日時 | 本文 | リプライ本文 | 型 | FW | ステータス | 投稿ID | リプライ投稿ID
+//   投稿日時 | 本文 | リプライ本文 | 型 | FW | ステータス | 投稿ID | リプライ投稿ID |
+//   リプライ投稿予定日時(未使用の旧列) | URL自己リプライ本文 | URL自己リプライ投稿ID
 // 投稿日時 must be an actual Date/time cell (not plain text) so comparisons work.
 // 型・FW are free-text tags (e.g. "型B", "MBTI(ESFJ)") copied from posts_threads.txt
 // when the row is created; used later to correlate insights with content category.
@@ -34,24 +37,15 @@
 // リプライ本文 containing a URL is NOT posted immediately alongside the main
 // post -- postScheduled() skips it and leaves リプライ投稿ID empty, and
 // postDelayedUrlReplies() (2026-09-19 user request) posts it once the main
-// post is at least URL_REPLY_DELAY_MS old, same "poll every 10min, act once
-// past the threshold" timing as checkEarlyPerformance. Reply text with no URL
-// (続き型 etc.) still posts immediately, as before.
+// post is at least URL_REPLY_DELAY_MS old (poll every 10min, act once past
+// the threshold). Reply text with no URL (続き型 etc.) still posts
+// immediately, as before. The same function also handles 列J（URL自己リプライ
+// 本文, 2026-09-29追加）on the same delay/polling basis, see below.
 //
 // Insight tab: a tab named exactly INSIGHTS_SHEET_NAME, row 1 = header:
 //   投稿ID | 投稿日時 | 型 | FW | Views | Likes | Replies | Reposts | Quotes | 取得日時
 // One row per post, overwritten in place each day collectInsights() runs
 // (a snapshot of "latest known numbers", not a full history timeline).
-//
-// URL auto-reply log tab (2026-08-16notekaigi Phase4): a tab named exactly
-// LOG_SHEET_NAME, row 1 = header:
-//   投稿ID | 投稿日時 | 判定時刻 | Views(判定時) | 基準値 | 倍率 | 判定結果 |
-//   選定記事 | 選定理由 | リプライ本文 | リプライ投稿ID
-// checkEarlyPerformance() writes one row per post it evaluates as a high
-// performer (whether it ends up posting or erroring), and also uses this
-// sheet's history to decide which paid article to rotate to when no keyword
-// matches (see leastRecentlyUsedArticle). Create this tab manually before
-// running installTriggers().
 //
 // External-reply auto-response tab (2026-08-16notekaigi Phase5): a tab named
 // exactly REPLY_QUEUE_SHEET_NAME, row 1 = header:
@@ -80,16 +74,20 @@ const SHEET_NAME = "Threads投稿キュー";
 const SETUP_SHEET_NAME = "設定";
 const INSIGHTS_SHEET_NAME = "インサイト";
 const OBS_SHEET_NAME = "日次観測ログ";
-const LOG_SHEET_NAME = "URL自動投稿ログ";
-const COL = { DATETIME: 1, TEXT: 2, REPLY: 3, TYPE: 4, FW: 5, STATUS: 6, POST_ID: 7, REPLY_POST_ID: 8 };
+const COL = {
+  DATETIME: 1, TEXT: 2, REPLY: 3, TYPE: 4, FW: 5, STATUS: 6, POST_ID: 7, REPLY_POST_ID: 8,
+  // 列I（"リプライ投稿予定日時"）はシート上に見出しだけ残る未使用の旧列（このスクリプトはどこも読み書きしない）。
+  // 列J/K（2026-09-29追加）: リスト型・続き型など、列C（1本目の自己リプライ）が既に
+  // 本文の続き等で使われている投稿向けの、2本目の自己リプライ（URL誘導専用）。
+  // 「反響が伸びやすいと実績のあるリスト型には、判定を待たず最初からURL誘導を仕込む」方針
+  // （旧checkEarlyPerformanceの「反響を見てから動く」方式は2026-09-29に廃止済み。こちらは
+  // その反射的な判定を待たない、計画的な仕込み）。
+  URL_REPLY: 10, URL_REPLY_ID: 11
+};
 const ICOL = { POST_ID: 1, DATETIME: 2, TYPE: 3, FW: 4, VIEWS: 5, LIKES: 6, REPLIES: 7, REPOSTS: 8, QUOTES: 9, FETCHED_AT: 10 };
 const OCOL = {
   DATE: 1, POST_COUNT: 2, VIEWS: 3, LIKES: 4, REPLIES: 5, REPOSTS: 6, QUOTES: 7,
   ENGAGEMENT_RATE: 8, REPLY_RATE: 9, LIKE_RATE: 10, REPOST_RATE: 11, RECORDED_AT: 12
-};
-const LCOL = {
-  POST_ID: 1, POSTED_AT: 2, CHECKED_AT: 3, VIEWS: 4, BASELINE: 5, RATIO: 6,
-  RESULT: 7, ARTICLE: 8, REASON: 9, REPLY_TEXT: 10, REPLY_ID: 11
 };
 const REPLY_QUEUE_SHEET_NAME = "外部リプライキュー";
 const RCOL = {
@@ -98,35 +96,12 @@ const RCOL = {
 };
 const BASE = "https://graph.threads.net/v1.0";
 
-// 反響が伸びた投稿への自動URL自己リプライ（2026-08-16notekaigi Phase4）。
-// 対象は有料記事②③⑤のみ固定（このリプライ機能に限り無料優先ルールの例外とする、
-// ユーザー確認済み）。文言はcta_templates.mdから検品済みのものをそのまま埋め込み、
-// 新規生成はしない（LLM呼び出し・追加課金なしの方針）。
-const BASELINE_WINDOW = 20;   // 直近何件のViewsで基準値を計算するか
-const GROWTH_MULTIPLIER = 3;  // 基準値の何倍で「伸びている」と判定するか
 // 2026-09-21: detectExternalRepliesが「投稿済み全件」を10分おきにスキャンする作りだったため、
 // 投稿が146件に積み上がった時点でurlfetchの1日上限(20,000回)を超えてエラーになった
 // （146件×144回/日=約21,000回。投稿頻度ではなく累積投稿数と10分間隔の掛け算が原因）。
 // 投稿から日数が経つほど新規の外部リプライは実質発生しないため、直近分だけに絞る
 // （3日なら1日5本×3日=15件×144回/日=約2,160回で十分な余裕がある）。
 const EXTERNAL_REPLY_LOOKBACK_DAYS = 3;
-const PAID_ARTICLES = {
-  "2": {
-    url: "https://note.com/mbticode/n/nbbb64cbef664",
-    keywords: ["既読", "既読スルー", "返信が来ない", "送るべき"],
-    text: "相手のMBTI×自分のラブタイプの組み合わせで「送るべき1通」が決まる方程式。8パターンのテンプレ付きでまとめてる。"
-  },
-  "3": {
-    url: "https://note.com/mbticode/n/nc0c199a26841",
-    keywords: ["地雷", "正論", "喧嘩", "言い方", "傷つけ"],
-    text: "正論のつもりで言った一言が、今この関係を静かに壊しているかもしれない。気づいた今が、直せる最後のタイミング。"
-  },
-  "5": {
-    url: "https://note.com/mbticode/n/n88133079ba00",
-    keywords: ["伝わらない", "冷たい", "支える", "尽くし", "繰り返す"],
-    text: "支える才能があるほど、そこから抜け出しにくくなるんですよね。その理由と抜け出し方も、まとめてみた。"
-  }
-};
 
 // GitHub relay (2026-07-26notekaigi Phase3 redesign): the cloud routine's
 // sandbox cannot reach script.google.com (egress policy blocks it, confirmed
@@ -452,10 +427,6 @@ function installTriggers() {
   [8, 12, 16, 19, 22].forEach(function (hour) {
     ScriptApp.newTrigger("postScheduled").timeBased().everyDays(1).atHour(hour).nearMinute(0).create();
   });
-  // 2026-08-16notekaigi Phase4: 各投稿枠の2時間後に伸び率チェックを実行
-  [10, 14, 18, 21, 0].forEach(function (hour) {
-    ScriptApp.newTrigger("checkEarlyPerformance").timeBased().everyDays(1).atHour(hour).nearMinute(0).create();
-  });
   ScriptApp.newTrigger("collectInsights").timeBased().everyDays(1).atHour(23).nearMinute(30).create();
   // 2026-08-16notekaigi Phase5改訂: 外部リプライは10分間隔で検知・同期し、
   // 生成ルーティン（クラウド側、cron最小間隔=1時間の制約）と合わせて
@@ -464,14 +435,15 @@ function installTriggers() {
   ScriptApp.newTrigger("syncReplyCandidatesToGitHub").timeBased().everyMinutes(10).create();
   ScriptApp.newTrigger("pullGeneratedRepliesFromGitHub").timeBased().everyHours(1).create();
   // 2026-09-19ユーザー要望: URLを含む自己リプライは本編投稿の2時間後に送る
-  // （checkEarlyPerformanceと同じ「10分間隔ポーリング」方式。postDelayedUrlReplies参照）
+  // （10分間隔ポーリング方式。postDelayedUrlReplies参照。2026-09-29からリスト型向けの
+  // 2本目の自己リプライ＝列J/Kもこのトリガーに相乗りする）
   ScriptApp.newTrigger("postDelayedUrlReplies").timeBased().everyMinutes(10).create();
   ScriptApp.newTrigger("dailyObservationLog").timeBased().everyDays(1).atHour(23).nearMinute(35).create();
   ScriptApp.newTrigger("syncDataToGitHub").timeBased().everyDays(1).atHour(23).nearMinute(40).create();
   ScriptApp.newTrigger("checkHealth").timeBased().everyDays(1).atHour(23).nearMinute(45).create();
   ScriptApp.newTrigger("refreshToken").timeBased().onWeekDay(ScriptApp.WeekDay.MONDAY).atHour(7).create();
   ScriptApp.newTrigger("pullBatchFromGitHub").timeBased().onWeekDay(ScriptApp.WeekDay.SUNDAY).atHour(21).create();
-  Logger.log("triggers installed: postScheduled 08:00/12:00/16:00/19:00/22:00 daily, checkEarlyPerformance 10:00/14:00/18:00/21:00/00:00 daily, collectInsights 23:30 daily, detectExternalReplies every10min, syncReplyCandidatesToGitHub every10min, postDelayedUrlReplies every10min, pullGeneratedRepliesFromGitHub hourly, dailyObservationLog 23:35 daily, syncDataToGitHub 23:40 daily, checkHealth 23:45 daily, refreshToken Mon 07:00, pullBatchFromGitHub Sun 21:00");
+  Logger.log("triggers installed: postScheduled 08:00/12:00/16:00/19:00/22:00 daily, collectInsights 23:30 daily, detectExternalReplies every10min, syncReplyCandidatesToGitHub every10min, postDelayedUrlReplies every10min, pullGeneratedRepliesFromGitHub hourly, dailyObservationLog 23:35 daily, syncDataToGitHub 23:40 daily, checkHealth 23:45 daily, refreshToken Mon 07:00, pullBatchFromGitHub Sun 21:00");
 }
 
 // Daily (Phase2, 2026-07-26notekaigi): re-aggregates INSIGHTS_SHEET_NAME into
@@ -533,7 +505,11 @@ function dailyObservationLog() {
 //   - token/user id still present in Script Properties
 //   - all expected triggers still installed
 //   - no queue rows sitting unprocessed more than 2h past their scheduled time
-//   - no queue rows with ステータス = エラー
+//   - no queue rows with ステータス = エラー scheduled within the last ERROR_ALERT_WINDOW_DAYS
+//     （2026-09-29追加: 古いエラー行を無期限に毎日再アラートし続けないための窓。
+//     2026-09-19 22:00の投稿がurlfetch日次上限超過で失敗した行が、10日以上経っても
+//     直り続けアラートし続けていたのが発覚した実例あり。行自体は削除せず残す
+//     ＝過去の記録として、あくまでメールを送り続けない範囲だけ絞る）
 // Apps Script also auto-emails the owner if any trigger function throws an
 // uncaught exception, which backstops the case where checkHealth() itself fails.
 function checkHealth() {
@@ -546,7 +522,7 @@ function checkHealth() {
     problems.push("GITHUB_TOKENがScript Propertiesに存在しません（setupGithubToken()を再実行してください）");
   }
 
-  const expectedTriggers = ["postScheduled", "checkEarlyPerformance", "collectInsights", "detectExternalReplies", "postDelayedUrlReplies", "dailyObservationLog", "syncDataToGitHub", "syncReplyCandidatesToGitHub", "checkHealth", "pullGeneratedRepliesFromGitHub", "refreshToken", "pullBatchFromGitHub"];
+  const expectedTriggers = ["postScheduled", "collectInsights", "detectExternalReplies", "postDelayedUrlReplies", "dailyObservationLog", "syncDataToGitHub", "syncReplyCandidatesToGitHub", "checkHealth", "pullGeneratedRepliesFromGitHub", "refreshToken", "pullBatchFromGitHub"];
   const installed = ScriptApp.getProjectTriggers().map(function (t) { return t.getHandlerFunction(); });
   expectedTriggers.forEach(function (fn) {
     if (installed.indexOf(fn) === -1) problems.push("トリガー未設定: " + fn + "（installTriggers()を再実行してください）");
@@ -554,9 +530,6 @@ function checkHealth() {
 
   if (!SpreadsheetApp.getActiveSpreadsheet().getSheetByName(OBS_SHEET_NAME)) {
     problems.push('シート "' + OBS_SHEET_NAME + '" が見つかりません（dailyObservationLog用・作成してください）');
-  }
-  if (!SpreadsheetApp.getActiveSpreadsheet().getSheetByName(LOG_SHEET_NAME)) {
-    problems.push('シート "' + LOG_SHEET_NAME + '" が見つかりません（checkEarlyPerformance用・作成してください）');
   }
   if (!SpreadsheetApp.getActiveSpreadsheet().getSheetByName(REPLY_QUEUE_SHEET_NAME)) {
     problems.push('シート "' + REPLY_QUEUE_SHEET_NAME + '" が見つかりません（detectExternalReplies用・作成してください）');
@@ -569,17 +542,26 @@ function checkHealth() {
     const data = sheet.getDataRange().getValues();
     const now = new Date();
     const graceMs = 2 * 60 * 60 * 1000; // 2 hours
-    let stuck = 0, errors = 0;
+    const ERROR_ALERT_WINDOW_DAYS = 3;
+    const errorWindowMs = ERROR_ALERT_WINDOW_DAYS * 24 * 60 * 60 * 1000;
+    let stuck = 0;
+    const recentErrors = [];
     for (let r = 1; r < data.length; r++) {
       const row = data[r];
       const scheduledAt = row[COL.DATETIME - 1];
       const status = row[COL.STATUS - 1];
-      if (status === "エラー") errors++;
+      if (status === "エラー" && scheduledAt instanceof Date && (now - scheduledAt) <= errorWindowMs) {
+        const when = Utilities.formatDate(scheduledAt, Session.getScriptTimeZone(), "yyyy-MM-dd HH:mm");
+        recentErrors.push(when + "：" + String(row[COL.POST_ID - 1] || "").slice(0, 150));
+      }
       if (!(scheduledAt instanceof Date)) continue;
       if (status !== "投稿済み" && status !== "エラー" && (now - scheduledAt) > graceMs) stuck++;
     }
     if (stuck > 0) problems.push("投稿予定時刻を2時間以上過ぎても未処理の行が" + stuck + "件あります");
-    if (errors > 0) problems.push("ステータスが「エラー」の行が" + errors + "件あります（投稿ID列にエラー内容が入っています）");
+    if (recentErrors.length > 0) {
+      problems.push("ステータスが「エラー」の行が直近" + ERROR_ALERT_WINDOW_DAYS + "日以内に"
+        + recentErrors.length + "件あります:\n  - " + recentErrors.join("\n  - "));
+    }
   }
 
   if (problems.length > 0) {
@@ -633,10 +615,10 @@ function postScheduled() {
 // Fires every 10 minutes (installTriggers). Posts any リプライ本文 that
 // postScheduled() skipped because it contained a URL, once the main post is
 // at least this old (2026-09-19 user request: URL self-replies should land
-// ~2h after the main post, not seconds after it, matching the timing
-// checkEarlyPerformance already uses for the growth-triggered auto CTA).
-// Actual send time is 2h00m-2h10m after the main post depending on where in
-// the polling cycle it falls, same tolerance as checkEarlyPerformance.
+// ~2h after the main post, not seconds after it). Also handles 列J（URL自己
+// リプライ本文, 2026-09-29追加）on the same delay. Actual send time is
+// 2h00m-2h10m after the main post depending on where in the polling cycle it
+// falls.
 const URL_REPLY_DELAY_MS = 2 * 60 * 60 * 1000;
 
 function postDelayedUrlReplies() {
@@ -667,6 +649,33 @@ function postDelayedUrlReplies() {
     } catch (e) {
       sheet.getRange(r + 1, COL.REPLY_POST_ID).setValue("エラー:" + String(e.message).slice(0, 200));
       Logger.log("postDelayedUrlReplies: failed for " + mainId + ": " + e.message);
+    }
+  }
+
+  // 2本目の自己リプライ（URL誘導専用・列J/K・2026-09-29追加）。
+  // 列C（1本目の自己リプライ）が続き型の本文分割などで既に使われている投稿でも、
+  // 判定を待たず計画的にURL誘導を仕込めるようにする（リスト型向けの実績ベースの
+  // 先回り版。反響を見てから動く旧checkEarlyPerformanceは2026-09-29に廃止済み）。
+  // 1本目があればその返信（REPLY_POST_ID）に、なければ本編（mainId）にぶら下げる。
+  for (let r = 1; r < data.length; r++) {
+    const row = data[r];
+    if (row[COL.STATUS - 1] !== "投稿済み") continue;
+    const urlReplyText = row[COL.URL_REPLY - 1];
+    if (!urlReplyText) continue;
+    if (row[COL.URL_REPLY_ID - 1]) continue; // already sent (or already flagged as errored)
+    const postedAt = row[COL.DATETIME - 1];
+    const mainId = row[COL.POST_ID - 1];
+    if (!(postedAt instanceof Date) || !mainId) continue;
+    if (now - postedAt < URL_REPLY_DELAY_MS) continue;
+
+    const replyToId = row[COL.REPLY_POST_ID - 1] || mainId;
+    try {
+      const urlReplyId = publishText(token, userId, urlReplyText, replyToId);
+      sheet.getRange(r + 1, COL.URL_REPLY_ID).setValue(urlReplyId);
+      Logger.log("postDelayedUrlReplies: posted 2nd(URL) reply for " + mainId);
+    } catch (e) {
+      sheet.getRange(r + 1, COL.URL_REPLY_ID).setValue("エラー:" + String(e.message).slice(0, 200));
+      Logger.log("postDelayedUrlReplies: 2nd(URL) reply failed for " + mainId + ": " + e.message);
     }
   }
 }
@@ -790,150 +799,6 @@ function fetchInsights(mediaId, token) {
     else if (m.values && m.values.length) out[m.name] = m.values[m.values.length - 1].value;
   });
   return out;
-}
-
-// Fires 2h after each posting slot (10:00/14:00/18:00/21:00/00:00, see
-// installTriggers). For each post published 1-3h ago that hasn't been
-// evaluated yet (no row in LOG_SHEET_NAME) and doesn't already carry a
-// self-reply, fetches fresh Views and compares against the trailing
-// BASELINE_WINDOW average from INSIGHTS_SHEET_NAME. Posts at or above
-// GROWTH_MULTIPLIER get an automatic URL self-reply pointing at a paid
-// article (see PAID_ARTICLES) — always paid, per 2026-08-16notekaigi
-// (an intentional exception to the "無料記事優先" rule that applies to the
-// weekly manual CTA slot; this feature only fires on posts already proven
-// to be resonating, which is treated as the moment worth spending a paid
-// CTA on). Every evaluated post gets one row in LOG_SHEET_NAME regardless
-// of whether it posted, errored, or (implicitly, by not appearing at all)
-// never crossed the threshold in the first place.
-function checkEarlyPerformance() {
-  const props = PropertiesService.getScriptProperties();
-  const token = props.getProperty("THREADS_ACCESS_TOKEN");
-  const userId = props.getProperty("THREADS_USER_ID");
-  if (!token || !userId) { Logger.log("checkEarlyPerformance: setup() not run"); return; }
-
-  const queueSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(SHEET_NAME);
-  const insightSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(INSIGHTS_SHEET_NAME);
-  const logSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName(LOG_SHEET_NAME);
-  if (!queueSheet) { Logger.log('ERROR: sheet "' + SHEET_NAME + '" not found.'); return; }
-  if (!logSheet) { Logger.log('ERROR: sheet "' + LOG_SHEET_NAME + '" not found. Create it first.'); return; }
-
-  const now = new Date();
-  const windowStart = new Date(now.getTime() - 3 * 60 * 60 * 1000);
-  const windowEnd = new Date(now.getTime() - 1 * 60 * 60 * 1000);
-
-  const alreadyLogged = {};
-  const logData = logSheet.getDataRange().getValues();
-  for (let r = 1; r < logData.length; r++) {
-    const id = logData[r][LCOL.POST_ID - 1];
-    if (id) alreadyLogged[id] = true;
-  }
-
-  const baseline = computeBaselineViews(insightSheet);
-  const queueData = queueSheet.getDataRange().getValues();
-
-  for (let r = 1; r < queueData.length; r++) {
-    const row = queueData[r];
-    if (row[COL.STATUS - 1] !== "投稿済み") continue;
-    const postedAt = row[COL.DATETIME - 1];
-    if (!(postedAt instanceof Date)) continue;
-    if (postedAt < windowStart || postedAt > windowEnd) continue;
-    const postId = row[COL.POST_ID - 1];
-    if (!postId || alreadyLogged[postId]) continue;
-    if (row[COL.REPLY - 1]) continue; // 続き型・URL事後型など既にリプライが設計済みの投稿は対象外
-
-    let metrics;
-    try {
-      metrics = fetchInsights(postId, token);
-    } catch (e) {
-      Logger.log("checkEarlyPerformance: insight fetch failed for " + postId + ": " + e.message);
-      continue;
-    }
-    const views = metrics.views || 0;
-    const ratio = baseline > 0 ? views / baseline : 0;
-    if (baseline <= 0 || ratio < GROWTH_MULTIPLIER) continue; // 伸びていない投稿は記録しない
-
-    const body = String(row[COL.TEXT - 1] || "");
-    const pick = selectPaidArticle(body, logSheet);
-    const article = PAID_ARTICLES[pick.article];
-    const ctaText = article.text + "\n→ " + article.url;
-
-    let replyId = "";
-    let result = "投稿";
-    try {
-      replyId = publishText(token, userId, ctaText, postId);
-    } catch (e) {
-      result = "エラー:" + String(e.message).slice(0, 100);
-      Logger.log("checkEarlyPerformance: reply post failed for " + postId + ": " + e.message);
-    }
-
-    const targetRow = logSheet.getLastRow() + 1;
-    logSheet.getRange(targetRow, LCOL.POST_ID).setValue(postId);
-    logSheet.getRange(targetRow, LCOL.POSTED_AT).setValue(postedAt);
-    logSheet.getRange(targetRow, LCOL.CHECKED_AT).setValue(now);
-    logSheet.getRange(targetRow, LCOL.VIEWS).setValue(views);
-    logSheet.getRange(targetRow, LCOL.BASELINE).setValue(Math.round(baseline * 10) / 10);
-    logSheet.getRange(targetRow, LCOL.RATIO).setValue(Math.round(ratio * 100) / 100);
-    logSheet.getRange(targetRow, LCOL.RESULT).setValue(result);
-    logSheet.getRange(targetRow, LCOL.ARTICLE).setValue("記事" + pick.article);
-    logSheet.getRange(targetRow, LCOL.REASON).setValue(pick.reason);
-    logSheet.getRange(targetRow, LCOL.REPLY_TEXT).setValue(ctaText);
-    logSheet.getRange(targetRow, LCOL.REPLY_ID).setValue(replyId);
-
-    Logger.log("checkEarlyPerformance: " + postId + " views=" + views + " ratio=" + ratio.toFixed(2) + " -> " + result + " (記事" + pick.article + ", " + pick.reason + ")");
-  }
-}
-
-// Average Views of the most recent BASELINE_WINDOW rows already recorded in
-// INSIGHTS_SHEET_NAME (sheet order ~= chronological posting order, since
-// collectInsights upserts by postId). Returns 0 if there's no history yet
-// (checkEarlyPerformance treats 0 as "can't judge, skip").
-function computeBaselineViews(insightSheet) {
-  if (!insightSheet) return 0;
-  const data = insightSheet.getDataRange().getValues();
-  const views = [];
-  for (let r = 1; r < data.length; r++) {
-    if (!data[r][ICOL.POST_ID - 1]) continue;
-    views.push(Number(data[r][ICOL.VIEWS - 1]) || 0);
-  }
-  const recent = views.slice(-BASELINE_WINDOW);
-  if (recent.length === 0) return 0;
-  return recent.reduce(function (a, b) { return a + b; }, 0) / recent.length;
-}
-
-// Picks which paid article (2/3/5) to reply with. Exactly one keyword hit ->
-// use that article (thematic fit). Zero or multiple hits -> fall back to
-// whichever paid article has gone longest without an auto-reply, so exposure
-// never concentrates on one article by keyword-list accident.
-function selectPaidArticle(body, logSheet) {
-  const matched = Object.keys(PAID_ARTICLES).filter(function (key) {
-    return PAID_ARTICLES[key].keywords.some(function (kw) { return body.indexOf(kw) !== -1; });
-  });
-  if (matched.length === 1) return { article: matched[0], reason: "キーワード一致" };
-  return {
-    article: leastRecentlyUsedArticle(logSheet),
-    reason: matched.length > 1 ? "複数記事に一致のためローテーション" : "キーワード一致なしのためローテーション"
-  };
-}
-
-function leastRecentlyUsedArticle(logSheet) {
-  const lastUsed = { "2": null, "3": null, "5": null };
-  const data = logSheet.getDataRange().getValues();
-  for (let r = 1; r < data.length; r++) {
-    const article = String(data[r][LCOL.ARTICLE - 1] || "").replace("記事", "");
-    const checkedAt = data[r][LCOL.CHECKED_AT - 1];
-    if (lastUsed.hasOwnProperty(article) && checkedAt instanceof Date) {
-      if (!lastUsed[article] || checkedAt > lastUsed[article]) lastUsed[article] = checkedAt;
-    }
-  }
-  const keys = Object.keys(lastUsed);
-  keys.sort(function (a, b) {
-    const da = lastUsed[a], db = lastUsed[b];
-    if (!da && !db) return 0;
-    if (!da) return -1;
-    if (!db) return 1;
-    return da - db;
-  });
-  return keys[0];
 }
 
 // Every 10 minutes: scans 投稿済み posts from the last EXTERNAL_REPLY_LOOKBACK_DAYS

@@ -9,7 +9,12 @@ Usage:
 Parses `posts/posts_threads.txt` blocks whose header date is on/after <since>,
 strips the `自己リプライ（…）：` annotation prefix (that line is a file note, not
 part of the posted text), keeps `→ URL` lines in the reply, and writes columns
-  投稿日時,本文,リプライ本文,型,FW
+  投稿日時,本文,リプライ本文,型,FW,URL自己リプライ
+A block may additionally contain a `自己リプライ2（…）：` line (2026-09-29追加) —
+a second, URL-only self-reply for posts whose main self-reply slot is already
+used for something else (e.g. リスト型・続き型の本文の続き). When present, that
+line and everything after it (until the next header) becomes the 6th column;
+everything before it stays the 3rd column (リプライ本文) as before.
 Then:  python tools/push_threads_queue.py <that csv>
 
 Replaces the ~40-line bespoke parser that used to be written inline for every batch.
@@ -30,6 +35,8 @@ POSTS_FILE = TOOLS_DIR.parent / "posts" / "posts_threads.txt"
 HEAD_RE = re.compile(r"^【(\d{1,2})/(\d{1,2})\s+(\d{1,2}):(\d{2})】(.*)$")
 SEP_RE = re.compile(r"^-{10,}\s*$")
 REPLY_PREFIX_RE = re.compile(r"^自己リプライ[^：]*：\s*")
+REPLY2_MARKER_RE = re.compile(r"^自己リプライ2[^：]*：")
+REPLY2_PREFIX_RE = re.compile(r"^自己リプライ2[^：]*：\s*")
 
 
 def parse_since(s):
@@ -89,13 +96,25 @@ def main():
             reply_lines.append(lines[r])
             r += 1
         body_txt = "\n".join(body).strip()
-        reply_txt = "\n".join(reply_lines).strip()
+
+        # 「自己リプライ2（…）：」があれば、そこで1本目/2本目（URL誘導専用）に分割する
+        # （2026-09-29追加。リスト型・続き型など1本目のリプライ枠が本文の続きで
+        # 既に埋まっている投稿向け）
+        split_idx = next((idx for idx, ln in enumerate(reply_lines)
+                           if REPLY2_MARKER_RE.match(ln.strip())), None)
+        if split_idx is not None:
+            reply_txt = "\n".join(reply_lines[:split_idx]).strip()
+            url_reply_txt = "\n".join(reply_lines[split_idx:]).strip()
+            url_reply_txt = REPLY2_PREFIX_RE.sub("", url_reply_txt, count=1).strip()
+        else:
+            reply_txt = "\n".join(reply_lines).strip()
+            url_reply_txt = ""
         reply_txt = REPLY_PREFIX_RE.sub("", reply_txt, count=1).strip()
 
         keep = (mo, da) >= (since_m, since_d) or (since_m - mo) > 6
         if keep:
             rows.append({"dt": dt, "body": body_txt, "reply": reply_txt,
-                         "type": typ.strip(), "fw": fw.strip()})
+                         "type": typ.strip(), "fw": fw.strip(), "url_reply": url_reply_txt})
         i = r
 
     if not rows:
@@ -104,16 +123,17 @@ def main():
 
     with open(args.out, "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["投稿日時", "本文", "リプライ本文", "型", "FW"])
+        w.writerow(["投稿日時", "本文", "リプライ本文", "型", "FW", "URL自己リプライ"])
         for r in rows:
-            w.writerow([r["dt"], r["body"], r["reply"], r["type"], r["fw"]])
+            w.writerow([r["dt"], r["body"], r["reply"], r["type"], r["fw"], r.get("url_reply", "")])
 
     empties = [r["dt"] for r in rows
               if not r["body"] or ("続き型" in r["type"] or "URL事後型" in r["type"] or "リスト型" in r["type"]) and not r["reply"]]
     print(f"[OK] {len(rows)} 行 → {args.out}")
     for r in rows:
         mark = " (本文/リプライ欠落?)" if r["dt"] in empties else ""
-        print(f"  {r['dt']}  {r['type']}／{r['fw']}  reply={len(r['reply'])}字{mark}")
+        url_reply_note = f" +URL自己リプライ{len(r['url_reply'])}字" if r.get("url_reply") else ""
+        print(f"  {r['dt']}  {r['type']}／{r['fw']}  reply={len(r['reply'])}字{url_reply_note}{mark}")
     if empties:
         print(f"\n[WARN] {len(empties)} 行で本文またはリプライが空です。確認してください。")
     print(f"\n次: python tools/push_threads_queue.py {args.out}")
