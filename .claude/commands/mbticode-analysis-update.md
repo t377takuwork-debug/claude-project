@@ -1,4 +1,4 @@
-# /mbticode-analysis-update — 分析の基準（採点表）を最新の状態に更新する（指示があったときだけ実行）
+# /mbticode-analysis-update — MBTICODEの分析の基準（採点表）を最新のアルゴリズム・伸ばし方の情報で更新する（「分析の基準を更新して」「アルゴリズムを調べ直して」と言われたときだけ使う）
 
 SNS（X・Threads）のアルゴリズムや、伸ばし方の情報は変わる。`brands/mbticode/analysis/rubric.md`（診断役 `mbticode-analyst` が毎回読む唯一の基準）を、調査した最新の情報で更新する。**採点表を更新すれば、診断役も最新になる**（診断役自体は変えない）。
 

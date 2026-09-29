@@ -104,3 +104,5 @@ claude project/
 | ASP記事設計 | `/asp-kaigi` スキルを起動 |
 | 戦略・方針判断 | `/notekaigi` スキルを起動 |
 | 音声ジャーナル処理（文字起こし→資産化） | `/journal` スキルを起動 |
+| MBTICODE 投稿のネタ・テーマのリサーチ（「ネタをリサーチして」「投稿のネタを収集して」） | `/mbticode-neta` スキルを起動（「リサーチして」だけのときはアカウントを1行で確認） |
+| MBTICODE 投稿の分析（「MBTICODEの投稿を分析して」） | `/mbticode-analysis` スキルを起動 |
