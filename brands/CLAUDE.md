@@ -86,6 +86,6 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 |---|---|
 | `brands/tools/qa_post.py` | SNS投稿の機械検品（ERROR 0件が保存条件）。`python brands/tools/qa_post.py <postsファイル>` |
 | `brands/tools/qa_article.py` | Note記事の機械検品（ERROR 0件が保存条件）。有料記事は `--paid` |
-| `mbticode/examples_sns.md` | MBTICODE投稿のGood/Bad見本（生成前に読む） |
+| `mbticode/examples_sns.md` | MBTICODE投稿のGood/Bad見本（旧文体のため、文体の再構築が終わるまで生成時は読まない。2026-09-30） |
 | `s4lv/examples_x_posts.md` | s4lv X投稿のGood/Bad見本（生成前に読む） |
 | `docs/rubrics/title_scoring.md` | タイトル配点表（採点してから提示・点数捏造禁止） |

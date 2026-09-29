@@ -22,7 +22,7 @@
 
 - MBTI・DSKB・ラブタイプの内容は `brands/mbticode/reference/` のデータのみ使用（架空のタイプ論・自作の相性データは捏造にあたる）
 - Threads投稿はX投稿の転用ではない。文体・構成は `brands/mbticode/sns_post_cheatsheet.md`（Threads専用ルール・別角度カタログ）と `brands/mbticode/rules/project_mbticode_threads_strategy_0614.md`（X投稿と角度を変える・週1リスト型・自己リプライ即コンテンツ化）に従う
-- 投稿本数の現行値: X本文は1日3本、Threads本文は1日5本。**最新値は `brands/mbticode/sns_post_cheatsheet.md` の基本設定が唯一の正**（決定経緯: `rules/project_mbticode_x_strategy_0609.md`）
+- 投稿本数と時間帯の現行値は `brands/mbticode/sns_post_cheatsheet.md` の基本設定が唯一の正（決定経緯: `rules/project_mbticode_x_strategy_0609.md`）
 
 ## 出力見本
 

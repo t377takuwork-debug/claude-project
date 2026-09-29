@@ -234,7 +234,7 @@ OPENING_BANNED_RE = re.compile(r"(人|ひと|方)(が|も|は)?(いる|います
 SURVEY_QUESTION_RE = re.compile(r"(あなた(は|が|の)|どっち|どちら|いくつ|何個|どれくらい).{0,30}(ですか|でしたか|ますか|ましたか)？|(どっち|どちら)(ですか|でしたか)？")
 
 
-def check_mbticode_style_new(label, text, where=""):
+def check_mbticode_style_new(label, text, where="", opening=True):
     f = []
     suffix = f"（{where}）" if where else ""
     body = text.strip()
@@ -268,7 +268,7 @@ def check_mbticode_style_new(label, text, where=""):
     # 冒頭の禁止形（2026-09-30 オーナー決定）：1行目を「〜な人がいる／〜ことがある／〜ありませんか」で書かない。
     # 自分の過去172本で、この形の1行目は上位20%に入る割合が13%（それ以外27%）だった。
     # 場面（〜のとき）＋何が分かるか、を1行目に置く。
-    if lines and OPENING_BANNED_RE.search(lines[0]):
+    if opening and lines and OPENING_BANNED_RE.search(lines[0]):
         f.append(Finding("ERROR", label, "opening-observer",
                          f"1行目が禁止形（〜人がいる／〜ことがある／〜ありませんか 等）：「{lines[0][:30]}」"
                          f"→ 場面（〜のとき）＋何の話かが一目で分かる1行目に（style_0930.md 2.5）{suffix}"))
@@ -286,6 +286,7 @@ def check_mbticode_post(post, platform):
             check_regex(f, post, "ERROR", code, pat, msg)
         for code, pat, msg in CONTENT_POLICY_ERRORS:
             check_regex(f, post, "ERROR", code, pat, msg)
+        f.extend(check_mbticode_style_new(post["label"], body, "リプライ", opening=False))  # 2026-09-30：読点・問いのルールをリプライにも適用
         if INDIVIDUAL_MENTION_RE.search(body):
             f.append(Finding("WARN", post["label"], "individual-mention",
                              "@メンションあり・特定個人を傷つける表現になっていないか要確認（brands/CLAUDE.md絶対遵守ルール3）"))

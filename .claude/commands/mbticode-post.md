@@ -10,7 +10,8 @@ MBTICODE（@MBTICODE）のX・Threads投稿を生成する。
 
 1. `brands/mbticode/personal_data.md` — 実体験データ・開示ルール・コンテンツ変換ルール
 2. `brands/mbticode/persona_core.md` — ペルソナ定義（行動トリガー／課金感情状態／期待値）
-3. `brands/mbticode/sns_post_cheatsheet.md` — 生成ワークフロー・内容の正確性チェック・X/Threads専用ルール一式（唯一の正）
+3. `brands/mbticode/rules/style_0930.md` — 文体ルール（暫定版・問いかけ／読点／現実にありえる場面／1行目）。**生成の前に必ず読む**
+3-2. `brands/mbticode/sns_post_cheatsheet.md` — 生成ワークフロー・内容の正確性チェック・X/Threads専用ルール一式（唯一の正）
    - Threadsは**スプレッドシートが正**（`posts_threads.txt` には追記しない。一時ファイルで検品してからシートへ投入する）
    - タイプの話をする投稿は、ワークフロー Step 1 に従い、書く前に `reference/` の該当資料を必ず読む
 
