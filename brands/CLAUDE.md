@@ -75,6 +75,7 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 | `/asp-theme` | ASP案件・記事テーマ戦略 | ASPのテーマ選定時 |
 | `/buzz-analysis` | バズ投稿の固定フレームワーク分析（型・発話モード・ブクマ動機） | ユーザーがバズ投稿を手動収集して渡したとき |
 | `/mbticode-analysis` | MBTICODEのThreads（必要ならX）投稿の分析。スプレッドシートの数字から表を作り、独立した分析役（`mbticode-analyst`）が診断。基準は `mbticode/analysis/rubric.md`、結果は `mbticode/analysis/log.md` | ユーザーが「分析して」と指示したときのみ（定期実行しない） |
+| `/mbticode-analysis-update` | 分析の基準（`mbticode/analysis/rubric.md`）を、最新のアルゴリズム・伸ばし方の情報で更新する。一次情報を優先して調べ、確度つきの差分をユーザーが承認した分だけ反映 | ユーザーが「更新して」と指示したときのみ（四半期に1回が目安） |
 | `/kpi-weekly` | 週次KPIの記録＋前週比3点コメント（`mbticode/kpi_log.md` へ蓄積） | 週次の数値を渡されたとき |
 | `/s4lv-research` | s4lv外部リサーチ（他アカウントの反響・AI/note/X関連ニュースから台帳「柱3：意見・考え」のネタを発掘。観察対象アカウント・手順は `brands/s4lv/x_neta_daicho.md` 参照） | ユーザーが「リサーチして」と明示的に指示したときのみ（自動実行しない） |
 
