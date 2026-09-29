@@ -62,6 +62,7 @@
 - **Threads**：`python brands/mbticode/tools/threads_txt_to_csv.py <バッチ開始日> --src brands/mbticode/posts/_batch_MMDD.txt` でCSVを作り、`python brands/mbticode/tools/push_threads_queue.py <csv>` でシートへ投入する（過去時刻・重複は自動スキップ）。手作業のパース・シートの手編集は禁止。
 - **X**：`posts_x.txt` に対象分を末尾追記する。7日より古い分は `posts/archive/` へ移す。
 - CTA（URL誘導）が要る投稿は `posts/cta_templates.md` の使い方に従って選び、本文とセットで書く。
+- **すでにシートにある未投稿の行を、新しいバッチで差し替えるとき**は、`python brands/mbticode/tools/replace_queue_rows.py <一時ファイル>`（まず確認表示だけ）→ 承認後に `--apply`。旧内容のバックアップ・投稿済みの行の保護・古い自己リプライ(C)とURL返信(J)の消去・書き込み後の検証を行う。**`update_threads_queue_body.py` は、古い自己リプライとURL返信が残るので、バッチの差し替えには使わない**
 - 投入が成功したら、一時ファイルは削除してよい（正はシート）。
 
 **Step 5. シートで確認する**
