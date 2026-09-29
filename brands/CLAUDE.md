@@ -37,7 +37,7 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 | s4lv X・Threads投稿バッチ生成 | **`/s4lv-post` スキルを起動**（参照順序・QA・sns-ai-reviewer審査を保証）。定型バッチの参照起点は `s4lv/sns_post_cheatsheet.md`（運用ナビ＋高頻度ルール凝縮版・大型ルール5本の全文Readを代替） |
 | s4lv Note記事・その他作業 | `s4lv/rules/project_s4lv_accounts.md` → `s4lv/rules/project_s4lv_operation_system.md`（Note記事プロセスは `s4lv/rules/project_s4lv_note_article_process.md`） |
 
-`mbticode/mbticode_tasks.md` は全MBTICODE作業で参照する。
+`mbticode/mbticode_tasks.md`（Note記事などの中長期タスクの棚卸し）は、Note記事・戦略の作業のときだけ参照する。SNS投稿の生成では読まない。
 
 ### 全アカウント共通リソース
 

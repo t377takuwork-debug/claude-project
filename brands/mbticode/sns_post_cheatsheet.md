@@ -55,22 +55,22 @@
 
 **Step 3. 生成して検品する（チャット出力は最小限）**
 - バッチを**一時ファイル** `posts/_batch_MMDD.txt` に書く（形式は「▼ 投稿ファイルの書き方」）。
-- `python brands/tools/qa_post.py brands/mbticode/posts/_batch_MMDD.txt --account mbticode --platform threads` で **ERROR 0件・exit=0**（Xは `--platform x`）。
+- **Threads**：`python brands/mbticode/tools/publish_batch.py brands/mbticode/posts/_batch_MMDD.txt`（確認のみ。検品＋シートとの突き合わせ）で **ERROR 0件**にする。**X**：`python brands/tools/qa_post.py <ファイル> --account mbticode --platform x`。
 - 文体系の検品は暫定版のためWARN扱い（`qa_post.py` の `comma-multi`／`comma-density`／`reality-feature`／`question-survey` は `style_0930.md` の1〜4に対応）。**WARNは削除・自己判断で潰さず、報告に全文転記する**（人間が判断する）。
 - **「自分のネタ」（外部の元ネタを参考にしたネタ）から作った投稿は、保存・投入の前に類似チェックを行う**（型を再現せず「反響を生む要素」を取り入れる。型・テーマ・タイプのうち元ネタと一致するのは最大1つ）：元ネタの核と自分の核を1行ずつ書いて着想の近さを判定（中は書き直す・高は使わない）＋`python brands/tools/check_similarity.py <一時ファイル> --sources <元ネタの本文の一時ファイル>`（10字以上はWARN・20字以上はERROR）。詳しくは `/mbticode-neta` の「類似チェック」
-- **現実チェック（別の確認役）**：バッチごとに1回、別の確認役（Agent）に本文を渡し、具体的な描写（アプリ機能・場所・時間・習慣）を書き出して「誰でも体験する／アプリで違う／不確か」に仕分けさせる。「不確か」は一般的な動作に書き直す（`style_0930.md` 4）。
+- **別の確認役（バッチごとに1回）**：確認役 `mbticode-post-reviewer` に下書きのパスを渡す。現実にありえない描写（アプリの機能・場所・時間・習慣）と、1行目の分かりやすさ・分かりにくい文・言い回しの偏りを返してくれる。指摘は、事例の一部にしか当てはまらない結びの文や、実在しない機能を優先して直す（`style_0930.md` 4）。（確認役は会話を開き直すと呼べる。見つからないときは、`.claude/agents/mbticode-post-reviewer.md` を読ませた汎用の確認役に同じ指示を渡す）
 - 問題がある場合のみチャットで報告する（同じ指摘への修正は2回まで）。
 - 確定前の壁打ちが必要な場合（新しい型の試験など）は `/post-review` を通す。
 
 **Step 4. 保存**
-- **Threads**：`python brands/mbticode/tools/threads_txt_to_csv.py <バッチ開始日> --src brands/mbticode/posts/_batch_MMDD.txt` でCSVを作り、`python brands/mbticode/tools/push_threads_queue.py <csv>` でシートへ投入する（過去時刻・重複は自動スキップ）。手作業のパース・シートの手編集は禁止。
+- **Threads**：`python brands/mbticode/tools/publish_batch.py <一時ファイル> --apply`（検品 → CSV変換 → 投入〈過去時刻・重複は自動スキップ〉→ 読み戻し照合まで一括）。手作業のパース・シートの手編集は禁止。
 - **X**：`posts_x.txt` に対象分を末尾追記する。7日より古い分は `posts/archive/` へ移す。
 - CTA（URL誘導）が要る投稿は `posts/cta_templates.md` の使い方に従って選び、本文とセットで書く。
 - **すでにシートにある未投稿の行を、新しいバッチで差し替えるとき**は、`python brands/mbticode/tools/replace_queue_rows.py <一時ファイル>`（まず確認表示だけ）→ 承認後に `--apply`。旧内容のバックアップ・投稿済みの行の保護・古い自己リプライ(C)とURL返信(J)の消去・書き込み後の検証を行う。**`update_threads_queue_body.py` は、古い自己リプライとURL返信が残るので、バッチの差し替えには使わない**
 - 投入が成功したら、一時ファイルは削除してよい（正はシート）。
 
 **Step 5. シートで確認する**
-- `python brands/mbticode/tools/show_queue_recent.py --days 0` で、今回入れた行がキューに並んでいることを確認する。
+- 読み戻し照合は `publish_batch.py --apply` が行う（「一致 N/N」が出れば完了）。並びを目で見たいときだけ `python brands/mbticode/tools/show_queue_recent.py --days 0`。
 - `python brands/mbticode/tools/check_queue_coverage.py` でキューの残り日数を確認する。
 - 週次クラウドルーティン産のバッチは `_pending_batch.json` → `apply_pending_batch.py` 経由（手順は同スクリプトのdocstring参照）。
 

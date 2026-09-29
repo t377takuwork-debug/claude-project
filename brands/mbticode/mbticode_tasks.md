@@ -1,9 +1,9 @@
 # mbticode_tasks.md — MBTICODE タスク・進捗管理
 
-最終更新：2026-08-28
+最終更新：2026-09-30（SNS運用の記述を再構築後の体系に合わせて修正）
 
 > **このファイルは中長期タスクの棚卸し専用。** 投稿の本数・時間帯・FW比率・型・生成手順・チェックリストの
-> 現行値は `mbticode/sns_post_cheatsheet.md`、直近の運用調整・実測は `mbticode/threads_insights_notes.md`
+> 現行値は `mbticode/sns_post_cheatsheet.md`、分析の結果は `mbticode/analysis/log.md`・`analysis/patterns.md`
 > が唯一の正。ここに運用数値を転記しない（食い違いの元になる）。
 
 ---
@@ -19,10 +19,9 @@
 ### 優先度：高（継続実行）
 
 - [ ] **#1 SNS投稿を運用継続する**
-  - 本数・時間帯・FW比率・型ローテーションの現行値 → `mbticode/sns_post_cheatsheet.md`「週次投稿構成」「基本設定」が唯一の正
-  - 運用中の調整・時間帯検証の経緯 → `mbticode/threads_insights_notes.md` の週次分析エントリに集約
+  - 本数・時間帯の現行値 → `mbticode/sns_post_cheatsheet.md`「基本設定」が唯一の正
+  - 分析の結果 → `mbticode/analysis/log.md`（分析は `/mbticode-analysis`、ネタ収集は `/mbticode-neta`。どちらもオーナーが指示したときだけ実施）
   - データ収集は手動（ユーザーが`kpi_weekly_template.md`記入 or スクショ共有→Claude分析）。ブラウザ自動取得はX/Threadsで技術的に機能せず見送り確定
-  - 週次分析の集計は `python tools/threads_analyze.py`（前回分析以降を自動集計）。解釈は`threads_insights_notes.md`へ手書き。実施要否は`python tools/check_analysis_due.py`
   - 決定に至った経緯（3回の壁打ち）は`memory/project_mbticode_x_strategy_0609.md`参照
 
 ### 優先度：中（Phase 1・継続実行）
@@ -32,7 +31,7 @@
   - フォロワー100人達成まで継続
   - 参考スキル：`/note-article mbticode [テーマ]`
   - 公開済み記事との重複確認 → `mbticode/articles/article_index.md`
-  - **テーマ優先順位（2026-06-09 notekaigi確定）→ 2026-09-17廃止**：①②は公開済み（⑦⑧として反映）。③④⑤は使わない。今後のテーマ選定はGrok調査（`mbticode/tools/grok_harvest_note_theme_prompt.md`）または`threads_insights_notes.md`の実測データから直接提案する運用に切り替えた（`project_mbticode_article_themes.md`も同時に廃止扱い）
+  - **テーマ優先順位（2026-06-09 notekaigi確定）→ 2026-09-17廃止**：①②は公開済み（⑦⑧として反映）。③④⑤は使わない。今後のテーマ選定はGrok調査（`mbticode/tools/grok_harvest_note_theme_prompt.md`）または`analysis/log.md`・`analysis/patterns.md`の分析結果から直接提案する運用に切り替えた（`project_mbticode_article_themes.md`も同時に廃止扱い）
 
 - [ ] **#4 週次KPIレビューを行う（毎週）**
   - **入力方法**：`mbticode/kpi_weekly_template.md` を埋めてClaudeに渡す（1ターンで完結）
