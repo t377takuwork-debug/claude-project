@@ -4,7 +4,7 @@
 
 ## 完了条件
 
-- 投稿バッチ: `qa_post.py` ERROR 0件で `brands/mbticode/posts/posts_x.txt`・`posts_threads.txt` へ**追記**保存済み（7日より古い分は`posts/archive/`へローテーション）＋Threadsは投稿キューへCSV投入済み
+- 投稿バッチ: `qa_post.py` ERROR 0件で、Xは `brands/mbticode/posts/posts_x.txt` へ**追記**保存済み（7日より古い分は`posts/archive/`へローテーション）、Threadsは一時ファイルで検品後にスプレッドシートのキューへ投入済み（2026-09-29〜：Threadsの正はシート。`posts_threads.txt` には追記しない）
 - リプライ: 投稿分析→反映メモ→本文の3ブロック出力済み
 
 ## 手順（投稿バッチ）
@@ -22,9 +22,9 @@
 
 - MBTI・DSKB・ラブタイプの内容は `brands/mbticode/reference/` のデータのみ使用（架空のタイプ論・自作の相性データは捏造にあたる）
 - Threads投稿はX投稿の転用ではない。文体・構成は `brands/mbticode/sns_post_cheatsheet.md`（Threads専用ルール・別角度カタログ）と `brands/mbticode/rules/project_mbticode_threads_strategy_0614.md`（X投稿と角度を変える・週1リスト型・自己リプライ即コンテンツ化）に従う
-- 投稿本数の現行値: X・Threadsとも本文1日3本（各週21本・2026-07-28再判断で維持確定）。**最新値は `brands/mbticode/sns_post_cheatsheet.md` の基本設定が唯一の正**（決定経緯: `rules/project_mbticode_x_strategy_0609.md`）
+- 投稿本数の現行値: X本文は1日3本、Threads本文は1日5本。**最新値は `brands/mbticode/sns_post_cheatsheet.md` の基本設定が唯一の正**（決定経緯: `rules/project_mbticode_x_strategy_0609.md`）
 
 ## 出力見本
 
 - X投稿: `brands/mbticode/posts/posts_x.txt`（直近の確定済みバッチ）
-- Threads投稿: `brands/mbticode/posts/posts_threads.txt`（自己リプライ構造含む）
+- Threads投稿: スプレッドシート「Threads投稿キュー」（`python brands/mbticode/tools/show_queue_recent.py --full` で直近分を表示。過去分の記録は `posts_threads.txt`）

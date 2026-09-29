@@ -5,6 +5,7 @@ Usage:
   python tools/threads_txt_to_csv.py 2026-08-29                       # -> tools/_queue_from_txt.csv
   python tools/threads_txt_to_csv.py 2026-08-29 tools/mybatch.csv
   python tools/threads_txt_to_csv.py 8/29 --year 2026
+  python tools/threads_txt_to_csv.py 2026-10-01 --src posts/_batch_1001.txt   # 一時ファイルから（2026-09-29追加）
 
 Parses `posts/posts_threads.txt` blocks whose header date is on/after <since>,
 strips the `自己リプライ（…）：` annotation prefix (that line is a file note, not
@@ -54,7 +55,11 @@ def main():
     ap.add_argument("out", nargs="?", default=str(TOOLS_DIR / "_queue_from_txt.csv"),
                     help="出力CSVパス（省略時 tools/_queue_from_txt.csv）")
     ap.add_argument("--year", type=int, help="M/D 指定時の基準年（省略時は since の年、なければ今年）")
+    ap.add_argument("--src", default=str(POSTS_FILE),
+                    help="読み込む投稿ファイル（省略時 posts/posts_threads.txt。"
+                         "スプレッドシート運用では posts/_batch_MMDD.txt のような一時ファイルを指定する）")
     args = ap.parse_args()
+    src = Path(args.src)
 
     since_y, since_m, since_d = parse_since(args.since)
     base_year = args.year or since_y
@@ -62,11 +67,11 @@ def main():
         import datetime
         base_year = datetime.date.today().year
 
-    if not POSTS_FILE.exists():
-        print(f"ERROR: {POSTS_FILE} が見つかりません。")
+    if not src.exists():
+        print(f"ERROR: {src} が見つかりません。")
         sys.exit(1)
 
-    lines = POSTS_FILE.read_text(encoding="utf-8").split("\n")
+    lines = src.read_text(encoding="utf-8").split("\n")
     rows = []
     i = 0
     while i < len(lines):
@@ -118,7 +123,7 @@ def main():
         i = r
 
     if not rows:
-        print(f"[INFO] {args.since} 以降の投稿ブロックが posts_threads.txt に見つかりません。")
+        print(f"[INFO] {args.since} 以降の投稿ブロックが {src.name} に見つかりません。")
         sys.exit(0)
 
     with open(args.out, "w", encoding="utf-8", newline="") as f:

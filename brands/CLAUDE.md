@@ -56,7 +56,7 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 | `mbticode/reference/lovetype_sns_ref.txt` | ラブタイプ SNS発信リファレンス簡易版（SNS投稿用・9タイプ・対比フック付き） |
 | `mbticode/reference/` | MBTI・DSKB・ラブタイプ・Nighttypeの診断データ一式（詳細が必要な場合のみ） |
 | `mbticode/posts/posts_x.txt` | MBTICODE X投稿ファイル（末尾追記・直近7日＋未来分のみ保持。古い分は`posts/archive/`へローテーション） |
-| `mbticode/posts/posts_threads.txt` | MBTICODE Threads投稿ファイル・自己リプライ含む（末尾追記・直近7日＋未来分のみ保持。古い分は`posts/archive/`へローテーション） |
+| `mbticode/posts/posts_threads.txt` | MBTICODE Threadsの過去分の記録（2026-09-29以降は追記しない。Threadsの正はスプレッドシートのキュー。直近分は `mbticode/tools/show_queue_recent.py` で見る） |
 
 ---
 
@@ -74,6 +74,7 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 | `/asp-outline` | ASP記事タイトル・構成設計 | ASP記事の設計時 |
 | `/asp-theme` | ASP案件・記事テーマ戦略 | ASPのテーマ選定時 |
 | `/buzz-analysis` | バズ投稿の固定フレームワーク分析（型・発話モード・ブクマ動機） | ユーザーがバズ投稿を手動収集して渡したとき |
+| `/mbticode-analysis` | MBTICODEのThreads（必要ならX）投稿の分析。スプレッドシートの数字から表を作り、独立した分析役（`mbticode-analyst`）が診断。基準は `mbticode/analysis/rubric.md`、結果は `mbticode/analysis/log.md` | ユーザーが「分析して」と指示したときのみ（定期実行しない） |
 | `/kpi-weekly` | 週次KPIの記録＋前週比3点コメント（`mbticode/kpi_log.md` へ蓄積） | 週次の数値を渡されたとき |
 | `/s4lv-research` | s4lv外部リサーチ（他アカウントの反響・AI/note/X関連ニュースから台帳「柱3：意見・考え」のネタを発掘。観察対象アカウント・手順は `brands/s4lv/x_neta_daicho.md` 参照） | ユーザーが「リサーチして」と明示的に指示したときのみ（自動実行しない） |
 

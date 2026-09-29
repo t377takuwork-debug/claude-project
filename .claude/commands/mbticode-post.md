@@ -10,11 +10,13 @@ MBTICODE（@MBTICODE）のX・Threads投稿を生成する。
 
 1. `brands/mbticode/personal_data.md` — 実体験データ・開示ルール・コンテンツ変換ルール
 2. `brands/mbticode/persona_core.md` — ペルソナ定義（行動トリガー／課金感情状態／期待値）
-3. `brands/mbticode/sns_post_cheatsheet.md` — 生成ワークフロー・チェックリスト・X/Threads専用ルール一式（唯一の正）
-   - **Threads単独生成の場合は「▼ X専用ルール」見出し以降（X書き出し・X金言・型α等）は読み飛ばして良い**（Threads専用ルール・共通ルールは読む）
-4. `brands/mbticode/examples_sns.md` — Good/Bad見本バンク（生成前に必ず読む）
-5. `brands/mbticode/threads_insights_notes.md` — 直近の週次分析結論（一番上のエントリのみ。「まだ分析記録なし」なら無視してよい）
-   - **一番上のエントリの「反映」項目は、Step 2 の事前設計テーブルで1件ずつ消化状況を明記する（前回の未消化を持ち越さない）**
+3. `brands/mbticode/sns_post_cheatsheet.md` — 生成ワークフロー・内容の正確性チェック・X/Threads専用ルール一式（唯一の正）
+   - Threadsは**スプレッドシートが正**（`posts_threads.txt` には追記しない。一時ファイルで検品してからシートへ投入する）
+   - タイプの話をする投稿は、ワークフロー Step 1 に従い、書く前に `reference/` の該当資料を必ず読む
+
+4. `brands/mbticode/analysis/patterns.md` — 反響が出やすい投稿のパターン候補（基礎分析）。**案を出すときの参考として読む**（確定ルールではなく、試す価値のある仮説。確度が低いものは1つずつ試す）。あわせて `analysis/log.md` に週次分析の記録があれば、直近の1件を読む
+
+**再構築が終わるまで読まないもの（2026-09-29）**：`examples_sns.md`（文体の見本）と `threads_insights_notes.md`（分析メモ）は、文体・分析を作り直すまで生成に使わない。テーマ・型の決め方も保留中のため、Step 2 でユーザーに案を出して決めてもらう。
 
 条件付き参照（該当する場合のみ）：
 - `brands/mbticode/posts/cta_templates.md` — URL事後型・新規記事公開日のCTA割り当てがある場合。使い方・未作成時の新規作成ルールはファイル内冒頭を参照

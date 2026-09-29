@@ -74,6 +74,18 @@ CONTENT_POLICY_ERRORS = [
 ]
 INDIVIDUAL_MENTION_RE = re.compile(r"@[A-Za-z0-9_]+")
 
+# MBTICODEの文体系ERROR（記号・語尾・言い回し・回数制限）。2026-09-29、文体ルールを作り直すまでの間、
+# 文体検品を止めるためERRORをWARNへ下げる（オーナー決定）。検知ロジック自体は残す
+# （文体の再構築後にこの集合を空にすれば元のERRORに戻る）。
+# ここに含めないERRORは維持する：字数・URL・ハッシュタグ・Threads/APIの上限・自己リプライ2の構造
+# ・content-policy（断定的統計・性的描写。brands/CLAUDE.md絶対遵守ルール3）。
+MBTICODE_STYLE_DOWNGRADE_CODES = {
+    "symbol-quote", "symbol-dash", "dewa-nai", "sekkei-ng", "ai-desune", "ai-omoimasu",
+    "ai-deshou", "ai-kanji", "ai-taisetsu", "ai-matome", "ai-yobousen", "ai-mashou",
+    "demo-conj", "tsuzuki-meta", "ndesu-count", "kairo-count", "tech-words",
+    "dayona", "mi-oboe", "sekkei-reply", "te-owari",
+}
+
 
 class Finding:
     def __init__(self, severity, label, code, message):
@@ -898,6 +910,16 @@ def main():
         check_mbticode_file(posts, findings)
     else:
         check_s4lv_file(posts, findings, platform)
+
+    if account == "mbticode":
+        downgraded = 0
+        for x in findings:
+            if x.severity == "ERROR" and x.code in MBTICODE_STYLE_DOWNGRADE_CODES:
+                x.severity = "WARN"
+                x.message += "（文体検品は保留中のためWARN扱い）"
+                downgraded += 1
+        if downgraded:
+            print(f"[INFO] MBTICODE文体系ERROR {downgraded}件をWARNへ下げました（文体ルール再構築までの暫定運用）")
 
     errors = [x for x in findings if x.severity == "ERROR"]
     warns = [x for x in findings if x.severity == "WARN"]
