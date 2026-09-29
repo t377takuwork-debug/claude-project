@@ -224,6 +224,60 @@ REPLY_ERRORS = [
 ]
 
 
+# --- MBTICODE 文体・現実性の新検品（2026-09-30・オーナー指摘。すべてWARN。文体の再構築が固まったらERRORへ上げるか決める） ---
+# 読点：1文に2つ以上でWARN／投稿全体で1文あたり0.5超でWARN（続き型の切れ目の末尾「、」は数えない）
+# 現実性：実在しない・アプリで違う機能の描写（LINEに「入力中」表示はない等）
+# 問いの置き場所：最後の文を問いで終えない（question-tail）。オーナーの手直し例（10/1 16:00）では、問いを独立した段落に置いても、直後に文が続けばOKだった
+# 問い：「あなたは〜ですか？」「どっちですか？」のアンケート調は不自然（同意を求める「〜ませんか？」「〜ですよね？」型を使う）
+UNREAL_FEATURE_RE = re.compile(r"入力中|オンライン(中|表示|状態)|最終ログイン|ログイン時間|既読(時間|の時刻|になった時刻)")
+OPENING_BANNED_RE = re.compile(r"(人|ひと|方)(が|も|は)?(いる|います)|(こと|ときが|日が)(が|も)?ある|人を見かける|見かける|(い|あり|し|なり|感じ|ませ)ませんか|ないですか|ありませんか")
+SURVEY_QUESTION_RE = re.compile(r"(あなた(は|が|の)|どっち|どちら|いくつ|何個|どれくらい).{0,30}(ですか|でしたか|ますか|ましたか)？|(どっち|どちら)(ですか|でしたか)？")
+
+
+def check_mbticode_style_new(label, text, where=""):
+    f = []
+    suffix = f"（{where}）" if where else ""
+    body = text.strip()
+    sents = [x for x in re.split(r"[。？！?!\n]+", body) if x.strip()]
+    if sents:
+        counts = []
+        for x in sents:
+            x = x.strip()
+            if x.endswith("、"):
+                x = x[:-1]
+            counts.append(x.count("、"))
+        multi = [x for x, c in zip(sents, counts) if c >= 2]
+        for x in multi[:3]:
+            f.append(Finding("WARN", label, "comma-multi",
+                             f"1文に読点2つ以上：「{x.strip()[:30]}…」→ 1文1つまで（消しても自然に読めるなら消す）{suffix}"))
+        if len(multi) > 3:
+            f.append(Finding("WARN", label, "comma-multi", f"ほかに読点2つ以上の文が{len(multi) - 3}文{suffix}"))
+        density = sum(counts) / len(counts)
+        if density > 0.5 and len(sents) >= 3:
+            f.append(Finding("WARN", label, "comma-density",
+                             f"読点が多い：1文あたり{density:.2f}個（目標0.5以下）{suffix}"))
+    for m in UNREAL_FEATURE_RE.finditer(body):
+        f.append(Finding("WARN", label, "reality-feature",
+                         f"「{m.group(0)}」：LINEなどに存在しない・アプリで違う表示の疑い。確かでなければ書かず自分の動作で書く{suffix}"))
+    # 問いの置き場所（2026-09-30 オーナー指示）：本文の最後を問いで終えない／問いだけの短い行を独立させない
+    # （付け足しの問いは不自然。問いは前の文と同じ段落に埋め込み、直後に文が続く形にする）
+    lines = [l.strip() for l in body.splitlines() if l.strip()]
+    if lines and lines[-1].endswith(("？", "?")) and not lines[-1].startswith(("・", "→")):
+        f.append(Finding("WARN", label, "question-tail",
+                         f"本文が問いで終わっている：「{lines[-1][-24:]}」→ 問いは途中に埋め込み、直後に文を続ける{suffix}"))
+    # 冒頭の禁止形（2026-09-30 オーナー決定）：1行目を「〜な人がいる／〜ことがある／〜ありませんか」で書かない。
+    # 自分の過去172本で、この形の1行目は上位20%に入る割合が13%（それ以外27%）だった。
+    # 場面（〜のとき）＋何が分かるか、を1行目に置く。
+    if lines and OPENING_BANNED_RE.search(lines[0]):
+        f.append(Finding("ERROR", label, "opening-observer",
+                         f"1行目が禁止形（〜人がいる／〜ことがある／〜ありませんか 等）：「{lines[0][:30]}」"
+                         f"→ 場面（〜のとき）＋何の話かが一目で分かる1行目に（style_0930.md 2.5）{suffix}"))
+    for m in SURVEY_QUESTION_RE.finditer(body):
+        f.append(Finding("WARN", label, "question-survey",
+                         f"アンケート調の問い「{m.group(0)[:30]}」→ 流れの中の同意を求める形（〜ませんか？／〜ですよね？）へ{suffix}"))
+    return f
+
+
 def check_mbticode_post(post, platform):
     f = []
     body = post["body"]
@@ -255,6 +309,7 @@ def check_mbticode_post(post, platform):
         f.append(Finding("WARN", post["label"], "individual-mention",
                          "@メンションあり・特定個人を傷つける表現になっていないか要確認（brands/CLAUDE.md絶対遵守ルール3）"))
 
+    f.extend(check_mbticode_style_new(post["label"], body))
     n_ndesu = len(re.findall(r"んです", body))
     if n_ndesu >= 2:
         f.append(Finding("ERROR", post["label"], "ndesu-count",
@@ -311,6 +366,8 @@ def check_mbticode_post(post, platform):
             for code, pat, msg in CONTENT_POLICY_ERRORS:
                 if re.search(pat, reply_body):
                     f.append(Finding("ERROR", post["label"], code, f"{msg}（自己リプライ）"))
+            if not URL_RE.search(reply_body):
+                f.extend(check_mbticode_style_new(post["label"], reply_body, "自己リプライ"))
             rlen = len(reply_body.replace("\n", ""))
             if rlen > THREADS_API_LIMIT:
                 f.append(Finding("ERROR", post["label"], "th-reply-length-api-limit",
@@ -320,10 +377,8 @@ def check_mbticode_post(post, platform):
                 if not (80 <= rlen <= 150):
                     f.append(Finding("WARN", post["label"], "th-reply-length",
                                      f"自己リプライ{rlen}字（コンテンツ系は80〜150字）"))
-        head_lines = nonempty_lines(body)
-        if head_lines and MBTI_RE.search(head_lines[0]):
-            f.append(Finding("WARN", post["label"], "th-type-head",
-                             "書き出しにMBTIタイプ名（タイプ名は中盤以降・Threadsルール）"))
+        # th-type-head（書き出しにタイプ名でWARN）は2026-09-30に廃止：1行目は「場面＋何が分かるか」を優先し、
+        # タイプ名が1行目に入ってよい（オーナー承認。本文にタイプ名がある投稿は届きやすい傾向〈patterns.md J〉）
         # 続き型は本文の最後を読点で文法的に未完のまま終える（2026-08-16notekaigi）
         if "続き型" in post.get("header", "") and reply:
             tail_lines = nonempty_lines(body)
