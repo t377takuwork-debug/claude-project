@@ -54,7 +54,7 @@
 - バッチを**一時ファイル** `posts/_batch_MMDD.txt` に書く（形式は「▼ 投稿ファイルの書き方」）。
 - `python brands/tools/qa_post.py brands/mbticode/posts/_batch_MMDD.txt --account mbticode --platform threads` で **ERROR 0件・exit=0**（Xは `--platform x`）。
 - 文体系の検品は保留中のためWARN扱い。**WARNは削除・自己判断で潰さず、報告に全文転記する**（人間が判断する）。
-- **「自分のネタ」（外部の元ネタを参考にしたネタ）から作った投稿は、保存・投入の前に類似チェックを行う**：元ネタの核と自分の核を1行ずつ書いて着想の近さを判定（中は書き直す・高は使わない）＋`python brands/tools/check_similarity.py <一時ファイル> --sources <元ネタの本文の一時ファイル>`（10字以上はWARN・20字以上はERROR）。詳しくは `/mbticode-neta` の「類似チェック」
+- **「自分のネタ」（外部の元ネタを参考にしたネタ）から作った投稿は、保存・投入の前に類似チェックを行う**（型を再現せず「反響を生む要素」を取り入れる。型・テーマ・タイプのうち元ネタと一致するのは最大1つ）：元ネタの核と自分の核を1行ずつ書いて着想の近さを判定（中は書き直す・高は使わない）＋`python brands/tools/check_similarity.py <一時ファイル> --sources <元ネタの本文の一時ファイル>`（10字以上はWARN・20字以上はERROR）。詳しくは `/mbticode-neta` の「類似チェック」
 - 問題がある場合のみチャットで報告する（同じ指摘への修正は2回まで）。
 - 確定前の壁打ちが必要な場合（新しい型の試験など）は `/post-review` を通す。
 
