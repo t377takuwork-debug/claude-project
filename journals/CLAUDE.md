@@ -19,7 +19,8 @@ journals/
 ├── tasks.md                ← タスクの横断インデックス
 ├── ideas.md                 ← アイデアの横断インデックス
 ├── insights.md              ← 気付きの横断インデックス
-├── content_seeds.md         ← ブログ/SNSネタの横断インデックス（候補先アカウントをタグ付け）
+├── content_seeds.md         ← ブログ/SNSネタの横断インデックス（候補先アカウントをタグ付け）。自分の体験のネタ
+├── external_seeds.md        ← 外部の話題の候補置き場（s4lv・UYA.共通。`/neta-research`が溜める・2026-10-01新設）。自分の体験とは混ぜない
 ├── themes.md                ← 長期テーマ（テーマ単位で育てる。単純な追記ログではない）
 └── collision_log.md         ← 既存方針とのバッティング検知ログ
 ```

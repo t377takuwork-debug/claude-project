@@ -30,7 +30,6 @@ uya/
 ├── rules/
 │   ├── project_uya_positioning.md ← 立ち位置・差別化・トーンの決定（notekaigi 2026-09-27）
 │   ├── project_uya_accounts.md    ← アカウントURL・現状プロフィール文（書き直し待ち）
-│   ├── neta_candidates.md         ← `/uya-research`が発掘した投稿ネタ候補の一覧
 │   └── uya_learnings.md           ← 投稿の学びの台帳（sns_post_cheatsheet.md未収録の断片的な好みのみ。`/uya-post`が毎回読む・2026-09-29新設）
 ├── tools/
 │   └── qa_post_uya.py     ← 投稿の機械チェック（軽量版・2026-09-29新設）
@@ -48,7 +47,7 @@ uya/
 - 3媒体のプロフィール文は確定済み（`rules/project_uya_accounts.md`）
 - 記事生成スキル`/uya-theme`・`/uya-article`を新設済み（2026-09-27）
 - 1本目の記事（自己紹介）を2026-09-29に公開済み（[note](https://note.com/uyadot/n/n1b368f87363d)。`articles/published/`・`article_index.md`登録済み）
-- X・スレッズ投稿の運用ルール（型・頻度・X/スレッズの役割分担・ネタ切れ対策）を`/notekaigi`で決定済み（2026-09-28〜29。`sns_post_cheatsheet.md`）。ネタ元は`/journal`（本命）・`/uya-research`（補助）の2本立て。投稿本文の生成は`/uya-post`（軽量版。機械チェックは`tools/qa_post_uya.py`、判断が要る学びは`rules/uya_learnings.md`に蓄積。専用審査エージェントは投稿量が増えるまで後回し）
+- X・スレッズ投稿の運用ルール（型・頻度・X/スレッズの役割分担・ネタ切れ対策）を`/notekaigi`で決定済み（2026-09-28〜29。`sns_post_cheatsheet.md`）。ネタ元は`/journal`（本命）・`/neta-research`（補助。2026-10-01に旧`/uya-research`をs4lvと共通の1本へ統合。候補の置き場は`journals/external_seeds.md`）の2本立て。投稿本文の生成は`/uya-post`（軽量版。機械チェックは`tools/qa_post_uya.py`、判断が要る学びは`rules/uya_learnings.md`に蓄積。専用審査エージェントは投稿量が増えるまで後回し）
 - 2026-09-29に初回投稿（朝・夜×X・スレッズ計4本）を`posts/`へ保存・投稿予約済み
 
 ## 記事生成スキル
@@ -66,7 +65,7 @@ uya/
 |---|---|
 | X・スレッズ投稿の型・頻度・役割分担等のルール確認 | `sns_post_cheatsheet.md` |
 | 投稿ネタの記録（本命。日々の気づきを話して残す） | `/journal` スキルを起動（`journals/content_seeds.md`のuyaタグに蓄積） |
-| 投稿ネタのリサーチ（補助。ネタ切れ対策・ユーザー指示時のみ） | `/uya-research` スキルを起動（`rules/neta_candidates.md`に蓄積） |
+| 投稿ネタのリサーチ（補助。ネタ切れ対策・ユーザー指示時のみ） | `/neta-research` スキルを起動（`journals/external_seeds.md`に蓄積。s4lvと共通） |
 | X・スレッズ投稿本文の生成 | `/uya-post` スキルを起動 |
 
 `/uya-post`は軽量版（専用審査エージェントなし）。生成後に`tools/qa_post_uya.py`で機械チェック、オーナーとのすり合わせ後に修正の意図を`rules/uya_learnings.md`へ書き戻す。投稿は`posts/posts_x.txt`・`posts/posts_threads.txt`へ追記保存。

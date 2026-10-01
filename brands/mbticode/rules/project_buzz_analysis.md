@@ -15,4 +15,4 @@ MBTICODEのSNS投稿分析における役割分担は「ユーザーが数値を
 
 **ただし自分のアカウント（MBTICODE）のアナリティクス画面（インプレッション詳細・フォロワー推移等の非公開ダッシュボード）は未検証**。こちらは引き続きユーザーが数値を共有する従来方式とする（検証済みなのは「他アカウントの公開投稿の閲覧・反響数取得」であり、ログイン専用の分析画面は別問題の可能性がある）。
 
-**How to apply:** 他アカウントのバズ投稿分析（`/buzz-analysis`）は、`javascript_tool`方式での自動取得を選択肢に入れてよい（s4lvの`.claude/commands/s4lv-research.md`の「技術メモ」を手順の参考にする）。自分のアカウントの週次KPI・パフォーマンス確認は、引き続き`kpi_weekly_template.md`にユーザーが数値を記入して渡す、またはスクリーンショットを貼ってもらう形で行う。分析結果は[[project_mbticode_x_strategy_0609]]の分岐判断・KPIレビューに反映する。
+**How to apply:** 他アカウントのバズ投稿分析（`/buzz-analysis`）は、`javascript_tool`方式での自動取得を選択肢に入れてよい（`.claude/commands/neta-research.md`の「技術メモ」を手順の参考にする）。自分のアカウントの週次KPI・パフォーマンス確認は、引き続き`kpi_weekly_template.md`にユーザーが数値を記入して渡す、またはスクリーンショットを貼ってもらう形で行う。分析結果は[[project_mbticode_x_strategy_0609]]の分岐判断・KPIレビューに反映する。

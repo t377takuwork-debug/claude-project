@@ -27,7 +27,7 @@ UYA.のX・スレッズ投稿を作るスキル。**軽量版**：専用審査�
 
 1. `journals/content_seeds.md`のuyaタグ候補（未使用のもの）
 2. `shared/personal_data.md`の時系列表から、まだ使っていないエピソード
-3. どちらもなければ`rules/neta_candidates.md`（無ければユーザーに`/uya-research`の実行を提案する）
+3. どちらもなければ`journals/external_seeds.md`のUYA.向けの候補（種類が「試すきっかけ」「反応ネタ」。「意見ネタ」はs4lv用なので使わない。無ければユーザーに`/neta-research`の実行を提案する）
 
 選んだネタと、対応する型（①実況ログ型／②過去の記録型／③記事誘導型）をユーザーに一言で提示してから書き始める。
 

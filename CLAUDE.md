@@ -98,7 +98,7 @@ claude project/
 | vivant Threads投稿生成 | `/vivant-post` スキルを起動 |
 | UYA. Note記事（テーマ・タイトル） | `/uya-theme` スキルを起動 |
 | UYA. Note記事（構成・本文・保存） | `/uya-article` スキルを起動 |
-| UYA. SNS投稿ネタのリサーチ（ネタ切れ対策） | `/uya-research` スキルを起動 |
+| s4lv・UYA. 共通のネタ収集（「リサーチして」「ネタを集めて」。ブログ・note・SNS運用・Claude Codeの話題。MBTICODEは別） | `/neta-research` スキルを起動（`journals/external_seeds.md`に溜める） |
 | UYA. X・スレッズ投稿生成 | `/uya-post` スキルを起動 |
 | UYA. その他作業・方針 | `uya/CLAUDE.md` |
 | ASP記事設計 | `/asp-kaigi` スキルを起動 |
