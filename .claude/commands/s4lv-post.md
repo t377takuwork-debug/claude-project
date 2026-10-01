@@ -8,6 +8,10 @@ s4lv統一アカウント（X @cfrms4lv／Threads @cfrms4lv）の投稿を生成
 
 ## 必須：実行前に読み込むファイル
 
+### 00. 声の決まり（2026-10-02新設・X・Threads共通・最初に読む）
+
+**`brands/s4lv/rules/s4lv_voice.md`** — 声（語尾・話し方・雰囲気・主語・読点）と、**ばらつきの決まり**（投稿が毎回同じ形・同じ問い・同じ語尾にならないこと）の唯一の正。**書き始める前に `python brands/s4lv/tools/recent_forms.py` を実行し、直近の投稿の形・入り方・終わり・問い・締めの語尾と、最近使っていない形・偏りの注意を見る（候補から次の形を選ぶ）。投稿の見出しには `／形：○○／入り方：○○／終わり：○○` のタグを付ける（語彙は `s4lv_voice.md`「形の引き出し」）。** 声について古い文体の決まりと食い違うときは、こちらが優先。作ったあとは「ばらつきの決まり」の最後の確認（1行目・締め・問いを縦に並べて読む）を必ず行う。
+
 ### 0. まず全ケース共通（2026-09-07・読み込み効率化）
 
 **`brands/s4lv/sns_post_cheatsheet.md`** — 運用ナビ＋高頻度ルールの凝縮版。ハード運用値・開示ルール1行・生成前チェック（思考OS）・媒体別文体の要点・qa_post自動検知一覧・生成後の工程・読む順序を持つ。
@@ -18,7 +22,7 @@ s4lv統一アカウント（X @cfrms4lv／Threads @cfrms4lv）の投稿を生成
 
 ### 1. 定型バッチで読む該当媒体ファイル
 
-- **X**：`rules/feedback_s4lv_x_writing_style.md`（文体OS・唯一の正）／`x_neta_daicho.md` の使うK/A項目／（誘導回のみ）`articles/note_article_index.md`／必要なら `examples_x_posts.md`
+- **X**：**`rules/s4lv_voice.md`（声・唯一の正。読んだうえで以下を読む）**／`rules/feedback_s4lv_x_writing_style.md`（Xの1行目・数字・絶対禁止。声や締めが食い違うときは `s4lv_voice.md` が優先）／`x_neta_daicho.md` の使うK/A項目／（誘導回のみ）`articles/note_article_index.md`（旧見本 `examples_x_posts.md` は2026-10-02に廃止。声の見本は `s4lv_voice.md`）
 - **Threads**：**`rules/threads_post_generation_rules.md`（生成の実務・唯一の正。これ1本＋台帳の使うK/A項目で足りる）**／`x_neta_daicho.md` の使うK/A項目（AI実働＝柱2 A項目）。※フォロワー100までは note_article_index の誘導チラ見せは使わない。細かい文体判断・生成後の自己レビューが要るときだけ `rules/feedback_s4lv_threads_writing_style.md`
 
 ### 2. 深掘りが要るときだけ全文Read
@@ -62,7 +66,7 @@ s4lv統一アカウント（X @cfrms4lv／Threads @cfrms4lv）の投稿を生成
    - AI（Claude Code等）の話は**進行形表現のみ**（「再現する過程」「テスト運用中」）。完了形の実績断定は禁止
 
 3. **Step 3：本文生成**
-   ユーザーOK後に生成。X・Threadsで文体OSを切り替える（Threadsに X の硬さを持ち込まない）。Threadsは`rules/threads_post_generation_rules.md`（生成実務・唯一の正）に従い、詳細な文体判断は`feedback_s4lv_threads_writing_style.md`「反響を生む型」を参照する。
+   ユーザーOK後に生成。**声（語尾・雰囲気・主語・読点・絵文字・問い）はX・Threads共通で `rules/s4lv_voice.md` に従う（2026-10-02）。** 媒体で変えるのは、役割による違い（1行目の作り・長さ・自己リプライ・問いの回数・箇条書きの形）だけ。Threadsの全面的な書き直しは未実施のため、Threadsを作るときは `s4lv_voice.md` を優先して、Threadsの旧い文体の決まりと食い違う場合はユーザーに確認する。Threadsは`rules/threads_post_generation_rules.md`（生成実務・唯一の正）に従い、詳細な文体判断は`feedback_s4lv_threads_writing_style.md`「反響を生む型」を参照する。
 
 3.5. **Step 3.5a：自己レビュー（X・必須・2026-09-06追加。2026-09-10にバッチ横並びチェックを追加）**
    生成後、保存前に自分で確認する。`qa_post.py`のAI感禁止リストは語彙レベルの検知にとどまり、これらは拾えないため必ず人間の目で。ここで潰せば sns-ai-reviewer が1巡で済む（2026-09-10、審査3巡＋オーナー3往復になった反省）。

@@ -60,7 +60,7 @@ claude project/
 │   ├── writing/           ← ライティング原則4ファイル（起点: writing_core.md）
 │   ├── s4lv/
 │   │   ├── rules/         ← 文体定義・Note記事プロセス・アカウント方針 10本
-│   │   ├── examples_x_posts.md ← X投稿見本バンク（Good/Bad対比・生成前に読む）
+│   │   ├── rules/s4lv_voice.md ← 声の決まり・ばらつきの決まり（X・Threads共通・生成前に読む。旧 examples_x_posts.md は2026-10-02に廃止）
 │   │   ├── rules/s4lv_learnings.md ← 学びの台帳（2026-09-10新設・/note-advisor の主参照。プロフィールの正は rules/project_s4lv_accounts.md）
 │   │   └── shared/        ← 実績データ・開示ルール（personal_data.md）
 │   └── mbticode/

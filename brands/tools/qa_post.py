@@ -157,7 +157,9 @@ def parse_posts(text):
                     # 「自己リプライ」は他者への返信/引用ポストではないので is_reply から除外する
                     # （2026-09-07：ヘッダー語の衝突で通常投稿が誤ってreply扱いされバッチ検査から
                     #  漏れる不具合を修正）。
-                    "is_reply": (("引用" in header) or ("リプライ" in header))
+                    # 2026-10-02：見出しの反響ラベル「会話・引用型」の「引用」で他者への返信と誤判定され、
+                    # バッチ検査から外れていた不具合を修正（ラベル部分を除いて判定する）。
+                    "is_reply": (("引用" in header.replace("会話・引用型", "")) or ("リプライ" in header))
                                 and ("リプライ狙い" not in header)
                                 and ("自己リプライ" not in header),
                 })
@@ -679,6 +681,24 @@ S4LV_X_AI_TELL_WARNS = [
      "「正直、〜ます/です。」型の告白風ヘッジ構文（正直という語自体の禁止ではない・s4lv X・2026-09-06ユーザー指摘）"),
 ]
 
+# 2026-10-02：問いの許可形（s4lv_voice.md「問いかけ」）。brands/s4lv/tools/recent_forms.py の QUESTION_FORMS と同じ分類
+S4LV_Q_OK_RE = re.compile(r"(ってことありません|ありませんか|ませんか|じゃないですか|いませんか|ない|どうします)[？?]$")
+S4LV_Q_FORMS = [
+    ("ってことありません？", r"ってことありません？"),
+    ("ありませんか？", r"ありませんか？"),
+    ("ませんか？", r"ませんか？"),
+    ("じゃないですか？", r"じゃないですか？"),
+    ("〜ない？", r"ない？"),
+    ("の人、いませんか？", r"いませんか？"),
+]
+# 締めの語尾の分類（recent_forms.py の ENDING_KINDS と同じ）
+S4LV_ENDING_KINDS = [
+    ("〜ました。", r"ました。$"), ("〜してます。", r"てます。$"), ("〜してる。", r"てる。$"),
+    ("〜んですよ。", r"んですよ。$"), ("〜んだよね。", r"んだよね。$"), ("〜よね。", r"よね。$"),
+    ("〜かな。", r"かな。$"), ("〜ます。", r"ます。$"), ("〜です。", r"です。$"),
+    ("〜た。", r"た。$"), ("〜る。", r"る。$"), ("〜い。", r"い。$"),
+]
+
 # 1行目に説明なしで置くと読者を選別してしまう符丁（2026-09-04追加・WARN専用・広めの初期辞書）
 # 出典：feedback_s4lv_threads_writing_style.md「専門用語・符丁の扱い」。誤検知が多ければ辞書を削る
 S4LV_HOOK_JARGON = [
@@ -734,10 +754,11 @@ def check_s4lv_post(post, platform):
         for code, pattern, message in S4LV_X_AI_TELL_WARNS:
             check_regex(f, post, "WARN", code, pattern, message)
         last = (nonempty_lines(body) or [""])[-1].strip()
-        if last.endswith("？") or last.endswith("?"):
+        # 2026-10-02：問いで終えてもよい（s4lv_voice.md「問いかけ」の形）。広い意見募集型だけWARN
+        if (last.endswith("？") or last.endswith("?")) and not S4LV_Q_OK_RE.search(last):
             f.append(Finding("WARN", post["label"], "x-question-closing",
-                             "文末が疑問符で終わっている（汎用的な意見募集型の締めはAI的と指摘あり・"
-                             "属性を絞った具体的な問いかけでない限り断言・観察で締める・2026-09-06）"))
+                             "文末が疑問符で、問いの形が引き出しにない（「どう思いますか？」のような広い意見募集型はAI的と指摘あり・"
+                             "「〜ってことありません？」「〜ありませんか？」等の形にするか断言・観察で締める・2026-10-02改訂）"))
     # 1行目のフックチェック（2026-09-04追加・Threadsのみ・WARN）
     if platform == "threads" and not post["is_reply"]:
         first = (nonempty_lines(body) or [""])[0]
@@ -770,9 +791,10 @@ def check_s4lv_post(post, platform):
         kt_texts.append(("自己リプライ", REPLY_LABEL_RE.sub("", _reply_raw, count=1)))
     for _tlabel, _ttext in kt_texts:
         for s in sentences(_ttext):
-            if s.count("、") >= 3:
-                f.append(Finding("WARN", post["label"], "kutouten-3",
-                                 f"1文に読点3個以上（{_tlabel}・目安2つまで）: 「{s.strip()[:40]}…」"))
+            # 2026-10-02：読点は1文に1つまで（s4lv_voice.md）。旧：3個以上でWARN（コード名 kutouten-3）
+            if s.count("、") >= 2:
+                f.append(Finding("WARN", post["label"], "kutouten-2",
+                                 f"1文に読点2個以上（{_tlabel}・1文に1つまで・s4lv_voice.md）: 「{s.strip()[:40]}…」"))
 
     # 開示ワード（ブログ種別＝テレビ・エンタメ系の定期更新記事が特定される語）が本文・
     # 自己リプライに出ていないか（2026-09-10追加・WARN）。出典：sns_post_cheatsheet.md
@@ -865,7 +887,7 @@ def check_s4lv_file(posts, findings, platform=None):
         wa = []
         for p in body_posts:
             ss = sentences(p["body"])[:2]
-            if any(re.match(r"^私は(いま)?", s.strip()) for s in ss):
+            if any(re.match(r"^(私|自分)は(いま)?", s.strip()) for s in ss):  # 2026-10-02：「自分は」も数える
                 wa.append(p["label"])
         if len(wa) >= 4 and len(wa) / max(len(body_posts), 1) >= 0.4:
             findings.append(Finding("WARN", "バッチ全体", "opener-watashiwa",
@@ -881,6 +903,41 @@ def check_s4lv_file(posts, findings, platform=None):
             findings.append(Finding("WARN", "バッチ全体", "th-shitenai-opener-multi",
                                     f"「〜してないですか？」型フックが{len(st)}本（週1本まで・連続禁止・"
                                     "指摘でなく現場/具体事実で開く）: " + " / ".join(st)))
+
+    # --- 2026-10-02：ばらつきの決まり（s4lv_voice.md）の機械化（X・Threads共通・WARN）。
+    # 日付なし（テスト中）の投稿も対象にする。直近10本との比較は brands/s4lv/tools/recent_forms.py。
+    vp = [p for p in posts if not p["is_reply"] and nonempty_lines(p["body"])]
+
+    def _last_line(p):
+        return nonempty_lines(p["body"])[-1].strip()
+
+    def _end_kind(p):
+        last = _last_line(p)
+        return next((n for n, pat in S4LV_ENDING_KINDS if re.search(pat, last)), "")
+
+    def _q_form(p):
+        for ln in nonempty_lines(p["body"]):
+            plain = re.sub(r"「[^」]*」", "", ln).strip()
+            if plain.endswith("？") or plain.endswith("?"):
+                return next((n for n, pat in S4LV_Q_FORMS if re.search(pat, ln)), "その他の問い")
+        return ""
+
+    kinds = [_end_kind(p) for p in vp]
+    for i in range(len(vp) - 2):
+        if kinds[i] and kinds[i] == kinds[i + 1] == kinds[i + 2]:
+            findings.append(Finding("WARN", "バッチ全体", "ending-repeat",
+                                    f"締めの語尾「{kinds[i]}」が3本続いている（語尾の引き出しを順番に使う・s4lv_voice.md）: "
+                                    + " / ".join(p["label"] for p in vp[i:i + 3])))
+            break
+    qforms = [_q_form(p) for p in vp]
+    if len(vp) >= 4 and sum(1 for q in qforms if q) / len(vp) > 0.5:
+        findings.append(Finding("WARN", "バッチ全体", "question-ratio",
+                                f"問いのある投稿が{sum(1 for q in qforms if q)}/{len(vp)}本（半分以下にする・s4lv_voice.md）"))
+    tail5 = qforms[-5:]
+    for q in set(q for q in tail5 if q):
+        if tail5.count(q) >= 2:
+            findings.append(Finding("WARN", "バッチ全体", "question-form-repeat",
+                                    f"問いの形「{q}」が直近5本で{tail5.count(q)}回（同じ形は2回使わない・s4lv_voice.md）"))
 
 
 # ---------------------------------------------------------------- main

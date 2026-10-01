@@ -14,6 +14,7 @@ type: project
 
 | 項目 | 権限ファイル |
 |---|---|
+| **声（語尾・話し方・雰囲気・主語・読点。X・Threads共通・2026-10-02新設）** | **`rules/s4lv_voice.md`（唯一の正。下の文体の決まりと食い違うときは、声についてはこちらが優先。古い決まりは整理待ち）** |
 | 本数・投稿時刻（X） | `rules/project_s4lv_operation_system.md`「投稿量」 |
 | **Threads生成の実務ルール（役割・1行目・型ローテ・自己リプ・問い・本数・出力形式）** | **`rules/threads_post_generation_rules.md`（唯一の正・システムプロンプト型）** |
 | Threads の詳細文体リファレンス（AI感禁止リスト・⭕見本・修正見本1〜6。句読点・改行・記号は `rules/sns_kutouten_kaigyo_rules.md`） | `rules/feedback_s4lv_threads_writing_style.md` |
@@ -29,7 +30,7 @@ type: project
 | 実績数値・開示ルール | `shared/personal_data.md` |
 | 対象読者ペルソナ（3軸） | `rules/project_s4lv_persona.md` |
 | 学びの台帳（確かめられたこと／まだ確かめていない考え／やらないと決めたこと／オーナーの好み／見直しのタイミング／実際の数字の記録） | `rules/s4lv_learnings.md`（2026-09-10新設・`/note-advisor` がいちばん先に読む） |
-| Good/Bad見本 | `examples_x_posts.md`（X）／Threadsは `rules/threads_post_generation_rules.md`「見本」（⭕完成形＋修正見本1〜6） |
+| 見本 | Xは `rules/s4lv_voice.md` の見本（旧 `examples_x_posts.md` は2026-10-02に廃止。新しい見本は、オーナーが確定した新しい声の投稿から足していく）／Threadsは `rules/threads_post_generation_rules.md`「見本」（⭕完成形＋修正見本1〜6） |
 
 ---
 
@@ -58,8 +59,8 @@ type: project
 
 ### 0. まず `rules/s4lv_learnings.md`「オーナーの好み」を読み、全項目を生成の制約として入れる（2026-09-10・往復削減）
 往復の主因は「1稿目が既知のオーナーの好みを外していて、あとから直す」こと。最初から入れる：
-- **1行目・締めをバッチ内でばらす**。同じ入り方（過去失敗→今は／お題→説明→観察オチ 等）が3本以上なら書き直す。断言で開かない。締めを「〜ました。」で終える本を2本以上作らない
-- **句読点・改行・記号**：`rules/sns_kutouten_kaigyo_rules.md`（X・Threads共通・唯一の正）。要点＝句点ごとに改行・1文1行／話題の切れ目に空行1つ／「間」の読点は削る（文頭の接続詞のあとは置く）／用語・キー語句は「」（"" は不可）／体言止め可／観点の列挙は「」1行ずつか「・」
+- **1行目・締めをバッチ内でばらす**（具体的な数と手順は `s4lv_voice.md`「ばらつきの決まり」＋`recent_forms.py`）。同じ入り方（過去失敗→今は／お題→説明→観察オチ 等）が3本以上なら書き直す。断言で開かない。締めを「〜ました。」で終える本を2本以上作らない
+- **句読点・改行・記号**：`rules/sns_kutouten_kaigyo_rules.md`（X・Threads共通。読点の上限は2026-10-02から1文に1つまで）。要点＝句点ごとに改行・1文1行／話題の切れ目に空行1つ／「間」の読点は削る（文頭の接続詞のあとの読点は、その文の1つとして数える）／用語・キー語句は「」（"" は不可）／体言止め可／観点の列挙は「」1行ずつか「・」
 - **分かりにくい語を使わない**（わかりやすさ最優先）：カタカナ語・像を結べない語（「最初の画面」「横に並べて」「スクリプト」等）・オーナーが使わない決まり文句（「点は勝手に足しません」等）
 - **数字は控えめ**（誇張を嫌う。台帳の数字より低め or ぼかす）
 
@@ -92,8 +93,9 @@ type: project
 - 業界語（allintitle・共起語・権威性・DP・E-E-A-T等）は裸で使わず、その場で平易な言い換え＋具体例を1つ
 - 「1つ多く」「1つだけ」等の数の表現で"それだけやればいい"と誤読させない。程度でなく"上回れるか"で書く
 - フックは1行・「気づき」型が基本。強い逆説は禁止
-- 締めは**断言・観察**が基本（疑問符での締めは属性を絞った問いのみ・格言/教訓オチ禁止）
-- 「です/ます」と「だ/である」を意図的に混在。ライブ感（思考の可視化・記憶のゆらぎ・喋り言葉の接続詞）を10%
+- **声は `rules/s4lv_voice.md` が正（2026-10-02）**：だ調ベース＋「〜してます」・主語は「私」「自分」・読点は1文に1つまで・絵文字は控えめに可・問いは「〜ってことありません？」を基本に
+- 締めは `s4lv_voice.md`「形の引き出し」の10種から、直近の使い方を見て選ぶ（疑問符で終えてもよい。格言/教訓オチ・「〜んだ。」・「〜のは自分です」型・広い意見募集は禁止）
+- （旧）「です/ます」と「だ/である」の混在・ライブ感10%は、新しい声に置き換え済み
 - 数値：手法・判断・現状と同じ文か隣接1文に置く。トロフィー数字（170万PV等）は1日1回・本文中盤のみ・やり方とセット。単独フック/威圧はNG
 - 本文にURL・ハッシュタグ禁止。**字数の固定上限は撤廃（2026-09-10・X Premium加入）**。ただし原則は短く（s4lv規模では「短い＋番号手順」型が伸びやすい）・1行目は1行。詳細は `rules/feedback_s4lv_x_post.md`「文字数ルール」
 
@@ -122,19 +124,20 @@ type: project
 | meirei / kougo-toi | 命令口調・問いかけ口語体 | ERROR |
 | th-length-api-limit | Threads本文/自己リプ 500字超 | ERROR |
 | th-url | Threads本文・自己リプにURL（フォロワー100まで誘導全廃・2026-09-07） | ERROR |
-| kutouten-3 | 1文に読点3個以上（本文＋自己リプ） | WARN |
+| kutouten-2 | 1文に読点2個以上（本文＋自己リプ・2026-10-02に3個→2個へ。声の決まり＝1文に1つまで） | WARN |
 | disclosure-tell | 開示ワード（番組表・タイムテーブル・出演順・放送日・毎年おなじ時期・数字や日付の差し替え 等／本文＋自己リプ・s4lv） | WARN |
 | th-length / th-reply-length | Threads字数が目安外 | WARN |
 | hook-jargon / dead-opener | 1行目の符丁・死にやすい書き出し（Threads） | WARN |
 | th-shitenai-opener / th-shitenai-opener-multi | 1行目が「〜してないですか？」型の指摘フック（週1本まで・連投禁止・2026-09-07） | WARN |
-| x-question-closing / x-shojiki-opener | 疑問符締め・告白風ヘッジ（X） | WARN |
+| x-question-closing / x-shojiki-opener | 疑問符で終わるが問いの形が引き出しにない（広い意見募集型）・告白風ヘッジ（X・2026-10-02に引き出しの形の問いは許可） | WARN |
 | closing-binary-q | 締めの二択問い「〜か、〜か？」がバッチ2本以上（Threads） | WARN |
 | closing-q-tail-repeat | 問い締めの語尾がバッチ3本以上一致（Threads） | WARN |
-| opener-watashiwa | 本文の入りが「私は〜している」型がバッチ4割以上（Threads） | WARN |
+| opener-watashiwa | 本文の入りが「私は／自分は〜している」型がバッチ4割以上（Threads） | WARN |
+| ending-repeat / question-ratio / question-form-repeat | 締めの語尾が3本続く／問いのある投稿が半分超／同じ問いの形が直近5本で2回（X・Threads・2026-10-02新設。ばらつきの決まり） | WARN |
 | s4lv-opener-repeat | 書き出しフレーズがバッチ3本以上一致 | WARN |
 | pv-nikai / jikai-yudo | 170万PV・次回誘導が2回以上 | WARN |
 
-**WARNは自分で判断**。特に kutouten-3／closing系／opener系は「型の固定化」の兆候なので、出たら散らす。
+**WARNは自分で判断**。特に kutouten-2／closing系／opener系は「型の固定化」の兆候なので、出たら散らす。
 
 ---
 
