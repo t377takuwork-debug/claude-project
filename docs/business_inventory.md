@@ -61,7 +61,7 @@
 | 暗黙知 | 明文化ファイル（repo内） |
 |---|---|
 | s4lv X投稿の文体（フック3種・締め・口調・禁止事項） | `brands/s4lv/rules/feedback_s4lv_x_writing_style.md` |
-| s4lv Threads投稿の文体（X投稿とは別OS） | `brands/s4lv/rules/feedback_s4lv_threads_writing_style.md` |
+| s4lv Threads投稿の文体（X投稿とは別OS） | `brands/s4lv/rules/threads_post_generation_rules.md`（声は `s4lv_voice.md`） |
 | s4lv Note記事生成プロセス（無料7ステップ・有料3フェーズ） | `brands/s4lv/rules/project_s4lv_note_article_process.md` |
 | MBTICODEリプライの句読点・語尾・「わかります」使用条件 | `brands/mbticode/rules/feedback_mbticode_reply_style.md` |
 | 番組別リライトの落とし穴（CDTV日付更新漏れ・テレ東2枚カード構造・FNS締め文） | `blogs/shira_note/rules/feedback_cdtv_rewrite_checklist.md` ほか同フォルダ |

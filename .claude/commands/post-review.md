@@ -101,7 +101,7 @@
 | ルール | 場所 |
 |---|---|
 | s4lv X文体全定義 | `brands/s4lv/rules/feedback_s4lv_x_writing_style.md` |
-| s4lv Threads文体全定義 | `brands/s4lv/rules/feedback_s4lv_threads_writing_style.md` |
+| s4lv Threadsの決まり（声は s4lv_voice.md） | `brands/s4lv/rules/threads_post_generation_rules.md` |
 | s4lv 素材使用可否・反響設計図 | `brands/s4lv/rules/feedback_s4lv_x_post.md` |
 | MBTICODEリプライ文体 | `brands/mbticode/rules/feedback_mbticode_reply_style.md` |
 | 実体験データ | `brands/s4lv/shared/personal_data.md` / `brands/mbticode/personal_data.md` |

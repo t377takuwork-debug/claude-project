@@ -17,12 +17,10 @@ type: project
 | **声（語尾・話し方・雰囲気・主語・読点。X・Threads共通・2026-10-02新設）** | **`rules/s4lv_voice.md`（唯一の正。下の文体の決まりと食い違うときは、声についてはこちらが優先。古い決まりは整理待ち）** |
 | 本数・投稿時刻（X） | `rules/project_s4lv_operation_system.md`「投稿量」 |
 | **Threads生成の実務ルール（役割・1行目・型ローテ・自己リプ・問い・本数・出力形式）** | **`rules/threads_post_generation_rules.md`（唯一の正・システムプロンプト型）** |
-| Threads の詳細文体リファレンス（AI感禁止リスト・⭕見本・修正見本1〜6。句読点・改行・記号は `rules/sns_kutouten_kaigyo_rules.md`） | `rules/feedback_s4lv_threads_writing_style.md` |
 | 2本柱の定義・比率・アイデンティティ原則 | `rules/project_s4lv_accounts.md` |
 | X文体（フック・本文・締め・禁止・数値の使い方） | `rules/feedback_s4lv_x_writing_style.md` |
 | **句読点・改行・記号（X・Threads共通）** | **`rules/sns_kutouten_kaigyo_rules.md`（唯一の正・両媒体の文体OSはここを参照）** |
 | X反響設計（A/B 2軸）・確定構造 | `rules/feedback_s4lv_x_post.md` |
-| Threads文体の詳細（語尾・専門用語・数字・連続スレッド機構・語彙・絵文字・文字数。句読点・改行・記号は `rules/sns_kutouten_kaigyo_rules.md`） | `rules/feedback_s4lv_threads_writing_style.md` |
 | ネタ元（型・思想＝K項目／AI実働＝A項目・唯一の正） | `x_neta_daicho.md`（旧 `ai_work_log.md` は2026-09-07に統合廃止）。**ネタを選ぶ前に、ファイル末尾の「使用履歴・自動記録」表を必ず見る**（posts_x.txt／posts_threads.txt保存のたびにsync_neta_usage.pyが自動更新・2026-09-14新設。各項目内の手書き「使用履歴」欄は更新が漏れることがあるため、こちらが正） |
 | ネタ元（意見・考え＝柱3・外部きっかけ） | `x_neta_daicho.md`「柱3：意見・考え」（2026-09-22新設）。発掘は `/neta-research`（UYA.と共通・ユーザー指示時のみ実行。候補の置き場は `journals/external_seeds.md`。使うと決めた「意見ネタ」を台帳の柱3へ昇格させてから投稿にする・2026-10-01統合）。X・Threads共通で使える |
 | ネタ元（音声ジャーナル由来・UYA.と共通の受け皿） | `journals/content_seeds.md`（`/journal`が蓄積。s4lvタグの候補を拾う。同一人物のUYA.用ネタと共通の材料になり得るが、**s4lvでは「型・やり方として教える」角度に組み替えてから使う**。同じ素材をUYA.と同じ週に使わない。使うと決めたら`x_neta_daicho.md`の柱1/2形式に落とし込んで台帳へ追記する・2026-09-28新設） |
@@ -30,7 +28,7 @@ type: project
 | 実績数値・開示ルール | `shared/personal_data.md` |
 | 対象読者ペルソナ（3軸） | `rules/project_s4lv_persona.md` |
 | 学びの台帳（確かめられたこと／まだ確かめていない考え／やらないと決めたこと／オーナーの好み／見直しのタイミング／実際の数字の記録） | `rules/s4lv_learnings.md`（2026-09-10新設・`/note-advisor` がいちばん先に読む） |
-| 見本 | Xは `rules/s4lv_voice.md` の見本（旧 `examples_x_posts.md` は2026-10-02に廃止。新しい見本は、オーナーが確定した新しい声の投稿から足していく）／Threadsは `rules/threads_post_generation_rules.md`「見本」（⭕完成形＋修正見本1〜6） |
+| 見本 | Xは `rules/s4lv_voice.md` の見本（旧 `examples_x_posts.md` は2026-10-02に廃止。新しい見本は、オーナーが確定した新しい声の投稿から足していく）／Threadsも同様（旧い見本は2026-10-02に削除。新しい見本は確定した投稿から足す） |
 
 ---
 
@@ -78,7 +76,7 @@ type: project
 6. 誘導回（週1目安）は note_article_index の章の概念チラ見せ。自己完結の手法投稿は台帳K項目、と役割を分ける。有料記事は概念のチラ見せまで（キーワード選定ルール・記事構成テンプレのテキスト直接開示はしない）
 
 ### Threads（媒体＝threads）
-7. **`rules/threads_post_generation_rules.md` を開いて従う（唯一の正）**。要点だけ：1投稿ごとに役割（失敗談／知見／現場メモ）を先に決める・同じ骨格を3本続けない／1行目は指摘・職歴で開かない・「〜してないですか？」は週1本まで（`qa_post.py` `th-shitenai-opener`）／問いで閉じるのは失敗談の回だけ／自己リプは毎回「2つ目の山」1つ・URLなし・本文の結論を繰り返さない・AI実働の自己リプを同型にしない
+7. **`rules/threads_post_generation_rules.md` を開いて従う（唯一の正）**。要点だけ：1投稿ごとに役割（失敗談／知見／現場メモ）を先に決める・同じ骨格を3本続けない／1行目は指摘・職歴で開かない・「〜してないですか？」は週1本まで（`qa_post.py` `th-shitenai-opener`）／問いはバッチの半分以下（返しやすい問いに）／自己リプは毎回「2つ目の山」1つ・URLなし・本文の結論を繰り返さない・AI実働の自己リプを同型にしない
 8. ネタ元は台帳K/A項目のみ・「事実」欄の範囲外＝創作は書かない・**誘導チラ見せ（note_article_index）はフォロワー100まで不使用**
 9. 出力は gen_rules「出力フォーマット」の形（【役割】【狙い】【1行目の仕事】【本文】【自己リプ】【チェック】）
 
@@ -100,7 +98,7 @@ type: project
 - 本文にURL・ハッシュタグ禁止。**字数の固定上限は撤廃（2026-09-10・X Premium加入）**。ただし原則は短く（s4lv規模では「短い＋番号手順」型が伸びやすい）・1行目は1行。詳細は `rules/feedback_s4lv_x_post.md`「文字数ルール」
 
 ### Threads
-**立ち位置・合格ライン・1行目・型ローテ・自己リプ・問い・見本＝`rules/threads_post_generation_rules.md`。細かい文体判断・生成後レビュー＝`feedback_s4lv_threads_writing_style.md`。** 生成前に前者を開く。両方に載っていない cheatsheet 固有の要点だけ再掲：
+**Threadsの決まり（立ち位置・1行目・形の使い分け・自己リプ・問い）＝`rules/threads_post_generation_rules.md`。声＝`rules/s4lv_voice.md`。** 生成前にこの2つを開く。両方に載っていない cheatsheet 固有の要点だけ再掲：
 - 符丁（allintitle・ずらし・一次情報等）：2行目以降で平易な言い換え→用語＋一般語の実例で1回だけ固定。1行目には置かない
 - 主張・チェック項目が2つ以上＝箇条書き（・）。言い切りは多用せず「〜んです」等の親しみ語尾を混ぜる
 - 数字は personal_data 記載のもの・1投稿の主役数値は1つ
@@ -143,7 +141,7 @@ type: project
 
 ## 生成後の工程（Step 3.5以降）
 
-1. **自己レビュー**：X＝`feedback_s4lv_x_writing_style.md`「生成後自己チェック」2セクション（読者の入口／構造レベルのAI臭さ）。Threads＝`feedback_s4lv_threads_writing_style.md` の11項目（特に読点・締めの型・符丁・進行形）
+1. **自己レビュー**：X＝`feedback_s4lv_x_writing_style.md`「生成後自己チェック」2セクション（読者の入口／構造レベルのAI臭さ）。Threads＝`s4lv_voice.md`「提案前の自己チェック」7項目＋`threads_post_generation_rules.md`「出力形式」のチェック欄
 2. **qa_post.py**：ERROR 0件（上表）
 3. **sns-ai-reviewer 審査**：`.claude/agents/sns-ai-reviewer.md` へ委譲。台帳の根拠照合・開示・初心者可読性・名前つきAI臭さ・投稿群整合を見る。**PASSまで保存しない**が、残りが機械的な単純修正（読点1〜2箇所の除去等）だけなら再委譲せず適用して保存（BLOCKまたは3件以上のFIXのときだけ2巡目）。同じ指摘への修正は2巡まで
 4. **保存**：X＝`posts/posts_x.txt` 上書き／Threads＝`posts/posts_threads.txt` 末尾追記 → `queue_from_posts.py`

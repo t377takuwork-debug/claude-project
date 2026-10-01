@@ -16,14 +16,14 @@
   - .claude/commands/quality-guardrail.md           … AIっぽさ禁止表現
   - brands/mbticode/rules/feedback_mbticode_reply_style.md … リプライ・引用RT文体
   - brands/s4lv/rules/feedback_s4lv_x_writing_style.md     … s4lv X投稿文体
-  - brands/s4lv/rules/feedback_s4lv_threads_writing_style.md … s4lv Threads投稿文体（AI感禁止リスト・読点2つまで・締めの型の出典）
+  - brands/s4lv/rules/threads_post_generation_rules.md … s4lv Threads投稿文体（AI感禁止リスト・読点2つまで・締めの型の出典）
     （2026-09-07追加：sns-ai-reviewerで3巡かかった機械的指摘を先取り検知する
      kutouten-3 / closing-binary-q / closing-q-tail-repeat / opener-watashiwa を実装。
      すべてWARN・実ファイル40ブロックで現行文体への誤検知0を確認済み）
     （2026-09-07追加②：Threads運用プレイブック採用に伴い th-url（Threads本文・自己リプの
      外部URL＝フォロワー100まで誘導全廃・ERROR）と th-shitenai-opener /
      th-shitenai-opener-multi（1行目の「〜してないですか？」型指摘フック＝週1本まで・WARN）を実装。
-     出典：feedback_s4lv_threads_writing_style.md「誘導リンクの扱い」「フック（1行目）」。
+     出典：threads_post_generation_rules.md「Threadsだけの決まり」「1行目」。
      旧・誘導リンク付き投稿済みブロックでth-urlが出るため新バッチ検品は --since を付ける）
     （2026-09-10追加：s4lv開示ワード（番組表・タイムテーブル・出演順・放送日・
      「毎年おなじ時期」「数字や日付の差し替え」等）の disclosure-tell を実装。
@@ -657,7 +657,7 @@ def check_mbticode_file(posts, findings):
 # ---------------------------------------------------------------- s4lv
 
 # AI感の禁止リスト（quality-guardrail.md表を移植・2026-08-23 s4lv Threads文体改訂で採用）
-# 出典：brands/s4lv/rules/feedback_s4lv_threads_writing_style.md「AI感の禁止リスト」
+# 出典：brands/s4lv/rules/threads_post_generation_rules.md「書いてはいけない文」
 S4LV_AI_TELL_ERRORS = [
     ("ai-desune", r"(?<!ん)ですね", "「〜ですね」相槌禁止（AI感・s4lv）"),
     ("ai-omoimasu", r"と思います|と感じます", "「と思います/と感じます」禁止・観察として言い切る（AI感・s4lv）"),
@@ -700,7 +700,7 @@ S4LV_ENDING_KINDS = [
 ]
 
 # 1行目に説明なしで置くと読者を選別してしまう符丁（2026-09-04追加・WARN専用・広めの初期辞書）
-# 出典：feedback_s4lv_threads_writing_style.md「専門用語・符丁の扱い」。誤検知が多ければ辞書を削る
+# 出典：threads_post_generation_rules.md「1行目」。誤検知が多ければ辞書を削る
 S4LV_HOOK_JARGON = [
     "allintitle", "参入判定", "撤退判定", "共起語", "ファーストビュー", "一次情報",
     "ドメインパワー", "ドメイン評価", "被リンク", "インデックス", "クローズド案件",
@@ -719,7 +719,7 @@ def check_s4lv_post(post, platform):
     body = post["body"]
     if platform != "threads":
         # 2026-08-23: Threadsは文体改訂でこの禁止を機械チェック対象から外した
-        # （feedback_s4lv_threads_writing_style.md参照）。Xは従来通り絶対禁止。
+        # （threads_post_generation_rules.md参照）。Xは従来通り絶対禁止。
         check_regex(f, post, "ERROR", "meirei", r"しろ。|すべき",
                     "命令口調禁止（〜しろ/〜すべき・s4lv絶対禁止事項）")
     check_regex(f, post, "ERROR", "kougo-toi", r"と思う？",
@@ -727,7 +727,7 @@ def check_s4lv_post(post, platform):
     if platform == "x" and URL_RE.search(body):
         f.append(Finding("ERROR", post["label"], "x-url", "本文にURL禁止（URLはリプライ欄・s4lv）"))
     # Threads：フォロワー100までの期間は本文・自己リプライとも誘導リンク全廃（noteはプロフィール欄のみ）。
-    # 出典：brands/s4lv/rules/feedback_s4lv_threads_writing_style.md「誘導リンクの扱い」／
+    # 出典：brands/s4lv/rules/threads_post_generation_rules.md「Threadsだけの決まり」／
     # sns_post_cheatsheet.md「ハード運用値」（2026-09-07 Threads運用プレイブックで決定）。
     if platform == "threads":
         _url_reply_raw = post.get("reply", "")
@@ -737,7 +737,7 @@ def check_s4lv_post(post, platform):
                              "Threads本文・自己リプライにURL禁止（フォロワー100までは誘導リンク全廃・"
                              "noteはプロフィール欄のみ・2026-09-07プレイブック）"))
     # Threads 1行目の「〜してないですか？」型の指摘フック（週1本まで・連続禁止）。
-    # 出典：feedback_s4lv_threads_writing_style.md「フック（1行目）」。1行目は指摘でなく
+    # 出典：threads_post_generation_rules.md「1行目」。1行目は指摘でなく
     # 自分の現場か具体事実で開く（2026-09-07プレイブック）。誤検知の余地があるためWARN。
     if platform == "threads" and not post["is_reply"]:
         _first = (nonempty_lines(body) or [""])[0].strip()
@@ -782,7 +782,7 @@ def check_s4lv_post(post, platform):
         else:
             run = 0
 
-    # 読点過多（1文に「、」3個以上）＝冗長・AI感（feedback_s4lv_threads_writing_style「句読点・記号」／
+    # 読点過多（1文に「、」3個以上）＝冗長・AI感（sns_kutouten_kaigyo_rules.md／
     # memory feedback_kutouten_kihon_rule_0903「読点は目安2つまで」）。2026-09-07追加。
     # 実測：現行文体(9/4以降)の全バッチで誤検知0。旧8/23バッチの冗長文のみ検出。本文＋自己リプライ両方。
     kt_texts = [("本文", body)]

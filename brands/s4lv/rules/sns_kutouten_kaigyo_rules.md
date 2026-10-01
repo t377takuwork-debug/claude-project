@@ -9,9 +9,9 @@ created: 2026-09-11
 
 **2026-10-02注記**：声（語尾・雰囲気・主語・読点・絵文字）は `rules/s4lv_voice.md` が正。このファイルのうち、読点の上限・絵文字・締め方・主語は、2026-10-02に新しい声に合わせて直した（下の該当箇所）。改行・空行・記号・列挙は、引き続きこのファイルが正。
 
-**この1ファイルが唯一の正。** X投稿（`feedback_s4lv_x_writing_style.md`）・Threads投稿（`feedback_s4lv_threads_writing_style.md`）・`sns_post_cheatsheet.md`・`s4lv_learnings.md`「オーナーの好み」はここを参照する。**ここを直したら同じセッションで `sns_post_cheatsheet.md` の該当箇所（生成前チェック0／媒体別文体の要点）も直す**（派生ファイルなのでズレたらこのファイルが正）。
+**この1ファイルが唯一の正。** X投稿（`feedback_s4lv_x_writing_style.md`）・Threads投稿（`threads_post_generation_rules.md`）・`sns_post_cheatsheet.md`・`s4lv_learnings.md`「オーナーの好み」はここを参照する。**ここを直したら同じセッションで `sns_post_cheatsheet.md` の該当箇所（生成前チェック0／媒体別文体の要点）も直す**（派生ファイルなのでズレたらこのファイルが正）。
 
-由来：X側は2026-09-10にオーナーがXバッチ6本すべてを手直しして固めた型。Threads側は旧 `feedback_s4lv_threads_writing_style.md`「句読点・記号」節。両者は元から矛盾していなかったので、粒度をそろえて1本にした。
+由来：X側は2026-09-10にオーナーがXバッチ6本すべてを手直しして固めた型。Threads側は旧 `feedback_s4lv_threads_writing_style.md`「句読点・記号」節（2026-10-02に削除）。両者は元から矛盾していなかったので、粒度をそろえて1本にした。
 
 ---
 
@@ -46,7 +46,7 @@ created: 2026-09-11
 
 ## 媒体で分ける（このファイルに含めない・各文体OSが正）
 
-| 項目 | X（`feedback_s4lv_x_writing_style.md`） | Threads（`feedback_s4lv_threads_writing_style.md`） |
+| 項目 | X（`feedback_s4lv_x_writing_style.md`） | Threads（`threads_post_generation_rules.md`） |
 |---|---|---|
 | 締め方・語尾 | **2026-10-02改訂**：終わりは `s4lv_voice.md`「形の引き出し」の10種（断言・問い・決意・励まし・保存促し・引き・笑い・所感・体言止め・共感）から選ぶ。疑問符で終えてもよい（問いの形の引き出しにある形・問いはバッチの半分以下）。**引き続き禁止**：格言・教訓のオチ／「〜んだ。」語尾／「〜のは自分です」型の言い切り／「どう思いますか？」のような広い意見募集の問い／「〜ました。」で終わる観察オチ | 声は共通（`s4lv_voice.md`）。問いで閉じる回は失敗談だけ、という制限は撤廃し、問いはバッチの半分以下にする |
 | 強調の「」 | キー概念にも積極的に「」を使って強調してよい | 「」は用語の明示に絞る。キー概念を「」で飾らない・強調は言い換えで |

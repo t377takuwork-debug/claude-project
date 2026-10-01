@@ -2,7 +2,7 @@
 
 > **用途**：X・Threads投稿バッチの生成後・ユーザーへ提案する前に、`sns-ai-reviewer` がこの表で採点する。PASS が出るまで `posts_x.txt` / `posts_threads.txt` へ保存しない。
 > **適用**：**s4lv の X・Threads 投稿のみ**。MBTICODE SNS は `/quality-guardrail`、Note記事は `note-ai-reviewer`、ブログは各 `qa_draft` が担当。s4lv以外・SNS以外を渡されたら「対象外」と返す。
-> **定義の正**：このファイルは「何をどの重さで見るか」だけを決める。各項目の定義は `brands/s4lv/x_neta_daicho.md`（ネタと根拠）・`brands/s4lv/shared/personal_data.md`（実績・開示）・`brands/s4lv/rules/s4lv_voice.md`（声・X/Threads共通）・`brands/s4lv/rules/feedback_s4lv_x_writing_style.md`（X文体）・`brands/s4lv/rules/feedback_s4lv_threads_writing_style.md`（Threads文体）が正。見本は `s4lv_voice.md` の見本（旧 `examples_x_posts.md` は2026-10-02に廃止）。ここに定義を複製しない。
+> **定義の正**：このファイルは「何をどの重さで見るか」だけを決める。各項目の定義は `brands/s4lv/x_neta_daicho.md`（ネタと根拠）・`brands/s4lv/shared/personal_data.md`（実績・開示）・`brands/s4lv/rules/s4lv_voice.md`（声・X/Threads共通）・`brands/s4lv/rules/feedback_s4lv_x_writing_style.md`（X文体）・`brands/s4lv/rules/threads_post_generation_rules.md`（Threadsだけの決まり）が正。見本は `s4lv_voice.md` の見本（旧 `examples_x_posts.md` は2026-10-02に廃止）。ここに定義を複製しない。
 > **2026-10-02改訂**：声（語尾・雰囲気・主語・読点・絵文字・問いかけ・ばらつき）の正は `brands/s4lv/rules/s4lv_voice.md`。新しい声への**適合（決まりを守っているか）**を見る項目として「I. 声とばらつき」を追加し、D（読点）・E8・H（問い）を新しい声に合わせた。見るのは「決まりに合っているか」だけで、声の好みや良し悪し（センス）は引き続き審査しない。
 > **成立**：2026-09-07（`/notekaigi`）。経緯は memory `project_s4lv_x_post_redesign_algo_research_0904`。
 > **改訂**：2026-09-07 パイロット審査を受け、E5（ライブ感要素の有無）を「1つも無ければ FIX」→「常に NOTE（PASSは止めない）」に緩和。純チェックリスト型の簡潔な投稿を、ライブ感要素の欠如だけで落とさないため。
@@ -112,7 +112,7 @@
 | 小さい・現在進行の数字（検索順位・allintitle実測・pv感・成約件数で `personal_data.md`「X本文で文脈つきなら自由に使える数字」記載）で文脈つき → **OK**（指摘しない） | ― | 同上（3項） |
 | AI（Claude Code等）を**完了形で断定**していないか（「AIで再現した」不可。「〜している」「テスト運用中」のみ） | BLOCK | project_s4lv_accounts 原則3／`x_neta_daicho.md` 開示注意・使い方7 |
 | AI実働枠：**丸投げしていない点（判断は自分）**が添えられているか | FIX | `x_neta_daicho.md` 使い方7 |
-| Threadsは数字ルールが別（本文解禁済み・`feedback_s4lv_threads_writing_style.md`）。Note誘導のURLは本文でなくリプライ欄 | 各項 FIX | 各正 |
+| Threadsは数字ルールが別（本文解禁済み・`threads_post_generation_rules.md`）。Note誘導のURLは本文でなくリプライ欄 | 各項 FIX | 各正 |
 
 ### G. 投稿群全体（同日・同バッチに複数本あるとき）
 | 見るもの | 重大度 | 正 |
@@ -126,7 +126,7 @@
 ### H. Threads固有（platform=threads のときのみ追加適用）
 | 見るもの | 重大度 | 正 |
 |---|---|---|
-| `threads_post_generation_rules.md`（合格ライン・1行目・型ローテ・自己リプ・問い）＋ `feedback_s4lv_threads_writing_style.md`（語尾/句読点/専門用語/反響を生む型）：フックと締めの時間軸ズレ・箇条書きにできる主張の文章流し込み・指摘/職歴で始まるフック・符丁の1行目・抽象語の前置き・実績の進行形・締めの問いの型（2026-10-02改訂：失敗談の回のみ、の制限は撤廃。問いはバッチの半分以下・形は引き出しから）・二重引用符/ダッシュ記号・「間」だけの読点・バッチの骨格が単調でないか | 各項目 FIX | threads_post_generation_rules ＋ feedback_s4lv_threads_writing_style |
+| `threads_post_generation_rules.md`（1行目・形の使い分け・自己リプ・問い・符丁・実績）：フックと締めの時間軸ズレ・箇条書きにできる主張の文章流し込み・指摘/職歴で始まるフック・符丁の1行目・抽象語の前置き・実績の進行形・締めの問いの型（2026-10-02改訂：失敗談の回のみ、の制限は撤廃。問いはバッチの半分以下・形は引き出しから）・二重引用符/ダッシュ記号・「間」だけの読点・バッチの骨格が単調でないか | 各項目 FIX | threads_post_generation_rules |
 | 自己リプライがある場合：本文が単体で完結しているか（「続きはリプで」型のぶつ切りでないか） | FIX | s4lv-post Step 7 |
 
 ### I. 声とばらつき（2026-10-02新設・X・Threads共通・正＝`brands/s4lv/rules/s4lv_voice.md`）

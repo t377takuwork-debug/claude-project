@@ -29,7 +29,7 @@ tools: Read, Grep, Glob, PowerShell
 4. `brands/s4lv/rules/s4lv_voice.md` — 声の決まり・ばらつきの決まり・見本（I項目とD・E項目の基準合わせの正。2026-10-02新設。旧見本 `examples_x_posts.md` は廃止）
 5. 媒体別の文体定義（該当1つだけ）：
    - x → `brands/s4lv/rules/feedback_s4lv_x_writing_style.md` の「絶対禁止事項」「生成後自己チェック（読者の入口）」「生成後自己チェック（AI臭さ・構造レベル）」の3セクション
-   - threads → `brands/s4lv/rules/threads_post_generation_rules.md`（生成の実務・唯一の正。合格ライン／1行目／型ローテ／自己リプの役割／問い／見本）＋ `brands/s4lv/rules/feedback_s4lv_threads_writing_style.md` の「語尾・文末」「句読点・記号」「専門用語・符丁の扱い」「反響を生む型」
+   - threads → `brands/s4lv/rules/threads_post_generation_rules.md`（Threadsだけの決まり・唯一の正。1行目／形の使い分け／自己リプ／問い／実績・符丁）＋ `brands/s4lv/rules/s4lv_voice.md`（声）＋ `brands/s4lv/rules/sns_kutouten_kaigyo_rules.md`（句読点・記号）
 6. 対象ファイル本体（該当バッチのブロック全文）
 
 ## 手順

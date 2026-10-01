@@ -149,7 +149,7 @@ AIで書いた記事って、読み返すとなんか違和感あるよね。
 - 締め方（「〜ました。」で終えない、疑問符で閉じない、など）
 - 問いかけの扱い
 - 機械チェック（`brands/tools/qa_post.py`）と審査の基準（`docs/rubrics/sns_ai_tone_rubric.md`）を、この声に合わせて直すこと
-- 古い文体の決まり（`feedback_s4lv_x_writing_style.md`・`feedback_s4lv_threads_writing_style.md`）の整理
+- 古い文体の決まりの整理：Threadsは2026-10-02に `threads_post_generation_rules.md` へ統合済み。X（`feedback_s4lv_x_writing_style.md`）は未整理
 
 ## 古い決まりとの関係
 

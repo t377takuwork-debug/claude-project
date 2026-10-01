@@ -4,7 +4,7 @@ s4lv Threads投稿（1日3本体制：07:30 / 12:00 / 21:30）
 posts/archive/posts_threads_YYYY-MM*.txt へ移動する（ローテーションは司令塔/ユーザー作業）。
 使用済みネタ確認は本ファイルの残存分（直近7日＋未来分）で行う。
 型・2本柱比率・自己リプライ（Note誘導）ローテーションの唯一の正 →
-rules/project_s4lv_accounts.md（2本柱定義）・rules/feedback_s4lv_threads_writing_style.md（文体）・
+rules/project_s4lv_accounts.md（2本柱定義）・rules/threads_post_generation_rules.md（Threadsの決まり）・rules/s4lv_voice.md（声）・
 tools/threads_setup_guide.md「開始前の決定事項」（頻度・トリガー時刻・誘導ローテーション）
 
 自己リプライ（2026-08-23、連続スレッド最大4本連鎖に対応）：本文の閉じ`----`の後に
