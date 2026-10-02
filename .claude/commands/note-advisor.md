@@ -6,7 +6,7 @@ s4lv の「Noteでどう稼ぐか」「X・ThreadsからNoteへどう案内す�
 
 **書き方**：ふだんの言葉で書く（`docs/plain_language_glossary.md`）。専門用語が要るときは横に（かんたんな説明）。
 
-**対象**：s4lv だけ（まずここでためす）。うまく回ったら他のアカウントにも同じ形を作る（`docs/s4lv_knowledge_inventory_0910.md` §6）。
+**対象**：s4lv だけ（まずここでためす）。うまく回ったら他のアカウントにも同じ形を作る。
 
 ---
 
@@ -31,13 +31,12 @@ s4lv の「Noteでどう稼ぐか」「X・ThreadsからNoteへどう案内す�
 | 有料記事の中身・「答えの切り売り」にならないか・字数 | `rules/project_s4lv_note_article_process.md`（マネタイズ設計原則・価格帯別字数・タイトル95点基準） |
 | Note記事の口調 | `brands/writing/writing_tone.md` 0章＋s4lv上書き |
 | 特定の記事についての相談 | `brands/s4lv/drafts/` の該当記事 |
-| X・Threadsからの案内・反応 | `brands/s4lv/sns_post_cheatsheet.md`・`brands/s4lv/tools/s4lv_threads_insights_notes_*.md` |
+| X・Threadsからの案内・反応 | `brands/s4lv/CLAUDE.md`（X・Threadsの決まりの一覧）・`brands/s4lv/tools/s4lv_threads_insights_notes_*.md` |
 | noteの表示数を増やす相談・KPIスクショの切り分け | `brands/reference/note_impression_checklist.md` |
-| 人格・考え方をもっと深く | `rules/project_s4lv_identity.md` |
 
 ### 読まないもの
 
-文体の細かい決まり（threads_post_generation_rules／x_writing_style／examples）・`x_neta_daicho.md` の全文・メモリ。このスキルは「何を出すか」を助言し、「どう書くか」は作るスキル（`/note-article`・`/s4lv-post`）に渡す。
+X・Threadsの書き方の決まり（声と書き方・材料と事実・媒体ごとの決まり）・`x_neta_daicho.md` の全文・メモリ。このスキルは「何を出すか」を助言し、「どう書くか」は作るスキル（`/note-article`・`/s4lv-post`）に渡す。
 
 ---
 
@@ -86,7 +85,7 @@ s4lv の「Noteでどう稼ぐか」「X・ThreadsからNoteへどう案内す�
 |---|---|
 | 実際の数字・オーナーがはっきり言ったこと（「効いた／外れた」「これはやらない」） | 「まだ確かめていない考え」の追加・移動・削除／オーナーの好みを一般化するとき（1回の直しを恒久ルールにするとき） |
 
-- `/s4lv-post` の作業が終わったあとに呼ばれたら、「今回オーナーが直した箇所の**意図**」を1〜3行で台帳「オーナーの好み」へ（文言ではなく「何を嫌ったか／何を求めたか」。すでにある項目と重なるなら書かない）。**`/note-article`（Note記事）の作業のあとは、台帳ではなく `brands/s4lv/rules/note_article_checklist.md` の該当の節へ**（2026-09-21に移した。台帳には書かない）
+- 投稿や記事の書き方の直しは、台帳には書かない。**X・Threads（`/s4lv-post`）の直しは、`brands/s4lv/CLAUDE.md`「決まりを変える手順」で正のファイルへ**。**Note記事（`/note-article`）の直しは、`brands/s4lv/rules/note_article_checklist.md` の該当の節へ**
 - 台帳が150行を超えたら整理（4週ごとの定期に加えて前倒し）を提案する。項目は足すより短くまとめる
 
 ### ④ 会議に回す（/notekaigi へ渡す）

@@ -60,8 +60,7 @@
 | ファイル | 内容 |
 |---|---|
 | `rules/project_s4lv_note_article_process.md` | 無料7ステップ・有料3フェーズ・タイトル95点・**AI臭さ除去3軸**（語尾3種／──禁止・リスト後に肌感覚／謙虚と自信の共存）・Note貼付記法・平易化・2026-07-10執筆ルール（検索クエリ直書き禁止／実績過去形単独禁止／H3は2本以上／引用は文字数比／配布プロンプトは実テスト） |
-| `rules/project_s4lv_identity.md` | 謙虚な実力者・包容力のある断言・命令口調禁止・なまいきくん流（謙虚な毒） |
-| `rules/project_s4lv_accounts.md` | 1アカウント統一・**トーンはカジュアル・親しみやすさ優先（2026-08-19）**・経歴ドラマ排除・数字非表示（プロフィール） |
+| `rules/project_s4lv_accounts.md` | 人格（謙虚な実力者・包容力のある断言・命令口調禁止）・1アカウント統一・**トーンはカジュアル・親しみやすさ優先（2026-08-19）**・経歴ドラマ排除・数字非表示（プロフィール） |
 | `rules/project_s4lv_persona.md` | 3軸ペルソナ・「隣で一緒に確認してくれる距離感」 |
 | `rules/project_s4lv_operation_system.md` | 役割分担（構成合意＝ユーザー／本文＝Claude：執筆→AI臭さ除去→qa→保存）・依頼プロンプト定型 |
 | `shared/personal_data.md`・`rules/project_s4lv_accounts.md`・`articles/note_article_index.md`・`rules/s4lv_learnings.md` | 実績・開示ルール・プロフィール・公開一覧・学びの台帳（`profile.md` は2026-09-10に削除） |

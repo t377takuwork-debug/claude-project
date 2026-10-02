@@ -59,8 +59,9 @@ claude project/
 │   ├── tools/             ← qa_post.py（SNS投稿の機械検品）・qa_article.py（Note記事の機械検品）
 │   ├── writing/           ← ライティング原則4ファイル（起点: writing_core.md）
 │   ├── s4lv/
-│   │   ├── rules/         ← 文体定義・Note記事プロセス・アカウント方針 10本
-│   │   ├── rules/s4lv_voice.md ← 声の決まり・ばらつきの決まり（X・Threads共通・生成前に読む。旧 examples_x_posts.md は2026-10-02に廃止）
+│   │   ├── CLAUDE.md      ← s4lvの入口（正のファイルの一覧・決まりを変える手順）
+│   │   ├── rules/         ← 投稿の決まり・Note記事プロセス・アカウント方針
+│   │   ├── rules/s4lv_voice.md ← 声と書き方の決まり（X・Threads共通・生成前に読む）
 │   │   ├── rules/s4lv_learnings.md ← 学びの台帳（2026-09-10新設・/note-advisor の主参照。プロフィールの正は rules/project_s4lv_accounts.md）
 │   │   └── shared/        ← 実績データ・開示ルール（personal_data.md）
 │   └── mbticode/

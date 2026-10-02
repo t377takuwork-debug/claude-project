@@ -1,18 +1,24 @@
 #!/usr/bin/env python3
 """
 recent_forms.py — 直近の投稿の「形・入り方・終わり・長さ・問い」を一覧し、
-使っていない形と偏りを出す（s4lv 投稿を作る前の確認用・2026-10-02新設）。
+使っていない形と偏りを出す。あわせて、最近使ったネタを一覧にする（s4lv 投稿を作る前の確認用）。
 
-目的：投稿が毎回同じ形・同じ問い・同じ語尾にならないようにする（rules/s4lv_voice.md「ばらつきの決まり」）。
+目的：
+  ・投稿が毎回同じ形・同じ問い・同じ語尾にならないようにする（rules/s4lv_voice.md「ばらつきの決まり」）
+  ・同じネタを続けて使わないようにする（rules/sns_common_rules.md「ネタを選ぶ順番」）
 
 使い方：
-  python brands/s4lv/tools/recent_forms.py                 # X・Threads それぞれ直近10本
+  python brands/s4lv/tools/recent_forms.py                 # X・Threads それぞれ直近10本＋最近使ったネタ
   python brands/s4lv/tools/recent_forms.py --n 8 --platform x
+  python brands/s4lv/tools/recent_forms.py --days 45       # 最近使ったネタを見る日数（既定30日）
 
-見出しのタグ（新しい投稿から付ける）：【...／形：リスト／入り方：困りごと／終わり：断言】
+見出しのタグ：【...／形：リスト／入り方：困りごと／終わり：断言】
 タグが無い古い投稿は、本文から分かる項目（文字数・問い・語尾・1行目）だけ出す。
+最近使ったネタは、見出しの台帳の番号（K◯・A◯）・「柱3」・「ジャーナル」・Note記事への誘導を拾う。
+posts/ の今のファイルと、posts/archive/ の過去分の両方を見る。
 """
 import argparse
+import datetime
 import re
 import sys
 from collections import Counter
@@ -28,7 +34,12 @@ sys.path.insert(0, str(BRANDS / "tools"))
 from qa_post import parse_posts  # noqa: E402
 
 POSTS_DIR = BRANDS / "s4lv" / "posts"
+ARCHIVE_DIR = POSTS_DIR / "archive"
 FILES = {"x": POSTS_DIR / "posts_x.txt", "threads": POSTS_DIR / "posts_threads.txt"}
+
+# 最近使ったネタ：見出しから拾うもの
+NETA_CODE_RE = re.compile(r"(?<![A-Za-z0-9])([KA]\d{1,2})(?![0-9])")
+HDR_DATE_RE = re.compile(r"(\d{1,2})/(\d{1,2})")
 
 # 決まりの語彙（rules/s4lv_voice.md「形の引き出し」と同じ。変えたら両方直す）
 FORMS = ["散文", "リスト", "段階", "物語", "話題所感", "問い", "見出し箇条書き", "矢印", "一言", "日常一言", "節目報告", "連投"]
@@ -185,19 +196,87 @@ def report(name, rows, n):
     print("  " + ("\n  ".join(warns) if warns else "なし"))
 
 
+def all_posts(platform):
+    """過去分（posts/archive/posts_<媒体>_*.txt）と今のファイルを、古い順につなげて返す。"""
+    files = sorted(ARCHIVE_DIR.glob(f"posts_{platform}_*.txt")) + [FILES[platform]]
+    posts = []
+    for f in files:
+        if f.exists():
+            posts.extend(parse_posts(f.read_text(encoding="utf-8")))
+    return posts
+
+
+def neta_of(header):
+    """見出しから、使ったネタの目印を拾う。"""
+    keys = list(dict.fromkeys(NETA_CODE_RE.findall(header)))
+    if "柱3" in header:
+        keys.append("柱3（外の話題）")
+    if "ジャーナル" in header:
+        keys.append("ジャーナル")
+    if "note_article_index" in header or "Note誘導" in header or "誘導の回" in header:
+        keys.append("Note記事への誘導")
+    return keys
+
+
+def header_date(header, today):
+    m = HDR_DATE_RE.search(header)
+    if not m:
+        return None
+    try:
+        d = datetime.date(today.year, int(m.group(1)), int(m.group(2)))
+    except ValueError:
+        return None
+    if (d - today).days > 60:  # 年をまたいだ過去分
+        d = d.replace(year=today.year - 1)
+    return d
+
+
+def report_neta(days):
+    today = datetime.date.today()
+    used, undated = {}, {}
+    for plat, name in (("x", "X"), ("threads", "Threads")):
+        for p in all_posts(plat):
+            d = header_date(p["header"], today)
+            keys = neta_of(p["header"])
+            if d is None:
+                if "未定" in p["header"]:  # 日付未定のストック
+                    for k in keys:
+                        undated.setdefault(k, set()).add(name)
+                continue
+            if (today - d).days > days:
+                continue
+            for k in keys:
+                used.setdefault(k, set()).add((d, name))
+    print(f"\n=== 最近使ったネタ（直近{days}日と予約分・XとThreadsの両方）===")
+    if not used and not undated:
+        print("（なし）")
+        return
+
+    def order(k):
+        if k[0] in "KA" and k[1:].isdigit():
+            return (0 if k[0] == "K" else 1, int(k[1:]))
+        return (2, 0)
+
+    for k in sorted(set(used) | set(undated), key=order):
+        items = [f"{n} {d.month}/{d.day}" for d, n in sorted(used.get(k, ()), reverse=True)]
+        items += [f"{n} 日付未定のストック" for n in sorted(undated.get(k, ()))]
+        print(f"  {k}：" + "、".join(items))
+    print("  ※ ここにあるネタは、同じ角度では使わない。台帳のネタがどれも既出なら、外の話題か音声ジャーナルへ進む")
+
+
 def main():
-    ap = argparse.ArgumentParser(description="直近の投稿の形・入り方・終わりを見える化する")
+    ap = argparse.ArgumentParser(description="直近の投稿の形・入り方・終わりと、最近使ったネタを見える化する")
     ap.add_argument("--n", type=int, default=10, help="見る本数（既定10）")
     ap.add_argument("--platform", choices=["x", "threads", "both"], default="both")
+    ap.add_argument("--days", type=int, default=30, help="最近使ったネタを見る日数（既定30）")
     args = ap.parse_args()
     targets = ["x", "threads"] if args.platform == "both" else [args.platform]
     for t in targets:
-        path = FILES[t]
-        if not path.exists():
-            print(f"（{path.name} が見つかりません）")
+        if not FILES[t].exists():
+            print(f"（{FILES[t].name} が見つかりません）")
             continue
-        posts = parse_posts(path.read_text(encoding="utf-8"))
-        report(t.upper(), summarize(posts), args.n)
+        report(t.upper(), summarize(all_posts(t)), args.n)
+    report_neta(args.days)
 
 
 if __name__ == "__main__":

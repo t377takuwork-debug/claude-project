@@ -12,7 +12,7 @@ UYA.のX・スレッズ投稿を作るスキル。**軽量版**：専用審査�
 2. `uya/shared/personal_data.md` — 実体験データ・開示ルール（本文で使ってよい事実の範囲）
 3. `uya/examples_essay.md` — 口癖・語尾・改行の見本（投稿でも同じ言葉づかいを使う）
 4. `uya/rules/uya_learnings.md` — **学びの台帳（毎回必ず読む）**。cheatsheet・examples_essay.mdにまだ書く場所がない断片的な好みのみ（短い）
-5. `brands/s4lv/rules/sns_kutouten_kaigyo_rules.md` — 句読点・改行・記号（全アカウント共通）
+5. `uya/rules/sns_kutouten_kaigyo_rules.md` — 句読点・改行・記号
 6. `sns_post_cheatsheet.md`「反響を意識するポイント」— プラットフォームの仕組みに沿った書き方（元は`brands/reference/x_algorithm_2026.md`・`threads_algorithm_2026.md`。深掘りが要るときだけこの2本を全文Read）
 
 条件付き参照：直近1〜2週間に保存した`uya/posts/posts_x.txt`・`uya/posts/posts_threads.txt`（同じ話・同じフックの連発を避けるため。存在しなければ確認不要）／`brands/s4lv/posts/posts_x.txt`・`posts_threads.txt`（s4lv側で直近使ったネタと被っていないか確認するため）

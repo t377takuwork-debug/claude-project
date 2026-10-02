@@ -9,9 +9,9 @@ metadata:
 
 s4lvのNote記事（無料・有料）は以下のプロセスで生成する。
 
-**Why:** 2026年4月に確立したプロセス群。旧スキルファイル（`brands\s4lv_pro\.claude\skills\note-article\SKILL.md`・`note-paid-article\SKILL.md`・`brands\s4lv_official\.claude\skills\note-title\SKILL.md`）は2026-07-05のメモリ棚卸しで消失を確認（s4lv_official→brands/s4lv再編時に未移行とみられる）。**現在このメモリが唯一の記録**。グローバル`/note-article`スキルはmbticode中心の別実装。
+**Why:** 2026年4月に確立したプロセス群。このファイルが唯一の記録。
 
-**How to apply:** s4lv記事を再開する際はこのメモリを起点にする。関連資産の所在は[[s4lv-assets-lost]]を先に確認。
+**How to apply:** s4lvの記事を作るときは、このファイルを起点にする。
 
 ## 無料記事：7ステップ
 1. 前提確認（personal_data.md参照・キーワード確認）

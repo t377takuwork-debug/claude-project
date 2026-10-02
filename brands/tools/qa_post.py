@@ -15,19 +15,12 @@
   - brands/mbticode/sns_post_cheatsheet.md          … 文体・記号・字数・型ルール
   - .claude/commands/quality-guardrail.md           … AIっぽさ禁止表現
   - brands/mbticode/rules/feedback_mbticode_reply_style.md … リプライ・引用RT文体
-  - brands/s4lv/rules/feedback_s4lv_x_writing_style.md     … s4lv X投稿文体
-  - brands/s4lv/rules/threads_post_generation_rules.md … s4lv Threads投稿文体（AI感禁止リスト・読点2つまで・締めの型の出典）
-    （2026-09-07追加：sns-ai-reviewerで3巡かかった機械的指摘を先取り検知する
-     kutouten-3 / closing-binary-q / closing-q-tail-repeat / opener-watashiwa を実装。
-     すべてWARN・実ファイル40ブロックで現行文体への誤検知0を確認済み）
-    （2026-09-07追加②：Threads運用プレイブック採用に伴い th-url（Threads本文・自己リプの
-     外部URL＝フォロワー100まで誘導全廃・ERROR）と th-shitenai-opener /
-     th-shitenai-opener-multi（1行目の「〜してないですか？」型指摘フック＝週1本まで・WARN）を実装。
-     出典：threads_post_generation_rules.md「Threadsだけの決まり」「1行目」。
-     旧・誘導リンク付き投稿済みブロックでth-urlが出るため新バッチ検品は --since を付ける）
-    （2026-09-10追加：s4lv開示ワード（番組表・タイムテーブル・出演順・放送日・
-     「毎年おなじ時期」「数字や日付の差し替え」等）の disclosure-tell を実装。
-     Threadsバッチで審査2巡の原因になった開示漏れを生成時点で検知。WARN・高確度語のみ）
+  - brands/s4lv/rules/s4lv_voice.md                  … s4lv 声と書き方（使わない言い方・読点・問い・1行目・ばらつき。X・Threads共通）
+  - brands/s4lv/rules/sns_common_rules.md            … s4lv 材料と事実（開示の言葉・実績の言葉の回数。X・Threads共通）
+  - brands/s4lv/rules/x_post_generation_rules.md     … s4lv Xだけの決まり（本文にURLを入れない）
+  - brands/s4lv/rules/threads_post_generation_rules.md … s4lv Threadsだけの決まり（URLを入れない・長さ・自己リプライ）
+    （s4lv Threadsの新しい分だけを検品するときは --since を付ける。
+     旧い投稿にはURL付きのものがあり th-url が出る）
   - brands/CLAUDE.md 絶対遵守ルール3           … 断定的統計・性的描写・特定個人を傷つける表現の禁止
     （2026-07-26notekaigi Phase1で追加。正規表現の一次防御であり漏れは残る前提。
     完全な意味判定はPhase2のLLM二次判定で補う）
@@ -656,8 +649,8 @@ def check_mbticode_file(posts, findings):
 
 # ---------------------------------------------------------------- s4lv
 
-# AI感の禁止リスト（quality-guardrail.md表を移植・2026-08-23 s4lv Threads文体改訂で採用）
-# 出典：brands/s4lv/rules/threads_post_generation_rules.md「書いてはいけない文」
+# AI感の禁止リスト（s4lv。X・Threads共通）
+# 出典：brands/s4lv/rules/s4lv_voice.md「使わない言い方」
 S4LV_AI_TELL_ERRORS = [
     ("ai-desune", r"(?<!ん)ですね", "「〜ですね」相槌禁止（AI感・s4lv）"),
     ("ai-omoimasu", r"と思います|と感じます", "「と思います/と感じます」禁止・観察として言い切る（AI感・s4lv）"),
@@ -669,17 +662,20 @@ S4LV_AI_TELL_ERRORS = [
     ("ai-yobousen", r"個人差があります|一概には言えません", "責任回避の予防線禁止（AI感・s4lv）"),
 ]
 
-# X専用のAI感禁止パターン（2026-09-06ユーザー指摘・具体例から追加）
-# 出典：brands/s4lv/rules/feedback_s4lv_x_writing_style.md「絶対禁止事項」
-S4LV_X_AI_TELL_ERRORS = [
-    ("x-nda-ending", r"んだ。", "「〜んだ。」語尾禁止（AI感・s4lv X・2026-09-06ユーザー指摘）"),
+# 使わない言い方（X・Threads共通。出典：brands/s4lv/rules/s4lv_voice.md「使わない言い方」）
+# 「〜んだ。」は説明の語尾（「越えられないんだ。」）だけを拾う。漢字のすぐあとの「んだ。」は
+# ふつうの過去形（「選んだ。」「読んだ。」）なので拾わない。
+S4LV_NDA_ERRORS = [
+    ("nda-ending", r"(?<![一-龥々])んだ。", "「〜んだ。」で終える語尾は使わない（s4lv_voice.md「使わない言い方」）"),
 ]
-# 「正直」自体は禁止語ではないが、「正直、〜ます/です。」の告白風ヘッジ構文はAI感が強いとの
-# ユーザー指摘（2026-09-06）。誤検知の余地があるためERRORではなくWARN扱い。
-S4LV_X_AI_TELL_WARNS = [
-    ("x-shojiki-opener", r"正直[、,]?\s*(まだ)?.{0,15}(ます|です)。",
-     "「正直、〜ます/です。」型の告白風ヘッジ構文（正直という語自体の禁止ではない・s4lv X・2026-09-06ユーザー指摘）"),
+# 「正直」という言葉自体は使ってよい。「正直、〜ます/です。」の打ち明け話ふうの形だけを拾う。
+# まちがって拾うことがあるので、ERRORではなくWARN。
+S4LV_SHOJIKI_WARNS = [
+    ("shojiki-opener", r"正直[、,]?\s*(まだ)?.{0,15}(ます|です)。",
+     "「正直、〜ます/です。」型の打ち明け話ふうの言い方（「正直」という言葉自体は使ってよい・s4lv_voice.md「使わない言い方」）"),
 ]
+# 広い意見募集の問い（Threads用。Xは x-question-closing が、引き出しにない形の問い締めをまとめて拾う）
+S4LV_BROAD_Q_RE = re.compile(r"(どう思いますか|どう思います|と思いますか|どうでしょうか|いかがですか|どうですか)[？?]")
 
 # 2026-10-02：問いの許可形（s4lv_voice.md「問いかけ」）。brands/s4lv/tools/recent_forms.py の QUESTION_FORMS と同じ分類
 S4LV_Q_OK_RE = re.compile(r"(ってことありません|ありませんか|ませんか|じゃないですか|いませんか|ない|どうします)[？?]$")
@@ -700,7 +696,7 @@ S4LV_ENDING_KINDS = [
 ]
 
 # 1行目に説明なしで置くと読者を選別してしまう符丁（2026-09-04追加・WARN専用・広めの初期辞書）
-# 出典：threads_post_generation_rules.md「1行目」。誤検知が多ければ辞書を削る
+# 出典：brands/s4lv/rules/s4lv_voice.md「わかりやすさ」。誤検知が多ければ辞書を削る
 S4LV_HOOK_JARGON = [
     "allintitle", "参入判定", "撤退判定", "共起語", "ファーストビュー", "一次情報",
     "ドメインパワー", "ドメイン評価", "被リンク", "インデックス", "クローズド案件",
@@ -718,17 +714,13 @@ def check_s4lv_post(post, platform):
     f = []
     body = post["body"]
     if platform != "threads":
-        # 2026-08-23: Threadsは文体改訂でこの禁止を機械チェック対象から外した
-        # （threads_post_generation_rules.md参照）。Xは従来通り絶対禁止。
+        # 命令口調の機械チェックは X だけ（Threads は 2026-08-23 から対象外）
         check_regex(f, post, "ERROR", "meirei", r"しろ。|すべき",
-                    "命令口調禁止（〜しろ/〜すべき・s4lv絶対禁止事項）")
-    check_regex(f, post, "ERROR", "kougo-toi", r"と思う？",
-                "問いかけの口語体禁止→「と思いますか？」（s4lv）")
+                    "命令口調は使わない（〜しろ/〜すべき・s4lv_voice.md「使わない言い方」）")
     if platform == "x" and URL_RE.search(body):
         f.append(Finding("ERROR", post["label"], "x-url", "本文にURL禁止（URLはリプライ欄・s4lv）"))
-    # Threads：フォロワー100までの期間は本文・自己リプライとも誘導リンク全廃（noteはプロフィール欄のみ）。
-    # 出典：brands/s4lv/rules/threads_post_generation_rules.md「Threadsだけの決まり」／
-    # sns_post_cheatsheet.md「ハード運用値」（2026-09-07 Threads運用プレイブックで決定）。
+    # Threads：フォロワー100までは、本文にも自己リプライにもURLを入れない（noteはプロフィール欄だけ）。
+    # 出典：brands/s4lv/rules/threads_post_generation_rules.md「Threadsだけの決まり」。
     if platform == "threads":
         _url_reply_raw = post.get("reply", "")
         _url_reply_body = REPLY_LABEL_RE.sub("", _url_reply_raw, count=1) if _url_reply_raw else ""
@@ -737,8 +729,8 @@ def check_s4lv_post(post, platform):
                              "Threads本文・自己リプライにURL禁止（フォロワー100までは誘導リンク全廃・"
                              "noteはプロフィール欄のみ・2026-09-07プレイブック）"))
     # Threads 1行目の「〜してないですか？」型の指摘フック（週1本まで・連続禁止）。
-    # 出典：threads_post_generation_rules.md「1行目」。1行目は指摘でなく
-    # 自分の現場か具体事実で開く（2026-09-07プレイブック）。誤検知の余地があるためWARN。
+    # 出典：brands/s4lv/rules/s4lv_voice.md「1行目」。1行目は指摘でなく
+    # 自分の現場か具体事実で開く。誤検知の余地があるためWARN。
     if platform == "threads" and not post["is_reply"]:
         _first = (nonempty_lines(body) or [""])[0].strip()
         if re.search(r"(てない|ていない|じゃない|ないん?)ですか[？?]$", _first):
@@ -747,12 +739,16 @@ def check_s4lv_post(post, platform):
                              "指摘でなく自分の現場か具体事実で開く・2026-09-07プレイブック）"))
     for code, pattern, message in S4LV_AI_TELL_ERRORS:
         check_regex(f, post, "ERROR", code, pattern, message)
-    # X専用AI感チェック（2026-09-06追加）
+    # 使わない言い方（X・Threads共通）
+    for code, pattern, message in S4LV_NDA_ERRORS:
+        check_regex(f, post, "ERROR", code, pattern, message)
+    for code, pattern, message in S4LV_SHOJIKI_WARNS:
+        check_regex(f, post, "WARN", code, pattern, message)
+    if platform == "threads" and not post["is_reply"] and S4LV_BROAD_Q_RE.search(body):
+        f.append(Finding("WARN", post["label"], "th-broad-question",
+                         "広い意見募集の問い（「どう思いますか？」など）。経験ですぐ答えられる問いにする"
+                         "（threads_post_generation_rules.md「問い」）"))
     if platform == "x":
-        for code, pattern, message in S4LV_X_AI_TELL_ERRORS:
-            check_regex(f, post, "ERROR", code, pattern, message)
-        for code, pattern, message in S4LV_X_AI_TELL_WARNS:
-            check_regex(f, post, "WARN", code, pattern, message)
         last = (nonempty_lines(body) or [""])[-1].strip()
         # 2026-10-02：問いで終えてもよい（s4lv_voice.md「問いかけ」の形）。広い意見募集型だけWARN
         if (last.endswith("？") or last.endswith("?")) and not S4LV_Q_OK_RE.search(last):
@@ -782,25 +778,21 @@ def check_s4lv_post(post, platform):
         else:
             run = 0
 
-    # 読点過多（1文に「、」3個以上）＝冗長・AI感（sns_kutouten_kaigyo_rules.md／
-    # memory feedback_kutouten_kihon_rule_0903「読点は目安2つまで」）。2026-09-07追加。
-    # 実測：現行文体(9/4以降)の全バッチで誤検知0。旧8/23バッチの冗長文のみ検出。本文＋自己リプライ両方。
+    # 読点（1文に「、」2個以上でWARN）。出典：brands/s4lv/rules/s4lv_voice.md「書き方の形」。
+    # 本文＋自己リプライの両方を見る。
     kt_texts = [("本文", body)]
     _reply_raw = post.get("reply", "")
     if _reply_raw:
         kt_texts.append(("自己リプライ", REPLY_LABEL_RE.sub("", _reply_raw, count=1)))
     for _tlabel, _ttext in kt_texts:
         for s in sentences(_ttext):
-            # 2026-10-02：読点は1文に1つまで（s4lv_voice.md）。旧：3個以上でWARN（コード名 kutouten-3）
             if s.count("、") >= 2:
                 f.append(Finding("WARN", post["label"], "kutouten-2",
                                  f"1文に読点2個以上（{_tlabel}・1文に1つまで・s4lv_voice.md）: 「{s.strip()[:40]}…」"))
 
-    # 開示ワード（ブログ種別＝テレビ・エンタメ系の定期更新記事が特定される語）が本文・
-    # 自己リプライに出ていないか（2026-09-10追加・WARN）。出典：sns_post_cheatsheet.md
-    # 開示ルール／x_neta_daicho.md A1・A3「開示注意」。2026-09-10のThreadsバッチで
-    # sns-ai-reviewer審査が2巡した原因（「数字や日付の差し替え」「番組表」）を生成時点で
-    # 潰すのが目的。誤検知を避けるため高確度の語句・文脈つきパターンのみ。
+    # 開示の言葉（テレビ・エンタメ系の定期更新記事だと分かる語）が本文・自己リプライに
+    # 出ていないか（WARN）。出典：brands/s4lv/rules/sns_common_rules.md「開示」。
+    # まちがって拾わないよう、確度の高い語句と、文脈つきの形だけを見る。
     DISCLOSURE_TELLS = [
         "番組表", "タイムテーブル", "セットリスト", "セトリ", "出演順", "出演者順",
         "放送日", "放送予定", "毎年おなじ時期", "毎年同じ時期", "毎年書き直",
