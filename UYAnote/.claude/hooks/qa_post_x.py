@@ -170,8 +170,8 @@ def main():
 
     print("=== 全体 ===")
     n = len(bodies)
-    if not 3 <= n <= 5:
-        print(f"[WARN] 本文が{n}本(週3〜5本が目安)")
+    if n > 5:
+        print(f"[WARN] 本文が{n}本(週5本まで)")
         total_warn += 1
     if n and ends_with_q > n / 3:
         print(f"[WARN] 問いで終わる投稿が{ends_with_q}/{n}本(3本に1本以下)")
@@ -179,7 +179,7 @@ def main():
     if ndayone > 1:
         print(f"[WARN] 「〜んだよね」が{ndayone}回(4本のうち1回まで)")
         total_warn += 1
-    if not (ends_with_q > n / 3 or ndayone > 1 or not 3 <= n <= 5):
+    if not (ends_with_q > n / 3 or ndayone > 1 or n > 5):
         print("[OK] 本数・問いの割合・「んだよね」の回数")
     print(f"\n=== 結果: ERROR {total_err}件 / WARN {total_warn}件 ===")
     sys.exit(1 if total_err else 0)
