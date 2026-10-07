@@ -7,7 +7,10 @@
 (X投稿AIの自己チェックと、オーナーの目で見る)。
 
 使い方:
-    python .claude/hooks/qa_post_x.py <提案ファイル(.md)>
+    python .claude/hooks/qa_post_x.py <提案ファイル(.md)> [--threads]
+
+--threads: スレッズ用。字数の上限を全角500字(改行を含む文字数)にする。そのほかの検査はXと同じ
+(3_広報部/スレッズ投稿の型.md が、Xの決まりを引き継ぐため)。
 
 提案ファイルの読み方: 「## 〜本目」などの見出しの下にある ``` で囲んだ部分を1投稿として検査する。
 その直前の行が「自己返信」で始まるものは、自己返信として検査する(自己返信は問いの割合に数えない)。
@@ -31,6 +34,10 @@ BANNED_ENDINGS = ["だけで。", "その繰り返しで。", "だけです。",
 DISCLOSURE_NG = ["ヘルニア", "ロジスティクス", "s4lv", "salvami", "amiibo", "アミーボ"]
 
 MAX_WEIGHT = 280      # 全角=2・半角=1・改行=1
+THREADS_MAX_CHARS = 500   # スレッズ(--threads)は文字数
+THREADS = False
+# スレッズで死にやすい書き出し(threads_algorithm_2026.md)
+THREADS_BAD_OPENINGS = ["方法をまとめました", "学びをシェア", "知らないと損", "保存推奨", "拡散希望"]
 
 
 def weight(text):
@@ -78,9 +85,22 @@ def check_block(label, kind, text):
     if not paragraphs:
         return [("ERROR", "空の投稿")]
 
-    w = weight(text)
-    if w > MAX_WEIGHT:
-        msgs.append(("ERROR", f"字数超過: 重み{w}(上限{MAX_WEIGHT}。全角=2・半角=1・改行=1)"))
+    if THREADS:
+        n_chars = len(text)
+        if n_chars > THREADS_MAX_CHARS:
+            msgs.append(("ERROR", f"字数超過: {n_chars}字(上限{THREADS_MAX_CHARS}字)"))
+        elif kind == "本文" and n_chars < 150:
+            msgs.append(("WARN", f"{n_chars}字。スレッズは経過ごと出すので短すぎないか(目安250〜400字)"))
+        for ph in THREADS_BAD_OPENINGS:
+            if ph in text:
+                msgs.append(("ERROR", f"スレッズで死にやすい言い方「{ph}」"))
+        for ph in ["コメントして", "と返して", "リプして"]:
+            if ph in text:
+                msgs.append(("ERROR", f"反応を要求する言い方「{ph}」"))
+    else:
+        w = weight(text)
+        if w > MAX_WEIGHT:
+            msgs.append(("ERROR", f"字数超過: 重み{w}(上限{MAX_WEIGHT}。全角=2・半角=1・改行=1)"))
     urls = re.findall(r"https?://\S+", text)
     if urls and kind == "本文":
         msgs.append(("ERROR", "本文にURLが入っている(URLは、公開済みの記事がある話題の自己返信にだけ置く)"))
@@ -93,6 +113,8 @@ def check_block(label, kind, text):
             msgs.append(("ERROR", f"AI感フレーズ「{ph}」"))
     for p in paragraphs:
         for s in split_sentences(p):
+            if re.search(r"[てで]。$", s.strip()):
+                msgs.append(("ERROR", f"文末が「〜て。」「〜くて。」の尻切れ(外してほしい言い方): 「...{s.strip()[-14:]}」"))
             if re.search(r"(だった|かった)。$", s.strip()):
                 msgs.append(("ERROR", f"文末が過去形の言い切り: 「...{s.strip()[-14:]}」"))
     flat = text.replace("\n", "")
@@ -136,10 +158,13 @@ def check_block(label, kind, text):
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("使い方: python .claude/hooks/qa_post_x.py <提案ファイル(.md)>")
+    global THREADS
+    args = [a for a in sys.argv[1:] if a != "--threads"]
+    THREADS = len(args) != len(sys.argv) - 1
+    if not args:
+        print("使い方: python .claude/hooks/qa_post_x.py <提案ファイル(.md)> [--threads]")
         sys.exit(1)
-    with open(sys.argv[1], encoding="utf-8") as f:
+    with open(args[0], encoding="utf-8") as f:
         md = f.read()
     blocks = parse_blocks(md)
     if not blocks:
