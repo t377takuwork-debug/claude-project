@@ -2,7 +2,7 @@
 """X投稿の提案ファイルから、Xの予約投稿に貼り付けるためのファイルを作る(UYAnote用)。
 
 使い方:
-    python .claude/hooks/make_paste_x.py <提案ファイル(.md)> <最初の投稿日 YYYY-MM-DD> [出力ファイル]
+    python .claude/hooks/make_paste_x.py <提案ファイル(.md)> <最初の投稿日 YYYY-MM-DD> [出力ファイル] [--only 1,3,4]
 
 投稿は、最初の投稿日から2日おき、20:45 に出す前提で日時を付ける(`X投稿の型.md`)。
 提案ファイルの読み方は qa_post_x.py と同じ(見出し「## 〜本目」の下の ``` ブロック。
@@ -63,10 +63,18 @@ def main():
     if len(sys.argv) < 3:
         print("使い方: python .claude/hooks/make_paste_x.py <提案ファイル> <最初の投稿日 YYYY-MM-DD> [出力ファイル]")
         sys.exit(1)
-    src, start = sys.argv[1], datetime.date.fromisoformat(sys.argv[2])
-    out = sys.argv[3] if len(sys.argv) > 3 else None
+    args = sys.argv[1:]
+    only = None
+    if "--only" in args:
+        i = args.index("--only")
+        only = [int(x) for x in args[i + 1].split(",")]
+        del args[i:i + 2]
+    src, start = args[0], datetime.date.fromisoformat(args[1])
+    out = args[2] if len(args) > 2 else None
     with open(src, encoding="utf-8") as f:
         posts = parse(f.read())
+    if only:
+        posts = [p for p in posts if p["n"] in only]
     if not posts:
         print("[ERROR] 投稿が見つからない")
         sys.exit(1)
