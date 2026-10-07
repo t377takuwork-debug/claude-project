@@ -31,7 +31,6 @@ BANNED_ENDINGS = ["だけで。", "その繰り返しで。", "だけです。",
 DISCLOSURE_NG = ["ヘルニア", "ロジスティクス", "s4lv", "salvami", "amiibo", "アミーボ"]
 
 MAX_WEIGHT = 280      # 全角=2・半角=1・改行=1
-MAX_LINE_WIDTH = 22   # 1行の目安(全角換算。英数字は0.5)
 
 
 def weight(text):
@@ -120,9 +119,6 @@ def check_block(label, kind, text):
         for s in split_sentences(p):
             if s.count("、") > 2:
                 msgs.append(("WARN", f"読点が{s.count('、')}個: 「{s.strip()[:24]}...」"))
-    for ln in text.split("\n"):
-        if line_width(ln) > MAX_LINE_WIDTH:
-            msgs.append(("WARN", f"1行が長い(全角{line_width(ln):.0f}字相当。言葉の切れ目で折る): 「{ln[:20]}...」"))
     ends = []
     for p in paragraphs:
         m = re.search(r"([^\s。？]{2,6})[。？]?$", p.replace("\n", ""))
