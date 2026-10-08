@@ -35,7 +35,7 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 | MBTICODE SNS リプライ・引用ポスト生成 | **`/reply` スキルを起動** |
 | MBTICODE Note記事生成 | **`/note-article mbticode [テーマ]` スキルを起動**（ペルソナ→SEO確認→タイトル→構成→本文→保存まで一貫保証） |
 | s4lv X・Threads投稿バッチ生成 | **`S4LVnote/` フォルダで行う**（2026-10-08に移した。入口は `S4LVnote/CLAUDE.md`。`/s4lv-post` は使わない） |
-| s4lv Note記事・その他作業 | `s4lv/rules/project_s4lv_accounts.md` → `s4lv/rules/project_s4lv_operation_system.md`（Note記事プロセスは `s4lv/rules/project_s4lv_note_article_process.md`） |
+| s4lv Note記事 | **`S4LVnote/` フォルダで行う**（2026-10-08に移した。入口は `S4LVnote/CLAUDE.md`。`/note-article s4lv` は使わない） |
 
 `mbticode/mbticode_tasks.md`（Note記事などの中長期タスクの棚卸し）は、Note記事・戦略の作業のときだけ参照する。SNS投稿の生成では読まない。
 

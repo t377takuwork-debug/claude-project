@@ -17,7 +17,7 @@ Note有料・無料記事をテーマ入力から完成まで一貫して生成�
 
 | アカウント | 専用ファイル（最初に読む） |
 |---|---|
-| **s4lv** | `brands/s4lv/rules/note_article_checklist.md`（オーナーの意図の唯一の正。**資料をもらったら、最初の返信の前に0章を1回で確認**して、食い違いをまとめて質問する。公開後の8章まで） |
+| **s4lv** | **2026-10-08 から `S4LVnote/` フォルダで作る（入口は `S4LVnote/CLAUDE.md`）。このスキルで s4lv を頼まれたら、作業を始めずに「S4LVnote フォルダを選んで、『note記事を書きたい』と頼んでください」と1行返して止める。** 以下は移す前の記録：`brands/s4lv/rules/note_article_checklist.md`（オーナーの意図の唯一の正。**資料をもらったら、最初の返信の前に0章を1回で確認**して、食い違いをまとめて質問する。公開後の8章まで） |
 | **mbticode** | `brands/mbticode/rules/note_article_mbticode.md`（専用の読込・ペルソナ3軸・品質基準・視覚フォーマット・公開前チェックリスト・公開後の処理） |
 | vivant／junk_juice | それぞれ `/vivant-article`／`/junk-article` を使う（このスキルの対象外） |
 
