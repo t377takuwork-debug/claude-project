@@ -54,16 +54,33 @@ def gql(query, variables=None):
         return {"http_error": e.code, "body": e.read().decode("utf-8", "replace")[:800]}
 
 
-CHANNELS = "query { account { organizations { id name channels { id name service } } } }"
+ORGS = "query { account { organizations { id name } } }"
+
+
+def list_channels():
+    """組織ごとに、チャンネルの一覧を返す。組織の中からチャンネルをたどる聞き方は、
+    Bufferが「この情報を見る許可がない」と返すため、組織の番号を渡してチャンネルを聞く（2026-10-08）。"""
+    res = gql(ORGS)
+    orgs = ((res.get("data") or {}).get("account") or {}).get("organizations") or []
+    if not orgs:
+        sys.exit("Bufferの組織が取れません: " + json.dumps(res, ensure_ascii=False)[:300])
+    out = []
+    for org in orgs:
+        q = 'query { channels(input: {organizationId: "%s"}) { id name service } }' % org["id"]
+        r = gql(q)
+        chs = (r.get("data") or {}).get("channels")
+        if chs is None:
+            sys.exit("チャンネルが取れません: " + json.dumps(r, ensure_ascii=False)[:300])
+        out.append({"organization": org.get("name"), "channels": chs})
+    return out
 
 CREATE = """mutation($i: CreatePostInput!){ createPost(input:$i){
  ... on PostActionSuccess { post { id status dueAt } } ... on MutationError { message } } }"""
 
 
 def find_channel():
-    res = gql(CHANNELS)
-    for org in (res.get("data") or {}).get("account", {}).get("organizations", []) or []:
-        for ch in org.get("channels") or []:
+    for org in list_channels():
+        for ch in org["channels"]:
             if ch.get("service") == "twitter" and CHANNEL_NAME.lower() in (ch.get("name") or "").lower():
                 return ch["id"]
     sys.exit(f"Bufferに、名前に「{CHANNEL_NAME}」を含む X のチャンネルが見つかりません。"
@@ -168,7 +185,7 @@ if __name__ == "__main__":
     a = sys.argv[1:]
     cmd = a[0] if a else ""
     if cmd == "channels":
-        print(json.dumps(gql(CHANNELS), ensure_ascii=False, indent=1))
+        print(json.dumps(list_channels(), ensure_ascii=False, indent=1))
     elif cmd in ("list", "send") and len(a) >= 3:
         rest = [x for x in a[3:] if not x.startswith("--")]
         if cmd == "list":
