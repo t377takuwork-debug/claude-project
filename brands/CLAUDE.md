@@ -34,8 +34,8 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 | MBTICODE X・Threads投稿バッチ生成 | **`/mbticode-post` スキルを起動**（参照順序・ファイル一式を保証） |
 | MBTICODE SNS リプライ・引用ポスト生成 | **`/reply` スキルを起動** |
 | MBTICODE Note記事生成 | **`/note-article mbticode [テーマ]` スキルを起動**（ペルソナ→SEO確認→タイトル→構成→本文→保存まで一貫保証） |
-| s4lv X・Threads投稿バッチ生成 | **`/s4lv-post` スキルを起動**（参照順序・QA・sns-ai-reviewer審査を保証）。どの話題はどのファイルが正かは `s4lv/CLAUDE.md` |
-| s4lv Note記事・その他作業 | `s4lv/rules/project_s4lv_accounts.md` → `s4lv/rules/project_s4lv_operation_system.md`（Note記事プロセスは `s4lv/rules/project_s4lv_note_article_process.md`） |
+| s4lv X・Threads投稿バッチ生成 | **`S4LVnote/` フォルダで行う**（2026-10-08に移した。入口は `S4LVnote/CLAUDE.md`。`/s4lv-post` は使わない） |
+| s4lv Note記事 | **`S4LVnote/` フォルダで行う**（2026-10-08に移した。入口は `S4LVnote/CLAUDE.md`。`/note-article s4lv` は使わない） |
 
 `mbticode/mbticode_tasks.md`（Note記事などの中長期タスクの棚卸し）は、Note記事・戦略の作業のときだけ参照する。SNS投稿の生成では読まない。
 
@@ -65,7 +65,7 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 | スキル | 用途 | 使うタイミング |
 |---|---|---|
 | `/mbticode-post` | MBTICODE X・Threads投稿のバッチ生成（1日3本・各週21本体制。最新値は `mbticode/sns_post_cheatsheet.md` が唯一の正） | MBTICODEの投稿バッチを作るたびに |
-| `/s4lv-post` | s4lv X・Threads投稿のバッチ生成（本数・投稿時刻の唯一の正は `s4lv/rules/project_s4lv_operation_system.md`「投稿量」、2本柱の定義は `s4lv/rules/project_s4lv_accounts.md`） | s4lvの投稿バッチを作るたびに |
+| `/s4lv-post` | （使わない。s4lv のX・Threads投稿は 2026-10-08 から `S4LVnote/` で作る） | — |
 | `/reply` | 他者投稿へのリプライ・引用ポスト生成（投稿分析→反映メモ→本文の3ブロック出力） | リプライ・引用ポストを作るたびに |
 | `/note-advisor` | s4lv Note運用アドバイザー（相談／数字の記録／台帳への書き足し／大きな判断は notekaigi に回す）。おもに読むのは `s4lv/rules/s4lv_learnings.md`（学びの台帳）。s4lvのみ・他アカウントは s4lv が回ってから同じ形にする | テーマ・価格・読者を案内する流れ・記事の判断を気軽に相談するとき、数字の画面（スクショ）を渡すとき |
 | `/note-article [アカウント] [テーマ]` | Note記事をペルソナ→SEO確認→タイトル→構成→本文→drafts保存まで一貫生成 | 記事を作るたびに |

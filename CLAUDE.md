@@ -26,6 +26,7 @@ claude project/
 │   └── junk_juice/ ← 60代推し活エッセイアカウント（rules/に品質基準3本）
 ├── vivant/         ← 新規Noteアカウント（ジャンル未定・情報ベース記事。→ vivant/CLAUDE.md を参照）
 ├── UYAnote/        ← 「UYA.」（Note/X/スレッズ）の運用システム（働き方・生き方エッセイ＋AI/ブログ/SNSの実践記録。s4lv等とは独立。記事・X・スレッズ・分析のAIと決まりが全部入っている。→ UYAnote/CLAUDE.md を参照）
+├── S4LVnote/       ← 「s4lv」（Note/X/スレッズ）の運用システム（UYAnoteと同じ形。記事・X・スレッズ・分析のAIと決まりが入っている。古い brands/s4lv/ は段階4まで保険として残す。→ S4LVnote/CLAUDE.md を参照）
 └── journals/       ← 音声ジャーナル資産化パイプライン（→ journals/CLAUDE.md を参照）
 ```
 
@@ -87,9 +88,10 @@ claude project/
 | vtuber_log 記事新規作成（画像自動配置） | `/vtuber-article` スキルを起動 |
 | vtuber_log リライト | `blogs/vtuber_log/CLAUDE.md` |
 | darepedia 記事新規作成 | `/darepedia-article` スキルを起動 |
-| Note記事生成（s4lv/MBTICODE） | `brands/CLAUDE.md` |
+| Note記事生成（MBTICODE） | `brands/CLAUDE.md` |
 | s4lv Note運用の相談・数字の記録（テーマ／価格／読者を案内する流れ／記事の判断） | `/note-advisor` スキルを起動 |
-| X・Threads投稿生成 | `brands/CLAUDE.md` |
+| s4lv の note記事・X・スレッズ投稿（作る・予約・分析。作業は `S4LVnote/` フォルダで始める） | `S4LVnote/CLAUDE.md` |
+| X・Threads投稿生成（MBTICODE） | `brands/CLAUDE.md` |
 | junk_juice Note記事（テーマ・タイトル） | `/junk-theme` スキルを起動 |
 | junk_juice Note記事（構成・本文・保存） | `/junk-article` スキルを起動 |
 | vivant 新話の考察DB更新（新話放送後） | `/vivant-episode-update [話数]` スキルを起動 |
