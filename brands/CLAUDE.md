@@ -8,16 +8,16 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 
 | アカウント | 媒体 | 目的 |
 |---|---|---|
-| s4lv | Note・X・Threads | 10年の「設計の型」×AI実働記録（1アカウント。入口は `s4lv/CLAUDE.md`） |
+| s4lv | Note・X・Threads | 10年の「設計の型」×AI実働記録（1アカウント。入口は `S4LVnote/CLAUDE.md`） |
 | MBTICODE | Note・X・Threads | MBTI×ラブタイプ診断×有料記事マネタイズ |
 
 ---
 
 ## 絶対遵守ルール（全アカウント共通）
 
-1. **捏造禁止**：コンテンツ作成時は各アカウントの `personal_data.md` を参照し、実体験に基づく内容のみ使用する（s4lv系→`s4lv/shared/personal_data.md`）
+1. **捏造禁止**：コンテンツ作成時は各アカウントの `personal_data.md` を参照し、実体験に基づく内容のみ使用する（s4lv系→`S4LVnote/0_社長室/S4LV設定/personal_data.md`）
    - **MBTICODE例外（2026-09-17改訂）**：MBTICODEは記事生成時に `mbticode/personal_data.md` を参照しない（2026-07-30時点の「該当する実体験があれば参照する」方針から、参照自体をやめる方針へ変更）。実体験の有無によらず、Note記事生成のStep1で設計したペルソナに基づく一般化された場面として書く。一人称は使ってよいが、「実際にあった」「自分の経験では」等、読者に発信者本人の確定した実体験だと誤認させる書き方はしない（詳細は `brands/mbticode_tone.md`「実体験データの扱い」）。ルール3（性的描写・断定的統計・特定個人を傷つける表現の禁止）は引き続き適用する。s4lvには適用しない
-   - **s4lv例外（2026-09-22新設・柱3のみ）**：s4lvのX/Threads投稿のうち、`s4lv/x_neta_daicho.md`「柱3：意見・考え」から作る投稿に限り、意見・考えそのものは実体験に紐づかなくてよい（`/neta-research` で見つけた外部の話題・ニュースをきっかけにしてよい。決まりの全文は `s4lv/rules/sns_common_rules.md`）。ただし**意見を裏付けるための具体的なエピソード（「実際にこういうことがあった」等の体験談）は禁止**で、そこは引き続き `personal_data.md`・台帳の柱1／柱2「事実」欄の範囲内のみ使用する。柱1・柱2（型・思想／AI実働）から作る投稿には適用しない
+   - **s4lv例外（2026-09-22新設・柱3のみ）**：s4lvのX/Threads投稿のうち、`S4LVnote/0_社長室/x_neta_daicho.md`「柱3：意見・考え」から作る投稿に限り、意見・考えそのものは実体験に紐づかなくてよい（`/neta-research` で見つけた外部の話題・ニュースをきっかけにしてよい。決まりの全文は `S4LVnote/3_広報部/sns_common_rules.md`）。ただし**意見を裏付けるための具体的なエピソード（「実際にこういうことがあった」等の体験談）は禁止**で、そこは引き続き `personal_data.md`・台帳の柱1／柱2「事実」欄の範囲内のみ使用する。柱1・柱2（型・思想／AI実働）から作る投稿には適用しない
 2. **開示ルール**：各 `personal_data.md` の開示ルールテーブルを必ず確認する（MBTICODEはNote記事生成では2026-09-17より対象外＝上記1参照。SNS投稿生成（`/mbticode-post`）では引き続き `mbticode/personal_data.md` を参照するため対象のまま）
 3. **Note規約遵守**：性的描写・断定的統計・特定個人を傷つける表現は禁止
 4. **一次情報の参照**：MBTICODEのコンテンツ生成時は `mbticode/reference/` フォルダを参照する（架空データ使用禁止）
@@ -48,7 +48,7 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 ### プロジェクトファイル（必要時のみ参照）
 | ファイル | 内容 |
 |---|---|
-| `s4lv/shared/personal_data.md` | s4lv共通プロフィール・実績データ・開示ルール |
+| `S4LVnote/0_社長室/S4LV設定/personal_data.md` | s4lv共通プロフィール・実績データ・開示ルール |
 | `mbticode/personal_data.md` | MBTICODE発信者実体験データ・開示ルール・コンテンツ変換ルール |
 | `sns_reply_guideline.md` | 他者投稿へのリプライ・引用RT設計（Brands全アカウント共通＋アカウント別） |
 | `mbticode/reference/dskb_quick_ref.md` | DSKB 16タイプ クイックリファレンス（通常投稿はこちらで対応） |
@@ -67,7 +67,7 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 | `/mbticode-post` | MBTICODE X・Threads投稿のバッチ生成（1日3本・各週21本体制。最新値は `mbticode/sns_post_cheatsheet.md` が唯一の正） | MBTICODEの投稿バッチを作るたびに |
 | `/s4lv-post` | （使わない。s4lv のX・Threads投稿は 2026-10-08 から `S4LVnote/` で作る） | — |
 | `/reply` | 他者投稿へのリプライ・引用ポスト生成（投稿分析→反映メモ→本文の3ブロック出力） | リプライ・引用ポストを作るたびに |
-| `/note-advisor` | s4lv Note運用アドバイザー（相談／数字の記録／台帳への書き足し／大きな判断は notekaigi に回す）。おもに読むのは `s4lv/rules/s4lv_learnings.md`（学びの台帳）。s4lvのみ・他アカウントは s4lv が回ってから同じ形にする | テーマ・価格・読者を案内する流れ・記事の判断を気軽に相談するとき、数字の画面（スクショ）を渡すとき |
+| `/note-advisor` | （s4lv の note 運用の相談は、2026-10-08 から `S4LVnote/` フォルダで行う。入口は `S4LVnote/CLAUDE.md`） | — |
 | `/note-article [アカウント] [テーマ]` | Note記事をペルソナ→SEO確認→タイトル→構成→本文→drafts保存まで一貫生成 | 記事を作るたびに |
 | `/notekaigi` | 大きな方針を決める会議（全アカウント共通・開く条件3つ：あとから戻せない／どっちかしか取れない／いま決められる） | 価格・方針の変更・プロフィールの書き換え・実績をどこまで見せるか など、あとから戻しにくい判断のとき。いつもの作業・数字待ちのものは対象外 |
 | `/asp-kaigi` | ASP案件・収益化戦略会議 | ASP案件の選定・戦略を決めるとき |
@@ -87,5 +87,5 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 | `brands/tools/qa_post.py` | SNS投稿の機械検品（ERROR 0件が保存条件）。`python brands/tools/qa_post.py <postsファイル>` |
 | `brands/tools/qa_article.py` | Note記事の機械検品（ERROR 0件が保存条件）。有料記事は `--paid` |
 | `mbticode/examples_sns.md` | MBTICODE投稿のGood/Bad見本（旧文体のため、文体の再構築が終わるまで生成時は読まない。2026-09-30） |
-| `s4lv/rules/s4lv_voice.md` | s4lv X・Threadsの声と書き方の決まり・見本（生成前に読む） |
+| `S4LVnote/3_広報部/s4lv_voice.md` | s4lv X・Threadsの声と書き方の決まり・見本（生成前に読む） |
 | `docs/rubrics/title_scoring.md` | タイトル配点表（採点してから提示・点数捏造禁止） |
