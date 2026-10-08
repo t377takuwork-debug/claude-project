@@ -1,8 +1,8 @@
 <!-- wp:paragraph -->
 タイトル：鬼レンチャン 佐々木大光は誰？9/27の挑戦者｜KEY TO LITのドラム担当
 
-メタディスクリプション（90字）：
-9/27（日）放送の「千鳥の鬼レンチャン」サビだけカラオケに初参戦するKEY TO LITの佐々木大光さん。ドラム担当のプロフィールや見どころ・放送日時・見逃し配信をまとめました。
+メタディスクリプション（92字）：
+9/27（日）放送の「千鳥の鬼レンチャン」サビだけカラオケに初参戦したKEY TO LITの佐々木大光さん。結果は1レンチャンでした。プロフィールや歌った曲・見逃し配信をまとめました。
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -10,7 +10,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>9/27（日）放送の「千鳥の鬼レンチャン」サビだけカラオケに初参戦する佐々木大光さんが誰なのか、プロフィール・放送日時・見逃し配信をまとめました。</p>
+<p>9/27（日）放送の「千鳥の鬼レンチャン」サビだけカラオケに初参戦した佐々木大光さんが誰なのか、プロフィールと結果・見逃し配信をまとめました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -39,7 +39,7 @@
     <div style="display: flex; align-items: flex-start; gap: 8px;">
       <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; border: 1px solid #2b4288; color: #2b4288; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 1px;">挑戦者</div>
       <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">
-        4名が発表済み
+        4名が出演
         <div style="font-size: 10px; font-weight: 500; color: #666; margin-top: 3px;">佐々木大光はサビだけカラオケに初参戦</div>
       </div>
     </div>
@@ -54,17 +54,17 @@
 
     <div style="background: rgba(217, 76, 99, 0.06); border-left: 3px solid #d94c63; padding: 8px 10px;">
       <div style="font-size: 10.5px; color: #d94c63; font-weight: 800; margin-bottom: 2px;">
-        結果：放送後に更新
+        結果：1レンチャン
       </div>
       <div style="font-size: 9px; font-weight: 500; color: #888;">
-        何レンチャンだったかを書き足します
+        2曲目の「小さな恋のうた」で失敗
       </div>
     </div>
 
   </div>
 
   <div style="background: #fcfcfc; padding: 10px 12px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #eee;">
-    <div style="color: #999; font-size: 9px;">Update: 2026.09.26</div>
+    <div style="color: #999; font-size: 9px;">Update: 2026.10.09</div>
     <a href="#st-toc-h-1" style="display: inline-flex; align-items: center; background: #d94c63; color: #fff; text-decoration: none; font-size: 10.5px; font-weight: 800; padding: 5px 12px; border-radius: 20px; box-shadow: 0 4px 10px rgba(217, 76, 99, 0.2);">
       詳細を確認 <span style="margin-left: 4px; font-size: 11px;">↓</span>
     </a>
@@ -78,7 +78,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>結果など新しい情報はあり次第更新していきます！</p>
+<p>放送が終わったので、3人の結果をこの記事に書き足しました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -191,7 +191,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>佐々木大光さんは鬼レンチャンのサビだけカラオケに初参戦します。</p>
+<p>佐々木大光さんは鬼レンチャンのサビだけカラオケに初参戦しました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -202,12 +202,12 @@
 
       <div style="background: #ffffff; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d94c63;">
         <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800; color: #2b4288;">佐々木大光（KEY TO LIT）</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">サビだけカラオケに初参戦。今冬CDデビューが決まっています。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">サビだけカラオケに初参戦して1レンチャンでした。</p>
       </div>
 
       <div style="background: #ffffff; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #2f51b7;">
         <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800; color: #2b4288;">SARI</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">ZARD激似モノマネで最高9レンチャンの記録があります。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">リベンジ参戦で6レンチャンでした。</p>
       </div>
 
       <div style="background: #ffffff; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #2f51b7;">
@@ -217,7 +217,7 @@
 
       <div style="background: #ffffff; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #2f51b7;">
         <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800; color: #2b4288;">ダイアナ・ガーネット</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">アメリカ出身のアニソン歌手で今回が初参戦です。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">初参戦で9レンチャンまで進みました。</p>
       </div>
 
     </div>
@@ -229,11 +229,11 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>佐々木さんは事務所の先輩たちが成し遂げられなかった初登場での鬼レンチャン達成を目指すそうです。</p>
+<p>佐々木さんは事務所の先輩たちが成し遂げられなかった初登場での鬼レンチャン達成を目指して挑みました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演の経緯についても佐々木さんから怒りとともに明かされるそうで気になりますね。</p>
+<p>番組の冒頭では、メインボーカルの2人が出て失敗するとグループのイメージに関わるというマネージャーの判断で自分が送り込まれたと明かしています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -245,15 +245,49 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>佐々木大光は何レンチャン？歌った曲と結果【放送後に更新】</h2>
+<h2>佐々木大光は何レンチャン？歌った曲と結果</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>放送前なので結果はまだありません。</p>
+<p>佐々木大光さんの結果は1レンチャンで、2曲目に失敗しました。</p>
 <!-- /wp:paragraph -->
 
+<!-- wp:html -->
+<aside role="region" aria-label="佐々木大光 サビだけカラオケの結果" style="display: block; font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif; background: #ffffff; color: #333333; border: 1px solid #ead3ce; border-radius: 4px; overflow: hidden; max-width: 100%; margin: 10px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+
+  <div style="background: #2b4288; padding: 10px 15px; border-bottom: 2px solid #d94c63;">
+    <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.1em; color: #ffe3e8;">佐々木大光 サビだけカラオケの結果</div>
+  </div>
+
+  <div style="padding: 14px 12px; text-align: center;">
+    <div style="font-size: clamp(26px, calc(26px + (100vw - 480px) / 120), 34px); font-weight: 900; color: #d94c63; line-height: 1.2;">1レンチャン</div>
+    <div style="font-size: 12px; font-weight: 700; color: #2b4288; margin-top: 4px;">2曲目の「小さな恋のうた」で失敗</div>
+  </div>
+
+    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de;">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">1</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">眠り姫</div>
+        <div style="font-size: 10px; color: #777;">SEKAI NO OWARI</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; border: 1px solid #2f51b7; color: #2f51b7;">成功</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de; background: rgba(217, 76, 99, 0.08);">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">2</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">小さな恋のうた</div>
+        <div style="font-size: 10px; color: #777;">MONGOL800</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; background: #d94c63; color: #ffffff;">失敗</div>
+    </div>
+
+  <div style="background: #fcfcfc; padding: 8px 12px; border-top: 1px solid #eee; color: #999; font-size: 9px; line-height: 1.6;">放送後のニュース記事や番組の記録をもとにしています。</div>
+
+</aside>
+<!-- /wp:html -->
+
 <!-- wp:paragraph -->
-<p>何レンチャンだったかと歌った曲は放送後にここへ書き足します。</p>
+<p>事務所の先輩たちが成し遂げられなかった初登場での鬼レンチャン達成は、ここまででした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -261,7 +295,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>公式Xでは見逃した方向けにTVer・FOD・Netflixでの配信が案内されています。</p>
+<p>見逃した方向けに、公式XではTVer・FOD・Netflixでの配信が案内されています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -305,7 +339,7 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>放送中はTVerのリアルタイム配信でも見られるようです。</p>
+<p>リアルタイム配信は放送中のみでしたので、見逃し配信を使ってください。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -345,19 +379,19 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>鬼レンチャンに出る佐々木大光さんはKEY TO LITのドラム担当で2002年生まれの東京都出身です。</p>
+<p>鬼レンチャンに出た佐々木大光さんはKEY TO LITのドラム担当で、2002年生まれの東京都出身です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>9月27日（日）19:00〜21:00のサビだけカラオケに初参戦します。</p>
+<p>9月27日（日）のサビだけカラオケに初参戦して、結果は1レンチャンでした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>ほかの挑戦者はSARIさん・せいやさん・ダイアナ・ガーネットさんです。</p>
+<p>1曲目の「眠り姫」は成功して、2曲目の「小さな恋のうた」で失敗しています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>結果は放送後に書き足していくのでぜひまた見に来てくださいね。</p>
+<p>同じ回の挑戦者はSARIさん・せいやさん・ダイアナ・ガーネットさんです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
@@ -375,7 +409,7 @@
         "@id": "https://shira-treat.com/sasaki-taiko-onirenchan/"
       },
       "headline": "鬼レンチャン 佐々木大光は誰？9/27の挑戦者｜KEY TO LITのドラム担当",
-      "description": "9/27（日）放送の「千鳥の鬼レンチャン」サビだけカラオケに初参戦するKEY TO LITの佐々木大光さん。ドラム担当のプロフィールや見どころ・放送日時・見逃し配信をまとめました。",
+      "description": "9/27（日）放送の「千鳥の鬼レンチャン」サビだけカラオケに初参戦したKEY TO LITの佐々木大光さん。結果は1レンチャンでした。プロフィールや歌った曲・見逃し配信をまとめました。",
       "keywords": [
         "佐々木大光",
         "佐々木大光 鬼レンチャン",
@@ -383,11 +417,12 @@
         "佐々木大光 KEY TO LIT",
         "鬼レンチャン サビだけカラオケ",
         "千鳥の鬼レンチャン 挑戦者",
-        "KEY TO LIT ドラム"
+        "KEY TO LIT ドラム",
+        "鬼レンチャン 佐々木大光 結果"
       ],
       "datePublished": "2026-09-26T20:00:00+09:00",
       "dateCreated": "2026-09-26T20:00:00+09:00",
-      "dateModified": "2026-09-26T20:00:00+09:00",
+      "dateModified": "2026-10-09T02:30:00+09:00",
       "inLanguage": "ja",
       "image": {
         "@type": "ImageObject",
@@ -452,7 +487,7 @@
         "@type": "VirtualLocation",
         "url": "https://www.fujitv.co.jp/oniren/"
       },
-      "description": "フジテレビで2026年9月27日に放送される「サビだけカラオケ」の回。KEY TO LITの佐々木大光が初参戦する。",
+      "description": "フジテレビで2026年9月27日に放送される「サビだけカラオケ」の回。KEY TO LITの佐々木大光が初参戦して1レンチャンだった。",
       "image": "https://shira-treat.com/wp-content/uploads/2026/09/image-16.webp",
       "broadcaster": {
         "@type": "Organization",

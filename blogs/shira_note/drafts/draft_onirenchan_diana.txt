@@ -1,8 +1,8 @@
 <!-- wp:paragraph -->
 タイトル：鬼レンチャン ダイアナ・ガーネットは誰？9/27の挑戦者｜日本の歌が上手い外国人
 
-メタディスクリプション（103字）：
-「世界一日本の曲が上手い外国人」と紹介されるダイアナ・ガーネットさんが、9/27（日）放送の「千鳥の鬼レンチャン」サビだけカラオケに初参戦。プロフィールや経歴・見どころ・放送日時・見逃し配信をまとめました。
+メタディスクリプション（111字）：
+「世界一日本の曲が上手い外国人」と紹介されるダイアナ・ガーネットさんが、9/27（日）放送の「千鳥の鬼レンチャン」サビだけカラオケに初参戦。結果は9レンチャンでした。プロフィールや経歴・歌った曲・見逃し配信をまとめました。
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -10,11 +10,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>9/27（日）の「千鳥の鬼レンチャン」で初めて歌うダイアナ・ガーネットさんが誰なのか、経歴と見どころをまとめました。</p>
+<p>9/27（日）の「千鳥の鬼レンチャン」で初めて歌ったダイアナ・ガーネットさんが誰なのか、経歴と結果をまとめました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>放送日時と見逃し配信も載せています。</p>
+<p>歌った曲と見逃し配信も載せています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -43,7 +43,7 @@
     <div style="display: flex; align-items: flex-start; gap: 8px;">
       <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; border: 1px solid #2b4288; color: #2b4288; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 1px;">挑戦者</div>
       <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">
-        4名が発表済み
+        4名が出演
         <div style="font-size: 10px; font-weight: 500; color: #666; margin-top: 3px;">サビだけカラオケに初参戦</div>
       </div>
     </div>
@@ -58,17 +58,17 @@
 
     <div style="background: rgba(217, 76, 99, 0.06); border-left: 3px solid #d94c63; padding: 8px 10px;">
       <div style="font-size: 10.5px; color: #d94c63; font-weight: 800; margin-bottom: 2px;">
-        結果：放送後に更新
+        結果：9レンチャン
       </div>
       <div style="font-size: 9px; font-weight: 500; color: #888;">
-        初参戦の結果を書き足します
+        10曲目の「promise」で失敗
       </div>
     </div>
 
   </div>
 
   <div style="background: #fcfcfc; padding: 10px 12px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #eee;">
-    <div style="color: #999; font-size: 9px;">Update: 2026.09.26</div>
+    <div style="color: #999; font-size: 9px;">Update: 2026.10.09</div>
     <a href="#st-toc-h-1" style="display: inline-flex; align-items: center; background: #d94c63; color: #fff; text-decoration: none; font-size: 10.5px; font-weight: 800; padding: 5px 12px; border-radius: 20px; box-shadow: 0 4px 10px rgba(217, 76, 99, 0.2);">
       詳細を確認 <span style="margin-left: 4px; font-size: 11px;">↓</span>
     </a>
@@ -82,7 +82,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>結果など新しい情報はあり次第更新していきます！</p>
+<p>放送が終わったので、3人の結果をこの記事に書き足しました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -179,11 +179,11 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>9月27日（日）の夜7時から2時間フジテレビで放送されます。</p>
+<p>9月27日（日）の夜7時から2時間フジテレビで放送されました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>ダイアナ・ガーネットさんは番組のオーディションを突破してサビだけカラオケに初参戦します。</p>
+<p>ダイアナ・ガーネットさんは番組のオーディションを突破してサビだけカラオケに初参戦しました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -194,12 +194,12 @@
 
       <div style="background: #ffffff; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #2f51b7;">
         <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800; color: #2b4288;">佐々木大光（KEY TO LIT）</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">サビだけカラオケに初参戦。今冬CDデビューが決まっています。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">サビだけカラオケに初参戦して1レンチャンでした。</p>
       </div>
 
       <div style="background: #ffffff; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #2f51b7;">
         <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800; color: #2b4288;">SARI</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">ZARD激似モノマネで最高9レンチャンの記録があります。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">リベンジ参戦で6レンチャンでした。</p>
       </div>
 
       <div style="background: #ffffff; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #2f51b7;">
@@ -209,7 +209,7 @@
 
       <div style="background: #ffffff; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d94c63;">
         <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800; color: #2b4288;">ダイアナ・ガーネット</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">アメリカ出身のアニソン歌手で今回が初参戦です。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">初参戦で9レンチャンまで進みました。</p>
       </div>
 
     </div>
@@ -221,15 +221,11 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>公式Xには、たくさん練習してきたので自信があるというコメントが載っています。</p>
+<p>公式Xには、たくさん練習してきたので自信があるというコメントが載っていました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>テレビ東京の「カラオケ★バトル」でも優勝した実力の持ち主です。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>初登場での鬼レンチャン達成に挑みます。</p>
+<p>テレビ東京の「カラオケ★バトル」でも優勝した実力の持ち主で、初登場での鬼レンチャン達成に挑みました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -241,15 +237,117 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>ダイアナ・ガーネットの初参戦の結果｜何レンチャン？歌った曲は？【放送後に更新】</h2>
+<h2>ダイアナ・ガーネットの初参戦の結果｜何レンチャン？歌った曲は？</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>結果は放送が終わってからここに載せます。</p>
+<p>ダイアナ・ガーネットさんの結果は9レンチャンで、10曲目で失敗しました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="ダイアナ・ガーネット サビだけカラオケの結果" style="display: block; font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif; background: #ffffff; color: #333333; border: 1px solid #ead3ce; border-radius: 4px; overflow: hidden; max-width: 100%; margin: 10px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+
+  <div style="background: #2b4288; padding: 10px 15px; border-bottom: 2px solid #d94c63;">
+    <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.1em; color: #ffe3e8;">ダイアナ・ガーネット サビだけカラオケの結果</div>
+  </div>
+
+  <div style="padding: 14px 12px; text-align: center;">
+    <div style="font-size: clamp(26px, calc(26px + (100vw - 480px) / 120), 34px); font-weight: 900; color: #d94c63; line-height: 1.2;">9レンチャン</div>
+    <div style="font-size: 12px; font-weight: 700; color: #2b4288; margin-top: 4px;">10曲目の「promise」で失敗</div>
+  </div>
+
+    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de;">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">1</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">タッチ</div>
+        <div style="font-size: 10px; color: #777;">岩崎良美</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; border: 1px solid #2f51b7; color: #2f51b7;">成功</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de;">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">2</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">赤いスイートピー</div>
+        <div style="font-size: 10px; color: #777;">松田聖子</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; border: 1px solid #2f51b7; color: #2f51b7;">成功</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de;">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">3</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">津軽海峡・冬景色</div>
+        <div style="font-size: 10px; color: #777;">石川さゆり</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; border: 1px solid #2f51b7; color: #2f51b7;">成功</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de;">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">4</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">炎</div>
+        <div style="font-size: 10px; color: #777;">LiSA</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; border: 1px solid #2f51b7; color: #2f51b7;">成功</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de;">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">5</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">そばかす</div>
+        <div style="font-size: 10px; color: #777;">JUDY AND MARY</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; border: 1px solid #2f51b7; color: #2f51b7;">成功</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de;">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">6</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">ゆずれない願い</div>
+        <div style="font-size: 10px; color: #777;">田村直美</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; border: 1px solid #2f51b7; color: #2f51b7;">成功</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de;">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">7</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">創聖のアクエリオン</div>
+        <div style="font-size: 10px; color: #777;">AKINO from bless4</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; border: 1px solid #2f51b7; color: #2f51b7;">成功</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de;">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">8</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">君の知らない物語</div>
+        <div style="font-size: 10px; color: #777;">supercell</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; border: 1px solid #2f51b7; color: #2f51b7;">成功</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de;">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">9</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">Beautiful</div>
+        <div style="font-size: 10px; color: #777;">Superfly</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; border: 1px solid #2f51b7; color: #2f51b7;">成功</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de; background: rgba(217, 76, 99, 0.08);">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">10</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">promise</div>
+        <div style="font-size: 10px; color: #777;">広瀬香美</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; background: #d94c63; color: #ffffff;">失敗</div>
+    </div>
+
+  <div style="background: #fcfcfc; padding: 8px 12px; border-top: 1px solid #eee; color: #999; font-size: 9px; line-height: 1.6;">放送後のニュース記事や番組の記録をもとにしています。</div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>鬼レンチャン達成まであと1曲というところでした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>何レンチャンだったかと歌った曲をまとめる予定です。</p>
+<p>歌声を聴いたかまいたちの山内健司さんは「過去イチうまいんちゃう？」と話していました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -301,7 +399,7 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>放送と同時に観たい場合もTVerのリアルタイム配信があります。</p>
+<p>リアルタイム配信は放送中のみでしたので、見逃し配信を使ってください。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -345,15 +443,15 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>9月27日（日）のサビだけカラオケに番組オーディションを突破して初参戦します。</p>
+<p>9月27日（日）のサビだけカラオケに番組オーディションを突破して初参戦して、結果は9レンチャンでした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>ほかの挑戦者は佐々木大光さん・SARIさん・せいやさんです。</p>
+<p>10曲目の広瀬香美さんの「promise」で失敗して、鬼レンチャン達成まであと1曲でした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>初参戦の結果は放送後にこの記事へ書き足します。</p>
+<p>同じ回の挑戦者は佐々木大光さん・SARIさん・せいやさんです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
@@ -371,7 +469,7 @@
         "@id": "https://shira-treat.com/diana-garnet-onirenchan/"
       },
       "headline": "鬼レンチャン ダイアナ・ガーネットは誰？9/27の挑戦者｜日本の歌が上手い外国人",
-      "description": "「世界一日本の曲が上手い外国人」と紹介されるダイアナ・ガーネットさんが、9/27（日）放送の「千鳥の鬼レンチャン」サビだけカラオケに初参戦。プロフィールや経歴・見どころ・放送日時・見逃し配信をまとめました。",
+      "description": "「世界一日本の曲が上手い外国人」と紹介されるダイアナ・ガーネットさんが、9/27（日）放送の「千鳥の鬼レンチャン」サビだけカラオケに初参戦。結果は9レンチャンでした。プロフィールや経歴・歌った曲・見逃し配信をまとめました。",
       "keywords": [
         "ダイアナ・ガーネット",
         "ダイアナ・ガーネット 鬼レンチャン",
@@ -379,11 +477,12 @@
         "ダイアナ・ガーネット 身長",
         "ダイアナ・ガーネット カラオケバトル",
         "鬼レンチャン サビだけカラオケ",
-        "千鳥の鬼レンチャン 挑戦者"
+        "千鳥の鬼レンチャン 挑戦者",
+        "鬼レンチャン ダイアナ・ガーネット 結果"
       ],
       "datePublished": "2026-09-26T22:30:00+09:00",
       "dateCreated": "2026-09-26T22:30:00+09:00",
-      "dateModified": "2026-09-26T22:30:00+09:00",
+      "dateModified": "2026-10-09T02:30:00+09:00",
       "inLanguage": "ja",
       "image": {
         "@type": "ImageObject",
@@ -444,7 +543,7 @@
         "@type": "VirtualLocation",
         "url": "https://www.fujitv.co.jp/oniren/"
       },
-      "description": "フジテレビで2026年9月27日に放送される「サビだけカラオケ」の回。アメリカ出身の歌手・声優のダイアナ・ガーネットが初参戦する。",
+      "description": "フジテレビで2026年9月27日に放送される「サビだけカラオケ」の回。アメリカ出身の歌手・声優のダイアナ・ガーネットが初参戦して9レンチャンだった。",
       "image": "https://shira-treat.com/wp-content/uploads/2026/09/image-20.webp",
       "broadcaster": {
         "@type": "Organization",

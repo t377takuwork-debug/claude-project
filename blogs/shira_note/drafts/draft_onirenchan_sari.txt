@@ -1,8 +1,8 @@
 <!-- wp:paragraph -->
 タイトル：鬼レンチャン SARIは誰？9/27の挑戦者｜ZARD激似モノマネ
 
-メタディスクリプション（103字）：
-ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27（日）放送の「千鳥の鬼レンチャン」サビだけカラオケにリベンジ参戦。プロフィールや過去の出演・見どころ・放送日時・見逃し配信をまとめました。
+メタディスクリプション（111字）：
+ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27（日）放送の「千鳥の鬼レンチャン」サビだけカラオケにリベンジ参戦。結果は6レンチャンでした。プロフィールや過去の出演・歌った曲・見逃し配信をまとめました。
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -10,11 +10,11 @@ ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27�
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>9/27（日）放送の「千鳥の鬼レンチャン」にリベンジ参戦するSARIさんが誰なのかをまとめました。</p>
+<p>9/27（日）放送の「千鳥の鬼レンチャン」にリベンジ参戦したSARIさんが誰なのかをまとめました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>プロフィールと過去の出演・放送日時・見逃し配信を載せています。</p>
+<p>プロフィールと過去の出演・結果・見逃し配信を載せています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -43,7 +43,7 @@ ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27�
     <div style="display: flex; align-items: flex-start; gap: 8px;">
       <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; border: 1px solid #2b4288; color: #2b4288; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 1px;">挑戦者</div>
       <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">
-        4名が発表済み
+        4名が出演
         <div style="font-size: 10px; font-weight: 500; color: #666; margin-top: 3px;">サビだけカラオケにリベンジ参戦</div>
       </div>
     </div>
@@ -58,17 +58,17 @@ ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27�
 
     <div style="background: rgba(217, 76, 99, 0.06); border-left: 3px solid #d94c63; padding: 8px 10px;">
       <div style="font-size: 10.5px; color: #d94c63; font-weight: 800; margin-bottom: 2px;">
-        結果：放送後に更新
+        結果：6レンチャン
       </div>
       <div style="font-size: 9px; font-weight: 500; color: #888;">
-        リベンジの結果を書き足します
+        7曲目の松たか子さんの曲で失敗
       </div>
     </div>
 
   </div>
 
   <div style="background: #fcfcfc; padding: 10px 12px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #eee;">
-    <div style="color: #999; font-size: 9px;">Update: 2026.09.26</div>
+    <div style="color: #999; font-size: 9px;">Update: 2026.10.09</div>
     <a href="#st-toc-h-1" style="display: inline-flex; align-items: center; background: #d94c63; color: #fff; text-decoration: none; font-size: 10.5px; font-weight: 800; padding: 5px 12px; border-radius: 20px; box-shadow: 0 4px 10px rgba(217, 76, 99, 0.2);">
       詳細を確認 <span style="margin-left: 4px; font-size: 11px;">↓</span>
     </a>
@@ -82,7 +82,7 @@ ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27�
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>結果など新しい情報はあり次第更新していきます！</p>
+<p>放送が終わったので、3人の結果をこの記事に書き足しました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -175,7 +175,7 @@ ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27�
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>フジテレビで9月27日（日）の19:00〜21:00に放送されます。</p>
+<p>フジテレビで9月27日（日）の19:00〜21:00に放送されました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -186,12 +186,12 @@ ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27�
 
       <div style="background: #ffffff; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #2f51b7;">
         <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800; color: #2b4288;">佐々木大光（KEY TO LIT）</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">サビだけカラオケに初参戦。今冬CDデビューが決まっています。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">サビだけカラオケに初参戦して1レンチャンでした。</p>
       </div>
 
       <div style="background: #ffffff; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d94c63;">
         <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800; color: #2b4288;">SARI</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">ZARD激似モノマネで最高9レンチャンの記録があります。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">リベンジ参戦で6レンチャンでした。</p>
       </div>
 
       <div style="background: #ffffff; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #2f51b7;">
@@ -201,7 +201,7 @@ ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27�
 
       <div style="background: #ffffff; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #2f51b7;">
         <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800; color: #2b4288;">ダイアナ・ガーネット</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">アメリカ出身のアニソン歌手で今回が初参戦です。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">初参戦で9レンチャンまで進みました。</p>
       </div>
 
     </div>
@@ -213,11 +213,11 @@ ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27�
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>公式Xによると前回はスタジオからリアクションが薄いと指摘されていて今回はリアクションとトークの改善に取り組んだそうです。</p>
+<p>公式Xによると前回はスタジオからリアクションが薄いと指摘されていて、今回はリアクションとトークの改善に取り組んでの参戦でした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>今回はZARD以外のものまねでも挑戦するようでどんな曲になるのか気になりますね。</p>
+<p>今回はZARD以外のものまねでも挑戦すると案内されていました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -229,15 +229,93 @@ ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27�
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>リベンジの結果は？SARIは何レンチャン？歌った曲【放送後に更新】</h2>
+<h2>リベンジの結果は？SARIは何レンチャン？歌った曲</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>リベンジの結果はまだ出ていません。</p>
+<p>SARIさんの結果は6レンチャンで、7曲目で失敗しました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="SARI サビだけカラオケの結果" style="display: block; font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif; background: #ffffff; color: #333333; border: 1px solid #ead3ce; border-radius: 4px; overflow: hidden; max-width: 100%; margin: 10px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+
+  <div style="background: #2b4288; padding: 10px 15px; border-bottom: 2px solid #d94c63;">
+    <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.1em; color: #ffe3e8;">SARI サビだけカラオケの結果</div>
+  </div>
+
+  <div style="padding: 14px 12px; text-align: center;">
+    <div style="font-size: clamp(26px, calc(26px + (100vw - 480px) / 120), 34px); font-weight: 900; color: #d94c63; line-height: 1.2;">6レンチャン</div>
+    <div style="font-size: 12px; font-weight: 700; color: #2b4288; margin-top: 4px;">7曲目の「レット・イット・ゴー」で失敗</div>
+  </div>
+
+    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de;">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">1</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">君がいない</div>
+        <div style="font-size: 10px; color: #777;">ZARD</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; border: 1px solid #2f51b7; color: #2f51b7;">成功</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de;">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">2</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">運命のルーレット廻して</div>
+        <div style="font-size: 10px; color: #777;">ZARD</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; border: 1px solid #2f51b7; color: #2f51b7;">成功</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de;">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">3</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">気分爽快</div>
+        <div style="font-size: 10px; color: #777;">森高千里</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; border: 1px solid #2f51b7; color: #2f51b7;">成功</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de;">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">4</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">Good-bye My Loneliness</div>
+        <div style="font-size: 10px; color: #777;">ZARD</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; border: 1px solid #2f51b7; color: #2f51b7;">成功</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de;">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">5</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">fragile</div>
+        <div style="font-size: 10px; color: #777;">Every Little Thing</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; border: 1px solid #2f51b7; color: #2f51b7;">成功</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de;">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">6</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">ゆずれない願い</div>
+        <div style="font-size: 10px; color: #777;">田村直美</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; border: 1px solid #2f51b7; color: #2f51b7;">成功</div>
+    </div>
+    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de; background: rgba(217, 76, 99, 0.08);">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">7</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">レット・イット・ゴー 〜ありのままで〜</div>
+        <div style="font-size: 10px; color: #777;">松たか子</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; background: #d94c63; color: #ffffff;">失敗</div>
+    </div>
+
+  <div style="background: #fcfcfc; padding: 8px 12px; border-top: 1px solid #eee; color: #999; font-size: 9px; line-height: 1.6;">放送後のニュース記事や番組の記録をもとにしています。</div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>過去最高の9レンチャンには届きませんでした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>放送が終わったら何レンチャンだったかと歌った曲をここに載せます。</p>
+<p>挑戦した7曲のうちZARDの曲は3曲で、残りの4曲はZARD以外の曲でした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -245,7 +323,7 @@ ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27�
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>見逃した方向けにTVer・FOD・Netflixでの配信が公式Xで案内されています。</p>
+<p>見逃した方向けに、TVer・FOD・Netflixでの配信が公式Xで案内されています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -289,7 +367,7 @@ ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27�
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>リアルタイムで観たいときはTVerの配信を使えるようです。</p>
+<p>リアルタイム配信は放送中のみでしたので、見逃し配信を使ってください。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -309,7 +387,7 @@ ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27�
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>今回が3回目です。過去には2024年3月10日と2025年3月16日に出演していて今回はリベンジ参戦と案内されています。</p>
+<p>今回が3回目です。過去には2024年3月10日と2025年3月16日に出演していて、今回はリベンジ参戦でした。結果は6レンチャンです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -329,15 +407,15 @@ ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27�
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>9月27日（日）のサビだけカラオケにリベンジ参戦します。</p>
+<p>9月27日（日）のサビだけカラオケにリベンジ参戦して、結果は6レンチャンでした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>ほかの挑戦者は佐々木大光さん・せいやさん・ダイアナ・ガーネットさんです。</p>
+<p>7曲目で失敗して、過去最高の9レンチャンには届きませんでした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>リベンジの結果は放送後に書き足しますのでまた見に来てくださいね。</p>
+<p>同じ回の挑戦者は佐々木大光さん・せいやさん・ダイアナ・ガーネットさんです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:shortcode -->
@@ -355,7 +433,7 @@ ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27�
         "@id": "https://shira-treat.com/sari-onirenchan/"
       },
       "headline": "鬼レンチャン SARIは誰？9/27の挑戦者｜ZARD激似モノマネ",
-      "description": "ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27（日）放送の「千鳥の鬼レンチャン」サビだけカラオケにリベンジ参戦。プロフィールや過去の出演・見どころ・放送日時・見逃し配信をまとめました。",
+      "description": "ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27（日）放送の「千鳥の鬼レンチャン」サビだけカラオケにリベンジ参戦。結果は6レンチャンでした。プロフィールや過去の出演・歌った曲・見逃し配信をまとめました。",
       "keywords": [
         "SARI",
         "SARI 鬼レンチャン",
@@ -363,11 +441,12 @@ ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27�
         "SARI ZARD モノマネ",
         "SARI 柴山サリー",
         "鬼レンチャン サビだけカラオケ",
-        "千鳥の鬼レンチャン 挑戦者"
+        "千鳥の鬼レンチャン 挑戦者",
+        "鬼レンチャン SARI 結果"
       ],
       "datePublished": "2026-09-26T21:30:00+09:00",
       "dateCreated": "2026-09-26T21:30:00+09:00",
-      "dateModified": "2026-09-26T21:30:00+09:00",
+      "dateModified": "2026-10-09T02:30:00+09:00",
       "inLanguage": "ja",
       "image": {
         "@type": "ImageObject",
@@ -428,7 +507,7 @@ ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27�
         "@type": "VirtualLocation",
         "url": "https://www.fujitv.co.jp/oniren/"
       },
-      "description": "フジテレビで2026年9月27日に放送される「サビだけカラオケ」の回。ZARDのものまねで知られるSARIがリベンジ参戦する。",
+      "description": "フジテレビで2026年9月27日に放送される「サビだけカラオケ」の回。ZARDのものまねで知られるSARIがリベンジ参戦して6レンチャンだった。",
       "image": "https://shira-treat.com/wp-content/uploads/2026/09/image-18.webp",
       "broadcaster": {
         "@type": "Organization",
@@ -475,7 +554,7 @@ ZARDの歌声にそっくりなものまねで知られるSARIさんが、9/27�
           "name": "鬼レンチャンは何回目の出演？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "今回が3回目です。過去には2024年3月10日と2025年3月16日に出演していて今回はリベンジ参戦と案内されています。"
+            "text": "今回が3回目です。過去には2024年3月10日と2025年3月16日に出演していて、今回はリベンジ参戦でした。結果は6レンチャンです。"
           }
         },
         {

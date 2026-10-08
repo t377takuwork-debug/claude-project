@@ -176,6 +176,42 @@ def profile_card(pr, name):
 </aside>""", FONT=FONT_A, name=name, right=right, rows="\n\n".join(rows), note=pf["note"]))
 
 
+def result_card(pr, name):
+    """放送後の結果カード（何レンチャンか＋歌った曲の一覧）。result.songs があるときだけ作る。
+    songs は [曲名, 原曲のアーティスト, "ok"（成功）または "ng"（失敗）] の配列。"""
+    r = pr["result"]
+    rows = []
+    for i, (title, artist, st) in enumerate(r["songs"], 1):
+        ng = st == "ng"
+        rows.append(T("""    <div style="display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-top: 1px solid #f0e2de;@@bg@@">
+      <div style="flex-shrink: 0; width: 22px; font-size: 11px; font-weight: 800; color: #2b4288; text-align: center;">@@no@@</div>
+      <div style="flex: 1; min-width: 0; line-height: 1.4;">
+        <div style="font-size: 12.5px; font-weight: 700; color: #333;">@@title@@</div>
+        <div style="font-size: 10px; color: #777;">@@artist@@</div>
+      </div>
+      <div style="flex-shrink: 0; font-size: 10px; font-weight: 800; padding: 2px 8px; border-radius: 10px; @@chip@@">@@label@@</div>
+    </div>""", bg=" background: rgba(217, 76, 99, 0.08);" if ng else "", no=i, title=title, artist=artist,
+                       chip=("background: #d94c63; color: #ffffff;" if ng
+                             else "border: 1px solid #2f51b7; color: #2f51b7;"),
+                       label="失敗" if ng else "成功"))
+    note = ('\n  <div style="background: #fcfcfc; padding: 8px 12px; border-top: 1px solid #eee; color: #999; '
+            'font-size: 9px; line-height: 1.6;">' + r["note"] + "</div>\n") if r.get("note") else ""
+    return html(T("""<aside role="region" aria-label="@@name@@ サビだけカラオケの結果" style="display: block; font-family: @@FONT@@; background: #ffffff; color: #333333; border: 1px solid #ead3ce; border-radius: 4px; overflow: hidden; max-width: 100%; margin: 10px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+
+  <div style="background: #2b4288; padding: 10px 15px; border-bottom: 2px solid #d94c63;">
+    <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.1em; color: #ffe3e8;">@@name@@ サビだけカラオケの結果</div>
+  </div>
+
+  <div style="padding: 14px 12px; text-align: center;">
+    <div style="font-size: clamp(26px, calc(26px + (100vw - 480px) / 120), 34px); font-weight: 900; color: #d94c63; line-height: 1.2;">@@count@@</div>
+    <div style="font-size: 12px; font-weight: 700; color: #2b4288; margin-top: 4px;">@@sub@@</div>
+  </div>
+
+@@rows@@
+@@note@@
+</aside>""", FONT=FONT_A, name=name, count=r["count"], sub=r["count_sub"], rows="\n".join(rows), note=note))
+
+
 def challenger_cards(b, name, md):
     cards = []
     for c in b["challengers"]:
@@ -501,7 +537,11 @@ def build(b, pr):
 
     blocks.append(h2(pr.get("h2_result", f"{name}は何レンチャン？歌った曲と結果{{suffix}}")
                      .replace("{suffix}", suffix)))
-    blocks += [p(t) for t in pr["result"]["paragraphs"]]
+    res_ps = [p(t) for t in pr["result"]["paragraphs"]]
+    if pr["result"].get("songs"):
+        k = pr["result"].get("card_after", 1)
+        res_ps.insert(k, result_card(pr, name))
+    blocks += res_ps
 
     blocks.append(h2("鬼レンチャンの見逃し配信はある？"))
     blocks.append(p(pr.get("vod_lead", v["lead"])))

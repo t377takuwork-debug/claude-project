@@ -8,17 +8,17 @@
   "official_url": "https://www.fujitv.co.jp/oniren/",
   "x_url": "https://x.com/oni_renchan",
   "x_handle": "@oni_renchan",
-  "count_text": "4名が発表済み",
+  "count_text": "4名が出演",
   "challengers": [
     {
       "key": "佐々木大光",
       "label": "佐々木大光（KEY TO LIT）",
-      "note": "サビだけカラオケに初参戦。今冬CDデビューが決まっています。"
+      "note": "サビだけカラオケに初参戦して1レンチャンでした。"
     },
     {
       "key": "SARI",
       "label": "SARI",
-      "note": "ZARD激似モノマネで最高9レンチャンの記録があります。"
+      "note": "リベンジ参戦で6レンチャンでした。"
     },
     {
       "key": "せいや",
@@ -28,17 +28,17 @@
     {
       "key": "ダイアナ・ガーネット",
       "label": "ダイアナ・ガーネット",
-      "note": "アメリカ出身のアニソン歌手で今回が初参戦です。"
+      "note": "初参戦で9レンチャンまで進みました。"
     }
   ],
   "challengers_note": "公式サイトの表記に合わせて五十音順に並べています。",
-  "update_promise": "結果など新しい情報はあり次第更新していきます！",
+  "update_promise": "放送が終わったので、3人の結果をこの記事に書き足しました。",
   "vod": {
-    "lead": "公式Xでは見逃した方向けにTVer・FOD・Netflixでの配信が案内されています。",
+    "lead": "見逃した方向けに、公式XではTVer・FOD・Netflixでの配信が案内されています。",
     "realtime_url": "https://tver.jp/live/simul/le4cms03h6",
     "series_url": "https://tver.jp/series/srytsco4k7",
     "fod_url": "https://fod.fujitv.co.jp/title/2805/",
-    "after": "放送中はTVerのリアルタイム配信でも見られるようです。"
+    "after": "リアルタイム配信は放送中のみでしたので、見逃し配信を使ってください。"
   },
   "about_name": "千鳥の鬼レンチャン サビだけカラオケ"
 }
