@@ -1,8 +1,8 @@
 ﻿<!-- wp:paragraph -->
-タイトル：【最新】STAR タイムテーブル 10月1日は何時から？出演順や出演時間更新！
+タイトル：【最新】STAR タイムテーブル 10月15日は何時から？出演順や出演時間更新！
 
-メタディスクリプション（114字）：
-10/1放送のフジテレビ音楽番組『STAR』は19時〜21時の2時間拡大SP。Snow Manの出演が決定し、吉井和哉×布袋寅泰、M!LK×宝塚歌劇団花組など伝説のコラボ企画も予定。出演順やタイムテーブルを随時更新していきます！
+メタディスクリプション（111字）：
+10/15放送のフジテレビ音楽番組『STAR』は19時〜21時の2時間SP。近藤真彦のSPメドレー、櫻坂46・超特急の最新曲、森高千里・T.M.Revolutionの名曲歌唱が予定。出演順やタイムテーブルを随時更新します！
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -64,7 +64,7 @@
       <div style="display: flex; justify-content: space-between; align-items: center;">
         <span style="font-size: 11px; color: #F26522; font-weight: 700;">放送日時</span>
         <span style="font-size: 13px; font-weight: 800; color: #1a1a1a;">
-          10.1 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 21:00
+          10.15 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 21:00
         </span>
       </div>
     </div>
@@ -74,21 +74,21 @@
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333; line-height: 1.5;">
           <strong style="color: #000;">出演：</strong>
-          Snow Man／その他の出演者は続報をお待ちください
+          近藤真彦／櫻坂46／JO1／超特急／T.M.Revolution／Number_i／マカロニえんぴつ／森高千里／Little Glee Monster
         </p>
       </div>
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333; line-height: 1.5;">
           <strong style="color: #000;">注目：</strong>
-          19:00〜21:00の2時間拡大SP／Snow Manが「グッタイム」を披露／吉井和哉×布袋寅泰、M!LK×宝塚歌劇団花組など、フジテレビに眠る伝説の名コラボを大放出する特別企画
+          19:00〜21:00の2時間SP／ナビゲーターは狩野英孝／近藤真彦のSPメドレー、櫻坂46・超特急の最新曲、ドラマ名場面＆主題歌特集
         </p>
       </div>
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333; line-height: 1.5;">
           <strong style="color: #000;">タイムテーブル：</strong>
-          出演者・曲目の続報待ちです。分かり次第この記事に反映し、19:00の放送開始後は実際の進行へ随時更新します。
+          出演9組は発表済みですが、歌唱曲と出演順は未発表です。分かった内容から反映し、19:00の放送開始後は実際の進行へ随時更新します。
         </p>
       </div>
     </div>
@@ -103,7 +103,7 @@
       line-height: 1.4;
     ">
       <span style="font-weight: 700; color: #444;">※ハイライト：</span><br>
-      吉井和哉×布袋寅泰、M!LK×宝塚歌劇団花組など、フジテレビに眠る伝説の名コラボを大放出する2時間SPです。
+      近藤真彦のSPメドレーに加え、櫻坂46・超特急の最新曲や、森高千里・T.M.Revolutionの名曲歌唱が並ぶ2時間SPです。
     </div>
 
     <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -120,7 +120,7 @@
         最新タイムテーブルを見る ❯
       </a>
       <div style="font-size: 9px; color: #999; text-align: right;">
-        UPDATED: 2026.09.19
+        UPDATED: 2026.10.09
       </div>
     </div>
   </div>
@@ -132,19 +132,19 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>「推しの出演順は？」「何時に歌う？」と気になる方は、当日のリアルタイム更新もあわせてチェックしてください。</p>
+<p>「推しの出演順は？」「何時に歌う？」と気になる方は、放送が始まったらこのページを開いたままでご覧ください。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>今回は19:00〜21:00の2時間拡大SPとして放送され、Snow Manの出演とフジテレビに眠る名コラボを大放出する特別企画に注目です！</p>
+<p>今回は19:00〜21:00の2時間SPとして放送され、ナビゲーターの狩野英孝と9組のアーティスト、近藤真彦のSPメドレーに注目です！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>STAR 最新タイムテーブル【10/1】</h2>
+<h2>STAR 最新タイムテーブル【10/15】</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年10月1日（木）19:00〜21:00に放送の『STAR』2時間拡大SP、出演アーティストと歌唱曲の予想です。</p>
+<p>2026年10月15日（木）19:00〜21:00に放送の『STAR』2時間SP、出演アーティストと歌唱曲の予想です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -194,7 +194,7 @@
       <div style="display: flex; justify-content: space-between; align-items: center;">
         <span style="font-size: 11px; color: #F26522; font-weight: 700;">放送日時</span>
         <span style="font-size: 13px; font-weight: 800; color: #1a1a1a;">
-          10.1 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 21:00
+          10.15 <span style="font-size: 11px; font-weight: 400;">(木)</span> 19:00 - 21:00
         </span>
       </div>
     </div>
@@ -204,21 +204,35 @@
       <div style="display: flex; gap: 6px; align-items: flex-start;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>19:00</strong> OP（MC上垣皓太朗／ナビゲーター：未発表）
+          <strong>19:00</strong> OP（MC上垣皓太朗／ナビゲーター：狩野英孝）
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>時間帯未定</strong> Snow Man「グッタイム」
+          <strong>時間帯未定</strong> 近藤真彦（マッチSPメドレー）
         </p>
       </div>
 
       <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
         <span style="color: #00B7B5; font-size: 12px;">✦</span>
         <p style="margin: 0; font-size: 11.5px; color: #333;">
-          <strong>時間帯未定</strong> 特別企画：吉井和哉×布袋寅泰、M!LK×宝塚歌劇団花組など伝説の名コラボを大放出
+          <strong>時間帯未定</strong> 櫻坂46・超特急（最新曲）
+        </p>
+      </div>
+
+      <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
+        <span style="color: #00B7B5; font-size: 12px;">✦</span>
+        <p style="margin: 0; font-size: 11.5px; color: #333;">
+          <strong>時間帯未定</strong> 森高千里・T.M.Revolution（名曲歌唱）
+        </p>
+      </div>
+
+      <div style="display: flex; gap: 6px; align-items: flex-start; border-top: 1px dashed #eee; padding-top: 4px;">
+        <span style="color: #00B7B5; font-size: 12px;">✦</span>
+        <p style="margin: 0; font-size: 11.5px; color: #333;">
+          <strong>時間帯未定</strong> Number_i／JO1／Little Glee Monster／マカロニえんぴつ（ドラマ名場面＆主題歌特集とあわせた出演。組み合わせは未発表）
         </p>
       </div>
 
@@ -241,7 +255,7 @@
       line-height: 1.4;
     ">
       <strong>※最新の状況：</strong><br>
-      現在表示中の内容は10月1日放送分の<strong>構成予測</strong>です。Snow Manの出演と「グッタイム」披露は判明済みですが、その他の出演者・時間帯は続報待ちのため、分かり次第ここに反映します。
+      現在表示中の内容は10月15日放送分の<strong>構成予測</strong>です。出演9組とナビゲーターは発表済みですが、歌唱曲と時間帯は未発表のため、分かった内容からここに反映します。
     </div>
 
     <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -258,7 +272,7 @@
       </a>
 
       <div style="font-size: 9px; color: #999;">
-        UPDATED: 2026.09.19
+        UPDATED: 2026.10.09
       </div>
     </div>
 
@@ -275,7 +289,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>STAR（10/1）出演アーティスト・歌唱内容一覧</h2>
+<h2>STAR（10/15）出演アーティスト・歌唱内容一覧</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center","sizeSlug":"full"} -->
@@ -304,33 +318,79 @@ box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 <div style="background: #fff; border-radius: 0 0 11px 11px; overflow: hidden;">
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">Snow Man</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">「グッタイム」</div>
-  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">2時間拡大SPに出演。「グッタイム」を披露します</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">近藤真彦</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">歌唱曲は後日発表</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">「マッチSPメドレー」として披露される予定です</div>
 </div>
 
 <div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">特別企画（伝説の名コラボ）</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">吉井和哉×布袋寅泰／M!LK×宝塚歌劇団花組 ほか</div>
-  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">フジテレビに眠る伝説の名コラボを大放出する特別企画。詳細な時間帯は続報待ちです</div>
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">櫻坂46</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">歌唱曲は後日発表</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">最新曲を披露する予定です</div>
 </div>
 
-<div style="display: flex; flex-direction: column; padding: 10px 14px;">
-  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">その他の出演者</div>
-  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">続報待ち</div>
-  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">ナビゲーターを含め、判明次第この記事に追記します</div>
+<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">JO1</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">歌唱曲は後日発表</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">熱唱が予定されています</div>
+</div>
+
+<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">超特急</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">歌唱曲は後日発表</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">最新曲を披露する予定です</div>
+</div>
+
+<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">T.M.Revolution</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">歌唱曲は後日発表</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">名曲の歌唱が予定されています。森高千里との共演かどうかは未発表です</div>
+</div>
+
+<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">Number_i</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">歌唱曲は後日発表</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">出演が発表されています</div>
+</div>
+
+<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">マカロニえんぴつ</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">歌唱曲は後日発表</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">熱唱が予定されています</div>
+</div>
+
+<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0; background: #fdf2ed;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">森高千里</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">歌唱曲は後日発表</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">名曲の歌唱が予定されています</div>
+</div>
+
+<div style="display: flex; flex-direction: column; padding: 10px 14px; border-bottom: 1px solid #f0f0f0;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">Little Glee Monster</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">歌唱曲は後日発表</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">熱唱が予定されています</div>
+</div>
+
+<div style="display: flex; flex-direction: column; padding: 10px 14px; background: #fdf2ed;">
+  <div style="font-size: 13px; font-weight: 800; color: #1a1a1a;">特別企画（ドラマ名場面＆主題歌特集）</div>
+  <div style="font-size: 12px; color: #00B7B5; margin-top: 2px; font-weight: 700;">ドラマの名場面と主題歌をまとめて紹介</div>
+  <div style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 2px;">公式の番組紹介に記載されています。詳しい内容は未発表です</div>
 </div>
 
 </div>
 </aside>
 
 <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666; margin-top: 8px;">
-※番組インフォメーションに基づく掲載です。
+※公式サイトの番組インフォメーションに基づく掲載です。歌唱曲は発表され次第追記します。
 </p>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>10月1日の『STAR』は19:00〜21:00の2時間拡大SPとして放送されます。Snow Manの出演と「グッタイム」披露が判明しており、吉井和哉×布袋寅泰、M!LK×宝塚歌劇団花組など、フジテレビに眠る伝説の名コラボを大放出する特別企画も予定されています。その他の出演者・詳細は続報待ちです。</p>
+<p>10月15日の『STAR』は19:00〜21:00の2時間SPとして放送されます。出演は近藤真彦、櫻坂46、JO1、超特急、T.M.Revolution、Number_i、マカロニえんぴつ、森高千里、Little Glee Monsterの9組で、ナビゲーターは狩野英孝です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>公式の番組紹介では、近藤真彦のSPメドレーや、櫻坂46・超特急の最新曲、ドラマ名場面＆主題歌特集が挙げられています。歌唱曲はまだ発表されていません。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -338,7 +398,7 @@ box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>『STAR』は基本的に19:00〜20:00の1時間枠で構成される音楽番組ですが、今回は19:00〜21:00の2時間拡大SPとして放送されるため、通常より出演枠が増える可能性があると考えています。</p>
+<p>『STAR』は基本的に19:00〜20:00の1時間枠で構成される音楽番組ですが、今回は19:00〜21:00の2時間SPのため、通常より出演枠が増えそうです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -367,7 +427,7 @@ padding: 14px;
 
 <!-- 導入 -->
 <p style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color:#333; line-height:1.6; margin:0 0 12px;">
-『STAR』（通常19:00〜20:00放送、今回は19:00〜21:00の2時間拡大SP）の実績に基づいたブロック構成です。
+『STAR』（通常19:00〜20:00放送、今回は19:00〜21:00の2時間SP）の実績に基づいたブロック構成です。
 生放送のため前後する可能性がありますが、過去の進行パターンから目安を整理しています。
 </p>
 
@@ -378,7 +438,7 @@ padding: 14px;
     <span style="color:#F26522; font-size:12px;">✦</span>
     <div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color:#333;">
       <strong>19:00〜19:30（オープニング・熱狂枠）</strong><br>
-      ナビゲーターは現時点で未発表です。MC上垣皓太朗の進行でスタートし、番組序盤の出演者・企画は続報待ちです。
+      ナビゲーターは狩野英孝です。MC上垣皓太朗の進行でスタートします。直近の10/1の2時間SPは、名コラボ映像から始まりました。今回の序盤の出演者・企画は未発表です。
     </div>
   </div>
 
@@ -386,7 +446,7 @@ padding: 14px;
     <span style="color:#00B7B5; font-size:12px;">✦</span>
     <div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color:#333;">
       <strong>19:30〜20:30（中盤・パフォーマンス枠）</strong><br>
-      Snow Manの「グッタイム」披露や、吉井和哉×布袋寅泰、M!LK×宝塚歌劇団花組といった特別企画が中盤に集まる可能性があります（あくまで筆者の予想）。
+      近藤真彦のSPメドレーや、ドラマ名場面＆主題歌特集が中盤に入るかもしれません（あくまで筆者の予想）。直近の10/1の2時間SPでは、20時前後に特集コーナーが続きました。
     </div>
   </div>
 
@@ -394,7 +454,7 @@ padding: 14px;
     <span style="color:#F26522; font-size:12px;">✦</span>
     <div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); color:#333;">
       <strong>20:30〜21:00（終盤・クライマックス枠）</strong><br>
-      2時間拡大SPのラストに向けて、番組の目玉企画が終盤に配置されるかもしれません。前回（9/17）放送でも中島健人とジュニアによるスペシャルパフォーマンスが終盤の見どころとなりました。
+      2時間SPのラストに向けて、番組の目玉となる出演者が終盤に置かれるかもしれません。10/1の2時間SPは20時15分ごろからSnow Manのコーナーに入り、21時ちょうどに終了しました。
     </div>
   </div>
 
@@ -411,7 +471,7 @@ border-radius:8px;
 line-height:1.5;
 ">
 💡 <strong>今回のポイント</strong><br>
-前回（9/17）放送は「郷ひろみ→（企画）→ポルノグラフィティ→加藤ミリヤ→中島健人＋ジュニア→フィナーレ」という流れで、中島健人＋ジュニアによる「最初はキュン！」のスペシャルパフォーマンスに反響が集まりました。今回は2時間拡大SPで通常より出演枠が増えそうですが、詳細は続報待ちです（あくまで筆者の予想）。出演順は放送後にこのページで実際の進行へ更新します。
+前回（10/1）の2時間SPは「名コラボ映像→「ayu ready?」大特集→Snow Manの名シーンと「グッタイム」→終盤のVTR」という流れで、生ライブよりVTRが中心でした。今回は9組が出演するため、ライブの枠は前回より多くなりそうです（あくまで筆者の予想）。出演順は放送後にこのページで実際の進行へ更新します。
 </div>
 
 </div>
@@ -431,7 +491,7 @@ line-height:1.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>9月17日の放送は以下のような流れでした。</p>
+<p>10月1日の放送は以下のような流れでした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -470,7 +530,7 @@ line-height:1.5;
           『STAR』SETLIST &amp; REPORT
         </div>
       </div>
-      <div style="font-size: 12px; font-weight: 700; color: #666;">2026.09.17 <span style="font-weight: 400;">THU</span></div>
+      <div style="font-size: 12px; font-weight: 700; color: #666;">2026.10.01 <span style="font-weight: 400;">THU</span></div>
     </div>
 
     <div style="
@@ -481,69 +541,88 @@ line-height:1.5;
       border-left: 4px solid #F26522;
     ">
       <div style="font-size: 11px; color: #F26522; font-weight: 800; margin-bottom: 2px;">STAR NAVIGATORS</div>
-      <div style="font-size: 14px; font-weight: 700; color: #333;">上垣 皓太朗（フジテレビアナウンサー）／中島健人</div>
+      <div style="font-size: 14px; font-weight: 700; color: #333;">上垣 皓太朗（フジテレビアナウンサー）</div>
     </div>
 
     <div style="display: grid; gap: 0; margin-bottom: 16px; border-left: 2px solid #eee; margin-left: 6px; padding-left: 14px;">
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -21px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #F26522; border: 2px solid #fff;"></div>
         <div style="font-size: 11px; color: #F26522; font-weight: 800;">19:00頃 / OPENING</div>
-        <div style="font-size: 13px; color: #1a1a1a; line-height: 1.5;">
-          MC上垣皓太朗進行で番組スタート<br>
-          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">ナビゲーターに中島健人が登場</span>
+        <div style="font-size: 13px; color: #1a1a1a;">
+          MC上垣皓太朗進行で2時間SPスタート<br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">フジテレビに眠る名コラボ映像から始まった</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:01頃</div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:10頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">郷ひろみ</span> 「GOLDFINGER'99」「I'm Neo G」（メドレー）<br>
-          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">ダンサー多数を従えた振付アレンジで登場</span>
+          <span style="font-weight: 800;">（VTR）宝塚歌劇団のコラボ映像</span><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">宝塚歌劇団が共演した名場面のブロックに入った</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:05〜19:13頃</div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:30頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">企画</span> 中島健人による郷ひろみへのインタビュー<br>
-          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">指ハートポーズの記念撮影企画、秋の名バラード特集VTRも放送された</span>
+          <span style="font-weight: 800;">（VTR）中森明菜×井上陽水×玉置浩二</span> 「飾りじゃないのよ涙は」<br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">薬師丸ひろ子の映像も同じ時間帯に放送された</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:14頃</div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:33〜19:40頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">ポルノグラフィティ</span> 「アゲハ蝶」「オー！リバル」「マスク・ド・カメロ」「THE REVO」（4曲メドレー）<br>
-          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">上垣アナが広島弁で紹介するひと幕もあった</span>
+          <span style="font-weight: 800;">（VTR）M!LK×宝塚歌劇団</span> 「イイじゃん」ほか<br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">DA PUMP×宝塚、THE ALFEE×阿佐ヶ谷姉妹、エレファントカシマシ×木村拓哉の映像が続き、M!LK×宝塚の映像が好評だった</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:31頃</div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:41頃〜</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">加藤ミリヤ</span> 「SAYONARAベイベー」
+          <span style="font-weight: 800;">（企画）「ayu ready?」大特集</span><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">浜崎あゆみの秘蔵セッションを特集。20時過ぎまで続いた</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 14px;">
         <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:35〜19:50頃</div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 700;">20:09〜20:14頃</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">中島健人＋ジュニア・N's Performer（総勢21名）</span> 「最初はキュン！」<br>
-          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">『STAR』限定のスペシャルパフォーマンスで、この日いちばんの反響を集めた</span>
+          <span style="font-weight: 800;">（VTR）ユーミン×aiko、Number_i×KREVAなど</span><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">「最高」という感想が相次いだ名コラボ映像</span>
         </div>
       </div>
 
       <div style="position: relative; padding-bottom: 14px;">
-        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #F26522; border: 2px solid #fff;"></div>
-        <div style="font-size: 11px; color: #F26522; font-weight: 700;">19:50頃 / LAST</div>
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 700;">20:15頃〜</div>
         <div style="font-size: 13px; color: #1a1a1a;">
-          <span style="font-weight: 800;">郷ひろみ＋上垣アナ</span> ジャケットプレイ<br>
-          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">フィナーレで番組を締めくくった</span>
+          <span style="font-weight: 800;">Snow Man</span> 激レア名シーン集と新曲「グッタイム」SPステージ<br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">深澤の「オハヨー!」特別版や仮装の「カリスマックス」などを振り返った。「グッタイム」の披露位置はこのコーナー内と推定</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 14px;">
+        <div style="position: absolute; left: -19px; top: 4px; width: 8px; height: 8px; border-radius: 50%; background: #00B7B5; border: 2px solid #fff;"></div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 700;">20:53〜20:59頃</div>
+        <div style="font-size: 13px; color: #1a1a1a;">
+          <span style="font-weight: 800;">（VTR）佐野元春×織田裕二「SOMEDAY」、布袋寅泰×吉井和哉</span><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">終盤の名コラボ映像。順番は推定</span>
+        </div>
+      </div>
+
+      <div style="position: relative; padding-bottom: 14px;">
+        <div style="position: absolute; left: -21px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #F26522; border: 2px solid #fff;"></div>
+        <div style="font-size: 11px; color: #F26522; font-weight: 800;">21:00頃 / LAST</div>
+        <div style="font-size: 13px; color: #1a1a1a;">
+          <span style="font-weight: 800;">エンディング</span><br>
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #666;">2時間SPが終了</span>
         </div>
       </div>
     </div>
@@ -568,7 +647,7 @@ line-height:1.5;
       line-height: 1.6;
     ">
       <span style="display: inline-block; background: #eee; padding: 0 4px; border-radius: 2px; margin-right: 4px; font-weight: 800;">REPORT</span><br>
-      MC上垣皓太朗とナビゲーターの中島健人の進行で、郷ひろみのメドレーから始まった回。中島健人がジュニア21名と披露した「最初はキュン！」のスペシャルパフォーマンスが最大の反響を集め、郷ひろみへのインタビューや指ハート撮影企画、ポルノグラフィティの4曲メドレーも好評だった。
+      MC上垣皓太朗進行で、フジテレビに眠る名コラボ映像を中心に届けた2時間SP。Snow Manの新曲「グッタイム」のSPステージと激レア名シーン集が最大の見どころで、浜崎あゆみの「ayu ready?」大特集やM!LK×宝塚歌劇団の映像も好評だった。
     </div>
 
     <div style="display: flex; flex-direction: column; gap: 12px;">
@@ -588,7 +667,7 @@ line-height:1.5;
       </a>
       <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 4px; border-top: 1px solid #eee;">
         <div style="font-size: 9px; color: #999; font-weight: 700; letter-spacing: 0.5px;">STAR ARCHIVE REPORT</div>
-        <div style="font-size: 9px; color: #999;">FINAL UPDATED: 2026.09.17</div>
+        <div style="font-size: 9px; color: #999;">FINAL UPDATED: 2026.10.01</div>
       </div>
     </div>
   </div>
@@ -600,7 +679,7 @@ line-height:1.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>※10/1放送分は放送前のため確定情報ではありません。19:00の放送開始後、リアルタイムで出演順を反映していきます。</p>
+<p>※10/15放送分は放送前のため確定情報ではありません。19:00の放送開始後リアルタイムで出演順を反映していきます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -710,7 +789,47 @@ color:#fff;
 <div style="padding:14px 16px;">
 
 <!-- ======================= -->
-<!-- 2026.09.10 (NEW) -->
+<!-- 2026.09.17 (NEW) -->
+<!-- ======================= -->
+<h3 style="margin:16px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
+2026年9月17日放送回
+</h3>
+
+<div style="
+border-radius:12px;
+overflow:hidden;
+border:1px solid #eee;
+background:#fff;
+box-shadow:0 6px 18px rgba(0,0,0,0.06);
+">
+
+<div style="height:4px;background:linear-gradient(90deg,#F26522,#00B7B5);"></div>
+
+<div style="padding:12px 14px;background:#fdfdfd;border-bottom:1px solid #eee;">
+  <div style="font-size:11px;font-weight:900;color:#F26522;">PAST LOG / STAR ARCHIVE</div>
+  <div style="font-size:14px;font-weight:900;color:#1a1a1a;">2026.09.17</div>
+</div>
+
+<div style="padding:14px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);line-height:1.8;color:#333;">
+
+<strong>19:00頃 OPENING</strong>：MC上垣皓太朗進行で番組スタート、ナビゲーターに中島健人が登場<br>
+<strong>19:01頃 郷ひろみ</strong>：「GOLDFINGER'99」「I'm Neo G」（メドレー。ダンサー多数を従えた振付アレンジで登場）<br>
+<strong>19:05〜19:13頃 （企画）</strong>：中島健人による郷ひろみへのインタビュー（指ハートの記念撮影企画、秋の名バラード特集VTRも放送された）<br>
+<strong>19:14頃 ポルノグラフィティ</strong>：「アゲハ蝶」「オー！リバル」「マスク・ド・カメロ」「THE REVO」（4曲メドレー。上垣アナが広島弁で紹介するひと幕もあった）<br>
+<strong>19:31頃 加藤ミリヤ</strong>：「SAYONARAベイベー」<br>
+<strong>19:35〜19:50頃 中島健人＋ジュニア・N's Performer（総勢21名）</strong>：「最初はキュン！」（『STAR』限定のスペシャルパフォーマンスで、この日いちばんの反響を集めた）<br>
+<strong>19:50頃 LAST 郷ひろみ＋上垣アナ</strong>：ジャケットプレイ（フィナーレで番組を締めくくった）
+
+</div>
+
+<div style="padding:10px 14px;background:#f7fafc;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#666;">
+💡 MC上垣皓太朗とナビゲーターの中島健人の進行で、郷ひろみのメドレーから始まった回。中島健人がジュニア21名と披露した「最初はキュン！」が最大の反響を集め、郷ひろみへのインタビューやポルノグラフィティの4曲メドレーも好評だった。※出演順は反響が集中したタイミングに基づく推定
+</div>
+
+</div>
+
+<!-- ======================= -->
+<!-- 2026.09.10 -->
 <!-- ======================= -->
 <h3 style="margin:16px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
 2026年9月10日放送回
@@ -830,43 +949,6 @@ box-shadow:0 6px 18px rgba(0,0,0,0.06);
 
 </div>
 
-<!-- ======================= -->
-<!-- 2026.08.06 -->
-<!-- ======================= -->
-<h3 style="margin:16px 0 10px;font-size:14px;font-weight:900;color:#1a1a1a;">
-2026年8月6日放送回
-</h3>
-
-<div style="
-border-radius:12px;
-overflow:hidden;
-border:1px solid #eee;
-background:#fff;
-box-shadow:0 6px 18px rgba(0,0,0,0.06);
-">
-
-<div style="height:4px;background:linear-gradient(90deg,#F26522,#00B7B5);"></div>
-
-<div style="padding:12px 14px;background:#fdfdfd;border-bottom:1px solid #eee;">
-  <div style="font-size:11px;font-weight:900;color:#F26522;">PAST LOG / STAR ARCHIVE</div>
-  <div style="font-size:14px;font-weight:900;color:#1a1a1a;">2026.08.06</div>
-</div>
-
-<div style="padding:14px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);line-height:1.8;color:#333;">
-
-<strong>19:00～19:10頃 OPENING</strong>：MC上垣皓太朗進行で番組スタート、STARナビゲーター水谷千重子（友近）が「桃色吐息」を披露<br>
-<strong>19:10頃 ＝LOVE</strong>：「恋、はじめました。」（水谷千重子との絡みも交え、衣装やメンバーの表情への反応が集まった）<br>
-<strong>19:20頃 TWS</strong>：「SODA SODA」（爽やかな夏らしいパフォーマンスが好評）<br>
-<strong>19:32頃 Travis Japan</strong>：「On My Road -Stadium ver.-」（スタンドマイクでの熱唱が最大級の反響を集め、中村海人のコメントも話題に）<br>
-<strong>19:45頃 LAST Da-iCE</strong>：「アンリミテッド」（水谷千重子との絡みトークが多め。大野雄大の前髪ネタも話題になり、終盤のランキングVTR・名曲特集へ）
-
-</div>
-
-<div style="padding:10px 14px;background:#f7fafc;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#666;">
-💡 MC上垣皓太朗とSTARナビゲーター水谷千重子（友近）のテンポの良い進行が好評。生歌クオリティの高さに加え、Travis Japanの熱唱、Da-iCEとの絡みトークが特に話題を集め、「神番組」との声も上がる1時間に。※出演順は反響が集中したタイミングに基づく推定
-</div>
-
-</div>
 
 </div>
 </details>
@@ -897,17 +979,17 @@ overflow:hidden;
 
 <!-- Q1 -->
 <div style="padding:12px;border-radius:10px;background:#fdf2ed;margin-bottom:10px;">
-  <div style="font-size:12px;font-weight:900;color:#F26522;">Q1｜Snow Manの「グッタイム」は何時頃披露されますか？</div>
+  <div style="font-size:12px;font-weight:900;color:#F26522;">Q1｜近藤真彦のSPメドレーは何時頃見られますか？</div>
   <div style="margin-top:6px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#333;line-height:1.6;">
-    2時間拡大SPのため確定的な時間は分かりませんが、中盤から終盤にかけて登場する可能性があると見ています（あくまで筆者の予想）。実際の出演順は放送後にこの記事で更新します。
+    正式な時間は発表されていません。近藤真彦は「マッチSPメドレー」の披露が予定されています。2時間SPのため確定的な時間は分かりませんが、中盤から終盤にかけて登場するかもしれません（あくまで筆者の予想）。実際の出演順は放送後にこの記事で更新します。
   </div>
 </div>
 
 <!-- Q2 -->
 <div style="padding:12px;border-radius:10px;background:#fff;border:1px solid #eee;margin-bottom:10px;">
-  <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q2｜吉井和哉×布袋寅泰、M!LK×宝塚歌劇団花組のコラボとはどんな企画ですか？</div>
+  <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q2｜今回の『STAR』の見どころは何ですか？</div>
   <div style="margin-top:6px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#333;line-height:1.6;">
-    フジテレビに眠る伝説の名コラボを大放出する特別企画として予定されています。具体的な披露内容や時間帯は続報待ちのため、判明次第この記事に追記します。
+    公式の番組紹介では、近藤真彦のSPメドレー、櫻坂46・超特急の最新曲、森高千里・T.M.Revolutionの名曲歌唱、ドラマ名場面＆主題歌特集が挙げられています。歌唱曲は未発表のため、発表され次第この記事に追記します。
   </div>
 </div>
 
@@ -915,7 +997,7 @@ overflow:hidden;
 <div style="padding:12px;border-radius:10px;background:#fdf2ed;margin-bottom:10px;">
   <div style="font-size:12px;font-weight:900;color:#F26522;">Q3｜今回のナビゲーターは誰ですか？</div>
   <div style="margin-top:6px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#333;line-height:1.6;">
-    10月1日放送分のナビゲーターは、この記事の更新時点で未発表です。判明次第この記事に追記します。
+    10月15日放送分のナビゲーターは狩野英孝です。MCは上垣皓太朗アナウンサーが務めます。
   </div>
 </div>
 
@@ -923,7 +1005,7 @@ overflow:hidden;
 <div style="padding:12px;border-radius:10px;background:#fff;border:1px solid #eee;">
   <div style="font-size:12px;font-weight:900;color:#1a1a1a;">Q4｜タイムテーブルのリアルタイム更新はありますか？</div>
   <div style="margin-top:6px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#333;line-height:1.6;">
-    公式から詳細な時間は公開されませんが、この記事では10月1日の19:00放送開始とともに、実際の進行・出演順をリアルタイムで速報更新します。
+    公式から詳細な時間は公開されませんが、この記事では10月15日の19:00放送開始とともに、実際の進行・出演順をリアルタイムで速報更新します。
   </div>
 </div>
 
@@ -936,15 +1018,15 @@ overflow:hidden;
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年10月1日（木）19:00〜21:00放送のフジテレビ系『STAR』2時間拡大SP。</p>
+<p>2026年10月15日（木）19:00〜21:00放送のフジテレビ系『STAR』2時間SP。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>今回はSnow Manの出演が判明しており、ナビゲーターは現時点で未発表です。</p>
+<p>出演は近藤真彦、櫻坂46、JO1、超特急、T.M.Revolution、Number_i、マカロニえんぴつ、森高千里、Little Glee Monsterの9組で、ナビゲーターは狩野英孝です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Snow Manは「グッタイム」を披露するほか、吉井和哉×布袋寅泰、M!LK×宝塚歌劇団花組など、フジテレビに眠る伝説の名コラボを大放出する特別企画も予定されています。その他の出演者・詳細は続報待ちです。</p>
+<p>近藤真彦のSPメドレー、櫻坂46・超特急の最新曲、ドラマ名場面＆主題歌特集などが予定されています。歌唱曲は未発表です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -1061,33 +1143,37 @@ overflow:hidden;
       "@type": "BlogPosting",
       "@id": "https://shira-treat.com/star-timetable/#post",
       "url": "https://shira-treat.com/star-timetable/",
-      "headline": "【最新】STAR タイムテーブル 10月1日は何時から？出演順や出演時間更新！",
-      "description": "10/1放送のフジテレビ音楽番組『STAR』は19時〜21時の2時間拡大SP。Snow Manの出演が決定し、吉井和哉×布袋寅泰、M!LK×宝塚歌劇団花組など伝説のコラボ企画も予定。出演順やタイムテーブルを随時更新していきます！",
+      "headline": "【最新】STAR タイムテーブル 10月15日は何時から？出演順や出演時間更新！",
+      "description": "10/15放送のフジテレビ音楽番組『STAR』は19時〜21時の2時間SP。近藤真彦のSPメドレー、櫻坂46・超特急の最新曲、森高千里・T.M.Revolutionの名曲歌唱が予定。出演順やタイムテーブルを随時更新します！",
       "keywords": [
         "STAR",
         "タイムテーブル",
         "出演者",
-        "Snow Man",
-        "グッタイム",
-        "吉井和哉",
-        "布袋寅泰",
-        "M!LK",
-        "宝塚歌劇団花組",
-        "10月1日",
+        "近藤真彦",
+        "櫻坂46",
+        "JO1",
+        "超特急",
+        "T.M.Revolution",
+        "Number_i",
+        "マカロニえんぴつ",
+        "森高千里",
+        "Little Glee Monster",
+        "狩野英孝",
+        "10月15日",
         "フジテレビ"
       ],
       "datePublished": "2026-04-09T20:00:00+09:00",
       "dateCreated": "2026-04-09T20:00:00+09:00",
-      "dateModified": "2026-09-19T12:00:00+09:00",
+      "dateModified": "2026-10-09T12:00:00+09:00",
       "inLanguage": "ja",
       "image": {
         "@type": "ImageObject",
         "@id": "https://shira-treat.com/star-timetable/#heroimage",
-        "url": "https://shira-treat.com/wp-content/uploads/2026/09/スクリーンショット-2026-09-19-062309.webp",
-        "width": 1200,
-        "height": 675
+        "url": "https://shira-treat.com/wp-content/uploads/2026/09/image-9-2.webp",
+        "width": 1202,
+        "height": 654
       },
-      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/09/スクリーンショット-2026-09-19-062309.webp",
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/09/image-9-2.webp",
       "author": {
         "@type": "Person",
         "name": "Shira",
@@ -1122,15 +1208,24 @@ overflow:hidden;
     {
       "@type": "BroadcastEvent",
       "@id": "https://shira-treat.com/star-timetable/#broadcast",
-      "name": "STAR（2026年10月1日放送回）",
-      "startDate": "2026-10-01T19:00:00+09:00",
-      "endDate": "2026-10-01T21:00:00+09:00",
+      "name": "STAR（2026年10月15日放送回）",
+      "startDate": "2026-10-15T19:00:00+09:00",
+      "endDate": "2026-10-15T21:00:00+09:00",
       "eventStatus": "https://schema.org/EventScheduled",
       "isLiveBroadcast": true,
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
       "performer": [
         { "@type": "Person", "name": "上垣皓太朗" },
-        { "@type": "MusicGroup", "name": "Snow Man" }
+        { "@type": "Person", "name": "狩野英孝" },
+        { "@type": "Person", "name": "近藤真彦" },
+        { "@type": "MusicGroup", "name": "櫻坂46" },
+        { "@type": "MusicGroup", "name": "JO1" },
+        { "@type": "MusicGroup", "name": "超特急" },
+        { "@type": "Person", "name": "T.M.Revolution" },
+        { "@type": "MusicGroup", "name": "Number_i" },
+        { "@type": "MusicGroup", "name": "マカロニえんぴつ" },
+        { "@type": "Person", "name": "森高千里" },
+        { "@type": "MusicGroup", "name": "Little Glee Monster" }
       ],
       "broadcaster": {
         "@type": "Organization",
@@ -1141,10 +1236,18 @@ overflow:hidden;
     {
       "@type": "ItemList",
       "@id": "https://shira-treat.com/star-timetable/#lineup",
-      "name": "STAR（10/1）出演アーティスト・パフォーマンス一覧",
-      "numberOfItems": 1,
+      "name": "STAR（10/15）出演アーティスト・パフォーマンス一覧",
+      "numberOfItems": 9,
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Snow Man" }
+        { "@type": "ListItem", "position": 1, "name": "近藤真彦" },
+        { "@type": "ListItem", "position": 2, "name": "櫻坂46" },
+        { "@type": "ListItem", "position": 3, "name": "JO1" },
+        { "@type": "ListItem", "position": 4, "name": "超特急" },
+        { "@type": "ListItem", "position": 5, "name": "T.M.Revolution" },
+        { "@type": "ListItem", "position": 6, "name": "Number_i" },
+        { "@type": "ListItem", "position": 7, "name": "マカロニえんぴつ" },
+        { "@type": "ListItem", "position": 8, "name": "森高千里" },
+        { "@type": "ListItem", "position": 9, "name": "Little Glee Monster" }
       ]
     },
     {
@@ -1153,18 +1256,18 @@ overflow:hidden;
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Snow Manの「グッタイム」は何時頃披露されますか？",
+          "name": "近藤真彦のSPメドレーは何時頃見られますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "2時間拡大SPのため確定的な時間は分かりませんが、中盤から終盤にかけて登場する可能性があると見ています（あくまで筆者の予想）。実際の出演順は放送後にこの記事で更新します。"
+            "text": "正式な時間は発表されていません。近藤真彦は「マッチSPメドレー」の披露が予定されています。2時間SPのため確定的な時間は分かりませんが、中盤から終盤にかけて登場するかもしれません（あくまで筆者の予想）。実際の出演順は放送後にこの記事で更新します。"
           }
         },
         {
           "@type": "Question",
-          "name": "吉井和哉×布袋寅泰、M!LK×宝塚歌劇団花組のコラボとはどんな企画ですか？",
+          "name": "今回の『STAR』の見どころは何ですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "フジテレビに眠る伝説の名コラボを大放出する特別企画として予定されています。具体的な披露内容や時間帯は続報待ちのため、判明次第この記事に追記します。"
+            "text": "公式の番組紹介では、近藤真彦のSPメドレー、櫻坂46・超特急の最新曲、森高千里・T.M.Revolutionの名曲歌唱、ドラマ名場面＆主題歌特集が挙げられています。歌唱曲は未発表のため、発表され次第この記事に追記します。"
           }
         },
         {
@@ -1172,7 +1275,7 @@ overflow:hidden;
           "name": "今回のナビゲーターは誰ですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "10月1日放送分のナビゲーターは、この記事の更新時点で未発表です。判明次第この記事に追記します。"
+            "text": "10月15日放送分のナビゲーターは狩野英孝です。MCは上垣皓太朗アナウンサーが務めます。"
           }
         },
         {
@@ -1180,7 +1283,7 @@ overflow:hidden;
           "name": "タイムテーブルのリアルタイム更新はありますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "公式から詳細な時間は公開されませんが、この記事では10月1日の19:00放送開始とともに、実際の進行・出演順をリアルタイムで速報更新します。"
+            "text": "公式から詳細な時間は公開されませんが、この記事では10月15日の19:00放送開始とともに、実際の進行・出演順をリアルタイムで速報更新します。"
           }
         }
       ]
@@ -1204,7 +1307,7 @@ overflow:hidden;
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "10月1日 STAR タイムテーブル",
+          "name": "10月15日 STAR タイムテーブル",
           "item": "https://shira-treat.com/star-timetable/"
         }
       ]

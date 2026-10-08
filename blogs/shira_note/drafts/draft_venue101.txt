@@ -1,7 +1,7 @@
 <!-- wp:paragraph -->
-タイトル：Venue101 EXTRA タイムテーブル 9月26日の出演者・順番をリアルタイム更新
-メタディスクリプション（77字）：
-2026年9月26日放送のVenue101 EXTRA、今日の出演者タイムテーブルをまとめています。曲順は事前に発表されないため放送に合わせて更新します。
+タイトル：Venue101 タイムテーブル 10月10日の出演者・順番をリアルタイム更新
+メタディスクリプション（69字）：
+10月10日放送のVenue101、今日の出演者と歌唱曲、出演順をまとめています。曲順は事前に発表されないため、放送に合わせて更新します。
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -9,28 +9,28 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Venue101 EXTRAの今日の放送（9月26日）の出演者やタイムテーブル、出演順などをまとめています。</p>
+<p>Venue101の今日の放送（10月10日）の出演者やタイムテーブル、出演順などをまとめています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>9月26日はWEEK1で、出演アーティストと歌唱曲が発表されています。</p>
+<p>10月10日は出演アーティスト4組と歌唱曲が発表されています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<aside role="region" aria-label="Venue101最新情報" style="display:block;font-family:'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;background:#1a1a1a;color:#ffffff;border:1px solid #333333;border-radius:8px;padding:14px;margin:12px 0;max-width:100%;box-sizing:border-box;">
+<aside role="region" aria-label=10/8は放送されていなかったです。"Venue101最新情報" style="display:block;font-family:'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;background:#1a1a1a;color:#ffffff;border:1px solid #333333;border-radius:8px;padding:14px;margin:12px 0;max-width:100%;box-sizing:border-box;">
   <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:10px;">
-    <div style="background:#d4ff00;color:#000000;padding:2px 9px;font-weight:900;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);">Venue 101 EXTRA</div>
+    <div style="background:#d4ff00;color:#000000;padding:2px 9px;font-weight:900;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);">Venue 101</div>
     <div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);font-weight:800;color:#d4ff00;">REAL-TIME UPDATES</div>
   </div>
-  <div style="font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 18px);font-weight:900;color:#d4ff00;line-height:1.4;">2026.09.26 (SAT) 23:00〜23:30</div>
-  <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;margin:2px 0 10px;">NHK総合・生放送｜EXTRA WEEK1</div>
+  <div style="font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 18px);font-weight:900;color:#d4ff00;line-height:1.4;">2026.10.10 (SAT) 23:00〜23:30</div>
+  <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;margin:2px 0 10px;">NHK総合・生放送</div>
   <div style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-top:1px solid #333333;background:transparent;"><div style="flex:0 0 auto;min-width:72px;"><span style="display:inline-block;background:#ffffff;color:#000000;font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:900;padding:2px 7px;transform:skewX(-15deg);letter-spacing:0.05em;">STATUS</span></div><div style="flex:1;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;color:#ffffff;line-height:1.6;">出演アーティスト・歌唱曲が発表済み（出演順は事前発表なし。放送に合わせて更新）</div></div>
-  <div style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-top:1px solid #333333;background:transparent;"><div style="flex:0 0 auto;min-width:72px;"><span style="display:inline-block;background:#ffffff;color:#000000;font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:900;padding:2px 7px;transform:skewX(-15deg);letter-spacing:0.05em;">LINEUP</span></div><div style="flex:1;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;color:#ffffff;line-height:1.6;"><span style="color:#d4ff00;">新しい学校のリーダーズ / ONEW / Da-iCE / M!LK</span></div></div>
+  <div style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-top:1px solid #333333;background:transparent;"><div style="flex:0 0 auto;min-width:72px;"><span style="display:inline-block;background:#ffffff;color:#000000;font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:900;padding:2px 7px;transform:skewX(-15deg);letter-spacing:0.05em;">LINEUP</span></div><div style="flex:1;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;color:#ffffff;line-height:1.6;"><span style="color:#d4ff00;">INI / imase / STU48 / &amp;TEAM</span></div></div>
   <div style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-top:1px solid #333333;background:transparent;"><div style="flex:0 0 auto;min-width:72px;"><span style="display:inline-block;background:#ffffff;color:#000000;font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:900;padding:2px 7px;transform:skewX(-15deg);letter-spacing:0.05em;">TIMETABLE</span></div><div style="flex:1;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;color:#ffffff;line-height:1.6;">出演順・登場時間は事前に発表されないため、放送が始まったら判明した順に書き換えます。</div></div>
-  <div style="margin-top:10px;background:rgba(212,255,0,0.1);border-left:3px solid #d4ff00;padding:8px 10px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ffffff;line-height:1.6;">ライブに加えて、お絵かきやジェスチャーゲームなどの企画も予定されています。</div>
+  <div style="margin-top:10px;background:rgba(212,255,0,0.1);border-left:3px solid #d4ff00;padding:8px 10px;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ffffff;line-height:1.6;">INIは番組最多の14回目の出演です。imaseの復帰後のトークや、&amp;TEAM・TAKIの「Menu101」も予定されています。</div>
   <div style="margin-top:12px;display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:8px;">
     <a href="#st-toc-h-1" style="text-decoration:none;background:#d4ff00;color:#000000;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;padding:9px 18px;letter-spacing:0.05em;">最新情報を確認する ▶</a>
-    <div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);color:#999999;text-align:right;line-height:1.5;">最終更新: 2026.09.25<br>（放送当日、生放送にあわせて更新）</div>
+    <div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);color:#999999;text-align:right;line-height:1.5;">最終更新: 2026.10.08<br>（放送当日、生放送にあわせて更新）</div>
   </div>
 </aside>
 <!-- /wp:html -->
@@ -40,26 +40,26 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>お絵かきグランプリやジェスチャー対決など見どころ満載！放送前にもう一度チェックしに来てください。</p>
+<p>INIの出演振り返りやimaseの復帰トーク、&TEAM・TAKIの「Menu101」など見どころ満載！出演順は分かり次第この記事で更新していきます！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>Venue101 EXTRA 今日のタイムテーブル【9/26】</h2>
+<h2>Venue101 今日のタイムテーブル【10/10】</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>※9/26の出演順などタイムテーブルは現時点で未発表です。</p>
+<p>※10/10の出演順などタイムテーブルは現時点で未発表です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div role="region" aria-label="Venue101 EXTRA タイムテーブル（2026年9月26日）" style="font-family:'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;margin:20px 0;background:#1a1a1a;border:1px solid #333333;border-radius:8px;overflow:hidden;">
+<div role="region" aria-label="Venue101 タイムテーブル（2026年10月10日）" style="font-family:'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;margin:20px 0;background:#1a1a1a;border:1px solid #333333;border-radius:8px;overflow:hidden;">
   <div style="height:4px;background:#d4ff00;"></div>
   <div style="padding:14px 16px;border-bottom:1px solid #333333;display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
     <span style="display:inline-block;background:#d4ff00;color:#000000;font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:900;padding:2px 7px;transform:skewX(-15deg);letter-spacing:0.05em;">未発表</span>
-    <span style="font-size:clamp(13px, calc(13px + (100vw - 480px) / 240), 16px);font-weight:900;color:#ffffff;">2026.09.26 タイムテーブル（出演順は未発表）</span>
+    <span style="font-size:clamp(13px, calc(13px + (100vw - 480px) / 240), 16px);font-weight:900;color:#ffffff;">2026.10.10 タイムテーブル（出演順は未発表）</span>
   </div>
   <div style="padding:16px;">
-    <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;color:#cccccc;line-height:1.8;">9月26日放送分の出演順は、生放送のため事前には発表されません。出演アーティスト4組と歌唱曲は、下の「出演者・歌唱曲一覧」に掲載しています。放送が始まったら、実際の登場順にリアルタイムで書き換えます。</p>
+    <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;color:#cccccc;line-height:1.8;">10月10日放送分の出演順は、生放送のため事前には発表されません。出演アーティスト4組と歌唱曲は、下の「出演者・歌唱曲一覧」に掲載しています。放送が始まったら、実際の登場順にリアルタイムで書き換えます。</p>
   </div>
   <div style="padding:12px 16px;background:rgba(212,255,0,0.08);border-top:2px solid #d4ff00;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#ffffff;line-height:1.6;">放送開始とあわせて、この欄を実際の登場順に更新します。</div>
 </div>
@@ -74,7 +74,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>Venue101 EXTRAの出演者・歌唱曲一覧【9/26】</h2>
+<h2>Venue101の出演者・歌唱曲一覧【10/10】</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center","className":"size-full"} -->
@@ -82,7 +82,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>2026年9月26日（土）放送『Venue101 EXTRA』WEEK1の出演アーティストと歌唱曲です（五十音順）。</p>
+<p>2026年10月10日（土）放送『Venue101』の出演アーティストと歌唱曲です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -91,20 +91,13 @@
 
 <!-- wp:html -->
 <div style="font-family:'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;background:#0d0d0d;border:1px solid #333333;border-radius:8px;padding:12px;margin:16px 0;">
-  <div style="border-left:4px solid #d4ff00;padding-left:10px;margin-bottom:10px;font-size:clamp(13px, calc(13px + (100vw - 480px) / 240), 16px);font-weight:900;color:#ffffff;letter-spacing:0.05em;">ARTIST LINEUP (2026.09.26)</div>
-  <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:12px;"><div style="background:#1a1a1a;border-top:3px solid #d4ff00;padding:10px 10px 12px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;line-height:1.4;">新しい学校のリーダーズ</div><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#d4ff00;margin-top:4px;line-height:1.5;">「TTTTOKYO」</div></div><div style="background:#1a1a1a;border-top:3px solid #d4ff00;padding:10px 10px 12px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;line-height:1.4;">ONEW</div><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#d4ff00;margin-top:4px;line-height:1.5;">「エイリアンズ」</div></div><div style="background:#1a1a1a;border-top:3px solid #d4ff00;padding:10px 10px 12px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;line-height:1.4;">Da-iCE</div><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#d4ff00;margin-top:4px;line-height:1.5;">「アンリミテッド」</div></div><div style="background:#1a1a1a;border-top:3px solid #d4ff00;padding:10px 10px 12px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;line-height:1.4;">M!LK</div><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#d4ff00;margin-top:4px;line-height:1.5;">「時空超えてユニバース」</div></div></div>
+  <div style="border-left:4px solid #d4ff00;padding-left:10px;margin-bottom:10px;font-size:clamp(13px, calc(13px + (100vw - 480px) / 240), 16px);font-weight:900;color:#ffffff;letter-spacing:0.05em;">ARTIST LINEUP (2026.10.10)</div>
+  <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:12px;"><div style="background:#1a1a1a;border-top:3px solid #d4ff00;padding:10px 10px 12px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;line-height:1.4;">INI</div><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#d4ff00;margin-top:4px;line-height:1.5;">「We Are」</div></div><div style="background:#1a1a1a;border-top:3px solid #d4ff00;padding:10px 10px 12px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;line-height:1.4;">imase</div><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#d4ff00;margin-top:4px;line-height:1.5;">「風になれるはず」</div></div><div style="background:#1a1a1a;border-top:3px solid #d4ff00;padding:10px 10px 12px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;line-height:1.4;">STU48</div><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#d4ff00;margin-top:4px;line-height:1.5;">「冬服に着替えたら」</div></div><div style="background:#1a1a1a;border-top:3px solid #d4ff00;padding:10px 10px 12px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;line-height:1.4;">&amp;TEAM</div><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#d4ff00;margin-top:4px;line-height:1.5;">「Good Boy (Japanese ver.)」</div></div></div>
   <div style="background:#1a1a1a;border-left:3px solid #d4ff00;padding:10px 12px;margin-bottom:12px;">
     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">
-      <div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">WEEK1 の企画</div><span style="display:inline-block;background:#d4ff00;color:#000000;font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:900;padding:2px 7px;transform:skewX(-15deg);letter-spacing:0.05em;">SPECIAL</span>
+      <div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">今回の企画</div><span style="display:inline-block;background:#d4ff00;color:#000000;font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:900;padding:2px 7px;transform:skewX(-15deg);letter-spacing:0.05em;">SPECIAL</span>
     </div>
-    <div style="display:flex;gap:8px;padding:6px 0;border-top:1px solid #333333;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);line-height:1.6;"><div style="flex:0 0 42%;font-weight:900;color:#ffffff;">M!LK</div><div style="flex:1;font-weight:700;color:#cccccc;">「時空超えてお絵かきグランプリ」</div></div><div style="display:flex;gap:8px;padding:6px 0;border-top:1px solid #333333;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);line-height:1.6;"><div style="flex:0 0 42%;font-weight:900;color:#ffffff;">ONEW</div><div style="flex:1;font-weight:700;color:#cccccc;">日本楽曲カバー企画</div></div><div style="display:flex;gap:8px;padding:6px 0;border-top:1px solid #333333;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);line-height:1.6;"><div style="flex:0 0 42%;font-weight:900;color:#ffffff;">新しい学校のリーダーズ vs Da-iCE</div><div style="flex:1;font-weight:700;color:#cccccc;">ジェスチャーゲーム対決</div></div>
-  </div>
-  <div style="background:#1a1a1a;border:1px dashed #d4ff00;padding:10px 12px;">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">
-      <div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">次回 WEEK2（10月3日放送予定）</div><span style="display:inline-block;background:#ffffff;color:#000000;font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:900;padding:2px 7px;transform:skewX(-15deg);letter-spacing:0.05em;">NEXT</span>
-    </div>
-    <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#d4ff00;line-height:1.6;">Ayumu Imazu / ≒JOY / BALLISTIK BOYZ / M!LK</div>
-    <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:600;color:#cccccc;margin-top:4px;line-height:1.6;">放送時間と歌唱曲は現時点で確認できていません。</div>
+<div style="display:flex;gap:8px;padding:6px 0;border-top:1px solid #333333;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);line-height:1.6;"><div style="flex:0 0 42%;font-weight:900;color:#ffffff;">INI</div><div style="flex:1;font-weight:700;color:#cccccc;">出演14回目で番組最多。過去13回の出演を振り返る</div></div><div style="display:flex;gap:8px;padding:6px 0;border-top:1px solid #333333;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);line-height:1.6;"><div style="flex:0 0 42%;font-weight:900;color:#ffffff;">imase</div><div style="flex:1;font-weight:700;color:#cccccc;">約1年の休止中のことと、復帰後の心境を語る</div></div><div style="display:flex;gap:8px;padding:6px 0;border-top:1px solid #333333;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);line-height:1.6;"><div style="flex:0 0 42%;font-weight:900;color:#ffffff;">STU48</div><div style="flex:1;font-weight:700;color:#cccccc;">「瀬戸内のアイドル」ならではの悩みを話す</div></div><div style="display:flex;gap:8px;padding:6px 0;border-top:1px solid #333333;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);line-height:1.6;"><div style="flex:0 0 42%;font-weight:900;color:#ffffff;">&amp;TEAM</div><div style="flex:1;font-weight:700;color:#cccccc;">「Menu101」でTAKI特製のペペロンチーノが登場</div></div>
   </div>
   <p style="margin:12px 0 0;font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);color:#999999;line-height:1.5;">※歌唱曲は発表されている分のみ掲載。出演順は事前発表なし。放送に合わせてリアルタイムで更新します</p>
 </div>
@@ -120,18 +113,18 @@
 
 <!-- wp:html -->
 <div style="font-family:'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;margin:20px 0;border:1px solid #333333;border-radius:8px;overflow:hidden;background:#1a1a1a;">
-  <div style="background:#0d0d0d;color:#d4ff00;padding:12px 15px;font-size:clamp(13px, calc(13px + (100vw - 480px) / 240), 16px);font-weight:900;border-bottom:2px solid #d4ff00;">9/26 出演時間帯の参考ガイド（23:00〜23:30）</div>
+  <div style="background:#0d0d0d;color:#d4ff00;padding:12px 15px;font-size:clamp(13px, calc(13px + (100vw - 480px) / 240), 16px);font-weight:900;border-bottom:2px solid #d4ff00;">10/10 出演時間帯の参考ガイド（23:00〜23:30）</div>
   <div style="padding:15px;">
-    <div style="display:grid;grid-template-columns:96px 1fr;gap:10px;border-bottom:1px dashed #333333;padding-bottom:10px;margin-bottom:10px;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:800;color:#000000;background:#d4ff00;padding:3px 6px;text-align:center;align-self:start;white-space:nowrap;">23:00〜05頃</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;line-height:1.5;"><strong>オープニング・1組目</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;">直近3回の放送では、MCの登場から3〜5分ほどで1組目のライブが始まりました。</span></div></div>
+    <div style="display:grid;grid-template-columns:96px 1fr;gap:10px;border-bottom:1px dashed #333333;padding-bottom:10px;margin-bottom:10px;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:800;color:#000000;background:#d4ff00;padding:3px 6px;text-align:center;align-self:start;white-space:nowrap;">23:00〜05頃</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;line-height:1.5;"><strong>オープニング・1組目</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;">直近3回の放送では、MCの登場から1〜3分ほどで1組目のライブが始まりました。</span></div></div>
     <div style="display:grid;grid-template-columns:96px 1fr;gap:10px;border-bottom:1px dashed #333333;padding-bottom:10px;margin-bottom:10px;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:800;color:#000000;background:#d4ff00;padding:3px 6px;text-align:center;align-self:start;white-space:nowrap;">23:05〜25頃</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;line-height:1.5;"><strong>中盤</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;">ライブの合間にスタジオトークや企画が入る構成が、直近3回とも続いています。</span></div></div>
-    <div style="display:grid;grid-template-columns:96px 1fr;gap:10px;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:800;color:#000000;background:#d4ff00;padding:3px 6px;text-align:center;align-self:start;white-space:nowrap;">23:25頃〜終了</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;line-height:1.5;"><strong>終盤</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;">最後のアーティストは23:20〜23:27頃に登場し、放送終了間際まで続く回が多くなっています。</span></div></div>
+    <div style="display:grid;grid-template-columns:96px 1fr;gap:10px;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:800;color:#000000;background:#d4ff00;padding:3px 6px;text-align:center;align-self:start;white-space:nowrap;">23:20頃〜終了</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;line-height:1.5;"><strong>終盤</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;">最後のアーティストは23:22〜23:26頃に登場し、放送終了間際まで続く回が続いています。</span></div></div>
   </div>
-  <div style="background:#0d0d0d;padding:10px 15px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#999999;border-top:1px solid #333333;font-weight:700;line-height:1.6;">※直近3回（30分放送・4〜5組）の傾向です。9/26のEXTRA WEEK1は4組が出演します。実際の順番はリアルタイム更新をご確認ください。</div>
+  <div style="background:#0d0d0d;padding:10px 15px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#999999;border-top:1px solid #333333;font-weight:700;line-height:1.6;">※直近3回（30分放送・4組）の傾向です。10/10は4組が出演します。実際の順番はリアルタイム更新をご確認ください。</div>
 </div>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>直近3回は、出演者の発表順（五十音順など）と実際の登場順が一致しませんでした。9/26のWEEK1も、発表順どおりに登場するとは限らなさそうです。</p>
+<p>直近3回は、出演者の発表順（五十音順など）と実際の登場順が一致しませんでした。10/10も、発表順どおりに登場するとは限らなさそうです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -147,36 +140,37 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年9月12日に放送された『Venue101』の登場順をレポートとしてまとめています。</p>
+<p>2026年10月3日に放送された『Venue101 EXTRA』WEEK2の登場順をレポートとしてまとめています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
 <aside class="mst-archive-panel" role="region" aria-label="Venue101放送アーカイブ" style="margin:16px 0;padding:16px;border:1px solid #333333;border-radius:10px;background:#1a1a1a;font-family:'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;">
   <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:12px;">
     <div style="display:flex;align-items:center;gap:8px;"><span style="display:inline-block;background:#d4ff00;color:#000000;font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:900;padding:2px 7px;transform:skewX(-15deg);letter-spacing:0.05em;">ARCHIVE</span><div style="font-size:clamp(13px, calc(13px + (100vw - 480px) / 240), 16px);font-weight:900;color:#ffffff;">Venue101 熱量・登場順レポート</div></div>
-    <div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);font-weight:800;color:#999999;">2026.09.12 SAT</div>
+    <div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);font-weight:800;color:#999999;">2026.10.03 SAT</div>
   </div>
   <div style="background:#0d0d0d;padding:10px 12px;margin-bottom:14px;border-left:4px solid #d4ff00;">
     <div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#d4ff00;font-weight:800;margin-bottom:2px;">MAIN CAST</div>
-    <div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;color:#ffffff;line-height:1.6;">MC：濱家隆一（かまいたち）・生田絵梨花 ／ 出演：MON7A、BOYNEXTDOOR、ハク。、中島健人</div>
+    <div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;color:#ffffff;line-height:1.6;">MC：濱家隆一（かまいたち）・生田絵梨花 ／ 出演：Ayumu Imazu、≒JOY、BALLISTIK BOYZ、M!LK</div>
   </div>
   <div style="margin-left:6px;padding-left:14px;border-left:2px solid #333333;margin-bottom:14px;">
-    <div style="position:relative;padding-bottom:14px;"><div style="position:absolute;left:-19px;top:4px;width:8px;height:8px;border-radius:50%;background:#999999;border:2px solid #1a1a1a;"></div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#999999;font-weight:800;">23:00頃 / OPENING</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;margin-top:3px;"><strong>MC登場・番組スタート</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;display:block;margin-top:2px;">出演4組の紹介からスタート。</span></div></div>
-    <div style="position:relative;padding-bottom:14px;"><div style="position:absolute;left:-19px;top:4px;width:8px;height:8px;border-radius:50%;background:#999999;border:2px solid #1a1a1a;"></div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#999999;font-weight:800;">23:03頃〜 / EARLY</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;margin-top:3px;"><strong>MON7A「僕のかわい子ちゃん」</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;display:block;margin-top:2px;">1組目のライブ。ファンの投稿では「トップバッター」の言及が目立った。</span></div></div>
-    <div style="position:relative;padding-bottom:14px;"><div style="position:absolute;left:-19px;top:4px;width:8px;height:8px;border-radius:50%;background:#999999;border:2px solid #1a1a1a;"></div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#999999;font-weight:800;">23:08頃〜</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;margin-top:3px;"><strong>MON7Aのトーク／BOYNEXTDOOR向けのライブMCフレーズ考案</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;display:block;margin-top:2px;">MON7Aがラブソングへの思いを語り、ライブのMCで使えるフレーズを出演者みんなで考える企画へ。</span></div></div>
-    <div style="position:relative;padding-bottom:14px;"><div style="position:absolute;left:-21px;top:4px;width:12px;height:12px;border-radius:50%;background:#d4ff00;border:2px solid #1a1a1a;"></div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#d4ff00;font-weight:800;">23:13頃〜 / ★投稿急増ゾーン</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;margin-top:3px;"><strong>BOYNEXTDOOR「Boom Boom Boom」</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;display:block;margin-top:2px;">番組中で最も動画が拡散したパフォーマンス。統一感のある衣装や、日本語のMCに触れる投稿が並んだ。</span></div></div>
-    <div style="position:relative;padding-bottom:14px;"><div style="position:absolute;left:-19px;top:4px;width:8px;height:8px;border-radius:50%;background:#999999;border:2px solid #1a1a1a;"></div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#999999;font-weight:800;">23:18頃〜</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;margin-top:3px;"><strong>早口言葉チャレンジ</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;display:block;margin-top:2px;">ハク。の滑舌にちなんだ企画。濱家・生田も挑戦し、放送後半まで話題が続いた。</span></div></div>
-    <div style="position:relative;padding-bottom:14px;"><div style="position:absolute;left:-19px;top:4px;width:8px;height:8px;border-radius:50%;background:#999999;border:2px solid #1a1a1a;"></div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#999999;font-weight:800;">23:21頃〜</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;margin-top:3px;"><strong>ハク。「それしか言えない」</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;display:block;margin-top:2px;">「地上波でハク。が見られる」と新しい視聴者からの反応も。</span></div></div>
-    <div style="position:relative;padding-bottom:14px;"><div style="position:absolute;left:-21px;top:4px;width:12px;height:12px;border-radius:50%;background:#d4ff00;border:2px solid #1a1a1a;"></div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#d4ff00;font-weight:800;">23:25頃〜 / ★終盤の投稿集中</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;margin-top:3px;"><strong>中島健人のトーク→「鬼事」（和装）</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;display:block;margin-top:2px;">アジアツアーのエピソードに続き、和装でパフォーマンス。ファンの投稿が集中した。</span></div></div>
-    <div style="position:relative;padding-bottom:14px;"><div style="position:absolute;left:-19px;top:4px;width:8px;height:8px;border-radius:50%;background:#999999;border:2px solid #1a1a1a;"></div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#999999;font-weight:800;">23:30頃 / END</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;margin-top:3px;"><strong>エンディング</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;display:block;margin-top:2px;">記念撮影と見逃し配信の案内。</span></div></div>
+    <div style="position:relative;padding-bottom:14px;"><div style="position:absolute;left:-19px;top:4px;width:8px;height:8px;border-radius:50%;background:#999999;border:2px solid #1a1a1a;"></div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#999999;font-weight:800;">23:00頃 / OPENING</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;margin-top:3px;"><strong>MC登場・番組スタート</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;display:block;margin-top:2px;">WEEK1に出演した新しい学校のリーダーズ・ONEW・Da-iCEも加わった、全員参加のオープニング。</span></div></div>
+    <div style="position:relative;padding-bottom:14px;"><div style="position:absolute;left:-19px;top:4px;width:8px;height:8px;border-radius:50%;background:#999999;border:2px solid #1a1a1a;"></div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#999999;font-weight:800;">23:02頃〜 / EARLY</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;margin-top:3px;"><strong>≒JOY「サマーツインテール」</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;display:block;margin-top:2px;">1組目のライブ。ダブルセンターやツインテールの振りに触れる投稿が目立った。</span></div></div>
+    <div style="position:relative;padding-bottom:14px;"><div style="position:absolute;left:-19px;top:4px;width:8px;height:8px;border-radius:50%;background:#999999;border:2px solid #1a1a1a;"></div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#999999;font-weight:800;">23:05頃〜</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;margin-top:3px;"><strong>≒JOY・Da-iCE・M!LK「≒101チャレンジ」</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;display:block;margin-top:2px;">NHKホールの観客に質問して、当てはまる人数「101人」を目指す企画。順番は推定。</span></div></div>
+    <div style="position:relative;padding-bottom:14px;"><div style="position:absolute;left:-19px;top:4px;width:8px;height:8px;border-radius:50%;background:#999999;border:2px solid #1a1a1a;"></div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#999999;font-weight:800;">23:10頃〜</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;margin-top:3px;"><strong>Ayumu Imazu「Bassline」</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;display:block;margin-top:2px;">2組目のライブ。「かっこいい」という投稿が続いた。</span></div></div>
+    <div style="position:relative;padding-bottom:14px;"><div style="position:absolute;left:-19px;top:4px;width:8px;height:8px;border-radius:50%;background:#999999;border:2px solid #1a1a1a;"></div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#999999;font-weight:800;">23:14頃〜</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;margin-top:3px;"><strong>BALLISTIK BOYZ「Do Don PA!!」</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;display:block;margin-top:2px;">Ayumu Imazuに続いて登場。</span></div></div>
+    <div style="position:relative;padding-bottom:14px;"><div style="position:absolute;left:-19px;top:4px;width:8px;height:8px;border-radius:50%;background:#999999;border:2px solid #1a1a1a;"></div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#999999;font-weight:800;">23:15頃〜</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;margin-top:3px;"><strong>Ayumu Imazu×BALLISTIK BOYZのニューヨーク留学トーク</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;display:block;margin-top:2px;">10代で一緒に留学していた当時の映像を振り返るトーク。実況の時刻が遅く、順番は推定。</span></div></div>
+    <div style="position:relative;padding-bottom:14px;"><div style="position:absolute;left:-19px;top:4px;width:8px;height:8px;border-radius:50%;background:#999999;border:2px solid #1a1a1a;"></div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#999999;font-weight:800;">23:20頃〜</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;margin-top:3px;"><strong>M!LK「吉田に刺され！ 友情セリフ選手権」</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;display:block;margin-top:2px;">吉田仁人の悩みに、メンバーが即興の芝居で友情セリフを返す企画。サンバ部や水切りの話題で笑いが起きた。</span></div></div>
+    <div style="position:relative;padding-bottom:14px;"><div style="position:absolute;left:-21px;top:4px;width:12px;height:12px;border-radius:50%;background:#d4ff00;border:2px solid #1a1a1a;"></div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#d4ff00;font-weight:800;">23:26頃〜 / ★投稿急増ゾーン</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;margin-top:3px;"><strong>M!LK「You!Joy!Parade!」</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;display:block;margin-top:2px;">ラストのライブ。放送中の公式投稿で最も反応が大きかった（いいね約2.5万）。このあとハイタッチクイズ、≒101クイズへ。</span></div></div>
+    <div style="position:relative;padding-bottom:14px;"><div style="position:absolute;left:-19px;top:4px;width:8px;height:8px;border-radius:50%;background:#999999;border:2px solid #1a1a1a;"></div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#999999;font-weight:800;">23:30頃 / END</div><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);color:#ffffff;margin-top:3px;"><strong>エンディング</strong><br><span style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;display:block;margin-top:2px;">放送終了。</span></div></div>
   </div>
   <div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);color:#cccccc;background:#0d0d0d;border:1px solid #333333;padding:10px;margin-bottom:12px;line-height:1.6;font-weight:600;">
     <span style="display:inline-block;background:#d4ff00;color:#000000;padding:0 6px;margin-right:4px;font-weight:900;font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);">REPORT</span>
-    BOYNEXTDOOR「Boom Boom Boom」の動画が最も拡散した回。ハク。の早口言葉企画と、中島健人「鬼事」の和装パフォーマンスにも反応が集まった。
+    M!LK「You!Joy!Parade!」の公式投稿が、放送中で最も反応を集めた回。Ayumu ImazuとBALLISTIK BOYZのニューヨーク留学トークと、M!LKの友情セリフ選手権にも反応が集まった。
   </div>
   <div style="display:flex;justify-content:space-between;align-items:center;padding-top:8px;border-top:1px solid #333333;">
     <div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);color:#999999;font-weight:800;letter-spacing:0.5px;">ESTIMATED FROM SNS REALTIME TREND</div>
-    <div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);color:#999999;">UPDATED: 2026.09.25</div>
+    <div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);color:#999999;">UPDATED: 2026.10.08</div>
   </div>
 </aside>
 <!-- /wp:html -->
@@ -239,27 +233,55 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3>2026年9月5日のタイムテーブル</h3>
+<h3>2026年9月26日のタイムテーブル</h3>
 <!-- /wp:heading -->
 
 <!-- wp:html -->
-<div role="region" aria-label="Venue1012026年9月5日タイムテーブル" style="font-family:'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;margin:20px 0;background:#1a1a1a;border:1px solid #333333;border-radius:8px;overflow:hidden;">
+<div role="region" aria-label="Venue101 2026年9月26日タイムテーブル" style="font-family:'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;margin:20px 0;background:#1a1a1a;border:1px solid #333333;border-radius:8px;overflow:hidden;">
   <div style="height:4px;background:#d4ff00;"></div>
   <div style="padding:14px 16px;border-bottom:1px solid #333333;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;">
-    <div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);font-weight:900;color:#d4ff00;letter-spacing:0.1em;">PAST DATA ARCHIVE</div><div style="font-size:clamp(13px, calc(13px + (100vw - 480px) / 240), 16px);font-weight:900;color:#ffffff;">2026年9月5日 放送回</div></div>
-    <div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);font-weight:800;color:#999999;">夏フェスSP</div>
+    <div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);font-weight:900;color:#d4ff00;letter-spacing:0.1em;">PAST DATA ARCHIVE</div><div style="font-size:clamp(13px, calc(13px + (100vw - 480px) / 240), 16px);font-weight:900;color:#ffffff;">2026年9月26日 放送回</div></div>
+    <div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);font-weight:800;color:#999999;">EXTRA WEEK1</div>
   </div>
   <div>
-    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:#0d0d0d;padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#ffffff;white-space:nowrap;">23:00〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">OPENING</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">MC登場・出演4組と夏フェス企画を紹介</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">生放送スタート。</div></div></div>
-    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:rgba(212,255,0,0.12);padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#d4ff00;white-space:nowrap;">23:05頃〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">1組目</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">Juice=Juice「クラクラ☆クライマックス」</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">ソロパートをつなぐ構成に反応が集まり、番組前半で最も投稿が伸びた。</div></div></div>
-    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:#0d0d0d;padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#ffffff;white-space:nowrap;">23:15頃〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">VTR</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">全国の野外フェス舞台裏＋クイズ</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">LuckyFesの映像に、Juice=Juiceが客席側から見ていたアンジュルムが映り込み、驚きの投稿が相次いだ。</div></div></div>
-    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:#0d0d0d;padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#ffffff;white-space:nowrap;">23:19頃〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">2組目</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">レトロリロン「AMANO-JAKU?」</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">公式投稿と視聴者の投稿で時刻にずれがあり、登場位置は推定。</div></div></div>
-    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:#0d0d0d;padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#ffffff;white-space:nowrap;">23:20頃〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">3組目</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">平井大「名残花」</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">フェス終わりのエピソードに続いてパフォーマンス。</div></div></div>
-    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:#0d0d0d;padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#ffffff;white-space:nowrap;">23:23頃〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">4組目・END</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">マカロニえんぴつ「運命さがし」</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">テレビ初披露との言及が多く、放送終了後も投稿が続いた。</div></div></div>
+    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:#0d0d0d;padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#ffffff;white-space:nowrap;">23:00〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">OPENING</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">MC登場・番組スタート</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">生放送スタート。</div></div></div>
+    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:#0d0d0d;padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#ffffff;white-space:nowrap;">23:01頃〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">1組目</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">Da-iCE「アンリミテッド」</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">「切り込み隊長」という投稿が出て、ロングトーンと声量への称賛が続いた。</div></div></div>
+    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:rgba(212,255,0,0.12);padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#d4ff00;white-space:nowrap;">23:08頃〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">2組目</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">M!LK「時空超えてユニバース」</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">公式の放送中の投稿で最も反応が大きく、番組前半で最も投稿が伸びた。</div></div></div>
+    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:#0d0d0d;padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#ffffff;white-space:nowrap;">23:10頃〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">企画</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">M!LK「時空超えてお絵かきグランプリ」</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">放送中の投稿が少なく、位置は推定。終了後に絵への反応が出た。</div></div></div>
+    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:#0d0d0d;padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#ffffff;white-space:nowrap;">23:16頃〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">3組目</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">ONEW「エイリアンズ」</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">前後に「好きすぎて滅！」のアカペラも。美声に反応が集まった。</div></div></div>
+    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:#0d0d0d;padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#ffffff;white-space:nowrap;">23:22頃〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">4組目</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">新しい学校のリーダーズ「TTTTOKYO」</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">地上波初披露との言及が多く、でんぐり返しやぱっつんに歓喜する投稿が続いた。</div></div></div>
+    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:#0d0d0d;padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#ffffff;white-space:nowrap;">23:25頃〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">END</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">新しい学校のリーダーズvs Da-iCE ジェスチャーゲーム対決</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">放送中の投稿が少なく、位置は推定。</div></div></div>
   </div>
   <div style="padding:12px 14px;background:#0d0d0d;border-top:1px solid #333333;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#cccccc;line-height:1.5;">
-    💡 <strong>調査結果：</strong> Juice=Juiceのソロパートと、LuckyFes映像に映ったアンジュルムへの反応が投稿の中心になった回。
-    <div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);color:#999999;margin-top:6px;">※Xのリアルタイム投稿を参考にした推定タイムラインです。レトロリロン以降の順番と時刻は、公式投稿と視聴者投稿にずれがあり推定を含みます。</div>
+    💡 <strong>調査結果：</strong> M!LK「時空超えてユニバース」が最も投稿を集めた回。ONEWのアカペラと、新しい学校のリーダーズの地上波初披露にも反応が集まった。
+    <div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);color:#999999;margin-top:6px;">※Xのリアルタイム投稿を参考にした推定タイムラインです。お絵かきグランプリとジェスチャーゲーム対決の位置は推定を含みます。</div>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":3} -->
+<h3>2026年9月12日のタイムテーブル</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div role="region" aria-label="Venue101 2026年9月12日タイムテーブル" style="font-family:'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;margin:20px 0;background:#1a1a1a;border:1px solid #333333;border-radius:8px;overflow:hidden;">
+  <div style="height:4px;background:#d4ff00;"></div>
+  <div style="padding:14px 16px;border-bottom:1px solid #333333;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;">
+    <div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);font-weight:900;color:#d4ff00;letter-spacing:0.1em;">PAST DATA ARCHIVE</div><div style="font-size:clamp(13px, calc(13px + (100vw - 480px) / 240), 16px);font-weight:900;color:#ffffff;">2026年9月12日 放送回</div></div>
+    <div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);font-weight:800;color:#999999;">通常回</div>
+  </div>
+  <div>
+    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:#0d0d0d;padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#ffffff;white-space:nowrap;">23:00〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">OPENING</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">MC登場・番組スタート</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">出演4組の紹介からスタート。</div></div></div>
+    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:#0d0d0d;padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#ffffff;white-space:nowrap;">23:03頃〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">1組目</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">MON7A「僕のかわい子ちゃん」</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">ファンの投稿では「トップバッター」の言及が目立った。</div></div></div>
+    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:#0d0d0d;padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#ffffff;white-space:nowrap;">23:08頃〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">トーク</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">MON7Aのトーク／BOYNEXTDOOR向けのライブMCフレーズ考案</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">ラブソングへの思いを語り、ライブのMCで使えるフレーズを出演者みんなで考える企画へ。</div></div></div>
+    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:rgba(212,255,0,0.12);padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#d4ff00;white-space:nowrap;">23:13頃〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">2組目</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">BOYNEXTDOOR「Boom Boom Boom」</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">番組中で最も動画が拡散したパフォーマンス。</div></div></div>
+    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:#0d0d0d;padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#ffffff;white-space:nowrap;">23:18頃〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">企画</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">早口言葉チャレンジ</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">ハク。の滑舌にちなんだ企画。濱家・生田も挑戦した。</div></div></div>
+    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:#0d0d0d;padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#ffffff;white-space:nowrap;">23:21頃〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">3組目</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">ハク。「それしか言えない」</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">「地上波でハク。が見られる」と新しい視聴者からの反応も。</div></div></div>
+    <div style="display:flex;border-bottom:1px solid #333333;"><div style="flex:0 0 92px;background:rgba(212,255,0,0.12);padding:12px 8px;text-align:center;border-right:1px solid #333333;display:flex;flex-direction:column;justify-content:center;"><div style="font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;color:#d4ff00;white-space:nowrap;">23:25頃〜</div><div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:800;color:#999999;margin-top:2px;">4組目・END</div></div><div style="flex:1;padding:12px 14px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;">中島健人のトーク→「鬼事」（和装）</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 180), 14px);color:#cccccc;margin-top:4px;line-height:1.5;">アジアツアーのエピソードに続き、和装でパフォーマンス。ファンの投稿が集中した。</div></div></div>
+  </div>
+  <div style="padding:12px 14px;background:#0d0d0d;border-top:1px solid #333333;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#cccccc;line-height:1.5;">
+    💡 <strong>調査結果：</strong> BOYNEXTDOOR「Boom Boom Boom」の動画が最も拡散した回。ハク。の早口言葉企画と、中島健人「鬼事」の和装パフォーマンスにも反応が集まった。
+    <div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);color:#999999;margin-top:6px;">※Xのリアルタイム投稿を参考にした推定タイムラインです。</div>
   </div>
 </div>
 <!-- /wp:html -->
@@ -271,7 +293,17 @@
 </summary>
 <div style="padding:10px 14px;">
 
-<h3 style="margin:10px 0 6px;font-size:14px;font-weight:900;color:#ffffff;">2026年8月29日のタイムテーブル</h3>
+<h3 style="margin:10px 0 6px;font-size:14px;font-weight:900;color:#ffffff;">2026年9月5日のタイムテーブル</h3>
+<div style="border:1px solid #333333;border-radius:6px;overflow:hidden;margin:14px 0;background:#0d0d0d;">
+<div style="height:3px;background:#d4ff00;"></div>
+<div style="padding:14px 16px;font-size:12px;font-weight:700;color:#cccccc;line-height:1.8;">
+23:00台〜<br>
+Juice=Juice「クラクラ☆クライマックス」（1組目）/ レトロリロン「AMANO-JAKU?」/ 平井大「名残花」/ マカロニえんぴつ「運命さがし」（ラスト）<br><br>
+※夏フェスSPの回。ライブの合間に全国の野外フェスの舞台裏VTRが入りました。レトロリロン以降の順番と時刻は、公式投稿と視聴者投稿にずれがあり推定を含みます。
+</div>
+</div>
+
+<h3 style="margin:18px 0 6px;font-size:14px;font-weight:900;color:#ffffff;">2026年8月29日のタイムテーブル</h3>
 <div style="border:1px solid #333333;border-radius:6px;overflow:hidden;margin:14px 0;background:#0d0d0d;">
 <div style="height:3px;background:#d4ff00;"></div>
 <div style="padding:14px 16px;font-size:12px;font-weight:700;color:#cccccc;line-height:1.8;">
@@ -296,11 +328,11 @@ EBiDAN「Yes! 東京」（1組目）/ =LOVE「恋、はじめました。」/ CU
       <div style="position:absolute;top:0;left:0;width:100%;height:3px;background:#d4ff00;"></div>
       <div style="display:flex;gap:12px;align-items:flex-start;margin-bottom:12px;">
         <span style="flex:0 0 auto;background:#ffffff;color:#000000;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;padding:2px 8px;transform:skewX(-10deg);">Q1</span>
-        <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;line-height:1.5;">今日のVenue101 EXTRAのタイムテーブルは事前に発表されますか？</p>
+        <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;line-height:1.5;">今日のVenue101のタイムテーブルは事前に発表されますか？</p>
       </div>
       <div style="display:flex;gap:12px;align-items:flex-start;padding-top:12px;border-top:1px solid #333333;">
         <span style="flex:0 0 auto;color:#d4ff00;font-size:clamp(13px, calc(13px + (100vw - 480px) / 240), 16px);font-weight:900;line-height:1;">A</span>
-        <p style="margin:0;font-size:clamp(11.5px, calc(11.5px + (100vw - 480px) / 205.7), 15px);color:#cccccc;line-height:1.7;font-weight:600;">9月26日（土）の放送は23:00〜23:30です。出演アーティスト4組と各歌唱曲は発表されていますが、出演順・タイムテーブルは事前には発表されません。放送が始まったら、この記事で登場順を更新します。</p>
+        <p style="margin:0;font-size:clamp(11.5px, calc(11.5px + (100vw - 480px) / 205.7), 15px);color:#cccccc;line-height:1.7;font-weight:600;">10月10日（土）の放送は23:00〜23:30です。出演アーティスト4組と各歌唱曲は発表されていますが、出演順・タイムテーブルは事前には発表されません。放送が始まったら、この記事で登場順を更新します。</p>
       </div>
     </div>
 
@@ -308,11 +340,11 @@ EBiDAN「Yes! 東京」（1組目）/ =LOVE「恋、はじめました。」/ CU
       <div style="position:absolute;top:0;left:0;width:100%;height:3px;background:#d4ff00;"></div>
       <div style="display:flex;gap:12px;align-items:flex-start;margin-bottom:12px;">
         <span style="flex:0 0 auto;background:#ffffff;color:#000000;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;padding:2px 8px;transform:skewX(-10deg);">Q2</span>
-        <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;line-height:1.5;">Venue101 EXTRAのWEEK2はいつ放送ですか？</p>
+        <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;line-height:1.5;">Venue101の次回放送はいつですか？</p>
       </div>
       <div style="display:flex;gap:12px;align-items:flex-start;padding-top:12px;border-top:1px solid #333333;">
         <span style="flex:0 0 auto;color:#d4ff00;font-size:clamp(13px, calc(13px + (100vw - 480px) / 240), 16px);font-weight:900;line-height:1;">A</span>
-        <p style="margin:0;font-size:clamp(11.5px, calc(11.5px + (100vw - 480px) / 205.7), 15px);color:#cccccc;line-height:1.7;font-weight:600;">WEEK2は10月3日（土）の放送予定です。Ayumu Imazu、≒JOY、BALLISTIK BOYZ、M!LKが出演します。放送時間と歌唱曲は現時点で確認できていません。</p>
+        <p style="margin:0;font-size:clamp(11.5px, calc(11.5px + (100vw - 480px) / 205.7), 15px);color:#cccccc;line-height:1.7;font-weight:600;">10月10日の次の放送日は、現時点で確認できていません。放送日は決まり次第この記事で更新します。</p>
       </div>
     </div>
 
@@ -332,11 +364,11 @@ EBiDAN「Yes! 東京」（1組目）/ =LOVE「恋、はじめました。」/ CU
       <div style="position:absolute;top:0;left:0;width:100%;height:3px;background:#d4ff00;"></div>
       <div style="display:flex;gap:12px;align-items:flex-start;margin-bottom:12px;">
         <span style="flex:0 0 auto;background:#ffffff;color:#000000;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;padding:2px 8px;transform:skewX(-10deg);">Q4</span>
-        <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;line-height:1.5;">前回（9/12放送）の出演順は？</p>
+        <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:900;color:#ffffff;line-height:1.5;">前回（10/3放送）の出演順は？</p>
       </div>
       <div style="display:flex;gap:12px;align-items:flex-start;padding-top:12px;border-top:1px solid #333333;">
         <span style="flex:0 0 auto;color:#d4ff00;font-size:clamp(13px, calc(13px + (100vw - 480px) / 240), 16px);font-weight:900;line-height:1;">A</span>
-        <p style="margin:0;font-size:clamp(11.5px, calc(11.5px + (100vw - 480px) / 205.7), 15px);color:#cccccc;line-height:1.7;font-weight:600;">MON7A、BOYNEXTDOOR、ハク。、中島健人の順に登場したと推定されます。Xの実況投稿から推定した内容で、詳しくは「実際の出演順」の欄にまとめています。</p>
+        <p style="margin:0;font-size:clamp(11.5px, calc(11.5px + (100vw - 480px) / 205.7), 15px);color:#cccccc;line-height:1.7;font-weight:600;">≒JOY、Ayumu Imazu、BALLISTIK BOYZ、M!LKの順にライブが行われたと推定されます。Xの実況投稿から推定した内容で、詳しくは「実際の出演順」の欄にまとめています。</p>
       </div>
     </div>
 
@@ -348,7 +380,7 @@ EBiDAN「Yes! 東京」（1組目）/ =LOVE「恋、はじめました。」/ CU
       </div>
       <div style="display:flex;gap:12px;align-items:flex-start;padding-top:12px;border-top:1px solid #333333;">
         <span style="flex:0 0 auto;color:#d4ff00;font-size:clamp(13px, calc(13px + (100vw - 480px) / 240), 16px);font-weight:900;line-height:1;">A</span>
-        <p style="margin:0;font-size:clamp(11.5px, calc(11.5px + (100vw - 480px) / 205.7), 15px);color:#cccccc;line-height:1.7;font-weight:600;">2026年9月26日（土）23:00〜23:30、NHK総合で放送されます。</p>
+        <p style="margin:0;font-size:clamp(11.5px, calc(11.5px + (100vw - 480px) / 205.7), 15px);color:#cccccc;line-height:1.7;font-weight:600;">2026年10月10日（土）23:00〜23:30、NHK総合で放送されます。</p>
       </div>
     </div>
   </div>
@@ -356,15 +388,15 @@ EBiDAN「Yes! 東京」（1組目）/ =LOVE「恋、はじめました。」/ CU
 <!-- /wp:html -->
 
 <!-- wp:heading -->
-<h2>【まとめ】Venue101 EXTRA 出演者・タイムテーブルと放送時間</h2>
+<h2>【まとめ】Venue101 出演者・タイムテーブルと放送時間</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年9月26日（土）放送の『Venue101 EXTRA』WEEK1は、NHK総合で23:00から放送です。</p>
+<p>2026年10月10日（土）放送の『Venue101』は、NHK総合で23:00から放送です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演アーティストは新しい学校のリーダーズ、ONEW、Da-iCE、M!LKの4組。M!LKの「時空超えてお絵かきグランプリ」やONEWの日本楽曲カバー企画、新しい学校のリーダーズとDa-iCEのジェスチャーゲーム対決など、ライブ以外の企画も見どころです。</p>
+<p>出演アーティストはINI、imase、STU48、&TEAMの4組。INIの過去13回の振り返りやimaseの復帰トーク、&TEAM・TAKIの「Menu101」など、ライブ以外の企画も見どころです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -504,18 +536,18 @@ EBiDAN「Yes! 東京」（1組目）/ =LOVE「恋、はじめました。」/ CU
         "@type": "WebPage",
         "@id": "https://shira-treat.com/venue101-timetable/"
       },
-      "headline": "Venue101 EXTRA タイムテーブル 9月26日の出演者・順番をリアルタイム更新",
-      "description": "2026年9月26日放送のVenue101 EXTRA、今日の出演者タイムテーブルをまとめています。曲順は事前に発表されないため放送に合わせて更新します。",
+      "headline": "Venue101 タイムテーブル 10月10日の出演者・順番をリアルタイム更新",
+      "description": "10月10日放送のVenue101、今日の出演者と歌唱曲、出演順をまとめています。曲順は事前に発表されないため、放送に合わせて更新します。",
       "image": {
         "@type": "ImageObject",
         "@id": "https://shira-treat.com/venue101-timetable/#primaryimage",
-        "url": "https://shira-treat.com/wp-content/uploads/2026/06/image-7-2.webp",
-        "width": 1197,
-        "height": 634
+        "url": "https://shira-treat.com/wp-content/uploads/2026/09/image-7.webp",
+        "width": 1198,
+        "height": 665
       },
-      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/06/image-7-2.webp",
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/09/image-7.webp",
       "datePublished": "2026-09-25T12:00:00+09:00",
-      "dateModified": "2026-09-25T12:00:00+09:00",
+      "dateModified": "2026-10-08T20:00:00+09:00",
       "author": {
         "@type": "Person",
         "name": "Shira Notes",
@@ -542,8 +574,7 @@ EBiDAN「Yes! 東京」（1組目）/ =LOVE「恋、はじめました。」/ CU
         "Venue101 順番",
         "Venue101 今日",
         "Venue101 2026",
-        "Venue101 9月26日",
-        "Venue101 EXTRA"
+        "Venue101 10月10日"
       ],
       "inLanguage": "ja",
       "about": [
@@ -559,33 +590,33 @@ EBiDAN「Yes! 東京」（1組目）/ =LOVE「恋、はじめました。」/ CU
       "mentions": [
         {
           "@type": "MusicGroup",
-          "name": "新しい学校のリーダーズ"
+          "name": "INI"
         },
         {
           "@type": "Person",
-          "name": "ONEW"
+          "name": "imase"
         },
         {
           "@type": "MusicGroup",
-          "name": "Da-iCE"
+          "name": "STU48"
         },
         {
           "@type": "MusicGroup",
-          "name": "M!LK"
+          "name": "&TEAM"
         }
       ]
     },
     {
       "@type": "BroadcastEvent",
       "@id": "https://shira-treat.com/venue101-timetable/#event",
-      "name": "Venue101 EXTRA（2026年9月26日放送・WEEK1）",
-      "startDate": "2026-09-26T23:00:00+09:00",
-      "endDate": "2026-09-26T23:30:00+09:00",
+      "name": "Venue101（2026年10月10日放送）",
+      "startDate": "2026-10-10T23:00:00+09:00",
+      "endDate": "2026-10-10T23:30:00+09:00",
       "eventStatus": "https://schema.org/EventScheduled",
       "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
       "isLiveBroadcast": true,
-      "description": "2026年9月26日放送のVenue101 EXTRA WEEK1。新しい学校のリーダーズ、ONEW、Da-iCE、M!LKが出演する回。",
-      "image": "https://shira-treat.com/wp-content/uploads/2026/06/image-7-2.webp",
+      "description": "2026年10月10日放送のVenue101。INI、imase、STU48、&TEAMが出演する回。",
+      "image": "https://shira-treat.com/wp-content/uploads/2026/09/image-7.webp",
       "location": {
         "@type": "Organization",
         "name": "NHK総合"
@@ -597,26 +628,26 @@ EBiDAN「Yes! 東京」（1組目）/ =LOVE「恋、はじめました。」/ CU
       "performer": [
         {
           "@type": "MusicGroup",
-          "name": "新しい学校のリーダーズ"
+          "name": "INI"
         },
         {
           "@type": "Person",
-          "name": "ONEW"
+          "name": "imase"
         },
         {
           "@type": "MusicGroup",
-          "name": "Da-iCE"
+          "name": "STU48"
         },
         {
           "@type": "MusicGroup",
-          "name": "M!LK"
+          "name": "&TEAM"
         }
       ]
     },
     {
       "@type": "ItemList",
       "@id": "https://shira-treat.com/venue101-timetable/#lineup",
-      "name": "2026年9月26日 Venue101 EXTRA出演者一覧",
+      "name": "2026年10月10日 Venue101出演者一覧",
       "numberOfItems": 4,
       "itemListElement": [
         {
@@ -624,7 +655,7 @@ EBiDAN「Yes! 東京」（1組目）/ =LOVE「恋、はじめました。」/ CU
           "position": 1,
           "item": {
             "@type": "MusicGroup",
-            "name": "新しい学校のリーダーズ"
+            "name": "INI"
           }
         },
         {
@@ -632,7 +663,7 @@ EBiDAN「Yes! 東京」（1組目）/ =LOVE「恋、はじめました。」/ CU
           "position": 2,
           "item": {
             "@type": "Person",
-            "name": "ONEW"
+            "name": "imase"
           }
         },
         {
@@ -640,7 +671,7 @@ EBiDAN「Yes! 東京」（1組目）/ =LOVE「恋、はじめました。」/ CU
           "position": 3,
           "item": {
             "@type": "MusicGroup",
-            "name": "Da-iCE"
+            "name": "STU48"
           }
         },
         {
@@ -648,7 +679,7 @@ EBiDAN「Yes! 東京」（1組目）/ =LOVE「恋、はじめました。」/ CU
           "position": 4,
           "item": {
             "@type": "MusicGroup",
-            "name": "M!LK"
+            "name": "&TEAM"
           }
         }
       ]
@@ -659,18 +690,18 @@ EBiDAN「Yes! 東京」（1組目）/ =LOVE「恋、はじめました。」/ CU
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "今日のVenue101 EXTRAのタイムテーブルは事前に発表されますか？",
+          "name": "今日のVenue101のタイムテーブルは事前に発表されますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "9月26日（土）の放送は23:00〜23:30です。出演アーティスト4組と各歌唱曲は発表されていますが、出演順・タイムテーブルは事前には発表されません。放送が始まったら、この記事で登場順を更新します。"
+            "text": "10月10日（土）の放送は23:00〜23:30です。出演アーティスト4組と各歌唱曲は発表されていますが、出演順・タイムテーブルは事前には発表されません。放送が始まったら、この記事で登場順を更新します。"
           }
         },
         {
           "@type": "Question",
-          "name": "Venue101 EXTRAのWEEK2はいつ放送ですか？",
+          "name": "Venue101の次回放送はいつですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "WEEK2は10月3日（土）の放送予定です。Ayumu Imazu、≒JOY、BALLISTIK BOYZ、M!LKが出演します。放送時間と歌唱曲は現時点で確認できていません。"
+            "text": "10月10日の次の放送日は、現時点で確認できていません。放送日は決まり次第この記事で更新します。"
           }
         },
         {
@@ -683,10 +714,10 @@ EBiDAN「Yes! 東京」（1組目）/ =LOVE「恋、はじめました。」/ CU
         },
         {
           "@type": "Question",
-          "name": "前回（9/12放送）の出演順は？",
+          "name": "前回（10/3放送）の出演順は？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "MON7A、BOYNEXTDOOR、ハク。、中島健人の順に登場したと推定されます。Xの実況投稿から推定した内容で、詳しくは「実際の出演順」の欄にまとめています。"
+            "text": "≒JOY、Ayumu Imazu、BALLISTIK BOYZ、M!LKの順にライブが行われたと推定されます。Xの実況投稿から推定した内容で、詳しくは「実際の出演順」の欄にまとめています。"
           }
         },
         {
@@ -694,7 +725,7 @@ EBiDAN「Yes! 東京」（1組目）/ =LOVE「恋、はじめました。」/ CU
           "name": "Venue101の放送時間は何時からですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "2026年9月26日（土）23:00〜23:30、NHK総合で放送されます。"
+            "text": "2026年10月10日（土）23:00〜23:30、NHK総合で放送されます。"
           }
         }
       ]

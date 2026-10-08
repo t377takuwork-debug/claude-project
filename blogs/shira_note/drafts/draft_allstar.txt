@@ -47,25 +47,25 @@
     <div style="display: flex; align-items: flex-start; gap: 8px;">
       <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; background: #d4a017; color: #fff; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 1px;">出演者</div>
       <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">
-        横浜流星 / 小栗旬 / 上白石萌音 / 向井康二 他、総勢100名以上
+        横浜流星 / 小栗旬 / 上白石萌音 / 中村アン 他、総勢100名以上
         <div style="margin-top: 5px; font-size: 11.5px; font-weight: 800; color: #e3262a;"><span style="background: #e3262a; color: #fff; font-size: 9px; font-weight: 800; padding: 1px 5px; border-radius: 2px; margin-right: 6px;">VIVANT</span>宮下今日子・富栄ドラムも出演</div>
-        <div style="font-size: 10px; font-weight: 500; color: #666; margin-top: 3px;">9月26日に秋ドラマの俳優6名が第1弾として発表</div>
+        <div style="font-size: 10px; font-weight: 500; color: #666; margin-top: 3px;">10月3日の第2弾まで、ドラマ・映画・アニメの出演者14名が発表</div>
       </div>
     </div>
 
     <div style="background: rgba(227, 38, 42, 0.04); border-left: 3px solid #e3262a; padding: 8px 10px;">
       <div style="font-size: 10.5px; color: #e3262a; font-weight: 800; margin-bottom: 2px;">
-        SPECIAL：放送70回記念、赤坂ミニマラソンなど
+        SPECIAL：放送70回記念、歴代最長距離の赤坂ミニマラソンなど
       </div>
       <div style="font-size: 9px; font-weight: 500; color: #888;">
-        俳優陣の対決企画、体を張った新クイズ、dボタン生クイズバトルも予定
+        歴代優勝者が参戦するミニマラソンのほか、俳優陣の対決企画、体を張った新クイズ、dボタン生クイズバトルも予定
       </div>
     </div>
 
   </div>
 
   <div style="background: #fcfcfc; padding: 10px 12px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #eee;">
-    <div style="color: #999; font-size: 9px;">Update: 2026.09.26</div>
+    <div style="color: #999; font-size: 9px;">Update: 2026.10.09</div>
     <a href="#st-toc-h-1" style="display: inline-flex; align-items: center; background: #e3262a; color: #fff; text-decoration: none; font-size: 10.5px; font-weight: 800; padding: 5px 12px; border-radius: 20px; box-shadow: 0 4px 10px rgba(227, 38, 42, 0.2);">
       詳細を確認 <span style="margin-left: 4px; font-size: 11px;">↓</span>
     </a>
@@ -79,7 +79,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>赤坂ミニマラソンや新クイズなど見どころ満載の70回記念SPです。</p>
+<p>歴代優勝者が参戦する赤坂ミニマラソンや新クイズなど見どころ満載の70回記念SPです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -116,7 +116,7 @@
 
       <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d4a017;">
         <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">公式が案内する企画</span><br>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin-top: 4px;">赤坂ミニマラソン、俳優陣の対決企画、体を張った新クイズ、dボタン生クイズバトル。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin-top: 4px;">赤坂ミニマラソン（歴代優勝者が参戦する歴代最長距離）、俳優陣の対決企画、体を張った新クイズ、dボタン生クイズバトル。</p>
       </div>
 
     </div>
@@ -283,7 +283,7 @@
 
       <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
         <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">赤坂ミニマラソン（スタートからゴール）</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">過去3回とも、スタートは21時前後で、ゴールは21時台のうちだったと読めます。結果を伝える記事は21:38頃から21:43頃に出ています。今回と同じ17:40スタートだった2025年春も、同じ流れでした。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">過去3回とも、スタートは21時前後で、ゴールは21時台のうちだったと読めます。結果を伝える記事は21:38頃から21:43頃に出ています。今回と同じ17:40スタートだった2025年春も、同じ流れでした。ただし今回は「歴代最長距離」と案内されており、ゴールの時刻は過去回より遅くなるかもしれません（あくまで筆者の読みです）。</p>
       </div>
 
       <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #f2c230;">
@@ -371,7 +371,7 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>2026年9月26日に発表された第1弾は秋ドラマ3作品の俳優6名です。MCは今田耕司さんと島崎和歌子さんが務めます。</p>
+<p>2026年9月26日の第1弾は秋ドラマ3作品の俳優6名、10月3日の第2弾はドラマ・映画・アニメの出演者8名が発表されました。MCは今田耕司さんと島崎和歌子さんが務めます。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -379,7 +379,7 @@
 
   <div style="background: #050510; padding: 12px 15px; border-bottom: 2px solid #f2c230; text-align: center;">
     <div style="font-size: 15px; font-weight: 900; letter-spacing: 0.1em; background: linear-gradient(135deg, #f2c230 0%, #ffffff 50%, #f2c230 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
-      ★ 出演者（第1弾）
+      ★ 出演者（第1弾・第2弾）
     </div>
   </div>
 
@@ -395,13 +395,13 @@
 
       <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
         <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">『LOST10』</span><br>
-        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">横浜流星 / 小栗旬</span>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">横浜流星 / 小栗旬 / 中村アン / 飯豊まりえ</span>
         <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0;">10月スタートの金曜ドラマの出演者です。</p>
       </div>
 
       <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d4a017;">
         <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">『いろはの恋は時代（とき）をかける』</span><br>
-        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">上白石萌音 / 向井康二</span>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">上白石萌音 / 向井康二 / 山中柔太朗（M!LK） / 大西礼芳</span>
         <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0;">火曜ドラマの出演者です。</p>
       </div>
 
@@ -411,6 +411,24 @@
         <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0;">日曜劇場（2クール目）の出演者です。</p>
       </div>
 
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d4a017;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">映画『うるわしの宵の月』</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">安斉星来 / 与田祐希</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0;">映画の出演者です。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">アニメ『氷の城壁』</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">千葉翔也 / 鬼頭明里</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0;">アニメの出演者です。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #f2c230;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">🏃 赤坂5丁目ミニマラソン（歴代優勝者）</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">エリック・ワイナイナ / 藤光謙司 / 森脇健児 / ハリー杉山 / 小島よしお / 森渉 / 福山康平 / 菅田琳寧（B＆ZAI） / 佐野文哉（OWV）</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0;">報道で名前が挙がっている歴代優勝者です。「歴代最長距離」の勝負に挑みます。</p>
+      </div>
+
     </div>
   </div>
 
@@ -418,11 +436,19 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>報道では、6名は「感謝祭でしか見られない俳優陣のコラボ」としてさまざまな企画に挑むと紹介されています。</p>
+<p>報道では、第1弾の6名は「感謝祭でしか見られない俳優陣のコラボ」としてさまざまな企画に挑むと紹介されています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
 <p>どの俳優がどの企画に出るのかは、まだ発表されていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>赤坂5丁目ミニマラソンの歴代優勝者は、上の一覧のとおり9名の名前が挙がっています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>公式は「歴代最長距離」の勝負と案内していて、具体的な距離は発表されていません。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -454,7 +480,7 @@
       <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
         <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">前夜｜10月9日（金）</span><br>
         <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">超タッグ祭　20:55〜22:54</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0;">生放送。進行はハライチ澤部佑さんとTBSの杉山真也アナウンサーで、有名人と視聴者がスマホでタッグを組む参加型の番組です。感謝祭の前夜祭として編成されています。今回の出演者は、公式では「豪華有名人多数」とのみ案内されています。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0;">生放送。進行はハライチ澤部佑さんとTBSの杉山真也アナウンサーで、有名人と視聴者がスマホでタッグを組む参加型の番組です。感謝祭の前夜祭として編成されています。中島健人さん、上白石萌音さん、山中柔太朗さん、猪狩蒼弥さんが「ウソの演技を見破れ！」のクイズ出題者として登場します。</p>
       </div>
 
       <div style="background: rgba(255,255,255,0.08); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #f2c230; border: 1px solid rgba(242,194,48,0.4);">
@@ -466,7 +492,7 @@
       <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d4a017;">
         <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #f2c230; font-weight: 800;">深夜｜10月10日（土）</span><br>
         <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">オールスター後夜祭'26秋　24:58〜26:58</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0;">実際の時刻は11日の0:58〜2:58です。MCは有吉弘行さんと高山一実さんで、感謝祭のセットを使った深夜の延長戦です。2026年春は休止だったため、1年ぶりの放送になります。出演者と出題内容は未発表です。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0;">実際の時刻は11日の0:58〜2:58です。MCは有吉弘行さんと高山一実さんで、感謝祭のセットを使った深夜の延長戦です。2026年春は休止だったため、1年ぶりの放送になります。芸人が多数出演し、最下位になった芸人は「14人目の永久追放者」になります。</p>
       </div>
 
     </div>
@@ -490,7 +516,7 @@
 
       <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
         <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">🏃 赤坂ミニマラソンの時間帯</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">過去3回とも、マラソンは21時前後にスタートし、21時台のうちにゴールしたと読めます。今回と同じ17:40スタートだった2025年春も、番組の開始が早くても21時前後でした。時刻は、報道の配信時刻などからの推定です。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">過去3回とも、マラソンは21時前後にスタートし、21時台のうちにゴールしたと読めます。今回と同じ17:40スタートだった2025年春も、番組の開始が早くても21時前後でした。時刻は、報道の配信時刻などからの推定です。今回は歴代優勝者が参戦する「歴代最長距離」の勝負と案内されています。</p>
       </div>
 
       <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #f2c230;">
@@ -829,14 +855,14 @@
       <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(242, 194, 48, 0.2); border-radius: 6px; padding: 12px;">
         <div style="color: #ff6b6e; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q3｜今回の出演者は誰ですか？</div>
         <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
-          MCは今田耕司さんと島崎和歌子さんです。9月26日に、横浜流星さん、小栗旬さん、上白石萌音さん、向井康二さん、宮下今日子さん、富栄ドラムさんの6名が発表されました。総勢100名以上が出演する予定で、追加の発表があれば書き足します。
+          MCは今田耕司さんと島崎和歌子さんです。9月26日に、横浜流星さん、小栗旬さん、上白石萌音さん、向井康二さん、宮下今日子さん、富栄ドラムさんの6名が、10月3日に、中村アンさん、飯豊まりえさん、山中柔太朗さん、大西礼芳さん、安斉星来さん、与田祐希さん、千葉翔也さん、鬼頭明里さんの8名が発表されました。総勢100名以上が出演する予定で、追加の発表があれば書き足します。
         </div>
       </div>
 
       <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(242, 194, 48, 0.2); border-radius: 6px; padding: 12px;">
         <div style="color: #f2c230; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q4｜赤坂ミニマラソンは何時ごろ放送されますか？</div>
         <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
-          過去3回とも、21時前後にスタートし、21時台のうちにゴールしたと読めます。時刻は報道の配信時刻などからの推定です。2025年春は今回と同じ17:40スタートでしたが、スタートは21:00頃でした。今回の実際の時刻は放送後にこの記事で更新します。
+          過去3回とも、21時前後にスタートし、21時台のうちにゴールしたと読めます。時刻は報道の配信時刻などからの推定です。2025年春は今回と同じ17:40スタートでしたが、スタートは21:00頃でした。今回は歴代優勝者が参戦する「歴代最長距離」の勝負とされています。実際の時刻は放送後にこの記事で更新します。
         </div>
       </div>
 
@@ -862,11 +888,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演者は、秋ドラマ3作品の俳優6名が第1弾として発表されています。</p>
+<p>出演者は、9月26日の第1弾で6名、10月3日の第2弾でドラマ・映画・アニメの出演者8名が発表されています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>公式は総勢100名以上の出演を案内しており、赤坂ミニマラソンや俳優陣の対決企画、体を張った新クイズが予定されています。</p>
+<p>公式は総勢100名以上の出演を案内しており、歴代優勝者が参戦する赤坂ミニマラソンや俳優陣の対決企画、体を張った新クイズが予定されています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -1026,12 +1052,13 @@
         "オールスター感謝祭 2026秋",
         "オールスター感謝祭 10月10日",
         "赤坂ミニマラソン",
+        "赤坂ミニマラソン 歴代優勝者",
         "放送70回記念SP",
         "TBS"
       ],
       "datePublished": "2026-09-26T12:00:00+09:00",
       "dateCreated": "2026-09-26T12:00:00+09:00",
-      "dateModified": "2026-09-26T12:00:00+09:00",
+      "dateModified": "2026-10-09T12:00:00+09:00",
       "inLanguage": "ja",
       "image": {
         "@type": "ImageObject",
@@ -1078,7 +1105,24 @@
         { "@type": "Person", "name": "上白石萌音" },
         { "@type": "Person", "name": "向井康二" },
         { "@type": "Person", "name": "宮下今日子" },
-        { "@type": "Person", "name": "富栄ドラム" }
+        { "@type": "Person", "name": "富栄ドラム" },
+        { "@type": "Person", "name": "中村アン" },
+        { "@type": "Person", "name": "飯豊まりえ" },
+        { "@type": "Person", "name": "山中柔太朗" },
+        { "@type": "Person", "name": "大西礼芳" },
+        { "@type": "Person", "name": "安斉星来" },
+        { "@type": "Person", "name": "与田祐希" },
+        { "@type": "Person", "name": "千葉翔也" },
+        { "@type": "Person", "name": "鬼頭明里" },
+        { "@type": "Person", "name": "エリック・ワイナイナ" },
+        { "@type": "Person", "name": "藤光謙司" },
+        { "@type": "Person", "name": "森脇健児" },
+        { "@type": "Person", "name": "ハリー杉山" },
+        { "@type": "Person", "name": "小島よしお" },
+        { "@type": "Person", "name": "森渉" },
+        { "@type": "Person", "name": "福山康平" },
+        { "@type": "Person", "name": "菅田琳寧" },
+        { "@type": "Person", "name": "佐野文哉" }
       ],
       "hasPart": [
         { "@id": "https://shira-treat.com/allstar-kanshasai-timetable/#broadcast" },
@@ -1106,7 +1150,24 @@
         { "@type": "Person", "name": "上白石萌音" },
         { "@type": "Person", "name": "向井康二" },
         { "@type": "Person", "name": "宮下今日子" },
-        { "@type": "Person", "name": "富栄ドラム" }
+        { "@type": "Person", "name": "富栄ドラム" },
+        { "@type": "Person", "name": "中村アン" },
+        { "@type": "Person", "name": "飯豊まりえ" },
+        { "@type": "Person", "name": "山中柔太朗" },
+        { "@type": "Person", "name": "大西礼芳" },
+        { "@type": "Person", "name": "安斉星来" },
+        { "@type": "Person", "name": "与田祐希" },
+        { "@type": "Person", "name": "千葉翔也" },
+        { "@type": "Person", "name": "鬼頭明里" },
+        { "@type": "Person", "name": "エリック・ワイナイナ" },
+        { "@type": "Person", "name": "藤光謙司" },
+        { "@type": "Person", "name": "森脇健児" },
+        { "@type": "Person", "name": "ハリー杉山" },
+        { "@type": "Person", "name": "小島よしお" },
+        { "@type": "Person", "name": "森渉" },
+        { "@type": "Person", "name": "福山康平" },
+        { "@type": "Person", "name": "菅田琳寧" },
+        { "@type": "Person", "name": "佐野文哉" }
       ],
       "broadcaster": {
         "@type": "Organization",
@@ -1118,7 +1179,7 @@
       "@type": "ItemList",
       "@id": "https://shira-treat.com/allstar-kanshasai-timetable/#lineup",
       "name": "オールスター感謝祭2026秋（10/10）出演者一覧",
-      "numberOfItems": 8,
+      "numberOfItems": 25,
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "今田耕司" },
         { "@type": "ListItem", "position": 2, "name": "島崎和歌子" },
@@ -1127,7 +1188,24 @@
         { "@type": "ListItem", "position": 5, "name": "上白石萌音" },
         { "@type": "ListItem", "position": 6, "name": "向井康二" },
         { "@type": "ListItem", "position": 7, "name": "宮下今日子" },
-        { "@type": "ListItem", "position": 8, "name": "富栄ドラム" }
+        { "@type": "ListItem", "position": 8, "name": "富栄ドラム" },
+        { "@type": "ListItem", "position": 9, "name": "中村アン" },
+        { "@type": "ListItem", "position": 10, "name": "飯豊まりえ" },
+        { "@type": "ListItem", "position": 11, "name": "山中柔太朗" },
+        { "@type": "ListItem", "position": 12, "name": "大西礼芳" },
+        { "@type": "ListItem", "position": 13, "name": "安斉星来" },
+        { "@type": "ListItem", "position": 14, "name": "与田祐希" },
+        { "@type": "ListItem", "position": 15, "name": "千葉翔也" },
+        { "@type": "ListItem", "position": 16, "name": "鬼頭明里" },
+        { "@type": "ListItem", "position": 17, "name": "エリック・ワイナイナ" },
+        { "@type": "ListItem", "position": 18, "name": "藤光謙司" },
+        { "@type": "ListItem", "position": 19, "name": "森脇健児" },
+        { "@type": "ListItem", "position": 20, "name": "ハリー杉山" },
+        { "@type": "ListItem", "position": 21, "name": "小島よしお" },
+        { "@type": "ListItem", "position": 22, "name": "森渉" },
+        { "@type": "ListItem", "position": 23, "name": "福山康平" },
+        { "@type": "ListItem", "position": 24, "name": "菅田琳寧" },
+        { "@type": "ListItem", "position": 25, "name": "佐野文哉" }
       ]
     },
     {
@@ -1155,7 +1233,7 @@
           "name": "今回の出演者は誰ですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "MCは今田耕司さんと島崎和歌子さんです。9月26日に、横浜流星さん、小栗旬さん、上白石萌音さん、向井康二さん、宮下今日子さん、富栄ドラムさんの6名が発表されました。総勢100名以上が出演する予定で、追加の発表があれば書き足します。"
+            "text": "MCは今田耕司さんと島崎和歌子さんです。9月26日に、横浜流星さん、小栗旬さん、上白石萌音さん、向井康二さん、宮下今日子さん、富栄ドラムさんの6名が、10月3日に、中村アンさん、飯豊まりえさん、山中柔太朗さん、大西礼芳さん、安斉星来さん、与田祐希さん、千葉翔也さん、鬼頭明里さんの8名が発表されました。総勢100名以上が出演する予定で、追加の発表があれば書き足します。"
           }
         },
         {
@@ -1163,7 +1241,7 @@
           "name": "赤坂ミニマラソンは何時ごろ放送されますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "過去3回とも、21時前後にスタートし、21時台のうちにゴールしたと読めます。時刻は報道の配信時刻などからの推定です。2025年春は今回と同じ17:40スタートでしたが、スタートは21:00頃でした。今回の実際の時刻は放送後にこの記事で更新します。"
+            "text": "過去3回とも、21時前後にスタートし、21時台のうちにゴールしたと読めます。時刻は報道の配信時刻などからの推定です。2025年春は今回と同じ17:40スタートでしたが、スタートは21:00頃でした。今回は歴代優勝者が参戦する「歴代最長距離」の勝負とされています。実際の時刻は放送後にこの記事で更新します。"
           }
         },
         {
