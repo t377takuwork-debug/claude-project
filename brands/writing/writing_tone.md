@@ -2,7 +2,7 @@
 
 > **適用**：s4lv／MBTICODE／vivant。junk_juiceは対象外（`/junk-article` の文体2層設計が正）。
 > **位置づけ**：`writing_core.md`「AI臭さ除去」章（定型表現・重複・制作側用語＝主に機械検知）の上に重ねる「文章の書き方」の層。矛盾する場合、段落・改行（1-3）は本ファイルが全アカウントで優先する。
-> **成立**：2026-09-04。s4lv「タイトル診断」記事（`brands/s4lv/drafts/note_free_20260710_title_tsukekata.md`）のトーン調整で確定した基準を全アカウントへ汎化し、棚卸し（`docs/note_article_asset_inventory.md`）で決めた4点（段落は全アカウント統一／「〜でしょう」はアカウント別／`/quality-guardrail`のNote相当は本ファイルへ吸収／審査エージェントは書き手と分離）を反映。
+> **成立**：2026-09-04。s4lv「タイトル診断」記事（`S4LVnote/2_商品開発部/原稿/note_free_20260710_title_tsukekata.md`）のトーン調整で確定した基準を全アカウントへ汎化し、棚卸し（`docs/note_article_asset_inventory.md`）で決めた4点（段落は全アカウント統一／「〜でしょう」はアカウント別／`/quality-guardrail`のNote相当は本ファイルへ吸収／審査エージェントは書き手と分離）を反映。
 > **強制力**：一部は `brands/tools/qa_article.py` が機械検知（3章に対応表）。それ以外はLLM判断＝審査エージェント（`note-ai-reviewer`・Step 2で構築）のルーブリック項目。
 
 ---
@@ -88,7 +88,7 @@
 ### 1-9. Note貼り付けで崩れない書き方
 
 - 引用枠（`>`）内に markdown の番号リスト（`>1.`）を入れない→`（1）（2）`表記。`>・` は可。枠内の空行は `>　`
-- リスト・リンク・太字の記法は `brands/s4lv/rules/project_s4lv_note_article_process.md`「Note貼り付け時の記法制約」＋qa層3が正
+- リスト・リンク・太字の記法は `S4LVnote/2_商品開発部/project_s4lv_note_article_process.md`「Note貼り付け時の記法制約」＋qa層3が正
 
 ### 1-10. 既視感を作らない
 

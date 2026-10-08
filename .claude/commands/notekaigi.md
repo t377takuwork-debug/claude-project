@@ -14,7 +14,7 @@ Noteで稼ぐことに関わる**あとから戻しにくい大きな判断**を
 
 | アカウント | 見せ方・考え方のファイル | 読者像のファイル | `[更新]` で決定を書き込む先（運用ファイル） |
 |---|---|---|---|
-| **s4lv** | `brands/s4lv/rules/project_s4lv_accounts.md`（アイデンティティ原則） | `brands/s4lv/rules/project_s4lv_persona.md` | `brands/s4lv/rules/s4lv_learnings.md`（学びの台帳）／ X・Threadsの決まりは `brands/s4lv/CLAUDE.md` の一覧にある正のファイル ／ `brands/s4lv/x_neta_daicho.md` ／ `brands/s4lv/tools/s4lv_threads_insights_notes_0907.md` ／ 該当 draft |
+| **s4lv** | `S4LVnote/0_社長室/S4LV設定/project_s4lv_accounts.md`（アイデンティティ原則） | `S4LVnote/0_社長室/S4LV設定/project_s4lv_persona.md` | `S4LVnote/0_社長室/s4lv_learnings.md`（学びの台帳）／ X・Threadsの決まりは `S4LVnote/CLAUDE.md` の一覧にある正のファイル ／ `S4LVnote/0_社長室/x_neta_daicho.md` ／ `S4LVnote/3_広報部/スレッズ道具/s4lv_threads_insights_notes_0907.md` ／ 該当 draft |
 | **MBTICODE** | `brands/mbticode_tone.md`（声の設計・禁止事項）／ `brands/mbticode_strategy.md` | `brands/mbticode/persona_core.md`（心理×購買感情の3軸。デモグラは定義しない） | `brands/mbticode/sns_post_cheatsheet.md` ／ `brands/mbticode/threads_insights_notes.md` ／ `brands/mbticode/kpi_log.md`（`/kpi-weekly` で蓄積）／ `brands/mbticode/mbticode_tasks.md` ／ 該当 draft |
 | **vivant** | `vivant/profile.md`（キャラクター・語り口・ジャンル）／ `vivant/rules/project_vivant_content_policy.md`（情報ベース方針） | `vivant/profile.md`「ターゲット」＋ `vivant/rules/project_vivant_threads_strategy_0802.md` | `vivant/sns_post_cheatsheet.md` ／ 価格・有料テーマは `vivant/rules/project_vivant_copyright_and_monetization.md`・`project_vivant_pinned_article_and_paid_theme_0801.md` ／ 該当 draft |
 | **junk_juice**（※クライアント Junk314 の管理アカウント。方針の決定は本来クライアントのもの。会議を開く前に「これはクライアントに確認すべきことでは？」を先に問う） | `Junk314/junk_juice/profile.md`（キャラクター・実績）／ `Junk314/junk_juice/CLAUDE.md` | `Junk314/junk_juice/profile.md`「ペルソナ」 | `Junk314/junk_juice/rules/`（有料記事の基準は `feedback_junk_paid_article.md`）／ 該当 draft |

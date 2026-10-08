@@ -27,7 +27,7 @@ Brands全アカウント（MBTICODE / s4lv）対応。
 | アカウント | 読み込むファイル |
 |---|---|
 | MBTICODE | `brands/mbticode/personal_data.md` |
-| s4lv | `brands/s4lv/shared/personal_data.md` + `brands/s4lv/rules/project_s4lv_accounts.md`（統一アカウント定義・2026-07-08統一） |
+| s4lv | `S4LVnote/0_社長室/S4LV設定/personal_data.md` + `S4LVnote/0_社長室/S4LV設定/project_s4lv_accounts.md`（統一アカウント定義・2026-07-08統一） |
 
 ---
 
