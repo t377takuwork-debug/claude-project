@@ -1,6 +1,6 @@
 # Sonnet 5.5 でNote記事を書くときの補強（2026-10-01）
 
-Opus 5.5の良さを、Sonnet 5.5のmedium／highでも出すための指示と修正ポイント。`/uya-article`（UYA.）と `/note-article`（s4lv等）の本文生成で使う。
+Opus 5.5の良さを、Sonnet 5.5のmedium／highでも出すための指示と修正ポイント。UYAnote の記事づくり（UYA.）と `/note-article`（s4lv等）の本文生成で使う。
 
 **このファイルの確かさ**：検証したのはUYA.の1テーマ（「noteはこだわりすぎて1本に丸1日」）を、モデルごとに1回ずつ書かせた結果だけ。「観察できたこと」と「まだ試していない仮説」を分けて書く。元の結果は `uya/articles/sonnet5_vs_55_quality_test_results_1001.md`、Sonnet 5.5のリサーチは `uya/articles/sonnet55_research_and_s4lv_x_draft_1002.md`。
 
@@ -75,5 +75,5 @@ Sonnet 5.5は手直し作業が強いと報告されているので、初稿を�
 
 1. 補強の指示（2のA〜E）を入れて、Sonnet 5.5のmediumで1本書く。テスト時のA-2（5.5 medium）と読み比べ、つながり・具体さ・文末が良くなったか見る
 2. 3の手直しの1回を入れて、効果があるか見る
-3. 結果は、`uya/articles/sonnet5_vs_55_quality_test_results_1001.md` に追記する（またはこのファイルの「観察」を更新する）
+3. 結果は、このファイルの「観察」を更新する（旧テスト記録 `uya/articles/sonnet5_vs_55_quality_test_results_1001.md` は、2026-10-08に削除した）
 4. 効果が確認できたら、上の「まだ試していない仮説」を「観察できたこと」へ移す。効かなければ、この補強から外す
