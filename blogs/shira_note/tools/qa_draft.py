@@ -295,6 +295,21 @@ def check_banned_words(lines: list[str], regions, rep: Report):
                 rep.warn(f"L{i+1}: 禁止ワード「{m.group(0)}」（代替: {alt}） → {ctx(line)}")
 
 
+def check_unfilled_placeholders(lines: list[str], rep: Report):
+    """スクリプトで部品HTMLを作ったときの差し込み忘れ（%s・@@名前@@・{アーティスト名}等）を検知する。
+    2026-10-08 CDTV: 出演者カードが「%s%s」のまま入り、検品を素通りした実例から追加。"""
+    pats = [
+        (r"%[sd]", "書式の目印（%s等）が残っています"),
+        (r"@@\w+@@", "差し込み用の目印（@@…@@）が残っています"),
+        (r"\{(?:アーティスト|曲名|名前|日付|備考|バッジ)[^}\n]{0,20}\}", "テンプレの空欄（{…}）が残っています"),
+    ]
+    for i, line in enumerate(lines):
+        for pat, msg in pats:
+            m = re.search(pat, line)
+            if m:
+                rep.error(f"L{i+1}: 未置換の目印「{m.group(0)}」 {msg} → {ctx(line)}")
+
+
 def check_wp_blocks(text: str, rep: Report):
     for btype in WP_BLOCK_TYPES:
         opens = len(re.findall(rf"<!--\s*wp:{btype}(?:\s|-->)", text))
@@ -836,6 +851,7 @@ def run_qa(path: str) -> Report:
 
     check_smart_quotes(lines, rep)
     check_mojibake(lines, rep)
+    check_unfilled_placeholders(lines, rep)
     check_wp_blocks(text, rep)
     check_heading_level_mismatch(lines, rep)
     check_shortcode_isolation(lines, rep)
