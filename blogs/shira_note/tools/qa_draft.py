@@ -148,6 +148,7 @@ CANONICAL_URL_BY_FILENAME = {
     "draft_kanshasai.txt": NAV_FIXED_URLS["歌の感謝祭"],
     "draft_venue101.txt": NAV_FIXED_URLS["Venue101"],
     "draft_kouhaku.txt": NAV_FIXED_URLS["紅白歌合戦"],
+    "draft_kouhaku_naitei.txt": "https://shira-treat.com/kouhaku-naitei/",
 }
 
 # JSON-LDの@id/urlチェックから除外する、記事URLとは別に正当に存在する固定URL
@@ -165,13 +166,13 @@ NAV_BLOCK_END_MARKERS = ("出演者の作品を探す", "レコードを探す")
 # 旧記事は読点が多いなど当時の書き方のままなので、全記事に適用すると警告が大量に出る（2026-09-26実測：約80件）。
 # そのため新規記事だけを登録する。登録していない記事には、参考（INFO）を1行だけ出す。
 # 新規記事を立ち上げたら、ここへファイル名を足す（rewrite_common_rules.md 16章の文体ルールを機械で守るため）。
-STYLE_STRICT_FILES = {"draft_allstar_marathon.txt"}
+STYLE_STRICT_FILES = {"draft_allstar_marathon.txt", "draft_kouhaku_naitei.txt"}
 # 人物ごとに1ファイル作る記事は、名前の前半でまとめて登録する（毎回の追記を不要にする）
 STYLE_STRICT_PREFIXES = ("draft_onirenchan_",)
 # HTMLタグ（div・section・aside・details・span・p・a 等）の開始と終了の数が合っているかを「エラー」にするファイル。
 # 登録していない記事は、合っていないときだけ参考（INFO）を出す（2026-10-09：tvmrsに既存の不一致があり、全記事をエラーにすると他番組の作業が止まるため）。
 # 2026-10-09 紅白で、囲みの開始行だけが消えて閉じタグが余り、表示が崩れた。ブロックの開閉（wp:）の確認だけでは見つからなかった。
-TAG_BALANCE_STRICT_FILES = {"draft_kouhaku.txt"}
+TAG_BALANCE_STRICT_FILES = {"draft_kouhaku.txt", "draft_kouhaku_naitei.txt"}
 NEWS_TONE_RE = re.compile(
     r"と読めます|と報じられています|と紹介されています|は確認できていません|が確認できていません|を掲載します|を掲載しています"
 )

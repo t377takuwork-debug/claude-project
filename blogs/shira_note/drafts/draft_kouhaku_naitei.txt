@@ -1,0 +1,766 @@
+<!-- wp:paragraph -->
+タイトル：紅白歌合戦の内定者＆追加出場者｜最新情報まとめ(2026-2027)
+メタディスクリプション（82字）：
+紅白歌合戦2026内定速報！司会は芦田愛菜・堺雅人・二宮和也・鈴木奈穂子。近藤真彦がリストアップ、EBiDANの初出場濃厚報道やtimeleszの打診報道にも注目。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][title][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<!-- 第77回NHK紅白歌合戦（2026-2027）内定者・追加出場者 最新情報ボード -->
+<aside class="kouhaku-naitei-board" role="region" aria-label="第77回NHK紅白歌合戦 内定者・追加出場者の最新情報" style="position:relative;margin:12px 0;border:1px solid #e6e1d3;border-left:6px solid #a08a3c;border-radius:10px;overflow:hidden;background:#ffffff;color:#1f2937;font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;box-shadow:0 6px 18px rgba(60,50,20,0.10);">
+  <div style="padding:10px 12px 6px;display:flex;justify-content:space-between;align-items:baseline;gap:6px 10px;flex-wrap:wrap;">
+    <div style="font-size:clamp(14px, calc(14px + (100vw - 480px) / 300), 18px);font-weight:900;color:#a08a3c;letter-spacing:0.04em;">第77回 紅白歌合戦｜内定者・追加出場者</div>
+    <div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 300), 12px);font-weight:700;color:#6b7280;">2026年10月9日時点</div>
+  </div>
+  <div style="padding:2px 12px 12px;display:grid;gap:10px;">
+    <div style="display:flex;gap:8px;flex-wrap:wrap;"><div style="flex:1 1 140px;min-width:0;border:1px solid #ece7da;border-top:3px solid #d21f2f;border-radius:8px;padding:8px 10px;background:#faf8f2;"><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;">NHKの正式発表</div><div style="font-size:clamp(22px, calc(22px + (100vw - 480px) / 120), 30px);font-weight:900;color:#d21f2f;line-height:1.2;margin-top:2px;">0組</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;font-weight:600;margin-top:2px;">出場者は未発表（例年は11月中旬）</div></div><div style="flex:1 1 140px;min-width:0;border:1px solid #ece7da;border-top:3px solid #2f7a4d;border-radius:8px;padding:8px 10px;background:#faf8f2;"><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;">報道が出ている歌手</div><div style="font-size:clamp(22px, calc(22px + (100vw - 480px) / 120), 30px);font-weight:900;color:#2f7a4d;line-height:1.2;margin-top:2px;">3組</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;font-weight:600;margin-top:2px;">いずれも確定ではありません</div></div></div>
+    <div><span style="display:inline-block;border:1px solid #a08a3c;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:800;color:#6b5a1f;background:#ffffff;">近藤真彦</span><span style="display:inline-block;border:1px solid #a08a3c;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:800;color:#6b5a1f;background:#ffffff;">EBiDAN</span><span style="display:inline-block;border:1px solid #a08a3c;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:800;color:#6b5a1f;background:#ffffff;">timelesz</span></div>
+    <div style="display:flex;gap:10px;align-items:baseline;border-top:1px solid #ece7da;padding-top:8px;"><span style="flex:0 0 auto;min-width:48px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;">司会</span><span style="flex:1;min-width:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;color:#1f2937;line-height:1.6;">芦田愛菜／堺雅人／二宮和也／鈴木奈穂子アナ（決定）</span></div>
+    <div style="display:flex;gap:10px;align-items:baseline;border-top:1px solid #ece7da;padding-top:8px;"><span style="flex:0 0 auto;min-width:48px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;">放送</span><span style="flex:1;min-width:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;color:#1f2937;line-height:1.6;"><time datetime="2026-12-31T19:20:00+09:00">2026.12.31 (木) 19:20</time>〜<time datetime="2026-12-31T23:45:00+09:00">23:45</time>／NHK総合ほか</span></div>
+  </div>
+  <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px 10px;padding:8px 12px;background:#faf8f2;border-top:1px solid #ece7da;">
+    <a href="#naitei-sokuho" style="display:inline-block;text-decoration:none;background:#a08a3c;color:#ffffff;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;padding:7px 16px;border-radius:999px;letter-spacing:0.04em;line-height:1.3;">内定報道を見る ▼</a>
+    <div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);color:#9a9484;line-height:1.5;">最終更新: <time datetime="2026-10-09">2026.10.09</time></div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<!-- U-NEXT CTA Box A（コンパクト版：文字サイズ統一＋明るめCTA） -->
+<aside class="unext-cta" role="region" aria-label="紅白歌合戦の配信案内（U-NEXT）" style="border:1px solid #e5e7eb;border-radius:14px;
+         padding:10px 12px;margin:12px 0 14px;
+         background:#ffffff;
+         box-shadow:0 4px 14px rgba(17,24,39,0.08);
+         font-size:14px !important;line-height:1.35 !important;color:#111827;">
+
+  <p style="margin:0 0 6px;display:flex;align-items:flex-start;gap:8px;">
+    <span style="flex:0 0 auto;display:inline-block;
+                 padding:2px 7px;border-radius:999px;
+                 background:#fff7ed;border:1px solid #fed7aa;
+                 color:#9a3412;font-weight:900;font-size:11px;line-height:1.2;">
+      配信
+    </span>
+
+    <span style="display:block;font-weight:900;color:#b91c1c;font-size:14px;line-height:1.25;">
+      NHKオンデマンドの配信日は未発表です
+      <small style="display:block;margin-top:3px;font-weight:800;color:#1f2937;font-size:12px;line-height:1.3;">
+        第77回はNHK ONEで<strong style="color:#5f2a8b;">同時・見逃し配信予定</strong>
+      </small>
+    </span>
+  </p>
+
+  <p style="margin:0 0 8px;
+            padding:7px 9px;border-radius:12px;
+            background:#f5f3ff;border:1px solid #ddd6fe;
+            font-size:12px;line-height:1.4;color:#111827;">
+    U-NEXT経由でNHKオンデマンドを利用できます。
+  </p>
+
+  <p style="margin:0;">
+    <a href="https://px.a8.net/svt/ejp?a8mat=2ZWAMB+51LYIQ+3250+BW8O2&amp;a8ejpredirect=https%3A%2F%2Fwww.video.unext.jp%2Flp%2Fnod" rel="nofollow sponsored noopener" target="_blank" style="display:block;text-align:center;text-decoration:none !important;
+              padding:11px 10px;border-radius:12px;
+              background:linear-gradient(90deg,#60a5fa,#a78bfa);
+              border:1px solid rgba(255,255,255,0.55);
+              font-weight:900;font-size:13px;line-height:1.2;
+              color:#ffffff;
+              box-shadow:0 8px 18px rgba(99,102,241,0.20);">
+      NHKオンデマンドで確認する →
+    </a>
+  </p>
+
+  <!-- A8.net 計測用 1px（差し替え） -->
+  <img border="0" width="1" height="1" src="https://www19.a8.net/0.gif?a8mat=2ZWAMB+51LYIQ+3250+BW8O2" alt="">
+
+  <p style="margin:8px 0 0;font-size:11px;line-height:1.35;color:#6b7280;">
+    ※本ページの情報は2026年10月時点。最新の配信状況はU-NEXTサイトでご確認ください。
+  </p>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][mokujimae][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>第77回紅白歌合戦は誰が出るの？という方に向けて、内定者や出場者の最新情報を公式発表と報道に分けてまとめました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>新しい追加情報などあり次第更新していきます！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>紅白歌合戦2026-2027｜内定者まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>まずは公式に決まった司会とテーマを見て、そのあとに出場者の報道を見ていきましょう。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>司会者の最新情報【正式決定】</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div class="kouhaku-host-board" role="region" aria-label="第77回紅白歌合戦 司会者" style="margin:12px 0;border:1px solid #e6e1d3;border-left:6px solid #5f2a8b;border-radius:10px;overflow:hidden;background:#ffffff;font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;box-shadow:0 2px 8px rgba(60,50,20,0.07);"><div style="padding:8px 12px;background:#f5f3ff;border-bottom:1px solid #ddd6fe;display:flex;justify-content:space-between;align-items:baseline;gap:4px 10px;flex-wrap:wrap;"><span style="font-size:clamp(13px, calc(13px + (100vw - 480px) / 240), 16px);font-weight:900;color:#5f2a8b;">司会（NHK発表）</span><span style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;">2026年10月9日発表</span></div><div style="padding:10px 12px;display:grid;grid-template-columns:repeat(2, minmax(0, 1fr));gap:8px;"><div style="min-width:0;border:1px solid #ece7da;border-radius:8px;padding:8px 10px;background:#faf8f2;"><div style="font-size:clamp(14px, calc(14px + (100vw - 480px) / 240), 18px);font-weight:900;color:#1f2937;line-height:1.4;">芦田愛菜</div><div style="margin-top:2px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;">紅白の司会は初</div></div><div style="min-width:0;border:1px solid #ece7da;border-radius:8px;padding:8px 10px;background:#faf8f2;"><div style="font-size:clamp(14px, calc(14px + (100vw - 480px) / 240), 18px);font-weight:900;color:#1f2937;line-height:1.4;">堺雅人</div><div style="margin-top:2px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;">紅白の司会は初</div></div><div style="min-width:0;border:1px solid #ece7da;border-radius:8px;padding:8px 10px;background:#faf8f2;"><div style="font-size:clamp(14px, calc(14px + (100vw - 480px) / 240), 18px);font-weight:900;color:#1f2937;line-height:1.4;">二宮和也</div><div style="margin-top:2px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;">9年ぶりの司会</div></div><div style="min-width:0;border:1px solid #ece7da;border-radius:8px;padding:8px 10px;background:#faf8f2;"><div style="font-size:clamp(14px, calc(14px + (100vw - 480px) / 240), 18px);font-weight:900;color:#1f2937;line-height:1.4;">鈴木奈穂子アナ</div><div style="margin-top:2px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;">3年連続の司会</div></div></div><div style="padding:0 12px 10px;display:grid;gap:8px;"><div style="display:flex;gap:10px;align-items:baseline;border-top:1px solid #ece7da;padding-top:8px;"><span style="flex:0 0 auto;min-width:48px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;">テーマ</span><span style="flex:1;min-width:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;color:#1f2937;line-height:1.6;">「こえていこう、歌とともに。」</span></div><div style="display:flex;gap:10px;align-items:baseline;border-top:1px solid #ece7da;padding-top:8px;"><span style="flex:0 0 auto;min-width:48px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;">補足</span><span style="flex:1;min-width:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;color:#1f2937;line-height:1.6;">昨年まで3年連続で司会を務めた有吉弘行さんは、今回の司会には入っていません。</span></div></div></div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<div id="naitei-sokuho"></div>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":3} -->
+<h3>出場者の最新内定速報【2026年10月9日時点】</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>NHKの正式発表より前に出た出場の報道を、出所つきで並べました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="margin:10px 0;border:1px solid #e6e1d3;border-radius:10px;overflow:hidden;background:#ffffff;box-shadow:0 2px 8px rgba(60,50,20,0.07);font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;"><div style="padding:8px 12px;background:#faf8f2;border-bottom:1px solid #ece7da;"><div style="font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 18px);font-weight:900;color:#1f2937;line-height:1.4;">近藤真彦</div><div style="margin-top:4px;"><span style="display:inline-block;background:#d21f2f;color:#ffffff;border-radius:4px;padding:1px 8px;margin:0 6px 4px 0;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">報道：リストアップ</span><span style="display:inline-block;border:1px solid #9ca3af;color:#4b5563;border-radius:4px;padding:1px 8px;margin:0 0 4px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">正式発表なし</span></div></div><div style="padding:10px 12px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:600;color:#1f2937;line-height:1.7;">出場歌手に「リストアップ」されているとのことです。制作側が近く正式に出演を打診する方向で、最終調整しているそうです。決まれば2015年以来11年ぶり11回目になります。</div><div style="margin-top:6px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:700;color:#6b7280;line-height:1.5;">出所：スポニチアネックス（10/8）</div></div></div>
+<div style="margin:10px 0;border:1px solid #e6e1d3;border-radius:10px;overflow:hidden;background:#ffffff;box-shadow:0 2px 8px rgba(60,50,20,0.07);font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;"><div style="padding:8px 12px;background:#faf8f2;border-bottom:1px solid #ece7da;"><div style="font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 18px);font-weight:900;color:#1f2937;line-height:1.4;">EBiDAN<span style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:600;color:#6b7280;margin-left:6px;">（M!LKを含む）</span></div><div style="margin-top:4px;"><span style="display:inline-block;background:#d21f2f;color:#ffffff;border-radius:4px;padding:1px 8px;margin:0 6px 4px 0;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">報道：初出場が濃厚（分析）</span><span style="display:inline-block;border:1px solid #9ca3af;color:#4b5563;border-radius:4px;padding:1px 8px;margin:0 0 4px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">正式発表なし</span></div></div><div style="padding:10px 12px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:600;color:#1f2937;line-height:1.7;">新曲「Yes! 東京」のヒットなどから、初出場が濃厚と分析されています。放送コラムニストの分析記事なので、報道というより見立てに近い内容です。M!LKとの扱いにも触れています。</div><div style="margin-top:6px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:700;color:#6b7280;line-height:1.5;">出所：デイリー新潮（9/9）</div></div></div>
+<div style="margin:10px 0;border:1px solid #e6e1d3;border-radius:10px;overflow:hidden;background:#ffffff;box-shadow:0 2px 8px rgba(60,50,20,0.07);font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;"><div style="padding:8px 12px;background:#faf8f2;border-bottom:1px solid #ece7da;"><div style="font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 18px);font-weight:900;color:#1f2937;line-height:1.4;">timelesz</div><div style="margin-top:4px;"><span style="display:inline-block;background:#d21f2f;color:#ffffff;border-radius:4px;padding:1px 8px;margin:0 6px 4px 0;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">報道：打診あり・出場は絶望視</span><span style="display:inline-block;border:1px solid #9ca3af;color:#4b5563;border-radius:4px;padding:1px 8px;margin:0 0 4px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">正式発表なし</span></div></div><div style="padding:10px 12px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:600;color:#1f2937;line-height:1.7;">NHKから打診はあったものの出場は絶望視されているという内容です。</div><div style="margin-top:6px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:700;color:#6b7280;line-height:1.5;">出所：SmartFLASH（9/22）</div></div></div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>報道はあくまで報道。<br>確定ではありません。正式な発表が出るまでは変わる可能性があります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>10月9日時点で筆者が調べたかぎり、このほかの報道はまだ見つかっていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>出場者やタイムテーブルの発表について</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>正式な出場者は、例年11月中旬ごろにNHKが発表しています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>第76回は2025年11月14日の発表でした。第77回は10月9日時点で、まだ発表を待っているところです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<style>
+  *{ box-sizing:border-box; }
+
+  .kouhaku-wrap{
+    font-family: system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.35;
+    font-size: 12.5px;
+    color:#111827;
+  }
+
+  .kouhaku-grid-2{
+    display:grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    align-items: stretch;
+  }
+
+  .kouhaku-card{
+    min-width:0;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    background: #ffffff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.06);
+    overflow:hidden;
+    margin-bottom: 0.5em;
+  }
+
+  .kouhaku-card .hd{
+    padding: 10px 10px 8px;
+    font-weight: 900;
+    font-size: 13px;
+    text-align: center;
+    border-bottom: 1px solid #eef2f7;
+    letter-spacing: .02em;
+  }
+
+  .kouhaku-card.red .hd{
+    background:#fff5f5;
+    border-bottom-color:#fee2e2;
+    color:#b91c1c;
+  }
+
+  .kouhaku-card.white .hd{
+    background:#FAF7E1;
+    border-bottom-color:#e6dfc2;
+    color:#928957;
+  }
+
+  /* 司会者カード（NHKの紫） */
+  .kouhaku-card.host .hd{
+    background:#f5f3ff;
+    border-bottom-color:#ddd6fe;
+    color:#5f2a8b;
+  }
+
+  .kouhaku-card.host .name{ color:#5f2a8b; }
+
+  .kouhaku-card.host .row{
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:4px 16px;
+  }
+
+  /* 特別企画ヘッダーを淡いグリーンに */
+  .kouhaku-card.special .hd{
+    background:#e6f4ef;
+    border-bottom-color:#c6e3d6;
+    color:#047857;
+  }
+
+  .kouhaku-card .bd{
+    padding: 6px 10px 8px;
+  }
+
+  .row{
+    padding: 7px 0;
+    border-bottom: 1px solid #eef2f7;
+    display: flex;
+    flex-direction: column;
+  }
+  .row:last-child{ border-bottom: 0; }
+
+  .name{
+    font-weight: 800;
+    font-size: 12.5px;
+    line-height: 1.2;
+    word-break: break-word;
+  }
+
+  .kouhaku-card.red .name{ color:#ED1A3D; }
+  .kouhaku-card.white .name{ color:#928957; }
+  .kouhaku-card.special .name{ color:#047857; }
+
+  .song{
+    margin-top: 2px;
+    font-size: 11.5px;
+    color:#6b7280;
+    line-height: 1.2;
+    word-break: break-word;
+  }
+
+  .song .label{
+    font-weight: 800;
+    color:#4b5563;
+  }
+
+  .kouhaku-grid-1{
+    margin-top: 10px;
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  /* 特別企画ボックス用の調整 */
+  .kouhaku-card.special .bd{
+    background:#f3faf7;
+  }
+
+  .kouhaku-card.special .row{
+    flex-direction: row;
+    align-items:flex-start;
+    gap: 8px;
+    border-bottom: 1px solid #d1e4db;
+  }
+
+  .kouhaku-card.special .row:last-child{
+    border-bottom:none;
+  }
+
+  .kouhaku-card.special .name{
+    flex: 0 0 130px;
+    font-size: 12.5px;
+  }
+
+  .kouhaku-card.special .song{
+    margin-top: 0;
+    flex: 1 1 auto;
+    line-height: 1.5;
+    color:#166534;
+  }
+
+  /* 「内容」は表示しない */
+  .kouhaku-card.special .song .label{
+    display:none;
+  }
+
+  /* あんぱんスペシャルステージ内の行を見やすく区切る */
+  .special-stage-block .song{
+    margin-top: 0;
+  }
+
+  .special-stage-list{
+    display:block;
+    margin-top: 2px;
+  }
+
+  .special-stage-line{
+    display:block;
+    padding: 3px 0;
+    border-top: 1px dashed #c6e3d6;
+  }
+
+  .special-stage-line:first-child{
+    border-top:none;
+  }
+
+  @media (max-width: 720px){
+    .kouhaku-grid-2{
+      grid-template-columns: repeat(2, minmax(160px, 1fr));
+      gap: 3px;
+    }
+    .kouhaku-wrap{ font-size: 12px; }
+    .kouhaku-card{ border-radius: 12px; }
+    .kouhaku-card .hd{ padding: 9px 8px 7px; font-size: 12.5px; }
+    .kouhaku-card .bd{ padding: 6px 5px 7px; }
+    .row{ padding: 6px 0; }
+    .name{ font-size: 12px; }
+    .song{ font-size: 11px; }
+    .kouhaku-grid-1{ margin-top: 6px; gap: 6px; }
+
+    /* スマホでは特別企画も縦並びに戻す */
+    .kouhaku-card.special .row{
+      flex-direction: column;
+      gap: 2px;
+    }
+    .kouhaku-card.special .name{
+      flex: none;
+    }
+  }
+</style>
+
+<div class="kouhaku-wrap" role="region" aria-label="第77回紅白歌合戦 出場者一覧">
+  <div class="kouhaku-grid-2">
+    <section class="kouhaku-card red" role="region" aria-label="紅組 出場者と歌唱曲">
+      <div class="hd">紅組</div>
+      <div class="bd">
+        <div class="row"><div class="name">出場者は未発表です</div></div>
+      </div>
+    </section>
+    <section class="kouhaku-card white" role="region" aria-label="白組 出場者と歌唱曲">
+      <div class="hd">白組</div>
+      <div class="bd">
+        <div class="row"><div class="name">出場者は未発表です</div></div>
+      </div>
+    </section>
+  </div>
+  <div class="kouhaku-grid-1">
+    <section class="kouhaku-card special" role="region" aria-label="特別企画 出演者と内容">
+      <div class="hd">特別企画</div>
+      <div class="bd">
+        <div class="row"><div class="name">特別企画は未発表です</div></div>
+      </div>
+    </section>
+  </div>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>曲順やタイムテーブルも公式の発表待ちです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>出場者が決まったあとの一覧と曲順は<a href="https://shira-treat.com/nhk-kouhaku-timetable/">第77回紅白歌合戦のタイムテーブル＆出場者まとめ</a>で更新していくので、そちらもどうぞ。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>第76回（2025年）の内定報道は当たった？</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>報道が出ていた19組のうち、実際に出演したのは11組でした。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>内訳は歌手として9組・特別企画で2組です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>残る8組は出演者に名前がありませんでした。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<style>
+  .kouhaku-past{ margin:14px 0; border:1.5px solid #a08a3c; border-radius:10px; background:#ffffff; overflow:hidden; box-shadow:0 2px 8px rgba(60,50,20,.08); }
+  .kouhaku-past > summary{ list-style:none; cursor:pointer; display:flex; flex-wrap:wrap; align-items:center; gap:8px 10px; padding:12px; background:#faf8f2; font-weight:900; font-size:13px; line-height:1.4; color:#1f2937; }
+  .kouhaku-past > summary::-webkit-details-marker{ display:none; }
+  .kouhaku-past > summary:hover{ background:#f5f0e1; }
+  .kouhaku-past > summary::before{ content:"＋"; flex:0 0 auto; width:24px; height:24px; border-radius:50%; background:#a08a3c; color:#ffffff; display:flex; align-items:center; justify-content:center; font-size:16px; line-height:1; }
+  .kouhaku-past[open] > summary::before{ content:"－"; }
+  .kouhaku-past > summary::after{ content:"タップして開く"; margin-left:auto; flex:0 0 auto; font-size:11px; font-weight:700; color:#a08a3c; border:1px solid #a08a3c; border-radius:999px; padding:1px 9px; }
+  .kouhaku-past[open] > summary::after{ content:"閉じる"; }
+  .kouhaku-past[open] > summary{ border-bottom:1px solid #ece7da; }
+</style>
+<details class="kouhaku-past">
+<summary>第76回（2025年）の内定報道と結果を全て見る</summary>
+<div style="padding:8px 10px 12px;">
+<table style="width:100%;margin:10px 0;border-collapse:collapse;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);line-height:1.6;"><thead><tr><th style="padding:6px 8px;background:#faf8f2;border:1px solid #e6e1d3;font-weight:900;color:#1f2937;text-align:left;width:28%;">アーティスト</th><th style="padding:6px 8px;background:#faf8f2;border:1px solid #e6e1d3;font-weight:900;color:#1f2937;text-align:left;width:44%;">報道（第76回当時）</th><th style="padding:6px 8px;background:#faf8f2;border:1px solid #e6e1d3;font-weight:900;color:#1f2937;text-align:left;width:28%;">結果</th></tr></thead><tbody><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;font-weight:800;">&amp;TEAM</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">初出場内定の報道</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">出場（11/14発表）</td></tr><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;font-weight:800;">aespa</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">初出場内定の報道</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">出場（11/14発表）</td></tr><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;font-weight:800;">ちゃんみな</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">初出場候補の報道</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">出場（11/14発表）</td></tr><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;font-weight:800;">HANA</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">初出場候補の報道</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">出場（11/14発表）</td></tr><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;font-weight:800;">M!LK</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">初出場内定の報道</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">出場（11/14発表）</td></tr><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;font-weight:800;">King &amp; Prince</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">STARTOから3年ぶりの復帰の報道</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">出場（11/14発表）</td></tr><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;font-weight:800;">Perfume</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">活動休止前の出演の見通しの報道</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">出場（11/14発表）</td></tr><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;font-weight:800;">AKB48</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">内定報道のあと12/3に追加発表</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">出場（紅組で追加）</td></tr><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;font-weight:800;">RADWIMPS</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">結成20周年の節目として注目</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">出場（12/5に白組で追加）</td></tr><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;font-weight:800;">矢沢永吉</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">ソロ50周年で特別ゲストの本命と報道</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">特別企画で出演</td></tr><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;font-weight:800;">松田聖子</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">デビュー45周年で追加候補と報道</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">特別企画で出演</td></tr><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;font-weight:800;">AiScReam</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">企画枠の可能性の報道</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">出演者に名前なし</td></tr><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;font-weight:800;">timelesz</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">新体制で初出場内定の報道</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">出演者に名前なし</td></tr><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;font-weight:800;">BLACKPINK</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">海外枠で検討の報道</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">出演者に名前なし</td></tr><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;font-weight:800;">嵐</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">NHKが交渉を続けているとの報道</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">出演者に名前なし</td></tr><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;font-weight:800;">サザンオールスターズ</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">出演の見通しの報道</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">出演者に名前なし</td></tr><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;font-weight:800;">中島みゆき</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">サプライズ候補の報道</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">出演者に名前なし</td></tr><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;font-weight:800;">コブクロ</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">関西万博の企画での出演報道</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">出演者に名前なし</td></tr><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;font-weight:800;">Snow Man</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">追加の可能性は低いとの報道</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">出演者に名前なし</td></tr></tbody></table>
+</div>
+</details>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>報道が外れることもあるので、第77回の内定報道も参考程度に見てくださいね。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>よくある質問（FAQ）</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div role="region" aria-label="紅白歌合戦 よくある質問 Q1" style="margin:12px 0;border:1px solid #e6e1d3;border-radius:10px;overflow:hidden;background:#ffffff;box-shadow:0 2px 8px rgba(60,50,20,0.07);font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;">
+  <div style="height:3px;background:linear-gradient(90deg,#d21f2f 0,#d21f2f 34%,#a08a3c 34%,#a08a3c 67%,#2f7a4d 67%,#2f7a4d 100%);"></div>
+  <div style="display:flex;gap:10px;align-items:flex-start;padding:12px;background:#faf8f2;border-bottom:1px solid #ece7da;">
+    <span style="flex:0 0 auto;min-width:30px;text-align:center;background:#d21f2f;color:#ffffff;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;padding:2px 8px;transform:skewX(-15deg);letter-spacing:0.05em;">Q1</span>
+    <h3 style="margin:0 !important;padding:0 !important;border:none !important;background:none !important;font-size:clamp(14px, calc(14px + (100vw - 480px) / 240), 17px) !important;font-weight:900 !important;line-height:1.5 !important;color:#1f2937 !important;">紅白歌合戦2026の放送日はいつ？</h3>
+  </div>
+  <div style="display:flex;gap:10px;align-items:flex-start;padding:12px;">
+    <span style="flex:0 0 auto;min-width:30px;text-align:center;color:#a08a3c;font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 18px);font-weight:900;line-height:1.4;">A</span>
+    <div style="flex:1;min-width:0;">
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:600;color:#1f2937;line-height:1.7;">2026年12月31日（木）の19時20分から23時45分までの放送予定です。NHK総合・BSP4K・BS8K・NHK AMで放送され、NHK ONEでも同時・見逃し配信される予定です。</p>
+      <p style="margin:10px 0 0;padding:8px 10px;background:#faf8f2;border-left:3px solid #a08a3c;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#4b5563;line-height:1.7;">✔ 司会：芦田愛菜・堺雅人・二宮和也・鈴木奈穂子アナ<br>✔ テーマ：「こえていこう、歌とともに。」</p>
+    </div>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<div role="region" aria-label="紅白歌合戦 よくある質問 Q2" style="margin:12px 0;border:1px solid #e6e1d3;border-radius:10px;overflow:hidden;background:#ffffff;box-shadow:0 2px 8px rgba(60,50,20,0.07);font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;">
+  <div style="height:3px;background:linear-gradient(90deg,#d21f2f 0,#d21f2f 34%,#a08a3c 34%,#a08a3c 67%,#2f7a4d 67%,#2f7a4d 100%);"></div>
+  <div style="display:flex;gap:10px;align-items:flex-start;padding:12px;background:#faf8f2;border-bottom:1px solid #ece7da;">
+    <span style="flex:0 0 auto;min-width:30px;text-align:center;background:#d21f2f;color:#ffffff;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;padding:2px 8px;transform:skewX(-15deg);letter-spacing:0.05em;">Q2</span>
+    <h3 style="margin:0 !important;padding:0 !important;border:none !important;background:none !important;font-size:clamp(14px, calc(14px + (100vw - 480px) / 240), 17px) !important;font-weight:900 !important;line-height:1.5 !important;color:#1f2937 !important;">出場者の正式発表はいつ？</h3>
+  </div>
+  <div style="display:flex;gap:10px;align-items:flex-start;padding:12px;">
+    <span style="flex:0 0 auto;min-width:30px;text-align:center;color:#a08a3c;font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 18px);font-weight:900;line-height:1.4;">A</span>
+    <div style="flex:1;min-width:0;">
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:600;color:#1f2937;line-height:1.7;">出場者は、例年11月中旬ごろにNHKが発表しています。第76回は2025年11月14日で、第77回は10月9日時点でまだ発表されていません。</p>
+      <p style="margin:10px 0 0;padding:8px 10px;background:#faf8f2;border-left:3px solid #a08a3c;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#4b5563;line-height:1.7;">✔ 過去の傾向：11/12〜11/19頃が多い<br>✔ 発表前の報道は確定情報ではありません</p>
+    </div>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<div role="region" aria-label="紅白歌合戦 よくある質問 Q3" style="margin:12px 0;border:1px solid #e6e1d3;border-radius:10px;overflow:hidden;background:#ffffff;box-shadow:0 2px 8px rgba(60,50,20,0.07);font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;">
+  <div style="height:3px;background:linear-gradient(90deg,#d21f2f 0,#d21f2f 34%,#a08a3c 34%,#a08a3c 67%,#2f7a4d 67%,#2f7a4d 100%);"></div>
+  <div style="display:flex;gap:10px;align-items:flex-start;padding:12px;background:#faf8f2;border-bottom:1px solid #ece7da;">
+    <span style="flex:0 0 auto;min-width:30px;text-align:center;background:#d21f2f;color:#ffffff;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;padding:2px 8px;transform:skewX(-15deg);letter-spacing:0.05em;">Q3</span>
+    <h3 style="margin:0 !important;padding:0 !important;border:none !important;background:none !important;font-size:clamp(14px, calc(14px + (100vw - 480px) / 240), 17px) !important;font-weight:900 !important;line-height:1.5 !important;color:#1f2937 !important;">内定の報道は確定情報ですか？</h3>
+  </div>
+  <div style="display:flex;gap:10px;align-items:flex-start;padding:12px;">
+    <span style="flex:0 0 auto;min-width:30px;text-align:center;color:#a08a3c;font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 18px);font-weight:900;line-height:1.4;">A</span>
+    <div style="flex:1;min-width:0;">
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:600;color:#1f2937;line-height:1.7;">いいえ、確定ではありません。報道は関係者の話などをもとにしたものなので、NHKの正式発表が出るまでは出場が決まったわけではないんです。</p>
+      <p style="margin:10px 0 0;padding:8px 10px;background:#faf8f2;border-left:3px solid #a08a3c;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#4b5563;line-height:1.7;">✔ 第76回は報道19組のうち8組が出演者に名前なし<br>✔ 最新はNHK公式とX公式で確認</p>
+    </div>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>第77回NHK紅白歌合戦は、2026年12月31日の19時20分から23時45分までNHK総合などで放送されます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>司会は芦田愛菜さん・堺雅人さん・二宮和也さんと鈴木奈穂子アナウンサーの4人に決定しましたね。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>テーマは「こえていこう、歌とともに。」です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>出場の報道は、近藤真彦さんのリストアップ・EBiDANの初出場が濃厚という分析・timeleszの打診の3つが出ていました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>出場歌手は10月9日時点で未発表なので、正式な発表を待ちたいところです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="margin: 18px 0 14px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px 10px; font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #5f2a8b; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">他の音楽番組もチェック</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px;">
+    <a href="https://shira-treat.com/cdtv-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        CDTV <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/star-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        STAR <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/music-station-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        Mステ <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/fnskayousai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        FNS歌謡祭 <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/the-musicday-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        THE MUSIC DAY <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/ongakunohi-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        音楽の日 <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/teretoongakusai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        テレ東音楽祭 <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/utadeaetara-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        うたであえたら <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/record-award-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        レコード大賞 <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/nhk-kouhaku-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        紅白歌合戦 <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/utacon-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        うたコン <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/terebi-mrs-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        テレビ×ミセス <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/utanokanshasai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        歌の感謝祭 <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/venue101-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        Venue101 <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+  </div>
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #64748b; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">今日の放送で気になったアーティストの楽曲・CDを探す</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
+    <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #232f3e; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #161d26;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        CDをAmazonで探す <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
+      </span>
+    </a>
+
+    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fdaily%2F002%2F" target="_blank" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        楽天ブックスでCDを探す <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
+      </span>
+    </a>
+  </div>
+
+  <img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+
+  <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #3b1a5c, #5f2a8b); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid #c7a93f; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
+    <span style="font-size: 9px; font-weight: 900; color: #c7a93f; border: 1px solid #c7a93f; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 3px;">Music</span>
+    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を聴く（30日間無料）</span>
+    <span style="font-size: 18px; color: #c7a93f; margin-left: auto;">›</span>
+  </a>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:shortcode -->
+<!-- MANUAL_JSONLD -->
+[jsonld]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://shira-treat.com/kouhaku-naitei/#post",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://shira-treat.com/kouhaku-naitei/"
+      },
+      "headline": "紅白歌合戦の内定者＆追加出場者｜最新情報まとめ(2026-2027)",
+      "description": "紅白歌合戦2026内定速報！司会は芦田愛菜・堺雅人・二宮和也・鈴木奈穂子。近藤真彦がリストアップ、EBiDANの初出場濃厚報道やtimeleszの打診報道にも注目。",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://shira-treat.com/kouhaku-naitei/#primaryimage",
+        "url": "https://shira-treat.com/wp-content/uploads/2025/12/image-13-1.webp",
+        "width": 1195,
+        "height": 661
+      },
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2025/12/image-13-1.webp",
+      "datePublished": "2025-12-03T18:59:23+09:00",
+      "dateModified": "2026-10-09T10:18:22+09:00",
+      "author": {
+        "@type": "Person",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/operator-information/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/",
+        "sameAs": [
+          "https://x.com/ShiraNotes_"
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "articleSection": "音楽番組",
+      "keywords": [
+        "紅白歌合戦 内定",
+        "紅白歌合戦 内定者",
+        "紅白歌合戦 追加出場者",
+        "紅白歌合戦 2026",
+        "紅白歌合戦 第77回",
+        "紅白歌合戦 司会者"
+      ],
+      "inLanguage": "ja",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "NHK紅白歌合戦"
+        },
+        {
+          "@type": "Thing",
+          "name": "紅白歌合戦 内定者"
+        }
+      ]
+    },
+    {
+      "@type": "BroadcastEvent",
+      "@id": "https://shira-treat.com/kouhaku-naitei/#event",
+      "name": "第77回NHK紅白歌合戦（2026年12月31日放送）",
+      "startDate": "2026-12-31T19:20:00+09:00",
+      "endDate": "2026-12-31T23:45:00+09:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+      "isLiveBroadcast": true,
+      "description": "2026年12月31日放送の第77回NHK紅白歌合戦。司会は芦田愛菜、堺雅人、二宮和也、鈴木奈穂子アナウンサー。テーマは「こえていこう、歌とともに。」。",
+      "image": "https://shira-treat.com/wp-content/uploads/2025/12/image-13-1.webp",
+      "location": {
+        "@type": "Organization",
+        "name": "NHK総合"
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "NHK"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://shira-treat.com/kouhaku-naitei/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "紅白歌合戦2026の放送日はいつ？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2026年12月31日（木）の19時20分から23時45分までの放送予定です。NHK総合・BSP4K・BS8K・NHK AMで放送され、NHK ONEでも同時・見逃し配信される予定です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "出場者の正式発表はいつ？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "出場者は、例年11月中旬ごろにNHKが発表しています。第76回は2025年11月14日で、第77回は10月9日時点でまだ発表されていません。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "内定の報道は確定情報ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "いいえ、確定ではありません。報道は関係者の話などをもとにしたものなので、NHKの正式発表が出るまでは出場が決まったわけではないんです。"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://shira-treat.com/kouhaku-naitei/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://shira-treat.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "紅白歌合戦",
+          "item": "https://shira-treat.com/category/musictv/kouhaku/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "紅白歌合戦 内定者まとめ",
+          "item": "https://shira-treat.com/kouhaku-naitei/"
+        }
+      ]
+    }
+  ]
+}
+[/jsonld]
+<!-- /wp:shortcode -->
