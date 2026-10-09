@@ -1,0 +1,1739 @@
+<!-- wp:paragraph -->
+タイトル：第77回紅白歌合戦 タイムテーブル｜出場者と曲順まとめ【2026-2027】
+メタディスクリプション（76字）：
+第77回NHK紅白歌合戦（2026-2027）の出場者・曲目・曲順（タイムテーブル）最新情報を整理。司会や放送日時、視聴方法もまとめて確認できる保存版。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][title][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<!-- 第77回NHK紅白歌合戦（2026-2027）クイック情報 -->
+<aside class="kouhaku-quick-info" role="region" aria-label="第77回NHK紅白歌合戦（2026-2027）タイムテーブル・出場者・曲順まとめ" style="position:relative;margin:12px 0;border:1px solid #e6e1d3;border-radius:10px;overflow:hidden;background:#ffffff;color:#1f2937;font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;box-shadow:0 6px 18px rgba(60,50,20,0.10);">
+  <div style="height:5px;background:linear-gradient(90deg,#d21f2f 0,#d21f2f 34%,#a08a3c 34%,#a08a3c 67%,#2f7a4d 67%,#2f7a4d 100%);"></div>
+  <div style="padding:10px 12px 8px;display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;">
+    <div style="font-size:clamp(13px, calc(13px + (100vw - 480px) / 360), 17px);font-weight:900;letter-spacing:0.06em;color:#a08a3c;">第77回 NHK紅白歌合戦</div>
+    <div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 360), 12px);font-weight:800;letter-spacing:0.08em;color:#d21f2f;border:1px solid #d21f2f;padding:1px 8px;border-radius:2px;">タイムテーブル</div>
+  </div>
+  <div style="padding:2px 12px 12px;display:grid;gap:9px;">
+    <div style="display:flex;gap:10px;align-items:flex-start;border-top:1px solid #ece7da;padding-top:9px;">
+      <span style="display:inline-block;flex:0 0 auto;min-width:44px;text-align:center;background:#d21f2f;color:#ffffff;font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:900;padding:2px 7px;transform:skewX(-15deg);letter-spacing:0.05em;margin-top:2px;">放送</span>
+      <div style="flex:1;">
+        <div style="font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 19px);font-weight:900;color:#d21f2f;line-height:1.3;letter-spacing:-0.01em;"><time datetime="2026-12-31T19:20:00+09:00">2026.12.31 (木) 19:20</time>〜<time datetime="2026-12-31T23:45:00+09:00">23:45</time></div>
+        <div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:500;color:#6b7280;margin-top:2px;">NHK総合・BSP4K・BS8K・NHK AM</div>
+      </div>
+    </div>
+    <div style="display:flex;gap:10px;align-items:flex-start;padding-top:9px;border-top:1px solid #ece7da;">
+      <span style="display:inline-block;flex:0 0 auto;min-width:44px;text-align:center;background:#d21f2f;color:#ffffff;font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:900;padding:2px 7px;transform:skewX(-15deg);letter-spacing:0.05em;margin-top:2px;">司会</span>
+      <div style="flex:1;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;color:#1f2937;line-height:1.6;">芦田愛菜／堺雅人／二宮和也／鈴木奈穂子アナ</div>
+    </div>
+    <div style="display:flex;gap:10px;align-items:flex-start;padding-top:9px;border-top:1px solid #ece7da;">
+      <span style="display:inline-block;flex:0 0 auto;min-width:44px;text-align:center;background:#d21f2f;color:#ffffff;font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:900;padding:2px 7px;transform:skewX(-15deg);letter-spacing:0.05em;margin-top:2px;">テーマ</span>
+      <div style="flex:1;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;color:#1f2937;line-height:1.6;">「こえていこう、歌とともに。」</div>
+    </div>
+    <div style="display:flex;gap:10px;align-items:flex-start;padding-top:9px;border-top:1px solid #ece7da;">
+      <span style="display:inline-block;flex:0 0 auto;min-width:44px;text-align:center;background:#d21f2f;color:#ffffff;font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);font-weight:900;padding:2px 7px;transform:skewX(-15deg);letter-spacing:0.05em;margin-top:2px;">状況</span>
+      <div style="flex:1;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;color:#1f2937;line-height:1.6;">タイムテーブル（曲順）・出場者は<span style="color:#a08a3c;font-weight:900;">未発表</span></div>
+    </div>
+  </div>
+  <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px 10px;padding:8px 12px;background:#faf8f2;border-top:1px solid #ece7da;">
+    <a href="#st-toc-h-2" style="display:inline-block;text-decoration:none;background:#d21f2f;color:#ffffff;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:900;padding:6px 14px;border-radius:2px;letter-spacing:0.05em;line-height:1.3;">タイムテーブルを見る ▶</a>
+    <div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);color:#9a9484;line-height:1.5;">最終更新: <time datetime="2026-10-09">2026.10.09</time></div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<!-- U-NEXT CTA Box A（コンパクト版：文字サイズ統一＋明るめCTA） -->
+<aside class="unext-cta" role="region" aria-label="紅白歌合戦の配信案内（U-NEXT）" style="border:1px solid #e5e7eb;border-radius:14px;
+         padding:10px 12px;margin:12px 0 14px;
+         background:#ffffff;
+         box-shadow:0 4px 14px rgba(17,24,39,0.08);
+         font-size:14px !important;line-height:1.35 !important;color:#111827;">
+
+  <p style="margin:0 0 6px;display:flex;align-items:flex-start;gap:8px;">
+    <span style="flex:0 0 auto;display:inline-block;
+                 padding:2px 7px;border-radius:999px;
+                 background:#fff7ed;border:1px solid #fed7aa;
+                 color:#9a3412;font-weight:900;font-size:11px;line-height:1.2;">
+      配信
+    </span>
+
+    <span style="display:block;font-weight:900;color:#b91c1c;font-size:14px;line-height:1.25;">
+      NHKオンデマンドの配信日は未発表です
+      <small style="display:block;margin-top:3px;font-weight:800;color:#1f2937;font-size:12px;line-height:1.3;">
+        第77回はNHK ONEで<strong style="color:#5f2a8b;">同時・見逃し配信予定</strong>
+      </small>
+    </span>
+  </p>
+
+  <p style="margin:0 0 8px;
+            padding:7px 9px;border-radius:12px;
+            background:#f5f3ff;border:1px solid #ddd6fe;
+            font-size:12px;line-height:1.4;color:#111827;">
+    U-NEXT経由でNHKオンデマンドを利用できます。
+  </p>
+
+  <p style="margin:0;">
+    <a href="https://px.a8.net/svt/ejp?a8mat=2ZWAMB+51LYIQ+3250+BW8O2&amp;a8ejpredirect=https%3A%2F%2Fwww.video.unext.jp%2Flp%2Fnod" rel="nofollow sponsored noopener" target="_blank" style="display:block;text-align:center;text-decoration:none !important;
+              padding:11px 10px;border-radius:12px;
+              background:linear-gradient(90deg,#60a5fa,#a78bfa);
+              border:1px solid rgba(255,255,255,0.55);
+              font-weight:900;font-size:13px;line-height:1.2;
+              color:#ffffff;
+              box-shadow:0 8px 18px rgba(99,102,241,0.20);">
+      NHKオンデマンドで確認する →
+    </a>
+  </p>
+
+  <!-- A8.net 計測用 1px（差し替え） -->
+  <img border="0" width="1" height="1" src="https://www19.a8.net/0.gif?a8mat=2ZWAMB+51LYIQ+3250+BW8O2" alt="">
+
+  <p style="margin:8px 0 0;font-size:11px;line-height:1.35;color:#6b7280;">
+    ※本ページの情報は2026年10月時点。最新の配信状況はU-NEXTサイトでご確認ください。
+  </p>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>第77回紅白歌合戦の出場者やタイムテーブル、曲順が気になる方に向けて最新情報を整理しました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>司会は芦田愛菜さん・堺雅人さん・二宮和也さんと鈴木奈穂子アナウンサーに決定！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>テーマは「こえていこう、歌とともに。」で、放送は2026年12月31日の19時20分から23時45分までです。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][mokujimae][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<section class="update-history" role="region" aria-label="紅白歌合戦 更新履歴" style="margin:10px 0;padding:8px;border-left:4px solid #6b7dff;background:#f4f7ff;">
+  <p style="margin:0 0 3px;font-weight:bold;color:#1d1d1d;font-size:12px !important;"> 
+    📝 更新履歴（最終更新： <time datetime="2026-10-09T09:12:00+09:00">2026-10-09 09:12</time>） 
+  </p> 
+  <div style="margin:0 0 0 8px;line-height:1.3;font-size:12px;padding-left:0;color:#333;">
+
+    <div style="font-size:11px !important;line-height:1.1 !important;">
+      <time datetime="2026-10-09T09:12:00+09:00">2026-10-09</time>
+      ：司会とテーマを発表
+    </div>
+
+  </div>
+</section>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>紅白歌合戦 出場者＆歌唱曲一覧（紅組・白組）</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"id":1729,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://shira-treat.com/wp-content/uploads/2025/04/ChatGPT-Image-2025年4月7日-11_05_41-e1743991577129-1024x355.webp" alt="" class="wp-image-1729"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>第77回紅白歌合戦の出場者はまだ発表されていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<style>
+  *{ box-sizing:border-box; }
+
+  .kouhaku-wrap{
+    font-family: system-ui, -apple-system, "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.35;
+    font-size: 12.5px;
+    color:#111827;
+  }
+
+  .kouhaku-grid-2{
+    display:grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    align-items: stretch;
+  }
+
+  .kouhaku-card{
+    min-width:0;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    background: #ffffff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.06);
+    overflow:hidden;
+    margin-bottom: 0.5em;
+  }
+
+  .kouhaku-card .hd{
+    padding: 10px 10px 8px;
+    font-weight: 900;
+    font-size: 13px;
+    text-align: center;
+    border-bottom: 1px solid #eef2f7;
+    letter-spacing: .02em;
+  }
+
+  .kouhaku-card.red .hd{
+    background:#fff5f5;
+    border-bottom-color:#fee2e2;
+    color:#b91c1c;
+  }
+
+  .kouhaku-card.white .hd{
+    background:#FAF7E1;
+    border-bottom-color:#e6dfc2;
+    color:#928957;
+  }
+
+  /* 司会者カード（NHKの紫） */
+  .kouhaku-card.host .hd{
+    background:#f5f3ff;
+    border-bottom-color:#ddd6fe;
+    color:#5f2a8b;
+  }
+
+  .kouhaku-card.host .name{ color:#5f2a8b; }
+
+  .kouhaku-card.host .row{
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:4px 16px;
+  }
+
+  /* 特別企画ヘッダーを淡いグリーンに */
+  .kouhaku-card.special .hd{
+    background:#e6f4ef;
+    border-bottom-color:#c6e3d6;
+    color:#047857;
+  }
+
+  .kouhaku-card .bd{
+    padding: 6px 10px 8px;
+  }
+
+  .row{
+    padding: 7px 0;
+    border-bottom: 1px solid #eef2f7;
+    display: flex;
+    flex-direction: column;
+  }
+  .row:last-child{ border-bottom: 0; }
+
+  .name{
+    font-weight: 800;
+    font-size: 12.5px;
+    line-height: 1.2;
+    word-break: break-word;
+  }
+
+  .kouhaku-card.red .name{ color:#ED1A3D; }
+  .kouhaku-card.white .name{ color:#928957; }
+  .kouhaku-card.special .name{ color:#047857; }
+
+  .song{
+    margin-top: 2px;
+    font-size: 11.5px;
+    color:#6b7280;
+    line-height: 1.2;
+    word-break: break-word;
+  }
+
+  .song .label{
+    font-weight: 800;
+    color:#4b5563;
+  }
+
+  .kouhaku-grid-1{
+    margin-top: 10px;
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  /* 特別企画ボックス用の調整 */
+  .kouhaku-card.special .bd{
+    background:#f3faf7;
+  }
+
+  .kouhaku-card.special .row{
+    flex-direction: row;
+    align-items:flex-start;
+    gap: 8px;
+    border-bottom: 1px solid #d1e4db;
+  }
+
+  .kouhaku-card.special .row:last-child{
+    border-bottom:none;
+  }
+
+  .kouhaku-card.special .name{
+    flex: 0 0 130px;
+    font-size: 12.5px;
+  }
+
+  .kouhaku-card.special .song{
+    margin-top: 0;
+    flex: 1 1 auto;
+    line-height: 1.5;
+    color:#166534;
+  }
+
+  /* 「内容」は表示しない */
+  .kouhaku-card.special .song .label{
+    display:none;
+  }
+
+  /* あんぱんスペシャルステージ内の行を見やすく区切る */
+  .special-stage-block .song{
+    margin-top: 0;
+  }
+
+  .special-stage-list{
+    display:block;
+    margin-top: 2px;
+  }
+
+  .special-stage-line{
+    display:block;
+    padding: 3px 0;
+    border-top: 1px dashed #c6e3d6;
+  }
+
+  .special-stage-line:first-child{
+    border-top:none;
+  }
+
+  @media (max-width: 720px){
+    .kouhaku-grid-2{
+      grid-template-columns: repeat(2, minmax(160px, 1fr));
+      gap: 3px;
+    }
+    .kouhaku-wrap{ font-size: 12px; }
+    .kouhaku-card{ border-radius: 12px; }
+    .kouhaku-card .hd{ padding: 9px 8px 7px; font-size: 12.5px; }
+    .kouhaku-card .bd{ padding: 6px 5px 7px; }
+    .row{ padding: 6px 0; }
+    .name{ font-size: 12px; }
+    .song{ font-size: 11px; }
+    .kouhaku-grid-1{ margin-top: 6px; gap: 6px; }
+
+    /* スマホでは特別企画も縦並びに戻す */
+    .kouhaku-card.special .row{
+      flex-direction: column;
+      gap: 2px;
+    }
+    .kouhaku-card.special .name{
+      flex: none;
+    }
+  }
+</style>
+
+<div class="kouhaku-wrap" role="region" aria-label="第77回紅白歌合戦 出場者＆歌唱曲一覧">
+  <div class="kouhaku-grid-1" style="margin:0 0 10px;">
+    <section class="kouhaku-card host" role="region" aria-label="司会者">
+      <div class="hd">司会</div>
+      <div class="bd">
+        <div class="row"><div class="name">芦田愛菜</div><div class="name">堺雅人</div><div class="name">二宮和也</div><div class="name">鈴木奈穂子アナウンサー</div></div>
+      </div>
+    </section>
+  </div>
+
+  <div class="kouhaku-grid-2">
+
+    <section class="kouhaku-card red" role="region" aria-label="紅組 出場者と歌唱曲">
+      <div class="hd">紅組</div>
+      <div class="bd">
+        <div class="row"><div class="name">出場者は未発表です</div></div>
+      </div>
+    </section>
+
+    <section class="kouhaku-card white" role="region" aria-label="白組 出場者と歌唱曲">
+      <div class="hd">白組</div>
+      <div class="bd">
+        <div class="row"><div class="name">出場者は未発表です</div></div>
+      </div>
+    </section>
+
+  </div>
+
+  <div class="kouhaku-grid-1">
+    <section class="kouhaku-card special" role="region" aria-label="特別企画 出演者と内容">
+      <div class="hd">特別企画</div>
+      <div class="bd">
+        <div class="row"><div class="name">特別企画は未発表です</div></div>
+      </div>
+    </section>
+  </div>
+
+</div>
+
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="紅白歌合戦の見逃し配信案内" style="border:1px solid #e5e7eb;border-radius:12px;
+         padding:10px 12px;margin:12px 0 14px;
+         background:#ffffff;box-shadow:0 2px 8px rgba(17,24,39,0.06);
+         font-size:13px !important;line-height:1.5 !important;color:#111827;">
+  <p style="margin:0 0 6px;font-weight:800;font-size:13px !important;line-height:1.3 !important;">
+    ✅ 途中から見た人も安心
+  </p>
+  <p style="margin:0 0 10px;font-size:12.5px !important;line-height:1.6 !important;color:#374151;">
+    放送後は見逃し配信で、最初からまとめて見返せる場合があります。
+    U-NEXT経由でNHKオンデマンドを利用可能です。
+  </p>
+  <a href="https://px.a8.net/svt/ejp?a8mat=2ZWAMB+51LYIQ+3250+5YJRM" rel="nofollow sponsored noopener" target="_blank" style="display:inline-block;text-decoration:none !important;
+            padding:8px 10px;border-radius:10px;
+            background:#111827;color:#ffffff !important;
+            font-weight:800;font-size:12.5px !important;line-height:1.2 !important;">
+    U-NEXTで見逃し配信を確認
+  </a>
+  <img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=2ZWAMB+51LYIQ+3250+5YJRM" alt="">
+  <p style="margin:8px 0 0;font-size:11.5px !important;line-height:1.45 !important;color:#6b7280;">
+    ※配信の有無・期間は変更になる場合があります。
+  </p>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>紅白歌合戦タイムテーブル＆曲順(2026→2027)</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>大みそかの紅白は、出場者の順番や登場時間はチェックしておきたいところですね。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>現在第77回の曲順はまだ発表されていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div role="region" aria-label="紅白歌合戦 タイムテーブル（未発表）" style="margin:10px 0 14px;padding:12px;border:1px solid rgba(95,42,139,.35);border-left:6px solid #5f2a8b;border-radius:14px;background:#f5f3ff;font-size:13px;line-height:1.5;color:#111827;">
+  <p style="margin:0 0 4px;font-weight:900;font-size:13px;"><span style="display:inline-block;padding:2px 7px;border-radius:999px;background:#fff7ed;border:1px solid #fed7aa;color:#9a3412;font-weight:900;font-size:11px;margin-right:6px;">未発表</span>2026年12月31日（木）19:20～23:45</p>
+  <p style="margin:0;font-size:12px;color:#374151;">NHK総合／BSP4K／BS8K／NHK AM</p>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<style>
+  .kouhaku-past{ margin:14px 0; border:1.5px solid #a08a3c; border-radius:10px; background:#ffffff; overflow:hidden; box-shadow:0 2px 8px rgba(60,50,20,.08); }
+  .kouhaku-past > summary{ list-style:none; cursor:pointer; display:flex; flex-wrap:wrap; align-items:center; gap:8px 10px; padding:12px; background:#faf8f2; font-weight:900; font-size:13px; line-height:1.4; color:#1f2937; }
+  .kouhaku-past > summary::-webkit-details-marker{ display:none; }
+  .kouhaku-past > summary:hover{ background:#f5f0e1; }
+  .kouhaku-past > summary::before{ content:"＋"; flex:0 0 auto; width:24px; height:24px; border-radius:50%; background:#a08a3c; color:#ffffff; display:flex; align-items:center; justify-content:center; font-size:16px; line-height:1; }
+  .kouhaku-past[open] > summary::before{ content:"－"; }
+  .kouhaku-past > summary::after{ content:"タップして開く"; margin-left:auto; flex:0 0 auto; font-size:11px; font-weight:700; color:#a08a3c; border:1px solid #a08a3c; border-radius:999px; padding:1px 9px; }
+  .kouhaku-past[open] > summary::after{ content:"閉じる"; }
+  .kouhaku-past[open] > summary{ border-bottom:1px solid #ece7da; }
+</style>
+<details class="kouhaku-past">
+<summary>第76回（2025年12月31日）のタイムテーブルを全て見る</summary>
+<div style="padding:8px 10px 12px;">
+<!-- 共通スタイル -->
+<style>
+  .kb-wrap {
+    font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif;
+    margin: 10px 0 14px;
+  }
+
+  /* 前半/後半ラベル（見出しではない） */
+  .kb-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 8px;
+  }
+  .kb-label-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+  }
+  .kb-label-text {
+    margin: 0;
+    font-size: 14px;
+    color: #1f2a37;
+    font-weight: 900;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, rgba(170, 120, 255, 0.2), rgba(90, 140, 255, 0.1));
+    padding: 2px 6px;
+    border-radius: 8px;
+  }
+  .kb-label-line {
+    flex: 1 1 auto;
+    height: 1px;
+  }
+
+  /* 時間帯見出し */
+  .kb-time {
+    font-size: 12px;
+    color: #1f2a37;
+    font-weight: 900;
+    letter-spacing: .02em;
+    margin: 6px 0 8px !important;
+  }
+
+  /* カードグリッド */
+  .kb-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 0 0 6px !important;
+  }
+
+  /* フル幅カード */
+  .kb-card-wide {
+    grid-column: 1 / -1;
+    background: linear-gradient(180deg, #f6f8ff, #ffffff);
+    padding: 12px;
+    border-radius: 16px;
+    border: 1px solid rgba(40, 80, 180, .12);
+    box-shadow: 0 14px 28px rgba(15, 23, 42, .10);
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* リスト共通 */
+  .kb-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 11px;
+    line-height: 13px;
+    color: #374151;
+  }
+
+  .kb-item {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 7px;
+    border-radius: 10px;
+  }
+
+  .kb-num {
+    flex: 0 0 auto;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 900;
+    color: #2b3a55;
+    background: linear-gradient(135deg, rgba(90, 140, 255, .22), rgba(255, 255, 255, .9));
+    border: 1px solid rgba(70, 120, 255, .18);
+    border-radius: 7px;
+  }
+
+  .kb-artist {
+    font-weight: 900;
+    color: #111827;
+    font-size: 11px;
+    line-height: 13px;
+  }
+
+  .kb-song {
+    font-size: 11px;
+    line-height: 13px;
+    color: #64748b;
+  }
+
+  /* 紅組・白組・企画の色分け（通常曲） */
+  .kb-red-group {
+    background: rgba(252, 165, 165, .18);
+    border-left: 3px solid #f97373;
+  }
+
+  .kb-white-group {
+    background: rgba(191, 219, 254, .18);
+    border-left: 3px solid #3b82f6;
+  }
+
+  /* 特別企画バナー（淡いグリーンの帯） */
+  .kb-special-banner {
+    grid-column: 1 / -1;
+    background: #dff5ec;
+    padding: 6px 8px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 900;
+    color: #00703c;
+    border-top: 1px solid #9fd7bd;
+    border-bottom: 1px solid #9fd7bd;
+    margin: 6px 0;
+  }
+
+  .kb-special-main {
+    display: block;
+  }
+
+  .kb-special-sub {
+    display: block;
+  }
+
+  /* 朝ドラ『あんぱん』スペシャルステージ用 */
+  .kb-special-banner-asadora {
+    text-align: left;
+    padding: 8px 10px;
+  }
+
+  .kb-asadora-title {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+
+  .kb-asadora-list {
+    margin: 4px 0 0;
+    padding: 0;
+    font-size: 11px;
+    line-height: 15px;
+    color: #00703c;
+  }
+
+  .kb-asadora-item {
+    padding: 4px 0;
+    border-top: 1px solid #9fd7bd;
+  }
+
+  .kb-asadora-item:first-child {
+    border-top: none;
+  }
+</style>
+
+<!-- 前半 -->
+<section class="kb-wrap" role="region" aria-label="紅白歌合戦 第76回タイムテーブル（前半）">
+
+  <div class="kb-label">
+    <span class="kb-label-dot" style="background:linear-gradient(135deg, rgba(90,140,255,.95), rgba(170,120,255,.75)); box-shadow:0 6px 14px rgba(90,140,255,.18);"></span>
+    <p class="kb-label-text">前半</p>
+    <span class="kb-label-line" style="background:linear-gradient(90deg, rgba(90,140,255,.35), rgba(170,120,255,0));"></span>
+  </div>
+
+  <!-- 19:20～（公式：前半 午後7時20分～） -->
+  <p class="kb-time">19:20～</p>
+
+  <section class="kb-grid">
+
+    <!-- オープニング企画：放送100年紅白スペシャルメドレー -->
+    <div class="kb-card-wide" role="region" aria-label="紅白歌合戦 第76回タイムテーブル 19:20～（1）">
+      <div style="position:absolute; inset:-40px -60px auto auto; width:220px; height:220px; background:radial-gradient(circle, rgba(120,160,255,.26), transparent 60%); filter:blur(2px); pointer-events:none;"></div>
+      <div style="position:absolute; left:-60px; top:20px; width:180px; height:26px; background:linear-gradient(90deg, rgba(90,140,255,.26), rgba(170,120,255,.10)); transform:rotate(-12deg); border-radius:999px; pointer-events:none;"></div>
+
+      <div style="position:relative;">
+
+        <div style="display:flex; align-items:baseline; gap:8px; margin:0 0 8px;">
+          <p style="font-size:12px; color:#111827; font-weight:900; margin:0;">オープニング企画</p>
+          <span style="font-size:10px; font-weight:800; color:#334155; padding:2px 6px; border-radius:999px; background:rgba(255,255,255,.9); border:1px solid rgba(0,0,0,.06);">放送100年</span>
+        </div>
+
+        <p style="font-size:13px; color:#0f172a; font-weight:900; margin:0 0 6px; letter-spacing:.01em;">放送100年紅白スペシャルメドレー</p>
+
+        <div style="background:rgba(255,255,255,.82); border:1px solid rgba(0,0,0,.06); border-radius:14px; padding:10px; box-shadow:0 10px 22px rgba(15,23,42,.06);">
+          <ul class="kb-list">
+
+            <li class="kb-item">
+              <span class="kb-num">1</span>
+              <div style="min-width:0;">
+                <div class="kb-artist">Mrs. GREEN APPLE</div>
+                <div class="kb-song">♪ 夢であいましょう</div>
+              </div>
+            </li>
+
+            <li class="kb-item">
+              <span class="kb-num">2</span>
+              <div style="min-width:0;">
+                <div class="kb-artist">King ＆ Prince / 郷ひろみ / HANA</div>
+                <div class="kb-song">♪ ひょっこりひょうたん島</div>
+              </div>
+            </li>
+
+            <li class="kb-item">
+              <span class="kb-num">3</span>
+              <div style="min-width:0;">
+                <div class="kb-artist">アイナ・ジ・エンド / 今田美桜 / 前田敦子</div>
+                <div class="kb-song">♪ 春一番</div>
+              </div>
+            </li>
+
+            <li class="kb-item">
+              <span class="kb-num">4</span>
+              <div style="min-width:0;">
+                <div class="kb-artist">有吉弘行 / CANDY TUNE / FRUITS ZIPPER / 前田亘輝（TUBE）</div>
+                <div class="kb-song">♪ YOUNG MAN</div>
+              </div>
+            </li>
+
+            <li class="kb-item">
+              <span class="kb-num">5</span>
+              <div style="min-width:0;">
+                <div class="kb-artist">幾田りら / Perfume</div>
+                <div class="kb-song">♪ 春よ、来い</div>
+              </div>
+            </li>
+
+            <li class="kb-item">
+              <span class="kb-num">6</span>
+              <div style="min-width:0;">
+                <div class="kb-artist">綾瀬はるか / 石川さゆり / 坂本冬美 / 氷川きよし / MISIA</div>
+                <div class="kb-song">♪ 花は咲く</div>
+              </div>
+            </li>
+
+            <li class="kb-item">
+              <span class="kb-num">7</span>
+              <div style="min-width:0;">
+                <div class="kb-artist">ILLIT / &amp;TEAM / Number_i / BE:FIRST / ウェイキー（The Wakey Show）</div>
+                <div class="kb-song">♪ パプリカ</div>
+              </div>
+            </li>
+
+            <li class="kb-item" style="background:linear-gradient(90deg, rgba(90,140,255,.10), rgba(170,120,255,.06)); border:1px dashed rgba(70,120,255,.20);">
+              <span class="kb-num" style="background:linear-gradient(135deg, rgba(170,120,255,.20), rgba(255,255,255,.9)); border:1px solid rgba(170,120,255,.22);">8</span>
+              <div style="min-width:0;">
+                <div class="kb-artist">紅白出演者有志</div>
+                <div class="kb-song">♪ 上を向いて歩こう</div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- 19:20～ 続き（CANDY TUNE～乃木坂46） -->
+  <section class="kb-grid">
+    <div class="kb-card-wide" role="region" aria-label="紅白歌合戦 第76回タイムテーブル 19:20～（2）">
+      <ul class="kb-list">
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">9</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">CANDY TUNE</div>
+            <div class="kb-song">♪ 倍倍FIGHT!</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">10</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">FRUITS ZIPPER</div>
+            <div class="kb-song">♪ わたしの一番かわいいところ</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">11</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">新浜レオン</div>
+            <div class="kb-song">♪ Fun! Fun! Fun!</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">12</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">ORANGE RANGE</div>
+            <div class="kb-song">♪ イケナイ太陽</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">13</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">King ＆ Prince</div>
+            <div class="kb-song">♪ What We Got ～奇跡はきみと～</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">14</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">ILLIT</div>
+            <div class="kb-song">♪ Almond Chocolate</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">15</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">天童よしみ</div>
+            <div class="kb-song">♪ あんたの花道 ～ミャクミャクダンスSP～</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">16</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">&amp;TEAM</div>
+            <div class="kb-song">♪ FIREWORK</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">17</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">LiSA</div>
+            <div class="kb-song">♪ 残酷な夜に輝け</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">18</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">M!LK</div>
+            <div class="kb-song">♪ イイじゃん</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">19</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">乃木坂46</div>
+            <div class="kb-song">♪ Same numbers</div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- 20:00～（公式：前半 午後8時ごろ～） -->
+  <p class="kb-time">20:00～</p>
+
+  <section class="kb-grid">
+    <div class="kb-card-wide" role="region" aria-label="紅白歌合戦 第76回タイムテーブル 20:00～（1）">
+      <ul class="kb-list">
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">20</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">純烈</div>
+            <div class="kb-song">♪ いい湯だな(ビバノン・ロック)</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">21</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">Number_i</div>
+            <div class="kb-song">♪ GOD_i</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">22</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">幾田りら</div>
+            <div class="kb-song">♪ 恋風</div>
+          </div>
+        </li>
+
+      </ul>
+
+      <!-- 特別企画 氷川きよし -->
+      <div class="kb-special-banner">
+        <span class="kb-special-main">放送100年 紅白特別企画</span>
+        <span class="kb-special-sub">氷川きよし「愛燦燦」</span>
+      </div>
+
+      <ul class="kb-list">
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">23</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">aespa</div>
+            <div class="kb-song">♪ Whiplash</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">24</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">アイナ・ジ・エンド</div>
+            <div class="kb-song">♪ 革命道中 - On The Way</div>
+          </div>
+        </li>
+
+      </ul>
+
+      <!-- 特別企画 堺正章 -->
+      <div class="kb-special-banner">
+        <span class="kb-special-main">放送100年 紅白特別企画</span>
+        <span class="kb-special-sub">堺正章 ザッツ・エンターテインメント・メドレー<br>「さらば恋人」「バン・バン・バン」「モンキー・マジック」「プンスカピン！」</span>
+      </div>
+
+      <ul class="kb-list">
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">25</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">BE:FIRST</div>
+            <div class="kb-song">♪ 夢中</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">26</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">三山ひろし</div>
+            <div class="kb-song">♪ 酒灯り～第9回 けん玉世界記録への道～</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">27</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">ハンバート ハンバート</div>
+            <div class="kb-song">♪ 笑ったり転んだり</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">28</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">坂本冬美</div>
+            <div class="kb-song">♪ 夜桜お七</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">29</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">水森かおり</div>
+            <div class="kb-song">♪ 大阪恋しずく ～紅白ドミノチャレンジ2025～</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">30</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">Vaundy</div>
+            <div class="kb-song">♪ Tokimeki</div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+</section>
+
+<!-- 後半 -->
+<section class="kb-wrap" role="region" aria-label="紅白歌合戦 第76回タイムテーブル（後半）">
+
+  <div class="kb-label">
+    <span class="kb-label-dot" style="background:linear-gradient(135deg, rgba(170,120,255,.95), rgba(90,140,255,.75)); box-shadow:0 6px 14px rgba(170,120,255,.18);"></span>
+    <p class="kb-label-text">後半</p>
+    <span class="kb-label-line" style="background:linear-gradient(90deg, rgba(170,120,255,.35), rgba(90,140,255,0));"></span>
+  </div>
+
+  <!-- 21:00～（公式：後半 午後9時ごろ～） -->
+  <p class="kb-time">21:00～</p>
+
+  <section class="kb-grid">
+    <div class="kb-card-wide" role="region" aria-label="紅白歌合戦 第76回タイムテーブル 21:00～（1）">
+
+      <!-- 朝ドラ『あんぱん』スペシャルステージ -->
+      <div class="kb-special-banner kb-special-banner-asadora">
+        <span class="kb-special-main kb-asadora-title">連続テレビ小説「あんぱん」スペシャルステージ</span>
+        <div class="kb-asadora-list">
+          <div class="kb-asadora-item">
+            「東京ブギウギ」　今田美桜／河合優実／原菜乃華
+          </div>
+          <div class="kb-asadora-item">
+            「東京ブギウギ」　北村匠海／大森元貴／今田美桜
+          </div>
+          <div class="kb-asadora-item">
+            「見上げてごらん夜の星を」　大森元貴
+          </div>
+          <div class="kb-asadora-item">
+            「手のひらを太陽に」<br>
+            今田美桜／北村匠海／河合優実／原菜乃華／高橋文哉／大森元貴／津田健次郎／中尾隆聖／山寺宏一／戸田恵子
+          </div>
+          <div class="kb-asadora-item">
+            「アンパンマンのマーチ」<br>
+            今田美桜／北村匠海／河合優実／原菜乃華／高橋文哉／大森元貴／津田健次郎／中尾隆聖／山寺宏一／戸田恵子／アンパンマン／ばいきんまん／ジャムおじさん／ドキンちゃん／しょくぱんまん／カレーパンマン
+          </div>
+        </div>
+      </div>
+
+      <ul class="kb-list">
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">31</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">RADWIMPS</div>
+            <div class="kb-song">
+              20周年スペシャルメドレー<br>「賜物」「正解」
+            </div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">32</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">AKB48</div>
+            <div class="kb-song">
+              AKB48 20周年スーパーヒットメドレー<br>
+              「フライングゲット」「ヘビーローテーション」「恋するフォーチュンクッキー」「会いたかった」
+            </div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">33</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">TUBE</div>
+            <div class="kb-song">
+              紅白 夏の王様メドレー<br>
+              「シーズン・イン・ザ・サン」「恋してムーチョ」「あー夏休み」
+            </div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">34</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">HANA</div>
+            <div class="kb-song">♪ ROSE</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">35</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">ちゃんみな</div>
+            <div class="kb-song">
+              ちゃんみなSPメドレー<br>
+              「NG」「SAD SONG」
+            </div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">36</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">岩崎宏美</div>
+            <div class="kb-song">♪ 聖母（マドンナ）たちのララバイ</div>
+          </div>
+        </li>
+
+      </ul>
+
+      <!-- 特別企画 星野源 -->
+      <div class="kb-special-banner">
+        <span class="kb-special-main">特別企画</span>
+        <span class="kb-special-sub">星野源「創造」</span>
+      </div>
+
+      <ul class="kb-list">
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">37</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">サカナクション</div>
+            <div class="kb-song">♪ 「怪獣」「新宝島」</div>
+          </div>
+        </li>
+
+      </ul>
+
+      <!-- 特別企画 矢沢永吉 -->
+      <div class="kb-special-banner">
+        <span class="kb-special-main">特別企画</span>
+        <span class="kb-special-sub">矢沢永吉「真実」</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 22:00～（公式：後半 午後10時ごろ～） -->
+  <p class="kb-time">22:00～</p>
+
+  <section class="kb-grid">
+    <div class="kb-card-wide" role="region" aria-label="紅白歌合戦 第76回タイムテーブル 22:00～（1）">
+      <ul class="kb-list">
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">38</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">SixTONES</div>
+            <div class="kb-song">
+              6周年アニバーサリーメドレー<br>
+              「Imitation Rain」「バリア」「こっから」
+            </div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">39</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">郷ひろみ</div>
+            <div class="kb-song">♪ 2億4千万の瞳－エキゾチック・ジャパン－</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">40</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">back number</div>
+            <div class="kb-song">♪ どうしてもどうしても・水平線</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">41</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">あいみょん</div>
+            <div class="kb-song">♪ ビーナスベルト</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">42</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">久保田利伸</div>
+            <div class="kb-song">
+              紅白スペシャルメドレー<br>
+              「1, 2, Play」「Missing」「LA・LA・LA LOVE SONG」
+            </div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">43</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">Perfume</div>
+            <div class="kb-song">
+              Perfume Medley 2025<br>
+              「ポリリズム」「巡ループ」
+            </div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">44</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">髙橋真梨子</div>
+            <div class="kb-song">♪ 桃色吐息</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">45</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">布施明</div>
+            <div class="kb-song">♪ MY WAY</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">46</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">石川さゆり</div>
+            <div class="kb-song">♪ 天城越え</div>
+          </div>
+        </li>
+
+      </ul>
+
+      <!-- 特別企画 松任谷由実 -->
+      <div class="kb-special-banner">
+        <span class="kb-special-main">特別企画</span>
+        <span class="kb-special-sub">松任谷由実「天までとどけ」</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 23:00～（公式：後半 午後11時ごろ～） -->
+  <p class="kb-time">23:00～</p>
+
+  <section class="kb-grid">
+    <div class="kb-card-wide" role="region" aria-label="紅白歌合戦 第76回タイムテーブル 23:00～（1）">
+
+      <ul class="kb-list">
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">47</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">米津玄師</div>
+            <div class="kb-song">♪ IRIS OUT</div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">48</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">福山雅治</div>
+            <div class="kb-song">♪ クスノキ-500年の風に吹かれて-</div>
+          </div>
+        </li>
+
+      </ul>
+
+      <!-- 特別企画 玉置浩二 -->
+      <div class="kb-special-banner">
+        <span class="kb-special-main">特別企画</span>
+        <span class="kb-special-sub">玉置浩二「ファンファーレ」</span>
+      </div>
+
+      <ul class="kb-list">
+
+        <li class="kb-item kb-red-group">
+          <span class="kb-num">49</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">MISIA</div>
+            <div class="kb-song">
+              MISIAスペシャル<br>
+              「Everything」「アイノカタチ」
+            </div>
+          </div>
+        </li>
+
+        <li class="kb-item kb-white-group">
+          <span class="kb-num">50</span>
+          <div style="min-width:0;">
+            <div class="kb-artist">Mrs. GREEN APPLE</div>
+            <div class="kb-song">♪ GOOD DAY</div>
+          </div>
+        </li>
+
+      </ul>
+
+      <!-- 特別企画 松田聖子 -->
+      <div class="kb-special-banner">
+        <span class="kb-special-main">特別企画</span>
+        <span class="kb-special-sub">松田聖子「青い珊瑚礁」</span>
+      </div>
+
+    </div>
+  </section>
+
+</section>
+</div>
+</details>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<!-- 紅白＆CDTVタイムテーブル誘導カード：quick-info直下あたりに設置 -->
+<aside role="region" aria-label="他の音楽番組タイムテーブル案内" style="
+         border:1px solid rgba(148,163,184,.6);
+         border-radius:9px;
+         padding:6px 9px;
+         margin:8px 0 14px;
+         background:linear-gradient(135deg,#f8fafc 0%,#ffffff 100%);
+         box-shadow:0 3px 8px rgba(15,23,42,.08);
+         font-size:12px !important;
+         line-height:1.4 !important;
+         color:#111827;
+       ">
+  <p style="margin:0 0 3px;font-weight:700;font-size:12px !important;color:#111827;">
+    📖 大みそかのCDTVタイムテーブルもチェック
+  </p>
+
+  <p style="margin:0 0 5px;font-size:11.5px !important;color:#4b5563;">
+    紅白とあわせて、CDTVのタイムテーブルも確認しておくと便利です。
+  </p>
+
+  <a href="https://shira-treat.com/cdtv-timetable/" style="
+       display:flex;
+       flex-direction:column;
+       gap:1px;
+       padding:6px 8px;
+       border-radius:8px;
+       border:1px solid rgba(148,163,184,.7);
+       background:#ffffff;
+       text-decoration:none;
+     ">
+    <span style="font-size:11px !important;font-weight:700;color:#111827;">
+      ⏰ CDTV タイムテーブル
+    </span>
+    <span style="font-size:11px !important;color:#6b7280;">
+      出演者と曲目を一覧でチェック
+    </span>
+  </a>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>第77回紅白歌合戦（2026-2027）概要</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div class="wp-block-st-blocks-my-box st-mybox" style="background: linear-gradient(145deg, #ffffff, #f8f9fa); border-radius: 15px; padding: 20px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); max-width: 500px; margin: 20px auto; transition: transform 0.3s ease;">
+  <div class="st-in-mybox">
+    <p class="has-text-align-center" style="font-size:13px; line-height:1.6; color:#333; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+      <span style="font-size:20px; font-weight:bold; color:#ff6f61; text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);">第77回NHK紅白歌合戦</span><br>
+      <span style="font-size:13px; color:#666;">2026年12月31日(木) 19:20〜23:45</span><br>
+      <span style="font-size:13px; color:#666;">放送：NHK総合／BSP4K／BS8K／NHK AM</span><br>
+      <span style="font-size:13px; color:#666;">配信：NHK ONE／らじる★らじる（同時＋見逃し・聴き逃し）</span><br><br>
+      <a href="https://www.nhk.or.jp/kouhaku/" target="_blank" style="color:#007bff; text-decoration:none; font-weight:bold;">公式サイト</a> | 
+      <a href="https://x.com/nhk_kouhaku" target="_blank" style="color:#007bff; text-decoration:none; font-weight:bold;">@nhk_kouhaku</a>
+    </p>
+  </div>
+</div>
+
+<style>
+  .wp-block-st-blocks-my-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #ff6f61;
+  }
+
+  /* スマホでは上下の余白を詰める */
+  @media (max-width: 600px) {
+    .wp-block-st-blocks-my-box {
+      padding: 8px 12px !important;
+      margin: 10px auto !important;
+    }
+    .wp-block-st-blocks-my-box .st-in-mybox {
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    .wp-block-st-blocks-my-box .st-in-mybox p {
+      margin: 0 !important;
+    }
+  }
+</style>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>第77回NHK紅白歌合戦は、2026年12月31日の19時20分から23時45分までの放送！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>NHK総合に加えて、BSP4K・BS8K・NHK AMでも放送されます。NHK ONEとらじる★らじるでは、同時配信と見逃し（聴き逃し）が配信予定！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>視聴方法・見逃し配信について</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3>主な視聴方法</h3>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>視聴手段</th><th>内容</th></tr></thead><tbody><tr><td><strong>NHK総合（テレビ）</strong></td><td>地上波でのリアルタイム放送</td></tr><tr><td><strong>NHK ONE</strong></td><td>同時配信＋見逃し配信<br>（見逃しの期間は未発表）</td></tr><tr><td><strong>NHKラジオ（AM）</strong></td><td>ラジオ音声での放送<br>（らじる★らじるで同時・聴き逃し配信）</td></tr><tr><td><strong>BSP4K／BS8K</strong></td><td>高画質で楽しめる衛星放送</td></tr><tr><td><strong>NHKオンデマンド（有料）</strong></td><td>放送後の長期視聴向け。<br>U-NEXT経由利用も可</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:paragraph -->
+<p>NHK ONEでは放送と同時に見られるほか、見逃し配信も予定されています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>NHKオンデマンド（有料）の配信は未発表です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>見逃し配信について</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>第77回はNHK ONEで同時・見逃し配信が予定されています（NHK公式発表）。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>NHKオンデマンドの配信開始日は未発表です。第76回は放送終了の7日後に配信が始まりました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<!-- 見逃し配信（第77回向け：コンパクトカード） -->
+<aside role="region" aria-label="紅白歌合戦の見逃し配信まとめ" style="border:1.6px solid #e5e7eb;border-left:6px solid #5f2a8b;border-radius:14px;
+         padding:12px;margin:12px 0 14px;background:#ffffff;
+         box-shadow:0 4px 14px rgba(17,24,39,0.08);
+         font-size:14px !important;line-height:1.35 !important;color:#111827;">
+
+  <p style="margin:0 0 8px;font-weight:900;">
+    📺 見逃し配信の要点
+    <small style="display:block;margin-top:4px;font-weight:700;color:#6b7280;font-size:12px;line-height:1.3;">
+      NHKオンデマンドの配信開始日は未発表
+    </small>
+  </p>
+
+  <div style="display:grid;gap:8px;">
+    <div style="padding:9px 10px;border-radius:12px;background:#f5f3ff;border:1px solid #ddd6fe;">
+      <p style="margin:0;font-size:12.5px;line-height:1.45;color:#111827;">
+        <strong style="color:#5f2a8b;">第77回</strong>はNHK ONEで<strong style="color:#5f2a8b;">同時・見逃し配信予定</strong><br>
+        NHKオンデマンドの配信日は未発表
+      </p>
+    </div>
+
+    <div style="padding:9px 10px;border-radius:12px;background:#eef2ff;border:1px solid #c7d2fe;">
+      <p style="margin:0 0 8px;font-size:12px;line-height:1.4;color:#111827;font-weight:800;">
+        <span style="display:inline-block;padding:2px 6px;border-radius:6px;background:#fff3cd;color:#7a5200;font-weight:800;font-size:12px;vertical-align:1px;">PR</span>
+        U-NEXT（NHKオンデマンド）
+      </p>
+
+      <a href="https://px.a8.net/svt/ejp?a8mat=2ZWAMB+51LYIQ+3250+BW8O2&amp;a8ejpredirect=https%3A%2F%2Fwww.video.unext.jp%2Flp%2Fnod" rel="nofollow sponsored noopener" target="_blank" style="display:block;text-align:center;text-decoration:none !important;
+                padding:10px 12px;border-radius:12px;
+                background:linear-gradient(90deg,#60a5fa,#a78bfa);
+                border:1px solid rgba(255,255,255,0.55);
+                color:#ffffff !important;
+                font-weight:900;font-size:13px !important;line-height:1.2 !important;
+                box-shadow:0 8px 18px rgba(99,102,241,0.20);">
+        NHKオンデマンドで確認 →
+      </a>
+
+      <!-- A8.net 計測用 1px -->
+      <img border="0" width="1" height="1" src="https://www19.a8.net/0.gif?a8mat=2ZWAMB+51LYIQ+3250+BW8O2" alt="">
+    </div>
+  </div>
+
+  <p style="margin:10px 0 0;font-size:12px;line-height:1.45;color:#6b7280;">
+    ※本ページの情報は2026年10月時点。配信の有無・期間・内容は変更になる場合があります。
+  </p>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>よくある質問（FAQ）</h2>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<div role="region" aria-label="紅白歌合戦 よくある質問 Q1" style="margin:12px 0;border:1px solid #e6e1d3;border-radius:10px;overflow:hidden;background:#ffffff;box-shadow:0 2px 8px rgba(60,50,20,0.07);font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;">
+  <div style="height:3px;background:linear-gradient(90deg,#d21f2f 0,#d21f2f 34%,#a08a3c 34%,#a08a3c 67%,#2f7a4d 67%,#2f7a4d 100%);"></div>
+  <div style="display:flex;gap:10px;align-items:flex-start;padding:12px;background:#faf8f2;border-bottom:1px solid #ece7da;">
+    <span style="flex:0 0 auto;min-width:30px;text-align:center;background:#d21f2f;color:#ffffff;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;padding:2px 8px;transform:skewX(-15deg);letter-spacing:0.05em;">Q1</span>
+    <h3 style="margin:0 !important;padding:0 !important;border:none !important;background:none !important;font-size:clamp(14px, calc(14px + (100vw - 480px) / 240), 17px) !important;font-weight:900 !important;line-height:1.5 !important;color:#1f2937 !important;">出場者はいつ正式発表？</h3>
+  </div>
+  <div style="display:flex;gap:10px;align-items:flex-start;padding:12px;">
+    <span style="flex:0 0 auto;min-width:30px;text-align:center;color:#a08a3c;font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 18px);font-weight:900;line-height:1.4;">A</span>
+    <div style="flex:1;min-width:0;">
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:600;color:#1f2937;line-height:1.7;">紅白の出場者は、例年11月中旬ごろにNHKが公式発表します。第76回は2025年11月14日で、第77回は10月9日時点で未発表です。</p>
+      <p style="margin:10px 0 0;padding:8px 10px;background:#faf8f2;border-left:3px solid #a08a3c;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#4b5563;line-height:1.7;">✔ 過去の傾向：11/12〜11/19頃が多い<br>✔ メディアの「見通し報道」は確定情報ではありません</p>
+    </div>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<div role="region" aria-label="紅白歌合戦 よくある質問 Q2" style="margin:12px 0;border:1px solid #e6e1d3;border-radius:10px;overflow:hidden;background:#ffffff;box-shadow:0 2px 8px rgba(60,50,20,0.07);font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;">
+  <div style="height:3px;background:linear-gradient(90deg,#d21f2f 0,#d21f2f 34%,#a08a3c 34%,#a08a3c 67%,#2f7a4d 67%,#2f7a4d 100%);"></div>
+  <div style="display:flex;gap:10px;align-items:flex-start;padding:12px;background:#faf8f2;border-bottom:1px solid #ece7da;">
+    <span style="flex:0 0 auto;min-width:30px;text-align:center;background:#d21f2f;color:#ffffff;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;padding:2px 8px;transform:skewX(-15deg);letter-spacing:0.05em;">Q2</span>
+    <h3 style="margin:0 !important;padding:0 !important;border:none !important;background:none !important;font-size:clamp(14px, calc(14px + (100vw - 480px) / 240), 17px) !important;font-weight:900 !important;line-height:1.5 !important;color:#1f2937 !important;">タイムテーブルや曲順はいつ公表される？</h3>
+  </div>
+  <div style="display:flex;gap:10px;align-items:flex-start;padding:12px;">
+    <span style="flex:0 0 auto;min-width:30px;text-align:center;color:#a08a3c;font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 18px);font-weight:900;line-height:1.4;">A</span>
+    <div style="flex:1;min-width:0;">
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:600;color:#1f2937;line-height:1.7;">タイムテーブルは、放送当日（12月31日）に発表される傾向が続いていましたが、第76回は12月26日に発表されました。第77回は10月9日時点で未発表です。</p>
+      <p style="margin:10px 0 0;padding:8px 10px;background:#faf8f2;border-left:3px solid #a08a3c;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#4b5563;line-height:1.7;">✔ 2025：12/26発表<br>✔ 2024・2023：いずれも12/31当日発表<br>✔ 公式SNSが最速更新</p>
+    </div>
+  </div>
+</div>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+<div role="region" aria-label="紅白歌合戦 よくある質問 Q3" style="margin:12px 0;border:1px solid #e6e1d3;border-radius:10px;overflow:hidden;background:#ffffff;box-shadow:0 2px 8px rgba(60,50,20,0.07);font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;">
+  <div style="height:3px;background:linear-gradient(90deg,#d21f2f 0,#d21f2f 34%,#a08a3c 34%,#a08a3c 67%,#2f7a4d 67%,#2f7a4d 100%);"></div>
+  <div style="display:flex;gap:10px;align-items:flex-start;padding:12px;background:#faf8f2;border-bottom:1px solid #ece7da;">
+    <span style="flex:0 0 auto;min-width:30px;text-align:center;background:#d21f2f;color:#ffffff;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;padding:2px 8px;transform:skewX(-15deg);letter-spacing:0.05em;">Q3</span>
+    <h3 style="margin:0 !important;padding:0 !important;border:none !important;background:none !important;font-size:clamp(14px, calc(14px + (100vw - 480px) / 240), 17px) !important;font-weight:900 !important;line-height:1.5 !important;color:#1f2937 !important;">見逃し配信はどこで見られる？</h3>
+  </div>
+  <div style="display:flex;gap:10px;align-items:flex-start;padding:12px;">
+    <span style="flex:0 0 auto;min-width:30px;text-align:center;color:#a08a3c;font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 18px);font-weight:900;line-height:1.4;">A</span>
+    <div style="flex:1;min-width:0;">
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:600;color:#1f2937;line-height:1.7;">見逃しは以下の2つが基本です。NHK ONEは同時・見逃し配信の予定で、NHKオンデマンド（有料）の配信開始日は未発表です。</p>
+      <table style="width:100%;margin:10px 0 0;border-collapse:collapse;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);line-height:1.6;"><thead><tr><th style="padding:6px 8px;background:#faf8f2;border:1px solid #e6e1d3;font-weight:900;color:#1f2937;text-align:left;">サービス</th><th style="padding:6px 8px;background:#faf8f2;border:1px solid #e6e1d3;font-weight:900;color:#1f2937;text-align:left;">内容</th></tr></thead><tbody><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">NHK ONE</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">同時配信と見逃し配信（NHK公式発表）。見逃しの期間は未発表。</td></tr><tr><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;"><a href="https://www.nhk-ondemand.jp/">NHKオンデマンド</a>（有料）</td><td style="padding:6px 8px;border:1px solid #e6e1d3;color:#1f2937;vertical-align:top;">長期視聴向け。<br><a href="https://px.a8.net/svt/ejp?a8mat=2ZWAMB+51LYIQ+3250+6MC8Y" rel="nofollow">U-NEXT</a>経由で実質無料利用も可。</td></tr></tbody></table>
+    </div>
+  </div>
+</div>
+<!-- /wp:html -->
+
+
+<!-- wp:heading -->
+<h2>まとめ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>第77回NHK紅白歌合戦は、2026年12月31日の19時20分から23時45分までNHK総合などで放送されます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>司会は芦田愛菜さん・堺雅人さん・二宮和也さんと鈴木奈穂子アナウンサー。<br>テーマは「こえていこう、歌とともに。」です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>出場歌手とタイムテーブル（曲順）は、10月9日時点で未発表です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="margin: 18px 0 14px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px 10px; font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #5f2a8b; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">他の音楽番組もチェック</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px;">
+    <a href="https://shira-treat.com/cdtv-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        CDTV <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/star-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        STAR <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/music-station-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        Mステ <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/fnskayousai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        FNS歌謡祭 <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/the-musicday-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        THE MUSIC DAY <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/ongakunohi-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        音楽の日 <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/teretoongakusai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        テレ東音楽祭 <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/utadeaetara-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        うたであえたら <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/record-award-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        レコード大賞 <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/utacon-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        うたコン <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/terebi-mrs-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        テレビ×ミセス <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/utanokanshasai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        歌の感謝祭 <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/venue101-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        Venue101 <span style="font-size: 14px; margin-left: 6px; color: #5f2a8b;">›</span>
+      </span>
+    </a>
+  </div>
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #64748b; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">今日の放送で気になったアーティストの楽曲・CDを探す</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
+    <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #232f3e; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #161d26;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        CDをAmazonで探す <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
+      </span>
+    </a>
+
+    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fdaily%2F002%2F" target="_blank" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        楽天ブックスでCDを探す <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
+      </span>
+    </a>
+  </div>
+
+  <img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+
+  <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #3b1a5c, #5f2a8b); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid #c7a93f; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
+    <span style="font-size: 9px; font-weight: 900; color: #c7a93f; border: 1px solid #c7a93f; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 3px;">Music</span>
+    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を聴く（30日間無料）</span>
+    <span style="font-size: 18px; color: #c7a93f; margin-left: auto;">›</span>
+  </a>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:shortcode -->
+<!-- MANUAL_JSONLD -->
+[jsonld]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://shira-treat.com/nhk-kouhaku-timetable/#post",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://shira-treat.com/nhk-kouhaku-timetable/"
+      },
+      "headline": "第77回紅白歌合戦 タイムテーブル｜出場者と曲順まとめ【2026-2027】",
+      "description": "第77回NHK紅白歌合戦（2026-2027）の出場者・曲目・曲順（タイムテーブル）最新情報を整理。司会や放送日時、視聴方法もまとめて確認できる保存版。",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://shira-treat.com/nhk-kouhaku-timetable/#primaryimage",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/01/image-11-1.webp",
+        "width": 1197,
+        "height": 666
+      },
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/01/image-11-1.webp",
+      "datePublished": "2026-10-09T09:12:31+09:00",
+      "dateModified": "2026-10-09T09:12:32+09:00",
+      "author": {
+        "@type": "Person",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/operator-information/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/",
+        "sameAs": [
+          "https://x.com/ShiraNotes_"
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "articleSection": "音楽番組",
+      "keywords": [
+        "紅白歌合戦 タイムテーブル",
+        "紅白歌合戦 出場者",
+        "紅白歌合戦 曲順",
+        "紅白歌合戦 2026",
+        "紅白歌合戦 第77回",
+        "紅白歌合戦 12月31日"
+      ],
+      "inLanguage": "ja",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "NHK紅白歌合戦"
+        },
+        {
+          "@type": "Thing",
+          "name": "紅白歌合戦 タイムテーブル"
+        }
+      ]
+    },
+    {
+      "@type": "BroadcastEvent",
+      "@id": "https://shira-treat.com/nhk-kouhaku-timetable/#event",
+      "name": "第77回NHK紅白歌合戦（2026年12月31日放送）",
+      "startDate": "2026-12-31T19:20:00+09:00",
+      "endDate": "2026-12-31T23:45:00+09:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+      "isLiveBroadcast": true,
+      "description": "2026年12月31日放送の第77回NHK紅白歌合戦。司会は芦田愛菜、堺雅人、二宮和也、鈴木奈穂子アナウンサー。テーマは「こえていこう、歌とともに。」。",
+      "image": "https://shira-treat.com/wp-content/uploads/2026/01/image-11-1.webp",
+      "location": {
+        "@type": "Organization",
+        "name": "NHK総合"
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "NHK"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://shira-treat.com/nhk-kouhaku-timetable/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "出場者はいつ正式発表？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "紅白の出場者は、例年11月中旬ごろにNHKが公式発表します。第76回は2025年11月14日で、第77回は10月9日時点で未発表です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "タイムテーブルや曲順はいつ公表される？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "タイムテーブルは、放送当日（12月31日）に発表される傾向が続いていましたが、第76回は12月26日に発表されました。第77回は10月9日時点で未発表です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "見逃し配信はどこで見られる？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "見逃しは以下の2つが基本です。NHK ONEは同時・見逃し配信の予定で、NHKオンデマンド（有料）の配信開始日は未発表です。"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://shira-treat.com/nhk-kouhaku-timetable/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://shira-treat.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "紅白歌合戦",
+          "item": "https://shira-treat.com/category/musictv/kouhaku/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "紅白歌合戦 タイムテーブル",
+          "item": "https://shira-treat.com/nhk-kouhaku-timetable/"
+        }
+      ]
+    }
+  ]
+}
+[/jsonld]
+<!-- /wp:shortcode -->

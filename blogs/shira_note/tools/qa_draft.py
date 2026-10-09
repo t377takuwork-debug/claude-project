@@ -129,6 +129,7 @@ NAV_SELF_URL_BY_FILENAME = {
     "draft_tvmrs.txt": NAV_FIXED_URLS["テレビ×ミセス"],
     "draft_kanshasai.txt": NAV_FIXED_URLS["歌の感謝祭"],
     "draft_venue101.txt": NAV_FIXED_URLS["Venue101"],
+    "draft_kouhaku.txt": NAV_FIXED_URLS["紅白歌合戦"],
 }
 
 # JSON-LDの@id/urlが指すべき、この記事自身の正規URL。
@@ -146,6 +147,7 @@ CANONICAL_URL_BY_FILENAME = {
     "draft_tvmrs.txt": NAV_FIXED_URLS["テレビ×ミセス"],
     "draft_kanshasai.txt": NAV_FIXED_URLS["歌の感謝祭"],
     "draft_venue101.txt": NAV_FIXED_URLS["Venue101"],
+    "draft_kouhaku.txt": NAV_FIXED_URLS["紅白歌合戦"],
 }
 
 # JSON-LDの@id/urlチェックから除外する、記事URLとは別に正当に存在する固定URL
@@ -166,6 +168,10 @@ NAV_BLOCK_END_MARKERS = ("出演者の作品を探す", "レコードを探す")
 STYLE_STRICT_FILES = {"draft_allstar_marathon.txt"}
 # 人物ごとに1ファイル作る記事は、名前の前半でまとめて登録する（毎回の追記を不要にする）
 STYLE_STRICT_PREFIXES = ("draft_onirenchan_",)
+# HTMLタグ（div・section・aside・details・span・p・a 等）の開始と終了の数が合っているかを「エラー」にするファイル。
+# 登録していない記事は、合っていないときだけ参考（INFO）を出す（2026-10-09：tvmrsに既存の不一致があり、全記事をエラーにすると他番組の作業が止まるため）。
+# 2026-10-09 紅白で、囲みの開始行だけが消えて閉じタグが余り、表示が崩れた。ブロックの開閉（wp:）の確認だけでは見つからなかった。
+TAG_BALANCE_STRICT_FILES = {"draft_kouhaku.txt"}
 NEWS_TONE_RE = re.compile(
     r"と読めます|と報じられています|と紹介されています|は確認できていません|が確認できていません|を掲載します|を掲載しています"
 )
@@ -514,6 +520,15 @@ def extract_body_faq(text: str) -> list[tuple[str, str]]:
         q = html.unescape(re.sub(r"<[^>]+>", "", m4.group(1))).strip()
         a = html.unescape(re.sub(r"<[^>]+>", "", m4.group(2))).strip()
         pairs.append((q, a))
+    if pairs:
+        return pairs
+    # カード形式（紅白・2026-10-09）：質問＝style付きの<h3>、回答＝直後の「A」バッジに続く最初の<p>。
+    for m5 in re.finditer(
+        r'<h3[^>]*>(.*?)</h3>.*?<span[^>]*>A</span>.*?<p[^>]*>(.*?)</p>', block, re.DOTALL
+    ):
+        q = html.unescape(re.sub(r"<[^>]+>", "", m5.group(1))).strip()
+        a = html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", m5.group(2)))).strip()
+        pairs.append((q, a))
     return pairs
 
 
@@ -574,6 +589,26 @@ def check_style(text: str, filename: str, rep: Report):
             f"文体（参考・警告ではない）: 読点2つ以上の段落{len(multi)}件／ニュース調{len(news)}件／"
             f"H3が1つだけのH2{len(lone)}件。新規記事は STYLE_STRICT_FILES に登録すると警告になる"
         )
+
+
+def check_tag_balance(text: str, filename: str, rep: Report):
+    """HTMLタグの開始と終了の数が合っているか確認する（JSON-LDより前の本文が対象）"""
+    body = text.split("[jsonld]")[0]
+    body = re.sub(r"<!--.*?-->", "", body, flags=re.S)
+    body = re.sub(r"<(script|style)[^>]*>.*?</>", "", body, flags=re.S)
+    bad = []
+    for tag in ("div", "section", "aside", "details", "ul", "li", "table", "span", "p", "a", "figure"):
+        o = len(re.findall(r"<%s[\s>]" % tag, body))
+        c = len(re.findall(r"</%s>" % tag, body))
+        if o != c:
+            bad.append(f"{tag}（開始{o}／終了{c}）")
+    if not bad:
+        return
+    msg = "HTMLタグの開始と終了の数が合わない → " + "、".join(bad) + "（囲みの開始行・閉じタグの消し忘れ・消し過ぎを確認）"
+    if filename in TAG_BALANCE_STRICT_FILES:
+        rep.error(msg)
+    else:
+        rep.info(msg + "。参考（このファイルは登録外のため警告にしない）")
 
 
 def check_faq_sync(text: str, rep: Report):
@@ -860,6 +895,7 @@ def run_qa(path: str) -> Report:
     check_jsonld_canonical_url(text, os.path.basename(path), rep)
     check_meta_description(text, descriptions, rep)
     check_faq_sync(text, rep)
+    check_tag_balance(text, os.path.basename(path), rep)
     check_style(text, os.path.basename(path), rep)
     check_af_links(lines, text, rep)
     check_ul_style(lines, rep)

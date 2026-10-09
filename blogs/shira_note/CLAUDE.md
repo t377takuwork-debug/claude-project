@@ -35,6 +35,8 @@
 | `/kanshasai-rewrite` | 1億2000万人のありがとう 歌の感謝祭（日本テレビ・不定期特番） | `.claude/commands/kanshasai-rewrite.md` |
 | `/venue101-rewrite` | Venue101（NHK総合・定期番組。EXTRA・拡大版SP等の特別編成あり） | `.claude/commands/venue101-rewrite.md` |
 | `/venue101-research` | Venue101 リライト用の資料①②リサーチ（資料が渡されなかった回のみ／Yahoo検索＋Grok。TVerなし） | `.claude/commands/venue101-research.md` |
+| `/kouhaku-rewrite` | NHK紅白歌合戦（NHK・年1回。URL固定で毎年上書き。出場者発表前〜放送後の4段階で更新） | `.claude/commands/kouhaku-rewrite.md` |
+| `/kouhaku-research` | 紅白歌合戦 リライト用の資料①②リサーチ（資料が渡されなかった回のみ／NHK公式・X公式はChrome、Yahoo検索はWebFetch。内定報道は確定情報にしない） | `.claude/commands/kouhaku-research.md` |
 | `/allstar-rewrite` | オールスター感謝祭（TBS系クイズ特番・年2回。出演順ではなく企画の流れを軸にする） | `.claude/commands/allstar-rewrite.md` |
 | `/shira-qa` | 全番組共通・ドラフト検品（リライト後必須） | `.claude/commands/shira-qa.md` |
 | `/shira-keyword-article` | キーワード起点の新規テーマ記事（番組タイムテーブル速報とは別枠） | `.claude/commands/shira-keyword-article.md` |
@@ -75,6 +77,7 @@
 | テレビ×ミセス | `draft_tvmrs.txt` |
 | 歌の感謝祭 | `draft_kanshasai.txt` |
 | Venue101 | `draft_venue101.txt` |
+| 紅白歌合戦 | `draft_kouhaku.txt` |
 | オールスター感謝祭 | `draft_allstar.txt` |
 | オールスター感謝祭 マラソン（キーワード起点記事。年号なしで毎年上書き） | `draft_allstar_marathon.txt` |
 | 千鳥の鬼レンチャン サビだけカラオケの出演者（人物記事。**`tools/build_onirenchan.py` が入力ファイルから作る**。人物ごとに1ファイル。結果の書き足しまで終えたら削除） | `draft_onirenchan_{人物}.txt`（例：`draft_onirenchan_sasaki.txt`） |
