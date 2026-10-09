@@ -1,6 +1,7 @@
 """Buffer API（公式）で、Xの予約を送る小さな道具。
 使い方:
   python buffer_api.py channels            # つながっているチャンネルの一覧(読み取りだけ)
+  python buffer_api.py metrics             # 送信済みの投稿ごとの数字(表示・いいね・コメント等。読み取りだけ)
   python buffer_api.py query "<GraphQL>"   # 任意の問い合わせ(調査用)
   python buffer_api.py send <提案.md> [N ...] [--draft|--go]
       提案ファイルのN本目(省略で全部)を送る。何も付けないと「送る内容の確認」だけ(送らない)。
@@ -83,6 +84,37 @@ def send(path, nums, mode):
         print("→", json.dumps(gql(CREATE, {"i": inp}), ensure_ascii=False))
 
 
+ORG_ID = "6ac696c03a800282e36bf892"
+
+METRICS = """query($a: String){ posts(first: 50, after: $a, input:{organizationId:"%s"}) {
+ pageInfo { hasNextPage endCursor }
+ edges { node { id status sentAt channelId text metricsUpdatedAt metrics { name value } metadata { ... on TwitterPostMetadata { thread { text } } } } } } }""" % ORG_ID
+
+
+def metrics():
+    """送信済みの投稿ごとの数字を、1行ずつ出す(読み取りだけ)。"""
+    after = None
+    rows = []
+    while True:
+        d = gql(METRICS, {"a": after})
+        if d.get("errors") or d.get("http_error"):
+            sys.exit("取得できませんでした: " + json.dumps(d, ensure_ascii=False)[:300])
+        p = d["data"]["posts"]
+        rows += [e["node"] for e in p["edges"]]
+        if not p["pageInfo"]["hasNextPage"]:
+            break
+        after = p["pageInfo"]["endCursor"]
+    print("送信日時(JST)\t表示\tいいね\tコメント\t自己返信\t他の人の返信(推定)\tリポスト\tクリック\t数字の更新(JST)\t本文の冒頭")
+    for n in sorted((r for r in rows if r["status"] == "sent" and r["sentAt"] and r["channelId"] == CHANNEL_ID), key=lambda r: r["sentAt"]):
+        m = {x["name"]: x["value"] for x in n["metrics"]}
+        t = lambda s: (datetime.datetime.strptime(s[:16], "%Y-%m-%dT%H:%M") + datetime.timedelta(hours=9)).strftime("%m-%d %H:%M")
+        own = max(0, len((n.get("metadata") or {}).get("thread") or []) - 1)
+        others = max(0, (m.get("Comments") or 0) - own)
+        print("\t".join([t(n["sentAt"]), str(m.get("Impressions")), str(m.get("Reactions")), str(m.get("Comments")),
+                         str(own), str(others), str(m.get("Reposts")), str(m.get("Clicks")), t(n["metricsUpdatedAt"]) if n["metricsUpdatedAt"] else "-",
+                         n["text"][:20].replace("\n", " ")]))
+
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     cmd = sys.argv[1] if len(sys.argv) > 1 else ""
@@ -91,6 +123,8 @@ if __name__ == "__main__":
         print(json.dumps(gql(q), ensure_ascii=False, indent=1))
     elif cmd == "query":
         print(json.dumps(gql(sys.argv[2]), ensure_ascii=False, indent=1))
+    elif cmd == "metrics":
+        metrics()
     elif cmd == "send":
         a = sys.argv[2:]
         mode = "draft" if "--draft" in a else "go" if "--go" in a else "check"
