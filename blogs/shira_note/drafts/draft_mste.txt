@@ -1,7 +1,7 @@
 <!-- wp:paragraph -->
-タイトル：Mステ タイムテーブル【次回未定】出演順・出演時間を決まり次第すぐ更新
-メタディスクリプション（115字）：
-Mステ（次回放送日は未定）のタイムテーブルを更新中。直前の9月18日は渡辺美里が約28年ぶり出演、THE SPELLBOUND×BOOM BOOM SATELLITESが初登場。次回の出演順・登場時間の目安は決まり次第追記します。
+タイトル：Mステ タイムテーブル【10月16日】出演順・出演時間をリアルタイム更新
+メタディスクリプション（95字）：
+Mステ（10月16日）タイムテーブルを速報更新！EBiDANが番組初出演、RADWIMPSが「夕星-ゆうづつ-」をテレビ初披露、谷胡桃アナがサブMC初登場。出演順・登場時間の目安を随時追記。
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -9,11 +9,11 @@ Mステ（次回放送日は未定）のタイムテーブルを更新中。直�
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Mステの次回放送日は、9月27日時点で未定です。</p>
+<p>10月16日のMステの出演者、タイムテーブル、出演順の目安をまとめています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演者・タイムテーブル・出演順といった次回の情報を、この記事にまとめています。</p>
+<p>谷胡桃アナのサブMC初登場回で、全7組が出演予定！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -26,7 +26,7 @@ Mステ（次回放送日は未定）のタイムテーブルを更新中。直�
       <div style="font-size: 13px; font-weight: 900; color: #003366; letter-spacing: 0.05em; border-left: 3px solid #003366; padding-left: 8px; line-height: 1;">MUSIC STATION</div>
       <div style="font-size: 10px; font-weight: 800; color: #ff0084; display: flex; align-items: center; gap: 4px;">
         <span style="display: inline-block; width: 6px; height: 6px; background: #ff0084; border-radius: 50%;"></span>
-        次回 未定
+        REAL-TIME UPDATES
       </div>
     </div>
 
@@ -35,8 +35,8 @@ Mステ（次回放送日は未定）のタイムテーブルを更新中。直�
     </div>
 
     <div style="display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 700; color: #4a5568;">
-      <span style="background: #718096; color: #fff; font-size: 9px; padding: 2px 4px; border-radius: 2px; font-weight: 900;">未定</span>
-      次回放送日：未定（2026年9月27日時点）
+      <span style="background: #ff0000; color: #fff; font-size: 9px; padding: 2px 4px; border-radius: 2px; font-weight: 900;">LIVE</span>
+      2026年10月16日(金) 21:00〜21:54
     </div>
 
     <div style="margin-top: 14px; border: 1px solid #edf2f7; border-bottom: none;">
@@ -44,28 +44,28 @@ Mステ（次回放送日は未定）のタイムテーブルを更新中。直�
       <div style="display: flex; border-bottom: 1px solid #edf2f7;">
         <div style="width: 80px; font-size: 9px; font-weight: 900; color: #a0aec0; padding: 10px 8px; background: #f8fafc; flex-shrink: 0; display: flex; align-items: center;">STATUS</div>
         <div style="flex: 1; padding: 10px; font-size: 11px; font-weight: 700; color: #2d3748; line-height: 1.5;">
-          <strong style="font-weight: 800; color: #ff0084;">次回の放送日・出演者とも未発表</strong>
+          <strong style="font-weight: 800; color: #ff0084;">出演アーティスト・歌唱曲 発表済み</strong>
         </div>
       </div>
 
       <div style="display: flex; border-bottom: 1px solid #edf2f7;">
         <div style="width: 80px; font-size: 9px; font-weight: 900; color: #a0aec0; padding: 10px 8px; background: #f8fafc; flex-shrink: 0; display: flex; align-items: center;">ARTISTS</div>
         <div style="flex: 1; padding: 10px; font-size: 12px; font-weight: 700; color: #2d3748; line-height: 1.6;">
-          未発表
+          AI / あいみょん / EBiDAN / 櫻坂46 / sumika / なにわ男子 / RADWIMPS
 </div>
       </div>
 
       <div style="display: flex; border-bottom: 1px solid #edf2f7;">
         <div style="width: 80px; font-size: 9px; font-weight: 900; color: #a0aec0; padding: 10px 8px; background: #f8fafc; flex-shrink: 0; display: flex; align-items: center;">TIMETABLE</div>
         <div style="flex: 1; padding: 10px; font-size: 11px; font-weight: 700; color: #718096; line-height: 1.6; font-style: italic;">
-          公式サイトは「次回の放送もお楽しみに！」の表示のままで、分刻みのタイムテーブルも未公開です。
+          公式の分刻みタイムテーブルはまだ出ていません。出演順と時間帯は、生放送を見ながらこの記事に反映します。
         </div>
       </div>
     </div>
 
     <div style="margin-top: 12px; background: #f7fafc; border-left: 3px solid #1a202c; color: #2d3748; padding: 10px; font-size: 11px; font-weight: 700; display: flex; align-items: flex-start; gap: 8px; line-height: 1.5;">
       <span style="color: #ff0084;">💡</span>
-      <span>直前の9月18日は渡辺美里が約28年ぶりに出演し、THE SPELLBOUND×BOOM BOOM SATELLITESが番組初出演。鈴木新彩アナのサブMC卒業回でもありました。</span>
+      <span>EBiDANが番組初出演、RADWIMPSは映画『汝、星のごとく』主題歌「夕星-ゆうづつ-」をテレビ初披露。谷胡桃アナが8代目サブMCとして初登場する回でもあります。</span>
     </div>
 
     <div style="margin-top: 12px; display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 8px;">
@@ -73,8 +73,8 @@ Mステ（次回放送日は未定）のタイムテーブルを更新中。直�
         最新情報を確認する ▶
       </a>
       <div style="font-size: 9px; color: #a0aec0; text-align: right; line-height: 1.4;">
-        最終更新: 2026.09.27 放送日未定<br>
-        (次回の放送日が決まったら更新)
+        最終更新: 2026.10.10 放送前<br>
+        (放送当日、生放送にあわせて更新)
       </div>
     </div>
   </div>
@@ -86,41 +86,152 @@ Mステ（次回放送日は未定）のタイムテーブルを更新中。直�
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>直前の9月18日の出演順は、この下にまとめています。新しい追加情報などあり次第更新していきます！</p>
+<p>EBiDANの番組初出演やRADWIMPSのテレビ初披露など見どころも多そうですね。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>新しい追加情報などあり次第更新していきます！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>ミュージックステーション（Mステ）最新タイムテーブル</h2>
+<h2>ミュージックステーション（Mステ）最新タイムテーブル【10/16】</h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>次回の放送日と出演者が決まるまで、タイムテーブルは載せられません。</p>
+<p>※10/16の分刻みタイムテーブルは公開されていないため、予想として載せています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<div role="region" aria-label="Mステ タイムテーブル（次回放送日未定）" style="font-family: 'Inter', 'Hiragino Sans', 'Yu Gothic', sans-serif; margin: 20px 0; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden; box-shadow: 0 10px 25px -5px rgba(0, 40, 80, 0.1);">
+<div role="region" aria-label="Mステ タイムテーブル（2026年10月16日）" style="font-family: 'Inter', 'Hiragino Sans', 'Yu Gothic', sans-serif; margin: 20px 0; background: #ffffff; border: 1px solid #e2e8f0; border-radius: 4px; overflow: hidden; box-shadow: 0 10px 25px -5px rgba(0, 40, 80, 0.1);">
 
   <div style="height: 4px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff);"></div>
 
   <div style="padding: 16px; background: #fcfdfe; border-bottom: 1px solid #edf2f7;">
     <div style="display: flex; align-items: center; gap: 8px;">
-      <span style="background: #718096; color: #fff; font-size: 10px; font-weight: 900; padding: 2px 6px; border-radius: 2px;">未定</span>
-      <span style="font-size: 14px; font-weight: 900; color: #1a202c; letter-spacing: -0.01em;">次回のタイムテーブル</span>
+      <span style="background: #ff0084; color: #fff; font-size: 10px; font-weight: 900; padding: 2px 6px; border-radius: 2px;">独自予想</span>
+      <span style="font-size: 14px; font-weight: 900; color: #1a202c; letter-spacing: -0.01em;">2026.10.16 タイムテーブル（出演順予想）</span>
     </div>
   </div>
 
-  <div>
-    <div style="display: flex; border-bottom: 1px solid #edf2f7;">
-      <div style="width: 80px; font-size: 10px; font-weight: 900; color: #a0aec0; padding: 12px 10px; background: #f8fafc; flex-shrink: 0; display: flex; align-items: center;">放送日</div>
-      <div style="flex: 1; padding: 12px 14px; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 800; color: #2d3748; line-height: 1.6;">未定（2026年9月27日時点）</div>
+  <div style="padding: 0;">
+
+    <!-- 21:00 -->
+    <div style="display: flex; border-bottom: 1px solid #f1f5f9;">
+      <div style="width: 75px; background: #f8fafc; padding: 18px 10px; text-align: center; border-right: 1px solid #f1f5f9; flex-shrink: 0;">
+        <div style="font-size: 14px; font-weight: 900; color: #003366;">21:00</div>
+        <div style="font-size: 8px; font-weight: 800; color: #a0aec0; margin-top: 2px;">START</div>
+      </div>
+      <div style="flex: 1; padding: 15px 16px;">
+        <div style="font-size: 14px; font-weight: 800; color: #2d3748; margin-bottom: 8px; display: flex; align-items: center; gap: 6px;">
+          <span style="color: #ff0084;">●</span>オープニング・出演者紹介
+        </div>
+      </div>
     </div>
-    <div style="display: flex; border-bottom: 1px solid #edf2f7;">
-      <div style="width: 80px; font-size: 10px; font-weight: 900; color: #a0aec0; padding: 12px 10px; background: #f8fafc; flex-shrink: 0; display: flex; align-items: center;">出演者</div>
-      <div style="flex: 1; padding: 12px 14px; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 800; color: #2d3748; line-height: 1.6;">未発表</div>
+
+    <!-- 21:05 AI -->
+    <div style="display: flex; border-bottom: 1px solid #f1f5f9;">
+      <div style="width: 75px; background: #f8fafc; padding: 18px 10px; text-align: center; border-right: 1px solid #f1f5f9; flex-shrink: 0;">
+        <div style="font-size: 14px; font-weight: 900; color: #003366;">21:05頃</div>
+        <div style="font-size: 8px; font-weight: 800; color: #a0aec0; margin-top: 2px;">予想</div>
+      </div>
+      <div style="flex: 1; padding: 15px 16px; background: #fff;">
+        <div style="font-size: 13px; font-weight: 700; color: #2d3748; margin-bottom: 8px;">AI</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+          <span style="background: #f1f5f9; color: #4a5568; font-size: 11px; padding: 4px 10px; border-radius: 2px; font-weight: 700; border: 1px solid #e2e8f0;">まだ旅の途中</span>
+        </div>
+      </div>
     </div>
+
+    <!-- 21:12 EBiDAN -->
+    <div style="display: flex; border-bottom: 1px solid #f1f5f9;">
+      <div style="width: 75px; background: #f8fafc; padding: 18px 10px; text-align: center; border-right: 1px solid #f1f5f9; flex-shrink: 0;">
+        <div style="font-size: 14px; font-weight: 900; color: #003366;">21:12頃</div>
+        <div style="font-size: 8px; font-weight: 800; color: #a0aec0; margin-top: 2px;">予想</div>
+      </div>
+      <div style="flex: 1; padding: 15px 16px; background: #fff;">
+        <div style="font-size: 13px; font-weight: 700; color: #2d3748; margin-bottom: 8px;">EBiDAN <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">番組初出演</span></div>
+        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+          <span style="background: #fff0f6; color: #ff0084; font-size: 11px; padding: 4px 10px; border-radius: 2px; font-weight: 700; border: 1px solid #ffd6ea;">Yes! 東京</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 21:20 sumika -->
+    <div style="display: flex; border-bottom: 1px solid #f1f5f9;">
+      <div style="width: 75px; background: #f8fafc; padding: 18px 10px; text-align: center; border-right: 1px solid #f1f5f9; flex-shrink: 0;">
+        <div style="font-size: 14px; font-weight: 900; color: #003366;">21:20頃</div>
+        <div style="font-size: 8px; font-weight: 800; color: #a0aec0; margin-top: 2px;">予想</div>
+      </div>
+      <div style="flex: 1; padding: 15px 16px; background: #fff;">
+        <div style="font-size: 13px; font-weight: 700; color: #2d3748; margin-bottom: 8px;">sumika</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+          <span style="background: #f1f5f9; color: #4a5568; font-size: 11px; padding: 4px 10px; border-radius: 2px; font-weight: 700; border: 1px solid #e2e8f0;">エンバートーチ</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 21:27 RADWIMPS -->
+    <div style="display: flex; border-bottom: 1px solid #f1f5f9;">
+      <div style="width: 75px; background: #f8fafc; padding: 18px 10px; text-align: center; border-right: 1px solid #f1f5f9; flex-shrink: 0;">
+        <div style="font-size: 14px; font-weight: 900; color: #003366;">21:27頃</div>
+        <div style="font-size: 8px; font-weight: 800; color: #a0aec0; margin-top: 2px;">予想</div>
+      </div>
+      <div style="flex: 1; padding: 15px 16px; background: #fff;">
+        <div style="font-size: 13px; font-weight: 700; color: #2d3748; margin-bottom: 8px;">RADWIMPS <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">テレビ初披露</span></div>
+        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+          <span style="background: #fff0f6; color: #ff0084; font-size: 11px; padding: 4px 10px; border-radius: 2px; font-weight: 700; border: 1px solid #ffd6ea;">夕星-ゆうづつ-</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 21:34 あいみょん -->
+    <div style="display: flex; border-bottom: 1px solid #f1f5f9;">
+      <div style="width: 75px; background: #f8fafc; padding: 18px 10px; text-align: center; border-right: 1px solid #f1f5f9; flex-shrink: 0;">
+        <div style="font-size: 14px; font-weight: 900; color: #003366;">21:34頃</div>
+        <div style="font-size: 8px; font-weight: 800; color: #a0aec0; margin-top: 2px;">予想</div>
+      </div>
+      <div style="flex: 1; padding: 15px 16px; background: #fff;">
+        <div style="font-size: 13px; font-weight: 700; color: #2d3748; margin-bottom: 8px;">あいみょん</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+          <span style="background: #f1f5f9; color: #4a5568; font-size: 11px; padding: 4px 10px; border-radius: 2px; font-weight: 700; border: 1px solid #e2e8f0;">さながらロンリー</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 21:41 櫻坂46 -->
+    <div style="display: flex; border-bottom: 1px solid #f1f5f9;">
+      <div style="width: 75px; background: #f8fafc; padding: 18px 10px; text-align: center; border-right: 1px solid #f1f5f9; flex-shrink: 0;">
+        <div style="font-size: 14px; font-weight: 900; color: #003366;">21:41頃</div>
+        <div style="font-size: 8px; font-weight: 800; color: #a0aec0; margin-top: 2px;">予想</div>
+      </div>
+      <div style="flex: 1; padding: 15px 16px; background: #fff;">
+        <div style="font-size: 13px; font-weight: 700; color: #2d3748; margin-bottom: 8px;">櫻坂46</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+          <span style="background: #f1f5f9; color: #4a5568; font-size: 11px; padding: 4px 10px; border-radius: 2px; font-weight: 700; border: 1px solid #e2e8f0;">愛MUST BE</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 21:47 なにわ男子 -->
     <div style="display: flex;">
-      <div style="width: 80px; font-size: 10px; font-weight: 900; color: #a0aec0; padding: 12px 10px; background: #f8fafc; flex-shrink: 0; display: flex; align-items: center;">出演順</div>
-      <div style="flex: 1; padding: 12px 14px; font-size: clamp(12px, calc(12px + (100vw - 480px) / 240), 15px); font-weight: 800; color: #2d3748; line-height: 1.6;">放送に合わせてこの記事で更新</div>
+      <div style="width: 75px; background: #f8fafc; padding: 18px 10px; text-align: center; border-right: 1px solid #f1f5f9; flex-shrink: 0;">
+        <div style="font-size: 14px; font-weight: 900; color: #ff0084;">21:47頃</div>
+        <div style="font-size: 8px; font-weight: 800; color: #ff0084; margin-top: 2px;">大トリ予想</div>
+      </div>
+      <div style="flex: 1; padding: 15px 16px; background: #fff;">
+        <div style="font-size: 13px; font-weight: 700; color: #2d3748; margin-bottom: 8px;">なにわ男子</div>
+        <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+          <span style="background: #fff0f6; color: #ff0084; font-size: 11px; padding: 4px 10px; border-radius: 2px; font-weight: 700; border: 1px solid #ffd6ea;">Moonlit</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div style="padding: 12px 16px; background: #1a202c; color: #fff;">
+    <div style="font-size: 11px; font-weight: 700; line-height: 1.6; display: flex; align-items: flex-start; gap: 8px;">
+      <span style="color: #ffdc00; font-size: 14px;">⚠️</span>
+      <span>上記は過去の傾向に基づく独自予想です。放送が始まったら、実際の歌唱順に書き換えていきます。</span>
     </div>
   </div>
 </div>
@@ -131,7 +242,7 @@ Mステ（次回放送日は未定）のタイムテーブルを更新中。直�
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
-<h2>Mステの出演者・歌唱曲一覧</h2>
+<h2>Mステの出演者・歌唱曲一覧【10/16】</h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center","className":"size-large"} -->
@@ -139,23 +250,85 @@ Mステ（次回放送日は未定）のタイムテーブルを更新中。直�
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>次回放送の出演アーティストと披露曲は、まだ発表されていません。</p>
+<p>2026年10月16日（金）放送『ミュージックステーション』の出演アーティストと披露曲の一覧です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
 <div class="mst-container" style="background: #ffffff; padding: 10px; border: 1px solid #eef2f6; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); font-family: sans-serif; margin-bottom: 15px;">
 
 <div style="border-left: 3px solid #ff007a; margin-bottom: 8px; padding-left: 8px;">
-<span style="color: #1a1a1a; font-size: 13px; font-weight: 900; letter-spacing: 0.05em;">ARTIST LINEUP（未発表）</span>
+<span style="color: #1a1a1a; font-size: 13px; font-weight: 900; letter-spacing: 0.05em;">ARTIST LINEUP (2026.10.16)</span>
 </div>
 
 <div class="mst-artist-section">
-<div style="margin-bottom: 12px; padding: 14px 12px; background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #dce4ed; border-radius: 4px;">
-  <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">次回の出演アーティスト：未発表</p>
-  <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">放送日・出演者・披露曲は、公式の発表を待っている状態です。</p>
+<div style="display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px;">
+
+  <!-- AI -->
+  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #dce4ed; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
+    <div style="padding: 14px 12px;">
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">AI</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「まだ旅の途中」を披露。</p>
+    </div>
+  </div>
+
+  <!-- あいみょん -->
+  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #dce4ed; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
+    <div style="padding: 14px 12px;">
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">あいみょん</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「さながらロンリー」を披露。</p>
+    </div>
+  </div>
+
+  <!-- EBiDAN -->
+  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #fff8f8 0%, #fff0f6 100%); border: 1px solid #ffcce0; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00);"></div>
+    <div style="padding: 14px 12px;">
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">EBiDAN <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">番組初出演</span></p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「Yes! 東京」を披露。15周年記念シングルで、超特急・SUPER★DRAGON・ONE N' ONLY・原因は自分にある。・BUDDiiS・ICEx・Lienelの選抜メンバーが出演。</p>
+    </div>
+  </div>
+
+  <!-- 櫻坂46 -->
+  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #dce4ed; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
+    <div style="padding: 14px 12px;">
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">櫻坂46</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「愛MUST BE」を披露。</p>
+    </div>
+  </div>
+
+  <!-- sumika -->
+  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #dce4ed; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
+    <div style="padding: 14px 12px;">
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">sumika</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「エンバートーチ」を披露。</p>
+    </div>
+  </div>
+
+  <!-- なにわ男子 -->
+  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%); border: 1px solid #dce4ed; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff007a, #00d4ff);"></div>
+    <div style="padding: 14px 12px;">
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">なにわ男子</p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「Moonlit」を披露。</p>
+    </div>
+  </div>
+
+  <!-- RADWIMPS -->
+  <div style="flex: 1 1 calc(50% - 3px); min-width: 140px; position: relative; background: linear-gradient(180deg, #fff8f8 0%, #fff0f6 100%); border: 1px solid #ffcce0; border-radius: 4px; box-sizing: border-box; overflow: hidden;">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00);"></div>
+    <div style="padding: 14px 12px;">
+      <p style="margin: 0 !important; font-size: 13px !important; font-weight: 900 !important; color: #1a202c !important; line-height: 1.4 !important;">RADWIMPS <span style="font-size: 10px; font-weight: 900; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 2px;">テレビ初披露</span></p>
+      <p style="margin: 6px 0 0 !important; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px) !important; font-weight: 600; color: #4a5568; line-height: 1.6;">「夕星-ゆうづつ-」を披露。映画『汝、星のごとく』の主題歌で、テレビ初披露。</p>
+    </div>
+  </div>
+
 </div>
 
-<p style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #99aabb; margin: 0 0 16px;">※直前の9月18日の出演者と歌唱曲は、この下の「実際の出演順」にまとめています。</p>
+<p style="font-size: clamp(9px, calc(9px + (100vw - 480px) / 240), 12px); color: #99aabb; margin: 0 0 16px;">※放送内容および歌唱順は番組放送中にリアルタイムで更新します</p>
 
 <div style="display: flex; flex-direction: column; gap: 8px;">
 
@@ -222,7 +395,7 @@ Mステ（次回放送日は未定）のタイムテーブルを更新中。直�
 <!-- wp:html -->
 <div style="font-family: 'Hiragino Sans', 'Meiryo', sans-serif; margin: 20px 0; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;">
   <div style="background: #003366; color: #ffffff; padding: 12px 15px; font-size: 14px; font-weight: 900; display: flex; align-items: center; gap: 8px;">
-    <span style="color: #00d4ff;">●</span> 直近4回から見る出演時間帯の目安
+    <span style="color: #00d4ff;">●</span> 10/16 出演時間帯の予測ガイド
   </div>
 
   <div style="padding: 15px; background: #ffffff;">
@@ -230,7 +403,7 @@ Mステ（次回放送日は未定）のタイムテーブルを更新中。直�
       <div style="font-size: 11px; font-weight: 800; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 4px; text-align: center; align-self: start;">21:00〜</div>
       <div style="font-size: 12px; color: #2d3748; line-height: 1.5;">
         <strong>オープニング・序盤枠</strong><br>
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096;">直近4回の放送は、いずれも21:00の開始直後から歌唱かトークが始まっています。1曲目にすぐ入る回も、出演者のトークから入る回もありました。</span>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096;">過去5回のうち3回は、渡辺美里・福山雅治・T.M.Revolutionのようなキャリアの長い歌い手が序盤に登場しています。今回はAIが21:05頃、番組初出演のEBiDANが21:12頃に続く、というのが筆者の読みです。</span>
       </div>
     </div>
 
@@ -238,7 +411,7 @@ Mステ（次回放送日は未定）のタイムテーブルを更新中。直�
       <div style="font-size: 11px; font-weight: 800; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 4px; text-align: center; align-self: start;">21:20頃〜</div>
       <div style="font-size: 12px; color: #2d3748; line-height: 1.5;">
         <strong>中盤枠</strong><br>
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096;">複数組が続けて歌う時間帯になりやすいようです。直近4回とも、この間に2組以上が登場していて、VTR企画を挟む回もありました。</span>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096;">sumika・RADWIMPS・あいみょんが続く時間帯になりそうです。RADWIMPSの「夕星-ゆうづつ-」はテレビ初披露で、映画『汝、星のごとく』の公開直後に披露されます。</span>
       </div>
     </div>
 
@@ -246,13 +419,13 @@ Mステ（次回放送日は未定）のタイムテーブルを更新中。直�
       <div style="font-size: 11px; font-weight: 800; color: #ff0084; background: #fff0f6; padding: 2px 6px; border-radius: 4px; text-align: center; align-self: start;">21:40頃〜</div>
       <div style="font-size: 12px; color: #2d3748; line-height: 1.5;">
         <strong>終盤・大トリ枠</strong><br>
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096;">投稿のピークは、21:40前後から終盤にかけて来ることが多い印象です。直近4回では、トリや終盤の披露がそのまま番組のピークになっていました。</span>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); color: #718096;">過去5回のトリは、乃木坂46・ATEEZ・TOMORROW X TOGETHERといったグループが3回でした。残りの2回はあいみょんと、福山雅治×ポルノグラフィティです。今回は櫻坂46となにわ男子が終盤に並ぶかもしれません。</span>
       </div>
     </div>
   </div>
 
   <div style="background: #f8fafc; padding: 10px 15px; font-size: clamp(10px, calc(10px + (100vw - 480px) / 180), 14px); color: #a0aec0; border-top: 1px solid #edf2f7;">
-    ※直近4回の放送（いずれも21:00開始）をもとにした目安です。次回の放送時間が決まったら見直します。
+    ※過去5回の放送をもとにした筆者の目安です。
   </div>
 </div>
 <!-- /wp:html -->
@@ -271,37 +444,37 @@ Mステ（次回放送日は未定）のタイムテーブルを更新中。直�
   <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 2px; box-shadow: 0 3px 10px rgba(0, 34, 68, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
     <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff);"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #003366; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">🕒 通常放送の構成</div>
-    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">次回の放送日と放送時間は未定です。直近4回は21:00開始でしたが、1500回記念のスペシャルのように枠が変わる回もあります。</p>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">10月16日は21:00〜21:54の通常放送で、谷胡桃アナがサブMCとして初登場します。</p>
   </div>
 
   <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 2px; box-shadow: 0 3px 10px rgba(0, 34, 68, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
     <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff);"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #003366; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">🌟 トリの予測</div>
-    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">次回の出演者が発表されていないため、トリの予想はまだできません。</p>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">過去5回のトリはグループが3回でした。今回は櫻坂46かなにわ男子が最後に来るかもしれません。</p>
   </div>
 
   <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 2px; box-shadow: 0 3px 10px rgba(0, 34, 68, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
     <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff);"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #003366; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">🔍 企画コーナーのタイミング</div>
-    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">9月4日の放送では21:28頃にVTR企画がありました。次回に企画があるかどうかは、まだ発表されていません。</p>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">過去にはVTR企画が21:28頃に入った回がありました。今回のVTR企画は、まだ発表されていません。</p>
   </div>
 
   <div role="listitem" style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 2px; box-shadow: 0 3px 10px rgba(0, 34, 68, 0.05); overflow: hidden; position: relative; padding: 12px 14px; min-height: 80px; display: flex; flex-direction: column;">
     <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, #ff0084, #ffdc00, #00d4ff, #0099ff);"></div>
     <div style="display: flex; align-items: center; gap: 8px; font-weight: 900; color: #003366; margin-bottom: 6px; font-size: 12px; letter-spacing: -0.01em;">📱 公式SNSの連動</div>
-    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">公式X（旧Twitter）では放送直前や生放送中に「次は〇〇が登場！」といったリアルタイム告知が行われます。次回の放送が決まったら、この記事でもその情報を反映します。</p>
-    <div style="margin-top: 8px; align-self: flex-start; font-size: 9px; font-weight: 900; color: #00b8e6; background: rgba(0, 184, 230, 0.07); padding: 2px 8px; border-radius: 2px;">次回放送日 未定</div>
+    <p style="margin: 0; font-size: clamp(11px, calc(11px + (100vw - 480px) / 240), 14px); font-weight: 700; color: #4a5568; line-height: 1.6;">公式X（旧Twitter）では放送直前や生放送中に「次は〇〇が登場！」といったリアルタイム告知が行われます。この記事でもその情報を反映します。</p>
+    <div style="margin-top: 8px; align-self: flex-start; font-size: 9px; font-weight: 900; color: #00b8e6; background: rgba(0, 184, 230, 0.07); padding: 2px 8px; border-radius: 2px;">10月16日 21:00〜 随時更新予定</div>
   </div>
 
 </div>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>通常回は「出演者の告知が先、出演順や時間帯は放送を見ながら判明」が基本。</p>
+<p>通常回は「出演者の告知が先、出演順や時間帯は放送を見ながら判明」が基本です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>事前に分かっているのは「誰が出るか」までであることが多く、出演順は放送開始後にこのページで随時反映します。</p>
+<p>事前に分かっているのは「誰が出るか」までで、出演順は放送開始後にこのページで随時反映します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -313,7 +486,7 @@ Mステ（次回放送日は未定）のタイムテーブルを更新中。直�
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>2026年9月18日に放送された『ミュージックステーション』のパフォーマンス順をレポートとしてまとめています。</p>
+<p>2026年9月18日に放送された『ミュージックステーション』の披露された順番をレポートとしてまとめています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -422,7 +595,7 @@ Mステ（次回放送日は未定）のタイムテーブルを更新中。直�
       </div>
       <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 8px; border-top: 1px solid #edf2f7;">
         <div style="font-size: 8px; color: #a0aec0; font-weight: 800; letter-spacing: 0.5px;">COMPILED FROM BROADCAST &amp; SNS REPORTS</div>
-        <div style="font-size: 8px; color: #a0aec0;">UPDATED: 2026.09.27</div>
+        <div style="font-size: 8px; color: #a0aec0;">UPDATED: 2026.10.10</div>
       </div>
     </div>
 
@@ -431,7 +604,7 @@ Mステ（次回放送日は未定）のタイムテーブルを更新中。直�
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>放送終了後に、実際の出演順を追記しています。</p>
+<p>放送終了後に実際の出演順を追記しています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -637,12 +810,12 @@ timelesz「消えない花火」／SWEET STEADY「SWEET STEP」（初単独出�
         <span style="flex: 0 0 auto; background: #003366; color: #ffffff; font-size: 11px; font-weight: 900; width: 28px; height: 18px; display: flex; align-items: center; justify-content: center; transform: skewX(-15deg); line-height: 1;">
           <span style="display: inline-block; transform: skewX(0deg);">Q1</span>
         </span>
-        <p style="margin: 0; font-size: 12px; font-weight: 900; color: #003366; line-height: 1.5;">次回のMステはいつ放送されますか？</p>
+        <p style="margin: 0; font-size: 12px; font-weight: 900; color: #003366; line-height: 1.5;">10月16日の詳細なタイムテーブルは事前にわかりますか？</p>
       </div>
       <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #f0f4f8;">
         <span style="flex: 0 0 auto; color: #ff0084; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
         <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
-          2026年9月27日時点で、次回の放送日は発表されていません。公式サイトの表示は「次回の放送もお楽しみに！」のままです。
+          公式の分刻みタイムテーブルはまだ出ていません。全7組の出演順と登場時間の目安は、21:00〜21:54の放送に合わせてこの記事でリアルタイムに更新します。
         </p>
       </div>
     </div>
@@ -654,12 +827,12 @@ timelesz「消えない花火」／SWEET STEADY「SWEET STEP」（初単独出�
         <span style="flex: 0 0 auto; background: #003366; color: #ffffff; font-size: 11px; font-weight: 900; width: 28px; height: 18px; display: flex; align-items: center; justify-content: center; transform: skewX(-15deg); line-height: 1;">
           <span style="display: inline-block; transform: skewX(0deg);">Q2</span>
         </span>
-        <p style="margin: 0; font-size: 12px; font-weight: 900; color: #003366; line-height: 1.5;">9月18日のMステの出演順は？</p>
+        <p style="margin: 0; font-size: 12px; font-weight: 900; color: #003366; line-height: 1.5;">EBiDANの出番は何時頃ですか？</p>
       </div>
       <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #f0f4f8;">
         <span style="flex: 0 0 auto; color: #ff0084; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
         <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
-          オープニングは渡辺美里で、M!LK・上白石萌音・中島健人と続き、終盤にTHE SPELLBOUND×BOOM BOOM SATELLITESとあいみょんが登場しました。時間帯はこの記事の「実際の出演順」にまとめています。
+          21:12頃の序盤〜中盤を予想します。過去の初出演は序盤の回も終盤の回もあり、あくまで筆者の読みです。実際の出演順は放送開始後にこの記事で更新します。
         </p>
       </div>
     </div>
@@ -671,12 +844,12 @@ timelesz「消えない花火」／SWEET STEADY「SWEET STEP」（初単独出�
         <span style="flex: 0 0 auto; background: #003366; color: #ffffff; font-size: 11px; font-weight: 900; width: 28px; height: 18px; display: flex; align-items: center; justify-content: center; transform: skewX(-15deg); line-height: 1;">
           <span style="display: inline-block; transform: skewX(0deg);">Q3</span>
         </span>
-        <p style="margin: 0; font-size: 12px; font-weight: 900; color: #003366; line-height: 1.5;">Mステの出演者はいつ発表されますか？</p>
+        <p style="margin: 0; font-size: 12px; font-weight: 900; color: #003366; line-height: 1.5;">なにわ男子の出番は何時頃ですか？</p>
       </div>
       <div style="display: flex; gap: 12px; align-items: flex-start; padding-top: 12px; border-top: 1px solid #f0f4f8;">
         <span style="flex: 0 0 auto; color: #ff0084; font-size: 14px; font-weight: 900; line-height: 1;">A</span>
         <p style="margin: 0; font-size: clamp(11.5px, calc(11.5px + (100vw - 480px) / 206), 15px); color: #4a5568; line-height: 1.7; font-weight: 600;">
-          次回の発表時期は分かりません。直前の9月18日回は、放送の約2週間前にあたる9月4日の夜に出演者が報じられました。
+          21:47頃の大トリを予想します。過去5回のトリはグループが3回だった、というのが根拠で、あくまで筆者の読みです。実際の出演順は放送開始後にこの記事で更新します。
         </p>
       </div>
     </div>
@@ -724,19 +897,19 @@ timelesz「消えない花火」／SWEET STEADY「SWEET STEP」（初単独出�
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Mステの次回放送日は、2026年9月27日時点で未定です。</p>
+<p>2026年10月16日（金）放送の『ミュージックステーション』は、テレビ朝日系でよる9時から放送です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演アーティストや放送時間も、まだ発表されていません。</p>
+<p>出演アーティストはAI・あいみょん・EBiDAN・櫻坂46・sumika・なにわ男子・RADWIMPSの全7組。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>直前の9月18日は渡辺美里が約28年ぶりに出演し、THE SPELLBOUND×BOOM BOOM SATELLITESが番組初出演。鈴木新彩アナのサブMC卒業回でもありました。</p>
+<p>EBiDANが番組初出演し、RADWIMPSは「夕星-ゆうづつ-」をテレビ初披露します。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>放送日が決まったら、出演者や出演順の目安をこの記事に追記します。</p>
+<p>谷胡桃アナが8代目サブMCとして初登場する回でもあります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -872,18 +1045,18 @@ timelesz「消えない花火」／SWEET STEADY「SWEET STEP」（初単独出�
         "@type": "WebPage",
         "@id": "https://shira-treat.com/music-station-timetable/"
       },
-      "headline": "Mステ タイムテーブル【次回未定】出演順・出演時間を決まり次第すぐ更新",
-      "description": "Mステ（次回放送日は未定）のタイムテーブルを更新中。直前の9月18日は渡辺美里が約28年ぶり出演、THE SPELLBOUND×BOOM BOOM SATELLITESが初登場。次回の出演順・登場時間の目安は決まり次第追記します。",
+      "headline": "Mステ タイムテーブル【10月16日】出演順・出演時間をリアルタイム更新",
+      "description": "Mステ（10月16日）タイムテーブルを速報更新！EBiDANが番組初出演、RADWIMPSが「夕星-ゆうづつ-」をテレビ初披露、谷胡桃アナがサブMC初登場。出演順・登場時間の目安を随時追記。",
       "image": {
         "@type": "ImageObject",
         "@id": "https://shira-treat.com/music-station-timetable/#primaryimage",
-        "url": "https://shira-treat.com/wp-content/uploads/2026/08/image-9.webp",
-        "width": 1200,
-        "height": 675
+        "url": "https://shira-treat.com/wp-content/uploads/2026/09/image-23.webp",
+        "width": 1201,
+        "height": 662
       },
-      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/08/image-9.webp",
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/09/image-23.webp",
       "datePublished": "2025-11-17T18:00:00+09:00",
-      "dateModified": "2026-09-27T12:00:00+09:00",
+      "dateModified": "2026-10-10T12:00:00+09:00",
       "author": {
         "@type": "Person",
         "name": "Shira Notes",
@@ -910,7 +1083,7 @@ timelesz「消えない花火」／SWEET STEADY「SWEET STEP」（初単独出�
         "Mステ 出演順",
         "Mステ 曲順",
         "Mステ 2026",
-        "Mステ 次回"
+        "Mステ 10月16日"
       ],
       "inLanguage": "ja",
       "about": [
@@ -924,7 +1097,152 @@ timelesz「消えない花火」／SWEET STEADY「SWEET STEP」（初単独出�
           "name": "Mステ タイムテーブル"
         }
       ],
-      "mentions": []
+      "mentions": [
+        {
+          "@type": "Person",
+          "name": "AI"
+        },
+        {
+          "@type": "Person",
+          "name": "あいみょん"
+        },
+        {
+          "@type": "MusicGroup",
+          "name": "EBiDAN"
+        },
+        {
+          "@type": "MusicGroup",
+          "name": "櫻坂46"
+        },
+        {
+          "@type": "MusicGroup",
+          "name": "sumika"
+        },
+        {
+          "@type": "MusicGroup",
+          "name": "なにわ男子"
+        },
+        {
+          "@type": "MusicGroup",
+          "name": "RADWIMPS"
+        }
+      ]
+    },
+    {
+      "@type": "BroadcastEvent",
+      "@id": "https://shira-treat.com/music-station-timetable/#event",
+      "name": "ミュージックステーション（2026年10月16日放送）",
+      "startDate": "2026-10-16T21:00:00+09:00",
+      "endDate": "2026-10-16T21:54:00+09:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+      "isLiveBroadcast": true,
+      "description": "2026年10月16日放送のミュージックステーション。AI、あいみょん、EBiDAN、櫻坂46、sumika、なにわ男子、RADWIMPSが出演する回。",
+      "image": "https://shira-treat.com/wp-content/uploads/2026/09/image-23.webp",
+      "location": {
+        "@type": "Place",
+        "name": "テレビ朝日",
+        "sameAs": "https://www.tv-asahi.co.jp/"
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "テレビ朝日",
+        "sameAs": "https://www.tv-asahi.co.jp/"
+      },
+      "performer": [
+        {
+          "@type": "Person",
+          "name": "AI"
+        },
+        {
+          "@type": "Person",
+          "name": "あいみょん"
+        },
+        {
+          "@type": "MusicGroup",
+          "name": "EBiDAN"
+        },
+        {
+          "@type": "MusicGroup",
+          "name": "櫻坂46"
+        },
+        {
+          "@type": "MusicGroup",
+          "name": "sumika"
+        },
+        {
+          "@type": "MusicGroup",
+          "name": "なにわ男子"
+        },
+        {
+          "@type": "MusicGroup",
+          "name": "RADWIMPS"
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://shira-treat.com/music-station-timetable/#lineup",
+      "name": "2026年10月16日 Mステ出演者一覧",
+      "numberOfItems": 7,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Person",
+            "name": "AI"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "MusicGroup",
+            "name": "EBiDAN"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "MusicGroup",
+            "name": "sumika"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "MusicGroup",
+            "name": "RADWIMPS"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Person",
+            "name": "あいみょん"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "MusicGroup",
+            "name": "櫻坂46"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "MusicGroup",
+            "name": "なにわ男子"
+          }
+        }
+      ]
     },
     {
       "@type": "FAQPage",
@@ -932,26 +1250,26 @@ timelesz「消えない花火」／SWEET STEADY「SWEET STEP」（初単独出�
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "次回のMステはいつ放送されますか？",
+          "name": "10月16日の詳細なタイムテーブルは事前にわかりますか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "2026年9月27日時点で、次回の放送日は発表されていません。公式サイトの表示は「次回の放送もお楽しみに！」のままです。"
+            "text": "公式の分刻みタイムテーブルはまだ出ていません。全7組の出演順と登場時間の目安は、21:00〜21:54の放送に合わせてこの記事でリアルタイムに更新します。"
           }
         },
         {
           "@type": "Question",
-          "name": "9月18日のMステの出演順は？",
+          "name": "EBiDANの出番は何時頃ですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "オープニングは渡辺美里で、M!LK・上白石萌音・中島健人と続き、終盤にTHE SPELLBOUND×BOOM BOOM SATELLITESとあいみょんが登場しました。時間帯はこの記事の「実際の出演順」にまとめています。"
+            "text": "21:12頃の序盤〜中盤を予想します。過去の初出演は序盤の回も終盤の回もあり、あくまで筆者の読みです。実際の出演順は放送開始後にこの記事で更新します。"
           }
         },
         {
           "@type": "Question",
-          "name": "Mステの出演者はいつ発表されますか？",
+          "name": "なにわ男子の出番は何時頃ですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "次回の発表時期は分かりません。直前の9月18日回は、放送の約2週間前にあたる9月4日の夜に出演者が報じられました。"
+            "text": "21:47頃の大トリを予想します。過去5回のトリはグループが3回だった、というのが根拠で、あくまで筆者の読みです。実際の出演順は放送開始後にこの記事で更新します。"
           }
         },
         {
