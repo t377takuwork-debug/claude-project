@@ -83,7 +83,7 @@ AI_JARGON_WARN = [
 # 層7: 文体・トーン（WARN・2026-09-04 writing_tone.md 1-1）。
 # 4番目の要素は「このパス片を含むアカウントでは検知しない」（None=全アカウント）。
 TONE_WARN_PATTERNS = [
-    ("tone-omoimasu", r"と思います|と感じています|と思っています", "「〜と思います／感じています」は使わない。推量は「〜はず」「たぶん〜」（writing_tone 1-1）", None),
+    ("tone-omoimasu", r"と思います|と感じています|と思っています", "「〜と思います／感じています」は使わない。推量は「〜はず」「たぶん〜」（writing_tone 1-1。UYA.は uya-banned-phrase がERRORで拾う）", ("/uya/",)),
     ("tone-shimashou", r"しましょう|していきましょう", "「〜しましょう」のセミナー講師口調。呼びかけは「〜してみてください」まで（writing_tone 1-1）", None),
     ("tone-section", r"セクション", "「セクション」は本文で使わない→「ここ」「この記事」「〜欄」「〜一覧」（writing_tone 1-1）", None),
     ("tone-desune", r"ですね[。？]", "「〜ですね」の相槌語尾（writing_tone 1-1。vivant・MBTICODE・UYA.は可。2026-09-28追加：語りかけ口調の方針に合うため）", ("/vivant/", "/mbticode/", "/uya/")),
@@ -272,6 +272,10 @@ def main():
         infos.append(f"[INFO] 本文文字数（空白除く）: {char_count}字（UYA.は2,000字以上。学びの台帳1。>・**・##の記号を含む数え方）")
         if char_count < 2000:
             errors.append(f"[ERROR] uya-min-chars: 本文が{char_count}字で2,000字未満（学びの台帳1。それ未満の記事は基本的に出さない）")
+        # 使わない言い回し（ERROR。examples_essay.md 3節・10節の9。編集AIが手で数えていた分を機械化。2026-10-11）
+        for m in re.finditer(r"と思います|と感じています|と思っています|じゃん|わけじゃなくて", body):
+            line_no = text[:body_start + m.start()].count("\n") + 1
+            errors.append(f"[ERROR] L{line_no} uya-banned-phrase: 「{m.group(0)}」は使わない言い回し（推量は「〜はず」「たぶん〜」。examples_essay.md 3節）")
         # 学びの台帳3・5・7項目目の機械化（WARN。オーナーの直した行は直さず、報告にとどめる）
         for m in re.finditer(r"出てきます", body):
             line_no = text[:body_start + m.start()].count("\n") + 1

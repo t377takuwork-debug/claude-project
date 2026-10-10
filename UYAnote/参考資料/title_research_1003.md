@@ -1,6 +1,6 @@
 # noteタイトル調査メモ（2026-10-03）
 
-UYAnote の企画の根拠(旧 `/uya-theme` Step 2.5・Step 3)。基準そのものは `UYAnote/.claude/skills/note-research/SKILL.md` と `1_企画部/社員.md` が正。ここには根拠と、見送ったものを残す。
+UYAnote の企画の根拠(旧 `/uya-theme` Step 2.5・Step 3)。基準そのものは `1_企画部/社員.md` が正。ここには根拠と、見送ったものを残す。
 
 ## 1. 公式の根拠（オーナー提供資料「noteタイトル調査_公式根拠.md」より）
 
