@@ -69,7 +69,7 @@ def family(t):
 
 def length_band(body):
     n = len(body)
-    return "〜199字" if n < 200 else ("200〜349字" if n < 350 else "350字〜")
+    return "〜149字" if n < 150 else ("150〜299字" if n < 300 else "300字〜")
 
 
 def percentile(sorted_vals, p):
@@ -105,6 +105,8 @@ def main():
     ap.add_argument("--min-age-hours", type=float, default=48, help="公開からこの時間未満の投稿は除外(既定48)")
     ap.add_argument("--max-diagnose", type=int, default=8, help="診断対象の最大本数(既定8)")
     ap.add_argument("--max-controls", type=int, default=3, help="対照サンプルの最大本数(既定3)")
+    ap.add_argument("--check-ready", action="store_true",
+                    help="分析できる状態かだけを確かめる(表は作らない)。前回の分析のあとに、公開から48時間たって数字が入った投稿が6本以上あれば「できる」")
     ap.add_argument("--out", help="出力先(既定 3_広報部/スレッズ道具/output/analysis_table_YYYYMMDD.md)")
     args = ap.parse_args()
 
@@ -148,6 +150,23 @@ def main():
             continue
         pool.append({"dt": dt, "body": col(r, 1), "self_replies": [col(r, i) for i in range(2, 6) if col(r, i).strip()],
                      "type": col(r, 6), "pid": pid, "fam": family(col(r, 6)), **m})
+
+    if args.check_ready:
+        report_dir = TOOLS_DIR.parent / "分析レポート"
+        last = None
+        for f in sorted(report_dir.glob("*_スレッズ分析*.md")):
+            d = parse_dt(f.name[:10])
+            if d and (last is None or d > last):
+                last = d
+        fresh = [p for p in pool if last is None or p["dt"] >= last + datetime.timedelta(days=1)]
+        need = 6
+        since_txt = f"前回の分析({last:%m/%d})のあと" if last else "これまでに"
+        if len(fresh) >= need:
+            print(f"[分析できる状態] {since_txt}、公開から48時間たって数字が入った投稿が{len(fresh)}本あります。"
+                  "「スレッズの分析をして」と送ると回します(手動のみ)。")
+        else:
+            print(f"[まだ早い] {since_txt}、数字が入った投稿は{len(fresh)}本(目安は{need}本)。")
+        sys.exit(0)
 
     base = [p for p in pool if p["dt"] >= base_start]
     window = [p for p in pool if p["dt"] >= since]

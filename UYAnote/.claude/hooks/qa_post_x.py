@@ -89,8 +89,8 @@ def check_block(label, kind, text):
         n_chars = len(text)
         if n_chars > THREADS_MAX_CHARS:
             msgs.append(("ERROR", f"字数超過: {n_chars}字(上限{THREADS_MAX_CHARS}字)"))
-        elif kind == "本文" and n_chars < 150:
-            msgs.append(("WARN", f"{n_chars}字。スレッズは経過ごと出すので短すぎないか(目安250〜400字)"))
+        elif kind == "本文" and n_chars > 300:
+            msgs.append(("WARN", f"{n_chars}字。300字を超えるボリュームなら、ツリー(自己返信)に分けて、続きに具体的な内容を置くことを検討"))
         for ph in THREADS_BAD_OPENINGS:
             if ph in text:
                 msgs.append(("ERROR", f"スレッズで死にやすい言い方「{ph}」"))
@@ -216,14 +216,20 @@ def main():
     if n > 5:
         print(f"[WARN] 本文が{n}本(週5本まで)")
         total_warn += 1
-    if n and ends_with_q > n / 3:
+    q_warn = False
+    if THREADS and ends_with_q:
+        print(f"[WARN] 末尾が問いかけで終わる投稿が{ends_with_q}/{n}本(付け足しの問いは使わない。話の流れの中の問いだけ)")
+        total_warn += 1
+        q_warn = True
+    elif n and ends_with_q > n / 3:
         print(f"[WARN] 問いで終わる投稿が{ends_with_q}/{n}本(3本に1本以下)")
         total_warn += 1
+        q_warn = True
     if ndayone > 1 or (ndayone and not THREADS):
         print(f"[WARN] 「〜んだよね」が{ndayone}回(Xは使わない。スレッズは4本のうち1回まで)")
         total_warn += 1
-    if not (ends_with_q > n / 3 or ndayone > 1 or (ndayone and not THREADS) or n > 5):
-        print("[OK] 本数・問いの割合・「んだよね」の回数")
+    if not (q_warn or ndayone > 1 or (ndayone and not THREADS) or n > 5):
+        print("[OK] 本数・末尾の問い・「んだよね」の回数")
     print(f"\n=== 結果: ERROR {total_err}件 / WARN {total_warn}件 ===")
     sys.exit(1 if total_err else 0)
 
