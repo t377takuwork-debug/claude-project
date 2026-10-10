@@ -34,10 +34,10 @@ vivant は「自分の体験ではなく、調べた情報をもとに記事を�
 
 満たさない場合は会議を開かず、代わりに次を提案する：
 
-- いつもの作業（記事の本文・投稿の束・口調の直し）→ それぞれのスキル（`/note-article`・`/s4lv-post`・`/mbticode-post`・`/vivant-post`・`/junk-article`・`/post-review` など）
+- いつもの作業（記事の本文・投稿の束・口調の直し）→ それぞれのスキル（`/note-article`・`S4LVnote/`・`/mbticode-post`・`/vivant-post`・`/junk-article`・`/post-review` など）
 - 数字待ち → 「見る数字を1つ」決めて終える（例：「4週間分のスキ率と、SNSから記事に来た人数を見てからもう一度」）
 - 事実を確かめるだけ・照らし合わせるだけ → そのまま実行
-- s4lv の気軽な相談 → `/note-advisor`
+- s4lv の気軽な相談 → `S4LVnote/` フォルダの相談役（`S4LVnote/CLAUDE.md`）
 
 ---
 

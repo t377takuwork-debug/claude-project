@@ -56,7 +56,7 @@ metadata:
 
 ## 4. アフィリエイトリンク仕様
 
-**本セクションのID・仕組みはShiraNote（shira-treat.com）専用のアフィリエイトアカウントに紐づく（2026-08-08確定）**。楽天もしもの`a_id=4824566`等、セブンネットのバリューコマース`sid=3773727`等、Amazonの`tag=shira1-22`は、いずれもShiraNote運用者本人のASPアカウントIDであり、他のブログ・アカウント（`blogs/cf_room`・`blogs/vtuber_log`・`brands/s4lv`・`brands/mbticode`・`Junk314/junk_juice`等）にそのまま流用できない。他アカウントで同様のリリース記事システムを作る場合は、そのアカウント自身のASP登録・ID取得から着手する必要がある。
+**本セクションのID・仕組みはShiraNote（shira-treat.com）専用のアフィリエイトアカウントに紐づく（2026-08-08確定）**。楽天もしもの`a_id=4824566`等、セブンネットのバリューコマース`sid=3773727`等、Amazonの`tag=shira1-22`は、いずれもShiraNote運用者本人のASPアカウントIDであり、他のブログ・アカウント（`blogs/cf_room`・`blogs/vtuber_log`・`S4LVnote`・`brands/mbticode`・`Junk314/junk_juice`等）にそのまま流用できない。他アカウントで同様のリリース記事システムを作る場合は、そのアカウント自身のASP登録・ID取得から着手する必要がある。
 
 `blogs/shira_note/tools/generate_af_link.py`で生成する。使い方は同スクリプトのdocstring参照。
 

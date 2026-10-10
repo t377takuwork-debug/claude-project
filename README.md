@@ -19,7 +19,7 @@
 |---|---|---|
 | shira_note 番組リライト | `docs/sop/sop_shira_note_rewrite.md` | `blogs/shira_note/.claude/commands/` の番組別コマンド |
 | MBTICODE X・Threads投稿／リプライ | `docs/sop/sop_mbticode_sns.md` | `/mbticode-post`・`/reply`・`/post-review` |
-| Note記事生成（MBTICODE／s4lv） | `docs/sop/sop_note_article.md` | `/note-article`・`/quality-guardrail`・`brands/tools/qa_article.py` |
+| Note記事生成（MBTICODE。s4lv は `S4LVnote/CLAUDE.md`） | `docs/sop/sop_note_article.md` | `/note-article`・`/quality-guardrail`・`brands/tools/qa_article.py` |
 | junk_juice 記事（クライアント） | `docs/sop/sop_junk_juice.md` | `/junk-theme`・`/junk-article`・`brands/tools/qa_article.py` |
 | バズ投稿の分析 | －（スキル内完結） | `/buzz-analysis`（収集は手動・分析は固定フレームワーク） |
 | 週次KPI記録 | －（スキル内完結） | `/kpi-weekly`（記録＋前週比3点コメント） |
@@ -54,16 +54,12 @@ claude project/
 │   ├── cf_room/           ← ガジェットレビューブログ（稼働中。rules/10本＋tools/WP自動化＋/cf-articleスキル）
 │   ├── vtuber_log/        ← VTuber情報ブログ VTuber Log（稼働中。cf_room構造を横展開＋/vtuber-articleスキル）
 │   └── darepedia/         ← 話題人物Wikiブログ（稼働中。rules/8本＋tools/qa_draft.ps1＋/darepedia-articleスキル）
+├── S4LVnote/            ← s4lv（Note/X/スレッズ）の運用システム（入口: `S4LVnote/CLAUDE.md`）
+├── UYAnote/             ← UYA.（Note/X/スレッズ）の運用システム（入口: `UYAnote/CLAUDE.md`）
 ├── brands/
-│   ├── CLAUDE.md          ← s4lv・MBTICODE共通ナビ
+│   ├── CLAUDE.md          ← MBTICODE等のナビ（s4lv は S4LVnote/）
 │   ├── tools/             ← qa_post.py（SNS投稿の機械検品）・qa_article.py（Note記事の機械検品）
 │   ├── writing/           ← ライティング原則4ファイル（起点: writing_core.md）
-│   ├── s4lv/
-│   │   ├── CLAUDE.md      ← s4lvの入口（正のファイルの一覧・決まりを変える手順）
-│   │   ├── rules/         ← 投稿の決まり・Note記事プロセス・アカウント方針
-│   │   ├── rules/s4lv_voice.md ← 声と書き方の決まり（X・Threads共通・生成前に読む）
-│   │   ├── rules/s4lv_learnings.md ← 学びの台帳（2026-09-10新設・/note-advisor の主参照。プロフィールの正は rules/project_s4lv_accounts.md）
-│   │   └── shared/        ← 実績データ・開示ルール（personal_data.md）
 │   └── mbticode/
 │       ├── rules/         ← 文体・戦略・KPI・販売分析 12本
 │       ├── examples_sns.md ← SNS投稿見本バンク（Good/Bad対比・生成前に読む）

@@ -15,10 +15,10 @@
   - brands/mbticode/sns_post_cheatsheet.md          … 文体・記号・字数・型ルール
   - .claude/commands/quality-guardrail.md           … AIっぽさ禁止表現
   - brands/mbticode/rules/feedback_mbticode_reply_style.md … リプライ・引用RT文体
-  - brands/s4lv/rules/s4lv_voice.md                  … s4lv 声と書き方（使わない言い方・読点・問い・1行目・ばらつき。X・Threads共通）
-  - brands/s4lv/rules/sns_common_rules.md            … s4lv 材料と事実（開示の言葉・実績の言葉の回数。X・Threads共通）
-  - brands/s4lv/rules/x_post_generation_rules.md     … s4lv Xだけの決まり（本文にURLを入れない）
-  - brands/s4lv/rules/threads_post_generation_rules.md … s4lv Threadsだけの決まり（URLを入れない・長さ・自己リプライ）
+  - S4LVnote/3_広報部/s4lv_voice.md                  … s4lv 声と書き方（使わない言い方・読点・問い・1行目・ばらつき。X・Threads共通）
+  - S4LVnote/3_広報部/sns_common_rules.md            … s4lv 材料と事実（開示の言葉・実績の言葉の回数。X・Threads共通）
+  - S4LVnote/3_広報部/x_post_generation_rules.md     … s4lv Xだけの決まり（本文にURLを入れない）
+  - S4LVnote/3_広報部/threads_post_generation_rules.md … s4lv Threadsだけの決まり（URLを入れない・長さ・自己リプライ）
     （s4lv Threadsの新しい分だけを検品するときは --since を付ける。
      旧い投稿にはURL付きのものがあり th-url が出る）
   - brands/CLAUDE.md 絶対遵守ルール3           … 断定的統計・性的描写・特定個人を傷つける表現の禁止
@@ -650,7 +650,7 @@ def check_mbticode_file(posts, findings):
 # ---------------------------------------------------------------- s4lv
 
 # AI感の禁止リスト（s4lv。X・Threads共通）
-# 出典：brands/s4lv/rules/s4lv_voice.md「使わない言い方」
+# 出典：S4LVnote/3_広報部/s4lv_voice.md「使わない言い方」
 S4LV_AI_TELL_ERRORS = [
     ("ai-desune", r"(?<!ん)ですね", "「〜ですね」相槌禁止（AI感・s4lv）"),
     ("ai-omoimasu", r"と思います|と感じます", "「と思います/と感じます」禁止・観察として言い切る（AI感・s4lv）"),
@@ -662,7 +662,7 @@ S4LV_AI_TELL_ERRORS = [
     ("ai-yobousen", r"個人差があります|一概には言えません", "責任回避の予防線禁止（AI感・s4lv）"),
 ]
 
-# 使わない言い方（X・Threads共通。出典：brands/s4lv/rules/s4lv_voice.md「使わない言い方」）
+# 使わない言い方（X・Threads共通。出典：S4LVnote/3_広報部/s4lv_voice.md「使わない言い方」）
 # 「〜んだ。」は説明の語尾（「越えられないんだ。」）だけを拾う。漢字のすぐあとの「んだ。」は
 # ふつうの過去形（「選んだ。」「読んだ。」）なので拾わない。
 S4LV_NDA_ERRORS = [
@@ -677,7 +677,7 @@ S4LV_SHOJIKI_WARNS = [
 # 広い意見募集の問い（Threads用。Xは x-question-closing が、引き出しにない形の問い締めをまとめて拾う）
 S4LV_BROAD_Q_RE = re.compile(r"(どう思いますか|どう思います|と思いますか|どうでしょうか|いかがですか|どうですか)[？?]")
 
-# 2026-10-02：問いの許可形（s4lv_voice.md「問いかけ」）。brands/s4lv/tools/recent_forms.py の QUESTION_FORMS と同じ分類
+# 2026-10-02：問いの許可形（s4lv_voice.md「問いかけ」）。S4LVnote/.claude/hooks/recent_forms.py の QUESTION_FORMS と同じ分類
 S4LV_Q_OK_RE = re.compile(r"(ってことありません|ありませんか|ませんか|じゃないですか|いませんか|ない|どうします)[？?]$")
 S4LV_Q_FORMS = [
     ("ってことありません？", r"ってことありません？"),
@@ -696,7 +696,7 @@ S4LV_ENDING_KINDS = [
 ]
 
 # 1行目に説明なしで置くと読者を選別してしまう符丁（2026-09-04追加・WARN専用・広めの初期辞書）
-# 出典：brands/s4lv/rules/s4lv_voice.md「わかりやすさ」。誤検知が多ければ辞書を削る
+# 出典：S4LVnote/3_広報部/s4lv_voice.md「わかりやすさ」。誤検知が多ければ辞書を削る
 S4LV_HOOK_JARGON = [
     "allintitle", "参入判定", "撤退判定", "共起語", "ファーストビュー", "一次情報",
     "ドメインパワー", "ドメイン評価", "被リンク", "インデックス", "クローズド案件",
@@ -720,7 +720,7 @@ def check_s4lv_post(post, platform):
     if platform == "x" and URL_RE.search(body):
         f.append(Finding("ERROR", post["label"], "x-url", "本文にURL禁止（URLはリプライ欄・s4lv）"))
     # Threads：フォロワー100までは、本文にも自己リプライにもURLを入れない（noteはプロフィール欄だけ）。
-    # 出典：brands/s4lv/rules/threads_post_generation_rules.md「Threadsだけの決まり」。
+    # 出典：S4LVnote/3_広報部/threads_post_generation_rules.md「Threadsだけの決まり」。
     if platform == "threads":
         _url_reply_raw = post.get("reply", "")
         _url_reply_body = REPLY_LABEL_RE.sub("", _url_reply_raw, count=1) if _url_reply_raw else ""
@@ -729,7 +729,7 @@ def check_s4lv_post(post, platform):
                              "Threads本文・自己リプライにURL禁止（フォロワー100までは誘導リンク全廃・"
                              "noteはプロフィール欄のみ・2026-09-07プレイブック）"))
     # Threads 1行目の「〜してないですか？」型の指摘フック（週1本まで・連続禁止）。
-    # 出典：brands/s4lv/rules/s4lv_voice.md「1行目」。1行目は指摘でなく
+    # 出典：S4LVnote/3_広報部/s4lv_voice.md「1行目」。1行目は指摘でなく
     # 自分の現場か具体事実で開く。誤検知の余地があるためWARN。
     if platform == "threads" and not post["is_reply"]:
         _first = (nonempty_lines(body) or [""])[0].strip()
@@ -778,7 +778,7 @@ def check_s4lv_post(post, platform):
         else:
             run = 0
 
-    # 読点（1文に「、」2個以上でWARN）。出典：brands/s4lv/rules/s4lv_voice.md「書き方の形」。
+    # 読点（1文に「、」2個以上でWARN）。出典：S4LVnote/3_広報部/s4lv_voice.md「書き方の形」。
     # 本文＋自己リプライの両方を見る。
     kt_texts = [("本文", body)]
     _reply_raw = post.get("reply", "")
@@ -791,7 +791,7 @@ def check_s4lv_post(post, platform):
                                  f"1文に読点2個以上（{_tlabel}・1文に1つまで・s4lv_voice.md）: 「{s.strip()[:40]}…」"))
 
     # 開示の言葉（テレビ・エンタメ系の定期更新記事だと分かる語）が本文・自己リプライに
-    # 出ていないか（WARN）。出典：brands/s4lv/rules/sns_common_rules.md「開示」。
+    # 出ていないか（WARN）。出典：S4LVnote/3_広報部/sns_common_rules.md「開示」。
     # まちがって拾わないよう、確度の高い語句と、文脈つきの形だけを見る。
     DISCLOSURE_TELLS = [
         "番組表", "タイムテーブル", "セットリスト", "セトリ", "出演順", "出演者順",
@@ -897,7 +897,7 @@ def check_s4lv_file(posts, findings, platform=None):
                                     "指摘でなく現場/具体事実で開く）: " + " / ".join(st)))
 
     # --- 2026-10-02：ばらつきの決まり（s4lv_voice.md）の機械化（X・Threads共通・WARN）。
-    # 日付なし（テスト中）の投稿も対象にする。直近10本との比較は brands/s4lv/tools/recent_forms.py。
+    # 日付なし（テスト中）の投稿も対象にする。直近10本との比較は S4LVnote/.claude/hooks/recent_forms.py。
     vp = [p for p in posts if not p["is_reply"] and nonempty_lines(p["body"])]
 
     def _last_line(p):

@@ -11,5 +11,5 @@ Note アカウントの運用・施策を実行する**前**の判断（やる�
 
 - 3つの立場の考え方と note.com のデータ：`docs/reference/note_monetization_reference.md`
 - 会議を開くタイミング（ファイル整理などの構造の判断も対象）：`docs/rules/feedback_notekaigi_timing.md`
-- s4lv の気軽な相談は会議ではなく `/note-advisor`
+- s4lv の気軽な相談は会議ではなく `S4LVnote/` フォルダの相談役（`S4LVnote/CLAUDE.md`）
 - ASP案件専用の別の会議：`/asp-kaigi`（`docs/systems/system_asp_kaigi.md`）。混同しない

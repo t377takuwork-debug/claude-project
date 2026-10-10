@@ -18,7 +18,7 @@
 
 ルールの出典（変更時は出典を先に更新し本スクリプトを追従させる）:
   - .claude/commands/quality-guardrail.md（禁止表現の考え方）
-  - brands/s4lv/rules/project_s4lv_note_article_process.md（AI臭さ除去3軸・——禁止・字数基準）
+  - S4LVnote/2_商品開発部/project_s4lv_note_article_process.md（AI臭さ除去3軸・——禁止・字数基準）
   - brands/writing/writing_core.md（PASONA導入・CTA具体化・AI臭さ除去の章＝層4〜6の出典）
   - Junk314/junk_juice/rules/feedback_junk_paid_article.md（有料記事基準）
 """
@@ -89,7 +89,7 @@ TONE_WARN_PATTERNS = [
     ("tone-desune", r"ですね[。？]", "「〜ですね」の相槌語尾（writing_tone 1-1。vivant・MBTICODE・UYA.は可。2026-09-28追加：語りかけ口調の方針に合うため）", ("/vivant/", "/mbticode/", "/uya/")),
 ]
 
-# 層8: s4lv専用（WARN・2026-09-21新設。オーナーが繰り返し伝えた意図の機械化。出典は brands/s4lv/rules/note_article_checklist.md）
+# 層8: s4lv専用（WARN・2026-09-21新設。オーナーが繰り返し伝えた意図の機械化。出典は S4LVnote/2_商品開発部/note_article_checklist.md）
 # 対象は「/s4lv/」を含むパスだけ。ここに足すときは、checklist を先に直す。
 S4LV_ONLY_WARN_PATTERNS = [
     ("s4lv-ippou", r"一方で|一方、|一方の", "「一方で／一方、／一方の」は使わない。文を切って並べれば、対比の接続語は要らない（checklist 2章。09-21・オーナーが再指摘）"),
@@ -299,7 +299,7 @@ def main():
 
     # 保存先チェック
     norm = args.file.replace("\\", "/")
-    # s4lvの保存先は brands/s4lv/drafts/ が正（articles/ 配下ではない）。この場合は警告しない（2026-09-21）
+    # s4lvの保存先は（旧）brands/s4lv/drafts/・（いま）S4LVnote/2_商品開発部/原稿/ が正（articles/ 配下ではない）。この場合は警告しない（2026-09-21）
     if "/articles/" not in norm and "/s4lv/drafts/" not in _norm_early:
         warns.append("[WARN] save-location: 保存先が articles/ 配下ではない（drafts保存ルール）")
 

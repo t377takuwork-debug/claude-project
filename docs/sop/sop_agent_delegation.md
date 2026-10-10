@@ -36,12 +36,12 @@
 | 設計項目 | 内容 |
 |---|---|
 | 定義ファイル | `.claude/agents/post-writer.md`（model: sonnet / effort: medium） |
-| 読み順 | `brands/CLAUDE.md` → `/mbticode-post` または `/s4lv-post` コマンドファイル（参照順序・本数体制を内包済み）→ 見本バンク（`examples_sns.md` 等） |
+| 読み順 | `brands/CLAUDE.md` → `/mbticode-post` コマンドファイル（参照順序・本数体制を内包済み）→ 見本バンク（`examples_sns.md` 等） |
 | ツール | Read・Grep・Glob・**Write**・PowerShell（投稿ファイルは「毎回上書き」運用のためshira-rewriterと異なりWriteを付与。上書き対象は `brands/*/posts/posts_*.txt` のみと定義に明記） |
 | 受入条件 | `python brands/tools/qa_post.py <postsファイル>` ERROR 0件。**exit code仕様は実装前に要確認（未検証）**——exit非対応なら出力全文貼付を受入条件にする |
 | 司令塔の受入 | qa_post再実行＋`/post-review`（LLM冷徹チェック）は司令塔側で実施——機械QA=実行部隊・LLMレビュー=司令塔の2段構えを役割分離にそのまま写像 |
 | 禁止事項 | shira-rewriterと同型（捏造禁止=personal_data.md/reference/外の実体験を書かない・git禁止・rules編集禁止・2回失敗で停止・初回不合格ログ報告） |
-| パイロット | 次のMBTICODE投稿バッチ依頼1回。受入合格でs4lv-postにも適用 |
+| パイロット | 次のMBTICODE投稿バッチ依頼1回。（s4lv は `S4LVnote/` フォルダで別に作るため対象外） |
 
 **実装済み（2026-07-19）**：`.claude/agents/post-writer.md`。実装時の実測で確定した仕様——①qa_post.pyはexit 0/1/2対応（ERROR 0件=0）②両コマンドの「ユーザーOK」工程は2段階運用（設計テーブル提示で停止→司令塔経由の承認→本文生成）に写像 ③CTAライブラリ追記のみEdit許可（`cta_templates.md`）。パイロット（次の投稿バッチ依頼1回）が未実施。
 
