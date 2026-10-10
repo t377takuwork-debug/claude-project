@@ -116,7 +116,9 @@ def check_block(label, kind, text):
             if re.search(r"[てで]。$", s.strip()):
                 msgs.append(("ERROR", f"文末が「〜て。」「〜くて。」の尻切れ(外してほしい言い方): 「...{s.strip()[-14:]}」"))
             if re.search(r"(だった|かった)。$", s.strip()):
-                msgs.append(("ERROR", f"文末が過去形の言い切り: 「...{s.strip()[-14:]}」"))
+                # X(2026-10-10〜)は、見本「…「あ、売れるんだ」だった」の形を許すためWARN。スレッズは従来どおりERROR
+                level = "ERROR" if THREADS else "WARN"
+                msgs.append((level, f"文末が過去形の言い切り(説明の過去形になっていないか。見本のように一言の引用で落とすのはよい): 「...{s.strip()[-14:]}」"))
     flat = text.replace("\n", "")
     for b in BANNED_ENDINGS:
         if b in flat:
@@ -135,12 +137,32 @@ def check_block(label, kind, text):
             if re.search(r"(じゃない|ではない|じゃなくて)[。、]", head) and len(head) < 40:
                 msgs.append(("WARN", f"冒頭が否定の形(AIの典型の型に見えやすい): 「{head[:24]}...」"))
 
+    # X(2026-10-10〜): 1文(長くても2文)が基準。補足の文・説明の語が増えていないか
+    if not THREADS and kind == "本文":
+        plain = re.sub(r"「[^」]*」", "「」", text)
+        n_sent = sum(len(split_sentences(p)) for p in split_paragraphs(plain))
+        if n_sent >= 4:
+            msgs.append(("WARN", f"{n_sent}文ある。基準は1〜2文(長の型は2〜3文まで)。補足や感想の文が増えていないか(型の「分散と長さ」)"))
+        for w in ["いざ", "結局", "ちょっと", "かもしれないとは思"]:
+            if w in flat:
+                msgs.append(("WARN", f"言い切りを弱める語「{w}」(型の「悪い見本」)"))
+
     if text.count("『") > 2:
         msgs.append(("WARN", f"『』が{text.count('『')}回(目安1〜2回まで)"))
     for p in paragraphs:
         for s in split_sentences(p):
-            if s.count("、") > 2:
-                msgs.append(("WARN", f"読点が{s.count('、')}個: 「{s.strip()[:24]}...」"))
+            s_nq = re.sub(r"「[^」]*」", "「」", s)   # 引用の「」の中は数えない
+            c = s_nq.count("、")
+            if THREADS:
+                if c > 2:
+                    msgs.append(("WARN", f"読点が{c}個: 「{s.strip()[:24]}...」"))
+            else:
+                if c >= 3:
+                    msgs.append(("ERROR", f"読点が{c}個(Xは1文に1つが基本。3つ以上は不可): 「{s.strip()[:24]}...」"))
+                elif c == 2:
+                    msgs.append(("WARN", f"読点が2個(基本は1つ。切れ目だけか確かめる): 「{s.strip()[:24]}...」"))
+                if re.search(r"[^、。]{1,14}[もは]、[^、。]{1,14}[もは]、", s_nq):
+                    msgs.append(("ERROR", f"読点での列挙(「Aも、Bも、」)。「と」「や」でつなぐ: 「{s.strip()[:24]}...」"))
     ends = []
     for p in paragraphs:
         m = re.search(r"([^\s。？]{2,6})[。？]?$", p.replace("\n", ""))
@@ -197,10 +219,10 @@ def main():
     if n and ends_with_q > n / 3:
         print(f"[WARN] 問いで終わる投稿が{ends_with_q}/{n}本(3本に1本以下)")
         total_warn += 1
-    if ndayone > 1:
-        print(f"[WARN] 「〜んだよね」が{ndayone}回(4本のうち1回まで)")
+    if ndayone > 1 or (ndayone and not THREADS):
+        print(f"[WARN] 「〜んだよね」が{ndayone}回(Xは使わない。スレッズは4本のうち1回まで)")
         total_warn += 1
-    if not (ends_with_q > n / 3 or ndayone > 1 or n > 5):
+    if not (ends_with_q > n / 3 or ndayone > 1 or (ndayone and not THREADS) or n > 5):
         print("[OK] 本数・問いの割合・「んだよね」の回数")
     print(f"\n=== 結果: ERROR {total_err}件 / WARN {total_warn}件 ===")
     sys.exit(1 if total_err else 0)

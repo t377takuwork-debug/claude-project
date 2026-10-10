@@ -61,19 +61,19 @@ def parse(path):
         main = [b for h, b in blocks if not h]
         reply = [b for h, b in blocks if h]
         if main:
-            out.append((int(m.group(1)), d.group(1), main[0].strip(), reply[0].strip() if reply else None))
+            out.append((int(m.group(1)), d.group(1), main[0].strip(), [r.strip() for r in reply]))
     return out
 
 
 def send(path, nums, mode):
-    for n, when, main, reply in parse(path):
+    for n, when, main, replies in parse(path):
         if nums and n not in nums:
             continue
         jst = datetime.datetime.strptime(when, "%Y-%m-%d %H:%M")
         due = (jst - datetime.timedelta(hours=9)).strftime("%Y-%m-%dT%H:%M:00.000Z")
-        thread = [{"text": main}] + ([{"text": reply}] if reply else [])
-        print(f"--- {n}本目 {when}(JST) 自己返信:{'あり' if reply else 'なし'}")
-        print(main + ("\n[自己返信]\n" + reply if reply else ""))
+        thread = [{"text": main}] + [{"text": r} for r in replies]
+        print(f"--- {n}本目 {when}(JST) " + (f"続きのポスト:{len(replies)}件" if replies else "自己返信:なし"))
+        print(main + "".join("\n[%dつ目の続き]\n%s" % (k, r) for k, r in enumerate(replies, 2)))
         if mode == "check":
             continue
         inp = {"channelId": CHANNEL_ID, "text": main, "schedulingType": "automatic",
