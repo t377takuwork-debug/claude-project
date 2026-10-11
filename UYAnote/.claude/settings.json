@@ -1,4 +1,12 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(py -3 .claude/hooks/buffer_api.py metrics*)",
+      "Bash(python .claude/hooks/buffer_api.py metrics*)",
+      "Edit(3_広報部/X反響記録.md)",
+      "Write(3_広報部/分析レポート/*)"
+    ]
+  },
   "hooks": {
     "PreToolUse": [
       {
