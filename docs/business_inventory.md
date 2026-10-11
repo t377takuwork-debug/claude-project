@@ -34,7 +34,7 @@
 | I1 | MBTICODE Note記事生成 | `/note-article mbticode [テーマ]` | `brands/mbticode/articles/drafts/` へ保存済み＋`qa_article.py` ERROR 0件 | `brands/tools/qa_article.py`（機械）→`note-ai-reviewer` 審査 PASS 必須（LLM・`note_review_rubric.md`） |
 | I2 | junk_juice テーマ・タイトル設計 | `/junk-theme` | テーマ・タイトル確定 | － |
 | I3 | junk_juice 記事生成（クライアント） | `/junk-article` | `Junk314/junk_juice/articles/drafts/` へ保存済み | 有料記事は `Junk314/junk_juice/rules/feedback_junk_paid_article.md` のチェックリスト最低15項目 |
-| I4 | s4lv X・Threads投稿／Note記事 | X・Threads＝`/s4lv-post`（決まりの一覧は `brands/s4lv/CLAUDE.md`）／Note＝`brands/s4lv/rules/project_s4lv_note_article_process.md` | X・Threads＝`qa_post.py` ERROR 0件＋`sns-ai-reviewer` PASS＋`brands/s4lv/posts/` へ保存済み／Note＝drafts/へ保存済み | `brands/tools/qa_post.py`（機械）→`sns-ai-reviewer`（審査） |
+| I4 | s4lv X・Threads投稿／Note記事 | `S4LVnote/CLAUDE.md`（X・Threads・Note記事とも、このフォルダで作る。正のファイルの一覧も同じファイル） | X・Threads＝`qa_post.py` ERROR 0件＋`sns-ai-reviewer` PASS＋`S4LVnote/3_広報部/投稿文/` へ保存済み／Note＝`S4LVnote/2_商品開発部/原稿/` へ保存済み | `S4LVnote/.claude/hooks/qa_post.py`（機械）→`sns-ai-reviewer`（審査。`S4LVnote/.claude/agents/`） |
 | I5 | shira_note キーワード起点記事 | `/shira-keyword-article` | `/shira-qa` ERROR 0件 | qa_draft.py |
 | I6 | shira_note 新規番組記事立ち上げ | `/shira-new-article` | 専用コマンド新設＋CLAUDE.md登録まで1セッション完結 | qa_draft.py |
 | I7 | 戦略・方針判断 | `/notekaigi`（構造的判断は必ずここを経由・開く条件3つ：あとから戻せない／どっちかしか取れない／いま決められる） | [論点整理]→[決定]→[戦略案]→[収益・改善プラン]→[更新] 出力＋[更新]の運用ファイル反映まで完了 | － |
@@ -60,8 +60,8 @@
 
 | 暗黙知 | 明文化ファイル（repo内） |
 |---|---|
-| s4lv X・Threads投稿の決まり（声と書き方・材料と事実・媒体ごとの決まり） | `brands/s4lv/CLAUDE.md` の一覧（`rules/s4lv_voice.md`・`rules/sns_common_rules.md` ほか） |
-| s4lv Note記事生成プロセス（無料7ステップ・有料3フェーズ） | `brands/s4lv/rules/project_s4lv_note_article_process.md` |
+| s4lv X・Threads投稿の決まり（声と書き方・材料と事実・媒体ごとの決まり） | `S4LVnote/CLAUDE.md` の「正のファイル」 |
+| s4lv Note記事生成プロセス（無料7ステップ・有料3フェーズ） | `S4LVnote/2_商品開発部/project_s4lv_note_article_process.md` |
 | MBTICODEリプライの句読点・語尾・「わかります」使用条件 | `brands/mbticode/rules/feedback_mbticode_reply_style.md` |
 | 番組別リライトの落とし穴（CDTV日付更新漏れ・テレ東2枚カード構造・FNS締め文） | `blogs/shira_note/rules/feedback_cdtv_rewrite_checklist.md` ほか同フォルダ |
 | junk_juice 有料記事の品質基準（情景フック・情報密度・15項目チェック） | `Junk314/junk_juice/rules/feedback_junk_paid_article.md` |

@@ -2,7 +2,7 @@
 
 生成済みのSNS投稿案（X / Threads / リプライ / 引用RT）を投稿前に検品する。
 **投稿案を生成するコマンドではない**。生成→本コマンドで壁打ち→修正→提案、の順番を守る。
-s4lv のX・Threads投稿は対象外（`/s4lv-post` の中で `sns-ai-reviewer` が審査する）。
+s4lv のX・Threads投稿は対象外（`S4LVnote/` の中で `sns-ai-reviewer` が審査する）。
 
 ## 引数
 

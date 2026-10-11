@@ -18,6 +18,7 @@ brands/mbticode/tools/threads_auth.local.json
 brands/mbticode/tools/sheets_service_account.local.json
 vivant/tools/threads_auth.local.json
 vivant/tools/sheets_service_account.local.json
+# 古い場所(2026-10-11に消した)。パソコンに鍵だけ残っていることがあるので、無視の行は残す
 brands/s4lv/tools/threads_auth.local.json
 brands/s4lv/tools/sheets_service_account.local.json
 

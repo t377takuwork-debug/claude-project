@@ -3,6 +3,7 @@
 
 使い方（S4LVnote フォルダで実行する）:
   python .claude/hooks/buffer_api.py channels            # つながっているチャンネルの一覧（読み取りだけ）
+  python .claude/hooks/buffer_api.py metrics             # 送信済みの投稿ごとの数字（表示・いいね・コメント等。読み取りだけ。X分析AIが使う）
   python .claude/hooks/buffer_api.py list <posts_x.txt> M/D
       その日の投稿の番号・日時・自己リプライの有無を出す（キーは要らない。何も送らない）
   python .claude/hooks/buffer_api.py send <posts_x.txt> M/D [番号 ...] [--draft|--go]
@@ -71,18 +72,18 @@ def list_channels():
         chs = (r.get("data") or {}).get("channels")
         if chs is None:
             sys.exit("チャンネルが取れません: " + json.dumps(r, ensure_ascii=False)[:300])
-        out.append({"organization": org.get("name"), "channels": chs})
+        out.append({"organization": org.get("name"), "organizationId": org["id"], "channels": chs})
     return out
 
 CREATE = """mutation($i: CreatePostInput!){ createPost(input:$i){
  ... on PostActionSuccess { post { id status dueAt } } ... on MutationError { message } } }"""
 
 
-def find_channel():
+def find_channel(with_org=False):
     for org in list_channels():
         for ch in org["channels"]:
             if ch.get("service") == "twitter" and CHANNEL_NAME.lower() in (ch.get("name") or "").lower():
-                return ch["id"]
+                return (ch["id"], org["organizationId"]) if with_org else ch["id"]
     sys.exit(f"Bufferに、名前に「{CHANNEL_NAME}」を含む X のチャンネルが見つかりません。"
              f"`python .claude/hooks/buffer_api.py channels` で確かめてください。")
 
@@ -180,12 +181,45 @@ def parse_nums(args):
     return out
 
 
+METRICS = """query($a: String){ posts(first: 50, after: $a, input:{organizationId:"%s"}) {
+ pageInfo { hasNextPage endCursor }
+ edges { node { id status sentAt channelId text metricsUpdatedAt metrics { name value } metadata { ... on TwitterPostMetadata { thread { text } } } } } } }"""
+
+
+def metrics():
+    """送信済みの投稿ごとの数字を、1行ずつ出す（読み取りだけ）。元は UYAnote の buffer_api.py の metrics（2026-10-10）。
+    チャンネルと組織は、毎回名前で探す（CHANNEL_NAME）。"""
+    channel, org = find_channel(with_org=True)
+    after = None
+    rows = []
+    while True:
+        d = gql(METRICS % org, {"a": after})
+        if d.get("errors") or d.get("http_error"):
+            sys.exit("取得できませんでした: " + json.dumps(d, ensure_ascii=False)[:300])
+        p = d["data"]["posts"]
+        rows += [e["node"] for e in p["edges"]]
+        if not p["pageInfo"]["hasNextPage"]:
+            break
+        after = p["pageInfo"]["endCursor"]
+    print("送信日時(JST)\t表示\tいいね\tコメント\t自己リプライ\t他の人の返信(推定)\tリポスト\tクリック\t数字の更新(JST)\t本文の冒頭")
+    t = lambda x: (datetime.datetime.strptime(x[:16], "%Y-%m-%dT%H:%M") + datetime.timedelta(hours=9)).strftime("%m-%d %H:%M")
+    for n in sorted((r for r in rows if r["status"] == "sent" and r["sentAt"] and r["channelId"] == channel), key=lambda r: r["sentAt"]):
+        m = {x["name"]: x["value"] for x in n["metrics"]}
+        own = max(0, len((n.get("metadata") or {}).get("thread") or []) - 1)
+        others = max(0, (m.get("Comments") or 0) - own)
+        print("\t".join([t(n["sentAt"]), str(m.get("Impressions")), str(m.get("Reactions")), str(m.get("Comments")),
+                         str(own), str(others), str(m.get("Reposts")), str(m.get("Clicks")),
+                         t(n["metricsUpdatedAt"]) if n["metricsUpdatedAt"] else "-", n["text"][:20].replace("\n", " ")]))
+
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     a = sys.argv[1:]
     cmd = a[0] if a else ""
     if cmd == "channels":
         print(json.dumps(list_channels(), ensure_ascii=False, indent=1))
+    elif cmd == "metrics":
+        metrics()
     elif cmd in ("list", "send") and len(a) >= 3:
         rest = [x for x in a[3:] if not x.startswith("--")]
         if cmd == "list":
