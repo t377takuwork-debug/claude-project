@@ -8,7 +8,7 @@ s4lv（Threads @cfrms4lv）の投稿を、スプレッドシートに入れて�
 
 ```
 [Claude Code ローカル]                     [Google クラウド]                [Meta]
- /s4lv-post で投稿を作る                     Googleスプレッドシート
+ スレッズ投稿AIで投稿を作る                Googleスプレッドシート
   → qa_post.py 検品                          ├ 投稿キュー（予定管理）
   → posts_threads.txt 保存                   ├ 設定（トークン投入用・実行後自動消去）
   → queue_from_posts.py ──Sheets API──►      ├ インサイト（数値蓄積）
@@ -64,10 +64,10 @@ s4lv（Threads @cfrms4lv）の投稿を、スプレッドシートに入れて�
 
 ## 4. ふだんの流れ
 
-1. `/s4lv-post` で投稿を作り、`3_広報部/投稿文/posts_threads.txt` の末尾に足す
+1. 「スレッズの投稿を作って」で、スレッズ投稿AIが投稿を作り、`3_広報部/投稿文/posts_threads.txt` の末尾に足す(手順は `3_広報部/社員.md`)
 2. `queue_from_posts.py` でキューへ入れる
 3. あとは自動で投稿される
-4. 数字は毎晩自動で回収される。分析するときは `fetch_insights.py` で読み、結果を `3_広報部/スレッズ道具/s4lv_threads_insights_notes_*.md` に書いて、`threads_analysis_log.json` を更新する
+4. 数字は毎晩自動で回収される。分析は「スレッズの分析をして」で行う(手順は `3_広報部/社員.md` のスレッズ分析AIの項)
 5. 異常があるときだけ、`checkHealth` がメールで知らせる。何も来なければ正常
 
 ## 5. 過去の障害と落とし穴
