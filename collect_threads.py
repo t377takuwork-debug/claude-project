@@ -13,7 +13,7 @@ import random
 import re
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from urllib.parse import quote
 
@@ -74,17 +74,51 @@ def pick(metrics, *names):
     return 0
 
 
-def normalize(raw):
+REL_RE = re.compile(r"^(\d+)\s*(分|時間|日|週|年)$")
+DATE_RE = re.compile(r"^(20\d{2})/(\d{1,2})/(\d{1,2})$")
+REL_HOURS = {"分": 1 / 60.0, "時間": 1.0, "日": 24.0, "週": 24.0 * 7, "年": 24.0 * 365}
+
+
+def find_time_label(lines):
+    """投稿者名の下の行（先頭から数行）にある、投稿時刻の表示（「10分」「3時間」「2日」「2026/10/04」）を探す。
+    投稿者名とテーマのタグ（例：AI副業）の次に出るため、位置は一定でない。"""
+    for i, l in enumerate(lines[1:5], start=1):
+        if REL_RE.match(l) or DATE_RE.match(l):
+            return i, l
+    return None, ""
+
+
+def posted_at_from_label(label, now):
+    m = REL_RE.match(label)
+    if m:
+        return now - timedelta(hours=int(m.group(1)) * REL_HOURS[m.group(2)])
+    m = DATE_RE.match(label)
+    if m:
+        try:
+            return datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        except ValueError:
+            return None
+    return None
+
+
+def normalize(raw, now=None):
+    now = now or datetime.now()
     href = raw["href"]
     author = href.split("/")[1].lstrip("@") if href.startswith("/@") else ""
     lines = raw["lines"]
-    time_label = lines[1] if len(lines) > 1 else ""
-    body = [l for l in lines[2:] if not re.fullmatch(r"[0-9.,万KkM]+", l) and l not in ("もっと見る",)]
+    idx, label = find_time_label(lines)
+    # 時刻表示の行は本文から除く（見つからない古い形式は、これまでどおり2行目をラベルにする）
+    rest = [l for i, l in enumerate(lines[2:], start=2) if i != idx] if idx is not None else lines[2:]
+    time_label = label or (lines[1] if len(lines) > 1 else "")
+    body = [l for l in rest if not re.fullmatch(r"[0-9.,万KkM]+", l) and l not in ("もっと見る",)]
     m = raw["metrics"]
+    p = posted_at_from_label(label, now) if label else None
     return {
         "url": "https://www.threads.com" + href,
+        "platform": "threads",
         "author": author,
         "time_label": time_label,
+        "posted_at": p.isoformat(timespec="seconds") if p else "",
         "text": "\n".join(body),
         "likes": pick(m, "いいね"),
         "replies": pick(m, "返信", "コメント"),

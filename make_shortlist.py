@@ -1,21 +1,25 @@
 """溜めた投稿から、アカウント別の「今週の候補」ファイルを作る（Claudeのトークンは使わない）。
 
 使い方：  py -3 make_shortlist.py                  研究データ全部から、アカウント別に作る
-          py -3 make_shortlist.py --top 20 --min-likes 200
+          py -3 make_shortlist.py --top 20 --max-age-hours 24
 出力：    research_data/shortlist/shortlist_<アカウント>_<日付>.md
           - MBTICODE ……… mbti_love グループ（/mbticode-neta が読む入力）
           - s4lv_UYA ……… blog_note_sns・ai グループ（/neta-research が読む入力。s4lvとUYA.共通）
 
-選び方：  反響点 = いいね＋再投稿×3＋返信×2。同じ投稿者は最大2件。
-除外：    ①すでに台帳にある投稿（投稿IDで判定） ②勧誘・配布・募集・販売など
-          ③自分のアカウント ④反響が小さいもの（既定は100いいね未満）
+新しさ：  **集めた時点（初めて見かけた時点）で、投稿から24時間以内**のものだけを候補にする
+          （アカウント起点は5日以内。約4日で一周するため）。集めてから7日分を蓄積して並べる
+          （週1回のリサーチで、1週間分を見られるように）。
+選び方：  反響点 = いいね＋再投稿×3＋返信×2＋保存×5（保存はXだけ）
+          勢い = 反響点 ÷（投稿から最後に見かけるまでの日数＋1）。短い時間で伸びたものを上に並べる
+除外：    ①すでに台帳にある投稿（投稿IDで判定） ②勧誘・配布・募集・販売など ③自分のアカウント
+          ④反響が小さいもの ⑤この分野の語がない・無関係な話題 ⑥同じ投稿者・同じ語の偏り
 注意：    本文の抜粋は、ローカルだけに置く（research_data は git に入れない）。台帳には全文を写さない。
 """
 import argparse
 import json
 import re
 import sys
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
@@ -80,6 +84,9 @@ def load_posts(files):
                 old["views"] = max(old.get("views", 0), r.get("views", 0))
                 if "bookmarks" in r or "bookmarks" in old:
                     old["bookmarks"] = max(old.get("bookmarks", 0), r.get("bookmarks", 0))
+                for k in ("posted_at", "followers", "source", "min_faves"):
+                    if k in r and k not in old:
+                        old[k] = r[k]
                 old["groups"] = sorted(set(old["groups"]) | set(r["groups"]))
                 old["keywords"] = sorted(set(old["keywords"]) | set(r["keywords"]))
                 old["last_seen"] = max(old["last_seen"], r["last_seen"])
@@ -100,7 +107,7 @@ def has_topic(low, terms):
 
 
 def post_date(r):
-    """本文の先頭に「2026/07/10」のような日付があれば、その日を返す（相対表示の新しい投稿は None）。"""
+    """本文の先頭に「2026/07/10」のような日付があれば、その日を返す（古いスレッズのデータ用）。"""
     for t in (r.get("time_label", ""), r.get("text", "")):
         m = re.match(r"\s*(20\d{2})/(\d{1,2})/(\d{1,2})", t)
         if m:
@@ -111,26 +118,47 @@ def post_date(r):
     return None
 
 
+def posted_at(r):
+    """投稿された日時（この PC の時刻）。分からなければ None。"""
+    if r.get("posted_at"):
+        try:
+            return datetime.fromisoformat(r["posted_at"])
+        except ValueError:
+            pass
+    tl = r.get("time_label", "")
+    m = re.match(r"(\d{4})/(\d{1,2})/(\d{1,2}) (\d{1,2}):(\d{2})$", tl)
+    if m and r.get("platform") == "x":  # 古いXのデータ：時刻はUTCで保存していた
+        utc = datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)), int(m.group(4)), int(m.group(5)), tzinfo=timezone.utc)
+        return utc.astimezone().replace(tzinfo=None)
+    return post_date(r)
+
+
+def hours_at(r, key):
+    """投稿から、first_seen（初めて見かけた）／last_seen（最後に見かけた）までの時間。分からなければ None。"""
+    p = posted_at(r)
+    if p is None:
+        return None
+    try:
+        t = datetime.fromisoformat(r[key])
+    except (KeyError, ValueError):
+        return None
+    return max(0.0, (t - p).total_seconds() / 3600.0)
+
+
 def score(r):
     # 既存スキルの優先順位「ブックマーク＞返信＞いいね」に合わせる（ブックマークはXだけ取れる）
     return r["likes"] + 3 * r["reposts"] + 2 * r["replies"] + 5 * r.get("bookmarks", 0)
 
 
-def age_days(r):
-    """投稿からの日数。投稿日が分からない（スレッズの「3時間」などの相対表示＝新しい）投稿は2日として扱う。"""
-    pd = post_date(r)
-    return max(0, (datetime.now() - pd).days) if pd else 2
-
-
 def momentum(r):
-    """勢い＝反響点÷(経過日数+1)。古い投稿ほど、いいねが積み上がって有利になるのを抑える。"""
-    return score(r) / (age_days(r) + 1)
+    """勢い＝反響点÷(投稿から最後に見かけるまでの日数＋1)。短い時間で伸びたものが上に来る。日時が分からない古いデータは2日扱い。"""
+    h = hours_at(r, "last_seen")
+    days = (h / 24.0) if h is not None else 2.0
+    return score(r) / (days + 1.0)
 
 
-def age_limit(r, args):
-    if r.get("source") == "account":
-        return args.max_age_account
-    return args.max_age_x if r.get("platform") == "x" else args.max_age_threads
+def age_limit_hours(r, args):
+    return args.max_age_account_hours if r.get("source") == "account" else args.max_age_hours
 
 
 def min_likes_for(r, args):
@@ -155,18 +183,23 @@ def one_line(text, n=80):
     return t[:n] + ("…" if len(t) > n else "")
 
 
+def label_hours(h):
+    if h is None:
+        return "不明"
+    return "%d分" % round(h * 60) if h < 1 else "%.0f時間" % h if h < 48 else "%.0f日" % (h / 24)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--top", type=int, default=30, help="1ファイルの最大件数")
-    ap.add_argument("--min-likes-x", type=int, default=50, help="X：これ未満のいいねは候補にしない（新しい投稿が対象なので50）")
+    ap.add_argument("--min-likes-x", type=int, default=100, help="X：これ未満のいいねは候補にしない")
     ap.add_argument("--min-likes-threads", type=int, default=100, help="スレッズ：これ未満のいいねは候補にしない")
-    ap.add_argument("--max-age-x", type=int, default=3, help="Xのキーワード検索の投稿：この日数より古い投稿は除く")
-    ap.add_argument("--max-age-threads", type=int, default=7, help="スレッズ：投稿日が分かる投稿は、この日数より古ければ除く")
-    ap.add_argument("--max-age-account", type=int, default=5, help="アカウント起点の投稿：この日数より古い投稿は除く（約4日で一周するので、5日より古い投稿は、前回までに見ている）")
-    ap.add_argument("--min-per-platform", type=int, default=10, help="媒体ごとの最低枠（その媒体の候補がある場合）")
-    ap.add_argument("--days", type=int, default=14, help="この日数より古く見かけた投稿は除く（最後に見かけた日で判定）")
+    ap.add_argument("--max-age-hours", type=int, default=24, help="集めた時点で、投稿からこの時間以内のものだけ候補にする")
+    ap.add_argument("--max-age-account-hours", type=int, default=120, help="アカウント起点の投稿：同上（約4日で一周するため5日）")
+    ap.add_argument("--window-days", type=int, default=7, help="この日数以内に集めたものを蓄積して並べる（週1回のリサーチ用）")
     ap.add_argument("--max-per-author", type=int, default=2)
     ap.add_argument("--max-per-keyword", type=int, default=6, help="1つのキーワードから取る最大件数（偏りを防ぐ）")
+    ap.add_argument("--min-per-platform", type=int, default=10, help="媒体ごとの最低枠（その媒体の候補がある場合）")
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
 
@@ -175,22 +208,22 @@ def main():
         sys.exit("研究データがありません。先に collect_threads.py を実行してください。")
     posts = load_posts(files)
     ledger_text = "\n".join(p.read_text(encoding="utf-8") for p in LEDGERS if p.exists())
-    cutoff = (datetime.now() - timedelta(days=args.days)).isoformat(timespec="seconds")
+    window_start = (datetime.now() - timedelta(days=args.window_days)).isoformat(timespec="seconds")
     today = datetime.now().strftime("%Y-%m-%d")
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     for account, groups in VIEWS.items():
         pool = [r for r in posts if set(r["groups"]) & set(groups)]
-        ex = {"投稿が古い": 0, "古い": 0, "反響小": 0, "自分のアカウント": 0, "勧誘など": 0, "無関係な話題": 0, "関連語なし": 0,
-              "既出": 0, "同じ投稿者": 0, "語の上限": 0}
+        ex = {"集めたのが古い": 0, "投稿が古い": 0, "反響小": 0, "自分のアカウント": 0, "勧誘など": 0, "無関係な話題": 0,
+              "関連語なし": 0, "既出": 0, "同じ投稿者": 0, "語の上限": 0}
         keep, per_author, kw_count = [], {}, {}
         for r in sorted(pool, key=momentum, reverse=True):
             low = r["text"].lower()
-            pd = post_date(r)
-            if age_days(r) > age_limit(r, args):
-                ex["投稿が古い"] += 1
-            elif r["last_seen"] < cutoff:
-                ex["古い"] += 1
+            h_first = hours_at(r, "first_seen")
+            if r["first_seen"] < window_start:
+                ex["集めたのが古い"] += 1
+            elif (h_first if h_first is not None else 48.0) > age_limit_hours(r, args):
+                ex["投稿が古い"] += 1  # 集めた時点で、投稿から24時間より経っていたもの（日時が分からない古いデータも含む）
             elif r["likes"] < min_likes_for(r, args):
                 ex["反響小"] += 1  # アカウント起点の投稿は、そのアカウントのしきい値（watch_accounts.json）で判定
             elif r["author"].lower() in OWN_AUTHORS:
@@ -220,22 +253,26 @@ def main():
             "# 今週の候補：%s（%s）" % (account, today),
             "",
             "- 対象グループ：%s ／ 元のデータ：%d件 → 候補 **%d件**" % ("・".join(groups), len(pool), len(keep)),
-            "- 選び方：反響点＝いいね＋再投稿×3＋返信×2＋保存×5（保存はXだけ）。**並び順は「勢い」＝反響点÷(経過日数+1)**（新しいものを優先）。同じ投稿者は最大%d件、1つの語から最大%d件。媒体ごとに最低%d件（あれば）。投稿からの日数：Xは%d日以内・スレッズは%d日以内・アカウント起点は%d日以内。いいね：Xは%d以上・スレッズは%d以上（アカウント起点は各アカウントのしきい値）" % (args.max_per_author, args.max_per_keyword, args.min_per_platform, args.max_age_x, args.max_age_threads, args.max_age_account, args.min_likes_x, args.min_likes_threads),
+            "- 新しさ：**集めた時点で、投稿から%d時間以内**（アカウント起点は%d時間以内）のものだけ。集めてから%d日分を蓄積して並べている" % (
+                args.max_age_hours, args.max_age_account_hours, args.window_days),
+            "- 並び順：**勢い**＝反響点÷(投稿から最後に見かけるまでの日数＋1)。反響点＝いいね＋再投稿×3＋返信×2＋保存×5（保存はXだけ）",
+            "- 絞り込み：同じ投稿者は最大%d件、1つの語から最大%d件、媒体ごとに最低%d件（あれば）。いいね：Xは%d以上・スレッズは%d以上（アカウント起点は各アカウントのしきい値）" % (
+                args.max_per_author, args.max_per_keyword, args.min_per_platform, args.min_likes_x, args.min_likes_threads),
             "- 除外の内訳：" + "、".join("%s %d" % (k, v) for k, v in ex.items()),
             "- この表は、本文の冒頭だけを載せたローカル用のメモです。台帳には、URL・型・数字だけを書く（全文は写さない）",
             "",
-            "| # | 媒体 | 勢い | 反響点 | いいね | 返信 | 再投稿 | 保存数 | 保存率 | 表示数 | 投稿日 | 経過日 | 投稿者 | フォロワー | 拾ったキーワード | 本文の冒頭 | URL |",
+            "| # | 媒体 | 勢い | 反響点 | いいね | 返信 | 再投稿 | 保存数 | 保存率 | 表示数 | 投稿日 | 集めた時の経過 | 投稿者 | フォロワー | 拾ったキーワード | 本文の冒頭 | URL |",
             "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
         ]
         for i, r in enumerate(keep, 1):
-            pd = post_date(r)
+            p = posted_at(r)
             has_bm = "bookmarks" in r
             rate = ("%.2f%%" % (100.0 * r["bookmarks"] / r["views"])) if has_bm and r.get("views") else "−"
-            lines.append("| %d | %s | %d | %d | %d | %d | %d | %s | %s | %s | %s | %d | @%s | %s | %s | %s | %s |" % (
+            lines.append("| %d | %s | %d | %d | %d | %d | %d | %s | %s | %s | %s | %s | @%s | %s | %s | %s | %s |" % (
                 i, "X" if r.get("platform") == "x" else "スレッズ", momentum(r), score(r), r["likes"], r["replies"], r["reposts"],
                 (str(r["bookmarks"]) if has_bm else "−"), rate,
                 ("{:,}".format(r["views"]) if r.get("views") else "−"),
-                pd.strftime("%Y-%m-%d") if pd else "直近", age_days(r),
+                p.strftime("%Y-%m-%d") if p else "−", label_hours(hours_at(r, "first_seen")),
                 r["author"], ("{:,}".format(r["followers"]) if r.get("followers") else "−"),
                 "／".join(r["keywords"][:3]),
                 one_line(r["text"]).replace("|", "｜") or "（本文なし・画像）", r["url"]))

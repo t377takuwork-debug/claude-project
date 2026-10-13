@@ -57,6 +57,7 @@ def tweet_to_row(t):
         "author": screen,
         "followers": int(getattr(getattr(t, "user", None), "followers_count", 0) or 0),
         "time_label": created.strftime("%Y/%m/%d %H:%M") if created else "",
+        "posted_at": created.astimezone().replace(tzinfo=None).isoformat(timespec="seconds") if created else "",
         "text": getattr(t, "full_text", None) or getattr(t, "text", "") or "",
         "likes": int(getattr(t, "favorite_count", 0) or 0),
         "replies": int(getattr(t, "reply_count", 0) or 0),
@@ -107,23 +108,26 @@ async def run(args):
             kw_jobs += ks
 
     # キーワード検索の期間：毎日の実行なら「前回の収集日から」（＝前日以降。PCを使わない日があれば、その日数ぶん広げる。最大7日）
-    kw_since = since_date(args.days)
-    if args.daily and state.get("last_run_date"):
-        gap = (datetime.now().date() - datetime.strptime(state["last_run_date"], "%Y-%m-%d").date()).days
-        kw_since = since_date(min(max(gap, 1), 7))
-        print("検索期間：%s 以降（前回の収集は %d日前）" % (kw_since, gap))
+    # since_time（秒）なら、24時間ちょうどで絞れる（since: は日単位）
+    hours = args.hours
+    if args.daily and state.get("last_run_at"):
+        gap_h = (datetime.now() - datetime.fromisoformat(state["last_run_at"])).total_seconds() / 3600.0
+        hours = min(max(args.hours, gap_h + 1), 24 * 7)  # 前回の収集時刻から（最短24時間・最大7日）。1時間は余裕
+        print("検索期間：直近%.0f時間（前回の収集は %.0f時間前）" % (hours, gap_h))
+    kw_since = int(datetime.now().timestamp() - hours * 3600)
+    run_started_at = datetime.now().isoformat(timespec="seconds")
 
     # 検索の一覧（種類・グループ・表示名・検索式・並び・ページ数・追加の項目）
     jobs = []
     for k in kw_jobs:
-        q = "%s min_faves:%d lang:ja -filter:replies since:%s" % (k, args.min_faves, kw_since)
+        q = "%s min_faves:%d lang:ja -filter:replies since_time:%d" % (k, args.min_faves, kw_since)
         jobs.append({"kind": "keyword", "group": group_of[k], "label": k, "query": q, "product": "Top",
-                     "pages": args.pages, "extra": {}})
+                     "pages": args.pages, "extra": {}, "min_faves": args.min_faves})
     for a in acc_jobs:
         q = "from:%s min_faves:%d -filter:replies -filter:retweets since:%s" % (
             a["name"], a["min_faves"], since_date(acc_cfg.get("since_days", 10)))
         jobs.append({"kind": "account", "group": a["group"], "label": "@" + a["name"], "query": q, "product": "Latest",
-                     "pages": 1, "extra": {"source": "account", "min_faves": a["min_faves"]}})
+                     "pages": 1, "extra": {"source": "account", "min_faves": a["min_faves"]}, "min_faves": a["min_faves"]})
 
     client = Client(language="ja")
     client.set_cookies(json.loads(COOKIES.read_text(encoding="utf-8")))
@@ -141,6 +145,8 @@ async def run(args):
             for _ in range(job["pages"] - 1):
                 if not tweets:
                     break
+                if int(getattr(tweets[-1], "favorite_count", 0) or 0) < job["min_faves"]:
+                    break  # 条件に合う投稿が尽きている
                 await asyncio.sleep(random.uniform(3, 6))
                 result = await result.next()
                 if not result:
@@ -163,7 +169,7 @@ async def run(args):
         kept = 0
         for t in tweets:
             row = tweet_to_row(t)
-            if row is None:
+            if row is None or row["likes"] < job["min_faves"]:
                 continue
             row.update(job["extra"])
             kept += 1
@@ -196,6 +202,7 @@ async def run(args):
         return 4
     if args.daily and errors < 3:
         state["last_run_date"] = datetime.now().strftime("%Y-%m-%d")
+        state["last_run_at"] = run_started_at
         state["rotation_next"] = state.get("rotation_next", 0) + 1
         if acc_jobs:
             state["account_rotation_next"] = state.get("account_rotation_next", 0) + len(acc_jobs)
@@ -210,8 +217,8 @@ def main():
     ap.add_argument("--only-accounts", action="store_true", help="アカウント起点だけ集める（テスト用）")
     ap.add_argument("--max-accounts", type=int, default=0)
     ap.add_argument("--no-accounts", action="store_true", help="--daily でもアカウント起点を回さない")
-    ap.add_argument("--min-faves", type=int, default=50, help="キーワード検索：この数以上のいいねの投稿だけ（新しい投稿はいいねが少ないので50）")
-    ap.add_argument("--days", type=int, default=1, help="キーワード検索（--daily以外）：何日前からの投稿を探すか。--daily は前回の収集日から")
+    ap.add_argument("--min-faves", type=int, default=100, help="キーワード検索：この数以上のいいねの投稿だけ（24時間以内で100。件数が足りない語は50に下げる）")
+    ap.add_argument("--hours", type=int, default=24, help="キーワード検索：直近何時間の投稿を探すか。--daily は、前回の収集時刻から（最短この時間・最大7日）")
     ap.add_argument("--pages", type=int, default=2, help="キーワード検索：1語あたりの取得ページ数（1ページ約20件）")
     ap.add_argument("--gap-min", type=int, default=20)
     ap.add_argument("--gap-max", type=int, default=40)
