@@ -1,28 +1,27 @@
-"""スレッズの検索結果から、反響のある投稿を集めて溜める（Claudeのトークンは使わない）。
+"""スレッズの検索（「最近」タブ）から、新しくて反響のある投稿を集めて溜める（Claudeのトークンは使わない）。
 
-事前に：  py -3 threads_login.py  （調査用アカウントで、人の手でログイン。1回だけ）
-使い方：  py -3 collect_threads.py                       全キーワードを集める
-          py -3 collect_threads.py --group mbti_love     グループを絞る
-          py -3 collect_threads.py --max-keywords 2      テスト（先頭2語だけ）
-保存先：  research_data/threads_posts.jsonl （1行1投稿。同じ投稿は上書きせず、数字だけ更新）
-注意：    取得間隔は空けてある。1日数回までにする（制限を避けるため）。
+説明書：  docs/sop/sop_research_auto_collect.md
+事前に：  py -3 threads_login.py  （調査用アカウントで、人の手でログイン。切れたらやり直す）
+使い方：  py -3 collect_threads.py --daily            毎日の自動実行用（毎日の枠＋日替わり枠。同じ日の2回目はスキップ）
+          py -3 collect_threads.py --max-keywords 1   テスト（各グループの先頭1語だけ）
+保存先：  research_data/threads_posts.jsonl（1行1投稿。同じ投稿は数字だけ更新。30日より古いものは消す）
+終了コード： 0=成功 3=ログイン切れ 5=途中で止まった 6=1件も取れなかった（画面の作りが変わった可能性）
 """
 import argparse
-import json
 import random
 import re
 import sys
 import time
 from datetime import datetime, timedelta
-from pathlib import Path
 from urllib.parse import quote
 
 from playwright.sync_api import sync_playwright
 
-ROOT = Path(__file__).resolve().parent
-STATE = ROOT / "threads_state.local.json"
-KEYWORDS = ROOT / "keywords.json"
-OUT = ROOT / "research_data" / "threads_posts.jsonl"
+import research_common as rc
+
+LOGIN_STATE = rc.ROOT / "threads_state.local.json"
+OUT = rc.DATA_DIR / "threads_posts.jsonl"
+STATE = rc.DATA_DIR / "daily_state.json"
 
 # 画面上の投稿を、ボタン名つきの数字ごと取り出す（ログインなしは「コメントする」、ログイン時は「返信」）
 EXTRACT_JS = r"""
@@ -54,6 +53,11 @@ EXTRACT_JS = r"""
 }
 """
 
+REL_RE = re.compile(r"^(\d+)\s*(分|時間|日|週|年)$")
+DATE_RE = re.compile(r"^(20\d{2})/(\d{1,2})/(\d{1,2})$")
+REL_HOURS = {"分": 1 / 60.0, "時間": 1.0, "日": 24.0, "週": 24.0 * 7, "年": 24.0 * 365}
+REPLY_RE = re.compile(r"^@?[\w.]+に返信$")
+
 
 def to_int(v):
     """「1,234」「1.2万」「3.5K」を数にする。空は0。"""
@@ -72,11 +76,6 @@ def pick(metrics, *names):
             if n in key:
                 return to_int(val)
     return 0
-
-
-REL_RE = re.compile(r"^(\d+)\s*(分|時間|日|週|年)$")
-DATE_RE = re.compile(r"^(20\d{2})/(\d{1,2})/(\d{1,2})$")
-REL_HOURS = {"分": 1 / 60.0, "時間": 1.0, "日": 24.0, "週": 24.0 * 7, "年": 24.0 * 365}
 
 
 def find_time_label(lines):
@@ -103,156 +102,142 @@ def posted_at_from_label(label, now):
 
 def normalize(raw, now=None):
     now = now or datetime.now()
-    href = raw["href"]
+    href = re.sub(r"/media$", "", raw["href"])  # 画像つき投稿の末尾「/media」を除き、同じ投稿を1つにまとめる
     author = href.split("/")[1].lstrip("@") if href.startswith("/@") else ""
     lines = raw["lines"]
     idx, label = find_time_label(lines)
-    # 時刻表示の行は本文から除く（見つからない古い形式は、これまでどおり2行目をラベルにする）
-    rest = [l for i, l in enumerate(lines[2:], start=2) if i != idx] if idx is not None else lines[2:]
-    time_label = label or (lines[1] if len(lines) > 1 else "")
-    body = [l for l in rest if not re.fullmatch(r"[0-9.,万KkM]+", l) and l not in ("もっと見る",)]
+    rest = [l for i, l in enumerate(lines[1:], start=1) if i != idx]
+    if idx != 1 and rest:
+        rest = rest[1:]  # 時刻表示より前の行（テーマのタグ）は本文に入れない。時刻表示がないときは2行目をタグとみなす
+    body = [l for l in rest if not re.fullmatch(r"[0-9.,万KkM]+", l) and l != "もっと見る"]
+    is_reply = any(REPLY_RE.match(l) for l in lines[1:6])  # 「@◯◯に返信」＝他人への返信。ネタの材料にしない
     m = raw["metrics"]
     p = posted_at_from_label(label, now) if label else None
     return {
         "url": "https://www.threads.com" + href,
         "platform": "threads",
         "author": author,
-        "time_label": time_label,
-        "posted_at": p.isoformat(timespec="seconds") if p else "",
+        "time_label": label,
+        "posted_at": p.isoformat(timespec="seconds") if p else "",  # 時刻表示が読めなかったら空（候補にはしない）
         "text": "\n".join(body),
         "likes": pick(m, "いいね"),
         "replies": pick(m, "返信", "コメント"),
         "reposts": pick(m, "再投稿"),
+        "is_reply": is_reply,
     }
 
 
-def load_existing(path):
-    data = {}
-    if path.exists():
-        # splitlines()は本文中の特殊な行区切り（U+2028等）でも切れるので使わない
-        for line in path.read_text(encoding="utf-8").split(chr(10)):
-            if line.strip():
-                row = json.loads(line)
-                data[row["url"]] = row
-    return data
+def run(args):
+    sys.stdout.reconfigure(encoding="utf-8")
+    if not LOGIN_STATE.exists():
+        print("ログイン状態がありません。先に py -3 threads_login.py を実行してください。")
+        return rc.LOGIN_EXPIRED
+    cfg = rc.platform_keywords(rc.KEYWORDS, "threads")
+    group_of = rc.group_of_keywords(cfg)
+
+    state = {}
+    if args.daily:
+        state = rc.load_state(STATE)
+        today = datetime.now().strftime("%Y-%m-%d")
+        if state.get("last_run_date") == today:
+            print("今日はすでに実行済みです（%s）。スキップします。" % today)
+            return rc.OK
+        keywords, no, total, n_fixed = rc.daily_plan(cfg, state)
+        print("日替わり枠：%d/%d組目 ／ 毎日の枠%d語＋日替わり%d語" % (no, total, n_fixed, len(keywords) - n_fixed))
+    else:
+        keywords = []
+        for g, v in cfg["groups"].items():
+            keywords += v["keywords"][: args.max_keywords] if args.max_keywords else v["keywords"]
+    jobs = [(group_of[k], k) for k in keywords]
+    gap_min, gap_max = (20, 40) if args.daily else (10, 20)
+
+    data = rc.load_jsonl(OUT)
+    now = rc.now_iso()
+    new_count = upd_count = fetched = errors = done = tab_fail = 0
+    login_expired = False
+
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            ctx = browser.new_context(storage_state=str(LOGIN_STATE), locale="ja-JP", viewport={"width": 1280, "height": 2400})
+            page = ctx.new_page()
+            for idx, (group, kw) in enumerate(jobs):
+                try:
+                    page.goto("https://www.threads.com/search?q=" + quote(kw) + "&serp_type=default",
+                              wait_until="domcontentloaded", timeout=45000)
+                    page.wait_for_timeout(6000)
+                    if "login" in page.url:
+                        login_expired = True
+                        print("ログインが切れています。py -3 threads_login.py をやり直してください。")
+                        break
+                    # 「最近」タブに切り替える（2026-10-14の実測：「上位」タブは古い人気投稿が中心で、48時間以内・いいね100以上が0件）
+                    try:
+                        page.get_by_text("最近", exact=True).first.click(timeout=5000)
+                        page.wait_for_timeout(4500)
+                    except Exception:
+                        tab_fail += 1
+                        print("  （「最近」タブに切り替えられませんでした。この語は飛ばします）")
+                        continue
+                    got = {}
+                    for _ in range(args.scrolls):
+                        for raw in page.evaluate(EXTRACT_JS):
+                            got[raw["href"]] = raw
+                        page.mouse.wheel(0, 2400)
+                        page.wait_for_timeout(random.randint(2200, 3500))
+                except Exception as e:  # 通信の失敗・時間切れなど。この語だけ飛ばして続ける
+                    errors += 1
+                    print("[%d/%d] %s / %s : エラー（%s）" % (idx + 1, len(jobs), group, kw, type(e).__name__))
+                    if errors >= 3:
+                        print("エラーが3回続いたため、ここで止めます。")
+                        break
+                    continue
+                fetched += len(got)
+                kept = 0
+                for raw in got.values():
+                    row = normalize(raw)
+                    if row.pop("is_reply") or row["likes"] < args.min_likes:
+                        continue  # 返信と、反響の小さい投稿は保存しない
+                    kept += 1
+                    if rc.merge_row(data, row, now, group, kw) == "new":
+                        new_count += 1
+                    else:
+                        upd_count += 1
+                done += 1
+                print("[%d/%d] %s / %s : 取得%d件 → 保存対象%d件" % (idx + 1, len(jobs), group, kw, len(got), kept))
+                if idx < len(jobs) - 1:
+                    time.sleep(random.randint(gap_min, gap_max))
+            browser.close()
+    finally:  # 途中で止まっても、そこまでの分は必ず保存する
+        kept_rows, pruned = rc.save_jsonl(OUT, data)
+        print("新規 %d 件 / 既存の数字更新 %d 件 / 合計 %d 件（古い%d件を整理） → %s" % (
+            new_count, upd_count, kept_rows, pruned, OUT.relative_to(rc.ROOT)))
+
+    if login_expired:
+        code = rc.LOGIN_EXPIRED
+    elif jobs and fetched == 0:
+        code = rc.NOTHING_FOUND  # 1件も読めない＝画面の作りが変わった・タブが見つからない可能性
+        print("1件も取れませんでした。画面の作りが変わった可能性があります。")
+    elif done < len(jobs):
+        code = rc.INCOMPLETE
+    else:
+        code = rc.OK
+    rc.write_status("threads", {"exit_code": code, "keywords": len(jobs), "done": done, "fetched": fetched,
+                                "new": new_count, "updated": upd_count, "errors": errors, "tab_fail": tab_fail})
+    if args.daily and code == rc.OK:
+        state["last_run_date"] = datetime.now().strftime("%Y-%m-%d")
+        state["last_run_at"] = now
+        state["rotation_next"] = state.get("rotation_next", 0) + 1
+        rc.save_state(STATE, state)
+    return code
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--group", help="keywords.json のグループ名（省略で全部）")
+    ap.add_argument("--daily", action="store_true", help="毎日の自動実行用：毎日の枠＋日替わり枠（前回の続き）。同じ日の2回目はスキップ")
     ap.add_argument("--max-keywords", type=int, default=0, help="テスト用：各グループの先頭N語だけ")
-    ap.add_argument("--scrolls", type=int, default=6, help="1キーワードあたりのスクロール回数")
-    ap.add_argument("--min-likes", type=int, default=10, help="これ未満のいいねは保存しない")
-    ap.add_argument("--file", default="keywords.json", help="キーワード表のファイル名（候補を回すときは keyword_candidates.json）")
-    ap.add_argument("--out", default="threads_posts.jsonl", help="research_data 内の保存ファイル名")
-    ap.add_argument("--tab", choices=["recent", "top"], default="recent",
-                    help="検索画面のタブ。recent=「最近」（24〜48時間以内の投稿を拾える）／top=「上位」（古い人気投稿が中心）")
-    ap.add_argument("--shuffle", action="store_true", help="キーワードの順番をランダムにする（順番の偏り・連続アクセスの癖を避ける）")
-    ap.add_argument("--daily", action="store_true",
-                    help="毎日の自動実行用：毎日の枠＋日替わり枠（前回の続き）だけ回す。同じ日の2回目はスキップ")
-    ap.add_argument("--gap-min", type=int, default=0, help="語と語の間隔（秒）の下限。0なら 通常10／--daily は20")
-    ap.add_argument("--gap-max", type=int, default=0, help="語と語の間隔（秒）の上限。0なら 通常20／--daily は40")
-    args = ap.parse_args()
-    sys.stdout.reconfigure(encoding="utf-8")
-    gap_min = args.gap_min or (20 if args.daily else 10)
-    gap_max = args.gap_max or (40 if args.daily else 20)
-
-    if not STATE.exists():
-        sys.exit("ログイン状態がありません。先に py -3 threads_login.py を実行してください。")
-    cfg = json.loads((ROOT / args.file).read_text(encoding="utf-8"))
-    if "platforms" in cfg:  # 媒体別の表（keywords.json v3以降）
-        cfg = cfg["platforms"]["threads"]
-    jobs = []
-    for gname, g in cfg["groups"].items():
-        if args.group and gname != args.group:
-            continue
-        kws = g["keywords"][: args.max_keywords] if args.max_keywords else g["keywords"]
-        jobs += [(gname, k) for k in kws]
-
-    daily_state = None
-    if args.daily:
-        state_path = ROOT / "research_data" / "daily_state.json"
-        daily_state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {}
-        today = datetime.now().strftime("%Y-%m-%d")
-        if daily_state.get("last_run_date") == today:
-            print("今日はすでに実行済みです（%s）。スキップします。" % today)
-            return
-        group_of = {k: g for g, v in cfg["groups"].items() for k in v["keywords"]}
-        fixed = [k for k in cfg.get("daily_fixed", []) if k in group_of]
-        rest = [k for k in group_of if k not in fixed]
-        size = cfg.get("rotation_size", 5)
-        batches = [rest[i:i + size] for i in range(0, len(rest), size)] or [[]]
-        nxt = daily_state.get("rotation_next", 0) % len(batches)
-        jobs = [(group_of[k], k) for k in fixed + batches[nxt]]
-        print("日替わり枠：%d/%d組目 ／ 毎日の枠%d語＋日替わり%d語" % (nxt + 1, len(batches), len(fixed), len(batches[nxt])))
-    if args.shuffle:
-        random.shuffle(jobs)
-    out_path = ROOT / "research_data" / args.out
-    data = load_existing(out_path)
-    now = datetime.now().isoformat(timespec="seconds")
-    new_count = upd_count = 0
-    login_expired = False
-
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        ctx = browser.new_context(storage_state=str(STATE), locale="ja-JP", viewport={"width": 1280, "height": 2400})
-        page = ctx.new_page()
-        for idx, (group, kw) in enumerate(jobs):
-            url = "https://www.threads.com/search?q=" + quote(kw) + "&serp_type=default"
-            page.goto(url, wait_until="domcontentloaded", timeout=45000)
-            page.wait_for_timeout(6000)
-            if args.tab == "recent" and "login" not in page.url:
-                try:  # 「最近」タブに切り替える（2026-10-14の実測：上位タブは24〜48時間以内でいいね100以上が0件）
-                    page.get_by_text("最近", exact=True).first.click(timeout=5000)
-                    page.wait_for_timeout(4500)
-                except Exception:
-                    print("  （「最近」タブに切り替えられませんでした。上位タブのまま集めます）")
-            if "login" in page.url:
-                login_expired = True
-                print("ログインが切れています。py -3 threads_login.py をやり直してください。")
-                break
-            got = {}
-            for _ in range(args.scrolls):
-                for raw in page.evaluate(EXTRACT_JS):
-                    got[raw["href"]] = raw
-                page.mouse.wheel(0, 2400)
-                page.wait_for_timeout(random.randint(2200, 3500))
-            kept = 0
-            for raw in got.values():
-                row = normalize(raw)
-                if row["likes"] < args.min_likes:
-                    continue
-                kept += 1
-                old = data.get(row["url"])
-                if old is None:
-                    row.update({"first_seen": now, "last_seen": now, "groups": [group], "keywords": [kw]})
-                    data[row["url"]] = row
-                    new_count += 1
-                else:
-                    for k in ("likes", "replies", "reposts"):
-                        old[k] = max(old.get(k, 0), row[k])
-                    old["last_seen"] = now
-                    if group not in old["groups"]:
-                        old["groups"].append(group)
-                    if kw not in old["keywords"]:
-                        old["keywords"].append(kw)
-                    upd_count += 1
-            print("[%d/%d] %s / %s : 取得%d件 → 保存対象%d件" % (idx + 1, len(jobs), group, kw, len(got), kept))
-            if idx < len(jobs) - 1:
-                time.sleep(random.randint(gap_min, gap_max))
-        browser.close()
-
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    with out_path.open("w", encoding="utf-8") as f:
-        for row in data.values():
-            f.write(json.dumps(row, ensure_ascii=False) + "\n")
-    print("新規 %d 件 / 既存の数字更新 %d 件 / 合計 %d 件 → %s" % (new_count, upd_count, len(data), out_path.relative_to(ROOT)))
-    if login_expired:
-        sys.exit(3)
-    if daily_state is not None:
-        daily_state["last_run_date"] = datetime.now().strftime("%Y-%m-%d")
-        daily_state["rotation_next"] = daily_state.get("rotation_next", 0) + 1
-        state_path.write_text(json.dumps(daily_state, ensure_ascii=False, indent=1), encoding="utf-8")
+    ap.add_argument("--scrolls", type=int, default=5, help="1キーワードあたりのスクロール回数")
+    ap.add_argument("--min-likes", type=int, default=10, help="これ未満のいいねは保存しない（候補にするのは、make_shortlist.py の下限以上）")
+    sys.exit(run(ap.parse_args()))
 
 
 if __name__ == "__main__":

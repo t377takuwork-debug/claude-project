@@ -13,6 +13,8 @@ claude project/
 ├── README.md       ← 全体索引（どのAIでも最初に読む）
 ├── .claude/commands/ ← 汎用スキル25本（唯一の正。過去版はgit履歴から復元）
 ├── docs/           ← 業務棚卸し表・SOP・会議システム定義・横断ルール
+├── （直下）collect_x.py・collect_threads.py・make_shortlist.py ほか ← X・スレッズの自動リサーチ（毎日自動で動く。説明は docs/sop/sop_research_auto_collect.md）
+├── research_data/  ← 自動リサーチが溜めたデータと候補ファイル（gitに入れない。このPCにだけある）
 ├── blogs/          ← ブログ記事制作・リライト環境
 │   ├── shira_note/ ← 音楽番組タイムテーブル速報ブログ（メイン稼働・rules/に番組別チェックリスト）
 │   └── seo/        ← SEO_guide.txt（全ブログ共通マスターガイド）
@@ -105,3 +107,4 @@ claude project/
 | 音声ジャーナル処理（文字起こし→資産化） | `/journal` スキルを起動 |
 | MBTICODE 投稿のネタ・テーマのリサーチ（「ネタをリサーチして」「投稿のネタを収集して」） | `/mbticode-neta` スキルを起動（「リサーチして」だけのときはアカウントを1行で確認） |
 | MBTICODE 投稿の分析（「MBTICODEの投稿を分析して」） | `/mbticode-analysis` スキルを起動 |
+| X・スレッズの自動リサーチ（毎日の収集）の仕組み・うまく動かないとき・語の見直し | `docs/sop/sop_research_auto_collect.md`（ネタ収集そのものは、上の `/neta-research`・`/mbticode-neta`。候補ファイルを読む形になっている） |

@@ -1,6 +1,6 @@
 # ネタ収集（s4lv・UYA.共通の外部リサーチ）
 
-s4lvとUYA.のX・Threads・noteのネタ切れ対策として、X上で反響が大きい話題（ブログ・SEO・note・SNS運用・AI・Claude Code）を集め、候補として一か所に溜めるスキル。**ユーザーが「リサーチして」「ネタを集めて」と明示的に指示したときだけ実行する（自動発火しない）**。
+s4lvとUYA.のX・Threads・noteのネタ切れ対策として、X・スレッズ上で反響が大きい話題（ブログ・SEO・note・SNS運用・AI・Claude Code）を集め、候補として一か所に溜めるスキル。**ユーザーが「リサーチして」「ネタを集めて」と明示的に指示したときだけ実行する（自動発火しない）**。
 
 **役割分担**：探して溜めるところは共通。**「どのアカウントがどう使うか」の線引きだけアカウント別に守る**（下の Step 5）。投稿本文の生成・保存はしない（S4LVnote と UYAnote の X投稿AI／スレッズ投稿AI の仕事）。
 
@@ -14,7 +14,7 @@ s4lvとUYA.のX・Threads・noteのネタ切れ対策として、X上で反響�
 2. `journals/content_seeds.md` の未使用の候補（先に見て、足りているかを一言で伝える。UYA.の本命ネタ元はこちら）
 3. このファイルの末尾「見るアカウント」（見るアカウントの唯一の正）
 4. 線引きの確認が要るときだけ：s4lv＝`S4LVnote/3_広報部/sns_common_rules.md`「ネタの出どころ」／UYA.＝`UYAnote/3_広報部/X投稿の型.md`・`スレッズ投稿の型.md`「話題」「材料」
-5. `research_data/shortlist/shortlist_s4lv_UYA_<最新の日付>.md` — 自動収集（毎日・XとThreads）の候補ファイル。7日以内のものがあれば Step 2 のキーワード検索の代わりに使う（リポジトリ直下の `research_data/`。gitには入らないローカルのファイル）
+5. `research_data/shortlist/shortlist_s4lv_UYA_<最新の日付>.md` — 自動リサーチ（毎日・XとThreads）の候補ファイル。7日以内のものがあれば、Step 1 の観察対象アカウントと Step 2 のキーワード検索の代わりに使う（リポジトリ直下の `research_data/`。gitには入らないローカルのファイル。仕組みと列の意味は `docs/sop/sop_research_auto_collect.md`）。**頭の「収集の状態」に警告（失敗・2日以上止まっている）があるときは、候補が古い**ので、その旨をユーザーに伝える
 
 ---
 

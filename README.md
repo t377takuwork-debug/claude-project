@@ -21,6 +21,7 @@
 | MBTICODE X・Threads投稿／リプライ | `docs/sop/sop_mbticode_sns.md` | `/mbticode-post`・`/reply`・`/post-review` |
 | Note記事生成（MBTICODE。s4lv は `S4LVnote/CLAUDE.md`） | `docs/sop/sop_note_article.md` | `/note-article`・`/quality-guardrail`・`brands/tools/qa_article.py` |
 | junk_juice 記事（クライアント） | `docs/sop/sop_junk_juice.md` | `/junk-theme`・`/junk-article`・`brands/tools/qa_article.py` |
+| X・スレッズの自動リサーチ（ネタの材料集め） | `docs/sop/sop_research_auto_collect.md` | 毎日自動（タスクスケジューラ `ThreadsResearchDaily`）→ 候補ファイルを `/mbticode-neta`・`/neta-research` が読む |
 | バズ投稿の分析 | －（スキル内完結） | `/buzz-analysis`（収集は手動・分析は固定フレームワーク） |
 | 週次KPI記録 | －（スキル内完結） | `/kpi-weekly`（記録＋前週比3点コメント） |
 | 新ブログの立ち上げ | －（スキル内完結） | `/blog-launch`（shira_note構造の横展開手順） |
@@ -38,7 +39,7 @@ claude project/
 ├── .claude/commands/      ← 汎用スキル22本（投稿生成・記事生成・会議・バズ分析・KPI・ブログ立ち上げ）★唯一の正
 ├── docs/
 │   ├── business_inventory.md  ← 業務棚卸し表
-│   ├── sop/               ← 業務別SOP 8本（委譲体制=sop_agent_delegation.md・詳細版運用ガイド=運用マスターシート.md・やさしい版=超わかりやすい運用ガイド.md）
+│   ├── sop/               ← 業務別SOP 9本（X・スレッズの自動リサーチ=sop_research_auto_collect.md・委譲体制=sop_agent_delegation.md・詳細版運用ガイド=運用マスターシート.md・やさしい版=超わかりやすい運用ガイド.md）
 │   ├── rubrics/           ← タイトル採点ルーブリック（点数の捏造防止）
 │   ├── systems/           ← 会議システム定義 5本
 │   ├── rules/             ← 横断的な作業ルール（タスク確認方法・notekaigi起動タイミング）
