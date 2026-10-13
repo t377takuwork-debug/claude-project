@@ -36,3 +36,10 @@ UYAnote/3_広報部/スレッズ道具/output/
 S4LVnote/3_広報部/スレッズ道具/sheets_service_account.local.json
 S4LVnote/3_広報部/スレッズ道具/threads_auth.local.json
 S4LVnote/3_広報部/スレッズ道具/output/
+
+# 調査用（ログイン情報を含む。コミット禁止）
+collect.py
+Claude_posts.json
+threads_state.local.json
+threads_profile_research/
+research_data/

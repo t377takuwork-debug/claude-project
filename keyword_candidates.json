@@ -1,0 +1,17 @@
+{
+  "_note": "キーワード候補プール（2026-10-13）。一度全部回して、反響の大きさで本採用を決める。採用したものだけ keywords.json へ移す。",
+  "groups": {
+    "blog_note_sns": {
+      "for_account": "s4lv / UYA.（ブログ・note・SNS）",
+      "keywords": ["サチコ", "アドセンス", "SEO", "アフィリエイト", "トレンドブログ", "note", "Threads", "ブログ 書き方", "SNS運用", "有料note", "読まれる", "副業"]
+    },
+    "ai": {
+      "for_account": "s4lv / UYA.（AI・自動化）",
+      "keywords": ["AI", "自動化", "claude", "スキル", "Skills", "Claude Code", "指示", "ChatGPT", "チャッピー"]
+    },
+    "mbti_love": {
+      "for_account": "MBTICODE（MBTI × 恋愛・人間関係）",
+      "keywords": ["INFP", "INFJ", "ENFP", "INTP", "INTJ", "ISTJ", "MBTI 浮気", "MBTI 未練", "MBTI LINE", "MBTI 既読", "MBTI あるある", "MBTI 返信"]
+    }
+  }
+}

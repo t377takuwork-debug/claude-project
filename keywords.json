@@ -1,0 +1,42 @@
+{
+  "_note": "調査用キーワード v2.1（2026-10-13）。候補を1回ずつ回して絞り、「Claude 使い方」「副業 収入」「副業副業」を足した。単独の「副業」はスレッズで検索結果が出ない。数字は毎回変わるため定期的に見直す。外した語は keyword_candidates.json に残してある。",
+  "daily_fixed": ["チャッピー", "claude", "MBTI 返信", "INFJ", "note"],
+  "rotation_size": 5,
+  "groups": {
+    "blog_note_sns": {
+      "for_account": "s4lv / UYA.（ブログ・note・SNS運用）",
+      "keywords": [
+        "note",
+        "SNS運用",
+        "アフィリエイト",
+        "SEO",
+        "サチコ",
+        "副業 収入",
+        "副業副業"
+      ]
+    },
+    "ai": {
+      "for_account": "s4lv / UYA.（AI・自動化）",
+      "keywords": [
+        "チャッピー",
+        "claude",
+        "AI",
+        "指示",
+        "スキル",
+        "Claude 使い方"
+      ]
+    },
+    "mbti_love": {
+      "for_account": "MBTICODE（MBTI × 恋愛・人間関係）",
+      "keywords": [
+        "MBTI 返信",
+        "INFJ",
+        "INTJ",
+        "ENFP",
+        "MBTI あるある",
+        "MBTI LINE",
+        "MBTI 浮気"
+      ]
+    }
+  }
+}
