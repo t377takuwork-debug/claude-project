@@ -1,0 +1,28 @@
+{
+  "_note": "Xで「アカウント起点」に集める観察対象（2026-10-14）。元の表は、MBTICODE＝brands/mbticode/analysis/neta/keywords.md の B0 表、s4lv・UYA.＝.claude/commands/neta-research.md の「見るアカウント」。**文書が正、このファイルは写し**（アカウントやしきい値を変えたら、両方を直す）。enabled が false のものは、文書で「副」「様子見」のため、毎日の収集には入れない。",
+  "since_days": 10,
+  "per_day": 4,
+  "accounts": [
+    {"name": "renai_teacher1", "group": "mbti_love", "min_faves": 200, "status": "主", "enabled": true},
+    {"name": "mmng_yu", "group": "mbti_love", "min_faves": 300, "status": "主", "enabled": true},
+    {"name": "k_miyu__u", "group": "mbti_love", "min_faves": 1000, "status": "主", "enabled": true},
+    {"name": "love_excretion", "group": "mbti_love", "min_faves": 1000, "status": "主", "enabled": true},
+    {"name": "kafuka_monchi", "group": "mbti_love", "min_faves": 500, "status": "主", "enabled": true},
+    {"name": "marriage_acafe", "group": "mbti_love", "min_faves": 1000, "status": "主", "enabled": true},
+    {"name": "sekiguchiminako", "group": "mbti_love", "min_faves": 300, "status": "主", "enabled": true},
+    {"name": "ru__to_o", "group": "mbti_love", "min_faves": 500, "status": "主", "enabled": true},
+    {"name": "inko_no_kokoro", "group": "mbti_love", "min_faves": 1000, "status": "主（体験談のため、テーマだけ借りる）", "enabled": true},
+    {"name": "5vVba77P0tjsDKS", "group": "mbti_love", "min_faves": 300, "status": "主（規模の割に伸びた）", "enabled": true},
+    {"name": "yukiavatar", "group": "mbti_love", "min_faves": 1000, "status": "副", "enabled": false},
+    {"name": "ebimp_life", "group": "mbti_love", "min_faves": 500, "status": "副", "enabled": false},
+    {"name": "lulu_hyu", "group": "mbti_love", "min_faves": 300, "status": "様子見（一発屋の可能性）", "enabled": false},
+    {"name": "Atv165hAW966106", "group": "mbti_love", "min_faves": 300, "status": "様子見", "enabled": false},
+
+    {"name": "ichinose_seo", "group": "blog_note_sns", "min_faves": 50, "status": "最優先", "enabled": true},
+    {"name": "yoshio358", "group": "blog_note_sns", "min_faves": 20, "status": "トレンドブログの話が出たときだけ", "enabled": true},
+    {"name": "note_ai_mousigo", "group": "blog_note_sns", "min_faves": 100, "status": "煽り口調。切り口だけ借りる", "enabled": true},
+    {"name": "ethann_AI", "group": "ai", "min_faves": 30, "status": "返信が多いのでオリジナルだけ", "enabled": true},
+    {"name": "tetumemo", "group": "ai", "min_faves": 150, "status": "主張は公式で裏取りしてから使う", "enabled": true},
+    {"name": "claudecode84", "group": "ai", "min_faves": 150, "status": "煽り調。細部は公式で裏取り", "enabled": true}
+  ]
+}

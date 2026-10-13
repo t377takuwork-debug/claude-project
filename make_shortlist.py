@@ -153,15 +153,15 @@ def main():
                 ex["投稿が古い"] += 1
             elif r["last_seen"] < cutoff:
                 ex["古い"] += 1
-            elif r["likes"] < args.min_likes:
-                ex["反響小"] += 1
+            elif r["likes"] < (r.get("min_faves", args.min_likes) if r.get("source") == "account" else args.min_likes):
+                ex["反響小"] += 1  # アカウント起点の投稿は、そのアカウントのしきい値（watch_accounts.json）で判定
             elif r["author"].lower() in OWN_AUTHORS:
                 ex["自分のアカウント"] += 1
             elif any(w.lower() in low for w in SOLICIT):
                 ex["勧誘など"] += 1
             elif any(w.lower() in low for w in NOISE):
                 ex["無関係な話題"] += 1
-            elif low.strip() and not has_topic(low, TOPIC_TERMS[account]):
+            elif r.get("source") != "account" and low.strip() and not has_topic(low, TOPIC_TERMS[account]):
                 ex["関連語なし"] += 1
             elif post_code(r["url"]) in ledger_text:
                 ex["既出"] += 1
@@ -186,19 +186,20 @@ def main():
             "- 除外の内訳：" + "、".join("%s %d" % (k, v) for k, v in ex.items()),
             "- この表は、本文の冒頭だけを載せたローカル用のメモです。台帳には、URL・型・数字だけを書く（全文は写さない）",
             "",
-            "| # | 媒体 | 反響点 | いいね | 返信 | 再投稿 | 保存数 | 保存率 | 表示数 | 投稿日 | 投稿者 | 拾ったキーワード | 本文の冒頭 | URL |",
-            "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
+            "| # | 媒体 | 反響点 | いいね | 返信 | 再投稿 | 保存数 | 保存率 | 表示数 | 投稿日 | 投稿者 | フォロワー | 拾ったキーワード | 本文の冒頭 | URL |",
+            "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
         ]
         for i, r in enumerate(keep, 1):
             pd = post_date(r)
             has_bm = "bookmarks" in r
             rate = ("%.2f%%" % (100.0 * r["bookmarks"] / r["views"])) if has_bm and r.get("views") else "−"
-            lines.append("| %d | %s | %d | %d | %d | %d | %s | %s | %s | %s | @%s | %s | %s | %s |" % (
+            lines.append("| %d | %s | %d | %d | %d | %d | %s | %s | %s | %s | @%s | %s | %s | %s | %s |" % (
                 i, "X" if r.get("platform") == "x" else "スレッズ", score(r), r["likes"], r["replies"], r["reposts"],
                 (str(r["bookmarks"]) if has_bm else "−"), rate,
                 ("{:,}".format(r["views"]) if r.get("views") else "−"),
                 pd.strftime("%Y-%m-%d") if pd else "直近",
-                r["author"], "／".join(r["keywords"][:3]),
+                r["author"], ("{:,}".format(r["followers"]) if r.get("followers") else "−"),
+                "／".join(r["keywords"][:3]),
                 one_line(r["text"]).replace("|", "｜") or "（本文なし・画像）", r["url"]))
         path = OUT_DIR / ("shortlist_%s_%s.md" % (account, today))
         path.write_text("\n".join(lines) + "\n", encoding="utf-8")
