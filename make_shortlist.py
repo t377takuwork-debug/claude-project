@@ -32,6 +32,24 @@ LEDGERS = [
     ROOT / "brands/mbticode/analysis/neta/neta_sources.md",
     ROOT / "journals/external_seeds.md",
 ]
+# 恋愛・人間関係・ブログ・SNS・AIの話ではないと分かっている話題の印（2026-10-13の試運転で混入を確認したもの）
+NOISE = ["第五", "パスワード", "フィッシング", "集計結果", "アンケート", "ご協力", "血液型", "精神疾患", "ADHD", "発達障害"]
+# アカウント別の「この分野の語」。本文にこの語が1つもない投稿は外す（本文が空の画像投稿は判断できないので残す）。
+# 2026-10-13の試運転で、クエン酸・政治・訃報などの非関連の超バズが上位を占めたため追加。語は小文字で比べる。
+TOPIC_TERMS = {
+    "s4lv_UYA": [
+        "ai", "claude", "chatgpt", "チャッピー", "gemini", "codex", "opus", "sonnet", "gpt", "llm", "copilot", "cursor",
+        "生成", "プロンプト", "指示", "自動化", "スキル", "エージェント",
+        "note", "ブログ", "seo", "アフィリ", "アドセンス", "サチコ", "検索流入", "記事",
+        "sns", "threads", "スレッズ", "x運用", "インプレ", "アルゴリズム", "投稿", "運用", "副業",
+    ],
+    "MBTICODE": [
+        "mbti", "16タイプ", "infj", "infp", "intj", "intp", "enfj", "enfp", "entj", "entp",
+        "istj", "isfj", "estj", "esfj", "istp", "isfp", "estp", "esfp",
+        "恋愛", "彼氏", "彼女", "好きな人", "片思い", "脈あり", "未練", "浮気", "復縁", "既読", "line", "返信",
+        "付き合", "結婚", "元彼", "元カノ", "デート", "告白", "相性", "愛着", "恋人", "パートナー",
+    ],
+}
 OWN_AUTHORS = {"mbti_code", "mbticode", "cfrms4lv", "s4lv", "uyadott"}
 # 勧誘・配布・募集・販売などの印（見つかったら除外）。多すぎて困るときは見直す
 SOLICIT = [
@@ -69,6 +87,18 @@ def load_posts(files):
     return list(merged.values())
 
 
+def has_topic(low, terms):
+    """本文（小文字）に分野の語があるか。URLは除き、英字の語は単語の境界で比べる（URLや他の語の一部に当たらないように）。"""
+    t = re.sub(r"https?://\S+", " ", low)
+    for w in terms:
+        if re.fullmatch(r"[a-z0-9]+", w):
+            if re.search(r"(?<![a-z0-9])" + re.escape(w) + r"(?![a-z0-9])", t):
+                return True
+        elif w in t:
+            return True
+    return False
+
+
 def post_date(r):
     """本文の先頭に「2026/07/10」のような日付があれば、その日を返す（相対表示の新しい投稿は None）。"""
     for t in (r.get("time_label", ""), r.get("text", "")):
@@ -97,6 +127,7 @@ def main():
     ap.add_argument("--min-likes", type=int, default=100, help="これ未満のいいねは候補にしない")
     ap.add_argument("--days", type=int, default=14, help="この日数より古く見かけた投稿は除く（最後に見かけた日で判定）")
     ap.add_argument("--max-per-author", type=int, default=2)
+    ap.add_argument("--max-per-keyword", type=int, default=6, help="1つのキーワードから取る最大件数（偏りを防ぐ）")
     ap.add_argument("--max-age-days", type=int, default=60, help="投稿日が分かる投稿は、この日数より古ければ除く（0で無効）")
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
@@ -112,8 +143,9 @@ def main():
 
     for account, groups in VIEWS.items():
         pool = [r for r in posts if set(r["groups"]) & set(groups)]
-        ex = {"投稿が古い": 0, "古い": 0, "反響小": 0, "自分のアカウント": 0, "勧誘など": 0, "既出": 0, "同じ投稿者": 0}
-        keep, per_author = [], {}
+        ex = {"投稿が古い": 0, "古い": 0, "反響小": 0, "自分のアカウント": 0, "勧誘など": 0, "無関係な話題": 0, "関連語なし": 0,
+              "既出": 0, "同じ投稿者": 0, "語の上限": 0}
+        keep, per_author, kw_count = [], {}, {}
         for r in sorted(pool, key=score, reverse=True):
             low = r["text"].lower()
             pd = post_date(r)
@@ -127,20 +159,30 @@ def main():
                 ex["自分のアカウント"] += 1
             elif any(w.lower() in low for w in SOLICIT):
                 ex["勧誘など"] += 1
+            elif any(w.lower() in low for w in NOISE):
+                ex["無関係な話題"] += 1
+            elif low.strip() and not has_topic(low, TOPIC_TERMS[account]):
+                ex["関連語なし"] += 1
             elif post_code(r["url"]) in ledger_text:
                 ex["既出"] += 1
             elif per_author.get(r["author"], 0) >= args.max_per_author:
                 ex["同じ投稿者"] += 1
             else:
-                per_author[r["author"]] = per_author.get(r["author"], 0) + 1
-                keep.append(r)
+                # 1つの語に候補が偏らないよう、拾ったキーワードのうち、いま一番少ない語に数える
+                kw = min(r["keywords"] or [""], key=lambda x: kw_count.get(x, 0))
+                if kw_count.get(kw, 0) >= args.max_per_keyword:
+                    ex["語の上限"] += 1
+                else:
+                    kw_count[kw] = kw_count.get(kw, 0) + 1
+                    per_author[r["author"]] = per_author.get(r["author"], 0) + 1
+                    keep.append(r)
         keep = keep[: args.top]
 
         lines = [
             "# 今週の候補：%s（%s）" % (account, today),
             "",
             "- 対象グループ：%s ／ 元のデータ：%d件 → 候補 **%d件**" % ("・".join(groups), len(pool), len(keep)),
-            "- 選び方：反響点＝いいね＋再投稿×3＋返信×2＋保存×5（保存はXだけ）。同じ投稿者は最大%d件。いいね%d以上。最後に見かけた日が%d日以内" % (args.max_per_author, args.min_likes, args.days),
+            "- 選び方：反響点＝いいね＋再投稿×3＋返信×2＋保存×5（保存はXだけ）。同じ投稿者は最大%d件、1つの語から最大%d件。いいね%d以上。最後に見かけた日が%d日以内" % (args.max_per_author, args.max_per_keyword, args.min_likes, args.days),
             "- 除外の内訳：" + "、".join("%s %d" % (k, v) for k, v in ex.items()),
             "- この表は、本文の冒頭だけを載せたローカル用のメモです。台帳には、URL・型・数字だけを書く（全文は写さない）",
             "",
