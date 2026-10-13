@@ -60,6 +60,8 @@ def load_posts(files):
                 for k in ("likes", "replies", "reposts"):
                     old[k] = max(old.get(k, 0), r.get(k, 0))
                 old["views"] = max(old.get("views", 0), r.get("views", 0))
+                if "bookmarks" in r or "bookmarks" in old:
+                    old["bookmarks"] = max(old.get("bookmarks", 0), r.get("bookmarks", 0))
                 old["groups"] = sorted(set(old["groups"]) | set(r["groups"]))
                 old["keywords"] = sorted(set(old["keywords"]) | set(r["keywords"]))
                 old["last_seen"] = max(old["last_seen"], r["last_seen"])
@@ -80,7 +82,8 @@ def post_date(r):
 
 
 def score(r):
-    return r["likes"] + 3 * r["reposts"] + 2 * r["replies"]
+    # 既存スキルの優先順位「ブックマーク＞返信＞いいね」に合わせる（ブックマークはXだけ取れる）
+    return r["likes"] + 3 * r["reposts"] + 2 * r["replies"] + 5 * r.get("bookmarks", 0)
 
 
 def one_line(text, n=80):
@@ -137,17 +140,20 @@ def main():
             "# 今週の候補：%s（%s）" % (account, today),
             "",
             "- 対象グループ：%s ／ 元のデータ：%d件 → 候補 **%d件**" % ("・".join(groups), len(pool), len(keep)),
-            "- 選び方：反響点＝いいね＋再投稿×3＋返信×2。同じ投稿者は最大%d件。いいね%d以上。最後に見かけた日が%d日以内" % (args.max_per_author, args.min_likes, args.days),
+            "- 選び方：反響点＝いいね＋再投稿×3＋返信×2＋保存×5（保存はXだけ）。同じ投稿者は最大%d件。いいね%d以上。最後に見かけた日が%d日以内" % (args.max_per_author, args.min_likes, args.days),
             "- 除外の内訳：" + "、".join("%s %d" % (k, v) for k, v in ex.items()),
             "- この表は、本文の冒頭だけを載せたローカル用のメモです。台帳には、URL・型・数字だけを書く（全文は写さない）",
             "",
-            "| # | 媒体 | 反響点 | いいね | 返信 | 再投稿 | 表示数 | 投稿日 | 投稿者 | 拾ったキーワード | 本文の冒頭 | URL |",
-            "|---|---|---|---|---|---|---|---|---|---|---|---|",
+            "| # | 媒体 | 反響点 | いいね | 返信 | 再投稿 | 保存数 | 保存率 | 表示数 | 投稿日 | 投稿者 | 拾ったキーワード | 本文の冒頭 | URL |",
+            "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|",
         ]
         for i, r in enumerate(keep, 1):
             pd = post_date(r)
-            lines.append("| %d | %s | %d | %d | %d | %d | %s | %s | @%s | %s | %s | %s |" % (
+            has_bm = "bookmarks" in r
+            rate = ("%.2f%%" % (100.0 * r["bookmarks"] / r["views"])) if has_bm and r.get("views") else "−"
+            lines.append("| %d | %s | %d | %d | %d | %d | %s | %s | %s | %s | @%s | %s | %s | %s |" % (
                 i, "X" if r.get("platform") == "x" else "スレッズ", score(r), r["likes"], r["replies"], r["reposts"],
+                (str(r["bookmarks"]) if has_bm else "−"), rate,
                 ("{:,}".format(r["views"]) if r.get("views") else "−"),
                 pd.strftime("%Y-%m-%d") if pd else "直近",
                 r["author"], "／".join(r["keywords"][:3]),

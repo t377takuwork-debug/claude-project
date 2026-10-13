@@ -126,6 +126,8 @@ async def run(args):
                 "replies": int(getattr(t, "reply_count", 0) or 0),
                 "reposts": int(getattr(t, "retweet_count", 0) or 0) + int(getattr(t, "quote_count", 0) or 0),
                 "views": int(getattr(t, "view_count", 0) or 0) if str(getattr(t, "view_count", "")).isdigit() else 0,
+                # ブックマーク数は、twikitの公開項目にはないが、元のデータ（_legacy）に入っている
+                "bookmarks": int((getattr(t, "_legacy", None) or {}).get("bookmark_count", 0) or 0),
             }
             kept += 1
             old = data.get(url)
@@ -134,7 +136,7 @@ async def run(args):
                 data[url] = row
                 new_count += 1
             else:
-                for k in ("likes", "replies", "reposts", "views"):
+                for k in ("likes", "replies", "reposts", "views", "bookmarks"):
                     old[k] = max(old.get(k, 0), row[k])
                 old["last_seen"] = now
                 if group not in old["groups"]:
