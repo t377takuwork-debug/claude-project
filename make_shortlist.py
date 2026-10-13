@@ -130,6 +130,16 @@ def posted_at(r):
     if m and r.get("platform") == "x":  # 古いXのデータ：時刻はUTCで保存していた
         utc = datetime(int(m.group(1)), int(m.group(2)), int(m.group(3)), int(m.group(4)), int(m.group(5)), tzinfo=timezone.utc)
         return utc.astimezone().replace(tzinfo=None)
+    # 古いスレッズのデータ：本文の先頭に「10分」「3時間」が混ざっていた。初めて見かけた時刻から逆算する
+    rel_hours = {"分": 1 / 60.0, "時間": 1.0, "日": 24.0, "週": 24.0 * 7, "年": 24.0 * 365}
+    heads = [r.get("time_label", "")] + r.get("text", "").split(chr(10))[:3]
+    for h in heads:
+        m2 = re.fullmatch(r"(\d+)\s*(分|時間|日|週|年)", h.strip())
+        if m2 and r.get("first_seen"):
+            try:
+                return datetime.fromisoformat(r["first_seen"]) - timedelta(hours=int(m2.group(1)) * rel_hours[m2.group(2)])
+            except ValueError:
+                break
     return post_date(r)
 
 
@@ -158,7 +168,9 @@ def momentum(r):
 
 
 def age_limit_hours(r, args):
-    return args.max_age_account_hours if r.get("source") == "account" else args.max_age_hours
+    if r.get("source") == "account":
+        return args.max_age_account_hours
+    return args.max_age_hours if r.get("platform") == "x" else args.max_age_threads_hours
 
 
 def min_likes_for(r, args):
@@ -194,7 +206,8 @@ def main():
     ap.add_argument("--top", type=int, default=30, help="1ファイルの最大件数")
     ap.add_argument("--min-likes-x", type=int, default=100, help="X：これ未満のいいねは候補にしない")
     ap.add_argument("--min-likes-threads", type=int, default=100, help="スレッズ：これ未満のいいねは候補にしない")
-    ap.add_argument("--max-age-hours", type=int, default=24, help="集めた時点で、投稿からこの時間以内のものだけ候補にする")
+    ap.add_argument("--max-age-hours", type=int, default=24, help="X：集めた時点で、投稿からこの時間以内のものだけ候補にする")
+    ap.add_argument("--max-age-threads-hours", type=int, default=48, help="スレッズ：同上（時刻表示が「日」単位に丸まるため48時間）")
     ap.add_argument("--max-age-account-hours", type=int, default=120, help="アカウント起点の投稿：同上（約4日で一周するため5日）")
     ap.add_argument("--window-days", type=int, default=7, help="この日数以内に集めたものを蓄積して並べる（週1回のリサーチ用）")
     ap.add_argument("--max-per-author", type=int, default=2)
@@ -222,8 +235,8 @@ def main():
             h_first = hours_at(r, "first_seen")
             if r["first_seen"] < window_start:
                 ex["集めたのが古い"] += 1
-            elif (h_first if h_first is not None else 48.0) > age_limit_hours(r, args):
-                ex["投稿が古い"] += 1  # 集めた時点で、投稿から24時間より経っていたもの（日時が分からない古いデータも含む）
+            elif h_first is None or h_first > age_limit_hours(r, args):
+                ex["投稿が古い"] += 1  # 集めた時点で基準より経っていたもの。日時が分からないものも、新しいと言えないので除く
             elif r["likes"] < min_likes_for(r, args):
                 ex["反響小"] += 1  # アカウント起点の投稿は、そのアカウントのしきい値（watch_accounts.json）で判定
             elif r["author"].lower() in OWN_AUTHORS:
@@ -253,8 +266,8 @@ def main():
             "# 今週の候補：%s（%s）" % (account, today),
             "",
             "- 対象グループ：%s ／ 元のデータ：%d件 → 候補 **%d件**" % ("・".join(groups), len(pool), len(keep)),
-            "- 新しさ：**集めた時点で、投稿から%d時間以内**（アカウント起点は%d時間以内）のものだけ。集めてから%d日分を蓄積して並べている" % (
-                args.max_age_hours, args.max_age_account_hours, args.window_days),
+            "- 新しさ：**集めた時点で、投稿からX=%d時間以内・スレッズ=%d時間以内**（アカウント起点は%d時間以内）のものだけ。集めてから%d日分を蓄積して並べている" % (
+                args.max_age_hours, args.max_age_threads_hours, args.max_age_account_hours, args.window_days),
             "- 並び順：**勢い**＝反響点÷(投稿から最後に見かけるまでの日数＋1)。反響点＝いいね＋再投稿×3＋返信×2＋保存×5（保存はXだけ）",
             "- 絞り込み：同じ投稿者は最大%d件、1つの語から最大%d件、媒体ごとに最低%d件（あれば）。いいね：Xは%d以上・スレッズは%d以上（アカウント起点は各アカウントのしきい値）" % (
                 args.max_per_author, args.max_per_keyword, args.min_per_platform, args.min_likes_x, args.min_likes_threads),

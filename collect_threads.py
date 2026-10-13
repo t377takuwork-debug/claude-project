@@ -145,6 +145,8 @@ def main():
     ap.add_argument("--min-likes", type=int, default=10, help="これ未満のいいねは保存しない")
     ap.add_argument("--file", default="keywords.json", help="キーワード表のファイル名（候補を回すときは keyword_candidates.json）")
     ap.add_argument("--out", default="threads_posts.jsonl", help="research_data 内の保存ファイル名")
+    ap.add_argument("--tab", choices=["recent", "top"], default="recent",
+                    help="検索画面のタブ。recent=「最近」（24〜48時間以内の投稿を拾える）／top=「上位」（古い人気投稿が中心）")
     ap.add_argument("--shuffle", action="store_true", help="キーワードの順番をランダムにする（順番の偏り・連続アクセスの癖を避ける）")
     ap.add_argument("--daily", action="store_true",
                     help="毎日の自動実行用：毎日の枠＋日替わり枠（前回の続き）だけ回す。同じ日の2回目はスキップ")
@@ -199,6 +201,12 @@ def main():
             url = "https://www.threads.com/search?q=" + quote(kw) + "&serp_type=default"
             page.goto(url, wait_until="domcontentloaded", timeout=45000)
             page.wait_for_timeout(6000)
+            if args.tab == "recent" and "login" not in page.url:
+                try:  # 「最近」タブに切り替える（2026-10-14の実測：上位タブは24〜48時間以内でいいね100以上が0件）
+                    page.get_by_text("最近", exact=True).first.click(timeout=5000)
+                    page.wait_for_timeout(4500)
+                except Exception:
+                    print("  （「最近」タブに切り替えられませんでした。上位タブのまま集めます）")
             if "login" in page.url:
                 login_expired = True
                 print("ログインが切れています。py -3 threads_login.py をやり直してください。")
