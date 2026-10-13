@@ -106,10 +106,17 @@ async def run(args):
             ks = v["keywords"][: args.max_keywords] if args.max_keywords else v["keywords"]
             kw_jobs += ks
 
+    # キーワード検索の期間：毎日の実行なら「前回の収集日から」（＝前日以降。PCを使わない日があれば、その日数ぶん広げる。最大7日）
+    kw_since = since_date(args.days)
+    if args.daily and state.get("last_run_date"):
+        gap = (datetime.now().date() - datetime.strptime(state["last_run_date"], "%Y-%m-%d").date()).days
+        kw_since = since_date(min(max(gap, 1), 7))
+        print("検索期間：%s 以降（前回の収集は %d日前）" % (kw_since, gap))
+
     # 検索の一覧（種類・グループ・表示名・検索式・並び・ページ数・追加の項目）
     jobs = []
     for k in kw_jobs:
-        q = "%s min_faves:%d lang:ja -filter:replies since:%s" % (k, args.min_faves, since_date(args.days))
+        q = "%s min_faves:%d lang:ja -filter:replies since:%s" % (k, args.min_faves, kw_since)
         jobs.append({"kind": "keyword", "group": group_of[k], "label": k, "query": q, "product": "Top",
                      "pages": args.pages, "extra": {}})
     for a in acc_jobs:
@@ -203,8 +210,8 @@ def main():
     ap.add_argument("--only-accounts", action="store_true", help="アカウント起点だけ集める（テスト用）")
     ap.add_argument("--max-accounts", type=int, default=0)
     ap.add_argument("--no-accounts", action="store_true", help="--daily でもアカウント起点を回さない")
-    ap.add_argument("--min-faves", type=int, default=100, help="キーワード検索：この数以上のいいねの投稿だけ")
-    ap.add_argument("--days", type=int, default=14, help="キーワード検索：何日前からの投稿を探すか")
+    ap.add_argument("--min-faves", type=int, default=50, help="キーワード検索：この数以上のいいねの投稿だけ（新しい投稿はいいねが少ないので50）")
+    ap.add_argument("--days", type=int, default=1, help="キーワード検索（--daily以外）：何日前からの投稿を探すか。--daily は前回の収集日から")
     ap.add_argument("--pages", type=int, default=2, help="キーワード検索：1語あたりの取得ページ数（1ページ約20件）")
     ap.add_argument("--gap-min", type=int, default=20)
     ap.add_argument("--gap-max", type=int, default=40)

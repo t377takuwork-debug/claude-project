@@ -1,6 +1,6 @@
 {
   "_note": "Xで「アカウント起点」に集める観察対象（2026-10-14）。元の表は、MBTICODE＝brands/mbticode/analysis/neta/keywords.md の B0 表、s4lv・UYA.＝.claude/commands/neta-research.md の「見るアカウント」。**文書が正、このファイルは写し**（アカウントやしきい値を変えたら、両方を直す）。enabled が false のものは、文書で「副」「様子見」のため、毎日の収集には入れない。",
-  "since_days": 10,
+  "since_days": 6,
   "per_day": 4,
   "accounts": [
     {"name": "renai_teacher1", "group": "mbti_love", "min_faves": 200, "status": "主", "enabled": true},
