@@ -1,42 +1,48 @@
 {
-  "_note": "調査用キーワード v2.1（2026-10-13）。候補を1回ずつ回して絞り、「Claude 使い方」「副業 収入」「副業副業」を足した。単独の「副業」はスレッズで検索結果が出ない。数字は毎回変わるため定期的に見直す。外した語は keyword_candidates.json に残してある。",
-  "daily_fixed": ["チャッピー", "claude", "MBTI 返信", "INFJ", "note"],
-  "rotation_size": 5,
-  "groups": {
-    "blog_note_sns": {
-      "for_account": "s4lv / UYA.（ブログ・note・SNS運用）",
-      "keywords": [
-        "note",
-        "SNS運用",
-        "アフィリエイト",
-        "SEO",
-        "サチコ",
-        "副業 収入",
-        "副業副業"
-      ]
+  "_note": "調査用キーワード v3（2026-10-13）。媒体別（threads / x）。スレッズは候補33語の1回調査で選んだ語、Xは候補30語の調査（500いいね以上の件数）で選んだ語。数字は回ごとに変わるため、毎日の収集のデータで定期的に見直す。外した語は keyword_candidates*.json と probe_words*.txt に残してある。単独の「副業」はスレッズで検索結果が出ない。「愛着スタイル」は、MBTICODEの決まり（ラブタイプは対象外）に近いため外した。",
+  "platforms": {
+    "threads": {
+      "daily_fixed": ["チャッピー", "claude", "MBTI 返信", "INFJ", "note"],
+      "rotation_size": 5,
+      "groups": {
+        "blog_note_sns": {
+          "for_account": "s4lv / UYA.（ブログ・note・SNS運用）",
+          "keywords": ["note", "SNS運用", "アフィリエイト", "SEO", "サチコ", "副業 収入", "副業副業"]
+        },
+        "ai": {
+          "for_account": "s4lv / UYA.（AI・自動化）",
+          "keywords": ["チャッピー", "claude", "AI", "指示", "スキル", "Claude 使い方"]
+        },
+        "mbti_love": {
+          "for_account": "MBTICODE（MBTI × 恋愛・人間関係）",
+          "keywords": ["MBTI 返信", "INFJ", "INTJ", "ENFP", "MBTI あるある", "MBTI LINE", "MBTI 浮気"]
+        }
+      }
     },
-    "ai": {
-      "for_account": "s4lv / UYA.（AI・自動化）",
-      "keywords": [
-        "チャッピー",
-        "claude",
-        "AI",
-        "指示",
-        "スキル",
-        "Claude 使い方"
-      ]
-    },
-    "mbti_love": {
-      "for_account": "MBTICODE（MBTI × 恋愛・人間関係）",
-      "keywords": [
-        "MBTI 返信",
-        "INFJ",
-        "INTJ",
-        "ENFP",
-        "MBTI あるある",
-        "MBTI LINE",
-        "MBTI 浮気"
-      ]
+    "x": {
+      "daily_fixed": ["生成AI", "Gemini", "フォロワー", "MBTI あるある", "未練"],
+      "rotation_size": 5,
+      "groups": {
+        "blog_note_sns": {
+          "for_account": "s4lv / UYA.（ブログ・note・SNS運用）",
+          "keywords": ["フォロワー", "Threads", "インプレッション", "note", "SNS運用"]
+        },
+        "ai": {
+          "for_account": "s4lv / UYA.（AI・自動化）",
+          "keywords": ["生成AI", "Gemini", "Claude Code", "指示", "チャッピー", "claude"]
+        },
+        "mbti_love": {
+          "for_account": "MBTICODE（MBTI × 恋愛・人間関係）",
+          "keywords": [
+            "MBTI あるある",
+            "未練",
+            "(INTJ OR INTP OR ENTJ OR ENTP) 恋愛",
+            "(INFJ OR INFP OR ENFJ OR ENFP) 恋愛",
+            "MBTI 好きな人",
+            "INFJ"
+          ]
+        }
+      }
     }
   }
 }

@@ -48,6 +48,8 @@ async def run(args):
         print("x_cookies.local.json がありません。")
         return 4
     cfg = json.loads(KEYWORDS.read_text(encoding="utf-8"))
+    if "platforms" in cfg:  # 媒体別の表（keywords.json v3以降）
+        cfg = cfg["platforms"]["x"]
     group_of = {k: g for g, v in cfg["groups"].items() for k in v["keywords"]}
 
     state = {}

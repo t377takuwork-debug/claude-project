@@ -124,6 +124,8 @@ def main():
     if not STATE.exists():
         sys.exit("ログイン状態がありません。先に py -3 threads_login.py を実行してください。")
     cfg = json.loads((ROOT / args.file).read_text(encoding="utf-8"))
+    if "platforms" in cfg:  # 媒体別の表（keywords.json v3以降）
+        cfg = cfg["platforms"]["threads"]
     jobs = []
     for gname, g in cfg["groups"].items():
         if args.group and gname != args.group:
