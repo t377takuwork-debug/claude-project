@@ -38,8 +38,6 @@ S4LVnote/3_広報部/スレッズ道具/threads_auth.local.json
 S4LVnote/3_広報部/スレッズ道具/output/
 
 # 調査用（ログイン情報を含む。コミット禁止）
-threads_state.local.json
-x_cookies.local.json
-research_data/
-collect.py
-Claude_posts.json
+research/threads_state.local.json
+research/x_cookies.local.json
+research/data/

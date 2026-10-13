@@ -37,6 +37,7 @@ claude project/
 ├── README.md              ← 本ファイル（全体索引）
 ├── CLAUDE.md              ← 行動規範・ナビゲーター
 ├── .claude/commands/      ← 汎用スキル22本（投稿生成・記事生成・会議・バズ分析・KPI・ブログ立ち上げ）★唯一の正
+├── research/              ← X・スレッズの自動リサーチ（毎日自動。data/ とログイン情報はgitに入れない）
 ├── docs/
 │   ├── business_inventory.md  ← 業務棚卸し表
 │   ├── sop/               ← 業務別SOP 9本（X・スレッズの自動リサーチ=sop_research_auto_collect.md・委譲体制=sop_agent_delegation.md・詳細版運用ガイド=運用マスターシート.md・やさしい版=超わかりやすい運用ガイド.md）

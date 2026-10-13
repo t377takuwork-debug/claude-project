@@ -1,10 +1,10 @@
 """スレッズの検索（「最近」タブ）から、新しくて反響のある投稿を集めて溜める（Claudeのトークンは使わない）。
 
 説明書：  docs/sop/sop_research_auto_collect.md
-事前に：  py -3 threads_login.py  （調査用アカウントで、人の手でログイン。切れたらやり直す）
-使い方：  py -3 collect_threads.py --daily            毎日の自動実行用（毎日の枠＋日替わり枠。同じ日の2回目はスキップ）
-          py -3 collect_threads.py --max-keywords 1   テスト（各グループの先頭1語だけ）
-保存先：  research_data/threads_posts.jsonl（1行1投稿。同じ投稿は数字だけ更新。30日より古いものは消す）
+事前に：  py -3 research/threads_login.py  （調査用アカウントで、人の手でログイン。切れたらやり直す）
+使い方：  py -3 research/collect_threads.py --daily            毎日の自動実行用（毎日の枠＋日替わり枠。同じ日の2回目はスキップ）
+          py -3 research/collect_threads.py --max-keywords 1   テスト（各グループの先頭1語だけ）
+保存先：  research/data/threads_posts.jsonl（1行1投稿。同じ投稿は数字だけ更新。30日より古いものは消す）
 終了コード： 0=成功 3=ログイン切れ 5=途中で止まった 6=1件も取れなかった（画面の作りが変わった可能性）
 """
 import argparse
@@ -130,7 +130,7 @@ def normalize(raw, now=None):
 def run(args):
     sys.stdout.reconfigure(encoding="utf-8")
     if not LOGIN_STATE.exists():
-        print("ログイン状態がありません。先に py -3 threads_login.py を実行してください。")
+        print("ログイン状態がありません。先に py -3 research/threads_login.py を実行してください。")
         return rc.LOGIN_EXPIRED
     cfg = rc.platform_keywords(rc.KEYWORDS, "threads")
     group_of = rc.group_of_keywords(cfg)
@@ -168,7 +168,7 @@ def run(args):
                     page.wait_for_timeout(6000)
                     if "login" in page.url:
                         login_expired = True
-                        print("ログインが切れています。py -3 threads_login.py をやり直してください。")
+                        print("ログインが切れています。py -3 research/threads_login.py をやり直してください。")
                         break
                     # 「最近」タブに切り替える（2026-10-14の実測：「上位」タブは古い人気投稿が中心で、48時間以内・いいね100以上が0件）
                     try:
@@ -210,7 +210,7 @@ def run(args):
     finally:  # 途中で止まっても、そこまでの分は必ず保存する
         kept_rows, pruned = rc.save_jsonl(OUT, data)
         print("新規 %d 件 / 既存の数字更新 %d 件 / 合計 %d 件（古い%d件を整理） → %s" % (
-            new_count, upd_count, kept_rows, pruned, OUT.relative_to(rc.ROOT)))
+            new_count, upd_count, kept_rows, pruned, OUT.relative_to(rc.REPO)))
 
     if login_expired:
         code = rc.LOGIN_EXPIRED

@@ -1,8 +1,8 @@
 """溜めた投稿から、アカウント別の「今週の候補」ファイルを作る（Claudeのトークンは使わない）。
 
 説明書：  docs/sop/sop_research_auto_collect.md
-使い方：  py -3 make_shortlist.py
-出力：    research_data/shortlist/shortlist_<アカウント>_<日付>.md（14日より古いものは自動で消す）
+使い方：  py -3 research/make_shortlist.py
+出力：    research/data/shortlist/shortlist_<アカウント>_<日付>.md（14日より古いものは自動で消す）
           - MBTICODE ……… mbti_love グループ（/mbticode-neta が読む入力）
           - s4lv_UYA ……… blog_note_sns・ai グループ（/neta-research が読む入力。s4lvとUYA.共通）
 
@@ -13,7 +13,7 @@
 除外：    ①すでに台帳にある投稿（投稿IDで判定） ②勧誘・配布・募集・販売など ③自分のアカウント
           ④反響が小さいもの ⑤分野の語がない・無関係な話題 ⑥同じ投稿者・同じ語の偏り
           ⑦本文がほぼない（画像・リンクだけ）・他人への返信・日本語でない投稿
-注意：    本文の抜粋は、ローカルだけに置く（research_data は git に入れない）。台帳には全文を写さない。
+注意：    本文の抜粋は、ローカルだけに置く（research/data は git に入れない）。台帳には全文を写さない。
           意味の関連（その話題が運用に使えるか）は、機械では判定しきれない。週1回の仕分けで人とClaudeが見る。
 """
 import argparse
@@ -32,9 +32,9 @@ VIEWS = {
 }
 # すでに使った・集めた投稿の記録（ここに投稿IDがあれば「既出」として除く）
 LEDGERS = [
-    rc.ROOT / "brands/mbticode/analysis/neta/neta_ledger.md",
-    rc.ROOT / "brands/mbticode/analysis/neta/neta_sources.md",
-    rc.ROOT / "journals/external_seeds.md",
+    rc.REPO / "brands/mbticode/analysis/neta/neta_ledger.md",
+    rc.REPO / "brands/mbticode/analysis/neta/neta_sources.md",
+    rc.REPO / "journals/external_seeds.md",
 ]
 OWN_AUTHORS = {"mbti_code", "mbticode", "cfrms4lv", "s4lv", "uyadott"}
 # 分野と無関係だと分かっている話題の印（2026-10-13の試運転で混入を確認したもの）
@@ -273,7 +273,7 @@ def main():
                 one_line(r["text"]).replace("|", "｜"), r["url"]))
         path = OUT_DIR / ("shortlist_%s_%s.md" % (account, today))
         path.write_text("\n".join(lines) + "\n", encoding="utf-8")
-        print("%s：%d件（X %d・スレッズ %d） → %s（除外：%s）" % (account, len(keep), n_x, len(keep) - n_x, path.relative_to(rc.ROOT),
+        print("%s：%d件（X %d・スレッズ %d） → %s（除外：%s）" % (account, len(keep), n_x, len(keep) - n_x, path.relative_to(rc.REPO),
               "、".join("%s%d" % (k, v) for k, v in ex.items() if v)))
 
     # 古い候補ファイルを消す（毎日1つずつ増えるため。読むのは最新のものだけ）

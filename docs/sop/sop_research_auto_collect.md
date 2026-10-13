@@ -10,7 +10,7 @@
 
 ## 完了条件
 
-- 毎日の自動実行：`research_data/status.json` の `x`・`threads` の `exit_code` が 0（候補ファイルの頭の「収集の状態」に同じ内容が出る）
+- 毎日の自動実行：`research/data/status.json` の `x`・`threads` の `exit_code` が 0（候補ファイルの頭の「収集の状態」に同じ内容が出る）
 - 週1回のネタ収集：`/mbticode-neta`・`/neta-research` それぞれの完了条件に従う（このSOPは、材料を用意するところまで）
 
 ## 全体の流れ
@@ -22,39 +22,39 @@
 | 3. 読んで判断する | 「リサーチして」と言われたとき、候補ファイルを読み、使える話題を提示する | `/mbticode-neta`・`/neta-research` | 候補ファイル1つ＝約1万字 |
 | 4. 台帳へ | あなたがOKした分だけ、台帳に記録する（類似チェック・裏取りはここで） | 同上 | 数件分 |
 
-## ファイルの一覧（すべてリポジトリの直下）
+## ファイルの一覧（すべて `research/` フォルダの中）
 
 | ファイル | 役割 |
 |---|---|
-| `run_threads_research.cmd`・`run_hidden.vbs`・`research_alert.vbs` | 毎日の起動（収集→選ぶ）。画面を出さずに動かす部品と、失敗時の小さな通知 |
-| `collect_threads.py` | スレッズの検索（「最近」タブ）から集める |
-| `collect_x.py` | Xの検索から集める（①キーワード ②観察対象アカウント） |
-| `make_shortlist.py` | 候補ファイルを作る |
-| `research_common.py` | 上の3つが共通で使う部品（保存・日替わりの進め方・終了コード） |
-| `export_sources.py` | 類似チェック用の元ネタ本文ファイルを、溜めたデータから作る |
-| `probe_x.py` | 新しい語の候補を、Xで試し撃ちする（語を見直すときだけ） |
-| `threads_login.py` | スレッズに、人の手でログインして、ログイン状態を保存する |
-| `keywords.json` | 検索する語（媒体別）。**MBTICODEのXの語とアカウントは、`brands/mbticode/analysis/neta/keywords.md` が正** |
-| `watch_accounts.json` | 観察対象アカウントとしきい値の写し。**正は `keywords.md` のB0表と、`/neta-research` の「見るアカウント」**（変えたら両方） |
+| `research/run_threads_research.cmd`・`research/run_hidden.vbs`・`research/research_alert.vbs` | 毎日の起動（収集→選ぶ）。画面を出さずに動かす部品と、失敗時の小さな通知 |
+| `research/collect_threads.py` | スレッズの検索（「最近」タブ）から集める |
+| `research/collect_x.py` | Xの検索から集める（①キーワード ②観察対象アカウント） |
+| `research/make_shortlist.py` | 候補ファイルを作る |
+| `research/research_common.py` | 上の3つが共通で使う部品（保存・日替わりの進め方・終了コード） |
+| `research/export_sources.py` | 類似チェック用の元ネタ本文ファイルを、溜めたデータから作る |
+| `research/probe_x.py` | 新しい語の候補を、Xで試し撃ちする（語を見直すときだけ） |
+| `research/threads_login.py` | スレッズに、人の手でログインして、ログイン状態を保存する |
+| `research/keywords.json` | 検索する語（媒体別）。**MBTICODEのXの語とアカウントは、`brands/mbticode/analysis/neta/keywords.md` が正** |
+| `research/watch_accounts.json` | 観察対象アカウントとしきい値の写し。**正は `keywords.md` のB0表と、`/neta-research` の「見るアカウント」**（変えたら両方） |
 
 gitに入れないもの（このPCにだけある）：
 
 | ファイル | 中身 |
 |---|---|
-| `threads_state.local.json` | スレッズの調査用アカウントのログイン状態 |
-| `x_cookies.local.json` | Xの調査用アカウントのログイン情報（`auth_token`・`ct0`） |
-| `research_data/threads_posts.jsonl`・`x_posts.jsonl` | 溜めた投稿（1行1投稿。最後に見かけてから30日で消える） |
-| `research_data/shortlist/shortlist_<アカウント>_<日付>.md` | 候補ファイル（14日で消える。読むのは最新のもの） |
-| `research_data/status.json`・`daily_state*.json` | 直近の実行結果／日替わりの進み具合 |
-| `research_data/logs/threads_research.log` | 実行の記録（追記） |
-| `research_data/archive/` | 立ち上げ時の試験データ（使わない。消してよい） |
+| `research/threads_state.local.json` | スレッズの調査用アカウントのログイン状態 |
+| `research/x_cookies.local.json` | Xの調査用アカウントのログイン情報（`auth_token`・`ct0`） |
+| `research/data/threads_posts.jsonl`・`x_posts.jsonl` | 溜めた投稿（1行1投稿。最後に見かけてから30日で消える） |
+| `research/data/shortlist/shortlist_<アカウント>_<日付>.md` | 候補ファイル（14日で消える。読むのは最新のもの） |
+| `research/data/status.json`・`daily_state*.json` | 直近の実行結果／日替わりの進み具合 |
+| `research/data/logs/threads_research.log` | 実行の記録（追記） |
+| `research/data/archive/` | 立ち上げ時の試験データ（使わない。消してよい） |
 
 ## 毎日の動き
 
 | 媒体 | 集め方 | 新しさ | いいねの下限 |
 |---|---|---|---|
 | X（キーワード） | 毎日5語＋日替わり5語（約3日で一周）。1語あたり最大40件 | **前回の収集時刻から**（最短24時間・最大7日。PCを使わない日があっても抜けない） | 100 |
-| X（アカウント起点） | 観察対象16人を、1日4人ずつ（約4日で一周）。`from:アカウント名` | 6日以内 | アカウントごと（`watch_accounts.json`） |
+| X（アカウント起点） | 観察対象16人を、1日4人ずつ（約4日で一周）。`from:アカウント名` | 6日以内 | アカウントごと（`research/watch_accounts.json`） |
 | スレッズ | 毎日5語＋日替わり5語。検索画面の「最近」タブを開いて読む | 候補にするのは48時間以内 | 保存は10以上、候補は100以上 |
 
 - 同じ日の2回目は、何もせず終わる。途中で失敗した日は「実行済み」にしないので、次のログインでやり直す。
@@ -73,22 +73,22 @@ gitに入れないもの（このPCにだけある）：
 
 | 変えたいもの | 直す場所 |
 |---|---|
-| 検索する語 | `keywords.json`（`daily_fixed`＝毎日の語。残りは日替わり）。MBTICODEのXの語は、先に `keywords.md` を直す |
-| 観察対象アカウント・しきい値 | `keywords.md` のB0表／`/neta-research` の「見るアカウント」を直してから、`watch_accounts.json` に写す |
-| 新しさ・いいねの下限・件数 | `make_shortlist.py` の引数の既定値（`--max-age-hours` など）。Xの検索の下限は `collect_x.py` の `--min-faves` |
-| 分野の語・無関係な話題の印 | `make_shortlist.py` の `TOPIC_TERMS`・`SPECIFIC_KEYWORDS`・`NOISE`・`SOLICIT` |
+| 検索する語 | `research/keywords.json`（`daily_fixed`＝毎日の語。残りは日替わり）。MBTICODEのXの語は、先に `keywords.md` を直す |
+| 観察対象アカウント・しきい値 | `keywords.md` のB0表／`/neta-research` の「見るアカウント」を直してから、`research/watch_accounts.json` に写す |
+| 新しさ・いいねの下限・件数 | `research/make_shortlist.py` の引数の既定値（`--max-age-hours` など）。Xの検索の下限は `research/collect_x.py` の `--min-faves` |
+| 分野の語・無関係な話題の印 | `research/make_shortlist.py` の `TOPIC_TERMS`・`SPECIFIC_KEYWORDS`・`NOISE`・`SOLICIT` |
 
 ## 語を見直すとき
 
-1. `research_data/x_posts.jsonl`・`threads_posts.jsonl` の `keywords` ごとに、件数と、いいね100以上・500以上の件数を数える（数日分が溜まってから）。
-2. 新しい語を試すときは `py -3 probe_x.py 語1 "語 2"`（1回20語まで。条件は毎日の収集と同じ）。
+1. `research/data/x_posts.jsonl`・`threads_posts.jsonl` の `keywords` ごとに、件数と、いいね100以上・500以上の件数を数える（数日分が溜まってから）。
+2. 新しい語を試すときは `py -3 research/probe_x.py 語1 "語 2"`（1回20語まで。条件は毎日の収集と同じ）。
 3. 入れ替え案を出して、あなたが採否を決める。**1回の結果で決めない**（回ごとにかなり変わる）。
 
 ## うまく動かないとき
 
 | 出る通知・状態 | 意味 | 直し方 |
 |---|---|---|
-| `Threads research: login expired.` | スレッズのログイン状態が切れた | ターミナルで `py -3 threads_login.py` → 開いた画面で、**調査用アカウントに自分でログイン** → ホーム画面が見えたら、黒い画面でEnter（ブラウザは「保存しました」が出るまで閉じない） |
+| `Threads research: login expired.` | スレッズのログイン状態が切れた | ターミナルで `py -3 research/threads_login.py` → 開いた画面で、**調査用アカウントに自分でログイン** → ホーム画面が見えたら、黒い画面でEnter（ブラウザは「保存しました」が出るまで閉じない） |
 | `X research: cookies unusable.` | Xのログイン情報が切れた | 下の「Xのログイン情報の取り直し」 |
 | `... problem (code 5).` | 途中で止まった（回数制限・通信の失敗が3回） | 次のログインで自動でやり直す。続くときは、ログの末尾を見る |
 | `... problem (code 6).` | 1件も読めなかった | 画面や検索の作りが変わった可能性。スクリプトの修正が要る（Claudeに「リサーチの収集が0件です」と伝える） |
@@ -102,15 +102,15 @@ gitに入れないもの（このPCにだけある）：
 1. ふだんのブラウザで、**調査用アカウント**で x.com にログインする
 2. F12キーで開発者向けの画面を開く →「アプリケーション」→ 左の「Cookie」→ `https://x.com`
 3. 一覧から `auth_token` と `ct0` の「値」を、それぞれコピーする
-4. `x_cookies.local.json` を開いて、同じ名前の値を置き換えて保存する
-5. `py -3 collect_x.py --max-keywords 1 --pages 1` で、取れることを確かめる
+4. `research/x_cookies.local.json` を開いて、同じ名前の値を置き換えて保存する
+5. `py -3 research/collect_x.py --max-keywords 1 --pages 1` で、取れることを確かめる
 
 ## 守ること
 
 - **1日1回まで**・検索の間隔は空けたまま（設定済み）。調査は、投稿用とは別の**調査用アカウント**で行う。XとスレッズのAPIではなく、画面と同じ経路を読んでいるため、規約と制限の判断は、あなたが行う。
-- **他人の投稿の全文を、リポジトリに保存しない**。全文は `research_data/`（gitに入らない）だけ。台帳には、URL・数字・構造のメモだけ。
+- **他人の投稿の全文を、リポジトリに保存しない**。全文は `research/data/`（gitに入らない）だけ。台帳には、URL・数字・構造のメモだけ。
 - **盗用の防止**：候補ファイルを、投稿づくりに直接使わない。入口は `/mbticode-neta`・`/neta-research` だけ。借りるのは、テーマと切り口の発想まで（各スキルの決まりに従う）。
-- **類似チェック**：元ネタの本文ファイルは `py -3 export_sources.py <投稿のURLかID>` で作り、`python brands/tools/check_similarity.py <投稿案> --sources <できたファイル>` に渡す（スレッズも可）。「見つからない」と出た投稿だけ、Chromeで取り直す。
+- **類似チェック**：元ネタの本文ファイルは `py -3 research/export_sources.py <投稿のURLかID>` で作り、`python brands/tools/check_similarity.py <投稿案> --sources <できたファイル>` に渡す（スレッズも可）。「見つからない」と出た投稿だけ、Chromeで取り直す。
 - **ログイン情報**（`*.local.json`）は、gitに入れない・チャットに貼らない。
 
 ## これまでに試した語と結果（外した語の記録）

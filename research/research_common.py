@@ -7,8 +7,9 @@ import re
 from datetime import datetime, timedelta
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
-DATA_DIR = ROOT / "research_data"          # gitに入れないローカルの置き場
+ROOT = Path(__file__).resolve().parent     # このフォルダ（research/）
+REPO = ROOT.parent                         # リポジトリの直下（台帳など、ほかのフォルダを指すとき）
+DATA_DIR = ROOT / "data"                   # gitに入れないローカルの置き場
 KEYWORDS = ROOT / "keywords.json"
 STATUS = DATA_DIR / "status.json"          # 直近の実行結果（成否・件数）。候補ファイルの頭に表示する
 KEEP_DAYS = 30                             # これより前に最後に見かけた投稿は、溜めたデータから消す（候補に使うのは7日分）

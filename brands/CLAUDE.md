@@ -73,7 +73,7 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 | `/asp-theme` | ASP案件・記事テーマ戦略 | ASPのテーマ選定時 |
 | `/buzz-analysis` | バズ投稿の固定フレームワーク分析（型・発話モード・ブクマ動機） | ユーザーがバズ投稿を手動収集して渡したとき |
 | `/mbticode-analysis` | MBTICODEのThreads（必要ならX）投稿の分析。スプレッドシートの数字から表を作り、独立した分析役（`mbticode-analyst`）が診断。基準は `mbticode/analysis/rubric.md`、結果は `mbticode/analysis/log.md` | ユーザーが「分析して」と指示したときのみ（定期実行しない） |
-| `/mbticode-neta` | MBTICODEのネタ・テーマの収集。毎日の自動リサーチが作る候補ファイル（X・スレッズ。`research_data/shortlist/`。説明は `docs/sop/sop_research_auto_collect.md`）を読み、恋愛・MBTI×恋愛の反響が大きい投稿を、自分の切り口に作り直す材料にする。候補ファイルがない・古いときだけ、Claude in ChromeでXから集める。台帳は `mbticode/analysis/neta/` | ユーザーが指示したときのみ（週1回程度） |
+| `/mbticode-neta` | MBTICODEのネタ・テーマの収集。毎日の自動リサーチが作る候補ファイル（X・スレッズ。`research/data/shortlist/`。説明は `docs/sop/sop_research_auto_collect.md`）を読み、恋愛・MBTI×恋愛の反響が大きい投稿を、自分の切り口に作り直す材料にする。候補ファイルがない・古いときだけ、Claude in ChromeでXから集める。台帳は `mbticode/analysis/neta/` | ユーザーが指示したときのみ（週1回程度） |
 | `/mbticode-analysis-update` | 分析の基準（`mbticode/analysis/rubric.md`）を、最新のアルゴリズム・伸ばし方の情報で更新する。一次情報を優先して調べ、確度つきの差分をユーザーが承認した分だけ反映 | ユーザーが「更新して」と指示したときのみ（四半期に1回が目安） |
 | `/kpi-weekly` | 週次KPIの記録＋前週比3点コメント（`mbticode/kpi_log.md` へ蓄積） | 週次の数値を渡されたとき |
 | `/neta-research` | s4lv・UYA.共通の外部リサーチ（毎日の自動リサーチが作る候補ファイル〈X・スレッズ。観察対象アカウントとキーワード検索の分〉と、Xのニュース欄・Claude Codeの活用情報から、反響の大きい話題を集めて `journals/external_seeds.md` に溜める。候補ファイルがない・古いときだけ、Claude in Chromeで集める。s4lvは台帳「柱3：意見・考え」のネタ、UYA.は「試すきっかけ／反応ネタ」） | ユーザーが「リサーチして」と明示的に指示したときのみ（自動実行しない） |

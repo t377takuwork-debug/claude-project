@@ -6,10 +6,10 @@
   ②アカウント起点   watch_accounts.json の観察対象（from:アカウント名。1日 per_day 人ずつ巡回）
 収集用のアカウントのログイン情報は x_cookies.local.json（gitに入れない・チャットに貼らない）。
 
-使い方：  py -3 collect_x.py --daily               毎日の自動実行用（同じ日の2回目はスキップ）
-          py -3 collect_x.py --max-keywords 1      テスト（各グループの先頭1語だけ。アカウントは回さない）
-          py -3 collect_x.py --only-accounts --max-accounts 2   アカウント起点だけ、先頭2人で試す
-保存先：  research_data/x_posts.jsonl（スレッズ側と同じ形式。30日より古いものは消す）
+使い方：  py -3 research/collect_x.py --daily               毎日の自動実行用（同じ日の2回目はスキップ）
+          py -3 research/collect_x.py --max-keywords 1      テスト（各グループの先頭1語だけ。アカウントは回さない）
+          py -3 research/collect_x.py --only-accounts --max-accounts 2   アカウント起点だけ、先頭2人で試す
+保存先：  research/data/x_posts.jsonl（スレッズ側と同じ形式。30日より古いものは消す）
 終了コード： 0=成功 4=ログイン情報が使えない 5=途中で止まった（回数制限など） 6=1件も取れなかった
 """
 import argparse
@@ -160,7 +160,7 @@ async def run(args):
     finally:  # 途中で止まっても、そこまでの分は必ず保存する
         kept_rows, pruned = rc.save_jsonl(OUT, data)
         print("新規 %d 件 / 既存の数字更新 %d 件 / 合計 %d 件（古い%d件を整理） → %s" % (
-            new_count, upd_count, kept_rows, pruned, OUT.relative_to(rc.ROOT)))
+            new_count, upd_count, kept_rows, pruned, OUT.relative_to(rc.REPO)))
 
     if auth_failed:
         code = rc.COOKIE_INVALID

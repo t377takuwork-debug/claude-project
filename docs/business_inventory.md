@@ -14,7 +14,7 @@
 | D2 | MBTICODE リプライ・引用RT生成 | `/reply`（`.claude/commands/reply.md`） | 投稿分析→反映メモ→本文の3ブロック出力 | 文体ルール: `brands/mbticode/rules/feedback_mbticode_reply_style.md` |
 | D3 | shira_note ネタ収集 | 「ネタ収集して」→ `python tools/collect_news.py` | `tools/output/programs.md`・`releases.md` 更新 | －（収集のみ） |
 | D4 | shira_note 番組差分監視 | 「番組監視して」→ `python tools/watch_programs.py` | `tools/output/watch_report.md` 更新 | －（監視のみ） |
-| D5 | X・スレッズの自動リサーチ（反響のある新しい投稿の収集。2026-10-14〜） | **自動**（PCにログインした3分後に、タスクスケジューラ `ThreadsResearchDaily` が `run_threads_research.cmd` を実行）。説明書: `docs/sop/sop_research_auto_collect.md` | `research_data/status.json` の `x`・`threads` が `exit_code` 0＋`research_data/shortlist/` に当日の候補ファイル | 失敗時は小さな通知が出る。候補ファイルの頭の「収集の状態」で確認（Claudeは使わない＝トークン0） |
+| D5 | X・スレッズの自動リサーチ（反響のある新しい投稿の収集。2026-10-14〜） | **自動**（PCにログインした3分後に、タスクスケジューラ `ThreadsResearchDaily` が `research/run_threads_research.cmd` を実行）。説明書: `docs/sop/sop_research_auto_collect.md` | `research/data/status.json` の `x`・`threads` が `exit_code` 0＋`research/data/shortlist/` に当日の候補ファイル | 失敗時は小さな通知が出る。候補ファイルの頭の「収集の状態」で確認（Claudeは使わない＝トークン0） |
 
 ### 放送日ドリブン（番組放送の前後）
 

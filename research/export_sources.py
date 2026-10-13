@@ -2,10 +2,10 @@
 
 何のために：  brands/tools/check_similarity.py の --sources に渡すファイルを作る。
               これまでは、元ネタの本文を Chrome で取り直していたが、Threads は Chrome で読めない（過去に何度も失敗）。
-              本文は research_data/ にすでにあるので、そこから作る。
+              本文は research/data/ にすでにあるので、そこから作る。
 説明書：  docs/sop/sop_research_auto_collect.md
-使い方：  py -3 export_sources.py <投稿のURLまたはID> [<URLまたはID> ...]
-出力：    research_data/tmp/sources_<日時>.txt（「=== 投稿ID」区切り。gitには入らない。使い終わったら消してよい）
+使い方：  py -3 research/export_sources.py <投稿のURLまたはID> [<URLまたはID> ...]
+出力：    research/data/tmp/sources_<日時>.txt（「=== 投稿ID」区切り。gitには入らない。使い終わったら消してよい）
           続けて： python brands/tools/check_similarity.py <投稿案ファイル> --sources <出力ファイル>
 注意：    スレッズの本文は、検索画面に出ていた分で、長い投稿は途中までの場合がある（その場合は警告を出す）。
           その場合は「機械チェックは目安。着想の近さ（人の判定）を必ず行う」。
@@ -15,7 +15,7 @@ from datetime import datetime
 
 import research_common as rc
 
-ROOT, DATA_DIR, code_of = rc.ROOT, rc.DATA_DIR, rc.post_code
+ROOT, DATA_DIR, code_of = rc.REPO, rc.DATA_DIR, rc.post_code
 
 
 def main():
