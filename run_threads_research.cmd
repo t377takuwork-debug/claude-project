@@ -13,5 +13,11 @@ echo collect exit code: %RC% >> "%LOG%"
 if "%RC%"=="3" (
   wscript //B //Nologo "%PROJ%\research_alert.vbs" "Threads research: login expired. Please run threads_login.py again."
 )
+"%PY%" collect_x.py --daily >> "%LOG%" 2>&1
+set "RCX=%ERRORLEVEL%"
+echo collect_x exit code: %RCX% >> "%LOG%"
+if "%RCX%"=="4" (
+  wscript //B //Nologo "%PROJ%\research_alert.vbs" "X research: cookies unusable. Please update x_cookies.local.json."
+)
 "%PY%" make_shortlist.py >> "%LOG%" 2>&1
 echo ===== %date% %time% end ===== >> "%LOG%"

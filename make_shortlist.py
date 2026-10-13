@@ -59,6 +59,7 @@ def load_posts(files):
             else:  # 数字は大きいほうを残し、キーワード・グループは足す
                 for k in ("likes", "replies", "reposts"):
                     old[k] = max(old.get(k, 0), r.get(k, 0))
+                old["views"] = max(old.get("views", 0), r.get("views", 0))
                 old["groups"] = sorted(set(old["groups"]) | set(r["groups"]))
                 old["keywords"] = sorted(set(old["keywords"]) | set(r["keywords"]))
                 old["last_seen"] = max(old["last_seen"], r["last_seen"])
@@ -97,7 +98,7 @@ def main():
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
 
-    files = sorted(DATA_DIR.glob("threads_*.jsonl"))
+    files = sorted(DATA_DIR.glob("threads_*.jsonl")) + sorted(DATA_DIR.glob("x_posts*.jsonl"))
     if not files:
         sys.exit("研究データがありません。先に collect_threads.py を実行してください。")
     posts = load_posts(files)
@@ -140,13 +141,14 @@ def main():
             "- 除外の内訳：" + "、".join("%s %d" % (k, v) for k, v in ex.items()),
             "- この表は、本文の冒頭だけを載せたローカル用のメモです。台帳には、URL・型・数字だけを書く（全文は写さない）",
             "",
-            "| # | 反響点 | いいね | 返信 | 再投稿 | 投稿日 | 投稿者 | 拾ったキーワード | 本文の冒頭 | URL |",
-            "|---|---|---|---|---|---|---|---|---|---|",
+            "| # | 媒体 | 反響点 | いいね | 返信 | 再投稿 | 表示数 | 投稿日 | 投稿者 | 拾ったキーワード | 本文の冒頭 | URL |",
+            "|---|---|---|---|---|---|---|---|---|---|---|---|",
         ]
         for i, r in enumerate(keep, 1):
             pd = post_date(r)
-            lines.append("| %d | %d | %d | %d | %d | %s | @%s | %s | %s | %s |" % (
-                i, score(r), r["likes"], r["replies"], r["reposts"],
+            lines.append("| %d | %s | %d | %d | %d | %d | %s | %s | @%s | %s | %s | %s |" % (
+                i, "X" if r.get("platform") == "x" else "スレッズ", score(r), r["likes"], r["replies"], r["reposts"],
+                ("{:,}".format(r["views"]) if r.get("views") else "−"),
                 pd.strftime("%Y-%m-%d") if pd else "直近",
                 r["author"], "／".join(r["keywords"][:3]),
                 one_line(r["text"]).replace("|", "｜") or "（本文なし・画像）", r["url"]))
