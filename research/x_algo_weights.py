@@ -10,7 +10,7 @@ Usage:
   py -3 x_algo_weights.py             # runs only if >= 3 days since last check
   py -3 x_algo_weights.py --force     # run now
   py -3 x_algo_weights.py --render    # print the full table (markdown) from the saved values
-Exit codes: 0 ok (no change / first baseline) / 10 changed / 2 fetch failed / 3 parse failed
+Exit codes: 0 ok (no change / first baseline / only items that do not matter for posts changed) / 10 an item that matters for posts changed / 2 fetch failed / 3 parse failed
 Files (all under research/data/x_algo/, not in git):
   latest.json  state.json  changes.md
 """
@@ -194,22 +194,34 @@ def fmt(v):
     return v if isinstance(v, str) else ("%g" % v)
 
 
+# 投稿づくりに落とし込めるものだけ。ここに無い項目（値0・設定・小さな係数）は、
+# 変わっても通知しない・資料の表に載せない（全項目は latest.json に残る）。
+RELEVANT = {
+    "ShareViaCopyLinkWeight", "BidirectionalFollowReplyWeightBoost", "ReplyWeight", "QuoteWeight",
+    "ShareViaDmWeight", "FollowAuthorWeight", "ShareWeight", "RetweetWeight", "FavoriteWeight",
+    "ContClickDwellTimeWeight", "ClickWeight", "OpenLinkWeight", "VideoOpenWeight", "PhotoExpandWeight",
+    "NotDwelledWeight", "ReportWeight", "MuteAuthorWeight", "NotInterestedWeight", "BlockAuthorWeight",
+    "OonWeightFactor", "AuthorDiversityDecay", "AuthorDiversityFloor",
+}
+
 SWITCH_CONFIRMED = {
     "EnableAuthorDiversity", "EnableOonRescoreForInNetworkRepliesRetweets", "MultiplierPreOffset",
     "PostUnexploredIncludeOutOfNetwork", "MinVideoDurationMs", "WeightPerturbationSalt", "DppMaxSelectedRank",
 }
 
 
-def render_table(data):
+def render_table(data, curated=True):
     weights = data.get("weights", {})
     others = data.get("others", {})
     fav = weights.get("FavoriteWeight") or 0.5
     order = [G_POS, G_LIGHT, G_NEG, G_ADJ, G_ZERO, G_SW, G_NEW]
     rows = {g: [] for g in order}
     for k, v in weights.items():
+        if curated and k not in RELEVANT:
+            continue
         g, label = LABELS.get(k, (G_NEW, k))
         rows[g].append((k, LABEL_FIX.get(k, label), v))
-    for k, v in others.items():
+    for k, v in ({} if curated else others).items():
         rows[G_SW].append((k, SWITCH_LABELS.get(k, "（新しい設定・未訳）"), v.split("=", 1)[1]))
     out = [
         "公式の値の取得：%s／コミット %s" % (data.get("fetched_at", "?"), data.get("commit", "?")),
@@ -249,16 +261,28 @@ def render_table(data):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--force", action="store_true")
-    ap.add_argument("--render", action="store_true")
+    ap.add_argument("--render", action="store_true", help="print the curated table (post-making items only)")
+    ap.add_argument("--render-all", action="store_true", help="print every param (for checking)")
+    ap.add_argument("--mark-reflected", action="store_true", help="record that the reference doc now matches the saved values")
     ap.add_argument("--interval-days", type=float, default=3.0)
     args = ap.parse_args()
 
-    if args.render:
+    if args.render or args.render_all:
         data = load_json(LATEST, None)
         if not data:
             print("no saved values yet (run with --force first)")
             return 2
-        print(render_table(data))
+        print(render_table(data, curated=not args.render_all))
+        return 0
+
+    if args.mark_reflected:
+        OUT.mkdir(parents=True, exist_ok=True)
+        st = load_json(STATE, {})
+        cur = load_json(LATEST, {})
+        st["needs_update"] = False
+        st["reflected_commit"] = cur.get("commit", "")
+        save_json(STATE, st)
+        print("marked as reflected (%s)" % st["reflected_commit"])
         return 0
 
     OUT.mkdir(parents=True, exist_ok=True)
@@ -319,25 +343,36 @@ def main():
         print("no change (%s)" % commit)
         return 0
 
+    def matters(k, a, b):
+        if k in RELEVANT:
+            return True
+        # a brand-new numeric weight that is not zero: unknown, so let the owner see it once
+        known = k in LABELS or k in SWITCH_LABELS
+        return a is None and not known and isinstance(b, float) and b != 0
+
+    important = [d for d in diffs if matters(*d)]
     lines = ["## %s  (commit %s)" % (stamp, commit), ""]
     for k, a, b in diffs:
+        tag = "" if matters(k, a, b) else "  (投稿づくりには影響しない項目)"
         if a is None:
-            lines.append("- NEW %s: %s" % (k, fmt(b)))
+            lines.append("- NEW %s: %s%s" % (k, fmt(b), tag))
         elif b is None:
-            lines.append("- REMOVED %s: was %s" % (k, fmt(a)))
+            lines.append("- REMOVED %s: was %s%s" % (k, fmt(a), tag))
         else:
-            lines.append("- %s: %s -> %s" % (k, fmt(a), fmt(b)))
+            lines.append("- %s: %s -> %s%s" % (k, fmt(a), fmt(b), tag))
     lines.append("")
     prev = CHANGES.read_text(encoding="utf-8") if CHANGES.exists() else "# X algorithm weight changes (newest first)" + chr(10) + chr(10)
     head, _, rest = prev.partition(chr(10) + chr(10))
     CHANGES.write_text(head + chr(10) + chr(10) + chr(10).join(lines) + chr(10) + rest, encoding="utf-8")
 
     save_json(LATEST, new_data)
+    if important:
+        state["needs_update"] = True
     save_json(STATE, state)
-    print("CHANGED: %d item(s)" % len(diffs))
+    print("CHANGED: %d item(s), %d matter for posts" % (len(diffs), len(important)))
     for k, a, b in diffs:
         print("  %s: %s -> %s" % (k, "(none)" if a is None else fmt(a), "(removed)" if b is None else fmt(b)))
-    return 10
+    return 10 if important else 0
 
 
 if __name__ == "__main__":
