@@ -106,6 +106,58 @@ SWITCH_LABELS = {
 }
 
 
+# name -> (どんな行動・調整か, 投稿づくりでの意味, 確度)
+# 確度: "確認済み"＝公式コード（xai-value-model/scoring.rs・weights.rs・inputs.rs）で動きを確かめた
+#       "推測"＝項目名からの推測（コードで確かめていない）
+DESC = {
+    "ShareViaCopyLinkWeight": ("投稿のリンクをコピーして共有する", "人に送りたくなる・保存したくなる、完結した中身か", "確認済み"),
+    "BidirectionalFollowReplyWeightBoost": ("相互フォロー相手の「原投稿」への返信（返信自体・リポストは対象外）の予測に、返信の重みへ足される", "相互フォローとの本物のやり取りが生まれる投稿か", "確認済み"),
+    "ReplyWeight": ("投稿に返信する", "返したくなる問い・余白・具体的な体験があるか", "確認済み"),
+    "QuoteWeight": ("投稿を引用して投稿する", "引用したくなる意見・視点があるか", "確認済み"),
+    "ShareViaDmWeight": ("投稿をDMで送る", "誰かに直接送りたくなる内容か", "確認済み"),
+    "FollowAuthorWeight": ("投稿を見て、その投稿者をフォローする", "アカウントとしての一貫性・価値が伝わるか", "確認済み"),
+    "ShareWeight": ("通常のシェアをする", "共有したくなる情報か", "確認済み"),
+    "RetweetWeight": ("リポストする", "リポストしたくなる情報か", "確認済み"),
+    "FavoriteWeight": ("いいねする", "基準の行動。これだけを狙わない", "確認済み"),
+    "ContClickDwellTimeWeight": ("投稿を開いたあと、どれだけ読み続けるか（予測した滞在時間に掛かる。確率ではない）", "開いたあとも読み進めたくなる構成・長さか", "確認済み（連続値。単位は秒と推測）"),
+    "ClickWeight": ("投稿をタップして開く", "開きたくなる1行目か", "確認済み"),
+    "OpenLinkWeight": ("投稿内のリンクを開く", "外部リンクは軽いプラス止まり。本文リンクは控えめに", "確認済み"),
+    "VideoOpenWeight": ("動画を開く", "動画は補助的", "確認済み"),
+    "PhotoExpandWeight": ("写真を拡大する", "画像で目を止められるか", "確認済み"),
+    "DwellWeight": ("投稿の上でしばらく止まる", "流し見されず、立ち止まらせられるか", "確認済み（確率）"),
+    "QuotedClickWeight": ("引用された元の投稿を開く", "引用の連鎖が起きるか", "確認済み"),
+    "PostUnexploredWeight": ("まだ見ていない投稿（フォロー中の人のものだけ。設定で、フォロー外にも使える）", "名前からの意味づけ。投稿づくりでは意識しにくい", "確認済み（対象の条件）／意味は推測"),
+    "ContDwellTimeWeight": ("投稿を見ている時間（予測した滞在時間に掛かる。確率ではない）", "滞在時間そのものの加点。係数が小さい", "確認済み（連続値）"),
+    "ReportWeight": ("投稿を報告する", "報告されうる表現は避ける（最優先）", "確認済み"),
+    "MuteAuthorWeight": ("投稿者をミュートする", "不快・攻撃的・スパム感を避ける", "確認済み"),
+    "NotInterestedWeight": ("「興味なし」を選ぶ", "興味のない人に押し付けない（ジャンルのぶれに注意）", "確認済み"),
+    "BlockAuthorWeight": ("投稿者をブロックする", "攻撃的な表現を避ける", "確認済み"),
+    "NotDwelledWeight": ("止まらずに通り過ぎる", "1行目で引っかけられないと、軽いマイナスになる", "確認済み"),
+    "BidirectionalFollowDwellWeightBoost": ("相互フォロー相手の原投稿の「滞在」に足される加算", "いまは0なので影響なし", "確認済み"),
+    "ProfileClickWeight": ("投稿者のプロフィールを開く", "いまは評価に入っていない", "確認済み"),
+    "VqvWeight": ("動画を十分な長さ見る（短すぎる動画は対象外）", "いまは評価に入っていない", "確認済み"),
+    "QuotedVqvWeight": ("引用元の動画を十分な長さ見る", "いまは評価に入っていない", "確認済み"),
+    "VideoContinuationWeight": ("動画を開いたあと、続けて見る時間", "いまは評価に入っていない", "確認済み"),
+    "UserVideoContinuationWeight": ("閲覧者ごとの、動画を続けて見る時間", "いまは評価に入っていない", "確認済み"),
+    "ProfileVisitSecsWeight": ("プロフィールを開いたあとの滞在時間", "いまは評価に入っていない", "確認済み"),
+    "ReactWithVideoWeight": ("動画つきで反応する", "いまは評価に入っていない", "確認済み"),
+    "WeightPerturbationSigma": ("閲覧者ごとに、すべての重みをランダムに少し上下させる幅", "0なので揺らしていない。0より大きくなると、重みは閲覧者ごとに変わる", "確認済み"),
+    "OonWeightFactor": ("フォロー外の投稿の最終スコアに掛ける。フォロー中の人の返信・リポストにも掛かる（設定が有効なため）", "フォロー外へ届くには、この割引（×0.75）を超える反応が要る", "確認済み"),
+    "TopicOonWeightFactor": ("話題経由で届くフォロー外の投稿に掛ける係数", "話題経由は、より強く割り引かれる", "推測"),
+    "NewUserOonWeightFactor": ("新規ユーザーに対するフォロー外の係数", "ほぼ0。新規ユーザーにはフォロー外が出にくい", "推測"),
+    "AuthorDiversityDecay": ("同じ閲覧者に出る同じ作者の投稿を、スコアの高い順に並べ、2本目以降に掛ける割引の速さ", "1本目×1.0、2本目×0.625、3本目×0.44、4本目×0.34、下限×0.25", "確認済み"),
+    "AuthorDiversityFloor": ("同じ作者の割引の下限", "どれだけ続けても×0.25より下がらない", "確認済み"),
+    "AuthorExplorationBonus": ("新しい作者への加点（スコアに足される）", "コード上は加点の仕組みがあるが、いまは常に0", "確認済み"),
+    "DppTheta": ("似た内容の投稿が並ばないよう、上位の並びを再調整する強さ", "同じ話題・同じ形の投稿は、並びで不利になりうる", "確認済み（仕組み）／強さの意味は推測"),
+}
+
+LABEL_FIX = {
+    "ContClickDwellTimeWeight": "開いたあとの滞在時間",
+    "ContDwellTimeWeight": "投稿を見ている時間",
+    "ClickWeight": "投稿を開く（タップ）",
+}
+
+
 def http_get(url, timeout=30):
     req = urllib.request.Request(url, headers={"User-Agent": "x-algo-weights-watcher"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
@@ -142,6 +194,12 @@ def fmt(v):
     return v if isinstance(v, str) else ("%g" % v)
 
 
+SWITCH_CONFIRMED = {
+    "EnableAuthorDiversity", "EnableOonRescoreForInNetworkRepliesRetweets", "MultiplierPreOffset",
+    "PostUnexploredIncludeOutOfNetwork", "MinVideoDurationMs", "WeightPerturbationSalt", "DppMaxSelectedRank",
+}
+
+
 def render_table(data):
     weights = data.get("weights", {})
     others = data.get("others", {})
@@ -150,7 +208,7 @@ def render_table(data):
     rows = {g: [] for g in order}
     for k, v in weights.items():
         g, label = LABELS.get(k, (G_NEW, k))
-        rows[g].append((k, label, v))
+        rows[g].append((k, LABEL_FIX.get(k, label), v))
     for k, v in others.items():
         rows[G_SW].append((k, SWITCH_LABELS.get(k, "（新しい設定・未訳）"), v.split("=", 1)[1]))
     out = [
@@ -165,17 +223,25 @@ def render_table(data):
             items.sort(key=lambda r: -abs(r[2]))
         out.append("### " + g)
         out.append("")
-        if g in (G_ADJ, G_SW):
-            out.append("| 項目 | 公式名 | 値 |")
-            out.append("|---|---|---|")
-            for k, label, v in items:
-                out.append("| %s | `%s` | %s |" % (label, k, fmt(v)))
-        else:
-            out.append("| 項目 | 公式名 | 値 | いいね基準 |")
+        if g == G_SW:
+            out.append("| 項目 | 値 | 役割 | 確度 |")
             out.append("|---|---|---|---|")
             for k, label, v in items:
+                conf = "確認済み" if k in SWITCH_CONFIRMED else "推測"
+                out.append("| `%s` | %s | %s | %s |" % (k, v, label, conf))
+        elif g == G_ADJ:
+            out.append("| 項目 | 値 | どんな調整か | 投稿づくりでの意味 | 確度 |")
+            out.append("|---|---|---|---|---|")
+            for k, label, v in items:
+                d = DESC.get(k, ("（未確認の新しい項目）", "", "未確認"))
+                out.append("| %s `%s` | %s | %s | %s | %s |" % (label, k, fmt(v), d[0], d[1], d[2]))
+        else:
+            out.append("| 項目 | 値 | いいね基準 | どんな行動か | 投稿づくりでの意味 | 確度 |")
+            out.append("|---|---|---|---|---|---|")
+            for k, label, v in items:
                 rel = "" if v == 0 else "約%.3g倍" % (v / fav)
-                out.append("| %s | `%s` | %s | %s |" % (label, k, fmt(v), rel))
+                d = DESC.get(k, ("（未確認の新しい項目）", "", "未確認"))
+                out.append("| %s `%s` | %s | %s | %s | %s | %s |" % (label, k, fmt(v), rel, d[0], d[1], d[2]))
         out.append("")
     return chr(10).join(out)
 
