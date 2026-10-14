@@ -111,12 +111,13 @@ gitに入れないもの（このPCにだけある）：
 
 | 項目 | 内容 |
 |---|---|
-| 何を取るか | 公式リポジトリ `xai-org/x-algorithm` の `vm-ranker/params.rs`（`main`の生ファイル）。重み39個 |
+| 何を取るか | 公式リポジトリ `xai-org/x-algorithm` の `vm-ranker/params.rs`（`main`の生ファイル）。数値の重み39個＋切り替え・上限の設定12個＝全51項目。**増えた項目も自動で拾う** |
 | いつ | PCにログインした5分後。**前回から3日たっていなければ何もしない**（タスクスケジューラ `XAlgoWeightsCheck`） |
 | 動くもの | `research/x_algo_weights.py`（本体）・`research/run_x_algo_weights.cmd`（起動）。通知は `research_alert.vbs` を共用 |
 | 保存先（gitに入らない） | `research/data/x_algo/latest.json`（今の値）・`changes.md`（変更の記録。新しい順）・`state.json`・ログ `research/data/logs/x_algo.log` |
 | 終了コード | 0＝変化なし／10＝値が変わった（通知が出る）／2＝取得失敗（次のログインでやり直す）／3＝ファイルの作りが変わって読めない（スクリプトの修正が要る） |
 | 資料への反映 | **自動では書き換えない**。値が変わったら「Xアルゴリズムの更新」とClaudeに伝える→差分を見せる→確認後に `brands/reference/x_algorithm_2026.md` の重み表を置き換える |
+| 表の作り方 | `py -3 research/x_algo_weights.py --render`（保存した全項目を、日本語名つきの表にして出す。資料の重み表は、この出力で置き換える。日本語名が無い新しい項目は「新しい項目（未訳）」に入る。名前は `x_algo_weights.py` の `LABELS`・`SWITCH_LABELS` に足す） |
 | 手で動かす | `py -3 research/x_algo_weights.py --force`（3日たっていなくても今すぐ確かめる） |
 | 止める | タスクスケジューラで `XAlgoWeightsCheck` を無効にする |
 
