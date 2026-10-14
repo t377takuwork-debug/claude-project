@@ -1,0 +1,3 @@
+# shira_note の下書きは、書き換えツール（tools/draft_patch.py）がLF前提のため、改行をLFに固定する。
+# （Windowsのgit既定でCRLFに変わり、ツールが「改行がCRLFです」で止まるのを防ぐ）
+blogs/shira_note/drafts/*.txt text eol=lf
