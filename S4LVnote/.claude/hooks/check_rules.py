@@ -63,7 +63,7 @@ SKIP_NAMES = {"check_rules.py"}
 # Note記事の決まり。言葉だけ調べる（名前を挙げた先は調べない）
 TERMS_ONLY_NAMES = {"project_s4lv_note_article_process.md", "note_article_checklist.md"}
 # これから作る予定のファイル（まだ無くてよい）
-ALLOW_MISSING = {"s4lv_learnings_archive.md"}
+ALLOW_MISSING = {"s4lv_learnings_archive.md", "changes.md"}
 
 # --- もう使わない言葉・旧いファイル名 ----------------------------------------
 # (説明, 正規表現, 範囲)  範囲: "all"＝全部のファイル／"own"＝s4lvのファイルだけ
