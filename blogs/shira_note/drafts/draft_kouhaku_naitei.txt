@@ -1,7 +1,7 @@
 <!-- wp:paragraph -->
 タイトル：紅白歌合戦の内定者＆追加出場者｜最新情報まとめ(2026-2027)
 メタディスクリプション（82字）：
-紅白歌合戦2026内定速報！司会は芦田愛菜・堺雅人・二宮和也・鈴木奈穂子。近藤真彦がリストアップ、EBiDANの初出場濃厚報道やtimeleszの打診報道にも注目。
+紅白歌合戦2026内定速報！司会は芦田愛菜・堺雅人・二宮和也・鈴木奈穂子。近藤真彦のリストアップや昭和アイドル企画の調整報道、timeleszの打診報道にも注目。
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -13,17 +13,17 @@
 <aside class="kouhaku-naitei-board" role="region" aria-label="第77回NHK紅白歌合戦 内定者・追加出場者の最新情報" style="position:relative;margin:12px 0;border:1px solid #e6e1d3;border-left:6px solid #a08a3c;border-radius:10px;overflow:hidden;background:#ffffff;color:#1f2937;font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;box-shadow:0 6px 18px rgba(60,50,20,0.10);">
   <div style="padding:10px 12px 6px;display:flex;justify-content:space-between;align-items:baseline;gap:6px 10px;flex-wrap:wrap;">
     <div style="font-size:clamp(14px, calc(14px + (100vw - 480px) / 300), 18px);font-weight:900;color:#a08a3c;letter-spacing:0.04em;">第77回 紅白歌合戦｜内定者・追加出場者</div>
-    <div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 300), 12px);font-weight:700;color:#6b7280;">2026年10月9日時点</div>
+    <div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 300), 12px);font-weight:700;color:#6b7280;">2026年10月15日時点</div>
   </div>
   <div style="padding:2px 12px 12px;display:grid;gap:10px;">
-    <div style="display:flex;gap:8px;flex-wrap:wrap;"><div style="flex:1 1 140px;min-width:0;border:1px solid #ece7da;border-top:3px solid #d21f2f;border-radius:8px;padding:8px 10px;background:#faf8f2;"><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;">NHKの正式発表</div><div style="font-size:clamp(22px, calc(22px + (100vw - 480px) / 120), 30px);font-weight:900;color:#d21f2f;line-height:1.2;margin-top:2px;">0組</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;font-weight:600;margin-top:2px;">出場者は未発表（例年は11月中旬）</div></div><div style="flex:1 1 140px;min-width:0;border:1px solid #ece7da;border-top:3px solid #2f7a4d;border-radius:8px;padding:8px 10px;background:#faf8f2;"><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;">報道が出ている歌手</div><div style="font-size:clamp(22px, calc(22px + (100vw - 480px) / 120), 30px);font-weight:900;color:#2f7a4d;line-height:1.2;margin-top:2px;">3組</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;font-weight:600;margin-top:2px;">いずれも確定ではありません</div></div></div>
-    <div><span style="display:inline-block;border:1px solid #a08a3c;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:800;color:#6b5a1f;background:#ffffff;">近藤真彦</span><span style="display:inline-block;border:1px solid #a08a3c;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:800;color:#6b5a1f;background:#ffffff;">EBiDAN</span><span style="display:inline-block;border:1px solid #a08a3c;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:800;color:#6b5a1f;background:#ffffff;">timelesz</span></div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap;"><div style="flex:1 1 140px;min-width:0;border:1px solid #ece7da;border-top:3px solid #d21f2f;border-radius:8px;padding:8px 10px;background:#faf8f2;"><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;">NHKの正式発表</div><div style="font-size:clamp(22px, calc(22px + (100vw - 480px) / 120), 30px);font-weight:900;color:#d21f2f;line-height:1.2;margin-top:2px;">0組</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;font-weight:600;margin-top:2px;">出場者は未発表（例年は11月中旬）</div></div><div style="flex:1 1 140px;min-width:0;border:1px solid #ece7da;border-top:3px solid #2f7a4d;border-radius:8px;padding:8px 10px;background:#faf8f2;"><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;">報道が出ている話題</div><div style="font-size:clamp(22px, calc(22px + (100vw - 480px) / 120), 30px);font-weight:900;color:#2f7a4d;line-height:1.2;margin-top:2px;">5件</div><div style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;font-weight:600;margin-top:2px;">いずれも確定ではありません</div></div></div>
+    <div><span style="display:inline-block;border:1px solid #a08a3c;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:800;color:#6b5a1f;background:#ffffff;">近藤真彦</span><span style="display:inline-block;border:1px solid #a08a3c;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:800;color:#6b5a1f;background:#ffffff;">昭和アイドル企画</span><span style="display:inline-block;border:1px solid #a08a3c;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:800;color:#6b5a1f;background:#ffffff;">EBiDAN</span><span style="display:inline-block;border:1px solid #a08a3c;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:800;color:#6b5a1f;background:#ffffff;">Mrs. GREEN APPLE・YOASOBI</span><span style="display:inline-block;border:1px solid #a08a3c;border-radius:999px;padding:2px 10px;margin:0 6px 6px 0;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:800;color:#6b5a1f;background:#ffffff;">timelesz</span></div>
     <div style="display:flex;gap:10px;align-items:baseline;border-top:1px solid #ece7da;padding-top:8px;"><span style="flex:0 0 auto;min-width:48px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;">司会</span><span style="flex:1;min-width:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;color:#1f2937;line-height:1.6;">芦田愛菜／堺雅人／二宮和也／鈴木奈穂子アナ（決定）</span></div>
     <div style="display:flex;gap:10px;align-items:baseline;border-top:1px solid #ece7da;padding-top:8px;"><span style="flex:0 0 auto;min-width:48px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;color:#6b7280;letter-spacing:0.04em;">放送</span><span style="flex:1;min-width:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;color:#1f2937;line-height:1.6;"><time datetime="2026-12-31T19:20:00+09:00">2026.12.31 (木) 19:20</time>〜<time datetime="2026-12-31T23:45:00+09:00">23:45</time>／NHK総合ほか</span></div>
   </div>
   <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px 10px;padding:8px 12px;background:#faf8f2;border-top:1px solid #ece7da;">
     <a href="#naitei-sokuho" style="display:inline-block;text-decoration:none;background:#a08a3c;color:#ffffff;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:900;padding:7px 16px;border-radius:999px;letter-spacing:0.04em;line-height:1.3;">内定報道を見る ▼</a>
-    <div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);color:#9a9484;line-height:1.5;">最終更新: <time datetime="2026-10-09">2026.10.09</time></div>
+    <div style="font-size:clamp(9px, calc(9px + (100vw - 480px) / 240), 12px);color:#9a9484;line-height:1.5;">最終更新: <time datetime="2026-10-15">2026.10.15</time></div>
   </div>
 </aside>
 <!-- /wp:html -->
@@ -113,7 +113,7 @@
 <!-- /wp:html -->
 
 <!-- wp:heading {"level":3} -->
-<h3>出場者の最新内定速報【2026年10月9日時点】</h3>
+<h3>出場者の最新内定速報【2026年10月15日時点】</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -122,8 +122,10 @@
 
 <!-- wp:html -->
 <div style="margin:10px 0;border:1px solid #e6e1d3;border-radius:10px;overflow:hidden;background:#ffffff;box-shadow:0 2px 8px rgba(60,50,20,0.07);font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;"><div style="padding:8px 12px;background:#faf8f2;border-bottom:1px solid #ece7da;"><div style="font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 18px);font-weight:900;color:#1f2937;line-height:1.4;">近藤真彦</div><div style="margin-top:4px;"><span style="display:inline-block;background:#d21f2f;color:#ffffff;border-radius:4px;padding:1px 8px;margin:0 6px 4px 0;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">報道：リストアップ</span><span style="display:inline-block;border:1px solid #9ca3af;color:#4b5563;border-radius:4px;padding:1px 8px;margin:0 0 4px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">正式発表なし</span></div></div><div style="padding:10px 12px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:600;color:#1f2937;line-height:1.7;">出場歌手に「リストアップ」されているとのことです。制作側が近く正式に出演を打診する方向で、最終調整しているそうです。決まれば2015年以来11年ぶり11回目になります。</div><div style="margin-top:6px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:700;color:#6b7280;line-height:1.5;">出所：スポニチアネックス（10/8）</div></div></div>
-<div style="margin:10px 0;border:1px solid #e6e1d3;border-radius:10px;overflow:hidden;background:#ffffff;box-shadow:0 2px 8px rgba(60,50,20,0.07);font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;"><div style="padding:8px 12px;background:#faf8f2;border-bottom:1px solid #ece7da;"><div style="font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 18px);font-weight:900;color:#1f2937;line-height:1.4;">EBiDAN<span style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:600;color:#6b7280;margin-left:6px;">（M!LKを含む）</span></div><div style="margin-top:4px;"><span style="display:inline-block;background:#d21f2f;color:#ffffff;border-radius:4px;padding:1px 8px;margin:0 6px 4px 0;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">報道：初出場が濃厚（分析）</span><span style="display:inline-block;border:1px solid #9ca3af;color:#4b5563;border-radius:4px;padding:1px 8px;margin:0 0 4px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">正式発表なし</span></div></div><div style="padding:10px 12px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:600;color:#1f2937;line-height:1.7;">新曲「Yes! 東京」のヒットなどから、初出場が濃厚と分析されています。放送コラムニストの分析記事なので、報道というより見立てに近い内容です。M!LKとの扱いにも触れています。</div><div style="margin-top:6px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:700;color:#6b7280;line-height:1.5;">出所：デイリー新潮（9/9）</div></div></div>
-<div style="margin:10px 0;border:1px solid #e6e1d3;border-radius:10px;overflow:hidden;background:#ffffff;box-shadow:0 2px 8px rgba(60,50,20,0.07);font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;"><div style="padding:8px 12px;background:#faf8f2;border-bottom:1px solid #ece7da;"><div style="font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 18px);font-weight:900;color:#1f2937;line-height:1.4;">timelesz</div><div style="margin-top:4px;"><span style="display:inline-block;background:#d21f2f;color:#ffffff;border-radius:4px;padding:1px 8px;margin:0 6px 4px 0;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">報道：打診あり・出場は絶望視</span><span style="display:inline-block;border:1px solid #9ca3af;color:#4b5563;border-radius:4px;padding:1px 8px;margin:0 0 4px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">正式発表なし</span></div></div><div style="padding:10px 12px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:600;color:#1f2937;line-height:1.7;">NHKから打診はあったものの出場は絶望視されているという内容です。</div><div style="margin-top:6px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:700;color:#6b7280;line-height:1.5;">出所：SmartFLASH（9/22）</div></div></div>
+<div style="margin:10px 0;border:1px solid #e6e1d3;border-radius:10px;overflow:hidden;background:#ffffff;box-shadow:0 2px 8px rgba(60,50,20,0.07);font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;"><div style="padding:8px 12px;background:#faf8f2;border-bottom:1px solid #ece7da;"><div style="font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 18px);font-weight:900;color:#1f2937;line-height:1.4;">昭和アイドルの特集企画</div><div style="margin-top:4px;"><span style="display:inline-block;background:#d21f2f;color:#ffffff;border-radius:4px;padding:1px 8px;margin:0 6px 4px 0;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">報道：特集企画を調整中</span><span style="display:inline-block;border:1px solid #9ca3af;color:#4b5563;border-radius:4px;padding:1px 8px;margin:0 0 4px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">正式発表なし</span></div></div><div style="padding:10px 12px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:600;color:#1f2937;line-height:1.7;">NHKが昭和アイドルを特集する企画を実施する方向で調整しているそうです。局関係者の話として、出演交渉を進めながら演出プランを練っている段階と伝えています。名前が挙がっているのは、近藤真彦さん・野村義男さん・中森明菜さん・岩崎良美さん・松本伊代さん・早見優さん・西村知美さん・野口五郎さんです。いずれもリストアップの段階で、出演が決まったわけではありません。</div><div style="margin-top:6px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:700;color:#6b7280;line-height:1.5;">出所：スポニチアネックス（10/13）</div></div></div>
+<div style="margin:10px 0;border:1px solid #e6e1d3;border-radius:10px;overflow:hidden;background:#ffffff;box-shadow:0 2px 8px rgba(60,50,20,0.07);font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;"><div style="padding:8px 12px;background:#faf8f2;border-bottom:1px solid #ece7da;"><div style="font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 18px);font-weight:900;color:#1f2937;line-height:1.4;">EBiDAN<span style="font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:600;color:#6b7280;margin-left:6px;">（M!LKを含む）</span></div><div style="margin-top:4px;"><span style="display:inline-block;background:#d21f2f;color:#ffffff;border-radius:4px;padding:1px 8px;margin:0 6px 4px 0;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">報道：初出場が濃厚（分析）</span><span style="display:inline-block;border:1px solid #9ca3af;color:#4b5563;border-radius:4px;padding:1px 8px;margin:0 0 4px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">正式発表なし</span></div></div><div style="padding:10px 12px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:600;color:#1f2937;line-height:1.7;">新曲「Yes! 東京」のヒットなどから、初出場が濃厚と分析されています。放送コラムニストの分析記事なので、報道というより見立てに近い内容です。M!LKとの扱いにも触れています。10/12には日刊ゲンダイDIGITALが、見出しでM!LKの紅白出場を「確実視」と伝えました。</div><div style="margin-top:6px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:700;color:#6b7280;line-height:1.5;">出所：デイリー新潮（9/9）、日刊ゲンダイDIGITAL（10/12）</div></div></div>
+<div style="margin:10px 0;border:1px solid #e6e1d3;border-radius:10px;overflow:hidden;background:#ffffff;box-shadow:0 2px 8px rgba(60,50,20,0.07);font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;"><div style="padding:8px 12px;background:#faf8f2;border-bottom:1px solid #ece7da;"><div style="font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 18px);font-weight:900;color:#1f2937;line-height:1.4;">Mrs. GREEN APPLE・YOASOBI</div><div style="margin-top:4px;"><span style="display:inline-block;background:#d21f2f;color:#ffffff;border-radius:4px;padding:1px 8px;margin:0 6px 4px 0;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">報道：目玉と観測（出所不明）</span><span style="display:inline-block;border:1px solid #9ca3af;color:#4b5563;border-radius:4px;padding:1px 8px;margin:0 0 4px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">正式発表なし</span></div></div><div style="padding:10px 12px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:600;color:#1f2937;line-height:1.7;">今年の目玉はこの2組で決まりか、と伝える記事です。2組ともスケジュールを押さえたとされていますが、情報源は書かれておらず、伝聞の形です。見立てに近い内容なので、参考程度にどうぞ。</div><div style="margin-top:6px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:700;color:#6b7280;line-height:1.5;">出所：内外タイムス（10/14）</div></div></div>
+<div style="margin:10px 0;border:1px solid #e6e1d3;border-radius:10px;overflow:hidden;background:#ffffff;box-shadow:0 2px 8px rgba(60,50,20,0.07);font-family:'Inter', 'Helvetica Neue', Arial, 'Hiragino Sans', Meiryo, sans-serif;"><div style="padding:8px 12px;background:#faf8f2;border-bottom:1px solid #ece7da;"><div style="font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 18px);font-weight:900;color:#1f2937;line-height:1.4;">timelesz</div><div style="margin-top:4px;"><span style="display:inline-block;background:#d21f2f;color:#ffffff;border-radius:4px;padding:1px 8px;margin:0 6px 4px 0;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">報道：打診あり・出場は絶望視</span><span style="display:inline-block;border:1px solid #9ca3af;color:#4b5563;border-radius:4px;padding:1px 8px;margin:0 0 4px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:800;">正式発表なし</span></div></div><div style="padding:10px 12px;"><div style="font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:600;color:#1f2937;line-height:1.7;">NHKから打診はあったものの出場は絶望視されているという内容です。10/13にはピンズバNEWSも、メンバーの件を受けて2年連続の出場は厳しいとの見方を、匿名の関係者の話として伝えています。</div><div style="margin-top:6px;font-size:clamp(10px, calc(10px + (100vw - 480px) / 240), 13px);font-weight:700;color:#6b7280;line-height:1.5;">出所：SmartFLASH（9/22）、ピンズバNEWS（10/13）</div></div></div>
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
@@ -131,7 +133,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>10月9日時点で筆者が調べたかぎり、このほかの報道はまだ見つかっていません。</p>
+<p>10月15日時点で筆者が調べたかぎり、このほかの報道はまだ見つかっていません。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -147,7 +149,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>第76回は2025年11月14日の発表でした。第77回は10月9日時点で、まだ発表を待っているところです。</p>
+<p>第76回は2025年11月14日の発表でした。第77回は10月15日時点で、まだ発表を待っているところです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -449,7 +451,7 @@
   <div style="display:flex;gap:10px;align-items:flex-start;padding:12px;">
     <span style="flex:0 0 auto;min-width:30px;text-align:center;color:#a08a3c;font-size:clamp(15px, calc(15px + (100vw - 480px) / 240), 18px);font-weight:900;line-height:1.4;">A</span>
     <div style="flex:1;min-width:0;">
-      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:600;color:#1f2937;line-height:1.7;">出場者は、例年11月中旬ごろにNHKが発表しています。第76回は2025年11月14日で、第77回は10月9日時点でまだ発表されていません。</p>
+      <p style="margin:0;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:600;color:#1f2937;line-height:1.7;">出場者は、例年11月中旬ごろにNHKが発表しています。第76回は2025年11月14日で、第77回は10月15日時点でまだ発表されていません。</p>
       <p style="margin:10px 0 0;padding:8px 10px;background:#faf8f2;border-left:3px solid #a08a3c;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;color:#4b5563;line-height:1.7;">✔ 過去の傾向：11/12〜11/19頃が多い<br>✔ 発表前の報道は確定情報ではありません</p>
     </div>
   </div>
@@ -490,11 +492,11 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出場の報道は、近藤真彦さんのリストアップ・EBiDANの初出場が濃厚という分析・timeleszの打診の3つが出ていました。</p>
+<p>出場に関する報道は、近藤真彦さんのリストアップ・昭和アイドル企画の調整・EBiDANの初出場が濃厚という分析・Mrs. GREEN APPLEとYOASOBIが目玉という観測・timeleszの打診の5つが出ています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出場歌手は10月9日時点で未発表なので、正式な発表を待ちたいところです。</p>
+<p>出場歌手は10月15日時点で未発表なので、正式な発表を待ちたいところです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -635,7 +637,7 @@
         "@id": "https://shira-treat.com/kouhaku-naitei/"
       },
       "headline": "紅白歌合戦の内定者＆追加出場者｜最新情報まとめ(2026-2027)",
-      "description": "紅白歌合戦2026内定速報！司会は芦田愛菜・堺雅人・二宮和也・鈴木奈穂子。近藤真彦がリストアップ、EBiDANの初出場濃厚報道やtimeleszの打診報道にも注目。",
+      "description": "紅白歌合戦2026内定速報！司会は芦田愛菜・堺雅人・二宮和也・鈴木奈穂子。近藤真彦のリストアップや昭和アイドル企画の調整報道、timeleszの打診報道にも注目。",
       "image": {
         "@type": "ImageObject",
         "@id": "https://shira-treat.com/kouhaku-naitei/#primaryimage",
@@ -645,7 +647,7 @@
       },
       "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2025/12/image-13-1.webp",
       "datePublished": "2025-12-03T18:59:23+09:00",
-      "dateModified": "2026-10-09T10:18:22+09:00",
+      "dateModified": "2026-10-15T12:00:00+09:00",
       "author": {
         "@type": "Person",
         "name": "Shira Notes",
@@ -723,7 +725,7 @@
           "name": "出場者の正式発表はいつ？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "出場者は、例年11月中旬ごろにNHKが発表しています。第76回は2025年11月14日で、第77回は10月9日時点でまだ発表されていません。"
+            "text": "出場者は、例年11月中旬ごろにNHKが発表しています。第76回は2025年11月14日で、第77回は10月15日時点でまだ発表されていません。"
           }
         },
         {
