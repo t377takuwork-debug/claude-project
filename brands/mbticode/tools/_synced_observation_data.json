@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T14:35:41.350Z",
+  "generated_at": "2026-10-14T14:35:27.689Z",
   "observations": [
     {
       "date": "2026-07-26",
@@ -1039,6 +1039,19 @@
       "engagement_rate": 0.403,
       "reply_rate": 0.001,
       "like_rate": 0.395,
+      "repost_rate": 0.006
+    },
+    {
+      "date": "2026-10-14",
+      "post_count": 220,
+      "views": 98439,
+      "likes": 387,
+      "replies": 1,
+      "reposts": 6,
+      "quotes": 0,
+      "engagement_rate": 0.4,
+      "reply_rate": 0.001,
+      "like_rate": 0.393,
       "repost_rate": 0.006
     }
   ],
