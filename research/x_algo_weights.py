@@ -174,7 +174,7 @@ def render_table(data):
             out.append("| 項目 | 公式名 | 値 | いいね基準 |")
             out.append("|---|---|---|---|")
             for k, label, v in items:
-                rel = "" if v == 0 else "約%.2g倍" % (v / fav)
+                rel = "" if v == 0 else "約%.3g倍" % (v / fav)
                 out.append("| %s | `%s` | %s | %s |" % (label, k, fmt(v), rel))
         out.append("")
     return chr(10).join(out)

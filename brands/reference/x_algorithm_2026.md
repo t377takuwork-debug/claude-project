@@ -73,10 +73,10 @@
 
 | 項目 | 公式名 | 値 | いいね基準 |
 |---|---|---|---|
-| 報告 | `ReportWeight` | -234 | 約-4.7e+02倍 |
-| 投稿者をミュート | `MuteAuthorWeight` | -58.8 | 約-1.2e+02倍 |
+| 報告 | `ReportWeight` | -234 | 約-468倍 |
+| 投稿者をミュート | `MuteAuthorWeight` | -58.8 | 約-118倍 |
 | 興味なし | `NotInterestedWeight` | -47.52 | 約-95倍 |
-| 投稿者をブロック | `BlockAuthorWeight` | -31.2 | 約-62倍 |
+| 投稿者をブロック | `BlockAuthorWeight` | -31.2 | 約-62.4倍 |
 | 止まらずスクロールして通過 | `NotDwelledWeight` | -0.02 | 約-0.04倍 |
 
 ### 表示の調整
