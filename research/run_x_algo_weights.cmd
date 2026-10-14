@@ -1,6 +1,6 @@
 @echo off
-rem X algorithm weights watcher (every 3 days). Called from Windows Task Scheduler (XAlgoWeightsCheck) at logon.
-rem The script itself skips when less than 3 days have passed. Guide: docs\sop\sop_research_auto_collect.md
+rem X algorithm weights watcher (every 2 days). Called from Windows Task Scheduler (XAlgoWeightsCheck) at logon.
+rem The script itself skips when less than 2 days have passed. Guide: docs\sop\sop_research_auto_collect.md
 rem Exit codes: 0 ok / 10 changed / 2 fetch failed / 3 parse failed.  Log: research\data\logs\x_algo.log (append)
 set "HERE=C:\Users\PC_User\claude project\research"
 set "PY=C:\Users\PC_User\AppData\Local\Python\pythoncore-3.14-64\python.exe"

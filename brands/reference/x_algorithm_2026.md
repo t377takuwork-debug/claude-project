@@ -1,6 +1,6 @@
 # X アルゴリズム資料（2026年9月4日改訂）
 
-> 更新方法：公式の値は3日に1回、自動で確かめる（`research/x_algo_weights.py`。説明は `docs/sop/sop_research_auto_collect.md`）。値が変わったら、差分を確認してから下の重み表を置き換える
+> 更新方法：公式の値は2日に1回、自動で確かめる（`research/x_algo_weights.py`。説明は `docs/sop/sop_research_auto_collect.md`）。値が変わったら、差分を確認してから下の重み表を置き換える
 > 対象：brands配下の全アカウント（MBTICODE / s4lv）共通
 > 資料元：X公式ヘルプ「About our approach to recommendations」、xAI公開リポジトリ（github.com/xai-org/x-algorithm）、Business Insider（2026-08-14）、FrameOS（2026-08-29）、TechCrunch・The Verge等の一次取材報道、および2026-08-21〜09-04の実投稿観察（調査資料`X_algorithm_research_20260904.docx`）
 > Threads側の資料は`threads_algorithm_2026.md`へ分離（2026-08-23新設）
@@ -185,4 +185,4 @@
 
 - 2026年1月20日、xAIが `github.com/xai-org/x-algorithm` を公開（旧twitter/the-algorithmから刷新、Grok系トランスフォーマー＝Phoenix導入）
 - 2026年8月13〜14日、ウェイト（param.rs）・可視性フィルタ・ラベル付与系・Phoenix学習コードを追加（リポジトリ規模が10〜15倍に拡大）
-- 2026年9月初旬時点で日次更新＋外部PR本番取り込みが進行中。**ウェイト・フィルタは今後の更新で変わりうる**（本資料の重み表は、2026-10-14時点の公式の値。以後は3日に1回の自動確認で、変化に気づける）
+- 2026年9月初旬時点で日次更新＋外部PR本番取り込みが進行中。**ウェイト・フィルタは今後の更新で変わりうる**（本資料の重み表は、2026-10-14時点の公式の値。以後は2日に1回の自動確認で、変化に気づける）

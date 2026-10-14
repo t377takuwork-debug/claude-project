@@ -7,7 +7,7 @@ It never edits the reference document by itself: the owner confirms first.
 Guide: docs/sop/sop_research_auto_collect.md ("X algorithm weights" section)
 
 Usage:
-  py -3 x_algo_weights.py             # runs only if >= 3 days since last check
+  py -3 x_algo_weights.py             # runs only if >= 2 days since last check
   py -3 x_algo_weights.py --force     # run now
   py -3 x_algo_weights.py --render    # print the full table (markdown) from the saved values
 Exit codes: 0 ok (no change / first baseline / only items that do not matter for posts changed) / 10 an item that matters for posts changed / 2 fetch failed / 3 parse failed
@@ -264,7 +264,7 @@ def main():
     ap.add_argument("--render", action="store_true", help="print the curated table (post-making items only)")
     ap.add_argument("--render-all", action="store_true", help="print every param (for checking)")
     ap.add_argument("--mark-reflected", action="store_true", help="record that the reference doc now matches the saved values")
-    ap.add_argument("--interval-days", type=float, default=3.0)
+    ap.add_argument("--interval-days", type=float, default=2.0)
     args = ap.parse_args()
 
     if args.render or args.render_all:

@@ -112,13 +112,13 @@ gitに入れないもの（このPCにだけある）：
 | 項目 | 内容 |
 |---|---|
 | 何を取るか | 公式リポジトリ `xai-org/x-algorithm` の `vm-ranker/params.rs`（`main`の生ファイル）。全51項目を保存し、変化を見張る。**投稿づくりに使うのは、そのうち22項目だけ**（`x_algo_weights.py` の `RELEVANT`。値0・設定・小さな係数は除く） |
-| いつ | PCにログインした5分後。**前回から3日たっていなければ何もしない**（タスクスケジューラ `XAlgoWeightsCheck`） |
+| いつ | PCにログインした5分後。**前回から2日たっていなければ何もしない**（タスクスケジューラ `XAlgoWeightsCheck`） |
 | 動くもの | `research/x_algo_weights.py`（本体）・`research/run_x_algo_weights.cmd`（起動）。通知は `research_alert.vbs` を共用 |
 | 保存先（gitに入らない） | `research/data/x_algo/latest.json`（全項目の今の値）・`changes.md`（変更の記録。新しい順。影響しない項目には印が付く）・`state.json`（`needs_update`＝資料への反映待ちか）・ログ `research/data/logs/x_algo.log` |
 | 終了コード | 0＝変化なし、または投稿づくりに関係しない項目だけが変わった（通知なし）／10＝**投稿づくりに関わる項目**が変わった、または未知の新しい重みが増えた（通知が出る）／2＝取得失敗（次のログインでやり直す）／3＝ファイルの作りが変わって読めない（スクリプトの修正が要る） |
 | 資料への反映 | **自動では書き換えない**。変わったら、S4LVnoteの作業開始時に1行で知らせる。「Xアルゴリズムの更新」と伝える→差分を見せる→確認後に `--render` の出力で `brands/reference/x_algorithm_2026.md` の重み表を置き換え、`--mark-reflected` を実行する |
 | 表の作り方 | `py -3 research/x_algo_weights.py --render`（投稿づくりに使う項目だけを、日本語名・役割・確度つきの表にして出す。全項目は `--render-all`）。日本語名は `LABELS`・`SWITCH_LABELS`、役割と確度（確認済み／推測）は `DESC` に書く。確認は公式コードの `xai-value-model/scoring.rs`・`weights.rs`・`inputs.rs` で行う |
-| 手で動かす | `py -3 research/x_algo_weights.py --force`（3日たっていなくても今すぐ確かめる） |
+| 手で動かす | `py -3 research/x_algo_weights.py --force`（2日たっていなくても今すぐ確かめる） |
 | 止める | タスクスケジューラで `XAlgoWeightsCheck` を無効にする |
 
 - 公式の値は「公開されている初期値」で、本番の動きとずれることがある。「必ず伸びる」とは言わず、「有利になりやすい方向」として使う。
