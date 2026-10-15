@@ -166,7 +166,7 @@ NAV_BLOCK_END_MARKERS = ("出演者の作品を探す", "レコードを探す")
 # 旧記事は読点が多いなど当時の書き方のままなので、全記事に適用すると警告が大量に出る（2026-09-26実測：約80件）。
 # そのため新規記事だけを登録する。登録していない記事には、参考（INFO）を1行だけ出す。
 # 新規記事を立ち上げたら、ここへファイル名を足す（rewrite_common_rules.md 16章の文体ルールを機械で守るため）。
-STYLE_STRICT_FILES = {"draft_allstar_marathon.txt", "draft_kouhaku_naitei.txt"}
+STYLE_STRICT_FILES = {"draft_allstar_marathon.txt", "draft_kouhaku_naitei.txt", "draft_owarainohi.txt"}
 # 人物ごとに1ファイル作る記事は、名前の前半でまとめて登録する（毎回の追記を不要にする）
 STYLE_STRICT_PREFIXES = ("draft_onirenchan_",)
 # HTMLタグ（div・section・aside・details・span・p・a 等）の開始と終了の数が合っているかを「エラー」にするファイル。

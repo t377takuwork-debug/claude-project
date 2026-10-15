@@ -1,0 +1,2036 @@
+<!-- wp:paragraph -->
+タイトル：お笑いの日2026のタイムテーブル｜順番・スケジュールを時間別まとめ
+
+メタディスクリプション（99字）：
+お笑いの日2026（2026年10月17日・TBS系）のタイムテーブルとスケジュール。午後2時スタートの生放送で、敗者復活戦・芸人総選挙・キングオブコント決勝の順番と出演者を時間別にまとめています。
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][title][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>2026年10月17日（土）放送の『お笑いの日2026』について、タイムテーブルとスケジュール・企画の順番・出演者をまとめています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="お笑いの日2026 速報ガイド" style="display: block; font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', sans-serif; background: #ffffff; color: #333333; border: 1px solid #e0e0e0; border-radius: 4px; overflow: hidden; position: relative; max-width: 100%; margin: 10px 0; box-shadow: 0 10px 30px rgba(0,0,0,0.08);">
+
+  <div style="position: relative; background: #0a0a0f; padding: 10px 15px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #1fc8ee;">
+    <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.1em; color: #1fc8ee;">お笑いの日2026</div>
+    <div style="display: flex; align-items: center; gap: 6px; font-size: 9px; font-weight: 600; color: #fff; border-left: 1px solid rgba(31, 200, 238, 0.4); padding-left: 10px; white-space: nowrap;">
+      10/17 放送分
+    </div>
+  </div>
+
+  <div style="position: relative; padding: 20px 12px; display: grid; gap: 15px;">
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; border: 1px solid #0a0a0f; color: #0a0a0f; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 2px;">放送日</div>
+      <div style="flex: 1;">
+        <span style="font-size: clamp(15.5px, calc(15.5px + (100vw - 480px) / 240), 20px); font-weight: 700; color: #0a0a0f; display: block; margin-bottom: 4px; white-space: nowrap; letter-spacing: -0.02em;">2026.10.17 (土) 14:00 - 21:56</span>
+        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 6px;">
+          <span style="color: #e3262a; font-size: 10.5px; font-weight: 800;">TBS系 生放送</span>
+          <span style="color: #666; font-size: 10px;">お笑いの日2026</span>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; border: 1px solid #0a0a0f; color: #0a0a0f; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 1px;">発表状況</div>
+      <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">
+        3つの企画の時間帯は発表済み
+        <div style="font-size: 10px; font-weight: 500; color: #666; margin-top: 3px;">各企画の中の出番の順番は、まだ発表されていません</div>
+      </div>
+    </div>
+
+    <div style="display: flex; align-items: flex-start; gap: 8px;">
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; background: #d92a86; color: #fff; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 1px;">過去の目安</div>
+      <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">
+        決勝の開始は昨年より30分早い18:00
+        <div style="font-size: 10px; font-weight: 500; color: #666; margin-top: 3px;">2025年は14:00〜18:30が第一部で、決勝は18:30から始まりました</div>
+      </div>
+    </div>
+
+    <div style="background: rgba(227, 38, 42, 0.04); border-left: 3px solid #e3262a; padding: 8px 10px;">
+      <div style="font-size: 10.5px; color: #e3262a; font-weight: 800; margin-bottom: 2px;">
+        キングオブコント初の敗者復活戦を生放送
+      </div>
+      <div style="font-size: 9px; font-weight: 500; color: #888;">
+        決勝に進む1組は、視聴者の国民投票で決まります
+      </div>
+    </div>
+
+  </div>
+
+  <div style="background: #fcfcfc; padding: 10px 12px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #eee;">
+    <div style="color: #999; font-size: 9px;">Update: 2026.10.16</div>
+    <a href="#st-toc-h-1" style="display: inline-flex; align-items: center; background: #e3262a; color: #fff; text-decoration: none; font-size: 10.5px; font-weight: 800; padding: 5px 12px; border-radius: 20px; box-shadow: 0 4px 10px rgba(227, 38, 42, 0.2);">
+      詳細を確認 <span style="margin-left: 4px; font-size: 11px;">↓</span>
+    </a>
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][mokujimae][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>キングオブコント初の敗者復活戦から芸人総選挙、決勝へと続く約8時間のお笑い特番！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>決勝の開始は昨年より30分早い午後6時！新しい追加情報などあり次第更新していきます！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>お笑いの日2026 最新タイムテーブル【10/17】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>企画の時間帯は発表済みで、各企画の中の出番の順番はまだ発表されていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="お笑いの日2026 タイムテーブル（10月17日）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(31, 200, 238, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 100%);">
+
+    <div style="margin-bottom: 12px; border-bottom: 1px solid rgba(31, 200, 238, 0.3); padding-bottom: 4px;">
+      <span style="font-size: 12px; color: #1fc8ee; font-weight: 800;">▼ 2026年10月17日（土）</span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">放送枠</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">14:00〜21:56</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">TBS系で生放送されます。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">企画の時間帯</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">発表済み</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">敗者復活戦・芸人総選挙・決勝の3つに分かれています。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">出番の順番</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">未発表</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">今のところ公式からのアナウンスはありません。</p>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>公式が発表しているのは、3つの企画の時間帯です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>出番の順番は、分かった範囲でこの欄に書き足します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>14：00～ キングオブコント2026 敗者復活戦</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="お笑いの日2026 タイムテーブル（14時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(31, 200, 238, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 100%);">
+
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; border-bottom: 1px solid rgba(31, 200, 238, 0.3); padding-bottom: 6px;">
+      <span style="font-size: 12px; color: #1fc8ee; font-weight: 800;">▼ 14:00〜16:30</span>
+      <span style="font-size: 10px; font-weight: 900; color: #1fc8ee; border: 1px solid #1fc8ee; border-radius: 2px; padding: 0 5px;">公式発表</span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">内容</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">2008年に始まったキングオブコントで初めての敗者復活戦です。決勝進出を逃した10組が挑みます。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">決め方</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">スタジオにいる芸人審査員の採点で3組に絞り、視聴者の国民投票で決勝に進む1組を決めます。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">MC・進行</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">MCは濱家隆一さん（かまいたち）とチョコレートプラネット、進行はTBSの宇賀神メグアナウンサーです。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">挑戦する10組</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">江戸川ジャンクジャンク / オフローズ / cacao / 喫茶ムーン / しずる / 生姜猫 / スパイシーガーリック / そいつどいつ / ネルソンズ / 破壊ありがとう。10組は五十音順に案内されていて、出番の順番は発表されていません。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">ゲスト・審査員</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">ゲストは鎮西寿々歌（FRUITS ZIPPER） / ホラン千秋 / 森本慎太郎（SixTONES）です。芸人審査員は27組で、一覧は下の出演者の欄に載せています。</p>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>16：30～ 芸人総選挙 お笑いの日ver.</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="お笑いの日2026 タイムテーブル（16時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(31, 200, 238, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 100%);">
+
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; border-bottom: 1px solid rgba(31, 200, 238, 0.3); padding-bottom: 6px;">
+      <span style="font-size: 12px; color: #1fc8ee; font-weight: 800;">▼ 16:30〜18:00</span>
+      <span style="font-size: 10px; font-weight: 900; color: #1fc8ee; border: 1px solid #1fc8ee; border-radius: 2px; padding: 0 5px;">公式発表</span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">内容</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">芸人へのアンケートをもとに、2026年上半期に活躍した芸人をランキング形式で紹介します。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">MC・進行</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">MCはダイアン津田さんと永野さん、進行はTBSの田村真子アナウンサーです。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">MCの2人</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">津田さんは「芸人総選挙2025」の2025年一番面白かった芸人で1位、永野さんは2位でした。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">ゲスト（17組）</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">ウエストランド井口 / ロングコートダディ兎 / エバース / カカロニ / きしたかの / キンタロー。 / タイムマシーン3号 / たくろう / トム・ブラウン / ドンデコルテ / コロコロチキチキペッパーズ・ナダル / ぱーてぃーちゃん / ヒコロヒー / みなみかわ / モグライダー / 平成ノブシコブシ吉村 / レインボー。生放送のため一部変更になる可能性があります。</p>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":3} -->
+<h3>18：00～ キングオブコント2026 決勝</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="お笑いの日2026 タイムテーブル（18時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(31, 200, 238, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 100%);">
+
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; border-bottom: 1px solid rgba(31, 200, 238, 0.3); padding-bottom: 6px;">
+      <span style="font-size: 12px; color: #1fc8ee; font-weight: 800;">▼ 18:00〜21:56</span>
+      <span style="font-size: 10px; font-weight: 900; color: #1fc8ee; border: 1px solid #1fc8ee; border-radius: 2px; padding: 0 5px;">公式発表</span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">内容</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">第19回大会の決勝です。3445組がエントリーし、優勝賞金は1000万円です。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">決勝の組数</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">決勝進出の10組に、敗者復活戦を勝ち上がった1組が加わり、11組で争います。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">MC・進行</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">MCは浜田雅功さん、進行はTBSの日比麻音子アナウンサーで、7年連続になります。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">決勝進出の10組</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">ヤッホイ / 相性はいいよね / ジェラードン / ダウ90000 / や団 / ザ・マミィ / ななまがり / 元祖いちごちゃん / 蛙亭 / ニッポンの社長。敗者復活戦の勝者1組が加わります。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">審査員</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">例年より2名多い7名です。新しい審査員は放送中に発表される予定です。</p>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>お笑いの日2026の出演者一覧【10/17】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"align":"center","className":"size-full"} -->
+<figure class="wp-block-image aligncenter size-full"><img src="https://shira-treat.com/wp-content/uploads/2026/10/image-2-1.webp" alt="お笑いの日2026のタイムテーブル 順番・スケジュール・出演者"/><figcaption class="wp-element-caption"><a href="https://www.tbs.co.jp/onair/geininsousenkyo/">公式サイト</a>｜<a href="https://x.com/owaraiday">公式X(@owaraiday)</a></figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>出演者は企画ごとに分かれていて、MCも企画ごとに変わります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="お笑いの日2026 出演者一覧" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(31, 200, 238, 0.3); color: #fff;">
+
+  <div style="background: #000000; padding: 12px 15px; border-bottom: 2px solid #1fc8ee; text-align: center;">
+    <div style="font-size: 15px; font-weight: 900; letter-spacing: 0.1em; background: linear-gradient(135deg, #1fc8ee 0%, #ffffff 50%, #1fc8ee 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+      ★ 出演者（企画別）
+    </div>
+  </div>
+
+  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 80%);">
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">敗者復活戦 MC・進行</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">濱家隆一（かまいたち） / チョコレートプラネット / 宇賀神メグ（TBSアナウンサー）</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">14:00からの敗者復活戦を進めます。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">敗者復活戦に挑む10組</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">江戸川ジャンクジャンク / オフローズ / cacao / 喫茶ムーン / しずる / 生姜猫 / スパイシーガーリック / そいつどいつ / ネルソンズ / 破壊ありがとう</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">公式に案内されている並びは五十音順です。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">敗者復活戦のゲスト</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">鎮西寿々歌（FRUITS ZIPPER） / ホラン千秋 / 森本慎太郎（SixTONES）</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">スタジオで見守るゲストです。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">敗者復活戦の芸人審査員（27組）</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">青色1号 / あんよの日 / いぬ / うるとらブギーズ / オテンキ / 鬼ヶ島 / おむかいの葉っぱ洋食店 / かが屋 / カゲヤマ / ザ・ギース / 3時のヒロイン / GAG / ジグザグジギー / スクールゾーン / スクラップス / スタミナパン / たらちね / 忠犬立ハチ高 / ドゥリオ / ドンココ / にゃんこスター・スーパー3助 / 春とヒコーキ / ぶったま / ベルナルド / ママタルト / 虫と兵隊 / ゆくえ</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">採点で決勝に近い3組を選びます。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">芸人総選挙 MC・進行</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">ダイアン津田 / 永野 / 田村真子（TBSアナウンサー）</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">16:30からの芸人総選挙を進めます。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">芸人総選挙のゲスト（17組）</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">ウエストランド井口 / ロングコートダディ兎 / エバース / カカロニ / きしたかの / キンタロー。 / タイムマシーン3号 / たくろう / トム・ブラウン / ドンデコルテ / コロコロチキチキペッパーズ・ナダル / ぱーてぃーちゃん / ヒコロヒー / みなみかわ / モグライダー / 平成ノブシコブシ吉村 / レインボー</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">生放送のため一部変更の可能性があります。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">キングオブコント2026 MC・進行</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">浜田雅功 / 日比麻音子（TBSアナウンサー）</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">18:00からの決勝を進めます。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">キングオブコント2026 決勝進出（10組）</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">ヤッホイ / 相性はいいよね / ジェラードン / ダウ90000 / や団 / ザ・マミィ / ななまがり / 元祖いちごちゃん / 蛙亭 / ニッポンの社長</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">敗者復活戦の勝者1組が加わり、合計11組になります。</p>
+      </div>
+
+    </div>
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>芸人審査員の27組は、敗者復活戦で採点を担当します。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>決勝の審査員7名の名前は、放送中に発表される予定です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>[nopc][originalsc][/nopc]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>お笑いの日2026は何時から？放送時間とスケジュール</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>本放送は10月17日（土）午後2時からTBS系で始まり午後9時56分に終わります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>同じ日の午前には、TBSラジオで『ラジオお笑いの日2026』も放送されます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="お笑いの日2026 放送スケジュール" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(31, 200, 238, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 100%);">
+
+    <div style="margin-bottom: 12px; border-bottom: 1px solid rgba(31, 200, 238, 0.3); padding-bottom: 4px;">
+      <span style="font-size: 12px; color: #1fc8ee; font-weight: 800;">▼ 2026年10月17日（土）</span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">午前｜TBSラジオ</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">9:00〜（約5時間）</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">『ラジオお笑いの日2026』です。パーソナリティはナイツ、アシスタントは御手洗菜々アナウンサー、ゲストは川島明さん（麒麟）と永野さんです。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">午後｜第1部</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">14:00〜18:00</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">キングオブコント2026 敗者復活戦（14:00〜16:30）と、芸人総選挙 お笑いの日ver.（16:30〜18:00）です。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">夜｜第2部</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">18:00〜21:56</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">キングオブコント2026 決勝です。</p>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>お笑いの日の企画の順番と見どころ</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>時間帯が発表されている3つの企画について、押さえておきたい点をまとめています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="お笑いの日2026 企画の順番の見方" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(31, 200, 238, 0.2); color: #fff; max-width: 800px;">
+  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 100%);">
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">🎯 敗者復活戦の決まり方</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">芸人審査員の採点で3組に絞り、視聴者の国民投票で1組が決勝に進みます。決勝へ向かう道筋が、放送の前半で決まります。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">⏰ 決勝は30分早く始まる</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">2025年は18:30から決勝が始まりましたが、今回は18:00からです。終了は両年とも21:56でした。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">⚖️ 審査員が2名増える</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">2025年の審査員は5名でした。今回は7名で、新しい審査員は放送中に発表される予定です。</p>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">🏅 芸人総選挙</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">芸人へのアンケートをもとに、2026年上半期に活躍した芸人をランキング形式で紹介します。</p>
+      </div>
+
+    </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>分単位の台本は公開されていないため、時間帯は公式が案内した枠だけを載せています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>お笑いの日2026の見逃し配信・再放送はある？</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>リアルタイム配信と見逃し配信は、TVerで案内されています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>配信期間は公式の発表を確認してください。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>過去の『お笑いの日』『キングオブコント』は、U-NEXTで視聴できると案内されていました。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="お笑いの日2026 配信ガイド" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(31, 200, 238, 0.3); color: #fff;">
+
+  <div style="background: #000000; padding: 12px 15px; border-bottom: 2px solid #1fc8ee; text-align: center;">
+    <div style="font-size: 15px; font-weight: 900; letter-spacing: 0.1em; background: linear-gradient(135deg, #1fc8ee 0%, #ffffff 50%, #1fc8ee 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+      📺 配信ガイド
+    </div>
+  </div>
+
+  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 80%);">
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(31, 200, 238, 0.25); border-radius: 6px; padding: 12px;">
+        <div style="text-align: center; color: #1fc8ee; font-weight: 900; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); margin-bottom: 10px;">リアルタイム・見逃し配信</div>
+        <a href="https://tver.jp/live/simul/leaj9s2vqx" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; min-height: 40px; background: #ffffff; border-radius: 5px; text-decoration: none; box-sizing: border-box; padding: 6px 10px; margin-bottom: 8px;">
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 900; color: #0a0a0f; line-height: 1.4;">TVerで見る ▶</span>
+        </a>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(31, 200, 238, 0.25); border-radius: 6px; padding: 12px;">
+        <div style="text-align: center; color: #1fc8ee; font-weight: 900; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); margin-bottom: 10px;">これまでの配信はこちら</div>
+        <a href="https://px.a8.net/svt/ejp?a8mat=2ZWAMB+51LYIQ+3250+BW8O2&amp;a8ejpredirect=https%3A%2F%2Fvideo.unext.jp%2Ffreeword%3Fquery%3D%25E3%2581%258A%25E7%25AC%2591%25E3%2581%2584%25E3%2581%25AE%25E6%2597%25A5" target="_blank" rel="nofollow" style="display: flex; align-items: center; justify-content: center; min-height: 40px; background: #ffffff; border-radius: 5px; text-decoration: none; box-sizing: border-box; padding: 6px 10px; margin-bottom: 8px;">
+          <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 900; color: #0a0a0f; line-height: 1.4;">U-NEXT</span>
+          <span style="font-size: 9px; font-weight: 900; color: #999; border: 1px solid #ccc; border-radius: 2px; padding: 0 3px; margin-left: 8px;">PR</span>
+        </a>
+        <img border="0" width="1" height="1" src="https://www18.a8.net/0.gif?a8mat=2ZWAMB+51LYIQ+3250+BW8O2" alt="">
+      </div>
+
+    </div>
+
+    <div style="margin-top: 12px; text-align: center; font-size: 10px; color: #a8a8c8; line-height: 1.6;">※都合により視聴できない場合があります。U-NEXTのリンクは広告（PR）です。</div>
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>お笑いの日 過去のタイムテーブル一覧</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>放送後は、2026年の実際の流れもここに加えます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3>2025年10月11日（土）お笑いの日2025</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="お笑いの日 過去のタイムテーブル（2025年）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(31, 200, 238, 0.3); color: #fff;">
+
+  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 80%);">
+
+    <div style="display: grid; gap: 6px; margin-bottom: 14px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">
+      <div><span style="color: #1fc8ee; font-weight: 800;">放送</span>　14:00〜21:56（第1部 14:00〜18:30「お笑い夢のコラボ祭」、キングオブコント2025決勝 18:30〜21:56）</div>
+      <div><span style="color: #1fc8ee; font-weight: 800;">MC</span>　かまいたち・チョコレートプラネット。スペシャルサポーターはジェシーさんと田中樹さん、進行は田村真子アナウンサー</div>
+      <div><span style="color: #1fc8ee; font-weight: 800;">決勝</span>　MCは浜田雅功さん、審査員は5名。ファイナリストは10組でした</div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 8px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">第1部の企画</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">「キングオブ東西ネタバトル」（東西の芸人がくじで即席コンビを組んで3分ネタ）</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">第1部の企画</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">「キングオブエチュードバトル」（芸人と俳優が即席タッグで即興芝居）</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">第1部の企画</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">「キングオブミュージックバトル」（芸人とアーティストのコラボ対決）</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">18:30〜21:56</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">キングオブコント2025 決勝</span>
+      </div>
+
+    </div>
+
+    <div style="margin-top: 10px; font-size: 10px; color: #a8a8c8; line-height: 1.6;">内容は放送前の発表をもとにしています。企画ごとの細かい時刻は確認できていません。</div>
+
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":3} -->
+<h3>2024年10月12日（土）お笑いの日2024</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="お笑いの日 過去のタイムテーブル（2024年）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(31, 200, 238, 0.3); color: #fff;">
+
+  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 80%);">
+
+    <div style="display: grid; gap: 6px; margin-bottom: 14px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">
+      <div><span style="color: #1fc8ee; font-weight: 800;">放送</span>　14:00から約8時間の生放送。テーマは「笑いの灯」</div>
+      <div><span style="color: #1fc8ee; font-weight: 800;">MC</span>　かまいたち（山内健司さん・濱家隆一さん）が番組初のMC。担当は14:00〜18:30でした</div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 8px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">14:00〜18:30</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">『ラヴィット！』『最強スポーツ男子頂上決戦2024秋』『ザ・ベストワン』との特別コラボ企画</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">18:30〜</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">キングオブコント2024（エントリー3139組）。王者はラブレターズ</span>
+      </div>
+
+    </div>
+
+    <div style="margin-top: 10px; font-size: 10px; color: #a8a8c8; line-height: 1.6;">コラボ企画の時刻は確認できていません。</div>
+
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading {"level":3} -->
+<h3>2023年10月21日（土）お笑いの日2023</h3>
+<!-- /wp:heading -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="お笑いの日 過去のタイムテーブル（2023年）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(31, 200, 238, 0.3); color: #fff;">
+
+  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 80%);">
+
+    <div style="display: grid; gap: 6px; margin-bottom: 14px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">
+      <div><span style="color: #1fc8ee; font-weight: 800;">放送</span>　14:00〜21:54の生放送。総合MCはダウンタウン</div>
+      <div><span style="color: #1fc8ee; font-weight: 800;">決勝</span>　キングオブコント2023（エントリー3036組）は19:00から。王者はサルゴリラ</div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 8px;">
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">午後</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">『ラヴィット！』『ザ・ベストワン』との企画</span>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">19:00〜21:54</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">キングオブコント2023 決勝</span>
+      </div>
+
+    </div>
+
+    <div style="margin-top: 10px; font-size: 10px; color: #a8a8c8; line-height: 1.6;">企画ごとの細かい時刻は確認できていません。</div>
+
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>よくある質問（FAQ）</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>お笑いの日2026について、よく検索される疑問に答えています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="お笑いの日2026 よくある質問" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(31, 200, 238, 0.3); color: #fff;">
+
+  <div style="background: #000000; padding: 12px 15px; border-bottom: 2px solid #1fc8ee; text-align: center;">
+    <div style="font-size: 15px; font-weight: 900; letter-spacing: 0.1em; background: linear-gradient(135deg, #1fc8ee 0%, #ffffff 50%, #1fc8ee 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+      💬 よくある質問（FAQ）
+    </div>
+  </div>
+
+  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 80%);">
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 10px;">
+
+      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(31, 200, 238, 0.2); border-radius: 6px; padding: 12px;">
+        <div style="color: #ff6b6e; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q1｜お笑いの日2026は何時から何時までですか？</div>
+        <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
+          2026年10月17日（土）午後2時から、TBS系で生放送されます。キングオブコント2026の決勝は午後9時56分までで、全体で約8時間の放送です。
+        </div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(31, 200, 238, 0.2); border-radius: 6px; padding: 12px;">
+        <div style="color: #1fc8ee; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q2｜タイムテーブルや出番の順番は発表されていますか？</div>
+        <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
+          企画の時間帯は発表されています。午後2時から4時30分が敗者復活戦、4時30分から6時が芸人総選挙、6時から9時56分がキングオブコント2026決勝です。各企画の中の出番の順番はまだ発表されておらず、放送後に実際の流れへ更新します。
+        </div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(31, 200, 238, 0.2); border-radius: 6px; padding: 12px;">
+        <div style="color: #ff6b6e; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q3｜敗者復活戦に出るのはどの芸人ですか？</div>
+        <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
+          江戸川ジャンクジャンク、オフローズ、cacao、喫茶ムーン、しずる、生姜猫、スパイシーガーリック、そいつどいつ、ネルソンズ、破壊ありがとうの10組です。芸人審査員の採点で3組に絞り、視聴者の国民投票で決勝に進む1組が決まります。
+        </div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(31, 200, 238, 0.2); border-radius: 6px; padding: 12px;">
+        <div style="color: #1fc8ee; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q4｜キングオブコント2026の決勝進出者は誰ですか？</div>
+        <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
+          ヤッホイ、相性はいいよね、ジェラードン、ダウ90000、や団、ザ・マミィ、ななまがり、元祖いちごちゃん、蛙亭、ニッポンの社長の10組です。敗者復活戦を勝ち上がった1組が加わり、合計11組で争います。MCは浜田雅功さん、審査員は例年より2名多い7名で、新しい審査員は放送中に発表される予定です。
+        </div>
+      </div>
+
+      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(31, 200, 238, 0.2); border-radius: 6px; padding: 12px;">
+        <div style="color: #ff6b6e; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q5｜お笑いの日2026は見逃し配信はありますか？</div>
+        <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
+          リアルタイム配信と見逃し配信は、TVerで案内されています。配信期間は公式の発表を確認してください。過去の『お笑いの日』『キングオブコント』はU-NEXTで視聴できると案内されていました。
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:heading -->
+<h2>【まとめ】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>『お笑いの日2026』は2026年10月17日（土）午後2時から午後9時56分まで、TBS系で生放送されます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>午後2時からはキングオブコント初の敗者復活戦が始まります。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>午後4時30分からは芸人総選挙、午後6時からは決勝が続きます。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>出演者は、敗者復活戦の10組と決勝進出の10組などが発表されています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>各企画の中の出番の順番は、まだ発表されていません。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>決勝の新しい審査員は、放送中に発表される予定です。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<div style="margin: 18px 0 14px; background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px 10px; font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #c94277; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">他の音楽番組もチェック</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px;">
+
+    <a href="https://shira-treat.com/cdtv-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        CDTV <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/star-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        STAR <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/music-station-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        Mステ <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/fnskayousai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        FNS歌謡祭 <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/the-musicday-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        THE MUSIC DAY <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/ongakunohi-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        音楽の日 <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/teretoongakusai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        テレ東音楽祭 <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/utadeaetara-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        うたであえたら <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/record-award-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        レコード大賞 <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/nhk-kouhaku-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        紅白歌合戦 <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/utacon-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        うたコン <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/terebi-mrs-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        テレビ×ミセス <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/utanokanshasai-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        歌の感謝祭 <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+    <a href="https://shira-treat.com/venue101-timetable/" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #ffffff; border: 1px solid #dbe3ec; border-radius: 5px; text-decoration: none; box-sizing: border-box;">
+      <span style="font-size: 10px; font-weight: 900; color: #1f2937; letter-spacing: 0.03em; display: flex; align-items: center;">
+        Venue101 <span style="font-size: 14px; margin-left: 6px; color: #c94277;">›</span>
+      </span>
+    </a>
+
+  </div>
+
+  <div style="display: flex; align-items: center; background: #f8fafc; padding: 5px 10px; border-radius: 5px; margin-bottom: 8px;">
+    <span style="width: 3px; height: 11px; background: #64748b; margin-right: 8px; border-radius: 1px;"></span>
+    <p style="margin: 0; font-size: 10px; font-weight: 800; color: #334155; letter-spacing: 0.02em;">今夜の放送で気になったアーティストの楽曲・CDを探す</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px;">
+    <a href="https://amzn.to/3PbpcG5" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: center; height: 34px; background: #232f3e; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #161d26;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        CDをAmazonで探す <span style="font-size: 14px; margin-left: 6px; color: #ff9900;">›</span>
+      </span>
+    </a>
+
+    <a href="//af.moshimo.com/af/c/click?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616&amp;url=https%3A%2F%2Fbooks.rakuten.co.jp%2Franking%2Fdaily%2F002%2F" target="_blank" rel="nofollow" referrerpolicy="no-referrer-when-downgrade" attributionsrc style="display: flex; align-items: center; justify-content: center; height: 34px; background: #bf0000; border-radius: 5px; text-decoration: none; box-sizing: border-box; border-bottom: 2px solid #8a0000;">
+      <span style="font-size: 10px; font-weight: 900; color: #ffffff; letter-spacing: 0.05em; display: flex; align-items: center;">
+        楽天ブックスでCDを探す <span style="font-size: 14px; margin-left: 6px; color: #ffffff; opacity: 0.8;">›</span>
+      </span>
+    </a>
+  </div>
+
+  <img src="//i.moshimo.com/af/i/impression?a_id=4824566&amp;p_id=54&amp;pc_id=54&amp;pl_id=616" width="1" height="1" style="border:none;" alt="" loading="lazy">
+
+  <a href="https://amzn.to/4xMd00d" target="_blank" rel="nofollow sponsored noopener noreferrer" style="display: flex; align-items: center; justify-content: flex-start; height: 40px; background: linear-gradient(90deg, #0a0a0f, #1b1b26); border-radius: 5px; text-decoration: none; box-sizing: border-box; border: 1px solid #1fc8ee; box-shadow: 0 2px 4px rgba(0,0,0,0.08); padding: 0 15px;">
+    <span style="font-size: 9px; font-weight: 900; color: #1fc8ee; border: 1px solid #1fc8ee; padding: 1px 4px; border-radius: 2px; margin-right: 12px; margin-left: 3px;">Music</span>
+    <span style="font-size: 11px; font-weight: 800; color: #ffffff; letter-spacing: 0.05em;">Amazon Musicで楽曲を聴く（30日間無料）</span>
+    <span style="font-size: 18px; color: #1fc8ee; margin-left: auto;">›</span>
+  </a>
+
+</div>
+<!-- /wp:html -->
+
+<!-- wp:shortcode -->
+<!-- MANUAL_JSONLD -->
+[jsonld]
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://shira-treat.com/owarainohi-2026/#post",
+      "url": "https://shira-treat.com/owarainohi-2026/",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://shira-treat.com/owarainohi-2026/"
+      },
+      "headline": "お笑いの日2026のタイムテーブル｜順番・スケジュールを時間別まとめ",
+      "description": "お笑いの日2026（2026年10月17日・TBS系）のタイムテーブルとスケジュール。午後2時スタートの生放送で、敗者復活戦・芸人総選挙・キングオブコント決勝の順番と出演者を時間別にまとめています。",
+      "keywords": [
+        "お笑いの日2026 タイムテーブル",
+        "お笑いの日2026 順番",
+        "お笑いの日2026 スケジュール",
+        "お笑いの日 何時から",
+        "キングオブコント2026 敗者復活戦",
+        "芸人総選挙 お笑いの日ver.",
+        "TBS"
+      ],
+      "datePublished": "2026-10-16T12:00:00+09:00",
+      "dateCreated": "2026-10-16T12:00:00+09:00",
+      "dateModified": "2026-10-16T12:00:00+09:00",
+      "inLanguage": "ja",
+      "image": {
+        "@type": "ImageObject",
+        "@id": "https://shira-treat.com/owarainohi-2026/#primaryimage",
+        "url": "https://shira-treat.com/wp-content/uploads/2026/10/image.webp",
+        "width": 1196,
+        "height": 661
+      },
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/10/image.webp",
+      "author": {
+        "@type": "Person",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/operator-information/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Shira Notes",
+        "url": "https://shira-treat.com/",
+        "sameAs": [
+          "https://x.com/ShiraNotes_"
+        ],
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://shira-treat.com/wp-content/uploads/2025/08/Shira-Notes-1.webp",
+          "width": 512,
+          "height": 512
+        }
+      },
+      "articleSection": "お笑いの日",
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "お笑いの日（TBS系お笑い特番）"
+        },
+        {
+          "@type": "Thing",
+          "name": "お笑いの日2026 タイムテーブル"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "Person",
+          "name": "濱家隆一"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "チョコレートプラネット"
+        },
+        {
+          "@type": "Person",
+          "name": "宇賀神メグ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "江戸川ジャンクジャンク"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "オフローズ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "cacao"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "喫茶ムーン"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "しずる"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "生姜猫"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "スパイシーガーリック"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "そいつどいつ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ネルソンズ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "破壊ありがとう"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "青色1号"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "あんよの日"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "いぬ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "うるとらブギーズ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "オテンキ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "鬼ヶ島"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "おむかいの葉っぱ洋食店"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "かが屋"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "カゲヤマ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ザ・ギース"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "3時のヒロイン"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "GAG"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ジグザグジギー"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "スクールゾーン"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "スクラップス"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "スタミナパン"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "たらちね"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "忠犬立ハチ高"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ドゥリオ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ドンココ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "にゃんこスター・スーパー3助"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "春とヒコーキ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ぶったま"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ベルナルド"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ママタルト"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "虫と兵隊"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ゆくえ"
+        },
+        {
+          "@type": "Person",
+          "name": "鎮西寿々歌"
+        },
+        {
+          "@type": "Person",
+          "name": "ホラン千秋"
+        },
+        {
+          "@type": "Person",
+          "name": "森本慎太郎"
+        },
+        {
+          "@type": "Person",
+          "name": "ダイアン津田"
+        },
+        {
+          "@type": "Person",
+          "name": "永野"
+        },
+        {
+          "@type": "Person",
+          "name": "田村真子"
+        },
+        {
+          "@type": "Person",
+          "name": "ウエストランド井口"
+        },
+        {
+          "@type": "Person",
+          "name": "ロングコートダディ兎"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "エバース"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "カカロニ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "きしたかの"
+        },
+        {
+          "@type": "Person",
+          "name": "キンタロー。"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "タイムマシーン3号"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "たくろう"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "トム・ブラウン"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ドンデコルテ"
+        },
+        {
+          "@type": "Person",
+          "name": "コロコロチキチキペッパーズ・ナダル"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ぱーてぃーちゃん"
+        },
+        {
+          "@type": "Person",
+          "name": "ヒコロヒー"
+        },
+        {
+          "@type": "Person",
+          "name": "みなみかわ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "モグライダー"
+        },
+        {
+          "@type": "Person",
+          "name": "平成ノブシコブシ吉村"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "レインボー"
+        },
+        {
+          "@type": "Person",
+          "name": "浜田雅功"
+        },
+        {
+          "@type": "Person",
+          "name": "日比麻音子"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ヤッホイ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "相性はいいよね"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ジェラードン"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ダウ90000"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "や団"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ザ・マミィ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ななまがり"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "元祖いちごちゃん"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "蛙亭"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ニッポンの社長"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ナイツ"
+        },
+        {
+          "@type": "Person",
+          "name": "御手洗菜々"
+        },
+        {
+          "@type": "Person",
+          "name": "川島明"
+        }
+      ],
+      "hasPart": [
+        {
+          "@id": "https://shira-treat.com/owarainohi-2026/#broadcast"
+        },
+        {
+          "@id": "https://shira-treat.com/owarainohi-2026/#lineup"
+        },
+        {
+          "@id": "https://shira-treat.com/owarainohi-2026/#faq"
+        },
+        {
+          "@id": "https://shira-treat.com/owarainohi-2026/#breadcrumb"
+        }
+      ]
+    },
+    {
+      "@type": "BroadcastEvent",
+      "@id": "https://shira-treat.com/owarainohi-2026/#broadcast",
+      "name": "お笑いの日2026（2026年10月17日放送）",
+      "startDate": "2026-10-17T14:00:00+09:00",
+      "endDate": "2026-10-17T21:56:00+09:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "isLiveBroadcast": true,
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "description": "TBS系で2026年10月17日に生放送されるお笑い特番。キングオブコント2026の敗者復活戦と決勝、芸人総選挙を放送する。",
+      "image": "https://shira-treat.com/wp-content/uploads/2026/10/image.webp",
+      "performer": [
+        {
+          "@type": "Person",
+          "name": "濱家隆一"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "チョコレートプラネット"
+        },
+        {
+          "@type": "Person",
+          "name": "宇賀神メグ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "江戸川ジャンクジャンク"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "オフローズ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "cacao"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "喫茶ムーン"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "しずる"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "生姜猫"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "スパイシーガーリック"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "そいつどいつ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ネルソンズ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "破壊ありがとう"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "青色1号"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "あんよの日"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "いぬ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "うるとらブギーズ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "オテンキ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "鬼ヶ島"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "おむかいの葉っぱ洋食店"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "かが屋"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "カゲヤマ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ザ・ギース"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "3時のヒロイン"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "GAG"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ジグザグジギー"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "スクールゾーン"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "スクラップス"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "スタミナパン"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "たらちね"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "忠犬立ハチ高"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ドゥリオ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ドンココ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "にゃんこスター・スーパー3助"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "春とヒコーキ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ぶったま"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ベルナルド"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ママタルト"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "虫と兵隊"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ゆくえ"
+        },
+        {
+          "@type": "Person",
+          "name": "鎮西寿々歌"
+        },
+        {
+          "@type": "Person",
+          "name": "ホラン千秋"
+        },
+        {
+          "@type": "Person",
+          "name": "森本慎太郎"
+        },
+        {
+          "@type": "Person",
+          "name": "ダイアン津田"
+        },
+        {
+          "@type": "Person",
+          "name": "永野"
+        },
+        {
+          "@type": "Person",
+          "name": "田村真子"
+        },
+        {
+          "@type": "Person",
+          "name": "ウエストランド井口"
+        },
+        {
+          "@type": "Person",
+          "name": "ロングコートダディ兎"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "エバース"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "カカロニ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "きしたかの"
+        },
+        {
+          "@type": "Person",
+          "name": "キンタロー。"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "タイムマシーン3号"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "たくろう"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "トム・ブラウン"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ドンデコルテ"
+        },
+        {
+          "@type": "Person",
+          "name": "コロコロチキチキペッパーズ・ナダル"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ぱーてぃーちゃん"
+        },
+        {
+          "@type": "Person",
+          "name": "ヒコロヒー"
+        },
+        {
+          "@type": "Person",
+          "name": "みなみかわ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "モグライダー"
+        },
+        {
+          "@type": "Person",
+          "name": "平成ノブシコブシ吉村"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "レインボー"
+        },
+        {
+          "@type": "Person",
+          "name": "浜田雅功"
+        },
+        {
+          "@type": "Person",
+          "name": "日比麻音子"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ヤッホイ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "相性はいいよね"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ジェラードン"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ダウ90000"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "や団"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ザ・マミィ"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ななまがり"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "元祖いちごちゃん"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "蛙亭"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ニッポンの社長"
+        },
+        {
+          "@type": "PerformingGroup",
+          "name": "ナイツ"
+        },
+        {
+          "@type": "Person",
+          "name": "御手洗菜々"
+        },
+        {
+          "@type": "Person",
+          "name": "川島明"
+        }
+      ],
+      "broadcaster": {
+        "@type": "Organization",
+        "name": "TBSテレビ",
+        "sameAs": "https://www.tbs.co.jp/"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://shira-treat.com/owarainohi-2026/#lineup",
+      "name": "お笑いの日2026（10/17）出演者一覧",
+      "numberOfItems": 78,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "濱家隆一"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "チョコレートプラネット"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "宇賀神メグ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "江戸川ジャンクジャンク"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "オフローズ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "cacao"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "喫茶ムーン"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "しずる"
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "name": "生姜猫"
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "name": "スパイシーガーリック"
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "name": "そいつどいつ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "name": "ネルソンズ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "name": "破壊ありがとう"
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "name": "青色1号"
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "name": "あんよの日"
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "name": "いぬ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 17,
+          "name": "うるとらブギーズ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 18,
+          "name": "オテンキ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 19,
+          "name": "鬼ヶ島"
+        },
+        {
+          "@type": "ListItem",
+          "position": 20,
+          "name": "おむかいの葉っぱ洋食店"
+        },
+        {
+          "@type": "ListItem",
+          "position": 21,
+          "name": "かが屋"
+        },
+        {
+          "@type": "ListItem",
+          "position": 22,
+          "name": "カゲヤマ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 23,
+          "name": "ザ・ギース"
+        },
+        {
+          "@type": "ListItem",
+          "position": 24,
+          "name": "3時のヒロイン"
+        },
+        {
+          "@type": "ListItem",
+          "position": 25,
+          "name": "GAG"
+        },
+        {
+          "@type": "ListItem",
+          "position": 26,
+          "name": "ジグザグジギー"
+        },
+        {
+          "@type": "ListItem",
+          "position": 27,
+          "name": "スクールゾーン"
+        },
+        {
+          "@type": "ListItem",
+          "position": 28,
+          "name": "スクラップス"
+        },
+        {
+          "@type": "ListItem",
+          "position": 29,
+          "name": "スタミナパン"
+        },
+        {
+          "@type": "ListItem",
+          "position": 30,
+          "name": "たらちね"
+        },
+        {
+          "@type": "ListItem",
+          "position": 31,
+          "name": "忠犬立ハチ高"
+        },
+        {
+          "@type": "ListItem",
+          "position": 32,
+          "name": "ドゥリオ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 33,
+          "name": "ドンココ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 34,
+          "name": "にゃんこスター・スーパー3助"
+        },
+        {
+          "@type": "ListItem",
+          "position": 35,
+          "name": "春とヒコーキ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 36,
+          "name": "ぶったま"
+        },
+        {
+          "@type": "ListItem",
+          "position": 37,
+          "name": "ベルナルド"
+        },
+        {
+          "@type": "ListItem",
+          "position": 38,
+          "name": "ママタルト"
+        },
+        {
+          "@type": "ListItem",
+          "position": 39,
+          "name": "虫と兵隊"
+        },
+        {
+          "@type": "ListItem",
+          "position": 40,
+          "name": "ゆくえ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 41,
+          "name": "鎮西寿々歌"
+        },
+        {
+          "@type": "ListItem",
+          "position": 42,
+          "name": "ホラン千秋"
+        },
+        {
+          "@type": "ListItem",
+          "position": 43,
+          "name": "森本慎太郎"
+        },
+        {
+          "@type": "ListItem",
+          "position": 44,
+          "name": "ダイアン津田"
+        },
+        {
+          "@type": "ListItem",
+          "position": 45,
+          "name": "永野"
+        },
+        {
+          "@type": "ListItem",
+          "position": 46,
+          "name": "田村真子"
+        },
+        {
+          "@type": "ListItem",
+          "position": 47,
+          "name": "ウエストランド井口"
+        },
+        {
+          "@type": "ListItem",
+          "position": 48,
+          "name": "ロングコートダディ兎"
+        },
+        {
+          "@type": "ListItem",
+          "position": 49,
+          "name": "エバース"
+        },
+        {
+          "@type": "ListItem",
+          "position": 50,
+          "name": "カカロニ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 51,
+          "name": "きしたかの"
+        },
+        {
+          "@type": "ListItem",
+          "position": 52,
+          "name": "キンタロー。"
+        },
+        {
+          "@type": "ListItem",
+          "position": 53,
+          "name": "タイムマシーン3号"
+        },
+        {
+          "@type": "ListItem",
+          "position": 54,
+          "name": "たくろう"
+        },
+        {
+          "@type": "ListItem",
+          "position": 55,
+          "name": "トム・ブラウン"
+        },
+        {
+          "@type": "ListItem",
+          "position": 56,
+          "name": "ドンデコルテ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 57,
+          "name": "コロコロチキチキペッパーズ・ナダル"
+        },
+        {
+          "@type": "ListItem",
+          "position": 58,
+          "name": "ぱーてぃーちゃん"
+        },
+        {
+          "@type": "ListItem",
+          "position": 59,
+          "name": "ヒコロヒー"
+        },
+        {
+          "@type": "ListItem",
+          "position": 60,
+          "name": "みなみかわ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 61,
+          "name": "モグライダー"
+        },
+        {
+          "@type": "ListItem",
+          "position": 62,
+          "name": "平成ノブシコブシ吉村"
+        },
+        {
+          "@type": "ListItem",
+          "position": 63,
+          "name": "レインボー"
+        },
+        {
+          "@type": "ListItem",
+          "position": 64,
+          "name": "浜田雅功"
+        },
+        {
+          "@type": "ListItem",
+          "position": 65,
+          "name": "日比麻音子"
+        },
+        {
+          "@type": "ListItem",
+          "position": 66,
+          "name": "ヤッホイ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 67,
+          "name": "相性はいいよね"
+        },
+        {
+          "@type": "ListItem",
+          "position": 68,
+          "name": "ジェラードン"
+        },
+        {
+          "@type": "ListItem",
+          "position": 69,
+          "name": "ダウ90000"
+        },
+        {
+          "@type": "ListItem",
+          "position": 70,
+          "name": "や団"
+        },
+        {
+          "@type": "ListItem",
+          "position": 71,
+          "name": "ザ・マミィ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 72,
+          "name": "ななまがり"
+        },
+        {
+          "@type": "ListItem",
+          "position": 73,
+          "name": "元祖いちごちゃん"
+        },
+        {
+          "@type": "ListItem",
+          "position": 74,
+          "name": "蛙亭"
+        },
+        {
+          "@type": "ListItem",
+          "position": 75,
+          "name": "ニッポンの社長"
+        },
+        {
+          "@type": "ListItem",
+          "position": 76,
+          "name": "ナイツ"
+        },
+        {
+          "@type": "ListItem",
+          "position": 77,
+          "name": "御手洗菜々"
+        },
+        {
+          "@type": "ListItem",
+          "position": 78,
+          "name": "川島明"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://shira-treat.com/owarainohi-2026/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "お笑いの日2026は何時から何時までですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "2026年10月17日（土）午後2時から、TBS系で生放送されます。キングオブコント2026の決勝は午後9時56分までで、全体で約8時間の放送です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "タイムテーブルや出番の順番は発表されていますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "企画の時間帯は発表されています。午後2時から4時30分が敗者復活戦、4時30分から6時が芸人総選挙、6時から9時56分がキングオブコント2026決勝です。各企画の中の出番の順番はまだ発表されておらず、放送後に実際の流れへ更新します。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "敗者復活戦に出るのはどの芸人ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "江戸川ジャンクジャンク、オフローズ、cacao、喫茶ムーン、しずる、生姜猫、スパイシーガーリック、そいつどいつ、ネルソンズ、破壊ありがとうの10組です。芸人審査員の採点で3組に絞り、視聴者の国民投票で決勝に進む1組が決まります。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "キングオブコント2026の決勝進出者は誰ですか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ヤッホイ、相性はいいよね、ジェラードン、ダウ90000、や団、ザ・マミィ、ななまがり、元祖いちごちゃん、蛙亭、ニッポンの社長の10組です。敗者復活戦を勝ち上がった1組が加わり、合計11組で争います。MCは浜田雅功さん、審査員は例年より2名多い7名で、新しい審査員は放送中に発表される予定です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "お笑いの日2026は見逃し配信はありますか？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "リアルタイム配信と見逃し配信は、TVerで案内されています。配信期間は公式の発表を確認してください。過去の『お笑いの日』『キングオブコント』はU-NEXTで視聴できると案内されていました。"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://shira-treat.com/owarainohi-2026/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "ホーム",
+          "item": "https://shira-treat.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "タイムテーブル",
+          "item": "https://shira-treat.com/category/timetable/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "お笑いの日2026 タイムテーブル",
+          "item": "https://shira-treat.com/owarainohi-2026/"
+        }
+      ]
+    }
+  ]
+}
+[/jsonld]
+<!-- /wp:shortcode -->

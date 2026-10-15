@@ -38,6 +38,7 @@
 | `/kouhaku-rewrite` | NHK紅白歌合戦（NHK・年1回。URL固定で毎年上書き。出場者発表前〜放送後の4段階で更新） | `.claude/commands/kouhaku-rewrite.md` |
 | `/kouhaku-research` | 紅白歌合戦 リライト用の資料①②リサーチ（資料が渡されなかった回のみ／NHK公式・X公式はChrome、Yahoo検索はWebFetch。内定報道は確定情報にしない） | `.claude/commands/kouhaku-research.md` |
 | `/allstar-rewrite` | オールスター感謝祭（TBS系クイズ特番・年2回。出演順ではなく企画の流れを軸にする） | `.claude/commands/allstar-rewrite.md` |
+| `/owarainohi-rewrite` | お笑いの日（TBS系お笑い特番・年1回。KOC敗者復活戦・芸人総選挙・KOC決勝。出演順ではなく企画の流れを軸にする） | `.claude/commands/owarainohi-rewrite.md` |
 | `/shira-qa` | 全番組共通・ドラフト検品（リライト後必須） | `.claude/commands/shira-qa.md` |
 | `/shira-keyword-article` | キーワード起点の新規テーマ記事（番組タイムテーブル速報とは別枠） | `.claude/commands/shira-keyword-article.md` |
 | `/shira-release-article` | CD/DVD等リリース記事（予約・購入導線特化、1リリース＝1記事） | `.claude/commands/shira-release-article.md` |
@@ -79,6 +80,7 @@
 | Venue101 | `draft_venue101.txt` |
 | 紅白歌合戦 | `draft_kouhaku.txt` |
 | オールスター感謝祭 | `draft_allstar.txt` |
+| お笑いの日 | `draft_owarainohi.txt` |
 | オールスター感謝祭 マラソン（キーワード起点記事。年号なしで毎年上書き） | `draft_allstar_marathon.txt` |
 | 千鳥の鬼レンチャン サビだけカラオケの出演者（人物記事。**`tools/build_onirenchan.py` が入力ファイルから作る**。人物ごとに1ファイル。結果の書き足しまで終えたら削除） | `draft_onirenchan_{人物}.txt`（例：`draft_onirenchan_sasaki.txt`） |
 
