@@ -76,6 +76,7 @@ s4lv（X: @cfrms4lv／スレッズ: @cfrms4lv／note: note.com/salvami77）の�
 - 「公開しました」→ `3_広報部/社員.md` の「公開後」
 - 「◯◯AIから再開してください」→ フォルダに残っている最新の成果物を入力にして、その役割の手順から続ける(前の工程はやり直さない)
 - 「Xアルゴリズムの更新」→ `../research/data/x_algo/changes.md` を読み、投稿づくりに関わる項目（`(投稿づくりには影響しない項目)` と付いていないもの）の変更を、前の値と並べて見せる。確認をもらってから、`py -3 ../research/x_algo_weights.py --render` の出力で `../brands/reference/x_algorithm_2026.md` の重み表を置き換え、`py -3 ../research/x_algo_weights.py --mark-reflected` を実行する。新しい項目に日本語名と役割が無ければ、公式コード（`xai-value-model/`）で確かめて付ける(仕組みの説明は `../docs/sop/sop_research_auto_collect.md`)
+  - **続けて、必ず見直す**：変わった値が、`3_広報部/x_post_generation_rules.md`「伸びる投稿の条件」のどの行に当たるかを並べる（当たらなければ「当たる行なし」と書く）。当たる行があれば、①その行の「投稿づくりでの意味」②反響の狙い・中身の種類・厳禁（煽り・開いたあとの満足）③審査の見方（`3_広報部/sns_ai_tone_rubric.md` の X の行）のうち、変えるべき所の直し案を作る。直し案は「決まりを変える手順」で、全文を見せて確認をもらってから保存する
 - 「noteの方針を相談したい」「値段どうしよう」など note運用の相談、数字の画面(スクリーンショット)→ `.claude/skills/note-advisor/SKILL.md` に従う(記事づくりを始めるかどうか分からないときは、1行で「記事を作る流れで始めますか？」と聞く)
 
 ## X投稿フロー

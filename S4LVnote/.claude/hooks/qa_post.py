@@ -755,6 +755,15 @@ def check_s4lv_post(post, platform):
             f.append(Finding("WARN", post["label"], "x-question-closing",
                              "文末が疑問符で、問いの形が引き出しにない（「どう思いますか？」のような広い意見募集型はAI的と指摘あり・"
                              "「〜ってことありません？」「〜ありませんか？」等の形にするか断言・観察で締める・2026-10-02改訂）"))
+        # 1行目の煽りの言葉（2026-10-15追加・Xのみ・WARN）。出典：S4LVnote/3_広報部/x_post_generation_rules.md
+        # 「厳禁：1行目で煽り、中身が薄い投稿」。言葉があること自体は禁止ではなく、本文の中身が見合うかを審査役が判断する
+        if not post["is_reply"]:
+            _x_first = (nonempty_lines(body) or [""])[0]
+            _hype = re.search(r"ヤバすぎ|やばすぎ|ヤバ過ぎ|やば過ぎ|エグい|えぐい|知らないと損|衝撃|激変|革命", _x_first)
+            if _hype:
+                f.append(Finding("WARN", post["label"], "x-hype-opener",
+                                 f"1行目に煽りの言葉「{_hype.group(0)}」（本文の中身が期待に見合っているか確かめる。"
+                                 "見合わないなら1行目を弱める・x_post_generation_rules.md「厳禁」）"))
     # 1行目のフックチェック（2026-09-04追加・Threadsのみ・WARN）
     if platform == "threads" and not post["is_reply"]:
         first = (nonempty_lines(body) or [""])[0]
