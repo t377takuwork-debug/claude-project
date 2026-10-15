@@ -163,14 +163,25 @@ def min_likes_for(r, args):
     return args.min_likes_x if r.get("platform") == "x" else args.min_likes_threads
 
 
-def pick_with_quota(keep, top, quota):
-    """媒体ごとに最低 quota 件（あれば）を確保してから、残りを勢いの順に埋める。"""
+def pick_with_quota(keep, top, quota, save_quota=0):
+    """媒体ごとに最低 quota 件（あれば）を確保し、保存で選んだ行も最低 save_quota 件確保してから、残りを勢いの順に埋める。
+    枠の合計が top を超えるときは、保存の枠を残し、ほかを勢いの低い順に外す。"""
     chosen = []
     for is_x in (True, False):
         chosen += [r for r in keep if (r.get("platform") == "x") == is_x][:quota]
     ids = {id(r) for r in chosen}
+    have = sum(1 for r in chosen if is_save_row(r))
+    extra = [r for r in keep if is_save_row(r) and id(r) not in ids][: max(0, save_quota - have)]
+    chosen += extra
+    ids |= {id(r) for r in extra}
     chosen += [r for r in keep if id(r) not in ids][: max(0, top - len(chosen))]
-    return sorted(chosen, key=momentum, reverse=True)[:top]
+    if len(chosen) > top:
+        sv = sorted((r for r in chosen if is_save_row(r)), key=momentum, reverse=True)[:save_quota]
+        sv_ids = {id(r) for r in sv}
+        ot = sorted((r for r in chosen if id(r) not in sv_ids), key=momentum, reverse=True)[: max(0, top - len(sv))]
+        chosen = sv + ot
+    # 並び：保存で選んだ行を上に、その下に従来の行。それぞれ勢いの順
+    return sorted(chosen, key=lambda r: (0 if is_save_row(r) else 1, -momentum(r)))[:top]
 
 
 def one_line(text, n=80):
@@ -218,6 +229,7 @@ def main():
     ap.add_argument("--max-per-author", type=int, default=2)
     ap.add_argument("--max-per-keyword", type=int, default=6, help="1つのキーワードから取る最大件数（偏りを防ぐ）")
     ap.add_argument("--min-per-platform", type=int, default=10, help="媒体ごとの最低枠（その媒体の候補がある場合）")
+    ap.add_argument("--min-save-rows", type=int, default=15, help="s4lv/UYA.：保存で選んだXの行の最低枠（あれば）。古い行・観察アカウントの行に押し出されないため")
     ap.add_argument("--keep-files-days", type=int, default=14, help="これより古い候補ファイルは消す")
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
@@ -272,7 +284,7 @@ def main():
                     kw_count[kw] = kw_count.get(kw, 0) + 1
                     per_author[r["author"]] = per_author.get(r["author"], 0) + 1
                     keep.append(r)
-        keep = pick_with_quota(keep, args.top, args.min_per_platform)
+        keep = pick_with_quota(keep, args.top, args.min_per_platform, args.min_save_rows)
         n_x = sum(1 for r in keep if r.get("platform") == "x")
 
         lines = [
@@ -286,8 +298,10 @@ def main():
             "- 並び順：**勢い**＝反響点÷(投稿から最後に見かけるまでの日数＋1)。反響点＝いいね＋再投稿×3＋返信×2＋保存×5（保存はXだけ）",
             "- 絞り込み：同じ投稿者は最大%d件、1つの語から最大%d件、媒体ごとに最低%d件（あれば）。いいね：Xは%d以上・スレッズは%d以上（アカウント起点は各アカウントのしきい値）" % (
                 args.max_per_author, args.max_per_keyword, args.min_per_platform, args.min_likes_x, args.min_likes_threads),
-            "- **Xの語の検索のうち、ai・blog_note_sns・save_pattern の語**：保存%d以上、かつ（保存%d以上、または保存率%.1f%%以上）の投稿だけ。新しさは、その語の窓（keywords.json の window_hours）以内。並びは **保存の勢い**＝保存数÷(日数＋1)" % (
+            *(["- **Xの語の検索のうち、ai・blog_note_sns・save_pattern の語**：保存%d以上、かつ（保存%d以上、または保存率%.1f%%以上）の投稿だけ。新しさは、その語の窓（keywords.json の window_hours）以内。並びは **保存の勢い**＝保存数÷(日数＋1)" % (
                 SAVE_MIN, SAVE_STRONG, SAVE_RATE),
+               "- 並び：**保存で選んだXの行（上）**→従来の行（下。観察アカウント・スレッズ・古い条件で集めた行）。保存の行は最低%d件を確保する（あれば）" % args.min_save_rows]
+              if set(groups) & SAVE_GROUPS else []),
             "- 除外の内訳：" + "、".join("%s %d" % (k, v) for k, v in ex.items()),
             "- **意味の関連は、機械では判定しきれない**（検索した語が本文にあるだけの、無関係な投稿が混ざることがある）。使えるかどうかは、読んで判断する",
             "- この表は、本文の冒頭だけを載せたローカル用のメモ。台帳には、URL・型・数字だけを書く（全文は写さない）",
