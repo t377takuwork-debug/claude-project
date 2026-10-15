@@ -162,6 +162,9 @@ def parse_posts(text):
     return posts
 
 
+KUTOUTEN_SHORT_LEN = 20  # 読点を置かない短い文の字数（読点・記号・空白を除く）
+
+
 def sentences(text):
     return [s for s in re.split(r"[。？！?!\n]+", text) if s.strip()]
 
@@ -678,7 +681,7 @@ S4LV_SHOJIKI_WARNS = [
 S4LV_BROAD_Q_RE = re.compile(r"(どう思いますか|どう思います|と思いますか|どうでしょうか|いかがですか|どうですか)[？?]")
 
 # 2026-10-02：問いの許可形（s4lv_voice.md「問いかけ」）。S4LVnote/.claude/hooks/recent_forms.py の QUESTION_FORMS と同じ分類
-S4LV_Q_OK_RE = re.compile(r"(ってことありません|ありませんか|ませんか|じゃないですか|いませんか|ない|どうします)[？?]$")
+S4LV_Q_OK_RE = re.compile(r"(ってことありません|ありませんか|ませんか|じゃないですか|いませんか|ない|どうします|んですかね)[？?]$")
 S4LV_Q_FORMS = [
     ("ってことありません？", r"ってことありません？"),
     ("ありませんか？", r"ありませんか？"),
@@ -792,12 +795,21 @@ def check_s4lv_post(post, platform):
     kt_texts = [("本文", body)]
     _reply_raw = post.get("reply", "")
     if _reply_raw:
-        kt_texts.append(("自己リプライ", REPLY_LABEL_RE.sub("", _reply_raw, count=1)))
+        kt_texts.append(("自己リプライ", "\n".join(
+            _ln for _ln in REPLY_LABEL_RE.sub("", _reply_raw, count=1).splitlines()
+            if not _ln.lstrip().startswith("■"))))
     for _tlabel, _ttext in kt_texts:
         for s in sentences(_ttext):
             if s.count("、") >= 2:
                 f.append(Finding("WARN", post["label"], "kutouten-2",
                                  f"1文に読点2個以上（{_tlabel}・1文に1つまで・s4lv_voice.md）: 「{s.strip()[:40]}…」"))
+            # 2026-10-16追加：20字未満の短い文・箇条書きの項目に読点がある（オーナーの直し：なくても通じる読点が多い）
+            elif "、" in s and re.match(r"^\s*([・\-]|\d+[.．])\s*", s):
+                f.append(Finding("WARN", post["label"], "kutouten-list",
+                                 f"箇条書きの項目に読点（{_tlabel}・項目には置かない・s4lv_voice.md「書き方の形」）: 「{s.strip()[:40]}」"))
+            elif "、" in s and len(re.sub(r"[\s、。，．！？!?「」]", "", s)) < KUTOUTEN_SHORT_LEN:
+                f.append(Finding("WARN", post["label"], "kutouten-short",
+                                 f"20字未満の短い文に読点（{_tlabel}・なくても通じるなら外す・s4lv_voice.md「書き方の形」）: 「{s.strip()[:40]}」"))
 
     # 開示の言葉（テレビ・エンタメ系の定期更新記事だと分かる語）が本文・自己リプライに
     # 出ていないか（WARN）。出典：S4LVnote/3_広報部/sns_common_rules.md「開示」。
