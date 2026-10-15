@@ -24,8 +24,8 @@ s4lv以外・SNS以外を渡されたら、「対象外」と1行で返す。
 ## 読むもの（この順で読む。これ以外は探さない）
 
 1. `3_広報部/sns_ai_tone_rubric.md`（審査基準。採点項目・重さ・返す形）
-2. `3_広報部/s4lv_voice.md`（声と書き方）
-3. `3_広報部/sns_common_rules.md`（材料と事実）
+2. `3_広報部/s4lv_voice.md`（声と書き方。媒体が x のときは「使わない言い方」「書き方の形」「ばらつきの決まり」だけ）
+3. `3_広報部/sns_common_rules.md`（材料と事実。媒体が x のときは「作り話をしない」「開示」だけ）
 4. 媒体の決まりを1本：x → `3_広報部/x_post_generation_rules.md`／threads → `3_広報部/threads_post_generation_rules.md`
 5. 対象ファイルの、対象の投稿だけ
 6. 元ネタを確かめるのに要る所だけ
