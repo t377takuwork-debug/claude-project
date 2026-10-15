@@ -7,7 +7,7 @@
           - s4lv_UYA ……… blog_note_sns・ai グループ（/neta-research が読む入力。s4lvとUYA.共通）
 
 新しさ：  **集めた時点（初めて見かけた時点）で、投稿からX=24時間以内・スレッズ=48時間以内**のものだけ
-          （アカウント起点は5日以内。約3.5日で一周するため。Xの語のグループに window_hours があれば、その幅）。集めてから7日分を蓄積して並べる。
+          （アカウント起点は5日以内。約4日で一周するため）。集めてから7日分を蓄積して並べる。
 選び方：  反響点 = いいね＋再投稿×3＋返信×2＋保存×5（保存はXだけ）
           勢い = 反響点 ÷（投稿から最後に見かけるまでの日数＋1）。短い時間で伸びたものを上に並べる
 除外：    ①すでに台帳にある投稿（投稿IDで判定） ②勧誘・配布・募集・販売など ③自分のアカウント
@@ -38,9 +38,7 @@ LEDGERS = [
 ]
 OWN_AUTHORS = {"mbti_code", "mbticode", "cfrms4lv", "s4lv", "uyadott"}
 # 分野と無関係だと分かっている話題の印（2026-10-13の試運転で混入を確認したもの）
-NOISE = ["第五", "パスワード", "フィッシング", "集計結果", "アンケート", "ご協力", "血液型", "精神疾患", "ADHD", "発達障害",
-         # 画像生成のプロンプト共有など、分野外（2026-10-15の「プロンプト」の試し撃ちで混入を確認）
-         "コラージュ", "midjourney", "美少女", "pixai", "nai向け"]
+NOISE = ["第五", "パスワード", "フィッシング", "集計結果", "アンケート", "ご協力", "血液型", "精神疾患", "ADHD", "発達障害"]
 # 勧誘・配布・募集・販売の印。「プレゼント」「募集」などの単語だけだと、恋愛の話（彼氏へのプレゼント）まで外すので、言い回しで見る
 SOLICIT = [
     "公式LINE", "LINE登録", "LINEに登録", "LINEで受け取", "無料プレゼント", "プレゼント企画", "プレゼント中", "プレゼントします",
@@ -67,7 +65,7 @@ TOPIC_TERMS = {
 # ふつうの言葉で、無関係な投稿も拾う。その場合は「検索した語とは別の、分野の語」が本文にあることを求める
 # （2026-10-13の試運転：検索した語が本文にあるだけの、クエン酸・政治・訃報の投稿が上位を占めたため）
 SPECIFIC_KEYWORDS = {
-    "s4lv_UYA": lambda k: k in {"生成ai", "claude", "claude code", "claude 使い方", "チャッピー", "gemini", "chatgpt", "プロンプト claude"},
+    "s4lv_UYA": lambda k: k in {"生成ai", "claude", "claude code", "claude 使い方", "チャッピー", "gemini"},
     # MBTI・タイプ名・「恋愛」を含む語は分野そのもの。「未練」のような語は、ゲームや誕生日の話も拾うので、別の語を求める
     "MBTICODE": lambda k: re.search(r"mbti|[ie][ns][tf][jp]|恋愛", k) is not None,
 }
@@ -125,28 +123,21 @@ def momentum(r):
 def age_limit_hours(r, args):
     if r.get("source") == "account":
         return args.max_age_account_hours
-    if r.get("platform") == "x":
-        # グループ別の探す時間幅（keywords.json の window_hours）があれば、それを使う
-        return max(args.max_age_hours, r.get("window_hours", 0))
-    return args.max_age_threads_hours
+    return args.max_age_hours if r.get("platform") == "x" else args.max_age_threads_hours
 
 
 def min_likes_for(r, args):
-    if r.get("min_faves") is not None:
-        return r["min_faves"]  # そのアカウント・そのグループのしきい値（watch_accounts.json／keywords.json）
+    if r.get("source") == "account":
+        return r.get("min_faves", args.min_likes_x)  # そのアカウントのしきい値（watch_accounts.json）
     return args.min_likes_x if r.get("platform") == "x" else args.min_likes_threads
 
 
-def pick_with_quota(keep, top, quota, account_quota=0):
-    """媒体ごとに最低 quota 件（あれば）と、観察対象アカウントの投稿を最低 account_quota 件（あれば）を確保してから、
-    残りを勢いの順に埋める。観察対象は、バズではなく「ネタ・型の参考」で選んだ人も含むので、反響が小さくても落とさない。"""
+def pick_with_quota(keep, top, quota):
+    """媒体ごとに最低 quota 件（あれば）を確保してから、残りを勢いの順に埋める。"""
     chosen = []
     for is_x in (True, False):
         chosen += [r for r in keep if (r.get("platform") == "x") == is_x][:quota]
     ids = {id(r) for r in chosen}
-    acc = [r for r in keep if r.get("source") == "account" and id(r) not in ids][:account_quota]
-    chosen += acc
-    ids |= {id(r) for r in acc}
     chosen += [r for r in keep if id(r) not in ids][: max(0, top - len(chosen))]
     return sorted(chosen, key=momentum, reverse=True)[:top]
 
@@ -196,7 +187,6 @@ def main():
     ap.add_argument("--max-per-author", type=int, default=2)
     ap.add_argument("--max-per-keyword", type=int, default=6, help="1つのキーワードから取る最大件数（偏りを防ぐ）")
     ap.add_argument("--min-per-platform", type=int, default=10, help="媒体ごとの最低枠（その媒体の候補がある場合）")
-    ap.add_argument("--min-per-account-source", type=int, default=8, help="観察対象アカウントの投稿の最低枠（あれば。反響が小さい人の投稿も残す）")
     ap.add_argument("--keep-files-days", type=int, default=14, help="これより古い候補ファイルは消す")
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
@@ -249,7 +239,7 @@ def main():
                     kw_count[kw] = kw_count.get(kw, 0) + 1
                     per_author[r["author"]] = per_author.get(r["author"], 0) + 1
                     keep.append(r)
-        keep = pick_with_quota(keep, args.top, args.min_per_platform, args.min_per_account_source)
+        keep = pick_with_quota(keep, args.top, args.min_per_platform)
         n_x = sum(1 for r in keep if r.get("platform") == "x")
 
         lines = [
@@ -258,11 +248,11 @@ def main():
             "- 対象グループ：%s ／ 溜めたデータ：%d件 → 候補 **%d件**（X %d件・スレッズ %d件）" % (
                 "・".join(groups), len(pool), len(keep), n_x, len(keep) - n_x),
         ] + health + [
-            "- 新しさ：**集めた時点で、投稿からX=%d時間以内・スレッズ=%d時間以内**（アカウント起点は%d時間以内。Xの語のグループに時間幅（keywords.json の window_hours）があれば、その幅）のものだけ。集めてから%d日分を蓄積して並べている" % (
+            "- 新しさ：**集めた時点で、投稿からX=%d時間以内・スレッズ=%d時間以内**（アカウント起点は%d時間以内）のものだけ。集めてから%d日分を蓄積して並べている" % (
                 args.max_age_hours, args.max_age_threads_hours, args.max_age_account_hours, args.window_days),
             "- 並び順：**勢い**＝反響点÷(投稿から最後に見かけるまでの日数＋1)。反響点＝いいね＋再投稿×3＋返信×2＋保存×5（保存はXだけ）",
-            "- 絞り込み：同じ投稿者は最大%d件、1つの語から最大%d件、媒体ごとに最低%d件・観察対象アカウントの投稿は最低%d件（あれば）。いいね：Xは%d以上・スレッズは%d以上（観察対象と、条件つきの語は、それぞれのしきい値）" % (
-                args.max_per_author, args.max_per_keyword, args.min_per_platform, args.min_per_account_source, args.min_likes_x, args.min_likes_threads),
+            "- 絞り込み：同じ投稿者は最大%d件、1つの語から最大%d件、媒体ごとに最低%d件（あれば）。いいね：Xは%d以上・スレッズは%d以上（アカウント起点は各アカウントのしきい値）" % (
+                args.max_per_author, args.max_per_keyword, args.min_per_platform, args.min_likes_x, args.min_likes_threads),
             "- 除外の内訳：" + "、".join("%s %d" % (k, v) for k, v in ex.items()),
             "- **意味の関連は、機械では判定しきれない**（検索した語が本文にあるだけの、無関係な投稿が混ざることがある）。使えるかどうかは、読んで判断する",
             "- この表は、本文の冒頭だけを載せたローカル用のメモ。台帳には、URL・型・数字だけを書く（全文は写さない）",
