@@ -96,9 +96,15 @@ async def run(args):
     acc_since = (datetime.now() - timedelta(days=acc_cfg.get("since_days", 6))).strftime("%Y-%m-%d")
     jobs = []
     for k in kw_jobs:
-        jobs.append({"group": group_of[k], "label": k, "product": "Top", "pages": args.pages, "extra": {},
-                     "min_faves": args.min_faves,
-                     "query": "%s min_faves:%d lang:ja -filter:replies since_time:%d" % (k, args.min_faves, since_ts)})
+        # グループに min_faves・window_hours があれば、その語だけ、その条件で集める（ブログ・SEO系は、24時間・100以上だとほぼ拾えない）
+        g_cfg = cfg["groups"][group_of[k]]
+        mf = g_cfg.get("min_faves", args.min_faves)
+        hrs = max(hours, g_cfg.get("window_hours", 0))
+        extra = {key: g_cfg[key] for key in ("min_faves", "window_hours") if key in g_cfg}
+        jobs.append({"group": group_of[k], "label": k, "product": "Top", "pages": args.pages, "extra": extra,
+                     "min_faves": mf,
+                     "query": "%s min_faves:%d lang:ja -filter:replies since_time:%d" % (
+                         k, mf, int(datetime.now().timestamp() - hrs * 3600))})
     for a in acc_jobs:
         jobs.append({"group": a["group"], "label": "@" + a["name"], "product": "Latest", "pages": 1,
                      "extra": {"source": "account", "min_faves": a["min_faves"]}, "min_faves": a["min_faves"],

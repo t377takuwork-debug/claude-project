@@ -1,5 +1,5 @@
 {
-  "_note": "調査用キーワード（媒体別：threads / x）。説明書と、これまでに試した語・外した語の記録は docs/sop/sop_research_auto_collect.md。daily_fixed＝毎日回す語、残りは rotation_size 語ずつ日替わり。Xの語は、2026-10-13の調査（30語）で選んだ。スレッズの語は「上位」タブの数字で選んだもので、今の集め方（「最近」タブ・48時間以内）では未検証のため、数日分のデータで見直す。",
+  "_note": "調査用キーワード（媒体別：threads / x）。説明書と、これまでに試した語・外した語の記録は docs/sop/sop_research_auto_collect.md。daily_fixed＝毎日回す語、残りは rotation_size 語ずつ日替わり。グループに min_faves・window_hours があれば、そのグループの語だけ、その条件（いいね下限・探す時間幅）で集める（2026-10-15）。Xの語は、2026-10-13〜15の試し撃ちで選んだ。スレッズの語は「上位」タブの数字で選んだもので、今の集め方（「最近」タブ・48時間以内）では未検証のため、数日分のデータで見直す。",
   "platforms": {
     "threads": {
       "daily_fixed": ["チャッピー", "claude", "MBTI 返信", "INFJ", "note"],
@@ -20,16 +20,22 @@
       }
     },
     "x": {
-      "daily_fixed": ["生成AI", "Gemini", "フォロワー", "MBTI あるある", "未練"],
+      "daily_fixed": ["ai 使い方", "chatgpt", "claude", "MBTI あるある", "未練"],
       "rotation_size": 5,
       "groups": {
         "blog_note_sns": {
           "for_account": "s4lv / UYA.（ブログ・note・SNS運用）",
-          "keywords": ["フォロワー", "Threads", "インプレッション", "note", "SNS運用"]
+          "min_faves": 50,
+          "window_hours": 48,
+          "keywords": ["note", "SNS運用", "インプレッション 伸び", "AI 記事", "AI臭", "ブログ -更新しました"]
         },
         "ai": {
           "for_account": "s4lv / UYA.（AI・自動化）",
-          "keywords": ["生成AI", "Gemini", "Claude Code", "指示", "チャッピー", "claude"]
+          "keywords": [
+            "ai 使い方", "chatgpt", "claude", "Claude Code", "生成AI", "チャッピー",
+            "プロンプト claude", "AI 仕事", "AI 稼ぐ",
+            "な人へ AI", "まとめました AI", "保存推奨", "やってみた Claude"
+          ]
         },
         "mbti_love": {
           "for_account": "MBTICODE（MBTI × 恋愛・人間関係）",

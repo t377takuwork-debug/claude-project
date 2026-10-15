@@ -59,7 +59,7 @@ def merge_row(data, row, now, group, keyword):
     for k in NUM_KEYS:
         if k in row or k in old:
             old[k] = max(old.get(k, 0), row.get(k, 0))
-    for k in ("source", "min_faves"):  # アカウント起点で見つけた印
+    for k in ("source", "min_faves", "window_hours"):  # アカウント起点・グループ別の条件の印
         if k in row:
             old[k] = row[k]
     if not old.get("posted_at") and row.get("posted_at"):
