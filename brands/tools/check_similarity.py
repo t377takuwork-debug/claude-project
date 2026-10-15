@@ -29,7 +29,8 @@ except Exception:
 
 WARN_LEN = 10
 ERROR_LEN = 20
-BLOCK_RE = re.compile(r"(【[^】\n]*】[^\n]*)\n-{10,}\s*\n(.+?)\n-{10,}\s*(?:\n|$)", re.S)
+# 見出しの行と、本文の始まりの ---- の間に、メモの行（借りる点・元ネタの核など。S4LVnote のXの決まり）があってもよい
+BLOCK_RE = re.compile(r"(【[^】\n]*】[^\n]*)\n(?:(?!【)(?!-{10,})[^\n]*\n)*?-{10,}\s*\n(.+?)\n-{10,}\s*(?:\n|$)", re.S)
 
 
 def norm(s):

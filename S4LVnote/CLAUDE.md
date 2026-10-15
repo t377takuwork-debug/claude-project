@@ -52,6 +52,7 @@ s4lv（X: @cfrms4lv／スレッズ: @cfrms4lv／note: note.com/salvami77）の�
 ## フォルダの外で読んでよいもの
 ファイルの作成・編集は、この S4LVnote フォルダの中だけで行う。例外として、次だけは開いてよい。
 - ネタの置き場(UYA. と共通)：`../journals/content_seeds.md`(体験)・`../journals/external_seeds.md`(外の話題)・ネタの由来の `../journals/daily/YYYY-MM-DD.md`(選んだネタの分だけ)。読むだけ。**書いてよいのは、`3_広報部/sns_common_rules.md`「使ったあとの記録」の印だけ**(s4lv のこれまでの決まり。UYA. はここに書かない)
+- リサーチの候補(読むだけ)：`../research/data/shortlist/shortlist_s4lv_UYA_<日付>.md`(毎日自動で作る。Xのネタ・テーマの出どころ)。類似チェック用に `../research/export_sources.py`・`../brands/tools/check_similarity.py` を実行してよい(結果の一時ファイルは `../research/data/tmp/` にできる。git対象外)。借り方の決まりは `3_広報部/x_post_generation_rules.md`「リサーチ候補の使い方」
 - 全アカウント共通の資料(読むだけ)：
   - `../brands/reference/`(X・スレッズの表示のされ方のしくみ・noteの資料など。オーナーが手で更新する)
   - `../brands/writing/`(note記事の文章の共通の決まりと、審査の採点表。s4lv の上書きは `2_商品開発部/note_article_checklist.md` が優先)
@@ -79,7 +80,7 @@ s4lv（X: @cfrms4lv／スレッズ: @cfrms4lv／note: note.com/salvami77）の�
 
 ## X投稿フロー
 止まる場所は、提案を見て直す点を言うときと、予約の前だけ。手順の正は `3_広報部/社員.md` の X投稿AI・審査・提案と直し・X予約 の項。
-1. **作る**：`.claude/agents/X投稿AI.md` を起動する(1回の呼び出しで、材料選び→設計→作成→機械チェック→保存まで)。本数と投稿日は、起動の指示に書く
+1. **作る**：`.claude/agents/X投稿AI.md` を起動する(1回の呼び出しで、材料選び→設計→作成→類似チェック→機械チェック→保存まで)。本数と投稿日は、起動の指示に書く
 2. **審査**：親が `.claude/agents/sns-ai-reviewer.md` を起動する(原則1巡。2巡目は、BLOCKがあるか、FIXが3件以上のときだけ)
 3. **提案と直し**：設計の表・本文・機械チェックと審査の結果を、1回で出す。オーナーの直しは、変えたあとの全文を先に見せて、確認をもらってから保存する。直しは `3_広報部/X提案の直し記録.md` に1行
 4. **予約**：「Xを予約して」で `buffer_api.py send`(確認だけ)で内容と日時を見せ、**「予約して」と言われたときだけ** `--go` で入れる。**XやBufferの画面は、ブラウザの自動操作で動かさない**
