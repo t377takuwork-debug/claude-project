@@ -38,7 +38,9 @@ LEDGERS = [
     rc.REPO / "brands/mbticode/analysis/neta/neta_ledger.md",
     rc.REPO / "brands/mbticode/analysis/neta/neta_sources.md",
     rc.REPO / "journals/external_seeds.md",
-]
+    # s4lv のXで元ネタに使った投稿（見出しのURL）。次の日の候補に出さない（2026-10-15）
+    rc.REPO / "S4LVnote/3_広報部/投稿文/posts_x.txt",
+] + sorted((rc.REPO / "S4LVnote/3_広報部/投稿文/archive").glob("posts_x_*.txt"))
 OWN_AUTHORS = {"mbti_code", "mbticode", "cfrms4lv", "s4lv", "uyadott"}
 # 分野と無関係だと分かっている話題の印（2026-10-13の試運転で混入を確認したもの）
 NOISE = ["第五", "パスワード", "フィッシング", "集計結果", "アンケート", "ご協力", "血液型", "精神疾患", "ADHD", "発達障害",
