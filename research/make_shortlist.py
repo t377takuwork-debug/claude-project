@@ -28,8 +28,11 @@ SOURCES = [rc.DATA_DIR / "threads_posts.jsonl", rc.DATA_DIR / "x_posts.jsonl"]
 
 VIEWS = {
     "MBTICODE": ["mbti_love"],
-    "s4lv_UYA": ["blog_note_sns", "ai"],
+    "s4lv_UYA": ["blog_note_sns", "ai", "save_pattern"],
 }
+# Xの語の検索のうち、保存数・保存率で選ぶグループ（2026-10-15。keywords.json に window_hours がある行だけ）
+SAVE_GROUPS = {"blog_note_sns", "ai", "save_pattern"}
+SAVE_MIN, SAVE_STRONG, SAVE_RATE = 50, 100, 0.5  # 保存50以上、かつ（保存100以上、または保存率0.5%以上）
 # すでに使った・集めた投稿の記録（ここに投稿IDがあれば「既出」として除く）
 LEDGERS = [
     rc.REPO / "brands/mbticode/analysis/neta/neta_ledger.md",
@@ -38,7 +41,8 @@ LEDGERS = [
 ]
 OWN_AUTHORS = {"mbti_code", "mbticode", "cfrms4lv", "s4lv", "uyadott"}
 # 分野と無関係だと分かっている話題の印（2026-10-13の試運転で混入を確認したもの）
-NOISE = ["第五", "パスワード", "フィッシング", "集計結果", "アンケート", "ご協力", "血液型", "精神疾患", "ADHD", "発達障害"]
+NOISE = ["第五", "パスワード", "フィッシング", "集計結果", "アンケート", "ご協力", "血液型", "精神疾患", "ADHD", "発達障害",
+         "ガチャ", "二次創作", "ネップリ"]
 # 勧誘・配布・募集・販売の印。「プレゼント」「募集」などの単語だけだと、恋愛の話（彼氏へのプレゼント）まで外すので、言い回しで見る
 SOLICIT = [
     "公式LINE", "LINE登録", "LINEに登録", "LINEで受け取", "無料プレゼント", "プレゼント企画", "プレゼント中", "プレゼントします",
@@ -50,7 +54,7 @@ SOLICIT = [
 TOPIC_TERMS = {
     "s4lv_UYA": [
         "ai", "claude", "chatgpt", "チャッピー", "gemini", "codex", "opus", "sonnet", "gpt", "llm", "copilot", "cursor",
-        "生成", "プロンプト", "自動化", "エージェント",
+        "生成", "プロンプト", "自動化", "エージェント", "mcp", "aio", "llmo", "ai検索",
         "note", "ブログ", "seo", "アフィリ", "アドセンス", "サチコ", "検索流入", "記事", "ライティング",
         "sns", "threads", "スレッズ", "インプレ", "アルゴリズム", "フォロワー", "投稿", "運用", "発信", "副業",
     ],
@@ -65,7 +69,11 @@ TOPIC_TERMS = {
 # ふつうの言葉で、無関係な投稿も拾う。その場合は「検索した語とは別の、分野の語」が本文にあることを求める
 # （2026-10-13の試運転：検索した語が本文にあるだけの、クエン酸・政治・訃報の投稿が上位を占めたため）
 SPECIFIC_KEYWORDS = {
-    "s4lv_UYA": lambda k: k in {"生成ai", "claude", "claude code", "claude 使い方", "チャッピー", "gemini"},
+    "s4lv_UYA": lambda k: k in {
+        "生成ai", "claude", "claude code", "claude 使い方", "チャッピー", "gemini",
+        "claude code 仕事", "ai エージェント 作り方", "claude code 自動化", "claude code 設定", "chatgpt 仕事",
+        "mcp 連携", "claude.md", "claude note", "ai検索 seo", "(aio or llmo)",
+    },
     # MBTI・タイプ名・「恋愛」を含む語は分野そのもの。「未練」のような語は、ゲームや誕生日の話も拾うので、別の語を求める
     "MBTICODE": lambda k: re.search(r"mbti|[ie][ns][tf][jp]|恋愛", k) is not None,
 }
@@ -115,20 +123,43 @@ def score(r):
     return r["likes"] + 3 * r["reposts"] + 2 * r["replies"] + 5 * r.get("bookmarks", 0)
 
 
+def is_save_row(r):
+    """保存数・保存率で選ぶ行か（Xの語の検索で、keywords.json の window_hours つきで集めたもの）。"""
+    return (r.get("platform") == "x" and r.get("source") != "account" and "window_hours" in r
+            and "bookmarks" in r and bool(set(r.get("groups", [])) & SAVE_GROUPS))
+
+
+def save_ok(r):
+    """保存50以上、かつ（保存100以上、または保存率0.5%以上）。表示数が分からなければ、保存100以上だけで見る。"""
+    b = r.get("bookmarks", 0)
+    if b < SAVE_MIN:
+        return False
+    if b >= SAVE_STRONG:
+        return True
+    return bool(r.get("views")) and 100.0 * b / r["views"] >= SAVE_RATE
+
+
 def momentum(r):
     h = hours_between(r, "last_seen")
-    return score(r) / ((h / 24.0 if h is not None else 2.0) + 1.0)
+    days_plus = (h / 24.0 if h is not None else 2.0) + 1.0
+    if is_save_row(r):
+        return r["bookmarks"] / days_plus  # 保存の勢い（保存数÷(日数+1)）
+    return score(r) / days_plus
 
 
 def age_limit_hours(r, args):
     if r.get("source") == "account":
         return args.max_age_account_hours
+    if is_save_row(r):
+        return r["window_hours"] + 1  # その語の検索の窓（keywords.json）。1時間は余裕
     return args.max_age_hours if r.get("platform") == "x" else args.max_age_threads_hours
 
 
 def min_likes_for(r, args):
     if r.get("source") == "account":
         return r.get("min_faves", args.min_likes_x)  # そのアカウントのしきい値（watch_accounts.json）
+    if is_save_row(r):
+        return r.get("min_faves", 30)  # その語の検索の下限（keywords.json）。選ぶのは、下の保存の条件
     return args.min_likes_x if r.get("platform") == "x" else args.min_likes_threads
 
 
@@ -204,7 +235,7 @@ def main():
 
     for account, groups in VIEWS.items():
         pool = [r for r in posts if set(r["groups"]) & set(groups)]
-        ex = {"集めたのが古い": 0, "投稿が古い・日時不明": 0, "反響小": 0, "自分のアカウント": 0, "本文なし・返信・日本語でない": 0,
+        ex = {"集めたのが古い": 0, "投稿が古い・日時不明": 0, "反響小": 0, "保存が少ない": 0, "自分のアカウント": 0, "本文なし・返信・日本語でない": 0,
               "勧誘など": 0, "無関係な話題": 0, "分野の語なし": 0, "既出": 0, "同じ投稿者": 0, "語の上限": 0}
         keep, per_author, kw_count = [], {}, {}
         for r in sorted(pool, key=momentum, reverse=True):
@@ -216,6 +247,8 @@ def main():
                 ex["投稿が古い・日時不明"] += 1  # 集めた時点で基準より経っていたもの。日時が分からないものも、新しいと言えないので除く
             elif r["likes"] < min_likes_for(r, args):
                 ex["反響小"] += 1
+            elif is_save_row(r) and not save_ok(r):
+                ex["保存が少ない"] += 1
             elif r["author"].lower() in OWN_AUTHORS:
                 ex["自分のアカウント"] += 1
             elif not readable(r):
@@ -253,6 +286,8 @@ def main():
             "- 並び順：**勢い**＝反響点÷(投稿から最後に見かけるまでの日数＋1)。反響点＝いいね＋再投稿×3＋返信×2＋保存×5（保存はXだけ）",
             "- 絞り込み：同じ投稿者は最大%d件、1つの語から最大%d件、媒体ごとに最低%d件（あれば）。いいね：Xは%d以上・スレッズは%d以上（アカウント起点は各アカウントのしきい値）" % (
                 args.max_per_author, args.max_per_keyword, args.min_per_platform, args.min_likes_x, args.min_likes_threads),
+            "- **Xの語の検索のうち、ai・blog_note_sns・save_pattern の語**：保存%d以上、かつ（保存%d以上、または保存率%.1f%%以上）の投稿だけ。新しさは、その語の窓（keywords.json の window_hours）以内。並びは **保存の勢い**＝保存数÷(日数＋1)" % (
+                SAVE_MIN, SAVE_STRONG, SAVE_RATE),
             "- 除外の内訳：" + "、".join("%s %d" % (k, v) for k, v in ex.items()),
             "- **意味の関連は、機械では判定しきれない**（検索した語が本文にあるだけの、無関係な投稿が混ざることがある）。使えるかどうかは、読んで判断する",
             "- この表は、本文の冒頭だけを載せたローカル用のメモ。台帳には、URL・型・数字だけを書く（全文は写さない）",

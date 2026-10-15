@@ -96,9 +96,17 @@ async def run(args):
     acc_since = (datetime.now() - timedelta(days=acc_cfg.get("since_days", 6))).strftime("%Y-%m-%d")
     jobs = []
     for k in kw_jobs:
-        jobs.append({"group": group_of[k], "label": k, "product": "Top", "pages": args.pages, "extra": {},
-                     "min_faves": args.min_faves,
-                     "query": "%s min_faves:%d lang:ja -filter:replies since_time:%d" % (k, args.min_faves, since_ts)})
+        # グループに min_faves・window_hours があれば、その条件で検索する（なければ、全体の既定）。
+        # 窓は、グループの値と、全体の値（前回の収集からの時間）の大きいほう
+        g_cfg = cfg["groups"][group_of[k]]
+        g_min = int(g_cfg.get("min_faves", args.min_faves))
+        g_win = g_cfg.get("window_hours")
+        k_hours = max(hours, g_win) if g_win else hours
+        k_since = int(datetime.now().timestamp() - k_hours * 3600)
+        jobs.append({"group": group_of[k], "label": k, "product": "Top", "pages": args.pages,
+                     "extra": {"min_faves": g_min, "window_hours": int(round(k_hours))} if (g_win or "min_faves" in g_cfg) else {},
+                     "min_faves": g_min,
+                     "query": "%s min_faves:%d lang:ja -filter:replies since_time:%d" % (k, g_min, k_since)})
     for a in acc_jobs:
         jobs.append({"group": a["group"], "label": "@" + a["name"], "product": "Latest", "pages": 1,
                      "extra": {"source": "account", "min_faves": a["min_faves"]}, "min_faves": a["min_faves"],

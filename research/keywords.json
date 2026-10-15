@@ -1,5 +1,5 @@
 {
-  "_note": "調査用キーワード（媒体別：threads / x）。説明書と、これまでに試した語・外した語の記録は docs/sop/sop_research_auto_collect.md。daily_fixed＝毎日回す語、残りは rotation_size 語ずつ日替わり。Xの語は、2026-10-13の調査（30語）で選んだ。スレッズの語は「上位」タブの数字で選んだもので、今の集め方（「最近」タブ・48時間以内）では未検証のため、数日分のデータで見直す。",
+  "_note": "調査用キーワード（媒体別：threads / x）。説明書と、これまでに試した語・外した語の記録は docs/sop/sop_research_auto_collect.md。daily_fixed＝毎日回す語、残りは rotation_size 語ずつ日替わり。Xの語は、s4lv/UYA.向け（ai・blog_note_sns・save_pattern）を2026-10-15の試し撃ち2回（約40語。保存数・保存率で採否）で選んだ。mbti_love は2026-10-13の調査（30語）。グループに min_faves・window_hours があれば、その語の検索はその条件（なければ collect_x.py の既定＝いいね100・24時間）。スレッズの語は「上位」タブの数字で選んだもので、今の集め方（「最近」タブ・48時間以内）では未検証のため、数日分のデータで見直す。",
   "platforms": {
     "threads": {
       "daily_fixed": ["チャッピー", "claude", "MBTI 返信", "INFJ", "note"],
@@ -20,16 +20,26 @@
       }
     },
     "x": {
-      "daily_fixed": ["生成AI", "Gemini", "フォロワー", "MBTI あるある", "未練"],
+      "daily_fixed": ["Claude Code 仕事", "AI エージェント 作り方", "Claude note", "MBTI あるある", "未練"],
       "rotation_size": 5,
       "groups": {
-        "blog_note_sns": {
-          "for_account": "s4lv / UYA.（ブログ・note・SNS運用）",
-          "keywords": ["フォロワー", "Threads", "インプレッション", "note", "SNS運用"]
-        },
         "ai": {
-          "for_account": "s4lv / UYA.（AI・自動化）",
-          "keywords": ["生成AI", "Gemini", "Claude Code", "指示", "チャッピー", "claude"]
+          "for_account": "s4lv / UYA.（AI活用・仕事・自動化）",
+          "min_faves": 30,
+          "window_hours": 72,
+          "keywords": ["Claude Code 仕事", "AI エージェント 作り方", "Claude Code 自動化", "Claude Code 設定", "ChatGPT 仕事", "MCP 連携", "CLAUDE.md"]
+        },
+        "blog_note_sns": {
+          "for_account": "s4lv / UYA.（ブログ・SEO・note・SNS運用）",
+          "min_faves": 30,
+          "window_hours": 120,
+          "keywords": ["Claude note", "note 売れた", "AI検索 SEO", "(AIO OR LLMO)", "Threads 伸びる", "Xアルゴリズム"]
+        },
+        "save_pattern": {
+          "for_account": "s4lv / UYA.（保存されやすい型の観察用。ネタには使わない）",
+          "min_faves": 30,
+          "window_hours": 72,
+          "keywords": ["保存推奨 AI"]
         },
         "mbti_love": {
           "for_account": "MBTICODE（MBTI × 恋愛・人間関係）",
