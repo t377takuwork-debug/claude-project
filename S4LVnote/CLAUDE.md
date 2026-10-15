@@ -26,6 +26,7 @@ s4lv（X: @cfrms4lv／スレッズ: @cfrms4lv／note: note.com/salvami77）の�
 | note運用の学びと数字の記録 | `0_社長室/s4lv_learnings.md` |
 | note記事の一覧(公開日・URL・反応) | `0_社長室/note_article_index.md` |
 | 投稿のネタ(事実) | `0_社長室/x_neta_daicho.md` |
+| 外の話題の分析結果つきのネタ(テーマ・切り口の在庫) | `0_社長室/ネタ在庫.md` |
 | 投稿の声と書き方 | `3_広報部/s4lv_voice.md` |
 | 投稿の材料と事実 | `3_広報部/sns_common_rules.md` |
 | X だけの決まり | `3_広報部/x_post_generation_rules.md` |
