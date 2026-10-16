@@ -18,7 +18,7 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 1. **捏造禁止**：コンテンツ作成時は各アカウントの `personal_data.md` を参照し、実体験に基づく内容のみ使用する（s4lv系→`S4LVnote/0_社長室/S4LV設定/personal_data.md`）
    - **MBTICODE例外（2026-09-17改訂）**：MBTICODEは記事生成時に `mbticode/personal_data.md` を参照しない（2026-07-30時点の「該当する実体験があれば参照する」方針から、参照自体をやめる方針へ変更）。実体験の有無によらず、Note記事生成のStep1で設計したペルソナに基づく一般化された場面として書く。一人称は使ってよいが、「実際にあった」「自分の経験では」等、読者に発信者本人の確定した実体験だと誤認させる書き方はしない（詳細は `brands/mbticode_tone.md`「実体験データの扱い」）。ルール3（性的描写・断定的統計・特定個人を傷つける表現の禁止）は引き続き適用する。s4lvには適用しない
    - **s4lv例外（2026-09-22新設・柱3のみ）**：s4lvのX/Threads投稿のうち、`S4LVnote/0_社長室/x_neta_daicho.md`「柱3：意見・考え」から作る投稿に限り、意見・考えそのものは実体験に紐づかなくてよい（`/neta-research` で見つけた外部の話題・ニュースをきっかけにしてよい。決まりの全文は `S4LVnote/3_広報部/sns_common_rules.md`）。ただし**意見を裏付けるための具体的なエピソード（「実際にこういうことがあった」等の体験談）は禁止**で、そこは引き続き `personal_data.md`・台帳の柱1／柱2「事実」欄の範囲内のみ使用する。柱1・柱2（型・思想／AI実働）から作る投稿には適用しない
-2. **開示ルール**：各 `personal_data.md` の開示ルールテーブルを必ず確認する（MBTICODEはNote記事生成では2026-09-17より対象外＝上記1参照。SNS投稿生成（`/mbticode-post`）では引き続き `mbticode/personal_data.md` を参照するため対象のまま）
+2. **開示ルール**：各 `personal_data.md` の開示ルールテーブルを必ず確認する（MBTICODEはNote記事生成では2026-09-17より対象外＝上記1参照。SNS投稿生成（`/mbticode-post`）では、体験を匂わせるときだけ `mbticode/personal_data.md` を参照する。発信者の確定した実体験に読める書き方は、SNSでもしない〈2026-10-17〉）
 3. **Note規約遵守**：性的描写・断定的統計・特定個人を傷つける表現は禁止
 4. **一次情報の参照**：MBTICODEのコンテンツ生成時は `mbticode/reference/` フォルダを参照する（架空データ使用禁止）
 5. **`articles/drafts/` 配下のファイルを削除する前に必ず `articles/published/` と `article_index.md` を確認する**：「公開済みだから削除していい」という指示は「published/への移設・登録も不要」という意味ではない。対応するpublished/コピーがなければ、削除ではなく先に移設（本文保存＋article_index.md登録、手順は `.claude/commands/note-article.md` Step 6。mbticodeは `brands/mbticode/rules/note_article_mbticode.md` Step 6）を提案してから実行する。特にGit未追跡ファイルは削除すると復元不能（2026-07-29に実例あり）
@@ -49,7 +49,9 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 | ファイル | 内容 |
 |---|---|
 | `S4LVnote/0_社長室/S4LV設定/personal_data.md` | s4lv共通プロフィール・実績データ・開示ルール |
-| `mbticode/personal_data.md` | MBTICODE発信者実体験データ・開示ルール・コンテンツ変換ルール |
+| `mbticode/personal_data.md` | MBTICODE発信者実体験データ・開示ルール・コンテンツ変換ルール（SNSでは体験を匂わせるときだけ参照） |
+| `mbticode/analysis/neta/neta_ledger.md` | MBTICODEの**ネタ在庫**（投稿のネタはここの「未使用」から選ぶ）。悩み・タイプ・資料の根拠は同じ番号の `neta_stock_candidates_*.md` |
+| `mbticode/rules/style_0930.md` | MBTICODE投稿の文体の決まり（唯一の正）。締めの依頼文禁止・誘導文は平たい文・「残り」の扱いなどを含む |
 | `sns_reply_guideline.md` | 他者投稿へのリプライ・引用RT設計（Brands全アカウント共通＋アカウント別） |
 | `mbticode/reference/dskb_quick_ref.md` | DSKB 16タイプ クイックリファレンス（通常投稿はこちらで対応） |
 | `mbticode/reference/mbti_quick_ref.md` | MBTI タイプ クイックリファレンス（通常投稿はこちらで対応） |
@@ -73,7 +75,7 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 | `/asp-theme` | ASP案件・記事テーマ戦略 | ASPのテーマ選定時 |
 | `/buzz-analysis` | バズ投稿の固定フレームワーク分析（型・発話モード・ブクマ動機） | ユーザーがバズ投稿を手動収集して渡したとき |
 | `/mbticode-analysis` | MBTICODEのThreads（必要ならX）投稿の分析。スプレッドシートの数字から表を作り、独立した分析役（`mbticode-analyst`）が診断。基準は `mbticode/analysis/rubric.md`、結果は `mbticode/analysis/log.md` | ユーザーが「分析して」と指示したときのみ（定期実行しない） |
-| `/mbticode-neta` | MBTICODEのネタ・テーマの収集。毎日の自動リサーチが作る候補ファイル（X・スレッズ。`research/data/shortlist/`。説明は `docs/sop/sop_research_auto_collect.md`）を読み、恋愛・MBTI×恋愛の反響が大きい投稿を、自分の切り口に作り直す材料にする。候補ファイルがない・古いときだけ、Claude in ChromeでXから集める。台帳は `mbticode/analysis/neta/` | ユーザーが指示したときのみ（週1回程度） |
+| `/mbticode-neta` | MBTICODEの**ネタ在庫（目標：未使用30件）の補充**。毎日の自動リサーチが作る候補ファイル（X・スレッズ。`research/data/shortlist/`。説明は `docs/sop/sop_research_auto_collect.md`）を読み、恋愛・MBTI×恋愛の反響が大きい投稿の**テーマと悩み**を、自分の切り口のネタにする。台帳は `mbticode/analysis/neta/neta_ledger.md` の「ネタ在庫」。OKされた分だけ記録 | 予約実行 `mbticode-neta-refill`（毎月1日・15日の10:00）。ユーザーが「リサーチして」と指示したときも |
 | `/mbticode-analysis-update` | 分析の基準（`mbticode/analysis/rubric.md`）を、最新のアルゴリズム・伸ばし方の情報で更新する。一次情報を優先して調べ、確度つきの差分をユーザーが承認した分だけ反映 | ユーザーが「更新して」と指示したときのみ（四半期に1回が目安） |
 | `/kpi-weekly` | 週次KPIの記録＋前週比3点コメント（`mbticode/kpi_log.md` へ蓄積） | 週次の数値を渡されたとき |
 | `/neta-research` | s4lv・UYA.共通の外部リサーチ（毎日の自動リサーチが作る候補ファイル〈X・スレッズ。観察対象アカウントとキーワード検索の分〉と、Xのニュース欄・Claude Codeの活用情報から、反響の大きい話題を集めて `journals/external_seeds.md` に溜める。候補ファイルがない・古いときだけ、Claude in Chromeで集める。s4lvは台帳「柱3：意見・考え」のネタ、UYA.は「試すきっかけ／反応ネタ」） | ユーザーが「リサーチして」と明示的に指示したときのみ（自動実行しない） |
@@ -84,6 +86,5 @@ s4lv（ブログ/SNS）とMBTICODE（Note/SNS）の複数アカウントを管�
 |---|---|
 | `brands/tools/qa_post.py` | SNS投稿の機械検品（ERROR 0件が保存条件）。`python brands/tools/qa_post.py <postsファイル>` |
 | `brands/tools/qa_article.py` | Note記事の機械検品（ERROR 0件が保存条件）。有料記事は `--paid` |
-| `mbticode/examples_sns.md` | MBTICODE投稿のGood/Bad見本（旧文体のため、文体の再構築が終わるまで生成時は読まない。2026-09-30） |
 | `S4LVnote/3_広報部/s4lv_voice.md` | s4lv X・Threadsの声と書き方の決まり・見本（生成前に読む） |
 | `docs/rubrics/title_scoring.md` | タイトル配点表（採点してから提示・点数捏造禁止） |

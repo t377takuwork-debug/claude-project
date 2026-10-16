@@ -42,7 +42,6 @@
 | `/content-scan` | 記事から読者の疑問・無意識の前提を抽出→次テーマ | 全 | 任意 |
 | `/monetize-kaigi` | アフィリ収益最適化会議 | ブログ向け | 任意（Note記事にはほぼ未使用） |
 | `/seo-check` | URL×KWのSEO診断 | ブログ向け（Note URLにも適用可） | 任意 |
-| `/mbticode-content-pipeline` | published記事→SNSネタ | MBTICODE | 下流（制作ではない） |
 
 ### 2-2. ライティング原則（`brands/writing/`・全アカウント共通）
 

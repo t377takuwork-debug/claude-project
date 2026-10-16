@@ -9,7 +9,7 @@ SNS投稿・CTA自己リプライの生成後、保存前に必ず通す最終�
 /quality-guardrail [対象テキストまたはファイルパス]
 ```
 
-`/mbticode-post` `/mbticode-content-pipeline` の内部ステップとしても自動的に呼び出される（後述「既存フローへの組み込み」参照）。単体でも、既存の`posts_x.txt` / `posts_threads.txt` / `cta_templates.md` の添削し直しにも使える。
+`/mbticode-post` の内部ステップとしても自動的に呼び出される（後述「既存フローへの組み込み」参照）。単体でも、既存の`posts_x.txt` / `posts_threads.txt` / `cta_templates.md` の添削し直しにも使える。
 
 ---
 
@@ -92,5 +92,5 @@ Step 2〜2.5で修正した場合のみ、修正箇所と理由を簡潔に報�
 ## 既存フローへの組み込み
 
 - `/mbticode-post`：`sns_post_cheatsheet.md`「生成ワークフロー」Step 3のLLM判断チェックとして本SkillのStep 2〜2.5を実行する（Step 1の表現検出はqa_post.pyが担う）
-- `/mbticode-content-pipeline` でアイデアの金言フレーズを書き起こす際、および`cta_templates.md`に新規CTAパターンを追記する際も、保存前に本Skillを通す
+- `cta_templates.md`に新規CTAパターンを追記する際も、保存前に本Skillを通す
 - 保存条件は「発信前チェックリスト（cheatsheet・LLM判断項目）＋本Skill Step 2〜2.5 ＋ qa_post.py ERROR 0件」の全通過

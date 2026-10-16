@@ -93,7 +93,7 @@
   - URL：https://note.com/mbticode/n/nd5345b3b273a
   - /note-articleスキル大幅最適化・品質基準確定を同時実施
 - [x] **Content Pipeline一式の構築**2026-07-05完了
-  - `/mbticode-content-pipeline`（published記事からSNSネタを自動抽出）・`cta_templates.md`（記事別CTAライブラリ）・`/quality-guardrail`（AIっぽさ添削・保存前必須パス）の3点を新設し、`/mbticode-post`に統合済み
+  - `/mbticode-content-pipeline`（published記事からSNSネタを自動抽出。**2026-10-17に廃止**。ネタ在庫の補充は `/mbticode-neta`）・`cta_templates.md`（記事別CTAライブラリ）・`/quality-guardrail`（AIっぽさ添削・保存前必須パス）の3点を新設し、`/mbticode-post`に統合済み
 
 ---
 

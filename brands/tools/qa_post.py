@@ -38,6 +38,9 @@ except Exception:
 HEADER_RE = re.compile(r"^【(.+?)】(.*)$")
 SEP_RE = re.compile(r"^-{10,}\s*$")
 DATE_RE = re.compile(r"(\d{1,2}/\d{1,2})")
+TAIL_ASK_RE = re.compile(r"(コメントで教えて|教えてください|教えてほしい|教えて欲しい|どっち派|当てはまった数|コメントしてください)")
+HEDGE_LINE_RE = re.compile(r"(全部に?当てはまらなくても[^。\n]{0,8}|サインかもしれません|ヒントかもしれません)")
+NOKORI_RE = re.compile(r"残りの?\d+タイプ")
 MBTI_RE = re.compile(r"(?<![A-Za-z])([IE][NS][TF][JP])(?![A-Za-z])")
 URL_RE = re.compile(r"https?://")
 # 本文の閉じ`----`の後・次の見出しの前に置かれる「自己リプライ（〜）：」注記行の接頭辞。
@@ -267,6 +270,16 @@ def check_mbticode_style_new(label, text, where="", opening=True):
         f.append(Finding("ERROR", label, "opening-observer",
                          f"1行目が禁止形（〜人がいる／〜ことがある／〜ありませんか 等）：「{lines[0][:30]}」"
                          f"→ 場面（〜のとき）＋何の話かが一目で分かる1行目に（style_0930.md 2.5）{suffix}"))
+    # 取ってつけた締めの依頼文・予防線・「残り」の誤用（2026-10-17 オーナー指示。AIっぽく見える）
+    if lines and TAIL_ASK_RE.search(lines[-1]):
+        f.append(Finding("WARN", label, "ask-tail",
+                         f"締めが依頼文になっている：「{lines[-1][-24:]}」→ 反応は内容（発見・使える一手）で引き出す。依頼文は足さない{suffix}"))
+    for m in HEDGE_LINE_RE.finditer(body):
+        f.append(Finding("WARN", label, "hedge-line",
+                         f"予防線の文「{m.group(0)}」→ 入れない（AIが無難に締める言い方）{suffix}"))
+    for m in NOKORI_RE.finditer(body):
+        f.append(Finding("WARN", label, "nokori-type",
+                         f"「{m.group(0)}」：一部のタイプしか載せないのに「残り」は不自然。数を1行目で言い、続きは「続きの○タイプは、」にする{suffix}"))
     for m in SURVEY_QUESTION_RE.finditer(body):
         f.append(Finding("WARN", label, "question-survey",
                          f"アンケート調の問い「{m.group(0)[:30]}」→ 流れの中の同意を求める形（〜ませんか？／〜ですよね？）へ{suffix}"))
@@ -350,9 +363,9 @@ def check_mbticode_post(post, platform):
             f.append(Finding("ERROR", post["label"], "th-length-api-limit",
                              f"Threads本文{length}字（API上限{THREADS_API_LIMIT}字を超過・投稿時に必ず失敗する。"
                              f"型が原因で収まらない場合は圧縮せず続き型として自己リプライへ分割する）"))
-        elif not (200 <= length <= 350):
+        elif not (100 <= length <= 350):
             f.append(Finding("WARN", post["label"], "th-length",
-                             f"Threads本文{length}字（目安200〜350字）"))
+                             f"Threads本文{length}字（目安100〜350字。短い投稿のほうが返信を集めていたため下限を200→100に変更・2026-10-17）"))
         reply = post.get("reply", "")
         if reply:
             reply_body = REPLY_LABEL_RE.sub("", reply, count=1).strip()
@@ -427,7 +440,7 @@ def check_mbticode_file(posts, findings):
     for p in posts:
         if p["is_reply"] or not p["date"]:
             continue
-        for code in MBTI_RE.findall(p["header"]):
+        for code in set(MBTI_RE.findall(p["header"])):  # 同じ見出しに同じタイプが2回出ても1本と数える（2026-10-17修正）
             key = (p["date"], code)
             seen.setdefault(key, 0)
             seen[key] += 1

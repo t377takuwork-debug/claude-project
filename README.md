@@ -64,7 +64,6 @@ claude project/
 │   ├── writing/           ← ライティング原則4ファイル（起点: writing_core.md）
 │   └── mbticode/
 │       ├── rules/         ← 文体・戦略・KPI・販売分析 12本
-│       ├── examples_sns.md ← SNS投稿見本バンク（Good/Bad対比・生成前に読む）
 │       ├── reference/     ← MBTI/DSKB/ラブタイプ診断データ（捏造防止の一次情報）
 │       ├── articles/ posts/ ← 成果物（published/ が出力見本）
 │       └── mbticode_tasks.md ← タスク管理（「タスクを確認」はこれをReadする）

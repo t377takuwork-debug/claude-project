@@ -36,7 +36,7 @@
 | 設計項目 | 内容 |
 |---|---|
 | 定義ファイル | `.claude/agents/post-writer.md`（model: sonnet / effort: medium） |
-| 読み順 | `brands/CLAUDE.md` → `/mbticode-post` コマンドファイル（参照順序・本数体制を内包済み）→ 見本バンク（`examples_sns.md` 等） |
+| 読み順 | `brands/CLAUDE.md` → `/mbticode-post` コマンドファイル（参照順序・本数体制を内包済み）→ コマンドが指定する参照ファイル（チートシート・文体・ネタ在庫・資料の詳細版） |
 | ツール | Read・Grep・Glob・**Write**・PowerShell（投稿ファイルは「毎回上書き」運用のためshira-rewriterと異なりWriteを付与。上書き対象は `brands/*/posts/posts_*.txt` のみと定義に明記） |
 | 受入条件 | `python brands/tools/qa_post.py <postsファイル>` ERROR 0件。**exit code仕様は実装前に要確認（未検証）**——exit非対応なら出力全文貼付を受入条件にする |
 | 司令塔の受入 | qa_post再実行＋`/post-review`（LLM冷徹チェック）は司令塔側で実施——機械QA=実行部隊・LLMレビュー=司令塔の2段構えを役割分離にそのまま写像 |

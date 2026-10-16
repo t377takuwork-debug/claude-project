@@ -11,7 +11,7 @@
 ## 完了条件
 
 - 毎日の自動実行：`research/data/status.json` の `x`・`threads` の `exit_code` が 0（候補ファイルの頭の「収集の状態」に同じ内容が出る）
-- 週1回のネタ収集：`/mbticode-neta`・`/neta-research` それぞれの完了条件に従う（このSOPは、材料を用意するところまで）
+- ネタ収集：MBTICODEは `/mbticode-neta`（予約実行 `mbticode-neta-refill` が毎月1日・15日に在庫の補充候補を作る。2026-10-17〜）、s4lv・UYA.は `/neta-research`（指示したときだけ）。それぞれの完了条件に従う（このSOPは、材料を用意するところまで）
 
 ## 全体の流れ
 

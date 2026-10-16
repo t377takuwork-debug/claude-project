@@ -34,7 +34,7 @@
 
 ## 3. MBTICODE変換案
 （バズ構造を自アカウントの恋愛×タイプ文脈に変換した投稿案1〜2本。
- `brands/mbticode/sns_post_cheatsheet.md` の文体ルール準拠・`brands/mbticode/examples_sns.md` のGoodに寄せる）
+ `brands/mbticode/rules/style_0930.md` の文体ルール準拠。MBTICODEの変換案は、型を写さず「発見・使える一手」を入れる）
 
 ## 4. 資産への反映提案
 （cheatsheetに追記すべき新しい型・ルールがあるか。ある場合は追記文案を提示し、
