@@ -678,6 +678,8 @@ S4LV_SHOJIKI_WARNS = [
      "「正直、〜ます/です。」型の打ち明け話ふうの言い方（「正直」という言葉自体は使ってよい・s4lv_voice.md「使わない言い方」）"),
 ]
 # 広い意見募集の問い（Threads用。Xは x-question-closing が、引き出しにない形の問い締めをまとめて拾う）
+# 2026-10-16：経験を思い出させる問い（Threads用。オーナー決定で使わない）
+S4LV_EXPERIENCE_Q_RE = re.compile(r"(した|たこと|ことは|ことって|ことも)(は|って|も)?あり(ません|ませ)ん?(か|？)|た(こと)(は|って)?(ない|ありません)(ですか|か|？)")
 S4LV_BROAD_Q_RE = re.compile(r"(どう思いますか|どう思います|と思いますか|どうでしょうか|いかがですか|どうですか)[？?]")
 
 # 2026-10-02：問いの許可形（s4lv_voice.md「問いかけ」）。S4LVnote/.claude/hooks/recent_forms.py の QUESTION_FORMS と同じ分類
@@ -747,6 +749,10 @@ def check_s4lv_post(post, platform):
         check_regex(f, post, "ERROR", code, pattern, message)
     for code, pattern, message in S4LV_SHOJIKI_WARNS:
         check_regex(f, post, "WARN", code, pattern, message)
+    if platform == "threads" and S4LV_EXPERIENCE_Q_RE.search(body):
+        f.append(Finding("WARN", post["label"], "th-experience-question",
+                         "経験を思い出させる問い（「〜したことはありませんか？」）。いまのやり方をそのまま聞く形にする"
+                         "（threads_post_generation_rules.md「問い」・2026-10-16オーナー決定）"))
     if platform == "threads" and not post["is_reply"] and S4LV_BROAD_Q_RE.search(body):
         f.append(Finding("WARN", post["label"], "th-broad-question",
                          "広い意見募集の問い（「どう思いますか？」など）。経験ですぐ答えられる問いにする"
