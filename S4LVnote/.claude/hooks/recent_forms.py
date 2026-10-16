@@ -14,7 +14,7 @@ recent_forms.py — 直近の投稿の「形・入り方・終わり・長さ・
 
 見出しのタグ：【...／形：リスト／入り方：困りごと／終わり：断言】
 タグが無い古い投稿は、本文から分かる項目（文字数・問い・語尾・1行目）だけ出す。
-最近使ったネタは、見出しの台帳の番号（K◯・A◯）・「柱3」・「ジャーナル」・Note記事への誘導を拾う。
+最近使ったネタは、見出しの台帳の番号（K◯・A◯）・リサーチの候補のURL（元ネタ）・「柱3」・「ジャーナル」・Note記事への誘導を拾う。
 posts/ の今のファイルと、posts/archive/ の過去分の両方を見る。
 """
 import argparse
@@ -40,6 +40,8 @@ FILES = {"x": POSTS_DIR / "posts_x.txt", "threads": POSTS_DIR / "posts_threads.t
 # 最近使ったネタ：見出しから拾うもの
 NETA_CODE_RE = re.compile(r"(?<![A-Za-z0-9])([KA]\d{1,2})(?![0-9])")
 HDR_DATE_RE = re.compile(r"(\d{1,2})/(\d{1,2})")
+# 元ネタの候補のURL（X・Threads）。末尾の「?」以降は同じ投稿として扱うため捨てる
+NETA_URL_RE = re.compile(r"https?://(?:www\.)?(?:x\.com|twitter\.com|threads\.net|threads\.com)/[^\s／）)】、，,?#]+")
 
 # 決まりの語彙（rules/s4lv_voice.md「形の引き出し」と同じ。変えたら両方直す）
 FORMS = ["散文", "リスト", "段階", "物語", "話題所感", "問い", "見出し箇条書き", "矢印", "一言", "日常一言", "節目報告", "連投"]
@@ -209,6 +211,8 @@ def all_posts(platform):
 def neta_of(header):
     """見出しから、使ったネタの目印を拾う。"""
     keys = list(dict.fromkeys(NETA_CODE_RE.findall(header)))
+    for u in dict.fromkeys(NETA_URL_RE.findall(header)):
+        keys.append("元ネタ " + u.rstrip("/").replace("://www.", "://").replace("twitter.com", "x.com").replace("threads.com", "threads.net"))
     if "柱3" in header:
         keys.append("柱3（外の話題）")
     if "ジャーナル" in header:
@@ -254,14 +258,18 @@ def report_neta(days):
 
     def order(k):
         if k[0] in "KA" and k[1:].isdigit():
-            return (0 if k[0] == "K" else 1, int(k[1:]))
-        return (2, 0)
+            return (0 if k[0] == "K" else 1, int(k[1:]), "")
+        if k.startswith("元ネタ "):
+            return (3, 0, k)
+        return (2, 0, k)
 
     for k in sorted(set(used) | set(undated), key=order):
         items = [f"{n} {d.month}/{d.day}" for d, n in sorted(used.get(k, ()), reverse=True)]
         items += [f"{n} 日付未定のストック" for n in sorted(undated.get(k, ()))]
-        print(f"  {k}：" + "、".join(items))
-    print("  ※ ここにあるネタは、同じ角度では使わない。台帳のネタがどれも既出なら、外の話題か音声ジャーナルへ進む")
+        names = {n for _, n in used.get(k, ())} | set(undated.get(k, ()))
+        dup = "（XとThreadsの両方で使っている）" if k.startswith("元ネタ ") and len(names) > 1 else ""
+        print(f"  {k}：" + "、".join(items) + dup)
+    print("  ※ ここにあるネタは、同じ角度では使わない。元ネタのURLは、XとThreadsで使い回さない")
 
 
 def main():
