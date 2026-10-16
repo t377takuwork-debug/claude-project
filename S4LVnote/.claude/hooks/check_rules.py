@@ -43,6 +43,8 @@ OWN_FILES = [
 SHARED_FILES = [
     "journals/external_seeds.md",
     "journals/content_seeds.md",
+    "journals/X記事/考えのQ&A.md",
+    ".claude/commands/x-kiji.md",
     "brands/CLAUDE.md",
     "brands/sns_reply_guideline.md",
     "S4LVnote/.claude/hooks/*.py",

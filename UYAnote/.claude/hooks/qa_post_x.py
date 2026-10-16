@@ -18,11 +18,19 @@ ERROR が1件でもあれば exit code 1。WARN のみなら exit code 0(自分�
 """
 import re
 import sys
+from pathlib import Path
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
 except Exception:
     pass
+
+# X記事の数字の確認(s4lv・UYA.共通の道具。X記事の書き手の数字を、自分のこととして出さない)
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "brands" / "tools"))
+try:
+    import xkiji_numbers
+except Exception:
+    xkiji_numbers = None
 
 AI_PHRASES = [
     "と思います", "と感じます", "と感じています", "という感じ", "が大切です", "が重要です",
@@ -197,6 +205,8 @@ def main():
     bodies, ends_with_q, ndayone = [], 0, 0
     for label, kind, text in blocks:
         msgs = check_block(label, kind, text)
+        if xkiji_numbers:
+            msgs += xkiji_numbers.check(text, "uya")
         print(f"=== {label}({kind}) ===")
         if not msgs:
             print("[OK] 検知した問題なし")
@@ -230,6 +240,9 @@ def main():
         total_warn += 1
     if not (q_warn or ndayone > 1 or (ndayone and not THREADS) or n > 5):
         print("[OK] 本数・末尾の問い・「んだよね」の回数")
+    if not xkiji_numbers:
+        print("[WARN] X記事の数字の確認が動かない(brands/tools/xkiji_numbers.py が読めない)")
+        total_warn += 1
     print(f"\n=== 結果: ERROR {total_err}件 / WARN {total_warn}件 ===")
     sys.exit(1 if total_err else 0)
 
