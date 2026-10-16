@@ -44,6 +44,8 @@ HEADER_RE = re.compile(r"^【(.+?)】(.*)$")
 SEP_RE = re.compile(r"^-{10,}\s*$")
 DATETIME_RE = re.compile(r"(\d{1,2})/(\d{1,2})\s+(\d{1,2}):(\d{2})")
 REPLY_LABEL_RE = re.compile(r"^自己リプライ[^：]*：\s*")
+# 自己リプライを分ける見出し（「自己リプライ1（〜）：」「自己リプライ2（〜）：」…）。空行では分けない（2026-10-16）
+REPLY_N_MARKER_RE = re.compile(r"^自己リプライ[1-9][^：]*：")
 TOPIC_RE = re.compile(r"トピック[：:]\s*([^／/\n]+)")
 
 
@@ -88,12 +90,10 @@ def parse_blocks(text):
             if m2 < len(lines) and lines[m2].strip().startswith("自己リプライ"):
                 cur = []
                 while m2 < len(lines) and not HEADER_RE.match(lines[m2]):
-                    if lines[m2].strip() == "":
-                        if cur:
-                            replies.append(REPLY_LABEL_RE.sub("", "\n".join(cur).strip(), count=1).strip())
-                            cur = []
-                    else:
-                        cur.append(lines[m2])
+                    if REPLY_N_MARKER_RE.match(lines[m2].strip()) and cur:
+                        replies.append(REPLY_LABEL_RE.sub("", "\n".join(cur).strip(), count=1).strip())
+                        cur = []
+                    cur.append(lines[m2])
                     m2 += 1
                 if cur:
                     replies.append(REPLY_LABEL_RE.sub("", "\n".join(cur).strip(), count=1).strip())

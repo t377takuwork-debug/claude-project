@@ -30,6 +30,8 @@ HEADER_RE = re.compile(r"^【(.+?)】(.*)$")
 SEP_RE = re.compile(r"^-{10,}\s*$")
 DATETIME_RE = re.compile(r"(\d{1,2})/(\d{1,2})\s+(\d{1,2}):(\d{2})")
 REPLY_LABEL_RE = re.compile(r"^自己リプライ[^：]*：\s*")
+# 自己リプライを分ける見出し（「自己リプライ1（〜）：」「自己リプライ2（〜）：」…）。空行では分けない（2026-10-16）
+REPLY_N_MARKER_RE = re.compile(r"^自己リプライ[1-9][^：]*：")
 TYPE_RE = re.compile(r"^(型[①②③])")
 TOPIC_RE = re.compile(r"トピック[：:]\s*([^／/\n]+)")
 
@@ -60,7 +62,8 @@ def parse_posts(text):
                 body = "\n".join(body_lines).strip()
                 # 本文の閉じ`----`の直後（間に空行を挟まない）に「自己リプライ」で始まる行が
                 # あるときだけ自己リプライ連鎖として拾う（末尾の読者リプライログ等を巻き込まない）。
-                # 空行はリプライ同士の区切り（最大4本、2026-08-23連鎖対応）。
+                # リプライ同士の区切りは「自己リプライ1（〜）：」「自己リプライ2（〜）：」の見出し行（最大4本、2026-08-23連鎖対応）。
+                # 空行は区切りにせず、リプライの中身として残す（2026-10-16）。
                 replies = []
                 end = k
                 if k < len(lines) and SEP_RE.match(lines[k]):
@@ -69,13 +72,11 @@ def parse_posts(text):
                         current_lines = []
                         while m2 < len(lines) and not HEADER_RE.match(lines[m2]):
                             line = lines[m2]
-                            if line.strip() == "":
-                                if current_lines:
-                                    raw = "\n".join(current_lines).strip()
-                                    replies.append(REPLY_LABEL_RE.sub("", raw, count=1).strip())
-                                    current_lines = []
-                            else:
-                                current_lines.append(line)
+                            if REPLY_N_MARKER_RE.match(line.strip()) and current_lines:
+                                raw = "\n".join(current_lines).strip()
+                                replies.append(REPLY_LABEL_RE.sub("", raw, count=1).strip())
+                                current_lines = []
+                            current_lines.append(line)
                             m2 += 1
                         if current_lines:
                             raw = "\n".join(current_lines).strip()

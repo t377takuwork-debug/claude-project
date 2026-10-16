@@ -16,9 +16,9 @@ Only posts matching a given prefix are updated. Rows with a non-empty ステー�
 
 自己リプライ（2026-08-23: 単発1本から最大4本の連鎖対応へ拡張）: 本文の閉じ`----`の後・
 次の見出しの前に書かれた「自己リプライ（〜）：」形式の行を検出する。複数のリプライを
-連鎖させる場合は、それぞれ新しい「自己リプライN（〜）：」行から始め、空行で区切って
-並べる（本文内の改行は空行で表現し、リプライ同士の区切りも空行のため、1つのリプライを
-複数段落にしたい場合は同じリプライブロック内で改行のみ・空行を挟まないこと）。検出した
+連鎖させる場合は、それぞれ新しい「自己リプライN（〜）：」行から始めて並べる（リプライ同士の
+区切りはこの見出し行だけ。空行はリプライの中身として残るので、1つのリプライを複数段落に
+してよい）。検出した
 順にリプライ1〜4（列C〜F）へ書き込む。5本目以降は無視する。マッチした投稿は、リプライが
 1〜3本しかない場合も残りの列を空で明示的に上書きする（古いリプライが残留しないように）。
 
@@ -50,6 +50,8 @@ HEADER_RE = re.compile(r"^【(.+?)】(.*)$")
 SEP_RE = re.compile(r"^-{10,}\s*$")
 DATETIME_RE = re.compile(r"(\d{1,2})/(\d{1,2})\s+(\d{1,2}):(\d{2})")
 REPLY_LABEL_RE = re.compile(r"^自己リプライ[^：]*：\s*")
+# 自己リプライを分ける見出し（「自己リプライ1（〜）：」「自己リプライ2（〜）：」…）。空行では分けない（2026-10-16）
+REPLY_N_MARKER_RE = re.compile(r"^自己リプライ[1-9][^：]*：")
 TYPE_RE = re.compile(r"^(型[①②③])")
 TOPIC_RE = re.compile(r"トピック[：:]\s*([^／/\n]+)")
 
@@ -81,7 +83,8 @@ def parse_posts(text):
                 main_body = re.split(r"^===+\s*$", body, flags=re.M)[0].strip()
                 # 本文の閉じ`----`の直後（間に空行を挟まない）に「自己リプライ」で始まる行が
                 # あるときだけ、そこから次の見出しの手前までを自己リプライ連鎖として拾う。
-                # 空行はリプライ同士の区切りとして扱う（最大4本、5本目以降は無視）。
+                # リプライ同士の区切りは「自己リプライ1（〜）：」「自己リプライ2（〜）：」の見出し行（最大4本、5本目以降は無視）。
+                # 空行は区切りにせず、リプライの中身として残す（2026-10-16）。
                 # そうでない場合（末尾の「読者リプライへの返信」ログ等）は絶対に巻き込まない。
                 replies = []
                 end = k
@@ -91,13 +94,11 @@ def parse_posts(text):
                         current_lines = []
                         while m2 < len(lines) and not HEADER_RE.match(lines[m2]):
                             line = lines[m2]
-                            if line.strip() == "":
-                                if current_lines:
-                                    raw = "\n".join(current_lines).strip()
-                                    replies.append(REPLY_LABEL_RE.sub("", raw, count=1).strip())
-                                    current_lines = []
-                            else:
-                                current_lines.append(line)
+                            if REPLY_N_MARKER_RE.match(line.strip()) and current_lines:
+                                raw = "\n".join(current_lines).strip()
+                                replies.append(REPLY_LABEL_RE.sub("", raw, count=1).strip())
+                                current_lines = []
+                            current_lines.append(line)
                             m2 += 1
                         if current_lines:
                             raw = "\n".join(current_lines).strip()
