@@ -736,6 +736,20 @@ S4LV_DEAD_OPENERS = [
 def check_s4lv_post(post, platform):
     f = []
     body = post["body"]
+    # Threads 本文の字数（2026-10-16追加）。出典：S4LVnote/3_広報部/threads_post_generation_rules.md「長さ」
+    # 下限は150字（形が 問い・一言・日常一言 なら80字）。500字を超えると投稿に失敗する
+    if platform == "threads" and not post["is_reply"]:
+        _len = len(body.replace("\n", ""))
+        _form = re.search(r"形：([^／】]+)", post.get("header", ""))
+        _short = bool(_form and _form.group(1).strip() in ("問い", "一言", "日常一言"))
+        _min = 80 if _short else 150
+        if _len > 500:
+            f.append(Finding("ERROR", post["label"], "th-length-api-limit",
+                             f"Threads本文{_len}字（500字を超えると投稿に失敗する）"))
+        elif _len < _min:
+            f.append(Finding("WARN", post["label"], "th-length-short",
+                             f"Threads本文{_len}字（形が「{_form.group(1).strip() if _form else 'なし'}」なので{_min}字から。"
+                             "短く済ませるなら、形を 問い・一言 にする）"))
     if platform != "threads":
         # 命令口調の機械チェックは X だけ（Threads は 2026-08-23 から対象外）
         check_regex(f, post, "ERROR", "meirei", r"しろ。|すべき",
