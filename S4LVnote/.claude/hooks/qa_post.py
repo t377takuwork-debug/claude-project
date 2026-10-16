@@ -35,6 +35,13 @@ try:
 except Exception:
     pass
 
+# X記事の数字の確認(s4lv・UYA.共通の道具。X記事の書き手の数字を、自分のこととして出さない。2026-10-16)
+sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "brands" / "tools"))
+try:
+    import xkiji_numbers
+except Exception:
+    xkiji_numbers = None
+
 HEADER_RE = re.compile(r"^【(.+?)】(.*)$")
 SEP_RE = re.compile(r"^-{10,}\s*$")
 DATE_RE = re.compile(r"(\d{1,2}/\d{1,2})")
@@ -1107,6 +1114,12 @@ def main():
             findings.extend(check_mbticode_post(p, platform))
         else:
             findings.extend(check_s4lv_post(p, platform))
+            if xkiji_numbers:
+                texts = [p["body"], p["reply"], p["reply2"], *p["replies"]]
+                for level, m in xkiji_numbers.check("\n".join(t for t in texts if t), "s4lv"):
+                    findings.append(Finding(level, p["label"], "xkiji-number", m))
+    if account == "s4lv" and not xkiji_numbers:
+        findings.append(Finding("WARN", "全体", "xkiji-number", "X記事の数字の確認が動かない(brands/tools/xkiji_numbers.py が読めない)"))
     if account == "mbticode":
         check_mbticode_file(posts, findings)
     else:

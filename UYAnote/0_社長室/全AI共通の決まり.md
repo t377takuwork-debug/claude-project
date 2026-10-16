@@ -24,7 +24,7 @@ UYA.noteの親(社長室)と、記事づくりの子のAI(ヒアリング・リ�
 - 各AIは前工程の保存先にある最新ファイルを入力として読む
 - 質問への回答は音声入力で来る。誤変換は文脈で補って解釈する
 - note.comの「投稿する」は絶対に押さない。「下書き保存」までで止まる
-- ファイルの作成・編集はこの UYAnote フォルダの中だけで行う。フォルダの外のファイルやフォルダは読み書きしない。**例外は、ヒアリングAIとX投稿AIが読み取り専用で開く `../journals/content_seeds.md`・`../journals/external_seeds.md`・ネタの由来の `../journals/daily/YYYY-MM-DD.md` の3種類だけ**(書き換えない・コピーしない。X投稿AIへの許可は2026-10-07)
+- ファイルの作成・編集はこの UYAnote フォルダの中だけで行う。フォルダの外のファイルやフォルダは読み書きしない。**例外は、ヒアリングAIとX投稿AIが読み取り専用で開く `../journals/content_seeds.md`・`../journals/external_seeds.md`・ネタの由来の `../journals/daily/YYYY-MM-DD.md` の3種類と、X投稿AI・スレッズ投稿AIが読む `../journals/X記事/考えのQ&A.md` だけ**(書き換えない・コピーしない。X投稿AIへの許可は2026-10-07。Q&Aは2026-10-16)。Q&Aで書いてよいのは、使った問いの「使った」の行と、作業の終わり(`.claude/skills/owari/SKILL.md`)での「あなたの考えとの照らし合わせ」の行だけ。X記事の取り込み(「X記事を取り込んで」)は、`../.claude/commands/x-kiji.md` に従って `../journals/X記事/` に書いてよい
 - Windowsでは `python3` が無い場合がある。bashで `python3` が見つからなければ `python` または `py -3` で同じコマンドを実行する。ファイルの読み書きはUTF-8で行う
 - 完了報告には検証の証拠(qa_articleの結果・保存先パス)を含める。実行していない検証を「できたはず」と書かない
 

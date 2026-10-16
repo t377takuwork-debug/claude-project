@@ -102,6 +102,7 @@ claude project/
 | vivant Threads投稿生成 | `/vivant-post` スキルを起動 |
 | s4lv・UYA. 共通のネタ収集（「リサーチして」「ネタを集めて」。ブログ・note・SNS運用・Claude Codeの話題。MBTICODEは別） | `/neta-research` スキルを起動（`journals/external_seeds.md`に溜める） |
 | UYA. の作業すべて（Note記事・X投稿・スレッズ投稿・分析・方針。作業は `UYAnote/` フォルダで始める） | `UYAnote/CLAUDE.md` |
+| X記事の取り込み（s4lv・UYA.共通。本文を貼って「X記事を取り込んで」） | `/x-kiji` スキルを起動（`journals/X記事/` に原文と、問いと答えに分けた考えを溜める） |
 | UYA.・s4lv の作業の終わり（「今日はここまで」「作業終わります」） | そのフォルダの `.claude/skills/owari/SKILL.md`（フォルダで始めていればフックが自動で知らせる。親フォルダで作業していたときは、作業したフォルダの方を開く） |
 | ASP記事設計 | `/asp-kaigi` スキルを起動 |
 | 戦略・方針判断 | `/notekaigi` スキルを起動 |

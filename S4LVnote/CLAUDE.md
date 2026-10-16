@@ -55,6 +55,7 @@ s4lv（X: @cfrms4lv／スレッズ: @cfrms4lv／note: note.com/salvami77）の�
 ## フォルダの外で読んでよいもの
 ファイルの作成・編集は、この S4LVnote フォルダの中だけで行う。例外として、次だけは開いてよい。
 - ネタの置き場(UYA. と共通)：`../journals/content_seeds.md`(体験)・`../journals/external_seeds.md`(外の話題)・ネタの由来の `../journals/daily/YYYY-MM-DD.md`(選んだネタの分だけ)。読むだけ。**書いてよいのは、`3_広報部/sns_common_rules.md`「使ったあとの記録」の印だけ**(s4lv のこれまでの決まり。UYA. はここに書かない)
+- X記事の考え(UYA. と共通)：`../journals/X記事/考えのQ&A.md`(使い方はファイルの冒頭)。投稿AIが書いてよいのは、使った問いの「使った」の行だけ(作業の終わり `.claude/skills/owari/SKILL.md` では「あなたの考えとの照らし合わせ」の行も)。「X記事を取り込んで」と言われたときは、`../.claude/commands/x-kiji.md` に従って `../journals/X記事/` に原文とQ&Aを作ってよい
 - リサーチの候補(読むだけ)：`../research/data/shortlist/shortlist_s4lv_UYA_<日付>.md`(毎日自動で作る。Xのネタ・テーマの出どころ)。類似チェック用に `../research/export_sources.py`・`../brands/tools/check_similarity.py` を実行してよい(結果の一時ファイルは `../research/data/tmp/` にできる。git対象外)。借り方の決まりは `3_広報部/x_post_generation_rules.md`「リサーチ候補の使い方」
 - 全アカウント共通の資料(読むだけ)：
   - `../brands/reference/`(X・スレッズの表示のされ方のしくみ・noteの資料など。オーナーが手で更新する)
@@ -79,6 +80,7 @@ s4lv（X: @cfrms4lv／スレッズ: @cfrms4lv／note: note.com/salvami77）の�
 - 「下書きを直した」「直したので確認して」(オーナーがnoteの画面で直した)→ 直した本文を貼ってもらい、原稿に写す(checklist 8章の1と同じやり方。ページの取得は使わない)
 - 「公開しました」→ `3_広報部/社員.md` の「公開後」
 - 「◯◯AIから再開してください」→ フォルダに残っている最新の成果物を入力にして、その役割の手順から続ける(前の工程はやり直さない)
+- 「X記事を取り込んで」(X記事の本文を貼ったとき)→ `../.claude/commands/x-kiji.md` に従う(UYA. と共通の置き場 `../journals/X記事/` に、原文とQ&Aを作る)
 - 「今日はここまで」「作業終わります」など、作業の終わりの合図 → `.claude/skills/owari/SKILL.md` に従う(合図はフック `.claude/hooks/owari_signal.py` が拾う)。今回のやり取りから、直しの意図・作業の流れの改善・要らなくなった指示を拾って、正のファイルに反映する。確認を取るのは消す所だけ
 - 「Xアルゴリズムの更新」→ `../research/data/x_algo/changes.md` を読み、投稿づくりに関わる項目（`(投稿づくりには影響しない項目)` と付いていないもの）の変更を、前の値と並べて見せる。確認をもらってから、`py -3 ../research/x_algo_weights.py --render` の出力で `../brands/reference/x_algorithm_2026.md` の重み表を置き換え、`py -3 ../research/x_algo_weights.py --mark-reflected` を実行する。新しい項目に日本語名と役割が無ければ、公式コード（`xai-value-model/`）で確かめて付ける(仕組みの説明は `../docs/sop/sop_research_auto_collect.md`)
   - **続けて、必ず見直す**：変わった値が、`3_広報部/x_post_generation_rules.md`「伸びる投稿の条件」のどの行に当たるかを並べる（当たらなければ「当たる行なし」と書く）。当たる行があれば、①その行の「投稿づくりでの意味」②反響の狙い・中身の種類・厳禁（煽り・開いたあとの満足）③審査の見方（`3_広報部/sns_ai_tone_rubric.md` の X の行）のうち、変えるべき所の直し案を作る。直し案は「決まりを変える手順」で、全文を見せて確認をもらってから保存する
