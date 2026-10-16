@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T14:35:28.431Z",
+  "generated_at": "2026-10-16T14:35:26.809Z",
   "observations": [
     {
       "date": "2026-07-26",
@@ -1058,6 +1058,19 @@
       "date": "2026-10-15",
       "post_count": 220,
       "views": 98553,
+      "likes": 387,
+      "replies": 1,
+      "reposts": 6,
+      "quotes": 0,
+      "engagement_rate": 0.4,
+      "reply_rate": 0.001,
+      "like_rate": 0.393,
+      "repost_rate": 0.006
+    },
+    {
+      "date": "2026-10-16",
+      "post_count": 220,
+      "views": 98558,
       "likes": 387,
       "replies": 1,
       "reposts": 6,
