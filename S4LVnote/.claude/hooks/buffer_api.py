@@ -117,15 +117,18 @@ def parse(path):
             body.append(lines[k])
             k += 1
         # 自己リプライ = 閉じの区切り線のあと、次の見出しまで（「▼自己リプライ」の行・区切り線・見出し行は除く）
+        # 2026-10-16：ツリー（「自己リプライ1（〜）：」〜「自己リプライ4（〜）：」）は、1本ずつ分けてスレッドに並べる
         m = k + 1
-        reply = []
+        replies = [[]]
         while m < len(lines) and not HEADER_RE.match(lines[m]) and not YEAR_RE.search(lines[m]):
             ln = lines[m]
             r = REPLY_INLINE_RE.match(ln.strip())
             if r:
-                reply.append(r.group(1))
+                if "\n".join(replies[-1]).strip():
+                    replies.append([])
+                replies[-1].append(r.group(1))
             elif not (ln.startswith("▼") or SEP_RE.match(ln) or ln.startswith("■")):
-                reply.append(ln)
+                replies[-1].append(ln)
             m += 1
         i = m
         if "日付未定" in head:
@@ -136,8 +139,8 @@ def parse(path):
             continue
         num = next((CIRCLED.index(c) + 1 for c in head[:3] if c in CIRCLED), None)
         when = f"{year}-{int(d.group(1)):02d}-{int(d.group(2)):02d} {int(t.group(1)):02d}:{t.group(2)}"
-        rep = "\n".join(reply).strip()
-        out.append((num, when, "\n".join(body).strip(), rep or None))
+        reps = [s for s in ("\n".join(x).strip() for x in replies) if s]
+        out.append((num, when, "\n".join(body).strip(), reps or None))
     return out
 
 
@@ -157,10 +160,13 @@ def send(path, md, nums, mode):
     for n, when, main, reply in rows:
         jst = datetime.datetime.strptime(when, "%Y-%m-%d %H:%M")
         due = (jst - datetime.timedelta(hours=9)).strftime("%Y-%m-%dT%H:%M:00.000Z")
-        thread = [{"text": main}] + ([{"text": reply}] if reply else [])
+        reply = reply or []
+        if len(reply) > 4:
+            sys.exit(f"{when} の自己リプライが{len(reply)}本あります（最大4本）")
+        thread = [{"text": main}] + [{"text": r} for r in reply]
         label = CIRCLED[n - 1] if n else "?"
-        print(f"--- {label} {when}(日本時間) 自己リプライ:{'あり' if reply else 'なし'}")
-        print(main + ("\n[自己リプライ]\n" + reply if reply else ""))
+        print(f"--- {label} {when}(日本時間) 自己リプライ:{f'{len(reply)}本' if reply else 'なし'}")
+        print(main + "".join(f"\n[自己リプライ{i}]\n{r}" for i, r in enumerate(reply, start=1)))
         if mode == "check":
             continue
         inp = {"channelId": channel, "text": main, "schedulingType": "automatic",
@@ -224,7 +230,7 @@ if __name__ == "__main__":
         rest = [x for x in a[3:] if not x.startswith("--")]
         if cmd == "list":
             for n, when, main, reply in pick(a[1], a[2], parse_nums(rest)):
-                print(f"{CIRCLED[n - 1] if n else '?'} {when} 自己リプライ:{'あり' if reply else 'なし'} 1行目: {main.splitlines()[0][:30]}")
+                print(f"{CIRCLED[n - 1] if n else '?'} {when} 自己リプライ:{f'{len(reply)}本' if reply else 'なし'} 1行目: {main.splitlines()[0][:30]}")
         else:
             mode = "draft" if "--draft" in a else "go" if "--go" in a else "check"
             send(a[1], a[2], parse_nums(rest), mode)

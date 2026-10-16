@@ -48,6 +48,21 @@ REPLY_LABEL_RE = re.compile(r"^自己リプライ[^：]*：\s*")
 # 次の見出しまでを reply2 として別途拾う（parse_posts参照）。
 REPLY2_LABEL_RE = re.compile(r"^自己リプライ2[^：]*：\s*")
 REPLY2_MARKER_RE = re.compile(r"^自己リプライ2[^：]*：")
+# ツリー（自己リプライ1〜4）の各リプライの見出し。s4lv の検査だけが使う（2026-10-16追加）
+REPLY_N_MARKER_RE = re.compile(r"^自己リプライ[1-9][^：]*：")
+
+
+def split_replies(reply_lines):
+    """自己リプライの行を「自己リプライN（〜）：」ごとに分け、見出しを除いた本文のリストで返す。"""
+    marks = [i for i, ln in enumerate(reply_lines) if REPLY_N_MARKER_RE.match(ln.strip())]
+    cuts = ([0] if not marks or marks[0] != 0 else []) + marks + [len(reply_lines)]
+    out = []
+    for a, b in zip(cuts, cuts[1:]):
+        seg = "\n".join(reply_lines[a:b]).strip()
+        seg = REPLY_LABEL_RE.sub("", seg, count=1).strip()
+        if seg:
+            out.append(seg)
+    return out
 # Threads API実測の投稿本文上限（超過分は投稿時に必ずエラーになる。目安200〜350字とは別軸のハード制約）。
 THREADS_API_LIMIT = 500
 
@@ -121,6 +136,7 @@ def parse_posts(text):
                 # 閉じ`----`が見つかった場合のみ、その後〜次の見出し直前までを自己リプライ候補として拾う
                 reply = ""
                 reply2 = ""
+                replies = []
                 end = k
                 if k < len(lines) and SEP_RE.match(lines[k]):
                     m2 = k + 1
@@ -137,6 +153,7 @@ def parse_posts(text):
                         reply2 = "\n".join(reply_lines[split_idx:]).strip()
                     else:
                         reply = "\n".join(reply_lines).strip()
+                    replies = split_replies(reply_lines)
                     end = m2
                 date_m = DATE_RE.search(header)
                 posts.append({
@@ -146,6 +163,7 @@ def parse_posts(text):
                     "body": body,
                     "reply": reply,
                     "reply2": reply2,
+                    "replies": replies,
                     # 「リプライ狙い」（s4lv Threadsの"締めで返信を誘う通常投稿"のラベル）や
                     # 「自己リプライ」は他者への返信/引用ポストではないので is_reply から除外する
                     # （2026-09-07：ヘッダー語の衝突で通常投稿が誤ってreply扱いされバッチ検査から
@@ -718,6 +736,20 @@ S4LV_DEAD_OPENERS = [
 def check_s4lv_post(post, platform):
     f = []
     body = post["body"]
+    # Threads 本文の字数（2026-10-16追加）。出典：S4LVnote/3_広報部/threads_post_generation_rules.md「長さ」
+    # 下限は150字（形が 問い・一言・日常一言 なら80字）。500字を超えると投稿に失敗する
+    if platform == "threads" and not post["is_reply"]:
+        _len = len(body.replace("\n", ""))
+        _form = re.search(r"形：([^／】]+)", post.get("header", ""))
+        _short = bool(_form and _form.group(1).strip() in ("問い", "一言", "日常一言"))
+        _min = 80 if _short else 150
+        if _len > 500:
+            f.append(Finding("ERROR", post["label"], "th-length-api-limit",
+                             f"Threads本文{_len}字（500字を超えると投稿に失敗する）"))
+        elif _len < _min:
+            f.append(Finding("WARN", post["label"], "th-length-short",
+                             f"Threads本文{_len}字（形が「{_form.group(1).strip() if _form else 'なし'}」なので{_min}字から。"
+                             "短く済ませるなら、形を 問い・一言 にする）"))
     if platform != "threads":
         # 命令口調の機械チェックは X だけ（Threads は 2026-08-23 から対象外）
         check_regex(f, post, "ERROR", "meirei", r"しろ。|すべき",
@@ -798,12 +830,14 @@ def check_s4lv_post(post, platform):
 
     # 読点（1文に「、」2個以上でWARN）。出典：S4LVnote/3_広報部/s4lv_voice.md「書き方の形」。
     # 本文＋自己リプライの両方を見る。
-    kt_texts = [("本文", body)]
-    _reply_raw = post.get("reply", "")
-    if _reply_raw:
-        kt_texts.append(("自己リプライ", "\n".join(
-            _ln for _ln in REPLY_LABEL_RE.sub("", _reply_raw, count=1).splitlines()
-            if not _ln.lstrip().startswith("■"))))
+    # 2026-10-16：ツリーの自己リプライ1〜4をすべて見る。続き型の切れ目（本文と、最後以外のリプライの末尾の「、」）は数えない
+    _chain = post.get("replies") or []
+    _tsuzuki = "続き型" in post.get("header", "")
+    _texts = [body] + ["\n".join(_ln for _ln in r.splitlines() if not _ln.lstrip().startswith("■")) for r in _chain]
+    if _tsuzuki:
+        _texts = [re.sub(r"、\s*$", "", x.rstrip()) if i < len(_texts) - 1 else x for i, x in enumerate(_texts)]
+    kt_texts = [("本文", _texts[0])] + [
+        ("自己リプライ" if len(_chain) == 1 else f"自己リプライ{i}", x) for i, x in enumerate(_texts[1:], start=1)]
     for _tlabel, _ttext in kt_texts:
         for s in sentences(_ttext):
             if s.count("、") >= 2:
@@ -841,11 +875,46 @@ def check_s4lv_post(post, platform):
             f.append(Finding("WARN", post["label"], "disclosure-tell",
                              f"開示ワード「数字や日付＋差し替え/更新」（{_tlabel}・定期更新記事の示唆・"
                              "「古くなった記述を新しい情報に」等へ一般化）"))
+
+    # ツリー（自己リプライ1〜4）。出典：S4LVnote/3_広報部/threads_post_generation_rules.md「自己リプライ」（2026-10-16追加）
+    for _i, _r in enumerate(_chain, start=1):
+        if platform == "threads" and _i >= 2 and URL_RE.search(_r):
+            f.append(Finding("ERROR", post["label"], "th-url",
+                             f"Threads自己リプライ{_i}にURL禁止（フォロワー100までは誘導リンク全廃）"))
+    if len(_chain) > 4:
+        f.append(Finding("ERROR", post["label"], "reply-count",
+                         f"自己リプライが{len(_chain)}本（最大4本）"))
+    for _tlabel, _ttext in [("本文", body)] + [(f"自己リプライ{i}", r) for i, r in enumerate(_chain, start=1)]:
+        if re.search(r"続きはリプ欄|続きはリプライ|続きはツリー|続きは下|（続く）|自己リプライに続けます", _ttext):
+            f.append(Finding("ERROR", post["label"], "tsuzuki-meta",
+                             f"続きの予告（{_tlabel}）。文の切れ目そのもので続きを読ませる"))
+    if _tsuzuki and _chain:
+        _parts = [("本文", body)] + [(f"自己リプライ{i}", r) for i, r in enumerate(_chain[:-1], start=1)]
+        for _tlabel, _ttext in _parts:
+            _tail = (nonempty_lines(_ttext) or [""])[-1].strip()
+            if not _tail.endswith("、"):
+                f.append(Finding("WARN", post["label"], "tsuzuki-not-fragment",
+                                 f"続き型なのに{_tlabel}が文を終えている。最後の1本以外は、読点（、）で切って次へつなぐ"))
+    elif _tsuzuki:
+        f.append(Finding("WARN", post["label"], "tsuzuki-no-reply", "見出しが続き型なのに、自己リプライがない"))
     return f
 
 
 def check_s4lv_file(posts, findings, platform=None):
     all_body = "\n".join(p["body"] for p in posts)
+    # 続き型のつなぎの言い回し（切れ目の末尾の数文字）が2本以上で重なっていないか（2026-10-16追加）
+    _tails = {}
+    for p in posts:
+        if "続き型" not in p.get("header", "") or not p["date"]:
+            continue
+        for _x in [p["body"]] + (p.get("replies") or [])[:-1]:
+            _last = (nonempty_lines(_x) or [""])[-1].strip()
+            if _last.endswith("、"):
+                _tails.setdefault(_last[-5:], []).append(p["label"])
+    for _w, _labels in _tails.items():
+        if len(_labels) >= 2:
+            findings.append(Finding("WARN", "バッチ全体", "tsuzuki-connector-repeat",
+                                    f"続き型のつなぎ「…{_w}」が{len(_labels)}か所で重なっている: " + " / ".join(_labels)))
     if all_body.count("170万") >= 2:
         findings.append(Finding("WARN", "バッチ全体", "pv-nikai",
                                 "「170万PV」言及が2回以上（1日の投稿群で1回まで・s4lv）"))
