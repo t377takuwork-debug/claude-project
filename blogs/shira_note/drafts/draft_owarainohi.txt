@@ -1,8 +1,8 @@
 <!-- wp:paragraph -->
 タイトル：お笑いの日2026のタイムテーブル｜順番・スケジュールを時間別まとめ
 
-メタディスクリプション（99字）：
-お笑いの日2026（2026年10月17日・TBS系）のタイムテーブルとスケジュール。午後2時スタートの生放送で、敗者復活戦・芸人総選挙・キングオブコント決勝の順番と出演者を時間別にまとめています。
+メタディスクリプション（91字）：
+お笑いの日2026（2026年10月17日・TBS系）のタイムテーブルとスケジュール。敗者復活戦・芸人総選挙・キングオブコント決勝の実際の順番と結果、出演者を時間別にまとめています。
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -10,7 +10,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>2026年10月17日（土）放送の『お笑いの日2026』について、タイムテーブルとスケジュール・企画の順番・出演者をまとめています。</p>
+<p>2026年10月17日（土）放送された『お笑いの日2026』について、タイムテーブルとスケジュール・企画の順番・出演者をまとめています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -37,10 +37,10 @@
     </div>
 
     <div style="display: flex; align-items: flex-start; gap: 8px;">
-      <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; border: 1px solid #0a0a0f; color: #0a0a0f; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 1px;">発表状況</div>
+      <div style="flex-shrink: 0; font-size: 8px; font-weight: 700; border: 1px solid #0a0a0f; color: #0a0a0f; padding: 2px 4px; letter-spacing: 0.02em; width: 48px; text-align: center; margin-top: 1px;">放送状況</div>
       <div style="flex: 1; font-size: 12.5px; font-weight: 700; color: #333; line-height: 1.5;">
-        3つの企画の時間帯は発表済み
-        <div style="font-size: 10px; font-weight: 500; color: #666; margin-top: 3px;">各企画の中の出番の順番は、まだ発表されていません</div>
+        放送は終了しました
+        <div style="font-size: 10px; font-weight: 500; color: #666; margin-top: 3px;">実際の出番の順番と結果を、この記事に載せています</div>
       </div>
     </div>
 
@@ -54,17 +54,17 @@
 
     <div style="background: rgba(227, 38, 42, 0.04); border-left: 3px solid #e3262a; padding: 8px 10px;">
       <div style="font-size: 10.5px; color: #e3262a; font-weight: 800; margin-bottom: 2px;">
-        キングオブコント初の敗者復活戦を生放送
+        ジェラードンがキングオブコント2026で優勝
       </div>
       <div style="font-size: 9px; font-weight: 500; color: #888;">
-        決勝に進む1組は、視聴者の国民投票で決まります
+        敗者復活戦はスパイシーガーリックが勝ち上がり決勝に進みました
       </div>
     </div>
 
   </div>
 
   <div style="background: #fcfcfc; padding: 10px 12px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #eee;">
-    <div style="color: #999; font-size: 9px;">Update: 2026.10.16</div>
+    <div style="color: #999; font-size: 9px;">Update: 2026.10.18</div>
     <a href="#st-toc-h-1" style="display: inline-flex; align-items: center; background: #e3262a; color: #fff; text-decoration: none; font-size: 10.5px; font-weight: 800; padding: 5px 12px; border-radius: 20px; box-shadow: 0 4px 10px rgba(227, 38, 42, 0.2);">
       詳細を確認 <span style="margin-left: 4px; font-size: 11px;">↓</span>
     </a>
@@ -78,11 +78,167 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>キングオブコント初の敗者復活戦から芸人総選挙、決勝へと続く約8時間のお笑い特番！</p>
+<p>キングオブコント初の敗者復活戦から芸人総選挙、決勝へと続いた約8時間のお笑い特番！</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>決勝の開始は昨年より30分早い午後6時！新しい追加情報などあり次第更新していきます！</p>
+<p>決勝ではジェラードンが優勝し、第19代王者に！新しい追加情報などあり次第更新していきます！</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2>お笑いの日2026の実際の順番と流れ【放送後更新】</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>放送後の実際の順番と流れを、時間帯ごとにまとめています。</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<aside role="region" aria-label="お笑いの日2026 実際の流れ（10月17日）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #ffffff; color: #333333; border: 1px solid #e0e0e0; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.08); max-width: 800px;">
+  <div style="background: #0a0a0f; padding: 10px 14px; border-bottom: 2px solid #1fc8ee; display: flex; flex-wrap: wrap; align-items: center; gap: 8px;">
+    <span style="font-size: 12px; color: #1fc8ee; font-weight: 800;">▼ 2026年10月17日（土）</span>
+    <span style="font-size: 10px; font-weight: 900; color: #1fc8ee; border: 1px solid #1fc8ee; border-radius: 2px; padding: 0 5px;">放送後</span>
+  </div>
+  <div style="padding: 0 12px 14px;">
+  <div style="margin-top: 14px;">
+    <div style="background: #1fc8ee; color: #0a0a0f; padding: 6px 10px; border-radius: 3px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 4px;">
+      <span style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); font-weight: 900;">敗者復活戦</span>
+      <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700;">14:00〜16:30（公式発表の枠）</span>
+    </div>
+    <div style="display: flex; gap: 10px; padding: 10px 0; border-bottom: 1px solid #eeeeee;">
+      <div style="flex-shrink: 0; width: clamp(56px, calc(56px + (100vw - 480px) / 45), 72px); text-align: center; white-space: nowrap;">
+        <div style="font-size: clamp(15px, calc(15px + (100vw - 480px) / 180), 19px); font-weight: 900; color: #0a0a0f; line-height: 1.2;">14:00</div>
+        <div style="font-size: 10px; font-weight: 700; color: #777777;">ごろ〜</div>
+      </div>
+      <div style="flex: 1; border-left: 3px solid #1fc8ee; padding-left: 10px;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); font-weight: 800; color: #0a0a0f;">前半</div>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; margin: 3px 0 0; line-height: 1.7;">開幕トークとルール説明のあと、ネタが始まりました。</p>
+        <div style="margin-top: 6px; font-size: 10px; font-weight: 700; color: #777777;">出場順（1〜5組目）</div>
+        <div style="margin-top: 6px; display: flex; flex-wrap: wrap; gap: 4px;"><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #eefafd; border: 1px solid #1fc8ee; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #0b86a3; margin-right: 4px;">1</span>生姜猫</span><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #eefafd; border: 1px solid #1fc8ee; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #0b86a3; margin-right: 4px;">2</span>cacao</span><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #eefafd; border: 1px solid #1fc8ee; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #0b86a3; margin-right: 4px;">3</span>ネルソンズ</span><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #eefafd; border: 1px solid #1fc8ee; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #0b86a3; margin-right: 4px;">4</span>そいつどいつ</span><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #eefafd; border: 1px solid #1fc8ee; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #0b86a3; margin-right: 4px;">5</span>スパイシーガーリック</span></div>
+      </div>
+    </div>
+    <div style="display: flex; gap: 10px; padding: 10px 0; border-bottom: 1px solid #eeeeee;">
+      <div style="flex-shrink: 0; width: clamp(56px, calc(56px + (100vw - 480px) / 45), 72px); text-align: center; white-space: nowrap;">
+        <div style="font-size: clamp(15px, calc(15px + (100vw - 480px) / 180), 19px); font-weight: 900; color: #0a0a0f; line-height: 1.2;">15:00</div>
+        <div style="font-size: 10px; font-weight: 700; color: #777777;">ごろ〜</div>
+      </div>
+      <div style="flex: 1; border-left: 3px solid #1fc8ee; padding-left: 10px;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); font-weight: 800; color: #0a0a0f;">後半・採点発表</div>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; margin: 3px 0 0; line-height: 1.7;">全組が終わると芸人審査員の採点が発表され、上位3組が国民投票に進みました。</p>
+        <div style="margin-top: 6px; font-size: 10px; font-weight: 700; color: #777777;">出場順（6〜10組目）</div>
+        <div style="margin-top: 6px; display: flex; flex-wrap: wrap; gap: 4px;"><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #eefafd; border: 1px solid #1fc8ee; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #0b86a3; margin-right: 4px;">6</span>喫茶ムーン</span><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #eefafd; border: 1px solid #1fc8ee; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #0b86a3; margin-right: 4px;">7</span>江戸川ジャンクジャンク</span><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #eefafd; border: 1px solid #1fc8ee; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #0b86a3; margin-right: 4px;">8</span>オフローズ</span><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #eefafd; border: 1px solid #1fc8ee; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #0b86a3; margin-right: 4px;">9</span>破壊ありがとう</span><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #eefafd; border: 1px solid #1fc8ee; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #0b86a3; margin-right: 4px;">10</span>しずる</span></div>
+      </div>
+    </div>
+    <div style="display: flex; gap: 10px; padding: 10px 0; border-bottom: 1px solid #eeeeee;">
+      <div style="flex-shrink: 0; width: clamp(56px, calc(56px + (100vw - 480px) / 45), 72px); text-align: center; white-space: nowrap;">
+        <div style="font-size: clamp(15px, calc(15px + (100vw - 480px) / 180), 19px); font-weight: 900; color: #0a0a0f; line-height: 1.2;">16:00</div>
+        <div style="font-size: 10px; font-weight: 700; color: #777777;">ごろ〜</div>
+      </div>
+      <div style="flex: 1; border-left: 3px solid #1fc8ee; padding-left: 10px;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); font-weight: 800; color: #0a0a0f;">国民投票の結果発表</div>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; margin: 3px 0 0; line-height: 1.7;">スマホ国民投票の結果が発表され、スパイシーガーリックの決勝進出が決まりました。そのあと勝者へのインタビューや、決勝への期待を語るトークがありました。</p>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top: 14px;">
+    <div style="background: #d92a86; color: #ffffff; padding: 6px 10px; border-radius: 3px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 4px;">
+      <span style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); font-weight: 900;">芸人総選挙 お笑いの日ver.</span>
+      <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700;">16:30〜18:00（公式発表の枠）</span>
+    </div>
+    <div style="display: flex; gap: 10px; padding: 10px 0; border-bottom: 1px solid #eeeeee;">
+      <div style="flex-shrink: 0; width: clamp(56px, calc(56px + (100vw - 480px) / 45), 72px); text-align: center; white-space: nowrap;">
+        <div style="font-size: clamp(15px, calc(15px + (100vw - 480px) / 180), 19px); font-weight: 900; color: #0a0a0f; line-height: 1.2;">16:30</div>
+        <div style="font-size: 10px; font-weight: 700; color: #777777;">ごろ〜</div>
+      </div>
+      <div style="flex: 1; border-left: 3px solid #d92a86; padding-left: 10px;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); font-weight: 800; color: #0a0a0f;">前半</div>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; margin: 3px 0 0; line-height: 1.7;">ゲスト芸人が並ぶスタジオで、2026年上半期に活躍した芸人のランキング発表が始まりました。</p>
+      </div>
+    </div>
+    <div style="display: flex; gap: 10px; padding: 10px 0; border-bottom: 1px solid #eeeeee;">
+      <div style="flex-shrink: 0; width: clamp(56px, calc(56px + (100vw - 480px) / 45), 72px); text-align: center; white-space: nowrap;">
+        <div style="font-size: clamp(15px, calc(15px + (100vw - 480px) / 180), 19px); font-weight: 900; color: #0a0a0f; line-height: 1.2;">17:30</div>
+        <div style="font-size: 10px; font-weight: 700; color: #777777;">ごろ〜</div>
+      </div>
+      <div style="flex: 1; border-left: 3px solid #d92a86; padding-left: 10px;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); font-weight: 800; color: #0a0a0f;">後半・決勝へ</div>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; margin: 3px 0 0; line-height: 1.7;">ランキング企画の続きのあと、昨年王者ロングコートダディの密着VTRなどを挟んで決勝へつながりました。</p>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top: 14px;">
+    <div style="background: #e3262a; color: #ffffff; padding: 6px 10px; border-radius: 3px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 4px;">
+      <span style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); font-weight: 900;">キングオブコント2026 決勝</span>
+      <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700;">18:00〜21:56（公式発表の枠）</span>
+    </div>
+    <div style="display: flex; gap: 10px; padding: 10px 0; border-bottom: 1px solid #eeeeee;">
+      <div style="flex-shrink: 0; width: clamp(56px, calc(56px + (100vw - 480px) / 45), 72px); text-align: center; white-space: nowrap;">
+        <div style="font-size: clamp(15px, calc(15px + (100vw - 480px) / 180), 19px); font-weight: 900; color: #0a0a0f; line-height: 1.2;">18:00</div>
+        <div style="font-size: 10px; font-weight: 700; color: #777777;">ごろ〜</div>
+      </div>
+      <div style="flex: 1; border-left: 3px solid #e3262a; padding-left: 10px;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); font-weight: 800; color: #0a0a0f;">ファーストステージ 前半</div>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; margin: 3px 0 0; line-height: 1.7;">審査員が紹介され、ネタが始まりました。</p>
+        <div style="margin-top: 6px; font-size: 10px; font-weight: 700; color: #777777;">出場順（1〜5組目）</div>
+        <div style="margin-top: 6px; display: flex; flex-wrap: wrap; gap: 4px;"><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #fff1f1; border: 1px solid #e3262a; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #e3262a; margin-right: 4px;">1</span>元祖いちごちゃん</span><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #fff1f1; border: 1px solid #e3262a; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #e3262a; margin-right: 4px;">2</span>ヤッホイ</span><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #fff1f1; border: 1px solid #e3262a; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #e3262a; margin-right: 4px;">3</span>スパイシーガーリック（敗者復活）</span><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #fff1f1; border: 1px solid #e3262a; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #e3262a; margin-right: 4px;">4</span>ななまがり</span><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #fff1f1; border: 1px solid #e3262a; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #e3262a; margin-right: 4px;">5</span>ダウ90000</span></div>
+      </div>
+    </div>
+    <div style="display: flex; gap: 10px; padding: 10px 0; border-bottom: 1px solid #eeeeee;">
+      <div style="flex-shrink: 0; width: clamp(56px, calc(56px + (100vw - 480px) / 45), 72px); text-align: center; white-space: nowrap;">
+        <div style="font-size: clamp(15px, calc(15px + (100vw - 480px) / 180), 19px); font-weight: 900; color: #0a0a0f; line-height: 1.2;">19:00</div>
+        <div style="font-size: 10px; font-weight: 700; color: #777777;">ごろ〜</div>
+      </div>
+      <div style="flex: 1; border-left: 3px solid #e3262a; padding-left: 10px;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); font-weight: 800; color: #0a0a0f;">ファーストステージ 後半・順位発表</div>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; margin: 3px 0 0; line-height: 1.7;">全組が終わると順位が発表され、ジェラードン・蛙亭・ヤッホイがファイナルステージに進みました。</p>
+        <div style="margin-top: 6px; font-size: 10px; font-weight: 700; color: #777777;">出場順（6〜11組目）</div>
+        <div style="margin-top: 6px; display: flex; flex-wrap: wrap; gap: 4px;"><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #fff1f1; border: 1px solid #e3262a; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #e3262a; margin-right: 4px;">6</span>ジェラードン</span><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #fff1f1; border: 1px solid #e3262a; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #e3262a; margin-right: 4px;">7</span>ニッポンの社長</span><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #fff1f1; border: 1px solid #e3262a; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #e3262a; margin-right: 4px;">8</span>相性はいいよね</span><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #fff1f1; border: 1px solid #e3262a; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #e3262a; margin-right: 4px;">9</span>蛙亭</span><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #fff1f1; border: 1px solid #e3262a; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #e3262a; margin-right: 4px;">10</span>ザ・マミィ</span><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #fff1f1; border: 1px solid #e3262a; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #e3262a; margin-right: 4px;">11</span>や団</span></div>
+      </div>
+    </div>
+    <div style="display: flex; gap: 10px; padding: 10px 0; border-bottom: 1px solid #eeeeee;">
+      <div style="flex-shrink: 0; width: clamp(56px, calc(56px + (100vw - 480px) / 45), 72px); text-align: center; white-space: nowrap;">
+        <div style="font-size: clamp(15px, calc(15px + (100vw - 480px) / 180), 19px); font-weight: 900; color: #0a0a0f; line-height: 1.2;">20:00</div>
+        <div style="font-size: 10px; font-weight: 700; color: #777777;">ごろ〜</div>
+      </div>
+      <div style="flex: 1; border-left: 3px solid #e3262a; padding-left: 10px;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); font-weight: 800; color: #0a0a0f;">ファイナルステージ</div>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; margin: 3px 0 0; line-height: 1.7;">2本目のネタを披露し、得点が発表されました。ジェラードンが合計1342点で優勝しました。</p>
+        <div style="margin-top: 6px; font-size: 10px; font-weight: 700; color: #777777;">出場順</div>
+        <div style="margin-top: 6px; display: flex; flex-wrap: wrap; gap: 4px;"><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #fff1f1; border: 1px solid #e3262a; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #e3262a; margin-right: 4px;">1</span>ヤッホイ（3位通過）</span><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #fff1f1; border: 1px solid #e3262a; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #e3262a; margin-right: 4px;">2</span>蛙亭（2位通過）</span><span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 700; color: #0a0a0f; background: #fff1f1; border: 1px solid #e3262a; border-radius: 3px; padding: 2px 7px; line-height: 1.5;"><span style="font-weight: 900; color: #e3262a; margin-right: 4px;">3</span>ジェラードン（1位通過）</span></div>
+      </div>
+    </div>
+    <div style="display: flex; gap: 10px; padding: 10px 0; border-bottom: 1px solid #eeeeee;">
+      <div style="flex-shrink: 0; width: clamp(56px, calc(56px + (100vw - 480px) / 45), 72px); text-align: center; white-space: nowrap;">
+        <div style="font-size: clamp(15px, calc(15px + (100vw - 480px) / 180), 19px); font-weight: 900; color: #0a0a0f; line-height: 1.2;">21:00</div>
+        <div style="font-size: 10px; font-weight: 700; color: #777777;">〜21:56</div>
+      </div>
+      <div style="flex: 1; border-left: 3px solid #e3262a; padding-left: 10px;">
+        <div style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); font-weight: 800; color: #0a0a0f;">優勝インタビュー・エンディング</div>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; margin: 3px 0 0; line-height: 1.7;">ジェラードンへのインタビューとトロフィー授与があり、浜田雅功さんの締めの言葉で放送が終わりました。</p>
+      </div>
+    </div>
+  </div>
+  <div style="margin-top: 14px;">
+    <div style="background: #0a0a0f; color: #1fc8ee; padding: 6px 10px; border-radius: 3px;"><span style="font-size: clamp(12px, calc(12px + (100vw - 480px) / 360), 14px); font-weight: 900;">結果まとめ</span></div>
+    <div style="display: flex; gap: 10px; padding: 10px 0; border-bottom: 1px solid #eeeeee;">
+      <div style="flex-shrink: 0; width: clamp(56px, calc(56px + (100vw - 480px) / 45), 72px); text-align: center; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 900; color: #0a0a0f; line-height: 1.4;">敗者復活戦</div>
+      <div style="flex: 1; border-left: 3px solid #0a0a0f; padding-left: 10px;">
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; margin: 0; line-height: 1.7;">芸人審査員の採点は1位がスパイシーガーリック（279点）、2位がそいつどいつ（275点）、3位が喫茶ムーン（264点）でした。国民投票の結果、スパイシーガーリックが12,721票で決勝に進みました。</p>
+      </div>
+    </div>
+    <div style="display: flex; gap: 10px; padding: 10px 0; border-bottom: 1px solid #eeeeee;">
+      <div style="flex-shrink: 0; width: clamp(56px, calc(56px + (100vw - 480px) / 45), 72px); text-align: center; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 900; color: #0a0a0f; line-height: 1.4;">決勝</div>
+      <div style="flex: 1; border-left: 3px solid #0a0a0f; padding-left: 10px;">
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; margin: 0; line-height: 1.7;">ファーストステージの上位3組は、ジェラードン（671点）・蛙亭（661点）・ヤッホイ（653点）でした。ファイナルステージを経て、ジェラードンが合計1342点で第19代王者になりました。2位は蛙亭、3位はヤッホイでした。</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</aside>
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p>時刻は目安です。生放送のため、CMやトークの長さで前後することがあります。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -90,32 +246,32 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>企画の時間帯は発表済みで、各企画の中の出番の順番はまだ発表されていません。</p>
+<p>放送は、3つの企画に分かれていました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<aside role="region" aria-label="お笑いの日2026 タイムテーブル（10月17日）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(31, 200, 238, 0.2); color: #fff; max-width: 800px;">
-  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 100%);">
+<aside role="region" aria-label="お笑いの日2026 タイムテーブル（10月17日）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #ffffff; border: 1px solid #1fc8ee; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); color: #0a0a0f; max-width: 800px;">
+  <div style="padding: 12px; background: #ffffff;">
 
     <div style="margin-bottom: 12px; border-bottom: 1px solid rgba(31, 200, 238, 0.3); padding-bottom: 4px;">
-      <span style="font-size: 12px; color: #1fc8ee; font-weight: 800;">▼ 2026年10月17日（土）</span>
+      <span style="font-size: 12px; color: #0b86a3; font-weight: 800;">▼ 2026年10月17日（土）</span>
     </div>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">放送枠</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">14:00〜21:56</span><br>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">TBS系で生放送されます。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">放送枠</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">14:00〜21:56</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">TBS系で生放送されます。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">企画の時間帯</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">発表済み</span><br>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">敗者復活戦・芸人総選挙・決勝の3つに分かれています。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #e3262a; font-weight: 800;">企画の時間帯</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">放送済み</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">敗者復活戦・芸人総選挙・決勝の3つに分かれていました。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">出番の順番</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">未発表</span><br>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">今のところ公式からのアナウンスはありません。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">出番の順番</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">確定</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">実際の順番は、この記事の実際の順番と流れに載せています。</p>
       </div>
 
     </div>
@@ -124,11 +280,11 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>公式が発表しているのは、3つの企画の時間帯です。</p>
+<p>3つの企画の時間帯は、放送前に公式が発表していたものです。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出番の順番は、分かった範囲でこの欄に書き足します。</p>
+<p>各企画の中の出番の順番は、実際の順番と流れの欄に載せています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -136,39 +292,39 @@
 <!-- /wp:heading -->
 
 <!-- wp:html -->
-<aside role="region" aria-label="お笑いの日2026 タイムテーブル（14時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(31, 200, 238, 0.2); color: #fff; max-width: 800px;">
-  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 100%);">
+<aside role="region" aria-label="お笑いの日2026 タイムテーブル（14時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #ffffff; border: 1px solid #1fc8ee; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); color: #0a0a0f; max-width: 800px;">
+  <div style="padding: 12px; background: #ffffff;">
 
     <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; border-bottom: 1px solid rgba(31, 200, 238, 0.3); padding-bottom: 6px;">
-      <span style="font-size: 12px; color: #1fc8ee; font-weight: 800;">▼ 14:00〜16:30</span>
-      <span style="font-size: 10px; font-weight: 900; color: #1fc8ee; border: 1px solid #1fc8ee; border-radius: 2px; padding: 0 5px;">公式発表</span>
+      <span style="font-size: 12px; color: #0b86a3; font-weight: 800;">▼ 14:00〜16:30</span>
+      <span style="font-size: 10px; font-weight: 900; color: #0b86a3; border: 1px solid #1fc8ee; border-radius: 2px; padding: 0 5px;">公式発表</span>
     </div>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">内容</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">2008年に始まったキングオブコントで初めての敗者復活戦です。決勝進出を逃した10組が挑みます。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">内容</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">2008年に始まったキングオブコントで初めての敗者復活戦です。決勝進出を逃した10組が挑みました。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">決め方</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">スタジオにいる芸人審査員の採点で3組に絞り、視聴者の国民投票で決勝に進む1組を決めます。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #e3262a; font-weight: 800;">決め方</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">スタジオにいる芸人審査員の採点で3組に絞り、視聴者の国民投票で決勝に進む1組を決めました。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">MC・進行</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">MCは濱家隆一さん（かまいたち）とチョコレートプラネット、進行はTBSの宇賀神メグアナウンサーです。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">MC・進行</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">MCは濱家隆一さん（かまいたち）とチョコレートプラネット、進行はTBSの宇賀神メグアナウンサーです。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">挑戦する10組</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">江戸川ジャンクジャンク / オフローズ / cacao / 喫茶ムーン / しずる / 生姜猫 / スパイシーガーリック / そいつどいつ / ネルソンズ / 破壊ありがとう。10組は五十音順に案内されていて、出番の順番は発表されていません。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">挑戦する10組</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">江戸川ジャンクジャンク / オフローズ / cacao / 喫茶ムーン / しずる / 生姜猫 / スパイシーガーリック / そいつどいつ / ネルソンズ / 破壊ありがとう。10組は五十音順に案内されていました。実際の出場順は、実際の順番と流れの欄に載せています。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">ゲスト・審査員</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">ゲストは鎮西寿々歌（FRUITS ZIPPER） / ホラン千秋 / 森本慎太郎（SixTONES）です。芸人審査員は27組で、一覧は下の出演者の欄に載せています。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">ゲスト・審査員</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">ゲストは鎮西寿々歌（FRUITS ZIPPER） / ホラン千秋 / 森本慎太郎（SixTONES）です。芸人審査員は27組で、一覧は下の出演者の欄に載せています。</p>
       </div>
 
     </div>
@@ -185,34 +341,34 @@
 <!-- /wp:heading -->
 
 <!-- wp:html -->
-<aside role="region" aria-label="お笑いの日2026 タイムテーブル（16時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(31, 200, 238, 0.2); color: #fff; max-width: 800px;">
-  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 100%);">
+<aside role="region" aria-label="お笑いの日2026 タイムテーブル（16時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #ffffff; border: 1px solid #1fc8ee; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); color: #0a0a0f; max-width: 800px;">
+  <div style="padding: 12px; background: #ffffff;">
 
     <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; border-bottom: 1px solid rgba(31, 200, 238, 0.3); padding-bottom: 6px;">
-      <span style="font-size: 12px; color: #1fc8ee; font-weight: 800;">▼ 16:30〜18:00</span>
-      <span style="font-size: 10px; font-weight: 900; color: #1fc8ee; border: 1px solid #1fc8ee; border-radius: 2px; padding: 0 5px;">公式発表</span>
+      <span style="font-size: 12px; color: #0b86a3; font-weight: 800;">▼ 16:30〜18:00</span>
+      <span style="font-size: 10px; font-weight: 900; color: #0b86a3; border: 1px solid #1fc8ee; border-radius: 2px; padding: 0 5px;">公式発表</span>
     </div>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">内容</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">芸人へのアンケートをもとに、2026年上半期に活躍した芸人をランキング形式で紹介します。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">内容</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">芸人へのアンケートをもとに、2026年上半期に活躍した芸人をランキング形式で紹介します。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">MC・進行</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">MCはダイアン津田さんと永野さん、進行はTBSの田村真子アナウンサーです。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #e3262a; font-weight: 800;">MC・進行</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">MCはダイアン津田さんと永野さん、進行はTBSの田村真子アナウンサーです。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">MCの2人</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">津田さんは「芸人総選挙2025」の2025年一番面白かった芸人で1位、永野さんは2位でした。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">MCの2人</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">津田さんは「芸人総選挙2025」の2025年一番面白かった芸人で1位、永野さんは2位でした。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">ゲスト（17組）</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">ウエストランド井口 / ロングコートダディ兎 / エバース / カカロニ / きしたかの / キンタロー。 / タイムマシーン3号 / たくろう / トム・ブラウン / ドンデコルテ / コロコロチキチキペッパーズ・ナダル / ぱーてぃーちゃん / ヒコロヒー / みなみかわ / モグライダー / 平成ノブシコブシ吉村 / レインボー。生放送のため一部変更になる可能性があります。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">ゲスト（17組）</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">ウエストランド井口 / ロングコートダディ兎 / エバース / カカロニ / きしたかの / キンタロー。 / タイムマシーン3号 / たくろう / トム・ブラウン / ドンデコルテ / コロコロチキチキペッパーズ・ナダル / ぱーてぃーちゃん / ヒコロヒー / みなみかわ / モグライダー / 平成ノブシコブシ吉村 / レインボー。放送前に発表されたゲストです。</p>
       </div>
 
     </div>
@@ -225,39 +381,39 @@
 <!-- /wp:heading -->
 
 <!-- wp:html -->
-<aside role="region" aria-label="お笑いの日2026 タイムテーブル（18時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(31, 200, 238, 0.2); color: #fff; max-width: 800px;">
-  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 100%);">
+<aside role="region" aria-label="お笑いの日2026 タイムテーブル（18時台）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #ffffff; border: 1px solid #1fc8ee; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); color: #0a0a0f; max-width: 800px;">
+  <div style="padding: 12px; background: #ffffff;">
 
     <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 12px; border-bottom: 1px solid rgba(31, 200, 238, 0.3); padding-bottom: 6px;">
-      <span style="font-size: 12px; color: #1fc8ee; font-weight: 800;">▼ 18:00〜21:56</span>
-      <span style="font-size: 10px; font-weight: 900; color: #1fc8ee; border: 1px solid #1fc8ee; border-radius: 2px; padding: 0 5px;">公式発表</span>
+      <span style="font-size: 12px; color: #0b86a3; font-weight: 800;">▼ 18:00〜21:56</span>
+      <span style="font-size: 10px; font-weight: 900; color: #0b86a3; border: 1px solid #1fc8ee; border-radius: 2px; padding: 0 5px;">公式発表</span>
     </div>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">内容</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">第19回大会の決勝です。3445組がエントリーし、優勝賞金は1000万円です。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">内容</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">第19回大会の決勝です。3445組がエントリーし、優勝賞金は1000万円です。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">決勝の組数</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">決勝進出の10組に、敗者復活戦を勝ち上がった1組が加わり、11組で争います。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #e3262a; font-weight: 800;">決勝の組数</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">決勝進出の10組に、敗者復活戦を勝ち上がった1組が加わり、11組で争いました。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">MC・進行</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">MCは浜田雅功さん、進行はTBSの日比麻音子アナウンサーで、7年連続になります。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">MC・進行</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">MCは浜田雅功さん、進行はTBSの日比麻音子アナウンサーで、7年連続になります。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">決勝進出の10組</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">ヤッホイ / 相性はいいよね / ジェラードン / ダウ90000 / や団 / ザ・マミィ / ななまがり / 元祖いちごちゃん / 蛙亭 / ニッポンの社長。敗者復活戦の勝者1組が加わります。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">決勝進出の10組</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">ヤッホイ / 相性はいいよね / ジェラードン / ダウ90000 / や団 / ザ・マミィ / ななまがり / 元祖いちごちゃん / 蛙亭 / ニッポンの社長。敗者復活戦を勝ち上がったスパイシーガーリックが加わりました。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">審査員</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">例年より2名多い7名です。新しい審査員は放送中に発表される予定です。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">審査員</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">例年より2名多い7名でした。新しい審査員の名前は、出演者の欄に載せています。</p>
       </div>
 
     </div>
@@ -278,7 +434,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<aside role="region" aria-label="お笑いの日2026 出演者一覧" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(31, 200, 238, 0.3); color: #fff;">
+<aside role="region" aria-label="お笑いの日2026 出演者一覧" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #ffffff; border: 1px solid #1fc8ee; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); color: #0a0a0f;">
 
   <div style="background: #000000; padding: 12px 15px; border-bottom: 2px solid #1fc8ee; text-align: center;">
     <div style="font-size: 15px; font-weight: 900; letter-spacing: 0.1em; background: linear-gradient(135deg, #1fc8ee 0%, #ffffff 50%, #1fc8ee 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
@@ -286,57 +442,63 @@
     </div>
   </div>
 
-  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 80%);">
+  <div style="padding: 15px; background: #ffffff;">
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px;">
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">敗者復活戦 MC・進行</span><br>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">敗者復活戦 MC・進行</span><br>
         <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">濱家隆一（かまいたち） / チョコレートプラネット / 宇賀神メグ（TBSアナウンサー）</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">14:00からの敗者復活戦を進めます。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">14:00からの敗者復活戦を進めます。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">敗者復活戦に挑む10組</span><br>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #e3262a; font-weight: 800;">敗者復活戦に挑む10組</span><br>
         <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">江戸川ジャンクジャンク / オフローズ / cacao / 喫茶ムーン / しずる / 生姜猫 / スパイシーガーリック / そいつどいつ / ネルソンズ / 破壊ありがとう</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">公式に案内されている並びは五十音順です。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">公式に案内されている並びは五十音順です。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">敗者復活戦のゲスト</span><br>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">敗者復活戦のゲスト</span><br>
         <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">鎮西寿々歌（FRUITS ZIPPER） / ホラン千秋 / 森本慎太郎（SixTONES）</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">スタジオで見守るゲストです。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">スタジオで見守るゲストです。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">敗者復活戦の芸人審査員（27組）</span><br>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">敗者復活戦の芸人審査員（27組）</span><br>
         <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">青色1号 / あんよの日 / いぬ / うるとらブギーズ / オテンキ / 鬼ヶ島 / おむかいの葉っぱ洋食店 / かが屋 / カゲヤマ / ザ・ギース / 3時のヒロイン / GAG / ジグザグジギー / スクールゾーン / スクラップス / スタミナパン / たらちね / 忠犬立ハチ高 / ドゥリオ / ドンココ / にゃんこスター・スーパー3助 / 春とヒコーキ / ぶったま / ベルナルド / ママタルト / 虫と兵隊 / ゆくえ</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">採点で決勝に近い3組を選びます。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">採点で決勝に近い3組を選びます。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">芸人総選挙 MC・進行</span><br>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #e3262a; font-weight: 800;">芸人総選挙 MC・進行</span><br>
         <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">ダイアン津田 / 永野 / 田村真子（TBSアナウンサー）</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">16:30からの芸人総選挙を進めます。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">16:30からの芸人総選挙を進めます。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">芸人総選挙のゲスト（17組）</span><br>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">芸人総選挙のゲスト（17組）</span><br>
         <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">ウエストランド井口 / ロングコートダディ兎 / エバース / カカロニ / きしたかの / キンタロー。 / タイムマシーン3号 / たくろう / トム・ブラウン / ドンデコルテ / コロコロチキチキペッパーズ・ナダル / ぱーてぃーちゃん / ヒコロヒー / みなみかわ / モグライダー / 平成ノブシコブシ吉村 / レインボー</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">生放送のため一部変更の可能性があります。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">放送前に発表されたゲストです。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">キングオブコント2026 MC・進行</span><br>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">キングオブコント2026 MC・進行</span><br>
         <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">浜田雅功 / 日比麻音子（TBSアナウンサー）</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">18:00からの決勝を進めます。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">18:00からの決勝を進めます。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">キングオブコント2026 決勝進出（10組）</span><br>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #e3262a; font-weight: 800;">キングオブコント2026 決勝進出（10組）</span><br>
         <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">ヤッホイ / 相性はいいよね / ジェラードン / ダウ90000 / や団 / ザ・マミィ / ななまがり / 元祖いちごちゃん / 蛙亭 / ニッポンの社長</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">敗者復活戦の勝者1組が加わり、合計11組になります。</p>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">敗者復活戦を勝ち上がったスパイシーガーリックが加わり、合計11組でした。</p>
       </div>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">キングオブコント2026 決勝の審査員（7名）</span><br>
+        <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">飯塚悟志（東京03） / 小峠英二（バイきんぐ） / 秋山竜次（ロバート） / 山内健司（かまいたち） / じろう（シソンヌ） / 堂前透（ロングコートダディ） / 秋山寛貴（ハナコ）</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">堂前さんと秋山寛貴さんが、今回から加わった審査員です。</p>
+      </div>
+
 
     </div>
   </div>
@@ -345,11 +507,11 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>芸人審査員の27組は、敗者復活戦で採点を担当します。</p>
+<p>芸人審査員の27組は、敗者復活戦で採点を担当しました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>決勝の審査員7名の名前は、放送中に発表される予定です。</p>
+<p>決勝の審査員は、飯塚悟志さん・小峠英二さん・秋山竜次さん・山内健司さん・じろうさん・堂前透さん・秋山寛貴さんの7名でした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
@@ -361,36 +523,36 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>本放送は10月17日（土）午後2時からTBS系で始まり午後9時56分に終わります。</p>
+<p>本放送は10月17日（土）午後2時からTBS系で始まり午後9時56分に終わりました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>同じ日の午前には、TBSラジオで『ラジオお笑いの日2026』も放送されます。</p>
+<p>同じ日の午前には、TBSラジオで『ラジオお笑いの日2026』も放送されました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<aside role="region" aria-label="お笑いの日2026 放送スケジュール" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(31, 200, 238, 0.2); color: #fff; max-width: 800px;">
-  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 100%);">
+<aside role="region" aria-label="お笑いの日2026 放送スケジュール" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #ffffff; border: 1px solid #1fc8ee; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); color: #0a0a0f; max-width: 800px;">
+  <div style="padding: 12px; background: #ffffff;">
 
     <div style="margin-bottom: 12px; border-bottom: 1px solid rgba(31, 200, 238, 0.3); padding-bottom: 4px;">
-      <span style="font-size: 12px; color: #1fc8ee; font-weight: 800;">▼ 2026年10月17日（土）</span>
+      <span style="font-size: 12px; color: #0b86a3; font-weight: 800;">▼ 2026年10月17日（土）</span>
     </div>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">午前｜TBSラジオ</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">9:00〜（約5時間）</span><br>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">『ラジオお笑いの日2026』です。パーソナリティはナイツ、アシスタントは御手洗菜々アナウンサー、ゲストは川島明さん（麒麟）と永野さんです。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #e3262a; font-weight: 800;">午前｜TBSラジオ</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">9:00〜（約5時間）</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">『ラジオお笑いの日2026』です。パーソナリティはナイツ、アシスタントは御手洗菜々アナウンサー、ゲストは川島明さん（麒麟）と永野さんです。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">午後｜第1部</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">14:00〜18:00</span><br>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">キングオブコント2026 敗者復活戦（14:00〜16:30）と、芸人総選挙 お笑いの日ver.（16:30〜18:00）です。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">午後｜第1部</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">14:00〜18:00</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">キングオブコント2026 敗者復活戦（14:00〜16:30）と、芸人総選挙 お笑いの日ver.（16:30〜18:00）です。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">夜｜第2部</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">18:00〜21:56</span><br>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">キングオブコント2026 決勝です。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">夜｜第2部</span> <span style="font-size: clamp(13px, calc(13px + (100vw - 480px) / 360), 15px); font-weight: 800;">18:00〜21:56</span><br>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">キングオブコント2026 決勝です。</p>
       </div>
 
     </div>
@@ -407,29 +569,29 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<aside role="region" aria-label="お笑いの日2026 企画の順番の見方" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(31, 200, 238, 0.2); color: #fff; max-width: 800px;">
-  <div style="padding: 12px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 100%);">
+<aside role="region" aria-label="お笑いの日2026 企画の順番の見方" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #ffffff; border: 1px solid #1fc8ee; border-radius: 6px; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); color: #0a0a0f; max-width: 800px;">
+  <div style="padding: 12px; background: #ffffff;">
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px;">
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">🎯 敗者復活戦の決まり方</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">芸人審査員の採点で3組に絞り、視聴者の国民投票で1組が決勝に進みます。決勝へ向かう道筋が、放送の前半で決まります。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #e3262a; font-weight: 800;">🎯 敗者復活戦の決まり方</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">芸人審査員の採点で3組に絞り、視聴者の国民投票で1組が決勝に進みます。決勝へ向かう道筋が、放送の前半で決まります。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">⏰ 決勝は30分早く始まる</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">2025年は18:30から決勝が始まりましたが、今回は18:00からです。終了は両年とも21:56でした。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">⏰ 決勝は30分早く始まる</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">2025年は18:30から決勝が始まりましたが、今回は18:00からです。終了は両年とも21:56でした。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">⚖️ 審査員が2名増える</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">2025年の審査員は5名でした。今回は7名で、新しい審査員は放送中に発表される予定です。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #d92a86;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">⚖️ 審査員が2名増える</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">2025年の審査員は5名でした。今回は7名に増え、新しい審査員が2名加わりました。</p>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">🏅 芸人総選挙</span>
-        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ccc; margin: 4px 0 0; line-height: 1.6;">芸人へのアンケートをもとに、2026年上半期に活躍した芸人をランキング形式で紹介します。</p>
+      <div style="background: #f7f9fa; padding: 10px 12px; border-radius: 4px; border-left: 4px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #e3262a; font-weight: 800;">🏅 芸人総選挙</span>
+        <p style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #555555; margin: 4px 0 0; line-height: 1.6;">芸人へのアンケートをもとに、2026年上半期に活躍した芸人をランキング形式で紹介します。</p>
       </div>
 
     </div>
@@ -438,7 +600,7 @@
 <!-- /wp:html -->
 
 <!-- wp:paragraph -->
-<p>分単位の台本は公開されていないため、時間帯は公式が案内した枠だけを載せています。</p>
+<p>時間帯は放送前に公式が案内した枠です。実際の流れの時刻は目安です。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading -->
@@ -458,7 +620,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<aside role="region" aria-label="お笑いの日2026 配信ガイド" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(31, 200, 238, 0.3); color: #fff;">
+<aside role="region" aria-label="お笑いの日2026 配信ガイド" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #ffffff; border: 1px solid #1fc8ee; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); color: #0a0a0f;">
 
   <div style="background: #000000; padding: 12px 15px; border-bottom: 2px solid #1fc8ee; text-align: center;">
     <div style="font-size: 15px; font-weight: 900; letter-spacing: 0.1em; background: linear-gradient(135deg, #1fc8ee 0%, #ffffff 50%, #1fc8ee 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
@@ -466,20 +628,20 @@
     </div>
   </div>
 
-  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 80%);">
+  <div style="padding: 15px; background: #ffffff;">
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 10px;">
 
-      <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(31, 200, 238, 0.25); border-radius: 6px; padding: 12px;">
-        <div style="text-align: center; color: #1fc8ee; font-weight: 900; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); margin-bottom: 10px;">リアルタイム・見逃し配信</div>
-        <a href="https://tver.jp/live/simul/leaj9s2vqx" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; min-height: 40px; background: #ffffff; border-radius: 5px; text-decoration: none; box-sizing: border-box; padding: 6px 10px; margin-bottom: 8px;">
+      <div style="background: #f7f9fa; border: 1px solid #dbe3ea; border-radius: 6px; padding: 12px;">
+        <div style="text-align: center; color: #0b86a3; font-weight: 900; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); margin-bottom: 10px;">リアルタイム・見逃し配信</div>
+        <a href="https://tver.jp/live/simul/leaj9s2vqx" target="_blank" rel="noopener" style="display: flex; align-items: center; justify-content: center; min-height: 40px; background: #ffffff; border: 1px solid #cfd8dc; border-radius: 5px; text-decoration: none; box-sizing: border-box; padding: 6px 10px; margin-bottom: 8px;">
           <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 900; color: #0a0a0f; line-height: 1.4;">TVerで見る ▶</span>
         </a>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); border: 1px solid rgba(31, 200, 238, 0.25); border-radius: 6px; padding: 12px;">
-        <div style="text-align: center; color: #1fc8ee; font-weight: 900; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); margin-bottom: 10px;">これまでの配信はこちら</div>
-        <a href="https://px.a8.net/svt/ejp?a8mat=2ZWAMB+51LYIQ+3250+BW8O2&amp;a8ejpredirect=https%3A%2F%2Fvideo.unext.jp%2Ffreeword%3Fquery%3D%25E3%2581%258A%25E7%25AC%2591%25E3%2581%2584%25E3%2581%25AE%25E6%2597%25A5" target="_blank" rel="nofollow" style="display: flex; align-items: center; justify-content: center; min-height: 40px; background: #ffffff; border-radius: 5px; text-decoration: none; box-sizing: border-box; padding: 6px 10px; margin-bottom: 8px;">
+      <div style="background: #f7f9fa; border: 1px solid #dbe3ea; border-radius: 6px; padding: 12px;">
+        <div style="text-align: center; color: #0b86a3; font-weight: 900; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); margin-bottom: 10px;">これまでの配信はこちら</div>
+        <a href="https://px.a8.net/svt/ejp?a8mat=2ZWAMB+51LYIQ+3250+BW8O2&amp;a8ejpredirect=https%3A%2F%2Fvideo.unext.jp%2Ffreeword%3Fquery%3D%25E3%2581%258A%25E7%25AC%2591%25E3%2581%2584%25E3%2581%25AE%25E6%2597%25A5" target="_blank" rel="nofollow" style="display: flex; align-items: center; justify-content: center; min-height: 40px; background: #ffffff; border: 1px solid #cfd8dc; border-radius: 5px; text-decoration: none; box-sizing: border-box; padding: 6px 10px; margin-bottom: 8px;">
           <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); font-weight: 900; color: #0a0a0f; line-height: 1.4;">U-NEXT</span>
           <span style="font-size: 9px; font-weight: 900; color: #999; border: 1px solid #ccc; border-radius: 2px; padding: 0 3px; margin-left: 8px;">PR</span>
         </a>
@@ -488,7 +650,7 @@
 
     </div>
 
-    <div style="margin-top: 12px; text-align: center; font-size: 10px; color: #a8a8c8; line-height: 1.6;">※都合により視聴できない場合があります。U-NEXTのリンクは広告（PR）です。</div>
+    <div style="margin-top: 12px; text-align: center; font-size: 10px; color: #777777; line-height: 1.6;">※都合により視聴できない場合があります。U-NEXTのリンクは広告（PR）です。</div>
   </div>
 
 </aside>
@@ -499,7 +661,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>放送後は、2026年の実際の流れもここに加えます。</p>
+<p>過去3回の放送内容を新しい順に載せています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
@@ -507,41 +669,41 @@
 <!-- /wp:heading -->
 
 <!-- wp:html -->
-<aside role="region" aria-label="お笑いの日 過去のタイムテーブル（2025年）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(31, 200, 238, 0.3); color: #fff;">
+<aside role="region" aria-label="お笑いの日 過去のタイムテーブル（2025年）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #ffffff; border: 1px solid #1fc8ee; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); color: #0a0a0f;">
 
-  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 80%);">
+  <div style="padding: 15px; background: #ffffff;">
 
-    <div style="display: grid; gap: 6px; margin-bottom: 14px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">
-      <div><span style="color: #1fc8ee; font-weight: 800;">放送</span>　14:00〜21:56（第1部 14:00〜18:30「お笑い夢のコラボ祭」、キングオブコント2025決勝 18:30〜21:56）</div>
-      <div><span style="color: #1fc8ee; font-weight: 800;">MC</span>　かまいたち・チョコレートプラネット。スペシャルサポーターはジェシーさんと田中樹さん、進行は田村真子アナウンサー</div>
-      <div><span style="color: #1fc8ee; font-weight: 800;">決勝</span>　MCは浜田雅功さん、審査員は5名。ファイナリストは10組でした</div>
+    <div style="display: grid; gap: 6px; margin-bottom: 14px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; line-height: 1.6;">
+      <div><span style="color: #0b86a3; font-weight: 800;">放送</span>　14:00〜21:56（第1部 14:00〜18:30「お笑い夢のコラボ祭」、キングオブコント2025決勝 18:30〜21:56）</div>
+      <div><span style="color: #0b86a3; font-weight: 800;">MC</span>　かまいたち・チョコレートプラネット。スペシャルサポーターはジェシーさんと田中樹さん、進行は田村真子アナウンサー</div>
+      <div><span style="color: #0b86a3; font-weight: 800;">決勝</span>　MCは浜田雅功さん、審査員は5名。ファイナリストは10組でした</div>
     </div>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 8px;">
 
-      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #1fc8ee;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">第1部の企画</span><br>
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">「キングオブ東西ネタバトル」（東西の芸人がくじで即席コンビを組んで3分ネタ）</span>
+      <div style="background: #f7f9fa; padding: 8px 12px; border-radius: 4px; border-left: 3px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">第1部の企画</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; line-height: 1.6;">「キングオブ東西ネタバトル」（東西の芸人がくじで即席コンビを組んで3分ネタ）</span>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #e3262a;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">第1部の企画</span><br>
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">「キングオブエチュードバトル」（芸人と俳優が即席タッグで即興芝居）</span>
+      <div style="background: #f7f9fa; padding: 8px 12px; border-radius: 4px; border-left: 3px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #e3262a; font-weight: 800;">第1部の企画</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; line-height: 1.6;">「キングオブエチュードバトル」（芸人と俳優が即席タッグで即興芝居）</span>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #1fc8ee;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">第1部の企画</span><br>
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">「キングオブミュージックバトル」（芸人とアーティストのコラボ対決）</span>
+      <div style="background: #f7f9fa; padding: 8px 12px; border-radius: 4px; border-left: 3px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">第1部の企画</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; line-height: 1.6;">「キングオブミュージックバトル」（芸人とアーティストのコラボ対決）</span>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #e3262a;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">18:30〜21:56</span><br>
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">キングオブコント2025 決勝</span>
+      <div style="background: #f7f9fa; padding: 8px 12px; border-radius: 4px; border-left: 3px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #e3262a; font-weight: 800;">18:30〜21:56</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; line-height: 1.6;">キングオブコント2025 決勝</span>
       </div>
 
     </div>
 
-    <div style="margin-top: 10px; font-size: 10px; color: #a8a8c8; line-height: 1.6;">内容は放送前の発表をもとにしています。企画ごとの細かい時刻は確認できていません。</div>
+    <div style="margin-top: 10px; font-size: 10px; color: #777777; line-height: 1.6;">内容は放送前の発表をもとにしています。企画ごとの細かい時刻は確認できていません。</div>
 
   </div>
 
@@ -553,30 +715,30 @@
 <!-- /wp:heading -->
 
 <!-- wp:html -->
-<aside role="region" aria-label="お笑いの日 過去のタイムテーブル（2024年）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(31, 200, 238, 0.3); color: #fff;">
+<aside role="region" aria-label="お笑いの日 過去のタイムテーブル（2024年）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #ffffff; border: 1px solid #1fc8ee; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); color: #0a0a0f;">
 
-  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 80%);">
+  <div style="padding: 15px; background: #ffffff;">
 
-    <div style="display: grid; gap: 6px; margin-bottom: 14px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">
-      <div><span style="color: #1fc8ee; font-weight: 800;">放送</span>　14:00から約8時間の生放送。テーマは「笑いの灯」</div>
-      <div><span style="color: #1fc8ee; font-weight: 800;">MC</span>　かまいたち（山内健司さん・濱家隆一さん）が番組初のMC。担当は14:00〜18:30でした</div>
+    <div style="display: grid; gap: 6px; margin-bottom: 14px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; line-height: 1.6;">
+      <div><span style="color: #0b86a3; font-weight: 800;">放送</span>　14:00から約8時間の生放送。テーマは「笑いの灯」</div>
+      <div><span style="color: #0b86a3; font-weight: 800;">MC</span>　かまいたち（山内健司さん・濱家隆一さん）が番組初のMC。担当は14:00〜18:30でした</div>
     </div>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 8px;">
 
-      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #1fc8ee;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">14:00〜18:30</span><br>
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">『ラヴィット！』『最強スポーツ男子頂上決戦2024秋』『ザ・ベストワン』との特別コラボ企画</span>
+      <div style="background: #f7f9fa; padding: 8px 12px; border-radius: 4px; border-left: 3px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">14:00〜18:30</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; line-height: 1.6;">『ラヴィット！』『最強スポーツ男子頂上決戦2024秋』『ザ・ベストワン』との特別コラボ企画</span>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #e3262a;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">18:30〜</span><br>
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">キングオブコント2024（エントリー3139組）。王者はラブレターズ</span>
+      <div style="background: #f7f9fa; padding: 8px 12px; border-radius: 4px; border-left: 3px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #e3262a; font-weight: 800;">18:30〜</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; line-height: 1.6;">キングオブコント2024（エントリー3139組）。王者はラブレターズ</span>
       </div>
 
     </div>
 
-    <div style="margin-top: 10px; font-size: 10px; color: #a8a8c8; line-height: 1.6;">コラボ企画の時刻は確認できていません。</div>
+    <div style="margin-top: 10px; font-size: 10px; color: #777777; line-height: 1.6;">コラボ企画の時刻は確認できていません。</div>
 
   </div>
 
@@ -588,30 +750,30 @@
 <!-- /wp:heading -->
 
 <!-- wp:html -->
-<aside role="region" aria-label="お笑いの日 過去のタイムテーブル（2023年）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(31, 200, 238, 0.3); color: #fff;">
+<aside role="region" aria-label="お笑いの日 過去のタイムテーブル（2023年）" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #ffffff; border: 1px solid #1fc8ee; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); color: #0a0a0f;">
 
-  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 80%);">
+  <div style="padding: 15px; background: #ffffff;">
 
-    <div style="display: grid; gap: 6px; margin-bottom: 14px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">
-      <div><span style="color: #1fc8ee; font-weight: 800;">放送</span>　14:00〜21:54の生放送。総合MCはダウンタウン</div>
-      <div><span style="color: #1fc8ee; font-weight: 800;">決勝</span>　キングオブコント2023（エントリー3036組）は19:00から。王者はサルゴリラ</div>
+    <div style="display: grid; gap: 6px; margin-bottom: 14px; font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; line-height: 1.6;">
+      <div><span style="color: #0b86a3; font-weight: 800;">放送</span>　14:00〜21:54の生放送。総合MCはダウンタウン</div>
+      <div><span style="color: #0b86a3; font-weight: 800;">決勝</span>　キングオブコント2023（エントリー3036組）は19:00から。王者はサルゴリラ</div>
     </div>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 8px;">
 
-      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #1fc8ee;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #1fc8ee; font-weight: 800;">午後</span><br>
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">『ラヴィット！』『ザ・ベストワン』との企画</span>
+      <div style="background: #f7f9fa; padding: 8px 12px; border-radius: 4px; border-left: 3px solid #1fc8ee;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #0b86a3; font-weight: 800;">午後</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; line-height: 1.6;">『ラヴィット！』『ザ・ベストワン』との企画</span>
       </div>
 
-      <div style="background: rgba(255,255,255,0.05); padding: 8px 12px; border-radius: 4px; border-left: 3px solid #e3262a;">
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ff6b6e; font-weight: 800;">19:00〜21:54</span><br>
-        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #ddd; line-height: 1.6;">キングオブコント2023 決勝</span>
+      <div style="background: #f7f9fa; padding: 8px 12px; border-radius: 4px; border-left: 3px solid #e3262a;">
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #e3262a; font-weight: 800;">19:00〜21:54</span><br>
+        <span style="font-size: clamp(11px, calc(11px + (100vw - 480px) / 360), 13px); color: #444444; line-height: 1.6;">キングオブコント2023 決勝</span>
       </div>
 
     </div>
 
-    <div style="margin-top: 10px; font-size: 10px; color: #a8a8c8; line-height: 1.6;">企画ごとの細かい時刻は確認できていません。</div>
+    <div style="margin-top: 10px; font-size: 10px; color: #777777; line-height: 1.6;">企画ごとの細かい時刻は確認できていません。</div>
 
   </div>
 
@@ -627,7 +789,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
-<aside role="region" aria-label="お笑いの日2026 よくある質問" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #0a0a0f; border: 1px solid #1fc8ee; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 20px rgba(31, 200, 238, 0.3); color: #fff;">
+<aside role="region" aria-label="お笑いの日2026 よくある質問" style="display: block; font-family: 'Hiragino Kaku Gothic ProN', sans-serif; background: #ffffff; border: 1px solid #1fc8ee; border-radius: 8px; overflow: hidden; margin: 20px 0; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); color: #0a0a0f;">
 
   <div style="background: #000000; padding: 12px 15px; border-bottom: 2px solid #1fc8ee; text-align: center;">
     <div style="font-size: 15px; font-weight: 900; letter-spacing: 0.1em; background: linear-gradient(135deg, #1fc8ee 0%, #ffffff 50%, #1fc8ee 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
@@ -635,41 +797,41 @@
     </div>
   </div>
 
-  <div style="padding: 15px; background-image: radial-gradient(circle at top, #1b1b26 0%, #0a0a0f 80%);">
+  <div style="padding: 15px; background: #ffffff;">
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 10px;">
 
-      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(31, 200, 238, 0.2); border-radius: 6px; padding: 12px;">
-        <div style="color: #ff6b6e; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q1｜お笑いの日2026は何時から何時までですか？</div>
-        <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
-          2026年10月17日（土）午後2時から、TBS系で生放送されます。キングオブコント2026の決勝は午後9時56分までで、全体で約8時間の放送です。
+      <div style="background: #f7f9fa; border: 1px solid #dbe3ea; border-radius: 6px; padding: 12px;">
+        <div style="color: #e3262a; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q1｜お笑いの日2026は何時から何時までですか？</div>
+        <div style="font-size: 11px; color: #333333; line-height: 1.6; border-top: 1px solid #e3e3e3; margin-top: 5px; padding-top: 5px;">
+          2026年10月17日（土）午後2時から、TBS系で生放送されました。キングオブコント2026の決勝は午後9時56分までで、全体で約8時間の放送でした。
         </div>
       </div>
 
-      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(31, 200, 238, 0.2); border-radius: 6px; padding: 12px;">
-        <div style="color: #1fc8ee; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q2｜タイムテーブルや出番の順番は発表されていますか？</div>
-        <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
-          企画の時間帯は発表されています。午後2時から4時30分が敗者復活戦、4時30分から6時が芸人総選挙、6時から9時56分がキングオブコント2026決勝です。各企画の中の出番の順番はまだ発表されておらず、放送後に実際の流れへ更新します。
+      <div style="background: #f7f9fa; border: 1px solid #dbe3ea; border-radius: 6px; padding: 12px;">
+        <div style="color: #0b86a3; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q2｜お笑いの日2026のタイムテーブルと出番の順番は？</div>
+        <div style="font-size: 11px; color: #333333; line-height: 1.6; border-top: 1px solid #e3e3e3; margin-top: 5px; padding-top: 5px;">
+          午後2時から4時30分が敗者復活戦、4時30分から6時が芸人総選挙、6時から9時56分がキングオブコント2026決勝でした。各企画の出番の順番は、この記事の実際の順番と流れに時間帯ごとにまとめています。
         </div>
       </div>
 
-      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(31, 200, 238, 0.2); border-radius: 6px; padding: 12px;">
-        <div style="color: #ff6b6e; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q3｜敗者復活戦に出るのはどの芸人ですか？</div>
-        <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
-          江戸川ジャンクジャンク、オフローズ、cacao、喫茶ムーン、しずる、生姜猫、スパイシーガーリック、そいつどいつ、ネルソンズ、破壊ありがとうの10組です。芸人審査員の採点で3組に絞り、視聴者の国民投票で決勝に進む1組が決まります。
+      <div style="background: #f7f9fa; border: 1px solid #dbe3ea; border-radius: 6px; padding: 12px;">
+        <div style="color: #e3262a; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q3｜キングオブコント2026の敗者復活戦の結果と出場者は？</div>
+        <div style="font-size: 11px; color: #333333; line-height: 1.6; border-top: 1px solid #e3e3e3; margin-top: 5px; padding-top: 5px;">
+          スパイシーガーリックが勝ち上がり、決勝に進みました。出場したのは江戸川ジャンクジャンク、オフローズ、cacao、喫茶ムーン、しずる、生姜猫、スパイシーガーリック、そいつどいつ、ネルソンズ、破壊ありがとうの10組です。芸人審査員の採点上位はスパイシーガーリック、そいつどいつ、喫茶ムーンで、国民投票でスパイシーガーリックが選ばれました。
         </div>
       </div>
 
-      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(31, 200, 238, 0.2); border-radius: 6px; padding: 12px;">
-        <div style="color: #1fc8ee; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q4｜キングオブコント2026の決勝進出者は誰ですか？</div>
-        <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
-          ヤッホイ、相性はいいよね、ジェラードン、ダウ90000、や団、ザ・マミィ、ななまがり、元祖いちごちゃん、蛙亭、ニッポンの社長の10組です。敗者復活戦を勝ち上がった1組が加わり、合計11組で争います。MCは浜田雅功さん、審査員は例年より2名多い7名で、新しい審査員は放送中に発表される予定です。
+      <div style="background: #f7f9fa; border: 1px solid #dbe3ea; border-radius: 6px; padding: 12px;">
+        <div style="color: #0b86a3; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q4｜キングオブコント2026の優勝者と決勝進出者は？</div>
+        <div style="font-size: 11px; color: #333333; line-height: 1.6; border-top: 1px solid #e3e3e3; margin-top: 5px; padding-top: 5px;">
+          優勝はジェラードンで、合計1342点で第19代王者になりました。2位は蛙亭、3位はヤッホイでした。決勝進出者はヤッホイ、相性はいいよね、ジェラードン、ダウ90000、や団、ザ・マミィ、ななまがり、元祖いちごちゃん、蛙亭、ニッポンの社長の10組で、敗者復活戦を勝ち上がったスパイシーガーリックが加わり、合計11組で争いました。MCは浜田雅功さん、審査員は例年より2名多い7名でした。
         </div>
       </div>
 
-      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(31, 200, 238, 0.2); border-radius: 6px; padding: 12px;">
-        <div style="color: #ff6b6e; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q5｜お笑いの日2026は見逃し配信はありますか？</div>
-        <div style="font-size: 11px; color: #eee; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 5px; padding-top: 5px;">
+      <div style="background: #f7f9fa; border: 1px solid #dbe3ea; border-radius: 6px; padding: 12px;">
+        <div style="color: #e3262a; font-weight: 900; font-size: 13px; margin-bottom: 5px;">Q5｜お笑いの日2026は見逃し配信はありますか？</div>
+        <div style="font-size: 11px; color: #333333; line-height: 1.6; border-top: 1px solid #e3e3e3; margin-top: 5px; padding-top: 5px;">
           リアルタイム配信と見逃し配信は、TVerで案内されています。配信期間は公式の発表を確認してください。過去の『お笑いの日』『キングオブコント』はU-NEXTで視聴できると案内されていました。
         </div>
       </div>
@@ -686,27 +848,23 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>『お笑いの日2026』は2026年10月17日（土）午後2時から午後9時56分まで、TBS系で生放送されます。</p>
+<p>『お笑いの日2026』は2026年10月17日（土）午後2時から午後9時56分まで、TBS系で生放送されました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>午後2時からはキングオブコント初の敗者復活戦が始まります。</p>
+<p>午後2時からはキングオブコント初の敗者復活戦があり、スパイシーガーリックが決勝に進みました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>午後4時30分からは芸人総選挙、午後6時からは決勝が続きます。</p>
+<p>午後4時30分からは芸人総選挙が始まり、午後6時からの決勝ではジェラードンが優勝しました。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>出演者は、敗者復活戦の10組と決勝進出の10組などが発表されています。</p>
+<p>出演者は、敗者復活戦の10組と決勝進出の10組などでした。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>各企画の中の出番の順番は、まだ発表されていません。</p>
-<!-- /wp:paragraph -->
-
-<!-- wp:paragraph -->
-<p>決勝の新しい審査員は、放送中に発表される予定です。</p>
+<p>各企画の中の出番の順番は、実際の順番と流れの欄に載せています。</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:html -->
@@ -850,7 +1008,7 @@
         "@id": "https://shira-treat.com/owarainohi-2026/"
       },
       "headline": "お笑いの日2026のタイムテーブル｜順番・スケジュールを時間別まとめ",
-      "description": "お笑いの日2026（2026年10月17日・TBS系）のタイムテーブルとスケジュール。午後2時スタートの生放送で、敗者復活戦・芸人総選挙・キングオブコント決勝の順番と出演者を時間別にまとめています。",
+      "description": "お笑いの日2026（2026年10月17日・TBS系）のタイムテーブルとスケジュール。敗者復活戦・芸人総選挙・キングオブコント決勝の実際の順番と結果、出演者を時間別にまとめています。",
       "keywords": [
         "お笑いの日2026 タイムテーブル",
         "お笑いの日2026 順番",
@@ -858,11 +1016,12 @@
         "お笑いの日 何時から",
         "キングオブコント2026 敗者復活戦",
         "芸人総選挙 お笑いの日ver.",
+        "キングオブコント2026 優勝",
         "TBS"
       ],
       "datePublished": "2026-10-16T12:00:00+09:00",
       "dateCreated": "2026-10-16T12:00:00+09:00",
-      "dateModified": "2026-10-16T12:00:00+09:00",
+      "dateModified": "2026-10-18T12:00:00+09:00",
       "inLanguage": "ja",
       "image": {
         "@type": "ImageObject",
@@ -1214,6 +1373,34 @@
         {
           "@type": "Person",
           "name": "川島明"
+        },
+        {
+          "@type": "Person",
+          "name": "飯塚悟志"
+        },
+        {
+          "@type": "Person",
+          "name": "小峠英二"
+        },
+        {
+          "@type": "Person",
+          "name": "秋山竜次"
+        },
+        {
+          "@type": "Person",
+          "name": "山内健司"
+        },
+        {
+          "@type": "Person",
+          "name": "じろう"
+        },
+        {
+          "@type": "Person",
+          "name": "堂前透"
+        },
+        {
+          "@type": "Person",
+          "name": "秋山寛貴"
         }
       ],
       "hasPart": [
@@ -1240,7 +1427,7 @@
       "eventStatus": "https://schema.org/EventScheduled",
       "isLiveBroadcast": true,
       "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
-      "description": "TBS系で2026年10月17日に生放送されるお笑い特番。キングオブコント2026の敗者復活戦と決勝、芸人総選挙を放送する。",
+      "description": "TBS系で2026年10月17日に生放送されたお笑い特番。キングオブコント2026の敗者復活戦と決勝、芸人総選挙を放送した。ジェラードンが決勝で優勝した。",
       "image": "https://shira-treat.com/wp-content/uploads/2026/10/image.webp",
       "performer": [
         {
@@ -1554,6 +1741,34 @@
         {
           "@type": "Person",
           "name": "川島明"
+        },
+        {
+          "@type": "Person",
+          "name": "飯塚悟志"
+        },
+        {
+          "@type": "Person",
+          "name": "小峠英二"
+        },
+        {
+          "@type": "Person",
+          "name": "秋山竜次"
+        },
+        {
+          "@type": "Person",
+          "name": "山内健司"
+        },
+        {
+          "@type": "Person",
+          "name": "じろう"
+        },
+        {
+          "@type": "Person",
+          "name": "堂前透"
+        },
+        {
+          "@type": "Person",
+          "name": "秋山寛貴"
         }
       ],
       "broadcaster": {
@@ -1566,7 +1781,7 @@
       "@type": "ItemList",
       "@id": "https://shira-treat.com/owarainohi-2026/#lineup",
       "name": "お笑いの日2026（10/17）出演者一覧",
-      "numberOfItems": 78,
+      "numberOfItems": 85,
       "itemListElement": [
         {
           "@type": "ListItem",
@@ -1957,6 +2172,41 @@
           "@type": "ListItem",
           "position": 78,
           "name": "川島明"
+        },
+        {
+          "@type": "ListItem",
+          "position": 79,
+          "name": "飯塚悟志"
+        },
+        {
+          "@type": "ListItem",
+          "position": 80,
+          "name": "小峠英二"
+        },
+        {
+          "@type": "ListItem",
+          "position": 81,
+          "name": "秋山竜次"
+        },
+        {
+          "@type": "ListItem",
+          "position": 82,
+          "name": "山内健司"
+        },
+        {
+          "@type": "ListItem",
+          "position": 83,
+          "name": "じろう"
+        },
+        {
+          "@type": "ListItem",
+          "position": 84,
+          "name": "堂前透"
+        },
+        {
+          "@type": "ListItem",
+          "position": 85,
+          "name": "秋山寛貴"
         }
       ]
     },
@@ -1969,31 +2219,31 @@
           "name": "お笑いの日2026は何時から何時までですか？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "2026年10月17日（土）午後2時から、TBS系で生放送されます。キングオブコント2026の決勝は午後9時56分までで、全体で約8時間の放送です。"
+            "text": "2026年10月17日（土）午後2時から、TBS系で生放送されました。キングオブコント2026の決勝は午後9時56分までで、全体で約8時間の放送でした。"
           }
         },
         {
           "@type": "Question",
-          "name": "タイムテーブルや出番の順番は発表されていますか？",
+          "name": "お笑いの日2026のタイムテーブルと出番の順番は？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "企画の時間帯は発表されています。午後2時から4時30分が敗者復活戦、4時30分から6時が芸人総選挙、6時から9時56分がキングオブコント2026決勝です。各企画の中の出番の順番はまだ発表されておらず、放送後に実際の流れへ更新します。"
+            "text": "午後2時から4時30分が敗者復活戦、4時30分から6時が芸人総選挙、6時から9時56分がキングオブコント2026決勝でした。各企画の出番の順番は、この記事の実際の順番と流れに時間帯ごとにまとめています。"
           }
         },
         {
           "@type": "Question",
-          "name": "敗者復活戦に出るのはどの芸人ですか？",
+          "name": "キングオブコント2026の敗者復活戦の結果と出場者は？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "江戸川ジャンクジャンク、オフローズ、cacao、喫茶ムーン、しずる、生姜猫、スパイシーガーリック、そいつどいつ、ネルソンズ、破壊ありがとうの10組です。芸人審査員の採点で3組に絞り、視聴者の国民投票で決勝に進む1組が決まります。"
+            "text": "スパイシーガーリックが勝ち上がり、決勝に進みました。出場したのは江戸川ジャンクジャンク、オフローズ、cacao、喫茶ムーン、しずる、生姜猫、スパイシーガーリック、そいつどいつ、ネルソンズ、破壊ありがとうの10組です。芸人審査員の採点上位はスパイシーガーリック、そいつどいつ、喫茶ムーンで、国民投票でスパイシーガーリックが選ばれました。"
           }
         },
         {
           "@type": "Question",
-          "name": "キングオブコント2026の決勝進出者は誰ですか？",
+          "name": "キングオブコント2026の優勝者と決勝進出者は？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "ヤッホイ、相性はいいよね、ジェラードン、ダウ90000、や団、ザ・マミィ、ななまがり、元祖いちごちゃん、蛙亭、ニッポンの社長の10組です。敗者復活戦を勝ち上がった1組が加わり、合計11組で争います。MCは浜田雅功さん、審査員は例年より2名多い7名で、新しい審査員は放送中に発表される予定です。"
+            "text": "優勝はジェラードンで、合計1342点で第19代王者になりました。2位は蛙亭、3位はヤッホイでした。決勝進出者はヤッホイ、相性はいいよね、ジェラードン、ダウ90000、や団、ザ・マミィ、ななまがり、元祖いちごちゃん、蛙亭、ニッポンの社長の10組で、敗者復活戦を勝ち上がったスパイシーガーリックが加わり、合計11組で争いました。MCは浜田雅功さん、審査員は例年より2名多い7名でした。"
           }
         },
         {
