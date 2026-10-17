@@ -84,5 +84,5 @@ python tools/qa_draft.py draft_owarainohi.txt --fix
 
 ## 決定事項・今後の作業（2026-10-16時点）
 
-- **ナビへの登録は聞いてからにする**：`tools/qa_draft.py` の `NAV_FIXED_URLS`・`NAV_SELF_URL_BY_FILENAME`・`CANONICAL_URL_BY_FILENAME` と `rewrite_common_rules.md` 8章のURL表には、まだ登録していない。公開後に、オーナーへ「ナビ表＋検品ツール＋他draftのナビを一度にそろえるか」を聞く
+- **ナビへの登録は聞いてからにする**：`tools/qa_draft.py` の `NAV_FIXED_URLS`・`NAV_SELF_URL_BY_FILENAME`・`CANONICAL_URL_BY_FILENAME` と `rewrite_common_rules.md` 8章のURL表には、まだ登録していない。2026-10-18に公開後のオーナーへ聞き、「今はしない」と回答があった。聞き直すのは、来年の記事を作るときかオーナーから言われたとき
 - 放送後にやること：決勝の結果と実際の流れの反映、FAQの更新（過去一覧への2026年の追加は、この記事自体が2026年の回なので入れない。来年の記事を作るときに2026年を過去一覧へ入れる）、`dateModified` の同期
