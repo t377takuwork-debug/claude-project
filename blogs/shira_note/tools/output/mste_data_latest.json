@@ -1,0 +1,363 @@
+{
+  "title": "Mステ タイムテーブル【10月23日】40周年SP 順番や出演時間をリアルタイム更新",
+  "meta": "Mステ（10月23日）タイムテーブルを速報更新！40周年SPは20:00から、aiko・GLAY・INI・Travis Japanなど11組が出演。順番や登場時間の目安を随時追記。",
+  "lead": [
+    "10月23日のMステの出演者、タイムテーブル、出演順の目安をまとめています。",
+    "10月23日は「ミュージックステーション40周年SP」で20:00〜21:48に放送され、全11組が出演予定！"
+  ],
+  "aside": {
+    "live": "2026年10月23日(金) 20:00〜21:48",
+    "status": "出演アーティスト・歌唱曲 発表済み",
+    "artists": "INI / aiko / adieu / 生田斗真 / Aぇ! group / KEY TO LIT / GLAY / 郷ひろみ / 湘南乃風 / スガシカオ / Travis Japan",
+    "timetable": "公式の分刻みタイムテーブルは未公開です。20:00の放送開始にあわせて、出演順と時間帯をこの記事に書き足します。",
+    "comment": "ミュージックステーション40周年SPの節目回。GLAYは「誘惑」「汚れた英雄」の2曲を披露し、生田斗真は今年本格的に始めた音楽活動から「花であることを忘れたか」を歌います。",
+    "updated": "2026.10.18 放送前"
+  },
+  "closing1": "GLAYの2曲披露や生田斗真の登場など見どころも多そうですね。",
+  "tt_h2": "ミュージックステーション（Mステ）最新タイムテーブル【10/23】",
+  "tt_note": "※10/23の分刻みタイムテーブルは公開されていないため、予想として載せています。",
+  "tt_groups": [
+    {
+      "h3": "20時台のタイムテーブル（予想）",
+      "aria": "Mステ タイムテーブル（2026年10月23日）",
+      "header": "2026.10.23",
+      "footer": false,
+      "rows": [
+        {
+          "opening": "20:00"
+        },
+        {
+          "time": "20:05頃",
+          "name": "郷ひろみ",
+          "songs": [
+            "2億4千万の瞳 -エキゾチック・ジャパン-"
+          ]
+        },
+        {
+          "time": "20:14頃",
+          "name": "adieu",
+          "songs": [
+            "ささくれ"
+          ]
+        },
+        {
+          "time": "20:22頃",
+          "name": "スガシカオ",
+          "songs": [
+            "Progress"
+          ]
+        },
+        {
+          "time": "20:31頃",
+          "name": "生田斗真",
+          "songs": [
+            "花であることを忘れたか"
+          ]
+        },
+        {
+          "time": "20:40頃",
+          "name": "INI",
+          "songs": [
+            "You Know What To Do"
+          ]
+        },
+        {
+          "time": "20:50頃",
+          "name": "aiko",
+          "songs": [
+            "あなたの花の色"
+          ],
+          "border": false
+        }
+      ]
+    },
+    {
+      "h3": "21時台のタイムテーブル（予想）",
+      "aria": "Mステ タイムテーブル（2026年10月23日 21時台）",
+      "header": null,
+      "footer": true,
+      "rows": [
+        {
+          "time": "21:00頃",
+          "name": "KEY TO LIT",
+          "songs": [
+            "KEY TERUYA2 ～キテルヤツ～"
+          ]
+        },
+        {
+          "time": "21:09頃",
+          "name": "湘南乃風",
+          "songs": [
+            "サラバ"
+          ]
+        },
+        {
+          "time": "21:18頃",
+          "name": "Aぇ! group",
+          "songs": [
+            "Emotion"
+          ]
+        },
+        {
+          "time": "21:28頃",
+          "name": "Travis Japan",
+          "songs": [
+            "EGO"
+          ]
+        },
+        {
+          "time": "21:38頃",
+          "name": "GLAY",
+          "songs": [
+            "誘惑",
+            "汚れた英雄"
+          ],
+          "last": true
+        }
+      ]
+    }
+  ],
+  "lineup_h2": "Mステの出演者・歌唱曲一覧【10/23】",
+  "lineup_intro": "2026年10月23日（金）放送『ミュージックステーション40周年SP』の出演アーティストと披露曲の一覧です。",
+  "lineup_date_dot": "2026.10.23",
+  "lineup_cards": [
+    {
+      "name": "INI",
+      "text": "「You Know What To Do」を披露。"
+    },
+    {
+      "name": "aiko",
+      "text": "「あなたの花の色」を披露。"
+    },
+    {
+      "name": "adieu",
+      "text": "「ささくれ」を披露。"
+    },
+    {
+      "name": "生田斗真",
+      "text": "「花であることを忘れたか」を披露。今年本格的に音楽活動を始め、菅田将暉と石崎ひゅーいが作詞作曲した曲。"
+    },
+    {
+      "name": "Aぇ! group",
+      "text": "「Emotion」を披露。"
+    },
+    {
+      "name": "KEY TO LIT",
+      "text": "「KEY TERUYA2 ～キテルヤツ～」を披露。"
+    },
+    {
+      "name": "GLAY",
+      "text": "「誘惑」「汚れた英雄」の2曲を披露。「誘惑」は代表曲で、「汚れた英雄」は最新シングル。"
+    },
+    {
+      "name": "郷ひろみ",
+      "text": "「2億4千万の瞳 -エキゾチック・ジャパン-」を披露。"
+    },
+    {
+      "name": "湘南乃風",
+      "text": "「サラバ」を披露。"
+    },
+    {
+      "name": "スガシカオ",
+      "text": "「Progress」を披露。"
+    },
+    {
+      "name": "Travis Japan",
+      "text": "「EGO」を披露。"
+    }
+  ],
+  "guide": {
+    "date_label": "10/23",
+    "blocks": [
+      [
+        "20:00〜",
+        "オープニング・序盤枠",
+        "過去5回のうち3回は、渡辺美里・福山雅治・T.M.Revolutionのようなキャリアの長い歌い手が序盤に登場しています。今回は郷ひろみが20:05頃、adieuとスガシカオが続く、というのが筆者の読みです。"
+      ],
+      [
+        "20:30頃〜",
+        "中盤枠",
+        "生田斗真・INI・aiko・KEY TO LITが続く時間帯になりそうです。生田斗真は今年本格的に始めた音楽活動から「花であることを忘れたか」を披露します。"
+      ],
+      [
+        "21:20頃〜",
+        "終盤・大トリ枠",
+        "過去5回のトリは、櫻坂46・ATEEZ・TOMORROW X TOGETHERといったグループが3回でした。残りの2回はあいみょんと、福山雅治×ポルノグラフィティです。今回はAぇ! groupとTravis Japanに続いて、2曲を披露するGLAYが最後に来るかもしれません。"
+      ]
+    ],
+    "footer": "※過去5回の放送をもとにした筆者の目安です。"
+  },
+  "tendency": {
+    "aria": "Mステ 40周年SPのタイムテーブルの傾向と注目点",
+    "cards": [
+      [
+        "🕒 40周年SPの構成",
+        "10月23日は20:00〜21:48の約2時間で、40周年SPとして放送されます。"
+      ],
+      [
+        "🌟 トリの予測",
+        "過去5回のトリはグループが3回でした。今回は2曲を披露するGLAYが最後に来るかもしれません。"
+      ],
+      [
+        "🔍 企画コーナーのタイミング",
+        "過去にはVTR企画が放送開始の約30分後に入った回がありました。40周年SPの企画やVTRは、まだ発表されていません。"
+      ],
+      [
+        "📱 公式SNSの連動",
+        "公式X（旧Twitter）では放送直前や生放送中に「次は〇〇が登場！」といったリアルタイム告知が行われます。この記事でもその情報を反映します。"
+      ]
+    ],
+    "badge": "10月23日 20:00〜 随時更新予定"
+  },
+  "archive": {
+    "intro": "2026年10月16日に放送された『ミュージックステーション』の披露された順番をレポートとしてまとめています。",
+    "date_dot": "2026.10.16",
+    "main_cast": "MC：タモリ、谷胡桃 ／ 出演：AI、あいみょん、EBiDAN、櫻坂46、sumika、なにわ男子、RADWIMPS",
+    "entries": [
+      {
+        "label": "21:00頃 / OPENING ★投稿のピーク",
+        "title": "EBiDAN「Yes! 東京」",
+        "desc": "番組初出演。階段降りの演出と各グループの紹介で15周年を祝い、超特急・ユーキの言葉に感動の投稿が集まった。Lienelの芳賀柊斗は体調不良で欠席し、近藤駿太が代打で出演した。",
+        "kind": "peak"
+      },
+      {
+        "label": "21:08頃 / LIVE",
+        "title": "あいみょん「さながらロンリー」",
+        "desc": "フード付きの衣装に好意的な声が集まった。"
+      },
+      {
+        "label": "21:13頃 / LIVE",
+        "title": "RADWIMPS「夕星-ゆうづつ-」",
+        "desc": "映画『汝、星のごとく』の主題歌をテレビ初披露。タモリとのやり取りも話題になった。"
+      },
+      {
+        "label": "21:23頃 / LIVE",
+        "title": "AI「まだ旅の途中」",
+        "desc": "言及は少なめだった。"
+      },
+      {
+        "label": "21:30頃 / LIVE",
+        "title": "なにわ男子「Moonlit」",
+        "desc": "キラキラした世界観のセットに「まぶしい」といった声が集まった。"
+      },
+      {
+        "label": "21:39頃 / LIVE",
+        "title": "sumika「エンバートーチ」",
+        "desc": "「ノリノリ」というパフォーマンスへの声が相次いだ。"
+      },
+      {
+        "label": "21:44頃 / ★投稿のピーク",
+        "title": "櫻坂46「愛MUST BE」",
+        "desc": "谷口愛季がセンター。ドレス衣装とバレエ調のダンス、長机を囲む特別セットでMVの世界観を再現した。",
+        "kind": "peak"
+      },
+      {
+        "label": "21:54頃 / ENDING",
+        "title": "谷胡桃アナがサブMCとして初登場",
+        "desc": "緊張気味の進行に「頑張って」と励ます投稿が続いた。"
+      }
+    ],
+    "report": "EBiDANの番組初出演と、超特急・ユーキの言葉に反応が集中しました。後半は櫻坂46がMVの世界観を再現した特別セットで話題を集め、谷胡桃アナのサブMC初登場にも励ましの声が続きました。",
+    "updated": "2026.10.18"
+  },
+  "youtube": "rB2MRLj18a8",
+  "past_card": "<h3>2026年9月18日のタイムテーブル</h3>\n\n<div style=\"background:#fff;border:1px solid #e2e8f0;border-radius:4px;overflow:hidden;margin:16px 0;box-shadow:0 6px 15px rgba(0,40,80,0.05);\">\n<div style=\"height:4px;background:linear-gradient(90deg,#ff0084,#ffdc00,#00d4ff,#0099ff);\"></div>\n<div style=\"padding:12px 16px;background:#fcfdfe;border-bottom:1px solid #edf2f7;\">\n<div style=\"font-size:11px;font-weight:900;color:#003366;\">PAST DATA ARCHIVE</div>\n<div style=\"font-size:14px;font-weight:900;color:#1a202c;\">2026年9月18日 放送回（MC: タモリ / 鈴木新彩）</div>\n</div>\n<div style=\"padding:14px 16px;font-size:clamp(12px, calc(12px + (100vw - 480px) / 240), 15px);font-weight:700;line-height:1.8;\">\n21:00頃〜<br>\n渡辺美里「My Revolution」（約28年ぶり出演・オープニング）<br><br>\n21:09頃〜<br>\nM!LK「時空超えてユニバース」（TV初披露）★投稿のピーク／21:27頃〜 上白石萌音「Trophy」<br><br>\n21:35頃〜<br>\n中島健人「鬼事」★投稿のピーク<br><br>\n21:45頃〜終盤<br>\nTHE SPELLBOUND×BOOM BOOM SATELLITES「KICK IT OUT」（初出演）／21:50頃〜 あいみょん「マリーゴールド」→「今日は晴れ、肌寒い。私は家、ギターを弾く。」\n</div>\n<div style=\"padding:10px 14px;background:#f7fafc;border-top:1px solid #edf2f7;font-size:clamp(11px, calc(11px + (100vw - 480px) / 240), 14px);font-weight:700;\">\n💡 M!LKのTV初披露と中島健人「鬼事」の赤鬼パフォーマンスに反応が集中した回。THE SPELLBOUND×BOOM BOOM SATELLITESの完全生演奏や、鈴木新彩アナのサブMC卒業にも声が続いた。\n</div>\n</div>\n",
+  "drop_oldest": true,
+  "faq": [
+    [
+      "10月23日の詳細なタイムテーブルは事前にわかりますか？",
+      "公式の分刻みタイムテーブルはまだ出ていません。40周年SP全11組の出演順と登場時間の目安は、20:00〜21:48の放送に合わせてこの記事でリアルタイムに更新します。"
+    ],
+    [
+      "GLAYの出番は何時頃ですか？",
+      "21:38頃の大トリを予想します。過去5回のトリはグループが3回だった、というのが根拠で、あくまで筆者の読みです。実際の出演順は放送開始後にこの記事で更新します。"
+    ],
+    [
+      "INIの出番は何時頃ですか？",
+      "20:40頃の中盤を予想します。11組の出演で1組あたり9分前後と見込んだ筆者の読みで、あくまで予想です。実際の出演順は放送開始後にこの記事で更新します。"
+    ],
+    [
+      "録画を忘れました。見逃し配信はありますか？",
+      "Mステは音楽権利の都合上、TVerやABEMAなどの見逃し配信が一切ありません。放送内容は本ページの出演順・歌唱曲まとめで確認できます。"
+    ],
+    [
+      "Mステとは何の略ですか？",
+      "Mステは『ミュージックステーション』の略称です。テレビ朝日系列で毎週金曜よる8時から生放送されている音楽番組で、1986年の放送開始から続く長寿番組として知られています。"
+    ]
+  ],
+  "summary": [
+    "2026年10月23日（金）放送の『ミュージックステーション40周年SP』は、テレビ朝日系で20:00〜21:48の放送です。",
+    "出演アーティストはINI・aiko・adieu・生田斗真・Aぇ! group・KEY TO LIT・GLAY・郷ひろみ・湘南乃風・スガシカオ・Travis Japanの全11組。",
+    "GLAYは「誘惑」と「汚れた英雄」の2曲を披露します。",
+    "生田斗真は今年本格的に始めた音楽活動から「花であることを忘れたか」を歌います。"
+  ],
+  "jsonld": {
+    "image_url": "https://shira-treat.com/wp-content/uploads/2026/10/image-6.webp",
+    "image_width": 1198,
+    "image_height": 645,
+    "date_modified": "2026-10-18",
+    "broadcast_date": "2026-10-23",
+    "start_time": "20:00",
+    "end_time": "21:48",
+    "special_edition": "ミュージックステーション40周年SP",
+    "artists": [
+      {
+        "name": "INI",
+        "type": "MusicGroup"
+      },
+      {
+        "name": "aiko",
+        "type": "Person"
+      },
+      {
+        "name": "adieu",
+        "type": "Person"
+      },
+      {
+        "name": "生田斗真",
+        "type": "Person"
+      },
+      {
+        "name": "Aぇ! group",
+        "type": "MusicGroup"
+      },
+      {
+        "name": "KEY TO LIT",
+        "type": "MusicGroup"
+      },
+      {
+        "name": "GLAY",
+        "type": "MusicGroup"
+      },
+      {
+        "name": "郷ひろみ",
+        "type": "Person"
+      },
+      {
+        "name": "湘南乃風",
+        "type": "MusicGroup"
+      },
+      {
+        "name": "スガシカオ",
+        "type": "Person"
+      },
+      {
+        "name": "Travis Japan",
+        "type": "MusicGroup"
+      }
+    ],
+    "lineup_order": [
+      "郷ひろみ",
+      "adieu",
+      "スガシカオ",
+      "生田斗真",
+      "INI",
+      "aiko",
+      "KEY TO LIT",
+      "湘南乃風",
+      "Aぇ! group",
+      "Travis Japan",
+      "GLAY"
+    ]
+  }
+}

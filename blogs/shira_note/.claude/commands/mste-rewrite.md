@@ -93,15 +93,50 @@ Mステ（ミュージックステーション）のタイムテーブル記事�
 | 原則 | 内容 |
 |---|---|
 | **WriteしないでEditする** | 変更箇所のみEditで差分更新。Write（全体上書き）は使用しない |
-| **初回の読み込み** | **全面リライト**（資料①で出演者が総入れ替えになる通常運用）は、着手時に `draft_mste.txt` を**通しでRead**する（`draft_mste.txt` は約1,100行＝トークン上限で1コールに収まらないため、`offset` を変えた**2コール**で全体を読む。例：1-700 / 701-末尾）。Grepマーカー→部分Readの往復はしない。全体が文脈にあるほうがEditの `old_string` を転記でき、閉じタグずれ等のEdit失敗が減る。**部分更新のみの回**（プレースホルダー化・アーカイブパネルのみ差し替え等）は下の「セクション特定用Grepマーカー」で必要箇所だけRead。ユーザー手動編集の検証は従来どおり `git diff` 優先（全文Readしない） |
+| **初回の読み込み** | **全面リライトは、ドラフトの全文を読まない**（2026-10-23〜。下の「標準手順」）。前回のデータ `tools/output/mste_data_latest.json` だけを読み、今回のデータを書いて `tools/mste_rewrite.py` で一括書き換えする。**出演者未発表のプレースホルダー化・次回放送日未定・構造そのものを変える回**など、データで表せない回だけ、下の「セクション特定用Grepマーカー」で必要箇所を読む（その場合も全文は読まない）。ユーザー手動編集の検証は従来どおり `git diff` 優先 |
 | **静的セクションはスキップ** | 見逃し配信・ナビゲーション/アフィリエイトブロックはRead・Edit不要（ドラフトの既存ブロックをそのまま維持する。`template_mste_static.txt` はバックアップ参照用） |
 | **ショートコードは独立ブロック** | `[nopc][title]`・`[nopc][mokujimae]`・`[nopc][originalsc]` はそれぞれ独立した `<!-- wp:paragraph -->` ブロックに分割する |
 | **ユーザー修正後の確認** | system-reminderの差分 → 無ければ`git diff drafts/draft_mste.txt`（PowerShell）を優先参照し、JSON-LD FAQ整合性など必要箇所のみRead・確認する（全文Readは最終手段。詳細は`rewrite_common_rules.md` 9章） |
 | **大きなHTMLブロックのEdit** | ARTIST LINEUPカード群・アーカイブパネルなど数十行にわたる `old_string` は、直前のRead結果からそのまま使う（記憶や手打ちでの再現はタイポで一致失敗しやすい）。Editが失敗したら該当箇所を再Readしてから再試行する |
 
-### セクション特定用Grepマーカー（**部分更新のみの回**で使用。全面リライトは上の「初回の読み込み」で全文Read）
+### 標準手順：データ（JSON）から一括で書き換える（2026-10-23〜）
+
+目的：約1,500行のHTMLを毎回読まずに、記事の質を変えずに書き換える。部品のHTMLは `tools/mste_parts.py`、書き換え位置の探し出しと書き込みは `tools/mste_rewrite.py`。どちらも「公開済みの記事と1文字も違わない」ことを `tools/test_mste_parts.py`・`tools/test_mste_rewrite.py` で確かめてある。
+
+1. 資料①②がユーザー承認されたら（手順0）、**`tools/output/mste_data_latest.json`（前回公開した内容のデータ）だけを読む**。ドラフトのHTMLは読まない。前回データの `archive`（実際の出演順）が、手順10で過去一覧へ移す「前々回」のデータになる。
+2. 今回のデータを `tools/output/mste_data_next.json` に書く（前回データを写して書き換える）。キーを省くと、その部分は書き換えない。文面のルールは手順2〜12と `rewrite_common_rules.md` のまま。
+
+   | キー | 中身 |
+   |---|---|
+   | `title`・`meta` | タイトルとメタ（メタの字数表記は自動で入る） |
+   | `lead` | 冒頭2段落（`<p>`の中身だけ） |
+   | `aside` | `live`（放送日時）・`status`・`artists`・`timetable`・`comment`（💡）・`updated` |
+   | `closing1` | 締め文の1段落目 |
+   | `tt_h2`・`tt_note`・`tt_groups` | 最新タイムテーブル。`tt_groups` は1つ以上のカードで、`rows` は `{opening}` か `{time,name,songs,badge,last,border}`。`h3` があれば時間帯の見出しを作る |
+   | `lineup_h2`・`lineup_intro`・`lineup_date_dot`・`lineup_cards` | 出演者・歌唱曲一覧。カードは `{name,text,badge}` |
+   | `guide` | 出演時間の目安。`date_label`・`blocks`（3つ）・`footer` |
+   | `tendency` | 順番の傾向。`aria`・`cards`（4枚）・`badge` |
+   | `archive` | 実際の出演順。`intro`・`date_dot`・`main_cast`・`entries`（`label,title,desc,kind`。`kind` は `open`／`peak`／省略。最後の1件は自動）・`report`・`updated` |
+   | `youtube` | YouTubeの動画ID |
+   | `past_card`・`drop_oldest` | 過去一覧の先頭に足すカード（`mste_past_card()` で作る。前回データの `archive` を手順10の形に要約する）。`drop_oldest` が true なら一番古い回を自動で消す |
+   | `faq` | 5問 `[質問, 回答]` |
+   | `summary` | まとめの段落（文字列のリスト） |
+   | `jsonld` | `build_mste_jsonld.py` への入力（画像・日付・放送枠・特別編成名・出演者・出演順予想）。タイトル・メタ・FAQは上の値から自動で入る |
+
+3. `python tools/mste_rewrite.py tools/output/mste_data_next.json` を実行する。目印が見つからない・複数ある場合は1文字も書かずに止まる。成功すると、前回データ（`mste_data_latest.json`）が自動で今回の内容になる。
+4. `python tools/qa_draft.py draft_mste.txt` で「ERROR 0件・新規WARN 0件」を確認する。
+5. **放送が2時間以上の特番**は、`tt_groups` を時間帯ごと（「20時台」「21時台」など）の2つ以上に分け、それぞれに `h3` を付ける（先頭のカードに `header: "YYYY.MM.DD"`、最後のカードに `footer: true`）。1時間の通常回は `h3` なしの1つだけ（`header` と `footer` を両方付ける）。実例は `tools/mste_data_example_1023.json`。
+6. 特別回名は、下の「特別編成がある場合」の7箇所に入れる（`title`・`meta`・`lead`・`aside.comment`・`faq`・`jsonld.special_edition`・`lineup_intro`／`summary`）。
+7. データで表せない回（上記）は、従来の手順（下のGrepマーカー）で必要箇所だけ読んで書き換える。
+8. 公開後にオーナーがドラフトを手直ししたら、`git diff` で確認して `mste_data_latest.json` にも反映する（片方だけ直すと、次回に古い文面が戻る）。
+9. 道具・部品・データの形を直したら、`python tools/test_mste_parts.py` と `python tools/test_mste_rewrite.py` を実行する。デザインを意図して変えたときは、`WANT_REV` などの照合先も新しい公開版に付け替える。
+10. Pythonの実行は `C:\Users\PC_User\AppData\Local\Python\bin\python.exe` を使う（`python` だけだとStoreの仮の入口に当たり、何も出ずに終わる）。
+
+### セクション特定用Grepマーカー（**標準手順を使えない回**で使用。全文は読まず、必要箇所だけ読む）
 
 複数セクションの行番号は1回の `Grep`（alternation）でまとめて取得する。7回に分けて呼ばない。
+
+`python tools/mste_parts.py --outline` を使うと、見出し・aside・アーカイブパネル・過去一覧・FAQ・JSON-LDの行番号と、タイムテーブルの時間帯の行の範囲をまとめて一覧できる（Grepより往復が少ない）。
 
 ```
 Grep パターン: タイトル：Mステ|aria-label=|ARTIST LINEUP|SETLIST|ARCHIVE|過去のタイムテーブル一覧|よくある質問|MANUAL_JSONLD
@@ -126,8 +161,8 @@ Grep パターン: タイトル：Mステ|aria-label=|ARTIST LINEUP|SETLIST|ARCH
 
 資料が渡されず手順0でリサーチした場合は、**ユーザー承認済みの `tools/output/mste_material.md`** を資料①②として使う（承認前に手順1へ進まない）。
 
-**全面リライトの場合**：着手時に `draft_mste.txt` を通しでRead（「作業方針」の「初回の読み込み」＝offsetを変えた2コール）。下記①③のデータはこのReadに含まれるので、個別のGrep→Readは不要。②（YouTube）だけは別途WebFetchする。大きな挿入・削除の後は下流のセクションで行番号が大きくずれるため、記憶した行番号を信じず必要箇所を再ReadしてからEditする。
-**部分更新のみの場合**：①③を下記のGrep→Readで個別取得する。②も実施する。
+**標準手順（データから一括）を使う回**：この手順1の読み込みは不要。前回データ `tools/output/mste_data_latest.json` を読むだけでよい（①③の中身がそこにある）。②（YouTube）だけ別途取得する。
+**標準手順を使えない回（プレースホルダー化・次回未定など）**：①③を下記のGrep→Readで必要箇所だけ取得する（全文は読まない）。②も実施する。
 
 **① 直前回ドラフトの「過去のタイムテーブル一覧」（部分更新時のみ Grep → Read）**
 ```
@@ -143,7 +178,7 @@ Grep パターン: "SETLIST" または "ARCHIVE"
 ```
 取得目的：このアーカイブパネルの中身は**今回の資料②ではなく、今回の資料②で上書きされる「前々回」のデータ**。手順10で過去一覧のdetails先頭に追加するのはこの③のデータであり、資料②（今回アーカイブパネルに新しく入れるデータ）ではない。**③と資料②を取り違えないこと**（2026-07-18 Mステ7/24回でユーザー指摘により明文化。過去一覧に資料②の日付を入れてしまい、アーカイブパネルと内容が重複する誤りが発生した）。
 
-**② YouTube 最新動画URL を取得**（全面/部分どちらでも実施）── 手順は **手順9「YouTube最新動画URL取得手順」** に一本化。RSSフィードを WebFetch → 先頭エントリの `yt:videoId` を使う。
+**② YouTube 最新動画URL を取得**（どの回でも実施）── 手順は **手順9「YouTube最新動画URL取得手順」** に一本化。RSSフィードを WebFetch → 先頭エントリの `yt:videoId` を使う。資料①の記事本文を取得する依頼と**同じ取得の依頼にまとめて頼む**（2つは独立しているので、別々に頼むと取得役の起動が1回余分にかかる）。
 
 ---
 
