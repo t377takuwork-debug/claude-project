@@ -2,6 +2,8 @@
 
 Mステ（ミュージックステーション）のタイムテーブル記事を最新情報にリライトし、`draft_mste.txt` として上書き保存する。
 
+> **最初の一手（2026-10-23〜）**：ドラフト（`draft_mste.txt`）は読まない。前回のデータ `tools/output/mste_data_latest.json` を読み、今回のデータを書いて `tools/mste_rewrite.py` で一括書き換えする。手順は「作業方針」の下の「標準手順」と、資料が無い回の手順0（`mste-research.md`）。Pythonは `C:\Users\PC_User\AppData\Local\Python\bin\python.exe` を使う。
+
 ## 事前情報の確認
 
 ### 必須情報（資料①）

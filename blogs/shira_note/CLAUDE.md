@@ -16,7 +16,7 @@
 
 | コマンド | 対象番組・記事 | 手順ファイル |
 |---|---|---|
-| `/mste-rewrite` | ミュージックステーション | `.claude/commands/mste-rewrite.md` |
+| `/mste-rewrite` | ミュージックステーション（**ドラフト全文は読まず、前回データ `tools/output/mste_data_latest.json` を読んでデータJSONから一括書き換えする標準手順**。詳細は手順書の「標準手順」） | `.claude/commands/mste-rewrite.md` |
 | `/mste-research` | Mステ リライト用の資料①②リサーチ（資料が渡されなかった回のみ／`/mste-rewrite` から呼ばれる） | `.claude/commands/mste-research.md` |
 | `/mste-archive-rewrite` | ミュージックステーション（月次アーカイブ記事） | `.claude/commands/mste-archive-rewrite.md` |
 | `/cdtv-rewrite` | CDTVライブ！ライブ！（タイムテーブル速報） | `.claude/commands/cdtv-rewrite.md` |
