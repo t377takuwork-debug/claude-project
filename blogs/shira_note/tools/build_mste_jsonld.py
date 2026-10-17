@@ -269,8 +269,8 @@ def main():
 
 
 SAMPLE = {
-    "title": "Mステ タイムテーブル【M月DD日】出演順・出演時間をリアルタイム更新",
-    "meta_description": "Mステ（M月DD日）タイムテーブルを速報更新！{注目1}・{注目2}。出演順・登場時間の目安を随時追記。",
+    "title": "Mステ タイムテーブル【M月DD日】順番や出演時間をリアルタイム更新",
+    "meta_description": "Mステ（M月DD日）タイムテーブルを速報更新！{注目1}・{注目2}。順番や登場時間の目安を随時追記。",
     "image_url": "https://shira-treat.com/wp-content/uploads/2026/08/image-9.webp",
     "image_width": 1200,
     "image_height": 675,
