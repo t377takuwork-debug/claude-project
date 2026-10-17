@@ -1164,11 +1164,11 @@ T.M.Revolution「HOT LIMIT」（オープニング・マッチョダンサー演
       "image": {
         "@type": "ImageObject",
         "@id": "https://shira-treat.com/music-station-timetable/#primaryimage",
-        "url": "https://shira-treat.com/wp-content/uploads/2026/09/image-23.webp",
-        "width": 1201,
-        "height": 662
+        "url": "https://shira-treat.com/wp-content/uploads/2026/10/image-6.webp",
+        "width": 1198,
+        "height": 645
       },
-      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/09/image-23.webp",
+      "thumbnailUrl": "https://shira-treat.com/wp-content/uploads/2026/10/image-6.webp",
       "datePublished": "2025-11-17T18:00:00+09:00",
       "dateModified": "2026-10-18T12:00:00+09:00",
       "author": {
@@ -1268,7 +1268,7 @@ T.M.Revolution「HOT LIMIT」（オープニング・マッチョダンサー演
       "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
       "isLiveBroadcast": true,
       "description": "2026年10月23日放送のミュージックステーション。INI、aiko、adieu、生田斗真、Aぇ! group、KEY TO LIT、GLAY、郷ひろみ、湘南乃風、スガシカオ、Travis Japanが出演する回。",
-      "image": "https://shira-treat.com/wp-content/uploads/2026/09/image-23.webp",
+      "image": "https://shira-treat.com/wp-content/uploads/2026/10/image-6.webp",
       "location": {
         "@type": "Place",
         "name": "テレビ朝日",
