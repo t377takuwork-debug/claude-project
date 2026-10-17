@@ -1,4 +1,4 @@
-"""mste_rewrite.py（データから記事を一括で書き換える道具）が、公開した記事を再現できることを確認する
+﻿"""mste_rewrite.py（データから記事を一括で書き換える道具）が、公開した記事を再現できることを確認する
 
 実行: python tools/test_mste_rewrite.py
 やること: 10/16回の公開版（263e7ab6）に、10/23回のデータ（tools/mste_data_example_1023.json）を当てて書き換え、
@@ -18,7 +18,7 @@ import mste_rewrite  # noqa
 
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 BASE_REV = '263e7ab6'
-WANT_REV = 'b07d6f68'
+WANT_REV = '9dcd4600'
 
 
 def show(rev):
@@ -50,3 +50,4 @@ if __name__ == '__main__':
     if hasattr(sys.stdout, 'reconfigure'):
         sys.stdout.reconfigure(encoding='utf-8')
     sys.exit(main())
+
